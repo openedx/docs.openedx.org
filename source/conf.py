@@ -18,15 +18,17 @@ import datetime
 import os
 import sys
 import urllib
+import sphinx_bootstrap_theme
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'Open edX Documentation'
+project = 'Open edX'
 copyright = '2022, TCRIL'
-author = 'Mark Hoeber'
+#author = 'Mark Hoeber'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+#release = '1.0'
 import edx_theme
 
 
@@ -52,9 +54,12 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'edx_theme'
-html_theme_path = [edx_theme.get_html_theme_path()]
-html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
+#html_theme = 'edx_theme'
+#html_theme_path = [edx_theme.get_html_theme_path()]
+#html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
+
+html_theme = 'sphinx_book_theme'
+#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
