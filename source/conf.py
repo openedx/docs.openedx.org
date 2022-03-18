@@ -18,7 +18,6 @@ import datetime
 import os
 import sys
 import urllib
-import sphinx_bootstrap_theme
 
 
 # -- Project information -----------------------------------------------------
@@ -59,7 +58,6 @@ exclude_patterns = []
 #html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
 html_theme = 'sphinx_book_theme'
-#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
