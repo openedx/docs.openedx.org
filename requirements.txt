@@ -46,6 +46,9 @@ sphinx==4.4.0
     # via
     #   -r requirements/base.in
     #   edx-sphinx-theme
+
+sphinx-book-theme==0.2.0
+
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
