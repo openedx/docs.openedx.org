@@ -1,8 +1,4 @@
-
-
-
-
-Course Developers: Quick Start
+Designers: Quick Start
 ======================================
 
 .. contents:: Main Tasks
@@ -10,13 +6,12 @@ Course Developers: Quick Start
  :depth: 1
 
 
-
 Open Studio
 *************
 
 
-Create a Course
-*****************
+
+.. include:: how_tos/reusable_tasks/create_course.txt
 
 
 

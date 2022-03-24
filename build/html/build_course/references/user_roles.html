@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Course Developers: Set Up a Course &#8212; Open edX  documentation</title>
+    <title>User Roles &#8212; Open edX  documentation</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -34,8 +34,6 @@
     <script src="../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Course Developers: Create Content" href="create_content.html" />
-    <link rel="prev" title="Course Developers: How-tos" href="../how_tos.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -133,7 +131,7 @@
   Faculty and Instructional Designers: Build an Open edX Course
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../faculty_quick_start.html">
    Faculty Quick Start
@@ -144,33 +142,33 @@
    Designers Quick Start
   </a>
  </li>
- <li class="toctree-l1 current active has-children">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../how_tos.html">
    How-tos
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../how_tos/setup_a_course.html">
      Set up a Course
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="create_content.html">
+    <a class="reference internal" href="../how_tos/create_content.html">
      Create Content
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="setup_grading.html">
+    <a class="reference internal" href="../how_tos/setup_grading.html">
      Set up Grading
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="release_content.html">
+    <a class="reference internal" href="../how_tos/release_content.html">
      Release Content
     </a>
    </li>
@@ -310,7 +308,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/build_course/how-tos/setup_a_course.rst.txt"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/build_course/references/user_roles.rst.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.rst</button></a>
         <!-- Download PDF via print -->
@@ -341,33 +339,8 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#create-a-course">
-   Create a Course
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#add-course-staff">
-   Add Course Staff
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#schedule-a-course">
-   Schedule a Course
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#require-prerequisites">
-   Require Prerequisites
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#set-up-grading-criteria">
-   Set up Grading Criteria
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#set-up-certificates">
-   Set up Certificates
+  <a class="reference internal nav-link" href="#reference-roles-in-a-course">
+   Reference: Roles in a Course
   </a>
  </li>
 </ul>
@@ -380,7 +353,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Course Developers: Set Up a Course</h1>
+                <h1>User Roles</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -391,33 +364,8 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#create-a-course">
-   Create a Course
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#add-course-staff">
-   Add Course Staff
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#schedule-a-course">
-   Schedule a Course
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#require-prerequisites">
-   Require Prerequisites
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#set-up-grading-criteria">
-   Set up Grading Criteria
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#set-up-certificates">
-   Set up Certificates
+  <a class="reference internal nav-link" href="#reference-roles-in-a-course">
+   Reference: Roles in a Course
   </a>
  </li>
 </ul>
@@ -429,40 +377,10 @@
             
               <div>
                 
-  <div class="section" id="course-developers-set-up-a-course">
-<h1>Course Developers: Set Up a Course<a class="headerlink" href="#course-developers-set-up-a-course" title="Permalink to this headline">¶</a></h1>
-<div class="contents local topic" id="set-up-a-course">
-<p class="topic-title">Set Up a Course</p>
-<ul class="simple">
-<li><p><a class="reference internal" href="#create-a-course" id="id4">Create a Course</a></p></li>
-<li><p><a class="reference internal" href="#add-course-staff" id="id5">Add Course Staff</a></p></li>
-<li><p><a class="reference internal" href="#schedule-a-course" id="id6">Schedule a Course</a></p></li>
-<li><p><a class="reference internal" href="#require-prerequisites" id="id7">Require Prerequisites</a></p></li>
-<li><p><a class="reference internal" href="#set-up-grading-criteria" id="id8">Set up Grading Criteria</a></p></li>
-<li><p><a class="reference internal" href="#set-up-certificates" id="id9">Set up Certificates</a></p></li>
-</ul>
-</div>
-<div class="section" id="create-a-course">
-<h2><a class="toc-backref" href="#id4">Create a Course</a><a class="headerlink" href="#create-a-course" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="#top">back to top</a></p>
-</div>
-<div class="section" id="add-course-staff">
-<h2><a class="toc-backref" href="#id5">Add Course Staff</a><a class="headerlink" href="#add-course-staff" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="#top">back to top</a></p>
-</div>
-<div class="section" id="schedule-a-course">
-<h2><a class="toc-backref" href="#id6">Schedule a Course</a><a class="headerlink" href="#schedule-a-course" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="#top">back to top</a></p>
-</div>
-<div class="section" id="require-prerequisites">
-<h2><a class="toc-backref" href="#id7">Require Prerequisites</a><a class="headerlink" href="#require-prerequisites" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="#top">back to top</a></p>
-</div>
-<div class="section" id="set-up-grading-criteria">
-<h2><a class="toc-backref" href="#id8">Set up Grading Criteria</a><a class="headerlink" href="#set-up-grading-criteria" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="set-up-certificates">
-<h2><a class="toc-backref" href="#id9">Set up Certificates</a><a class="headerlink" href="#set-up-certificates" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="user-roles">
+<h1>User Roles<a class="headerlink" href="#user-roles" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="reference-roles-in-a-course">
+<h2>Reference: Roles in a Course<a class="headerlink" href="#reference-roles-in-a-course" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -471,21 +389,7 @@
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../how_tos.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Course Developers: How-tos</p>
-        </div>
-    </a>
-    <a class='right-next' id="next-link" href="create_content.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Course Developers: Create Content</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
+<div class='prev-next-area'>
 </div>
             
         </div>
