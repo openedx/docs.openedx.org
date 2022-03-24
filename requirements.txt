@@ -49,6 +49,10 @@ sphinx==4.4.0
 
 sphinx-book-theme==0.2.0
 
+sphinxcontrib.yt==0.2.2
+
+sphinx.ext.autosectionlabel==1.4
+
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
