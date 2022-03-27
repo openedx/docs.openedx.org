@@ -1,2 +1,0 @@
-Maple Release Notes
-========================

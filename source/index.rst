@@ -5,50 +5,68 @@
 
 
 
-Welcome to Open edX Documentation
-==================================================
+Welcome to Open edX Maple Release Documentation
+================================================
 
 .. toctree::
    :maxdepth: 1
-   :caption: All Users: General Content
+   :caption: Get Started
 
-   general_content/get_started
-   general_content/change_log
+   educators/quick_starts/educators_quick_start
+   course_ops/course_ops_quick_start
+   set_up/set_up_quick_start
+   developers/developers_quick_start
 
-.. toctree::
-   :maxdepth: 1
-   :caption: All Users: Open edX Release Notes
-
-   release_notes/maple_release_notes
-
-.. toctree::
-   :maxdepth: 1
-   :caption: IT: Set Up and Run Open edX
-
-   Quick Start <set_up_open_edx/quick_start>
-   How-tos <set_up_open_edx/how_tos>
-   Concepts <set_up_open_edx/concepts>
-   References <set_up_open_edx/reference>
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Faculty and Instructional Designers: Build an Open edX Course
-
-   Faculty Quick Start <build_course/faculty_quick_start>
-   Designers Quick Start <build_course/designers_quick_start>
-   How-tos <build_course/how_tos>
-   Concepts <build_course/concepts>
-   References <build_course/reference>
 
 
 .. toctree::
    :maxdepth: 1
-   :caption: Course Operators: Run an Open edX Course
+   :caption: What's New
 
-   Quick Start <course_ops/quick_start>
-   How-tos <course_ops/how_tos>
-   Concepts <course_ops/concepts>
-   References <course_ops/reference>
+   whats_new/educators_whats_new
+   whats_new/course_ops_whats_new
+   whats_new/developers_whats_new
+   whats_new/community_whats_new
+   whats_new/change_log
+
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Educators: Build an Open edX Course
+
+   educators/quick_starts/set_up_a_course
+   educators/quick_starts/create_content
+   educators/quick_starts/release_content
+   educators/quick_starts/set_up_grading
+   More -> <educators/educators_home>
+   
+
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Course Operators: Run Open edX
+
+   course_ops/course_ops_quick_start
+   course_ops/how_tos
+   course_ops/concepts
+   course_ops/reference
+
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: System Operators: Set Up Open edX
+
+   set_up/set_up_quick_start
+   set_up/how_tos
+   set_up/concepts
+   set_up/reference
+
 
 
 
@@ -56,18 +74,15 @@ Welcome to Open edX Documentation
    :maxdepth: 1
    :caption: Software Developers: Enhance the Open edX Platform
 
-   develop/quick_start
-   develop/how_tos
-   develop/understand
-   develop/reference
+   developers/developers_quick_start
+   developers/xblocks
+   developers/other_programs
+   developers/how_tos
+   developers/concepts
+   developers/reference
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Software Developers: Beyond the Core
 
-   extensions/xblocks
-   extensions/other_programs
 
 
 .. toctree::
