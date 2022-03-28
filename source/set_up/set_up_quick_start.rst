@@ -1,2 +1,2 @@
-Course Operators: Quick Start
+DevOps: Quick Start
 =============================

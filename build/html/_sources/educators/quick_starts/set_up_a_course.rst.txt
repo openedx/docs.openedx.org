@@ -1,4 +1,4 @@
-Course Developers: Set Up a Course
+Quick Start: Set Up a Course
 ====================================
 
 

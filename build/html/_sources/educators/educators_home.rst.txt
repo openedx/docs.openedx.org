@@ -2,22 +2,28 @@ Open edX Educators
 ======================
 
 
+Quick Starts
+
+   * :doc:`quick_starts/educators_quick_start`
+   * :doc:`quick_starts/set_up_a_course`
+   * :doc:`quick_starts/create_content`
+   * :doc:`quick_starts/release_content`
+   * :doc:`quick_starts/set_up_grading`
+
+
 .. toctree::
    :maxdepth: 1
-   :caption: Quick Start
+   :caption: What's New
 
-   quick_starts/educators_quick_start
-   quick_starts/set_up_a_course
-   quick_starts/create_content
-   quick_starts/release_content
-   quick_starts/set_up_grading
+   ../whats_new/educators_whats_new
+   
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Common Tasks
 
-   All Tasks -> <how_tos>
+   All Tasks -> <tasks>
    
 
 .. toctree::
@@ -28,6 +34,6 @@ Open edX Educators
    
 .. toctree::
    :maxdepth: 1
-   :caption: Common Referemces
+   :caption: Common References
 
    All References -> <reference>

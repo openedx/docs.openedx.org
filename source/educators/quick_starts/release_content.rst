@@ -1,6 +1,6 @@
-.. top:
 
-Course Developers: Release Content
+
+Quick Start: Release Content
 ====================================
 
 
@@ -10,27 +10,19 @@ Course Developers: Release Content
 
 
 Set Release Dates
-*************************
 
-`back to top <#top>`_
 
 
 
 Set Content Visibility
-************************
+
 
 
 
 Publish Content
-*********************
-
-`back to top <#top>`_
-
 
 
 
 
 Update Released Content
-************************
 
-`back to top <#top>`_

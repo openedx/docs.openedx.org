@@ -11,11 +11,6 @@ Course Ops: Quick Start
 
 
 
-Start a Course Studio
-***********************
-
-
-
 
 Set up Cohorts
 ****************
