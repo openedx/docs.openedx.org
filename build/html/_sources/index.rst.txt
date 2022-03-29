@@ -12,7 +12,7 @@ Welcome to Open edX Maple Release Documentation
    :maxdepth: 1
    :caption: Get Started
 
-   educators/quick_starts/educators_quick_start
+   educators/quick_starts/build_a_course
    course_ops/course_ops_quick_start
    set_up/set_up_quick_start
    developers/developers_quick_start
@@ -36,10 +36,11 @@ Welcome to Open edX Maple Release Documentation
    :maxdepth: 1
    :caption: Educators: Build an Open edX Course
 
-   educators/quick_starts/set_up_a_course
-   educators/quick_starts/create_content
-   educators/quick_starts/release_content
-   educators/quick_starts/set_up_grading
+   educators/quick_starts/build_a_course
+   educators/how_tos
+   educators/concepts
+   educators/reference
+
    More -> <educators/educators_home>
    
 

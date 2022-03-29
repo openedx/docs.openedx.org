@@ -1,0 +1,3 @@
+Allow Anonymous Discussion Posts
+===========================================
+

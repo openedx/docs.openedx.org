@@ -1,4 +1,4 @@
-Course Operators: What's New
-=============================
+What's New for Course Operators
+================================
 
 

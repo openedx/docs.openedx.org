@@ -1,4 +1,4 @@
-Course Developer References
+Educators: References
 =============================
 
 .. toctree::

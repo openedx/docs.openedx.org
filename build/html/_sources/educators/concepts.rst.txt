@@ -1,2 +1,2 @@
-Course Developer Concepts
+Educators: Concepts
 ===========================

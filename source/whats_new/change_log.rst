@@ -1,2 +1,2 @@
-Change Log
-===============
+Documentation Change Log
+=========================

@@ -1,2 +1,2 @@
-Educators: What's New
-========================
+What's New for Educators
+=========================

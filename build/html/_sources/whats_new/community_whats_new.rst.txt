@@ -1,2 +1,2 @@
-Community: What's New
-========================
+What's New for the Community
+=============================
