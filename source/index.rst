@@ -41,7 +41,7 @@ Welcome to Open edX Maple Release Documentation
    educators/quick_starts/release_content
    educators/quick_starts/set_up_grading
    More -> <educators/educators_home>
-   
+
 
 
 
@@ -74,13 +74,9 @@ Welcome to Open edX Maple Release Documentation
    :maxdepth: 1
    :caption: Software Developers: Enhance the Open edX Platform
 
-   developers/developers_quick_start
-   developers/xblocks
-   developers/other_programs
-   developers/how_tos
-   developers/concepts
-   developers/reference
-
+   developers/quickstarts/setup_an_mfe_dev_environment
+   developers/quickstarts/setup_a_backend_dev_environment
+   More -> <developers/developers_home>
 
 
 
