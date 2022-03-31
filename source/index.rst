@@ -61,7 +61,7 @@ Welcome to Open edX Maple Release Documentation
 
 .. toctree::
    :maxdepth: 1
-   :caption: System Operators: Set Up Open edX
+   :caption: Site Operators: Set Up Open edX
 
    set_up/set_up_quick_start
    set_up/how_tos
