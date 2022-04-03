@@ -1,0 +1,30 @@
+
+
+#. Open Studio at the URL provided by your administrator.
+
+#. Click :guilabel:`New Course`. The following screen opens:
+
+   .. thumbnail:: ../../_images/Educators_create_course.png
+
+#. Enter information for the new course:
+
+   * **Course Name**: The public display name of the course. You can override the name later in the Advanced Settings.
+
+   * **Organization**: Your school or organization. This value becomes part of the course URL and cannot be changed. You can override how the organization is displayed to learners in Advanced Settings.
+
+   * **Course Number**: The unique number that identifies your course. Note: This value becomes part of the course URL and cannot be changed. No spaces or special characters are allowed.
+
+   * **Course Run**: The term or unique run of the course. This value part of your course URL, so no spaces or special characters are allowed and it cannot be changed.
+
+     .. Note:: The Organization, Course Number, and Course run values you enter are part of the learner-visible course URL and cannot be changed after you create the course. The base URL for the new course is in the format:
+
+       ``https://your-domain/courses/course:ORGANIZATION+COURSE_NUMBER+COURSE_RUN/``
+
+#. Click :guilabel:`Create`.
+
+You are then taken to the empty Outline page in Studio.
+
+\
+
+
+

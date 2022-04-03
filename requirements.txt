@@ -53,6 +53,8 @@ sphinxcontrib.yt==0.2.2
 
 sphinx-toolbox==2.18.0
 
+sphinxcontrib.images
+
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2

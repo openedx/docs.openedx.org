@@ -36,7 +36,8 @@ import edx_theme
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  'sphinx_toolbox.collapse']
+extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  
+  'sphinx_toolbox.collapse', 'sphinxcontrib.images']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -63,4 +64,10 @@ html_theme = 'sphinx_book_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_static_path = ['_static']
 
+images_config = {
+   'default_image_width': '50%'
+}
 
+rst_epilog = """
+.. include:: /substitutions.txt
+"""
