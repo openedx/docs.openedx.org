@@ -1,9 +1,6 @@
 
 
-#. With the course open in Studio, from the :guilabel:`Settings` menu, select :guilabel:`Schedule and Details`. The following screen opens:
-
-   .. thumbnail:: ../../_images/Educators_course_schedule.png
-    :width: 30%
+#. With the course open in Studio, from the :guilabel:`Settings` menu, select :guilabel:`Schedule and Details`.
 
 #. For course pacing, select :guilabel:`Instructor-Paced` or :guilabel:`Self-Paced`.
 
@@ -19,4 +16,7 @@
 
 #. At the bottom of the screen, click :guilabel:`Save Changes`.
 
+.. seealso::
 
+   :ref:`Course Pacing` (reference)
+   :ref:`Course Dates` (reference)

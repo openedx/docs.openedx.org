@@ -71,3 +71,15 @@ images_config = {
 rst_epilog = """
 .. include:: /substitutions.txt
 """
+html_sidebars = {
+    "reference/blog/*": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "postcard.html",
+        "recentposts.html",
+        "tagcloud.html",
+        "categories.html",
+        "archives.html",
+        "sbt-sidebar-nav.html",
+    ]
+}

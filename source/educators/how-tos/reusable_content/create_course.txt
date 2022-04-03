@@ -1,5 +1,9 @@
 
 
+
+
+
+
 #. Open Studio at the URL provided by your administrator.
 
 #. Click :guilabel:`New Course`. The following screen opens:

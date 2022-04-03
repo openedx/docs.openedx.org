@@ -4,5 +4,6 @@ Educators: References
 .. toctree::
    :maxdepth: 1
    :caption: References
+   :glob:
 
-   Set up a Course <references/user_roles.rst>
+   references/*
