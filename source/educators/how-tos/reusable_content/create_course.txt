@@ -1,14 +1,13 @@
+.. sidebar:: Create Course Screen
 
+  |Image Sidebar Click| 
 
-
-
+  .. thumbnail:: ../../_images/Educators_create_course.png
 
 
 #. Open Studio at the URL provided by your administrator.
 
-#. Click :guilabel:`New Course`. The following screen opens:
-
-   .. thumbnail:: ../../_images/Educators_create_course.png
+#. Click :guilabel:`New Course`.
 
 #. Enter information for the new course:
 
@@ -28,7 +27,6 @@
 
 You are then taken to the empty Outline page in Studio.
 
-\
 
 
 

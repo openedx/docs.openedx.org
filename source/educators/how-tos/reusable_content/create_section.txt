@@ -1,0 +1,34 @@
+.. sidebar:: Create a Section
+
+  |Image Sidebar Click| 
+
+        .. thumbnail:: ../../_images/Educators_course_outline_section.png
+
+
+#. Open the course outline in Studio.
+
+#. Click :guilabel:`New Section`. 
+
+   A new section is created at the end of the course content, with the section name selected.
+
+#. Enter the name for the new section. 
+
+#. Set the section release date.
+
+   #. Select the Configure icon in the section box.
+
+      The Settings dialog box opens.
+
+   #. Enter the release date and time for the section.
+
+You can then create Subsections within the section.
+
+.. seealso::
+
+ :ref:`Course Sections` (reference)
+
+  Subsections
+
+  Units
+
+

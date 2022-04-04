@@ -2,47 +2,63 @@ Open edX Educators
 ======================
 
 
+.. panels::
+
+   **Quick Starts**
+
+   * :doc:`quick_starts/build_a_course`
+
+    ---
+
+   **What's New**
+
+   * :doc:`../whats_new/educators_whats_new`
+
+    ---
+
+   **Common How-tos**
+
+   * :doc:`how-tos/add_youtube_video`
+   * :doc:`how-tos/set_grading_policy`
+   * :doc:`how-tos/create_course_discussion`
+
+   .. link-button:: how_tos
+    :type: ref
+    :text: All Educator How-tos
+    :classes: btn-outline-primary btn-block
+
+    ---
+
+   **Common Concepts**
+
+   * :doc:`concepts/crafting_objectives`
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Quick Starts
+   .. link-button:: concepts
+    :type: ref
+    :text: All Educator Concepts
+    :classes: btn-outline-primary btn-block
 
-   quick_starts/build_a_course
+   ---
 
+   **Common References**
 
-.. toctree::
-   :maxdepth: 1
-   :caption: What's New
+   * :doc:`references/simple_problem_types`
 
-   ../whats_new/educators_whats_new
-   
+   * :doc:`references/complex_problem_types`
 
+   .. link-button:: reference
+    :type: ref
+    :text: All Educator References
+    :classes: btn-outline-primary btn-block
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Common How-tos
+    ---
 
-   how-tos/add_youtube_video
-   how-tos/set_grading_policy
-   how-tos/create_course_discussion
-   All How-tos -> <how_tos>
-   
+   **Video Demos**
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Common Concepts
+   * TBP
 
-   concepts/integrating_backwards_design
-   concepts/aligning_assessments_to_objectives
-   concepts/crafting_objectives
-
-   All Concepts -> <concepts>
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Common References
-
-   references/simple_problem_types.rst
-   references/complex_problem_types.rst
-   All References -> <reference>
+   .. link-button:: how_tos
+    :type: ref
+    :text: All Educator References
+    :classes: btn-outline-primary btn-block

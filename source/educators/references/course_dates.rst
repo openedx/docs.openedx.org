@@ -1,8 +1,6 @@
 Course Dates
 =====================
 
-.. contents:: Contents
- :local:
 
 
 Start Date and Time

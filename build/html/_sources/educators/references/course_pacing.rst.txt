@@ -1,8 +1,7 @@
 Course Pacing
 =====================
 
-.. contents:: Contents
- :local:
+
 
 
 Setting Course Pacing
