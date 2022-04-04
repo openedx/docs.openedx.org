@@ -19,6 +19,7 @@ Educators: How-tos
    :caption: Develop Your Course Outline
 
    how-tos/open_course_outline
+   how-tos/create_section
    how-tos/add_course_structure
    how-tos/add_units
    how-tos/reorganize_outline

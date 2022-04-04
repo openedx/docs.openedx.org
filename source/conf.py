@@ -20,6 +20,7 @@ import sys
 import urllib
 
 
+
 # -- Project information -----------------------------------------------------
 
 project = 'Open edX'
@@ -37,7 +38,7 @@ import edx_theme
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  
-  'sphinx_toolbox.collapse', 'sphinxcontrib.images']
+  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -71,3 +72,17 @@ images_config = {
 rst_epilog = """
 .. include:: /substitutions.txt
 """
+html_sidebars = {
+    "reference/blog/*": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "postcard.html",
+        "recentposts.html",
+        "tagcloud.html",
+        "categories.html",
+        "archives.html",
+        "sbt-sidebar-nav.html",
+    ]
+}
+
+panels_add_bootstrap_css = False

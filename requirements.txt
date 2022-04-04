@@ -55,6 +55,8 @@ sphinx-toolbox==2.18.0
 
 sphinxcontrib.images
 
+sphinx-panels==0.6.0
+
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
