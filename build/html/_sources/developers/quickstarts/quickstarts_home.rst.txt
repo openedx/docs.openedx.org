@@ -1,7 +1,0 @@
-Developer Quickstarts
-=====================
-
-.. toctree::
-   :glob:
-
-   *

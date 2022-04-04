@@ -1,7 +1,0 @@
-Concepts Home
-=============
-
-.. toctree::
-   :glob:
-
-   *
