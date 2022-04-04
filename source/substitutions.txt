@@ -1,3 +1,7 @@
 .. |Platform| replace:: Open edX
 
 .. |Image Instructions| replace:: Click the images below to enlarge them and see details.
+
+.. |Image Sidebar Click| replace:: Click the image to see screen details.
+
+.. |Video Sidebar Click| replace:: Play the video below to see these steps performed.
