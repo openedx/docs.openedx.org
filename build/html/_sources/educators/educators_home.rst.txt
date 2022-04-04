@@ -32,6 +32,8 @@ Open edX Educators
    **Common Concepts**
 
    * :doc:`concepts/crafting_objectives`
+   * :doc:`concepts/integrating_backwards_design`
+   * :doc:`concepts/aligning_assessments_to_objectives`
 
 
    .. link-button:: concepts
@@ -43,6 +45,8 @@ Open edX Educators
 
    **Common References**
 
+   * :doc:`references/course_dates`
+   * :doc:`references/course_sections`
    * :doc:`references/simple_problem_types`
 
    * :doc:`references/complex_problem_types`
@@ -60,5 +64,5 @@ Open edX Educators
 
    .. link-button:: how_tos
     :type: ref
-    :text: All Educator References
+    :text: All Educator Videos
     :classes: btn-outline-primary btn-block

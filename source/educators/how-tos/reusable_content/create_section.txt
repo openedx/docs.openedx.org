@@ -2,7 +2,7 @@
 
   |Image Sidebar Click| 
 
-        .. thumbnail:: ../../_images/Educators_course_outline_section.png
+  .. thumbnail:: ../../_images/Educators_course_outline_section.png
 
 
 #. Open the course outline in Studio.
@@ -27,8 +27,8 @@ You can then create Subsections within the section.
 
  :ref:`Course Sections` (reference)
 
-  Subsections
+ Subsections
 
-  Units
+ Units
 
 
