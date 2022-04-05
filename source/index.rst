@@ -88,8 +88,7 @@ Welcome to Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Software Developers: Enhance the Open edX Platform
 
-      developers/quickstarts/setup_an_mfe_dev_environment
-      developers/quickstarts/setup_a_backend_dev_environment
+      developers/developers_home
 
 
 
