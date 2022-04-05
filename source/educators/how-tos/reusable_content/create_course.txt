@@ -2,7 +2,7 @@
 
   |Image Sidebar Click| 
 
-  .. thumbnail:: ../../_images/Educators_create_course.png
+  .. image:: ../../_images/Educators_create_course.png
 
 
 #. Open Studio at the URL provided by your administrator.

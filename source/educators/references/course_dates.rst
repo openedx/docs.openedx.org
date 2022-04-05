@@ -10,7 +10,7 @@ Start Date and Time
 
   Click the image to see where to set the course schedule.
 
-    .. thumbnail:: ../../_images/Educators_course_schedule.png
+    .. image:: ../../_images/Educators_course_schedule.png
 
 
 The course start date and time specify when learners can access published course content. When you :ref:`Create a Course`, the course start date and time are set to 01/01/2030 at 00:00 UTC to ensure that your course does not start before you intend it to.

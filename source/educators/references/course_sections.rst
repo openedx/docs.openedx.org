@@ -9,7 +9,7 @@ What Is a Section?
 
   Click the image to see where in the outline to add sections.
 
-      .. thumbnail:: ../../_images/Educators_course_outline_section.png
+      .. image:: ../../_images/Educators_course_outline_section.png
 
 
 A section is the topmost category in your course. A section can represent a time period in your course, a chapter, or another organizing principle. A section contains one or more subsections.
