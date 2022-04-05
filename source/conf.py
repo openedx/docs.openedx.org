@@ -29,7 +29,7 @@ copyright = '2022, TCRIL'
 
 # The full version, including alpha/beta/rc tags
 #release = '1.0'
-import edx_theme
+#import edx_theme
 
 
 # -- General configuration ---------------------------------------------------
