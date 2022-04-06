@@ -1,6 +1,15 @@
 Quick Start: Build a Course
 ====================================
 
+
+
+.. contents:: Steps
+  :local:
+
+.. toggle::
+   
+   test
+
 .. sidebar:: Create Course Video Demo
 
   |Video Sidebar Click|
