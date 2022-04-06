@@ -18,9 +18,10 @@ Open edX Educators
 
    **Common How-tos**
 
+   * :doc:`how-tos/create_course`
+   * :doc:`how-tos/create_section`
    * :doc:`how-tos/add_youtube_video`
-   * :doc:`how-tos/set_grading_policy`
-   * :doc:`how-tos/create_course_discussion`
+   * :doc:`how-tos/add_course_creators`
 
    .. link-button:: how_tos
     :type: ref

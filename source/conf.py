@@ -27,10 +27,6 @@ project = 'Open edX'
 copyright = '2022, TCRIL'
 #author = 'Mark Hoeber'
 
-# The full version, including alpha/beta/rc tags
-#release = '1.0'
-import edx_theme
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -86,3 +82,11 @@ html_sidebars = {
 }
 
 panels_add_bootstrap_css = False
+
+# For custom styles
+
+html_static_path = ['_static']
+
+html_css_files = [
+    'css/custom.css',
+]

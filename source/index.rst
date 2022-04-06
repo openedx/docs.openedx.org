@@ -12,21 +12,23 @@ Welcome to Open edX Maple Release Documentation
 
    .. toctree::
       :maxdepth: 1
-      :caption: Audience Home Pages
+      :caption: User Home Pages
 
       Educators <educators/educators_home>
+      Course Operators <course_ops/course_ops_home>
+      Site Operators <site_ops/site_ops_home>
       Developers <developers/developers_home>
 
    ---   
 
    .. toctree::
       :maxdepth: 1
-      :caption: Get Started
+      :caption: Quick Starts
 
-      educators/quick_starts/build_a_course
-      course_ops/course_ops_quick_start
-      set_up/set_up_quick_start
-      developers/developers_quick_start
+      Educators: Build a Course <educators/quick_starts/build_a_course>
+      Course Operators: Run a Course <course_ops/course_ops_quick_start>
+      Site Operators: Set up Open edX <site_ops/set_up_quick_start>
+      Developers: Contribute to Open edX <developers/developers_quick_start>
 
    ---
 
@@ -34,11 +36,16 @@ Welcome to Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: What's New
 
-      whats_new/educators_whats_new
-      whats_new/course_ops_whats_new
-      whats_new/developers_whats_new
-      whats_new/community_whats_new
-      whats_new/change_log
+      For Educators <whats_new/educators_whats_new>
+      For Course Operators <whats_new/course_ops_whats_new>
+      For Site Operators <whats_new/site_ops_whats_new>
+      For Developers <whats_new/developers_whats_new>
+
+
+   .. link-button:: change_log
+       :type: ref
+       :text: Documentation Change Log
+       :classes: btn-outline-primary btn-block
 
    ---
 
@@ -47,13 +54,13 @@ Welcome to Open edX Maple Release Documentation
       :caption: Educators: Build an Open edX Course
 
       educators/quick_starts/build_a_course
-      educators/how_tos
-      educators/concepts
-      educators/reference
+      How-tos <educators/how_tos>
+      Concepts <educators/concepts>
+      Reference <educators/reference>
 
    .. link-button:: educators/educators_home
        :type: ref
-       :text: Educators Home
+       :text: Educators' Home
        :classes: btn-outline-primary btn-block
 
 
@@ -65,10 +72,14 @@ Welcome to Open edX Maple Release Documentation
       :caption: Course Operators: Run Open edX
 
       course_ops/course_ops_quick_start
-      course_ops/how_tos
-      course_ops/concepts
-      course_ops/reference
+      How-tos <course_ops/how_tos>
+      Concepts <course_ops/concepts>
+      References <course_ops/reference>
 
+   .. link-button:: course_ops/course_ops_home
+       :type: ref
+       :text: Course Operators' Home
+       :classes: btn-outline-primary btn-block
 
    ---
 
@@ -76,10 +87,15 @@ Welcome to Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Site Operators: Set Up Open edX
 
-      set_up/set_up_quick_start
-      set_up/how_tos
-      set_up/concepts
-      set_up/reference
+      site_ops/set_up_quick_start
+      How-tos <site_ops/how_tos>
+      Concepts <site_ops/concepts>
+      Reference <site_ops/reference>
+
+   .. link-button:: site_ops/site_ops_home
+       :type: ref
+       :text: Site Operators' Home
+       :classes: btn-outline-primary btn-block
 
 
    ---
@@ -88,8 +104,15 @@ Welcome to Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Software Developers: Enhance the Open edX Platform
 
-      developers/quickstarts/setup_an_mfe_dev_environment
-      developers/quickstarts/setup_a_backend_dev_environment
+      developers/quickstarts/quickstarts_home
+      How-tos <developers/how-tos/how-tos-home>
+      Concepts <developers/concepts/concepts_home>
+      Reference <developers/references/references_home>
+
+   .. link-button:: developers/developers_home
+       :type: ref
+       :text: Developers' Home
+       :classes: btn-outline-primary btn-block
 
 
 
@@ -97,6 +120,10 @@ Welcome to Open edX Maple Release Documentation
 
    .. toctree::
       :maxdepth: 1
-      :caption: Support Your Learners
+      :caption: Other Topics
 
       support_learners/quick_start
+      change_log
+
+
+

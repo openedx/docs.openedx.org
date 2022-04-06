@@ -1,2 +1,2 @@
-What's New for the Community
+Open edX Course Operators
 =============================
