@@ -2,3 +2,65 @@
   font-weight: 700;
   font-size: 16px;
 }
+
+a.reference[href="#"]{
+  font-weight: 700;
+}
+a.reference[href="../index.html"]{
+  font-weight: 700;
+}
+a.reference[href="../../index.html"]{
+  font-weight: 700;
+}
+
+.sidebar p {
+  text-align: center;
+
+}
+
+.sidebar a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+div.sidebar:not(.margin) {
+    width: 50%;
+    margin-left: 1.5em;
+    margin-right: -38%;
+    border-top-color: rgb(164, 166, 167);
+}
+
+.section .arabic li {
+
+  margin-bottom: 1.2em;
+}
+
+
+li p a.external:after{
+
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
+.prev-next-area a div p.prev-next-area p {
+    font-size: 1em;
+}
+
+.prev-next-area a p.prev-next-title {
+    font-size: 0.9em;
+  }
+
+.prev-next-area a p.prev-next-subtitle {
+    font-size: 0.9em;
+  }
+
+p.topic-title {
+
+    margin-top: -10px;
+}
+
+.contents {
+  width: 80%;
+}

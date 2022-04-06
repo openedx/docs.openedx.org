@@ -24,8 +24,8 @@ import urllib
 # -- Project information -----------------------------------------------------
 
 project = 'Open edX'
-copyright = '2022, TCRIL'
-#author = 'Mark Hoeber'
+copyright = '2022, The Center for Reimagining Learning'
+docstitle = "TEST"
 
 
 # -- General configuration ---------------------------------------------------
@@ -34,7 +34,7 @@ copyright = '2022, TCRIL'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  
-  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels']
+  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels', 'sphinx_togglebutton']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -62,31 +62,45 @@ html_theme = 'sphinx_book_theme'
 # html_static_path = ['_static']
 
 images_config = {
-   'default_image_width': '50%'
+   'default_image_width': '60%'
 }
 
 rst_epilog = """
 .. include:: /substitutions.txt
 """
+
+
 html_sidebars = {
-    "reference/blog/*": [
-        "sidebar-logo.html",
-        "search-field.html",
-        "postcard.html",
-        "recentposts.html",
-        "tagcloud.html",
-        "categories.html",
-        "archives.html",
-        "sbt-sidebar-nav.html",
-    ]
+   
 }
 
 panels_add_bootstrap_css = False
 
 # For custom styles
 
+
+html_theme_options = {
+
+    "logo_only": False,
+    "home_page_in_toc": True,
+    "extra_navbar": "",
+    "repository_url": "https://github.com/openedx/docs.openedx.org",
+    "use_repository_button": True,
+     "use_issues_button": True,
+     "use_edit_page_button": True
+
+}
+
+html_logo = "_static/logo-edx.png"
+html_favicon = "_static/favicon.ico"
+
 html_static_path = ['_static']
 
 html_css_files = [
     'css/custom.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
+]
+
+html_js_files = [
+    '_js/custom.js'
 ]

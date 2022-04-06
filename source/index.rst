@@ -5,7 +5,7 @@
 
 
 
-Welcome to Open edX Maple Release Documentation
+Open edX Maple Release Documentation
 ================================================
 
 .. panels::
