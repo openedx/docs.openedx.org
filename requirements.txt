@@ -57,6 +57,8 @@ sphinxcontrib-images==0.9.4
 
 sphinx-panels==0.6.0
 
+sphinx-togglebutto==0.3.1
+
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
