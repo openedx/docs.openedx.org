@@ -25,7 +25,7 @@ import urllib
 
 project = 'Open edX'
 copyright = '2022, The Center for Reimagining Learning'
-docstitle = "TEST"
+
 
 
 # -- General configuration ---------------------------------------------------
@@ -91,7 +91,7 @@ html_theme_options = {
 
 }
 
-html_logo = "_static/logo-edx.png"
+html_logo = "_static/open-edx-logo-color.png"
 html_favicon = "_static/favicon.ico"
 
 html_static_path = ['_static']
