@@ -23,7 +23,7 @@ import urllib
 
 # -- Project information -----------------------------------------------------
 
-project = 'Open edX'
+project = ''
 copyright = '2022, The Center for Reimagining Learning'
 
 
@@ -88,11 +88,12 @@ html_theme_options = {
     "use_repository_button": True,
      "use_issues_button": True,
      "use_edit_page_button": True
-
 }
 
 html_logo = "_static/open-edx-logo-color.png"
 html_favicon = "_static/favicon.ico"
+theme_logo_only = True
+release = "Maple Release"
 
 html_static_path = ['_static']
 
