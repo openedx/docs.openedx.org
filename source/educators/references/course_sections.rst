@@ -65,6 +65,7 @@ For the content of a section to be visible to learners, the section must be rele
 
 
 .. seealso::
+ :class: dropdown
 
  :ref:`Create a Section` (task)
 

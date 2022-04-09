@@ -38,23 +38,31 @@ div.sidebar:not(.margin) {
 }
 
 
+.section .arabic li p {
+
+  margin-top: 1.2em;
+}
+
+
 li p a.external:after{
 
     font-family: 'FontAwesome';
     content: " \f08e";
 }
 
-li p a.external:after{
 
-    font-family: 'FontAwesome';
-    content: " \f08e";
+li ol.arabic {
+  list-style-type: lower-alpha;
 }
 
-.sidebar-title:after{
+
+.sidebar a:after{
 
     font-family: 'FontAwesome';
     content: " \f002";
+    text-align: right;
 }
+
 
 
 .prev-next-area a div p.prev-next-area p {
@@ -71,9 +79,13 @@ li p a.external:after{
 
 p.topic-title {
 
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .contents {
   width: 80%;
+}
+
+.no-bullets ul {
+  list-style-type: none;
 }

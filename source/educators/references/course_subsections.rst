@@ -118,6 +118,7 @@ By default, when learners submit answers to problems, they immediately receive t
 
 
 .. seealso:: 
+ :class: dropdown
 
   :ref:`Create a Subsection` (task)
 

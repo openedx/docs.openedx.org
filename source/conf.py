@@ -106,3 +106,6 @@ html_css_files = [
 html_js_files = [
     '_js/custom.js'
 ]
+
+togglebutton_hint = "Show"
+togglebutton_hint_hide = "Hide"

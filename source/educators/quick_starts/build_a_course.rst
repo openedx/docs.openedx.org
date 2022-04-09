@@ -1,20 +1,17 @@
 Quick Start: Build a Course
 ====================================
 
-
-
-.. contents:: Steps
-  :local:
-
-.. toggle::
-   
-   test
-
 .. sidebar:: Create Course Video Demo
 
   |Video Sidebar Click|
 
   Video TBP
+
+.. contents:: Steps
+  :local:
+  :class: no-bullets
+
+
 
 
 Follow the steps below to build your first course. By the end, you will have a fully functional, minimal course, which you can build on as you learn all of the |Platform| options. |Image Instructions|
