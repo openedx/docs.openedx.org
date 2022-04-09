@@ -34,7 +34,8 @@ copyright = '2022, The Center for Reimagining Learning'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  
-  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels', 'sphinx_togglebutton']
+  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels', 
+  'sphinxcontrib.contentui', 'sphinx_togglebutton', 'sphinx_tabs.tabs']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

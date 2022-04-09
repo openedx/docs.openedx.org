@@ -33,8 +33,6 @@ Follow the steps below to build your first course. By the end, you will have a f
 .. include:: ../how-tos/reusable_content/schedule_course.txt
 
 
-
-
 3. Create a Section
 *****************************
 
@@ -44,7 +42,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 4. Create a Subsection
 *****************************
 
-
+.. include:: ../how-tos/reusable_content/create_subsection.txt
 
 5. Create a Unit
 *****************************

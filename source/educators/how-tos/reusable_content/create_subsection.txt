@@ -1,0 +1,48 @@
+.. sidebar:: Course Outline with Subsections
+
+  .. thumbnail:: ../../_images/Educators_course_outline_subsection.png
+
+
+#. Within the section that you want to create the subsection, click :guilabel:`New Subsection`.
+
+   A new subsection is created at the end of the section, with the subsection name selected.
+
+
+#. Enter the name for the new subsection. 
+
+.. sidebar:: Subsection Settings
+
+   .. tabs::
+
+      .. tab:: Basics tab
+
+        .. thumbnail:: ../../_images/Educators_subsection_settings_basic.png
+
+      .. tab:: Visibility tab
+
+         .. thumbnail:: ../../_images/Educators_subsection_settings_visibility.png
+
+#. If the subsection should release a a later time than the containing section, set the release date.
+
+   #. Select the Configure icon in the subsection box.
+
+      The Settings dialog box opens.
+
+   #. Enter the release date and time for the subsection in the Basics tab.
+
+#. If the subsection is to be graded, in the Settings dialog box, set release a a later time than the containing section, set type of assignment and the due date in the Basics tab.
+
+#. Click the Visibility tab to change the subsection visibility and assessment results visibility.
+
+
+You can then create units within the subsection.
+
+.. seealso::
+
+ :ref:`Course Subsections` (reference)
+
+ Grading
+
+ Units
+
+

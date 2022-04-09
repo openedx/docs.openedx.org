@@ -44,6 +44,19 @@ li p a.external:after{
     content: " \f08e";
 }
 
+li p a.external:after{
+
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
+.sidebar-title:after{
+
+    font-family: 'FontAwesome';
+    content: " \f002";
+}
+
+
 .prev-next-area a div p.prev-next-area p {
     font-size: 1em;
 }
