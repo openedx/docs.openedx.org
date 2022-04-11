@@ -1,8 +1,10 @@
-.. sidebar:: Create a Section
+.. sidebar:: Section Settings Basics tab
 
-  |Image Sidebar Click| 
+   .. thumbnail:: ../../_images/Educators_section_settings_basic.png
 
-  .. thumbnail:: ../../_images/Educators_course_outline_section.png
+.. sidebar:: Section Settings Visibility tab
+
+   .. thumbnail:: ../../_images/Educators_section_settings_visibility.png
 
 
 #. Open the course outline in Studio.
@@ -21,9 +23,14 @@
 
    #. Enter the release date and time for the section.
 
+#. To hide the section from learners, click the :guilabel:`Visiblity` tab and check :guilabel:`Hide from Learners`.
+
+#. Click :guilabel:`Save`.
+
 You can then create Subsections within the section.
 
 .. seealso::
+ :class: dropdown
 
  :ref:`Course Sections` (reference)
 

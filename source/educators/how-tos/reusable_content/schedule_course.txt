@@ -1,7 +1,5 @@
 .. sidebar:: Course Schedule and Details
 
-  |Image Sidebar Click| 
-
   .. thumbnail:: ../../_images/Educators_course_schedule.png
 
 #. With the course open in Studio, from the :guilabel:`Settings` menu, select :guilabel:`Schedule and Details`.
@@ -21,6 +19,7 @@
 #. At the bottom of the screen, click :guilabel:`Save Changes`.
 
 .. seealso::
+ :class: dropdown
 
    :ref:`Course Pacing` (reference)
    

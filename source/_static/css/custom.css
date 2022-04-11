@@ -15,7 +15,10 @@ a.reference[href="../../index.html"]{
 
 .sidebar p {
   text-align: center;
+}
 
+p.sidebar-title {
+  font-size: 1em !important;
 }
 
 .sidebar a img {
@@ -26,15 +29,23 @@ a.reference[href="../../index.html"]{
 }
 
 div.sidebar:not(.margin) {
-    width: 50%;
+    width: 35%;
     margin-left: 1.5em;
     margin-right: -38%;
     border-top-color: rgb(164, 166, 167);
 }
 
+
+
 .section .arabic li {
 
   margin-bottom: 1.2em;
+}
+
+
+.section .arabic li p {
+
+  margin-top: 1.2em;
 }
 
 
@@ -43,6 +54,21 @@ li p a.external:after{
     font-family: 'FontAwesome';
     content: " \f08e";
 }
+
+
+li ol.arabic {
+  list-style-type: lower-alpha;
+}
+
+
+.sidebar a:after{
+
+    font-family: 'FontAwesome';
+    content: " \f002";
+    text-align: right;
+}
+
+
 
 .prev-next-area a div p.prev-next-area p {
     font-size: 1em;
@@ -58,9 +84,13 @@ li p a.external:after{
 
 p.topic-title {
 
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .contents {
   width: 80%;
+}
+
+.no-bullets ul {
+  list-style-type: none;
 }

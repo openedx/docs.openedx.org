@@ -22,6 +22,7 @@ Educators: How-tos
 
          how-tos/open_course_outline
          how-tos/create_section
+         how-tos/create_subsection
          how-tos/add_course_structure
          how-tos/add_units
          how-tos/reorganize_outline
