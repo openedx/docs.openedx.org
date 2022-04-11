@@ -61,7 +61,7 @@ sphinx-togglebutton==0.3.1
 
 sphinxcontrib-contentui==0.2.5
 
-sphinx-tabs==3.3.1
+sphinx-tabs==3.2.0
 
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
