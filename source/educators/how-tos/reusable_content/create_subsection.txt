@@ -1,6 +1,3 @@
-.. sidebar:: Course Outline with Subsections
-
-  .. thumbnail:: ../../_images/Educators_course_outline_subsection.png
 
 .. sidebar:: Subsection Settings Basics tab
 
@@ -27,7 +24,9 @@
 
 #. If the subsection is to be graded, in the Settings dialog box, set release a a later time than the containing section, set type of assignment and the due date in the Basics tab.
 
-#. Click the Visibility tab to change the subsection visibility and assessment results visibility.
+#. Click the :guilabel:`Visibility` tab to change the subsection visibility and assessment results visibility.
+
+#. Click :guilabel:`Save`.
 
 You can then create units within the subsection.
 

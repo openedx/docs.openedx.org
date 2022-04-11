@@ -1,6 +1,4 @@
-.. sidebar:: Create Course Screen
-
-  |Image Sidebar Click| 
+.. sidebar:: Create a New Course screen
 
   .. thumbnail:: ../../_images/Educators_create_course.png
 
@@ -16,7 +14,7 @@
 
 #. Open Studio at the URL provided by your administrator.
 
-#. Click :guilabel:`New Course`.
+#. Click :guilabel:`New Course`. The Create a New Course screen opens.
 
 #. Enter information for the new course:
 
@@ -27,7 +25,6 @@
    * **Course Number**: The unique number that identifies your course. Note: This value becomes part of the course URL and cannot be changed. No spaces or special characters are allowed.
 
    * **Course Run**: The term or unique run of the course. This value part of your course URL, so no spaces or special characters are allowed and it cannot be changed.
-
 
 #. Click :guilabel:`Create`.
 

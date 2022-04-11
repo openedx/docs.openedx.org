@@ -44,7 +44,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 5. Create a Unit
 *****************************
 
-
+.. include:: ../how-tos/reusable_content/create_unit.txt
 
 
 6. Add a Video

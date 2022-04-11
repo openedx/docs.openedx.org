@@ -15,7 +15,10 @@ a.reference[href="../../index.html"]{
 
 .sidebar p {
   text-align: center;
+}
 
+p.sidebar-title {
+  font-size: 1em !important;
 }
 
 .sidebar a img {
@@ -26,11 +29,13 @@ a.reference[href="../../index.html"]{
 }
 
 div.sidebar:not(.margin) {
-    width: 50%;
+    width: 35%;
     margin-left: 1.5em;
     margin-right: -38%;
     border-top-color: rgb(164, 166, 167);
 }
+
+
 
 .section .arabic li {
 
