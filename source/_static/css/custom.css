@@ -107,3 +107,8 @@ div.contents ul li {
 .no-bullets ul {
   list-style-type: none;
 }
+
+
+#site-navigation .bd-sidebar__bottom {
+    margin-bottom: 1em;
+}
