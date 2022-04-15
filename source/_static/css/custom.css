@@ -69,23 +69,36 @@ li ol.arabic {
 }
 
 
-
-.prev-next-area a div p.prev-next-area p {
-    font-size: 1em;
+#site-navigation div.navbar_extra_footer {
+    text-align: left;
 }
 
-.prev-next-area a p.prev-next-title {
-    font-size: 0.9em;
-  }
+div.contents p.topic-title {
 
-.prev-next-area a p.prev-next-subtitle {
-    font-size: 0.9em;
-  }
-
-p.topic-title {
-
-    margin-top: -15px;
+    margin-bottom: 20px;
 }
+
+
+div.contents ul li p a {
+  font-size: 1em;
+}
+
+div.contents ul li p a:after {
+
+  font-weight: 200;
+
+  font-size: 0.8em;
+
+  font-family: 'FontAwesome';
+  content: " \f061";
+
+}
+
+div.contents ul li {
+  margin-bottom: 0.6em;
+}
+
+
 
 .contents {
   width: 80%;
@@ -93,4 +106,9 @@ p.topic-title {
 
 .no-bullets ul {
   list-style-type: none;
+}
+
+
+#site-navigation .bd-sidebar__bottom {
+    margin-bottom: 1em;
 }

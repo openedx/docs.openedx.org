@@ -21,6 +21,6 @@
 .. seealso::
  :class: dropdown
 
-   :ref:`Course Pacing` (reference)
-   
-   :ref:`Course Dates` (reference)
+ :ref:`Course Pacing` (reference)
+ 
+ :ref:`Course Dates` (reference)

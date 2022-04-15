@@ -67,7 +67,15 @@ images_config = {
 }
 
 rst_epilog = """
+
+.. raw:: html
+
+  <hr/>
+
+:ref:`Feedback <Documentation Feedback Form>`
+
 .. include:: /substitutions.txt
+
 """
 
 
@@ -82,14 +90,27 @@ panels_add_bootstrap_css = False
 
 html_theme_options = {
 
+    "repository_url": "https://github.com/openedx/docs.openedx.org",
     "logo_only": False,
     "home_page_in_toc": True,
-    "extra_navbar": "",
-    "repository_url": "https://github.com/openedx/docs.openedx.org",
+    "extra_navbar": 
+    "<hr/><br/><a href='https://open.edx.org' target='_blank'>Open edX website</a>",
     "use_repository_button": True,
      "use_issues_button": True,
-     "use_edit_page_button": True
+     "use_edit_page_button": True,
+     "announcement":
+         "This is new Open edX documentation and is under development.",
+
+     "launch_buttons": {
+        "colab_url": "https://{your-colab-url}",
+        "deepnote_url": "https://deepnote.com"
+    }
+
+
 }
+
+branch = "main"
+
 
 html_logo = "_static/open-edx-logo-color.png"
 html_favicon = "_static/favicon.ico"

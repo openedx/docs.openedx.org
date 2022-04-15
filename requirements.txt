@@ -47,7 +47,7 @@ sphinx==4.4.0
     #   -r requirements/base.in
     #   edx-sphinx-theme
 
-sphinx-book-theme==0.2.0
+sphinx-book-theme==0.3.2
 
 sphinxcontrib.yt==0.2.2
 
