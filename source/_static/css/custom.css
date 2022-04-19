@@ -1,4 +1,4 @@
-.toctree-wrapper .caption {
+div.toctree-wrapper p.caption {
   font-weight: 700;
   font-size: 1.2em;
 }
@@ -49,7 +49,7 @@ div.sidebar:not(.margin) {
 }
 
 
-li p a.external:after{
+a.external:after{
 
     font-family: 'FontAwesome';
     content: " \f08e";
@@ -112,3 +112,16 @@ div.contents ul li {
 #site-navigation .bd-sidebar__bottom {
     margin-bottom: 1em;
 }
+
+
+p.feedback a.reference .std-ref{
+  border: 1px solid #7fbbe3;
+    background: #e7f2fa;
+    font-size: 80%;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2.4px 6px;
+    margin: auto 2px;
+}
+
+

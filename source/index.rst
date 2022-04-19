@@ -122,6 +122,9 @@ Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Other Topics
 
+      readme
+      add_documentation
+      topic_template
       feedback
       support_learners/quick_start
       change_log
