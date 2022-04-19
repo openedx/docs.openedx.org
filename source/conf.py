@@ -35,7 +35,8 @@ copyright = '2022, The Center for Reimagining Learning'
 # ones.
 extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  
   'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels', 
-  'sphinxcontrib.contentui', 'sphinx_togglebutton', 'sphinx_tabs.tabs']
+  'sphinxcontrib.contentui', 'sphinx_togglebutton', 'sphinx_tabs.tabs',
+  'sphinx_copybutton']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -74,11 +75,12 @@ rst_epilog = """
 
   <hr/>
 
-:guilabel:`New Course <Documentation Feedback Form>`.
+.. rst-class:: feedback
 
-:ref:`Feedback <Documentation Feedback Form>`
+  :ref:`Feedback <Documentation Feedback Form>`
 
 .. include:: /substitutions.txt
+.. include:: /links.txt
 
 """
 
