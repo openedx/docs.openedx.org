@@ -6,7 +6,7 @@ If you have developed a new feature, created an XBlock, or otherwise see that a 
 RST
 ***********
 
-Open edX documentaiton is written in RST. In this topic, we show the basics of RST, and we provide a :ref:`Topic Template` you can copy to create a new topic.  
+Open edX documentaiton is written in RST. In this topic, we show the basics of RST, and we provide a :ref:`Topic Templates` you can copy to create a new topic.  
 
 We also recommend reviewing the `RST Primer`_ if you have questions.
 
@@ -41,7 +41,7 @@ When you are creating new documentation, you should identify which type(s) of to
 Get Started
 ****************
 
-When you have identified the audience(s) and content type(s) you need to address, we recommend that you download a copy of the ref:`Topic Template` and begin writing the documentation.
+When you have identified the audience(s) and content type(s) you need to address, we recommend that you download a copy of the ref:`Topic Templates` and begin writing the documentation.
 
 If you have questions as you go, we recoomend asking the Open edX Documentation Slack channel.
 

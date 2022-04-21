@@ -1,4 +1,4 @@
-Topic Template
+Topic Templates
 ======================
 
 This topic is meant as a template that you can copy from GitHub and use to develop new topics.
