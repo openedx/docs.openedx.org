@@ -116,7 +116,7 @@ html_theme_options = {
 html_logo = "_static/open-edx-logo-color.png"
 html_favicon = "_static/favicon.ico"
 theme_logo_only = True
-release = "Maple Release"
+release = "Latest Documentation"
 
 html_static_path = ['_static']
 

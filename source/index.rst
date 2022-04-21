@@ -120,14 +120,23 @@ Open edX Maple Release Documentation
 
    .. toctree::
       :maxdepth: 1
+      :caption: Creating Documentation
+
+      creating_doc/readme
+      creating_doc/add_documentation
+      creating_doc/topic_template
+      creating_doc/doc_workflow
+      creating_doc/doc_checklist
+
+   
+
+   ---
+
+   .. toctree::
+      :maxdepth: 1
       :caption: Other Topics
 
-      readme
-      add_documentation
-      topic_template
       feedback
       support_learners/quick_start
       change_log
-
-
 
