@@ -98,11 +98,11 @@ html_theme_options = {
 
     "repository_url": "https://github.com/openedx/docs.openedx.org",
     "repository_branch": "main",
-     "path_to_docs": "source",
+    "path_to_docs": "source",
     "logo_only": False,
     "home_page_in_toc": True,
     "extra_navbar": 
-      "<hr/><br/><a href='https://open.edx.org' target='_blank'>Open edX website</a>",
+      "<hr/><br/><a class='external' href='https://openedx.atlassian.net/wiki/spaces' target='_blank'>Open edX Wiki</a><br/><a class='external' href='https://open.edx.org' target='_blank'>Open edX website</a>",
     "use_repository_button": True,
      "use_issues_button": True,
      "use_edit_page_button": True,
@@ -116,7 +116,7 @@ html_theme_options = {
 html_logo = "_static/open-edx-logo-color.png"
 html_favicon = "_static/favicon.ico"
 theme_logo_only = True
-release = "Maple Release"
+release = "Latest Documentation"
 
 html_static_path = ['_static']
 

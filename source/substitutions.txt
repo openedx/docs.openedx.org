@@ -7,3 +7,5 @@
 .. |Video Sidebar Click| replace:: Play the video below to see these steps performed.
 
 .. |Pencil Icon| image:: /_images/icon_pencil.png
+
+.. |GitHub Pencil| image:: /_images/github_pencil.png

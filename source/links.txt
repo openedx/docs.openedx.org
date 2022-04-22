@@ -2,6 +2,7 @@
 
 
 .. _Open edX Documentation: http://docs.openedx.org
+
 .. _GitHub repository: https://github.com/openedx/docs.openedx.org/issues/new
 
 .. _RST: http://docutils.sourceforge.net/rst.html
@@ -10,3 +11,6 @@
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
 .. _RST Primer: https://docutils.sourceforge.io/docs/user/rst/quickstart.html
+
+.. _Open edX Documentation GitHub repository: https://github.com/openedx/docs.openedx.org
+
