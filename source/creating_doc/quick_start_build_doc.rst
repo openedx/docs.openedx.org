@@ -51,13 +51,15 @@ With your new branch active:
 
 #. Find the topic you need to edit.
 
+#. Click the pencil icon (.. image:: _images/github_pencil.png).
+
 #. Click the pencil icon (|GitHub Pencil|).
 
    The topic opens in edit mode.
 
 #. Make the necessary changes.  
 
-   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Topic Templates`.
+   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Documentation Templates`.
 
 #. In the Commit Changes section at the bottom of the edit window:
 
@@ -89,7 +91,7 @@ With your new branch active:
 
 #. Add content to the topic as needed.  
 
-   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Topic Templates`.
+   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Documentation Templates`.
 
 #. In the Commit Changes section at the bottom of the edit window:
 
@@ -106,29 +108,24 @@ With your new branch active:
 4. Create a Pull Request
 **********************************
 
-5. Test the Publication of your branch on ReadTheDocs
-******************************************************
+.. sidebar:: Create a Pull Request in GitHub
 
-6. Edit Topics if Neded
-***************************
+  .. thumbnail:: ../_images/github_pr_tab.png
 
-7. Tag the OpenedX Team in the Pull Request
-*********************************************
+When you are ready to have the Open edX team review your proposed documentation changes, you create a pull request.
 
+#. In the GitHub repository, open the Pull requests tab.
 
-The Open edX team will review your changes and may make recommendations. When ready, they will merge it.
+#. Click :guilabel:`New pull request`.
 
+#. In the right-hand drop-down field, select the branch on which you made changes. Keep *main* selected for the left-hand drop-down field.  
 
+   This indicates that you want to merge your branch into the *main* branch (the latest published documentation.)
 
+   Below the drop-down fields, GitHub shows the changes in your branch, compared to the *main* branch.
 
+#. Click :guilabel:`Create pull request`.
 
+#. In the pull request, add a description of your changes.
 
-
-
-
-
-
-
-
-
-
+The Open edX team will then review your changes. If they approve, they will merge the pull request, and you will see your changes in the latest documentation. The Open edX team may ask you to make further changes, to clarify the documentation or fix issues.

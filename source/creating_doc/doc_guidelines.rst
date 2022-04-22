@@ -1,12 +1,23 @@
-Add New Documentation
-======================
+New Documentation Guidelines
+==============================
 
 If you have developed a new feature, created an XBlock, or otherwise see that a topic is missing in this documentation, you can create one or more new pages in this document and submit a pull request to have the content added.  Follow the guidelines below.
 
-RST
-***********
+When you are ready to update documentation, see :ref:`Quick Start: Add Documentation`.
 
-Open edX documentaiton is written in RST. In this topic, we show the basics of RST, and we provide a :ref:`Topic Templates` you can copy to create a new topic.  
+GitHub
+*******
+
+Open edX documentation, along with source code, is managed in GitHub, in the `Open edX Documentation GitHub repository`_.
+
+Anyone can propose updates to the documentation, following a process known as the `GitHub Flow`_.
+
+The Open edX team will review the proposed changes, collaborate with the author, and merge the documentation when it is ready. You will then see it on the `Open edX Documentation`_ site.
+
+RST
+***
+
+Open edX documentaiton is written in RST. In this topic, we show the basics of RST, and we provide a :ref:`Documentation Templates` you can copy from to create a new documentation.  
 
 We also recommend reviewing the `RST Primer`_ if you have questions.
 
@@ -26,7 +37,7 @@ Open edX documentation is organized by the following audiences:
 When you develop new documentation, you should identify the audience(s) who need the information. Some platform changes may need you to address multiple audiences. For example, a new feature may require instructions for Site Operators to enable it, and for Educators to use it in a course.
 
 Content Types
-***************
+**************
 
 To keep documentations streamlined and make it easy for users to find answers, we make each topic one of three types:
 
@@ -39,31 +50,8 @@ To keep documentations streamlined and make it easy for users to find answers, w
 When you are creating new documentation, you should identify which type(s) of topics you need to create.
 
 Get Started
-****************
+************
 
-When you have identified the audience(s) and content type(s) you need to address, we recommend that you download a copy of the ref:`Topic Templates` and begin writing the documentation.
+When you have identified the audience(s) and content type(s) you need to address, we recommend that you follow the steps in :ref:`Quick Start: Add Documentation`.
 
 If you have questions as you go, we recoomend asking the Open edX Documentation Slack channel.
-
-
-Submitting New Documentation
-*********************************
-
-To add new documentation, create a new branch, make changes, and submit
-a pull request: this is known as the `GitHub Flow`_.
-
-The Open edX team will review the pull request, consult with you on changes, and when the update is final, merge the documentation. You will then see it on the `Open edX Documentation`_ site.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

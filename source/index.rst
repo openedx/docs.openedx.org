@@ -125,18 +125,15 @@ Open edX Maple Release Documentation
       :caption: Creating Documentation
 
       creating_doc/quick_start_build_doc
-      creating_doc/readme
-      creating_doc/add_documentation
-      creating_doc/topic_template
-      creating_doc/doc_workflow
+      creating_doc/doc_guidelines
+      creating_doc/doc_templates
       creating_doc/doc_checklist
+      creating_doc/readme
 
    .. link-button:: creating_doc/doc_home
        :type: ref
        :text: Documentors' Home
        :classes: btn-outline-primary btn-block
-
-   
 
    ---
 
