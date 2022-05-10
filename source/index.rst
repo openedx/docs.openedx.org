@@ -20,7 +20,7 @@ Open edX Maple Release Documentation
       Developers <developers/developers_home>
       Documentators <creating_doc/doc_home>
 
-   ---   
+   ---
 
    .. toctree::
       :maxdepth: 1
@@ -125,6 +125,7 @@ Open edX Maple Release Documentation
       :caption: Creating Documentation
 
       creating_doc/quick_start_build_doc
+      creating_doc/quickstart_rst
       creating_doc/doc_guidelines
       creating_doc/doc_templates
       creating_doc/doc_checklist

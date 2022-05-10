@@ -3,7 +3,7 @@ Open edX Documentors
 
 
 **Creating Documentation**
- 
+
 :doc:`quick_start_build_doc`
 
 :doc:`doc_guidelines`
@@ -14,7 +14,7 @@ Open edX Documentors
 
 :doc:`readme`
 
-
+:doc: `quickstart_rst`
 
 
 
