@@ -28,8 +28,7 @@ Headings
 .. note::
    :class: dropdown
 
-   RST can be very flexible, this is the consistent way we want to do it in this
-   project.
+   RST is very flexible: it will allow you to use almost any symbol to underline headings, as long as you're consistent between heading level. However, the way shown above is how headings should be defined in all Open edX documentation. 
 
 Text Markup
 ***********
