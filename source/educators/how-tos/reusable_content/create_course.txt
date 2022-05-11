@@ -1,6 +1,6 @@
 .. sidebar:: Create a New Course screen
 
-  .. thumbnail:: ../../_images/Educators_create_course.png
+  .. thumbnail:: /_images/Educators_create_course.png
 
 .. Note:: 
   :class: dropdown

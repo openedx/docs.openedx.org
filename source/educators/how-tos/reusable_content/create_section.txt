@@ -1,10 +1,10 @@
 .. sidebar:: Section Settings Basics tab
 
-   .. thumbnail:: ../../_images/Educators_section_settings_basic.png
+   .. thumbnail:: /_images/Educators_section_settings_basic.png
 
 .. sidebar:: Section Settings Visibility tab
 
-   .. thumbnail:: ../../_images/Educators_section_settings_visibility.png
+   .. thumbnail:: /_images/Educators_section_settings_visibility.png
 
 
 #. Open the course outline in Studio.

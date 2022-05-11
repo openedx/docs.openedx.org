@@ -1,7 +1,7 @@
 
 .. sidebar:: Empty Unit
 
-   .. thumbnail:: ../../_images/Educators_blank_unit.png
+   .. thumbnail:: /_images/Educators_blank_unit.png
 
 
 #. In the course outline, within the subsection that you want to create the unit, click :guilabel:`New Unit`.

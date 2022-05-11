@@ -9,7 +9,7 @@ What Is a Subsection?
 
   |Image Sidebar Click| 
 
-  .. thumbnail:: ../../_images/Educators_course_outline_subsection.png
+  .. thumbnail:: /_images/Educators_course_outline_subsection.png
 
 
 Subsections are divided into subsections, which in turn contain one or more units. A subsection may represent a topic in your course, or another organizing principle. Subsections are sometimes called “lessons” or they might represent a week’s worth of material.
@@ -97,7 +97,7 @@ Graded Subsections
 
   |Image Sidebar Click| 
 
-  .. thumbnail:: ../../_images/Educators_subsection_settings_basic.png
+  .. thumbnail:: /_images/Educators_subsection_settings_basic.png
 
 Grading in your course is based on subsections. When you have configured grading, you then associate assignment types with subsections
 

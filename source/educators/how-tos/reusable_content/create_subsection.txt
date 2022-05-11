@@ -1,11 +1,11 @@
 
 .. sidebar:: Subsection Settings Basics tab
 
-   .. thumbnail:: ../../_images/Educators_subsection_settings_basic.png
+   .. thumbnail:: /_images/Educators_subsection_settings_basic.png
 
 .. sidebar:: Subsection Settings Visibility tab
 
-   .. thumbnail:: ../../_images/Educators_subsection_settings_visibility.png
+   .. thumbnail:: /_images/Educators_subsection_settings_visibility.png
 
 
 #. In the course outline, within the section that you want to create the subsection, click :guilabel:`New Subsection`.

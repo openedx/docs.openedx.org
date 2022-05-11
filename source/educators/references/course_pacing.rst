@@ -11,7 +11,7 @@ Setting Course Pacing
 
   Click the image to see where to set the course pacing.
 
-    .. thumbnail:: ../../_images/Educators_course_pacing.png
+    .. thumbnail:: /_images/Educators_course_pacing.png
 
 
 You can set a schedule for your course, including when content is released and due dates for assignments. You can allow learners to work at their own pace, as long as they complete the course within the course run time period. 
