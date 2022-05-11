@@ -230,11 +230,11 @@ Copy this codeblock to an iamge on its own line.
 
   Line of content, followed by a line with an image.
 
-  .. image:: _images/image-file-name
+  .. image:: /_images/image-file-name
 
   Or, a line of content, followed by a clickable thumbnail of a large image.
 
-  .. thumbnail:: _images/image-file-name
+  .. thumbnail:: /_images/image-file-name
 
 Add an Image Inline
 ++++++++++++++++++++
