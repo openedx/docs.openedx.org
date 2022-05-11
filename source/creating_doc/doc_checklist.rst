@@ -44,7 +44,7 @@ Every new topic must be added to a table of contents. Add each new topic to the 
 
 
 RST Standards
-*******
+**************
 
 Ensure that the new documentation adheres to RST standards and Open edX best practices. You should use :ref:`Documentation Templates` as much as possible, and review :ref:`New Documentation Guidelines`.
 
