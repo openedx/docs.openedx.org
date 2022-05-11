@@ -84,14 +84,26 @@ Then referenced in topics as:
 
  Each ``Link Name`` in the entire documentation project must be unique.
 
+Change Log
+*************
+
+Ensure that you add a dated summary of your changes
+in the ``source/change_log.rst`` file. Your summary should help others understand the purpose of the change.
 
 Review Documentation in the Pull Request
 *****************************************
 
+When you create a pull request, a version of the documentation with your changes is automatically built, as a website that matches ``https://docs.openedx.org`` except for your changes.  You can tell that the site built for your pull request is different than the main Open edX documentation because the URL includes your pull request number, and because the following warning appears at the top of each page:
+
+.. image:: /_images/pr_doc_warning.png
+
+You must ensure that the documentation for the pull request  builds successfully, with no errors or warnings. You can access documentation build information in the pull request. The following example shows a successful documentation build:
+
+.. image:: /_images/pr_doc_link.png
 
 
-Change Log
-*************
+In the pull request, click **Details** to see the documentation with your changes. Ensure the changes are published in the way you expect.
 
-Finally, ensure that you add a dated summary of your changes
-in the ``source/change_log.rst`` file. Your summary should help others understand the purpose of the change.
+If there is an error when building the documentation, the pull request will indicate that checks failed, and the **Details** link will take you to the error message. If you are able to fix the issue indicated by the error message, do so; if not, contact the Open edX team for assistance.
+
+
