@@ -32,6 +32,7 @@ Each topic in the documentation is one of three types:
 
 * Concepts
 
+* Quickstarts
 Ensure that you have clearly identified the types of new topics you have created, and have stored new files in the directory for that topic type.
 
 For more information, see :ref:`Content Types`.
