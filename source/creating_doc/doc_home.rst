@@ -14,7 +14,7 @@ Open edX Documentors
 
 :doc:`readme`
 
-:doc: `quickstart_rst`
+:doc:`quickstart_rst`
 
 
 

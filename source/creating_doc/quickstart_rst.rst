@@ -60,7 +60,7 @@ You can make numbered, and bulleted lists that can nest arbitrarily.
 
    #. Item 1
                            # Need this blank line between items and sub-items
-      * Sub-item 1
+      * Sub-item 1         # Sub-items also need to be indented by 3 or more spaces
       * Sub-item 2
    #. Item 2
 
@@ -110,7 +110,7 @@ Links between rst documents
 Directives
 **********
 
-RST can do a lot of things via `directives`_. Here are the most useful ones:
+RST can do a lot of things via `directives`_. Here are some common ones:
 
 .. _directives: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#directives
 
@@ -127,11 +127,28 @@ RST can do a lot of things via `directives`_. Here are the most useful ones:
    .. image:: path/to/image.png
       :alt: Alternative text for accessibility.
 
+   .. code-block::python
+
+      Some python code.
+
+   .. seealso::
+
+      `Link to a thing <https://example.com>`_
+         A brief description of the thing
+
+      `Link to another thing <https://example.com/other>`_
+         A brief description of another thing.
+
 Learn More
 **********
 
-The `RST Primer`_ has a lot more detail about the concepts behind the markup and
-if you want even more details, check out full `RST Docs`_.
+.. seealso::
+
+   `RST Primer`_
+      The primer has a lot more detail about the concepts behind the markup.
+
+   `RST Docs`_
+      If you want even more details, check out full `RST Docs`_.
 
 .. _RST Docs: https://docutils.sourceforge.io/rst.html
 
