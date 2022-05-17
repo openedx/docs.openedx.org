@@ -85,11 +85,6 @@ Then referenced in topics as:
 
  Each ``Link Name`` in the entire documentation project must be unique.
 
-Change Log
-*************
-
-Ensure that you add a dated summary of your changes
-in the ``source/change_log.rst`` file. Your summary should help others understand the purpose of the change.
 
 Review Documentation in the Pull Request
 *****************************************

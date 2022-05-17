@@ -143,5 +143,4 @@ Open edX Maple Release Documentation
 
       feedback
       support_learners/quick_start
-      change_log
 
