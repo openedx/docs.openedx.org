@@ -22,7 +22,7 @@ Prerequisites
 
 .. sidebar:: Edit a Topic in GitHub
 
-  .. thumbnail:: ../_images/github_edit_topic.png
+  .. thumbnail:: /_images/github_edit_topic.png
 
 #. On the page you want to edit, find the ``suggest edit`` link.
 
@@ -43,7 +43,7 @@ Prerequisites
 
 .. sidebar:: Create a Pull Request in GitHub
 
-  .. thumbnail:: ../_images/github_pr_tab.png
+  .. thumbnail:: /_images/github_pr_tab.png
 
 When you are ready to have the Open edX team review your proposed documentation changes, you create a pull request.
 

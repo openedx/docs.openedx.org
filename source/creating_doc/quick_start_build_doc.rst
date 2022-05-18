@@ -42,7 +42,7 @@ The branch you created becomes active; you can now create or edit documentation.
 
 .. sidebar:: Create a Topic in GitHub
 
-  .. thumbnail:: ../_images/github_create_topic.png
+  .. thumbnail:: /_images/github_create_topic.png
 
 In some cases (for example, with a brand new feature), you may want to create a new document to describe the feature.
 
@@ -75,7 +75,7 @@ With your new branch active:
 
 .. sidebar:: Create a Pull Request in GitHub
 
-  .. thumbnail:: ../_images/github_pr_tab.png
+  .. thumbnail:: /_images/github_pr_tab.png
 
 When you are ready to have the Open edX team review your proposed documentation changes, you create a pull request.
 
