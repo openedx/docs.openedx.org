@@ -103,6 +103,8 @@ With your new branch active:
 
 #. Repeat these steps for all topics you need to create.
 
+#. Every new topic must be added to a table of contents. Add each new topic to the audience home page in the appropriate place.
+
 
 
 4. Create a Pull Request

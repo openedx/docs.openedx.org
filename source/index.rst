@@ -43,12 +43,6 @@ Open edX Maple Release Documentation
       For Site Operators <whats_new/site_ops_whats_new>
       For Developers <whats_new/developers_whats_new>
 
-
-   .. link-button:: change_log
-       :type: ref
-       :text: Documentation Change Log
-       :classes: btn-outline-primary btn-block
-
    ---
 
    .. toctree::
@@ -143,5 +137,4 @@ Open edX Maple Release Documentation
 
       feedback
       support_learners/quick_start
-      change_log
 
