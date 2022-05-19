@@ -17,7 +17,11 @@ Open edX Documentors
 :doc:`quickstart_rst`
 
 
+.. toctree::
+   :glob:
+   :caption: HOW-TOs
 
+   how-tos/*
 
 
 
