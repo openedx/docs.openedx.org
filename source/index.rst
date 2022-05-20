@@ -30,7 +30,7 @@ Open edX Maple Release Documentation
       Course Operators: Run a Course <course_ops/course_ops_quick_start>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/developers_quick_start>
-      Documentors: Add Documentation <creating_doc/quick_start_build_doc>
+      Documentors: Add Documentation <creating_doc/quick_starts/quick_start_build_doc>
 
    ---
 
@@ -118,12 +118,12 @@ Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Creating Documentation
 
-      creating_doc/quick_start_build_doc
-      creating_doc/quickstart_rst
-      creating_doc/doc_guidelines
-      creating_doc/doc_templates
-      creating_doc/doc_checklist
-      creating_doc/readme
+      creating_doc/quick_starts/quick_start_build_doc
+      creating_doc/quick_starts/quick_start_rst
+      creating_doc/concepts/doc_guidelines
+      creating_doc/references/doc_templates
+      creating_doc/references/doc_checklist
+      creating_doc/references/readme
 
    .. link-button:: creating_doc/doc_home
        :type: ref

@@ -14,13 +14,15 @@ Quick Start: Add Documentation via Github
 .. note::
  :class: dropdown
 
- These instructions are for adding new documentation directly on GitHub.
+  These instructions are for adding new documentation directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
 
 
-1. Find the area where you want to add a new document
-*****************************************************
+1. Find Where To add a New Document
+************************************
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
+
+Review the :ref:`Documentation Audiences` and :ref:`Documentation Content Types` sections to determine where you addition should be located.
 
 #. Navigate to the folder where you want to create the new document.
 
@@ -37,8 +39,8 @@ The latest documentation is in the **main** branch of the `Open edX Documentatio
 The branch you created becomes active; you can now create or edit documentation.
 
 
-2. Add a New Document
-*********************
+2. Create the New Document
+***************************
 
 .. sidebar:: Create a Topic in GitHub
 
@@ -75,24 +77,4 @@ With your new branch active:
 3. Create a Pull Request
 **********************************
 
-.. sidebar:: Create a Pull Request in GitHub
-
-  .. thumbnail:: /_images/github_pr_tab.png
-
-When you are ready to have the Open edX team review your proposed documentation changes, you create a pull request.
-
-#. In the GitHub repository, open the Pull requests tab.
-
-#. Click :guilabel:`New pull request`.
-
-#. In the right-hand drop-down field, select the branch on which you made changes. Keep *main* selected for the left-hand drop-down field.
-
-   This indicates that you want to merge your branch into the *main* branch (the latest published documentation.)
-
-   Below the drop-down fields, GitHub shows the changes in your branch, compared to the *main* branch.
-
-#. Click :guilabel:`Create pull request`.
-
-#. In the pull request, add a description of your changes.
-
-The Open edX team will then review your changes. If they approve, they will merge the pull request, and you will see your changes in the latest documentation. The Open edX team may ask you to make further changes, to clarify the documentation or fix issues.
+.. include:: ../how-tos/reusable_content/create_pull_request.txt

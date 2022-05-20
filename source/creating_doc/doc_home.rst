@@ -2,28 +2,53 @@ Open edX Documentors
 =============================
 
 
-**Creating Documentation**
+.. panels::
 
-:doc:`quick_start_build_doc`
+   **Quick Starts**
 
-:doc:`doc_guidelines`
+   .. toctree::
+      :maxdepth: 1
 
-:doc:`doc_templates`
+      quick_starts/quick_start_build_doc
+      quick_starts/quick_start_rst
 
-:doc:`doc_checklist`
+   ---
 
-:doc:`readme`
+   **How-tos**
 
-:doc:`quickstart_rst`
+   .. toctree::
+      :maxdepth: 1
 
-
-.. toctree::
-   :glob:
-   :caption: HOW-TOs
-
-   how-tos/*
+      how-tos/update_doc_via_github
 
 
+    ---
+
+   **Common Concepts**
+
+   .. toctree::
+      :maxdepth: 1
+
+      concepts/doc_guidelines
+
+
+   ---
+
+   **Common References**
+
+   .. toctree::
+      :maxdepth: 1
+
+      references/doc_checklist.rst
+      references/doc_templates.rst
+      references/readme.rst
+
+
+    ---
+
+   **Video Demos**
+
+   * TBP
 
 
 

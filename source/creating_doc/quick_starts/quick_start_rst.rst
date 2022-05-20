@@ -1,7 +1,7 @@
-Quick Start: Writing RST
+Quick Start: Write RST
 ########################
 
-RST is very powerful, and flexible.  Below we provide a quick guide for how you
+RST is very powerful and flexible.  Below we provide a quick guide for how you
 can use it to write Open edX documentation.
 
 For more details check out the `RST Primer`_
@@ -28,7 +28,7 @@ Headings
 .. note::
    :class: dropdown
 
-   RST is very flexible: it will allow you to use almost any symbol to underline headings, as long as you're consistent between heading level. However, the way shown above is how headings should be defined in all Open edX documentation. 
+   RST is very flexible: it will allow you to use almost any symbol to underline headings, as long as you're consistent between heading levels. However, the way shown above is how headings should be defined in all Open edX documentation. 
 
 Text Markup
 ***********

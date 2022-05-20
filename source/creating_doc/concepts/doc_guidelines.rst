@@ -21,8 +21,8 @@ Open edX documentaiton is written in RST. In this topic, we show the basics of R
 
 We also recommend reviewing the `RST Primer`_ if you have questions.
 
-Audiences
-**********
+Documentation Audiences
+************************
 
 Open edX documentation is organized by the following audiences:
 
@@ -36,8 +36,8 @@ Open edX documentation is organized by the following audiences:
 
 When you develop new documentation, you should identify the audience(s) who need the information. Some platform changes may need you to address multiple audiences. For example, a new feature may require instructions for Site Operators to enable it, and for Educators to use it in a course.
 
-Content Types
-**************
+Documentation Content Types
+****************************
 
 To keep documentation streamlined and make it easy for users to find answers, we make each topic one of three types:
 
