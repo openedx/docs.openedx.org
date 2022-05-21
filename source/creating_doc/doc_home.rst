@@ -10,6 +10,7 @@ Open edX Documentors
       :maxdepth: 1
 
       quick_starts/quick_start_build_doc
+      quick_starts/update_doc_via_github
       quick_starts/quick_start_rst
 
    ---
@@ -19,7 +20,7 @@ Open edX Documentors
    .. toctree::
       :maxdepth: 1
 
-      how-tos/update_doc_via_github
+   
 
 
     ---
@@ -44,11 +45,7 @@ Open edX Documentors
       references/readme.rst
 
 
-    ---
-
-   **Video Demos**
-
-   * TBP
+    
 
 
 

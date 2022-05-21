@@ -9,3 +9,5 @@
 .. |Pencil Icon| image:: /_images/icon_pencil.png
 
 .. |GitHub Pencil| image:: /_images/github_pencil.png
+
+.. |GitHub Icon| image:: /_images/github_icon.png

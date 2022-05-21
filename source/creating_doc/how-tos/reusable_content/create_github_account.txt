@@ -1,3 +1,5 @@
+**Prerequisite**
+
 You need a GitHub account to create or edit documenation. You can `create a Github account here`_.
 
 .. _create a Github account here: https://github.com/signup

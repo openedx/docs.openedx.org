@@ -16,6 +16,9 @@ Quick Start: Add Documentation via Github
 
   These instructions are for adding new documentation directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
 
+  .. include:: ../how-tos/reusable_content/create_github_account.txt
+
+
 
 1. Find Where To add a New Document
 ************************************
