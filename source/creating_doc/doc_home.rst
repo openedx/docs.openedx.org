@@ -29,6 +29,7 @@ Open edX Documentors
       :maxdepth: 1
 
       references/doc_guidelines
+      references/doc_references
       references/doc_checklist
       references/doc_templates
       references/readme
