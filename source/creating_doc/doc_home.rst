@@ -20,18 +20,6 @@ Open edX Documentors
    .. toctree::
       :maxdepth: 1
 
-   
-
-
-    ---
-
-   **Common Concepts**
-
-   .. toctree::
-      :maxdepth: 1
-
-      concepts/doc_guidelines
-
 
    ---
 
@@ -40,9 +28,10 @@ Open edX Documentors
    .. toctree::
       :maxdepth: 1
 
-      references/doc_checklist.rst
-      references/doc_templates.rst
-      references/readme.rst
+      references/doc_guidelines
+      references/doc_checklist
+      references/doc_templates
+      references/readme
 
 
     

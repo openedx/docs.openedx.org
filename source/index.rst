@@ -121,7 +121,7 @@ Open edX Maple Release Documentation
       creating_doc/quick_starts/quick_start_build_doc
       creating_doc/quick_starts/quick_start_rst
       creating_doc/quick_starts/update_doc_via_github
-      creating_doc/concepts/doc_guidelines
+      creating_doc/references/doc_guidelines
       creating_doc/references/doc_templates
       creating_doc/references/doc_checklist
       creating_doc/references/readme

@@ -16,6 +16,8 @@ Guick Start: Update A Doc via GitHub
 
   These instructions are for adding new documentation directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
 
+  **Prerequisite**
+
   .. include:: ../how-tos/reusable_content/create_github_account.txt
 
 

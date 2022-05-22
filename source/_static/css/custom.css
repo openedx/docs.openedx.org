@@ -124,4 +124,7 @@ p.feedback a.reference .std-ref{
     margin: auto 2px;
 }
 
+details summary {
+  font-weight: 700;
+}
 
