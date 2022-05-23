@@ -120,7 +120,7 @@ Open edX Maple Release Documentation
 
       documentors/references/quick_reference_rst
       documentors/how-tos-home
-      documentors/doc_templates
+      documentors/references/doc_templates
       documentors/doc_checklist
       documentors/readme
 

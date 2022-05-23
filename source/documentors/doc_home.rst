@@ -6,8 +6,6 @@ Open edX Documentors
 
 :doc:`doc_guidelines`
 
-:doc:`doc_templates`
-
 :doc:`doc_checklist`
 
 :doc:`readme`
@@ -24,6 +22,7 @@ Open edX Documentors
    **References**
 
    * :doc:`references/quick_reference_rst`
+   * :doc:`references/doc_templates`
 
    .. link-button:: references-home
       :type: ref
