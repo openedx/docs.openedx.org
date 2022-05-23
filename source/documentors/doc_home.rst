@@ -12,8 +12,6 @@ Open edX Documentors
 
 :doc:`readme`
 
-:doc:`quickstart_rst`
-
 
 .. toctree::
    :glob:
@@ -25,7 +23,12 @@ Open edX Documentors
 
    **References**
 
-   * TBP
+   * :doc:`references/quick_reference_rst`
+
+   .. link-button:: references-home
+      :type: ref
+      :text: More Refeneces
+      :classes: btn-outline-primary btn-block
 
    ---
 

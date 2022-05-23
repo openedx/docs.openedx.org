@@ -118,7 +118,7 @@ Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Creating Documentation
 
-      documentors/quickstart_rst
+      documentors/references/quick_reference_rst
       documentors/how-tos-home
       documentors/doc_templates
       documentors/doc_checklist
