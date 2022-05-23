@@ -30,7 +30,7 @@ Open edX Maple Release Documentation
       Course Operators: Run a Course <course_ops/course_ops_quick_start>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/developers_quick_start>
-      Documentors: Add Documentation <documentors/quick_start_build_doc>
+      Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
 
    ---
 
