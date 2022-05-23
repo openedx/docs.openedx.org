@@ -16,16 +16,11 @@ Open edX Documentors
 
 :doc:`quickstart_rst`
 
+:doc:`how-tos-home`
+
 
 .. toctree::
    :glob:
-   :caption: HOW-TOs
+   :hidden:
 
-   how-tos/*
-
-
-
-
-
-
-
+   *

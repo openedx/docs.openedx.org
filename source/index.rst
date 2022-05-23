@@ -18,7 +18,7 @@ Open edX Maple Release Documentation
       Course Operators <course_ops/course_ops_home>
       Site Operators <site_ops/site_ops_home>
       Developers <developers/developers_home>
-      Documentators <creating_doc/doc_home>
+      Documentators <documentors/doc_home>
 
    ---
 
@@ -30,7 +30,7 @@ Open edX Maple Release Documentation
       Course Operators: Run a Course <course_ops/course_ops_quick_start>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/developers_quick_start>
-      Documentors: Add Documentation <creating_doc/quick_start_build_doc>
+      Documentors: Add Documentation <documentors/quick_start_build_doc>
 
    ---
 
@@ -118,14 +118,13 @@ Open edX Maple Release Documentation
       :maxdepth: 1
       :caption: Creating Documentation
 
-      creating_doc/quick_start_build_doc
-      creating_doc/quickstart_rst
-      creating_doc/doc_guidelines
-      creating_doc/doc_templates
-      creating_doc/doc_checklist
-      creating_doc/readme
+      documentors/quickstart_rst
+      documentors/how-tos-home
+      documentors/doc_templates
+      documentors/doc_checklist
+      documentors/readme
 
-   .. link-button:: creating_doc/doc_home
+   .. link-button:: documentors/doc_home
        :type: ref
        :text: Documentors' Home
        :classes: btn-outline-primary btn-block
