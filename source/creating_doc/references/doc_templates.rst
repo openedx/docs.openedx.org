@@ -17,22 +17,7 @@ Open edX Documentation uses hierarchical titles, indicated by the special charac
 
 Copy the following titles as needed.
 
-.. code-block:: RST
-
-  Heading 1s use the = character as an underline
-  ===============================================
-
-  There should be only 1 Heading 1 per topic, as the topic title.
-
-  Heading 2s use the * character as an underline
-  ***********************************************
-
-  Heading 2s denote the main sections of a topic.
-
-  Heading 3s use the + character as an underline
-  +++++++++++++++++++++++++++++++++++++++++++++++
-
-  Heading 3s denote subsections under Heading 2s
+.. include:: ../rst_samples/headings.txt
 
 .. note::
  :class: dropdown
@@ -136,6 +121,30 @@ Copy this codeblock to start a new how-to topic.
 	.. seealso::
 
 	  :ref:`title to link to`
+
+
+Add an Ordered List
+*********************
+
+Copy this codeblock to start an ordered (numbered) list.
+
+.. include:: ../rst_samples/ordered_lists.txt
+
+Add an Unordered List
+*********************
+
+Copy this codeblock to start an unordered (bulleted) list.
+
+.. include:: ../rst_samples/ordered_lists.txt
+
+Nested Lists
+*************
+
+You can mcan nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
+
+
+.. include:: ../rst_samples/nested_lists.txt
+
 
 Create a Reference
 *******************
@@ -275,13 +284,5 @@ RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also ma
 
 Copy this codeblock for inline formatting as needed.
 
-.. code-block:: RST
-
-   Use double asterisks for **bold** text.
-
-   Use single asterisks for *italic* text.
-
-   Use double backticks for ``mono-spaced`` text.
-
-   Use the guilabel role for :guilabel:`GUI elements`
+.. include:: ../rst_samples/inline.txt
 

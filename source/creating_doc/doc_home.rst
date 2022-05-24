@@ -6,33 +6,41 @@ Open edX Documentors
 
    **Quick Starts**
 
-   .. toctree::
-      :maxdepth: 1
+   :doc:`quick_starts/quick_start_build_doc`
+   :doc:`quick_starts/update_doc_via_github`
+   :doc:`quick_starts/quick_start_rst`
 
-      quick_starts/quick_start_build_doc
-      quick_starts/update_doc_via_github
-      quick_starts/quick_start_rst
-
-   ---
-
-   **How-tos**
-
-   .. toctree::
-      :maxdepth: 1
-
+   .. link-button:: quick_starts
+    :type: ref
+    :text: All Documentor Quick Starts
+    :classes: btn-outline-primary btn-block
 
    ---
 
-   **Common References**
+   **Concepts**
 
-   .. toctree::
-      :maxdepth: 1
+   :doc:`concepts/doc_audiences`
+   :doc:`concepts/content_types`
 
-      references/doc_guidelines
-      references/doc_references
-      references/doc_checklist
-      references/doc_templates
-      references/readme
+   .. link-button:: concepts
+    :type: ref
+    :text: All Documentor Concepts
+    :classes: btn-outline-primary btn-block
+
+   ___
+
+   **References**
+
+   :doc:`references/doc_guidelines`
+   :doc:`references/doc_links`
+   :doc:`references/doc_checklist`
+   :doc:`references/doc_templates`
+   :doc:`references/readme`
+
+   .. link-button:: references
+    :type: ref
+    :text: All Documentor References
+    :classes: btn-outline-primary btn-block
 
 
     

@@ -1,0 +1,9 @@
+.. code-block:: RST
+
+   #. Item 1
+                           # Need this blank line between items and sub-items
+      * Sub-item 1         # Sub-items also need to be indented by 3 or more spaces
+      * Sub-item 2
+
+   #. Item 2
+   

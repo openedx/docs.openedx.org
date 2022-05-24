@@ -1,0 +1,10 @@
+.. code-block:: RST
+
+   Use double asterisks for **bold** text.
+
+   Use single asterisks for *italic* text.
+
+   Use double backticks for ``mono-spaced`` text.
+
+   Use the guilabel role for :guilabel:`GUI elements`
+   

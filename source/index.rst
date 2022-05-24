@@ -116,15 +116,11 @@ Open edX Maple Release Documentation
 
    .. toctree::
       :maxdepth: 1
-      :caption: Enhancing Documentation
+      :caption: Documentors: Enhancing Documentation
 
-      creating_doc/quick_starts/quick_start_build_doc
-      creating_doc/quick_starts/quick_start_rst
-      creating_doc/quick_starts/update_doc_via_github
-      creating_doc/references/doc_guidelines
-      creating_doc/references/doc_templates
-      creating_doc/references/doc_checklist
-      creating_doc/references/readme
+      Quick Starts <creating_doc/quick_starts>
+      Concepts <creating_doc/concepts>
+      References <creating_doc/references>
 
    .. link-button:: creating_doc/doc_home
        :type: ref

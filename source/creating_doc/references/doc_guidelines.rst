@@ -1,4 +1,4 @@
-New Documentation Guidelines
+Getting Started
 ==============================
 
 If you have developed a new feature, created an XBlock, or otherwise see that a topic is missing in this documentation, you can create one or more new pages in this document and submit a pull request to have the content added.  Follow the guidelines below.
@@ -21,37 +21,11 @@ The Open edX team will review the proposed changes, collaborate with the author,
 RST
 ***
 
-Open edX documentaiton is written in RST. In this topic, we show the basics of RST, and we provide a :ref:`Documentation Templates` you can copy from to create a new documentation.
+Open edX documentaiton is written in RST. If you are not familiar with RST, we recommend going through :ref:`Quick Start: Write RST`.
+
+We also provide :ref:`Documentation Templates` you can copy from as you create a new documentation.
 
 We also recommend reviewing the `RST Primer`_ if you have questions.
-
-Documentation Audiences
-************************
-
-Open edX documentation is organized by the following audiences:
-
-* **Educators**, who build online courses using Studio.
-
-* **Course Operators**, who run online courses, using features in the LMS.
-
-* **Site Operators**, who install and configure Open edX.
-
-* **Developers**, who contribute new features or bug fixes to the core Open edX platform, or develop other components and XBlocks that integrate with the core platform.
-
-When you develop new documentation, you should identify the audience(s) who need the information. Some platform changes may need you to address multiple audiences. For example, a new feature may require instructions for Site Operators to enable it, and for Educators to use it in a course.
-
-Documentation Content Types
-****************************
-
-To keep documentation streamlined and make it easy for users to find answers, we make each topic one of three types:
-
-* **How-to** topics provide direct and easy-to-follow instructions to accomplish specific goals. For example, topics provide the steps to create a new course subsection and to schedule a course.
-
-* **Reference** topics provide details about a function or feature of Open edX. For example there are many details about course subsections such as the different publication states, grading configuration, and visibility that are not included in the how-to topic *Create a Subsection* but are fully described in the reference topic *Course Subsections*.  These two topics are linked in See Also sections.
-
-* **Concept** topics provide best practices or other guidelines for using Open edX. For example, the topics *Crafting Effective Learning Objectives* and *Aligning End-of-Module Assessments to Learning Objectives* are meant to provide guidelines for educators.
-
-When you are creating new documentation, you should identify which type(s) of topics you need to create.
 
 Get Started
 ************

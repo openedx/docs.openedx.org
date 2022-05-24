@@ -14,3 +14,5 @@
 
 .. _Open edX Documentation GitHub repository: https://github.com/openedx/docs.openedx.org
 
+.. _Sphinx Hyperlinks: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
+

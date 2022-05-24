@@ -11,58 +11,37 @@ For more details check out the `RST Primer`_
 Headings
 ********
 
-.. code-block:: RST
-
-   Heading 1
-   #########
-
-   Heading 2
-   *********
-
-   Heading 3
-   =========
-
-   Heading 4
-   ---------
+.. include:: ../rst_samples/headings.txt
 
 .. note::
    :class: dropdown
 
    RST is very flexible: it will allow you to use almost any symbol to underline headings, as long as you're consistent between heading levels. However, the way shown above is how headings should be defined in all Open edX documentation. 
 
-Text Markup
-***********
+Inline Markup
+***************
 
 RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also make GUI elements appear as :guilabel:`GUI elements`.
 
-.. code-block:: RST
-
-   Use double asterisks for **bold** text.
-
-   Use single asterisks for *italic* text.
-
-   Use double backticks for ``mono-spaced`` text.
-
-   Use the guilabel role for :guilabel:`GUI elements`
+.. include:: ../rst_samples/inline.txt
 
 Lists
 *****
 
-You can make numbered, and bulleted lists that can nest arbitrarily.
+You can make numbered, and bulleted lists that can nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
+
+
+.. include:: ../rst_samples/nested_lists.txt
+
+
+This codeblock is used for the following published list:
 
 #. Item 1
 
    * Sub-item 1
    * Sub-item 2
+
 #. Item 2
-
-.. code-block:: RST
-
-   #. Item 1
-                           # Need this blank line between items and sub-items
-      * Sub-item 1         # Sub-items also need to be indented by 3 or more spaces
-      * Sub-item 2
-   #. Item 2
 
 Linking
 *******

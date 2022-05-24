@@ -1,0 +1,12 @@
+.. code-block:: RST
+
+   *. Item 1
+
+      Content nested under Item 1.
+
+   *. Item 2
+   *. Item 3
+
+      Content nexted under Item 2.
+
+   *. Item 4
