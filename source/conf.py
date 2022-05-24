@@ -14,7 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import datetime
+from datetime import datetime
 import os
 import sys
 import urllib
@@ -24,7 +24,8 @@ import urllib
 # -- Project information -----------------------------------------------------
 
 project = ''
-copyright = '2022, The Center for Reimagining Learning'
+current_year = datetime.utcnow().year
+copyright = f'{current_year}, The Center for Reimagining Learning'
 
 
 
@@ -33,8 +34,8 @@ copyright = '2022, The Center for Reimagining Learning'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',  
-  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels', 
+extensions = ['sphinxcontrib.yt', 'sphinx.ext.autosectionlabel',
+  'sphinx_toolbox.collapse', 'sphinxcontrib.images', 'sphinx_panels',
   'sphinxcontrib.contentui', 'sphinx_togglebutton', 'sphinx_tabs.tabs',
   'sphinx_copybutton']
 
@@ -86,7 +87,7 @@ rst_epilog = """
 
 
 html_sidebars = {
-   
+
 }
 
 panels_add_bootstrap_css = False
@@ -101,13 +102,13 @@ html_theme_options = {
     "path_to_docs": "source",
     "logo_only": False,
     "home_page_in_toc": True,
-    "extra_navbar": 
+    "extra_navbar":
       "<hr/><br/><a class='external' href='https://openedx.atlassian.net/wiki/spaces' target='_blank'>Open edX Wiki</a><br/><a class='external' href='https://open.edx.org' target='_blank'>Open edX website</a>",
     "use_repository_button": True,
      "use_issues_button": True,
      "use_edit_page_button": True,
      "announcement":
-         "This is new Open edX documentation and is under development.",
+         "This is the new Open edX documentation root site and it is currently under development.",
 
 
 }
