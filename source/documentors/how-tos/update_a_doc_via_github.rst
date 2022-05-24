@@ -30,7 +30,7 @@ Prerequisites
 
 #. Make the necessary changes.
 
-   Ensure you keep to RST standards in file.  See the :doc:`../quickstart_rst` a quick reference to RST.
+   Ensure you keep to RST standards in file.  See the :doc:`../references/quick_reference_rst` a quick reference to RST.
 
 #. In the Commit Changes section at the bottom of the edit window:
 
