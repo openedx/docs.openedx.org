@@ -2,15 +2,6 @@ Open edX Documentors
 =============================
 
 
-**Creating Documentation**
-
-:doc:`doc_guidelines`
-
-:doc:`doc_checklist`
-
-:doc:`readme`
-
-
 .. toctree::
    :glob:
    :hidden:
@@ -40,3 +31,11 @@ Open edX Documentors
       :type: ref
       :text: More How-tos
       :classes: btn-outline-primary btn-block
+
+   ---
+
+   **Other Docs**
+
+   * :doc:`doc_guidelines`
+   * :doc:`doc_checklist`
+   * :doc:`readme`
