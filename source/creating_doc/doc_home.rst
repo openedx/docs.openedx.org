@@ -27,7 +27,7 @@ Open edX Documentors
     :text: All Documentor Concepts
     :classes: btn-outline-primary btn-block
 
-   ___
+   ---
 
    **References**
 
