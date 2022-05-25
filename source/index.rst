@@ -1,12 +1,5 @@
-.. Open edX Documentation documentation master file, created by
-   sphinx-quickstart on Sat Mar  5 09:29:38 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-
-
-Open edX Maple Release Documentation
-================================================
+Open edX Documentation
+======================
 
 .. panels::
 
@@ -18,7 +11,7 @@ Open edX Maple Release Documentation
       Course Operators <course_ops/course_ops_home>
       Site Operators <site_ops/site_ops_home>
       Developers <developers/developers_home>
-      Documentators <creating_doc/doc_home>
+      Documentators <documentors/doc_home>
 
    ---
 
@@ -30,7 +23,11 @@ Open edX Maple Release Documentation
       Course Operators: Run a Course <course_ops/course_ops_quick_start>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/developers_quick_start>
+<<<<<<< HEAD
       Documentors: Add Documentation <creating_doc/quick_starts/quick_start_build_doc>
+=======
+      Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
+>>>>>>> 18e36147892e56d493ac0eda0a333e0303da5c61
 
    ---
 
@@ -116,13 +113,23 @@ Open edX Maple Release Documentation
 
    .. toctree::
       :maxdepth: 1
+<<<<<<< HEAD
       :caption: Documentors: Enhancing Documentation
 
       Quick Starts <creating_doc/quick_starts>
       Concepts <creating_doc/concepts>
       References <creating_doc/references>
+=======
+      :caption: Creating Documentation
 
-   .. link-button:: creating_doc/doc_home
+      documentors/references/quick_reference_rst
+      documentors/how-tos-home
+      documentors/references/doc_templates
+      documentors/doc_checklist
+      documentors/readme
+>>>>>>> 18e36147892e56d493ac0eda0a333e0303da5c61
+
+   .. link-button:: documentors/doc_home
        :type: ref
        :text: Documentors' Home
        :classes: btn-outline-primary btn-block

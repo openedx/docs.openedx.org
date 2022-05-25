@@ -1,5 +1,10 @@
+<<<<<<< HEAD:source/documentors/quick_starts/quick_start_rst.rst
 Quick Start: Write RST
 ########################
+=======
+Quick Reference: Writing RST
+############################
+>>>>>>> 18e36147892e56d493ac0eda0a333e0303da5c61:source/documentors/references/quick_reference_rst.rst
 
 RST is very powerful and flexible.  Below we provide a quick guide for how you
 can use it to write Open edX documentation.
@@ -16,7 +21,11 @@ Headings
 .. note::
    :class: dropdown
 
+<<<<<<< HEAD:source/documentors/quick_starts/quick_start_rst.rst
    RST is very flexible: it will allow you to use almost any symbol to underline headings, as long as you're consistent between heading levels. However, the way shown above is how headings should be defined in all Open edX documentation. 
+=======
+   RST is very flexible: it will allow you to use almost any symbol to underline headings, as long as you're consistent between heading level. However, the way shown above is how headings should be defined in all Open edX documentation.
+>>>>>>> 18e36147892e56d493ac0eda0a333e0303da5c61:source/documentors/references/quick_reference_rst.rst
 
 Inline Markup
 ***************
