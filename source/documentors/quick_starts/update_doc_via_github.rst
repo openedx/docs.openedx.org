@@ -1,5 +1,5 @@
-Guick Start: Update A Doc via GitHub
-#####################################
+a- Quick Start: Update A Doc via GitHub
+########################################
 
 .. sidebar:: Edit Documentation Video Demo
 
@@ -21,8 +21,8 @@ Guick Start: Update A Doc via GitHub
   .. include:: ../how-tos/reusable_content/create_github_account.txt
 
 
-1. Edit a Topic
-*****************
+a- 1. Edit a Topic
+********************
 
 .. sidebar:: Edit a Topic in GitHub
 
@@ -35,7 +35,7 @@ Use the following instructions when you are viewing the published documentation 
 
 #. Make the necessary changes.
 
-   Ensure you keep to RST standards in file.  See the :doc:`../quick_starts/quick_start_rst` a quick reference to RST.
+   Ensure you keep to RST standards in file.  See the :doc:`../references/quick_reference_rst` a quick reference to RST.
 
 #. In the Commit Changes section at the bottom of the edit window:
 
@@ -43,7 +43,7 @@ Use the following instructions when you are viewing the published documentation 
 
    #. Click :guilabel:`Commit changes` to save these changes to your branch.
 
-2. Create a Pull Request
+a- 2. Create a Pull Request
 **********************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt

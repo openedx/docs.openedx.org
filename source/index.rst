@@ -23,11 +23,9 @@ Open edX Documentation
       Course Operators: Run a Course <course_ops/course_ops_quick_start>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/developers_quick_start>
-<<<<<<< HEAD
-      Documentors: Add Documentation <creating_doc/quick_starts/quick_start_build_doc>
-=======
+      Documentors: Add Documentation <documentors//quick_starts/quick_start_build_doc>
       Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
->>>>>>> 18e36147892e56d493ac0eda0a333e0303da5c61
+
 
    ---
 
@@ -113,21 +111,11 @@ Open edX Documentation
 
    .. toctree::
       :maxdepth: 1
-<<<<<<< HEAD
       :caption: Documentors: Enhancing Documentation
 
-      Quick Starts <creating_doc/quick_starts>
-      Concepts <creating_doc/concepts>
-      References <creating_doc/references>
-=======
-      :caption: Creating Documentation
-
-      documentors/references/quick_reference_rst
-      documentors/how-tos-home
-      documentors/references/doc_templates
-      documentors/doc_checklist
-      documentors/readme
->>>>>>> 18e36147892e56d493ac0eda0a333e0303da5c61
+      Quick Starts <documentors/quick_starts>
+      Concepts <documentors//concepts>
+      References <documentors//references>
 
    .. link-button:: documentors/doc_home
        :type: ref

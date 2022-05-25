@@ -21,7 +21,7 @@ The Open edX team will review the proposed changes, collaborate with the author,
 RST
 ***
 
-Open edX documentaiton is written in RST. If you are not familiar with RST, we recommend going through :ref:`Quick Start: Write RST`.
+Open edX documentaiton is written in RST. If you are not familiar with RST, we recommend going through :ref:`Quick Reference: Writing RST`.
 
 We also provide :ref:`Documentation Templates` you can copy from as you create a new documentation.
 

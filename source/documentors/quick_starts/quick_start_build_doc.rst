@@ -1,5 +1,5 @@
-Quick Start: Add Documentation via Github
-=========================================
+a-Quick Start: Add Documentation via Github
+============================================
 
 .. sidebar:: Add Documentation Video Demo
 
@@ -22,8 +22,8 @@ Quick Start: Add Documentation via Github
 
 
 
-1. Find Where To add a New Document
-************************************
+a- 1. Find Where To add a New Document
+***************************************
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
@@ -44,8 +44,8 @@ Review the :ref:`Documentation Audiences` and :ref:`Documentation Content Types`
 The branch you created becomes active; you can now create or edit documentation.
 
 
-2. Create the New Document
-***************************
+a- 2. Create the New Document
+******************************
 
 .. sidebar:: Create a Topic in GitHub
 
@@ -79,7 +79,7 @@ With your new branch active:
 
 
 
-3. Create a Pull Request
+a- 3. Create a Pull Request
 **********************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt

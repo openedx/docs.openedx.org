@@ -36,6 +36,6 @@ Open edX Documentors
 
    **Other Docs**
 
-   * :doc:`doc_guidelines`
-   * :doc:`doc_checklist`
+   * :doc:`references/doc_guidelines`
+   * :doc:`references/doc_checklist`
    * :doc:`readme`
