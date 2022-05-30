@@ -1,25 +1,17 @@
 
 
-.. sidebar:: Create a Pull Request in GitHub
+.. sidebar:: Pull Request in GitHub
 
   .. thumbnail:: /_images/github_pr_tab.png
 
-When you are ready to have the Open edX team review your proposed documentation changes, you create a pull request.
+#. In the Pull Request window, click :guilabel:`Create pull request`.
 
-#. Commit all changes you have made that you want to publish. 
+#. You should not need to change the branches selected. By default, you are requesting to merge the branch in your fork of the repository into the official repository's **main** branch.
 
-#. In the GitHub repository, open the Pull requests tab.
+#. Add a title for your pull request.
 
-#. Click :guilabel:`New pull request`.
-
-#. In the right-hand drop-down field, select the branch on which you made changes, if it's not already selected. Keep *main* selected for the left-hand drop-down field.
-
-   This indicates that you want to merge your branch into the *main* branch (the latest published documentation.)
-
-   Below the drop-down fields, GitHub shows the changes in your branch, compared to the *main* branch.
+#. Add a comment that explains your change to the Open edX team.
 
 #. Click :guilabel:`Create pull request`.
-
-#. In the pull request, add a description of your changes.
 
 The Open edX team will then review your changes. If they approve, they will merge the pull request, and you will see your changes in the latest documentation. The Open edX team may ask you to make further changes, to clarify the documentation or fix issues.

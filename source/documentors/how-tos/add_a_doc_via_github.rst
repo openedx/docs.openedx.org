@@ -1,5 +1,5 @@
-Quick Start: Add Documentation via Github
-=========================================
+1aQuick Start: Add Documentation via Github
+============================================
 
 .. sidebar:: Add Documentation Video Demo
 

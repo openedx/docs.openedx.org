@@ -23,7 +23,7 @@ Open edX Documentation
       Course Operators: Run a Course <course_ops/course_ops_quick_start>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/developers_quick_start>
-      Documentors: Add Documentation <documentors//quick_starts/quick_start_build_doc>
+      Documentors: Add Documentation <documentors//quick_starts/quick_start_add_doc>
       Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
 
 
@@ -114,8 +114,9 @@ Open edX Documentation
       :caption: Documentors: Enhancing Documentation
 
       Quick Starts <documentors/quick_starts>
-      Concepts <documentors//concepts>
-      References <documentors//references>
+      How-tos <documentors/how-tos>
+      Concepts <documentors/concepts>
+      References <documentors/references>
 
    .. link-button:: documentors/doc_home
        :type: ref

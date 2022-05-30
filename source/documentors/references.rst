@@ -6,11 +6,3 @@ Documentors: References
    :glob:
 
    references/*
-
-
-    
-
-
-
-
-
