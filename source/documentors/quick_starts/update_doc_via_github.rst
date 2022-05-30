@@ -1,4 +1,4 @@
-a- Quick Start: Update A Doc via GitHub
+Quick Start: Update Doc Through GitHub
 ########################################
 
 .. sidebar:: Edit Documentation Video Demo
@@ -14,14 +14,16 @@ a- Quick Start: Update A Doc via GitHub
 .. note::
  :class: dropdown
 
-  These instructions are for adding new documentation directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
+  These instructions are for editing documentation directly on GitHub. You can edit documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
 
-  **Prerequisite**
+  **Prerequisites**
 
   .. include:: ../how-tos/reusable_content/create_github_account.txt
 
+  .. include:: ../how-tos/reusable_content/sign_agreement.txt
 
-a- 1. Edit a Topic
+
+Edit a Topic
 ********************
 
 .. sidebar:: Edit a Topic in GitHub
@@ -37,14 +39,22 @@ Use the following instructions when you are viewing the published documentation 
 
    Ensure you keep to RST standards in file.  See the :doc:`../references/quick_reference_rst` a quick reference to RST.
 
-#. In the Commit Changes section at the bottom of the edit window:
+#. In the **Propose changes** section at the bottom of the edit window:
 
-   #. Add a comment about the changes you made.
+   #. Add a comment about the addition you made.
 
-   #. Click :guilabel:`Commit changes` to save these changes to your branch.
+   #. Optionally, add a longer description.
 
-a- 2. Create a Pull Request
-**********************************
+   #. Click :guilabel:`Propose changes` to save these changes to your fork.
+
+GitHub then creates a *fork* of the repository that belongs to your account.  A fork is a complete copy of the repository, plus your changes. For more information, see `Github Forks`_.
+
+GitHub then prompts you to create a pull request, which is a request for the Open edX team to integrate changes in your fork into the official repository.
+
+.. thumbnail:: /_images/github_new_pr_fork.png
+
+Create a Pull Request for Your Change
+**************************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
 

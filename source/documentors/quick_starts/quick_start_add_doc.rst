@@ -65,7 +65,7 @@ In the location where you should create the new topic:, with the **main** branch
 
    #. Optionally, add a longer description.
 
-   #. Click :guilabel:`Propose new file` to save these changes to your branch.
+   #. Click :guilabel:`Propose new file` to save these changes to your fork.
 
 GitHub then creates a *fork* of the repository that belongs to your account.  A fork is a complete copy of the repository, plus your changes. For more information, see `Github Forks`_.
 
@@ -73,7 +73,7 @@ GitHub then prompts you to create a pull request, which is a request for the Ope
 
 .. thumbnail:: /_images/github_new_pr_fork.png
 
-Create a Pull Request
-**********************************
+Create a Pull Request for the New Topic
+****************************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
