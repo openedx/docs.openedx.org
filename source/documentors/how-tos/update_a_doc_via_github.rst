@@ -1,4 +1,4 @@
-How-To: Update A Doc via GitHub
+Update A Doc via GitHub
 ###############################
 
 This how-to will take you through the process of submitting an update to a page
