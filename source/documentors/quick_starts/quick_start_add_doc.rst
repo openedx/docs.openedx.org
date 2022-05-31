@@ -1,5 +1,5 @@
-Quick Start: Add Documentation via Github
-##########################################
+Quick Start: Add Documentation Through Github
+##############################################
 
 .. sidebar:: Add Documentation Video Demo
 
@@ -11,10 +11,6 @@ Quick Start: Add Documentation via Github
   :local:
   :class: no-bullets
 
-.. note::
-  :class: dropdown
-
-  These instructions are for adding new topics directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
 
 **Prerequisites**
 

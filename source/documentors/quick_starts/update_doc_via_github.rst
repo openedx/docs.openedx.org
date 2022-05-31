@@ -11,16 +11,11 @@ Quick Start: Update Doc Through GitHub
   :local:
   :class: no-bullets
 
-.. note::
- :class: dropdown
+**Prerequisites**
 
-  These instructions are for editing documentation directly on GitHub. You can edit documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
+.. include:: ../how-tos/reusable_content/create_github_account.txt
 
-  **Prerequisites**
-
-  .. include:: ../how-tos/reusable_content/create_github_account.txt
-
-  .. include:: ../how-tos/reusable_content/sign_agreement.txt
+.. include:: ../how-tos/reusable_content/sign_agreement.txt
 
 
 Edit a Topic
