@@ -1,5 +1,5 @@
 Quick Start: Build a Course
-====================================
+############################
 
 .. sidebar:: Create Course Video Demo
 

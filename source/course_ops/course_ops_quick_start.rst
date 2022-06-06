@@ -3,7 +3,7 @@
 
 
 Course Ops: Quick Start
-======================================
+##########################
 
 .. contents:: Main Tasks
  :local:

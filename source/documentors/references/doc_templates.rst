@@ -1,5 +1,5 @@
 Documentation Templates
-=========================
+##########################
 
 This page contains templates that you can copy directly and use to develop new topics.
 
