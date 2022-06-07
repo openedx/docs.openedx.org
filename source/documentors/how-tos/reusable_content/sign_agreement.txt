@@ -1,0 +1,3 @@
+
+
+To contribute to Open edX documentation, you must have a signed conbtributor agreement. For more information, see `How to start contributing to the Open edX code base`_.

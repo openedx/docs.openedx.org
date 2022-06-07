@@ -4,7 +4,7 @@ How Tos
 
 .. toctree::
    :glob:
-   :caption: HOW-TOs
+   :maxdepth: 1
 
    how-tos/*
 

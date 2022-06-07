@@ -1,0 +1,22 @@
+
+.. code-block:: RST
+
+   Heading 1
+   #########
+
+   There should be only 1 Heading 1 per topic, as the topic title.
+
+   Heading 2
+   *********
+
+   Heading 2s denote the main sections of a topic.
+
+   Heading 3
+   =========
+
+   Heading 3s denote subsections under Heading 2s
+
+   Heading 4
+   ---------
+
+   Heading 4s denote subsections under Heading 3s
