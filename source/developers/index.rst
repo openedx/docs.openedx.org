@@ -8,7 +8,11 @@ Open edX Developers
 
    * :doc:`/developers/quickstarts/setup_an_mfe_dev_environment`
    * :doc:`/developers/quickstarts/setup_a_backend_dev_environment`
-   * :doc:`quickstarts/quickstarts_home`
+
+   .. link-button:: quickstarts/index
+       :type: ref
+       :text: Quickstarts
+       :classes: btn-outline-primary btn-block
 
    ---
 
@@ -22,7 +26,12 @@ Open edX Developers
 
    * :doc:`how-tos/updating_a_setting_in_edx_platform`
    * :doc:`how-tos/build_an_mfe_for_production`
-   * :doc:`how-tos/how-tos-home`
+
+   .. link-button:: how-tos/index
+       :type: ref
+       :text: How-To Guides
+       :classes: btn-outline-primary btn-block
+
 
    ---
 
@@ -32,7 +41,12 @@ Open edX Developers
    * :doc:`concepts/arch_overview`
    * :doc:`concepts/backend_layout_and_approach`
    * :doc:`concepts/frontend_approach`
-   * :doc:`concepts/concepts_home`
+
+   .. link-button:: concepts/index
+       :type: ref
+       :text: More Concepts
+       :classes: btn-outline-primary btn-block
+
 
    ---
 
