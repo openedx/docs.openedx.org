@@ -1,5 +1,5 @@
 Educators: How-tos
-==================================
+##################################
 
 .. panels::
 
@@ -99,7 +99,7 @@ Educators: How-tos
          how-tos/set_access_restrictions_on_component
 
       ---
-       
+
       .. toctree::
          :maxdepth: 1
          :caption: Set Up Grading

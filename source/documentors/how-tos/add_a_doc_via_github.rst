@@ -1,5 +1,5 @@
 Add Documentation via Github
-============================================
+############################################
 
 .. sidebar:: Add Documentation Video Demo
 

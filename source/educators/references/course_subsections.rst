@@ -1,5 +1,5 @@
 Course Subsections
-=====================
+#####################
 
 
 What Is a Subsection?
@@ -7,7 +7,7 @@ What Is a Subsection?
 
 .. sidebar:: Course Outline with Subsections
 
-  |Image Sidebar Click| 
+  |Image Sidebar Click|
 
   .. thumbnail:: /_images/Educators_course_outline_subsection.png
 
@@ -18,9 +18,9 @@ Subsections are divided into subsections, which in turn contain one or more unit
 Subsections and Visibility to Learners
 ***************************************
 
-You can set subsections to release at the same time as the containing section, or after. 
+You can set subsections to release at the same time as the containing section, or after.
 
-You can hide a subsection so that the subsection and its units are not visible to learners at all in the course navigation, or you can hide the contents of a subsection after the subsection due date has passed. 
+You can hide a subsection so that the subsection and its units are not visible to learners at all in the course navigation, or you can hide the contents of a subsection after the subsection due date has passed.
 
 Learners can only see content in a subsection when the subsection’s release date has passed and each of the following conditions is met:
 
@@ -95,13 +95,13 @@ Graded Subsections
 
 .. sidebar:: Subsection Settings Basics tab
 
-  |Image Sidebar Click| 
+  |Image Sidebar Click|
 
   .. thumbnail:: /_images/Educators_subsection_settings_basic.png
 
 Grading in your course is based on subsections. When you have configured grading, you then associate assignment types with subsections
 
-When you set the assignment type for a subsection, all problems in the subsection are graded and weighted as a single type. For example, if you designate the assignment type for a subsection as Homework, then all problem types in that subsection are graded as homework. 
+When you set the assignment type for a subsection, all problems in the subsection are graded and weighted as a single type. For example, if you designate the assignment type for a subsection as Homework, then all problem types in that subsection are graded as homework.
 
 Therefore you should design you course so as not to mix assignment types in one subsection. For example, you cannot have graded homework and a quiz in the same subsection.
 
@@ -110,14 +110,14 @@ Problem Results Visibility
 
 .. sidebar:: Subsection Settings Visibility tab
 
-  |Image Sidebar Click| 
+  |Image Sidebar Click|
 
   .. thumbnail:: ../../_images/Educators_subsection_settings_visibility.png
 
 By default, when learners submit answers to problems, they immediately receive the results of the problem: whether they answered the problem correctly, as well as their scores. However, you might want to temporarily hide problem results from learners when you run an exam, or permanently hide results when you administer a survey. You can do this by using the Assessment Results Visibility setting, in the subsection's Settings dialog box.
 
 
-.. seealso:: 
+.. seealso::
  :class: dropdown
 
   :ref:`Create a Subsection` (task)

@@ -1,5 +1,5 @@
 Concepts Home
-=============
+#############
 
 .. toctree::
    :glob:

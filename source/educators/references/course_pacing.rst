@@ -1,5 +1,5 @@
 Course Pacing
-=====================
+#####################
 
 
 
@@ -14,7 +14,7 @@ Setting Course Pacing
     .. thumbnail:: /_images/Educators_course_pacing.png
 
 
-You can set a schedule for your course, including when content is released and due dates for assignments. You can allow learners to work at their own pace, as long as they complete the course within the course run time period. 
+You can set a schedule for your course, including when content is released and due dates for assignments. You can allow learners to work at their own pace, as long as they complete the course within the course run time period.
 
 Instructor-Paced Courses
 *****************************
