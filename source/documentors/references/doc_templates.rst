@@ -1,5 +1,5 @@
 Documentation Templates
-=========================
+#########################
 
 This page contains templates that you can copy directly and use to develop new topics.
 
@@ -33,7 +33,7 @@ If you have a long topic with meaning Heading 2s, you can use the **contents** d
 Copy the contents directive as needed.
 
 .. code-block:: RST
-  
+
 	Topic Title
 	============
 
@@ -55,7 +55,7 @@ You can nest sections in the topic as needed, to give it structure and break it 
 Copy the Topic and Section Structure as needed
 
 .. code-block:: RST
-  
+
 	Topic Title
 	============
 
@@ -217,7 +217,7 @@ Copy this codeblock to add a new sidebar topic.
 
 .. code-block:: RST
 
-  .. sidebar:: Sample Sidebar 
+  .. sidebar:: Sample Sidebar
 
     Any content, typically an image, video, or note.
 
@@ -231,7 +231,7 @@ You can also add an image directly, or add a thumbnail of an larger image, which
 You must save images in the ``source/_images`` directory before adding a reference to it in a topic.
 
 Add an Image on its Own Line
-+++++++++++++++++++++++++++++
+=============================
 
 Copy this codeblock to an iamge on its own line.
 
@@ -246,7 +246,7 @@ Copy this codeblock to an iamge on its own line.
   .. thumbnail:: /_images/image-file-name
 
 Add an Image Inline
-++++++++++++++++++++
+====================
 
 To add an image inline, you must first create a substitution for the image in the subsitutions.txt file.
 
@@ -263,7 +263,7 @@ You then add the *variable name* inline in the topic.
   A line of text with an |variable name| inserted.
 
 Add an Thumbnail in a Sidebar
-++++++++++++++++++++++++++++++
+==============================
 
 You can add a thumbnail in a sidebar, a common practice for How-to topics.
 

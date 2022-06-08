@@ -1,5 +1,5 @@
 Documentation Checklist
-=============================
+#############################
 
 This page lists items you should check when you are creating new documentation. We recommend reviewing this list before you create a pull request.
 
@@ -81,7 +81,7 @@ Then referenced in topics as:
 
   `Link Name_`
 
-.. note::  
+.. note::
  :class: dropdown
 
  Each ``Link Name`` in the entire documentation project must be unique.

@@ -31,10 +31,10 @@ For internal links that use text other than the heading for the section that you
 
 In this example, **link to a different section** is the link text, and **Cross-References to Locations in the Same Document** is the heading text.
 
-Use a Custom Anchor 
+Use a Custom Anchor
 ====================
 
-When you have two sections with the same title in a project, you will get build errors when you have a link to either section, because Sphinx does not know which section to link to. 
+When you have two sections with the same title in a project, you will get build errors when you have a link to either section, because Sphinx does not know which section to link to.
 
 In this case, you can create a custom *anchor* directly above the title and link to it, instead of the title itself. For example, if you have a section called **Overview** in each part of your document, you should add a more specific anchor above the section heading.
 
@@ -93,7 +93,7 @@ As a best practice, to avoid duplication, in Open edX documentation, all links a
 
 TO VERIFY
 
-Test External Links 
+Test External Links
 =========================
 
 You can use the built-in Sphinx command, ``checklinks`` to test all external
@@ -103,7 +103,7 @@ at the given URL and reports any errors.
 Add the following code to the project ``Makefile``:
 
 .. code-block:: bash
-  
+
   LINKCHECKDIR  = build/linkcheck
 
   .PHONY: checklinks
@@ -115,7 +115,7 @@ Add the following code to the project ``Makefile``:
 Then, from the command window, enter:
 
 .. code-block:: bash
-  
+
   make checklinks
 
 Sphinx compiles the document and tests all links. It shows the results in the

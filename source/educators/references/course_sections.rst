@@ -1,5 +1,5 @@
 Course Sections
-=====================
+#####################
 
 
 What Is a Section?
@@ -7,7 +7,7 @@ What Is a Section?
 
 .. sidebar:: Course Outline with a section
 
-  |Image Sidebar Click| 
+  |Image Sidebar Click|
 
   .. thumbnail:: /_images/Educators_course_outline_section.png
 

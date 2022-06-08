@@ -1,5 +1,5 @@
 Course Dates
-=====================
+#####################
 
 
 
@@ -15,7 +15,7 @@ Start Date and Time
 
 The course start date and time specify when learners can access published course content. When you :ref:`Create a Course`, the course start date and time are set to 01/01/2030 at 00:00 UTC to ensure that your course does not start before you intend it to.
 
-Although learners cannot access any part of your course before the course start date, course team members who are enrolled in the course and who have the staff, admin, or beta tester role can see published content in the course before the course start date. 
+Although learners cannot access any part of your course before the course start date, course team members who are enrolled in the course and who have the staff, admin, or beta tester role can see published content in the course before the course start date.
 
 End Date and Time
 *********************

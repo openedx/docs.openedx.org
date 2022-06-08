@@ -1,6 +1,6 @@
 
 ReadMe
-===========================
+###########################
 
 The docs.openedx.org repository contains source files for the `Open edX Documentation`_ site. This repository is
 managed by the Open edX team.
