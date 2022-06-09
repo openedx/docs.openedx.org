@@ -4,9 +4,14 @@ Open edX Educators
 
 .. panels::
 
-   **Quick Starts**
+   **Quickstarts**
 
-   * :doc:`quick_starts/build_a_course`
+   * :doc:`quickstarts/build_a_course`
+
+   .. link-button:: quickstarts/index
+    :type: ref
+    :text: More Quickstarts
+    :classes: btn-outline-primary btn-block
 
     ---
 
@@ -23,7 +28,7 @@ Open edX Educators
    * :doc:`how-tos/add_youtube_video`
    * :doc:`how-tos/add_course_creators`
 
-   .. link-button:: how_tos
+   .. link-button:: how-tos/index
     :type: ref
     :text: All Educator How-tos
     :classes: btn-outline-primary btn-block
@@ -37,7 +42,7 @@ Open edX Educators
    * :doc:`concepts/aligning_assessments_to_objectives`
 
 
-   .. link-button:: concepts
+   .. link-button:: concepts/index
     :type: ref
     :text: All Educator Concepts
     :classes: btn-outline-primary btn-block
@@ -52,7 +57,7 @@ Open edX Educators
 
    * :doc:`references/complex_problem_types`
 
-   .. link-button:: reference
+   .. link-button:: references/index
     :type: ref
     :text: All Educator References
     :classes: btn-outline-primary btn-block
@@ -63,7 +68,7 @@ Open edX Educators
 
    * TBP
 
-   .. link-button:: how_tos
+   .. link-button:: how-tos/index
     :type: ref
     :text: All Educator Videos
     :classes: btn-outline-primary btn-block

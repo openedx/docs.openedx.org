@@ -7,7 +7,7 @@ Open edX Documentation
       :maxdepth: 1
       :caption: User Home Pages
 
-      Educators <educators/educators_home>
+      Educators <educators/index>
       Course Operators <course_ops/index>
       Site Operators <site_ops/site_ops_home>
       Developers <developers/index>
@@ -19,7 +19,7 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Quick Starts
 
-      Educators: Build a Course <educators/quick_starts/build_a_course>
+      Educators: Build a Course <educators/quickstarts/build_a_course>
       Course Operators: Run a Course <course_ops/quickstarts/index>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/quickstarts/index>
@@ -44,12 +44,13 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Educators: Build an Open edX Course
 
-      educators/quick_starts/build_a_course
-      How-tos <educators/how_tos>
-      Concepts <educators/concepts>
-      Reference <educators/reference>
+      educators/quickstarts/build_a_course
+      Quickstarts <educators/quickstarts/index>
+      How-tos <educators/how-tos/index>
+      Concepts <educators/concepts/index>
+      Reference <educators/references/index>
 
-   .. link-button:: educators/educators_home
+   .. link-button:: educators/index
        :type: ref
        :text: Educators' Home
        :classes: btn-outline-primary btn-block

@@ -6,4 +6,4 @@ Educators: References
    :caption: References
    :glob:
 
-   references/*
+   *
