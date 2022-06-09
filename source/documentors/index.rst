@@ -6,11 +6,11 @@ Open edX Documentors
 
    **Quick Starts**
 
-   * :doc:`quick_starts/quick_start_add_doc`
-   * :doc:`quick_starts/update_doc_via_github`
+   * :doc:`quickstarts/quick_start_add_doc`
+   * :doc:`quickstarts/update_doc_via_github`
 
 
-   .. link-button:: quick_starts
+   .. link-button:: quickstarts/index
       :type: ref
       :text: All Quick Starts
       :classes: btn-outline-primary btn-block
@@ -24,7 +24,7 @@ Open edX Documentors
    * :doc:`references/doc_templates`
    * :doc:`references/doc_checklist`
 
-   .. link-button:: references
+   .. link-button:: references/index
       :type: ref
       :text: All Refeneces
       :classes: btn-outline-primary btn-block
@@ -36,7 +36,7 @@ Open edX Documentors
    * :doc:`how-tos/update_a_doc_via_github`
    * :doc:`how-tos/add_a_doc_via_github`
 
-   .. link-button:: how-tos
+   .. link-button:: how-tos/index
       :type: ref
       :text: All How-tos
       :classes: btn-outline-primary btn-block

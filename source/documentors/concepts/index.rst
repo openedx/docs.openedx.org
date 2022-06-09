@@ -5,7 +5,7 @@ Documentors: Concepts
    :maxdepth: 1
    :glob:
 
-   concepts/*
+   *
 
 
 

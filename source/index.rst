@@ -11,7 +11,7 @@ Open edX Documentation
       Course Operators <course_ops/index>
       Site Operators <site_ops/site_ops_home>
       Developers <developers/index>
-      Documentators <documentors/doc_home>
+      Documentators <documentors/index>
 
    ---
 
@@ -23,7 +23,7 @@ Open edX Documentation
       Course Operators: Run a Course <course_ops/quickstarts/index>
       Site Operators: Set up Open edX <site_ops/set_up_quick_start>
       Developers: Contribute to Open edX <developers/quickstarts/index>
-      Documentors: Add Documentation <documentors/quick_starts/quick_start_add_doc>
+      Documentors: Add Documentation <documentors/quickstarts/quick_start_add_doc>
       Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
 
 
@@ -113,12 +113,12 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Documentors: Enhancing Documentation
 
-      Quick Starts <documentors/quick_starts>
-      How-tos <documentors/how-tos>
-      Concepts <documentors/concepts>
-      References <documentors/references>
+      Quick Starts <documentors/quickstarts/index>
+      How-tos <documentors/how-tos/index>
+      Concepts <documentors/concepts/index>
+      References <documentors/references/index>
 
-   .. link-button:: documentors/doc_home
+   .. link-button:: documentors/index
        :type: ref
        :text: Documentors' Home
        :classes: btn-outline-primary btn-block
