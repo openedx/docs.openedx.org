@@ -6,6 +6,6 @@ How Tos
    :glob:
    :maxdepth: 1
 
-   how-tos/*
+   *
 
 

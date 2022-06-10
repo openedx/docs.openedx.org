@@ -17,7 +17,7 @@ Open edX Documentation uses hierarchical titles, indicated by the special charac
 
 Copy the following titles as needed.
 
-.. include:: ../rst_samples/headings.txt
+.. include:: ../references/rst_samples/headings.txt
 
 .. note::
  :class: dropdown
@@ -128,22 +128,22 @@ Add an Ordered List
 
 Copy this codeblock to start an ordered (numbered) list.
 
-.. include:: ../rst_samples/ordered_lists.txt
+.. include:: ../references/rst_samples/ordered_lists.txt
 
 Add an Unordered List
 *********************
 
 Copy this codeblock to start an unordered (bulleted) list.
 
-.. include:: ../rst_samples/ordered_lists.txt
+.. include:: ../references/rst_samples/ordered_lists.txt
 
 Nested Lists
 *************
 
-You can mcan nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
+You can nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
 
 
-.. include:: ../rst_samples/nested_lists.txt
+.. include:: ../references/rst_samples/nested_lists.txt
 
 
 Create a Reference
@@ -284,5 +284,5 @@ RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also ma
 
 Copy this codeblock for inline formatting as needed.
 
-.. include:: ../rst_samples/inline.txt
+.. include:: ../references/rst_samples/inline.txt
 

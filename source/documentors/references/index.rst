@@ -1,19 +1,8 @@
-Documentors: Quick Starts
+Documentors: References
 #############################
-
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   quick_starts/*
-
-
-
-
-
-
-
-
-
-
+   *

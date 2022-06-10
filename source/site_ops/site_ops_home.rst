@@ -1,3 +1,0 @@
-Open edX Site Operators
-########################
-

@@ -7,11 +7,11 @@ Open edX Documentation
       :maxdepth: 1
       :caption: User Home Pages
 
-      Educators <educators/educators_home>
-      Course Operators <course_ops/course_ops_home>
-      Site Operators <site_ops/site_ops_home>
+      Educators <educators/index>
+      Course Operators <course_ops/index>
+      Site Operators <site_ops/index>
       Developers <developers/index>
-      Documentators <documentors/doc_home>
+      Documentators <documentors/index>
 
    ---
 
@@ -19,11 +19,11 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Quick Starts
 
-      Educators: Build a Course <educators/quick_starts/build_a_course>
-      Course Operators: Run a Course <course_ops/course_ops_quick_start>
-      Site Operators: Set up Open edX <site_ops/set_up_quick_start>
+      Educators: Build a Course <educators/quickstarts/build_a_course>
+      Course Operators: Run a Course <course_ops/quickstarts/index>
+      Site Operators: Set up Open edX <site_ops/quickstarts/index>
       Developers: Contribute to Open edX <developers/quickstarts/index>
-      Documentors: Add Documentation <documentors/quick_starts/quick_start_add_doc>
+      Documentors: Add Documentation <documentors/quickstarts/quick_start_add_doc>
       Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
 
 
@@ -44,12 +44,13 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Educators: Build an Open edX Course
 
-      educators/quick_starts/build_a_course
-      How-tos <educators/how_tos>
-      Concepts <educators/concepts>
-      Reference <educators/reference>
+      educators/quickstarts/build_a_course
+      Quickstarts <educators/quickstarts/index>
+      How-tos <educators/how-tos/index>
+      Concepts <educators/concepts/index>
+      Reference <educators/references/index>
 
-   .. link-button:: educators/educators_home
+   .. link-button:: educators/index
        :type: ref
        :text: Educators' Home
        :classes: btn-outline-primary btn-block
@@ -62,12 +63,12 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Course Operators: Run Open edX
 
-      course_ops/course_ops_quick_start
-      How-tos <course_ops/how_tos>
-      Concepts <course_ops/concepts>
-      References <course_ops/reference>
+      course_ops/quickstarts/index
+      How-tos <course_ops/how-tos/index>
+      Concepts <course_ops/concepts/index>
+      References <course_ops/references/index>
 
-   .. link-button:: course_ops/course_ops_home
+   .. link-button:: course_ops/index
        :type: ref
        :text: Course Operators' Home
        :classes: btn-outline-primary btn-block
@@ -78,12 +79,12 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Site Operators: Set Up Open edX
 
-      site_ops/set_up_quick_start
-      How-tos <site_ops/how_tos>
-      Concepts <site_ops/concepts>
-      Reference <site_ops/reference>
+      site_ops/quickstarts/index
+      How-tos <site_ops/how-tos/index>
+      Concepts <site_ops/concepts/index>
+      Reference <site_ops/references/index>
 
-   .. link-button:: site_ops/site_ops_home
+   .. link-button:: site_ops/index
        :type: ref
        :text: Site Operators' Home
        :classes: btn-outline-primary btn-block
@@ -113,12 +114,12 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Documentors: Enhancing Documentation
 
-      Quick Starts <documentors/quick_starts>
-      How-tos <documentors/how-tos>
-      Concepts <documentors/concepts>
-      References <documentors/references>
+      Quick Starts <documentors/quickstarts/index>
+      How-tos <documentors/how-tos/index>
+      Concepts <documentors/concepts/index>
+      References <documentors/references/index>
 
-   .. link-button:: documentors/doc_home
+   .. link-button:: documentors/index
        :type: ref
        :text: Documentors' Home
        :classes: btn-outline-primary btn-block

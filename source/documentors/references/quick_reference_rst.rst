@@ -11,7 +11,7 @@ For more details check out the `RST Primer`_
 Headings
 ********
 
-.. include:: ../rst_samples/headings.txt
+.. include:: ../references/rst_samples/headings.txt
 
 .. note::
    :class: dropdown
@@ -24,7 +24,7 @@ Inline Markup
 
 RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also make GUI elements appear as :guilabel:`GUI elements`.
 
-.. include:: ../rst_samples/inline.txt
+.. include:: ../references/rst_samples/inline.txt
 
 Lists
 *****
@@ -32,7 +32,7 @@ Lists
 You can make numbered, and bulleted lists that can nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
 
 
-.. include:: ../rst_samples/nested_lists.txt
+.. include:: ../references/rst_samples/nested_lists.txt
 
 
 This codeblock is used for the following published list:

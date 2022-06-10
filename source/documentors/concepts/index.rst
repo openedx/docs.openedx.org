@@ -1,9 +1,16 @@
-Educators: References
+Documentors: Concepts
 #############################
 
 .. toctree::
    :maxdepth: 1
-   :caption: References
    :glob:
 
-   references/*
+   *
+
+
+
+
+
+
+
+
