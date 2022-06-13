@@ -131,4 +131,5 @@ Open edX Documentation
       :caption: Other Topics
 
       other/feedback
+      other/getting_help
 
