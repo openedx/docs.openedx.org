@@ -13,3 +13,8 @@ The community also has a `slack workspace
 tasks.If you need help, we recommend posting in the forums over posting in
 slack.  The forums retain more history and tend to get more thoughtful
 responses.
+
+.. note::
+
+   The Open edX community has agreed apon a shared `code of conduct
+   <https://openedx.org/code-of-conduct/>`_, be sure to review it.
