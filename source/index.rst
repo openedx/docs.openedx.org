@@ -130,6 +130,5 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Other Topics
 
-      feedback
-      support_learners/quick_start
+      other/feedback
 
