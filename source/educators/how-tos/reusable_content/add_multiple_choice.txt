@@ -1,7 +1,10 @@
+.. sidebar:: Add Multiple Choice Problem
 
-.. sidebar:: Add Image
+   .. thumbnail:: /_images/Educators_add_multiple_choice.png
 
-   TBP
+.. sidebar:: Edit Multiple Choice Problem
+
+   .. thumbnail:: /_images/Educators_edit_multiple_choice.png
 
 
 #. In the unit where you want to place the text, select :guilabel:`Problem` at the bottom of the page.
@@ -18,11 +21,12 @@
 
    .. code-block::
 
-     >>The question<<
+     >>Add the question text, or prompt, here. This text is required.
+     ||You can add an optional tip or note related to the prompt like this. <<
 
-     ( ) An incorrect answer
-     (x) A correct answer
-     ( ) An incorrect answers
+     ( ) an incorrect answer
+     (x) the correct answer
+     ( ) an incorrect answer
 
 #. To enter a display name for the problem, select :guilabel:`Settings`, and then enter text in the :guilabel:`Display Name` field.
 

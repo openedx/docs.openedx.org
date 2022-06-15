@@ -1,7 +1,11 @@
 
-.. sidebar:: Add Image
+.. sidebar:: Add Text
 
-   TBP
+   .. thumbnail:: /_images/Educators_add_text.png
+
+.. sidebar:: Edit Text
+
+   .. thumbnail:: /_images/Educators_edit_text.png 
 
 
 #. In the unit where you want to place the text, select :guilabel:`Text` at the bottom of the page.

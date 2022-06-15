@@ -1,7 +1,11 @@
 
-.. sidebar:: Add visual
+.. sidebar:: Add Video
 
-   TBP
+   .. thumbnail:: /_images/Educators_add_video.png
+
+.. sidebar:: Edit Video
+
+   .. thumbnail:: /_images/Educators_video_edit.png
 
 .. note::
   :class: dropdown
@@ -11,7 +15,7 @@
 
 #. Copy the video URL from YouTube.
 
-#. In the unit where you want to place the video, select Video at the bottom of the page.
+#. In the unit where you want to place the video, under **Add New Component** select :guilabel:`Video`.
 
    A video with default settings is added to the unit.
 
@@ -22,7 +26,7 @@
    .. note::
     :class: dropdown
 
-     This name appears as a heading above the video in the LMS, and it identifies the video for you in Insights. If you do not enter a display name, the platform specifies “video” for you.
+    This name appears as a heading above the video in the LMS, and it identifies the video for you in Insights. If you do not enter a display name, the platform specifies “video” for you.
 
 #. Paste the video URL in the default Video URL field, and then enter the location of your video. This is the URL that was created when you uploaded the video to the hosting site.
 
