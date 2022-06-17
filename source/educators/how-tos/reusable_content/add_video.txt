@@ -1,0 +1,53 @@
+
+.. sidebar:: Add Video
+
+   .. thumbnail:: /_images/Educators_add_video.png
+
+.. sidebar:: Edit Video
+
+   .. thumbnail:: /_images/Educators_video_edit.png
+
+.. note::
+  :class: dropdown
+
+  These instructions assume you have uploaded the video to YouTube.
+
+
+#. Copy the video URL from YouTube.
+
+#. In the unit where you want to place the video, under **Add New Component** select :guilabel:`Video`.
+
+   A video with default settings is added to the unit.
+
+#. In the video block, click Edit.
+
+#. In the **Component Display Name** field, enter the name that you want learners to see for this video.
+
+   .. note::
+    :class: dropdown
+
+    This name appears as a heading above the video in the LMS, and it identifies the video for you in Insights. If you do not enter a display name, the platform specifies “video” for you.
+
+#. Paste the video URL in the default Video URL field, and then enter the location of your video. This is the URL that was created when you uploaded the video to the hosting site.
+
+#. Click :guilabel:`Save` to save the video in the unit.
+
+
+.. seealso::
+ :class: dropdown
+
+ Preparing a video (task)
+
+ Add a video transcript (task)
+
+ Add a video with different encodings (task)
+
+ Use Amazon S3 to serve a video (task)
+
+ Video Guidelines (concept)
+
+ Advanced video options (reference)
+
+ Video troubleshooting (reference)
+
+

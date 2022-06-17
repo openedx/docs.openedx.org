@@ -1,0 +1,38 @@
+
+.. sidebar:: Add Text
+
+   .. thumbnail:: /_images/Educators_add_text.png
+
+.. sidebar:: Edit Text
+
+   .. thumbnail:: /_images/Educators_edit_text.png 
+
+
+#. In the unit where you want to place the text, select :guilabel:`Text` at the bottom of the page.
+
+#. Select the **Text** template to add a blank component. 
+
+   The componenet is added at the end of the unit.
+
+#. In the component, select :guilabel:`Edit`.
+
+   The empty component opens in the visual editor.
+
+#. Enter and format your content. 
+
+#. To enter a display name for the component, select :guilabel:`Settings`, and then enter text in the :guilabel:`Display Name` field.
+
+#. Click :guilabel:`Save` to save the text in the unit.
+
+
+.. seealso::
+ :class: dropdown
+
+ Add a Link in a Text Component (task)
+
+ Add an Image in a Text Component (task)
+
+ Import LaTeX Code into a Text Component (task)
+ 
+ Text Editor Options (reference)
+

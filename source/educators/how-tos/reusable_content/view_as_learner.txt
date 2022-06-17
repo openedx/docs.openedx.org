@@ -1,0 +1,27 @@
+.. sidebar:: View Live
+
+   .. thumbnail:: /_images/Educators_outline_view_live.png
+
+.. sidebar:: LMS View
+
+   .. thumbnail:: /_images/Educators_LMS_view.png
+
+
+After you have published content, you should view it in the LMS, as a learner will.
+
+#. In the course outline, click :guilabel:`View Live`.
+
+   The course opens in the LMS, in a new tab.
+
+#. Go through the content you created and check for accuracy.  You can edit the content in Studio, then publish your changes, to fix any issues.
+
+.. seealso::
+ :class: dropdown
+
+ Beta Test Your Course (task)
+
+ Hide Content from Learners (task)
+ 
+ Release Statuses of Sections (reference)
+
+ Content Visibility (reference)

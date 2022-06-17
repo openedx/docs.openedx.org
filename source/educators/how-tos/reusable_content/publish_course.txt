@@ -1,0 +1,28 @@
+
+.. sidebar:: Publish Unit
+
+   .. thumbnail:: /_images/Educators_outline_unpublished.png
+
+After you have added content, you must publish it to make it available to learners.
+
+#. Go back to the course outline.
+
+   You see the unit you created, within the subsection and section, in an unpublished state.
+
+#. For the section, click the Publish icon (|Publish Icon|).
+
+   .. note:: 
+      :class: dropdown
+
+      The Publish icon appears only when there is new or changed content within the section.
+
+.. seealso::
+ :class: dropdown
+
+ Set Content Release Dates (task)
+
+ Hide Content from Learners (task)
+ 
+ Release Statuses of Sections (reference)
+
+ Content Visibility (reference)
