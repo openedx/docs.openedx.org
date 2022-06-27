@@ -42,6 +42,8 @@ extensions = [
     "sphinx_togglebutton",
     "sphinx_tabs.tabs",
     "sphinx_copybutton",
+    "sphinx.ext.graphviz",
+    "sphinxcontrib.mermaid",
 ]
 
 graphviz_output_format = "svg"
