@@ -118,6 +118,7 @@ Open edX Documentation
       How-tos <documentors/how-tos/index>
       Concepts <documentors/concepts/index>
       References <documentors/references/index>
+      Decisions <documentors/decisions/index>
 
    .. link-button:: documentors/index
        :type: ref

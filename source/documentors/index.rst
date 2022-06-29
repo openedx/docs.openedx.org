@@ -40,3 +40,14 @@ Open edX Documentors
       :type: ref
       :text: All How-tos
       :classes: btn-outline-primary btn-block
+
+   ---
+
+   **Decisions**
+
+   A record of all documentation related decisions we've made.
+
+   .. link-button:: decisions/index
+      :type: ref
+      :text: All Decisions
+      :classes: btn-outline-primary btn-block
