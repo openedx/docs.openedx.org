@@ -1,2 +1,0 @@
-Support Learners: Quick Start
-###################################
