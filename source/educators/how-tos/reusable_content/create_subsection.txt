@@ -33,7 +33,7 @@ You can then create units within the subsection.
 .. seealso::
  :class: dropdown
 
- :ref:`Course Subsections` (reference)
+ :doc:`/educators/references/course_subsections` (reference)
 
  Grading
 

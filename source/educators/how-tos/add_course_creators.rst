@@ -23,6 +23,6 @@ When you create a new course in Studio, you are automatically an Admin in the co
 
 The user is now listed as staff and can use Studio to modify the course.
 
-You can also make the user an Admin. For information on different roles, see :ref:`User Roles`.
+You can also make the user an Admin. For information on different roles, see :doc:`../references/user_roles`.
 
 
