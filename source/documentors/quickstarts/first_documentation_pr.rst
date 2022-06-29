@@ -139,8 +139,6 @@ changes as is and merge them.
 .. note::
    .. include:: ../how-tos/reusable_content/sign_agreement.txt
 
-If you need more help with the future, check out the getting help section of
-the documentation.
-
-   TODO Link to the getting help section once that exists.
+If you need more help or run into issues, check out the :doc:`/other/getting_help`
+section of the documentation for links to some places where you could get help.
 
