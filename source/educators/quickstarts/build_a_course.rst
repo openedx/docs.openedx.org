@@ -11,7 +11,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 
 .. collapse:: Building a Course: Video Demonstration
 
-  .. youtube:: LVq-L8K7FVI
+  .. youtube:: qWaxgWS-d_I
 
 
 
