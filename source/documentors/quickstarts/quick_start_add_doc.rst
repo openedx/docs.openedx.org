@@ -24,7 +24,7 @@ Find Where to add a New Topic
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
-Review the :ref:`Documentation Audiences` and :ref:`Documentation Content Types` sections to determine where your addition should be located.
+Review the :doc:`../concepts/doc_audiences` and :doc:`../concepts/content_types` sections to determine where your addition should be located.
 
 #. Navigate to the folder where you want to create the new topic.
 
@@ -53,7 +53,7 @@ In the location where you should create the new topic:, with the **main** branch
 
 #. Add content to the topic as needed.
 
-   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Documentation Templates`.
+   Ensure you keep to RST standards in file.  See the :doc:`../references/doc_checklist` for guidelines, and copy RST code as needed from :doc:`../references/doc_templates`.
 
 #. In the **Propose New File** section at the bottom of the edit window:
 

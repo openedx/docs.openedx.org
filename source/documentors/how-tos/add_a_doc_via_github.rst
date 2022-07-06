@@ -27,7 +27,7 @@ Add Documentation via Github
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
-Review the :ref:`Documentation Audiences` and :ref:`Documentation Content Types` sections to determine where you addition should be located.
+Review the :doc:`../concepts/doc_audiences` and :doc:`../concepts/content_types` sections to determine where you addition should be located.
 
 #. Navigate to the folder where you want to create the new document.
 
@@ -63,7 +63,7 @@ With your new branch active:
 
 #. Add content to the topic as needed.
 
-   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Documentation Templates`.
+   Ensure you keep to RST standards in file.  See the :doc:`../references/doc_checklist` for guidelines, and copy RST code as needed from :doc:`../references/doc_templates`.
 
 #. In the Commit Changes section at the bottom of the edit window:
 

@@ -46,7 +46,9 @@ extensions = [
     "sphinxcontrib.mermaid",
 ]
 
+# Extension Configuration
 graphviz_output_format = "svg"
+autosectionlabel_prefix_document = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -86,7 +88,7 @@ rst_epilog = """
 
 .. rst-class:: feedback
 
-  :ref:`Feedback <Documentation Feedback Form>`
+  :ref:`Feedback <other/feedback:Documentation Feedback Form>`
 
 .. include:: /substitutions.txt
 .. include:: /links.txt

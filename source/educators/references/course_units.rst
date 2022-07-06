@@ -4,7 +4,7 @@ Course Units
 .. seealso::
  :class: dropdown
 
- :ref:`Add Units to the Outline` (how-to)
+ :doc:`/educators/how-tos/add_units` (how-to)
 
  Components (reference)
 

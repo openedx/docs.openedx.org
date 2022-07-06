@@ -120,9 +120,9 @@ By default, when learners submit answers to problems, they immediately receive t
 .. seealso::
  :class: dropdown
 
-  :ref:`Create a Subsection` (task)
+  :doc:`/educators/how-tos/create_subsection` (task)
 
-  :ref:`Course Sections` (reference)
+  :doc:`/educators/references/course_sections` (reference)
 
   Units (reference)
 
