@@ -9,10 +9,7 @@ Quick Start: Build a Course
 Follow the steps below to build your first course. By the end, you will have a fully functional, minimal course, which you can build on as you learn all of the |Platform| options. |Image Instructions|
 
 
-.. collapse:: Building a Course: Video Demonstration
-
-  .. youtube:: AjmJttu4Rlc
-
+.. youtube:: AjmJttu4Rlc
 
 
 1. Create a Course in Studio
