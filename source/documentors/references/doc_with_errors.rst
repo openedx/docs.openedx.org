@@ -8,6 +8,6 @@ Sample Document with Errors
    <../quickstarts/first_documentation_pr>`  It has known spelling and
    styling errors.
 
-This page has some bad spieling.
+This page has some bad spelling.
 
-I really want to emphasize the following: Small changes add up!
+I really want to emphasize the following: **Small changes add up!**
