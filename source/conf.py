@@ -102,6 +102,15 @@ panels_add_bootstrap_css = False
 
 # For custom styles
 
+extra_navbar_content = """
+<hr/><br/>
+
+<a class='external' href='https://openedx.atlassian.net/wiki/spaces' target='_blank'>Open edX Wiki</a><br/>
+<a class='external' href='https://open.edx.org' target='_blank'>Open edX website</a><br/>
+<a class='external' href='https://openedx.org/cookie-policy/' target='_blank'>Cookie Policy</a>
+
+"""
+
 
 html_theme_options = {
     "repository_url": "https://github.com/openedx/docs.openedx.org",
@@ -109,7 +118,7 @@ html_theme_options = {
     "path_to_docs": "source",
     "logo_only": False,
     "home_page_in_toc": True,
-    "extra_navbar": "<hr/><br/><a class='external' href='https://openedx.atlassian.net/wiki/spaces' target='_blank'>Open edX Wiki</a><br/><a class='external' href='https://open.edx.org' target='_blank'>Open edX website</a>",
+    "extra_navbar": extra_navbar_content,
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
