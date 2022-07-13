@@ -1,0 +1,10 @@
+{# Add content to the <head> tag.  See https://www.sphinx-doc.org/en/master/templating.html for more details #}
+{% extends "!layout.html" %}
+{% block extrahead %}
+<script type="text/javascript">
+    window.liveSettings = {
+        api_key: "7af91b0a80054fab9de5fad172a25171"
+    };
+</script>
+<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+{% endblock %}
