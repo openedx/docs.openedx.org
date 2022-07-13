@@ -6,7 +6,7 @@ Open edX Documentors
 
    **Quick Starts**
 
-   * :doc:`quickstarts/quick_start_add_doc`
+   * :doc:`quickstarts/first_documentation_pr`
    * :doc:`quickstarts/update_doc_via_github`
 
 

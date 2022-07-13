@@ -59,19 +59,20 @@ Fork the repository(repo)
 *************************
 
 If you have never made a pull request to this repo, you'll be asked to fork the
-repo.
+repo.  A "fork" is essentially your own copy of the repository.
 
 Go ahead and click the big green button!
 
-   TODO: Add a picture and highlight the fork button. Need to merge the basic PR
-   with the sample document before we can take this picture.
+.. image:: /_images/documentors_quickstart_first_pr/fork_this_repository.png
+   :alt: A screenshot of the github page for forking a repository. With the "Fork this Repository" button highlighted.
 
 Make your fixes
 ***************
 Once you've clicked the fork button, you're ready to make your update in the
 web editor.
 
-   TODO: Add a picture of the web editor.
+.. image:: /_images/documentors_quickstart_first_pr/github_rst_editor.png
+   :alt: A screenshot of the github editor with the contents of the doc_with_errors.rst file.
 
 Go to line 11 and fix the spelling error.
 
@@ -91,19 +92,24 @@ Reference :doc:`../references/quick_reference_rst`
 Save your changes
 *****************
 
-Now that you've made the change, let's add some notes about the change and
-get it ready for review by a project maintainer.
+Now that you've made the change, scroll down and add some notes about the change
+and get it ready for review by a project maintainer.
 
 To help the maintainers review the change, let's add a small description that
 gives them context about what we changed and why.
 
-   TODO: Picture of the propose changes section with a useful comment.
+.. image:: /_images/documentors_quickstart_first_pr/propose_change_with_a_comment.png
+   :alt: A screenshot of the "Propose Changes" form with the suggested text. The
+         subject is the same but the description has two bullet items to indicate that
+         we've fixed the spelling and have emphasized some text.
 
 Once you've added a description, go ahead and hit the :guilabel:`Propose Changes`
 button. This will save your changes to your fork and allow you to make a pull
 request that (more on that shortly.)
 
-   TODO: Picture with button highlighted.
+.. image:: /_images/documentors_quickstart_first_pr/propose_change_highlight_button.png
+   :alt: A screenshot of the "Propose Changes" form with the "Propose changes"
+         button highlighted.
 
 Making a pull request
 *********************
@@ -114,20 +120,29 @@ others to do the same.
 By making a pull request you will notify the maintainers about the change
 and officially request that they review the changes and accept them.
 
-Go ahead and hit the :guilabel:`Create Pull Request` button.  This will bring
-up a form which you don't need to make any changes in for now.
+Go ahead and hit the :guilabel:`Create Pull Request` button.
 
-   TODO A picture of the form.
+.. image:: /_images/documentors_quickstart_first_pr/create_pull_request_first_button.png
+   :alt: A screenshot of the github page comparing changes with the "Create pull
+         request" button highlighted.
 
-Click the ``Create pull request`` button again.
+This will bring up a form which you don't need to make any changes in for now.
 
-   TODO A picture for after you click the button.
+.. image:: /_images/documentors_quickstart_first_pr/create_pull_request_first_button.png
+   :alt: A screenshot of the github PR form with the "Create pull request" button highlighted.
 
+Click the ``Create pull request`` button again and you will have a published
+Pull request!
+
+.. image:: /_images/documentors_quickstart_first_pr/published_pr.png
+   :alt: A screenshot of a submitted github PR.
 
 Congratulations, you have made a new pull request for a change against the
 Open edX documentation!
 
-   TODO: Celebration Picture
+.. image:: /_images/animated_confetti.gif
+   :alt: Animated confetti.
+   :target: https://commons.wikimedia.org/wiki/File:Wikipedia20_animated_Confetti.gif
 
 Because this was a practice PR, it will be closed without the changes being
 accepted.  This is so others can continue to go through the same quickstart.
