@@ -14,7 +14,8 @@ Anyone can propose updates to the documentation, following a process known as th
 
 The Open edX team will review the proposed changes, collaborate with the author, and merge the documentation when it is ready. You will then see it on the `Open edX Documentation`_ site.
 
-.. collapse:: Create a GitHub Account
+.. note:: Create a GitHub Account
+   :class: dropdown
 
     .. include:: ../how-tos/reusable_content/create_github_account.txt
 
