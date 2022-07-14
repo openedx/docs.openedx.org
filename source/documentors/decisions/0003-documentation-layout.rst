@@ -9,10 +9,12 @@ Status
 Context
 *******
 
-As different people were working with writing documentation for different
-personas, the directory structure underneath each persona started diverging.
+As multiple people were working with writing documentation for different
+`personas`_, the directory structure underneath each persona started diverging.
 This made it harder for someone to easily jump between work on different
-personas and easily locate documents and orient themselves.
+`personas`_ and easily locate documents and orient themselves.
+
+.. _personas: https://en.wikipedia.org/wiki/Persona_(user_experience)
 
 Decision
 ********
@@ -20,7 +22,14 @@ Decision
 * The ``source`` folder MUST be the root for all docs.
 
 * For each top-level persona that we have, there MUST be a separate folder whose
-  name closely matches the name of the persona.
+  name closely matches the name of the persona (no caps, underscores instead of
+  spaces).
+
+  * Examples
+
+    * Course Operators -> course_ops
+
+    * Software Developers -> developers
 
 * Each persona folder MUST contain a folder for each :doc:`documentation
   type<../concepts/content_types>` (``concepts``, ``how-tos``, ``quickstarts``
@@ -53,5 +62,5 @@ Consequences
 ************
 
 Having a consistent layout should make it easier for documentors to be able to
-navigate the repository and quickly switch between personas and know where to
+navigate the repository and quickly switch between `personas`_ and know where to
 put new documentation and where to find the roots for each sub-area of a persona.
