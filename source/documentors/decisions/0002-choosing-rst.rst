@@ -9,7 +9,7 @@ Status
 A major concern with accepting this decision is whether we can overcome the RST
 and GitHub barrier to entry by investing in training and proper documentation.
 This decision should be re-evaluated once we've put the relevant quickstarts,
-how-tos and references put through their paces.
+how-tos and references through their paces.
 
 Context
 *******
