@@ -128,4 +128,7 @@ details summary {
   font-weight: 700;
   margin-bottom: 0.6em;
 }
-
+/* This fixes the text alignment style, only for the Arabic language*/
+html[lang="ar"] body, html[lang="ar"] #site-navigation div.navbar_extra_footer {
+  text-align: inherit;
+}
