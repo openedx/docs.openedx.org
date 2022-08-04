@@ -14,11 +14,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-from datetime import datetime
 import os
 import sys
 import urllib
-
+from datetime import datetime
 
 # -- Project information -----------------------------------------------------
 
@@ -41,11 +40,23 @@ extensions = [
     "sphinx_copybutton",
     "sphinx.ext.graphviz",
     "sphinxcontrib.mermaid",
+    "sphinx.ext.intersphinx",
 ]
 
 # Extension Configuration
 graphviz_output_format = "svg"
 autosectionlabel_prefix_document = True
+
+# Intersphinx Extension Configuration
+rtd_language = os.environ.get("READTHEDOCS_LANGUAGE", "en")
+rtd_version = os.environ.get("READTHEDOCS_VERSION", "latest")
+
+intersphinx_mapping = {
+    "DoneXBlock": (
+        f"https://docs.openedx.org/projects/donexblock/{rtd_language}/{rtd_version}",
+        None,
+    ),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
