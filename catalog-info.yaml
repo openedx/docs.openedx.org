@@ -4,9 +4,9 @@ metadata:
   name: 'docs.openedx.org'
   description: "This repository contains the root documentation site for https://docs.openedx.org"
   links:
-    - url: "https://github.com/openedx/docs.openedx.org"
-      title: "Source Code"
-      icon: "Code"
+    - url: "https://docs.openedx.org"
+      title: "Production Site"
+      icon: "Web"
   annotations:
     openedx.org/arch-interest-groups: "feanil"
 spec:
