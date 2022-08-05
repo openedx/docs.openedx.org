@@ -15,6 +15,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 import os
+import re
 import sys
 import urllib
 from datetime import datetime
@@ -48,8 +49,12 @@ graphviz_output_format = "svg"
 autosectionlabel_prefix_document = True
 
 # Intersphinx Extension Configuration
+DIGITS_ONLY = r"^\d+$"
 rtd_language = os.environ.get("READTHEDOCS_LANGUAGE", "en")
 rtd_version = os.environ.get("READTHEDOCS_VERSION", "latest")
+if re.search(DIGITS_ONLY, rtd_version):
+    # This is a PR build, use the latest versions of the other repos.
+    rtd_version = "latest"
 
 intersphinx_mapping = {
     "DoneXBlock": (
