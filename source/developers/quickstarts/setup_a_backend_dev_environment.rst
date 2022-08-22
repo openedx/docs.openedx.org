@@ -129,8 +129,6 @@ Open edX documentation!
    :alt: Animated confetti.
    :target: https://commons.wikimedia.org/wiki/File:Wikipedia20_animated_Confetti.gif
 
-Get Tutor Working: `Tutor Developer Quickstart`_.
-
 Because this was a practice PR, it will be closed without the changes being
 accepted.  This is so others can continue to go through the same quickstart.
 
@@ -147,4 +145,5 @@ section of the documentation for links to some places where you could get help.
 Related Docs
 ************
 
+Get Tutor Working: `Tutor Developer Quickstart`_.
 .. _Tutor Developer Quickstart: https://docs.tutor.overhang.io/tutor.html
