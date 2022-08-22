@@ -33,8 +33,8 @@ of RAM, 2 CPUs, and at least 50 GB of Free disk space.
 Before you start
 ****************
 
-This tutorial is written for users of Mac OS, either with an Intel or an Arm
-(Apple Silicone, M1, M2, etc.) processor. Additionally, you will need to have the following
+This tutorial is written for users of macOS, either with an Intel or an ARM
+(Apple Silicon, M1, M2, etc.) processor. Additionally, you will need to have the following
 installed or configured, and know at least the basics of using them, before
 proceeding:
 
@@ -56,7 +56,7 @@ proceeding:
 Install Docker
 **************
 
-Install `Docker for Mac <https://docs.docker.com/docker-for-mac/>`_ and launch
+Install `Docker for macOS <https://docs.docker.com/docker-for-mac/>`_ and launch
 it. You can check that it is running correctly with::
 
     docker run --rm hello-world
@@ -91,16 +91,16 @@ Create a Python 3.8 virtual environment (we'll call it ``tutor-venv``) and activ
   python3.8 -m venv tutor-venv
   . tutor-venv/bin/activate
 
-Install Tutor. This is a tool that helps you run Open edX.
+Install Tutor. This is a tool that helps you run the Open edX project.
 We will install the "Nightly" version of Tutor, which means it will run the latest
-version of Open edX (as opposed to the stable version of Open edX):
+version of the code (as opposed to the most recent named release):
 
 .. code-block:: bash
 
   git clone --branch=nightly https://github.com/overhangio/tutor.git
   pip install -e "./tutor[full]"
 
-If you are using ARM-64, then install this extra plugin and enable it
+If you are using ARM-64 (such as an M1 or M2 Mac), then install this extra plugin and enable it
 (if you're not, then skip this step):
 
 .. code-block:: bash
@@ -130,13 +130,13 @@ development, but you're still missing a practical way to edit the code, test
 it locally, and then contribute it back.
 
 For the purposes of this tutorial, you'll be modifying code in the
-``_edx-platform`` repository, where the Open edX backend code lives.  Let's
+``edx-platform`` repository, where the Open edX backend code lives.  Let's
 start by creating your own personal "fork" of it. A "fork" is essentially your
 own copy of the repository. `See here <https://docs.github.com/en/get-started/quickstart/fork-a-repo>`_ to learn more about forks.
 
 **Forking edx-platform**
 
-Assuming you're logged in to Github, forking a repository is easy.  Visit the
+Assuming you're logged in to GitHub, forking a repository is easy.  Visit the
 ``edx-platform`` repository at this URL:
 
 https://github.com/openedx/edx-platform
@@ -148,7 +148,7 @@ screen, select your personal account as the owner.  After you click the
 
 **Cloning your fork**
 
-Your ``edx-platform`` currently only exists in the Github servers.  You'll now
+Your ``edx-platform`` currently only exists on the GitHub servers.  You'll now
 create a local copy of it (a "clone").
 
 First, fetch the git URL of your fork.  Navigate to its web page (to which you
@@ -265,7 +265,7 @@ Go to your fork.
 https://github.com/<your_github_username>/edx-platform
 
 At the top of the page you'll see a section that will suggest that you make a
-new pull request.  Go ahead an click the big green button.
+new pull request.  Go ahead and click the big green button.
 
 .. image:: /_images/developers_quickstart_first_pr/new_pull_request_suggestion.png
    :alt: Screenshot of the Review and Create Pull Request button.
