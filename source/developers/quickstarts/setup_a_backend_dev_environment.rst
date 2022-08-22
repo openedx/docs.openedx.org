@@ -206,6 +206,50 @@ the code lives.  First, make sure to stop the running dev environment, though:
 From this point on, whatever changes you make to the code in your clone
 should be visible in your local instance.
 
+Exercise: Update the Learner Dashboard
+**************************************
+
+The Learner Dashboard is the first page that students will see when they log
+into Open edX. On our Tutor dev environment, it is located at
+``http://local.overhang.io:8000/dashboard``
+
+.. image:: /_images/developers_quickstart_first_pr/learner_dashboard_before.png
+   :alt: Learner Dashboard page without any of our changes.
+
+As an exercise, we're going to make a small edit to the top of this page. This
+is not a change that we'd really merge, but it will demonstrate the steps we'd
+have to go through to make a real change.
+
+Edit the Template
+=================
+
+The template file for this page is at ``lms/templates/dashboard.html``. We're
+going to add a simple welcome message to the ``dashboard-notifications`` div::
+
+    <div class="dashboard-notifications" tabindex="-1">
+        <!-- start new content -->
+        
+        Welcome to your dashboard!
+        
+        <!-- end new content -->
+
+Feel free to replace the welcome text with any message you'd like and save the
+file. When you reload it in your browser, you should see something like this:
+
+.. image:: /_images/developers_quickstart_first_pr/learner_dashboard_after.png
+   :alt: Learner Dashboard page without any of our changes.
+
+Make a Commit
+=============
+
+Now that you've saved your changes, you can make a commit. Open edX commit
+messages should follow our `conventional commit <https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html>`_
+practices. In our case, we're making a new feature, so our commit message must
+be prefixed with "feat:" like so::
+
+    commit -a -m "feat: add welcome message to learner dashboard"
+
+
 Create A Pull Request
 *********************
 
