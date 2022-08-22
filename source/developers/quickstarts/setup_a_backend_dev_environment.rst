@@ -33,7 +33,7 @@ reviewers will review your changes and may ask for changes or accept your
 changes as is and merge them.
 
 .. note::
-   .. include:: ../how-tos/reusable_content/sign_agreement.txt
+   .. include:: /documentors/how-tos/reusable_content/sign_agreement.txt
 
 If you need more help or run into issues, check out the :doc:`/other/getting_help`
 section of the documentation for links to some places where you could get help.
@@ -57,7 +57,7 @@ Create a Python 3.8 virtual environment (we'll call it ``tutor-venv``) and activ
 
 .. code-block:: bash
 
-  python3.8 -m venv tutor-venv  
+  python3.8 -m venv tutor-venv
   . tutor-venv/bin/activate
 
 Install Tutor. This is a tool that helps you run Open edX.
