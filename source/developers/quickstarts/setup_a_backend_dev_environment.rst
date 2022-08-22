@@ -134,7 +134,8 @@ For the purposes of this tutorial, you'll be modifying code in the
 start by creating your own personal "fork" of it. A "fork" is essentially your
 own copy of the repository. `See here <https://docs.github.com/en/get-started/quickstart/fork-a-repo>`_ to learn more about forks.
 
-**Forking edx-platform**
+Forking edx-platform
+====================
 
 Assuming you're logged in to GitHub, forking a repository is easy.  Visit the
 ``edx-platform`` repository at this URL:
@@ -146,7 +147,8 @@ screen, select your personal account as the owner.  After you click the
 :guilabel:`Create fork` button, you'll be taken to your own version of the
 ``edx-platform`` repository.
 
-**Cloning your fork**
+Cloning your fork
+=================
 
 Your ``edx-platform`` currently only exists on the GitHub servers.  You'll now
 create a local copy of it (a "clone").
@@ -169,7 +171,8 @@ You'll now have an ``edx-platform`` directory containing a local clone of your
 fork.  It is not yet wired into your Tutor development environment, though.
 This is what you'll do next.
 
-**Mounting edx-platform**
+Mounting edx-platform
+=====================
 
 To have Tutor run your local fork of edx-platform, you have to tell it to do so
 on start up.  It is a simple CLI parameter that points Tutor to the directory where
@@ -180,7 +183,7 @@ checkout:
 
 .. code-block:: bash
 
-   tutor dev run --mount=${PWD}/edx-platform lms bash
+   tutor dev run --mount=./edx-platform lms bash
 
 Now within the container, install python requirements and rebuild static assets
 for your local checkout:
@@ -188,7 +191,7 @@ for your local checkout:
 .. code-block:: bash
 
    pip install -e .
-   npm clean-install
+   npm install
    openedx-assets build --env=dev
    exit
 
@@ -197,7 +200,7 @@ mounted:
 
 .. code-block:: bash
 
-   tutor dev start --mount=${PWD}/edx-platform lms
+   tutor dev start --mount=./edx-platform lms
 
 From this point on, whatever changes you make to the code in your clone should
 be visible in your local LMS instance immediately.
