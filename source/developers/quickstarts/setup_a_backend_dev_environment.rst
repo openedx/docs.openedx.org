@@ -123,6 +123,88 @@ this could take anywhere from five minutes to over an hour,
 so go get a coffee and come back for the next part.
 
 
+Working with a fork
+*******************
+
+At this point you should have a Tutor installation that is suitable for
+development, but you're still missing a practical way to edit the code, test
+it locally, and then contribute it back.
+
+For the purposes of this tutorial, you'll be modifying code in the
+``_edx-platform`` repository, where the Open edX backend code lives.  Let's
+start by creating your own personal "fork" of it.
+
+**What's a fork?**
+
+In GitHub terminology, a fork is is simply a copy of the original repository,
+but one that you can make changes to without affecting the original codebase.
+The point is to be free to make and save changes at your leisure, until they're
+ready for contribution.
+
+Open edX will accept contributions that use a specific Github fork workflow.
+You will need to:
+
+1. Fork the original repository (in this case, ``edx-platform``) into your
+   personal Github account;
+2. Clone the forked repository locally;
+3. Create a new git branch for the change you'll be making (also known as a
+   "feature branch");
+4. Create, test and commit your changes to this branch locally;
+5. Push the local branch to your forked repository on Github;
+6. Make a pull request ("PR") against the original repository, or "upstream",
+   from the feature branch on your fork.
+
+The maintainer team responsible for the repository can then review your PR, and
+then either accept it outright, or request you make changes to it.
+
+**Forking edx-platform**
+
+Assuming you're logged in to Github, forking a repository is easy.  Visit the
+``edx-platform`` repository at this URL:
+
+https://github.com/openedx/edx-platform
+
+Now, click the :guilabel:`Fork` button on the top right, and in the next
+screen, select your personal account as the owner.  After you click the
+:guilabel:`Create fork` button, you'll be taken to your own version of the
+``edx-platform`` repository.
+
+**Cloning your fork**
+
+Your ``edx-platform`` currently only exists in the Github servers.  You'll now
+create a local copy of it (a "clone").
+
+First, fetch the git URL of your fork.  Navigate to its web page (to which you
+were taken after creation), click on the :guilabel:`Code` button, select
+the **SSH** tab, and copy the URL given.  It should look like this:
+
+``git@github.com:<your_github_username>/edx-platform.git``
+
+Now, from the same top level directory you created above, clone the repository
+as follows:
+
+.. code-block:: bash
+
+   cd ~/openedx
+   git clone git@github.com:<your_github_username>/edx-platform.git
+
+You'll now have an ``edx-platform`` directory containing a local clone of your
+fork.  It is not yet wired into your Tutor development environment, though.
+This is what you'll do next.
+
+**Mounting edx-platform**
+
+To have Tutor run your local fork of edx-platform, you have to tell it to do so
+on start up.  It is a simple CLI parameter that points Tutor to the directory where
+the code lives.  First, make sure to stop the running dev environment, though:
+
+.. code-block:: bash
+
+   tutor dev stop
+   tutor dev start --mount=~/openedx/edx-platform lms
+
+From this point on, whatever changes you make to the code in your clone
+should be visible in your local instance.
 
 Create A Pull Request
 *********************
