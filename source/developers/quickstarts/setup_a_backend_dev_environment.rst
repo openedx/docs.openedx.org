@@ -242,8 +242,13 @@ file. When you reload it in your browser, you should see something like this:
 Make a Commit
 =============
 
-Now that you've saved your changes, you can make a commit. Open edX commit
-messages should follow our `conventional commit <https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html>`_
+Now that you've saved your changes, you can make a commit. First make a new
+branch with the name ``developer_quickstart``::
+
+    git checkout -b developer_quickstart
+
+Then we can create the actual commit. Note that Open edX commit messages should
+follow our `conventional commit <https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html>`_
 practices. In our case, we're making a new feature, so our commit message must
 be prefixed with "feat:" like so::
 
@@ -254,12 +259,12 @@ Push the Commit to Your Fork
 
 Now push your changes to a new branch in your fork::
 
-    git push --set-upstream origin <github_username>/quickstart
+    git push --set-upstream origin developer_quickstart
 
 Create A Pull Request
 *********************
 
-Branch Name: <github_username>/quickstart
+Branch Name: developer_quickstart
 
 # Go to your fork.
 
