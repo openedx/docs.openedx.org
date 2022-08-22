@@ -72,7 +72,7 @@ version of Open edX (as opposed to the stable version of Open edX):
 If you are using ARM-64, then install this extra plugin and enable it
 (if you're not, then skip this step):
 
-.. code-bash:: bash
+.. code-block:: bash
 
   pip install git+https://github.com/open-craft/tutor-contrib-arm64
   tutor plugins enable arm64
@@ -82,7 +82,7 @@ Finally, let's configure and provision your Open edX instance!
 You will be asked a couple questions.
 Answer them however you like, although the default answers will work fine.
 
-.. code-bash:: bash
+.. code-block:: bash
 
   tutor dev quickstart
 
