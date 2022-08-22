@@ -260,24 +260,24 @@ Now push your changes to a new branch in your fork::
 Create A Pull Request
 *********************
 
-Branch Name: developer_quickstart
+Go to your fork.
 
-# Go to your fork.
-
-``https://github.com/<your_github_username>/edx-platform``
+https://github.com/<your_github_username>/edx-platform
 
 At the top of the page you'll see a section that will suggest that you make a
 new pull request.  Go ahead an click the big green button.
 
-.. Screenshot of the root page with make a PR highlighted.
+.. image:: /_images/developers_quickstart_first_pr/new_pull_request_suggestion.png
+   :alt: Screenshot of the Review and Create Pull Request button.
 
 This will bring up a form which you don't need to make any changes in for now.
 Go ahead hit "Create Pull Request" again.
 
-.. Screenshot of the Create PR Page
+.. image:: /_images/developers_quickstart_first_pr/pull_request_form.png
+   :alt: Screenshot of the Pull Request Form with "Create Pull Request" highlighted.
 
 Congratulations, you have made a new pull request for a change against the
-Open edX documentation!
+Open edX project!
 
 .. image:: /_images/animated_confetti.gif
    :alt: Animated confetti.
