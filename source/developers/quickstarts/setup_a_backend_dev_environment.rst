@@ -237,7 +237,7 @@ Feel free to replace the welcome text with any message you'd like and save the
 file. When you reload it in your browser, you should see something like this:
 
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_after.png
-   :alt: Learner Dashboard page without any of our changes.
+   :alt: Learner Dashboard page after we add the welcome message.
 
 Make a Commit
 =============
