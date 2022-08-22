@@ -9,15 +9,15 @@ Welcome to the Quickstart guide for new Open edX contributors. By the end of
 this tutorial, you will have completed all the steps necessary to begin
 contributing to the Open edX project.
 
-These include: 
+These include:
 
-* Setting up your development environment; 
-* Making your first commit; 
-* Submitting your first pull request (PR); 
-* Signing your Contributor License Agreement (CLA). 
+* Setting up your development environment;
+* Making your first commit;
+* Submitting your first pull request (PR);
+* Signing your Contributor License Agreement (CLA).
 
 We assume you are comfortable with the command line, and understand the basics
-of using Git, GitHub, and so forth.
+of using Git, GitHub, and python basics.
 
 This Quickstart is written for first-time contributors to the Open edX project.
 If you are a plug-in developer or a frontend developer, please see our
@@ -28,36 +28,30 @@ System Requirements
 *******************
 
 For the smoothest experience, we recommend that your computer has at least 16 GB
-of RAM, 2 CPUs, and a disk image of 96 GB.
+of RAM, 2 CPUs, and at least 50 GB of Free disk space.
 
-Before you start 
+Before you start
 ****************
 
 This tutorial is written for users of Mac OS, either with an Intel or an Arm
-(Apple Silicone) processor. Additionally, you will need to have the following
+(Apple Silicone, M1, M2, etc.) processor. Additionally, you will need to have the following
 installed or configured, and know at least the basics of using them, before
 proceeding:
 
-* A `GitHub account <https://github.com/signup>`_
 * Git (see `GitHub's set up Git guide
   <https://help.github.com/en/github/getting-started-with-github/set-up-git>`_)
 
+* A `GitHub account <https://github.com/signup>`_
   * Additionally, we strongly recommend setting up 2-factor authentication
 
-* SSH, so that you can provide your public key to a server (`GitHub's guides to
-  setting up SSH
-  <https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>`_)
-* Pip, the `Python Package Installer
-  <https://pip.pypa.io/en/stable/installing/>`_
-* venv, the `Python virtual environment system
-  <https://docs.python.org/3/library/venv.html>`_
-* Your favorite code editor (our team uses `VSCode
-  <https://code.visualstudio.com/download>`_, Emacs
-  `<https://emacsformacosx.com/>`_ or via `homebrew <https://brew.sh/>`_, `Vim
-  <https://github.com/macvim-dev/macvim>`_ or via homebrew, and others)
+* `Python 3.8 <https://www.python.org/downloads/>`_
 
-This tutorial assumes you have some experience with Python, and you are
-comfortable with using the command line.
+* Your favorite code editor (our team uses `VSCode
+  <https://code.visualstudio.com/download>`_, `Emacs
+  <https://emacsformacosx.com/>`_ or via `homebrew`_, `Vim
+  <https://github.com/macvim-dev/macvim>`_ or via `homebrew`_, and others)
+
+.. _homebrew: https://brew.sh
 
 Install Docker
 **************
@@ -65,7 +59,12 @@ Install Docker
 Install `Docker for Mac <https://docs.docker.com/docker-for-mac/>`_ and launch
 it. You can check that it is running correctly with::
 
-    docker run --rm busybox true
+    docker run --rm hello-world
+
+You should see a message that starts with the following::
+
+   Hello from Docker!
+   This message shows that your installation appears to be working correctly.
 
 On macOS, by default, Docker allocates at most 2 GB of RAM to containers; the
 Open edX software requires at least 8 GB. You should follow these instructions
@@ -132,30 +131,8 @@ it locally, and then contribute it back.
 
 For the purposes of this tutorial, you'll be modifying code in the
 ``_edx-platform`` repository, where the Open edX backend code lives.  Let's
-start by creating your own personal "fork" of it.
-
-**What's a fork?**
-
-In GitHub terminology, a fork is is simply a copy of the original repository,
-but one that you can make changes to without affecting the original codebase.
-The point is to be free to make and save changes at your leisure, until they're
-ready for contribution.
-
-Open edX will accept contributions that use a specific Github fork workflow.
-You will need to:
-
-1. Fork the original repository (in this case, ``edx-platform``) into your
-   personal Github account;
-2. Clone the forked repository locally;
-3. Create a new git branch for the change you'll be making (also known as a
-   "feature branch");
-4. Create, test and commit your changes to this branch locally;
-5. Push the local branch to your forked repository on Github;
-6. Make a pull request ("PR") against the original repository, or "upstream",
-   from the feature branch on your fork.
-
-The maintainer team responsible for the repository can then review your PR, and
-then either accept it outright, or request you make changes to it.
+start by creating your own personal "fork" of it. A "fork" is essentially your
+own copy of the repository. `See here <https://docs.github.com/en/get-started/quickstart/fork-a-repo>`_ to learn more about forks.
 
 **Forking edx-platform**
 
@@ -176,9 +153,9 @@ create a local copy of it (a "clone").
 
 First, fetch the git URL of your fork.  Navigate to its web page (to which you
 were taken after creation), click on the :guilabel:`Code` button, select
-the **SSH** tab, and copy the URL given.  It should look like this:
+the **HTTPS** tab, and copy the URL given.  It should look like this:
 
-``git@github.com:<your_github_username>/edx-platform.git``
+``https://github.com:<your_github_username>/edx-platform.git``
 
 Now, from the same top level directory you created above, clone the repository
 as follows:
@@ -186,7 +163,7 @@ as follows:
 .. code-block:: bash
 
    cd ~/openedx
-   git clone git@github.com:<your_github_username>/edx-platform.git
+   git clone  https://github.com:<your_github_username>/edx-platform.git
 
 You'll now have an ``edx-platform`` directory containing a local clone of your
 fork.  It is not yet wired into your Tutor development environment, though.
@@ -200,7 +177,6 @@ the code lives.  First, make sure to stop the running dev environment, though:
 
 .. code-block:: bash
 
-   tutor dev stop
    tutor dev start --mount=~/openedx/edx-platform lms
 
 From this point on, whatever changes you make to the code in your clone
@@ -216,9 +192,9 @@ into Open edX. On our Tutor dev environment, it is located at
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_before.png
    :alt: Learner Dashboard page without any of our changes.
 
-As an exercise, we're going to make a small edit to the top of this page. This
-is not a change that we'd really merge, but it will demonstrate the steps we'd
-have to go through to make a real change.
+As an exercise, you're going to make a small edit to the top of this page. This
+is not a change that will be merged upstream, but it will demonstrate the
+steps you will have to go through to make a real change.
 
 Edit the Template
 =================
@@ -228,9 +204,9 @@ going to add a simple welcome message to the ``dashboard-notifications`` div::
 
     <div class="dashboard-notifications" tabindex="-1">
         <!-- start new content -->
-        
+
         Welcome to your dashboard!
-        
+
         <!-- end new content -->
 
 Feel free to replace the welcome text with any message you'd like and save the
