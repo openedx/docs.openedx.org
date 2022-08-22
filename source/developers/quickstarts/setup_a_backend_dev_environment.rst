@@ -173,14 +173,34 @@ This is what you'll do next.
 
 To have Tutor run your local fork of edx-platform, you have to tell it to do so
 on start up.  It is a simple CLI parameter that points Tutor to the directory where
-the code lives.  First, make sure to stop the running dev environment, though:
+the code lives.
+
+As a first step, fire up a one-off LMS container while mounting your local
+checkout:
 
 .. code-block:: bash
 
-   tutor dev start --mount=~/openedx/edx-platform lms
+   tutor dev run --mount=${PWD}/edx-platform lms bash
 
-From this point on, whatever changes you make to the code in your clone
-should be visible in your local instance.
+Now within the container, install python requirements and rebuild static assets
+for your local checkout:
+
+.. code-block:: bash
+
+   pip install -e .
+   npm clean-install
+   openedx-assets build --env=dev
+   exit
+
+After exiting the one-off container, restart the LMS with the local checkout
+mounted:
+
+.. code-block:: bash
+
+   tutor dev start --mount=${PWD}/edx-platform lms
+
+From this point on, whatever changes you make to the code in your clone should
+be visible in your local LMS instance immediately.
 
 Exercise: Update the Learner Dashboard
 **************************************
