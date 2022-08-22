@@ -249,6 +249,12 @@ be prefixed with "feat:" like so::
 
     commit -a -m "feat: add welcome message to learner dashboard"
 
+Push the Commit to Your Fork
+============================
+
+Now push your changes to a new branch in your fork::
+
+    git push --set-upstream origin <github_username>/quickstart
 
 Create A Pull Request
 *********************
