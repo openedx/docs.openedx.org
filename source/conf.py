@@ -135,7 +135,7 @@ html_theme_options = {
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
-    "announcement": "This is the new Open edX documentation root site and it is currently under development.",
+    "announcement": "This is the new documentation homepage for the Open edX project. It's currently under development, but feel free to take a look around.",
 }
 
 
