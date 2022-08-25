@@ -28,6 +28,7 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	$(PIP_COMPILE) -o requirements/base.txt requirements/base.in
 
 requirements:
+	pip install -r requirements/pip-tools.txt
 	pip-sync requirements/base.txt
 
 # Catch-all target: route all unknown targets to Sphinx using the new
