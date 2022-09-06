@@ -132,3 +132,10 @@ details summary {
 html[lang="ar"] body, html[lang="ar"] #site-navigation div.navbar_extra_footer {
   text-align: inherit;
 }
+
+@media (min-width: 992px){
+html[lang="ar"] aside.sidebar{
+  width: 50%;
+  margin: 0% 0% 0% 3%;
+ }
+}
