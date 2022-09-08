@@ -14,7 +14,7 @@ These include:
 * Setting up your development environment;
 * Making your first commit;
 * Submitting your first pull request (PR);
-* Signing your Contributor License Agreement (CLA).
+* `Signing your Contributor License Agreement (CLA).`_
 
 We assume you are comfortable with the command line, and understand the basics
 of using Git, GitHub, and python basics.
@@ -24,14 +24,15 @@ If you are a plug-in developer or a frontend developer, please see our
 :doc:`Quickstart guide for plug-in developers <setup_a_plugin_dev_environment>`
 or our :doc:`Quickstart for frontend developers <setup_an_mfe_dev_environment>`.
 
-System Requirements
-*******************
-
-For the smoothest experience, we recommend that your computer has at least 16 GB
-of RAM, 2 CPUs, and at least 50 GB of Free disk space.
+.. _Signing your Contributor License Agreement (CLA).: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
 
 Before you start
 ****************
+
+.. admonition:: System Requirements
+
+   For the smoothest experience, we recommend that your computer has at least
+   **16 GB of RAM, 2 CPUs, and at least 50 GB of Free disk space**.
 
 This tutorial is written for users of macOS, either with an Intel or an ARM
 (Apple Silicon, M1, M2, etc.) processor. Additionally, you will need to have the following
@@ -155,9 +156,9 @@ create a local copy of it (a "clone").
 
 First, fetch the git URL of your fork.  Navigate to its web page (to which you
 were taken after creation), click on the :guilabel:`Code` button, select
-the **HTTPS** tab, and copy the URL given.  It should look like this:
+the **HTTPS** tab, and copy the URL given.  It should look like this::
 
-``https://github.com:<your_github_username>/edx-platform.git``
+   https://github.com:<your_github_username>/edx-platform.git
 
 Now, from the same top level directory you created above, clone the repository
 as follows:

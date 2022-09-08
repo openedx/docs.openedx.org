@@ -6,7 +6,6 @@ Open edX Developers
 
    **Quick Starts**
 
-   * :doc:`/developers/quickstarts/setup_an_mfe_dev_environment`
    * :doc:`/developers/quickstarts/first_openedx_pr`
 
    .. link-button:: quickstarts/index
@@ -18,7 +17,7 @@ Open edX Developers
 
    **What's New**
 
-   TBP
+   * :doc:`/developers/quickstarts/first_openedx_pr`
 
    ---
 
