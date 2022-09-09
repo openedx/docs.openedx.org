@@ -1,19 +1,22 @@
 Open edX Documentation
 ######################
 
+.. The homepages are provided as links in the panels so we don't need to display
+   the table of contents for them.
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User Home Pages
+   :hidden:
+
+   Educators <educators/index>
+   Course Operators <course_ops/index>
+   Site Operators <site_ops/index>
+   Developers <developers/index>
+   Documentators <documentors/index>
+
+
 .. panels::
-
-   .. toctree::
-      :maxdepth: 1
-      :caption: User Home Pages
-
-      Educators <educators/index>
-      Course Operators <course_ops/index>
-      Site Operators <site_ops/index>
-      Developers <developers/index>
-      Documentators <documentors/index>
-
-   ---
 
    .. toctree::
       :maxdepth: 1
@@ -23,9 +26,7 @@ Open edX Documentation
       Course Operators: Run a Course <course_ops/quickstarts/index>
       Site Operators: Set up Open edX <site_ops/quickstarts/index>
       Developers: Contribute to Open edX <developers/quickstarts/index>
-      Documentors: Add Documentation <documentors/quickstarts/quick_start_add_doc>
-      Documentors: Update Documentation <documentors/how-tos/update_a_doc_via_github>
-
+      Documentors: First Documentation PR <documentors/quickstarts/first_documentation_pr>
 
    ---
 
@@ -44,7 +45,6 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Educators: Build an Open edX Course
 
-      educators/quickstarts/build_a_course
       Quickstarts <educators/quickstarts/index>
       How-tos <educators/how-tos/index>
       Concepts <educators/concepts/index>
@@ -63,7 +63,7 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Course Operators: Run Open edX
 
-      course_ops/quickstarts/index
+      Quickstarts <course_ops/quickstarts/index>
       How-tos <course_ops/how-tos/index>
       Concepts <course_ops/concepts/index>
       References <course_ops/references/index>
@@ -79,7 +79,7 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Site Operators: Set Up Open edX
 
-      site_ops/quickstarts/index
+      Quickstarts <site_ops/quickstarts/index>
       How-tos <site_ops/how-tos/index>
       Concepts <site_ops/concepts/index>
       Reference <site_ops/references/index>
@@ -89,14 +89,13 @@ Open edX Documentation
        :text: Site Operators' Home
        :classes: btn-outline-primary btn-block
 
-
    ---
 
    .. toctree::
       :maxdepth: 1
       :caption: Software Developers: Enhance the Open edX Platform
 
-      developers/quickstarts/index
+      Quickstarts <developers/quickstarts/index>
       How-tos <developers/how-tos/index>
       Concepts <developers/concepts/index>
       Reference <developers/references/references_home>
@@ -106,15 +105,13 @@ Open edX Documentation
        :text: Developers' Home
        :classes: btn-outline-primary btn-block
 
-
-
    ---
 
    .. toctree::
       :maxdepth: 1
       :caption: Documentors: Enhancing Documentation
 
-      Quick Starts <documentors/quickstarts/index>
+      Quickstarts <documentors/quickstarts/index>
       How-tos <documentors/how-tos/index>
       Concepts <documentors/concepts/index>
       References <documentors/references/index>
@@ -133,4 +130,3 @@ Open edX Documentation
 
       other/feedback
       other/getting_help
-
