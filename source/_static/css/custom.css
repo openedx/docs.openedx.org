@@ -139,3 +139,10 @@ html[lang="ar"] aside.sidebar{
   margin: 0% 0% 0% 3%;
  }
 }
+
+html[lang="ar"] div.contents ul li p a:after {
+  content: " \f060";
+}
+html[lang="ar"] pre{
+  text-align: left;
+}
