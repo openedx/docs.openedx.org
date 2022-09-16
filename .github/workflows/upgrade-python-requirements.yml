@@ -2,19 +2,19 @@ name: Upgrade Python Requirements
 
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * 5"
   workflow_dispatch:
     inputs:
       branch:
         description: "Target branch against which to create requirements PR"
         required: true
-        default: "main"
+        default: '$default-branch'
 
 jobs:
   call-upgrade-python-requirements-workflow:
     uses: openedx/.github/.github/workflows/upgrade-python-requirements.yml@master
     with:
-      branch: ${{ github.event.inputs.branch || '"main"' }}
+      branch: ${{ github.event.inputs.branch || '$default-branch' }}
       # optional parameters below; fill in if you'd like github or email notifications
       user_reviewers: "feanil"
       # team_reviewers: ""
