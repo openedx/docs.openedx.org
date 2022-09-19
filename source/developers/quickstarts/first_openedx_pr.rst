@@ -19,10 +19,10 @@ These include:
 We assume you are comfortable with the command line, and understand the basics
 of using Git, GitHub, and python basics.
 
-This Quickstart is written for first-time contributors to the Open edX project.
-If you are a plug-in developer or a frontend developer, please see our
-:doc:`Quickstart guide for plug-in developers <setup_a_plugin_dev_environment>`
-or our :doc:`Quickstart for frontend developers <setup_an_mfe_dev_environment>`.
+.. This Quickstart is written for first-time contributors to the Open edX project.
+   If you are a plug-in developer or a frontend developer, please see our
+   :doc:`Quickstart guide for plug-in developers <setup_a_plugin_dev_environment>`
+   or our :doc:`Quickstart for frontend developers <setup_an_mfe_dev_environment>`.
 
 .. _Signing your Contributor License Agreement (CLA).: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
 

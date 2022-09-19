@@ -23,8 +23,7 @@ Open edX Developers
 
    **How-tos**
 
-   * :doc:`how-tos/updating_a_setting_in_edx_platform`
-   * :doc:`how-tos/build_an_mfe_for_production`
+   *
 
    .. link-button:: how-tos/index
        :type: ref
@@ -36,10 +35,7 @@ Open edX Developers
 
    **Concepts**
 
-   * :doc:`concepts/tech_stack_overview`
-   * :doc:`concepts/arch_overview`
    * :doc:`concepts/backend_layout_and_approach`
-   * :doc:`concepts/frontend_approach`
 
    .. link-button:: concepts/index
        :type: ref

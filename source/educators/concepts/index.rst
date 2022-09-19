@@ -7,4 +7,3 @@ Educators: Concepts
    :caption: Concepts
    :glob:
 
-   *

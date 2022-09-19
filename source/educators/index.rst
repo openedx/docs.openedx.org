@@ -37,9 +37,7 @@ Open edX Educators
 
    **Common Concepts**
 
-   * :doc:`concepts/crafting_objectives`
-   * :doc:`concepts/integrating_backwards_design`
-   * :doc:`concepts/aligning_assessments_to_objectives`
+   *
 
 
    .. link-button:: concepts/index

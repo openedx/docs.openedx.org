@@ -5,4 +5,3 @@
 .. toctree::
    :glob:
 
-   *
