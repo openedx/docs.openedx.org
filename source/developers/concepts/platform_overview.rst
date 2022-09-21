@@ -7,10 +7,10 @@ provide all the tools you might need to build and run courses online.
 Tech Stack
 **********
 
-While there are a few exceptions for the most part the technology stack for the
-Open edX Platform is based on `Django`_ based backend servers and `React`_ based
-frontend apps.  There are multiple frontend apps which are usually referred to as
-MFEs(Micro-FrontEnds) within the ecosystem and community.
+While there are a few exceptions, for the most part the technology stack for the
+Open edX Platform uses `Django`_ for backend services and `React`_ for the frontend.
+There are multiple frontend apps which are usually referred to as
+MFEs (Micro-FrontEnds) within the ecosystem and community.
 
 The core code base lives on GitHub in the `openedx`_ organization.
 
@@ -24,17 +24,18 @@ platform lives in the `edx-platform`_ and `frontend-platform` repositories.
   contains the legacy monolith application. That application currently can run
   in two modes.
 
-  As the LMS(Learning Management System) it serves as the backend
+  As the LMS (Learning Management System) it serves as the backend
   for learner data as they go through courses, programs, and serves some legacy
   UI elements.
 
-  As the CMS(Content Management System) it serves as the place where instructors
-  and course authors can build the course content that learners will consume.
+  As Studio it is the CMS(Content Management System) where instructors and
+  course authors can build the course content that learners will consume.
+
 
 * frontend-platform - This is a newer core system meant to ease the creation of
-  multiple small frontend applications(MFEs) by bundling together many common
-  utilities that all frontends need.  This includes things like auth workflows,
-  logging, monitoring and translations related tooling.
+  multiple small frontend applications (MFEs) by bundling together many common
+  utilities that all frontends need.  This includes things like authentication
+  workflows, logging, monitoring and translations related tooling.
 
 Along with these two core systems, there exist a number of other `backend
 services`_ and `MFEs`_ which you can find on GitHub.
@@ -43,7 +44,7 @@ Libraries
 =========
 
 In addition to the backends and front-ends mentioned above, the platform is made
-of numerous 1st party libraries, that live in the `openedx`_ organization.
+of numerous libraries, that live in the `openedx`_ organization.
 These libraries accomplish a variety of different tasks, and you can find more
 details about what they do in their READMEs.
 
