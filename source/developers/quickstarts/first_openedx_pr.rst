@@ -34,10 +34,10 @@ Before you start
    For the smoothest experience, we recommend that your computer has at least
    **16 GB of RAM, 2 CPUs, and at least 50 GB of Free disk space**.
 
-This tutorial is written for users of macOS, either with an Intel or an ARM
-(Apple Silicon, M1, M2, etc.) processor. Additionally, you will need to have the following
-installed or configured, and know at least the basics of using them, before
-proceeding:
+This tutorial is written for users of macOS with either an Intel or an ARM
+(Apple Silicon, M1, M2, etc.) processor or Linux (x86 or x86_64). Additionally,
+you will need to have the following installed or configured, and know at least
+the basics of using them, before proceeding:
 
 * Git (see `GitHub's set up Git guide
   <https://help.github.com/en/github/getting-started-with-github/set-up-git>`_)
