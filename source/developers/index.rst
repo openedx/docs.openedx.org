@@ -35,6 +35,7 @@ Open edX Developers
 
    **Concepts**
 
+   * :doc:`concepts/platform_overview`
    * :doc:`concepts/backend_layout_and_approach`
 
    .. link-button:: concepts/index
