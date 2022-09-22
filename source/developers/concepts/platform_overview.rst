@@ -17,8 +17,9 @@ The core code base lives on GitHub in the `openedx`_ organization.
 Platform Layout
 ***************
 
-While the platform contains many services, MFEs and libraries the core of the
-platform lives in the `edx-platform`_ and `frontend-platform` repositories.
+While the platform contains many services such as MFEs and libraries, the
+core of the platform lives in the `edx-platform`_ and `frontend-platform`
+repositories.
 
 * edx-platform - This was the first service created in the Open edX ecosystem and
   contains the legacy monolith application. That application currently can run
