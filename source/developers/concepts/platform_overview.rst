@@ -26,7 +26,7 @@ repositories.
   in two modes: LMS and Studio.
 
   As the LMS (Learning Management System), it acts as the backend
-  for learner data as they go through courses and programs, and it serves some 
+  for learners' data as they go through courses and programs, and it serves some 
   legacy UI elements.
 
   As Studio, it is the CMS(Content Management System) where instructors and
