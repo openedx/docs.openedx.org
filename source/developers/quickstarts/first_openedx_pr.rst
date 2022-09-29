@@ -34,8 +34,10 @@ Before you start
    For the smoothest experience, we recommend that your computer has at least
    **16 GB of RAM, 2 CPUs, and at least 50 GB of Free disk space**.
 
-This tutorial is written for users of macOS with either an Intel or an ARM
-(Apple Silicon, M1, M2, etc.) processor or Linux (x86 or x86_64). Additionally,
+This tutorial is written for users of macOS or Linux.
+It has been tested with both common 64-bit processor families:
+x86-64 (a.k.a. Intel-64) and ARM-64 (used in newer Apple laptops, including M1, M2, etc.).
+Additionally,
 you will need to have the following installed or configured, and know at least
 the basics of using them, before proceeding:
 
@@ -43,21 +45,24 @@ the basics of using them, before proceeding:
   <https://help.github.com/en/github/getting-started-with-github/set-up-git>`_)
 
 * A `GitHub account <https://github.com/signup>`_
-  * Additionally, we strongly recommend setting up 2-factor authentication
+
+  * Additionally, we strongly recommend setting up 2-factor authentication.
 
 * `Python 3.8 <https://www.python.org/downloads/>`_
 
-* Your favorite code editor (our team uses `VSCode
-  <https://code.visualstudio.com/download>`_, `Emacs
-  <https://emacsformacosx.com/>`_ or via `homebrew`_, `Vim
-  <https://github.com/macvim-dev/macvim>`_ or via `homebrew`_, and others)
+* Your favorite code editor (our team uses
+  `VSCode <https://code.visualstudio.com/download>`_,
+  `Emacs for Mac OS X <https://emacsformacosx.com/>`_,
+  `NeoVim <https://neovim.io/>`_,
+  `MacVim <https://github.com/macvim-dev/macvim>`_,
+  and others)
 
 .. _homebrew: https://brew.sh
 
 Install Docker
 **************
 
-Install `Docker for macOS <https://docs.docker.com/docker-for-mac/>`_ and launch
+Install `Docker Desktop <https://docs.docker.com/desktop/>`_ and launch
 it. You can check that it is running correctly with::
 
     docker run --rm hello-world
@@ -68,7 +73,7 @@ You should see a message that starts with the following::
    This message shows that your installation appears to be working correctly.
 
 On macOS, by default, Docker allocates at most 2 GB of RAM to containers; the
-Open edX software requires at least 8 GB. You should follow these instructions
+Open edX software requires at least 8 GB. macOS users should follow these instructions
 from the `official Docker documentation
 <https://docs.docker.com/docker-for-mac/#advanced>`_ to allocate at least 8 GB
 to the Docker daemon.
@@ -101,7 +106,7 @@ version of the code (as opposed to the most recent named release):
   git clone --branch=nightly https://github.com/overhangio/tutor.git
   pip install -e "./tutor[full]"
 
-If you are using ARM-64 (such as an M1 or M2 Mac), then install this extra plugin and enable it
+If you are using ARM-64 (such as a MacBook M1 or M2), then install this extra plugin and enable it
 (if you're not, then skip this step):
 
 .. code-block:: bash
