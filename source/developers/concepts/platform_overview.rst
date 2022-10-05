@@ -69,7 +69,7 @@ Template`_ based rendering pipelines to serve frontend content to users.
 
 .. note::
 
-   An exception to the expception.  In edx-platform rather than using the
+   An exception to the exception.  In edx-platform rather than using the
    default Django templates, django is setup to use `Mako`_ based templates.
 
 .. _Django: https://www.djangoproject.com/
