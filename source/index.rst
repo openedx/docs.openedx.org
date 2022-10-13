@@ -14,7 +14,7 @@ Open edX Documentation
    Site Operators <site_ops/index>
    Developers <developers/index>
    Documentators <documentors/index>
-
+   Translators <translators/index>
 
 .. panels::
 
