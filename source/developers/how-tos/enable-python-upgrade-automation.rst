@@ -27,7 +27,7 @@ Steps
    .. image:: /_images/developer_how_tos/python-requirements-upgrade-workflow.png
       :alt: An image of the Python Requiremnets Upgrade Workflow Card in Github's UI.
 
-3. Review the contets of the github action, make any changes that you might want
+3. Review the contents of the github action, make any changes that you might want
    to make.  If you're not sure, the defaults work fine for most use cases.
 
 4. Commit the changes to a branch and get the PR reviewed and merged.
