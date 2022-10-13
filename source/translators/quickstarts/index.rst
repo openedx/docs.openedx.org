@@ -1,2 +1,7 @@
 Quickstarts Home
 #################
+
+.. toctree::
+   :glob:
+
+   *
