@@ -28,5 +28,11 @@ tags.  The spacing matters, if you change ``</a>`` to ``</ a>`` it will break
 the website.
 
 Examples may help you better understand what to do in these situations so we
-recommend checking out :ref:`the HTML Section of the Translators Reference Doc
-<../references/index.rst:HTML>`
+recommend checking out
+:ref:`the HTML Section of the Translators Reference <translators/references/index:html>`
+
+.. seealso::
+
+   * :ref:`HTML Reference <translators/references/index:html>`
+
+   * :doc:`working-with-placeholders`
