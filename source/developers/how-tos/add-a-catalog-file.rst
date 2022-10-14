@@ -24,6 +24,8 @@ This How-to assumes the following:
 
 * You have a local clone of the repository you wish to add a catalog file to.
 
+* You have access to `Backstage`_.
+
 Steps
 *****
 

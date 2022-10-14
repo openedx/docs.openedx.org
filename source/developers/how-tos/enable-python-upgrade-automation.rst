@@ -30,7 +30,14 @@ Steps
 3. Review the contents of the GitHub action, make any changes that you might want
    to make.  If you're not sure, the defaults work fine for most use cases.
 
+   * If you are applying changes to a newer repo, you may have ``main`` as your
+     default branch instead of ``master``.  In which case you should update the
+     workflow.
+
 4. Commit the changes to a branch and get the PR reviewed and merged.
+
+   .. image:: /_images/developer_how_tos/python-requirements-upgrade-make-pr.png
+      :alt: An image of the UI formaking a branche for your changes.
 
 5. Next, add the `edx-requirements-bot` team to your repository with ``write``
    permissions.  It will be at the following url with ``<repo_name>`` replaced
