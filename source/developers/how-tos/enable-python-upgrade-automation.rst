@@ -1,13 +1,13 @@
 How To Enable Python Upgrade Automation
 #######################################
 
-This How-to will walk you through the process of getting the automated python
+This How-to will walk you through the process of getting the automated Python
 requirements upgrade jobs setup on a repository.
 
 Assumptions
 ***********
 
-* You know how to use Git and GitHub PR Workflows
+* You know how to use Git and GitHub PR Workflows.
 
 * You have ``admin`` access to the repository.
 
@@ -25,9 +25,9 @@ Steps
    card.
 
    .. image:: /_images/developer_how_tos/python-requirements-upgrade-workflow.png
-      :alt: An image of the Python Requiremnets Upgrade Workflow Card in Github's UI.
+      :alt: An image of the Python Requirements Upgrade Workflow Card in GitHub's UI.
 
-3. Review the contets of the github action, make any changes that you might want
+3. Review the contents of the GitHub action, make any changes that you might want
    to make.  If you're not sure, the defaults work fine for most use cases.
 
 4. Commit the changes to a branch and get the PR reviewed and merged.
