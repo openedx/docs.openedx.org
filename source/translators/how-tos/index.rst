@@ -1,2 +1,7 @@
-"How-To" Guides
+Translators: How-Tos
 ###############
+
+.. toctree::
+   :glob:
+
+   *

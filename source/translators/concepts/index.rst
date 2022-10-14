@@ -1,5 +1,5 @@
-Concepts Home
-#############
+Translators: Concepts
+#####################
 
 .. toctree::
    :glob:

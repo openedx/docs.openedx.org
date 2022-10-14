@@ -1,5 +1,9 @@
-Translators Reference
-#####################
+Translators: Reference
+######################
+
+.. contents:: Translation Reference Materials
+   :local:
+   :class: no-bullets
 
 HTML
 ****

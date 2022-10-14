@@ -1,5 +1,5 @@
-Quickstarts Home
-#################
+Translators: Quickstarts
+########################
 
 .. toctree::
    :glob:
