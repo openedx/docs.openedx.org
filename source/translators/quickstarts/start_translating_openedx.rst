@@ -51,11 +51,10 @@ Finding a string to translate
 
 #. Select a resource
 
-After you become a member of a translation or review team, you can select any of the
-resources in the project to begin translating it. Details about how to translate
-things like HTML, placeholders, and things other than simple strings for Open edX
+After you become a member of a translation team for a language, you can select any of
+the resources in the project to begin translating it. Details about how to translate
+things like HTML, placeholders, and other more complicate strings for Open edX
 are in the :doc:`/translators/concepts/index` section.
-
 
 Each language page lists a set of distinct resources to translate. A resource can be
 a Python and Django web service, a Javascript frontend, or even a single Javascript
