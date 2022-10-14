@@ -5,7 +5,7 @@ In order to help translate Open edX projects, you must first join a translation 
 for the language you wish to translate to. We use `Transifex`_ to allow our community
 to collaborate on translations. More detailed instructions for how to get involved in
 translations are located in the
-:doc:`/translators/quickstarts/start_translating_openedx` page.
+:doc:`/translators/quickstarts/start-translating-openedx` page.
 
 To join a translation team you must complete these steps:
 
