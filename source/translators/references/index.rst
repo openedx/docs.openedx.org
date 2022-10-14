@@ -47,6 +47,9 @@ We will use this string as an example for the advice in this section.
 Placeholders
 ************
 
+Curly Brace Placeholders
+========================
+
 **Source String**:
 
 .. code-block::
@@ -84,5 +87,105 @@ It's okay to re-arrange the placeholders as long as you don't change them.
 
    * - ``¡Bienvenido { student_name }! Hoy es { day } de { month }.``
      - Do not add additional spacing inside the {}. You must use
-       ``{student_name}``, ``{day}`` and ``{month`` exactly as they are in the
+       ``{student_name}``, ``{day}`` and ``{month}`` exactly as they are in the
        source string.
+
+Percent Parenthesis Placeholders
+================================
+
+**Source String**:
+
+.. code-block::
+
+   Welcome back %(student_name)s! Today is %(month)s %(day)d.
+
+**Good Translation**:
+
+It's okay to re-arrange the placeholders as long as you don't change them.
+
+.. code-block::
+
+   ¡Bienvenido %(student_name)s! Hoy es %(day)d de $(month)s.
+
+**Bad Translations**:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Translation
+     - Reason it's Bad
+
+   * - ``¡Bienvenido %(nombre de estudiente)s! Hoy es %(dia)d de %(mes)s.``
+     - Do not translate the placeholder string. You must use
+       ``%(student_name)s``, ``%(day)d`` and ``%(month)s`` exactly as they are
+       in the source string.
+
+   * - ``¡Bienvenido %(student-name)s! Hoy es %(day)d de %(month)s.``
+     - Do not alter the placeholder string punctuation. You must use
+       ``%(student_name)s`` exactly as is.
+
+   * - ``¡Bienvenido %(Student_Name)s! Hoy es %(Day)d de %(Month)s.``
+     - Do not alter the placeholder string capitalization. You must use
+       ``%(student_name)s``, ``%(day)d`` and ``%(month)s`` exactly as they are
+       in the source string.
+
+   * - ``¡Bienvenido %( student_name )s! Hoy es %( day )d de %( month )s.``
+     - Do not add additional spacing inside the %()s. You must use
+       ``%(student_name)s``, ``%(day)d`` and ``%(month)s`` exactly as they are
+       in the source string.
+
+   * - ``¡Bienvenido (student_name)! Hoy es %(day)d de %(month)s.``
+     - Do not remove the ``%`` or ``s``. You must use ``%(student_name)``
+       exactly as is.
+
+   * - ``¡Bienvenido %(student_name)s! Hoy es %(day)s de $(month)s.``
+     - Do not change the character following the parenthesis. You must use
+       ``%(day)d`` as is.
+
+Angle Bracket Placeholders
+==========================
+
+**Source String**:
+
+.. code-block::
+
+   Welcome back <%= student_name %>! Today is <%= month %> <%= day %>.
+
+**Good Translation**:
+
+It's okay to re-arrange the placeholders as long as you don't change them.
+
+.. code-block::
+
+   ¡Bienvenido <%= student_name %>! Hoy es <%= day %> de <%= month %>.
+
+**Bad Translations**:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Translation
+     - Reason it's Bad
+
+   * - ``¡Bienvenido <%= nombre de estudiente %>! Hoy es <%= dia %> de <%= mes %>.``
+     - Do not translate the placeholder string. You must use ``<%= student_name %>``,
+       ``<%= day %>`` and ``<%= month %>`` exactly as they are in the source string.
+
+   * - ``¡Bienvenido <%= student-name %>! Hoy es <%= day %> de <%= month %>.``
+     - Do not alter the placeholder string punctuation. You must use
+       ``<%= student_name %>`` exactly as is.
+
+   * - ``¡Bienvenido <%= Student_Name %>! Hoy es <%= Day %> de <%= Month %>.``
+     - Do not alter the placeholder string capitalization. You must use
+       ``<%= student_name %>``, ``<%= day %>`` and ``<%= month %>`` exactly as they are in the
+       source string.
+
+   * - ``¡Bienvenido < % =  student_name  % >! Hoy es < % =  day  % > de < % =  month  % >.``
+     - Do not add additional spacing inside the <%=  %>. You must use
+       ``<%= student_name %>``, ``<%= day %>`` and ``<%= month %>`` exactly as they are in the
+       source string.
+
+   * - ``¡Bienvenido <student_name>! Hoy es <day> de <month>.``
+     - Do note remove or change the ``<%=`` or ``%>``. You must use ``<%=
+       student_name %>``, ``<%= day %>`` and ``<%= month %>`` exactly as they
+       are in the source string.
