@@ -36,7 +36,7 @@ Copy the contents directive as needed.
 .. code-block:: RST
 
 	Topic Title
-	============
+	###########
 
 	An introductory sentence for the topic, followed by the contents directive, which will create the links to subsections.
 
@@ -58,7 +58,7 @@ Copy the Topic and Section Structure as needed
 .. code-block:: RST
 
 	Topic Title
-	============
+	###########
 
 	Introduce the topic
 
@@ -173,7 +173,7 @@ Copy this codeblock to start a new reference topic.
 .. code-block:: RST
 
 	Reference Title
-	=================
+	###############
 
 	The reference title should just name the object or subject. Such as *Course Section* or *Course Dates*.
 
