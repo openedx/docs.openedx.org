@@ -10,6 +10,7 @@ To copy RST code examples from this topic, just hover over the codeblock to see 
   :depth: 1
 
 
+
 Topic Titles
 ***************
 
@@ -103,24 +104,42 @@ Copy this codeblock to start a new how-to topic.
 
 .. code-block:: RST
 
-	How-to Title
-	=============
+   How-to Title
+   ############
 
-	Titles should be imperative. How-tos should have a short introduction sentence that captures the user's goal and introduces the steps.
+   .. Titles should be imperative. https://www.grammarly.com/blog/imperative-sentences/
 
-	A task should have 3 - 7 steps.  Tasks with more should be broken down into digestible chunks.
+   .. How-tos should have a short introduction sentence that captures the user's goal and introduces the steps.
 
-	#. Step 1.
+   This how-to will help you accomplish task X.
 
-	#. Step 2.
+   Assumptions
+   ***********
 
-	#. Step 3.
+   .. This section should contain a bulleted list of assumptions you have of the
+      person who is following the How-to.  The assumptions may link to other
+      how-tos if possible.
 
-	Following the steps, you should add the result and any follow-up tasks needed.
+   * You know how to use Git
 
-	.. seealso::
+   * You know how to create an empty course.
 
-	  :ref:`title to link to`
+   Steps
+   *****
+
+   .. A task should have 3 - 7 steps.  Tasks with more should be broken down into digestible chunks.
+
+   #. Step 1.
+
+   #. Step 2.
+
+   #. Step 3.
+
+   .. Following the steps, you should add the result and any follow-up tasks needed.
+
+   .. seealso::
+
+     :ref:`title to link to`
 
 
 Add an Ordered List
