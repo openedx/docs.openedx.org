@@ -1,0 +1,7 @@
+Translators: Quickstarts
+########################
+
+.. toctree::
+   :glob:
+
+   *

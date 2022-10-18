@@ -18,11 +18,13 @@ Assumptions
 
 This How-to assumes the following:
 
-* You know how to use Git and GitHub PR Workflows
+* You know how to use Git and GitHub PR Workflows.
 
-* You know how to edit YAML files
+* You know how to edit YAML files.
 
 * You have a local clone of the repository you wish to add a catalog file to.
+
+* You have access to `Backstage`_.
 
 Steps
 *****
@@ -37,6 +39,6 @@ Steps
 
 5. Make a pull request with the changes and get it merged into your project.
 
-6. After the PR has merged, it can take up-to 90 minutes for backstage to pick
+6. After the PR has merged, it can take up to 90 minutes for backstage to pick
    up the changes.  But after that time you should see a catalog entry in
    backstage for your repository.

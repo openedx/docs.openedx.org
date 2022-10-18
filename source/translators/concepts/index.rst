@@ -1,0 +1,7 @@
+Translators: Concepts
+#####################
+
+.. toctree::
+   :glob:
+
+   *

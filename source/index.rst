@@ -14,7 +14,7 @@ Open edX Documentation
    Site Operators <site_ops/index>
    Developers <developers/index>
    Documentators <documentors/index>
-
+   Translators <translators/index>
 
 .. panels::
 
@@ -109,13 +109,12 @@ Open edX Documentation
 
    .. toctree::
       :maxdepth: 1
-      :caption: Documentors: Enhancing Documentation
+      :caption: Documentors
 
       Quickstarts <documentors/quickstarts/index>
       How-tos <documentors/how-tos/index>
       Concepts <documentors/concepts/index>
       References <documentors/references/index>
-      Decisions <documentors/decisions/index>
 
    .. link-button:: documentors/index
        :type: ref
@@ -126,7 +125,24 @@ Open edX Documentation
 
    .. toctree::
       :maxdepth: 1
+      :caption: Translators
+
+      Quickstarts <translators/quickstarts/index>
+      How-tos <translators/how-tos/index>
+      Concepts <translators/concepts/index>
+      References <translators/references/index>
+
+   .. link-button:: translators/index
+       :type: ref
+       :text: Translators' Home
+       :classes: btn-outline-primary btn-block
+
+   ---
+
+   .. toctree::
+      :maxdepth: 1
       :caption: Other Topics
 
       other/feedback
       other/getting_help
+      Documentation Decisions <documentors/decisions/index>

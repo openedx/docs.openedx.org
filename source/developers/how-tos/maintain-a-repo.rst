@@ -10,20 +10,20 @@ How To Maintain a Repository
    Maintaining a repository requires more than just doing the tasks outlined
    here.  This page outlines the things that are easy to write down and follow.
    It does not include advice on other important aspects of being a good
-   maintainer. Aspects such as being a good steward of the codebase, being a
+   maintainer, such as being a good steward of the codebase, and being a
    supportive leader in the community. This and many other activities that a
    maintainer is expected to do involve critical thinking and an understanding
    of the specifics of the codebase you maintain.
 
 Congratulations on becoming the maintainer of a repository in the Open edX
 Platform! As outlined in `OEP-55`_ this is a big responsibility and we're
-excited to help you fullfill it.
+excited to help you fulfill it.
 
 Your repository may be brand new or it may have been around for a while.  In
 either case, this document will help you review the repository and help you make
 the changes needed to meet the current standards of the platform.
 
-GitHub Issues is Enabeld
+GitHub Issues is Enabled
 ************************
 
 GitHub Issues should be enabled on your repository.  This is how issues will be
@@ -32,7 +32,7 @@ reported against your repository.
 **Test**
 
 Go to your repository on GitHub.  If you see an issues tab, you don't need to do
-anything else.  If you *don't see an issues tab* then you see the ``Fix``
+anything else.  If you *don't see an issues tab* then see the ``Fix``
 Section for what to do.
 
 **Fix**
@@ -55,7 +55,7 @@ they own and their status.
 **Fix**
 
 If the file exists, check to make sure the data is up-to-date and correct. If
-you don't have a ``catalog-info.yaml`` file. See :doc:`add-a-catalog-file`
+you don't have a ``catalog-info.yaml`` file, see :doc:`add-a-catalog-file`
 
 Dependency Update Automation is Enabled
 ***************************************
@@ -72,14 +72,14 @@ repo.
 **Fix**
 
 If the file doesn't exist, or the workflow runs are failing, go through
-:doc:`enable-python-upgrade-automation`
+:doc:`enable-python-upgrade-automation`.
 
-A Well Formed README Exists
+A Well-Formed README Exists
 ***************************
 
 **Test**
 
-Check that your readme exists and has all the sections defined in the `README
+Check that your README.rst exists and has all the sections defined in the `README
 specification`_.
 
 **Fix**
