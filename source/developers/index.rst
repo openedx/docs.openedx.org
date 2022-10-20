@@ -51,7 +51,7 @@ Open edX Developers
 
    * :doc:`references/references_home`
    * `edx-platform <https://github.com/openedx/edx-platform>`_
-   * `frontend-platform <https://github.com/openedx/frontend-app-learning>`_
+   * `frontend-platform <https://openedx.github.io/frontend-platform>`_
    * `ecommerce <https://github.com/openedx/ecommerce>`_
    * `course-discovery <https://github.com/openedx/course-discovery>`_
 
