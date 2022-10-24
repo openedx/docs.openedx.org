@@ -15,4 +15,5 @@ Other References
 
 .. toctree::
 
+   running_pr_tests
    tools_for_maintainers
