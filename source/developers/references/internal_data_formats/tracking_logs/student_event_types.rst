@@ -3009,6 +3009,34 @@ before they submit the response.
      - The MIME type of the uploaded file. Reported by the learner's browser.
 
 
+=======================================================
+``openassessment.upload_file_error``
+=======================================================
+
+The browser emits this event when a learner encounters an error while
+uploading an image, .pdf, or other file as part of a response. This
+will block response submission until resolved.
+
+
+**History**: Added 14 December 2020.
+
+**Event Source**: Browser
+
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``statusText``
+     - string
+     - The error message returned from the failed upload.
+
+
 .. _pre-roll:
 
 **********************************

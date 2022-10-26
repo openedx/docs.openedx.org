@@ -379,6 +379,8 @@ M, N, O
      - :ref:`ora2`
    * - ``openassessment.upload_file``
      - :ref:`ora2`
+   * - ``openassessment.upload_file_error``
+     - :ref:`ora2`
 
 .. _PQR:
 
