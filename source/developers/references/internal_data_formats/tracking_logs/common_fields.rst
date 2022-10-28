@@ -1,9 +1,9 @@
 
 .. _common:
 
-*****************************
+#############################
 Common Fields
-*****************************
+#############################
 
 This section describes the JSON fields that are common to the schema
 definitions of all events. These fields are at the root level of the event
