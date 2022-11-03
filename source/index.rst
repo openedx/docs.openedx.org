@@ -98,7 +98,7 @@ Open edX Documentation
       Quickstarts <developers/quickstarts/index>
       How-tos <developers/how-tos/index>
       Concepts <developers/concepts/index>
-      Reference <developers/references/references_home>
+      Reference <developers/references/index>
 
    .. link-button:: developers/index
        :type: ref
