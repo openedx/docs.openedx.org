@@ -10,7 +10,7 @@ Open edX Developers
 
    .. link-button:: quickstarts/index
        :type: ref
-       :text: Quickstarts
+       :text: More Quickstarts
        :classes: btn-outline-primary btn-block
 
    ---
@@ -30,7 +30,7 @@ Open edX Developers
 
    .. link-button:: how-tos/index
        :type: ref
-       :text: How-To Guides
+       :text: More How-Tos
        :classes: btn-outline-primary btn-block
 
 
@@ -59,7 +59,7 @@ Open edX Developers
 
    .. link-button:: references/index
        :type: ref
-       :text: References Home
+       :text: More References
        :classes: btn-outline-primary btn-block
 
 
