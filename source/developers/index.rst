@@ -10,24 +10,27 @@ Open edX Developers
 
    .. link-button:: quickstarts/index
        :type: ref
-       :text: Quickstarts
+       :text: More Quickstarts
        :classes: btn-outline-primary btn-block
 
    ---
 
    **What's New**
 
-   * :doc:`/developers/quickstarts/first_openedx_pr`
+   * :doc:`references/running_pr_tests`
+   * :doc:`references/internal_data_formats/index`
 
    ---
 
    **How-tos**
 
-   *
+   * :doc:`how-tos/maintain-a-repo`
+   * :doc:`how-tos/enable-python-upgrade-automation`
+   * :doc:`how-tos/add-a-catalog-file`
 
    .. link-button:: how-tos/index
        :type: ref
-       :text: How-To Guides
+       :text: More How-Tos
        :classes: btn-outline-primary btn-block
 
 
@@ -49,11 +52,15 @@ Open edX Developers
    **References**
 
 
-   * :doc:`references/references_home`
+   * :doc:`references/tools_for_maintainers`
+   * :doc:`references/internal_data_formats/index`
    * `edx-platform <https://github.com/openedx/edx-platform>`_
    * `frontend-platform <https://openedx.github.io/frontend-platform>`_
-   * `ecommerce <https://github.com/openedx/ecommerce>`_
-   * `course-discovery <https://github.com/openedx/course-discovery>`_
+
+   .. link-button:: references/index
+       :type: ref
+       :text: More References
+       :classes: btn-outline-primary btn-block
 
 
 
