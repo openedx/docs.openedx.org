@@ -1,0 +1,30 @@
+.. _Open edX Release Notes:
+
+###############################
+Open edX Platform Release Notes
+###############################
+
+The *Open edX Platform Release Notes* provide information about releases, migrations, and other changes and updates to the Open edX platform.
+
+.. toctree::
+    :maxdepth: 2
+
+    named_release_branches_and_tags
+    olive
+    nutmeg
+    maple
+    lilac
+    koa
+    juniper
+    ironwood
+    hawthorn
+    ginkgo
+    ficus
+    eucalyptus
+    bulk_email
+    CSMHE/index
+    dogwood
+    cypress
+    birch
+
+.. include:: links.rst
