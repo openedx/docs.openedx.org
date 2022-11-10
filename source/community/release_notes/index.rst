@@ -26,5 +26,3 @@ The *Open edX Platform Release Notes* provide information about releases, migrat
     dogwood
     cypress
     birch
-
-.. include:: links.rst

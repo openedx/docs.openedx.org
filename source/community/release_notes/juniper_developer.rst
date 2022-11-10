@@ -92,7 +92,7 @@ access and maintaining JSON web tokens through to the MFE was built into the
 **Deprecation of Legacy Implementations:** A number of legacy implementations
 and views to power login and registration pages on edX platform were cleaned up
 and removed in favor of a single secure implementation. Details are in the
-:jira:`DEPR-52`.
+`DEPR-52`_.
 
 .. _DEPR-52: https://openedx.atlassian.net/browse/DEPR-52
 
@@ -197,7 +197,7 @@ Python
 About 55% of the Open edX platform is written in Python, meaning a large
 fraction of the code written over the past 8 or so years was reviewed and
 updated to support Python 3 as part of the Juniper release. While much of the
-work done for this effort was captured in JIRA as ":jira:`INCR-1`", many other
+work done for this effort was captured in JIRA as `INCR-1`_, many other
 dependencies and related services were also updated to support Python 3. One
 example of these service upgrades was CodeJail, which is used to sandbox code
 written by course reams to assess or execute student problem submissions that

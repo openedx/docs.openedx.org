@@ -27,8 +27,7 @@ Self-Paced Course Configuration
 When course teams create a course, they can now select the way a course is
 delivered to learners. You can set a schedule for the course, including due
 dates for assignments or exams, or you can specify that the course is
-self-paced, which allows learners to work at their own pace. For more
-information, see :ref:`opencoursestaff:Setting Course Pacing`.
+self-paced, which allows learners to work at their own pace.
 
 ========================
 Subsection Prerequisites
@@ -36,8 +35,7 @@ Subsection Prerequisites
 
 Course teams can now control the visibility of subsections based on the scores
 that learners earn in other subsections. This feature prevents learners from
-viewing content before they earn a minimum score for previous content. For more
-information, see :ref:`opencoursestaff:configuring_prerequisite_content`.
+viewing content before they earn a minimum score for previous content.
 
 =================
 Course Navigation
@@ -63,16 +61,14 @@ Teams
 With the teams feature, a learner can browse a list of topics, and then create
 a team and invite other learners to take part in group activities relating to
 one of the topics. Team activities provide opportunities for small group
-interactions and projects in your course. For more information, see
-:ref:`opencoursestaff:CA_Teams_Overview`.
+interactions and projects in your course.
 
 =========
 Bookmarks
 =========
 
 The bookmarks feature allows a learner to add a bookmark to any unit in the LMS
-so that the page can be found later on the **My Bookmarks** page. For
-more information, see :ref:`openlearners:SFD Bookmarks`.
+so that the page can be found later on the **My Bookmarks** page.
 
 =================================
 Drag and Drop Problem XBlock
@@ -80,8 +76,7 @@ Drag and Drop Problem XBlock
 
 A new, mobile-ready and accessible drag and drop problem type is now available.
 This version replaces the original drag and drop problem type, which is now
-deprecated. For more information, see
-:ref:`opencoursestaff:drag_and_drop_problem`.
+deprecated.
 
 =======================
 Peer Instruction XBlock
@@ -90,18 +85,14 @@ Peer Instruction XBlock
 The peer instruction tool emulates the classroom experiences of the Peer
 Instruction learning system. A multiple choice question gives online learners
 an opportunity to review the answers, and rationales, provided by other course
-participants, and arrive at a deeper understanding of concepts. For more
-information for course teams, see :ref:`opencoursestaff:UBC Peer Instruction`.
-For more information for learners, see
-:ref:`openlearners:interactive_multiple_choice`.
+participants, and arrive at a deeper understanding of concepts.
 
 =============================
 Completion XBlock
 =============================
 
 The completion XBlock adds a toggle control that allows learners to mark the
-associated section of course content as complete. For more information, see
-:ref:`opencoursestaff:completion`.
+associated section of course content as complete.
 
 =============================
 CourseTalk for Course Reviews
@@ -110,7 +101,7 @@ CourseTalk for Course Reviews
 The CourseTalk widget allows learners to post course ratings and reviews that
 then appear on the course's **About** page. When you add the CourseTalk widget
 to an Open edX instance, the widget is enabled for every course on that
-instance. For more information, see :ref:`installation:Add CourseTalk (Deprecated)`.
+instance.
 
 ==================================
 Configurable Data Storage Services
@@ -121,9 +112,6 @@ retrieval, the Open edX platform now uses the Django file storage API. In
 addition to S3, you can now configure an OpenStack Swift Object Store as the
 cloud storage provider for certain system features.
 
-For more information, see the `Configuring Data Storage`_ wiki page.
-
-.. _Configuring Data Storage: https://openedx.atlassian.net/wiki/display/OpenOPS/Configuring+Data+Storage
 
 ==========================
 Themes for Multiple Sites
@@ -131,15 +119,6 @@ Themes for Multiple Sites
 
 With this release, it is now possible to configure themes for multiple sites in
 a single installation of the Open edX platform.
-
-* For more information about how to configure multiple sites for your
-  installation, see :ref:`installation:Configuring Open edX Sites`.
-
-* For more information about how to create themes for your sites, see
-  `Changing the Appearance of Open edX Sites <http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-eucalyptus.master/configuration/changing_appearance/index.html>`_.
-
-
-.. pattern library and UI toolkit
 
 
 ===================================================
@@ -158,16 +137,13 @@ responses in open response assessments.
   evaluate the learner's response. The learner's grade for the assignment is
   updated to the grade that results from the staff assessment.
 
-For more information, see :ref:`opencoursestaff:Managing ORA Assignments`.
-
 ====================================
 Learner ORA Response Report
 ====================================
 
 A new report is available for ORA assignments that includes each learner's
 response, assessment details and scores, the final score for the assignment,
-and any feedback provided by the learner about the peer assessment process. For
-more information, see :ref:`opencoursestaff:Generate ORA Report`.
+and any feedback provided by the learner about the peer assessment process.
 
 ==============================
 Updates to E-Commerce Checkout
@@ -176,8 +152,7 @@ Updates to E-Commerce Checkout
 This release includes updates to the user interface on the **Checkout** page
 that is presented by the edX e-commerce service. The functionality of this
 page has not changed, and learners can continue to check out using their credit
-cards or PayPal. For more information, see :ref:`installation:Adding ECommerce
-to Open edX`.
+cards or PayPal.
 
 ===============================
 Badges for Custom Course Events
@@ -186,9 +161,7 @@ Badges for Custom Course Events
 Open edX instances can now create and award badges to learners for certain
 milestone achievements. Example achievements include enrolling in a certain
 number of courses, completing a certain number of courses, or completing a
-specific set of courses. For more information, see
-:ref:`installation:Create Course Event Badges` and
-:ref:`opencoursestaff:Enable Badges in Course`.
+specific set of courses.
 
 ===============================
 Updates to Course Discussions
@@ -199,52 +172,39 @@ This release includes the following changes to course discussions.
 * When learners upload images and links in discussion posts, they can now
   include descriptions of the images or links. These descriptions are the
   accessible text descriptions of the uploaded material, and are required
-  unless learners indicate that an image is decorative only. (:jira:`AC-73` and
-  :jira:`AC-75`)
+  unless learners indicate that an image is decorative only.
 
 * In course discussions, learners can no longer vote for or report their own
-  posts. (:jira:`TNL-4703`)
-
-====================
-Other Updates
-====================
+  posts.
 
 * Previously, the course **About** page included an unnecessary heading labeled
   **overview**. This release removes the **overview** heading.
-  (:jira:`OSPR-1146`)
 
 * The LMS now supports internationalization and localization of static user
-  interface text in XBlocks. For more information, see :ref:`xblocktutorial:EdX
-  Learning Management System as an XBlock Runtime`.
+  interface text in XBlocks.
 
 * Learners must now enter or select an answer before they can use **Check** or
   **Final Check** to find out if their answers are correct. This change applies
   to checkbox, dropdown, multiple choice, and text, numerical, or math
-  expression input problems. (:jira:`OSPR-1240`)
+  expression input problems.
 
 * In the LMS unit navigation bar, only the unit display name now appears or is
   read when learners move the pointer over a unit icon. Previously, the display
   names of the unit and all of its components appeared or were read.
-  (:jira:`MA-2188`)
 
-* The student profile report now includes columns for city and country.  For
-  more information, see :ref:`opencoursestaff:Columns in the Student Profile
-  Report`.
+* The student profile report now includes columns for city and country.
 
 * Course teams can now send bulk email messages to one or more of the cohorts
-  in their courses. For more information, see
-  :ref:`opencoursestaff:bulk_email_message_addressing`. (:jira:`TNL-4357`)
+  in their courses.
 
 * Studio now has a setting that course teams can use to keep timed exams hidden
   after the exam due date has passed. In the LMS, course team members who view
   the course as a specific learner see the timed exam content even if the exam
-  is hidden. For more information, see
-  :ref:`opencoursestaff:Timed Exams`.
+  is hidden.
 
 * System administrators can now add custom fields to the registration page for
   their Open edX instances. Fields can be of different types, including
-  dropdown and text entry. For more information, see
-  :ref:`installation:Customize Registration Page`.
+  dropdown and text entry.
 
 ***************************************************
 Updates to Analytics Events and Database Tables
@@ -308,8 +268,6 @@ The following analytics events reflect course navigation actions in the LMS.
 * ``edx.ui.lms.sequence.previous_selected``
 * ``edx.ui.lms.sequence.tab_selected``
 
-For more information, see :ref:`data:navigational`.
-
 The following analytics events have been added for the new drag and drop
 problem XBlock.
 
@@ -319,16 +277,12 @@ problem XBlock.
 * ``edx.drag_and_drop_v2.item.picked_up``
 * ``edx.drag_and_drop_v2.loaded``
 
-For more information, see :ref:`data:Drag and Drop Events`.
-
 The following analytics events have been added for the bookmarks feature.
 
 * ``edx.bookmark.accessed``
 * ``edx.bookmark.added``
 * ``edx.bookmark.listed``
 * ``edx.bookmark.removed``
-
-For more information, see :ref:`data:bookmark_events`.
 
 The following analytics events have been added for the notes feature.
 
@@ -346,15 +300,6 @@ response assessments.
 * ``openassessmentblock.get_submission_for_staff_grading``
 * ``openassessmentblock.staff_assess``
 
-For more information, see :ref:`data:ora2`.
-
-The ``edx.done.toggled`` event has been added for the completion XBlock.
-For more information, see :ref:`data:Course Content Completion Events`.
-
-In addition, documentation for events that reflect interactions with the
-:ref:`data:notes<notes>` feature and with :ref:`data:timed
-exams<special_exam_development_events>` is now available in the *EdX Research
-Guide*.
 
 ***********************
 Accessibility Updates
@@ -391,22 +336,19 @@ component options include headings beginning with Heading 3. This release
 also includes styling and scalability changes to the toolbar icons in the HTML
 component visual editor.
 
-For more information, see :ref:`opencoursestaff:Best Practices for HTML Markup`
-or :ref:`opencoursestaff:The Visual Editor`.
 
-=====================
-Other Updates
-=====================
+Other Accessibility Updates
+===========================
 
 This release includes a number of improvements to the appearance and
 accessibility of controls in the edX LMS.
 
 * When learners who use high contrast mode on their systems select an LMS page
   such as **Course** or **Discussion**, the selected page is now clearly
-  distinguishable from the other pages. (:jira:`AC-386`)
+  distinguishable from the other pages.
 
 * The **Calculator** control has been enhanced so that it appears for learners
-  who use high contrast mode on their systems. (:jira:`AC-405`)
+  who use high contrast mode on their systems.
 
 * The target of the **Skip to Content** links has been updated so that keyboard
   and screen reader users can more easily navigate to the unique content on
@@ -415,11 +357,11 @@ accessibility of controls in the edX LMS.
 
 * The editing options for circuit schematic builder problems, including the
   tools to cut, copy, paste, and show or hide the grid display, now include
-  accessible labels. (:jira:`AC-399`)
+  accessible labels.
 
 * On wiki article pages, the options for an article, including **View**,
   **Edit**, and **Settings**, now appear next to, rather than in, the shaded
-  area below the article. (:jira:`AC-474`)
+  area below the article.
 
 *******************************
 System Upgrades and Updates
@@ -427,7 +369,6 @@ System Upgrades and Updates
 
 * You can now enable or disable the bulk email feature from the Django
   administration console, rather than editing different configuration files.
-  For more information, see :ref:`openreleasenotes:Enable Bulk Email`.
 
   .. important:: As a result of this change, the bulk email feature is disabled
     until you manually re-enable it.
@@ -436,8 +377,7 @@ System Upgrades and Updates
   includes support for the client credentials grant.
 
 * The number of days before OAuth tokens expire for mobile OAuth clients can
-  now be configured. For more information, see :ref:`installation:Configure
-  OAuth Token Expiration Days`.
+  now be configured.
 
 * In this release, Ruby has been removed from the edx-platform repository. As a
   result, the ``prereqs`` paver command no longer installs the prerequisite
@@ -512,41 +452,24 @@ Deprecated Tools and Problem Types
 
 * The randomize component is now deprecated. To provide randomized content in
   your courses, add randomized content blocks to assign problems from a content
-  library. For more information, see :ref:`opencoursestaff:Randomized Content
-  Blocks`.
+  library.
 
 * The original drag and drop problem type is now deprecated. A new mobile-
-  ready, accessible drag and drop problem type is available. For more
-  information, see :ref:`opencoursestaff:drag_and_drop_problem`.
+  ready, accessible drag and drop problem type is available.
 
 ==============================
 Deleted Tools and XModules
 ==============================
 
-* The graphical slider tool is no longer available. (:jira:`TNL-3923`)
+* The graphical slider tool is no longer available.
 
 * The crowdsource hinter XModule is no longer available as a course tool.
 
 * To improve grade calculation performance for the **Progress** page in the
   LMS, support for the ``always_recalculate_grades`` XBlock field has been
-  removed. (:jira:`TNL-4453`)
+  removed.
 
 * The ``ENABLE_JWT_AUTH`` feature flag has been removed.
-
-************************************************
-More Information on Eucalyptus Release Changes
-************************************************
-
-The `edX Release Notes`_ contain a summary of changes that are deployed to
-edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub.
-
-You can also find `release announcements`_ on the open.edx.org website. You can
-subscribe to have these weekly release announcements sent to your email
-account.
-
-Changes listed for 13 July 2016 and before are included in the Eucalyptus
-release of Open edX.
 
 
 **************
@@ -560,14 +483,11 @@ Patch Releases
 * A problem that caused the Django Debug Toolbar to raise a "process() takes
   exactly 3 arguments (2 given)" exception has been fixed.
 
-* Course discussion performance has been improved. (:jira:`TNL-5173`)
+* Course discussion performance has been improved.
 
 * Learners can now correctly add a comment to a response in inline course
-  discussions.  (:jira:`TNL-5389`)
+  discussions.
 
-* Links to vertical blocks have been fixed. (:jira:`TNL-5003`)
+* Links to vertical blocks have been fixed.
 
 * The install_stack.sh file now creates directories differently.
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

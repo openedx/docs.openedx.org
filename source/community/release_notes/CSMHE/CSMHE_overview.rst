@@ -75,6 +75,3 @@ EdX chose to set up a new database to address several requirements.
 
 The edx-platform repository master branch writes records to this database and
 table as of 5 May 2016.
-
-
-.. include:: ../../../links/links.rst

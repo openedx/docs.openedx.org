@@ -194,11 +194,6 @@ Open edX installations can now add an e-commerce service. The edX
 `e-commerce service`_ is a Django application that manages and handles
 orders for product catalogs.
 
-For more information about how to install and set up the edX e-commerce
-service, configure partners and sites, add assets, and fulfill orders, see
-`Adding E-Commerce to the Open edX Platform (Dogwood)`_ in the *Installing,
-Configuring, and Running the Open edX Platform* guide.
-
 =========================================
 TPA Sign In Without Account Activation
 =========================================
@@ -267,10 +262,7 @@ release.
 * ``edx.team.searched``
 * ``play_video``
 
-For more information about these events, see `Events in Tracking Logs`_ in the
-*edX Research Guide*. Note that this document is written primarily for edX
-partners running courses on edx.org. However, the event listing applies to Open
-edX instances as well.
+For more information about these events, see :ref:`Event Reference`.
 
 ***********************
 Accessibility Updates
@@ -396,7 +388,7 @@ The following XModules and tools are deprecated in the Dogwood release.
 
 * The FoldIt protein simulator XModule.
 
-* The LTI XModule. This XModule has been replaced by the :ref:`LTI XBlock`.
+* The LTI XModule. This XModule has been replaced by the `LTI XBlock`.
 
 * Support has ended for the graphical_slider_tool. Code for this tool will
   be removed entirely in the Open edX Eucalyptus release.
@@ -424,9 +416,7 @@ Django 1.8 Upgrade
 ********************
 
 The edX platform was upgraded from Django 1.4 to Django 1.8.7. This section
-summarizes the effects of this upgrade. For more information, see the `Django
-1.8 Upgrade Release Notes`_ page on the edX wiki or the `Django 1.8 pull
-request`_ in GitHub.
+summarizes the effects of this upgrade.
 
 ==================
 Transactions
@@ -452,6 +442,10 @@ Transactions
             # Model has already been created.
             log.warning("Something...")
 
+
+.. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions
+.. _Django website: https://www.djangoproject.com
+
 ==================
 Model Migrations
 ==================
@@ -469,6 +463,8 @@ Model Meta Classes
 The ``app_label`` attribute has been added to several different models. For
 more information, see `app_label`_ on the `Django website`_.
 
+.. _app_label: https://docs.djangoproject.com/en/1.8/ref/models/options/#app-label
+
 ==================
 More Information
 ==================
@@ -481,20 +477,10 @@ resources.
 * `Django 1.7`_
 * `Django 1.8`_
 
-************************************************
-More Information on Dogwood Release Changes
-************************************************
-
-The `edX Release Notes`_ contain a summary of changes that are deployed to
-edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub.
-
-You can also find `release announcements`_ on open.edx.org, which list changes
-in each release on edx.org. You can subscribe to have release announcements
-sent to your email account.
-
-Changes listed for 16 December 2015 and before are included in the Dogwood
-release of Open edX.
+.. _Django 1.5: https://docs.djangoproject.com/en/1.8/releases/1.5
+.. _Django 1.6: https://docs.djangoproject.com/en/1.8/releases/1.6
+.. _Django 1.7: https://docs.djangoproject.com/en/1.8/releases/1.7
+.. _Django 1.8: https://docs.djangoproject.com/en/1.8/releases/1.8
 
 **************
 Patch Releases
@@ -518,9 +504,7 @@ Patch Releases
 
 * You now have the option to allow learners to audit courses without offering
   certificates for the audit track.  Use the ``AUDIT_CERT_CUTOFF_DATE`` setting
-  to control when audit certificates are discontinued. For more information,
-  see :ref:`installation:Discontinue Audit Certificates` in the *Installing,
-  Configuring, and Running the Open edX Platform* guide.
+  to control when audit certificates are discontinued.
 
 * A number of installation issues are fixed.
 
@@ -533,7 +517,3 @@ Patch Releases
 
 An update to the release packaging was made to fix errors during installations
 and upgrades.
-
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

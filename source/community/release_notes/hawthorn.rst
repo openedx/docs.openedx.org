@@ -6,13 +6,6 @@ Open edX Hawthorn Release
 
 This page lists the highlights of the Hawthorn release of the Open edX platform.
 
-The `edX Release Notes`_ contain a summary of changes that are deployed to
-edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub. You can also find `release announcements`_ on the open.edx.org
-website.
-
-Changes listed for July 6, 2018 and before are included in the Hawthorn release
-of Open edX. Changes after that point will be in future Open edX releases.
 
 .. contents::
  :depth: 1
@@ -78,9 +71,9 @@ Studio and Course Author Tools
   beforehand.
 * The Video Uploads page is enabled by default. For course teams who partner 
   with 3Play Media and cielo24, transcripts (including translations of 
-  transcripts) are added to Studio automatically.​
+  transcripts) are added to Studio automatically.
 * You can establish a password policy to require a minimum strength and 
-  complexity for passwords. For more information, see `Password Policy`_
+  complexity for passwords.
 
 Changes to OLX <transcript> Element for Videos 
 **********************************************
@@ -159,6 +152,3 @@ Several features are deprecated or deleted in the Open edX Hawthorn release.
   permanently enabled. This meants that logging out of the LMS or an IDA logs 
   you out of all systems.
 
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

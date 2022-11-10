@@ -56,8 +56,9 @@ The Dates Tab has also been removed from the legacy learner experience. It is on
 
 Weekly Course Goals
 -------------------
-The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `4.30. Enabling the Weekly Learning Goals Feature in "Installing, Configuring, and Running the Open edX Platform"`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
+The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `Enabling the Weekly Learning Goals Feature`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
 
+.. _Enabling the Weekly Learning Goals Feature: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_weekly_learning_goals.html
 
 Learning Micro-Frontend (MFE)
 -----------------------------
@@ -121,7 +122,7 @@ Administrators & Operators
 * Various improvements and bugfixes have been applied to `Tutor`_, the officialy-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
 
 .. _Tutor's changelog, starting at v13.0.1: https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1301-2021-12-20
-
+.. _Tutor: https://docs.tutor.overhang.io/
 
 * An internal performance improvement called `learning sequences`_ has been opt-in for a few releases, but is now always-on for Nutmeg. If you have any courses that have not been re-published on Koa or later, run the :code:`simulate_publish` cms django command on your courses before upgrading, to populate the learning sequence data.
 
@@ -264,10 +265,15 @@ Deprecations
 
 Removed in Nutmeg
 -----------------
-- django-ratelimit-backend has been removed from edx-platform. Now the django-ratelimit library will be used for rate limiting. See :jira:`DEPR-150` for more details. Related to this, the default Django admin login window is disabled and now one has to login from LMS.
-- The `edx-certificates repo`_ has been archived. See `DEPR-160` for more details.
+- django-ratelimit-backend has been removed from edx-platform. Now the django-ratelimit library will be used for rate limiting. See `DEPR-150`_ for more details. Related to this, the default Django admin login window is disabled and now one has to login from LMS.
+- The `edx-certificates repo`_ has been archived. See `DEPR-160`_ for more details.
 - “Old Mongo” course access has finally been fully removed. This means course runs that have keys like :code:`Org/Course/Run` rather than :code:`course-v1:Org+Course+run`  cannot be accessed by learners. New runs of this type haven’t been able to be created since 2015, but now learner access has also been removed. See `[DEPR] Issue #62`_ for more information on the continuing removal of Old Mongo technology.
 - :code:`problemset` and :code:`videosequence` are old-but-not-entirely-unused aliases to the sequential (in Studio-speak, "Subsection") block type. Support for them in the Learning MFE ended in the maple release. Now all support has been removed.
+
+.. _DEPR-150: https://openedx.atlassian.net/browse/DEPR-150
+.. _DEPR-160: https://openedx.atlassian.net/browse/DEPR-160
+.. _edx-certificates repo: https://github.com/openedx-unsupported/edx-certificates
+.. _[DEPR] Issue #62: https://github.com/openedx/public-engineering/issues/62
 
 Deprecated in Nutmeg (or earlier) and scheduled to be removed in the Olive release
 ----------------------------------------------------------------------------------
@@ -322,7 +328,5 @@ Open edX Events: this standardized version of Django Signals allows extension de
 
 Open edX Filters: through configuration only, extension developers can set a list of functions to be executed before a key process starts, e.g before enrollment, login, register, etc.
 
-
-.. include:: links.rst
-.. include:: ../../links/links.rst
-
+.. _Open edX Events & Filters: https://github.com/openedx/edx-platform/blob/master/docs/guides/hooks/index.rst#openedx-hooks-extension-framework
+.. _OEP-50\: Hooks Extension Framework: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html

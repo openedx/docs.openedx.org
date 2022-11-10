@@ -26,7 +26,7 @@ All Open edX Releases
 
 Note that the latest release is the only supported release. We currently do not have the ability to support more than one release at a time.
 
-For documentation on the latest release, please visit the :doc:`openreleasenotes:index`.
+For documentation on the latest release, please visit the :doc:`./index`.
 
 Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc). Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc). After a few releases, we might still add important fixes to the branch, but not make a new tagged release. At that point, someone installing that line will want to install from the branch, not the tags.
 
@@ -37,7 +37,7 @@ Olive
 
 * **Code cut date:** 2022-10-11
 * **Status:** supported
-* :doc:`Release Notes <openreleasenotes:olive>`
+* :doc:`Release Notes <./olive>`
 
 .. list-table::
    :header-rows: 1
@@ -55,7 +55,7 @@ Nutmeg
 
 * **Code cut date:** 2022-04-12
 * **Status:** unsupported
-* :doc:`Release Notes <openreleasenotes:nutmeg>`
+* :doc:`Release Notes <./nutmeg>`
 
 .. list-table::
    :header-rows: 1
@@ -81,7 +81,7 @@ Maple
 
 * **Code cut date:** 2021-10-15
 * **Status:** unsupported
-* :doc:`Release Notes <openreleasenotes:maple>`
+* :doc:`Release Notes <./maple>`
 
 .. list-table::
    :header-rows: 1
@@ -99,7 +99,7 @@ Lilac
 
 * **Code cut date:** 2021-04-09
 * **Status:** unsupported
-* :doc:`Release Notes <openreleasenotes:lilac>`
+* :doc:`Release Notes <./lilac>`
 
 .. list-table::
    :header-rows: 1
@@ -121,7 +121,7 @@ Koa
 
 * **Code cut date:** 2020-11-12
 * **Status:** unsupported
-* :doc:`Release Notes <openreleasenotes:koa>`
+* :doc:`Release Notes <./koa>`
 
 .. list-table::
    :header-rows: 1
@@ -151,7 +151,7 @@ Juniper
 
 * **Code cut date:** 2020-05-27
 * **Status:** unsupported
-* :doc:`Release Notes <openreleasenotes:juniper>`
+* :doc:`Release Notes <./juniper>`
 
 .. list-table::
    :header-rows: 1
@@ -177,7 +177,7 @@ Ironwood
 
 * **Code cut date:** 2019-01-17
 * **Status:** unsupported
-* :doc:`Release Notes <openreleasenotes:ironwood>`
+* :doc:`Release Notes <./ironwood>`
 
 .. list-table::
    :header-rows: 1
@@ -204,7 +204,7 @@ Hawthorn
 * **Code cut date:** 2018-07-03
 * **Status:** unsupported
 * **Note:** Devstack is now based on Docker.
-* :doc:`Release Notes <openreleasenotes:hawthorn>`
+* :doc:`Release Notes <./hawthorn>`
 
 .. list-table::
    :header-rows: 1
@@ -235,7 +235,7 @@ A note about Vagrant box files:
 * **Code cut date:** 2017-07-06
 * **Status:** unsupported
 * **Latest:** open-release/ginkgo.master
-* :doc:`Release Notes <openreleasenotes:ginkgo>`
+* :doc:`Release Notes <./ginkgo>`
 
 .. list-table::
    :header-rows: 1
@@ -271,7 +271,7 @@ Ficus
 * **Code cut date:** 2017-01-10
 * **Status:** unsupported
 * **Latest:** open-release/ficus.master
-* :doc:`Release Notes <openreleasenotes:ficus>`
+* :doc:`Release Notes <./ficus>`
 
 .. list-table::
    :header-rows: 1
@@ -327,7 +327,7 @@ Eucalyptus
 * **Code cut date:** 2016-07-13
 * **Status:** unsupported
 * **Latest:** open-release/eucalyptus.master
-* :doc:`Release Notes <openreleasenotes:eucalyptus>`
+* :doc:`Release Notes <./eucalyptus>`
 
 .. list-table::
    :header-rows: 1
@@ -369,7 +369,7 @@ Dogwood
 * **Code cut date:** 2015-12-15
 * **Status:** unsupported
 * **Latest:** named-release/dogwood.rc
-* :doc:`Release Notes <openreleasenotes:dogwood>`
+* :doc:`Release Notes <./dogwood>`
 
 .. list-table::
    :header-rows: 1
@@ -417,7 +417,7 @@ Cypress
 * **Code cut date:** 2015-07-07
 * **Status:** unsupported
 * **Latest:** named-release/cypress.rc
-* :doc:`Release Notes <openreleasenotes:cypress>`
+* :doc:`Release Notes <./cypress>`
 
 .. list-table::
    :header-rows: 1
@@ -439,7 +439,7 @@ Birch
 * **Code cut date:** 2015-01-29
 * **Status:** unsupported
 * **Latest:** named-release/birch.rc
-* :doc:`Release Notes <openreleasenotes:birch>`
+* :doc:`Release Notes <./birch>`
 
 .. list-table::
    :header-rows: 1

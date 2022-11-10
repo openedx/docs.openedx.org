@@ -220,7 +220,7 @@ line to your config overrides::
 
     EDXAPP_EDXAPP_SECRET_KEY: "DUMMY KEY CHANGE BEFORE GOING TO PRODUCTION"
 
-As part of the work on :jira:`LEARNER-4674`, edX switched from using a custom-built
+As part of the work on `LEARNER-4674`, edX switched from using a custom-built
 password validator to Django's framework of password validation. This involved
 creating a new configuration value, ``AUTH_PASSWORD_VALIDATORS``, a list of
 Django and edX-created validators.  To facilitate code cleanliness, we have
@@ -270,6 +270,3 @@ keys.
 
 .. __: https://django-oscar.readthedocs.io/en/latest/releases/v1.5.3.html
 
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

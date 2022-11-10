@@ -77,13 +77,11 @@ Studio & Course Author Tools
   Open edX Course*  for more information.
 
 * Course teams can create custom pages that only course team members with the
-  Staff or Admin role can see.  See :ref:`opencoursestaff:Add Page` for more
-  information.
+  Staff or Admin role can see.
 
 * When course teams override grades from peer assessments in open response
   assessment (ORA) problems, the assignment is now correctly marked as
-  complete. For more information, see :ref:`opencoursestaff:Override a learner
-  assessment grade`.
+  complete.
 
 * Improvements to the word cloud tool include a new **Instructions** field and
   accessibility updates.
@@ -194,19 +192,6 @@ System Upgrades and Updates
     TBD
 
 
-************************************************
-More Information on Ficus Release Changes
-************************************************
-
-The `edX Release Notes`_ contain a summary of changes that are deployed to
-edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub.  You can also find `release announcements`_ on the open.edx.org
-website.
-
-Changes listed for 10 January 2017 and before are included in the Ficus release
-of Open edX.  Changes after that point will be in future Open edX releases.
-
-
 **************
 Patch Releases
 **************
@@ -260,8 +245,3 @@ Patch Releases
 * A security fix was applied to prevent an attacker from poisoning a header and
   causing Open edX installations to send password reset emails where the reset
   link had been modified to a domain the attacker controls.
-
-
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

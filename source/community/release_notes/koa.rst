@@ -109,7 +109,7 @@ Administrator Experiences
 Dependency updates
 ------------------
 
-These dependencies were upgraded for the `Open edX Native Installation`_:
+These dependencies were upgraded for the Open edX Native Installation:
 
 - Ubuntu was upgraded from 16.04 to 20.04.
 
@@ -200,17 +200,14 @@ Deprecations
 
 These components have been removed:
 
-- :jira:`ShoppingCart removal <DEPR-43>`
-- :jira:`track.backends.TrackingLog <DEPR-57>`
-- :jira:`Notifier removal <DEPR-106>`
-- :jira:`Edx-pattern-library <DEPR-62>`
-- :jira:`ChordableDjangoBackend in edx-celeryutils <DEPR-89>`
+- ShoppingCart removal <`DEPR-43`_>
+- track.backends.TrackingLog <`DEPR-57`_>
+- Notifier removal <`DEPR-106`_>
+- Edx-pattern-library <`DEPR-62`_>
+- ChordableDjangoBackend in edx-celeryutils <`DEPR-89`_>
 
 .. _DEPR-43: https://openedx.atlassian.net/browse/DEPR-43
 .. _DEPR-57: https://openedx.atlassian.net/browse/DEPR-57
 .. _DEPR-106: https://openedx.atlassian.net/browse/DEPR-106
 .. _DEPR-62: https://openedx.atlassian.net/browse/DEPR-62
 .. _DEPR-89: https://openedx.atlassian.net/browse/DEPR-89
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

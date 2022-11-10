@@ -150,7 +150,6 @@ and then set ``"ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES": false``.
 
 For more information, see :ref:`CSMHE Procedures`.
 
-.. include:: ../../../links/links.rst
 
 .. _edxapp/defaults/main.yml: https://github.com/openedx/configuration/blob/master/playbooks/roles/edxapp/defaults/main.yml#L635
 

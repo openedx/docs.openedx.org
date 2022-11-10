@@ -30,5 +30,3 @@ installation.
    CSMHE_overview
    migration_options
    migration_procedures
-
-.. include:: ../../../links/links.rst

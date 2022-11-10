@@ -4,16 +4,6 @@
 Open edX Ginkgo Release
 #########################
 
-This page lists the highlights of the Ginkgo release.
-
-The `edX Release Notes`_ contain a summary of changes that are deployed to
-edx.org. Those changes are part of the master branch of the edX Platform in
-GitHub. You can also find `release announcements`_ on the open.edx.org
-website.
-
-Changes listed for July 7, 2017 and before are included in the Ginkgo release
-of Open edX. Changes after that point will be in future Open edX releases.
-
 .. contents::
  :depth: 1
  :local:
@@ -38,8 +28,7 @@ LMS
    course outline that lists all sections and subsections at once. It replaces
    the course outline sidebar on course content pages that listed sections and
    subsections. It allows learners to focus on content consumption and
-   progression through the course. For more information, see
-   `Course Navigation Changes`_ on the Open edX portal.
+   progression through the course.
 
 *  The **Course** page now includes breadcrumb navigation that learners can
    select from any course page to return to the course outline.
@@ -77,9 +66,7 @@ Studio and Course Author Tools
    learner in that content group would see it.
 
 *  Course staff can now send emails to learners based on their enrollment track,
-   so you can reach all verified or audit track learners at one time. For more
-   information, see Bulk Email section in the *Building and Running an Open edX
-   Course* guide.
+   so you can reach all verified or audit track learners at one time.
 
 *  Course authors can move components from one location to another in a course.
 
@@ -194,11 +181,10 @@ The Ginkgo release makes version updates to a number of system components.
      - 1.1.5
 
 * Webpack, a JavaScript module bundler, is now supported in Studio and the LMS.
-  See `Webpack`_ for more information.
 
 * ESLint is now used for JavaScript linting. The edX rules are defined in
   https://github.com/edx/eslint-config-edx. Packages are provided for ES5 and
-  ES2015+. See `ESLint`_ for more details.
+  ES2015+.
 
 
 ***********************
@@ -216,6 +202,3 @@ Several features are deprecated or deleted in the Open edX Ginkgo release.
   sidebar navigation and this waffle flag will be fully removed in the next
   release.
 
-
-.. include:: links.rst
-.. include:: ../../links/links.rst

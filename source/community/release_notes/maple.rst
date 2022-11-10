@@ -22,6 +22,11 @@ Tutor is the supported distribution
 
 `Tutor`_ is now the official, community-supported distribution of open edX for production. It replaces `edX configuration`_. The Tutor changelog for the Maple release is at https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1300
 
+.. _Tutor: https://docs.tutor.overhang.io/
+
+.. _edX configuration: https://github.com/openedx/configuration/
+
+
 Learning Micro-Frontend (MFE) becomes the default courseware experience
 -----------------------------------------------------------------------
 
@@ -33,11 +38,14 @@ Studio login changed to OAuth
 
 In versions prior to Maple, Studio (CMS) shared a session cookie with the LMS, and redirected to the LMS for login.
 Studio is changing to become an OAuth client of the LMS, using the same SSO configuration that other IDAs use. (See
-:jira:`ARCHBOM-1860`; `OEP-42`_) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
+`ARCHBOM-1860`_; `OEP-42`_) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
 upgrading to Maple. For devstack, run::
 
     ./provision-ida-user.sh studio studio 18010
 
+.. _ARCHBOM-1860: https://openedx.atlassian.net/browse/ARCHBOM-1860
+.. _OEP-42: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0042-bp-authentication.html
+.. _Studio OAuth migration runbook: https://github.com/openedx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
 
 django-cors-headers version updgraded
 -------------------------------------
@@ -66,6 +74,8 @@ Configuration
 - MFE branding elements can be set in the Tutor MFE plugin. See the `tutor mfe plugin README`_ for more details.
 - The :code:`courseware.use_legacy_frontend` and :code:`course_home.course_home_use_legacy_frontend` Waffle flags can be toggled on (either globally or per-course-run) in order to revert to the legacy (LMS Django-rendered) courseware experience.
 - The domain name for your learning MFE should be added to the :code:`CORS_ORIGIN_WHITELIST` for ecommerce, discovery, lms, and studio.
+
+.. _tutor mfe plugin README: https://github.com/overhangio/tutor-mfe#customise-mfes-logos
 
 Removed Features
 ^^^^^^^^^^^^^^^^
@@ -116,6 +126,7 @@ Added Features
 - There are some in-course celebrations of progress. A modal popup when a learner finishes their first section. And a 3-day streak celebration modal popup. This is configurable using the waffle toggles :code:`mfe_progress_milestones` and :code:`mfe_progress_milestones_streak_celebration`
 - The end of a course now has its own landing page, which can be enabled by setting the waffle toggle :code:`microfrontend_course_exit_page` to :code:`true`.
 
+.. _edx-val: https://github.com/openedx/edx-val
 
 Certificates
 ------------
@@ -130,15 +141,21 @@ Various bug fixes and updates around course certificate generation
   * Code to generate (create or update) PDF course certificates has been removed from edx-platform.
   * The :code:`fix_ungraded_certs`, :code:`regenerate_user`, :code:`resubmit_error_certificates`, and :code:`ungenerated_certs` management commands have been removed. In their place, please use the `cert_generation command`_.
 - In an effort to be more inclusive, code referencing a Certificate Whitelist has been updated to instead refer to a Certificate Allowlist. The CertificateWhitelistmodel has been replaced by the CertificateAllowlistmodel (data is automatically copied over to the new model by a data migration).
-- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (:jira:`DEPR-156`)
+- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (`DEPR-156`_)
 - The Segment event :code:`edx.bi.user.certificate.generate` will no longer emit from the courseware when self-generated certificate generation is attempted by a user. There was some overlap in this Certificate event with the :code:`edx.certificate.createdevent` sent during certificate generation. A self-generated certificate event will have a generation_mode of self (versus batch for certificates generated automatically).
 - Removed use of the modulestore wherever possible in the certificates Django app of edx-platform. Changes include:
   * Using a course’s CourseOverview over retrieving course data from the modulestore
   * Supporting change: Update the :code:`list_with_level` function in the Instructor Dashboard to accept a course-id over the entire course object (`PR 27646`_)
-- Removed the :code:`AUDIT_CERT_CUTOFF_DATE` setting. Awarding Audit certificates will not be supported in V2 of Course Certificates (:jira:`DEPR-159`)
+- Removed the :code:`AUDIT_CERT_CUTOFF_DATE` setting. Awarding Audit certificates will not be supported in V2 of Course Certificates (`DEPR-159`_)
 - Removed the :code:`openedx/core/djangoapps/certificates` app by merging the single :code:`api.py` file into :code:`lms/djangoapps/certificates`. All APIs functions have been been moved as is, so if you have any code in a third party repository that used this API, please point them to the new path. openedx/core/djangoapps/certificates/api.py → lms/djangoapps/certificates/api.py
 - Removed :code:`backpopulate_program_credentials` management command in place of an updated :code:`notify_credentials` command.
 
+.. _DEPR-156: https://openedx.atlassian.net/browse/DEPR-156
+.. _DEPR-159: https://openedx.atlassian.net/browse/DEPR-159
+.. _Allowlist ADR: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/certificates/docs/decisions/001-allowlist-cert-requirements.rst
+.. _cert_generation command: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/certificates/management/commands/cert_generation.py
+.. _PR 27646: https://github.com/openedx/edx-platform/pull/27646
+.. _document in Confluence: https://openedx.atlassian.net/wiki/spaces/PT/pages/2594275334/Course+Import+Work
 
 Open-Response Assessments
 -------------------------
@@ -347,7 +364,7 @@ Deprecations
 
 - The sysadmin dashboard has been removed. Similar functionality is available via the (unsupported) edx-sysadmin plugin from https://github.com/mitodl/edx-sysadmin/
 - The :code:`AUDIT_CERT_CUTOFF_DATE` setting was removed. This setting allowed organizations that previously offered course certificates to audit track learners to discontinue generation of this type of certificate. Instead, the logic of :code:`CourseMode.is_eligible_for_certificate()` will be used. In this logic, the audit mode is not eligible for a course certificate. The honor mode may or may not be eligible, depending on whether the :code:`DISABLE_HONOR_CERTIFICATES` feature is enabled. Other modes are eligible for certificates.
-- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (:jira:`DEPR-156`)
+- The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (`DEPR-156`_)
 
 
 =============================
@@ -383,8 +400,4 @@ After a year of diligently working to overhaul the learning sequence experience 
 
 Using the React MFE allows for a richer learner experience by reducing course load-time and vastly improving the mobile-web experience. Additionally, the new experience supports learners by increasing internal development speeds which allows for greater feature development. By breaking down the courseware and reducing dependency, developers can more easily iterate in this area of the platform. Today, we see the benefits of this infrastructure change to the learning sequence experience contribute to the release of several projects and experiments.
 
-
-
-.. include:: links.rst
-.. include:: ../../links/links.rst
 

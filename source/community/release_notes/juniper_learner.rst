@@ -64,9 +64,6 @@ of the page will be easier to spot and click, focusing on the “Next” action.
 Additionally, a message is shown to learners when they have reached the end of
 the course rather than show the next button at the bottom of the page.
 
-.. image:: ../images/juniper/NewExperience2.png
-    :alt: Screenshot of the new learner experience. 
-
 
 Visual Course Progress
 ......................
@@ -102,11 +99,6 @@ instructor-paced and self-paced courses, we have also introduced a dedicated
 full page view of critical course dates. Each relevant milestone will also link
 directly to the subsection, to provide easy and quick access. In the future, we
 will also add the ability for learners to add these dates to their calendars.
-
-.. image:: ../images/juniper/important_dates.png
-    :alt: Screenshot of the Important Dates panel that says, "We've built a
-        suggested schedule to help you stay on track. But don't worry: it's flexible
-        so you can learn at your own pace."
 
 
 Content Search Tools
@@ -190,22 +182,17 @@ experience is the  badges experience section of the profile. We are hoping to
 update our credentials infrastructure which will enable us to add these back
 into the updated learner profile in the future. 
 
-.. image:: ../images/juniper/learner_profile.png
-    :alt: A screenshot of the updated learner profile page.
-
 
 Account Settings
 ----------------
 
-**New Account Experience:** A new `Account micro-frontend`__ now also powers an
+**New Account Experience:** A new `Account micro-frontend`_ now also powers an
 updated account settings experience on the platform. The account settings page
 can now be more easily extended with plugins, and all features available on the
 previous account settings page were migrated over to this updated experience. 
 
-.. __: https://github.com/openedx/frontend-app-account
+.. _Account micro-frontend: https://github.com/openedx/frontend-app-account
 
-.. image:: ../images/juniper/account_settings.png
-    :alt: Screenshot of the new account settings page.
 
 **Beta Language Support:** Learners can now go to their account settings to see
 a longer list of languages including both fully supported languages and any
@@ -216,10 +203,6 @@ their previous language or head to Transifex to join the open community that
 helps us translate the platform if they would like to contribute. Included
 below are visuals of the language dropdown as well as an example message shown
 for partially supported languages. 
-
-.. image:: ../images/juniper/beta_language.png
-    :alt: Screenshot of the Site Preferences panel, showing the language set to
-        Bahasa Indonesia, saying it is not fully translated.
 
 **Recovery Email Address:** A new field was added to the account settings
 allowing learners to specify a recovery email address, which also needs to be
@@ -239,14 +222,11 @@ address has not been set or fully activated yet.
 Order History
 .............
 
-A `new micro-frontend`__ was created for ecommerce related views, and the Order
+A `new micro-frontend`_ was created for ecommerce related views, and the Order
 History page experience was added to this new tool. The new experience shows
 all ecommerce orders with links to the order detail pages. 
 
-.. __: https://github.com/openedx/frontend-app-ecommerce
-
-.. image:: ../images/juniper/order_history.png
-    :alt: Screenshot of the new Order History page.
+.. _new micro-frontend: https://github.com/openedx/frontend-app-ecommerce
 
 
 ===========
@@ -386,10 +366,6 @@ Mobile App Video Experience
 across both the iOS and Android applications. You can cast your videos now to
 other displays that support chromecast, including many Smart TVs. 
 
-.. image:: ../images/juniper/chromecast.png
-    :alt: A highlighted phone screen showing the Chromecast icon in the
-        upper-right.
-
 **In-App Youtube Player:** We also now have the ability to render Youtube
 videos within the application experience thanks to a major contribution.
 Previously learners would be redirected out of the application to view videos
@@ -407,9 +383,6 @@ adjustments between 0.25x and 2x video speed.
 have been added to the video screen when learners tap on the video to expose
 play pause and video settings actions. A rewind action takes learners back 10
 seconds and they can also jump forward 15 seconds at a time. 
-
-.. image:: ../images/juniper/video_controls.png
-    :alt: Two phone images, showing improved video controls.
 
 **Offline SD Card Storage Support:** You can now choose to have your videos
 stored on an SD card if you have one, with a new setting shown in the settings

@@ -24,12 +24,7 @@ Learning Sequence Authoring
 
 **Educator Jump Navigation:** To start, we plan to update the Unit page title
 area breadcrumbs adding dropdowns that let you jump to other sections or
-subsections.  Read more about this at `Viewing the Unit Page`__.
-
-.. __: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/developing_course/course_units.html#viewing-the-unit-page
-
-.. image:: ../images/juniper/breadcrumbs.png
-    :alt: New navigation with dropdowns in the breadcrumbs.
+subsections.
 
 **Educator Sequence Bar Navigation:** On the unit page we introduced a
 representation of the learner-facing sequence bar, helping authors more quickly
@@ -37,9 +32,6 @@ jump to the unit pages before or after the one they are currently authoring.
 Additionally educators can create new units within this learning sequence bar.
 This update replaces the navigation links that were further down the page on
 the right sidebar of Unit pages.
-
-.. image:: ../images/juniper/studio_sequence.png
-    :alt: Screenshot of Studio showing the learner-facing sequence bar.
 
 **Studio & Insights Links within Learner Experience Instructor Toolbar:** The
 instructor bar in the learner experience now includes two actions linking to
@@ -56,7 +48,7 @@ you no longer have to go to the Settings tab to update the display name.
 Course Enrollment Page Publishing
 .................................
 
-**Publisher Tool:**  A `new micro-frontend`__ was built which integrates with
+**Publisher Tool:**  A `new micro-frontend`_ was built which integrates with
 the course discovery and ecommerce services as a new catalog publishing and
 configuration tool. Publisher can be used to manage ecommerce products,
 marketing information, and the creation of new course runs within a course.
@@ -64,10 +56,7 @@ This tool also replaces the course creation action within Studio when enabled,
 and a link to the Publisher tool settings for a given course run is also
 provided with the authoring experience.
 
-.. __: https://github.com/openedx/frontend-app-publisher
-
-.. image:: ../images/juniper/publisher.png
-   :alt: Screenshot of the new Publisher tool.
+.. _new micro-frontend: https://github.com/openedx/frontend-app-publisher
 
 
 Weekly Highlights
@@ -173,9 +162,6 @@ to the markdown reference sheet, which will now be visible by default. As part
 of this change we have made the component editing modal window larger, ensuring
 the authoring space was not reduced with the addition of the reference sheet.
 
-.. image:: ../images/juniper/markdown_reference.png
-    :alt: Screenshot of the problem editor, with the markdown reference sheet
-        visible on the side.
 
 
 Open Response Assessments

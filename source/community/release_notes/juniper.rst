@@ -35,8 +35,6 @@ been added enabling learner schedule personalization, team assignment
 submissions, as well as major updates to the mobile application video
 experience.
 
-:ref:`Read full Learner details <juniper_learner>`.
-
 ====================
 Educator Experiences
 ====================
@@ -48,9 +46,6 @@ Additionally, updates to the platform grading tools are a key part of these
 updates. For instances using programs, various program operations have been
 updated through the introduction of a new registrar service and a way for
 external systems to set enrollments for program learners. 
-
-:ref:`Read full Educator details <juniper_educator>`.
-
 
 =====================
 Developer Experiences
@@ -67,9 +62,3 @@ visibility and transparency, we have many new architecture decision records
 that locate platform decisions in context within the code. These serve as
 single repository versions of OEPs, and are also a key highlight for Juniper.
 
-:ref:`Read full Developer details <juniper_developer>`.
-
-
-
-.. include:: links.rst
-.. include:: ../../links/links.rst
