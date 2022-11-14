@@ -23,7 +23,7 @@ Steps
 .. note::
 
    Most :term:`MFEs<MFE>` will follow the steps defined here but we always recommend
-   reviewing the README of an MFE as it will have more specific instructions
+   reviewing the README of an MFE as it will have more detailed instructions
    that are specific to the project.
 
 #. Clone the repository locally.
@@ -36,7 +36,7 @@ Steps
 
    .. code-block::
 
-      cd <repo_dir> && npm install
+      cd <repo_dir> && npm clean-install
 
 #. Start the dev server
 
