@@ -6,6 +6,12 @@ Open edX Eucalyptus Release
 
 This page lists the highlights of the Eucalyptus release.
 
+.. toctree::
+   :hidden:
+
+   bulk_email
+   CSMHE/index
+
 .. contents::
  :depth: 1
  :local:
@@ -206,6 +212,13 @@ This release includes the following changes to course discussions.
   their Open edX instances. Fields can be of different types, including
   dropdown and text entry.
 
+=====================
+Updates to Bulk Email
+=====================
+
+The way the bulk email feature is enabled and disabeld has change, see
+:doc:`bulk_email` for more details.
+
 ***************************************************
 Updates to Analytics Events and Database Tables
 ***************************************************
@@ -213,6 +226,14 @@ Updates to Analytics Events and Database Tables
 .. contents::
  :depth: 1
  :local:
+
+=====================================================
+Changes to ``courseware_studentmodulehistory`` Table
+=====================================================
+
+There were significant changes to how we manage the
+``courseware_studentmodulehistory`` table in the LMS and CMS.  Please see
+:doc:`CSMHE/index` for more information.
 
 =============================
 New Non-Certificate Statuses
