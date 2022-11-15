@@ -19,3 +19,4 @@ Other References
    running_pr_tests
    tools_for_maintainers
    internal_data_formats/index
+   glossary
