@@ -1,14 +1,16 @@
 Translations Process
 ####################
 
-High Level
-**********
+Overview
+********
 
-Your code needs to annotate strings so tooling can know that you want those strings
-translated. The tooling needs to extract those strings in order to be shared with
-translators. Once the strings have been extracted and made available to translators,
-strings can be translated to a variety of languages. Tooling will then download the
-translated strings and make them available to your running code. 
+The Open edX Platform supports running in multiple languages. This page explains the
+process by which we accomplish this. To begin with, your code needs to annotate strings
+so tooling can know that you want those strings translated. The tooling needs to extract
+those strings in order to be shared with translators. Once the strings have been
+extracted and made available to translators, strings can be translated to a variety of
+languages. Tooling will then download the translated strings and make them available to
+your running code.
 
 .. mermaid::
 
@@ -41,12 +43,15 @@ Our tooling will extract the following strings:
 
 * ``Hello world``
 
+A similar process to the one noted above occurs in our Javascript frontend code as well.
 For our django backed services, we use `django's builtin translation tooling`_ to extract
-strings for translation. In our react based frontends, we use react-intl_ to extract
+strings for translation. In our React based frontends, we use react-intl_ to extract
 strings for translation.
 
 To learn more about how to annotate strings for translation, see the annotation reference
 (link tbd).
+
+.. Annotation reference issue: https://github.com/openedx/docs.openedx.org/issues/211
 
 .. _django's builtin translation tooling: https://docs.djangoproject.com/en/4.1/topics/i18n/translation/
 .. _react-intl: https://formatjs.io/docs/react-intl/
