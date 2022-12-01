@@ -119,7 +119,7 @@ extra_navbar_content = """
 <hr/><br/>
 
 <a class='external' href='https://openedx.atlassian.net/wiki/spaces' target='_blank'>Open edX Wiki</a><br/>
-<a class='external' href='https://open.edx.org' target='_blank'>Open edX website</a><br/>
+<a class='external' href='https://openedx.org' target='_blank'>Open edX website</a><br/>
 <a class='external' href='https://openedx.org/cookie-policy/' target='_blank'>Cookie Policy</a>
 
 """
@@ -135,8 +135,7 @@ html_theme_options = {
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
-    "announcement": "This is the new documentation home page for the Open edX project. It's currently under development, but feel free to take a look around.",
-
+    # "announcement": "",
 }
 
 
