@@ -17,7 +17,8 @@ Open edX Educators
 
    **What's New**
 
-   * :doc:`../whats_new/educators_whats_new`
+   * :doc:`references/simple_problem_types`
+   * :doc:`references/complex_problem_types`
 
     ---
 

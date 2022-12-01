@@ -32,12 +32,13 @@ Open edX Documentation
 
    .. toctree::
       :maxdepth: 1
-      :caption: What's New
+      :caption: Open Source Community
 
-      For Educators <whats_new/educators_whats_new>
-      For Course Operators <whats_new/course_ops_whats_new>
-      For Site Operators <whats_new/site_ops_whats_new>
-      For Developers <whats_new/developers_whats_new>
+
+      Current Release: Nutmeg <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/nutmeg.html>
+      All Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/index.html>
+      How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
+      OEPs (Open edX Proposals): Community Decision Documents <https://open-edx-proposals.readthedocs.io/>
 
    ---
 
