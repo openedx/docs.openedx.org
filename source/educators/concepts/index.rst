@@ -7,3 +7,4 @@ Educators: Concepts
    :caption: Concepts
    :glob:
 
+   instructional_design/index
