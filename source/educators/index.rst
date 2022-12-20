@@ -38,7 +38,7 @@ Open edX Educators
 
    **Common Concepts**
 
-   *
+   * :doc:`concepts/instructional_design/index`
 
 
    .. link-button:: concepts/index
@@ -54,7 +54,7 @@ Open edX Educators
    * :doc:`references/course_sections`
    * :doc:`references/simple_problem_types`
 
-   * :doc:`references/complex_problem_types`
+   * :doc:`references/instructional_design/index`
 
    .. link-button:: references/index
     :type: ref
