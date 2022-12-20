@@ -1,2 +1,0 @@
-Sample Concepts Doc
-###################
