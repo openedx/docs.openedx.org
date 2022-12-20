@@ -35,7 +35,7 @@ Open edX Documentation
       :caption: Open Source Community
 
 
-      Current Release: Nutmeg <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/nutmeg.html>
+      Current Release: Olive <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/olive.html>
       All Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/index.html>
       How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
       OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
