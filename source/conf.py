@@ -135,7 +135,7 @@ html_theme_options = {
     "repository_url": "https://github.com/openedx/docs.openedx.org",
     "repository_branch": "main",
     "path_to_docs": "source",
-    "logo_only": False,
+    "logo_only": True,
     "home_page_in_toc": True,
     "extra_navbar": extra_navbar_content,
     "use_repository_button": True,
@@ -146,9 +146,8 @@ html_theme_options = {
 
 
 html_logo = "_static/open-edx-logo-color.png"
-html_favicon = "_static/favicon.ico"
-theme_logo_only = True
-release = "Latest Documentation"
+html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
+release = "Latest"
 
 html_static_path = ["_static"]
 
