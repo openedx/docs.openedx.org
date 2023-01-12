@@ -96,7 +96,7 @@ Steps
       html_theme_options = {
 
           "repository_url": TODO: Add a URL Here,
-          "repository_branch": TODO: Add the correct branch here
+          "repository_branch": TODO: Add the correct branch here,
           "path_to_docs": "docs/",
           "logo_only": True,
           "home_page_in_toc": True,
