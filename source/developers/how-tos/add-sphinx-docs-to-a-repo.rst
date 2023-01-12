@@ -93,6 +93,8 @@ Steps
 
    .. code::
 
+      import os
+
       html_theme_options = {
 
           "repository_url": TODO: Add a URL Here,
@@ -132,6 +134,10 @@ Steps
       # directory.
       html_logo = "https://logos.openedx.org/open-edx-logo-color.png"
       html_favicon = "https://logos.openedx.org/openedx-favicon.ico"
+
+      # Set the DJANGO_SETTINGS_MODULE if it's not set.
+      if not os.environ.get('DJANGO_SETTINGS_MODULE'):
+         os.environ['DJANGO_SETTINGS_MODULE'] = 'test_utils.test_settings'
 
 #. Run the build again to make sure youve got the standard logos and footers
    setup.
