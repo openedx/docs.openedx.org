@@ -6,7 +6,7 @@
 #
 pip==22.3.1
     # via -r requirements/pip.in
-setuptools==65.6.3
+setuptools==65.7.0
     # via -r requirements/pip.in
 wheel==0.38.4
     # via -r requirements/pip.in
