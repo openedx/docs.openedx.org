@@ -12,7 +12,7 @@ beautifulsoup4==4.11.1
     # via pydata-sphinx-theme
 certifi==2022.12.7
     # via requests
-charset-normalizer==2.1.1
+charset-normalizer==3.0.1
     # via requests
 colorama==0.4.6
     # via sphinx-autobuild
@@ -33,7 +33,7 @@ livereload==2.6.3
     # via sphinx-autobuild
 markupsafe==2.1.1
     # via jinja2
-packaging==22.0
+packaging==23.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -45,7 +45,7 @@ pytz==2022.7
     # via babel
 pyyaml==6.0
     # via sphinx-book-theme
-requests==2.28.1
+requests==2.28.2
     # via
     #   sphinx
     #   sphinxcontrib-images
@@ -57,6 +57,7 @@ soupsieve==2.3.2.post1
     # via beautifulsoup4
 sphinx==4.5.0
     # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
     #   pydata-sphinx-theme
     #   sphinx-autobuild
@@ -74,7 +75,7 @@ sphinx-copybutton==0.5.1
     # via -r requirements/base.in
 sphinx-panels==0.6.0
     # via -r requirements/base.in
-sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-applehelp==1.0.3
     # via sphinx
 sphinxcontrib-contentui==0.2.5
     # via -r requirements/base.in
@@ -96,7 +97,7 @@ sphinxcontrib-yt==0.2.2
     # via -r requirements/base.in
 tornado==6.2
     # via livereload
-urllib3==1.26.13
+urllib3==1.26.14
     # via requests
 zipp==3.11.0
     # via importlib-metadata
