@@ -11,9 +11,9 @@ Assumptions
    person who is following the How-to.  The assumptions may link to other
    how-tos if possible.
 
-* You already have a sphinx documentation project.
+* You already have a Sphinx documentation project.
 
-* You know how to work with python code.
+* You know how to work with Python code.
 
 Steps
 *****
@@ -25,12 +25,12 @@ Steps
    #. Find the requirements file that has your documentation requirements in it.
 
       For most projects there will be a ``requirements/docs.in`` file which will
-      contain your theme as a python requirement.  For example if you are using
-      the deprecated ``edx-sphinx-theme``. You'll see a line with that package
+      contain your theme as a Python requirement.  For example if you are using
+      the deprecated ``edx-sphinx-theme``, you'll see a line with that package
       name on it.
 
-   #. Remove your old theme(e.g. ``edx-sphinx-theme``) and add a line for the
-      sphinx-book-theme.
+   #. Remove your old theme (for example, ``edx-sphinx-theme``) and add a line for the
+      ``sphinx-book-theme``.
 
       .. code::
 
@@ -67,7 +67,7 @@ Steps
                   <img
                       alt="Creative Commons License"
                       style="border-width:0"
-                      src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png">
+                      src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
               </a>
               <br>
               These works by
