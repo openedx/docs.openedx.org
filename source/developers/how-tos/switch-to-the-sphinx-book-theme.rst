@@ -54,14 +54,15 @@ Steps
 
       html_theme_options = {
 
-          "repository_url": TODO: Add a URL Here,
-          "repository_branch": TODO: Add the correct branch here,
+          "repository_url": TODO: Add a github URL Here, for example https://github.com/openedx/repo-name,
+          "repository_branch": TODO: Add the correct branch, for example 'main',
           "path_to_docs": "docs/",
           "logo_only": True,
           "home_page_in_toc": True,
           "use_repository_button": True,
           "use_issues_button": True,
           "use_edit_page_button": True,
+          # Please don't change unless you know what you're doing.
           "extra_footer": """
               <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
                   <img
@@ -95,6 +96,9 @@ Steps
       # Set the DJANGO_SETTINGS_MODULE if it's not set.
       # Only if your project has a dependency on Django
       if not os.environ.get('DJANGO_SETTINGS_MODULE'):
+         # If you do depend on django you'll need a settings file that you can
+         # use when building docs.  This will allow you to pull docstrings from
+         # your code.
          os.environ['DJANGO_SETTINGS_MODULE'] = 'test_utils.test_settings'
 
 #. Re-build your project and fix any errors.
