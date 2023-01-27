@@ -75,7 +75,7 @@ sphinx-copybutton==0.5.1
     # via -r requirements/base.in
 sphinx-panels==0.6.0
     # via -r requirements/base.in
-sphinxcontrib-applehelp==1.0.3
+sphinxcontrib-applehelp==1.0.4
     # via sphinx
 sphinxcontrib-contentui==0.2.5
     # via -r requirements/base.in
