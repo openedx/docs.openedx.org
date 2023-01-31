@@ -64,7 +64,7 @@ Grading Chart
 
 Most courses will have a variety of assessments that provide learners multiple opportunities to show evidence of their learning. A grading chart like the one below will help you track the assessments in the course and ensure that you have correctly weighted all of the assessments. This chart can also help you to keep track of assignment deadlines for both learners and course instructors.
 
-`Download Grading Chart <https://docs.google.com/spreadsheets/d/1LjWAM5N5nFLMTNdFCDjq23ffJTDG-BH81jNjHrWusj0/edit?usp=sharing>`_
+`Download Grading Chart <https://docs.google.com/spreadsheets/d/1wq3tlIXNqZyy0bL2Dn8hgO9UY0xQMwGbhct_MQ9DSZc/edit#gid=1193955468>`_
 
 .. image:: /_images/instructional_design/grading_chart_template.png
    :alt: Thumbnail of Downloadable Template for Grading Chart
