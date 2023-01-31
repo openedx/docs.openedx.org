@@ -88,7 +88,7 @@ Communication Plan Template
 
 One way to ensure learner engagement is to consistently communicate with your learners. There are various options for communicating with your learners and it is important to plan out through which methods and how often you will communicate with the learners in your course. This example communication plan provides some suggestions on items that should be included in your communication plan but will likely need to be modified to fit the needs of each organization.
 
-`Download Sample Communication Plan <https://docs.google.com/document/d/1b043Z85tq4oJQLmrADmiVOHdkMn4F9on/edit?usp=sharing&ouid=102215557727623303211&rtpof=true&sd=true>`_
+`Download Sample Communication Plan <https://docs.google.com/document/d/1-ooDKyWrLvj6Z2pRud7douMEtPbHc69K/edit?usp=share_link&ouid=106462470317905634700&rtpof=true&sd=true>`_
 
 .. image:: /_images/instructional_design/communication_plan_template.png
    :alt: Thumbnail of Downloadable Template for Communication Plan
