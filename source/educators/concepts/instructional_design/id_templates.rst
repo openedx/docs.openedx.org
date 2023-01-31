@@ -28,7 +28,7 @@ Resource Analysis Template
 
 A resource, or content, analysis, can help your team discover which pieces of content need to be created, and which pieces of content already exist and can be used in your course. This worksheet will help your team determine how much content needs to be created which can aid in determining a course development timeline. You can also use this worksheet to ensure that you have multiple types of content (video, text, slide decks, etc.) to support the preferences of all learners.
 
-`Download Resource Analysis Template <https://docs.google.com/document/d/19rUCvAGhDCLIdkxk09NmrxgPujqR0_F_RlSNsfZKLtU/edit?usp=sharing>`_
+`Download Resource Analysis Template <https://docs.google.com/document/d/15SMDxTQtCDv0QsZ5yPfplOmilWcTYSoQzMD_y6v1H2Q/edit?usp=share_link>`_
 
 .. image:: /_images/instructional_design/resource_analysis_template.png
    :alt: Thumbnail of Downloadable Template for Resource Analysis
