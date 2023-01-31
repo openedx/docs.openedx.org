@@ -76,7 +76,7 @@ Quality Control Template
 
 In the final stages of the course development process you will need to spend time reviewing your course for elements that include not only the course content and assessments, but the course about page, certificates (if applicable), and other items that can easily be forgotten during course development. This template should be edited to fit your organization or client’s needs, but it provides a template for many of the items that you should be checking before you launch your course. Keep in mind that reviewing for accessibility (image alt tags, transcripts, etc.) is an important part of this process.
 
-`Download Quality Control Template <https://docs.google.com/document/d/1ihzP51X26sU7yONFcRt8LBjvG1iXGM51VX9GT234fbQ/edit?usp=sharing>`_
+`Download Quality Control Template <https://docs.google.com/document/d/1zWYVCI_M39-bHjaqoerGgVuD4_ZursvabzJSNLQBs9s/edit?usp=share_link>`_
 
 .. image:: /_images/instructional_design/quality_control_template.png
    :alt: Thumbnail of Downloadable Quality Control Template
