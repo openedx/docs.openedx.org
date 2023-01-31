@@ -52,7 +52,7 @@ Course Outline Template
 
 The course outline is used to track every aspect of the course throughout the various stages of development. This outline allows you to track each item that will be included in your course. You can also use this document as a project management tool to create notes about content, to assign responsibilities to team members. This outline should be used to track progress and create status documents. Ideally, you will share this document with your team so that each person can have access to the most current outline.
 
-`Download Course Outline Template <https://docs.google.com/spreadsheets/d/1LjWAM5N5nFLMTNdFCDjq23ffJTDG-BH81jNjHrWusj0/edit?usp=sharing>`_
+`Download Course Outline Template <https://docs.google.com/spreadsheets/d/1wq3tlIXNqZyy0bL2Dn8hgO9UY0xQMwGbhct_MQ9DSZc/edit?usp=share_link>`_
 
 .. image:: /_images/instructional_design/course_outline_template.png
    :alt: Thumbnail of Downloadable Course Outline Template
