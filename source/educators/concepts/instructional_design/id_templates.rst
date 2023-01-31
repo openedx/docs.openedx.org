@@ -40,7 +40,7 @@ Audience Analysis Template
 
 An Audience Analysis outlines who your audience is, their common characteristics, and why they might be interested in your course. Keeping your audience in mind as you build your course will help to create a course that is relevant and interesting to them.
 
-`Download Audience Analysis Template <https://docs.google.com/document/d/1nOS0QuQxTzJ8qO-6qOfgOiIRDBIlrqkVonYu_5iNumg/edit?usp=sharing>`_
+`Download Audience Analysis Template <https://docs.google.com/document/d/1-LtcHVWRcgK1eUMfNhSUFFKG26yvXOrZ_l1_ujiOs4c/edit?usp=share_link>`_
 
 .. image:: /_images/instructional_design/audience_analysis_template.png
    :alt: Thumbnail of Downloadable Template for Audience Analysis
