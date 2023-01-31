@@ -15,7 +15,7 @@ It is important to write learning outcomes and align your learning activities an
 
 Filling out the worksheet below will allow you to ensure that your course follows the educational principle of constructive alignment. This worksheet can help you communicate to your learners what they will learn, how they will learn it, and the ways you will assess their learning.
 
-`Download Learning Outcomes & Alignment Worksheet <https://docs.google.com/document/d/1e4MscYQNCmDcgkTff9XI535PS7aDUJcNXoFtpF12e4o/edit?usp=sharing>`_
+`Download Learning Outcomes & Alignment Worksheet <https://docs.google.com/document/d/1FHWGAssTbQB4pgpZJxa9V82gBhJNpnkZHKxpN0cHnm4/edit?usp=share_link>`_
 
 .. image:: /_images/instructional_design/learning_outcomes_template.png
    :alt: Thumbnail of Downloadable Template for Learning Outcomes
