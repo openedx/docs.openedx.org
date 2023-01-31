@@ -100,7 +100,7 @@ Support Calendar Template
 
 If your team is involved in the delivery of a course, you may want to spend some time creating a support calendar (or encouraging your SMEs/instructors to create one). A support calendar lists all of the responsibilities that are needed for delivery from releasing content to providing assignment feedback and communicating with students. You can set deadlines and assign each item to a member of your team.
 
-`Download Support Calendar <https://docs.google.com/spreadsheets/d/1LjWAM5N5nFLMTNdFCDjq23ffJTDG-BH81jNjHrWusj0/edit?usp=sharing>`_
+`Download Support Calendar <https://docs.google.com/spreadsheets/d/1wq3tlIXNqZyy0bL2Dn8hgO9UY0xQMwGbhct_MQ9DSZc/edit#gid=2000240391>`_
 
 .. image:: /_images/instructional_design/support_calendar_template.png
    :alt: Thumbnail of Downloadable Template for Support Calendar
