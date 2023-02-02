@@ -67,6 +67,10 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/openedx-proposals/{rtd_language}/latest",
         None,
     ),
+    "openedx-oars": (
+        f"https://docs.openedx.org/projects/openedx-oars/{rtd_language}/{rtd_version}",
+        None,
+    ),
 }
 
 # Add any paths that contain templates here, relative to this directory.
