@@ -5,6 +5,8 @@ Translators: Reference
    :local:
    :class: no-bullets
 
+.. _translators reference html:
+
 HTML
 ****
 
@@ -47,6 +49,8 @@ We will use this string as an example for the advice in this section.
 
    * - ``{platform_name}에 대해 일반적인 질문이 있으면 < a href = " mailto : {contact_email} " > {contact_email} < / a >로 이메일 주십시요.``
      - Do not add additional spacing to the HTML tags. Please use the given HTML tags.
+
+.. _translators reference placeholders:
 
 Placeholders
 ************

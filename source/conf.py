@@ -34,7 +34,6 @@ copyright = f"{current_year}, The Center for Reimagining Learning"
 # ones.
 extensions = [
     "sphinxcontrib.yt",
-    "sphinx.ext.autosectionlabel",
     "sphinxcontrib.images",
     "sphinx_panels",
     "sphinxcontrib.contentui",
@@ -46,7 +45,6 @@ extensions = [
 
 # Extension Configuration
 graphviz_output_format = "svg"
-autosectionlabel_prefix_document = True
 
 # Intersphinx Extension Configuration
 DIGITS_ONLY = r"^\d+$"
@@ -111,7 +109,7 @@ rst_epilog = """
 
 .. rst-class:: feedback
 
-  :ref:`Feedback <other/feedback:Documentation Feedback Form>`
+  :ref:`Feedback <Documentation Feedback Form>`
 
 .. include:: /substitutions.txt
 .. include:: /links.txt
