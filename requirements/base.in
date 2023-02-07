@@ -10,3 +10,4 @@ sphinx-copybutton
 sphinxcontrib-mermaid
 sphinxcontrib-images
 sphinxcontrib-contentui
+sphinxext-rediraffe

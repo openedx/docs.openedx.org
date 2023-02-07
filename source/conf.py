@@ -41,10 +41,15 @@ extensions = [
     "sphinx.ext.graphviz",
     "sphinxcontrib.mermaid",
     "sphinx.ext.intersphinx",
+    "sphinxext.rediraffe",
 ]
 
 # Extension Configuration
 graphviz_output_format = "svg"
+
+rediraffe_redirects = {
+    "community/release_notes/latest.rst": "community/release_notes/olive.rst",
+}
 
 # Intersphinx Extension Configuration
 DIGITS_ONLY = r"^\d+$"

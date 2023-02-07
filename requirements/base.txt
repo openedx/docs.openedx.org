@@ -67,6 +67,7 @@ sphinx==4.5.0
     #   sphinxcontrib-contentui
     #   sphinxcontrib-images
     #   sphinxcontrib-yt
+    #   sphinxext-rediraffe
 sphinx-autobuild==2021.3.14
     # via -r requirements/base.in
 sphinx-book-theme==0.3.3
@@ -95,9 +96,11 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 sphinxcontrib-yt==0.2.2
     # via -r requirements/base.in
+sphinxext-rediraffe==0.2.7
+    # via -r requirements/base.in
 tornado==6.2
     # via livereload
 urllib3==1.26.14
     # via requests
-zipp==3.12.0
+zipp==3.12.1
     # via importlib-metadata
