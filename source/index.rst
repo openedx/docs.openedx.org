@@ -9,6 +9,7 @@ Open edX Documentation
    :caption: User Home Pages
    :hidden:
 
+   Community <community/index>
    Educators <educators/index>
    Course Operators <course_ops/index>
    Site Operators <site_ops/index>
@@ -34,9 +35,8 @@ Open edX Documentation
       :maxdepth: 1
       :caption: Open Source Community
 
-
-      Current Release: Olive <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/olive.html>
-      All Release Notes <https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/index.html>
+      Current Release: Olive <community/release_notes/olive>
+      All Release Notes <community/release_notes/index>
       How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
       OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
 
