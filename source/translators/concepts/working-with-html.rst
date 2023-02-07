@@ -29,10 +29,10 @@ the website.
 
 Examples may help you better understand what to do in these situations so we
 recommend checking out
-:ref:`the HTML Section of the Translators Reference <translators/references/index:html>`
+:ref:`the HTML Section of the Translators Reference <translators reference html>`
 
 .. seealso::
 
-   * :ref:`HTML Reference <translators/references/index:html>`
+   * :ref:`HTML Reference <translators reference html>`
 
    * :doc:`working-with-placeholders`
