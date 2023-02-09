@@ -74,6 +74,10 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/openedx-oars/{rtd_language}/{rtd_version}",
         None,
     ),
+    "edx-installing-configuring-and-running": (
+        f"https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/{rtd_language}/{rtd_version}",
+        None,
+    ),
 }
 
 # Add any paths that contain templates here, relative to this directory.
