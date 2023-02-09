@@ -50,6 +50,10 @@ Olive
      - 2022-12-12
      - open-release/olive.1
 
+   * - Olive.2
+     - 2023-02-09
+     - open-release/olive.2
+
 Nutmeg
 ~~~~~~
 
