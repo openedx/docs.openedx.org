@@ -88,7 +88,7 @@ sphinxcontrib-images==0.9.4
     # via -r requirements/base.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-mermaid==0.7.1
+sphinxcontrib-mermaid==0.8
     # via -r requirements/base.in
 sphinxcontrib-qthelp==1.0.3
     # via sphinx
@@ -102,5 +102,5 @@ tornado==6.2
     # via livereload
 urllib3==1.26.14
     # via requests
-zipp==3.12.1
+zipp==3.13.0
     # via importlib-metadata
