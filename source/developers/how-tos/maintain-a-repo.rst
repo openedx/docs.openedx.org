@@ -62,10 +62,12 @@ Dependency Update Automation is Enabled
 
 **Test**
 
-The ``.github/workflows/upgrade-python-requirements.yml`` should exist and be a
-copy of `the upgrade workflow template`_.  You should also see successful runs
-of the ``Upgrade Python Requirements`` workflow in the ``Actions`` tab of your
-repo.
+For XXX types of repos, the ``.github/workflows/upgrade-python-requirements.yml``
+should exist and be a copy of `the upgrade workflow template`_.  You should also
+see successful runs of the ``Upgrade Python Requirements`` workflow in the
+``Actions`` tab of your repo.
+
+For frontend repos, the XXX workflow(s) should exist.
 
 .. _the upgrade workflow template: https://github.com/openedx/.github/blob/master/workflow-templates/upgrade-python-requirements.yml
 
@@ -91,3 +93,10 @@ Update your readme until it meets the above specification.
 .. _backstage: https://backstage.openedx.org
 
 .. _readme specification: https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055/decisions/0003-readme-specification.html
+
+Congratulations!
+****************
+
+Your repository is now up to Maintainers standards! Now you're ready to begin your
+journey as a maintainer of your repo. Visit the :doc:`ongoing-maintainers-tasks`
+page to learn more about what's expected of you (and your team, if applicable).
