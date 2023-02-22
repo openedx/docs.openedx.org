@@ -1,7 +1,13 @@
 Educators: How-tos
 ##################################
 
-.. panels::
+.. grid:: 1 2 2 2
+   :gutter: 3
+   :padding: 0
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 0
@@ -14,7 +20,9 @@ Educators: How-tos
          set_up_prerequisites
          set_up_certificates
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -28,7 +36,9 @@ Educators: How-tos
          reorganize_outline
          delete_content
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -38,7 +48,9 @@ Educators: How-tos
          add_image
          manage_files
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -52,7 +64,9 @@ Educators: How-tos
          add_youtube_video
          enable_video_transcript_downloads
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -64,7 +78,9 @@ Educators: How-tos
          add_numerical_input
          add_text_input
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -75,7 +91,9 @@ Educators: How-tos
          math_expression
          open_response
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -85,7 +103,9 @@ Educators: How-tos
          create_content_discussion
          allow_anonymous_discussions
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -98,7 +118,9 @@ Educators: How-tos
          set_access_restrictions_on_unit
          set_access_restrictions_on_component
 
-      ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -107,8 +129,9 @@ Educators: How-tos
          set_grading_policy
          set_grade_subsection
 
-      ---
-
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
@@ -118,8 +141,9 @@ Educators: How-tos
          reorder_course_pages
          hide_course_page
 
-      ---
-
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
