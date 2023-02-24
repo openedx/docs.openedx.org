@@ -102,5 +102,5 @@ tornado==6.2
     # via livereload
 urllib3==1.26.14
     # via requests
-zipp==3.13.0
+zipp==3.14.0
     # via importlib-metadata
