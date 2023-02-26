@@ -35,7 +35,7 @@ copyright = f"{current_year}, The Center for Reimagining Learning"
 extensions = [
     "sphinxcontrib.yt",
     "sphinxcontrib.images",
-    "sphinx_panels",
+    "sphinx_design",
     "sphinxcontrib.contentui",
     "sphinx_copybutton",
     "sphinx.ext.graphviz",

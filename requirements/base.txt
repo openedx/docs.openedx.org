@@ -20,7 +20,6 @@ docutils==0.17.1
     # via
     #   pydata-sphinx-theme
     #   sphinx
-    #   sphinx-panels
 idna==3.4
     # via requests
 imagesize==1.4.1
@@ -63,7 +62,7 @@ sphinx==4.5.0
     #   sphinx-autobuild
     #   sphinx-book-theme
     #   sphinx-copybutton
-    #   sphinx-panels
+    #   sphinx-design
     #   sphinxcontrib-contentui
     #   sphinxcontrib-images
     #   sphinxcontrib-yt
@@ -74,7 +73,7 @@ sphinx-book-theme==0.3.3
     # via -r requirements/base.in
 sphinx-copybutton==0.5.1
     # via -r requirements/base.in
-sphinx-panels==0.6.0
+sphinx-design==0.3.0
     # via -r requirements/base.in
 sphinxcontrib-applehelp==1.0.4
     # via sphinx

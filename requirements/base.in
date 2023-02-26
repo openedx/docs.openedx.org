@@ -5,7 +5,7 @@ sphinx
 sphinx-book-theme
 sphinxcontrib.yt
 sphinx-autobuild
-sphinx-panels
+sphinx-design
 sphinx-copybutton
 sphinxcontrib-mermaid
 sphinxcontrib-images
