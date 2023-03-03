@@ -4,10 +4,14 @@
 #
 #    make upgrade
 #
+accessible-pygments==0.0.3
+    # via pydata-sphinx-theme
 alabaster==0.7.13
     # via sphinx
-babel==2.11.0
-    # via sphinx
+babel==2.12.1
+    # via
+    #   pydata-sphinx-theme
+    #   sphinx
 beautifulsoup4==4.11.2
     # via pydata-sphinx-theme
 certifi==2022.12.7
@@ -16,7 +20,7 @@ charset-normalizer==3.0.1
     # via requests
 colorama==0.4.6
     # via sphinx-autobuild
-docutils==0.17.1
+docutils==0.19
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -36,14 +40,15 @@ packaging==23.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-pydata-sphinx-theme==0.8.1
+pydata-sphinx-theme==0.13.0
     # via sphinx-book-theme
 pygments==2.14.0
-    # via sphinx
+    # via
+    #   accessible-pygments
+    #   pydata-sphinx-theme
+    #   sphinx
 pytz==2022.7.1
     # via babel
-pyyaml==6.0
-    # via sphinx-book-theme
 requests==2.28.2
     # via
     #   sphinx
@@ -54,7 +59,7 @@ snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.4
     # via beautifulsoup4
-sphinx==4.5.0
+sphinx==5.3.0
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
@@ -69,7 +74,7 @@ sphinx==4.5.0
     #   sphinxext-rediraffe
 sphinx-autobuild==2021.3.14
     # via -r requirements/base.in
-sphinx-book-theme==0.3.3
+sphinx-book-theme==1.0.0
     # via -r requirements/base.in
 sphinx-copybutton==0.5.1
     # via -r requirements/base.in
@@ -87,7 +92,7 @@ sphinxcontrib-images==0.9.4
     # via -r requirements/base.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-mermaid==0.8
+sphinxcontrib-mermaid==0.8.1
     # via -r requirements/base.in
 sphinxcontrib-qthelp==1.0.3
     # via sphinx
@@ -101,5 +106,5 @@ tornado==6.2
     # via livereload
 urllib3==1.26.14
     # via requests
-zipp==3.14.0
+zipp==3.15.0
     # via importlib-metadata
