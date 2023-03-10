@@ -35,7 +35,7 @@ GitHub Notifications
 
 TBD: How to set up a group, what the notification settings should look like for that group
 
-  Responding to Issues
+Responding to Issues
 ********************
 
 TBD: Explain what a maintainer's responsibilities are around issue response time
