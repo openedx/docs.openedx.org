@@ -43,7 +43,19 @@ TBD: Explain what a maintainer's responsibilities are around issue response time
 Responding to PRs
 *****************
 
-TBD: Explain what a maintainer's responsibilities are around PR review/response/merge/decline time
+Our goal for PR response time is that they are "triaged" within a week of receipt. This does not mean that review happens within a week, but that the PR is acknowledged and scheduled for review in line with the maintainers other priorities.  This response time goal is onging.  So when an author responds to feedback, the goal is the same.
+
+One of the scarest resources of an open-source project is contributor and maitainer time.  It is ideal that once a review starts, that it can be finalized as a single piece of work, say within the boardaries of a single sprint.
+
+As a maintainer, your goal should be keeping the time to review and finalize a PR predictable and as short as reasonable.  Finalizing a PR can mean rejecting it. Knowing that a PR won't be accepted and why provides the contributor appropriate feedback and let's them decide what to do next.
+
+If your team schedules reviews for future sprints, providing that information to the author is helpful to set their expectations and plan accordingly. Leave a comment indicating when you expect the review to occur and ensure that the status on the contributions board is "Scheduled for Eng Review."
+
+When reviewing a PR, we want to focus on reducing the back-and-forth that increases lead time.  In our globally distributed project, a comment and response cycle can easily take 24 hours.  Ideally, both contributor and reviewer can both focus their attention on finalizing a PR at the same time.
+
+It is recommended that reviewers approve the GitHub actions if approval is required.  Github requires approval from new contributors to any repository, so even folks who have contributed to the project, but not the particular repository, require approval.
+
+It is recommended that when GitHub detects that the PR branch is out of date with the base, that the reviewer update the branch using a merge commit.  This keeps the history clear, but reduces days of lead time over pushing this back to the original author.  However, reviewers should ask authors to resolve any conflicts between their branch and the base.
 
 Managing Upgrade PRs
 ********************
