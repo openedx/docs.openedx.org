@@ -170,4 +170,4 @@ Steps
    :doc:`/documentors/concepts/content_types`
       A quick summary on the different types of documents.
 
-.. _diataxis: diataxis.fr
+.. _diataxis: https://diataxis.fr
