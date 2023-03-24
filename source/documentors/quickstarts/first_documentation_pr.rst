@@ -5,7 +5,7 @@ Quick Start: First Documentation PR
 
    |Video Sidebar Click|
 
-   Video TBP
+   Video Will be Added Soon!
 
 This quickstart will walk you through the process of making an update to a piece
 of documentation on docs.openedx.org.
