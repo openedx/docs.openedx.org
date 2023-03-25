@@ -7,15 +7,15 @@ that you are looking at within the Open edX documentation.
 Prerequisites
 *************
 
-#. You're on the published documentation page at some address like
-  ``docs.openedx.org/...`` and you want to make changes to it.
+#. You're on the published documentation page at some address like ``docs.openedx.org/...`` and you want to make changes to it.
 
 #. You have a GitHub Account
+
    * If not `sign up here`_.
 
-.. _sign up here: https://github.com/signup
+#. In the GitHub UI, make any edits you need to make.
 
-#. In the github UI, make any edits you need to make.
+.. _sign up here: https://github.com/signup
 
 1. Edit a file
 **************
@@ -38,23 +38,27 @@ Prerequisites
 
    #. Add a comment about the changes you made.
 
-   #. Click :guilabel:`Commit changes` to save these changes to your branch.
+   #. Click :guilabel:`Propose changes` to save these changes to your branch.
 
 2. Create a Pull Request
 ************************
 
 .. sidebar:: Create a Pull Request in GitHub
 
-  .. thumbnail:: /_images/github_pr_tab.png
+  .. thumbnail:: /_images/documentors_howto_update_a_doc/create_pr_screen1.png
+
+.. sidebar:: Adding a Pull Request Description
+
+  .. thumbnail:: /_images/documentors_howto_update_a_doc/create_pr_screen2.png
 
 When you are ready to have the Open edX team review your proposed documentation changes, you create a pull request.
 
-#. Once you have clicked the :guilabel:`Commit changes` button
+#. Once you have clicked the :guilabel:`Propose changes` button
 
 #. Click :guilabel:`Create pull request`.
 
 #. In the pull request, add a description of your changes.
 
-#. Click :guilabel:`Create pull request` button again to complete submitting your changes.
+#. Click :guilabel:`Create pull request` button again to complete submitting your changes. Please make sure the "Allow edits by maintainers" checkbox is checked - this enables the Open edX team to rerun tests or make small changes, which will decrease the time for your changes to be accepted.
 
 The Open edX team will then review your changes. If they approve, they will merge the pull request, and you will see your changes in the latest documentation. The Open edX team may ask you to make further changes, to clarify the documentation or fix issues.
