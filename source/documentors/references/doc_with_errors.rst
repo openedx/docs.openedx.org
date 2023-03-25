@@ -11,3 +11,5 @@ Sample Document with Errors
 This page has some bad spelling.
 
 I really want to emphasize the following: **Small changes add up**!
+
+Adding a new change!
