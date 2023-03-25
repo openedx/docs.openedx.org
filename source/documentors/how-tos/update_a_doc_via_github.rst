@@ -1,32 +1,32 @@
 Update A Doc via GitHub
-###############################
+#######################
 
 This how-to will take you through the process of submitting an update to a page
-that you are looking at within the Open edX documnetation.
+that you are looking at within the Open edX documentation.
 
 Prerequisites
 *************
 
-* You're on the published documentation page at some address like
+#. You're on the published documentation page at some address like
   ``docs.openedx.org/...`` and you want to make changes to it.
 
-* You have a GitHub Account
+#. You have a GitHub Account
    * If not `sign up here`_.
 
 .. _sign up here: https://github.com/signup
 
-2. In the github UI, make any edits you need to make.
+#. In the github UI, make any edits you need to make.
 
 1. Edit a file
-*****************
+**************
 
 .. sidebar:: Suggest an Edit from the Docs Site
 
    .. thumbnail:: /_images/documentors_howto_update_a_doc/suggest_edit_link.png
 
-.. sidebar:: Edit a Topic in GitHub
+.. sidebar:: Make Your Edits in GitHub
 
-  .. thumbnail:: /_images/github_edit_topic.png
+  .. thumbnail:: /_images/documentors_howto_update_a_doc/edit_in_github.png
 
 #. On the page you want to edit, find the ``suggest edit`` link.
 
@@ -41,7 +41,7 @@ Prerequisites
    #. Click :guilabel:`Commit changes` to save these changes to your branch.
 
 2. Create a Pull Request
-**********************************
+************************
 
 .. sidebar:: Create a Pull Request in GitHub
 
