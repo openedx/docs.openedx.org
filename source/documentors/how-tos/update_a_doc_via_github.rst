@@ -20,13 +20,15 @@ Prerequisites
 1. Edit a file
 *****************
 
+.. sidebar:: Suggest an Edit from the Docs Site
+
+   .. thumbnail:: /_images/documentors_howto_update_a_doc/suggest_edit_link.png
+
 .. sidebar:: Edit a Topic in GitHub
 
   .. thumbnail:: /_images/github_edit_topic.png
 
 #. On the page you want to edit, find the ``suggest edit`` link.
-
-   #TODO: Add a picture.
 
 #. Make the necessary changes.
 
