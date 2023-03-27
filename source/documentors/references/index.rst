@@ -6,3 +6,4 @@ Documentors: References
    :glob:
 
    *
+   conference_exercise/index

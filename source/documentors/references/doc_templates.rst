@@ -97,6 +97,8 @@ Copy the Topic and Section Structure as needed
 
 	Content for Section 2/Subsection 2
 
+.. _how_to_template:
+
 Create a How-to
 *****************
 
