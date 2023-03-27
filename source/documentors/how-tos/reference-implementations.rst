@@ -77,12 +77,12 @@ cleanly.
 Links within
 ============
 
-
+.. _some_location:
 
 Some text at this location.
 
 
-
+Some other stuff that links back to :ref:`some_location`.
 
 
 Links between
