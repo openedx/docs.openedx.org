@@ -79,6 +79,9 @@ Links within
 
 .. _some_location:
 
+New Subsection Title
+--------------------
+
 Some text at this location.
 
 
