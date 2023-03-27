@@ -1,6 +1,3 @@
-Headings
-########
-
 Heading 1
 #########
 
@@ -49,6 +46,8 @@ Lists
    #. Item 1
    #. Item 2
 
+
+.. code-block:: RST
 
    * Item 1
    * Item 2
@@ -107,6 +106,9 @@ Directives
 .. note:: This is a note.
 
    It will stand-out but not as much as a warning.
+
+
+Tip: Use ``:height:`` or ``:width:`` to scale your image!
 
 .. image:: ../../_images/documentors_howto/make_changes_to_pr/gnu_wizard.svg
    :height: 200
