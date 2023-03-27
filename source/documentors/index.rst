@@ -10,6 +10,7 @@ Open edX Documentors
       :class-footer: sd-border-0
       
       * :doc:`quickstarts/first_documentation_pr`
+      * :doc:`quickstarts/quick_start_add_doc`
       * :doc:`quickstarts/update_doc_via_github`
       +++
       .. button-ref:: quickstarts/index
@@ -41,6 +42,7 @@ Open edX Documentors
       
       * :doc:`how-tos/update_a_doc_via_github`
       * :doc:`how-tos/add_a_doc_via_github`
+      * :doc:`how-tos/make_changes_to_your_pull_request`
       +++
       .. button-ref:: how-tos/index
          :color: primary
