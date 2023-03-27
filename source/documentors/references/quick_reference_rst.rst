@@ -66,7 +66,10 @@ Links within a document
 
 .. code-block:: RST
 
-   .. some_location:
+   .. _some_location:
+
+   New Subsection Title
+   --------------------
 
    Some text at this location.
 
@@ -84,7 +87,6 @@ Links between rst documents
 
    By default it will use the title of the doc as the link text but you can
    override that with doc:`other text </file_d>` if you want.
-   which
 
 
 Directives
