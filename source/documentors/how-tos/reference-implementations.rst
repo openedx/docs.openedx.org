@@ -117,7 +117,7 @@ Tip: Use ``:height:`` or ``:width:`` to scale your image!
    :height: 200
    :alt: Alternative text for accessibility.
 
-.. code-block::python
+.. code-block:: python
 
    Some python code.
 
