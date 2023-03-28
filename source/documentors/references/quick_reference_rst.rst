@@ -109,7 +109,7 @@ RST can do a lot of things via `directives`_. Here are some common ones:
    .. image:: path/to/image.png
       :alt: Alternative text for accessibility.
 
-   .. code-block::python
+   .. code-block:: python
 
       Some python code.
 
