@@ -46,10 +46,10 @@ When dealing with placeholders, you must follow these rules.
 
 Examples may help you better understand what to do in these situations, so we
 recommend checking out the :ref:`Placeholders Section of the Translators
-Reference <translators/references/index:placeholders>`
+Reference <translators reference placeholders>`
 
 .. seealso::
 
-   * :ref:`Placeholders Reference <translators/references/index:placeholders>`
+   * :ref:`Placeholders Reference <translators reference placeholders>`
 
    * :doc:`working-with-html`

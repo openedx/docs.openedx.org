@@ -4,8 +4,10 @@
 sphinx
 sphinx-book-theme
 sphinxcontrib.yt
-sphinx-panels
+sphinx-autobuild
+sphinx-design
 sphinx-copybutton
 sphinxcontrib-mermaid
 sphinxcontrib-images
 sphinxcontrib-contentui
+sphinxext-rediraffe

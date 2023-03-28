@@ -34,19 +34,22 @@ copyright = f"{current_year}, The Center for Reimagining Learning"
 # ones.
 extensions = [
     "sphinxcontrib.yt",
-    "sphinx.ext.autosectionlabel",
     "sphinxcontrib.images",
-    "sphinx_panels",
+    "sphinx_design",
     "sphinxcontrib.contentui",
     "sphinx_copybutton",
     "sphinx.ext.graphviz",
     "sphinxcontrib.mermaid",
     "sphinx.ext.intersphinx",
+    "sphinxext.rediraffe",
 ]
 
 # Extension Configuration
 graphviz_output_format = "svg"
-autosectionlabel_prefix_document = True
+
+rediraffe_redirects = {
+    "community/release_notes/latest.rst": "community/release_notes/olive.rst",
+}
 
 # Intersphinx Extension Configuration
 DIGITS_ONLY = r"^\d+$"
@@ -65,6 +68,14 @@ intersphinx_mapping = {
         # Not setting the version on purpose because we always want the latest version
         # of OEPs
         f"https://docs.openedx.org/projects/openedx-proposals/{rtd_language}/latest",
+        None,
+    ),
+    "openedx-oars": (
+        f"https://docs.openedx.org/projects/openedx-oars/{rtd_language}/{rtd_version}",
+        None,
+    ),
+    "edx-installing-configuring-and-running": (
+        f"https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/{rtd_language}/{rtd_version}",
         None,
     ),
 }
@@ -107,7 +118,7 @@ rst_epilog = """
 
 .. rst-class:: feedback
 
-  :ref:`Feedback <other/feedback:Documentation Feedback Form>`
+  :ref:`Feedback <Documentation Feedback Form>`
 
 .. include:: /substitutions.txt
 .. include:: /links.txt
@@ -135,7 +146,7 @@ html_theme_options = {
     "repository_url": "https://github.com/openedx/docs.openedx.org",
     "repository_branch": "main",
     "path_to_docs": "source",
-    "logo_only": False,
+    "logo_only": True,
     "home_page_in_toc": True,
     "extra_navbar": extra_navbar_content,
     "use_repository_button": True,
@@ -146,9 +157,8 @@ html_theme_options = {
 
 
 html_logo = "_static/open-edx-logo-color.png"
-html_favicon = "_static/favicon.ico"
-theme_logo_only = True
-release = "Latest Documentation"
+html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
+release = "Latest"
 
 html_static_path = ["_static"]
 

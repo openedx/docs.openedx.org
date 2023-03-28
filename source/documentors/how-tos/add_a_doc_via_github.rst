@@ -5,7 +5,7 @@ Add Documentation via Github
 
   |Video Sidebar Click|
 
-  Video TBP
+  Video Will be Added Soon!
 
 .. contents:: Steps to Add Documentation
   :local:

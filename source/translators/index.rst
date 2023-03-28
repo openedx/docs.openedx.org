@@ -8,38 +8,49 @@ Translators Home
 
 .. _meet them in slack: https://openedx.slack.com/archives/C037XDB9KN1
 
-.. panels::
+.. grid:: 1 2 2 2
+   :gutter: 3
+   :padding: 0
 
-   .. toctree::
-      :maxdepth: 1
-      :caption: Quickstarts
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
-      Get Started as a Translator <quickstarts/index>
+      .. toctree::
+         :maxdepth: 1
+         :caption: Quickstarts
 
-   ---
+         Get Started as a Translator <quickstarts/index>
 
-   .. toctree::
-      :glob:
-      :maxdepth: 1
-      :caption: How-Tos
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
-      how-tos/how-to*
+      .. toctree::
+         :glob:
+         :maxdepth: 1
+         :caption: How-Tos
 
+         how-tos/how-to*
 
-   ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
-   .. toctree::
-      :glob:
-      :maxdepth: 1
-      :caption: Concepts
+      .. toctree::
+         :glob:
+         :maxdepth: 1
+         :caption: Concepts
 
-      concepts/working*
+         concepts/working*
 
-   ---
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
-   .. toctree::
-      :glob:
-      :maxdepth: 1
-      :caption: References
+      .. toctree::
+         :glob:
+         :maxdepth: 1
+         :caption: References
 
-      references/index
+         references/index

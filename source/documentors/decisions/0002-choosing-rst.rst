@@ -111,6 +111,8 @@ decision.  For each concern, we provide some notes on how we will address them.
 Rejected Alternatives
 *********************
 
+.. _Basic Markdown:
+
 Basic Markdown
 ==============
 
@@ -155,7 +157,7 @@ MkDocs Flavored Markdown
 The `MkDocs`_ tool powered by the `Python-Markdown`_ flavor of Markdown solves
 many of the problems with pure Markdown by introducing the ability to add
 extensions that add more functionality.  Both the issues noted above in the
-:ref:`Basic Markdown <documentors/decisions/0002-choosing-rst:Basic Markdown>`
+:ref:`Basic Markdown <Basic Markdown>`
 are solved via extensions in MkDocs.  However, the extension mechanism is not
 consistent so each extension essentially adds its own new syntax to learn in
 order to make use of the new capabilities.

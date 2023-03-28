@@ -1,3 +1,17 @@
+/*
+ * We need to override the color in the footer specifically because setting
+ * the color in the :root element doesn't work.  This custom.css is loaded befor
+ * the sphinx-design css file that it is meant to override.
+ *
+ * We shouldn't need this if https://github.com/executablebooks/sphinx-design/pull/124/files
+ * gets accepted upstream.
+ *
+ */
+.sd-card-footer {
+    --sd-color-primary: #0071bc;
+}
+
+
 div.toctree-wrapper p.caption {
   font-weight: 700;
   font-size: 1.2em;
