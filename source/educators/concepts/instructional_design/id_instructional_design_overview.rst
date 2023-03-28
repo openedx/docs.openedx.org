@@ -82,14 +82,11 @@ Constructive Alignment
 
 **Constructive alignment** is an educational principle for designing learning interactions that makes learning organized and explicit. In this design, your learning outcomes, activities and assessment should align or match.
 
--   Learning outcome: what should you learner know or be able to do at the end of the module/course?
-    
--   Learning activity: how will the learners learn content or practice?
-    
--   Learning assessment: how will learners provide evidence that they have met the outcome?
-    
+* Learning outcome: what should you learner know or be able to do at the end of the module/course?
+* Learning activity: how will the learners learn content or practice?
+* Learning assessment: how will learners provide evidence that they have met the outcome?
 
--   *For example, if you want a student to learn how to cook a soup (outcome) and you can show them a video & have them read a recipe (activities). An aligned assessment would be to have them actually cook a soup (instead of answering multiple choice questions about how to cook a soup) since that is the evidence that best shows they have achieved the outcome.*
+  * For example, if you want a student to learn how to cook a soup (outcome) and you can show them a video & have them read a recipe (activities). An aligned assessment would be to have them actually cook a soup (instead of answering multiple choice questions about how to cook a soup) since that is the evidence that best shows they have achieved the outcome.
     
 
 One way to double check if your course is aligned is to check your assessment against your learning outcome verb.
