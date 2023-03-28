@@ -4,8 +4,13 @@ Quick Reference: Writing RST
 RST is very powerful and flexible.  Below we provide a quick guide for how you
 can use it to write Open edX documentation.
 
-For more details check out the `RST Primer`_
+.. seealso::
 
+   `A one-page reference document`_ (PDF)
+
+   For a deeper introduction, check out the `RST Primer`_
+
+.. _A one-page reference document: https://docs.openedx.org/en/latest/documentors/references/RST_quick_reference.pdf
 .. _RST Primer: https://docutils.sourceforge.io/docs/user/rst/quickstart.html
 
 Headings
@@ -20,7 +25,7 @@ Headings
 
 
 Inline Markup
-***************
+*************
 
 RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also make GUI elements appear as :guilabel:`GUI elements`.
 
