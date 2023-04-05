@@ -4,15 +4,6 @@ Quick Reference: Writing RST
 RST is very powerful and flexible.  Below we provide a quick guide for how you
 can use it to write Open edX documentation.
 
-.. seealso::
-
-   `A one-page reference document`_ (PDF)
-
-   For a deeper introduction, check out the `RST Primer`_
-
-.. _A one-page reference document: https://docs.openedx.org/en/latest/documentors/references/RST_quick_reference.pdf
-.. _RST Primer: https://docutils.sourceforge.io/docs/user/rst/quickstart.html
-
 Headings
 ********
 
@@ -131,12 +122,17 @@ Learn More
 
 .. seealso::
 
+   :download:`A one-page reference document <RST_quick_reference.pdf>` (PDF)
+      This reference document summarizes the above rules in an easy to print reference guide
+
    `RST Primer`_
       The primer has a lot more detail about the concepts behind the markup.
 
    `RST Docs`_
       If you want even more details, check out full `RST Docs`_.
 
+
+.. _RST Primer: https://docutils.sourceforge.io/docs/user/rst/quickstart.html
 .. _RST Docs: https://docutils.sourceforge.io/rst.html
 
 
