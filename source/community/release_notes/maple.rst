@@ -30,7 +30,7 @@ Tutor is the supported distribution
 Learning Micro-Frontend (MFE) becomes the default courseware experience
 -----------------------------------------------------------------------
 
-Warning: Entrance exams, non-standard XML and HTML tags, and non-standard course hierarchies are not supported. See below for more details.
+.. warning:: Entrance exams, non-standard XML and HTML tags, and non-standard course hierarchies are not supported. See below for more details.
 
 
 Studio login changed to OAuth
