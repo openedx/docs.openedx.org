@@ -1,5 +1,5 @@
-Quick Start: Add Documentation Through Github
-##############################################
+Quick Start: Add New Documentation Through GitHub
+#################################################
 
 .. sidebar:: Add Documentation Video Demo
 
@@ -20,7 +20,7 @@ Quick Start: Add Documentation Through Github
 
 
 Find Where to add a New Topic
-***************************************
+*****************************
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
@@ -32,11 +32,7 @@ Review the :doc:`../concepts/doc_audiences` and :doc:`../concepts/content_types`
 
 
 Create the New Topic
-******************************
-
-.. sidebar:: Create a Topic in GitHub
-
-  .. thumbnail:: /_images/github_create_topic.png
+********************
 
 In the location where you should create the new topic:, with the **main** branch selected:
 
@@ -47,7 +43,9 @@ In the location where you should create the new topic:, with the **main** branch
    .. thumbnail:: /_images/documentors_fork_message.png
     :width: 80%
 
-   Followed by the interface for creating a new topic.
+   Followed by the interface for creating a new topic:
+
+   .. thumbnail:: /_images/github_create_topic.png
 
 #. At the top of the screen, give the file a name and the ``.rst`` extension.
 
@@ -70,6 +68,6 @@ GitHub then prompts you to create a pull request, which is a request for the Ope
 .. thumbnail:: /_images/github_new_pr_fork.png
 
 Create a Pull Request for the New Topic
-****************************************
+***************************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
