@@ -1,5 +1,5 @@
-Quick Start: Update Doc Through GitHub
-########################################
+Quick Start: Update Existing Docs Through GitHub
+################################################
 
 .. sidebar:: Edit Documentation Video Demo
 
@@ -19,11 +19,7 @@ Quick Start: Update Doc Through GitHub
 
 
 Edit a Topic
-********************
-
-.. sidebar:: Edit a Topic in GitHub
-
-  .. thumbnail:: /_images/github_edit_topic.png
+************
 
 Use the following instructions when you are viewing the published documentation on
 ``docs.openedx.org`` and you want to make changes to it.
@@ -34,19 +30,17 @@ Use the following instructions when you are viewing the published documentation 
 
    Ensure you keep to RST standards in file.  See the :doc:`../references/quick_reference_rst` a quick reference to RST.
 
-#. In the **Propose changes** section at the bottom of the edit window:
+#. In the Commit Changes section at the bottom of the edit window:
 
-   #. Add a comment about the addition you made.
+   #. Add a descriptive comment about the changes you made.
 
-   #. Optionally, add a longer description.
+   #. Click :guilabel:`Propose changes` to save these changes to your branch.
 
-   #. Click :guilabel:`Propose changes` to save these changes to your fork.
+      .. image:: /_images/documentors_howto_update_a_doc/edit_in_github.png
 
 GitHub then creates a *fork* of the repository that belongs to your account.  A fork is a complete copy of the repository, plus your changes. For more information, see `Github Forks`_.
 
 GitHub then prompts you to create a pull request, which is a request for the Open edX team to integrate changes in your fork into the official repository.
-
-.. thumbnail:: /_images/github_new_pr_fork.png
 
 Create a Pull Request for Your Change
 **************************************

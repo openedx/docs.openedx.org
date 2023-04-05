@@ -19,7 +19,7 @@ Quick Start: Add New Documentation Through GitHub
 .. include:: ../how-tos/reusable_content/sign_agreement.txt
 
 
-Find Where to add a New Topic
+Find Where to Add a New Topic
 *****************************
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
@@ -40,12 +40,12 @@ In the location where you should create the new topic:, with the **main** branch
 
    You receive the following message:
 
-   .. thumbnail:: /_images/documentors_fork_message.png
+   .. image:: /_images/documentors_fork_message.png
     :width: 80%
 
    Followed by the interface for creating a new topic:
 
-   .. thumbnail:: /_images/github_create_topic.png
+   .. image:: /_images/github_create_topic.png
 
 #. At the top of the screen, give the file a name and the ``.rst`` extension.
 
