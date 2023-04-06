@@ -5,6 +5,7 @@
    #########
 
    There should be only 1 Heading 1 per topic, as the topic title.
+   The underline must match the length of the text above it.
 
    Heading 2
    *********
