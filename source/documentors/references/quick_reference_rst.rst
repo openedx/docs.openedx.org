@@ -40,6 +40,15 @@ This codeblock is used for the following published list:
 
 #. Item 2
 
+* Item 1
+
+  #. Sub-item 1
+  #. Sub-item 2
+   
+* Item 2
+
+See the `RST guide on lists <https://sublime-and-sphinx-guide.readthedocs.io/en/latest/lists.html>`_ for more detail.
+
 Linking
 *******
 

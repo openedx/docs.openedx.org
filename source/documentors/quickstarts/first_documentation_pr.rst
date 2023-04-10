@@ -55,8 +55,8 @@ Click the :guilabel:`suggest edit` button to begin the process of changing the t
    :alt: A screenshot of the sample page with the 'suggest edit' link highlighted.
 
 
-Fork the repository(repo)
-*************************
+Fork the repository (repo)
+**************************
 
 If you have never made a pull request to this repo, you'll be asked to fork the
 repo.  A "fork" is essentially your own copy of the repository.
@@ -68,6 +68,7 @@ Go ahead and click the big green button!
 
 Make your fixes
 ***************
+
 Once you've clicked the fork button, you're ready to make your update in the
 web editor.
 
@@ -101,10 +102,11 @@ you want to take a look at your work.
 .. note::
 
    The GitHub "Preview" tab will not always show, or *render*, everything perfectly.
-   As you can see, the "Note" box, which shows fine on docs.openedx.org, does not render
-   correctly in the GitHub preview. Solutions to this problem are to install a local
-   development environment (How-To article TBD), or rely on the "pull request build",
-   discussed below.
+   As you can see, both the "Note" box and the part that starts with ``:doc:``, which
+   display correctly on docs.openedx.org, do not render correctly in the GitHub preview.
+
+   Solutions to this problem are to install a local development environment (How-To
+   article TBD), or rely on the "pull request build", discussed below.
 
 
 Save your changes
