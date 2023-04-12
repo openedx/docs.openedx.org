@@ -32,6 +32,13 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Palm
+~~~~
+
+* **Code cut date:** 2023-04-11
+* **Status:** upcoming
+* :doc:`Release Notes <./palm>`
+
 Olive
 ~~~~~
 
@@ -53,6 +60,10 @@ Olive
    * - Olive.2
      - 2023-02-09
      - open-release/olive.2
+
+   * - Olive.3
+     - 2023-04-11
+     - open-release/olive.3
 
 Nutmeg
 ~~~~~~
