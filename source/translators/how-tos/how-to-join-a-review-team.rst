@@ -31,4 +31,4 @@ To join a review team, request permission from the project coordinator(s):
    project page.
 
    You can also obtain reviewer and coordinator access by contacting the
-   Translation Working Group’s Organizer via ``ehuthmacher at tcril dot org``.
+   Translation Working Group’s Organizer via ``ehuthmacher at axim dot org``.
