@@ -77,7 +77,7 @@ Steps
                       href="https://openedx.org"
                       property="cc:attributionName"
                       rel="cc:attributionURL"
-                  >The Center for Reimagining Learning</a>
+                  >Axim Collaborative</a>
               are licensed under a
                   <a
                       rel="license"
