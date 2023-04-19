@@ -3,7 +3,7 @@ Documentation Content Types
 
 To keep documentation streamlined and make it easy for users to find answers, we make each topic one of three types:
 
-* **Quickstart** topics may seem similar to How-Tos but have a different focus.  Tutorials are specifically built for beginners and are meant to help them gain experience with the product.  For example taking a course through the entire course lifecycle, even if there is no content, and it's not excatly how you would do it with a real course, gives a beginner a meaningful experience that helps them better navigate the product.
+* **Quickstart** topics may seem similar to How-Tos but have a different focus.  Tutorials are specifically built for beginners and are meant to help them gain experience with the product.  For example taking a course through the entire course lifecycle, even if there is no content, and it's not exactly how you would do it with a real course, gives a beginner a meaningful experience that helps them better navigate the product.
 
 * **How-to** topics provide direct and easy-to-follow instructions to accomplish specific goals. For example, topics provide the steps to create a new course subsection and to schedule a course.
 
