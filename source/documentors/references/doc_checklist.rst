@@ -24,7 +24,7 @@ For more information, see :doc:`../concepts/doc_audiences`.
 Topic Types
 ************
 
-Each topic in the documentation is one of three types:
+Each topic in the documentation is one of four types:
 
 * How to
 
