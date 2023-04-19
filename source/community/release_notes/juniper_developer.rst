@@ -1,15 +1,13 @@
 .. _juniper_developer:
 
-############################################
 Juniper release notes: Developer Experiences
 ############################################
 
-=================
 Platform Services
-=================
+*****************
 
 Notifier Service
-----------------
+================
 
 **Notifier Service Deprecation:** We made the decision to deprecate the
 notifier service powering the discussion forum daily digest feature. In the
@@ -23,12 +21,11 @@ edX ACE infrastructure.
     Internal Notes on v1.1 Content: Cut from v1, TBD on what the update is for this service. Referenced already in program operations / console
 
 
-===================================
 Continuous Integration & Deployment
-===================================
+***********************************
 
 Front End Pipeline
-------------------
+==================
 
 **Shared Frontend Platform Services:** In support of centralized configuration
 of baseline micro-frontend requirements, we have created the `Frontend
@@ -71,7 +68,7 @@ for Segment.
 .. __: https://github.com/openedx/frontend-platform/blob/master/src/analytics/interface.js
 
 Mobile Site Build Pipeline
---------------------------
+==========================
 
 **Mobile Test Automation Pipeline:** A major investment was made into `test
 automation tooling`__ and containers for both the iOS and Android applications,
@@ -80,7 +77,7 @@ enabling improved mobile app test suite automation and builds.
 .. __: https://github.com/openedx/edx-app-test
 
 Authentication & Account Services
----------------------------------
+=================================
 
 **MFE Service - Authentication:** In support of expanded use of
 micro-frontends, a foundational service focused on configuring authentication
@@ -98,7 +95,7 @@ and removed in favor of a single secure implementation. Details are in the
 
 
 Internationalization Pipeline
------------------------------
+=============================
 
 **MFE Service - Internationalization:** In support of expanded use of
 micro-frontends, a foundational service focused on internationalization support
@@ -110,7 +107,7 @@ strings from Transifex, our crowdsource platform text translation community.
 
 
 Devstack
---------
+========
 
 
 ..
@@ -123,7 +120,7 @@ Devstack
     Kubernetes pilot - Notes service
 
 Video Delivery Pipeline
------------------------
+=======================
 
 **VEDA Performance Enhancements:** The team put time into making key VEDA
 performance enhancements, improving stability and scaling of our video uploads
@@ -147,7 +144,7 @@ details about its replacement - VEM.
     BokChoy Updates: ...
 
 Accessibility Support
----------------------
+=====================
 
 **WCAG 2.1 Enhancements:** Across many areas of the platform we have completed
 improvements that move our platform's target WCAG support level up to 2.1 from
@@ -156,12 +153,11 @@ such as improved contrast and visibility, semantic page structure updates, as
 well as landmark container improvements that are all a part of the 2.1
 specification.
 
-============================
 Pattern Library & Components
-============================
+****************************
 
 Paragon
--------
+=======
 
 We have updated the Paragon Component Library. Paragon now includes Bootstrap
 SCSS directly and contains Paragon extensions. It should now be considered the
@@ -177,7 +173,7 @@ that end, a parallel effort has begun to remove legacy pattern library styling
 from the platform though this work was not fully completed in Juniper.
 
 Site Headers & Footers
-----------------------
+======================
 
 For each MFE, the header and footer must be configured to echo the rest of the
 site or product experience to which it is connected. We have published various
@@ -187,12 +183,11 @@ cookie message banner, and others`__.
 .. __: https://github.com/openedx?q=frontend-component&type=&language=
 
 
-==========================
 Core Platform Requirements
-==========================
+**************************
 
 Python
-------
+======
 
 About 55% of the Open edX platform is written in Python, meaning a large
 fraction of the code written over the past 8 or so years was reviewed and
@@ -206,7 +201,7 @@ rely on Python themselves.
 .. _INCR-1: https://openedx.atlassian.net/browse/INCR-1
 
 Django
-------
+======
 
 A major, Juniper-release-defining upgrade to the platform was completed in
 service of upgrading the Open edX Platform and all its dependencies to support
@@ -223,19 +218,18 @@ of life support dates.
 
 
 xModule / XBlocks
------------------
+=================
 
 **xModule to xBlock Conversions:**  Across several of the core course content
 blocks, we have migrated away from the legacy xModule format in support of its
 eventual deprecation. Discussions, HTML, Video, and Problems have all been
 converted to XBlocks as part of this work.
 
-==========================
 Platform Health Monitoring
-==========================
+**************************
 
 Repository Dashboard
---------------------
+====================
 
 With nearly 400 git repositories across 4 different GitHub organizations, it's
 becoming both more important and more difficult to answer questions like "which
@@ -259,12 +253,11 @@ The aggregated data for many files is output as a csv.
 .. _pytest-repo-health: https://github.com/openedx/pytest-repo-health
 
 
-==========================
 LMS / Studio Configuration
-==========================
+**************************
 
 JSON to YAML
-------------
+============
 
 Most Open edX applications read a single YAML file.  However the LMS and Studio historically
 read multiple JSON ones. We are making the LMS and Studio behave the same as other applications
@@ -275,12 +268,11 @@ Technical details of converting your existing files are here:
 .. __: https://openedx.atlassian.net/wiki/spaces/AC/pages/1822916664/How+to+convert+your+lms+and+studio+json+configuration+files+to+yaml
 
 
-==============================
 Feature & Update Documentation
-==============================
+******************************
 
 Deprecation Process
--------------------
+===================
 
 Building on the deprecation process defined in OEP-21 (`Open edX Proposal
 21`_), we have flagged many areas for deprecation, including areas mentioned

@@ -1,6 +1,5 @@
 .. _Open edX Nutmeg Release:
 
-#######################
 Open edX Nutmeg Release
 #######################
 
@@ -13,26 +12,27 @@ These are the release notes for the Nutmeg release, the 14th community release o
  :depth: 1
  :local:
 
-================
 Breaking Changes
-================
+****************
 
 SafeSessionMiddleware
----------------------
+=====================
+
 Before upgrade: Check that your logs do not contain warnings starting with "SafeCookieData user at request", or that these warnings are very rare. If they are common, see the SafeSessionMiddleware section below in the Administrators and Operators Section.
 
 Django Admin login disabled by default
---------------------------------------
+======================================
+
 Default Django admin login window is disabled and now one has to login from the LMS.
 
-===================
 Learner Experiences
-===================
+*******************
 
 * Bug fix: facebook share links now work on the course about page.
 
 User Tours
-----------
+==========
+
 User Tours are walkthroughs that can be presented to users in micro-frontends (MFEs). The default tours that exist are: "Course Home New User Tour" (`screencast`_), "Course Home Existing User Tour", and "Courseware New User Tour".
 In order for User Tours to properly work, the backpopulate user tours management command should be run.
 
@@ -44,7 +44,8 @@ In order for User Tours to properly work, the backpopulate user tours management
 
 
 Dates Tab
----------
+=========
+
 The Dates Tab has been added as a default static tab on all courses. All new courses will automatically include the Dates Tab. In order to properly have the Dates Tab show up for all your existing courses, a backfill course tabs management command has been created.
 
 .. code-block:: shell
@@ -55,13 +56,14 @@ The Dates Tab has also been removed from the legacy learner experience. It is on
 
 
 Weekly Course Goals
--------------------
+===================
+
 The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `Enabling the Weekly Learning Goals Feature`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
 
 .. _Enabling the Weekly Learning Goals Feature: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_weekly_learning_goals.html
 
 Learning Micro-Frontend (MFE)
------------------------------
+=============================
 
 * When an XBlock fails to render, the user will now see an error message "An unexpected error occurred. Please click the button below to refresh the page."
 * RTL languages are now supported
@@ -69,7 +71,7 @@ Learning Micro-Frontend (MFE)
 
 
 Account Micro-frontend (MFE)
-----------------------------
+============================
 
 The `Account Micro-frontend (MFE)`_ is now enabled by default. The legacy account pages will be removed in the next release, Olive.
 
@@ -77,7 +79,7 @@ The `Account Micro-frontend (MFE)`_ is now enabled by default. The legacy accoun
 
 
 Mobile Experience
------------------
+=================
 
 * Added support for notices in apps.
 * Added an activation opt in checkbox (default checked) so user can agree to receive marketing messages. See `LEARNER-8652`_ for a screenshot.
@@ -86,14 +88,13 @@ Mobile Experience
 .. _LEARNER-8652: https://openedx.atlassian.net/browse/LEARNER-8652
 
 Special Exams Experience
-------------------------
+========================
 
 To take a proctored exam, the learner must now be enrolled in a :code:`verified` course track. Previously, a learner enrolled in any track could take a proctored exam. Note that ID verification (IDV) is not required.
 
 
-======================
 Instructor Experiences
-======================
+**********************
 
 * Default course tabs have a new, standard order. Course authors may still change the order of their custom static tabs, but the ordering of the default tabs cannot be changed. This ensures a more uniform location across courses.
 * When setting grading policies, course authors can now set the minimum grade cutoff to 99. Previously it could not be higher than 97.
@@ -101,7 +102,7 @@ Instructor Experiences
 
 
 LTI Support
------------
+===========
 
 * Course authors can now define static and dynamic custom parameters that will be sent to the LTI Tool Provider at launch. See the `Custom LTI Parameter section of the LTI Consumer XBlock Readme`_ for more details.
 * Mobile apps can now support LTI by opening it in a browser
@@ -109,15 +110,14 @@ LTI Support
 .. _Custom LTI Parameter section of the LTI Consumer XBlock Readme: https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst#custom-lti-parameters
 
 Gradebook Micro-frontend (MFE)
-------------------------------
+==============================
 
 * Added support for transifex translations.
 * Added support for custom theming.
 
 
-==========================
 Administrators & Operators
-==========================
+**************************
 
 * Various improvements and bugfixes have been applied to `Tutor`_, the officialy-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
 
@@ -148,7 +148,7 @@ Administrators & Operators
 * Bug fix: When using GMSTP (Gmail) for sending bulk email, retriable SMTP exceptions were not caught and bulk sending failed. This has been fixed.
 
 Bulk Course Email Tool
-----------------------
+======================
 
 * Added the ability to filter recipients of bulk course emails based on the last_login date of Users enrolled in a course run. This feature can be enabled by setting a value for the :code:`BULK_COURSE_EMAIL_LAST_LOGIN_ELIGIBILITY_PERIOD` setting. Its value should be an integer (representing months) that represents the eligibility period from the current date to receive a message. The new setting defaults to None which keeps this new feature disabled (and there will be no change in behavior in how recipients are filtered/selected for a message).
 
@@ -158,7 +158,7 @@ Bulk Course Email Tool
 
 
 SafeSessionMiddleware rejects mismatching requests and sessions
----------------------------------------------------------------
+===============================================================
 
 Background: :code:`SafeSessionMiddleware` is an existing middleware that provides several protections against vulnerabilities that could result from cache misconfigurations or other bugs resulting in one user getting a different user's session.
 
@@ -168,13 +168,13 @@ Before upgrade: Check that your logs do not contain warnings starting with "Safe
 
 
 Migrations
-----------
+==========
 
 There are no known migrations that will cause compatibility issues when deployed. As always migrations should be run before the new code is deployed.
 
 
 Pre-Alpha Features
--------------------
+===================
 
 The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on GitHub but are not yet supported in Tutor. Additionally, they may lack key features such as support for theming, internationalization, and path-based deployments. We include mention of them because we expect all of them to be supported in the next release, Olive.
 
@@ -189,7 +189,7 @@ The following Micro-frontends (MFEs) are in a "pre-alpha" state. They exist on G
 .. _Open-Response Assessments (ORA) Grading Micro-frontend (MFE): https://github.com/edx/frontend-app-ora-grading
 
 Settings and Toggles
---------------------
+====================
 
 New settings and toggles added since the Maple release:
 
@@ -255,16 +255,16 @@ the following settings were removed:
 
 
 Dependency updates
-------------------
+==================
 
 There are no notable dependency updates in nutmeg.
 
-============
 Deprecations
-============
+************
 
 Removed in Nutmeg
------------------
+=================
+
 - django-ratelimit-backend has been removed from edx-platform. Now the django-ratelimit library will be used for rate limiting. See `DEPR-150`_ for more details. Related to this, the default Django admin login window is disabled and now one has to login from LMS.
 - The `edx-certificates repo`_ has been archived. See `DEPR-160`_ for more details.
 - “Old Mongo” course access has finally been fully removed. This means course runs that have keys like :code:`Org/Course/Run` rather than :code:`course-v1:Org+Course+run`  cannot be accessed by learners. New runs of this type haven’t been able to be created since 2015, but now learner access has also been removed. See `[DEPR] Issue #62`_ for more information on the continuing removal of Old Mongo technology.
@@ -276,7 +276,7 @@ Removed in Nutmeg
 .. _[DEPR] Issue #62: https://github.com/openedx/public-engineering/issues/62
 
 Deprecated in Nutmeg (or earlier) and scheduled to be removed in the Olive release
-----------------------------------------------------------------------------------
+==================================================================================
 
 * `bokchoy test suites`_
 * the `frontend-learner-portal-base`_ library
@@ -295,22 +295,20 @@ Deprecated in Nutmeg (or earlier) and scheduled to be removed in the Olive relea
 .. _import legacy OLX attributes: https://github.com/openedx/public-engineering/issues/74
 
 Future deprecations and removals
---------------------------------
+================================
 
 .. note:: Major deprecation work is being funded between now and the Olive release, scheduled for December 2022. Please review the `DEPR: Deprecation & Removal`_ board on Github to be sure you have stopped using deprecated technologies.
 
 .. _DEPR\: Deprecation & Removal: https://github.com/orgs/openedx/projects/9/views/4
 
-=============================
 Researcher & Data Experiences
-=============================
+*****************************
 
 * added a :code:`complete_video` event that fires when a user has watched a video to the end. Requires the waffle switch :code:`completion.enable_completion_tracking`
 
 
-=====================
 Developer Experiences
-=====================
+*********************
 
 * Added support for custom xBlock editors in Studio. Read the `pluggable_override docstring`_ to learn more.
 * Added an API for updating user's email opt-in setting.
@@ -321,7 +319,8 @@ Developer Experiences
 .. _PR 29376: https://github.com/openedx/edx-platform/pull/29376
 
 Events and Filters Extension Framework
---------------------------------------
+======================================
+
 Core extensibility: We have added a new way of extending the core through `Open edX Events & Filters`_ (part of `OEP-50: Hooks Extension Framework`_)
 
 Open edX Events: this standardized version of Django Signals allows extension developers to extend functionality just by listening to the event that’s sent after a key process finishes, e.g after enrollment, login, register, etc.

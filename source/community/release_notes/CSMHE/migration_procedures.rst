@@ -1,6 +1,5 @@
 .. _CSMHE Procedures:
 
-############################################################
 Procedures for Replacing ``courseware_studentmodulehistory``
 ############################################################
 
@@ -18,17 +17,15 @@ Before you follow these procedures for your Open edX instance, be sure to
 review the different :ref:`options<Options for Updating Your Open edX
 Instances>` for updating ``courseware_studentmodulehistory``.
 
-*************************************
 Step 1: Create the Database
-*************************************
+***************************
 
 .. contents::
    :local:
    :depth: 2
 
-========================================
 Options for Creating the Database
-========================================
+=================================
 
 For all fullstack and production instances that follow master, you must create
 a MySQL database and set users up. To do so, you can use one of
@@ -48,7 +45,7 @@ these options.
 .. _Use the Playbook to Create the Database:
 
 Use the Playbook to Create the Database
-****************************************
+***************************************
 
 Follow the `create_db_and_users.yml playbook`_ to create the ``edxapp_csmh``
 database and its users automatically.
@@ -59,7 +56,7 @@ Database>` the ``edxapp_csmh`` database.
 .. _Create the Database Manually:
 
 Create the Database Manually
-*******************************
+****************************
 
 Create the MySQL database. For the edx.org and edX Edge instances, edX named
 this database ``edxapp_csmh``.
@@ -76,9 +73,8 @@ schemes.
 You then choose an option for :ref:`configuring<Options for Configuring the
 Database>` your new database.
 
-*************************************
 Step 2: Configure the Database
-*************************************
+******************************
 
 .. contents::
    :local:
@@ -86,9 +82,8 @@ Step 2: Configure the Database
 
 .. _Options for Configuring the Database:
 
-=====================================
 Options for Configuring the Database
-=====================================
+====================================
 
 After you create the MySQL database and set users up, you update
 ``lms.yml`` to add configuration settings to the DATABASES section. To do
@@ -112,7 +107,7 @@ so, you can use one of these options.
 .. _Update DATABASES Manually:
 
 Update DATABASES Manually
-**************************
+*************************
 
 If you create the MySQL database yourself, you configure the database by adding
 a clause to the ``lms.yml`` file.
@@ -133,9 +128,8 @@ a clause to the ``lms.yml`` file.
             "USER": "edxapp001"
         },
 
-*****************************************
 Step 3: Enable Writes to the New Table
-*****************************************
+**************************************
 
 Edit the ``lms.yml`` file to set the ``ENABLE_CSMH_EXTENDED`` feature
 flag.
@@ -147,9 +141,8 @@ flag.
 Alternatively, you can use your current Ansible overrides for updating feature
 flags to make this change.
 
-*************************************
 Step 4: Create the Table
-*************************************
+************************
 
 .. contents::
    :local:
@@ -157,9 +150,8 @@ Step 4: Create the Table
 
 .. _Options for Creating the Table:
 
-=====================================
 Options for Creating the Table
-=====================================
+==============================
 
 After you create and configure the MySQL database and enable the new table, you
 create the new table. To do so, you can use one of these options.
@@ -180,7 +172,7 @@ only writes records for interactions with CAPA problems to the
 .. _Run Migrations Manually:
 
 Run Migrations Manually
-**************************
+***********************
 
 A summary of the manual steps for running migrations follows.
 
@@ -194,9 +186,8 @@ If you choose to run migrations manually, refer to the last few lines of the
 for the commands that you must run.
 
 
-*************************************************************
 Optional Step 5: Migrate All Data to the New Table
-*************************************************************
+**************************************************
 
 After you complete all of the deployment steps (1-4) described above, you have
 the option to migrate all data from ``courseware_studentmodulehistory`` to
@@ -214,9 +205,8 @@ Table`.
 
 .. _Script Options for Migrating Data:
 
-=====================================
 Script Options for Migrating Data
-=====================================
+=================================
 
 EdX provides the following `migration scripts`_. You select the one that
 applies to your database architecture.
@@ -236,7 +226,7 @@ writes only to ``coursewarehistoryextended_studentmodulehistoryextended``. You
 can :ref:`restart<Restart a Migration>` either of the migrations if necessary.
 
 Run the Script for Separate Database Servers
-*********************************************
+********************************************
 
 EdX selected the database architecture with separate database servers, and
 implemented it by creating a read replica and then severing it from production.
@@ -271,9 +261,8 @@ Run ``migrate-same-database-instance.sh``.
 
 .. _Restart a Migration:
 
-======================
 Restart a Migration
-======================
+===================
 
 If you need to restart either migration, you can use the following command to
 find the largest ID value that was successfully inserted into the new table.
@@ -284,9 +273,8 @@ find the largest ID value that was successfully inserted into the new table.
 
 You can then rerun with MINID set to the result of this query.
 
-====================================
 Disable Reads from the Old Table
-====================================
+================================
 
 Edit the ``lms.yml`` file to set the
 ``ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES`` feature flag.
@@ -299,9 +287,8 @@ After you bring your servers back online with this configuration, the system
 only writes to and queries from the
 ``coursewarehistoryextended_studentmodulehistoryextended`` table.
 
-====================================
 Truncate the Old Table
-====================================
+======================
 
 Select one of the available MySQL techniques for slowly draining the
 ``courseware_studentmodulehistory`` table.

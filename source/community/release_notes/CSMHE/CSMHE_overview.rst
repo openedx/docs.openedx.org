@@ -1,8 +1,7 @@
 .. _CSMH Overview:
 
-##########################################################################
 Overview of the ``courseware_studentmodulehistory`` Changes
-##########################################################################
+###########################################################
 
 This topic provides background information about the
 ``courseware_studentmodulehistory`` table and why a new database configuration
@@ -18,9 +17,8 @@ see :ref:`CSMHE Procedures`.
 .. note:: The changes described in this section are a part of the upgrade to
  the Open edX Eucalyptus release.
 
-****************************************************************
 What Is the ``courseware_studentmodulehistory`` Table?
-****************************************************************
+******************************************************
 
 The ``courseware_studentmodulehistory`` database table contains a record for
 each attempt that learners make to answer problem types that are implemented in
@@ -30,9 +28,8 @@ signed integer, and therefore has a maximum capacity of 2,147,483,647 records.
 
 .. _What Is the Issue:
 
-************************
 What Is the Issue?
-************************
+******************
 
 Typically, ``courseware_studentmodulehistory`` is the largest table in the
 database. It can be twice as large as the next largest table,
@@ -42,9 +39,8 @@ On the edx.org site, two records are written to this table every second. Before
 this table for edx.org reached even half of its maximum capacity, edX began to
 design a replacement with a higher capacity form.
 
-*******************************
 What Is the Replacement Table?
-*******************************
+******************************
 
 The new database table,
 ``coursewarehistoryextended_studentmodulehistoryextended``, uses a custom
@@ -54,9 +50,8 @@ which offers an exponentially larger storage capacity than the
 
 .. _Why Is A New Database Needed:
 
-********************************
 Why Is A New Database Needed?
-********************************
+*****************************
 
 By design, the ``coursewarehistoryextended_studentmodulehistoryextended`` table
 must be created in a new database, ``edxapp_csmh``. The new database will

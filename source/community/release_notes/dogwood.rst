@@ -1,8 +1,7 @@
 .. _Open edX Dogwood Release:
 
-####################################
 Open edX Dogwood Release
-####################################
+########################
 
 This page lists the highlights of the Dogwood release.
 
@@ -15,9 +14,8 @@ This page lists the highlights of the Dogwood release.
  supported. This page remains in these release notes as a record of when new
  features were included in Open edX.
 
-**************
 New Features
-**************
+************
 
 The following new features are included in the Open edX Dogwood release.
 
@@ -25,7 +23,6 @@ The following new features are included in the Open edX Dogwood release.
  :depth: 1
  :local:
 
-==============
 New LTI XBlock
 ==============
 
@@ -44,9 +41,8 @@ embedded in a course page.
 For more information, see opencoursestaff:LTI Component in the *Building
 and Running an Open edX Course* guide.
 
-=====================================
 Course Preview as a Specific Learner
-=====================================
+====================================
 
 A new preview mode in the LMS allows course team members to see the courseware
 as a specific learner sees it. For courses that use randomized content
@@ -57,9 +53,8 @@ necessary.
 For more information, see the Grades section in *Building and
 Running an Open edX Course*.
 
-=================
 Partial Credit
-=================
+==============
 
 In Studio, course teams can now configure the following problem types so that
 learners can receive partial credit for a problem if they submit an answer that
@@ -73,9 +68,8 @@ is partly correct.
 For more information, see Awarding Partial Credit for a
 Problem in *Building and Running an Open edX Course*.
 
-====================================
 Open edX Analytics Developer Stack
-====================================
+==================================
 
 Developers who are interested in extending Open edX Insights can now set up a
 separate development environment, the Open edX Analytics Developer stack, to
@@ -89,9 +83,8 @@ edX Platform* guide.
 .. note:: EdX does not currently provide installation or support of Insights
  for Open edX installations.
 
-=========================================
 Initial Version of Comprehensive Theming
-=========================================
+========================================
 
 The initial version of comprehensive theming is now available. Sites that are
 running Open edX can now create and use themes to change the default branding
@@ -103,9 +96,8 @@ without coding changes.
 For more information, see Changing the Way Open edX Looks
 in the *Installing, Configuring, and Running the Open edX Platform* guide.
 
-========================================================
 Additional File Types for Open Response Assessments
-========================================================
+===================================================
 
 Course teams can now specify, and learners submit, additional types of files
 along with text responses to open response assessment problems. When course
@@ -127,9 +119,8 @@ file types that learners cannot upload.
 For more information, see
 Configuring ORA2 to Prohibit Submission of File Types.
 
-===============
 Certificates
-===============
+============
 
 This release includes several updates to web certificates.
 
@@ -157,7 +148,6 @@ in progress to move all existing course certificate tools and logic to this new
 service. Be sure to watch for more changes in the Eucalyptus release and other
 future Open edX releases.
 
-===========================
 Search Feature for DevStack
 ===========================
 
@@ -166,9 +156,8 @@ enabled by default. For more information about how you can configure this
 feature, see Enable edX Search. For more information about
 how learners can use this feature, see SFD Search.
 
-=========================
 Timed Exams Feature
-=========================
+===================
 
 This release includes the timed exams feature. Course teams can configure a
 course subsection so that learners have a specific period of time to complete
@@ -186,17 +175,15 @@ the *Building and Running an Open edX Course* guide.
 
 .. _Otto Ecommerce Service:
 
-=======================
 E-commerce Service
-=======================
+==================
 
 Open edX installations can now add an e-commerce service. The edX
 `e-commerce service`_ is a Django application that manages and handles
 orders for product catalogs.
 
-=========================================
 TPA Sign In Without Account Activation
-=========================================
+======================================
 
 Learners who register and sign in using third party authentication, such as
 with a Google or Facebook account, can now sign in immediately. They can sign
@@ -208,9 +195,8 @@ A learner who enters an incorrect email address, and who therefore does not
 receive the activation email message, can correct the email address by
 selecting the menu next to his username, and then selecting **Account**.
 
-==========================================================
 Consistent Team Role Names in Studio and LMS
-==========================================================
+============================================
 
 The labels that identify two of the course team member roles in the LMS now
 match the labels for those same roles in Studio. In the LMS, on the Instructor
@@ -224,25 +210,22 @@ Running an Open edX Course* guide.
 .. note:: No changes were made to the privileges that system administrators
   set in the Django admin console, or to their labels.
 
-====================================================
 Icon Change for Graded Subsections
-====================================================
+==================================
 
 In the LMS, the icon that indicates a graded subsection in the course
 navigation is now a paper and pencil symbol instead of an alarm clock.
 
-=========================================
 Command Change for SAML Testing
-=========================================
+===============================
 
 The recent edX platform upgrade to Django 1.8 required a change to the
 management command used when testing an enabled SAML
 identity provider. This command now uses the
 syntax ``lms saml --pull`` instead of ``lms saml pull``.
 
-**************************
 New and Changed Events
-**************************
+**********************
 
 The following list includes new or changed events in the Open edX Dogwood
 release.
@@ -264,9 +247,8 @@ release.
 
 For more information about these events, see :ref:`Event Reference`.
 
-***********************
 Accessibility Updates
-***********************
+*********************
 
 In keeping with edX's commitment to creating accessible content for everyone,
 everywhere, the Open edX Dogwood release contains numerous accessibility
@@ -300,9 +282,8 @@ enhancements and improvements to readability and navigability.
 * Keyboard navigation in open response assessments was improved by restoring
   keyboard focus outline indicators.
 
-===================================
 Design Updates to the Video Player
-===================================
+==================================
 
 This release includes several updates to the edX video player.
 
@@ -321,9 +302,8 @@ This release includes several updates to the edX video player.
 * To enhance the experience of learners who use screen readers, changes that
   improve spoken announcements and simplify navigation are also included.
 
-*********************
 Deprecated Features
-*********************
+*******************
 
 Several features are deprecated as of the Open edX Dogwood release.
 
@@ -331,9 +311,8 @@ Several features are deprecated as of the Open edX Dogwood release.
  :depth: 1
  :local:
 
-=============
 Shoppingcart
-=============
+============
 
 The "shoppingcart" functionality is deprecated as of the Dogwood release, and
 it will be removed in a future release. Similar services are now provided by
@@ -343,17 +322,15 @@ the Otto Ecommerce Service.
 .. Removed support for the outdated ``ispublic`` field on the Course Module, including its corresponding ACCESS_REQUIRE_STAFF_FOR_COURSE feature flag.  Instead, operators should use COURSE_CATALOG_VISIBILITY_PERMISSION and COURSE_ABOUT_VISIBILITY_PERMISSION settings.
 
 
-==================
 Studio Checklist
-==================
+================
 
 The **Tools** menu in Studio no longer offers the **Checklists** option. For a
 template checklist, see the Course Launch Checklist
 topic in the *Building and Running an Open edX Course* guide.
 
-=========================
 Original ORA Problems
-=========================
+=====================
 
 When you access a course that contains an open response assessment created
 using the original version of this assignment type (ORA 1), Studio now
@@ -363,9 +340,8 @@ A newer version of the open response assessments feature (ORA 2) was released
 over a year ago, and the ability to add ORA 1 problems was removed from Studio
 in May 2014.
 
-============================
 Legacy Instructor Dashboard
-============================
+===========================
 
 Support has ended for the "legacy" Instructor Dashboard. The Legacy Instructor
 Dashboard is now disabled by default, and the LMS presents a single version of
@@ -380,9 +356,8 @@ to download a report of all learner submissions for a specified problem.
 Previously, this report was available only from the Legacy Instructor Dashboard
 through a view on a Django app.
 
-============================
 XModules and Tools
-============================
+==================
 
 The following XModules and tools are deprecated in the Dogwood release.
 
@@ -393,9 +368,8 @@ The following XModules and tools are deprecated in the Dogwood release.
 * Support has ended for the graphical_slider_tool. Code for this tool will
   be removed entirely in the Open edX Eucalyptus release.
 
-============
 Django Apps
-============
+===========
 
 The following Django apps are deprecated in the Dogwood release.
 
@@ -403,7 +377,6 @@ The following Django apps are deprecated in the Dogwood release.
 
 * The Licenses Django app.
 
-==================
 Wiki Notifications
 ==================
 
@@ -411,16 +384,15 @@ The recent edX platform upgrade to Django 1.8 required edX to deprecate the
 wiki notifications feature. The wiki notifications feature was disabled to make
 the Django 1.8 upgrade possible, and this feature has not been reimplemented.
 
-********************
 Django 1.8 Upgrade
-********************
+******************
 
 The edX platform was upgraded from Django 1.4 to Django 1.8.7. This section
 summarizes the effects of this upgrade.
 
-==================
 Transactions
-==================
+============
+
 
 * For Django 1.8, edX recommends that you use the ``transaction.atomic``
   decorator to start transactions for the code. For more information, see the
@@ -446,9 +418,9 @@ Transactions
 .. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions
 .. _Django website: https://www.djangoproject.com
 
-==================
 Model Migrations
-==================
+================
+
 
 * All Django Python South schema migrations have been incorporated into each
   initial "0001" Django schema migration.
@@ -456,7 +428,6 @@ Model Migrations
 * Data migrations that seed data are now idempotent. All other data migrations
   have been discarded.
 
-==================
 Model Meta Classes
 ==================
 
@@ -465,9 +436,8 @@ more information, see `app_label`_ on the `Django website`_.
 
 .. _app_label: https://docs.djangoproject.com/en/1.8/ref/models/options/#app-label
 
-==================
 More Information
-==================
+================
 
 To view the release notes for Django versions 1.5—1.8, see the following
 resources.
@@ -482,11 +452,9 @@ resources.
 .. _Django 1.7: https://docs.djangoproject.com/en/1.8/releases/1.7
 .. _Django 1.8: https://docs.djangoproject.com/en/1.8/releases/1.8
 
-**************
 Patch Releases
 **************
 
-=======================
 9 March 2016: Dogwood.1
 =======================
 
@@ -496,7 +464,6 @@ Patch Releases
   *Building and Running an Open edX Course* guide.
 
 
-========================
 14 April 2016: Dogwood.2
 ========================
 
@@ -511,7 +478,6 @@ Patch Releases
 * A number of security issues are fixed.
 
 
-========================
 25 April 2016: Dogwood.3
 ========================
 

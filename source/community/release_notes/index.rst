@@ -1,6 +1,5 @@
 .. _Open edX Release Notes:
 
-###############################
 Open edX Platform Release Notes
 ###############################
 

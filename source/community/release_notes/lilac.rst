@@ -1,6 +1,5 @@
 .. _Open edX Lilac Release:
 
-######################
 Open edX Lilac Release
 ######################
 
@@ -13,12 +12,11 @@ These are the release notes for the Lilac release, the 12th community release of
  :depth: 1
  :local:
 
-===================
 Learner Experiences
-===================
+*******************
 
 Open-Response Assessments
--------------------------
+=========================
 
 - Learners can submit rich text responses
 - Grading status message
@@ -26,7 +24,7 @@ Open-Response Assessments
 - See the Authoring Experience section below for more ORA enhancements
 
 Account Micro-frontend
-----------------------
+======================
 
 The Account MFE is enabled by default and provides private user settings UIs, including:
 
@@ -35,12 +33,12 @@ The Account MFE is enabled by default and provides private user settings UIs, in
 - IDV (Identity Verification)
 
 Checkout Micro-frontend
------------------------
+=======================
 
 The Checkout MFE is enabled by default. Prior checkout UIs may not be PCI compliant.
 
 Learning Micro-frontend
------------------------
+=======================
 
 The Learning MFE is *not* enabled by default, because theming and internationalizations support is incomplete. However, we expect that this is the last named release to support the Legacy courseware frontend.
 
@@ -55,7 +53,7 @@ If the Learning MFE is installed using the MFE Deployer Ansible role then certai
   - course_home.course_home_mfe_progress_tab: Display the “Progress” course tab in the MFE.
 
 Course Dates & Milestones
--------------------------
+=========================
 
 When a learner reaches the end of the course, they will see a new navigation button directing them to “Complete the course” if they’ve passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade?
 
@@ -64,7 +62,7 @@ The 3-day Streak Milestone is live and celebrates learners who engage with their
 See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
 
 Mobile Experience
------------------
+=================
 
 - The fonts, text and colors have been updated to match the rebrand, giving users a consistent cross platform experience.
 - Mobile learners can now understand the benefits of the upgrade option, especially when they encounter locked content.
@@ -78,23 +76,22 @@ Mobile Experience
 
 
 Special Exams Experience
-------------------------
+========================
 
 Proctortrack Onboarding UX Improvements: Based on learner feedback, we’ve added new messaging and entrance locations to the Proctortrack onboarding experience to make the process more clear. (TBD image)
 
 
 
-=====================
 Authoring Experiences
-=====================
+*********************
 
 Studio
-------
+======
 
 - In-Context Unit Naming: Authors can now rename units from the course outline.
 
 Open-Response Assessments
--------------------------
+=========================
 
 - Toggle rubric visibility for learners: Course staff can now choose to show learners the rubric for an ORA as they complete their ORA submission, more easily allowing learners to understand how they will be evaluated.
 - ORA Problems as Component Category: We have elevated Open Response components as a category in the Studio Unit page so that they are easier to drop into a unit page with pre-configured templates. You can quickly add some of the most commonly configured ORA problems
@@ -109,15 +106,17 @@ Open-Response Assessments
 
 
 LTI 1.3 and LTI Advantage Support
----------------------------------
+=================================
+
 lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Note that this xBlock is not installed in Lilac by default. Information on configuring lti-consumer-xblock can be found at https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst
 
 Gradebook MFE
--------------
+=============
+
 The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/openedx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
 Special Exams Experience
-------------------------
+========================
 
 - Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. The dashboard can be found under *Instructor Dashboard > Special Exams > Student Onboarding Status*. Requires integration with the `ProctorTrack Service from Verificient`_.
 - Reset an Errored Proctortrack Exam Attempt: We added the ability to reset an errored Proctortrack exam attempt to be “Ready to resume” status. Learners will be able to resume the exam immediately once the course team allows it. The exam time will resume from where they last experienced an error.  For example, if the learner errored 45 minutes into the exam, and the allowed duration of the exam is 2 hours, the learner will only have 1 hour and 15 minutes to complete the rest of the exam.
@@ -125,16 +124,15 @@ Special Exams Experience
 .. _ProctorTrack Service from Verificient: https://www.verificient.com/proctortrack/
 
 Credentials (for Programs)
---------------------------
+==========================
 
 Program Completion Emails: Added `ProgramCompletionEmailConfiguration`_ that enables an email to be customized and sent to learners when triggered by the generation of a program certificate. These email messages are especially useful to remind a learner of their accomplishment at the appropriate time if a course in the program has a `certificate availability date`_ set in the future. These messages can be customized on a per program basis.
 
-=========================
 Administrator Experiences
-=========================
+*************************
 
 Migrations
-----------
+==========
 
 An index was added to the ``courseware_studentmodule`` table. This can be a VERY EXPENSIVE MIGRATION which may take hours or days to run depending on size. Depending on your database, it may also lock this table, causing courseware to be non-functional during that time.
 
@@ -146,7 +144,7 @@ way (separate from your release pipeline), the SQL needed is::
 You can then `fake the migration`_.
 
 Course Upsell Messaging and Payment
------------------------------------
+===================================
 
 - Reduce PCI compliance burden by replacing checkout fields which collect relevant PII data with Cybersource hosted fields. This way we do not collect and sensitive information and do not have to
 - Allows setting default currency from environment
@@ -154,7 +152,8 @@ Course Upsell Messaging and Payment
 
 
 Settings and Toggles Documentation
-----------------------------------
+==================================
+
 Documentation for settings and toggles is much improved, but still incomplete. See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/index.html
 
 New settings introduced in Lilac include:
@@ -163,7 +162,7 @@ TBD
 
 
 Dependency updates
-------------------
+==================
 
 - Mongo was upgraded from 3.0 to 4.0.
 - Switched from Elasticsearch 1 to Elasticsearch 7 across Open edX. This may require some syntax changes for custom scripts that used search APIs.
@@ -173,12 +172,12 @@ Dependency updates
   - Please change queries against course-discovery that used pacing to pacing_type
 
 New Settings
-------------
+============
 
 - Use of edx-proctoring with the ProctorTrack vendor now requires a setting PROCTORING_USER_OBFUSCATION_KEY – it should be initially set to the same value as SECRET_KEY, in both LMS and Studio. This allows it to be changed independently, although there is not yet a way to rotate it without breaking integration.
 
 Changes to edx-organizations
-----------------------------
+============================
 
 - Uniqueness constraint added to Organization.short_name
 
@@ -209,7 +208,7 @@ Changes to edx-organizations
     - However, future releases may make use of the data in these tables; hence, it is best to run the backfill now.
 
 Certificates
-------------
+============
 
 - Various bug fixes and updates around course certificate generation
 
@@ -224,7 +223,7 @@ Certificates
 - Added a new export-course-metadata-to-storage feature. In order to use it set COURSE_METADATA_EXPORT_BUCKET and COURSE_METADATA_EXPORT_STORAGE. Useful for external services you might have that want to scrape course data.'
 
 Deprecations
-------------
+============
 
 - The sysadmin dashboard is no longer supported.
 
@@ -237,19 +236,17 @@ Deprecations
 - Xblock URL token signing can now be migrated to use a new multi-key mechanism rather than being tied to SECRET_KEY. It is recommended that you perform this migration, as it permits easier rotation of SECRET_KEY.
 
 Branding Update
----------------
+===============
 
 Open edX logos, colors and fonts have been updated.
 
-=============================
 Researcher & Data Experiences
-=============================
+*****************************
 
 - Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. [PR] This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active.
 
-=====================
 Developer Experiences
-=====================
+*********************
 
 - Import unqualified packages from lms/djangoapps, cms/djangoapps, or common/djangoapps is no longer supported. Doing so will cause instances of import_shims.warn.DeprecatedEdxPlatformImportError to be raised. See https://github.com/openedx/edx-platform/blob/master/docs/decisions/0007-sys-path-modification-removal.rst  for details and context.
 
