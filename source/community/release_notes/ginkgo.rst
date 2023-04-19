@@ -1,14 +1,12 @@
 .. _Open edX Ginkgo Release:
 
-#########################
 Open edX Ginkgo Release
-#########################
+#######################
 
 .. contents::
  :depth: 1
  :local:
 
-************
 New Features
 ************
 
@@ -19,7 +17,6 @@ The Open edX Ginkgo release includes the following updates.
  :local:
 
 
-===
 LMS
 ===
 
@@ -57,7 +54,6 @@ LMS
    or other assistive technology.
 
 
-===============================
 Studio and Course Author Tools
 ===============================
 
@@ -98,32 +94,27 @@ Studio and Course Author Tools
   permanently. Using this feature, course teams can hide exam scores until
   the exam due date, or administer surveys without revealing responses.
 
-=======================
 Insights and Analytics
-=======================
+======================
 
-*  A new **Courses** page in Insights provides a dashboard view of all of your
+  A new **Courses** page in Insights provides a dashboard view of all of your
    courses. For information, see Courses_Page in the Insights Documentation.
 
-*****************
 Service Upgrades
-*****************
+****************
 
-=================
 Catalog Service
-=================
+===============
 
 The Catalog service has been upgraded to RabbitMQ 3.6.9.
 
-=======================
 Credentials Service
-=======================
+===================
 
 The Credentials service now requires Python 3.5.
 
-======================
 E-Commerce Service
-======================
+==================
 
 * The Open edX platform now supports only the integrated Otto
   receipt page. Users can no longer redirect to the ``LMS/shopping_cart``
@@ -152,9 +143,8 @@ E-Commerce Service
   this user must have the ``student:userprofile:can_deactivate_users``
   permission.
 
-*******************************
 System Upgrades and Updates
-*******************************
+***************************
 
 The Ginkgo release makes version updates to a number of system components.
 
@@ -187,9 +177,8 @@ The Ginkgo release makes version updates to a number of system components.
   ES2015+.
 
 
-***********************
 Deprecated Features
-***********************
+*******************
 
 Several features are deprecated or deleted in the Open edX Ginkgo release.
 

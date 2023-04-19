@@ -1,6 +1,5 @@
 .. _Open edX Ficus Release:
 
-######################
 Open edX Ficus Release
 ######################
 
@@ -10,7 +9,6 @@ This page lists the highlights of the Ficus release.
  :depth: 1
  :local:
 
-************
 New Features
 ************
 
@@ -21,7 +19,6 @@ The Open edX Ficus release includes the following updates.
  :local:
 
 
-===
 LMS
 ===
 
@@ -36,7 +33,6 @@ LMS
 
 * Learners can quickly see whether problems are graded or ungraded.
 
-===========
 Discussions
 ===========
 
@@ -48,7 +44,6 @@ Discussions
   list, and an enhanced UI that indicates unread posts, comments, and
   responses. You can also now sort discussions by votes.
 
-============================
 Studio & Course Author Tools
 ============================
 
@@ -95,9 +90,8 @@ Studio & Course Author Tools
   "verification status".
 
 
-***************************************************
 Updates to Analytics Events and Database Tables
-***************************************************
+***********************************************
 
 * Insights now offers per-learner data and a new "Participated in Discussions
   Last Week" metric.
@@ -116,9 +110,8 @@ Updates to Analytics Events and Database Tables
 
 
 
-***********************
 Accessibility Updates
-***********************
+*********************
 
 In keeping with edX's commitment to creating accessible content for everyone,
 everywhere, the Open edX Ficus release contains numerous accessibility
@@ -160,9 +153,9 @@ enhancements and improvements to readability and navigability.
 
 
 
-*******************************
 System Upgrades and Updates
-*******************************
+***************************
+
 
 * Administrators can now configure third party authentication differently for
   each of their sites.
@@ -192,11 +185,9 @@ System Upgrades and Updates
     TBD
 
 
-**************
 Patch Releases
 **************
 
-======================
 29 March 2017: Ficus.2
 ======================
 
@@ -214,7 +205,6 @@ Patch Releases
 * Fixes to some automated tests.
 
 
-======================
 21 April 2017: Ficus.3
 ======================
 
@@ -233,7 +223,6 @@ Patch Releases
   launch new gunicorn web server processes.
 
 
-=======================
 10 August 2017: Ficus.4
 =======================
 
