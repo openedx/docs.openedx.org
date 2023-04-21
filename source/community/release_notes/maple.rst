@@ -229,7 +229,7 @@ Now educators will see specific error messages in the course import area of Stud
 
 
 Uploading Errors
-****************
+~~~~~~~~~~~~~~~~
 
 - **File Chunk Missed During Upload** - The most common error that was captured, “Chunk Missed Error”. When a Course Import file (tar.gz) is larger than 20MB, it is divided into equal chunks and uploaded to the server. Due to our server configuration, it is possible to lose a chunk that could fail the course import while combining on the server.
 
@@ -238,7 +238,7 @@ Uploading Errors
 - **Incompatible File** - This error is raised if a user accidentally tries to upload an incompatible file. This check exists in the frontend as well.
 
 Unpacking Errors
-****************
+~~~~~~~~~~~~~~~~
 
 - **Invalid User** - Raised if the provided user_id does not exist. The check is redundant if the import is submitted via Studio frontend, but is a valid sanity check for API submissions
 
@@ -253,12 +253,12 @@ Unpacking Errors
 - **Unknown Exception** - There can still be unknown events that may occur during the course import, for those further information will be logged in the system logs but there is not a clear and useful user facing error.
 
 Verifying Stage
-***************
+~~~~~~~~~~~~~~~
 
 - **Verify Root Name** - The root name for a course import is ``course.xml`` and for a library it's ``library.xml``. If that file does not exist then this error is thrown.
 
 Updating Errors
-***************
+~~~~~~~~~~~~~~~
 
 The errors can occur after the XML validation and during the data update in the course.
 
