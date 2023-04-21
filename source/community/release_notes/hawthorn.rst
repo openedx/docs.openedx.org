@@ -72,7 +72,7 @@ Studio and Course Author Tools
   complexity for passwords.
 
 Changes to OLX <transcript> Element for Videos
-**********************************************
+----------------------------------------------
 
 The primary storage for video transcripts on edx.org is now Amazon S3. In
 connection with this change, we have made changes to the ``<transcript>``
