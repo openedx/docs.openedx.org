@@ -127,6 +127,19 @@ Depending on your system and your Internet connection speed,
 this could take anywhere from five minutes to over an hour,
 so go get a coffee and come back for the next part.
 
+If quickstart doesn't work you can use
+
+.. code-block:: bash
+
+  tutor dev start
+
+to download the files then
+
+.. code-block:: bash
+
+  tutor dev lauch
+
+to setup edx
 
 Working with a fork
 *******************
