@@ -9,6 +9,11 @@ Headings
 
 .. include:: ../references/rst_samples/headings.txt
 
+.. tip::
+   :class: dropdown
+   
+   Here's a way to remember the symbols for heading levels: ``#`` has four lines, ``*`` has three lines, ``=`` has two lines, ``-`` has one line, and ``~`` has zero lines.
+
 .. note::
    :class: dropdown
 
