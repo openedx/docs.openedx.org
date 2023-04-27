@@ -1578,6 +1578,99 @@ purpose for comments as they do for threads or responses.
      - Contains a member ``id`` field with the unique identifier of the
        response that the user added this comment to.
 
+
+=====================================================
+``edx.forum.comment.edited``
+=====================================================
+
+Users edit a comment about a response by entering text and then submitting
+the contributions. When these actions are complete, the server emits an
+``edx.forum.comment.edited`` event.
+
+**History**: Added 3 Oct 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``edx.forum.comment.edited`` events include many of the same ``event``
+member fields that are described for :ref:`forum_thread` and
+:ref:`forum_response` events. The following member fields serve the same
+purpose for comments as they do for threads or responses.
+
+* ``commentable_id``
+* ``category_id``
+* ``category_name``
+* ``content_type``
+* ``discussion``
+* ``id``
+* ``options``
+* ``team_id``
+* ``truncated``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``target_username``
+     - string
+     - Identifies a user who does not have discussion management privileges as a ‘Student’.
+       Identifies users who have discussion management privileges as a course ‘Community TA’,
+       ‘Moderator’, or ‘Administrator’.
+
+       The Columns in the django_comment_client_role_users table lists the
+       discussion role of every enrolled user.
+
+   * - ``edit_reason``
+     - string
+     - Identifies the reason selected for the edit.
+   * - ``own_content``
+     - boolean
+     - Identifies whether the user is the author of the comment.
+   * - ``content_type``
+     - string
+     - Identifies the type of content. Possible values are 'post', 'comment', 'response'.
+
+
+=====================================================
+``edx.forum.comment.deleted``
+=====================================================
+
+Users delete a comment about a response by clicking **Delete** and then clicking
+**Delete** again to confirm the deletion. When these actions are complete, the
+server emits an ``edx.forum.comment.deleted`` event.
+
+**History**: Added 21 Sept 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``edx.forum.comment.deleted`` events include many of the same ``event``
+member fields that are described for :ref:`forum_thread` and
+:ref:`forum_response` events. The following member fields serve the same
+purpose for comments as they do for threads or responses.
+
+* ``body``
+* ``commentable_id``
+* ``content_type``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+
 .. _forum_response:
 
 =====================================================
@@ -1626,6 +1719,71 @@ The following additional ``event`` member field applies specifically to
        that the user responded to.
 
        Also present for ``edx.forum.comment.created`` events.
+
+=====================================================
+``edx.forum.response.deleted``
+=====================================================
+
+Users delete a response about a response by clicking **Delete** and then clicking
+**Delete** again to confirm the deletion. When these actions are complete, the
+server emits an ``edx.forum.response.deleted`` event.
+
+**History**: Added 21 Sept 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``edx.forum.comment.deleted`` events include many of the same ``event``
+member fields that are described for :ref:`forum_thread` and
+:ref:`forum_response` events. The following member fields serve the same
+purpose for comments as they do for threads or responses.
+
+* ``body``
+* ``commentable_id``
+* ``content_type``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+=====================================================
+``edx.forum.response.edited``
+=====================================================
+
+Users edit a response by entering text and then submitting the contributions.
+When these actions are complete, the server emits an
+``edx.forum.response.edited`` event.
+
+**History**: 3 Oct 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.response.edited`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose for responses as they
+do for threads.
+
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+
+The following member fields serve the same purpose for responses as they do for
+comments:
+
+* ``target_username``
+* ``edit_reason``
+* ``own_content``
+* ``content_type``
 
 =====================================================
 ``edx.forum.response.voted``
@@ -1882,6 +2040,163 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        The ``django_comment_client_role_users`` table lists the discussion
        role of every enrolled user.
+
+
+=====================================================
+``edx.forum.thread.deleted``
+=====================================================
+
+Users deleted a top-level thread by clicking **Delete** and then confirming
+the deletion. When this actions are complete, the server emits an
+``edx.forum.thread.deleted`` event.
+
+**History**: Added 21 Sept 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.thread.deleted`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose for thread edits as
+they do for comment edition.
+
+* ``body``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``id``
+* ``team_id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``title``
+* ``title_truncated``
+
+The following member fields serve the same purpose for threads as they do for
+comments:
+
+* ``target_username``
+* ``edit_reason``
+* ``own_content``
+* ``content_type``
+
+=====================================================
+``edx.forum.thread.edited``
+=====================================================
+
+Users edit a top-level thread by clicking **Edit** and then submitting their
+changes. When these actions are complete, the server emits an
+``edx.forum.thread.edited`` event.
+
+**History**: Added 3 Oct 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.thread.edited`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose for thread edits as
+they do for comment edition.
+
+* ``body``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``id``
+* ``team_id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+The following member fields serve the same purpose for threads as they do for
+comments:
+
+* ``target_username``
+
+=====================================================
+``edx.forum.thread.locked``
+=====================================================
+
+Users closes a top-level thread by clicking **Close** and then confirming the
+action. When these actions are complete, the server emits an
+``edx.forum.thread.locked`` event.
+
+**History**: Added 15 Sept 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.thread.locked`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose for thread edits as
+they do for comment edition.
+
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``team_id``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+The following member fields serve the same purpose for responses as they do for
+comments:
+
+* ``target_username``
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``lock_reason``
+     - string
+     - The reason that the thread was locked.
+
+
+=====================================================
+``edx.forum.thread.unlocked``
+=====================================================
+
+Users reopens a top-level thread by clicking **Reopen** and then confirming the
+action. When these actions are complete, the server emits an
+``edx.forum.thread.unlocked`` event.
+
+**History**: Added 15 Sept 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.thread.unlocked`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose for thread edits as
+they do for comment edition.
+
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``team_id``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+The following member fields serve the same purpose for thread unlocks as they do for
+comments:
+
+* ``target_username``
+
+The following member fields serve the same purpose for thread unlocks as they do for
+thread locks:
+
+* ``lock_reason``
 
 .. _edx.forum.thread.viewed:
 
