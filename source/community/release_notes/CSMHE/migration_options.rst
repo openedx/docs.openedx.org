@@ -1,8 +1,7 @@
 .. _Options for Updating Your Open edX Instances:
 
-##########################################################
 Options for Updating ``courseware_studentmodulehistory``
-##########################################################
+########################################################
 
 This topic outlines the options for updating to the new database and
 table configuration required by the ``courseware_studentmodulehistory`` change.
@@ -15,9 +14,8 @@ Because each Open edX installation has a unique set of constraints
 and requirements, edX recommends that you review all of these options before
 selecting one for your instance or instances.
 
-*******************************
 Keep, and Query, Both Tables
-*******************************
+****************************
 
 This option is suitable for many instances with small databases, such as a
 fullstack or small production instance, that do not have the performance
@@ -44,7 +42,6 @@ from both that table and the ``courseware_studentmodulehistory`` table in the
 
 For more information, see :ref:`CSMHE Procedures`.
 
-**************************************
 Reprovision or Reinstall Your Devstack
 **************************************
 
@@ -101,9 +98,8 @@ under the devstack directory.
 
 .. _Migrate All Data to One Table:
 
-******************************
 Migrate All Data to One Table
-******************************
+*****************************
 
 This option is suitable for installations that have a large number of records
 in the ``coursewarehistoryextended_studentmodulehistoryextended`` table, such

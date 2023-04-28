@@ -28,7 +28,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.3.0
+importlib-metadata==6.5.0
     # via sphinx
 jinja2==3.1.2
     # via sphinx
@@ -42,7 +42,7 @@ packaging==23.1
     #   sphinx
 pydata-sphinx-theme==0.13.3
     # via sphinx-book-theme
-pygments==2.15.0
+pygments==2.15.1
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -57,7 +57,7 @@ six==1.16.0
     # via livereload
 snowballstemmer==2.2.0
     # via sphinx
-soupsieve==2.4
+soupsieve==2.4.1
     # via beautifulsoup4
 sphinx==5.3.0
     # via
@@ -76,7 +76,7 @@ sphinx-autobuild==2021.3.14
     # via -r requirements/base.in
 sphinx-book-theme==1.0.1
     # via -r requirements/base.in
-sphinx-copybutton==0.5.1
+sphinx-copybutton==0.5.2
     # via -r requirements/base.in
 sphinx-design==0.4.1
     # via -r requirements/base.in
@@ -102,7 +102,7 @@ sphinxcontrib-yt==0.2.2
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-tornado==6.2
+tornado==6.3
     # via livereload
 typing-extensions==4.5.0
     # via pydata-sphinx-theme

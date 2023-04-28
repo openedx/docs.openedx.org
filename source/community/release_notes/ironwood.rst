@@ -1,6 +1,5 @@
 .. _Open edX Ironwood Release:
 
-#########################
 Open edX Ironwood Release
 #########################
 
@@ -20,19 +19,18 @@ This page lists the highlights of the Ironwood release of the Open edX platform.
  :depth: 1
  :local:
 
-============================
 Authoring Experience Updates
-============================
+****************************
 
 Studio Login via the LMS
-------------------------
+========================
 
 Now logging in to Studio is done by redirecting the user to the LMS to log in,
 and then redirecting back to Studio.  This can be disabled by site operators
 using the new DISABLE_STUDIO_SSO_OVER_LMS feature flag.
 
 Course Launch & Best Practices Checklist
-----------------------------------------
+========================================
 
 We have reintroduced the Studio checklist feature from 2014 to help
 automatically track important course launch steps. Previously this was a manual
@@ -50,7 +48,7 @@ listed.
 
 
 Video Status Indicators
------------------------
+=======================
 
 For Open edX instances using the video uploads page, this view now conveys the
 status of each video as it relates to its transcoding (through edx-VEDA) and
@@ -61,7 +59,7 @@ in our documentation`__.
 .. __: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/video/upload_video.html#video-processing-statuses
 
 Gradebook Application
----------------------
+=====================
 
 The gradebook will give you a central location where you can view and manage
 grades for all learners in a course. It will provide you with improved search
@@ -77,7 +75,7 @@ You can read more about this in the documentation for the `Gradebook Application
 
 
 Learner Data for a Specific Problem
------------------------------------
+===================================
 
 Thanks to the Open edX community, the downloadable Student State report
 received readability enhancements and now contains new columns for single
@@ -85,12 +83,11 @@ problems or for all problems in a unit, subsection, or section, as well as for
 all problems in the course.
 
 
-==========================
 Learner Experience Updates
-==========================
+**************************
 
 Transferrable Learner Records
------------------------------
+=============================
 
 The credentials service which previously powered program certificates now also
 supports learner program records. Where certificates function as a sharable
@@ -109,7 +106,7 @@ looking to transfer or share their valuable credentials to employer and credit
 pathways.
 
 Password Complexity Requirements
---------------------------------
+================================
 
 We have updated the syntax for setting password complexity of your instance. We
 also added some default checks to ensure that your password isn't trivial. You
@@ -118,7 +115,7 @@ rules or logic for password complexity.
 
 
 Expanded Language Support for course experience
------------------------------------------------
+===============================================
 
 We have added support for beta languages on the platform. These languages
 become a selectable option in the account settings dropdown alongside fully
@@ -129,7 +126,7 @@ platform into that language as a member of that language team.
 
 
 Anonymous Course Content Access
--------------------------------
+===============================
 
 This feature enables learners to preview course content without necessarily
 being logged into a given learning environment. It was implemented by adding a
@@ -142,7 +139,7 @@ public outline, or public.
 * Public (lets learners view HTML & Video content in the course, but hides unsupported XBlocks - such as problems and inline discussions)
 
 Feature Based Enrollments
--------------------------
+=========================
 
 Feature Based Enrollments, the basis of edX.org’s new revenue model, is
 available in Ironwood. FBE allows you to differentiate what features are
@@ -155,9 +152,8 @@ end. This functionality is defaulted to off at the platform level, and can
 additionally be configured by course run or organization.
 
 
-===============================
 Mobile Application Improvements
-===============================
+*******************************
 
 Between Hawthorn and Ironwood, the Mobile application releases spanned 2.15 →
 2.17.1 The details of these releases are captured in our release documentation
@@ -165,7 +161,7 @@ for the mobile applications. Included below is a summary of the learner facing
 and operator facing changes to mobile.
 
 Learner Facing Mobile Changes
------------------------------
+=============================
 
 A major experience improvement to landscape and rotation support arrived in
 version 2.15. This was a key driver of lower ratings and reviews for our
@@ -189,7 +185,7 @@ provides clarity into when learners will lose access to a course. More details
 around this are included in the `Feature Based Enrollments`_ update.
 
 Developer Facing Mobile Changes
--------------------------------
+===============================
 
 For the iOS code base, we upgraded to support Xcode 10.1, we have updated our
 Firebase configuration now that Fabric has been deprecated as a service, and we
@@ -207,9 +203,8 @@ to KitKat (API Level 19), upgraded gradle and other libraries, updated Fabric
 and Firebase configurations,  and implemented pull to refresh functionality on
 the course outline page.
 
-=========================
 Platform Operator Updates
-=========================
+*************************
 
 Starting in Ironwood, the configuration repo will no longer ship with a default
 Django secret key for edx-platform.  This means that if you have been deploying

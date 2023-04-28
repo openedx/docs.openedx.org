@@ -1,8 +1,7 @@
 .. _Enable Bulk Email:
 
-################################
 Enabling the Bulk Email Feature
-################################
+###############################
 
 This section describes a change to the process for enabling or disabling the
 bulk email feature. This change was released to the edx-platform repository on
@@ -14,9 +13,8 @@ procedure described in this section.
    :local:
    :depth: 1
 
-**********************
 About This Change
-**********************
+*****************
 
 Prior to this change, you enabled or disabled the bulk email feature by making
 manual updates to several files, including the ``lms/envs/common.py`` Python
@@ -29,7 +27,6 @@ file. The two relevant settings in the FEATURES section of this file were
 To simplify the process of changing the bulk email settings, a **Bulk_Email**
 option is now available in the Django administration console.
 
-*******************************
 Changing the Bulk Email Setting
 *******************************
 

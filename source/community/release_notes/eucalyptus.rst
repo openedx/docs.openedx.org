@@ -1,8 +1,7 @@
 .. _Open edX Eucalyptus Release:
 
-####################################
 Open edX Eucalyptus Release
-####################################
+###########################
 
 This page lists the highlights of the Eucalyptus release.
 
@@ -16,9 +15,8 @@ This page lists the highlights of the Eucalyptus release.
  :depth: 1
  :local:
 
-**************
 New Features
-**************
+************
 
 The following new features are included in the Open edX Eucalyptus release.
 
@@ -26,16 +24,14 @@ The following new features are included in the Open edX Eucalyptus release.
  :depth: 1
  :local:
 
-================================
 Self-Paced Course Configuration
-================================
+===============================
 
 When course teams create a course, they can now select the way a course is
 delivered to learners. You can set a schedule for the course, including due
 dates for assignments or exams, or you can specify that the course is
 self-paced, which allows learners to work at their own pace.
 
-========================
 Subsection Prerequisites
 ========================
 
@@ -43,7 +39,6 @@ Course teams can now control the visibility of subsections based on the scores
 that learners earn in other subsections. This feature prevents learners from
 viewing content before they earn a minimum score for previous content.
 
-=================
 Course Navigation
 =================
 
@@ -60,7 +55,6 @@ Several changes have been made to navigation options in the LMS.
 * Learners can now use the left and right arrow buttons at the ends of the unit
   navigation bar to move to the previous unit or the next unit.
 
-=====
 Teams
 =====
 
@@ -69,22 +63,19 @@ a team and invite other learners to take part in group activities relating to
 one of the topics. Team activities provide opportunities for small group
 interactions and projects in your course.
 
-=========
 Bookmarks
 =========
 
 The bookmarks feature allows a learner to add a bookmark to any unit in the LMS
 so that the page can be found later on the **My Bookmarks** page.
 
-=================================
 Drag and Drop Problem XBlock
-=================================
+============================
 
 A new, mobile-ready and accessible drag and drop problem type is now available.
 This version replaces the original drag and drop problem type, which is now
 deprecated.
 
-=======================
 Peer Instruction XBlock
 =======================
 
@@ -93,14 +84,12 @@ Instruction learning system. A multiple choice question gives online learners
 an opportunity to review the answers, and rationales, provided by other course
 participants, and arrive at a deeper understanding of concepts.
 
-=============================
 Completion XBlock
-=============================
+=================
 
 The completion XBlock adds a toggle control that allows learners to mark the
 associated section of course content as complete.
 
-=============================
 CourseTalk for Course Reviews
 =============================
 
@@ -109,7 +98,6 @@ then appear on the course's **About** page. When you add the CourseTalk widget
 to an Open edX instance, the widget is enabled for every course on that
 instance.
 
-==================================
 Configurable Data Storage Services
 ==================================
 
@@ -119,15 +107,13 @@ addition to S3, you can now configure an OpenStack Swift Object Store as the
 cloud storage provider for certain system features.
 
 
-==========================
 Themes for Multiple Sites
-==========================
+=========================
 
 With this release, it is now possible to configure themes for multiple sites in
 a single installation of the Open edX platform.
 
 
-===================================================
 Staff Grading Options for Open Response Assessments
 ===================================================
 
@@ -143,15 +129,13 @@ responses in open response assessments.
   evaluate the learner's response. The learner's grade for the assignment is
   updated to the grade that results from the staff assessment.
 
-====================================
 Learner ORA Response Report
-====================================
+===========================
 
 A new report is available for ORA assignments that includes each learner's
 response, assessment details and scores, the final score for the assignment,
 and any feedback provided by the learner about the peer assessment process.
 
-==============================
 Updates to E-Commerce Checkout
 ==============================
 
@@ -160,7 +144,6 @@ that is presented by the edX e-commerce service. The functionality of this
 page has not changed, and learners can continue to check out using their credit
 cards or PayPal.
 
-===============================
 Badges for Custom Course Events
 ===============================
 
@@ -169,9 +152,8 @@ milestone achievements. Example achievements include enrolling in a certain
 number of courses, completing a certain number of courses, or completing a
 specific set of courses.
 
-===============================
 Updates to Course Discussions
-===============================
+=============================
 
 This release includes the following changes to course discussions.
 
@@ -212,32 +194,28 @@ This release includes the following changes to course discussions.
   their Open edX instances. Fields can be of different types, including
   dropdown and text entry.
 
-=====================
 Updates to Bulk Email
 =====================
 
 The way the bulk email feature is enabled and disabeld has change, see
 :doc:`bulk_email` for more details.
 
-***************************************************
 Updates to Analytics Events and Database Tables
-***************************************************
+***********************************************
 
 .. contents::
  :depth: 1
  :local:
 
-=====================================================
 Changes to ``courseware_studentmodulehistory`` Table
-=====================================================
+====================================================
 
 There were significant changes to how we manage the
 ``courseware_studentmodulehistory`` table in the LMS and CMS.  Please see
 :doc:`CSMHE/index` for more information.
 
-=============================
 New Non-Certificate Statuses
-=============================
+============================
 
 The ``audit_notpassing`` and ``audit_passing`` statuses have been added to the
 ``certificates_generatedcertificate`` table.
@@ -252,9 +230,8 @@ No certificate is generated for learners who have either of these statuses.
 Learners who are enrolled in the audit track see a message on the **Progress**
 page that indicates that the audit track does not include a certificate.
 
-==============================================
 New and Updated Video Player Events
-==============================================
+===================================
 
 Changes to the video player's controls resulted in the following new and
 updated events.
@@ -277,9 +254,8 @@ updated events.
   ``edx.video.language_menu.hidden`` events include a new ``event`` member
   field, ``language``.
 
-=======================
 New Events
-=======================
+==========
 
 The following analytics events reflect course navigation actions in the LMS.
 
@@ -322,9 +298,8 @@ response assessments.
 * ``openassessmentblock.staff_assess``
 
 
-***********************
 Accessibility Updates
-***********************
+*********************
 
 In keeping with edX's commitment to creating accessible content for everyone,
 everywhere, the Open edX Eucalyptus release contains numerous accessibility
@@ -334,9 +309,8 @@ enhancements and improvements to readability and navigability.
  :depth: 1
  :local:
 
-===================
 Video Player
-===================
+============
 
 The video player now includes closed captions, which are overlaid on the video
 while it plays. Users can view closed captions and transcripts separately or at
@@ -344,9 +318,8 @@ the same time. Those who choose to view the closed captioning for a video can
 drag the captions to a different place on the video. In addition, the video
 player now includes accessible labels for every control.
 
-==========================
 HTML Component Templates
-==========================
+========================
 
 To ensure that all headings on a course page in the LMS are rendered correctly
 by screen readers, the Heading 1 and Heading 2 options have been removed from
@@ -384,9 +357,9 @@ accessibility of controls in the edX LMS.
   **Edit**, and **Settings**, now appear next to, rather than in, the shaded
   area below the article.
 
-*******************************
 System Upgrades and Updates
-*******************************
+***************************
+
 
 * You can now enable or disable the bulk email feature from the Django
   administration console, rather than editing different configuration files.
@@ -417,9 +390,8 @@ System Upgrades and Updates
 * JavaScript tests are now run using Karma rather than JS-Test-Tool.
 
 
-***********************
 Mobile App Updates
-***********************
+******************
 
 The Open edX Eucalyptus release supports versions 2.5.1 (Android) and 2.5.3
 (iOS) of the mobile app, and includes the following mobile app features.
@@ -443,9 +415,8 @@ The Open edX Eucalyptus release supports versions 2.5.1 (Android) and 2.5.3
   multiple choice, text input, and numerical input).
 
 
-*********************
 Deprecated Features
-*********************
+*******************
 
 Several features are deprecated, or deleted, by the Open edX Eucalyptus
 release.
@@ -454,7 +425,6 @@ release.
  :depth: 1
  :local:
 
-====================
 Deprecated REST APIs
 ====================
 
@@ -467,7 +437,6 @@ deprecated.
 * Use the ``/api/user/v1/accounts/`` web service instead of the deprecated
   profile image web service.
 
-==================================
 Deprecated Tools and Problem Types
 ==================================
 
@@ -478,9 +447,8 @@ Deprecated Tools and Problem Types
 * The original drag and drop problem type is now deprecated. A new mobile-
   ready, accessible drag and drop problem type is available.
 
-==============================
 Deleted Tools and XModules
-==============================
+==========================
 
 * The graphical slider tool is no longer available.
 
@@ -493,11 +461,9 @@ Deleted Tools and XModules
 * The ``ENABLE_JWT_AUTH`` feature flag has been removed.
 
 
-**************
 Patch Releases
 **************
 
-==============================
 2 September 2016: Eucalyptus.2
 ==============================
 

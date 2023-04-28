@@ -118,13 +118,29 @@ D, E, F
      - :ref:`Drag and Drop Events`
    * - ``edx.forum.comment.created``
      - :ref:`forum_events`
+   * - ``edx.forum.comment.edited``
+     - :ref:`forum_events`
+   * - ``edx.forum.comment.deleted``
+     - :ref:`forum_events`
    * - ``edx.forum.response.created``
+     - :ref:`forum_events`
+   * - ``edx.forum.response.deleted``
+     - :ref:`forum_events`
+   * - ``edx.forum.response.edited``
      - :ref:`forum_events`
    * - ``edx.forum.response.voted``
      - :ref:`forum_events`
    * - ``edx.forum.searched``
      - :ref:`forum_events`
    * - ``edx.forum.thread.created``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.deleted``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.edited``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.locked``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.unlocked``
      - :ref:`forum_events`
    * - ``edx.forum.thread.viewed``
      - :ref:`forum_events`

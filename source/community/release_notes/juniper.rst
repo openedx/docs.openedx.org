@@ -1,6 +1,5 @@
 .. _Open edX Juniper Release:
 
-########################
 Open edX Juniper Release
 ########################
 
@@ -9,7 +8,7 @@ largest yet. Our previous release (Ironwood) was released in January 2019, so
 Juniper spans January 2019 through May 2020. You can also review details about
 `earlier releases`_ or learn more about the `Open edX Platform`_ if you are new to
 Open edX. Below is a summary of the changes for each of the main platform
-areas, along with a way to jump down to each section of the release notes. 
+areas, along with a way to jump down to each section of the release notes.
 
 .. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 .. _Open edX Platform: https://open.edx.org
@@ -22,9 +21,8 @@ areas, along with a way to jump down to each section of the release notes.
    juniper_educator
    juniper_developer
 
-===================
 Learner Experiences
-===================
+*******************
 
 Many areas of the learner experience have started their necessary transitions
 to modern micro-frontends, including the Learner Profile, Account Settings,
@@ -35,9 +33,8 @@ been added enabling learner schedule personalization, team assignment
 submissions, as well as major updates to the mobile application video
 experience.
 
-====================
 Educator Experiences
-====================
+********************
 
 For Educators many updates have been made to the Studio experience in support
 of improving authoring speed for frequent actions like component naming, unit
@@ -45,11 +42,10 @@ creation, problem markdown editing, and learning sequence navigation.
 Additionally, updates to the platform grading tools are a key part of these
 updates. For instances using programs, various program operations have been
 updated through the introduction of a new registrar service and a way for
-external systems to set enrollments for program learners. 
+external systems to set enrollments for program learners.
 
-=====================
 Developer Experiences
-=====================
+*********************
 
 Many things have changed in our largest release yet, but a few key highlights
 include major core requirement upgrades to support Python 3 and Django 2.
