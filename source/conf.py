@@ -33,7 +33,7 @@ copyright = f"{current_year}, Axim Collaborative"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinxcontrib.yt",
+    "sphinxcontrib.youtube",
     "sphinxcontrib.images",
     "sphinx_design",
     "sphinxcontrib.contentui",
