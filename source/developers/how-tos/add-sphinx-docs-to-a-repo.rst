@@ -170,4 +170,7 @@ Steps
    :doc:`/documentors/concepts/content_types`
       A quick summary on the different types of documents.
 
+   :doc:`/developers/how-tos/get-your-project-docs-on-rtd`
+      Once your docs are building, setup publishing and PR builds.
+
 .. _diataxis: https://diataxis.fr
