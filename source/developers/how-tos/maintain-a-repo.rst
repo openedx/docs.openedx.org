@@ -57,22 +57,39 @@ they own and their status.
 If the file exists, check to make sure the data is up-to-date and correct. If
 you don't have a ``catalog-info.yaml`` file, see :doc:`add-a-catalog-file`
 
-Dependency Update Automation is Enabled
-***************************************
+Python Dependency Update Automation is Enabled
+**********************************************
 
 **Test**
 
-The ``.github/workflows/upgrade-python-requirements.yml`` should exist and be a
-copy of `the upgrade workflow template`_.  You should also see successful runs
-of the ``Upgrade Python Requirements`` workflow in the ``Actions`` tab of your
-repo.
+If your repository contains python code, ``.github/workflows/upgrade-python-requirements.yml``
+should exist and be a copy of `the python upgrade workflow template`_.  You should
+also see successful runs of the ``Upgrade Python Requirements`` workflow in the
+``Actions`` tab of your repo.
 
-.. _the upgrade workflow template: https://github.com/openedx/.github/blob/master/workflow-templates/upgrade-python-requirements.yml
+.. _the python upgrade workflow template: https://github.com/openedx/.github/blob/master/workflow-templates/upgrade-python-requirements.yml
 
 **Fix**
 
 If the file doesn't exist, or the workflow runs are failing, go through
 :doc:`enable-python-upgrade-automation`.
+
+Javascript Dependency Update Automation is Enabled
+**************************************************
+
+**Test**
+
+If your repository contains javascript code, ``renovate.json`` should exist and
+be a copy of `the reference renovate.json in frontend-template-application`_.
+You should also see auto-generated dependency update PRs show up in the
+repository.
+
+.. _the reference renovate.json in frontend-template-application: https://github.com/openedx/frontend-template-application/blob/master/renovate.json
+
+**Fix**
+
+If ``renovate.json`` doesn't exist or you don't see any PRs being generated,
+follow :doc:`enable-javascript-upgrade-automation`.
 
 A Well-Formed README Exists
 ***************************

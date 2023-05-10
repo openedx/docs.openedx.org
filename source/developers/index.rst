@@ -31,7 +31,7 @@ Open edX Developers
       
       * :doc:`how-tos/maintain-a-repo`
       * :doc:`how-tos/enable-python-upgrade-automation`
-      * :doc:`how-tos/add-a-catalog-file`
+      * :doc:`how-tos/enable-javascript-upgrade-automation`
       +++
       .. button-ref:: how-tos/index
          :color: primary
