@@ -19,14 +19,10 @@ Steps
 #. Commit a ``renovate.json`` file to the root of your repository as a copy of
    `the one in frontend-template-application`_.
 
-.. _the one in frontend-template-application: https://github.com/openedx/frontend-template-application/blob/master/renovate.json
-
 #. File `a new [GH Request] issue`_ in the Open edX GitHub organization asking
    for Renovate and Renovate Approve to be enabled for your repository.  Fill
    out the relevant information, making sure to include your repository name in
    the "Problem/Request" section.
-
-.. _a new [GH Request] issue: https://github.com/openedx/axim-engineering/issues/new?assignees=&labels=github-request&template=04-systems-request---uncategorized.yml&title=[GH+Request]+Enable+Renovate+for+my+repo
 
 #. Once Renovate is enabled, you should notice auto-generated PRs getting
    issued to your repository.
@@ -35,3 +31,6 @@ Steps
 
       The PRs that pass tests will be auto-merged by default even if the
       repository requires manual approval.
+
+.. _the one in frontend-template-application: https://github.com/openedx/frontend-template-application/blob/master/renovate.json
+.. _a new [GH Request] issue: https://github.com/openedx/axim-engineering/issues/new?assignees=&labels=github-request&template=04-systems-request---uncategorized.yml&title=[GH+Request]+Enable+Renovate+for+my+repo

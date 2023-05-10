@@ -67,7 +67,7 @@ should exist and be a copy of `the python upgrade workflow template`_.  You shou
 also see successful runs of the ``Upgrade Python Requirements`` workflow in the
 ``Actions`` tab of your repo.
 
-.. _the upgrade workflow template: https://github.com/openedx/.github/blob/master/workflow-templates/upgrade-python-requirements.yml
+.. _the python upgrade workflow template: https://github.com/openedx/.github/blob/master/workflow-templates/upgrade-python-requirements.yml
 
 **Fix**
 
