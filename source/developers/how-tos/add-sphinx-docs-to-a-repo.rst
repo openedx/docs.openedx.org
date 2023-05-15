@@ -100,8 +100,6 @@ Steps
           "repository_url": TODO: Add a URL Here,
           "repository_branch": TODO: Add the correct branch here,
           "path_to_docs": "docs/",
-          "logo_only": True,
-          "home_page_in_toc": True,
           "use_repository_button": True,
           "use_issues_button": True,
           "use_edit_page_button": True,
