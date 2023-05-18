@@ -55,7 +55,7 @@ When reviewing a PR, we want to focus on reducing the back-and-forth that increa
 
 It is recommended that reviewers approve the GitHub actions if approval is required.  Github requires approval from new contributors to any repository, so even folks who have contributed to the project, but not the particular repository, require approval.
 
-It is recommended that when GitHub detects that the PR branch is out of date with the base, that the reviewer update the branch using a merge commit.  This keeps the history clear, but reduces days of lead time over pushing this back to the original author.  However, reviewers should ask authors to resolve any conflicts between their branch and the base.
+When GitHub detects that the PR branch is out of date with the base, it is recommended that the reviewer update the branch using a merge commit.  This keeps the history clear and reduces days of lead time over pushing this back to the original author.  However, reviewers may ask authors to resolve any conflicts between their branch and the base.
 
 Managing Upgrade PRs
 ********************
