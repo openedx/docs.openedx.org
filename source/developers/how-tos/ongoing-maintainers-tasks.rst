@@ -43,7 +43,7 @@ TBD: Explain what a maintainer's responsibilities are around issue response time
 Responding to PRs
 *****************
 
-Our goal for PR response time is that they are "triaged" within a week of receipt. This does not mean that review happens within a week, but that the PR is acknowledged and scheduled for review in line with the maintainers other priorities.  This response time goal is onging.  So when an author responds to feedback, the goal is the same.
+Our goal for PR response time is that they are "triaged" within a week of receipt. This does not mean that review happens within a week, but that the PR is acknowledged and scheduled for review in line with the maintainer's other priorities.  This response time goal is ongoing.  So when an author responds to feedback, the goal is the same.
 
 One of the scarcest resources of an open-source project is contributor and maintainer time.  It is ideal that once a review starts, that it can be finalized as a single piece of work, say within the boundaries of a single sprint.
 
