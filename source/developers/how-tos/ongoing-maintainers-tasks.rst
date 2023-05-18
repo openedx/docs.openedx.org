@@ -47,7 +47,7 @@ Our goal for PR response time is that they are "triaged" within a week of receip
 
 One of the scarcest resources of an open-source project is contributor and maintainer time.  It is ideal that once a review starts, that it can be finalized as a single piece of work, say within the boundaries of a single sprint.
 
-As a maintainer, your goal should be keeping the time to review and finalize a PR predictable and as short as reasonable.  Finalizing a PR can mean rejecting it. Knowing that a PR won't be accepted and why provides the contributor appropriate feedback and let's them decide what to do next.
+As a maintainer, your goal should be keeping the time to review and finalize a PR predictable and as short as reasonable.  Finalizing a PR can mean rejecting it. For a contributor, knowing that a PR won't be accepted and why provides them appropriate feedback and lets them decide what to do next.
 
 If your team schedules reviews for future sprints, providing that information to the author is helpful to set their expectations and plan accordingly. Leave a comment indicating when you expect the review to occur and ensure that the status on the contributions board is "Scheduled for Eng Review."
 
