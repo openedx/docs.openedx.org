@@ -1,16 +1,22 @@
 Educators: References
 #############################
 
-.. panels::
+.. grid:: 1 2 2 2
+   :gutter: 3
+   :padding: 0
+   
+   .. grid-item-card:: Instructional Design
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+      
+      * 
+      +++
+      .. button-ref:: instructional_design/index
+         :color: primary
+         :outline:
+         :expand:
 
-   **Instructional Design**
-
-   *
-
-   .. link-button:: instructional_design/index
-    :type: ref
-    :text: Instructional Design References
-    :classes: btn-outline-primary btn-block
+         Instructional Design References
 
 General References
 ******************

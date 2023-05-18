@@ -1,29 +1,28 @@
-Add Documentation via Github
-############################################
+Add New Documentation via GitHub
+################################
 
 .. sidebar:: Add Documentation Video Demo
 
   |Video Sidebar Click|
 
-  Video TBP
+  Video Will be Added Soon!
 
 .. contents:: Steps to Add Documentation
   :local:
   :class: no-bullets
 
 .. note::
- :class: dropdown
 
-  These instructions are for adding new documentation directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
+   These instructions are for adding new documentation directly on GitHub. You can create documentation on your computer then synch it to GitHub, if you are familiar with the GitHub client software.
 
-  **Prerequisite**
+**Prerequisite**
 
-  .. include:: ../how-tos/reusable_content/create_github_account.txt
-
+.. include:: ../how-tos/reusable_content/create_github_account.txt
 
 
-1. Find Where To add a New Document
-************************************
+
+1. Find Where To Add a New Document
+***********************************
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
@@ -47,17 +46,15 @@ The branch you created becomes active; you can now create or edit documentation.
 2. Create the New Document
 ***************************
 
-.. sidebar:: Create a Topic in GitHub
-
-  .. thumbnail:: /_images/github_create_topic.png
-
 In some cases (for example, with a brand new feature), you may want to create a new document to describe the feature.
 
 With your new branch active:
 
 #. Find the location where you should put the new document. Consider the audience and type of topic for the new content.
 
-#. In the :guilabel:`Add New File` drop-down, select :guilabel:`Create New File`.
+#. In the :guilabel:`Add New File` drop-down, select :guilabel:`Create New File`. You will see the following screen:
+
+   .. image:: /_images/github_create_topic.png
 
 #. At the top of the screen, give the file a name and the ``.rst`` extension.
 
@@ -71,7 +68,7 @@ With your new branch active:
 
    #. Choose to commit directly to the branch you created in Step 1.
 
-   #. Click :guilabel:`Commit new file` to save these changes to your branch.
+   #. Click :guilabel:`Propose new file` to save these changes to your branch.
 
 #. Repeat these steps for all topics you need to create.
 
@@ -80,6 +77,6 @@ With your new branch active:
 
 
 3. Create a Pull Request
-**********************************
+************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt

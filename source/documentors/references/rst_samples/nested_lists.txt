@@ -2,8 +2,14 @@
 
    #. Item 1
                            # Need this blank line between items and sub-items
-      * Sub-item 1         # Sub-items also need to be indented by 3 or more spaces
-      * Sub-item 2
+      * Sub-item 1         # Sub-items of ordered lists need to be indented by
+      * Sub-item 2         # 3 spaces
 
    #. Item 2
    
+   * Item 1
+
+     #. Sub-item 1         # Sub-items of unordered lists need to be indented
+     #. Sub-item 2         # by exactly 2 spaces
+   
+   * Item 2

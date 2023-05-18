@@ -24,7 +24,7 @@ from datetime import datetime
 
 project = ""
 current_year = datetime.utcnow().year
-copyright = f"{current_year}, The Center for Reimagining Learning"
+copyright = f"{current_year}, Axim Collaborative"
 
 
 # -- General configuration ---------------------------------------------------
@@ -33,9 +33,9 @@ copyright = f"{current_year}, The Center for Reimagining Learning"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinxcontrib.yt",
+    "sphinxcontrib.youtube",
     "sphinxcontrib.images",
-    "sphinx_panels",
+    "sphinx_design",
     "sphinxcontrib.contentui",
     "sphinx_copybutton",
     "sphinx.ext.graphviz",
@@ -132,23 +132,11 @@ panels_add_bootstrap_css = False
 
 # For custom styles
 
-extra_navbar_content = """
-<hr/><br/>
-
-<a class='external' href='https://openedx.atlassian.net/wiki/spaces' target='_blank'>Open edX Wiki</a><br/>
-<a class='external' href='https://openedx.org' target='_blank'>Open edX website</a><br/>
-<a class='external' href='https://openedx.org/cookie-policy/' target='_blank'>Cookie Policy</a>
-
-"""
-
-
 html_theme_options = {
     "repository_url": "https://github.com/openedx/docs.openedx.org",
     "repository_branch": "main",
     "path_to_docs": "source",
-    "logo_only": True,
-    "home_page_in_toc": True,
-    "extra_navbar": extra_navbar_content,
+    "primary_sidebar_end": "primary_sidebar_end",
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,

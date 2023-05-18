@@ -4,7 +4,7 @@ Documentation Feedback Form
 ###########################
 
 ..
-   The document is currently owned by Feanil Patel in the tCRIL Org and is
+   The document is currently owned by Feanil Patel in the Axim Org and is
    titled 'Open edX Documentation Feedback Form'
 
 .. raw:: html

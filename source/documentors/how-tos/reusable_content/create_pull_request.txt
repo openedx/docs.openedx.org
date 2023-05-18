@@ -1,16 +1,18 @@
 
 
-.. sidebar:: Pull Request in GitHub
-
-  .. thumbnail:: /_images/github_pr_tab.png
-
 #. In the Pull Request window, click :guilabel:`Create pull request`.
+
+   .. image:: /_images/documentors_howto_update_a_doc/create_pr_screen1.png
 
 #. You should not need to change the branches selected. By default, you are requesting to merge the branch in your fork of the repository into the official repository's **main** branch.
 
-#. Add a title for your pull request.
+#. Add a unique, descriptive title for your pull request.
 
 #. Add a comment that explains your change to the Open edX team.
+
+#. Ensure the checkbox "Allow edits by maintainers" - this enables the Open edX team to rerun tests or make small changes, which will decrease the time for your changes to be accepted. Your screen should look like this:
+
+   .. image:: /_images/documentors_howto_update_a_doc/create_pr_screen2.png
 
 #. Click :guilabel:`Create pull request`.
 

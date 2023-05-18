@@ -1,0 +1,4 @@
+# This folder is needed by the sphinxcontrib-youtube extension
+# to download video thumbnails as a part of the build. But we don't
+# need to check any of those images in.
+*.jpg

@@ -1,14 +1,13 @@
-########################################
 Open edX Named Release Branches and Tags
 ########################################
 
-The Open edX community can share knowledge and improvements more easily when most people use the same stable, consistent version of the Open edX codebase. To that end, edX creates "Open edX named releases", which are distinct from the daily deployments to edx.org and have a longer release cycle (on the order of six months between each release). These releases will be tested both by edX and by the Open edX community.
+The Open edX community can share knowledge and improvements more easily when most people use the same stable, consistent version of the Open edX codebase. To that end, the Build-Test-Release working group creates an "Open edX named release" every six months. The Open edX community, led by the Build Test Release working group, tests the release for two months prior to it being made available to the community. The codebase is also extensively tested by the 2U/edX team, who deploys the code to the edx.org website multiple times a day.
 
 Open edX releases are named alphabetically with botanical tree names.
 
 
 Latest Open edX Release
------------------------
+***********************
 
 The latest supported release line is Olive_, based on code from 2022-10-11.
 
@@ -18,7 +17,7 @@ __ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3552938822/Palm
 
 
 All Open edX Releases
----------------------
+*********************
 
 .. contents::
    :local:
@@ -32,8 +31,15 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Palm
+~~~~
+
+* **Code cut date:** 2023-04-11
+* **Status:** upcoming
+* :doc:`Release Notes <./palm>`
+
 Olive
-~~~~~
+=====
 
 * **Code cut date:** 2022-10-11
 * **Status:** supported
@@ -54,8 +60,12 @@ Olive
      - 2023-02-09
      - open-release/olive.2
 
+   * - Olive.3
+     - 2023-04-11
+     - open-release/olive.3
+
 Nutmeg
-~~~~~~
+======
 
 * **Code cut date:** 2022-04-12
 * **Status:** unsupported
@@ -81,7 +91,7 @@ Nutmeg
      - open-release/nutmeg.3
 
 Maple
-~~~~~
+=====
 
 * **Code cut date:** 2021-10-15
 * **Status:** unsupported
@@ -99,7 +109,7 @@ Maple
      - open-release/maple.1
 
 Lilac
-~~~~~
+=====
 
 * **Code cut date:** 2021-04-09
 * **Status:** unsupported
@@ -121,7 +131,7 @@ Lilac
      - open-release/lilac.1
 
 Koa
-~~~
+===
 
 * **Code cut date:** 2020-11-12
 * **Status:** unsupported
@@ -151,7 +161,7 @@ Koa
      - open-release/koa.1
 
 Juniper
-~~~~~~~
+=======
 
 * **Code cut date:** 2020-05-27
 * **Status:** unsupported
@@ -177,7 +187,7 @@ Juniper
      - open-release/juniper.1
 
 Ironwood
-~~~~~~~~
+========
 
 * **Code cut date:** 2019-01-17
 * **Status:** unsupported
@@ -203,7 +213,7 @@ Ironwood
      - open-release/ironwood.1
 
 Hawthorn
-~~~~~~~~
+========
 
 * **Code cut date:** 2018-07-03
 * **Status:** unsupported
@@ -226,7 +236,7 @@ Hawthorn
      - open-release/hawthorn.1
 
 Ginkgo
-~~~~~~
+======
 
 A note about Vagrant box files:
 
@@ -270,7 +280,7 @@ A note about Vagrant box files:
           * 990d5fdb5bbc7683c158dd99d5732064932c9cdd
 
 Ficus
-~~~~~
+=====
 
 * **Code cut date:** 2017-01-10
 * **Status:** unsupported
@@ -303,7 +313,7 @@ Ficus
           * a7fb2200ccdb9f847bee7acd97f5e4e1434776b3
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-fullstack-2017-04-20.box?torrent>`__
           * ficus-fullstack-2017-04-20
-          * 64eb0a247d99454bccf0eed7ec49b076cbb9cd69 
+          * 64eb0a247d99454bccf0eed7ec49b076cbb9cd69
 
    * - Ficus.2
      - 2017-03-29
@@ -313,7 +323,7 @@ Ficus
           * a7fb2200ccdb9f847bee7acd97f5e4e1434776b3
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-fullstack-2017-03-28.box?torrent>`__
           * ficus-fullstack-2017-03-28
-          * fc6aa0d3b686c83e38e8c7fa1b1f172fcf7f71c1 
+          * fc6aa0d3b686c83e38e8c7fa1b1f172fcf7f71c1
 
    * - Ficus.1
      - 2017-02-23
@@ -323,10 +333,10 @@ Ficus
           * a7fb2200ccdb9f847bee7acd97f5e4e1434776b3
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/ficus-fullstack-2017-02-15.box?torrent>`__
           * ficus-fullstack-2017-02-15
-          * cd6310ffc1e6b374d2c3d59aab5191500f9d5d6f 
+          * cd6310ffc1e6b374d2c3d59aab5191500f9d5d6f
 
 Eucalyptus
-~~~~~~~~~~
+==========
 
 * **Code cut date:** 2016-07-13
 * **Status:** unsupported
@@ -349,7 +359,7 @@ Eucalyptus
           * a26c8fdbb431279863654161d0145732ee36ed66
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/eucalyptus-devstack-2016-09-01.box?torrent>`__
           * eucalyptus-fullstack-2017-01-10
-          * 64fd2a6efd656a7170127cccdf4458699ea04978 
+          * 64fd2a6efd656a7170127cccdf4458699ea04978
 
    * - Eucalyptus.2
      - 2016-09-02
@@ -368,7 +378,7 @@ Eucalyptus
           * eucalyptus-fullstack-2016-08-25
 
 Dogwood
-~~~~~~~
+=======
 
 * **Code cut date:** 2015-12-15
 * **Status:** unsupported
@@ -416,7 +426,7 @@ Dogwood
           * dogwood-fullstack-rc2
 
 Cypress
-~~~~~~~
+=======
 
 * **Code cut date:** 2015-07-07
 * **Status:** unsupported
@@ -438,7 +448,7 @@ Cypress
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/cypress-fullstack.box?torrent>`__
 
 Birch
-~~~~~
+=====
 
 * **Code cut date:** 2015-01-29
 * **Status:** unsupported
@@ -472,7 +482,7 @@ Birch
        * `fullstack <https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent>`__
 
 Aspen
-~~~~~
+=====
 
 * **Code cut date:** 2014-09-05
 * **Status:** unsupported
@@ -494,7 +504,7 @@ Aspen
 
 
 Future Releases
----------------
+***************
 
 Upcoming releases have wiki pages for engineers to collect information that will be needed for their release on the
 `Open edX Release Planning`_ page.
@@ -502,7 +512,7 @@ Upcoming releases have wiki pages for engineers to collect information that will
 .. _Open edX Release Planning: https://openedx.atlassian.net/wiki/spaces/COMM/pages/13205845/Open+edX+Release+Planning
 
 Security Updates
-----------------
+****************
 
 If security vulnerabilities or other serious problems (such as data loss) are discovered in the most recent Open edX
 release, edX will release a new version of that release that includes the fix. We will not make patches of any releases
@@ -512,7 +522,7 @@ vulnerability. If you have found a security vulnerability in the Open edX codeba
 email to security@openedx.org. Please do not post the vulnerability to the public.
 
 Feedback
---------
+********
 
 If you find a problem in the release candidate, please report them to the Build-Test-Release Working Group.  You can
 do so by `creating a new issue`_.

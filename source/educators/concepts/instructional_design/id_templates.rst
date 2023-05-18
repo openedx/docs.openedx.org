@@ -11,7 +11,7 @@ Instructional Design Templates
 Learning Outcome & Alignment Worksheet
 ****************************************
 
-It is important to write learning outcomes and align your learning activities and assessments to those outcomes. Learning outcomes should be measurable and achievable within the parameters of the course and start with a learning verb (see Bloom’s taxonomy for suggestions).
+It is important to write learning outcomes and align your learning activities and assessments to those outcomes. Learning outcomes should be measurable and achievable within the parameters of the course and start with a learning verb (see Bloom’s Taxonomy for suggestions).
 
 Filling out the worksheet below will allow you to ensure that your course follows the educational principle of constructive alignment. This worksheet can help you communicate to your learners what they will learn, how they will learn it, and the ways you will assess their learning.
 

@@ -1,6 +1,5 @@
 .. _Open edX Maple Release:
 
-######################
 Open edX Maple Release
 ######################
 
@@ -13,12 +12,11 @@ These are the release notes for the Maple release, the 13th community release of
  :depth: 1
  :local:
 
-================
 Breaking Changes
-================
+****************
 
 Tutor is the supported distribution
------------------------------------
+===================================
 
 `Tutor`_ is now the official, community-supported distribution of open edX for production. It replaces `edX configuration`_. The Tutor changelog for the Maple release is at https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1300
 
@@ -28,13 +26,13 @@ Tutor is the supported distribution
 
 
 Learning Micro-Frontend (MFE) becomes the default courseware experience
------------------------------------------------------------------------
+=======================================================================
 
-Warning: Entrance exams, non-standard XML and HTML tags, and non-standard course hierarchies are not supported. See below for more details.
+.. warning:: Entrance exams, non-standard XML and HTML tags, and non-standard course hierarchies are not supported. See below for more details.
 
 
 Studio login changed to OAuth
------------------------------
+=============================
 
 In versions prior to Maple, Studio (CMS) shared a session cookie with the LMS, and redirected to the LMS for login.
 Studio is changing to become an OAuth client of the LMS, using the same SSO configuration that other IDAs use. (See
@@ -48,7 +46,7 @@ upgrading to Maple. For devstack, run::
 .. _Studio OAuth migration runbook: https://github.com/openedx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
 
 django-cors-headers version updgraded
--------------------------------------
+=====================================
 
 django-cors-headers is upgraded to version 3.2.0. The setting :code:`CORS_ORIGIN_WHITELIST` now requires URI schemes.
 You will need to update your whitelist to include schemes, for example from this::
@@ -60,17 +58,17 @@ to this::
     CORS_ORIGIN_WHITELIST = ["https://foo.com"]
 
 
-===================
 Learner Experiences
-===================
+*******************
 
 Learning Micro-Frontend (MFE)
------------------------------
+=============================
 
 The Learning MFE (including both "courseware" and the "course home") is the default course experience in Maple. With the new experience, learners will notice a reduction in load times and better site performance. The Nutmeg release will drop support for the legacy (that is, LMS-rendered) course experience entirely.
 
 Configuration
-^^^^^^^^^^^^^
+-------------
+
 - MFE branding elements can be set in the Tutor MFE plugin. See the `tutor mfe plugin README`_ for more details.
 - The :code:`courseware.use_legacy_frontend` and :code:`course_home.course_home_use_legacy_frontend` Waffle flags can be toggled on (either globally or per-course-run) in order to revert to the legacy (LMS Django-rendered) courseware experience.
 - The domain name for your learning MFE should be added to the :code:`CORS_ORIGIN_WHITELIST` for ecommerce, discovery, lms, and studio.
@@ -78,7 +76,8 @@ Configuration
 .. _tutor mfe plugin README: https://github.com/overhangio/tutor-mfe#customise-mfes-logos
 
 Removed Features
-^^^^^^^^^^^^^^^^
+----------------
+
 - Entrance Exams are slated to be deprecated and are never enabled on the MFE. Attempting to start a course with an entrance exam on the MFE results in an error. Using the waffle flags to enable the legacy experience should enable their usage for the time being, but their deprecation is forthcoming.
 - Problemsets and videosequences, which are deprecated variations of the Sequence block will not render in the MFE. Note, these could have only been added in raw OLX. This cannot affect courses authored entirely in Studio.
 - **Non-standard course hierarchies** Legacy courseware was willing to render some content that didn’t strictly follow that hierarchy, and that content will break in the MFE. This should only affect courses authored directly in OLX. Studio-authored courses already follow these hierarchy requirements. Essentially, courses must follow a stricter hierarchy in order to work in the MFE:
@@ -88,7 +87,8 @@ Removed Features
   * Children of the Subsections should be "Unit-like" blocks (most commonly Verticals, but HTML/Problem/etc are okay too)
 
 Altered Features
-^^^^^^^^^^^^^^^^
+----------------
+
 - The ability for course authors to preview units in the learner experience before they are published will preview in the legacy experience, not the MFE. Work enabling preview using the MFE is anticipated.
 - According to the HTML standard, <script> and <iframe> tags are not self-closing; they must be closed with </script> and </iframe> tags. Legacy courseware incidentally corrected this error when it occurred in course content. MFE courseware does not do that correction. Course authors should update their courses to use well-formed HTML if they happened to rely on self-closing <script> or <iframe> tags.
 - Courses which use the  course key pattern ORG/COURSE/RUN instead of the new pattern, course-v1:ORG+COURSE+RUN,  are stored in our legacy storage service, Old Mongo, and will not be served by the new MFE. Instead they default to the legacy experience. But this pattern has been deprecated and will be removed.
@@ -107,7 +107,8 @@ Altered Features
 - If all content inside a unit should be invisible to a cohort, but the sequence or the unit is not hidden, learners may be able to still see the titles of the content on the course outline, as well as the title of the sequence which contains only what should be hidden content to that learner. This issue can be removed by setting the :code:`learning_sequences.use_for_outlines` waffle flag to :code:`true`.
 
 Maintained Features
-^^^^^^^^^^^^^^^^^^^
+-------------------
+
 - Features which remain functional within MFE courses, but still will be served by the legacy experience in Maple are:
 
   * The XBlock student view, as exposed via the unit iframe in MFE courseware
@@ -120,7 +121,8 @@ Maintained Features
 - Special exams (timed and proctored) will be functional within the Learning MFE for MFE enabled courses.
 
 Added Features
-^^^^^^^^^^^^^^
+--------------
+
 - To enable faster movement through course content, staff users will now see jump navigation selectors to augment the existing course breadcrumb in the learning sequence experience (Learning MFE). With this deployment, a staff user can select a section or subsection, a menu will appear, and the user can jump to a particular unit within a course.
 - Course outlines will now feature automatic effort estimates for subsections. Courses have to be republished before they show estimates, and all videos in the course must also have durations in `edx-val`_, the Open edX video abstraction layer.
 - There are some in-course celebrations of progress. A modal popup when a learner finishes their first section. And a 3-day streak celebration modal popup. This is configurable using the waffle toggles :code:`mfe_progress_milestones` and :code:`mfe_progress_milestones_streak_celebration`
@@ -129,7 +131,7 @@ Added Features
 .. _edx-val: https://github.com/openedx/edx-val
 
 Certificates
-------------
+============
 
 Various bug fixes and updates around course certificate generation
 
@@ -158,26 +160,28 @@ Various bug fixes and updates around course certificate generation
 .. _document in Confluence: https://openedx.atlassian.net/wiki/spaces/PT/pages/2594275334/Course+Import+Work
 
 Open-Response Assessments
--------------------------
+=========================
+
 - extend frontend feedback limit to 1k chars
 - Make submission feedback full-width
 
 
 Account Micro-frontend
-----------------------
+======================
 
 - removed hard-coded edX string
 
 Payment Micro-frontend
------------------------
+=======================
 
 The Payment MFE is the only supported UI for ecommerce in this release. Cybersource and PayPal backends have been tested. See the Tutor Ecommerce plugin for configuration details: https://overhang.io/tutor/plugin/ecommerce
 
 Mobile Experience
------------------
+=================
 
 Android
-^^^^^^^
+-------
+
 - Allow word_cloud as supported xBlock
 - allow specialExam xBlock to open through View on Web
 - open rendered HTML block having iframe in mobile browser
@@ -186,25 +190,25 @@ Android
 - add alerts prior to course due dates
 
 iOS
-^^^
+---
+
 - Open rendered HTML block that contains an iframe in the mobile browser
 - add word cloud to acceptable list of xblocks
 - add course events to calendar
 - Add support of lti_consumer xblocks
 
 Special Exams Experience
-------------------------
+========================
 
 - Created a new page in the account frontend to host proctoring instructions and requirements. This content can be dynamic to the need of each proctoring provider and potentially each course.
 - Allow learners to resume an exam after hitting a proctoring error, without forcing them to restart the exam, or to use an exam attempt.
 
 
-======================
 Instructor Experiences
-======================
+**********************
 
 Studio
-------
+======
 
 - Course and library creation rights can now be granted on a per-organization basis.
   * Controlled content creation rights feature must be enabled via the FEATURES['ENABLE_CREATOR_GROUP'] flag.
@@ -217,7 +221,7 @@ Studio
   * However, administrators can safely modify the organization settings on existing creation right grants if they would like to retroactively use this feature.
 
 Course Authoring Import Messaging & Validation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------
 
 While many course teams do not commonly use this course import, educators cannot continue course authoring when it does fail. Previously, course teams would occasionally encounter issues importing a new version of their course through Studio. Existing error messaging made the root cause hard to discern, requiring course teams to reach out to an admin for assistance. Educators blocked by the import tool were not unable to update or launch their course without admin intervention, delaying authoring and publishing timelines for courses.
 
@@ -225,7 +229,7 @@ Now educators will see specific error messages in the course import area of Stud
 
 
 Uploading Errors
-================
+~~~~~~~~~~~~~~~~
 
 - **File Chunk Missed During Upload** - The most common error that was captured, “Chunk Missed Error”. When a Course Import file (tar.gz) is larger than 20MB, it is divided into equal chunks and uploaded to the server. Due to our server configuration, it is possible to lose a chunk that could fail the course import while combining on the server.
 
@@ -234,7 +238,7 @@ Uploading Errors
 - **Incompatible File** - This error is raised if a user accidentally tries to upload an incompatible file. This check exists in the frontend as well.
 
 Unpacking Errors
-================
+~~~~~~~~~~~~~~~~
 
 - **Invalid User** - Raised if the provided user_id does not exist. The check is redundant if the import is submitted via Studio frontend, but is a valid sanity check for API submissions
 
@@ -249,12 +253,12 @@ Unpacking Errors
 - **Unknown Exception** - There can still be unknown events that may occur during the course import, for those further information will be logged in the system logs but there is not a clear and useful user facing error.
 
 Verifying Stage
-===============
+~~~~~~~~~~~~~~~
 
 - **Verify Root Name** - The root name for a course import is ``course.xml`` and for a library it's ``library.xml``. If that file does not exist then this error is thrown.
 
 Updating Errors
-===============
+~~~~~~~~~~~~~~~
 
 The errors can occur after the XML validation and during the data update in the course.
 
@@ -273,10 +277,10 @@ The errors can occur after the XML validation and during the data update in the 
    More information about the development process can be found in this `document in Confluence`_.  However that is not a public document and only left here for admins and future reference. The error details above have been extracted from that document.
 
 Open-Response Assessments
--------------------------
+=========================
 
 Reusable Rubrics
-^^^^^^^^^^^^^^^^
+----------------
 
 Course staff can now reuse a rubric from an existing Open Response Assessment (ORA) in a course when creating a new ORA in the same course. Using a Block ID, course staff can now specify which ORA’s rubric they want to clone into another ORA within the same course.
 
@@ -288,7 +292,7 @@ Once the correct Block ID is selected, they can select “Clone” and all of th
 
 
 Other ORA features
-^^^^^^^^^^^^^^^^^^
+------------------
 
 - Learners can now provide feedback with an expanded character limit of 1k
 - Add a new button to edit an ORA in Studio
@@ -297,7 +301,7 @@ Other ORA features
 
 
 LTI 1.3 and LTI Advantage Support
----------------------------------
+=================================
 
 lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to support LTI 1.3, as well as the Deep Linking (LTI-DL) and Assignments and Grades services (LTI-AGS) features of LTI Advantage. Information on configuring lti-consumer-xblock can be found at https://github.com/openedx/xblock-lti-consumer/blob/master/README.rst
 
@@ -312,7 +316,7 @@ lti-consumer-xblock (also known as xblock-lti-consumer) has been updated to supp
 
 
 Gradebook Micro-FrontEnd
-------------------------
+========================
 
 Gradebook allows course staff to view, filter, and override subsection grades for a course. For configuration details, see https://github.com/openedx/frontend-app-gradebook
 
@@ -323,36 +327,36 @@ There are some limitations to the version in Maple:
 
 
 Special Exams Experience
-------------------------
+========================
 
 - We added a view to the Instructor Dashboard for seeing onboarding progress for Proctored Exams. This tab includes all students enrolled in the course and their onboarding state, even if they have never attempted the exam. This list should be filterable to quickly identify the list of learners where action may be needed to encourage onboarding soon.
 - Instructors can give learners permission to resume an exam after encountering a proctoring error. Grades/certificates will not be released until all active attempts have been reviewed and marked as passing.
 
 
-=========================
 Administrator Experiences
-=========================
+*************************
 
 
 Password Complexity
--------------------
+===================
 
 Implemented and rolled out new password complexity requirements to meet PCI compliance. For more detail, see https://github.com/openedx/edx-platform/blob/open-release/maple.master/common/djangoapps/util/password_policy_validators.py
 
 
 Migrations
-----------
+==========
 
 See the sections above on OAuth and Certificates.
 
 
 Settings and Toggles
---------------------
+====================
+
 Documentation for settings and toggles is much improved, but still incomplete. See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/index.html
 
 
 Dependency updates
-------------------
+==================
 
 - **Django 3.2** We upgraded Django to version 3.2, the next LTS (long term support) release. More details available at https://openedx.atlassian.net/wiki/spaces/AC/pages/2844426436/Django+3.2+Upgrade
 - **ElasticSearch 7.10** We upgraded all IDAs, using ElasticSearch (edx-platform, Blockstore, discovery, notes, analytics-api, cs-c comments-service) to ElasticSearch 7.10.
@@ -360,31 +364,29 @@ Dependency updates
 
 
 Deprecations
-------------
+============
 
 - The sysadmin dashboard has been removed. Similar functionality is available via the (unsupported) edx-sysadmin plugin from https://github.com/mitodl/edx-sysadmin/
 - The :code:`AUDIT_CERT_CUTOFF_DATE` setting was removed. This setting allowed organizations that previously offered course certificates to audit track learners to discontinue generation of this type of certificate. Instead, the logic of :code:`CourseMode.is_eligible_for_certificate()` will be used. In this logic, the audit mode is not eligible for a course certificate. The honor mode may or may not be eligible, depending on whether the :code:`DISABLE_HONOR_CERTIFICATES` feature is enabled. Other modes are eligible for certificates.
 - The management command named :code:`cert_whitelist` has been removed. In its place, please use the Certificate Allowlist, which can be accessed from the Instructor tab on the course page in the LMS. (`DEPR-156`_)
 
 
-=============================
 Researcher & Data Experiences
-=============================
+*****************************
 
 - Tracking metrics based on the anonymized session ID will experience a discontinuity or other anomaly at the time of deployment, as the anonymized IDs will change. This will likely appear as if everyone logged out and back in again, although only from a metrics perspective. In a green-blue deployment scenario, it may briefly appear as if there are twice as many sessions active.
 - Removed certificate generation segment event. We will continue to track certificate creation/generation using the existing :code:`edx.certificate.created` event.
 
-=====================
 Developer Experiences
-=====================
+*********************
 
 Hooks Extension Framework
--------------------------
+=========================
 
 Hooks are predefined places in the edx-platform core where externally defined functions can take place. In some cases, those functions can alter what the user sees or experiences in the platform. Other cases are informative only. All cases are meant to be extended using Open edX plugins and configuration. For documentation, see https://github.com/eduNEXT/edx-platform/blob/open-release/maple.master/docs/guides/hooks/index.rst You can find code for a sample hook at https://github.com/eduNEXT/openedx-events-2-zapier
 
 Course Certificate Generation Logic Improvement
------------------------------------------------
+===============================================
 
 We have replaced the back-end code (no UX changes) that generates course certificates with a new version to condense the number of conflicting generation logic patterns, make it easier to troubleshoot/support, and to better defend generated certificates against errant revocation.
 
@@ -393,7 +395,8 @@ By creating this new, unified course certificate generation logic we have improv
 Learners and partners should not notice any change. The only effect is that they should see a reduced time to resolution if they ever encounter a problem related to certificates or credentials.
 
 Learning Micro-Frontend (MFE)
------------------------------
+=============================
+
 To increase development speed and site performance, we've made improvements to the learning sequence experience (Learning MFE) on edX-platform, to use a React-based frontend that emulates the legacy experience. The Learning MFE code repository is at https://github.com/openedx/frontend-app-learning
 
 After a year of diligently working to overhaul the learning sequence experience to use a React-based micro-frontend, it is now live for learners. This update to the underlying infrastructure of the learning sequence experience aims to drive innovation and experimentation that will ultimately foster greater learner engagement. With the new experience, learners will notice a reduction in load times and better site performance. However, the true beneficiaries of this work are internal development teams who will be able to quickly and efficiently build in this area of the system.

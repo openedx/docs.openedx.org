@@ -1,6 +1,5 @@
 .. _Replacing CSMH:
 
-########################################################
 Replacing the ``courseware_studentmodulehistory`` Table
 ########################################################
 

@@ -100,8 +100,6 @@ Steps
           "repository_url": TODO: Add a URL Here,
           "repository_branch": TODO: Add the correct branch here,
           "path_to_docs": "docs/",
-          "logo_only": True,
-          "home_page_in_toc": True,
           "use_repository_button": True,
           "use_issues_button": True,
           "use_edit_page_button": True,
@@ -119,7 +117,7 @@ Steps
                       href="https://openedx.org"
                       property="cc:attributionName"
                       rel="cc:attributionURL"
-                  >The Center for Reimagining Learning</a>
+                  >Axim Collaborative</a>
               are licensed under a
                   <a
                       rel="license"
@@ -170,4 +168,7 @@ Steps
    :doc:`/documentors/concepts/content_types`
       A quick summary on the different types of documents.
 
-.. _diataxis: diataxis.fr
+   :doc:`/developers/how-tos/get-your-project-docs-on-rtd`
+      Once your docs are building, setup publishing and PR builds.
+
+.. _diataxis: https://diataxis.fr

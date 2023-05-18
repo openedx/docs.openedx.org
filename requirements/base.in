@@ -3,9 +3,9 @@
 
 sphinx
 sphinx-book-theme
-sphinxcontrib.yt
+sphinxcontrib-youtube
 sphinx-autobuild
-sphinx-panels
+sphinx-design
 sphinx-copybutton
 sphinxcontrib-mermaid
 sphinxcontrib-images
