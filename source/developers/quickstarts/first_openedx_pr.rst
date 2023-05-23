@@ -303,5 +303,7 @@ changes as is and merge them.
 .. note::
    .. include:: /documentors/how-tos/reusable_content/sign_agreement.txt
 
+If you are now looking for something to work on, please see `How to start contributing to the Open edX code base`_.
+
 If you need more help or run into issues, check out the :doc:`/other/getting_help`
 section of the documentation for links to some places where you could get help.
