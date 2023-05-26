@@ -8,7 +8,7 @@ Ongoing Maintainer's Tasks
 
 This How-to will explain the ongoing tasks that Maintainers are expected to
 perform, once their repositories are up to Open edX project standards (see
-:doc:`maintain-a-repo`). These actions are performed periodically - some more
+:doc:`maintain-a-repo`). These actions are performed **periodically** - some more
 frequently than others - and are done to ensure your repository is consistently
 up to date with the latest security fixes and the rest of the project's codebase.
 Additionally, maintainers have a responsibility to the community to develop
@@ -28,44 +28,67 @@ This How-to assumes the following:
 * You are a repository maintainer.
 
 * You have followed the instructions in :doc:`maintain-a-repo` to get your repo's
-  documentation in a consistent format with the rest of the project.
+  documentation and tooling in alignment with the standards of the project.
 
 GitHub Notifications
 ********************
 
-TBD: How to set up a group, what the notification settings should look like for that group
+GitHub provides a lot of individual control over how you receive notifications when you or teams you are on are mentioned in issues or pull-request on Github.com
+
+You can learn more about how to configure your notifications settings on `GitHub's notifications documentation`_ 
+
+.. note::
+
+   Expectations for how quickly you respond to issues or pull requests are detailed in the sections below.
+
+
+.. _GitHub's notifications documentation: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications
 
 Responding to Issues
 ********************
 
-TBD: Explain what a maintainer's responsibilities are around issue response time
+Issues may come in the form of bug reports or feature requests, in any case, the issues should be **"triaged" within a week of receipt**.  This does not mean agreeing to the request in the issue or fixing it. But simply acknowledging it and scheduling time to respond to the requests in a timely manner.  Sometimes the issues will require further discussion but if you see issues that you are unlikely to resolve, it is better to provide that feedback quickly rather than leaving the issue open and unanswered.
 
 Responding to PRs
 *****************
 
-Our goal for PR response time is that they are "triaged" within a week of receipt. This does not mean that review happens within a week, but that the PR is acknowledged and scheduled for review in line with the maintainer's other priorities.  This response time goal is ongoing.  So when an author responds to feedback, the goal is the same.
+Our goal for PR response time is that they are **"triaged" within a week of receipt**. This does not mean that review happens within a week, but that the PR is acknowledged and scheduled for review in line with the maintainer's other priorities.  This response time goal is ongoing.  So when an author responds to feedback, the goal is the same.
 
 One of the scarcest resources of an open-source project is contributor and maintainer time.  It is ideal that once a review starts, that it can be finalized as a single piece of work, say within the boundaries of a single sprint.
 
-As a maintainer, your goal should be keeping the time to review and finalize a PR predictable and as short as reasonable.  Finalizing a PR can mean rejecting it. For a contributor, knowing that a PR won't be accepted and why provides them appropriate feedback and lets them decide what to do next.
+As a maintainer, your goal should be keeping the time to review and finalize a PR as predictable and as short as is reasonable.  Finalizing a PR can mean rejecting it. For a contributor, knowing that a PR won't be accepted and why provides them appropriate feedback and lets them decide what to do next.
 
 If your team schedules reviews for future sprints, providing that information to the author is helpful to set their expectations and plan accordingly. Leave a comment indicating when you expect the review to occur and ensure that the status on the contributions board is "Scheduled for Eng Review."
 
 When reviewing a PR, we want to focus on reducing the back-and-forth that increases lead time.  In our globally distributed project, a comment and response cycle can easily take 24 hours.  Ideally, both contributor and reviewer can both focus their attention on finalizing a PR at the same time.
 
-It is recommended that reviewers approve the GitHub actions if approval is required.  Github requires approval from new contributors to any repository, so even folks who have contributed to the project, but not the particular repository, require approval.
+It is recommended that reviewers approve the GitHub actions if approval is required.  GitHub requires approval from new contributors to any repository, so even folks who have contributed to the project, but not the particular repository, require approval.
 
 When GitHub detects that the PR branch is out of date with the base, it is recommended that the reviewer update the branch using a merge commit.  This keeps the history clear and reduces days of lead time over pushing this back to the original author.  However, reviewers may ask authors to resolve any conflicts between their branch and the base.
 
 Managing Upgrade PRs
 ********************
 
-TBD: Explain SLAs for responding to python-upgrade-bot, Renovate, or any other automatic upgrade tool
+As a part of bringing your repository into alignment with the standards of the project, you setup automation that will create new PRs when packages you depend on have newer versions available.
+
+Keeping your dependencies up-to-date on a regular basis is both lest costly and more secure than waiting a long time between package updates.  It is recommended that you **apply all security fix on packages you depend on within weekly**.  For automated PRs that don't contain security updates to dependent packages it is still recommended that you triage them on a weekly basis and schedule any complex upgrades so that they can be applied in a timely manner before landing them becomes an emergency to get new features or security fixes.
 
 Participating in Forum Discussions
 **********************************
 
-TBD: Explain what a maintainer's responsibilities are around participating in the forums
+As a maintainer you are expected to participate in the `Open edX discussion forums`_  The discussion forums use `Discourse <https://discourse.org>`_ under the hood and you can fine a lot more information about how discourse notifications work in their `Notifications Primer`_
+
+Discourse allows you a **lot** of control over which categories and sub-categories you actually get notified about.  We recommend that you make use of this to only subscribe to the categories that are relevant to your work as well as any posts that mention you directly.
+
+
+.. tip::
+
+   You can reduce noise by simply watching categories for the "first-post" so you are notified of all new conversations.
+
+   If a conversation interests you, you can always go to the link provided in the notification to subscribe to all future updates to that conversation.
+
+.. _Open edX discussion forums: https://discuss.openedx.org/
+.. _Notifications Primer: https://meta.discourse.org/t/notifications-primer/228439
 
 Transparent Development Expectations
 ************************************
@@ -82,5 +105,3 @@ Stepping Down as Maintainer
 ***************************
 
 TBD: Explain the process for stepping down
-
-
