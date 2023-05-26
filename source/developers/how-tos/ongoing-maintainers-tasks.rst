@@ -33,7 +33,7 @@ This How-to assumes the following:
 GitHub Notifications
 ********************
 
-GitHub provides a lot of individual control over how you receive notifications when you or teams you are on are mentioned in issues or pull-request on Github.com
+GitHub provides a lot of individual control over how you receive notifications when you or teams you are on are mentioned in issues or pull requests on Github.com
 
 You can learn more about how to configure your notifications settings on `GitHub's notifications documentation`_ 
 
@@ -47,7 +47,7 @@ You can learn more about how to configure your notifications settings on `GitHub
 Responding to Issues
 ********************
 
-Issues may come in the form of bug reports or feature requests, in any case, the issues should be **"triaged" within a week of receipt**.  This does not mean agreeing to the request in the issue or fixing it. But simply acknowledging it and scheduling time to respond to the requests in a timely manner.  Sometimes the issues will require further discussion but if you see issues that you are unlikely to resolve, it is better to provide that feedback quickly rather than leaving the issue open and unanswered.
+Issues may come in the form of bug reports or feature requests. In any case, the issues should be **"triaged" within a week of receipt**.  This does not mean agreeing to the request in the issue or fixing it, but simply acknowledging it and scheduling time to respond to the requests in a timely manner.  Sometimes the issues will require further discussion but if you see issues that you are unlikely to resolve, it is better to provide that feedback quickly rather than leaving the issue open and unanswered.
 
 Responding to PRs
 *****************
@@ -69,9 +69,9 @@ When GitHub detects that the PR branch is out of date with the base, it is recom
 Managing Upgrade PRs
 ********************
 
-As a part of bringing your repository into alignment with the standards of the project, you setup automation that will create new PRs when packages you depend on have newer versions available.
+As a part of bringing your repository into alignment with the standards of the project, you have setup automation that will create new PRs when packages you depend on have newer versions available.
 
-Keeping your dependencies up-to-date on a regular basis is both lest costly and more secure than waiting a long time between package updates.  It is recommended that you **apply all security fix on packages you depend on within weekly**.  For automated PRs that don't contain security updates to dependent packages it is still recommended that you triage them on a weekly basis and schedule any complex upgrades so that they can be applied in a timely manner before landing them becomes an emergency to get new features or security fixes.
+Keeping your dependencies up-to-date on a regular basis is both lest costly and more secure than waiting a long time between package updates.  It is recommended that you **apply all security fix on packages you depend on within weekly**.  For automated PRs that don't contain security updates to dependent packages it is still recommended that you triage them on a weekly basis. Schedule any complex upgrades in a timely manner - you don't want to be in a situation where it becomes an emergency to land them (whether to get new features or apply a major security fix).
 
 Participating in Forum Discussions
 **********************************
@@ -83,9 +83,9 @@ Discourse allows you a **lot** of control over which categories and sub-categori
 
 .. tip::
 
-   You can reduce noise by simply watching categories for the "first-post" so you are notified of all new conversations.
+   You can reduce noise by simply watching categories for the "first-post" so you are notified of all new topics (Discourse's term for threads).
 
-   If a conversation interests you, you can always go to the link provided in the notification to subscribe to all future updates to that conversation.
+   If a topic interests you, you can always go to the link provided in the notification to subscribe to all future updates to that topic.
 
 .. _Open edX discussion forums: https://discuss.openedx.org/
 .. _Notifications Primer: https://meta.discourse.org/t/notifications-primer/228439
