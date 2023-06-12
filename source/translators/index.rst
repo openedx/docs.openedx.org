@@ -32,6 +32,13 @@ Translators Home
          :caption: How-Tos
 
          how-tos/how-to*
+      +++
+      .. button-ref:: how-tos/index
+         :color: primary
+         :outline:
+         :expand:
+
+         More How-Tos
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -43,6 +50,14 @@ Translators Home
          :caption: Concepts
 
          concepts/working*
+      +++
+      .. button-ref:: concepts/index
+         :color: primary
+         :outline:
+         :expand:
+
+         More Concepts
+
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
