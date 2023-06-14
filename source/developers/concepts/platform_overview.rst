@@ -14,6 +14,10 @@ MFEs (Micro-FrontEnds) within the ecosystem and community.
 
 The core code base lives on GitHub in the `openedx`_ organization.
 
+If you want more details about the tech stack, check out this video:
+
+.. youtube:: LlpdOUnymAQ
+
 Platform Layout
 ***************
 
@@ -86,7 +90,7 @@ Template`_ based rendering pipelines to serve frontend content to users.
 Adding new Features to the Open edX Platform
 ********************************************
 
-If you're looking to add new features to the Open edX Platform, we recommned
+If you're looking to add new features to the Open edX Platform, we recommend
 extending the platform rather than trying to make changes to the core.  Both
 XBlocks and Plugins are a great way to extend the platform.
 
@@ -120,4 +124,8 @@ If we don't have extension points for the kind of change you want to make, you m
 This can be complex and we encourage you to `reach out to us`_ to talk about the kind of changes you want to make.
 
 .. _reach out to us: https://open.edx.org/community/connect/
+
+.. seealso::
+
+   - `Open edX Platform Architecture Introduction <https://www.youtube.com/watch?v=LlpdOUnymAQ&list=PL87xhvJSz2W4Pn4dpmxT9goqhGicqg2-5&index=4>`_
 
