@@ -9,11 +9,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 ***********************
 
-The latest supported release line is Olive_, based on code from 2022-10-11.
+The latest supported release line is Palm_, based on code from 2023-04-11.
 
-The next release will be Palm__.
+The next release will be Quince__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3552938822/Palm
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3726802953/Quince
 
 
 All Open edX Releases
@@ -35,14 +35,25 @@ Palm
 ~~~~
 
 * **Code cut date:** 2023-04-11
-* **Status:** upcoming
+* **Status:** supported
 * :doc:`Release Notes <./palm>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Palm.1
+     - 2023-06-14
+     - open-release/palm.1
 
 Olive
 =====
 
 * **Code cut date:** 2022-10-11
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./olive>`
 
 .. list-table::
