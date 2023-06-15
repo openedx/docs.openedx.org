@@ -11,6 +11,7 @@ fixes and features. These older releases will not recieve any of those.
 .. toctree::
    :maxdepth: 2
 
+   olive
    nutmeg
    maple
    lilac
