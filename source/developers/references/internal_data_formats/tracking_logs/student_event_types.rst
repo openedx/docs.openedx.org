@@ -1587,7 +1587,7 @@ Users edit a comment about a response by entering text and then submitting
 the contributions. When these actions are complete, the server emits an
 ``edx.forum.comment.edited`` event.
 
-**History**: Added 3 Oct 2022.
+**History**: Added for Discussions MFE on 3 Oct 2022, added for legacy forums 21 Nov 2022
 
 **Component**: Discussion
 
@@ -1604,15 +1604,15 @@ purpose for comments as they do for threads or responses.
 * ``category_id``
 * ``category_name``
 * ``content_type``
-* ``discussion``
 * ``id``
-* ``options``
-* ``team_id``
-* ``truncated``
 * ``url``
 * ``user_course_roles``
 * ``user_forums_roles``
 
+The following member fields serve the same purpose for threads as they do for
+comments:
+
+* ``target_username``
 
 .. list-table::
    :widths: 15 15 60
@@ -1621,15 +1621,6 @@ purpose for comments as they do for threads or responses.
    * - Field
      - Type
      - Details
-   * - ``target_username``
-     - string
-     - Identifies a user who does not have discussion management privileges as a ‘Student’.
-       Identifies users who have discussion management privileges as a course ‘Community TA’,
-       ‘Moderator’, or ‘Administrator’.
-
-       The Columns in the django_comment_client_role_users table lists the
-       discussion role of every enrolled user.
-
    * - ``edit_reason``
      - string
      - Identifies the reason selected for the edit.
@@ -1670,6 +1661,78 @@ purpose for comments as they do for threads or responses.
 * ``user_course_roles``
 * ``user_forums_roles``
 
+
+=====================================================
+``edx.forum.comment.reported``
+=====================================================
+
+Users can report a comment as inappropriate. When this action is taken
+the ``edx.forum.comment.reported`` is emitted.
+
+**History**: Added 1 Nov 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.comment.reported`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_comment`
+events.
+
+* ``id``
+* ``url``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``body``
+* ``content_type``
+
+
+=====================================================
+``edx.forum.comment.unreported``
+=====================================================
+
+Users can report a comment as inappropriate, they can also undo this action.
+When a thread is un-reported the ``edx.forum.comment.unreported`` is emitted.
+
+**History**: Added 1 Nov 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.comment.unreported`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_comment`
+events.
+
+* ``id``
+* ``url``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``body``
+* ``truncated``
+* ``content_type``
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``reported_status_cleared``
+     - Boolean
+     - TRUE if the reported status of the content is cleared, otherwise FALSE.
+       Note that reported status is only removed when:
+       1. A user with moderation role un-reports content.
+       2. All users without moderation roles, who reported the content, have un-reported it.
 
 .. _forum_response:
 
@@ -1757,7 +1820,7 @@ Users edit a response by entering text and then submitting the contributions.
 When these actions are complete, the server emits an
 ``edx.forum.response.edited`` event.
 
-**History**: 3 Oct 2022.
+**History**: Added for Discussions MFE on 3 Oct 2022, added for legacy forums 21 Nov 2022
 
 **Component**: Discussion
 
@@ -1776,6 +1839,7 @@ do for threads.
 * ``user_course_roles``
 * ``user_forums_roles``
 * ``target_username``
+* ``content_type``
 
 The following member fields serve the same purpose for responses as they do for
 comments:
@@ -1784,6 +1848,149 @@ comments:
 * ``edit_reason``
 * ``own_content``
 * ``content_type``
+
+=====================================================
+``edx.forum.response.mark``
+=====================================================
+
+Users are able to mark a comment as "endorsed" or "answered". When they do this the
+``edx.forum.response.mark`` event is emitted.
+
+**History**: 5 Dec 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.response.mark`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose for responses as they
+do for threads or comments.
+
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``discussion.id``
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``mark_type``
+     - string
+     - Indicates the type of mark added. Either ``Endorse`` or ``Answer``
+
+=====================================================
+``edx.forum.response.unmark``
+=====================================================
+
+Users are able to mark a comment as "endorsed" or "answered", they may also undo
+that action by "unmarking". When this happens ``edx.forum.response.unmark`` is
+emitted.
+
+**History**: 5 Dec 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.response.unmark`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events.
+
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``discussion.id``
+
+The following member fields serve the same purpose for responses as they
+do for response marks:
+
+* ``mark_type``
+
+=====================================================
+``edx.forum.response.reported``
+=====================================================
+
+Users can report a response as inappropriate. When this action is taken
+the ``edx.forum.response.reported`` is emitted.
+
+**History**: Added 1 Nov 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.response.reported`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_response`
+events.
+
+* ``id``
+* ``url``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``discussion.id``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``body``
+* ``content_type``
+
+=====================================================
+``edx.forum.response.unreported``
+=====================================================
+
+Users can report a response as inappropriate, they can also undo this action.
+When a thread is un-reported the ``edx.forum.response.unreported`` is emitted.
+
+**History**: Added 1 Nov 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.response.unreported`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_response`
+events.
+
+* ``id``
+* ``url``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``discussion.id``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``body``
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``reported_status_cleared``
+     - Boolean
+     - TRUE if the reported status of the content is cleared, otherwise FALSE.
+       Note that reported status is only removed when:
+       1. A user with moderation role un-reports content.
+       2. All users without moderation roles, who reported the content, have un-reported it.
 
 =====================================================
 ``edx.forum.response.voted``
@@ -2089,7 +2296,7 @@ Users edit a top-level thread by clicking **Edit** and then submitting their
 changes. When these actions are complete, the server emits an
 ``edx.forum.thread.edited`` event.
 
-**History**: Added 3 Oct 2022.
+**History**: Added for Discussions MFE on 3 Oct 2022, added for legacy forums 21 Nov 2022
 
 **Component**: Discussion
 
@@ -2100,20 +2307,37 @@ many of the same ``event`` member fields that are described for :ref:`forum_thre
 events. The following member fields serve the same purpose for thread edits as
 they do for comment edition.
 
-* ``body``
+* ``commentable_id``
 * ``category_id``
 * ``category_name``
-* ``commentable_id``
+* ``content_type``
 * ``id``
-* ``team_id``
 * ``url``
 * ``user_course_roles``
 * ``user_forums_roles``
+* ``content_type``
 
 The following member fields serve the same purpose for threads as they do for
 comments:
 
 * ``target_username``
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``edit_reason``
+     - string
+     - Identifies the reason selected for the edit.
+   * - ``own_content``
+     - boolean
+     - Identifies whether the user is the author of the comment.
+   * - ``content_type``
+     - string
+     - Identifies the type of content. Possible values are 'post', 'comment', 'response'.
 
 =====================================================
 ``edx.forum.thread.locked``
@@ -2159,6 +2383,35 @@ comments:
      - string
      - The reason that the thread was locked.
 
+=====================================================
+``edx.forum.thread.reported``
+=====================================================
+
+Users can report a comment thread as inappropriate. When this action is taken
+the ``edx.forum.thread.reported`` is emitted.
+
+**History**: Added 1 Nov 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.thread.reported`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events.
+
+* ``id``
+* ``url``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``body``
+* ``title``
+* ``title_truncated``
+* ``content_type``
 
 =====================================================
 ``edx.forum.thread.unlocked``
@@ -2197,6 +2450,50 @@ The following member fields serve the same purpose for thread unlocks as they do
 thread locks:
 
 * ``lock_reason``
+
+=====================================================
+``edx.forum.thread.unreported``
+=====================================================
+
+Users can report a comment thread as inappropriate, they can also undo this action.
+When a thread is un-reported the ``edx.forum.thread.unreported`` is emitted.
+
+**History**: Added 1 Nov 2022.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+``event`` **Member Fields**: The ``edx.forum.thread.unreported`` events include
+many of the same ``event`` member fields that are described for :ref:`forum_thread`
+events. The following member fields serve the same purpose as other thread events.
+
+* ``id``
+* ``url``
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``target_username``
+* ``body``
+* ``title``
+* ``title_truncated``
+* ``content_type``
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``reported_status_cleared``
+     - Boolean
+     - TRUE if the reported status of the content is cleared, otherwise FALSE.
+       Note that reported status is only removed when:
+       1. A user with moderation role un-reports content.
+       2. All users without moderation roles, who reported the content, have un-reported it.
 
 .. _edx.forum.thread.viewed:
 

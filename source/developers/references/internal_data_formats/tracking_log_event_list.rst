@@ -122,11 +122,19 @@ D, E, F
      - :ref:`forum_events`
    * - ``edx.forum.comment.deleted``
      - :ref:`forum_events`
+   * - ``edx.forum.comment.reported``
+     - :ref:`forum_events`
+   * - ``edx.forum.comment.unreported``
+     - :ref:`forum_events`
    * - ``edx.forum.response.created``
      - :ref:`forum_events`
    * - ``edx.forum.response.deleted``
      - :ref:`forum_events`
    * - ``edx.forum.response.edited``
+     - :ref:`forum_events`
+   * - ``edx.forum.response.reported``
+     - :ref:`forum_events`
+   * - ``edx.forum.response.unreported``
      - :ref:`forum_events`
    * - ``edx.forum.response.voted``
      - :ref:`forum_events`
@@ -140,7 +148,11 @@ D, E, F
      - :ref:`forum_events`
    * - ``edx.forum.thread.locked``
      - :ref:`forum_events`
+   * - ``edx.forum.thread.reported``
+     - :ref:`forum_events`
    * - ``edx.forum.thread.unlocked``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.unreported``
      - :ref:`forum_events`
    * - ``edx.forum.thread.viewed``
      - :ref:`forum_events`
