@@ -70,8 +70,9 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/openedx-proposals/{rtd_language}/latest",
         None,
     ),
-    "openedx-oars": (
-        f"https://docs.openedx.org/projects/openedx-oars/{rtd_language}/{rtd_version}",
+    "openedx-aspects": (
+        f"https://docs.openedx.org/projects/openedx-aspects/{rtd_language}"
+        f"/{rtd_version}",
         None,
     ),
     "edx-installing-configuring-and-running": (

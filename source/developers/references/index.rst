@@ -9,7 +9,7 @@ Per Repo Documentation
    relevant mapping to the ``intersphinx_mapping`` setting in conf.py
 
 * :doc:`DoneXBlock:index`
-* :doc:`openedx-oars:index`
+* :doc:`openedx-aspects:index`
 
 Other References
 ****************
