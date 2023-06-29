@@ -150,8 +150,8 @@ Steps
    .. code::
 
       cd docs/
-      mkdir -p {concepts,how-tos,quickstarts,reference,decisions}
-      touch {concepts,how-tos,quickstarts,reference,decisions}/index.rst
+      mkdir -p {concepts,how-tos,quickstarts,references,decisions}
+      touch {concepts,how-tos,quickstarts,references,decisions}/index.rst
 
 #. Add a title to each index.rst
 
