@@ -46,6 +46,7 @@ Educators: How-tos
 
          add_written_content
          add_image
+         copy_paste_course_content
          manage_files
 
    .. grid-item-card::
