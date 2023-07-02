@@ -104,7 +104,7 @@ sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
 tornado==6.3.2
     # via livereload
-typing-extensions==4.6.3
+typing-extensions==4.7.0
     # via pydata-sphinx-theme
 urllib3==2.0.3
     # via requests
