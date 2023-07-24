@@ -19,6 +19,8 @@ Educators: How-tos
          create_course_about_page
          set_up_prerequisites
          set_up_certificates
+         importing_exporting
+         course_reruns
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -46,8 +48,13 @@ Educators: How-tos
 
          add_written_content
          add_image
+         add_content_iframe
          copy_paste_course_content
          manage_files
+         add_course_updates
+         import_scorm_content
+         using_lti
+         leveraging_libraries
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -91,6 +98,7 @@ Educators: How-tos
          write_grader
          math_expression
          open_response
+         add_video_quiz
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
