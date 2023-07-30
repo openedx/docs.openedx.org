@@ -78,7 +78,7 @@ sphinx-book-theme==1.0.1
     # via -r requirements/base.in
 sphinx-copybutton==0.5.2
     # via -r requirements/base.in
-sphinx-design==0.4.1
+sphinx-design==0.5.0
     # via -r requirements/base.in
 sphinxcontrib-applehelp==1.0.4
     # via sphinx
