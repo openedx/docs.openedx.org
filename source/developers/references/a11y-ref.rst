@@ -3,7 +3,7 @@ Open edX Accessibility Reference
 ################################
 
 This reference guide showcases the many ways to make your Open edX features
-meet our accessibility guidelines. See :doc:`../concepts/accessibility.rst`
+meet our accessibility guidelines. See :doc:`../concepts/accessibility`
 to learn more.
 
 .. contents::
