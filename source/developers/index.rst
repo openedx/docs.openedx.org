@@ -46,6 +46,7 @@ Open edX Developers
       
       * :doc:`concepts/platform_overview`
       * :doc:`concepts/backend_layout_and_approach`
+      * :doc:`concepts/accessibility`
       +++
       .. button-ref:: concepts/index
          :color: primary

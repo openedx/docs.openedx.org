@@ -88,4 +88,4 @@ develop user interfaces that are WCAG 2.0 compliant.
 * Choose colors that meet minimum contrast ratios
 * Test your code for accessibility
 
-For more on how to code for accessibility, see :doc:`../references/a11y-ref.rst`.
+For more on how to code for accessibility, see :doc:`../references/a11y-ref`.
