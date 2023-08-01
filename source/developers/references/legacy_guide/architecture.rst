@@ -27,7 +27,7 @@ strategy will help manage the complexity of the edx-platform code base to make
 it as easy as possible for developers to approach and contribute to the
 project.
 
-.. image:: ../../shared/images/edx-architecture.png
+.. image:: ./images/edx-architecture.png
   :width: 700
   :alt: A diagram of the components and technologies that make up an edX site.
 
