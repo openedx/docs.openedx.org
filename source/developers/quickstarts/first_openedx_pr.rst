@@ -121,7 +121,7 @@ Answer them however you like, although the default answers will work fine.
 
 .. code-block:: bash
 
-  tutor dev quickstart
+  tutor dev launch
 
 Depending on your system and your Internet connection speed,
 this could take anywhere from five minutes to over an hour,
