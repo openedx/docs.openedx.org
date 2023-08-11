@@ -73,6 +73,27 @@ As a part of bringing your repository into alignment with the standards of the p
 
 Keeping your dependencies up-to-date on a regular basis is both lest costly and more secure than waiting a long time between package updates.  It is recommended that you **apply all security fix on packages you depend on within weekly**.  For automated PRs that don't contain security updates to dependent packages it is still recommended that you triage them on a weekly basis. Schedule any complex upgrades in a timely manner - you don't want to be in a situation where it becomes an emergency to land them (whether to get new features or apply a major security fix).
 
+Approving GitHub Actions for new committer PRs
+**********************************************
+
+.. note::
+
+   This process is only for contributors that already have passed the CLA check, for those that haven’t please follow the normal process for helping the contributor onboard.
+
+When a user opens their first PR in a repository you maintain it is likely that they will need to be approved before some Github Actions, such as tests, will run. This is to protect us all from having malicious code run in our account as part of our test suite. 
+
+When this occurs the orange “Approve and run“ will appear for the PR.
+
+The current process for this is to:
+
+1. Look over the PR to make sure that it is legitimate and there are no malicious changes.
+
+   a. In the event of a questionable or malicious looking change, please notify #maintainers-pilot in Slack to warn other maintainers and allow us to take appropriate action.
+
+2. Any maintainer or tCRIL employee with write permissions on the repository can approve the PR after step 1 has been completed. This should only need to be done once per contributor per repository. 
+
+3. Once the PR is unblocked, the rest of the approval process should work as normal.
+
 Participating in Forum Discussions
 **********************************
 
