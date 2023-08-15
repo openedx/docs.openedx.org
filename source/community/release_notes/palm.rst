@@ -105,8 +105,7 @@ The Open edX wiki page `[2U] New Visual Problem Editor <https://openedx.atlassia
 provides a brief explanation of what has changed in the problem editor. Updated detailed instructions on writing 
 problems can be found in section `8.4. Working with Problem Components <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_components/create_problem.html#working-with-problem-components>`_ of the Building and Running an edX Course documentation.
 
-The visual problem editor is an update to the Course Authoring Micro-frontend first released in Olive and is enabled by 
-default in Palm. To enable the Visual Problem Editor, add the waffle flag 
+The Visual Problem Editor is an update to the Course Authoring Micro-frontend, which was experimentally released in Olive, and is available to be enabled in Palm. To enable the Visual Problem Editor, add the waffle flag 
 :code:`new_core_editors.use_new_problem_editor` and set the value to “Yes” for all users.
 
 New ORA Grading Experience
