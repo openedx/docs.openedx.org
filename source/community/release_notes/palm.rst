@@ -97,7 +97,7 @@ Instructor Experiences
 New Visual Problem Editor
 =========================
 
-The release includes an improved problem-authoring experience with an interactive editor. Writing markdown 
+The release includes an experimental improved problem-authoring experience with an interactive editor. When enabled, writing markdown 
 code is no longer necessary. But, the advanced mode is still available, maintaining the ability to write and edit 
 OLX XML.
 
@@ -105,7 +105,7 @@ The Open edX wiki page `[2U] New Visual Problem Editor <https://openedx.atlassia
 provides a brief explanation of what has changed in the problem editor. Updated detailed instructions on writing 
 problems can be found in section `8.4. Working with Problem Components <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_components/create_problem.html#working-with-problem-components>`_ of the Building and Running an edX Course documentation.
 
-The Visual Problem Editor is an update to the Course Authoring Micro-frontend, which was experimentally released in Olive, and is available to be enabled in Palm. To enable the Visual Problem Editor, add the waffle flag 
+The Visual Problem Editor is hosted in the existing Course Authoring Micro-frontend. To enable the Visual Problem Editor, add the waffle flag 
 :code:`new_core_editors.use_new_problem_editor` and set the value to “Yes” for all users.
 
 New ORA Grading Experience
