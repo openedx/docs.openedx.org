@@ -24,8 +24,8 @@ Maintainers Home
       :class-footer: sd-border-0
 
       * `Maintainership Wiki Space`_
-      * `Maintainer Scrum of Scrums Notes`_
-      * `Office Hours Notes`_
+      * `Maintainers Scrum of Scrums Notes`_
+      * `Maintainers Office Hours Notes`_
 
 Concepts Documentation
 **********************
@@ -34,14 +34,14 @@ Concepts Documentation
   OEP that kicked off the maintainership program.
 
 * `Community Contributions Project Manager`_ - The role definition for the
-  Community Project Managers.  They help triage PRs and coordinate reviews from
-  subject matter experts.
+  Community Project Managers.  They help triage community PRs and coordinate
+  reviews from subject matter experts.
 
 .. _Maintainers Slack Channel: https://openedx.slack.com/archives/C03R320AFJP
 
-.. _Office Hours Notes:  https://openedx.atlassian.net/wiki/spaces/COMM/pages/3603791889/Office+Hours+Notes
+.. _Maintainers Office Hours Notes:  https://openedx.atlassian.net/wiki/spaces/COMM/pages/3603791889/Office+Hours+Notes
 
-.. _Maintainer Scrum of Scrums Notes: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3507027983/Maintainers+Scrum+of+Scrums
+.. _Maintainers Scrum of Scrums Notes: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3507027983/Maintainers+Scrum+of+Scrums
 
 .. _Maintainership Wiki Space: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3426844690/Maintainership+Pilot
 

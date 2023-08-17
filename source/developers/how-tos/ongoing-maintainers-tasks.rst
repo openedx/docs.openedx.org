@@ -90,7 +90,7 @@ The current process for this is to:
 
    a. In the event of a questionable or malicious looking change, please notify #maintainers-pilot in Slack to warn other maintainers and allow us to take appropriate action.
 
-2. Any maintainer or tCRIL employee with write permissions on the repository can approve the PR after step 1 has been completed. This should only need to be done once per contributor per repository. 
+2. Any maintainer or Axim employee with write permissions on the repository can approve the PR after step 1 has been completed. This should only need to be done once per contributor per repository. 
 
 3. Once the PR is unblocked, the rest of the approval process should work as normal.
 
