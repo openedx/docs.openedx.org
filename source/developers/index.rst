@@ -29,7 +29,6 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
       
-      * :doc:`how-tos/maintain-a-repo`
       * :doc:`how-tos/enable-python-upgrade-automation`
       * :doc:`how-tos/enable-javascript-upgrade-automation`
       +++
@@ -59,7 +58,6 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
       
-      * :doc:`references/tools_for_maintainers`
       * :doc:`references/internal_data_formats/index`
       * `edx-platform <https://github.com/openedx/edx-platform>`_
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
@@ -70,3 +68,24 @@ Open edX Developers
          :expand:
 
          More References
+
+   .. grid-item-card:: Maintainers Home
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+      
+      * :doc:`how-tos/maintain-a-repo`
+      * :doc:`how-tos/ongoing-maintainers-tasks`
+      * :doc:`references/tools_for_maintainers`
+
+      +++
+      .. button-ref:: maintainers_home
+         :color: primary
+         :outline:
+         :expand:
+
+         Maintainers Home
+
+.. toctree::
+   :hidden:
+
+   maintainers_home
