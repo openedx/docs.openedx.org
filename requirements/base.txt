@@ -42,7 +42,7 @@ packaging==23.1
     #   sphinx
 pydata-sphinx-theme==0.13.3
     # via sphinx-book-theme
-pygments==2.15.1
+pygments==2.16.1
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -102,7 +102,7 @@ sphinxcontrib-youtube==1.2.0
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-tornado==6.3.2
+tornado==6.3.3
     # via livereload
 typing-extensions==4.7.1
     # via pydata-sphinx-theme
