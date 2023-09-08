@@ -26,9 +26,8 @@ management:
 
 - Created the new `openedx-translations project`_ in Transifex.
 - Created the new `openedx-translations repo`_ in GitHub.
-- Setup two-way links between the Transifex project and the GitHub repo via the
-  `Transifex GitHub app <https://github.com/apps/transifex-integration>`_.
-- Added new the `atlas <https://github.com/openedx/openedx-atlas>`_ command line tool to pull translations which will
+- Setup two-way links between the Transifex project and the GitHub repo via the `Transifex GitHub App`_.
+- Added new the `openedx-atlas`_ command line tool to pull translations which will
   be used in the repo Makefiles, build and deploy processes to fetch translations from the
   `openedx-translations repo`_.
 
@@ -60,8 +59,8 @@ workflow:
    **Note:** Some repositories use ``django-manage makemessages``. The recommendation is to use ``i18n_tool extract``
    because it provides more options and cleans ``.po`` files.
 
-#. Run ``make extract_translations``. Verify it extracts files to the ``my_xblock_module/conf/locale``
-   directory. The ``.po`` filenames will vary depending on the use case:
+#. Run ``make extract_translations``. Verify it extracts files to a proper ``conf/locale`` directory e.g.
+   ``drag_and_drop_v2/conf/locale``. The ``.po`` filenames will vary depending on the use case:
 
    - XBlocks: ``text.po``
    - Django plugins: ``django.po``
@@ -93,13 +92,25 @@ workflow:
             - repo_name: credentials-themes
             ...
 
+#. Add the repository to the `transifex.yml`_ file in the `openedx-translations repo`_ to enable two-way translations
+   sync by the `Transifex GitHub App`_. For example the
+   Drag and Drop XBlock should have the following entry in the `transifex.yml`_ file::
+
+   # xblock-drag-and-drop-v2
+   - filter_type: dir
+     file_format: PO
+     source_file_extension: po
+     source_language: en
+     source_file_dir: translations/xblock-drag-and-drop-v2/drag_and_drop_v2/conf/locale/en/
+     translation_files_expression: 'translations/xblock-drag-and-drop-v2/drag_and_drop_v2/conf/locale/<lang>/'
+
 #. Create a draft pull request in the `openedx-translations repo`_
 
-#. Follow the instructions in the :ref:`testing-in-your-fork` section to verify new repository configuration.
+#. Follow the instructions in the :ref:`pre-merge-checklist` section to verify new repository configuration.
 
 #. Mark your pull request as ready for review and wait for it to be merged.
 
-#. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
+#. Verify the workflow is syncing the translations properly as described in the :ref:`post-merge-checklist` section.
 
 #. Install the XBlock or plugin in your local `Tutor`_ or `devstack`_ environment. Run
    ``OPENEDX_ATLAS_PULL=true make pull_translations`` in the edx-platform repo to preview the translations.
@@ -123,11 +134,11 @@ edX project. There are many Django microservices in the Open edX ecosystem, such
 
 #. Create a draft pull request in the `openedx-translations repo`_
 
-#. Follow the instructions in the :ref:`testing-in-your-fork` section to verify the new repository configuration.
+#. Follow the instructions in the :ref:`pre-merge-checklist` section to verify the new repository configuration.
 
 #. Mark your pull request as ready for review and wait for it to be merged.
 
-#. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
+#. Verify the workflow is syncing the translations properly as described in the :ref:`post-merge-checklist` section.
 
 #. Run ``OPENEDX_ATLAS_PULL=true make pull_translations`` to verify translations are pulled from the
    `openedx-translations repo`_ into the ``conf/locale`` directory. To generate JavaScript translation files you will
@@ -146,11 +157,11 @@ React Repos
 
 #. Create a draft pull request in the `openedx-translations repo`_
 
-#. Follow the instructions in the ref:`testing-in-your-fork` section to verify new repository configuration.
+#. Follow the instructions in the ref:`pre-merge-checklist` section to verify new repository configuration.
 
 #. Mark your pull request as ready for review and wait for it to be merged.
 
-#. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
+#. Verify the workflow is syncing the translations properly as described in the :ref:`post-merge-checklist` section.
 
 #. Depending on how you deploy the micro-frontend, include the ``pull_translations`` make rule with the
    ``OPENEDX_ATLAS_PULL`` environment variable set to ``true`` e.g
@@ -160,11 +171,13 @@ React Repos
    build.
 
 
-.. _testing-in-your-fork:
+.. _pre-merge-checklist:
 
 ======================================
 Testing translations sync in your fork
 ======================================
+
+Below is a checklist _before_ merging the `extract-translation-source-files.yml`_ integration pull request.
 
 Before submitting a pull request for review in the `openedx-translations repo`_, you should test the workflow
 on a fork by following the steps below:
@@ -193,11 +206,13 @@ on a fork by following the steps below:
    **Note:** This step assumes that you're already familiar with `Tutor`_ and/or `devstack`_.
 
 
-.. _debugging-translations:
+.. _post-merge-checklist:
 
 ================================
 Debugging translations workflows
 ================================
+
+Below is a checklist _after_ merging the `extract-translation-source-files.yml`_ integration pull request.
 
 After adding a repository to the `openedx-translations repo`_ verify the following the next day:
 
@@ -229,7 +244,9 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _frontend-template-application: https://github.com/openedx/frontend-template-application
 .. _OEP-58 - Translations Management: https://docs.openedx.org/projects/openedx-proposals/en/latest/architectural-decisions/oep-0058-arch-translations-management.html
 .. _extract-translation-source-files.yml: https://github.com/openedx/openedx-translations/blob/2566e0c9a30d033e5dd8d05d4c12601c8e37b4ef/.github/workflows/extract-translation-source-files.yml#L36-L43
+.. _transifex.yml: https://github.com/openedx/openedx-translations/blob/main/transifex.yml#L253-L259
 .. _Transifex GitHub App sync logs: https://github.apps.transifex.com/projects/o:open-edx:p:openedx-translations/openedx/openedx-translations
+.. _Transifex GitHub App: https://github.com/apps/transifex-integration
 .. _cookiecutter-django-ida: https://github.com/openedx/edx-cookiecutters/tree/master/cookiecutter-django-ida
 .. _openedx-translations project: https://app.transifex.com/open-edx/openedx-translations/dashboard/
 .. _openedx-translations GitHub Actions tab: https://github.com/openedx/openedx-translations/actions
@@ -245,5 +262,6 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _ecommerce: https://github.com/openedx/ecommerce
 .. _course-discovery: https://github.com/openedx/course-discovery
 
+.. _openedx-atlas: https://github.com/openedx/openedx-atlas
 .. _Tutor: https://docs.tutor.overhang.io/
 .. _devstack: https://github.com/openedx/devstack/
