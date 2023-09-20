@@ -22,4 +22,5 @@ Other References
    tools_for_maintainers
    a11y-ref
    internal_data_formats/index
+   legacy_guide/index
    glossary

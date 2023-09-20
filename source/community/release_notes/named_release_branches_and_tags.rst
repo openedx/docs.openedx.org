@@ -49,6 +49,10 @@ Palm
      - 2023-06-14
      - open-release/palm.1
 
+   * - Palm.2
+     - 2023-08-09
+     - open-release/palm.2
+
 Olive
 =====
 
@@ -74,6 +78,10 @@ Olive
    * - Olive.3
      - 2023-04-11
      - open-release/olive.3
+
+   * - Olive.4
+     - 2023-05-22
+     - open-release/olive.4
 
 Nutmeg
 ======
