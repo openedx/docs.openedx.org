@@ -14,6 +14,8 @@ To enable translations on a new repository according to the `OEP-58 - Translatio
   for Python)
 - Configure the repository according to the appropriate section later in this document.
 
+.. seealso::
+  :doc:`/developers/concepts/oep58`
 
 Configuration
 *************
