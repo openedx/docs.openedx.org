@@ -26,7 +26,7 @@ workflow:
 
 #. If you are creating a new repository, use the `edx-cookiecutters`_ templates such as ``django-app`` or ``xblock``.
 
-#. For existing repos which don't have the ``make extract_translations`` command, it can be copied from the
+   For existing repos which don't have the ``make extract_translations`` command, it can be copied from the
    `edx-cookiecutters`_ Makefile in the corresponding template e.g. ``cookiecutter-xblock`` Makefile for XBlocks.
 
    .. note::
@@ -93,7 +93,25 @@ edX project. There are many Django microservices in the Open edX ecosystem, such
 #. If you are creating a new repository, use the `cookiecutter-django-ida`_
    template.
 
-**TODO:** How to enable translations infrastructure on a Django microservice
+   For existing repos which don't have the ``make extract_translations`` or
+   ``make pull_translations`` command, they can be copied from the
+   `edx-cookiecutters`_ Makefile in the ``cookiecutter-django-ida`` Makefile for Microservices.
+
+#. Run ``make extract_translations``. Verify it extracts both ``django.po`` and ``djangojs.po``
+   files into the ``conf/locale`` directory.
+
+#. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
+
+   Add a new entry under the ``python-translations`` section. For example for the `credentials`_ repo it should have
+   the following entry::
+
+    django-translations:
+      strategy:
+        matrix:
+          repo:
+            ...
+            - repo_name: credentials
+            ...
 
 #. Create a draft pull request in the `openedx-translations repo`_
 
@@ -104,22 +122,37 @@ edX project. There are many Django microservices in the Open edX ecosystem, such
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
 #. Run ``OPENEDX_ATLAS_PULL=true make pull_translations`` to verify translations are pulled from the
-   `openedx-translations repo`_ into the ``conf/locale`` directory. To generate JavaScript translation files you will
-   likely also need to run ``make static``/``make static.dev``.
+   `openedx-translations repo`_ into the ``conf/locale`` directory. To generate JavaScript translation
+   files you will likely also need to run ``make static``/``make static.dev``.
 
 React Repos
 ===========
 
 #. If you are creating a new repository, use `frontend-template-application`_.
 
-**TODO:** How to enable translations infrastructure on a React repo
+   For existing repos which don't have the ``make extract_translations`` or
+   ``make pull_translations`` command, they can be copied from the
+   `frontend-template-application Makefile`_.
 
 #. Run ``make extract_translations``. Verify that it creates ``src/i18n/transifex_input.json``. This file should be
    excluded from the repo via the ``.gitignore`` file.
 
+#. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
+
+   Add a new entry under the ``javascript-translations`` section. For example for the `frontend-app-learning`_ repo
+   should have the following entry::
+
+    js-translations:
+      strategy:
+        matrix:
+          repo:
+            ...
+            - frontend-app-learning
+            ...
+
 #. Create a draft pull request in the `openedx-translations repo`_
 
-#. Follow the instructions in the ref:`testing-in-your-fork` section to verify new repository configuration.
+#. Follow the instructions in the :ref:`testing-in-your-fork` section to verify the new repository configuration.
 
 #. Mark your pull request as ready for review and wait for it to be merged.
 
@@ -204,6 +237,7 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _openedx-translations repo:  https://github.com/openedx/openedx-translations
 .. _edx-cookiecutters:  https://github.com/openedx/edx-cookiecutters
 .. _frontend-template-application: https://github.com/openedx/frontend-template-application
+.. _frontend-template-application Makefile: https://github.com/openedx/frontend-template-application/blob/master/Makefile
 .. _OEP-58 - Translations Management: https://docs.openedx.org/projects/openedx-proposals/en/latest/architectural-decisions/oep-0058-arch-translations-management.html
 .. _extract-translation-source-files.yml: https://github.com/openedx/openedx-translations/blob/2566e0c9a30d033e5dd8d05d4c12601c8e37b4ef/.github/workflows/extract-translation-source-files.yml#L36-L43
 .. _Transifex GitHub App sync logs: https://github.apps.transifex.com/projects/o:open-edx:p:openedx-translations/openedx/openedx-translations
@@ -211,7 +245,6 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _openedx-translations project: https://app.transifex.com/open-edx/openedx-translations/dashboard/
 .. _openedx-translations GitHub Actions tab: https://github.com/openedx/openedx-translations/actions
 .. _#wg-translations: https://openedx.slack.com/archives/C037XDB9KN1
-
 
 .. _chore - add updated translation source files #615: https://github.com/openedx/openedx-translations/pull/615
 .. _Updates for file translations/frontend-app-learning/src/i18n/transifex_input.json in de on branch main #598: https://github.com/openedx/openedx-translations/pull/598
@@ -221,6 +254,7 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _credentials: https://github.com/openedx/credentials
 .. _ecommerce: https://github.com/openedx/ecommerce
 .. _course-discovery: https://github.com/openedx/course-discovery
+.. _frontend-app-learning: https://github.com/openedx/frontend-app-learning
 
 .. _Tutor: https://docs.tutor.overhang.io/
 .. _devstack: https://github.com/openedx/devstack/
