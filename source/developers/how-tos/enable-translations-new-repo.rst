@@ -43,9 +43,8 @@ workflow:
 
 #. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
 
-   Add a new entry under the ``python-translations`` section. For example for the XBlock located in
-   ``https://github.com/openedx/xblock-drag-and-drop-v2`` and has the XBlock Python 
-   module name ``drag_and_drop_v2`` it should have the following entry::
+   Add a new entry under the ``python-translations`` section. For example, the XBlock located at
+   ``https://github.com/openedx/xblock-drag-and-drop-v2`` should have the following entry::
 
     python-translations:
       strategy:
@@ -53,19 +52,11 @@ workflow:
           repo:
             ...
             - repo_name: xblock-drag-and-drop-v2
-              python_module_name: drag_and_drop_v2
             ...
 
-   When adding a theme or any other module that's not an Open edX plugin or an XBlock the entry should
-   added without ``python_module_name`` as demonstrated below::
 
-    python-translations:
-      strategy:
-        matrix:
-          repo:
-            ...
-            - repo_name: credentials-themes
-            ...
+#. Add the repository to the `transifex.yml`_ file in the `openedx-translations repo`_.
+   Copy the `Drag and Drop XBlock transifex.yml entry`_ and modify it to match the new repository.
 
 #. Create a draft pull request in the `openedx-translations repo`_
 
@@ -76,7 +67,7 @@ workflow:
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
 #. Install the XBlock or plugin in your local `Tutor`_ or `devstack`_ environment. Run
-   ``OPENEDX_ATLAS_PULL=true make pull_translations`` in the edx-platform repo to preview the translations.
+   ``OPENEDX_ATLAS_PULL=true make pull_translations`` in the ``edx-platform`` repo to preview the translations.
 
 
 Django Microservice Repos (IDAs)
@@ -145,10 +136,15 @@ Before submitting a pull request for review in the `openedx-translations repo`_,
 on a fork by following the steps below:
 
 #. Fork the `openedx-translations repo`_.
-#. Make a pull request to your fork and modify the `extract-translation-source-files.yml`_ workflow to include your
-   repo and your organization name ...... **TODO:** add example https://github.com/Zeit-Labs/openedx-translations/pull/1/files
+#. Make a pull request to your fork and modify the `extract-translation-source-files.yml`_ workflow to use your
+   repo, your organization name and the branch in the clone section.
+   For example, the `frontend-lib-special-exams testing pull request`_ uses the ``Zeit-Labs/frontend-lib-special-exams`` repository with the branch
+   set via ``ref: fix-i18n``.
 
-**TODO:** Add full test instructions like Shadi, Brian and Omar tested in their forks.
+#. Modify the `extract-translation-source-files.yml`_ workflow to run ``pull_request`` events.
+
+#. Verify that an automated source translation pull request is created on your fork similar to the
+   `chore - add updated translation source files`_ pull request.
 
 #. Add any test translations to your fork of the `openedx-translations repo`_ in the repo directory to overcome the
    fact that translations don't exist in the upstream `openedx-translations repo`_ yet.
@@ -216,6 +212,9 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _chore - add updated translation source files #615: https://github.com/openedx/openedx-translations/pull/615
 .. _Updates for file translations/frontend-app-learning/src/i18n/transifex_input.json in de on branch main #598: https://github.com/openedx/openedx-translations/pull/598
 .. _course discovery translations: https://github.com/openedx/openedx-translations/tree/f0315d4/translations/course-discovery/course_discovery/conf/locale
+.. _frontend-lib-special-exams testing pull request: https://github.com/Zeit-Labs/openedx-translations/pull/1/files
+.. _transifex.yml: https://github.com/openedx/openedx-translations/blob/main/transifex.yml
+.. _Drag and Drop XBlock transifex.yml entry: https://github.com/openedx/openedx-translations/blob/19c0fcbbc334c56022df355fa5b529e5853d30f9/transifex.yml#L253-L259
 
 .. _edx-platform: https://github.com/openedx/edx-platform
 .. _credentials: https://github.com/openedx/credentials
@@ -224,3 +223,4 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 
 .. _Tutor: https://docs.tutor.overhang.io/
 .. _devstack: https://github.com/openedx/devstack/
+.. _chore - add updated translation source files: https://github.com/Zeit-Labs/openedx-translations/pull/49/commits/e872c962d6873b9f178f8901ef661c7f1c266397
