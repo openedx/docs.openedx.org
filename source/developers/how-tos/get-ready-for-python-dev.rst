@@ -68,7 +68,7 @@ Working on a Repo
 
      make test
 
-   Depending on the repository this might run not just unit tests, but also linters and other quality checks. The Makefile may also define a more comprehensive ``test-all`` target.
+   Depending on the repository this might run not just unit tests, but also linters and other quality checks. The Makefile may also define ``make quality`` for code quality checks, or even a comprehensive ``test-all`` target.
 
 #. Make a branch for your changes::
 
