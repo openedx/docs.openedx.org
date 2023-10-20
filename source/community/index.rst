@@ -5,3 +5,4 @@ Community Home
    :maxdepth: 1
 
    release_notes/index
+   security_policy/index
