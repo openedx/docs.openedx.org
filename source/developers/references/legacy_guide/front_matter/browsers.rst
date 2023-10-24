@@ -4,4 +4,10 @@
 Open edX Browser Support
 ########################
 
-TODO: This needs to be removed from all of the books that reference it and be updated for the Open edX community.
+Browser support for the Open edX software is defined by the
+`browserslist-config <https://github.com/openedx/browserslist-config>`_
+frontend package. See this site for information about what browsers the
+latest version of the Open edX platform supports.
+
+Older versions of the Open edX software are not guarenteed to work on
+the latest versions of Chrome, Firefox, or other browsers.
