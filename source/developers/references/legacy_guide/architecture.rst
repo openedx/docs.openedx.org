@@ -1,6 +1,6 @@
-#####################
-Open edX Architecture
-#####################
+##############################
+Open edX Platform Architecture
+##############################
 
 The Open edX project is a web-based platform for creating, delivering, and
 analyzing online courses. It is the software that powers edx.org and many other
@@ -22,14 +22,14 @@ respectively).
 
 This service is supported by a collection of other autonomous web services
 called independently deployed applications (IDAs). Over time, we plan to
-break out more of the existing edx-platform functions into new IDAs and MFEs. This
-strategy will help manage the complexity of the edx-platform code base to make
-it as easy as possible for developers to approach and contribute to the
-project.
+break out more of the existing edx-platform functions into new IDAs and MFEs
+(micro front-ends). This strategy will help manage the complexity of the
+edx-platform code base to make it as easy as possible for developers to approach
+and contribute to the project.
 
 .. image:: ./images/edx-architecture.png
   :width: 700
-  :alt: A diagram of the components and technologies that make up an edX site.
+  :alt: A diagram of the components and technologies that make up an Open edX site.
 
 Almost all of the server-side code in the Open edX project is in `Python`_,
 with `Django`_ as the web application framework.
@@ -42,6 +42,13 @@ Key Components
 Learning Management System (LMS)
 ================================
 
+The LMS is the experience that learners on Open edX sites see. It consists
+of various functionalities such as a dashboard of courses, views of various
+problem types, and progress pages for each course. Much of the LMS functionality,
+such as the in-course experience, Open Response Assessment (ORA) grading, and user
+profiles, is implemented via micro front-ends (MFEs).
+
+LMS course content is written to a `Mongo`_ database.
 
 ======
 Studio
@@ -55,26 +62,23 @@ LMS uses.
 Discussions
 ===========
 
-Course discussions are managed by an IDA called comments (also called forums).
-comments is one of the few non-Python components, written in `Ruby`_ using the
-`Sinatra`_ framework. The LMS uses an API provided by the comments service to
-integrate discussions into the learners’ course experience.
-
-The comments service includes a notifier process that sends learners
-notifications about updates in topics of interest.
+Course discussions are implemented in the `Discussions MFE <https://github.com/openedx/frontend-app-discussions>`_.
+The discussions app allows learners and course staff interact with one another
+within a course run.
 
 ===========
 Mobile Apps
 ===========
 
 The Open edX project includes a mobile application, available for iOS and
-Android, that allows learners to watch course videos and more. Open edX is actively
-enhancing the mobile app.
+Android, that allows learners to watch course videos and more. The Open edX
+community is actively enhancing the mobile apps.
 
 =========
 Analytics
 =========
 
+The Data Working Group is currently building an analytics solution called `Aspects <https://github.com/openedx/openedx-aspects>`_.
 
 ===============
 Background Work
@@ -109,15 +113,7 @@ like order work flows and coupons.
 .. _edx-platform: https://github.com/openedx/edx-platform
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
-.. _MongoDB: http://www.mongodb.org/
-.. _Mako: http://www.makotemplates.org/
-.. _CoffeeScript: http://coffeescript.org/
-.. _Backbone.js: http://backbonejs.org/
-.. _Sass: http://sass-lang.com/
-.. _Bourbon framework: http://bourbon.io/
-.. _edx.org: http://edx.org/
-.. _Ruby: https://www.ruby-lang.org/en/
-.. _Sinatra: http://www.sinatrarb.com/
+.. _Mongo: https://www.mongodb.com/
 .. _Celery: http://www.celeryproject.org/
 .. _Redis: https://redis.io/
 .. _Elasticsearch: https://www.elastic.co/
