@@ -20,6 +20,7 @@ and other contributors can expect from each other. The goals are:
   as much as possible.
 
 
+------------------
 General Guidelines
 ------------------
 
@@ -27,16 +28,12 @@ Please follow these guidelines when writing code. Please note that not all of
 these may be required for your feature; reach out to us if you have any
 questions or concerns.
 
+* For new features, or any changes affecting user behavior, please follow the
+  `Product Review Process`_
 * `Internationalization Coding Guidelines`_
 * `RTL UI Best Practices`_
 * `Accessibility Guidelines`_
 * `Analytics Guidelines`_
 * `Eventing Design and Review Process`_
-
-
-Roles
------
-
-TODO
 
 .. include:: ../links.rst
