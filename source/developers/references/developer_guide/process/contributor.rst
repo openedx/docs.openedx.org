@@ -1,47 +1,76 @@
-.. _Contributor:
-
 ************
 Contributing
 ************
 
+Contributing your custom code to the Open edX project is a two-step process:
+review of your idea by the product team (the Product Review Process),
+followed by a review of your code by the project's core committers.
+We describe this process on this page.
 
-------------------
-Finding Work To Do
-------------------
+Note::
 
-TODO: Add Content Here (how to use Feature Requests & Product Roadmap)
+   By and large, bug fixes do not require the Product Review Process.
+   However, if your bug fix will change user facing behavior, you should
+   check with the Product Working Group on the best way to land your fix.
 
-Before you make a pull request, it's a good idea to reach out to the
-Open edX community to discuss your ideas. There
-might well be someone else already working on the same change you want to make,
+----------------------------------------
+Product Review Process & Product Roadmap
+----------------------------------------
+
+New features added to the Open edX project go through a Product Review
+Process, lead by the Open edX Product Working Group. If you're interested
+in adding new features, we ask that you undergo the product review process
+_before_ you begin coding your feature. This allows the project to get
+alignment on new features and help guide you to implement the feature in
+a way that works with the overall platform. Additionally, there might well
+be someone else already working on the same change you want to make,
 and it's much better to collaborate than to submit incompatible pull requests.
-The `Community Discussions`_ page on the openedx.org website lists different
-ways you can ask, and answer, questions. The earlier you start the
-conversation, the easier it will be to make sure that everyone's on the right
-track.
 
-.. _Community Discussions: https://openedx.org/community/connect/
+If you open up your feature request with a solid description, the product owners
+will be able to quickly understand your change and prioritize it for
+review. However, they may have some questions about your intention, need,
+and/or approach that they will ask about.
 
-It's also sometimes useful to submit a pull request even before the code is
-working properly, to make it easier to collect early feedback. To indicate to
-others that your pull request is not yet in a functional state, just prefix the
-pull request title with "(WIP)" (Work In Progress), or start the pull request
-as a draft on GitHub. Please include a link to a WIP pull request in any
-discussion threads you start.
+To read more about the product review process and how to submit your idea,
+**TODO: Visit This Content (wiki?).**
 
+Features that the project wants, as well as ones being currently worked on
+by community members, are represented on the `Product Roadmap`_. This
+kanban-style board represents units of work on individual cards. Check
+out the tickets on the far left for help reading the board. The tabs at
+the top will allow you to drill into roadmap tickets by platform area.
 
-----------------
-Landing The Work
-----------------
+If you're interested in contributing to the Open edX project but don't know
+what to contribute, check out the roadmap! If you're interested in picking
+up or collaborating on a ticket, join the conversation by adding a comment
+on the ticket.
 
-TODO: Update This Section
+.. _Product Roadmap: https://github.com/orgs/openedx/projects/4
 
-Once you're ready to submit your changes in a pull request, check the following
+----------------------------
+Getting Preliminary Feedback
+----------------------------
+
+It is sometimes useful to submit a pull request even before the code is
+working properly, to make it easier to collect early feedback on your
+implementation. To indicate to others that your pull request is not yet in a
+functional state, just prefix the pull request title with "(WIP)" (Work In
+Progress), and start the pull request as a draft on GitHub. 
+
+Please include a link to your roadmap ticket in the PR description, and add a
+link to a WIP pull request in any discussion threads you start.
+
+-----------------
+Landing Your Work
+-----------------
+
+Once you're ready to submit your code changes in a pull request, check the following
 list of requirements to be sure that your pull request is ready to be reviewed:
 
-#. Prepare a detailed pull request description. When you open
-   your pull request, put your cover letter into the "Description" field on
-   GitHub.
+#. Prepare a detailed pull request description. Most repositories have a template
+   to be followed when you open the PR in the GitHub UI. Please fill out that template
+   with as much detail as possible, including links to any roadmap tickets or
+   forum discussions as well as screenshots or screencasts.
 
 #. The code should be clear and understandable. Comments in code, detailed
    docstrings, and good variable naming conventions are expected. See the
@@ -65,7 +94,7 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    request, for forensic purposes when trying to diagnose a regression
    or understand a bug.
 
-#. All code in the pull request must be compatible with Open edX's AGPL
+#. All code in the pull request must be compatible with the Open edX project's AGPL
    license.  This means that the author of the pull request must sign a
    `contributor's agreement`_, and all libraries included or
    referenced in the pull request must have `compatible licenses`_.
@@ -88,19 +117,18 @@ list of requirements to be sure that your pull request is ready to be reviewed:
 
 #. For pull requests that make changes to the user interface, please include
    screenshots of what you changed. GitHub will allow you to upload images
-   directly from your computer. In the future, the core committers will produce
-   a style guide that contains more requirements around how pages should appear
-   and how front-end code should be structured.
+   directly from your computer. Changes should only use elements from the
+   `Paragon pattern library`_.
 
 #. The pull request should contain some documentation for the feature or bug
-   fix, either in a README file or in a comment on the pull request. A well-
-   written description for the pull request may be sufficient.
+   fix. A well-written description for the pull request is often sufficient.
 
 #. The pull request should integrate with existing infrastructure as much as
-   possible, rather than reinventing the wheel.  In a project as large as Open
-   edX, there are many foundational components that might be hard to find, but
-   it is important not to duplicate functionality, even if small, that already
-   exists.
+   possible, rather than reinventing the wheel.  In a project as large as ours,
+   there are many foundational components that might be hard to find.
+   It is important not to duplicate functionality, even if small, that already
+   exists. Posting in the `forums`_ is an easy way to find out if functionality
+   you're looking for already exists.
 
 #. The author of the pull request should be receptive to feedback and
    constructive criticism. The pull request will not be accepted until all
@@ -114,10 +142,10 @@ list of requirements to be sure that your pull request is ready to be reviewed:
 It's also important to realize that you and the core committers may have
 different ideas of what is important in the codebase. The power and freedom of
 open source software comes from the fact that you can fork our software and
-make any modifications that you like, without permission from us. However, the
+make any modifications that you like without permission from us. However, the
 core contributors are similarly empowered and free to decide what modifications
 to pull in from other contributors, and what not to pull in. While your code
-might work great for you on a small installation, it might not work as well on
+might work great for you on your installation, it might not work as well on
 a large installation, have problems with performance or security, not be
 compatible with internationalization or accessibility guidelines, and so on.
 There are many, many reasons why the core committers may decide not to accept
@@ -126,18 +154,6 @@ code change. However, if we do reject your pull request, we will explain why we
 aren't taking it, and try to suggest other ways that you can accomplish the
 same result in a way that we will accept.
 
-Once A PR is Open
------------------
-
-If you open up your pull request with a solid description, the product owners
-will be able to quickly understand your change and prioritize it for
-review. However, they may have some questions about your intention, need,
-and/or approach that they will ask about. A community
-manager will ping you on GitHub to clarify these questions if they arise.
-
-Once the product team has sent your pull request to the engineering teams for
-review, all technical discussion regarding your change will occur on GitHub,
-inline with your code.
 
 Further Information
 -------------------
@@ -156,3 +172,5 @@ following links:
 .. _contributor's agreement: http://openedx.org/cla
 .. _compatible licenses: https://openedx.org/open-edx-licensing
 .. _OEP-51\: Conventional Commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html
+.. _Paragon pattern library: https://paragon-openedx.netlify.app/
+.. _forums: https://discuss.openedx.org/

@@ -286,6 +286,7 @@
 .. _Accessibility Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/accessibility.html
 .. _Analytics Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html
 .. _Eventing Design and Review Process: https://openedx.atlassian.net/wiki/display/AN/Eventing+Design+and+Review+Process
+.. _Product Review Process: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/DRAFT+How+to+submit+an+open+source+contribution+for+Product+Review
 
 .. _Durham University Alt Text Checker: https://www.dur.ac.uk/cis/web/accessibility/tools/alttext/
 
