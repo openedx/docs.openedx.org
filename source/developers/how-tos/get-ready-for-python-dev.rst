@@ -72,10 +72,10 @@ Working on a Repo
 
 #. Make a branch for your changes::
 
-     git checkout -b <your_github_username>/<short_descriptive_label>
+     git switch -c <your_github_username>/<short_descriptive_label>
 
 #. As you change code and add tests, you can use ``make test`` to check if tests are still passing.
-#. Run ``make test`` one more time and commit your changes with ``git commit``. Follow the `conventional commits`_ documentation. Make sure your commit message is informative and describes why the change is being made. While the first line of the message should be terse, the body of the message has plenty of room for details.
+#. Run ``make test`` one more time and commit your changes with ``git add`` and ``git commit``. Follow the `conventional commits`_ documentation. Make sure your commit message is informative and describes why the change is being made. While the first line of the message should be terse, the body of the message has plenty of room for details.
 #. Push your changes to GitHub. If you have write access to the repository, you can run ``git push``. If not, you'll need to fork the repository in GitHub. After forking, you can use ``git remote add fork <fork_url>`` to tell git about the fork, and then ``git push fork`` to push your branch to your fork.
 #. In GitHub, open a pull request for your changes and ask for a review.
 
