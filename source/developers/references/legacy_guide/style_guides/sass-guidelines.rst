@@ -1,11 +1,11 @@
 ..  _edx_sass_guidelines:
 
-####################
-EdX Sass Style Guide
-####################
+#########################
+Open edX Sass Style Guide
+#########################
 
 This section describes the requirements and conventions used to contribute
-Sass stylesheets to the edX platform.
+Sass stylesheets to the Open edX platform.
 
 .. warning:: Please note that the project is currently in the process of
    transitioning to `Design Tokens`_, a better alternative to Sass.  At the
@@ -23,17 +23,17 @@ Sass stylesheets to the edX platform.
 Code Style
 **********
 
-In order to standardize and enforce Open edX's Sass coding style across
-multiple codebases, edX uses `Stylelint`_ which is a widely adopted CSS linter
-written in JavaScript. In particular, edX provides the `edX Stylelint Config`_
+In order to standardize and enforce the Open edX project's Sass coding style across
+multiple codebases, the project uses `Stylelint`_ which is a widely adopted CSS linter
+written in JavaScript. In particular, Open edX provides the `Open edX Stylelint Config`_
 which is an npm package that defines the rule set to be used to validate Sass.
 
-EdX generally adopts the standard Stylelint rule set:
+The Open edX project generally adopts the standard Stylelint rule set:
 
 * `CSS Rules`_
 * `SCSS-Specific Rules`_
 
-If you are interested in the exceptions, see the `edX Stylelint Config README`_.
+If you are interested in the exceptions, see the `Open edX Stylelint Config README`_.
 
 *************
 Use Variables
@@ -66,7 +66,7 @@ This should instead be written as::
 .. _Design Tokens: https://github.com/openedx/paragon/blob/master/docs/decisions/0019-scaling-styles-with-design-tokens.rst
 .. _CSS Rules: https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md
 .. _default flag: https://sass-lang.com/documentation/variables/#default-values
-.. _edX Stylelint Config: https://github.com/openedx/stylelint-config-edx
-.. _edX Stylelint Config README: https://github.com/openedx/stylelint-config-edx#sass-style-guide
+.. _Open edX Stylelint Config: https://github.com/openedx/stylelint-config-edx
+.. _Open edX Stylelint Config README: https://github.com/openedx/stylelint-config-edx#sass-style-guide
 .. _SCSS-Specific Rules: https://www.npmjs.com/package/stylelint-scss#list-of-rules
 .. _Stylelint: https://stylelint.io/
