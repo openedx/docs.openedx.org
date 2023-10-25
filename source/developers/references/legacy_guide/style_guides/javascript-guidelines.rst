@@ -1,8 +1,8 @@
 ..  _javascript_style_guide:
 
-##########################
-JavaScript Style Guide
-##########################
+###############################
+Open edX JavaScript Style Guide
+###############################
 
 This section describes the requirements and conventions used to contribute
 JavaScript programming to the Open edX platform.
