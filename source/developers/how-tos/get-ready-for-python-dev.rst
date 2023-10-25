@@ -25,7 +25,7 @@ Steps
 First-Time Setup
 ================
 
-First, clone the repository with ``git clone <git_url>``. It's best to place all of your Open edX repositories in the same parent directory as each other, as a few of them assume that they will be arranged this way. (If you're not using devstack, this may not matter.)
+First, fork the repository, and then clone the forked repository with ``git clone <git_url>``. It's best to place all of your Open edX repositories in the same parent directory as each other, as a few of them assume that they will be arranged this way. (If you're not using devstack, this may not matter.)
 
 After navigating to the new directory in your shell, you'll need to set up a virtualenv and install requirements.
 
@@ -76,7 +76,7 @@ Working on a Repo
 
 #. As you change code and add tests, you can use ``make test`` to check if tests are still passing.
 #. Run ``make test`` one more time and commit your changes with ``git add`` and ``git commit``. Follow the `conventional commits`_ documentation. Make sure your commit message is informative and describes why the change is being made. While the first line of the message should be terse, the body of the message has plenty of room for details.
-#. Push your changes to GitHub. If you have write access to the repository, you can run ``git push``. If not, you'll need to fork the repository in GitHub. After forking, you can use ``git remote add fork <fork_url>`` to tell git about the fork, and then ``git push fork`` to push your branch to your fork.
+#. Push your changes to GitHub with ``git push``.
 #. In GitHub, open a pull request for your changes and ask for a review.
 
 .. _conventional commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html
