@@ -12,6 +12,7 @@ file on GitHub.
 .. toctree::
     :maxdepth: 2
 
+    browsers
     jenkins
     code-coverage
     code-quality
