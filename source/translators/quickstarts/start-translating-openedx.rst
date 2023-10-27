@@ -21,12 +21,12 @@ This tutorial assumes the following:
   role.
 * You have joined the Transifex `edx-platform project`_ with the language(s) you wish
   to translate to
-* Fluency in both English and the language(s) you are translating to. You should
+* You have to be fluent in both English and the language(s) you are translating to. You should
   have deep knowledge of English to be capable of translating phrases from the user
   interface and  documentation. You should become a translator only if you feel
   you are capable of translating in both English and your target language. Open edX is
   written in English, so all translations are done from English to another language
-* You have joined the Open edX Slack or Discuss. Links to join are available at the
+* You have joined the Open edX Slack or discuss. Links to join are available at the
   `Open edX Community`_ page. Translation help is available in the
   ``#translations-working-group`` Slack channel!
 
