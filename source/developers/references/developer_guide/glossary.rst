@@ -1,8 +1,8 @@
 .. _Glossary:
 
-############
+########
 Glossary
-############
+########
 
 :ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F`
 - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L`

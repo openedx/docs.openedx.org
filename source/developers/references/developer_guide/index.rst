@@ -19,7 +19,6 @@ our Open edX learning site, `training.openedx.org`_.
    :numbered:
    :maxdepth: 2
 
-   front_matter/index
    architecture
    process/index
    extending_platform/index
