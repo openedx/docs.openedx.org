@@ -79,6 +79,6 @@ Working on a Repo
 #. As you change code and add tests, you can use ``make test`` to check if tests are still passing.
 #. Run ``make test`` one more time and commit your changes with ``git add`` and ``git commit``. Follow the `conventional commits`_ documentation. Make sure your commit message is informative and describes why the change is being made. While the first line of the message should be terse, the body of the message has plenty of room for details.
 #. Push your changes to GitHub with ``git push``.
-#. In GitHub, open a pull request for your changes and ask for a review.
+#. In GitHub, open a pull request (PR). In the PR description, include anything that could help reviewers understand and test your change.
 
 .. _conventional commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html
