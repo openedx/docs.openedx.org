@@ -45,7 +45,9 @@ Once you have done this, any calls to ``python``, ``pip``, or other Python execu
 
    If you create virtualenvs inside repos, you'll need to tell git to ignore them. The easiest way to do this is to create a file called ``.gitignore-global`` in your home directory and add the line ``.venv/``. Alternatively, you can create the virtualenvs elsewhere in your filesystem.
 
-Many developers use wrapper scripts (or write their own using shell aliases). One commonly used tool is ``virtualenvwrapper``, which manages the virtualenv directories outside of repositories; this avoids several issues with git and other tools being able to see the virtualenv, but will require explicitly naming each virtualenv.
+.. note::
+
+   Many developers use wrapper scripts (or write their own using shell aliases). One commonly used tool is `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io/en/stable/>`_, which manages the virtualenv directories outside of repositories; this avoids several issues with git and other tools being able to see the virtualenv, but will require explicitly naming each virtualenv.
 
 Working on a Repo
 =================
