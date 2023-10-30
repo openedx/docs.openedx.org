@@ -33,17 +33,17 @@ A virtualenv contains a copy of your repo's Python dependencies. This avoids dep
 
 The most basic way of creating a virtualenv is to use the builtin ``venv`` module in Python::
 
-  python3.8 -m venv .venv-3.8
+  python3.8 -m venv .venv
 
-This example creates a virtualenv at ``./.venv-3.8/``. Each time you will be working with Python in the repo, you'll need to activate the virtualenv for that terminal session::
+This example creates a virtualenv at ``./.venv/``. Each time you will be working with Python in the repo, you'll need to activate the virtualenv for that terminal session::
 
-  source .venv-3.8/bin/activate
+  source .venv/bin/activate
 
 Once you have done this, any calls to ``python``, ``pip``, or other Python executables will refer to the ones managed by the virtualenv.
 
 .. note::
 
-   If you create virtualenvs inside repos, you'll need to tell git to ignore them. The easiest way to do this is to create a file called ``.gitignore-global`` in your home directory and add the line ``.venv-3.*/``. Alternatively, you can create the virtualenvs elsewhere in your filesystem.
+   If you create virtualenvs inside repos, you'll need to tell git to ignore them. The easiest way to do this is to create a file called ``.gitignore-global`` in your home directory and add the line ``.venv/``. Alternatively, you can create the virtualenvs elsewhere in your filesystem.
 
 Many developers use wrapper scripts (or write their own using shell aliases). One commonly used tool is ``virtualenvwrapper``, which manages the virtualenv directories outside of repositories; this avoids several issues with git and other tools being able to see the virtualenv, but will require explicitly naming each virtualenv.
 
