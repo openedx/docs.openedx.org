@@ -3,7 +3,7 @@ How To Get Ready for Python Development
 
 .. How-tos should have a short introduction sentence that captures the user's goal and introduces the steps.
 
-This how-to will help prepare your local system to start developing on a Python-based service that is part of the Open edX Platform.
+This how-to will help prepare your local system to start developing on a Python-based repository that is part of the Open edX Platform.
 
 Assumptions
 ***********
