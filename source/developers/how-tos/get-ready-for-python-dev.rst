@@ -20,7 +20,7 @@ Steps
 
 .. note::
 
-   Some repositories will have a variation of these instructions in their README. Often it will be better to follow the instructions here instead, as the README instructions may be outdated, but keep an eye out for repositories that document special workflows.
+   These instructions will not work in all repositories. If they do not, check the repo's README for a Getting Started section for possible alternative instructions.
 
 First-Time Setup
 ================
