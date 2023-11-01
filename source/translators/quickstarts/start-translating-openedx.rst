@@ -43,16 +43,32 @@ Finding a string to translate
 #. Once you have joined the edx-platform project, you will be able to select the option
    "Languages" from the left hand menu under "edx-platform"
 
+![Image1](source/_images/Lang2.png) 
+
 #. Select the target language that you wish to translate to
+
+![Image2](source/_images/Lang3.png)
 
 #. If you are allowed to translate for this language the "Translate" button at the top
    will allow you to click it. If you are unable to click the button you may need to
    wait for approval to join the translation team for this language before proceeding.
 
+![Image3](source/_images/Lang4.png)
+
 #. Select a resource
 
 After you become a member of a translation team for a language, you can select any of
-the resources in the project to begin translating it. Details about how to translate
+the resources in the project to begin translating it.
+
+![Image4](source/_images/Lang5.png)
+
+After you select a resource, you will see the number of untranslated strings and unreviewed. 
+You are able to choose which string to translate and then ckick the button "Save Translation"
+after you have tranlsated such string.
+
+![Image5](source/_images/Lang6.png)
+
+Details about how to translate
 things like HTML, placeholders, and other more complicate strings for Open edX
 are in the :doc:`/translators/concepts/index` section.
 
