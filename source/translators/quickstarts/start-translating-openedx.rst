@@ -43,33 +43,35 @@ Finding a string to translate
 #. Once you have joined the edx-platform project, you will be able to select the option
    "Languages" from the left hand menu under "edx-platform"
 
-![Image1](source/_images/Lang2.png) 
+  .. image:: /_images/SelectLanguages.png
 
 #. Select the target language that you wish to translate to
 
-![Image2](source/_images/Lang3.png)
+
+   .. image:: /_images/SelectTargetLang.png
 
 #. If you are allowed to translate for this language the "Translate" button at the top
    will allow you to click it. If you are unable to click the button you may need to
    wait for approval to join the translation team for this language before proceeding.
 
-![Image3](source/_images/Lang4.png)
+   .. image:: /_images/ResourceList.png
 
 #. Select a resource
 
-After you become a member of a translation team for a language, you can select any of
-the resources in the project to begin translating it.
+   After you become a member of a translation team for a language, you can select any of
+   the resources in the project to begin translating it.
 
-![Image4](source/_images/Lang5.png)
+   .. image:: /_images/SelectResource.png
 
-After you select a resource, you will see the number of untranslated strings and unreviewed. 
-You are able to choose which string to translate and then ckick the button "Save Translation"
-after you have tranlsated such string.
+#. Translate a String
 
-![Image5](source/_images/Lang6.png)
+   After you select a resource, you will see the number of untranslated and unreviewed strings.
+   You can choose which string to translate and then ckick the button "Save Translation"
+   after you have tranlsated a string.
 
-Details about how to translate
-things like HTML, placeholders, and other more complicate strings for Open edX
+   .. image:: /_images/TranslateResource.png
+
+Details about how to translate things like HTML, placeholders, and other more complicate strings for Open edX
 are in the :doc:`/translators/concepts/index` section.
 
 Each language page lists a set of distinct resources to translate. A resource can be
@@ -97,19 +99,25 @@ your translations are as useful as possible to the community!
 
 Translating
 ***********
+
 Transifex's `Translating with the Web Editor`_ page has details on how to use their
 tool to find and translate strings within a resource. Please use that as a guide
 to locate an simple untranslated string (something that is just a word or short phrase)
 that you feel confident in translating.
 
 #. Select your string
+
 #. Enter the translation in the center box
+
 #. Press "Save Translation"
-#. Your string is now ready for review! Every string must be reviewed and approved before
-   it will be accepted into the official translations and released to the community.
+
+#. Your string is now ready for review! Every string must be reviewed and
+   approved before it will be accepted into the official translations and
+   released to the community.
 
 Next Steps
 **********
+
 * Learn more about how to translate different types of strings in
   :doc:`/translators/concepts/index`
 * Become a reviewer to help the translation process move more quickly
