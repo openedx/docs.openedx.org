@@ -26,7 +26,7 @@ This tutorial assumes the following:
   interface and  documentation. You should become a translator only if you feel
   you are capable of translating in both English and your target language. Open edX is
   written in English, so all translations are done from English to another language
-* You have joined the Open edX Slack or discuss. Links to join are available at the
+* You have joined the Open edX Slack and Discourse (https://discuss.openedx.org) . Links to join are available at the
   `Open edX Community`_ page. Translation help is available in the
   ``#translations-working-group`` Slack channel!
 
