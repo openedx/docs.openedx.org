@@ -16,7 +16,7 @@ beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
 certifi==2023.7.22
     # via requests
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
     # via requests
 colorama==0.4.6
     # via sphinx-autobuild
@@ -40,7 +40,7 @@ packaging==23.2
     # via
     #   pydata-sphinx-theme
     #   sphinx
-pydata-sphinx-theme==0.14.2
+pydata-sphinx-theme==0.14.3
     # via sphinx-book-theme
 pygments==2.16.1
     # via
