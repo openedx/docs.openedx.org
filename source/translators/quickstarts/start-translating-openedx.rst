@@ -19,16 +19,26 @@ This tutorial assumes the following:
   `Translating with the Web Editor`_ page, and understand the roles and permissions
   as documented in `Understanding User Roles`_. You will start off in the "Translator"
   role.
+
 * You have joined the Transifex `edx-platform project`_ with the language(s) you wish
   to translate to
+
 * You have to be fluent in both English and the language(s) you are translating to. You should
   have deep knowledge of English to be capable of translating phrases from the user
   interface and  documentation. You should become a translator only if you feel
   you are capable of translating in both English and your target language. Open edX is
   written in English, so all translations are done from English to another language
+
 * You have joined the Open edX Slack and Discourse (https://discuss.openedx.org) . Links to join are available at the
   `Open edX Community`_ page. Translation help is available in the
   ``#translations-working-group`` Slack channel!
+
+* You want to translate for the Open edX platform. If you want to translate for
+  the Open edX website (https://openedx.org) instead, this occurs in a
+  different application(G-translate), in order to become a collaborator with
+  G-translate, you should contact our Open edX Community Manager Eden
+  Huthmacher by writing an email: ``ehuthmacher at axim dot org``.
+
 
 .. _Transifex: https://www.transifex.com/signup/
 .. _getting   started guide: https://docs.transifex.com/getting-started-1/translators
@@ -99,10 +109,6 @@ your translations are as useful as possible to the community!
 
 Translating
 ***********
-
-If you want to translate for the Open edX platform, you should follow the steps mentioned under "Finding a string section". 
-However, if you want to translate for the Open edX website (https://openedx.org), this occurs in a different application(G-translate), in order to become a collaborator with G-translate,
-you should contact our Open edX Community Manager Eden Huthmacher by writing an email: ehuthmacher@tcril.org.
 
 Transifex's `Translating with the Web Editor`_ page has details on how to use their
 tool to find and translate strings within a resource. Please use that as a guide
