@@ -101,7 +101,7 @@ Translating
 ***********
 
 If you want to translate for the Open edX platform, you should follow the steps mentioned under "Finding a string section". 
-However, if you want to translate for the Open edX website ocurrs in a different app G-translate, in order to become a collaborator with G-translate,
+However, if you want to translate for the Open edX website (https://openedx.org), this occurs in a different application(G-translate), in order to become a collaborator with G-translate,
 you should contact our Open edX Community Manager Eden Huthmacher by writing an email: ehuthmacher@tcril.org.
 
 Transifex's `Translating with the Web Editor`_ page has details on how to use their
