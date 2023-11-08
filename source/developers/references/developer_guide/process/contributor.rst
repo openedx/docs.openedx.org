@@ -5,20 +5,21 @@ Contributing
 Contributing your custom code to the Open edX project is a two-step process:
 review of your idea by the product team (the Product Review Process),
 followed by a review of your code by the project's core committers.
-We describe this process on this page.
+We describe this process on the `Product Review Process`_ wiki page.
 
 Note::
 
    By and large, bug fixes do not require the Product Review Process.
    However, if your bug fix will change user facing behavior, you should
-   check with the Product Working Group on the best way to land your fix.
+   check with the Product Working Group on the best way to land your fix
+   before beginning to write code.
 
 ----------------------------------------
 Product Review Process & Product Roadmap
 ----------------------------------------
 
-New features added to the Open edX project go through a Product Review
-Process, lead by the Open edX Product Working Group. If you're interested
+New features added to the Open edX project go through a `Product Review
+Process`_, lead by the `Open edX Product Working Group`_. If you're interested
 in adding new features, we ask that you undergo the product review process
 _before_ you begin coding your feature. This allows the project to get
 alignment on new features and help guide you to implement the feature in
@@ -32,7 +33,7 @@ review. However, they may have some questions about your intention, need,
 and/or approach that they will ask about.
 
 To read more about the product review process and how to submit your idea,
-**TODO: Visit This Content (wiki?).**
+please visit the `Product Review Process`_ wiki page.
 
 Features that the project wants, as well as ones being currently worked on
 by community members, are represented on the `Product Roadmap`_. This
@@ -44,8 +45,6 @@ If you're interested in contributing to the Open edX project but don't know
 what to contribute, check out the roadmap! If you're interested in picking
 up or collaborating on a ticket, join the conversation by adding a comment
 on the ticket.
-
-.. _Product Roadmap: https://github.com/orgs/openedx/projects/4
 
 ----------------------------
 Getting Preliminary Feedback
@@ -139,6 +138,10 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    comment explaining why the contributor has chosen not make any change based
    on that feedback.
 
+While your pull request is open, you may have questions about how things are
+going, or how to check in on the progress of your review. We've prepared a
+:doc:`FAQ-about-pull-requests` that should answer most of your questions.
+
 It's also important to realize that you and the core committers may have
 different ideas of what is important in the codebase. The power and freedom of
 open source software comes from the fact that you can fork our software and
@@ -174,3 +177,6 @@ following links:
 .. _OEP-51\: Conventional Commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html
 .. _Paragon pattern library: https://paragon-openedx.netlify.app/
 .. _forums: https://discuss.openedx.org/
+.. _Product Review Process: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/DRAFT+How+to+submit+an+open+source+contribution+for+Product+Review
+.. _Open edX Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3449028609/Product+Working+Group
+.. _Product Roadmap: https://github.com/orgs/openedx/projects/4
