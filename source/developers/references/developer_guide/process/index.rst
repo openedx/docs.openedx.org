@@ -1,8 +1,8 @@
 .. _Contributing to Open edX:
 
-###########################
-Contributing to Open edX
-###########################
+####################################
+Contributing to the Open edX Project
+####################################
 
 .. toctree::
     :maxdepth: 2
@@ -10,4 +10,5 @@ Contributing to Open edX
     overview
     contributor
     code-considerations
+    FAQ-about-pull-requests
     core-contributors
