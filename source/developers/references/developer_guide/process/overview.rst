@@ -33,14 +33,10 @@ questions or concerns.
 * `Analytics Guidelines`_
 * `Eventing Design and Review Process`_
 
-.. _Internationalization Coding Guidelines: https://openedx.atlassian.net/wiki/edx.readthedocs.io/projects/edx-developer-guide/en/latest/internationalization/i18n.html
-.. _RTL UI Best Practices: https://github.com/openedx/edx-platform/wiki/RTL-UI-Best-Practices
-.. _Accessibility Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/accessibility.html
-.. _Analytics Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html
-.. _Eventing Design and Review Process: https://openedx.atlassian.net/wiki/display/AN/Eventing+Design+and+Review+Process
-
 
 Roles
 -----
 
 TODO
+
+.. include:: ../links.rst

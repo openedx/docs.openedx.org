@@ -264,6 +264,8 @@
 .. _jscs: https://www.npmjs.org/package/jscs
 .. _Waffle: http://waffle.readthedocs.io/en/latest
 .. _Waffle documentation: http://waffle.readthedocs.io/en/latest
+.. _OEP-17 Feature Toggles: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0017-bp-feature-toggles.html
+.. _OEP-19 Developer Documentation: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0019-bp-developer-documentation.html
 .. _Segment: https://segment.com
 .. _CourseTalk: https://www.coursetalk.com/
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
@@ -279,6 +281,11 @@
 .. _Google Calendar website: https://www.google.com/calendar
 .. _Adobe Flash Player: https://get.adobe.com/flashplayer/
 .. _Oppia XBlock: https://github.com/oppia/xblock
+.. _Internationalization Coding Guidelines: https://openedx.atlassian.net/wiki/edx.readthedocs.io/projects/edx-developer-guide/en/latest/internationalization/i18n.html
+.. _RTL UI Best Practices: https://github.com/openedx/edx-platform/wiki/RTL-UI-Best-Practices
+.. _Accessibility Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/accessibility.html
+.. _Analytics Guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/analytics.html
+.. _Eventing Design and Review Process: https://openedx.atlassian.net/wiki/display/AN/Eventing+Design+and+Review+Process
 
 .. _Durham University Alt Text Checker: https://www.dur.ac.uk/cis/web/accessibility/tools/alttext/
 
