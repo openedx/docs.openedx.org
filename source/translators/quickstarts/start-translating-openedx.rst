@@ -53,7 +53,7 @@ Finding a string to translate
 #. Once you have joined the edx-platform project, you will be able to select the option
    "Languages" from the left hand menu under "edx-platform"
 
-  .. image:: /_images/SelectLanguages.png
+   .. image:: /_images/SelectLanguages.png
 
 #. Select the target language that you wish to translate to
 
@@ -66,14 +66,14 @@ Finding a string to translate
 
    .. image:: /_images/ResourceList.png
 
-#. Select a resource
+#. **Select a resource**
 
    After you become a member of a translation team for a language, you can select any of
    the resources in the project to begin translating it.
 
    .. image:: /_images/SelectResource.png
 
-#. Translate a String
+#. **Translate a string**
 
    After you select a resource, you will see the number of untranslated and unreviewed strings.
    You can choose which string to translate and then click the button "Save Translation"
