@@ -21,23 +21,23 @@ This tutorial assumes the following:
   role.
 
 * You have joined the Transifex `edx-platform project`_ with the language(s) you wish
-  to translate to
+  to translate to.
 
 * You have to be fluent in both English and the language(s) you are translating to. You should
   have deep knowledge of English to be capable of translating phrases from the user
   interface and  documentation. You should become a translator only if you feel
   you are capable of translating in both English and your target language. Open edX is
-  written in English, so all translations are done from English to another language
+  written in English, so all translations are done from English to another language.
 
 * You have joined the Open edX Slack and Discourse (https://discuss.openedx.org) . Links to join are available at the
   `Open edX Community`_ page. Translation help is available in the
   ``#translations-working-group`` Slack channel!
 
-* You want to translate for the Open edX platform. If you want to translate for
-  the Open edX website (https://openedx.org) instead, this occurs in a
-  different application(G-translate), in order to become a collaborator with
+* Note: If you want to translate for the Open edX platform, you should follow the steps above. 
+  However, translating the edX website (https://openedx.org) occurs in a
+  different application, so in order to become a collaborator with
   G-translate, you should contact our Open edX Community Manager Eden
-  Huthmacher by writing an email: ``ehuthmacher at axim dot org``.
+  Huthmacher by writing an `email: <ehuthmacher@tcril.org>`_.
 
 
 .. _Transifex: https://www.transifex.com/signup/
@@ -51,25 +51,25 @@ Finding a string to translate
 *****************************
 
 #. Once you have joined the edx-platform project, you will be able to select the option
-   "Languages" from the left hand menu under "edx-platform"
+   "Languages" from the left hand menu under "edx-platform":
 
    .. image:: /_images/SelectLanguages.png
 
-#. Select the target language that you wish to translate to
+#. Select the target language that you wish to translate to:
 
 
    .. image:: /_images/SelectTargetLang.png
 
 #. If you are allowed to translate for this language the "Translate" button at the top
    will allow you to click it. If you are unable to click the button you may need to
-   wait for approval to join the translation team for this language before proceeding.
+   wait for approval to join the translation team for this language before proceeding:
 
    .. image:: /_images/ResourceList.png
 
 #. **Select a resource**
 
    After you become a member of a translation team for a language, you can select any of
-   the resources in the project to begin translating it.
+   the resources in the project to begin translating it:
 
    .. image:: /_images/SelectResource.png
 
@@ -77,7 +77,7 @@ Finding a string to translate
 
    After you select a resource, you will see the number of untranslated and unreviewed strings.
    You can choose which string to translate and then click the button "Save Translation"
-   after you have translated a string.
+   after you have tranlsated a string:
 
    .. image:: /_images/TranslateResource.png
 
