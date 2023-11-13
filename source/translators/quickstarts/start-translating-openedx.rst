@@ -76,8 +76,8 @@ Finding a string to translate
 #. Translate a String
 
    After you select a resource, you will see the number of untranslated and unreviewed strings.
-   You can choose which string to translate and then ckick the button "Save Translation"
-   after you have tranlsated a string.
+   You can choose which string to translate and then click the button "Save Translation"
+   after you have translated a string.
 
    .. image:: /_images/TranslateResource.png
 
