@@ -142,3 +142,5 @@ Useful links
 * `Confluence site for Translation Working Group <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3157524644/Translation+Working+Group>`_
 
 * `Open edX WG website link <https://openedx.org/open-edx-community-working-groups/>`_
+
+* `Transifex lexiQA Integration <https://www.transifex.com/blog/2019/lexiqa-integration/>`_ 
