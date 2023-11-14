@@ -81,6 +81,48 @@ Finding a string to translate
 
    .. image:: /_images/TranslateResource.png
 
+#. After saving your translation, there is a possibility to make a QA test byclicking the button
+   "QA Check" on the right side of the screen:
+  
+   .. image:: /_images/QACheck1.png
+
+#. When you click such button, there are three possibilities for checking your translation by opening LexiQA:
+
+  * Perform Changes: 
+    
+    .. image:: /_images/QACheck2_PerformChanges.png
+
+    If you click the first option of this menu,  it shows another screen detailing inconsistencies,
+    or sentences/phrases same as source:
+
+    .. image:: /_images/PerformChangesScreen2.png  
+
+  * View Reports:
+
+    .. image:: /_images/QACheck3_ViewReports.png
+    
+    This option shows the same screen as below within LexiQA, and also another option called "Analytics". 
+    Under such option, you can check the following data:
+
+    * File info
+
+    * Errors
+
+    * Statistics (see picture below)
+
+    * Downloads
+
+    .. image:: /_images/Analytics_Statistics3.png
+
+  * Check Consistency:
+
+    .. image:: /_images/QACheck4_Consistency.png
+
+    This option shows the amount of inconsistencies found comparing to the source text,
+    so that you can edit your translation:  
+    
+    .. image:: /_images/ConsistencyScreen4.png
+
 Details about how to translate things like HTML, placeholders, and other more complicate strings for Open edX
 are in the :doc:`/translators/concepts/index` section.
 
