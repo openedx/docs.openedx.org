@@ -61,7 +61,10 @@ per-course.
 
 Waffle flags should be well-documented when they are used. Some of the Waffle
 flags used in ``edx-platform``, as well as how they are documented, can be seen
-in the `lms/djangoapps/courseware/toggles.py`_ file.
+in the `lms/djangoapps/courseware/toggles.py`_ file. (As a note, you can view
+all Waffle flags in edx-platform here: :doc:`edx-platform:references/featuretoggles`,
+and please be sure to document any Django settings you define as well - those
+are documented here: :doc:`edx-platform:references/settings`.)
 
 .. _lms/djangoapps/courseware/toggles.py: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/courseware/toggles.py
 
