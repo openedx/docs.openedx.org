@@ -6,6 +6,9 @@ Community contributions, in the form of pull requests, go through a process
 shepherded by the `Community Contribution Project Managers`_. These
 contributions are sometimes referred to as "OSPRs" (open source pull requests).
 
+See the :doc:`pull-request-statuses` if you're looking for more information about
+what the various statuses and labels of your pull request (PR) mean.
+
 .. contents::
  :local:
  :depth: 1
@@ -101,8 +104,9 @@ As pull requests move through the process, the Community Project Managers update
 the PR's status, and use labels to denote different aspects / states of the PR.
 This helps reviewers better understand what action(s) are needed, and by who.
 
-A breakdown of these statuses and labels can be found **TODO** here for reference (though,
-PR authors are not responsible for updating PR status or labels).
+A breakdown of these statuses and labels can be found at the
+:doc:`pull-request-statuses` for reference (though, PR authors are not
+responsible for updating PR status or labels).
 
 On the right-hand side of the PR, you'll be able to see the status of your pull
 request, the Community PM responsible for the PR, and the last date the

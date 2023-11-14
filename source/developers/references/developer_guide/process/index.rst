@@ -11,4 +11,5 @@ Contributing to the Open edX Project
     contributor
     code-considerations
     FAQ-about-pull-requests
+    pull-request-statuses
     core-contributors
