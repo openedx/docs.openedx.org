@@ -28,4 +28,4 @@ our Open edX learning site, `training.openedx.org`_.
    internationalization/index
    preventing_xss/index
    style_guides/index
-   glossary
+
