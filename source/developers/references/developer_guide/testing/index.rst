@@ -17,6 +17,6 @@ Check out the repo documentation for more information.
     :maxdepth: 2
 
     browsers
-    jenkins
+    github-actions
     code-coverage
     code-quality
