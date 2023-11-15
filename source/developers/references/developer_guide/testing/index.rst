@@ -2,12 +2,16 @@
 Testing
 #######
 
-Testing is something that we take very seriously at edX: we even have a
-"test engineering" team at edX devoted purely to making our testing
-infrastructure even more awesome.
+Testing is something that we take very seriously within the Open edX project. We
+maintain two kinds of tests: unit tests and integration tests.
 
-To find out more about our testing infrastructure, check out the `testing.rst`_
-file on GitHub.
+Overall, you want to write the tests that maximize coverage while minimizing
+maintenance. In practice, this usually means investing heavily in unit tests,
+which tend to be the most robust to changes in the code base. Integration
+tests, being more expensive to write and run, should be used more sparingly.
+
+Different repositories may have different ways of defining and/or running tests.
+Check out the repo documentation for more information.
 
 .. toctree::
     :maxdepth: 2
@@ -16,5 +20,3 @@ file on GitHub.
     jenkins
     code-coverage
     code-quality
-
-.. _testing.rst: https://github.com/openedx/edx-platform/blob/6d2468d0dcf782a7561ecc61946146d6fae2762f/docs/en_us/internal/testing.rst
