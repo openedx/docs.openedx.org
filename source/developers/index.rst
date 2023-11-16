@@ -59,7 +59,7 @@ Open edX Developers
       :class-footer: sd-border-0
       
       * :doc:`references/internal_data_formats/index`
-      * `edx-platform <https://github.com/openedx/edx-platform>`_
+      * :doc:`edx-platform:index`
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
       +++
       .. button-ref:: references/index
