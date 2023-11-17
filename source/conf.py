@@ -83,6 +83,10 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/edx-platform/{rtd_language}/{rtd_version}",
         None,
     ),
+    "xblock": (
+        f"https://docs.openedx.org/projects/xblock/{rtd_language}/{rtd_version}",
+        None,
+    ),
 }
 
 # Add any paths that contain templates here, relative to this directory.

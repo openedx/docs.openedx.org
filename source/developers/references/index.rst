@@ -11,6 +11,7 @@ Per Repo Documentation
 * :doc:`DoneXBlock:index`
 * :doc:`openedx-aspects:index`
 * :doc:`edx-platform:index`
+* :doc:`xblock:index`
 
 Other References
 ****************
