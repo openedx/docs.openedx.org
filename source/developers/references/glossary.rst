@@ -810,7 +810,7 @@ Glossary
       the components that deliver course content to learners.
     
       Third parties can create components as web applications that can run within
-      the Open edX learning management system. For more information, see
-      `xblocktutorial:Open edX XBlock Tutorial`.
-    
+      the Open edX learning management system. For more information, see the
+      :doc:`xblock:xblock-tutorial/index`.
+
    
