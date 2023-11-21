@@ -111,7 +111,8 @@ responsible for updating PR status or labels).
 On the right-hand side of the PR, you'll be able to see the status of your pull
 request, the Community PM responsible for the PR, and the last date the
 Community PM checked in on it. To do this, find the "Projects" section, and
-click on the "⌄" caret in the top right corner to see a display like this:
+click on the "⌄" caret in the top right corner next to "Contributions" to see a
+display like this:
 
 .. image:: /_images/devguide_pr_status.png
 

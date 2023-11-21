@@ -23,7 +23,7 @@ Contribution Board Statuses
            currently handled by Axim].
          * If the author has never contributed to the Open edX project before,
            they need to fill out a CLA form.
-   * - **In Product Review**
+   * - **Product Review**
      - Actively being reviewed by Product (only applies to PRs labeled as
        needing product review) - pull requests needing product review must have
        product approval before continuing through the process
@@ -98,9 +98,10 @@ the author needs to take actions related to feedback.
    * - .. image:: /_images/pr_label_core_contributor.png
      - Denotes that a :doc:`Core Contributor <core-contributors>` is the author
        of the pull request.
+
    * - .. image:: /_images/pr_label_inactive.png
      - Used when the author has been unresponsive for an extended period of
-       time. The Community Projects Managers will typically give a final comment
+       time. The Community Project Managers will typically give a final comment
        to the author alerting them the pull request may need to be closed due to
        inactivity. If there is still no response from the author, the PR will be
        closed shortly after.
@@ -122,4 +123,7 @@ the author needs to take actions related to feedback.
    * - .. image:: /_images/pr_label_waiting_on_author.png
      - Waiting for the author to respond to change requests, feedback, failing
        tests, etc. Usually this label is used for PRs in board statuses other
-       than “Waiting for Author.”
+       than “Waiting for Author”.
+
+   * - .. image:: /_images/pr_label_duplicate.png
+     - This issue or pull request already exists elsewhere.
