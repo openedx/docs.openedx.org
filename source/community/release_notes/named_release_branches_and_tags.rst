@@ -64,6 +64,10 @@ Palm
      - 2023-10-13
      - open-release/palm.3
 
+   * - Palm.4
+     - 2023-11-16
+     - open-release/palm.4
+
 Olive
 =====
 
