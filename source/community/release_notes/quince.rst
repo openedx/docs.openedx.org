@@ -1,5 +1,3 @@
-.. _Open edX Quince Release:
-
 Open edX Quince Release
 #######################
 
@@ -15,9 +13,9 @@ These are the release notes for the Quince release, the 17th community release o
 Breaking Changes
 ****************
 
-* .. _Include and enable the Indigo theme in the default Open edX image: https://github.com/overhangio/tutor/issues/953
+* `Include and enable the Indigo theme in the default Open edX image: <https://github.com/overhangio/tutor/issues/953>`__
 
-* .. _Hostname migration: local.overhang.io -> local.edly.io & docs.tutor.overhang.io -> docs.tutor.edly.io: https://github.com/overhangio/tutor/issues/945
+* `Hostname migration: local.overhang.io -> local.edly.io & docs.tutor.overhang.io -> docs.tutor.edly.io: <https://github.com/overhangio/tutor/issues/945>`__
 
 
 Learner Experiences
@@ -33,24 +31,25 @@ Administrators & Operators
 
 Which MFEs will be included?
 
-* .. _frontend-app-learner-record: https://github.com/openedx/frontend-app-learner-record
-* .. _frontend-app-learner-dashboard: https://github.com/openedx/frontend-app-learner-dashboard
+* `frontend-app-learner-record: <https://github.com/openedx/frontend-app-learner-record>`__
+* `frontend-app-learner-dashboard: <https://github.com/openedx/frontend-app-learner-dashboard>`__
 
 New Waffle Flagts:
 
-* .. _feat: add Waffle Flag to disable resetting self-paced deadlines by learners: https://github.com/openedx/edx-platform/pull/32148
-* .. _feat: adds waffle flag for show notifications tray: https://github.com/openedx/edx-platform/pull/32451
-* .. _feat: add course waffle flag for learner assistant: https://github.com/openedx/edx-platform/pull/32657
+* `feat: add Waffle Flag to disable resetting self-paced deadlines by learners: <https://github.com/openedx/edx-platform/pull/32148>`__
+* `feat: adds waffle flag for show notifications tray: <https://github.com/openedx/edx-platform/pull/32451>`__
+* `feat: add course waffle flag for learner assistant: <https://github.com/openedx/edx-platform/pull/32657>`__
 
 Deprecations & Removals
 ***********************
-* .. _We have deprecated and migrated the openedx/xblock-utils library into openedx/XBlock: https://github.com/openedx/XBlock/issues/675 .
 
-* .. _Most functionality has been removed from the long-deprecated Old Mongo Modulestore. For more details, please: https://github.com/openedx/public-engineering/issues/62 
+* `We have deprecated and migrated the openedx/xblock-utils library into openedx/XBlock: <https://github.com/openedx/XBlock/issues/675>`__
 
-* .. _BasicAuthentication as default authentication class in edx-platform: https://github.com/openedx/edx-platform/issues/33028
+* `Most functionality has been removed from the long-deprecated Old Mongo Modulestore. For more details, please: <https://github.com/openedx/public-engineering/issues/62>`__
 
-* .. _Remove JWT_AUTH_REFRESH_COOKIE:  https://github.com/openedx/public-engineering/issues/190
+* `BasicAuthentication as default authentication class in edx-platform: <https://github.com/openedx/edx-platform/issues/33028>`__
+
+* `Remove JWT_AUTH_REFRESH_COOKIE:  <https://github.com/openedx/public-engineering/issues/190>`__
 
 Developer Experience
 ********************
