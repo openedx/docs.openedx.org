@@ -21,6 +21,8 @@ Breaking Changes
 Learner Experiences
 *******************
 
+* `feat: fetch program subscription details <https://github.com/openedx/edx-platform/pull/32023>`__
+
 
 Instructor Experiences
 **********************
@@ -28,6 +30,8 @@ Instructor Experiences
 
 Administrators & Operators
 **************************
+
+* `feat: feature flag to disable Advanced Settings <https://github.com/openedx/edx-platform/pull/32015>`__
 
 Which MFEs will be included?
 
@@ -51,9 +55,12 @@ Deprecations & Removals
 
 * `Remove JWT_AUTH_REFRESH_COOKIE:  <https://github.com/openedx/public-engineering/issues/190>`__
 
+* `feat: allow for forcing asymmetric jwts <https://github.com/openedx/edx-platform/pull/32045>`__
+
 Developer Experience
 ********************
 
+* `feat: Cross Product Recommendations Logic <https://github.com/openedx/edx-platform/pull/32003>`__
 
 Researcher & Data Experiences
 *****************************
