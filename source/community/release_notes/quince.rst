@@ -111,7 +111,7 @@ Deprecations & Removals
 
 * `feat: allow for forcing asymmetric jwts <https://github.com/openedx/edx-platform/pull/32045>`__
 
-* https://github.com/openedx/edx-platform/issues/32405
+* `[DEPR]: Expected error part of EXPECTED_ERRORS<https://github.com/openedx/edx-platform/issues/32405>`__
 
 * `[DEPR]: Expected error part of EXPECTED_ERRORS<https://github.com/openedx/public-engineering/issues/190>`__
 
