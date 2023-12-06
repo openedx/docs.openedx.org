@@ -36,7 +36,7 @@ Instructor Experiences
 Administrators & Operators
 **************************
 
-Experimental New Learner Home Page 
+New Learner Home Page 
 ==================================
 
 The new Learner Home has many of the same features of the old learner dashboard, with some extended functionality and 
