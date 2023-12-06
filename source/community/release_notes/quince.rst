@@ -17,7 +17,7 @@ Breaking Changes
 
 * `Include and enable the Indigo theme in the default Open edX image <https://github.com/overhangio/tutor/issues/953>`__
   * For users running OpenEdX with the default theme and no additional plugins will have this theme enabled automatically.
-* `Deployers must ensure that for all of their IDAs, any JWT_PUBLIC_SIGNING_JWK_SET Django setting does not contain whitespace inside of the Base64 strings of the encoded keysS <https://github.com/openedx/edx-drf-extensions/blob/master/CHANGELOG.rst#880---2023-05-16>`__
+* `Deployers must ensure that for all of their IDAs, any JWT_PUBLIC_SIGNING_JWK_SET Django setting does not contain whitespace inside of the Base64 strings of the encoded keys <https://github.com/openedx/edx-drf-extensions/blob/master/CHANGELOG.rst#880---2023-05-16>`__
 * Django-storages upgraded to latest version and it has some breaking changes.
   * The constructor kwarg bucket is no longer accepted. Instead, use bucket_name.
   * define default_acl value explicitly in constructor kwarg e.g default_acl: public-read. in previous versions django-storages provides default value as public-read but now it is none. So it's important to mention it explicitly as per your use case.
