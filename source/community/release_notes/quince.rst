@@ -6,8 +6,6 @@ These are the release notes for the Quince release, the 17th community release o
 .. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 .. _Open edX Platform: https://openedx.org
 
-You can find a nicely formatted version of this document on `ReadTheDocS <https://docsopenedxorg--441.org.readthedocs.build/en/441/community/release_notes/quince.html>`__.
-
 .. contents::
  :depth: 1
  :local:
@@ -59,6 +57,11 @@ performance enhancements.
 * `feat: feature flag to disable Advanced Settings <https://github.com/openedx/edx-platform/pull/32015>`__
 
 
+New Settings:
+
+* `EXAMS_DASHBOARD_MICROFRONTEND_URL <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/lms/envs/common.py#L4992>`__
+* `ELASTIC_SEARCH_INDEX_PREFIX <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/lms/envs/common.py#L1410>`__
+
 New Waffle Flags:
 
 * `CREATE_COURSE_WITH_DEFAULT_ENROLLMENT_START_DATS <https://github.com/openedx/edxplatform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/xmodule/course_block.py#L61>`__ 
@@ -96,6 +99,17 @@ New Waffle Flags:
 * `notifications.enable_notificationS <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/openedx/core/djangoapps/notifications/config/waffle.py#L10>`__
 * `notifications.show_notifications_traS <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/openedx/core/djangoapps/notifications/config/waffle.py#L21>`__
 * `xblocks.xblock_skill_tag_verificatioS <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/xmodule/vertical_block.py#L38>`__
+
+Removed Waffle Flags:
+
+* BLOCK_STRUCTURES_SETTINGS['PRUNING_ACTIVE']
+* EXPECTED_ERRORS[N]['IS_IGNORED']
+* EXPECTED_ERRORS[N]['LOG_ERROR']
+* EXPECTED_ERRORS[N]['LOG_STACK_TRACE']
+* block_structure.invalidate_cache_on_publish
+* contentstore.enable_copy_paste_feature
+* learner_home_mfe.enable_learner_home_amplitude_recommendations
+* registration.enable_failure_logging
 
 
 Deprecations & Removals
