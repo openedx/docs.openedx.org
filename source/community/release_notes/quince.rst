@@ -39,8 +39,8 @@ Administrators & Operators
 New Learner Home Page 
 ==================================
 
-The new Learner Home has many of the same features of the old learner dashboard, with some extended functionality and 
-performance enhancements. Tutor operators can deploy the new Learner Home using the an `experimental learner-dashboard-mfe plugin <https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-learner-dashboard-mfe#learner-dashboard-mfe-plugin-for-tutor>`_  
+No longer experimental, the new Learner Home has many of the same features as the old learner dashboard, with some extended functionality and 
+performance enhancements.   
 
 * The Learner Home is now built with Paragon, the Open edX design pattern library. It is accessible and easy to style with brand colors. 
 * Course cards show the course thumbnail, information about the course, and the ability to upgrade to a paid track or view/begin a course (if applicable). Further course actions (e.g. unenroll, email opt-out settings, and social media share) have been moved to the menu/triple dot icon on the course card.
