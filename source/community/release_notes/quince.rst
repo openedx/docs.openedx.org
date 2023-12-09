@@ -20,6 +20,7 @@ Breaking Changes
   * The constructor kwarg bucket is no longer accepted. Instead, use bucket_name.
   * define default_acl value explicitly in constructor kwarg e.g default_acl: public-read. in previous versions django-storages provides default value as public-read but now it is none. So it's important to mention it explicitly as per your use case.
 * For Django 4.2 CSRF_TRUSTED_ORIGINS must include scheme. Update all urls there with schemes. e.g .edx.org changes to ``https://*.edx.org``.
+* Docker requirements have changed: They are now: Docker v24.0.5+, with BuildKit 0.11+. 
 
 Learner Experiences
 *******************
