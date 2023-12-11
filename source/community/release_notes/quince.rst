@@ -58,6 +58,7 @@ performance enhancements.
 * Site staff can now masquerade as users on the platform by typing a username or email in the “View as” box and hitting submit. This is designed to be “view only” so change actions (e.g. enroll, unenroll, selecting a session) are blocked in this view.
 * There is a complete list of changes in the `Open edX wiki <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/11/21/3584589831/2U+New+Learner+Home+Page#Comparison-with-old-experience>`_. 
 * `feat: feature flag to disable Advanced Settings <https://github.com/openedx/edx-platform/pull/32015>`__
+* `Tutor Credentials Plugin offers an admin panel where user can do configurations for the certificates of courses and programs. <https://github.com/overhangio/tutor-credentials>`__
 
 
 New Settings:
