@@ -32,7 +32,7 @@ Learner Experiences
 Instructor Experiences
 **********************
 
-* `Copy and Paste For Course Components in Studio <https://openedx.org/blog/introducing-copy-paste-for-course-components/>`__
+* `Copy and Paste For Course Content <https://docs.openedx.org/en/open-release-quince.master/educators/how-tos/copy_paste_course_content.html>`__
 
 Administrators & Operators
 **************************
