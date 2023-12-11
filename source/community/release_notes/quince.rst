@@ -29,7 +29,8 @@ Learner Experiences
 
 New course runs and re-runs created after you upgrade to quince will automatically use this new provider. However, existing course runs will not be affected.
 
-To learn more about this upgrade, visit the `wiki page <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3470655498/Discussi...](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3470655498/Discussions+upgrade+Sidebar+and+new+topic+structure>`__.
+To learn more about this upgrade, visit the `wiki page <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3470655498/Discussions+upgrade+Sidebar+and+new+topic+structure>`__.
+
 * `feat: fetch program subscription details <https://github.com/openedx/edx-platform/pull/32023>`__
 
 
