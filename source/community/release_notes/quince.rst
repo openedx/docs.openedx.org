@@ -25,8 +25,12 @@ Breaking Changes
 Learner Experiences
 *******************
 
+* A new Sidebar enhances the current discussion provider by enabling learners to interact with forums using a collapsible sidebar that accompanies course units. This replaces the use of discussion xblocks.
+
+New course runs and re-runs created after you upgrade to quince will automatically use this new provider. However, existing course runs will not be affected.
+
+To learn more about this upgrade, visit the `wiki page <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3470655498/Discussi...](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3470655498/Discussions+upgrade+Sidebar+and+new+topic+structure>`__.
 * `feat: fetch program subscription details <https://github.com/openedx/edx-platform/pull/32023>`__
-* `In Unit Discussion Sidebar for Learners <https://partners.edx.org/announcements/discussion-sidebar-release>`__
 
 
 Instructor Experiences
@@ -164,9 +168,7 @@ Developer Experience
 * `Hostname migration: local.overhang.io -> local.edly.io <https://github.com/overhangio/tutor/issues/945>`__
   * This should only effect plugin maintainers.
 
-Researcher & Data Experiences
-*****************************
-
-
 Known Issues
 ************
+
+* `Search isn't available in the new Learner Dashboard <https://github.com/openedx/wg-build-test-release/issues/321>`__
