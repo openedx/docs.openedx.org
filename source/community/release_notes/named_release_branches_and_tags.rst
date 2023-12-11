@@ -32,14 +32,14 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
 Quince
-~~~~~~
+======
 
 * **Code cut date:** 2023-10-10
 * **Status:** upcoming
 * :doc:`Release Notes <./quince>`
 
 Palm
-~~~~
+====
 
 * **Code cut date:** 2023-04-11
 * **Status:** supported
