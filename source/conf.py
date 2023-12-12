@@ -87,6 +87,11 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/xblock/{rtd_language}/{rtd_version}",
         None,
     ),
+    "wordpress-ecommerce-plugin": (
+        f"https://docs.openedx.org/projects/wordpress-ecommerce-plugin/{rtd_language}/{rtd_version}",
+        None,
+    ),
+
 }
 
 # Add any paths that contain templates here, relative to this directory.
