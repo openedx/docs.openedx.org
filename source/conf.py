@@ -48,7 +48,7 @@ extensions = [
 graphviz_output_format = "svg"
 
 rediraffe_redirects = {
-    "community/release_notes/latest.rst": "community/release_notes/palm.rst",
+    "community/release_notes/latest.rst": "community/release_notes/quince.rst",
 }
 
 # Intersphinx Extension Configuration

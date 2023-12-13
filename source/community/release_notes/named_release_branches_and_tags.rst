@@ -9,11 +9,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 ***********************
 
-The latest supported release line is Palm_, based on code from 2023-04-11.
+The latest supported release line is Quince_, based on code from 2023-10-10.
 
-The next release will be Quince__.
+The next release will be Redwood__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3726802953/Quince
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3890380898/Redwood
 
 
 All Open edX Releases
@@ -35,14 +35,25 @@ Quince
 ======
 
 * **Code cut date:** 2023-10-10
-* **Status:** upcoming
+* **Status:** supported
 * :doc:`Release Notes <./quince>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Quince.1
+     - 2023-12-11
+     - open-release/quince.1
 
 Palm
 ====
 
 * **Code cut date:** 2023-04-11
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./palm>`
 
 .. list-table::
