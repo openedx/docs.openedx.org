@@ -11,8 +11,7 @@ The *Open edX Platform Release Notes* provide information about releases, migrat
 .. toctree::
     :maxdepth: 2
 
-    Quince: The next release <quince>
-    Palm: The current release <palm>
+    Quince: The current release <quince>
     named_release_branches_and_tags
     old_releases
 

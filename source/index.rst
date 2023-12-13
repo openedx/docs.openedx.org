@@ -43,7 +43,7 @@ Open edX Documentation
          :maxdepth: 1
          :caption: Open Source Community
 
-         Current Release: Palm <community/release_notes/palm>
+         Current Release: Quince <community/release_notes/quince>
          All Release Notes <community/release_notes/index>
          How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
          OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
