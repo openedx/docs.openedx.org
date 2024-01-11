@@ -3,12 +3,13 @@ Copy and Paste Course Content
 
 .. note::
 
-   The copy/paste function can currently be used at the component-level of the
-   course outline. In other words, it can be used with text blocks, video blocks,
-   and problem blocks. In future releases, the copy/paste function will be
-   available for other levels of the course outline, including units, subsections
-   and sections. 
+   The copy/paste function can currently be used at the component-level or the
+   unit level of the course outline. In other words, it can be used with text
+   blocks, video blocks, and problem blocks, as well as course units.
+   
+   This page describes how to use copy/paste for components.
 
+   For instructions on unit-level copy/paste, see :doc:`copy_paste_units`
 
 #. Choose a component that you would like to copy. This may be a text block, a video block or a problem block. 
 
@@ -34,3 +35,6 @@ Copy and Paste Course Content
     components. Once a component is pasted, it functions as an independent
     entity and any changes made to the new version will not be reflected
     in the original. 
+
+.. seealso::
+   :doc:`copy_paste_units` 
