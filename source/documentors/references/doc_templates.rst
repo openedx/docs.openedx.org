@@ -139,7 +139,11 @@ Copy this codeblock to start a new how-to topic.
 
    .. seealso::
 
-     :ref:`title to link to`
+     # To cross-reference a label use :ref:
+     :ref:`reference to link to`
+
+     # To point to another document in the docs.openedx.org filetree, use :doc:
+     :doc:`/relative/path/to_the_document`
 
 
 Add an Ordered List
