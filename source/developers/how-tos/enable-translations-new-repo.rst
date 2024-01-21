@@ -45,6 +45,8 @@ workflow:
    - Django plugins: ``django.po``
    - If the repo uses ``gettext`` and has a ``static`` directory with JavaScript, it may include ``djangojs.po``
 
+#. If you need JavaScript translations in your XBlock, use ``XBlockI18NService.get_javascript_i18n_catalog_url``. You can find an example of this in ``_get_statici18n_js_url`` in  ``xblock-drag-and-drop-v2/`` `here <https://github.com/openedx/xblock-drag-and-drop-v2/blob/3900a4eba5befbbaea636c5e256aaabcd985e64d/drag_and_drop_v2/drag_and_drop_v2.py#L343-L349>`_. Note: this requires `XBlock 1.9.1`_ or newer, and `edx-platform e7fc0c6`_ or newer.
+
 #. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
 
    Add a new entry under the ``python-translations`` section. For example, the XBlock located at
@@ -260,6 +262,8 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _frontend-lib-special-exams testing pull request: https://github.com/Zeit-Labs/openedx-translations/pull/1/files
 .. _transifex.yml: https://github.com/openedx/openedx-translations/blob/main/transifex.yml
 .. _Drag and Drop XBlock transifex.yml entry: https://github.com/openedx/openedx-translations/blob/19c0fcbbc334c56022df355fa5b529e5853d30f9/transifex.yml#L253-L259
+.. _edx-platform e7fc0c6: https://github.com/openedx/edx-platform/commit/e7fc0c6b6f8b44fa4bcc71d00ae2931f91cc664c
+.. _XBlock 1.9.1: https://github.com/openedx/XBlock/releases/tag/xblock-1.9.1
 
 .. _edx-platform: https://github.com/openedx/edx-platform
 .. _credentials: https://github.com/openedx/credentials
