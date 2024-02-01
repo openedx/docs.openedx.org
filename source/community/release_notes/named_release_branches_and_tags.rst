@@ -15,6 +15,10 @@ The next release will be Redwood__.
 
 __ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3890380898/Redwood
 
+Dates for recent and upcoming releases can be found in the `Release Schedule`_.
+
+.. _Release Schedule: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3613392957/Open+edX+Release+Schedule
+
 
 All Open edX Releases
 *********************
