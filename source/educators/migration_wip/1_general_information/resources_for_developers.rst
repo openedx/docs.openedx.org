@@ -1,7 +1,5 @@
 .. :diataxis-type: reference
 
-.. _Resources for Developers:
-
 **************************
 Resources for Developers
 **************************

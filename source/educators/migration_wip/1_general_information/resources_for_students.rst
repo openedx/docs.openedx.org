@@ -1,7 +1,5 @@
 .. :diataxis-type: reference
 
-.. _Resources for Students:
-
 ******************************
 Resources for edx.org Learners
 ******************************
@@ -22,7 +20,7 @@ these options for getting an answer.
 
 .. note::
   If you find an error or mistake in a course, contact the course staff by
-  adding a post in the :ref:`course discussions<Explore Posts>`.
+  adding a post in the :ref:`course discussions <Discussions>`.
 
 * Check the **Course** page in the course. Course teams use this page to post
   updates about the course, which can include explanations about course
@@ -34,7 +32,7 @@ these options for getting an answer.
   general information about how the course works and what you can expect, and
   also what they expect from you, in the first section in the course.
 
-* Participate in the :ref:`course discussions<Explore Posts>`. Other learners
+* Participate in the :ref:`course discussions <Discussions>`. Other learners
   might be able to answer your question, or might have the same question
   themselves. If you encounter an unfamiliar word, phrase, or abbreviation,
   such as "finger exercise" or "board work", search for it on the

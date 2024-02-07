@@ -1,8 +1,5 @@
 .. :diataxis-type: concept
 
-.. _What is the LMS:
-
-
 ****************
 What Is the LMS?
 ****************
@@ -10,7 +7,7 @@ What Is the LMS?
 The LMS is the web-based tool where you view the courses you have created in
 Studio.
 
-If you have not created a course, see :ref:`Creating a New Course`.
+If you have not created a course, see :ref:`Creating a New Course<Creating a New Course>`.
 
 #. In Studio, locate your course on your dashboard and open your course.
 
@@ -23,3 +20,4 @@ If you have not created a course, see :ref:`Creating a New Course`.
 
 To continue working on your course, return to the browser tab that shows
 Studio.
+

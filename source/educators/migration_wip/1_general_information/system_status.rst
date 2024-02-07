@@ -1,7 +1,5 @@
 .. :diataxis-type: reference
 
-.. _System Status:
-
 ***********************
 System Status
 ***********************

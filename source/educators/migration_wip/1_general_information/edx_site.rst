@@ -1,7 +1,5 @@
 .. :diataxis-type: reference
 
-.. _The Open edX Portal:
-
 ***********************
 The Open edX Site
 ***********************
@@ -13,8 +11,6 @@ community resources.
 
 All users can view content on the Open edX site without creating an account
 and logging in.
-
-.. _Release Announcements through the Open edX Portal:
 
 ===============================
 Release Announcements by Email
@@ -35,4 +31,3 @@ You will now receive email messages when new announcements of the types you
 selected are posted.
 
 .. _edX Partner Portal: https://partners.edx.org
-.. _Open edX Portal: https://open.edx.org

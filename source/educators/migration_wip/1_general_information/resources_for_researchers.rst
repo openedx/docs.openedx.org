@@ -1,7 +1,5 @@
 .. :diataxis-type: reference
 
-.. _Resources for Researchers:
-
 **************************
 Resources for Researchers
 **************************

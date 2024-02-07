@@ -1,7 +1,5 @@
 .. :diataxis-type: reference
 
-.. _Resources for Course Teams:
-
 **********************************
 Resources for edx.org Course Teams
 **********************************
@@ -32,20 +30,20 @@ the extensive capabilities of the edX platform.
 StudioX: Creating a Course with edX Studio
 *************************************************
 
-After you complete edX101, `StudioX`_ provides more detail about using Studio
+After you complete edX101, "StudioX" provides more detail about using Studio
 to create a course, add different types of content, and configure your course
 to provide an optimal online learning experience.
 
 BlendedX: Blended Learning with edX
 ************************************
 
-In `BlendedX`_ you explore ways to blend educational technology with
+In "BlendedX" you explore ways to blend educational technology with
 traditional classroom learning to improve educational outcomes.
 
 VideoX: Creating Video for the edX Platform
 *************************************************
 
-`VideoX`_ presents strategies for creating videos for course content and course
+"VideoX" presents strategies for creating videos for course content and course
 marketing. The course provides step-by-step instructions for every stage of
 video creation, and includes links to exemplary sample videos created by edX
 partner institutions.
@@ -54,9 +52,9 @@ partner institutions.
 Documentation
 ==============
 
-Documentation for course teams is available from the `docs.edx.org`_ web page.
+Documentation for course teams is available from the docs.edx.org web page.
 
-* `Building and Running an edX Course`_ is a comprehensive guide with
+* `Building and Running an Open edX Course`_ is a comprehensive guide with
   concepts and procedures to help you build a course in Studio and then
   use the Learning Management System (LMS) to run a course.
 
@@ -83,8 +81,8 @@ Email
 To receive and share information by email, course team members can:
 
 * Subscribe to announcements and other new topics in the edX Partner
-  Portal or the Open edX Portal. For information about how to subscribe, see
-  `Release Announcements through the Open edX Portal`_.
+  Portal or the Open edX Portal. For information about how to subscribe, see 
+  the :doc:`Release Announcements through the Open edX Portal <edx_site>`
 
 * Join the `openedx-studio`_ Google group to ask questions and participate in
   discussions with peers at other edX partner organizations and edX staffers.
