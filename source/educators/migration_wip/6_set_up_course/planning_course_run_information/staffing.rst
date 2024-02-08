@@ -10,7 +10,7 @@ You can designate a team of people to help you run your course.
 
   For courses on edx.org, you designate the staff that appears on the About
   page for a specific course run in Publisher. For more information, see
-  :ref:`Pub Add Course Run Staff <Pub Add Course Run Staff>`.
+  `Pub Add Course Run Staff`_.
 
   For courses on Edge, you add staff members in Studio. For more information,
   see :ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.

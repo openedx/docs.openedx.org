@@ -8,7 +8,7 @@ Adding Course Team Members in Studio
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Add Course Run Staff <Pub Add Course Run Staff>`.
+    run on edx.org, see `Pub Add Course Run Staff`_.
 
 After you have selected the members of your course team, you are ready to add
 team members in Studio.

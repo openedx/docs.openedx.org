@@ -660,3 +660,63 @@
 
 .. _forums: https://discuss.openedx.org/
 
+
+.. ##### Links to Legacy ReadtheDocs
+
+.. _interactive_multiple_choice: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/interactive_multiple_choice.html
+
+.. _taking_timed_exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/timed_exams.html
+
+.. _what is open learning xml: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/what-is-olx.html#what-is-open-learning-xml
+
+.. _steps in an open response assessment: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_ORA.html#the-steps-in-an-open-response-assessment
+
+.. _oe sfd proctored exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/proctored_exams.html#oe-sfd-proctored-exams
+
+.. _sfd_ora: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_ORA.html
+
+.. _course_structure_research_guide: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/course_structure.html#course-structure
+
+.. _sfd_dashboard: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_dashboard_profile_SectionHead.html
+
+.. _olx course building blocks: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/organizing-course/course-structure-overview.html#olx-course-building-blocks
+
+.. _course discussions index: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/index.html
+
+.. _sfd notes: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_notes.html
+
+.. _sfd check progress: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_check_progress.html
+
+.. _sfd wiki: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_wiki.html
+
+.. _Pub Create a Course: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course/pub_create_course.html
+
+.. _Pub Add an About Video: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_add_about_video.html
+
+.. _Pub Add Course Run Staff: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/pub_add_course_run_staff.html
+
+.. _Pub Creating and Announcing a Course: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/index.html
+
+.. _Pub Course Creation: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course/index.html
+
+.. _Pub Course Run Creation: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/index.html
+
+.. _Pub Change a Course Run: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/pub_edit_course_run.html
+
+.. _pub creating a course run: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/index.html
+
+.. _about programs: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/ecommerce/create_products/create_programs.html
+
+.. _create or edit a limited profile: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#create-or-edit-a-limited-profile
+
+.. _view order history: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#view-your-order-history
+
+.. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
+
+.. _problem weight: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/components/problem-components.html#problem-weight
+
+.. _add a post: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/add_post.html#adding-a-post
+
+.. _video player: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_video_player.html
+
+.. _math formatting: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/SFD_mathformatting.html

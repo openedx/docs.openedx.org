@@ -18,5 +18,3 @@
    additional_transcript_options
    create_preroll_video
    troubleshoot_video
-
-.. include:: ../fix-me.rst

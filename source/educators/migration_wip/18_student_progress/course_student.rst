@@ -68,7 +68,7 @@ as they choose.
   and they can unenroll from a course at any time.
 
 * Learners can update their personal information at any time on the
-  :ref:`Account Settings<SFD Update Account Settings>` page.
+  Account Settings page.
 
 As a result, you might want to download learner data periodically to gain an
 understanding of how the learner population changes over time.
@@ -125,7 +125,7 @@ team member and the following columns.
    * - level_of_education
      - This value is optional and can be updated on the **Account Settings**
        page. For a list of the possible values, see the description of the
-       :ref:`auth_userprofile<auth_userprofile>` table's level_of_education column in the
+       `auth_userprofile`_ table's level_of_education column in the
        *EdX Research Guide*.
    * - mailing_address
      - No longer collected during registration. Previously, this value was

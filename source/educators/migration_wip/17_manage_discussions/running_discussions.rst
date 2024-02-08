@@ -48,7 +48,7 @@ of the course history.
 .. only:: Partners
 
  For information about participating in discussions, see the
- :ref:`Course Discussions Index<course discussions index>` section in the *EdX Learner's Guide*.
+ `course discussions index`_ section in the *EdX Learner's Guide*.
  Consider referring learners in your courses to that section, which describes
  the structure and features of edX course discussions, and provides useful
  information to help learners make the most of their participation in course
@@ -57,7 +57,7 @@ of the course history.
 .. only:: Open_edX
 
  For information about participating in discussions, see the
- :ref:`Course Discussions Index<course discussions index>` section in the *Open edX
+ `course discussions index`_ section in the *Open edX
  Learner's Guide*. Consider referring learners in your courses to that section,
  which describes the structure and features of course discussions, and provides
  useful information to help learners make the most of their participation in

@@ -1,8 +1,8 @@
 .. _Course Data:
 
-############################
+##############################
 Course Information
-############################
+##############################
 
 After you create a course in Studio, you can access information about it on the
 instructor dashboard. The instructor dashboard is part of the LMS.
@@ -36,11 +36,11 @@ To view this course data, follow these steps.
    following information about the course.
 
    * **Course Name**: Specified when you create the course. Becomes part of the
-     course URL. For more information, see :ref:`Course Title Guidelines<course title guidelines>`.
+     course URL. For more information, see :doc:`../6_set_up_course/planning_course_information/course_title_guidelines`.
    * **Course Run**: Specified when you create the course. Becomes part of the
      course URL, and cannot be changed.
    * **Course Number**: Specified when you create the course. Becomes part of
-     the course URL. For more information, see :ref:`Course Number Guidelines<course number guidelines>`.
+     the course URL. For more information, see :doc:`../6_set_up_course/planning_course_information/course_number_guidelines`.
    * **Organization**: Specified when you create the course. Becomes part of
      the course URL, and cannot be changed.
    * **Course Start Date**: The date and time that the course is scheduled to

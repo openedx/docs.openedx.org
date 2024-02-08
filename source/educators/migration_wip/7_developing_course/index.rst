@@ -29,4 +29,3 @@ content for randomized assigments, see :ref:`Content Libraries`.
    licensing_course
    testing_courseware
 
-.. include:: ../fix-me.rst

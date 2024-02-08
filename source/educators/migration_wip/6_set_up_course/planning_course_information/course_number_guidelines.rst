@@ -1,14 +1,7 @@
-.. :diataxis-type: reference
 
-.. For the introduction to this topic, see the individual
-.. title_number_guidelines.rst files in the course_authors and
-.. open_edx_course_authors guides.
-
-.. _course number guidelines:
-
-************************************
+##############################
 Course Number Guidelines
-************************************
+##############################
 
 Course numbers have the following guidelines.
 
@@ -25,13 +18,12 @@ Course numbers have the following guidelines.
 
 .. only:: Partners
 
- For more information about how to add your course number, see :ref:`Pub
- Creating a Course <Pub Create a Course>`.
+ For more information about how to add your course number, see `Pub Create a Course`_.
 
 .. only:: Open_edX
 
  For information about how to add your course number, see
- :ref:`Creating a New Course <Creating a Course>`.
+ :ref:`Creating a New Course <Create a New Course>`.
 
 ======================
 Example Course Numbers

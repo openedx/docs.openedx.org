@@ -9,7 +9,7 @@ times. This section lists the optional and required information for courses, as
 well as guidelines to help you create an effective course and About page.
 
 After you have determined the information for your course, you enter this
-information in Studio. For more information, see :ref:`Creating a Course <Creating a Course>`.
+information in Studio. For more information, see :ref:`Creating a Course <Create a New Course>`.
 
 .. toctree::
    :maxdepth: 2

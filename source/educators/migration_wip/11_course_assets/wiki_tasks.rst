@@ -6,6 +6,7 @@ This section describes how you can contribute to the course wiki.
    :depth: 2
    :local:
 
+
 *********************************
 Adding a Wiki Article
 *********************************

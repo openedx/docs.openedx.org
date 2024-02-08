@@ -60,8 +60,8 @@ experiment to be independent and use a different grouping.
 
 To determine the available groupings of learners, you set up group
 configurations :ref:`using Studio <Set up Group Configurations in edX Studio>`
-or :ref:`using XML <Set Up Group Configuration for OLX Courses>`.
+or :doc:`subsection_content_experiments_policies`.
 
 You then select which group configuration to use when you add a content
 experiment :ref:`using Studio <Add a Content Experiment in Studio>` or
-:ref:`using XML <Add a Content Experiment in OLX>`.
+:doc:`subsection_content_experiments_OLX`.

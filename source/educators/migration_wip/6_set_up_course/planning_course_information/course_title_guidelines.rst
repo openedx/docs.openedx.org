@@ -1,12 +1,6 @@
-.. :diataxis-type: reference
-
-.. For the introduction to this topic, see the individual
-.. title_number_guidelines.rst files in the course_authors and
-.. open_edx_course_authors guides.
-
-************************************
+############################
 Course Title Guidelines
-************************************
+############################
 
 When you determine the title of your course, consider the following guidelines.
 
@@ -22,13 +16,12 @@ When you determine the title of your course, consider the following guidelines.
 
 .. only:: Partners
 
- For more information about how to add your course name, see :ref:`Pub Creating
- a Course <Pub Create a Course>`.
+ For more information about how to add your course name, see `Pub Create a Course`_.
 
 .. only:: Open_edX
 
  For information about how to add your course name, see
- :ref:`Creating a New Course <Creating a Course>`.
+ :ref:`Creating a New Course <Create a New Course>`.
 
 .. note::
   The title that you specify when you create your course becomes part of the

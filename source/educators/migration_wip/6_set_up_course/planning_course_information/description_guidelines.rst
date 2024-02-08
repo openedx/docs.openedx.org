@@ -16,7 +16,7 @@ the subject, and the difficulty level.
   About page.
 
   For edx.org courses, you enter this information in Publisher. For more
-  information, see :ref:`Pub Creating a Course <Pub Create a Course>`.
+  information, see `Pub Create a Course`_.
 
   For courses on Edge, you enter this content in Studio. For more
   information, see :ref:`Creating a New Course <Creating a New Course>`.

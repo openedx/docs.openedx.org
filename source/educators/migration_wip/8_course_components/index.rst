@@ -23,5 +23,3 @@ page, see :ref:`Developing Your Course Index`.
    create_discussion
    create_problem
    libraries
-
-.. include:: ../fix-me.rst

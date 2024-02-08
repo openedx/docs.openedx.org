@@ -9,7 +9,7 @@ specifications, how to add video content to your course, and how to specify
 options for your videos.
 
 For more information about how learners can interact with course videos, see
-:ref:`Video Player <Video Player>`.
+`Video Player`_.
 
 .. important::
 

@@ -25,5 +25,3 @@ course run information, as well as how to enter this information in Studio.
 
 For information about how to develop your course content in the Studio course
 outline, see :ref:`Developing Your Course Index <Developing Your Course Index>`.
-
-.. include:: ../fix-me.rst

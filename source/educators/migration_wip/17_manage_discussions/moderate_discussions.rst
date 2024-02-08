@@ -188,7 +188,7 @@ introduce features of edX discussions.
 
 .. only:: Partners
 
- You can also refer learners to the :ref:`Course Discussions Index<course discussions index>`
+ You can also refer learners to the `course discussions index`_
  section in the *EdX Learner's Guide*. Consider referring learners in your
  courses to that section, which describes the structure and features of edX
  course discussions, and provides useful information to help learners make the
@@ -196,8 +196,7 @@ introduce features of edX discussions.
 
 .. only:: Open_edX
 
- You can also refer learners to the :ref:`Course Discussions
- Index<course discussions index>` section in the *Open EdX Learner's Guide*. Consider referring learners
+ You can also refer learners to the `course discussions index`_ section in the *Open EdX Learner's Guide*. Consider referring learners
  in your courses to that section, which describes the structure and features of
  edX course discussions, and provides useful information to help learners make
  the most of their participation in course discussions.
@@ -258,8 +257,7 @@ conversation (a discussion).
 On the **Discussion** page, a question mark image identifies posts that ask
 questions, and a conversation bubble image identifies posts that start
 discussions. When an answer is provided and marked as correct for a question, a
-check or tick mark image replaces the question mark image. For more
-information, see :ref:`Answer Questions<answer questions>`.
+check or tick mark image replaces the question mark image.
 
 The titles and icons of posts that you have not yet read appear in blue, with
 a blue vertical bar on the post's left side. Posts that you have read have
@@ -388,7 +386,7 @@ follow these steps.
 The learner's account profile page opens. Learners can have either a limited
 profile or a full profile.
 
-For more information about profiles, see :ref:`SFD Dashboard<sfd dashboard>`.
+For more information about profiles, see `SFD Dashboard <sfd dashboard>`_.
 
 
 ****************

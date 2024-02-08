@@ -10,7 +10,7 @@ self-paced or instructor-paced, changes with every course run.
 .. only:: Partners
 
    For courses on edx.org, you enter this information in Publisher. For more
-   information, see :ref:`Pub Create a Course Run <Pub Create a Course>`.
+   information, see `Pub Create a Course`_.
 
    For courses on Edge, you enter this information in Studio. For more
    information, see :ref:`Creating a Course About Page <Creating a Course About Page>`.
@@ -61,7 +61,7 @@ Although learners cannot access any part of your course before the course
 start date, course team members who are enrolled in the course and who have
 the staff, admin, or beta tester role can see published content in the course
 before the course start date. For information about testing your course
-content before the course start date, see :ref:`Beta_Testing <Beta Testing>`.
+content before the course start date, see :doc:`../../15_releasing_course/beta_testing`.
 
 .. note::
   You can set a different advertised start date for your course. You might do
@@ -239,7 +239,7 @@ Now, Personalized Learning Schedule can be adapted to have:
 
   For more information about the way learners experience instructor-paced and
   self-paced courses, see :ref:`Differences Between Instructor- and Self-Paced
-  Courses<SFD Course Pacing>` in the *edX Learner's Guide*.
+  Courses<Setting Course Pacing>` in the *edX Learner's Guide*.
 
 ========================================================
 Setting Custom Pacing in Personalized Learning Schedules

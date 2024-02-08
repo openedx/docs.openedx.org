@@ -65,7 +65,7 @@ media sites such as Facebook and Twitter.
   Explore edX Programs
   =======================
 
-  The **Programs** page lists the :ref:`programs<About Programs>` that you have
+  The **Programs** page lists the programs that you have
   enrolled in. You see a program on this page if you are enrolled in any courses
   that are part of that program.
 

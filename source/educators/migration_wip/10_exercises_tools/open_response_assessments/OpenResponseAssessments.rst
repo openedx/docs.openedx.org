@@ -34,7 +34,7 @@ including step by step instructions, see the following sections.
 * :ref:`Accessing ORA Assignment Information`
 
 For information about the learner experience with open response assessments,
-see :ref:`SFD_ORA <sfd_ora>` in the *edX Guide for Learners*.
+see `SFD_ORA`_ in the *edX Guide for Learners*.
 
 
 .. _PA Elements:
@@ -82,7 +82,7 @@ Prompt`.
 
 In the learner view of the assignment, each prompt appears above the field
 where learners enter their responses. For more information, see
-:ref:`Steps in an Open Response Assessment <steps in an open response assessment>`.
+`Steps in an Open Response Assessment`_.
 
 
 .. _PA Rubric:

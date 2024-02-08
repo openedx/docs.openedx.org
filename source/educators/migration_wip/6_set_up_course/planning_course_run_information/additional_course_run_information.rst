@@ -11,7 +11,7 @@ the time you expect learners to spend with your course.
 .. only:: Partners
 
     For edx.org courses, you enter this information in Publisher. For more
-    information, see :ref:`Pub Creating a Course Run <Pub Create a Course>`.
+    information, see `Pub Create a Course`_.
 
     For courses on Edge, you enter this content in Studio. For more
     information, see :ref:`Creating a Course About Page <Creating a Course About Page>`.

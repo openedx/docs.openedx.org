@@ -101,7 +101,7 @@ directory. To find a unit, look in the **Vertical** directory.
 
    .. only:: Partners
 
-     For more information, see :ref:`course_structure<course_structure>` in the **EdX
+     For more information, see `course_structure <course_structure_research_guide>`_ in the **EdX
      Research Guide**.
 
 .. _Import a Course:

@@ -5,8 +5,7 @@ Updating Course-Specific Settings
 *********************************
 
 From the dashboard, access the courses that you are enrolled in and change
-course-specific settings. You can also :ref:`unenroll from a course<Unenroll
-from a Course>` from the dashboard.
+course-specific settings. You can also unenroll from a course from the dashboard.
 
 =================================
 Change a Course Email Preference

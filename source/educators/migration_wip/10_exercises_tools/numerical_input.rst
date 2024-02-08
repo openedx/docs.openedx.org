@@ -40,8 +40,8 @@ learner and the numerical expression that results.
      the n minus 1 power.
 
 For more information about how learners enter expressions, see
-:ref:`Math Formatting<math formatting>` in the *EdX Learner's Guide* or
-:ref:`Math Formatting<math formatting>` in the *Open edX Learner's Guide*.
+`Math Formatting`_ in the *EdX Learner's Guide* or
+`Math Formatting`_ in the *Open edX Learner's Guide*.
 
 Some of the options for numerical input problems include the following.
 
@@ -383,8 +383,7 @@ correct answer and received partial credit.
  :alt: A numerical input problem with partial credit for a close answer.
 
 
-For an overview of partial credit in problems, see
-:ref:`Awarding Partial Credit for a Problem<awarding partial credit for a problem>`.
+For an overview of partial credit in problems, see :doc:`../8_course_components/Section_partial_credit`.
 
 You can use the following methods to award partial credit in a numerical input
 problem.

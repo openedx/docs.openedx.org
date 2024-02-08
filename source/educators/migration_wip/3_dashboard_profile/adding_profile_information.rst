@@ -85,7 +85,7 @@ Add or Update a Full Profile
 
 .. note:: You must specify your year of birth on the **Account Settings** page
    before you can share a full profile. If you are under 13 years of age, you
-   can share only a :ref:`limited profile <Create or Edit a Limited Profile>`.
+   can share only a `Create or Edit a Limited Profile`_.
 
 If you create a full profile, you share the following information in
 addition to your username and profile image.

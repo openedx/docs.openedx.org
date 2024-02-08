@@ -394,8 +394,7 @@ called rerandomization), there is one row for each problem-variant-answer
 combination selected by your learners. For more information, see :ref:`Problem
 Settings`.
 
-.. note:: Certain types of problems can be set up to :ref:`award partial
-  credit<Awarding Partial Credit for a Problem>`. When a learner receives
+.. note:: Certain types of problems can be set up to :doc:`../8_course_components/Section_partial_credit`. When a learner receives
   either the full or a partial score for a problem, this report includes that
   answer as correct.
 

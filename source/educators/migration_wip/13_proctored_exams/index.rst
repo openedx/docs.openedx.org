@@ -19,3 +19,4 @@ online proctoring software.
    pt_results
    proctored_managing
    proctored_learners
+   CA_online_proctoring_rules_students

@@ -81,5 +81,4 @@ In this example:
   ``url_name`` equal to ``group_a``.  Therefore, learners in group 0 see the
   content in that vertical.
 
-For information about the ``policy.json`` file, see :ref:`Set Up Group
-Configuration for OLX Courses<set up group configuration for olx courses>`.
+For information about the ``policy.json`` file, see :doc:`subsection_content_experiments_policies`.

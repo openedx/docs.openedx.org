@@ -35,8 +35,8 @@ starting a timed exam.
   Learners cannot complete timed exams using the edX mobile app.
 
 To better understand the learner's experience of timed exams, see
-:ref:`taking_timed_exams<taking_timed_exams>` in the *edX Learner's Guide* or
-:ref:`taking_timed_exams<taking_timed_exams>` in the *Open edX Learner's Guide*.
+`taking_timed_exams`_ in the *edX Learner's Guide* or
+`taking_timed_exams`_ in the *Open edX Learner's Guide*.
 
 .. only:: Partners
 

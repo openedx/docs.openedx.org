@@ -19,10 +19,9 @@ menu options.
 
 * :doc:`Account<updating_course_specific_settings>` gives you access to your account
   settings and preferences. For example, you can update your password or email
-  address and set your :ref:`time zone<Time Zones>`.
+  address and set your Time Zones.
 
   .. only:: Partners
 
-    On the **Account Settings** page, you can also view your :ref:`edX order
-    history<View Order History>` and link your edX account to a social media or
+    On the **Account Settings** page, you can also view your `View Order History`_ and link your edX account to a social media or
     organization account.

@@ -13,7 +13,7 @@ learner dashboards and search engine results.
 .. only:: Partners
 
     For edx.org courses, you enter this information in Publisher. For more
-    information, see :ref:`Pub Creating a Course <Pub Create a Course>`.
+    information, see `Pub Create a Course`_.
 
     For courses on Edge, you enter this content in Studio. For more
     information, see :ref:`Creating a New Course <Creating a New Course>`.
@@ -138,7 +138,7 @@ as your course content videos.
  For courses on edx.org, when you add an About video for a course, you must
  first upload the video to the edX About video upload page. You can then
  optionally enter the URL for your course About video in Publisher. For more
- information, see :ref:`Pub Add an About Video <Pub Add an About Video>` and :ref:`Pub Create a Course <Pub Create a Course>`.
+ information, see `Pub Add an About Video`_ and `Pub Create a Course`_.
 
  For courses on Edge, see :ref:`Add an About Video <Add an About Video>` for information about how
  to add an About video to your course About page.

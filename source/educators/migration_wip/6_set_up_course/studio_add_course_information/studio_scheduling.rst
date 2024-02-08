@@ -8,7 +8,7 @@ Set the Course Run Schedule and Pacing in Studio
 
   .. note::
     This information applies to Edge courses. If your course will run on
-    edx.org, see :ref:`Pub Course Run Creation <Pub Course Run Creation>`.
+    edx.org, see `Pub Course Run Creation`_.
 
 After you determine the start and end dates for a course run, and whether you
 want your course run to be self-paced or instructor-paced, you specify these

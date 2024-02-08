@@ -65,5 +65,3 @@ For information about building specific course component types, see
    word_cloud
    zooming_image
    Section_adding_hints
-
-.. include:: ../fix-me.rst

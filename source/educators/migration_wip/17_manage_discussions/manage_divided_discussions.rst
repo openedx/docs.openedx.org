@@ -32,14 +32,14 @@ have groups and do not use divided discussions.
 .. only:: Partners
 
  You can share the examples in the :ref:`Read the Group Indicator in Posts`
- section with your learners. The :ref:`Course Discussions Index<course discussions index>`
+ section with your learners. The `course discussions index`_
  section in the *EdX Learner's Guide* also provides useful information to help
  learners make the most of their participation in course discussions.
 
 .. only:: Open_edX
 
  You can share the examples in the :ref:`Read the Group Indicator in Posts`
- section with your learners. The :ref:`Course Discussions Index<course discussions index>`
+ section with your learners. The `course discussions index`_
  section in the *Open edX Learner's Guide* also provides useful information to
  help learners make the most of their participation in course discussions.
 
@@ -153,8 +153,7 @@ Community TA role can make posts to divided discussion topics visible to
 everyone who is enrolled in the course or only to the members of a specified
 group.
 
-If you are a course team member with one of these roles, when you :ref:`add a
-post<Add a Post>`, the **Visible to** dropdown list appears above the **Title**
+If you are a course team member with one of these roles, when you `add a post`_, the **Visible to** dropdown list appears above the **Title**
 field.
 
 .. note:: Group Community TAs cannot choose the group visibility of a post.

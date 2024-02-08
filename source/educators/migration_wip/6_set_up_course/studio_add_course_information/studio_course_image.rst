@@ -10,7 +10,7 @@ Program Images and Videos>`.
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Course Creation <Pub Course Creation>`.
+    run on edx.org, see `Pub Course Creation`_.
 
 To add a course image in Studio, follow these steps.
 

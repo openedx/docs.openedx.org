@@ -383,8 +383,7 @@ You can specify what percentage of the points for the problem a learner
 receives for an incorrect answer. If you do not specify the percentage, the
 system uses the default of 50%.
 
-For an overview of partial credit in problems, see
-:ref:`Awarding Partial Credit for a Problem<awarding partial credit for a problem>`.
+For an overview of partial credit in problems, see :doc:`../8_course_components/Section_partial_credit`.
 
 To configure a single select problem to award partial credit for a specific
 answer, you add the following attributes to the problem OLX.

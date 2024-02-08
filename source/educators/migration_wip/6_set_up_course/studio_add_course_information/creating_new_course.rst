@@ -6,15 +6,6 @@ Creating a New Course in Studio
 
 This topic describes how to use Studio to create and set up a course.
 
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Course Creation <Pub Course Creation>`.
-
-    You must have the correct permissions to create courses on the edX Edge
-    site. For more information, see :ref:`Use Studio on Edge <Use Studio on Edge>`.
-
 .. contents::
   :local:
   :depth: 1
@@ -37,7 +28,7 @@ Create a Course
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Creating and Announcing a Course <Pub Creating and Announcing a Course>`.
+    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 To create a course, follow these steps.
 
@@ -96,7 +87,7 @@ Edit a Course
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Creating and Announcing a Course <Pub Creating and Announcing a Course>`.
+    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 After you create a course, the course opens in Studio automatically and you can
 begin editing. Your next steps might include adding other :ref:`course team

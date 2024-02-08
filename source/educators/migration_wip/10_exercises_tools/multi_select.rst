@@ -340,8 +340,7 @@ Awarding Partial Credit
 You can configure a multi-select problem to award partial credit to learners
 who submit an answer that is partly correct.
 
-For an overview of partial credit in problems, see :ref:`Awarding Partial
-Credit for a Problem<awarding partial credit for a problem>`.
+For an overview of partial credit in problems, see :doc:`../8_course_components/Section_partial_credit`.
 
 .. only:: Partners
 

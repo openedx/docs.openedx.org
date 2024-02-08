@@ -80,10 +80,10 @@ Members of the course team can perform these tasks to manage the wiki.
 All users, including learners, can perform the following tasks, depending on
 the permissions that you set for an article.
 
-* :ref:`Add a Wiki Article<Adding a Wiki Article>`
-* :ref:`Edit a Wiki Article<Editing a Wiki Article>`
-* :ref:`Manage Versions of a Wiki Article<Managing Versions of a Wiki Article>`
-* :ref:`Search for Wiki Articles<Searching for Wiki Articles>`
+* Add a Wiki Article
+* Edit a Wiki Article
+* Manage Versions of a Wiki Article
+* Search for Wiki Articles
 
 .. _Showing or Hiding the Wiki:
 

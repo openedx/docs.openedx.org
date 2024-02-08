@@ -1,4 +1,4 @@
-.. _Using edX as an LTI Tool Provider:
+.. _Using Open edX as an LTI Tool Provider:
 
 #####################################
 Using edX as an LTI Tool Provider

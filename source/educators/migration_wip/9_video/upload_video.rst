@@ -103,8 +103,7 @@ represents all of the formats and hosting locations for the video.
 
 * For courses that have :ref:`non-integrated transcripts <Automated Video
   Process for Non Integrated Transcripts>`, you must obtain your transcripts
-  from your third party provider. You later :ref:`add the video transcripts
-  manually <Add a Transcript>` when you create a video component. Transcripts 
+  from your third party provider. You later :doc:`prepare_video/obtain_transcript` when you create a video component. Transcripts 
   can also be added in the Transcript tab within the Info Modal.
 
 .. image:: ../images/videos_page_info_modal_transcripts.png
@@ -191,7 +190,7 @@ transcripts, the video processing service completes the following steps.
 #. The process uploads the video files to the hosting service.
 
 Either before or after the course team uploads a video on the **Videos**
-page, the course team :ref:`obtains transcripts <Obtain a Video Transcript>`
+page, the course team :doc:`prepare_video/obtain_transcript`
 from a transcript provider. When the edX video process is complete, and the
 course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
@@ -500,8 +499,6 @@ Uploading a Video for an Edge Course
 
 For :ref:`Edge courses <Uploading a Video for an Edge Course>`, you upload your
 videos to the third party hosting site that you selected. You also obtain the
-transcripts for the videos from your third party provider. You :ref:`add the
-video location <Adding a Video to a Course>` and :ref:`transcripts manually <Add a Transcript>` when you
-create a video component.
+transcripts for the videos from your third party provider. You :ref:`add the video location <Adding a Video to a Course>` and :doc:`prepare_video/obtain_transcript` when you create a video component.
 
 .. include:: additional/upload_video.rst

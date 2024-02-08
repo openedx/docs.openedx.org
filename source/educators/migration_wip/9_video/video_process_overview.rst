@@ -75,13 +75,13 @@ Video Process for Courses on Edge
 
 .. only:: Open_edX
 
-  2. The course team :ref:`uploads the videos <Upload a Video>` to the third
+  2. The course team uploads the videos to the third
      party hosting service.
 
-3. The course team :ref:`creates video components <Add a Video to a Course>`
+3. The course team :ref:`creates video components <Adding a Video to a Course>`
    and adds the video location to the components.
 
-#. The course team :ref:`uploads transcripts <Add a Transcript>` in
+#. The course team :doc:`prepare_video/obtain_transcript` in
    the video component.
 
 

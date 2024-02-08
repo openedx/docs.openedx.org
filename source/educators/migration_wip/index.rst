@@ -30,4 +30,3 @@ This is a collection of WIP docs currently being migrated from https://github.co
    18_student_progress/index
    19_rerun_course/index
    20_glossary/glossary
-   fix-me

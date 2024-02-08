@@ -182,8 +182,7 @@ descriptions.
 #. Review the HTML markup.
 
 #. Accessibility Checker, which allows you to check HTML in the editor for various 
-   accessibility problems. For more information, see :ref:`Accessibility Checker 
-   <Accessibility Checker>`.
+   accessibility problems. For more information, see :doc:`../5_accessibility/accessibility_checker`.
 
 
 .. note::
@@ -637,7 +636,7 @@ However, if you select “Remove formatting”, this is what Studio and LMS will
 .. has decided to remove this section of our support documentation.
 
 
-.. _Import LaTeX Code:
+.. _import latex code:
 
 .. ****************************************
 .. Import LaTeX Code into a Text Component
