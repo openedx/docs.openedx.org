@@ -195,9 +195,6 @@ For more information, see :ref:`Student Data`.
      enroll in your course. For more information, see :ref:`installation:Enable
      and Create Enrollment Codes`.
 
-  .. include:: Section_view_enrollment_count.rst
-
-
 .. _Report Learners Not Yet Enrolled:
 
 ********************************

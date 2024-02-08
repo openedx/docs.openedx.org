@@ -30,4 +30,4 @@ subscribe to announcements on one of the edX portal sites.
 You will now receive email messages when new announcements of the types you
 selected are posted.
 
-.. _edX Partner Portal: https://partners.edx.org
+.. include:: ../links/links.rst

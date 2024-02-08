@@ -72,6 +72,8 @@
 
 .. _Partner Portal: http://partners.edx.org/
 
+.. _Open edX Portal: http://open.edx.org/
+
 .. _Announcements: https://open.edx.org/announcements
 
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
@@ -421,6 +423,8 @@
 
 .. _edX Insights: https://insights.edx.org
 
+.. _Using edX Insights: http://edx.readthedocs.io/projects/edx-insights/en/latest/
+
 .. _edX Status: http://status.edx.org/
 
 .. _edX roadmap: https://open.edx.org/features-roadmap/all
@@ -653,3 +657,6 @@
 .. _Twitter:  http://twitter.com/edXstatus
 .. _Open EdX XBlock API Guide: http://edx.readthedocs.io/projects/xblock/en/latest/
 .. _Open edX XBlock Tutorial: http://edx.readthedocs.io/projects/xblock-tutorial/en/latest/index.html
+
+.. _forums: https://discuss.openedx.org/
+

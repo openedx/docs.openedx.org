@@ -122,5 +122,3 @@ without proctoring, please contact your edX partner manager to enable this optio
     #. Change the value of the setting to ``Yes``.
 
     #. Select **Submit**.
-
-.. include:: ../../../links/links.rst

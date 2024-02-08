@@ -64,7 +64,7 @@ system such as Canvas or Blackboard.
 .. only:: Partners
 
   For more information about how to use Studio as an LTI tool provider, see
-  :ref:`partnercoursestaff:Using edX as an LTI Tool Provider`.
+  :ref:`Using edX as an LTI Tool Provider`.
 
 .. only:: Open_edX
 
@@ -555,7 +555,7 @@ LTI Component Settings
        This setting is only applied if **Scored** is set to **True**.
 
        For more information about problem weights and computing point scores,
-       see :ref:`Problem Weight`.
+       see :ref:`Problem Weight<problem weight>`.
 
    * - Hide External Tool
      - Controls whether the LTI component will display the remote LTI tool on

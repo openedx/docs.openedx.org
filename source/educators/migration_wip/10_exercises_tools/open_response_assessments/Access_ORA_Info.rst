@@ -84,7 +84,7 @@ following attributes:
 
 The **Waiting step details** page also allows managing student grades through the
 **Manage individual learners** button near the bottom of the page, which works in
-the same manner as :ref:`partnercoursestaff:Access Information for a Specific Learner`.
+the same manner as :ref:`Access Information for a Specific Learner`.
 
 
 .. _PA View Metrics for Individual Steps:

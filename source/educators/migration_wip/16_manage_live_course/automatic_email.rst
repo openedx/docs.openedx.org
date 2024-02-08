@@ -174,7 +174,7 @@ courses. The logic for when the message is sent depends on the Course pacing.
 For more information, see :ref:`Set Section Highlights for Course Highlight
 Messages`.
 
-.. include:: ../developing_course/course_highlight_message_text.rst
+.. include:: ../7_developing_course/course_highlight_message_text.rst
 
 
 .. _Discussion Notification:
