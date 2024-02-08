@@ -1,7 +1,7 @@
 .. _Developing Your Course Index:
 
 ##########################
-7. Developing Your Course
+Developing Your Course
 ##########################
 
 Use the topics in this section to understand how to develop your course

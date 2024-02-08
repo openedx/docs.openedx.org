@@ -1,7 +1,7 @@
 .. _CA Dashboard:
 
 ###################################################
-3. Exploring Your Dashboard and Profile
+Exploring Your Dashboard and Profile
 ###################################################
 
 .. note:: Your dashboard is available only from the LMS. If you are currently

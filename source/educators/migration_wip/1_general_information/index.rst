@@ -1,7 +1,7 @@
 .. _Front Matter:
 
 #############################
-1. General Information
+General Information
 #############################
 
 .. toctree::

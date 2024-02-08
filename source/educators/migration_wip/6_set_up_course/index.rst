@@ -1,7 +1,7 @@
 .. _Setting up Your Course Index:
 
 ################################
-6. Setting Up a Course
+Setting Up a Course
 ################################
 
 When you begin to set up a course, the first step is to plan and specify two

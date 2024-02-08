@@ -1,5 +1,5 @@
 ######################################################################
-5. Accessibility Best Practices Guidance for Content Providers
+Accessibility Best Practices Guidance for Content Providers
 ######################################################################
 
 The core mission of edX is to expand access to education for everyone. We

@@ -1,7 +1,7 @@
 .. _Course Components Index:
 
 ############################
-8. Adding Course Components
+Adding Course Components
 ############################
 
 Use the topics in this section to understand how to create course content of

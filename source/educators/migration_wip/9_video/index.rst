@@ -1,7 +1,7 @@
 .. _Creating and Adding Video Content:
 
 #####################################
-9. Creating and Adding Video Content
+Creating and Adding Video Content
 #####################################
 
 .. include:: additional/intro_video.rst

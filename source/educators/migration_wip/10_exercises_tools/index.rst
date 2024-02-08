@@ -1,7 +1,7 @@
 .. _Exercises and Tools Index:
 
 ###############################
-10. Adding Exercises and Tools
+Adding Exercises and Tools
 ###############################
 
 Use the topics in this section to understand how to add exercises and tools to
