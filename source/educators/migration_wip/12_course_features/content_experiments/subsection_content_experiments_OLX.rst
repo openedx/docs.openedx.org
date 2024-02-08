@@ -82,4 +82,4 @@ In this example:
   content in that vertical.
 
 For information about the ``policy.json`` file, see :ref:`Set Up Group
-Configuration for OLX Courses`.
+Configuration for OLX Courses<set up group configuration for olx courses>`.

@@ -406,8 +406,7 @@ tools available in Studio. For more information, see
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
        course by using OLX (open learning XML). Support for this tool in Studio
-       is not available. For more information, see the :ref:`olx:edX Open
-       Learning XML Guide`.
+       is not available. For more information, see the `EdX Open Learning XML Guide`_..
      - Not supported
    * - :ref:`Problem Written in LaTeX`
      - If you have a problem that is already written in LaTeX, you can use this
@@ -439,7 +438,7 @@ Analyzing Learner Performance on Problems
 
 For the following problem types in your course, you can use edX Insights to
 review aggregated learner performance data and examine the submitted answers.
-For more information, see :ref:`insights:Using edX Insights`.
+For more information, see `Using edX Insights`_ .
 
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
@@ -503,3 +502,4 @@ After you enable this setting, unsupported problem types, exercises, and tools
 are available in the lists of new components that you can add to your course
 in Studio.
 
+.. include:: ../links/links.rst

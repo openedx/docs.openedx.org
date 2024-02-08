@@ -54,7 +54,7 @@ For more information, see the documentation for the specific component type
 that you want to work with.
 
 - :ref:`Working with Discussion Components`
-- :ref:`Working with Text Components`
+- :ref:`Working with Text Components <working with text components>`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 
@@ -390,7 +390,7 @@ For more information, see the section for the specific component type that you
 want.
 
 - :ref:`Working with Discussion Components`
-- :ref:`Working with Text Components`
+- :ref:`Working with Text Components<working with text components>`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 

@@ -8,9 +8,9 @@ Glossary (MIGRATION)
 - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. note:: Most of the links to documentation provided in this glossary are to
-   the :ref:`document index` guide, for edX partners. Many
+   the :ref:`document index<document index>` guide, for edX partners. Many
    of the same topics are available in the Open edX version of this guide,
-   :ref:`Building and Running an Open edX Course`.
+   `Building and Running an Open edX Course`_.
 
 .. _A:
 
@@ -42,7 +42,7 @@ A
 .. only:: Partners
 
   For more information, see :ref:`Pub Creating and
-  Announcing a Course`.
+  Announcing a Course<pub creating and announcing a course>`.
 
 
 **accessible label**
@@ -143,7 +143,7 @@ C
   icon. You can move closed captions to different areas on the video screen by
   dragging and dropping them.
 
-  For more information, see :ref:`Video Player`.
+  For more information, see :ref:`Video Player<video player>`.
 
 .. _codec_g:
 
@@ -322,7 +322,7 @@ D
   responsible for receiving course data from edX, and transferring it securely
   to researchers and other interested parties after it is received.
 
-  For more information, see the :ref:`edX Research Guide`.
+  For more information, see the `edX Research Guide`_.
 
 **discussion**
 
@@ -618,7 +618,7 @@ L
 
   A document markup language and document preparation system for the TeX
   typesetting program. In edX Studio, you can :ref:`import
-  LaTeX code`.
+  LaTeX code<import latex code>`.
 
 
 .. _Learning Management System:
@@ -682,7 +682,7 @@ M
   A problem that requires learners to enter a mathematical expression as text,
   such as e=m*c^2.
 
-  For more information, see :ref:`Math Formatting` in the *EdX
+  For more information, see :ref:`Math Formatting<math formatting>` in the *EdX
   Learner's Guide*.
 
 
@@ -752,7 +752,7 @@ O
   OLX  (open learning XML) is the XML-based markup language that is used to
   build courses on the Open edX platform.
 
-  For more information, see :ref:`What is Open Learning XML?`.
+  For more information, see :ref:`What is Open Learning XML?<what is open learning xml>`.
 
 
 .. _Open Response Assessment_g:
@@ -872,7 +872,7 @@ P
 
   The page in the learning management system that shows learners their scores
   on graded assignments in the course. For more information, see
-  :ref:`SFD Check Progress` in the *EdX Learner's Guide*.
+  :ref:`SFD Check Progress<sfd check progress>` in the *EdX Learner's Guide*.
 
 
 .. _Q:
@@ -903,7 +903,7 @@ R
   contribute data to the program, and only researchers at those institutions
   can request data from the program.
 
-  For more information, see :ref:`Research Data Exchange`.
+  For more information, see :ref:`Research Data Exchange<research data exchange>`.
 
 .. _Rubric_g:
 
@@ -1158,5 +1158,7 @@ XYZ
   A set of related courses in a specific subject. Learners qualify for an
   XSeries certificate when they pass all of the courses in the XSeries. For
   more information, see `XSeries Programs`_.
+
+.. include:: ../fix-me.rst
 
 

@@ -384,7 +384,7 @@ receives for an incorrect answer. If you do not specify the percentage, the
 system uses the default of 50%.
 
 For an overview of partial credit in problems, see
-:ref:`Awarding Partial Credit for a Problem`.
+:ref:`Awarding Partial Credit for a Problem<awarding partial credit for a problem>`.
 
 To configure a single select problem to award partial credit for a specific
 answer, you add the following attributes to the problem OLX.

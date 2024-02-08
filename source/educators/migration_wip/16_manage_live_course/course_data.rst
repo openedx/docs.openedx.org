@@ -36,11 +36,11 @@ To view this course data, follow these steps.
    following information about the course.
 
    * **Course Name**: Specified when you create the course. Becomes part of the
-     course URL. For more information, see :ref:`Course Title Guidelines`.
+     course URL. For more information, see :ref:`Course Title Guidelines<course title guidelines>`.
    * **Course Run**: Specified when you create the course. Becomes part of the
      course URL, and cannot be changed.
    * **Course Number**: Specified when you create the course. Becomes part of
-     the course URL. For more information, see :ref:`Course Number Guidelines`.
+     the course URL. For more information, see :ref:`Course Number Guidelines<course number guidelines>`.
    * **Organization**: Specified when you create the course. Becomes part of
      the course URL, and cannot be changed.
    * **Course Start Date**: The date and time that the course is scheduled to
@@ -65,5 +65,5 @@ in the instructor dashboard, and from Insights.
 
 To access the data visualizations, metrics, and reports that are available in
 Insights from the instructor dashboard, select the link in the banner at the
-top of each page. For more information, see :ref:`insights:Using edX Insights`.
+top of each page. For more information, see `Using edX Insights`_.
 

@@ -16,7 +16,7 @@ in the LMS, you can use the charts and reports that are available from edX
 Insights. With Insights, you can review demographic and geographic
 distributions for enrolled learners. You can also monitor learner activity and
 review the number of learners who, each week, interacted with your course. For
-more information, see :ref:`Using edX Insights<insights:Overview>`.
+more information, see `Using edX Insights`_.
 
 .. _PII:
 
@@ -125,7 +125,7 @@ team member and the following columns.
    * - level_of_education
      - This value is optional and can be updated on the **Account Settings**
        page. For a list of the possible values, see the description of the
-       :ref:`data:auth_userprofile` table's level_of_education column in the
+       :ref:`auth_userprofile<auth_userprofile>` table's level_of_education column in the
        *EdX Research Guide*.
    * - mailing_address
      - No longer collected during registration. Previously, this value was

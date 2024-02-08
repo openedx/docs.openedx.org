@@ -29,7 +29,7 @@ group that each learner has been assigned to. For more information, see
 :ref:`Interpret the Grade Report`.
 
 For information about analyzing events from content experiments, see
-:ref:`data:AB_Event_Types` in the *EdX Research Guide*.
+:ref:`AB_Event_Types` in the *EdX Research Guide*.
 
 .. important::
 

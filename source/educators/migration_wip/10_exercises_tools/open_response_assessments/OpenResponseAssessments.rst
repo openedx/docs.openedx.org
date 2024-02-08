@@ -34,7 +34,7 @@ including step by step instructions, see the following sections.
 * :ref:`Accessing ORA Assignment Information`
 
 For information about the learner experience with open response assessments,
-see :ref:`learners:SFD_ORA <learners:sfd_ora>` in the *edX Guide for Learners*.
+see :ref:`SFD_ORA <sfd_ora>` in the *edX Guide for Learners*.
 
 
 .. _PA Elements:
@@ -82,7 +82,7 @@ Prompt`.
 
 In the learner view of the assignment, each prompt appears above the field
 where learners enter their responses. For more information, see
-:ref:`learners:Steps in an Open Response Assessment <learners:steps in an open response assessment>`.
+:ref:`Steps in an Open Response Assessment <steps in an open response assessment>`.
 
 
 .. _PA Rubric:
@@ -715,7 +715,7 @@ change.
   This set of file name extensions is provided as the default for Open edX
   installations. Open edX system administrators can update this list. For more
   information, see
-  :ref:`installation:Configuring ORA2 to Prohibit Submission of File Types <installation:configuring ora2 to prohibit submission of file types>`.
+  :ref:`Configuring ORA2 to Prohibit Submission of File Types <configuring ora2 to prohibit submission of file types>`.
 
 .. list-table::
    :widths: 15 75

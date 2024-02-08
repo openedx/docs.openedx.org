@@ -101,7 +101,7 @@ directory. To find a unit, look in the **Vertical** directory.
 
    .. only:: Partners
 
-     For more information, see :ref:`data:course_structure` in the **EdX
+     For more information, see :ref:`course_structure<course_structure>` in the **EdX
      Research Guide**.
 
 .. _Import a Course:
@@ -162,7 +162,7 @@ Work with the .tar.gz File
 
 Courses are exported and imported in .tar.gz files containing OLX (open
 learning XML), the edX markup format for open course exchange. For more
-information about OLX, see the :ref:`olx:edX Open Learning XML Guide`.
+information about OLX, see the `EdX Open Learning XML Guide`_..
 
 To extract and compress .tar.gz files, you use a third-party program.
 

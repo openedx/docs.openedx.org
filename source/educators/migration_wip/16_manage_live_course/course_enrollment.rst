@@ -37,7 +37,7 @@ learners.
   Data about course enrollment is available from edX Insights. You can access
   Insights for your course from the LMS: after you select **Instructor** to
   access the instructor dashboard, follow the link in the banner at the top of
-  each page. For more information, see :ref:`insights:Using edX Insights`.
+  each page. For more information, see `Using edX Insights`_.
 
 .. _view_enrollment_count:
 
@@ -192,7 +192,7 @@ For more information, see :ref:`Student Data`.
      enrollment codes for the organization. The organization then distributes
      these enrollment codes to its learners to simplify the enrollment process.
      You can also create coupon codes to give learners a discount when they
-     enroll in your course. For more information, see :ref:`installation:Enable
+     enroll in your course. For more information, see :ref:`Enable
      and Create Enrollment Codes`.
 
 .. _Report Learners Not Yet Enrolled:

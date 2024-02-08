@@ -90,8 +90,8 @@ course.
  opportunity to continue the conversation.
 
  For more information about how learners experience peer instruction
- assignments, see :ref:`learners:interactive_multiple_choice` in the *EdX
- Learner's Guide* or :ref:`openlearners:interactive_multiple_choice` in the
+ assignments, see :ref:`interactive_multiple_choice<interactive_multiple_choice>` in the *EdX
+ Learner's Guide* or :ref:`interactive_multiple_choice<interactive_multiple_choice>` in the
  *Open edX Learner's Guide*.
 
 .. _Enable the Peer Instruction Tool:

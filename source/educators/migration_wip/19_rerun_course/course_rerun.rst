@@ -87,7 +87,7 @@ Re-Run a Course
 
  * For courses on edx.org, the course team uses :ref:`Publisher <Pub Creating
    and Announcing a Course>` to re-run courses. For more information about
-   how to create a course run, see :ref:`Pub Creating a Course Run`.
+   how to create a course run, see :ref:`Pub Creating a Course Run<pub creating a course run>`.
 
  * For courses on Edge, the course team can :ref:`use the course Import and
    Export options <Export and Import the Previous Course>` to re-run a course,

@@ -35,8 +35,8 @@ starting a timed exam.
   Learners cannot complete timed exams using the edX mobile app.
 
 To better understand the learner's experience of timed exams, see
-:ref:`learners:taking_timed_exams` in the *edX Learner's Guide* or
-:ref:`openlearners:taking_timed_exams` in the *Open edX Learner's Guide*.
+:ref:`taking_timed_exams<taking_timed_exams>` in the *edX Learner's Guide* or
+:ref:`taking_timed_exams<taking_timed_exams>` in the *Open edX Learner's Guide*.
 
 .. only:: Partners
 
@@ -89,7 +89,7 @@ steps.
     If the **Settings** dialog box does not contain the **Advanced** tab, timed
     exams might not be enabled for your Open edX site. Enabling timed exams for
     an Open edX site is a task that is usually performed by a system
-    administrator. For more information, see :ref:`installation:Enable Timed
+    administrator. For more information, see :ref:`Enable Timed
     Exams` in *Installing, Configuring, and Running the Open edX Platform*.
 
 #. In the **Set as a Special Exam** section, select **Timed**.

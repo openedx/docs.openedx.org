@@ -4,6 +4,8 @@
 .. title_number_guidelines.rst files in the course_authors and
 .. open_edx_course_authors guides.
 
+.. _course number guidelines:
+
 ************************************
 Course Number Guidelines
 ************************************

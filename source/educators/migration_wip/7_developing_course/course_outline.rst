@@ -100,7 +100,7 @@ Components`.
       If you want to require an entrance exam for your course, you also create
       the exam in the course outline. Before you can create an exam, you must
       set your course to require an entrance exam in Studio. For more
-      information, see :ref:`Require an Entrance Exam`.
+      information, see :ref:`Require an Entrance Exam<require an entrance exam>`.
 
 
 ==========================================

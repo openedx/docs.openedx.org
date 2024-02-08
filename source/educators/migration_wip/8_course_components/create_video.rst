@@ -11,12 +11,12 @@ transcript. Learners view your videos in the LMS.
 .. only:: Partners
 
   For information about the way learners interact with videos, see
-  :ref:`learners:Video Player`.
+  :ref:`Video Player<video player>`.
 
 .. only:: Open_edX
 
   For information about the way learners interact with videos, see
-  :ref:`openlearners:Video Player`.
+  :ref:`Video Player<video player>`.
 
 For more information about adding videos to your course, see :ref:`Creating and
 Adding Video Content`.

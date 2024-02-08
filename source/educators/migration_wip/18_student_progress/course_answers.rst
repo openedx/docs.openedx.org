@@ -14,8 +14,7 @@ download an answer distribution report for course problems.
  :depth: 1
 
 Learner answer distribution data, including both charts and reports, is also
-available from edX Insights. For more information, see :ref:`insights:Using edX
-Insights`.
+available from edX Insights. For more information, see `Using edX Insights`_.
 
 .. _Student_Answer_Submission:
 

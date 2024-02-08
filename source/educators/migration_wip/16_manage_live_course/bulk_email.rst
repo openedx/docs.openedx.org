@@ -181,7 +181,7 @@ Styling
 
 Messages can include HTML styling, including text formatting and links.
 
-For more information, see :ref:`Working with Text Components`.
+For more information, see :ref:`Working with Text Components<working with text components>`.
 
 -----------------------
 Restricted HTML Content

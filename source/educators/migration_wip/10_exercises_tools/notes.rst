@@ -41,9 +41,9 @@ tool, follow these steps.
 .. only:: Partners
 
  For more information about the ways learners can use notes, see
- :ref:`learners:SFD Notes`.
+ :ref:`SFD Notes<sfd notes>`.
 
 .. only:: Open_edX
 
  For more information about the ways learners can use notes, see
- :ref:`openlearners:SFD Notes`.
+ :ref:`SFD Notes<sfd notes>`.

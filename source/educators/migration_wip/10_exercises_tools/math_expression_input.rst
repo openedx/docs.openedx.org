@@ -28,8 +28,8 @@ allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
 For more information about how learners enter expressions, see
-:ref:`learners:Math Formatting` in the *EdX Learner's Guide* or
-:ref:`openlearners:Math Formatting` in the *Open edX Learner's Guide*.
+:ref:`Math Formatting<math formatting>` in the *EdX Learner's Guide* or
+:ref:`Math Formatting<math formatting>` in the *Open edX Learner's Guide*.
 
 .. note::
   You can make a calculator tool available to your learners on every unit
@@ -116,7 +116,7 @@ Analyzing Performance on Math Expression Input Problems
 
 For the math expression input problems in your course, you can use edX Insights
 to review aggregated learner performance data and examine submitted answers.
-For more information, see :ref:`insights:Using edX Insights`.
+For more information, see `Using edX Insights`_.
 
 ***************************************
 Adding a Math Expression Input Problem
@@ -404,3 +404,5 @@ the questions in a problem that contains more than one question.
 
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
+
+.. include:: ../links/links.rst

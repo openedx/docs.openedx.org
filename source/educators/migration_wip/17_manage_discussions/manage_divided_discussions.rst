@@ -32,14 +32,14 @@ have groups and do not use divided discussions.
 .. only:: Partners
 
  You can share the examples in the :ref:`Read the Group Indicator in Posts`
- section with your learners. The :ref:`learners:Course Discussions Index`
+ section with your learners. The :ref:`Course Discussions Index<course discussions index>`
  section in the *EdX Learner's Guide* also provides useful information to help
  learners make the most of their participation in course discussions.
 
 .. only:: Open_edX
 
  You can share the examples in the :ref:`Read the Group Indicator in Posts`
- section with your learners. The :ref:`openlearners:Course Discussions Index`
+ section with your learners. The :ref:`Course Discussions Index<course discussions index>`
  section in the *Open edX Learner's Guide* also provides useful information to
  help learners make the most of their participation in course discussions.
 

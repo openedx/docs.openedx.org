@@ -277,7 +277,7 @@ When you use the visual editor, you can also perform the following tasks.
 
 * :ref:`Add a Link in a Text Component`
 * :ref:`Add an Image to a Text Component`
-* :ref:`Import LaTeX Code`
+* :ref:`Import LaTeX Code<import latex code>`
 
 
 .. _Text Component Templates:
