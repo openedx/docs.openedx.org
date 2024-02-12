@@ -53,6 +53,10 @@ Quince
      - 2023-12-11
      - open-release/quince.1
 
+   * - Quince.2
+     - 2024-02-09
+     - open-release/quince.2
+
 Palm
 ====
 
