@@ -73,7 +73,7 @@ workflow:
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
 #. Install the XBlock or plugin in your local `Tutor`_ or `devstack`_ environment. Run
-   ``OPENEDX_ATLAS_PULL=true make pull_translations`` in the ``edx-platform`` repo to preview the translations.
+   ``make pull_translations`` in the ``edx-platform`` repo to preview the translations.
 
 
 Django Microservice Repos (IDAs)
@@ -122,7 +122,7 @@ To include a Microservice Python repository in the translations workflow:
 
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
-#. Run ``OPENEDX_ATLAS_PULL=true make pull_translations`` to verify translations are pulled from the
+#. Run ``make pull_translations`` to verify translations are pulled from the
    `openedx-translations repo`_ into the ``conf/locale`` directory. To generate JavaScript translation
    files you will likely also need to run ``make static``/``make static.dev``.
 
@@ -138,6 +138,9 @@ To include a React repository in the translations workflow:
    For existing repos which don't have the ``make extract_translations`` or
    ``make pull_translations`` command, they can be copied from the
    `frontend-template-application Makefile`_.
+
+   The ``make pull_translations`` command should accept a ``ATLAS_OPTIONS`` environment variable. This is used to
+   pass options to the ``atlas pull`` command during build processes like `Tutor MFE Docker build`_.
 
 #. Run ``make extract_translations``. Verify that it creates ``src/i18n/transifex_input.json``. This file should be
    excluded from the repo via the ``.gitignore`` file.
@@ -163,12 +166,10 @@ To include a React repository in the translations workflow:
 
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
-#. Depending on how you deploy the micro-frontend, include the ``pull_translations`` make rule with the
-   ``OPENEDX_ATLAS_PULL`` environment variable set to ``true`` e.g
-   ``$ OPENEDX_ATLAS_PULL=true make pull_translations``.
+.. note::
 
-   This command needs to run before ``npm build`` in order to include updated translations in final micro-frontend
-   build.
+  While deploying or building the micro-frontend, ensure ``make pull_translations`` is ran before ``npm build`` in
+  order to include updated translations in final micro-frontend build.
 
 
 Testing and Debugging
@@ -202,8 +203,8 @@ on a fork by following the steps below:
 #. Temporarily edit the ``Makefile`` so the ``pull_translations`` step pulls from your fork e.g.
    ``atlas pull --repository=Zeit-Labs/openedx-translations``.
 
-#. If you're testing and Open edX plugin, run the ``$ OPENEDX_ATLAS_PULL=true make pull_translations`` command in
-   the ``edx-platform`` repo. Otherwise, run ``$ OPENEDX_ATLAS_PULL=true make pull_translations`` in the repository
+#. If you're testing and Open edX plugin, run the ``$ make pull_translations`` command in
+   the ``edx-platform`` repo. Otherwise, run ``$ make pull_translations`` in the repository
    you're testing e.g. ``frontend-app-learning``.
 
 #. Run the application (or plugin) and verify the translations you've added are working properly.
@@ -274,3 +275,4 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _Tutor: https://docs.tutor.overhang.io/
 .. _devstack: https://github.com/openedx/devstack/
 .. _chore - add updated translation source files: https://github.com/Zeit-Labs/openedx-translations/pull/49/commits/e872c962d6873b9f178f8901ef661c7f1c266397
+.. _Tutor MFE Docker build: https://github.com/overhangio/tutor-mfe/blob/master/tutormfe/templates/mfe/build/mfe/Dockerfile
