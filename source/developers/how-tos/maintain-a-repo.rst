@@ -111,6 +111,28 @@ Update your readme until it meets the above specification.
 
 .. _readme specification: https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055/decisions/0003-readme-specification.html
 
+Your CCs are Aligned With Your Expectations as Maintainer
+*********************************************************
+
+This is a more difficult item to test but a repo that you take on may already
+have other CCs that have merge rights on it.  You should review which CCs have
+write access to your repo on the `CCs Wiki Page`_.  You should communicate with
+your CCs and ensure that you are aligned with them on the architectural goals
+of the repo.  Especially if there are particular kinds of changes that you as
+the maintainer would like to have more input on.
+
+For any new CCs that might get added to your repo, you will have the
+opportunity to vote on their nomination and decide whether they should get
+access.
+
+For any CCs that you believe are not fulfilling their role properly you may opt
+to initiate `the CC removal process`_ as outlined in :doc:`OEP-54 <openedx-proposals:processes/oep-0054-core-contributors>`
+
+
+.. _CCs Wiki Page: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3156344833/Core+Contributors+to+the+Open+edX+Project
+
+.. _the CC removal process: https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0054-core-contributors.html#removing-core-contributors
+
 Congratulations!
 ****************
 
