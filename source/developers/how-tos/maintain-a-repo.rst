@@ -114,11 +114,11 @@ Update your readme until it meets the above specification.
 Your CCs are Aligned With Your Expectations as Maintainer
 *********************************************************
 
-This is a more difficult item to test but a repo that you take on may already
+A repo that you take on may already
 have other CCs that have merge rights on it.  You should review which CCs have
 write access to your repo on the `CCs Wiki Page`_.  You should communicate with
 your CCs and ensure that you are aligned with them on the architectural goals
-of the repo.  Especially if there are particular kinds of changes that you as
+of the repo, especially if there are particular kinds of changes that you as
 the maintainer would like to have more input on.
 
 For any new CCs that might get added to your repo, you will have the
