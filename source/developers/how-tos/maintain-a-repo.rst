@@ -121,17 +121,30 @@ your CCs and ensure that you are aligned with them on the architectural goals
 of the repo, especially if there are particular kinds of changes that you as
 the maintainer would like to have more input on.
 
+.. warning::
+
+   Sometimes github teams are used to group multiple repos together and the CCs
+   wiki lists the team instead of each individula repo.  The teams that are
+   used for acess should be listed at the top of the wiki page.
+
+   You can also make an `Axim Request`_ to get a snapshot of the what users and
+   teams currently have access to your repo if you need more details or have
+   questions.
+
+.. _Axim Request: https://github.com/openedx/axim-engineering/issues/new/choose
+
 For any new CCs that might get added to your repo, you will have the
 opportunity to vote on their nomination and decide whether they should get
-access.
+access.  See the :ref:`CC nomination process <openedx-proposals:new cc process>`
+documentation for more details.
 
 For any CCs that you believe are not fulfilling their role properly you may opt
-to initiate `the CC removal process`_ as outlined in :doc:`OEP-54 <openedx-proposals:processes/oep-0054-core-contributors>`
+to initiate :ref:`the CC removal process <openedx-proposals:removing ccs>` as
+outlined in :doc:`OEP-54 <openedx-proposals:processes/oep-0054-core-contributors>`
 
 
 .. _CCs Wiki Page: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3156344833/Core+Contributors+to+the+Open+edX+Project
 
-.. _the CC removal process: https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0054-core-contributors.html#removing-core-contributors
 
 Congratulations!
 ****************
