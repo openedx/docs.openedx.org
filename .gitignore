@@ -2,3 +2,4 @@ build
 .DS_Store
 source/.DS_Store
 .idea/
+sphinx-env/
