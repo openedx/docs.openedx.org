@@ -71,11 +71,11 @@ of a particular field at a particular moment in time. Given that many fields
 are overwritten, that information is lost unless an event is emitted when the
 model is changed.
 
-Consider the source of the event. Events sent from the client can be much 
+Consider the source of the event. Events sent from the client can be much
 more easily lost, manipulated, or blocked by browser extensions. Business
 critical events such as enrollments or grading should always be emitted from
-the server. User interface events, such as video interaction, are have less
-inherent value to an advisary and are fine to trust to the client.
+the server. User interface events, such as video interaction, have less
+inherent value to an adversary and are fine to trust to the client.
 
 Sensitive Information
 =====================
@@ -96,7 +96,7 @@ Debugging Events
 ================
 
 On devstack, emitted events are stored in the ``/edx/var/log/tracking.log`` log
-file. On Tutor dev or local the file is stored on the host computer at 
+file. On Tutor dev or local the file is stored on the host computer at
 ``$(tutor config printroot)/data/lms/logs/tracking.log`` and
 ``$(tutor config printroot)/data/cms/logs/tracking.log``
 
@@ -242,15 +242,15 @@ comments that identify the purpose of the event and its fields. Your
 descriptions and examples can help assure that researchers and other members
 of the open edX community understand your intent and use the events correctly.
 
-You must also update the `Event Reference documentation 
-<https://docs.openedx.org/en/latest/developers/references/internal_data_formats/index.html>`_ 
-to include your changes. These documents are highly valuable for instructors, 
+You must also update the `Event Reference documentation
+<https://docs.openedx.org/en/latest/developers/references/internal_data_formats/index.html>`_
+to include your changes. These documents are highly valuable for instructors,
 researchers, site operators, and others who use the tracking logs.
 
 You might find the following references helpful as you prepare your PR.
 
 * The *Open edX Developer Documents* provide guidance for `contributing
-  to Open edX <https://docs.openedx.org/en/latest/developers/index.html>`_.
+  to Open edX <https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html>`_.
 
 Legacy Application Event Processor
 **********************************
