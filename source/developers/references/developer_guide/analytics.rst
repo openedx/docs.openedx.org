@@ -247,10 +247,10 @@ You must also update the `Event Reference documentation
 to include your changes. These documents are highly valuable for instructors,
 researchers, site operators, and others who use the tracking logs.
 
-You might find the following references helpful as you prepare your PR.
+The *Open edX Developer Guide* provides guidance for `contributing`_
+to the Open edX project.
 
-* The *Open edX Developer Documents* provide guidance for `contributing
-  to the Open edX project<https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html>`_.
+.. _contributing: https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html
 
 Legacy Application Event Processor
 **********************************
