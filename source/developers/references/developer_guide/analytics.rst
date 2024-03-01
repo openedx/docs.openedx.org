@@ -250,7 +250,7 @@ researchers, site operators, and others who use the tracking logs.
 You might find the following references helpful as you prepare your PR.
 
 * The *Open edX Developer Documents* provide guidance for `contributing
-  to Open edX <https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html>`_.
+  to the Open edX project<https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html>`_.
 
 Legacy Application Event Processor
 **********************************
