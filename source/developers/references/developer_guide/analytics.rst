@@ -32,12 +32,13 @@ Emitting from client-side JavaScript::
 
     Logger.log 'some.event.name', 'foo': 'bar'
 
-.. note::
-    The client-side API currently uses a deprecated library (the ``track``
-     djangoapp) instead of the event-tracking library. Eventually, event-tracking
-     will publish a client-side API of its own: when available, that
-     API should be used instead of the ``track``-based solution. See
-     :ref:`deprecated_api`.
+Request Context Middleware
+**********************************
+
+The platform includes a middleware class that enriches all events emitted
+during the processing of a given request with details about the request that
+greatly simplify downstream processing. This is called the ``TrackMiddleware``
+and can be found in ``edx-platform/common/djangoapps/track/middleware.py``.
 
 Naming Events
 ==============
@@ -70,6 +71,12 @@ of a particular field at a particular moment in time. Given that many fields
 are overwritten, that information is lost unless an event is emitted when the
 model is changed.
 
+Consider the source of the event. Events sent from the client can be much
+more easily lost, manipulated, or blocked by browser extensions. Business
+critical events such as enrollments or grading should always be emitted from
+the server. User interface events, such as video interaction, have less
+inherent value to an adversary and are fine to trust to the client.
+
 Sensitive Information
 =====================
 
@@ -89,7 +96,11 @@ Debugging Events
 ================
 
 On devstack, emitted events are stored in the ``/edx/var/log/tracking.log`` log
-file. This file can be useful for validation and debugging.
+file. On Tutor dev or local the file is stored on the host computer at
+``$(tutor config printroot)/data/lms/logs/tracking.log`` and
+``$(tutor config printroot)/data/cms/logs/tracking.log``
+
+This file can be useful for validation and debugging.
 
 .. _Testing Event Emission:
 
@@ -231,24 +242,15 @@ comments that identify the purpose of the event and its fields. Your
 descriptions and examples can help assure that researchers and other members
 of the open edX community understand your intent and use the events correctly.
 
-You might find the following references helpful as you prepare your PR.
+You must also update the `Event Reference documentation
+<https://docs.openedx.org/en/latest/developers/references/internal_data_formats/index.html>`_
+to include your changes. These documents are highly valuable for instructors,
+researchers, site operators, and others who use the tracking logs.
 
-* The *edX Platform Developer's Guide* provides guidelines for `contributing
-  to open edX <http://edx.readthedocs.io/projects/edx-developer-
-  guide/en/latest/process/index.html>`_.
+The *Open edX Developer Guide* provides guidance for `contributing`_
+to the Open edX project.
 
-* The `edX Research
-  Guide <http://edx.readthedocs.io/projects/devdata/en/latest/>`_ is a
-  reference for information about emitted events that are included in the edX
-  tracking logs.
-
-Request Context Middleware
-**********************************
-
-The platform includes a middleware class that enriches all events emitted
-during the processing of a given request with details about the request that
-greatly simplify downstream processing. This is called the ``TrackMiddleware``
-and can be found in ``edx-platform/common/djangoapps/track/middleware.py``.
+.. _contributing: https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html
 
 Legacy Application Event Processor
 **********************************
