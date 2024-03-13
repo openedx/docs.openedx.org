@@ -92,6 +92,8 @@
 
 .. _Contribute to edX Documentation: https://github.com/openedx/edx-documentation#contribute-to-edx-documentation
 
+.. _Contribute to Open edX Documentation: https://docs.openedx.org/en/latest/documentors/index.html
+
 .. _edx-documentation/shared: https://github.com/openedx/edx-documentation/blob/master/shared/conf.py
 
 .. _edx-analytics-configuration: https://github.com/openedx/edx-analytics-configuration
