@@ -20,7 +20,7 @@ This tutorial assumes the following:
   as documented in `Understanding User Roles`_. You will start off in the "Translator"
   role.
 
-* You have joined the Transifex `edx-platform project`_ with the language(s) you wish
+* You have joined the Transifex `openedx-translations project`_ with the language(s) you wish
   to translate to.
 
 * You have to be fluent in both English and the language(s) you are translating to. You should
@@ -43,15 +43,15 @@ This tutorial assumes the following:
 .. _Transifex: https://www.transifex.com/signup/
 .. _getting   started guide: https://docs.transifex.com/getting-started-1/translators
 .. _Translating with the Web Editor: https://docs.transifex.com/translation/translating-with-the-web-editor
-.. _edx-platform project: https://explore.transifex.com/open-edx/edx-platform/
+.. _openedx-translations project: https://explore.transifex.com/open-edx/openedx-translations/
 .. _Open edX Community: https://openedx.org/community/connect/
 .. _Understanding User Roles: https://docs.transifex.com/teams/understanding-user-roles
 
 Finding a string to translate
 *****************************
 
-#. Once you have joined the edx-platform project, you will be able to select the option
-   "Languages" from the left hand menu under "edx-platform":
+#. Once you have joined the openedx-translations project, you will be able to select the option
+   "Languages" from the left hand menu under "openedx-translations":
 
    .. image:: /_images/SelectLanguages.png
 
