@@ -182,8 +182,8 @@
 
 .. EDX VMs
 
-.. _iOS: http://github.com/openedx/edx-app-ios
-.. _Android: http://github.com/openedx/edx-app-android
+.. _iOS: http://github.com/openedx/openedx-app-ios
+.. _Android: http://github.com/openedx/openedx-app-android
 
 .. _edX Managing the Full Stack: https://github.com/openedx/configuration/wiki/edX-Managing-the-Full-Stack
 

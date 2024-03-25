@@ -75,8 +75,8 @@ within a course run.
 Mobile Apps
 ===========
 
-The Open edX project includes a mobile application, available for iOS and
-Android, that allows learners to watch course videos and more. The Open edX
+The Open edX project includes a mobile application, available for `iOS`_ and
+`Android`_, that allows learners to watch course videos and more. The Open edX
 community is actively enhancing the mobile apps.
 
 =========

@@ -123,7 +123,7 @@ For further information on the pull request requirements, please see the
 following links:
 
 * :doc:`code-considerations`
-* :doc:`../testing/jenkins`
+* :doc:`../testing/github-actions`
 * :doc:`../testing/code-coverage`
 * :doc:`../testing/code-quality`
 * :doc:`../style_guides/python-guidelines`

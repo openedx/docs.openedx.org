@@ -16,7 +16,6 @@ our Open edX learning site, `training.openedx.org`_.
 .. _training.openedx.org: https://training.openedx.org/
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    architecture

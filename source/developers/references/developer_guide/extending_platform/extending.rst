@@ -1,14 +1,15 @@
 
-.. _Options for Extending the edX Platform:
+.. _Options for Extending the Open edX Platform:
 
-##########################################
-Options for Extending the edX Platform
-##########################################
+###########################################
+Options for Extending the Open edX Platform
+###########################################
 
 There are several options for extending the Open edX Platform to provide useful
 and innovative educational content in your courses.
 
-This section of the developers' documentation lists and explains the different ways to extend the platform, starting with the following table.
+This section of the developers' documentation lists and explains the different
+ways to extend the platform, starting with the following table.
 
 .. |br| raw:: html
 
@@ -48,11 +49,11 @@ This section of the developers' documentation lists and explains the different w
      - Yes
    * - Self-hosting Needed
      - No
-     - Yes
+     - Yes, if building a new LTI unit. Many LTI tools are hosted elsewhere.
      - Yes
      - No
      - No
-   * - Need edX Involvement
+   * - Requires Sysadmin Installation on Your Open edX Instance
      - No
      - No
      - Yes
@@ -60,7 +61,7 @@ This section of the developers' documentation lists and explains the different w
      - Yes
    * - Clean UI Integration
      - Yes
-     - No (see LTI)
+     - No (see :doc:`openedx-building-and-running-a-course:exercises_tools/lti_component`)
      - Yes
      - Yes
      - Yes
@@ -71,13 +72,13 @@ This section of the developers' documentation lists and explains the different w
      - Yes
      - Yes
    * - Server Side Grading
-     - Possibly (See JavaScript)
+     - Possibly (See :doc:`openedx-building-and-running-a-course:exercises_tools/custom_javascript`)
      - Yes
      - Yes
      - Yes
      - Yes
    * - Usage Data
-     - No (See JavaScript)
+     - No (See :doc:`openedx-building-and-running-a-course:exercises_tools/custom_javascript`)
      - No
      - Limited
      - Yes
@@ -88,9 +89,9 @@ This section of the developers' documentation lists and explains the different w
      - No
      - Yes
      - No
-   * - Privacy Loss Compared to Hosting Open edX
+   * - Learner Data Privacy Loss?
      - No
-     - Possibly
-     - Possibly
+     - Possibly (Depends on LTI tool used)
+     - Possibly (Depends on external grader implementation)
      - No
      - No

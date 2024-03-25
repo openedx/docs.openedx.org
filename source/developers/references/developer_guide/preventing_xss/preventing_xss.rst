@@ -945,19 +945,11 @@ The XSS linter is a tool to help you make sure that you are following best
 practices inside edx-platform. It is not yet possible to run the linter against
 other repositories.
 
-To run the linter on the changes in your current Git branch, use the following
-command.
+To run the linter, use the following command.
 
 .. code-block:: bash
 
-    paver run_xsscommitlint
-
-To run the linter on the entire edx-platform repository, use the following
-command.
-
-.. code-block:: bash
-
-    ./scripts/xsslint/xss_linter.py
+    paver run_xsslint
 
 You can also lint an individual file or recursively lint a directory. Here is an
 example of how to lint a single file.

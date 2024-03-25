@@ -79,6 +79,10 @@ intersphinx_mapping = {
         f"https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/{rtd_language}/{rtd_version}",
         None,
     ),
+    "openedx-building-and-running-a-course": (
+        f"https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/{rtd_language}/{rtd_version}",
+        None,
+    ),
     "edx-platform": (
         f"https://docs.openedx.org/projects/edx-platform/{rtd_language}/{rtd_version}",
         None,
@@ -91,7 +95,6 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/wordpress-ecommerce-plugin/{rtd_language}/{rtd_version}",
         None,
     ),
-
 }
 
 # Add any paths that contain templates here, relative to this directory.

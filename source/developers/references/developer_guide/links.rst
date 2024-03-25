@@ -186,8 +186,8 @@
 
 .. EDX VMs
 
-.. _iOS: http://github.com/openedx/edx-app-ios
-.. _Android: http://github.com/openedx/edx-app-android
+.. _iOS: http://github.com/openedx/openedx-app-ios
+.. _Android: http://github.com/openedx/openedx-app-android
 
 .. _edX Managing the Full Stack: https://github.com/openedx/configuration/wiki/edX-Managing-the-Full-Stack
 
@@ -266,6 +266,8 @@
 .. _Waffle documentation: http://waffle.readthedocs.io/en/latest
 .. _OEP-17 Feature Toggles: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0017-bp-feature-toggles.html
 .. _OEP-19 Developer Documentation: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0019-bp-developer-documentation.html
+.. _Conventional Commits: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0051-bp-conventional-commits.html
+.. _Open edX CLA: https://openedx.org/cla
 .. _Segment: https://segment.com
 .. _CourseTalk: https://www.coursetalk.com/
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
