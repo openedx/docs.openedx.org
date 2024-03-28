@@ -60,14 +60,14 @@ At a high level, the pull request process is as follows:
    .. image:: /_images/devguide_workflow_approval.png
 
    .. image:: /_images/devguide_failed_cla_check.png
-            
+
 #. If there are checks failing on your pull request, you'll need to look into
    what's causing the issue. The Community PM can direct you to someone to help
    if needed.
 
    #. Note: please see :doc:`../../running_pr_tests` that outlines common issues
       that pop up while running tests
-   
+
 #. Once everything is up and running, the Community PMs are available to help
    with any questions that come up while product and/or engineering review is
    in-progress

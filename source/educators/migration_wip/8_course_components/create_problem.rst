@@ -117,7 +117,7 @@ The question and explanation fields (and other text fields as well) offer a
 number of formatting tools to craft your problem.
 
 .. image:: ../images/problem_editor_question_box.png
- :alt: an image of the Problem Editor toolbar and a number associated with 
+ :alt: an image of the Problem Editor toolbar and a number associated with
   each icon in the toolbar.
  :width: 800
 
@@ -148,7 +148,7 @@ number of formatting tools to craft your problem.
 
 #. **Clear Formatting**: Clears all formatting applied to the selected text.
 
-#. **Accessibility Checker**: allows you to check HTML in the editor for 
+#. **Accessibility Checker**: allows you to check HTML in the editor for
    various accessibility problems.
 
 #. **More**: Depending on page size, some of the toolbar may not show. Click
@@ -203,7 +203,7 @@ case, feedback is given for an incorrect answer.
  :width: 600
 
 While editing a problem block, you can apply **Answer-specific feedback**
-for all problem types. **Group feedback** can only be applied to 
+for all problem types. **Group feedback** can only be applied to
 **multi-select** problems.
 
 **Answer-specific feedback** can be added under each answer by pressing
@@ -221,7 +221,7 @@ learner does not select that answer.
 
 **Group Feedback** can be found on the collapsible settings to the right of
 the problem editor. Feedback entered in this field will display if and
-only if the learner selects all of the checked answers. Click the 
+only if the learner selects all of the checked answers. Click the
 **Add group feedback** button to add additional feedback for different
 groups of checked answers. **Group feedback** can only be applied for
 the **multi-select** problem type.
@@ -269,9 +269,9 @@ Studio`.
 Power Paste
 ============
 
-Many course authoring teams rely on copying and pasting content from documents 
-such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS 
-can be most easily realized through Power Paste. To learn how to use Power 
+Many course authoring teams rely on copying and pasting content from documents
+such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS
+can be most easily realized through Power Paste. To learn how to use Power
 Paste, see :ref:`Power Paste`.
 
 .. _Problem Settings:
@@ -355,7 +355,7 @@ Problem Points
 
 This setting specifies the total number of points possible for the problem.
 This defaults to 1 point. In the LMS, the number of points a problem is worth
-appears near the problem's display name. 
+appears near the problem's display name.
 
 .. note::
   The LMS scores all problems. However, only scores for problem

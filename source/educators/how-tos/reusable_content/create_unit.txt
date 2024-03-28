@@ -8,7 +8,7 @@
 
    A new unit is created at the end of the subsection and the blank unit editor opens.
 
-#. Click the pencil icon (|Pencil Icon|) and enter the name for the new unit. 
+#. Click the pencil icon (|Pencil Icon|) and enter the name for the new unit.
 
    You can now add components to the unit as needed.
 

@@ -12,12 +12,12 @@ Contribution Board Statuses
 
    * - **Status**
      - **Description(s)**
-  
+
    * - **Needs Triage**
      - A bot automatically places open-source contributions in this status and
        labels them as such. The Community Project Managers triage PRs from here
    * - **Needs Tests Run, or CLA Signed**
-     - 
+     -
          * If the author has never contributed to a particular repo, they need
            authorization to run tests on the pull request [enabling tests is
            currently handled by Axim].
@@ -28,7 +28,7 @@ Contribution Board Statuses
        needing product review) - pull requests needing product review must have
        product approval before continuing through the process
    * - **Waiting for Author**
-     - 
+     -
          * The PR is actively in progress
          * The author needs to address questions, feedback, rebase, etc.
          * The PR is still in a draft state
@@ -37,7 +37,7 @@ Contribution Board Statuses
      - Blocked by other pull requests / work. There should be context within the
        PR for why it's blocked
    * - **Ready for Review**
-     - 
+     -
          * Ready for review by maintainer or repo owner
          * All checks have passed and are green (including CLA)
          * The owning / maintaining team has been asked to review
@@ -50,7 +50,7 @@ Contribution Board Statuses
      - Actively being reviewed by Engineering.
 
    * - **Ready to Merge**
-     - 
+     -
          * Reviews are complete
          * Tests are green
          * No conflicts, and branch is not out-of-date
@@ -79,7 +79,7 @@ the author needs to take actions related to feedback.
 
    * - **Label**
      - **Description**
-  
+
    * - .. image:: /_images/pr_label_open-source-contribution.png
      - Automatically added by a bot to PRs coming from the community (not from Axim or 2U).
 

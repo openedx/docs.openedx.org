@@ -54,5 +54,5 @@ that introduces the core concepts of using the system.
 When you are working in an edX course, you can select **Help** to access a
 help center with `frequently asked questions`_  and answers.
 
-If you still have questions or suggestions, you can contact the `edX Support`_ 
+If you still have questions or suggestions, you can contact the `edX Support`_
 team for help.

@@ -31,32 +31,32 @@ For more information, see the following topics.
 The Files Page
 *************************
 
-You manage most files for your course, including image files, on the **Files** 
+You manage most files for your course, including image files, on the **Files**
 page. This page lists the files that you have added, along with the
 following capabilities and information regarding the files:
 
 .. image:: ../images/FilesPageTableView.png
- :alt: an image of the Files page in Studio. Each page shows up to 50 files 
-     and includes a Search box, sort and filter capabilities, an Add files 
+ :alt: an image of the Files page in Studio. Each page shows up to 50 files
+     and includes a Search box, sort and filter capabilities, an Add files
      button, and checkboxes so that you can bulk delete or bulk download files.
 
 * A checkbox for Download and Delete bulk actions
 * A thumbnail of the file
 * The file name
-* The file size 
+* The file size
 * The file type
 * An indication of whether the file is :ref:`locked<Lock a File>`.
-* The three dot menu allows you to copy the Studio URL, copy the web URL, 
+* The three dot menu allows you to copy the Studio URL, copy the web URL,
   lock the file, click on the Info button, and delete a file
 * The Info button within the three dot menu allows you to additionally see
   the date added and details about whether the file is within the course as
   well as the number of times it appears in your course.
 
 .. image:: ../images/FilesPageInfoPop.png
- :alt: When you first select the three dot menu, then select Info, this 
-     Info modal appears. The Info modal provides details such as date added, 
-     file size, Studio URL, Web URL, ability to lock a file, as well as usage 
-     data within the course. 
+ :alt: When you first select the three dot menu, then select Info, this
+     Info modal appears. The Info modal provides details such as date added,
+     file size, Studio URL, Web URL, ability to lock a file, as well as usage
+     data within the course.
 
 This page also includes a **Search** option to help you find specific files.
 For more information, see :ref:`Find Files`.
@@ -74,7 +74,7 @@ to your course.
 You can upload multiple files at a time.
 
 If you have very large audio files or large data sets to share with your
-students, do not use the **Files** page to add these files to your course. 
+students, do not use the **Files** page to add these files to your course.
 Instead, use another hosting service to host these files.
 
 .. _Upload a File:
@@ -99,7 +99,7 @@ To upload one or more files, follow these steps.
 
 #. On the **Content** menu, select **Files**.
 
-#. On the **Files** page, select the Add Files button at the top of the page 
+#. On the **Files** page, select the Add Files button at the top of the page
    and select the files that you want to add.
 
    .. note::
@@ -114,10 +114,10 @@ The **Files** page refreshes to show the uploaded file or files.
 Find an Uploaded File
 *********************
 
-The **Files** page lists up to 50 files at one time.  If your course has more 
+The **Files** page lists up to 50 files at one time.  If your course has more
 than 50 files, additional files are listed on other pages.
 
-To find a file on the **Files** page, you can use the **Search** option, or 
+To find a file on the **Files** page, you can use the **Search** option, or
 you can view the page that lists the file.
 
 * To use the **Search** option, enter one of the following search terms in the
@@ -127,7 +127,7 @@ you can view the page that lists the file.
   * The file name extension, or file type.
   * Part of the file name. You can also enter multiple parts of a file name.
 
-  For example, if the file is named FirstCourseImage.jpg, you can enter any
+  For example, if the file is named **FirstCourseImage.jpg**, you can enter any
   of the following search terms in the **Search** field.
 
   * ``FirstCourseImage.jpg``
@@ -135,7 +135,7 @@ you can view the page that lists the file.
   * ``First`` ``Image``
   * ``First`` ``.jpg``
 
-You can also sort files by Name (A-Z), Name (Z-A), Newest, Oldest, File size 
+You can also sort files by Name (A-Z), Name (Z-A), Newest, Oldest, File size
 (low to high), or filter files by Type (Code, Images, Documents, Audio).
 For more information, see :ref:`Sort Files` or :ref:`Filter files`.
 
@@ -146,11 +146,11 @@ Sort Files
 *********************
 
 .. image:: ../images/FilesPageFilterAction.png
- :alt: an image of the Sort options, which include Name (A-Z), Name (Z-A), 
-     Newest, Oldest, File size (High to low) and File size (Low to High). 
-     Selecting Apply will sort the files accordingly. 
+ :alt: an image of the Sort options, which include Name (A-Z), Name (Z-A),
+     Newest, Oldest, File size (High to low) and File size (Low to High).
+     Selecting Apply will sort the files accordingly.
 
-On the **Files** page, you can sort your files by Name (A-Z), Name (Z-A), 
+On the **Files** page, you can sort your files by Name (A-Z), Name (Z-A),
 Newest, Oldest, File size (high to low), and File size (low to high).
 To sort by one of these, select what you wish to sort by and click Apply.
 
@@ -160,7 +160,7 @@ To sort by one of these, select what you wish to sort by and click Apply.
 Filter Files
 *********************
 
-You can filter files by type so that only a selected type of file is 
+You can filter files by type so that only a selected type of file is
 visible. The list remains in the current sort order.
 
 You can filter by the following file types.
@@ -197,7 +197,7 @@ Use an Uploaded File Inside or Outside the Course
 *************************************************
 
 When you upload a file, Studio assigns a Studio URL and a web URL to the file.
-These URLs are found within the three dot menu or the info modal. To use an 
+These URLs are found within the three dot menu or the info modal. To use an
 uploaded file, you add a link to the Studio URL or the web URL in your content.
 
 .. note::
@@ -258,9 +258,9 @@ To lock a file, select the lock icon in the row for the file.
 Delete a File
 *******************
 
-To delete a file, first click on the corresponding checkboxes of the files 
-that you wish to delete, then click on the Actions button, and then select 
-Delete. To delete all files, select the very first checkbox, then select the 
+To delete a file, first click on the corresponding checkboxes of the files
+that you wish to delete, then click on the Actions button, and then select
+Delete. To delete all files, select the very first checkbox, then select the
 Action button and then select Delete.
 
 
@@ -270,12 +270,13 @@ Action button and then select Delete.
 
 .. _Download a File:
 
-**************************
+***************
 Download a File
-**************************
-To download individual files, multiple files at once, or all of your files, 
-first click on corresponding checkboxes of the files that you wish to 
-download, then click on the Actions button, and then select Download. To 
-download all files, select the very first checkbox, then select the Action 
+***************
+
+To download individual files, multiple files at once, or all of your files,
+first click on corresponding checkboxes of the files that you wish to
+download, then click on the Actions button, and then select Download. To
+download all files, select the very first checkbox, then select the Action
 button and then select Download.
 

@@ -19,9 +19,9 @@ features.
 
 .. only:: Open_edX
 
-  You can also configure Open edX so that courses or course outlines are visible 
-  to anyone, not just registered and enrolled learners. For information, see 
-  :ref:`Enable Public Course Content`. 
+  You can also configure Open edX so that courses or course outlines are visible
+  to anyone, not just registered and enrolled learners. For information, see
+  :ref:`Enable Public Course Content`.
 
 
 .. _Release Dates:
@@ -210,8 +210,8 @@ in the course outline with a lock icon, and learners cannot view the subsection
 content until they have earned a minimum score in the prerequisite subsection.
 
 .. note::
-   You must first :ref:`Enable Course Prerequisites` before 
-   prerequisite course subsections can be used. 
+   You must first :ref:`Enable Course Prerequisites` before
+   prerequisite course subsections can be used.
 
 .. _enabling_subsection_gating:
 

@@ -54,7 +54,7 @@ It is sometimes useful to submit a pull request even before the code is
 working properly, to make it easier to collect early feedback on your
 implementation. To indicate to others that your pull request is not yet in a
 functional state, just prefix the pull request title with "(WIP)" (Work In
-Progress), and start the pull request as a draft on GitHub. 
+Progress), and start the pull request as a draft on GitHub.
 
 Please include a link to your roadmap ticket in the PR description, and add a
 link to a WIP pull request in any discussion threads you start.

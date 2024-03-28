@@ -10,7 +10,7 @@ on working groups, contributing high-quality translations, and many other ways. 
 people wishing to be Core Contributors need to show sustained, active performance in the
 role prior to being nominated for consideration in the Program. We call this the “3 Cs”:
 Commitment, Conduct, Caliber. These people follow the Code of Conduct, are respectful of
-other community members, and are generally polite and welcoming. 
+other community members, and are generally polite and welcoming.
 
 Core Contributors that write code gain write access and even maintainership to one or
 more GitHub repositories in the openedx/ GitHub organization. If you're interested in

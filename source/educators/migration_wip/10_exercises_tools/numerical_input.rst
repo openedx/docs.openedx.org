@@ -130,7 +130,7 @@ Specifying an Answer Range
 You can specify an answer range so that any learner response within that range
 is marked correct.
 
-Add an answer range by selecting the **Add answer range** button from the 
+Add an answer range by selecting the **Add answer range** button from the
 **Add answer** dropdown. This option can only be selected if you only have one
 answer. This will replace your answer field with an answer range field.
 
@@ -170,7 +170,7 @@ You can access the feedback panel shown below by clicking the button to the righ
 of the answer text.
 
 .. image:: ../images/problem_editor_feedback_box_2.png
- :alt: An example of an expanded feedback section for dropdown problems showing 
+ :alt: An example of an expanded feedback section for dropdown problems showing
     the 'is selected' feedback field.
  :width: 600
 
@@ -199,8 +199,8 @@ Editing Numerical Input Problems using the Advanced Editor
 **************************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click 
-**Show advanced settings**, then scroll down and click 
+advanced editor. In the setting panels on the right of the editor, click
+**Show advanced settings**, then scroll down and click
 **Switch to advanced editor**.
 
 You can use the advanced editor to identify the elements of a numerical input problem
@@ -354,7 +354,7 @@ For example, to identify the correct answers as 5, 6, or 7, but not 8, specify
 
 To specify a range in the advanced editor, you enter the complete, formatted
 range in the ``<numericalresponse>`` element as the value for the ``answer``
-attribute: ``<numericalresponse answer="[5,8)">`` or 
+attribute: ``<numericalresponse answer="[5,8)">`` or
 ``<numericalresponse answer="(5,8]">``.
 
 
