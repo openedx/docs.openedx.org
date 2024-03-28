@@ -4,7 +4,7 @@
 Code Quality
 ************
 
-We use a variety of tools to check for errors and vulerabilities, and to enforce
+We use a variety of tools to check for errors and vulnerabilities, and to enforce
 a coding standard and coding style.
 
 To check the quality of your pull request, go to the top level of the edx-

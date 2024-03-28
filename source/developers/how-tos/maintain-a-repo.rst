@@ -124,8 +124,8 @@ the maintainer would like to have more input on.
 .. warning::
 
    Sometimes github teams are used to group multiple repos together and the CCs
-   wiki lists the team instead of each individula repo.  The teams that are
-   used for acess should be listed at the top of the wiki page.
+   wiki lists the team instead of each individual repo.  The teams that are
+   used for access should be listed at the top of the wiki page.
 
    You can also make an `Axim Request`_ to get a snapshot of the what users and
    teams currently have access to your repo if you need more details or have

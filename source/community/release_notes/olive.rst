@@ -42,7 +42,7 @@ Instead, :ref:`mfe-runtime-configuration` should now be used to manage MFE setti
 JWT access tokens expire in 1 hour
 ==================================
 
-The default expiration for JWT access tokens was changed from ten hours to one hour. This default setting can be overriden now, by setting :code:`JWT_ACCESS_TOKEN_EXPIRE_SECONDS`.
+The default expiration for JWT access tokens was changed from ten hours to one hour. This default setting can be overridden now, by setting :code:`JWT_ACCESS_TOKEN_EXPIRE_SECONDS`.
 
 Learner Experiences
 *******************
@@ -158,7 +158,7 @@ MFE runtime configuration support
 
 Where up until Nutmeg it was only possible to change a micro-frontend's settings at build time, it is now possible to do so at both server *and* browser runtime via a new configuration mechanism.  In addition to the added convenience, this significantly reduces the frequency at which MFE container images need to be rebuilt.  Many operators will never have to build them to begin with, as pre-built ones can be (and are) provided, thus saving up precious time and resources on deployment.
 
-This behavior is optional and controlled by the :code:`ENABLE_MFE_CONFIG_API` Django setting in the LMS, and the :code:`APP_ID` and :code:`MFE_CONFIG_API_URL` MFE build-time settings.  The actual runtime configuration can then be specified via the :code:`MFE_CONFIG` and :code:`MFE_CONFIG_OVERRIDES` variables in the LMS.  (These can also be overriden via `site configuration <https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/sites/configure_site.html>`_, with the effect that such configuration can be changed dynamically via the backing database.)  For more details, refer to the `corresponding architecture decision record <https://github.com/openedx/edx-platform/blob/open-release/olive.master/lms/djangoapps/mfe_config_api/docs/decisions/0001-mfe-config-api.rst>`_.
+This behavior is optional and controlled by the :code:`ENABLE_MFE_CONFIG_API` Django setting in the LMS, and the :code:`APP_ID` and :code:`MFE_CONFIG_API_URL` MFE build-time settings.  The actual runtime configuration can then be specified via the :code:`MFE_CONFIG` and :code:`MFE_CONFIG_OVERRIDES` variables in the LMS.  (These can also be overridden via `site configuration <https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/sites/configure_site.html>`_, with the effect that such configuration can be changed dynamically via the backing database.)  For more details, refer to the `corresponding architecture decision record <https://github.com/openedx/edx-platform/blob/open-release/olive.master/lms/djangoapps/mfe_config_api/docs/decisions/0001-mfe-config-api.rst>`_.
 
 .. _upgrade-note:
 

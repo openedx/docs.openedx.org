@@ -46,7 +46,7 @@ Adding Google Analytics 4
 #. Add 'MEASUREMENT ID' to your Open edX installation:
 
    Enabling or disabling Google Analytics 4 in the platform and all supported MFEs is done by the presence
-   of the measumerment id in edx-platform configuration. Simply adding the id to your site will turn the
+   of the measurement id in edx-platform configuration. Simply adding the id to your site will turn the
    feature on. This can be accomplished by either adding it directly into the your settings file:
 
    .. code::

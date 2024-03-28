@@ -212,7 +212,7 @@ In RST, a *substitution* serves as a variable which you can set a value for once
 
 You also need to use substitutions for inline images, as explained below.
 
-Substitutions are all kept in the source/substitutions.txt file in the documenation project on GitHub.
+Substitutions are all kept in the source/substitutions.txt file in the documentation project on GitHub.
 
 Copy the format for the substitution as needed.
 
@@ -256,7 +256,7 @@ You must save images in the ``source/_images`` directory before adding a referen
 Add an Image on its Own Line
 =============================
 
-Copy this codeblock to an iamge on its own line.
+Copy this codeblock to an image on its own line.
 
 .. code-block:: RST
 
@@ -271,7 +271,7 @@ Copy this codeblock to an iamge on its own line.
 Add an Image Inline
 ====================
 
-To add an image inline, you must first create a substitution for the image in the subsitutions.txt file.
+To add an image inline, you must first create a substitution for the image in the substitutions.txt file.
 
 Copy the format for the substitution as needed.
 
