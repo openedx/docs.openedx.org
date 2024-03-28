@@ -8,13 +8,17 @@ We use a variety of tools to check for errors and vulnerabilities, and to enforc
 a coding standard and coding style.
 
 To check the quality of your pull request, go to the top level of the edx-
-platform codebase and run the following command. ::
+platform codebase and run the following command.
 
-    $ paver run_quality
+.. code-block:: bash
 
-Most other repos use the command ::
+    paver run_quality
 
-    $ make quality
+Most other repos use the command
+
+.. code-block:: bash
+
+    make quality
 
 The following topics provide additional details on the tools that we use.
 
@@ -39,9 +43,11 @@ we can ensure that pull requests do not introduce new quality violations, and
 also clean up existing violations in the process of introducing other changes.
 
 To run diff-quality along with our other quality based tools, go to the top
-level of the edx-platform codebase and run the following command. ::
+level of the edx-platform codebase and run the following command.
 
-    $ paver run_quality
+.. code-block:: bash
+
+    paver run_quality
 
 You can also use the ``paver run_pep8`` and ``paver run_pylint`` commands to
 run only pep8 or pylint.
@@ -51,7 +57,9 @@ This will print a report of the quality violations that your branch has made.
 Although we try to be vigilant in resolving all quality violations, some
 Pylint violations are too challenging to resolve, so we opt to ignore them via
 use of a pragma. A pragma tells Pylint to ignore the violation in the given
-line. An example is::
+line. An example is.
+
+.. code-block:: python
 
     self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access
 
