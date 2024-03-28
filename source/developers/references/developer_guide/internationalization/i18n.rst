@@ -594,7 +594,7 @@ other, but they also serve as markers for the string extraction process.
 
 For string extraction to work properly, the translation functions must be
 called only with literal strings. If you use them with a computed value, the
-string extracter will not have a string to extract.
+string extractor will not have a string to extract.
 
 The difference between the right way and the wrong way can be very subtle, as
 shown in these examples.

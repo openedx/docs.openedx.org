@@ -76,7 +76,7 @@ information, structure, and relationships (such as sequence) that is conveyed
 through presentation, make sure the same information, structure, and
 relationships can be programmatically determined or are available in text. HTML
 is an ideal format in which to publish course content, because it provides
-semantic elements with stadardized roles, states, and properties. Users of
+semantic elements with standardized roles, states, and properties. Users of
 assistive technologies rely on such semantic elements to effectively and
 efficiently consume and navigate content. Publish your content in HTML whenever
 possible.
@@ -871,7 +871,7 @@ Simply review the recorded video and update the script as needed. Proper
 editing should maintain both the original meaning, content, and essential
 vocabulary.
 
-For situations where the video content includes a lot of information that cannot be eaisly described in audio, you can include references to an annotations file in the SRT file.  Example: [See Note 5a].
+For situations where the video content includes a lot of information that cannot be easily described in audio, you can include references to an annotations file in the SRT file.  Example: [See Note 5a].
 
 Text captions can be uploaded to YouTube along with the video to
 create a timed text file in `SubRip (SRT) format
@@ -921,7 +921,7 @@ Downloadable Transcripts
 
 For both audio and video transcripts, consider including a text file that
 learners can download and review using tools such as word processing, screen
-reader, magnifier/reflow, or literacy supprt software. All learners can use transcripts of media-based
+reader, magnifier/reflow, or literacy support software. All learners can use transcripts of media-based
 learning materials for study and review.
 
 =====================================================

@@ -86,7 +86,7 @@ Uploading the SCORM content
 
 
 **************************************************
-SCORM Content best practise
+SCORM Content best practice
 **************************************************
 
 To ensure the best experience for learners it is recommend that you keep your SCORM packages small. (1MB - 15MB)

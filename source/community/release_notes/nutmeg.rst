@@ -119,7 +119,7 @@ Gradebook Micro-frontend (MFE)
 Administrators & Operators
 **************************
 
-* Various improvements and bugfixes have been applied to `Tutor`_, the officialy-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
+* Various improvements and bugfixes have been applied to `Tutor`_, the officially-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
 
 .. _Tutor's changelog, starting at v13.0.1: https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1301-2021-12-20
 .. _Tutor: https://docs.tutor.overhang.io/
@@ -133,7 +133,7 @@ Administrators & Operators
 
 * By setting the :code:`ENABLE_NEW_RELIC` to false, the new relic logging integration will be disabled across all MFEs.
 
-* It's now possible to add optional fields to the registations form that are always visible, and do not require the user to click the checkbox "Support education research by providing additional information." Use the new :code:`optional-exposed` setting in the `REGISTRATION_EXTRA_FIELDS`_ setting.
+* It's now possible to add optional fields to the registration form that are always visible and do not require the user to click the checkbox "Support education research by providing additional information." Use the new :code:`optional-exposed` setting in the `REGISTRATION_EXTRA_FIELDS`_ setting.
 
 .. _REGISTRATION_EXTRA_FIELDS: https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-REGISTRATION_EXTRA_FIELDS
 

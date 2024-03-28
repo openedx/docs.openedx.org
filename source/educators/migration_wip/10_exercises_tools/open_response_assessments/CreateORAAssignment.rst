@@ -105,7 +105,7 @@ problem, regardless of the number of prompts in the problem.
 
     The most effective rubrics for peer grading are written in clear, simple
     language, have concrete details, and are as specific as possible. Many
-    novice learners will find it diffidult to make the types of value
+    novice learners will find it difficult to make the types of value
     judgments required by more holistic rubrics.
 
 
@@ -431,7 +431,7 @@ The behavior of each option is as follows:
 Configure deadlines manually
 =============================
 
-With this option, you hace the ability to set individual deadlines for each step of
+With this option, you have the ability to set individual deadlines for each step of
 the Open Response Assessment individually. The options that you can set include:
 
 * **Response Start Date** and **Response Start Time**: These settings define when
@@ -444,7 +444,7 @@ the Open Response Assessment individually. The options that you can set include:
   can no longer submit responses to the problem.
 
 * **Peer Assessment Start Date** and **Peer Assessment Start Time**: These settings define
-  when learners can begin to assess peer responses. Before this time, learners will recieve a message
+  when learners can begin to assess peer responses. Before this time, learners will receive a message
   that peer assessment has not yet begun.
 
 * **Peer Assessment Due Date** and **Peer Assessment Due Time**: These settings define the date / time
@@ -453,7 +453,7 @@ the Open Response Assessment individually. The options that you can set include:
   deadline, they will not be able to recieve a grade.
 
 * **Self Assessment Start Date** and **Self Assessment Start TIme**: These settings define
-  when learners can begin to self-assess their responses. Before this time, learners will recieve a message
+  when learners can begin to self-assess their responses. Before this time, learners will receive a message
   that self assessment has not yet begun.
 
 * **Self Assessment Due Date** and **Self Assessment Due Time**: These settings define the date / time
@@ -490,13 +490,13 @@ This has multiple benefits:
 
 * **Alignment with other assignment dates**: Rather than having their own separate due dates,
   ORAs can use the same due date as all other problems within a subsection, reducing complexity
-  and simplifying the course timelie for students.
+  and simplifying the course timeline for students.
 * **Ability to use grace period and individual extensions**: Setting the date configuration to
   this setting allows ORA problems to use the grace period and learner extension features.
 
 .. note::
 
-   Becuase the submission and assessment deadlines are all set to the same date under this option,
+   Because the submission and assessment deadlines are all set to the same date under this option,
    there will be no "buffer" time between the response due date and the peer assessment due date.
    If you are using this setting for a peer assessment ORA, you must make it clear to learners that
    they must submit early enough to give their peers time to review their response.
@@ -511,7 +511,7 @@ they are all set to the end date of the course. This setting is useful for self-
 
 .. note::
 
-   Becuase the submission and assessment deadlines are all set to the same date under this option,
+   Because the submission and assessment deadlines are all set to the same date under this option,
    there will be no "buffer" time between the response due date and the peer assessment due date.
    If you are using this setting for a peer assessment ORA, you must make it clear to learners that
    they must submit early enough to give their peers time to review their response.
@@ -556,7 +556,7 @@ To add and score learner training responses, follow these steps.
 
 #. Under **Step: Learner Training**, select **View / Add Sample Responses**.
    The section will expand and display the sample responses already set up.
-#. Select **Add sample reponse**.
+#. Select **Add sample response**.
 #. In the **Response** field, enter the text of your example response.
 #. Under **Response Score**, for each criterion, select the option that you
    want.

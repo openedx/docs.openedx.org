@@ -9,5 +9,5 @@ Browser support for the Open edX software is defined by the
 frontend package. See this site for information about what browsers the
 latest version of the Open edX platform supports.
 
-Older versions of the Open edX software are not guarenteed to work on
+Older versions of the Open edX software are not guaranteed to work on
 the latest versions of Chrome, Firefox, or other browsers.

@@ -37,7 +37,7 @@ This tutorial assumes the following:
   However, translating the edX website (https://openedx.org) occurs in a
   different application, so in order to become a collaborator with
   G-translate, you should contact our Open edX Community Manager Eden
-  Huthmacher by writing an `email: <ehuthmacher@tcril.org>`_.
+  Huthmacher by writing an `email <ehuthmacher@tcril.org>`_.
 
 
 .. _Transifex: https://www.transifex.com/signup/
@@ -76,11 +76,11 @@ Finding a string to translate
 
    After you select a resource, you will see the number of untranslated and unreviewed strings.
    You can choose which string to translate and then click the button "Save Translation"
-   after you have tranlsated a string:
+   after you have translated a string:
 
    .. image:: /_images/TranslateResource.png
 
-#. After saving your translation, there is a possibility to make a QA test byclicking the button
+#. After saving your translation, there is a possibility to make a QA test by clicking the button
    "QA Check" on the right side of the screen:
 
    .. image:: /_images/QACheck1.png
