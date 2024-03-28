@@ -1,8 +1,8 @@
 .. _Custom JavaScript:
 
-##############################################
+#############################################
 Custom JavaScript Display and Grading Problem
-##############################################
+#############################################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -35,9 +35,9 @@ Google Web Toolkit (GWT), to create your JS input problem.
     the learner's view of the problem in the LMS, but the button does not work.
 
 
-************************************************************
+******************************************************
 Create a Custom JavaScript Display and Grading Problem
-************************************************************
+******************************************************
 
 #. Create your JavaScript application, and then upload all files associated
    with that application to the **Files & Uploads** page.
@@ -74,13 +74,13 @@ Create a Custom JavaScript Display and Grading Problem
    The example problem uses the file ``jschannel.js`` to bypass the SOP.
 
    For more information, see the same-origin policy page on the `Mozilla
-   Developer Network site <https://developer.mozilla.org/en-US/docs/Web/Security/>`_ 
+   Developer Network site <https://developer.mozilla.org/en-US/docs/Web/Security/>`_
    or on `Wikipedia <https://en.wikipedia.org/wiki/Same_origin_policy>`_.
 
 
-========================================
+=====================================
 JavaScript Input Example Problem Code
-========================================
+=====================================
 
 The following code recreates the JavaScript Input problem example shown in the
 overview. The example problem uses these files.
@@ -163,9 +163,9 @@ overview. The example problem uses these files.
 
 .. _JS Input Problem XML:
 
-******************************
+****************************
 JavaScript Input Problem XML
-******************************
+****************************
 
 JSInput allows problem authors to turn stand-alone HTML files into problems
 that can be integrated into the edX platform. Since its aim is flexibility, it
@@ -213,9 +213,9 @@ width            Integer        No         ``400``
 title            String         No         None
 ==============  ==============  =========  ==========
 
-========================
+===================
 Required Attributes
-========================
+===================
 
 * **html_file**
 
@@ -265,9 +265,9 @@ Required Attributes
     make sure that the function returns promptly. Currently the learner has no
     indication that her answer is being calculated or produced.
 
-========================
+===================
 Optional Attributes
-========================
+===================
 
 * **set_statefn**
 

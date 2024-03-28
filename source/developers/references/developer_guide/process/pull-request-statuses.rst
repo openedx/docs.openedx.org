@@ -1,10 +1,10 @@
-=========================
+#########################
 Pull Request Status Guide
-=========================
+#########################
 
----------------------------
+***************************
 Contribution Board Statuses
----------------------------
+***************************
 
 .. list-table:: Title
    :widths: 30 70
@@ -60,9 +60,9 @@ Contribution Board Statuses
    * - **Done**
      - Merged/Closed
 
--------------------------
+*************************
 Contribution Board Labels
--------------------------
+*************************
 
 **Note**: Depending on the situation, more than one of these labels may be on a
 pull request at the same time. Though some may seem repetitive of the status

@@ -1,8 +1,8 @@
 .. _Course_Staffing:
 
-########################
+#####################
 Planning Course Staff
-########################
+#####################
 
 You can designate a team of people to help you run your course.
 
@@ -26,9 +26,9 @@ You can designate a team of people to help you run your course.
 
 .. _Staff Biography Guidelines:
 
-************************************
+*******************************
 About Page Biography Guidelines
-************************************
+*******************************
 
 Staff biographies for the course About page must include the following
 information.
@@ -86,9 +86,9 @@ For more information about how to add course team members, see
 
 .. _Administrative Team Roles:
 
-****************************
+*************************
 Administrative Team Roles
-****************************
+*************************
 
 To provide access to features on the instructor dashboard in the LMS, you
 can assign the Staff role or the Admin role to course team members.
@@ -126,16 +126,16 @@ Course team members who have the Staff role can complete the following tasks.
 
 * Activate course certificates.
 
-=======================
+======================
 The Limited Staff Role
-=======================
+======================
 
 Course team members who have the Limited Staff role can do all of the Staff tasks
 but without content editing permissions. This role has no access to Studio.
 
-==================
+==============
 The Admin Role
-==================
+==============
 
 Course team members who have the Admin role can complete all the tasks that
 team members who have the Staff role can complete. In addition, they can

@@ -1,8 +1,8 @@
 .. _edX Accessibility Guidelines:
 
-****************************************************************
+===============================================================
 What Is The edX Accessibility Best Practices Guidance Based On?
-****************************************************************
+===============================================================
 
 edX measures and evaluates accessibility primarily using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.1 <https://www.w3.org/TR/WCAG/>`_

@@ -1,8 +1,8 @@
 .. _Add Files to a Course:
 
-###########################
+########################
 Adding Files to a Course
-###########################
+########################
 
 Adding files, such as images, that you can use in your course has the following
 steps.
@@ -27,9 +27,9 @@ For more information, see the following topics.
 
 .. _The Files Page:
 
-*************************
+**************
 The Files Page
-*************************
+**************
 
 You manage most files for your course, including image files, on the **Files**
 page. This page lists the files that you have added, along with the
@@ -63,9 +63,9 @@ For more information, see :ref:`Find Files`.
 
 .. _File Size:
 
-*******************
+*********
 File Size
-*******************
+*********
 
 The maximum size for each file is 10 MB. We recommend that you use standard
 compression tools to reduce PDF and image file sizes before you add the files
@@ -79,9 +79,9 @@ Instead, use another hosting service to host these files.
 
 .. _Upload a File:
 
-*******************
+************
 Upload Files
-*******************
+************
 
 .. note::
   Ensure that you obtain copyright permissions for files and images you upload
@@ -141,9 +141,9 @@ For more information, see :ref:`Sort Files` or :ref:`Filter files`.
 
 .. _Sort Files:
 
-*********************
+**********
 Sort Files
-*********************
+**********
 
 .. image:: ../images/FilesPageFilterAction.png
  :alt: an image of the Sort options, which include Name (A-Z), Name (Z-A),
@@ -156,9 +156,9 @@ To sort by one of these, select what you wish to sort by and click Apply.
 
 .. _Filter Files:
 
-*********************
+************
 Filter Files
-*********************
+************
 
 You can filter files by type so that only a selected type of file is
 visible. The list remains in the current sort order.
@@ -241,9 +241,9 @@ you send from the LMS, follow these steps.
 
 .. _Lock a File:
 
-*******************
+***********
 Lock a File
-*******************
+***********
 
 By default, anyone can access a file you upload if they know the web URL, even
 if they are not enrolled in your course. You can prevent outside access to a
@@ -254,9 +254,9 @@ To lock a file, select the lock icon in the row for the file.
 
 .. _Delete a File:
 
-*******************
+*************
 Delete a File
-*******************
+*************
 
 To delete a file, first click on the corresponding checkboxes of the files
 that you wish to delete, then click on the Actions button, and then select

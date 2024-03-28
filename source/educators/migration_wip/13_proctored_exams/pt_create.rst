@@ -12,9 +12,9 @@ computer passes system requirements and establishes the learner’s identity
 with Verificient by creating an onboarding profile.
 
 
-*****************************************
+*********************************
 Creating an Onboarding Subsection
-*****************************************
+*********************************
 
 
 Proctortrack requires all learners to complete an onboarding process before
@@ -65,9 +65,9 @@ To set up Proctortrack onboarding for your course, follow these steps.
 
 #. Select **Save**.
 
-****************************
+*************************
 Creating a Proctored Exam
-****************************
+*************************
 
 #. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
    would any other subsection. This subsection must come after the onboarding
@@ -100,9 +100,9 @@ Creating a Proctored Exam
 
 .. _specifying_pt_exam_rules_and_exceptions:
 
-**************************************
+*********************************
 Specify Exam Rules and Exceptions
-**************************************
+*********************************
 
 To specify the exam rules for a proctored exam with Proctortrack, follow these
 steps.

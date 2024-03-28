@@ -1,13 +1,13 @@
-*****************
+#################
 Landing Your Work
-*****************
+#################
 
 Once you're ready to submit your code changes in a pull request, check the following
 requirements to be sure that your pull request is ready to be reviewed:
 
----------------------
+*********************
 Describe your changes
----------------------
+*********************
 
 Prepare a detailed pull request description. Most repositories have a template
 to be followed when you open the PR in the GitHub UI. Please fill out that template
@@ -22,9 +22,9 @@ docstrings, and good variable naming conventions are expected. See the
 Commit messages should conform to `OEP-51: Conventional Commits`_.
 This style categorizes commits to make them easier to understand.
 
-----------------
+****************
 Limit your scope
-----------------
+****************
 
 The pull request should be as small as possible. Each pull request should
 encompass only one idea: one bug fix, one feature, etc. Multiple features
@@ -48,9 +48,9 @@ It is important not to duplicate functionality, even if small, that already
 exists. Posting in the `forums`_ is an easy way to find out if functionality
 you're looking for already exists.
 
----------
+*********
 Licensing
----------
+*********
 
 All code in the pull request must be compatible with the Open edX project's
 AGPL license.  This means that the author of the pull request must sign a
@@ -58,9 +58,9 @@ AGPL license.  This means that the author of the pull request must sign a
 and all libraries included or referenced in the pull request must have
 `compatible licenses`_.
 
--------
+*******
 Testing
--------
+*******
 
 All of the tests must pass. You'll see the checks that are being run on the
 bottom of your PR; they must be green. More information can be found on the
@@ -84,9 +84,9 @@ screenshots of what you changed. GitHub will allow you to upload images
 directly from your computer. Changes should only use elements from the
 `Paragon pattern library`_.
 
------------
+***********
 Code Review
------------
+***********
 
 The author of the pull request should be receptive to feedback and
 constructive criticism. The pull request will not be accepted until all

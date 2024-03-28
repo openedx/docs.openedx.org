@@ -1,8 +1,8 @@
 .. _Accessibility Best Practices for Course Content Development:
 
-############################################################
+##########################################################
 Accessibility Best Practices for Developing Course Content
-############################################################
+##########################################################
 
 edX is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
@@ -28,9 +28,9 @@ methods. We welcome any comments and questions.
 
 .. _Make Sure Your Course Content is Perceivable:
 
-************************************************
+********************************************
 Make Sure Your Course Content is Perceivable
-************************************************
+********************************************
 
 The `WCAG <http://www.w3.org/TR/WCAG>`_ guidelines are organized
 around several principles, one of which is that web content must be
@@ -43,9 +43,9 @@ be perceived.
 To produce content that is perceivable by all learners, follow these
 guidelines.
 
-=================================================
+==============================================
 Include Text Alternatives for Non-Text Content
-=================================================
+==============================================
 
 For any non-text content, provide text alternatives so that the content can be
 changed into other forms that people need, such as large print, braille,
@@ -57,18 +57,18 @@ content. Make sure that all images have useful alternative text that screen
 readers and other assistive technologies can read. For more information, see
 :ref:`Best Practices for Describing Images`.
 
-=================================================
+=========================================
 Provide Alternatives for Time-Based Media
-=================================================
+=========================================
 
 For time-based media, including pre-recorded audio or video content, provide
 alternative equivalent information, such as captions, audio description or
 pre-recorded sign language interpretation. For more information, see
 :ref:`Creating Accessible Media`.
 
-=================================================
+===================================
 Make Sure Your Content is Adaptable
-=================================================
+===================================
 
 Design your course content so that it can be presented in different ways
 without losing information or structure. If your content includes specific
@@ -85,9 +85,9 @@ Make sure your course content does not rely solely on sensory characteristics
 such as shape, size, visual location, orientation, or sound to be understood by
 learners.
 
-======================================================
+===================================================
 Make It Easier for Learners to See and Hear Content
-======================================================
+===================================================
 
 Make the default presentation as easy to perceive as possible, especially by
 making it easier for learners to distinguish foreground information from the
@@ -107,9 +107,9 @@ than background sounds.
 
 .. _Make Sure Your Course Content is Understandable:
 
-************************************************
+***********************************************
 Make Sure Your Course Content is Understandable
-************************************************
+***********************************************
 
 Make sure your course content is readable and understandable. EdX courses have
 a global and diverse audience, including learners whose native language is not
@@ -119,9 +119,9 @@ disability that affects reading, such as dyslexia or a visual impairment.
 Learners will be better positioned to access concepts in your content if you
 write in clear, straightforward language and the content is well structured.
 
-=========================================
+========================
 Write Simply and Clearly
-=========================================
+========================
 
 Avoid jargon. If unfamiliar words or phrases are relevant to the subject,
 explain them when they are first used, and include a glossary with your course
@@ -134,9 +134,9 @@ in language appropriate for your content and target audience.
 
 See also the W3C's new Working Group Note on `Making Content Usable for People with Cognitive and Learning Disabilities <https://www.w3.org/TR/coga-usable/>`_.
 
-=========================================
+=================================
 Make Your Course Easy to Navigate
-=========================================
+=================================
 
 One aspect of making your course understandable is making sure that learners
 can easily grasp its structure, find content, and determine where they are
@@ -167,9 +167,9 @@ important.
 
 .. _Best Practices for Describing Images:
 
-************************************************
+****************************************
 Use Best Practices for Describing Images
-************************************************
+****************************************
 
 When you use images (including diagrams, maps, charts, or icons) in your
 course content, you must provide text alternatives that provide information
@@ -204,9 +204,9 @@ following these guidelines for particular situations.
    :local:
    :depth: 1
 
-=========================================
+=================================
 Images That Are Links or Controls
-=========================================
+=================================
 
 If your image serves as a link to additional content or is an interactive form
 control such as a button, the value of the ``alt`` attribute should describe
@@ -215,9 +215,9 @@ clicks the image. For example, if a linked image of an envelope opens an email
 program to send an email, a useful text alternative is "Send message", rather
 than "Envelope."
 
-===========================
+========================
 Images That Contain Text
-===========================
+========================
 
 If your image contains text, the ``alt`` attribute would typically consist of
 exactly the same text as is contained in the image. However, there are a
@@ -239,9 +239,9 @@ If the text contained in the image is for decorative purposes only and adds no
 value to the content of the page, an empty ``alt`` attribute is also
 acceptable.
 
-===================================================================
+================================================================
 Images That Contribute Meaning or Additional Context to the Page
-===================================================================
+================================================================
 
 If the image is a simple graphic or photograph that provides additional
 context to the surrounding content, the ``alt`` attribute should briefly
@@ -266,9 +266,9 @@ the famous stone bridge, Ponte Vecchio in Florence, Italy.
 * For a map intended to provide directions to the bridge, the ``alt`` attribute
   would provide directions as text.
 
-===========================================================
+=======================================================
 Graphs or Complex Visual Representations of Information
-===========================================================
+=======================================================
 
 If the image is a graph or represents a complex piece of information, include
 the information contained in the image as accessible text adjacent to the
@@ -293,18 +293,18 @@ the unit or file below the image.
 
   ``<img src="image.jpg" alt="Illustration of Ponte Vecchio"> <p><a href="description.html">Description of Ponte Vecchio Illustration</a></p>``
 
-=============================================================
+===========================================================
 Images With Unknown Descriptions at The Time of Publication
-=============================================================
+===========================================================
 
 If a suitable text alternative is unknown at the time of publication (for
 example, a webcam image that updates every 10 minutes) provide an ``alt``
 attribute that includes as much useful information as possible. For example,
 "Traffic on Interstate 90 at 5:45 PM June 26, 2015."
 
-===================================================
+======================
 Non-Informative Images
-===================================================
+======================
 
 Images that do not provide information, including purely decorative images, do
 not need text descriptions. For example, an icon that is followed by link text
@@ -355,9 +355,9 @@ graphics accessible to visually impaired learners.
   data. See :ref:`Best Practices for Describing Images` for details about
   providing useful text alternatives for images.
 
-=====================================================
+===========================
 Accessible Images Resources
-=====================================================
+===========================
 
 * W3C `Resources on Alternative Text for Images <http://www.w3.org/WAI/alt/>`_
 
@@ -379,9 +379,9 @@ Accessible Images Resources
 
 .. _Creating Accessible Course Materials:
 
-************************************************
+**********************************
 Create Accessible Course Materials
-************************************************
+**********************************
 
 The source teaching materials for your course might exist in a variety of
 formats. For example, your syllabus might be in MS Word, your presentation
@@ -428,9 +428,9 @@ accessible course materials in popular formats.
    :local:
    :depth: 1
 
-=====================================================
+=====================================
 Accessible Course Materials Resources
-=====================================================
+=====================================
 
 * `The DAISY Consortium <http://www.daisy.org>`_ is a global partnership of
   organizations that supports and helps to develop inclusive publishing
@@ -443,9 +443,9 @@ Accessible Course Materials Resources
 
 .. _Creating Accessible PDFs:
 
-=====================================================
+=================================
 Creating Accessible PDF Documents
-=====================================================
+=================================
 
 Not all ebooks are available in DAISY or EPUB 3 format. Portable Document
 Format (PDF) is another common format for course materials, including textbooks
@@ -475,7 +475,7 @@ exporting to PDF is necessary at all.
    export documents to PDF.
 
 Best Practices for Authoring Accessible PDF Documents
-*******************************************************
+*****************************************************
 
 * Explicitly define the language of the document so that screen readers know
   what language they should use to parse the document.
@@ -507,7 +507,7 @@ Best Practices for Authoring Accessible PDF Documents
 
 
 Evaluating PDF Files for Accessibility
-***************************************
+**************************************
 
 EdX highly recommends using the tools available in Adobe Acrobat Pro (for
 example, "Accessibility Checker") to evaluate your PDF files for accessibility.
@@ -515,7 +515,7 @@ Adobe Acrobat Pro also includes tools (for example, "Make Accessible") for
 fixing most common accessibility issues.
 
 Accessible PDF Resources
-*******************************************************
+************************
 
 * Microsoft provides detailed `guidance on generating accessible PDFs from
   Microsoft Office applications <http://office.microsoft.com/en-gb/word-help/create-accessible-pdfs-HA102478227.aspx>`_, including Word, Excel, and
@@ -534,9 +534,9 @@ Accessible PDF Resources
 * The National Center of Disability and Access to Education has a collection
   of one-page `"cheat sheets" on accessible document authoring <http://ncdae.org/resources/cheatsheets/>`_.
 
-=====================================================
+==================================
 Creating Accessible Word Documents
-=====================================================
+==================================
 
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating Word documents.
@@ -562,15 +562,15 @@ authoring web content also apply to creating Word documents.
   documents effectively and efficiently.
 
 Accessible Microsoft Word Resources
-*************************************
+***********************************
 
 * Microsoft guide to `creating accessible Word documents <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D>`_.
 
 * Microsoft tool that allows you to `check Word documents for accessibility issues <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
-=====================================================
+===================================
 Creating Accessible Excel Documents
-=====================================================
+===================================
 
 Many of the same accessibility techniques and principles that apply to
 authoring data tables in HTML also apply to creating Excel spreadsheets.
@@ -595,7 +595,7 @@ authoring data tables in HTML also apply to creating Excel spreadsheets.
   issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
 Accessible Microsoft Excel Resources
-*******************************************************
+************************************
 
 * Microsoft guide to `creating accessible Excel workbooks
   <https://support.office.com/en-us/article/Creating-accessible-Excel-
@@ -605,9 +605,9 @@ Accessible Microsoft Excel Resources
   issues <https://support.office.com/en-us/article/Check-for-accessibility-
   issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
-=====================================================
+========================================
 Creating Accessible PowerPoint Documents
-=====================================================
+========================================
 
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating PowerPoint presentations.
@@ -649,7 +649,7 @@ not logical, change the order of the objects.
 
 
 Accessible PowerPoint Resources
-*******************************************************
+*******************************
 
 * Microsoft guide to `creating accessible PowerPoint presentations
   <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
@@ -665,9 +665,9 @@ Accessible PowerPoint Resources
 
 .. _Best Practices for Math Content:
 
-************************************************
+*******************************************
 Use Best Practices for Mathematical Content
-************************************************
+*******************************************
 
 Math in online courses can be challenging to deliver in a way that is
 accessible to people with vision impairments. Non-scalable images of
@@ -686,9 +686,9 @@ edX Studio also supports authoring math directly in LaTeX using the `LaTeX Sourc
 <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathML.
 
 
-======================================================
+=========================================
 Accessible Mathematical Content Resources
-======================================================
+=========================================
 
 * `The MathJax website <https://www.mathjax.org>`_ provides guidance on creating
   accessible pages using their display engine.
@@ -704,9 +704,9 @@ Accessible Mathematical Content Resources
 
 .. _Best Practices for Custom Content Types:
 
-************************************************
+*******************************************
 Use Best Practices for Custom Content Types
-************************************************
+*******************************************
 
 Using different content types in your courses can significantly add to the
 learning experience for your learners. This section covers how to design
@@ -718,9 +718,9 @@ learners.
 
 .. _Simulations and Interactive Modules:
 
-======================================================
+===================================
 Simulations and Interactive Modules
-======================================================
+===================================
 
 Simulations, including animated or gamified content, can enhance the learning
 experience. In particular, they benefit learners who might have difficulty
@@ -768,9 +768,9 @@ and other accommodations might not be practical or feasible.
 
 .. _Online Exercises and Assessments:
 
-======================================================
+================================
 Online Exercises and Assessments
-======================================================
+================================
 
 For each activity or assessment that you design, consider any difficulties that
 learners with disabilities might have in completing it, and consider using
@@ -800,9 +800,9 @@ difficult for learners who have vision or mobility impairments.
 
 .. _Third Party Content:
 
-======================================================
+===================
 Third-Party Content
-======================================================
+===================
 
 If you include links to third-party content in your course, be mindful of the
 accessibility of such resources. edX recommends that you evaluate third-party
@@ -818,9 +818,9 @@ creating accessible HTML.
 
 .. _Accessible Custom Content Resources:
 
-======================================================
+===================================
 Accessible Custom Content Resources
-======================================================
+===================================
 
 * `Provide access to digital publications <http://ncamftp.wgbh.org/ncam-old-site/invent_build/web_multimedia/accessible-digital-media-guide/guideline-d-digital-publicatio.html>`_, from the National Center for Accessible Media, provides best practices for describing graphs, charts, diagrams, and illustrations.
 
@@ -832,9 +832,9 @@ Accessible Custom Content Resources
 
 .. _Creating Accessible Media:
 
-************************************************
+***********************
 Create Accessible Media
-************************************************
+***********************
 
 Media-based course materials help to convey concepts and can bring course
 information to life. We require all videos in edX courses to include timed text
@@ -847,9 +847,9 @@ universal design mechanism enhances your course’s accessibility. When you
 create your course, you need to factor in time and resources for creating timed
 text captions.
 
-=====================================================
+===================
 Timed Text Captions
-=====================================================
+===================
 
 Timed text captions are essential to opening up a world of information for
 persons with hearing loss or literacy needs by making the readable equivalent
@@ -898,9 +898,9 @@ follow these guidelines.
 * Non-speech sounds like [MUSIC] or [LAUGHTER] should be added in square
   brackets.
 
-=====================================================
+=====================
 Descriptions in Video
-=====================================================
+=====================
 
 When you create video segments, consider how you will convey information to
 learners who cannot see what is happening in a video. Actions that are only
@@ -915,18 +915,18 @@ you perform them. Ask yourself if your video would make sense if the learner
 were only listening to the audio content, for example while they were driving a
 car.
 
-=====================================================
+========================
 Downloadable Transcripts
-=====================================================
+========================
 
 For both audio and video transcripts, consider including a text file that
 learners can download and review using tools such as word processing, screen
 reader, magnifier/reflow, or literacy support software. All learners can use transcripts of media-based
 learning materials for study and review.
 
-=====================================================
+==========================
 Accessible Media Resources
-=====================================================
+==========================
 
 * `Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
 * `Captioning Key <http://captioningkey.org/quality_captioning.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
@@ -934,9 +934,9 @@ Accessible Media Resources
 
 .. _Best Practices for HTML Markup:
 
-************************************************
+**********************************
 Use Best Practices for HTML Markup
-************************************************
+**********************************
 
 HTML is the best format for creating accessible content. It is well supported
 and adaptable across browsers and devices. Also, the information in HTML
@@ -992,9 +992,9 @@ Keep the following guidelines in mind when you create HTML content.
 
 .. _HTML Markup Resources:
 
-====================================================
+=====================
 HTML Markup Resources
-====================================================
+=====================
 
 * `Creating Semantic Structure <https://webaim.org/techniques/semanticstructure/>`_
   provides guidance on reflecting the semantic structure of a web page in
@@ -1007,9 +1007,9 @@ HTML Markup Resources
 
 .. _Universal Design for Learning:
 
-************************************************
+***********************************
 Apply Universal Design for Learning
-************************************************
+***********************************
 
 Universal Design for Learning focuses on delivering courses in a format so that
 as many of your learners as possible can successfully interact with the

@@ -1,8 +1,8 @@
 .. _Accessibility Checker:
 
-######################
+#####################
 Accessibility Checker
-######################
+#####################
 
 * This feature allows you to check HTML in the editor for various
   WCAG and Section 508 accessibility problems.
@@ -12,9 +12,9 @@ Accessibility Checker
   accessibility problems using an in-editor dialog, complete with
   a repair feature that corrects the errors on their behalf.
 
-*******************************
+******************************
 Accessibility Checker Use Case
-*******************************
+******************************
 
 When using the Accessibility Checker, begin by looking for the
 accessibility icon . As you enter content into the Rich Content

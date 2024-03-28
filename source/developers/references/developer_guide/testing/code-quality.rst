@@ -1,8 +1,8 @@
 .. _code_quality:
 
-************
+############
 Code Quality
-************
+############
 
 We use a variety of tools to check for errors and vulnerabilities, and to enforce
 a coding standard and coding style.
@@ -27,7 +27,7 @@ The following topics provide additional details on the tools that we use.
    :local:
 
 Clean Code
-==========
+**********
 
 Here are the primary tools we use to keep our code clean.
 
@@ -75,7 +75,7 @@ disabling in the line.
 .. _diff-cover: https://github.com/Bachmann1234/diff-cover
 
 Safe Code
-=========
+*********
 
 To keep our code safe from Cross Site Scripting (XSS) vulnerabilities,
 the XSS Linter is also run as part of ``paver run_quality``.

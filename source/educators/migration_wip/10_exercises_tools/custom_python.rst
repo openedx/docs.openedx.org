@@ -1,8 +1,8 @@
 .. _Write Your Own Grader:
 
-##############################################################
+#############################################################
 Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
-##############################################################
+#############################################################
 
 .. note:: EdX offers provisional support for this problem type.
 
@@ -13,9 +13,9 @@ problem component.
    :local:
    :depth: 1
 
-**********
+********
 Overview
-**********
+********
 
 In custom Python-evaluated input (also called "write-your-own-grader"
 problems), the grader uses a Python script that you create and embed in the
@@ -47,9 +47,9 @@ Create a Custom Python-Evaluated Input Problem in Studio
 
 .. _Script Tag Format:
 
-**************************
+*****************
 Script Tag Format
-**************************
+*****************
 
 The script tag format encloses a Python script that contains a "check function"
 in a ``<script>`` tag, and adds the ``cfn`` attribute of the
@@ -62,9 +62,9 @@ tag.
    :local:
    :depth: 1
 
-=======================
+======================
 The ``check`` Function
-=======================
+======================
 
 The ``check`` function in a ``<script>`` tag accepts two arguments.
 
@@ -195,9 +195,9 @@ the  second input, and ``3`` for the third input. It provides feedback messages
 for each individual input, as well as a message displayed below the entire
 problem.
 
-======================
+=====================
 Script Tag Attributes
-======================
+=====================
 
 The following table explains the important attributes and values in the
 preceding example.
@@ -219,9 +219,9 @@ preceding example.
        attributes. The ``correct_answer`` attribute is optional.
 
 
-========================================================================
+===================================================================
 Create a Custom Python-Evaluated Input Problem in Script Tag Format
-========================================================================
+===================================================================
 
 To create a custom Python-evaluated input problem using a ``<script>`` tag,
 follow these steps.
@@ -359,7 +359,7 @@ percentage of points. For more information, see the following sections.
 .. _Award Half Credit:
 
 Award Half Credit
-*********************
+*****************
 
 You can configure a problem to award 50% of the possible points. To provide a
 learner with a more granular score, see `Award a Percentage of Credit`_.
@@ -395,7 +395,7 @@ Function`_.
 .. _Award a Percentage of Credit:
 
 Award a Percentage of Credit
-******************************
+****************************
 
 You can configure a problem to return a percent value as a grade. This method
 provides greater flexibility in assigning the learner a score than
@@ -460,9 +460,9 @@ You can enhance and apply this example for your own partial credit problems.
 
 .. _Create a Randomized Custom Python-Evaluated Input Problem:
 
-===========================================================
+=========================================================
 Create a Randomized Custom Python-Evaluated Input Problem
-===========================================================
+=========================================================
 
 You can create a custom Python-evaluated input problem that randomizes
 variables in the Python code.

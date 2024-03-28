@@ -1,8 +1,8 @@
 .. _Create Exercises:
 
-###############################
+##############################
 Problems, Exercises, and Tools
-###############################
+##############################
 
 You can add a wide variety of different types of problems, exercises, and
 tools to your course outline. By default, a core set of :ref:`problem
@@ -16,9 +16,9 @@ problem types by enabling additional exercises and tools.
 
 .. _Levels of Support:
 
-******************
+*****************
 Levels of Support
-******************
+*****************
 
 .. only:: Open_edX
 
@@ -70,9 +70,9 @@ tools, see :ref:`Add_Unsupported_Exercises_Problems`.
        documentation.
 
 
-**************************************************************
+*********************************************************
 Enhancing Your Course with Additional Exercises and Tools
-**************************************************************
+*********************************************************
 
 "Exercises and tools" is a general way to refer to the robust variety of
 content that you can integrate into an online course. Software developers use
@@ -93,9 +93,9 @@ types of course content.
 The topics in this section introduce the core set of problem types and a
 selection of other exercises and tools that you can add to your course.
 
-*******************
+******************
 Core Problem Types
-*******************
+******************
 
 The problem types that you can include in any course, without taking any
 other steps to identify or enable additional exercises or tools, are the core
@@ -106,9 +106,9 @@ types are classified as either **Simple Problem Types** or **Advanced**.
   :local:
   :depth: 1
 
-=====================
+====================
 Simple Problem Types
-=====================
+====================
 
 When you create a problem in Studio, the editor opens with options for the
 following problem types. When you select any of the simple problem types, the
@@ -155,9 +155,9 @@ the editor interface provides additional guidance and text fields for entering
 these options. All of these problem types also have full support and are
 mobile-ready.
 
-=========
+========
 Advanced
-=========
+========
 
 If none of the simple problem types fit what you need, the editor's problem type
 select page has an option for **Advanced problem types**. Selecting this option
@@ -207,9 +207,9 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
 
 .. _Unsupported Advanced Problem Types:
 
-++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Unsupported Advanced Problem Types
-++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following advanced problem types are :ref:`not supported<Levels of
 Support>` by edX. You can enable an option to make unsupported problem types
@@ -352,9 +352,9 @@ tools that you can add to your course.
 
 .. _Unsupported Additional Exercises and Tools:
 
-===========================================
+==========================================
 Unsupported Additional Exercises and Tools
-===========================================
+==========================================
 
 The following additional exercises and tools are :ref:`not supported<Levels of
 Support>` by edX. You can enable an option to make unsupported exercises and
@@ -434,9 +434,9 @@ tools available in Studio. For more information, see
 
 .. _Mobile-Ready Problem Types:
 
-*********************************
+**************************
 Mobile-Ready Problem Types
-*********************************
+**************************
 
 Learners can read and submit answers for the following types of problems while
 they use the edX mobile app.
@@ -456,9 +456,9 @@ in a web browser.
 
 .. _Add_Unsupported_Exercises_Problems:
 
-***********************************************
+**********************************************
 Adding Unsupported Problem Types and Exercises
-***********************************************
+**********************************************
 
 .. only:: Open_edX
 

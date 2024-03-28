@@ -1,15 +1,15 @@
 .. _Enabling_Xpert_Unit_Summaries:
 
-#####################################
+#############################
 Enabling Xpert Unit Summaries
-#####################################
+#############################
 
 .. only:: Partners
-          
-  *************************************************       
+
+  *******************************************
   To enable Xpert Unit Summaries for a course
-  *************************************************
-  
+  *******************************************
+
   #. In Studio, course team members can navigate to the **Content > Pages &
      Resources** menu item in the top navigation menu.
 
@@ -30,9 +30,9 @@ Enabling Xpert Unit Summaries
 
   .. note:: The “Reset all units” button can be used if you’ve updated specified units but want to set them all back to their original configuration of all on or all off.
 
-  ***************************************************************  
+  ************************************************************
   To toggle Xpert Unit Summaries on or off for a specific unit
-  ***************************************************************
+  ************************************************************
 
   Unit specific settings are available once summaries have been turned
   on for the course.

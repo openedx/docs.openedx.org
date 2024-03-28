@@ -1,8 +1,8 @@
 .. _drag_and_drop_problem:
 
-##########################
+#####################
 Drag and Drop Problem
-##########################
+#####################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -140,9 +140,9 @@ drop problems, see :ref:`creating_a_drag_and_drop_problem`.
 
 .. _drag_and_drop_draggable_items:
 
-==============================
+=============================
 Understanding Draggable Items
-==============================
+=============================
 
 A draggable item is a rectangle that contains either a label or an image.
 Learners grab draggable items from the top of a drag and drop problem and drag
@@ -188,9 +188,9 @@ draggable item, you should consider how that image appears after scaling.
 
 .. _choosing_a_dnd_mode:
 
-=========================================
+=====================================
 Choosing a Drag and Drop Problem Mode
-=========================================
+=====================================
 
 You can configure drag and drop problems to allow learners to experiment with
 matching draggable items to target zones until all items are matched correctly,
@@ -211,7 +211,7 @@ Mode** or **Assessment Mode** to control the behavior of the problem.
 .. _using_standard_mode:
 
 Using Standard Mode
-********************************************
+*******************
 
 Standard mode configures a drag and drop problem to give learners unlimited
 attempts to match draggable items with target zones until all of the items are
@@ -226,7 +226,7 @@ for the problem when the problem is complete.
 .. _using_assessment_mode:
 
 Using Assessment Mode
-********************************************
+*********************
 
 Assessment mode configures a drag and drop problem to behave like a test. In
 assessment mode, learners must match all of the draggable items to target zones
@@ -251,9 +251,9 @@ unlimited attempts.
 
 .. _creating_a_drag_and_drop_problem:
 
-*********************************
+********************************
 Creating a Drag and Drop Problem
-*********************************
+********************************
 
 To create a drag and drop problem, follow these steps.
 
@@ -308,9 +308,9 @@ To create a drag and drop problem, follow these steps.
 
 .. _drag_and_drop_editor_fields:
 
-*******************************************************
+************************************************
 Understanding the Drag and Drop Editing Controls
-*******************************************************
+************************************************
 
 The following table explains the controls in the **Editing** dialog box.
 

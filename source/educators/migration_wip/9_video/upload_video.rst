@@ -4,9 +4,9 @@
     projects will resolve the reference:
 .. _Upload a Video on edX:
 
-#######################
+######################
 Managing Course Videos
-#######################
+######################
 
 Uploading a video and transcript is different depending on whether your
 course is on edx.org or Edge.
@@ -19,9 +19,9 @@ For more information, see the following topics.
 
 .. _Course  Videos Page:
 
-*******************
+******************
 Course Videos Page
-*******************
+******************
 
 You manage videos for your course on the Videos page. This page lists the
 videos that you have added, along with the following capabilities and
@@ -45,9 +45,9 @@ information regarding the videos.
 * The three dot menu allows you to copy the Video ID, download the video,
   launch the Info Modal, and delete a video
 
-=================
+================
 Video Info Modal
-=================
+================
 
 The Info Modal shows the date added, the file size, and the length of the
 video. The “Usage” section lists all Units where the file is referenced
@@ -66,9 +66,9 @@ For more information, see :ref:`Find an Uploaded Video`.
 
 .. _Uploading a Video for an edx org Course:
 
-******************************************
+***************************************
 Uploading a Video for an edx.org Course
-******************************************
+***************************************
 
 .. note::
   **This information applies only to courses that run on the edx.org site.**
@@ -196,9 +196,9 @@ course team has obtained transcripts from the transcript provider, the course
 team creates a video component and adds the video ID and transcript to the
 component. For more information, see :ref:`Add a Video to a Course<Adding a Video to a Course>`.
 
-=============================================================
+======================================================
 Upload a Video for an edx.org Course (for Videos page)
-=============================================================
+======================================================
 
 To upload video files, both for videos with integrated transcripts and
 non-integrated transcripts, follow these steps.
@@ -488,9 +488,9 @@ checkbox, then select the Action button and then select Download.
 
 .. _Uploading a Video for an Edge Course:
 
-*************************************
+************************************
 Uploading a Video for an Edge Course
-*************************************
+************************************
 
 .. note::
   This information applies only to courses that run on Edge. For information

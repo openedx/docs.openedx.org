@@ -1,22 +1,22 @@
 .. :diataxis-type: reference
 
-**************************
+########################
 Resources for Developers
-**************************
+########################
 
 Software engineers, system administrators, and translators work on extending
 and localizing the code for the edX platform.
 
-=============
+*************
 Documentation
-=============
+*************
 
 Documentation for developers is available from the
 `Open edX Developer Documentation`_ landing page.
 
-======
+******
 GitHub
-======
+******
 
 These are the main edX repositories on GitHub.
 
@@ -29,18 +29,18 @@ Additional repositories are used for other projects. Our contributor agreement,
 contributor guidelines and coding conventions, and other resources are
 available in these repositories.
 
-============
+************
 Getting Help
-============
+************
 
 The `Getting Help`_ page in the Open edX Portal lists different
 ways that you can ask, and get answers to, questions.
 
 .. _Getting Help: https://open.edx.org/getting-help
 
-====================
+*******************
 Wikis and Web Sites
-====================
+*******************
 
 The `Open edX Portal`_ is the entry point for new contributors.
 
