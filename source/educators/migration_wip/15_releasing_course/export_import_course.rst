@@ -70,9 +70,9 @@ computer.
  :alt: an image of the Export page in which you can export courses and
   edit them outside of Studio.
 
-**********************************************
+********************************************
 Course Outline Terminology in Exported Files
-**********************************************
+********************************************
 
 Sections, subsections, units, and components have different names in the Studio
 **Course Outline** view and in the list of files that you see after you

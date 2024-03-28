@@ -1,8 +1,8 @@
 .. _xapi_events:
 
-##############
+###########
 xAPI Events
-##############
+###########
 
 `xAPI`_ is an open standard created by the `Advanced Distributed Learning`_ initiative.
 Open edX supports sending some xAPI events (called statements) to a Learning Record

@@ -1,5 +1,5 @@
 Documentation Templates
-#########################
+#######################
 
 This page contains templates that you can copy directly and use to develop new topics.
 
@@ -12,7 +12,7 @@ To copy RST code examples from this topic, just hover over the codeblock to see 
 
 
 Topic Titles
-***************
+************
 
 Open edX Documentation uses hierarchical titles, indicated by the special characters underneath each title.
 
@@ -26,7 +26,7 @@ Copy the following titles as needed.
  It is a rule of RST that the line of underline characters must be as long as or longer than the title; if the line is shorter than the title, the documentation will not build.
 
 Content Links at the top of a Topic
-*************************************
+***********************************
 
 If you have a long topic with meaning Heading 2s, you can use the **contents** directive at the top of the topic to provide links to the different sections (as shown at the top of this topic).
 
@@ -45,11 +45,11 @@ Copy the contents directive as needed.
 	  :depth: 1
 
 	First Heading 2
-	****************
+	***************
 
 
 Develop Sections
-**********************
+****************
 
 You can nest sections in the topic as needed, to give it structure and break it up into discrete parts.
 
@@ -68,37 +68,37 @@ Copy the Topic and Section Structure as needed
 	:local:
 
 	Section 1
-	**********
+	*********
 
 	Introduce Section One
 
 	Subsection 1
-	+++++++++++++
+	++++++++++++
 
 	Content for Section 1/Subsection 1
 
 	Subsection 2
-	+++++++++++++
+	++++++++++++
 
 	Content for Section 1/Subsection 2
 
 	Section 2
-	**********
+	*********
 
 	Introduce Section Two
 
 	Subsection 1
-	+++++++++++++
+	++++++++++++
 
 	Content for Section 2/Subsection 1
 
 	Subsection 2
-	+++++++++++++
+	++++++++++++
 
 	Content for Section 2/Subsection 2
 
 Create a How-to
-*****************
+***************
 
 Copy this codeblock to start a new how-to topic.
 
@@ -147,7 +147,7 @@ Copy this codeblock to start a new how-to topic.
 
 
 Add an Ordered List
-*********************
+*******************
 
 Copy this codeblock to start an ordered (numbered) list.
 
@@ -158,10 +158,10 @@ Add an Unordered List
 
 Copy this codeblock to start an unordered (bulleted) list.
 
-.. include:: ../references/rst_samples/ordered_lists.txt
+.. include:: ../references/rst_samples/unordered_lists.txt
 
 Nested Lists
-*************
+************
 
 You can nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
 
@@ -170,7 +170,7 @@ You can nest arbitrarily, using the **#** symbol for ordered lists and **\*** fo
 
 
 Create a Reference
-*******************
+******************
 
 Copy this codeblock to start a new reference topic.
 
@@ -184,29 +184,29 @@ Copy this codeblock to start a new reference topic.
 	Provide a high-level overview of topic.
 
 	What is it?
-	************
+	***********
 
 	Provide a high-level view of what you are documenting - what it is and why one would care.
 
 	Complex topics may contain 2 or more subsections.
 
 	What is <part of subject> ?
-	++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++
 
 	When you need to break down a subject, you can break it down into subsections (H3s). Typically you would have 0 H3s, or 2+ H3s.
 
 	What is <part of subject> ?
-	+++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++
 
 	When you need to break down a subject, you can break it down into subsections (H3s)
 
 	Aspects of the Subject
-	***************************
+	**********************
 
 	Create sections for different aspects of the subject; for example, for problem types, you would have a section on all the settings and a section on the XML representation of the problem.
 
 Add a Substitution
-********************
+******************
 
 In RST, a *substitution* serves as a variable which you can set a value for once, then use repeatedly. This is useful for words or phrases that are used often, as it enables you to edit the value once and change it everywhere.
 
@@ -230,7 +230,7 @@ You then add the *variable name* inline in the topic.
 
 
 Add a Sidebar
-**************
+*************
 
 You can add any content in a sidebar. Open edX uses sidebars for image thumbnails, videos, and other notes.
 
@@ -245,7 +245,7 @@ Copy this codeblock to add a new sidebar topic.
     Any content, typically an image, video, or note.
 
 Add an Image to a Topic
-************************
+***********************
 
 You can add an on its own separate line, inline, or in a sidebar.
 
@@ -254,7 +254,7 @@ You can also add an image directly, or add a thumbnail of an larger image, which
 You must save images in the ``source/_images`` directory before adding a reference to it in a topic.
 
 Add an Image on its Own Line
-=============================
+============================
 
 Copy this codeblock to an image on its own line.
 
@@ -269,7 +269,7 @@ Copy this codeblock to an image on its own line.
   .. thumbnail:: /_images/image-file-name
 
 Add an Image Inline
-====================
+===================
 
 To add an image inline, you must first create a substitution for the image in the substitutions.txt file.
 
@@ -286,7 +286,7 @@ You then add the *variable name* inline in the topic.
   A line of text with an |variable name| inserted.
 
 Add an Thumbnail in a Sidebar
-==============================
+=============================
 
 You can add a thumbnail in a sidebar, a common practice for How-to topics.
 
@@ -301,7 +301,7 @@ Copy this codeblock to add a new sidebar with a thumbnail.
     .. thumbnail:: _images/image-file-name
 
 Use Inline Formatting
-************************
+*********************
 
 RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also make GUI elements appear as :guilabel:`objects`.
 

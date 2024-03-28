@@ -1,7 +1,7 @@
 .. _Preventing XSS in Django Templates:
 
 Preventing XSS in Django Templates
-==================================
+##################################
 
 Django Templates are safe-by-default, which means that expressions are HTML-escaped by default. However, there are cases where expressions are not properly escaped by default:
 
@@ -15,7 +15,7 @@ Django Templates are safe-by-default, which means that expressions are HTML-esca
 .. note:: Do not use the `"striptags" filter <https://docs.djangoproject.com/en/dev/ref/templates/builtins/#striptags>`__, which only makes an attempt at stripping HTML. Instead, use the bleach library.
 
 HTML-escaping Translations in Django Templates
-----------------------------------------------
+**********************************************
 
 In Django templates, strings wrapped in ``trans`` and ``blocktrans`` are not automatically escaped, which leads to a vulnerability where translators could include malicious script tags in their translations.
 

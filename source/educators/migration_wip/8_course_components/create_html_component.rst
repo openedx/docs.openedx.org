@@ -4,9 +4,9 @@
     projects will resolve the reference:
 .. _Working with HTML Components:
 
-#############################
+############################
 Working with Text Components
-#############################
+############################
 
 This section describes how to work with Text components in Studio.
 
@@ -25,9 +25,9 @@ When students see text and images in your course, they are seeing HTML code
 that is formatted and presented by their browsers. For more information about
 HTML, see `Wikipedia <https://en.wikipedia.org/wiki/HTML>`_.
 
-===================
+===============
 Text Components
-===================
+===============
 
 Text components are the basic building blocks of your course content. You use
 Text components to add and format text, links, images, and more. You can work
@@ -41,9 +41,9 @@ code details, or in a "raw" editor that requires you to mark up your content.
 
 .. _Options for Editing Text Components:
 
-********************************************
+***********************************
 Options for Editing Text Components
-********************************************
+***********************************
 
 You can use two different editing interfaces to work with a Text component.
 
@@ -83,9 +83,9 @@ You can use two different editing interfaces to work with a Text component.
 
 .. _The Visual Editor:
 
-=========================
+=================
 The Visual Editor
-=========================
+=================
 
 The visual editor provides a "what you see is what you get" (WYSIWYG) interface
 that allows you to format text by selecting options at the top
@@ -192,7 +192,7 @@ descriptions.
 .. _Work with HTML code:
 
 Review HTML Markup in the Visual Editor
-*****************************************
+***************************************
 
 To review the HTML markup added to content in the visual editor, select
 **HTML** from the visual editor's toolbar. The HTML source code editor opens.
@@ -220,9 +220,9 @@ You can then continue working in the visual editor.
 
 .. _The Raw HTML Editor:
 
-=========================
+===================
 The Raw HTML Editor
-=========================
+===================
 
 The raw HTML editor is a text editor. It does not offer a toolbar with
 formatting options.
@@ -245,9 +245,9 @@ the HTML content in your course.
 
 .. _Create a Text Component:
 
-*****************************
+***********************
 Create a Text Component
-*****************************
+***********************
 
 #. Under **Add New Component**, select **Text**.
 
@@ -281,9 +281,9 @@ When you use the visual editor, you can also perform the following tasks.
 
 .. _Text Component Templates:
 
-=========================
+========================
 Text Component Templates
-=========================
+========================
 
 When you create a Text component, you select from a list of templates and
 editor types, including the following:
@@ -305,9 +305,9 @@ Visual and Raw editor types once selected.
 
 .. _Add a Link in a Text Component:
 
-***********************************
+******************************
 Add a Link in a Text Component
-***********************************
+******************************
 
 When you use the visual editor, to add a link to a website, course unit, or
 file in a Text component, you work with the **Insert link** dialog box.
@@ -469,9 +469,9 @@ procedures.
 
 .. _Locate an Image on Your Computer:
 
-===========================================
+================================
 Locate an Image on Your Computer
-===========================================
+================================
 
 #. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
@@ -540,9 +540,9 @@ Select a Previously Uploaded Image
 
 .. _Format an Image in a Text Component:
 
-=========================================
+===================================
 Format an Image in a Text Component
-=========================================
+===================================
 
 You have several options for formatting an image in a Text component.
 
@@ -553,7 +553,7 @@ You have several options for formatting an image in a Text component.
 .. _Align an Image:
 
 Align an Image
-***************
+**************
 
 To align your image to the right, the left, or the center, follow these steps.
 
@@ -589,9 +589,9 @@ the **Width** and **Height** fields.
 
 .. _Power Paste:
 
-************
+***********
 Power Paste
-************
+***********
 
 Many course authoring teams rely on copying and pasting content from documents
 such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS

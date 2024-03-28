@@ -1,8 +1,8 @@
 .. _Single Select:
 
-########################
+#####################
 Single Select Problem
-########################
+#####################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -18,9 +18,9 @@ give learners guidance and help when they work on a problem.
 For more information about the simple problem types, see
 :ref:`Working with Problem Components`.
 
-**********
+********
 Overview
-**********
+********
 
 In single select problems, learners select one option from a list of answer
 options. Unlike :ref:`dropdown<Dropdown>` problems, where the answer choices
@@ -32,9 +32,9 @@ reordering, or shuffling, the set of answer choices for each learner. For more
 information about these options, see
 :ref:`Editing Single Select Problems using the Advanced Editor`.
 
-================================
+=============================
 Example Single Select Problem
-================================
+=============================
 
 In the LMS, learners select a single answer option to complete a single
 select problem. An example of a completed single select problem follows.
@@ -45,9 +45,9 @@ select problem. An example of a completed single select problem follows.
    the answer options.
  :width: 600
 
-===========================================================
+======================================================
 Pedagogical Considerations for Single Select Questions
-===========================================================
+======================================================
 
 EdX recommends the use, whenever possible, of authentic assessment rather than
 single select questions for graded problems. The use of authentic assessment
@@ -92,9 +92,9 @@ literature. A few guidelines for the creation of such questions follow.
   If a learner can identify at least two correct answers, it can give away the
   answer with only partial comprehension.
 
-****************************************
+******************************
 Adding a Single Select Problem
-****************************************
+******************************
 
 You add single select problems in Studio by selecting the **Problem**
 component. In the problem editor, select the **Single select** option.
@@ -130,9 +130,9 @@ Note
 
 .. _Use Feedback in a Single Select Problem:
 
-================================
+===============
 Adding Feedback
-================================
+===============
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. You can add feedback for each of the answer options you provide in
@@ -163,9 +163,9 @@ learner submits this answer.
 
 .. _Use Hints in a Single Select Problem:
 
-================================
+============
 Adding Hints
-================================
+============
 
 You can add hints to a single select problem . For an overview of hints in
 problems, see :ref:`Adding Feedback and Hints to a Problem`.
@@ -174,9 +174,9 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
 
 .. _Editing Single Select Problems using the Advanced Editor:
 
-*************************************************************
+********************************************************
 Editing Single Select Problems using the Advanced Editor
-*************************************************************
+********************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
 advanced editor. In the setting panels on the right of the editor, click
@@ -225,9 +225,9 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
-====================
+===============
 Adding Feedback
-====================
+===============
 
 In the advanced editor, you configure feedback with the following syntax.
 
@@ -271,9 +271,9 @@ For example, the following problem has feedback for each answer.
 
 .. _Targeted Feedback in a Single Select Problem:
 
--------------------------
+-----------------
 Targeted Feedback
--------------------------
+-----------------
 
 You can configure a single select problem so that explanations for specific
 answers are automatically shown to learners. You can use these explanations to
@@ -349,17 +349,17 @@ targeted feedback.
     </targetedfeedbackset>
   </problem>
 
-========================================
+============
 Adding Hints
-========================================
+============
 
 .. include:: Subsection_configure_hints_advanced.rst
 
 .. _Awarding Partial Credit in a Multiple Choice Problem:
 
-========================================
+=======================
 Awarding Partial Credit
-========================================
+=======================
 
 You can configure a single select problem so that specific incorrect answers
 award learners partial credit for the problem.
@@ -421,9 +421,9 @@ provides partial credit of 25% for an answer option.
 
 .. _Shuffle Answers in a Single Select Problem:
 
-=============================================
+===============
 Shuffle Answers
-=============================================
+===============
 
 Optionally, you can configure a single select problem so that it shuffles
 the order of possible answers.
@@ -485,9 +485,9 @@ Then, you select **Settings** to specify an option other than **Never** for the
 
 .. _Answer Pools in a Single Select Problem:
 
-=============================================
+============
 Answer Pools
-=============================================
+============
 
 You can configure a single select problem so that a random subset of choices
 are shown to each learner. For example, you can add 10 possible choices to the
@@ -561,17 +561,17 @@ explanation ID.
 
 .. _Single Select Problem XML:
 
-*************************************
+***********************************
 Single Select Problem OLX Reference
-*************************************
+***********************************
 
 .. note:: You can also set attributes and options by adding a ``<script>`` element.
  For more information, see :ref:`Using the Script Element<Using the Script
  Element in Single Select Problems>`.
 
-================
+========
 Template
-================
+========
 
 .. code-block:: xml
 
@@ -600,9 +600,9 @@ Template
   </demandhint>
   </problem>
 
-=========
+========
 Elements
-=========
+========
 
 For single select problems, the ``<problem>`` element can include this
 hierarchy of child elements.
@@ -627,9 +627,9 @@ In addition, standard HTML tags can be used to format text.
 
 Required. Indicates that the problem is a single select problem.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
   .. list-table::
     :widths: 20 80
@@ -644,62 +644,62 @@ Attributes
       - Optional. Set to targeted-feedback="" if using targeted feedback.
         Otherwise, do not add this attribute.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 * ``<label>``
 * ``<description>``
 * ``<choicegroup>``
 * ``<solution>``
 
-----------------------------
+-----------
 ``<label>``
-----------------------------
+-----------
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
-----------------------------
+-----------------
 ``<description>``
-----------------------------
+-----------------
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
-----------------------------
+-----------------
 ``<choicegroup>``
-----------------------------
+-----------------
 
 Required. Indicates the beginning of the list of answer options.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -716,21 +716,21 @@ Attributes
      - Optional. See :ref:`Answer Pools in a Single Select Problem`.
        Set a numerical value to indicate the number of answers to show to learners.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 ``<choice>``
 
-----------------------------
+------------
 ``<choice>``
-----------------------------
+------------
 
 Required. Lists an answer option.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -768,33 +768,33 @@ Attributes
        ``<choice correct="false" explanation-id="feedback1">`` links to
        ``<targetedfeedback explanation-id="feedback1">``.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 ``<choicehint>``
 
-----------------------------
+----------------
 ``<choicehint>``
-----------------------------
+----------------
 
 Optional. Specifies feedback for the answer.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
-----------------------------
+--------------
 ``<solution>``
-----------------------------
+--------------
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that includes multiple questions.
@@ -802,9 +802,9 @@ the questions in a problem that includes multiple questions.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -818,67 +818,67 @@ Attributes
        ``<solution explanation-id="correct">`` links to
        ``<choice correct="true" explanation-id="correct">``.
 
-----------------------------
+----------------
 ``<demandhint>``
-----------------------------
+----------------
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 ``<hint>``
 
-----------------------------
+----------
 ``<hint>``
-----------------------------
+----------
 
 Required. Specifies additional information that learners can access if needed.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
-----------------------------
+-------------------------
 ``<targetedfeedbackset>``
-----------------------------
+-------------------------
 
 Optional. Groups a set of targeted feedbacks that assist learners. See
 :ref:`Targeted Feedback in a Single Select Problem`.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 ``<targetedfeedback>``
 
-----------------------------
+----------------------
 ``<targetedfeedback>``
-----------------------------
+----------------------
 
 Optional. Specifies targeted feedback shown automatically to learners. This element
 contains an HTML division ``<div>``. The division contains one or more paragraphs
 ``<p>`` of explanatory text. See :ref:`Targeted Feedback in a Single Select Problem`.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -892,37 +892,37 @@ Attributes
        ``<targetedfeedback explanation-id="feedback1">`` links to
        ``<choice correct="false" explanation-id="feedback1">``.
 
-----------------------------
+-----------------
 ``<solutionset>``
-----------------------------
+-----------------
 
 Optional. Groups a set of explanations that assist learners. See
-:ref:`Answer Pools in a Single Select Problem`. 
+:ref:`Answer Pools in a Single Select Problem`.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 ``<solution>``
 
-----------------------------
+--------------
 ``<solution>``
-----------------------------
+--------------
 
 Optional. Specifies the explanation shown to learners for a given answer. This
 element contains an HTML division ``<div>``. The division contains one or more
 paragraphs ``<p>`` of explanatory text. See
 :ref:`Answer Pools in a Single Select Problem`.
 
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80

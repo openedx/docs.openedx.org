@@ -132,9 +132,9 @@ you are taken back to the Add video to your course page.
 
 .. _Add a Video to an Edge Course:
 
-********************************
+*****************************
 Add a Video to an Edge Course
-********************************
+*****************************
 
 .. note::
   **This information applies only to courses that run on the Edge site.**

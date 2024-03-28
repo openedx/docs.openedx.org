@@ -1,5 +1,5 @@
 The Course Development Process
-########################################
+##############################
 
 .. contents:: Table of Contents
    :local:
@@ -7,7 +7,7 @@ The Course Development Process
 
 
 The Course Development Process Overview
-****************************************
+***************************************
 
 This course development process model is based on the ADDIE model and tied to the principles of backward design. By working backwards, we start first with defining our learning outcomes and work backwards to determining what content we need to create. It looks like this:
 
@@ -68,7 +68,7 @@ Outcomes and Templates for the Information Collection phase that may be helpful:
 Remember, this phase can require multiple meetings to ensure that the entire team is on the same page regarding why this course is being created, who the learners will be, and what resources will be available throughout the development process. Depending on the project, your SME(s) and the timeline, this phase could take anywhere from one meeting to several weeks.
 
 Phase 2: Design
-******************
+***************
 
 In phase two, you will use the outputs from phase one (the syllabus and outcomes list) as your inputs. Here, your focus will be on deciding on the assessments and teaching materials that will be used to help your learners achieve the learning outcomes. The goal of this phase is to create a course outline that identifies the structure and components of your course.
 
@@ -98,7 +98,7 @@ Outcomes and Templates for the Information Collection phase that may be helpful:
 Remember, that this is a highly iterative phase in the course development process. You will likely come back to this phase as you move on to asset collection and build. Your course outline should be a living document that tracks all of the changes and components within your course.
 
 Phase 3: Asset Collection & Build
-************************************
+*********************************
 
 The goal of this phase is to create or collect all of the course materials and build the course in the LMS. The course outline that you created in phase two is a vital input in this phase and will continue to grow in this phase.
 
@@ -138,7 +138,7 @@ By the end of this phase you should have a completed course built in the LMS. Yo
 Remember to check in on the learning outcomes throughout this phase: are the assessments aligned with the learning outcomes? Do the learners have the right content to help them complete those assessments successfully?
 
 Phase 4: Review
-*****************
+***************
 
 The focus of this phase is student satisfaction. Coming into this phase, you should have a completed course built in the LMS and an up to date course outline document. In this phase the goal is to review the course from the learner’s perspective before launching it to the public.
 
@@ -175,7 +175,7 @@ Remember to do reviews on desktop and mobile devices!
 
 
 Phase 5: Support
-*******************
+****************
 
 This phase usually happens during the delivery of the course. As a result, not all instructional designers will be involved at this phase, but it is important to have strategies in place prior to the launch of the course.
 

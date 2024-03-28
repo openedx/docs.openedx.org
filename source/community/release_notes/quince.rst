@@ -43,7 +43,7 @@ Administrators & Operators
 **************************
 
 New Learner Home Page
-==================================
+=====================
 
 No longer experimental, the new Learner Home has many of the same features as the old learner dashboard, with some extended functionality and
 performance enhancements.

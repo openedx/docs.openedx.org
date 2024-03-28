@@ -1,8 +1,8 @@
 .. _Dropdown:
 
-#####################
+################
 Dropdown Problem
-#####################
+################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -18,9 +18,9 @@ learners guidance and help when they work on a problem.
 For more information about the simple problem types, see
 :ref:`Working with Problem Components`.
 
-**********
+********
 Overview
-**********
+********
 
 In dropdown problems, learners select one answer from a list of answer options.
 Unlike :ref:`single select<Single Select>` problems, where the answer
@@ -30,9 +30,9 @@ dropdown problems do not appear until the learner selects the dropdown arrow.
 Dropdown problems can only have one correct answer per question, we recommend
 adding a "Both B & C" answer where multiple selections could be correct.
 
-================================
+========================
 Example Dropdown Problem
-================================
+========================
 
 In the LMS, learners select a single answer option to complete a dropdown
 problem. An example of a dropdown problem from the learner's perspective follows.
@@ -41,9 +41,9 @@ problem. An example of a dropdown problem from the learner's perspective follows
  :alt: A problem component that contains three answer choices.
  :width: 400
 
-********************************
+*************************
 Adding a Dropdown Problem
-********************************
+*************************
 
 You add dropdown problems in Studio by selecting the **Problem**
 component. In the problem editor, select the **Dropdown** option. Fill in
@@ -72,9 +72,9 @@ out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
 .. _Use Feedback in a Dropdown Problem:
 
-===========================================
+===============
 Adding Feedback
-===========================================
+===============
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. You can add feedback for each of the answer options you provide in
@@ -98,9 +98,9 @@ the problem. Use the following guidelines when providing feedback.
 
 .. _Use Hints in a Dropdown Problem:
 
-===========================================
+============
 Adding Hints
-===========================================
+============
 
 You can add hints to a dropdown problem. For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
@@ -109,9 +109,9 @@ You can add hints to a dropdown problem. For an overview of hints in problems, s
 
 .. _Editing Dropdown Problems using the Advanced Editor:
 
-****************************************************
+***************************************************
 Editing Dropdown Problems using the Advanced Editor
-****************************************************
+***************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
 advanced editor. In the setting panels on the right of the editor, click
@@ -139,9 +139,9 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
-=============================
+===============
 Adding Feedback
-=============================
+===============
 
 In the advanced editor, you configure feedback with the following syntax.
 
@@ -190,9 +190,9 @@ Adding Hints
 
 .. _Dropdown Problem XML:
 
-**********************************
+******************************
 Dropdown Problem OLX Reference
-**********************************
+******************************
 
 ========
 Template
@@ -224,9 +224,9 @@ Template
     </demandhint>
   </problem>
 
-=========
+========
 Elements
-=========
+========
 
 For dropdown problems, the ``<problem>`` element can include this
 hierarchy of child elements.
@@ -245,74 +245,74 @@ hierarchy of child elements.
 
 In addition, standard HTML tags can be used to format text.
 
----------------------
+--------------------
 ``<optionresponse>``
----------------------
+--------------------
 
 Required. Indicates that the problem is a dropdown problem.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 * ``<label>``
 * ``<description>``
 * ``<optioninput>``
 * ``<solution>``
 
----------------------
+-----------
 ``<label>``
----------------------
+-----------
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
----------------------
+-----------------
 ``<description>``
----------------------
+-----------------
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
----------------------
+-----------------
 ``<optioninput>``
----------------------
+-----------------
 
 Required. Designates an answer option.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -331,23 +331,23 @@ Attributes
      - Used if the ``options`` attribute is set. Required. Indicates
        which of the answer options is correct.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 * ``<option>``
 * ``<optionhint>``
 
----------------------
+------------
 ``<option>``
----------------------
+------------
 
 Designates an answer option. Either a set of ``<option>`` child elements or the
 ``options`` attribute for ``<optioninput>`` is required.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 .. list-table::
    :widths: 20 80
@@ -363,27 +363,27 @@ Attributes
 If the ``<option>`` element is used, ``<optionhint>`` is a child of
 ``<option>``.
 
----------------------
+----------------
 ``<optionhint>``
----------------------
+----------------
 
 Optional. Specifies feedback for the answer.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 None.
 
----------------------
+--------------
 ``<solution>``
----------------------
+--------------
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.
@@ -391,39 +391,39 @@ the questions in a problem that contains more than one question.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
----------------------
+----------------
 ``<demandhint>``
----------------------
+----------------
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 ``<hint>``
 
----------------------
+----------
 ``<hint>``
----------------------
+----------
 
 Required. Specifies additional information that learners can access if needed.
 
-^^^^^^^^^^^
+^^^^^^^^^^
 Attributes
-^^^^^^^^^^^
+^^^^^^^^^^
 
 None.
 
-^^^^^^^^^^^
+^^^^^^^^
 Children
-^^^^^^^^^^^
+^^^^^^^^
 
 None.

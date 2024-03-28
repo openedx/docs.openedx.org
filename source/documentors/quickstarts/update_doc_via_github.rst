@@ -43,7 +43,7 @@ GitHub then creates a *fork* of the repository that belongs to your account.  A 
 GitHub then prompts you to create a pull request, which is a request for the Open edX team to integrate changes in your fork into the official repository.
 
 Create a Pull Request for Your Change
-**************************************
+*************************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
 

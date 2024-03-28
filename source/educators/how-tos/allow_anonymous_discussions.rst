@@ -1,5 +1,5 @@
 Enable/Disable Anonymous Discussion Posts
-###########################################
+#########################################
 
 There are two options for anonymous discussion posts.
 
@@ -13,7 +13,7 @@ Generally, you'll choose one or none of the options based on your course policie
 
 
 Allow Anonymous Discussion Posts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+********************************
 
 A student's view of posting anonymously:
 
@@ -33,7 +33,7 @@ A discussion staff's view of an anonymous post
 
 
 Allow Anonymous Discussion Posts to Peers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************
 
 A student's view of posting anonymously to classmates:
 
@@ -52,13 +52,13 @@ A discussion staff's view of an anonymous post to classmates:
 
 
 Enable/Disable "Allow Anonymous Discussion Posts"
-========================================================
+=================================================
 1. From your course Studio, navigate to *Advanced Settings*
 2. Set "Allow Anonymous Discussion Posts" to true/false to enable/disable.
 
 
 Enable/Disable "Allow Anonymous Discussion Posts to Peers"
-================================================================
+==========================================================
 1. From your course Studio, navigate to *Advanced Settings*
 2. Set "Allow Anonymous Discussion Posts to Peers" to true/false to enable/disable.
 
