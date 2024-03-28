@@ -197,7 +197,7 @@ This release includes the following changes to course discussions.
 Updates to Bulk Email
 =====================
 
-The way the bulk email feature is enabled and disabeld has change, see
+The way the bulk email feature is enabled and disabled has changed, see
 :doc:`bulk_email` for more details.
 
 Updates to Analytics Events and Database Tables

@@ -12,7 +12,7 @@ expected to `conform <https://www.w3.org/TR/WCAG21/#conformance>`_ to `Level AA
 requirements outlined in the edX `Website Accessibility Policy
 <https://www.edx.org/accessibility>`_.
 
-As the edX platform is strongly based on well-accepted `HTML5 markup standards <https://html.spec.whatwg.org/>`_ and `WAI-ARIA <https://www.w3.org/WAI/standards-guidelines/aria/>`_, we expect that learners who require additional accessibility tools such as screen readers and screen magnifiers will ejoy strong compatibility. We test regularly with the most popular accessibility tools.
+As the edX platform is strongly based on well-accepted `HTML5 markup standards <https://html.spec.whatwg.org/>`_ and `WAI-ARIA <https://www.w3.org/WAI/standards-guidelines/aria/>`_, we expect that learners who require additional accessibility tools such as screen readers and screen magnifiers will enjoy strong compatibility. We test regularly with the most popular accessibility tools.
 
 In addition, our guidance is based on principles of `universal
 design <https://en.wikipedia.org/wiki/Universal_design>`_ (usable by all, to the greatest extent possible, without the need for

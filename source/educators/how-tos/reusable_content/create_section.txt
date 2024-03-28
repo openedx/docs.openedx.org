@@ -23,7 +23,7 @@
 
    #. Enter the release date and time for the section.
 
-#. To hide the section from learners, click the :guilabel:`Visiblity` tab and check :guilabel:`Hide from Learners`.
+#. To hide the section from learners, click the :guilabel:`Visibility` tab and check :guilabel:`Hide from Learners`.
 
 #. Click :guilabel:`Save`.
 

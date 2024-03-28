@@ -324,7 +324,7 @@ Configuring Course-level Open Response Assessment Settings
 ===========================================================
 
 To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable
-certain course-wide overrides. Rather than going through each ORA in a course indiviually, these overrides allow
+certain course-wide overrides. Rather than going through each ORA in a course individually, these overrides allow
 course staff to enable certain new features course-wide.
 
 **Flexible Peer Grading**

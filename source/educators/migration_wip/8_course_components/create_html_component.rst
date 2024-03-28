@@ -286,7 +286,7 @@ Text Component Templates
 =========================
 
 When you create a Text component, you select from a list of templates and
-editor types, inlcuding the following:
+editor types, including the following:
 
 * Text
 * Announcement

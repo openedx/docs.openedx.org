@@ -12,7 +12,7 @@
 
 #. Select the **Text** template to add a blank component.
 
-   The componenet is added at the end of the unit.
+   The component is added at the end of the unit.
 
 #. In the component, select :guilabel:`Edit`.
 

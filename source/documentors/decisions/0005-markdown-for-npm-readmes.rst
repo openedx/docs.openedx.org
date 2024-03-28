@@ -33,13 +33,12 @@ Rejected Alternatives
 * Using a placeholder README file that links to the GitHub repository README. This would
   require either having both a Markdown and RST README in each repository, or implementing
   Markdown readme generation into the build/publish process. It would also result in a
-  sub-par experience when browsing Open edX published packages on npmjs.com.
-
+  sub-par experience when browsing Open edX published packages on `npmjs.com <https://npmjs.com>`__.
 
 Consequences
 ************
 
-* The READMEs for npm packages published as a part of the Open edX project will be fully rendered on npmjs.com.
+* The READMEs for npm packages published as a part of the Open edX project will be fully rendered on `npmjs.com <https://npmjs.com>`__.
 * Any existing RST READMEs in Open edX repositories that publish packages to npm will need to be rewritten in Markdown.
 
 .. _npm documentation for README files: https://docs.npmjs.com/about-package-readme-files

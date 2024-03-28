@@ -203,8 +203,8 @@ on a fork by following the steps below:
 #. Temporarily edit the ``Makefile`` so the ``pull_translations`` step pulls from your fork e.g.
    ``atlas pull --repository=Zeit-Labs/openedx-translations``.
 
-#. If you're testing and Open edX plugin, run the ``$ make pull_translations`` command in
-   the ``edx-platform`` repo. Otherwise, run ``$ make pull_translations`` in the repository
+#. If you're testing an Open edX plugin, run the ``make pull_translations`` command in
+   the ``edx-platform`` repo. Otherwise, run ``make pull_translations`` in the repository
    you're testing e.g. ``frontend-app-learning``.
 
 #. Run the application (or plugin) and verify the translations you've added are working properly.
