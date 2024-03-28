@@ -1,8 +1,8 @@
 .. _Conditional Module:
 
-####################
+##################
 Conditional Module
-####################
+##################
 
 .. note:: EdX offers provisional support for this problem type.
 
@@ -11,9 +11,9 @@ that they make meets a certain condition. For example, learners who answer
 "Yes" to a poll question see a different block of text from the learners who
 answered "No" to the same question.
 
-********************
+******************
 Format description
-********************
+******************
 
 The main tag of conditional module input is ``conditional``.
 
@@ -24,9 +24,9 @@ The main tag of conditional module input is ``conditional``.
 ``conditional`` can include any number of any Xmodule tags (``html``,
 ``video``, ``poll``, etc.) or ``show`` tags.
 
-====================
+===================
 ``conditional`` Tag
-====================
+===================
 
 The main container for a single instance of a conditional module. The
 following attributes can be specified for this tag.
@@ -55,13 +55,13 @@ this tag.
 
     sources - location id of modules, separated by ';'
 
-*********
+********
 Examples
-*********
+********
 
-========================================
+====================================
 Example: conditional depends on poll
-========================================
+====================================
 
 .. code-block:: xml
 
@@ -72,9 +72,9 @@ Example: conditional depends on poll
         </html>
     </conditional>
 
-========================================================
+=====================================================
 Example: conditional depends on poll (use <show> tag)
-========================================================
+=====================================================
 
 .. code-block:: xml
 
@@ -85,9 +85,9 @@ Example: conditional depends on poll (use <show> tag)
         </html>
     </conditional>
 
-================================================
+==========================================
 Examples of conditional depends on problem
-================================================
+==========================================
 
 .. code-block:: xml
 

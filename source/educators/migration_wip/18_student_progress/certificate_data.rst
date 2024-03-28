@@ -1,8 +1,8 @@
 .. _Reporting Certificate Data:
 
-############################
+##########################
 Obtaining Certificate Data
-############################
+##########################
 
 This topic describes how to access data about certificates that have been
 issued for a course.
@@ -18,18 +18,18 @@ For more information, see the following other topics about certificates.
 
 .. _Access Certificate Data:
 
-**************************
+***********************
 Access Certificate Data
-**************************
+***********************
 
 You can view data about the certificates that have been issued for your course
 in the LMS by selecting **Instructor** to access the instructor dashboard. You
 can also download a .csv (comma-separated values) file with the certificate
 data.
 
-==========================
+=====================
 View Certificate Data
-==========================
+=====================
 
 To view certificate data, follow these steps.
 
@@ -43,9 +43,9 @@ To view certificate data, follow these steps.
    certificate issued. For more information on the contents of this report, see
    :ref:`Columns in the Certificate Report`.
 
-==========================
+=========================
 Download Certificate Data
-==========================
+=========================
 
 To download certificate data, follow these steps.
 
@@ -62,9 +62,9 @@ To download certificate data, follow these steps.
 
 .. _Columns in the Certificate Report:
 
-***************************************
+*********************************
 Columns in the Certificate Report
-***************************************
+*********************************
 
 The certificate report includes a row for each type of certificate issued for
 the course.

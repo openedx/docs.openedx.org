@@ -1,6 +1,6 @@
-************************************
+#############################
 The Learner View of a Problem
-************************************
+#############################
 
 All problems on the edX platform have these component parts, some of which can
 be configured. For configurable options, you can specify whether and when

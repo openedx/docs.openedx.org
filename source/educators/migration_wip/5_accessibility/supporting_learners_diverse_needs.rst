@@ -1,8 +1,8 @@
 .. _Supporting Learners with Diverse Needs:
 
-#######################################
+######################################
 Supporting Learners with Diverse Needs
-#######################################
+######################################
 
 Almost one fifth of the world's population has some kind of disability. Online
 courses can reduce many barriers to education for these learners by providing

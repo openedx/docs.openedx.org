@@ -1,6 +1,6 @@
-*****************************
+#############################
 Process for Contributing Code
-*****************************
+#############################
 
 .. tip::
 
@@ -20,9 +20,9 @@ and other contributors can expect from each other. The goals are:
   as much as possible.
 
 
-------------------
+******************
 General Guidelines
-------------------
+******************
 
 Please follow these guidelines when writing code. Please note that not all of
 these may be required for your feature; reach out to us if you have any

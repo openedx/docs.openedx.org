@@ -1,8 +1,8 @@
 .. _IFrame:
 
-##################
+###########
 Iframe Tool
-##################
+###########
 
 .. note:: EdX offers provisional support for this tool.
 
@@ -31,9 +31,9 @@ or an :ref:`LTI component<LTI Component>`.
 For more information about iframes, see the `iframe: The Inline Frame element
 <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.
 
-****************************
+*********************
 Create an IFrame Tool
-****************************
+*********************
 
 To add an exercise or tool in an iframe, you create an iframe Text component
 and add the URL of the page that contains the exercise or tool to the
@@ -79,9 +79,9 @@ component. You can also add text and images both before and after the iframe.
 
 .. _IFrame Settings:
 
-======================
+===============
 Iframe Settings
-======================
+===============
 
 To specify settings for your iframe, you add, remove, or change the
 attributes inside the opening ``<iframe>`` tag. The ``<iframe>`` tag **must**

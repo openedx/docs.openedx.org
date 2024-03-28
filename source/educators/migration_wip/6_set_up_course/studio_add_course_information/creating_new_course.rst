@@ -20,9 +20,9 @@ the course in XML.
 
 .. _Create a New Course:
 
-*******************
+***************
 Create a Course
-*******************
+***************
 
 .. only:: Partners
 
@@ -79,9 +79,9 @@ To create a course, follow these steps.
 
 .. _Edit Your Course:
 
-************************
+*************
 Edit a Course
-************************
+*************
 
 .. only:: Partners
 
@@ -114,9 +114,9 @@ appears.
 
 .. _Change the Course Title or Number:
 
-*************************************
+*********************************
 Change the Course Title or Number
-*************************************
+*********************************
 
 The course title and number that you specify when you create your course become
 part of the course URL. The course URL cannot be changed. However, you can

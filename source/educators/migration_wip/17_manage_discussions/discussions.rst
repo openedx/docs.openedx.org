@@ -26,7 +26,7 @@ For information about running and moderating course discussions, see
 .. _Configuring Edx Discussions:
 
 Configuring Edx Discussions
-****************************
+***************************
 
 To open edx discussions configuration page, follow these steps.
 
@@ -113,7 +113,7 @@ Discussion list now includes the topic you added.
 .. _Create ContentSpecific Discussion Topics:
 
 Create Content-Specific Discussion Topics
-*********************************************
+*****************************************
 
 Course runs created on or after May 16, 2023, use an upgraded version of
 the edX discussion forum. Learn more about it `here`_. The creation of content-specific discussion topics for both the legacy and the upgraded versions
@@ -189,7 +189,7 @@ with the threads contained within it.
   replace deleted topics with new ones.
 
 Legacy Edx Forum
-==================
+================
 
 To create a content-specific discussion topic, you add a discussion component
 to a unit. Typically, you do this while you are designing and creating your
@@ -217,7 +217,7 @@ topics, see :ref:`Visibility of Discussion Topics`.
 .. _Visibility of Discussion Topics:
 
 Understanding When Learners Can See Discussion Topics
-*********************************************************
+*****************************************************
 
 The names that you specify as the category and subcategory names for discussion
 components are not visible on the Discussion page in the LMS until after
@@ -242,7 +242,7 @@ release dates.
 .. _Anonymous_posts:
 
 Allowing Learners to Make Anonymous Discussion Posts
-*****************************************************
+****************************************************
 
 By default, when learners participate in a discussion, their usernames are
 visible in the discussion. You can allow learners to make discussion posts
@@ -274,7 +274,7 @@ that are anonymous to other learners, as seen below.
 .. _Discussions on Mobile Apps:
 
 Discussions in the edX Mobile App
-**********************************
+*********************************
 
 Learners can participate in course discussions using the edX mobile app as
 they do on the edX site, but there are some differences in the actions that

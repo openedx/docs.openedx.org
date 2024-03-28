@@ -1,6 +1,6 @@
-########################################
+#############################
 Specifying Transcript Options
-########################################
+#############################
 
 .. contents::
   :local:
@@ -8,9 +8,9 @@ Specifying Transcript Options
 
 .. _Transcripts in Additional Languages:
 
-************************************
+****************
 Add a Transcript
-************************************
+****************
 
 .. note::
    This section is for videos that do not have integrated transcripts. Only use
@@ -56,9 +56,9 @@ select a language.
    :alt: The video player with the language menu selected to show English and Spanish as transcript options
 
 
-***************************
+***********************
 Edit a Video Transcript
-***************************
+***********************
 
 If you want to edit an existing .srt video transcript, follow
 these steps.

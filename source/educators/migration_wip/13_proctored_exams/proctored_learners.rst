@@ -1,8 +1,8 @@
 .. _Preparing Learners for Proctored Exams:
 
-########################################
+######################################
 Preparing Learners for Proctored Exams
-########################################
+######################################
 
 To prepare learners for a proctored exam, follow these guidelines.
 
@@ -38,9 +38,9 @@ To prepare learners for a proctored exam, follow these guidelines.
 
 .. _CA_LearnerExperience_Proctored Exams:
 
-*********************************************
+*****************************************
 The Learner Experience of Proctored Exams
-*********************************************
+*****************************************
 
 .. only:: Partners
 
