@@ -131,9 +131,9 @@ steps.
 
 #.  Install your block.
 
-    ::
+    .. code-block:: bash
 
-        $ vagrant ssh
+        vagrant ssh
         vagrant@precise64:~$ sudo -u edxapp /edx/bin/pip.edxapp install /path/to/your/block
 
 #.  Enable the block.
