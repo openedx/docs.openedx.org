@@ -1,8 +1,8 @@
 .. _Controlling Content Visibility:
 
-############################################
+#########################################
 Controlling Content Visibility and Access
-############################################
+#########################################
 
 As a member of the course team, you must carefully control which content is
 available to which learners, and when. Visibility settings, together with

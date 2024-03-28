@@ -1,5 +1,5 @@
 How To Add Sphinx Docs to a Repo
-#################################
+################################
 
 .. How-tos should have a short introduction sentence that captures the user's goal and introduces the steps.
 

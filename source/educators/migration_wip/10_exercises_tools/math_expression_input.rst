@@ -1,8 +1,8 @@
 .. _Math Expression Input:
 
-####################################
+##############################
 Math Expression Input Problems
-####################################
+##############################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -17,9 +17,9 @@ prompt and a response field for a numeric answer.
 For more information about the core problem types, see
 :ref:`Working with Problem Components`.
 
-***********
+********
 Overview
-***********
+********
 
 In math expression input problems, learners enter text that represents a
 mathematical expression. The text is converted to a symbolic expression that
@@ -50,9 +50,9 @@ Studio`.
  input problems can include complex numbers raised to fractional powers, or
  positive non-complex numbers raised to fractional powers.
 
-======================================
+=====================================
 Example Math Expression Input Problem
-======================================
+=====================================
 
 In the LMS, learners enter a value into a response field to complete a math
 expression input problem. The following example shows a completed math
@@ -110,17 +110,17 @@ problem follows.
     </formularesponse>
   </problem>
 
-========================================================
+=======================================================
 Analyzing Performance on Math Expression Input Problems
-========================================================
+=======================================================
 
 For the math expression input problems in your course, you can use edX Insights
 to review aggregated learner performance data and examine submitted answers.
 For more information, see `Using edX Insights`_.
 
-***************************************
+**************************************
 Adding a Math Expression Input Problem
-***************************************
+**************************************
 
 You add math expression input problems in Studio by selecting the **Problem**
 component type and then using the advanced editor to specify the prompt and the
@@ -151,9 +151,9 @@ To create a math expression input problem, follow these steps.
 Math Expression Input Problem OLX Reference
 *******************************************
 
-============
+========
 Template
-============
+========
 
 .. note:: The following template includes a Python script. When you add a
   script to a problem component, do not add to or change its internal
@@ -208,7 +208,7 @@ hierarchy of child elements.
 In addition, standard HTML tags can be used to format text.
 
 ``<formularesponse>``
-************************
+*********************
 
 Required. Indicates that the problem is a math expression input problem.
 
@@ -369,7 +369,7 @@ Children
 None.
 
 ``<script>``
-*************
+************
 
 Optional. Specifies a script that the grader uses to evaluate a learner's
 response. A problem behaves as if all of the code in all of the script elements

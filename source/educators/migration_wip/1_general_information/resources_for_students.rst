@@ -4,16 +4,16 @@
 Resources for edx.org Learners
 ******************************
 
-==============
+=============
 Documentation
-==============
+=============
 
 The `edX Help Center for Learners`_ includes topics to help you understand how
 to use the Open edX learning management system. On edx.org, the Help Center is also available from within the learning experience by selecting the **Help** menu from within your edX dashboard.
 
-==============
+===========
 In a Course
-==============
+===========
 
 If you have a question about something you encounter in an edX course, try
 these options for getting an answer.
@@ -44,9 +44,9 @@ these options for getting an answer.
   course-specific social media (ex: Facebook group) or messaging community (ex: Discord) might be available for
   learners to share information.
 
-=================================
+================================
 Resources on the edx.org Website
-=================================
+================================
 
 To help you get started with the learning experience, edX offers a Demo_ course
 that introduces the core concepts of using the system.

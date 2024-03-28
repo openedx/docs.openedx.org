@@ -1,8 +1,8 @@
 .. _analytics:
 
-##############
+#########
 Analytics
-##############
+#########
 
 The edX LMS and Studio are instrumented to enable tracking of metrics and
 events of interest. These data can be used for educational research, decision
@@ -11,9 +11,9 @@ support, and operational monitoring.
 The primary mechanism for tracking events is the `Event Tracking`_ API. It
 should be used for the vast majority of cases.
 
-=================
+==============
 Event Tracking
-=================
+==============
 
 The `event-tracking`_ library aims to provide a simple API for tracking point-
 in-time events. The `event-tracking documentation`_ summarizes the features
@@ -21,7 +21,7 @@ and primary use cases of the library as well as the current and future design
 intent.
 
 Emitting Events
-*****************
+***************
 
 Emitting from server-side python code::
 
@@ -33,7 +33,7 @@ Emitting from client-side JavaScript::
     Logger.log 'some.event.name', 'foo': 'bar'
 
 Request Context Middleware
-**********************************
+**************************
 
 The platform includes a middleware class that enriches all events emitted
 during the processing of a given request with details about the request that
@@ -41,7 +41,7 @@ greatly simplify downstream processing. This is called the ``TrackMiddleware``
 and can be found in ``edx-platform/common/djangoapps/track/middleware.py``.
 
 Naming Events
-==============
+=============
 
 Event names are intended to be formatted as `.` separated strings and help
 processing of related events. The structure is intended to be
@@ -59,7 +59,7 @@ Examples:
         * Action: ``activated``
 
 Choosing Events to Emit
-========================
+=======================
 
 Consider emitting events to capture user intent. These will typically be
 emitted on the client side when a user interacts with the user interface in
@@ -85,7 +85,7 @@ Therefore, do not include clear text passwords, credit card numbers, or other
 similarly sensitive information.
 
 Size
-======
+====
 
 A cursory effort to regulate the size of the event is appreciated. If an event
 is too large, it may be omitted from the event stream. However, do not

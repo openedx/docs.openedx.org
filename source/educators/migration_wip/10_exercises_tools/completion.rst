@@ -1,8 +1,8 @@
 .. _completion:
 
-##################
+###############
 Completion Tool
-##################
+###############
 
 .. note:: EdX does not support this tool.
 
@@ -15,9 +15,9 @@ text, watching video, or participating in course discussions.
   :local:
   :depth: 1
 
-***********
+********
 Overview
-***********
+********
 
 The completion tool provides learners with a way to indicate both to themselves
 and to the course team that they have completed an activity.
@@ -45,9 +45,9 @@ grades on the **Progress** page.
    or participating in course discussions.
 
 
-=========================
+======================
 The Completion Control
-=========================
+======================
 
 When you add a completion component to a unit, learners see a control that is
 labeled **Mark as complete**. In this example, the completion component follows
@@ -65,9 +65,9 @@ select this control as many times as needed.
   :alt: The completion component in a complete state.
 
 
-******************************************
+**************************
 Enable the Completion Tool
-******************************************
+**************************
 
 Before you can add a completion component to your course, you must enable the
 completion tool in Studio.
@@ -77,9 +77,9 @@ To enable the completion tool in Studio, add the ``"done"`` key to the
 Changes**. (Be sure to include the quotation marks around the key value.) For
 more information, see :ref:`Enable Additional Exercises and Tools`.
 
-*************************************
+**************************
 Add a Completion Component
-*************************************
+**************************
 
 After you have enabled the completion tool in Studio, to add a completion
 component to a unit in a course, follow these steps.

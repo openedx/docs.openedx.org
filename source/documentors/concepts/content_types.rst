@@ -1,5 +1,5 @@
 Documentation Content Types
-############################
+###########################
 
 To keep documentation streamlined and make it easy for users to find answers, we make each topic one of four types:
 

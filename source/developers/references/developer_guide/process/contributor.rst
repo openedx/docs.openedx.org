@@ -1,6 +1,6 @@
-************
+############
 Contributing
-************
+############
 
 Contributing your custom code to the Open edX project is a two-step process:
 review of your idea by the product team (the Product Review Process),
@@ -14,9 +14,9 @@ Note::
    check with the Product Working Group on the best way to land your fix
    before beginning to write code.
 
-----------------------------------------
+****************************************
 Product Review Process & Product Roadmap
-----------------------------------------
+****************************************
 
 New features added to the Open edX project go through a `Product Review
 Process`_, lead by the `Open edX Product Working Group`_. If you're interested
@@ -46,9 +46,9 @@ what to contribute, check out the roadmap! If you're interested in picking
 up or collaborating on a ticket, join the conversation by adding a comment
 on the ticket.
 
-----------------------------
+****************************
 Getting Preliminary Feedback
-----------------------------
+****************************
 
 It is sometimes useful to submit a pull request even before the code is
 working properly, to make it easier to collect early feedback on your
