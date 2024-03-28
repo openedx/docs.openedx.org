@@ -9,7 +9,7 @@ Status
 Context
 *******
 
-As documented in :doc:`0002-choosing-rst`, we use RST for the majority of Open edX documentation. 
+As documented in :doc:`0002-choosing-rst`, we use RST for the majority of Open edX documentation.
 This includes README files in Open edX project repositories.
 
 When browsing packages on https://www.npmjs.com/, however, RST READMEs are not rendered.
@@ -20,7 +20,7 @@ The `npm documentation for README files`_ mentions Markdown exclusively.
 Decision
 ********
 
-Markdown must be used for Open edX project repositories that publish packages to npm. 
+Markdown must be used for Open edX project repositories that publish packages to npm.
 
 Rejected Alternatives
 *********************
@@ -32,7 +32,7 @@ Rejected Alternatives
 
 * Using a placeholder README file that links to the GitHub repository README. This would
   require either having both a Markdown and RST README in each repository, or implementing
-  Markdown readme generation into the build/publish process. It would also result in a 
+  Markdown readme generation into the build/publish process. It would also result in a
   sub-par experience when browsing Open edX published packages on npmjs.com.
 
 

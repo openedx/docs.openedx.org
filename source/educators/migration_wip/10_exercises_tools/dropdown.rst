@@ -61,7 +61,7 @@ Creating a dropdown problem is as simple as:
 #. Filling in the **Explanation** field. When this is shown to learners is
    based on the selection in the **Show answer** panel on the right.
 #. Filling in the Answer fields. Select the correct answer by ticking off
-   the radio button. Additional answers can be added by clicking the 
+   the radio button. Additional answers can be added by clicking the
    **Add answer** button. Answers can be deleted by clicking the trash can
    icon. Feedback can be provided for each answer. More information on
    feedback can be found in the following section.
@@ -92,7 +92,7 @@ the problem. Use the following guidelines when providing feedback.
   chance.
 
 .. image:: ../images/problem_editor_feedback_box_2.png
- :alt: An example of an expanded feedback section for dropdown problems showing 
+ :alt: An example of an expanded feedback section for dropdown problems showing
     the 'is selected' feedback field.
  :width: 600
 
@@ -114,8 +114,8 @@ Editing Dropdown Problems using the Advanced Editor
 ****************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click 
-**Show advanced settings**, then scroll down and click 
+advanced editor. In the setting panels on the right of the editor, click
+**Show advanced settings**, then scroll down and click
 **Switch to advanced editor**.
 
 You can use the advanced editor to identify the elements of a dropdown problem

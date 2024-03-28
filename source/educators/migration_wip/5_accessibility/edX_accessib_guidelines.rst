@@ -10,7 +10,7 @@ edX measures and evaluates accessibility primarily using the World Wide Web Cons
 expected to `conform <https://www.w3.org/TR/WCAG21/#conformance>`_ to `Level AA
 <https://www.w3.org/TR/WCAG21/#cc1>`_ of this specification and satisfy the
 requirements outlined in the edX `Website Accessibility Policy
-<https://www.edx.org/accessibility>`_.  
+<https://www.edx.org/accessibility>`_.
 
 As the edX platform is strongly based on well-accepted `HTML5 markup standards <https://html.spec.whatwg.org/>`_ and `WAI-ARIA <https://www.w3.org/WAI/standards-guidelines/aria/>`_, we expect that learners who require additional accessibility tools such as screen readers and screen magnifiers will ejoy strong compatibility. We test regularly with the most popular accessibility tools.
 
@@ -28,9 +28,9 @@ with disabilities. Most institutions offer disability support services and
 information technology resources that provide accessibility advice and
 support. These trained professionals typically provide the following services, which may be equally applicable to courses that are taught online:
 
-* Help with making disability accommodation decisions and advise you on what accommodations may be appropriate in light of the goals of the course and the instructional methodologies employed. 
+* Help with making disability accommodation decisions and advise you on what accommodations may be appropriate in light of the goals of the course and the instructional methodologies employed.
 
-* Help with `document accessibility remediation <https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html>`_  
+* Help with `document accessibility remediation <https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html>`_
 
 * For live events, they can help with sourcing providers for learners' `real-time captioning <https://www.nad.org/resources/technology/captioning-for-access/communication-access-realtime-translation/>`_, `signed-language interpretation <https://en.wikipedia.org/wiki/Language_interpretation#Sign_language>`_, or `cued speech transliteration <https://en.wikipedia.org/wiki/Cued_speech>`_ needs.
 

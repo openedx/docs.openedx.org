@@ -14,7 +14,7 @@ Add a Transcript
 
 .. note::
    This section is for videos that do not have integrated transcripts. Only use
-   this option for transcripts in .srt format. If you want to provide a 
+   this option for transcripts in .srt format. If you want to provide a
    transcript in any other format, such as .pdf, see
    ::ref:`Additional Transcripts`.
 

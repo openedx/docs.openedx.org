@@ -317,7 +317,7 @@ Currently, the platform supports the following LTI Advantage extensions:
 Enabling LTI Assignments and Grades services
 ============================================
 
-The LTI Assignments and Grades service (LTI-AGS) allows LTI tools to send and manage 
+The LTI Assignments and Grades service (LTI-AGS) allows LTI tools to send and manage
 learner grades back to the platform after an activity is completed.
 
 To set up LTI-AGS services on a component, follow these steps.
@@ -343,8 +343,8 @@ Enabling and using LTI Deep Linking
 ===================================
 
 The Deep Linking service (LTI-DL) allows course creators to select and configure
-the content displayed to learners through Open edX Studio, removing the need to 
-use custom parameters and settings when setting up content, improving the ease of 
+the content displayed to learners through Open edX Studio, removing the need to
+use custom parameters and settings when setting up content, improving the ease of
 use and content authoring experience.
 
 To set up LTI-DL services on a component, follow these steps.
@@ -388,10 +388,10 @@ To use LTI Deep Linking, follow these steps:
 Enabling LTI Names and Roles Provisioning Service
 =================================================
 
-The Names and Roles Provisioning service (LTI-NRPS) allows tools to list and retrieve 
-information about the learners that have access to an LTI component. 
-The tools that support this service can retrieve a limited amount of personal 
-information (full name, email, username) and the membership status of all the learners 
+The Names and Roles Provisioning service (LTI-NRPS) allows tools to list and retrieve
+information about the learners that have access to an LTI component.
+The tools that support this service can retrieve a limited amount of personal
+information (full name, email, username) and the membership status of all the learners
 enrolled in the course.
 
 To set up LTI-NRPS services on a component, follow these steps.
@@ -404,8 +404,8 @@ To set up LTI-NRPS services on a component, follow these steps.
 
 #. Select **Save**. The LTI-NRPS will be enabled for all subsequent launches.
 
-.. note:: Due to performance concerns, LTI-NRPS information is by default only 
-          available on courses with up to 1000 users. Site operators may adjust 
+.. note:: Due to performance concerns, LTI-NRPS information is by default only
+          available on courses with up to 1000 users. Site operators may adjust
           this limit using the `LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting`_.
 
 

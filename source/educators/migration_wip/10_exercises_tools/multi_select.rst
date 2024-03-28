@@ -118,7 +118,7 @@ You can access the feedback panel shown below by clicking the button to the
 right of the answer text.
 
 .. image:: ../images/problem_editor_multi_feedback_box.png
- :alt: An example of an expanded feedback section for multi-select problems showing 
+ :alt: An example of an expanded feedback section for multi-select problems showing
     the 'is selected' and 'is not selected' feedback fields.
  :width: 600
 
@@ -182,8 +182,8 @@ Editing Multi-select Problems using the Advanced Editor
 **********************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click 
-**Show advanced settings**, then scroll down and click 
+advanced editor. In the setting panels on the right of the editor, click
+**Show advanced settings**, then scroll down and click
 **Switch to advanced editor**.
 
 You can use the advanced editor to identify the elements of a multi-select problem
@@ -958,4 +958,4 @@ correctness.
 .. note:: After saving a block with scripts, you'll see an error on the block in your
   unit if your script cannot be executed. One common error is the indentation error.
   The script must start on no indentation regardless of the indentation of the previous
-  line. 
+  line.

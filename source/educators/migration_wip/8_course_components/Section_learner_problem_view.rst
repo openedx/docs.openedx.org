@@ -76,7 +76,7 @@ an option is available in problems.
    correct answer and the explanation, if any.
 
    If you specify a number in **Show Answer: After Some Number of Attempts**, the learner
-   must submit at least that number of attempted answers before the **Show 
+   must submit at least that number of attempted answers before the **Show
    Answer** option is available for the problem.
 
 #. **Feedback.** After a learner selects **Submit**, an icon appears beside

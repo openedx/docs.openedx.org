@@ -5,8 +5,8 @@ Create a Proctored Exam with RPNow
 ##################################
 
 After you enable proctored exams for your course, you can create a proctored
-exam or a practice exam using your choice of either RPNow or Proctortrack. 
-To create a proctored exam or a practice proctored exam for RPNow, follow these 
+exam or a practice exam using your choice of either RPNow or Proctortrack.
+To create a proctored exam or a practice proctored exam for RPNow, follow these
 steps.
 
   .. note::
@@ -43,7 +43,7 @@ steps.
    * For a practice proctored exam, select **Practice Proctored**.
 
    .. note::
-      Once the exam content has been released to students, the special 
+      Once the exam content has been released to students, the special
       exam type cannot be modified.
 
 #. In the **Time Allotted** field, enter the length of time that you want
@@ -58,9 +58,9 @@ steps.
 
 .. _specifying_exam_rules_and_exceptions:
 
-**************************************
+*********************************
 Specify Exam Rules and Exceptions
-**************************************
+*********************************
 
 By default, reviewers evaluate exam attempts according to a standard set of
 :ref:`online proctoring rules <CA Online Proctoring Rules>` that the
@@ -97,8 +97,3 @@ To specify custom proctored exam rules, follow these steps.
    calculator on the desk.``
 
 #. Select **Save**.
-
-
-
-
-

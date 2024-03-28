@@ -288,6 +288,3 @@ The following actions are not supported on the edX mobile apps.
   * Marking responses to question posts as answers
   * Endorsing responses to discussion posts
   * Closing posts
-  
-
-

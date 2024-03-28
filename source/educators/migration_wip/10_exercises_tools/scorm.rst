@@ -76,7 +76,7 @@ Uploading the SCORM content
 
 
 * Choose the SCORM .zip package you want to upload.
-* If the SCORM content does not have any quizzes, set “Scored” to False.  
+* If the SCORM content does not have any quizzes, set “Scored” to False.
 * If the "Scored" parameter is True, you must specify the weight of the quizzes' points.
 
 
@@ -105,15 +105,14 @@ Technical information
 
 There are 2 events a SCORM package can emit in order to communicate with the Open edX platform.
 
-* For a SCORM module to set the Unit as complete (trigger the completion event of Open edX), the following event needs to be emitted: 
+* For a SCORM module to set the Unit as complete (trigger the completion event of Open edX), the following event needs to be emitted:
     ``scorm_set_values`` with the following key/name pair.
 
     * **name**: ``cmi.completion_status``
     * **value**: ``completed, incomplete, not attempted, unknown`` **(only 1)**
-	
-* For a SCORM module to send grading back to the Open edX platform, the following event need to be emitted: 
+
+* For a SCORM module to send grading back to the Open edX platform, the following event need to be emitted:
     ``scorm_set_values`` with the following key/name pair.
 
     * **name**: ``cmi.score.raw``
     * **value**: A number that reflects the performance of the learner relative to the range bounded by the values of min and max [e.g. if the quiz is out of 10, a number between 0 and 10. The maximum being the ``Weight`` you set in for the SCORM settings above.]
-  

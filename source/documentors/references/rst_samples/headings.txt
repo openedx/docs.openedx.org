@@ -21,9 +21,9 @@
    ---------
 
    Heading 4s denote subsections under Heading 3s.
-   
+
    Heading 5
    ~~~~~~~~~
-   
+
    Heading 5s denote subsections under Heading 4s.
    If you are this deep, consider splitting your document into multiple topics.
