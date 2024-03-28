@@ -13,7 +13,7 @@ edX is dedicated to creating a platform that is not only itself accessible,
 but also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to
 provide accessible course content, please contact us at accessibility@edx.org.
-We welcome any comments and questions. 
+We welcome any comments and questions.
 
 .. Do not modify wording of the following note. Exact wording is from Legal.
 
@@ -73,7 +73,7 @@ content.
 * `Authoring Tool Accessibility Guidelines (ATAG) <https://www.w3.org/WAI/standards-guidelines/atag/#atag>`_ guides our efforts to make edX Studio more accessible.
 * `HTML5 <https://html.spec.whatwg.org/>`_ and `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/#introduction>`_ are the standards we follow to ensure that the edX platform is accessible. You should follow the same standards to ensure that learner content inside `xBlocks <https://github.com/openedx/xblock-sdk>`_ (learning units) is accessible.
 * `EPUB 3.0 <http://idpf.org/epub/30>`_ is edX's preferred document format for ensuring that redistributable learning materials are accessible, though `Adobe PDF <https://www.adobe.com/accessibility/pdf/pdf-accessibility-overview.html>`_, `Microsoft Office <https://www.microsoft.com/en-us/accessibility/microsoft-365?activetab=pivot_1%3aprimaryr2>`_, and `Google Docs <https://support.google.com/docs/answer/6199477?hl=en>`_ may also be made accessible.
-* The `DAISY Consortium <http://www.daisy.org/>`_ contributes to EPUB accessibility standards and has a tool for che checking EPUB document accessibility. 
+* The `DAISY Consortium <http://www.daisy.org/>`_ contributes to EPUB accessibility standards and has a tool for che checking EPUB document accessibility.
 * `MathML <http://www.w3.org/Math/>`_ is edX's preferred markup format for all math content.
 * `MathJax <https://www.mathjax.org>`_ is the system we use for rendering MathML content.
 * `WCAG2ICT <http://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_ covers non-web Information and Communications Technologies.

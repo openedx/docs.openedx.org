@@ -1,7 +1,7 @@
 Copy and Paste Course Units
 ###########################
 
-There are two options for copying and pasting a unit: 
+There are two options for copying and pasting a unit:
 
 #. From the Course Outline page
 #. From the Unit Page
@@ -53,7 +53,7 @@ From the Unit Page
    the same course or a different course.
 
 #. In the horizontal navigation bar, click on the dropdown arrow next to the
-   "+New Unit" button. 
+   "+New Unit" button.
 
 #. Click "Paste as new unit".
 
@@ -77,4 +77,4 @@ From the Unit Page
    Authors can also paste Units copied from the Unit Page into the Course Outline, and vice versa.
 
 .. seealso::
-   :doc:`copy_paste_course_content` 
+   :doc:`copy_paste_course_content`

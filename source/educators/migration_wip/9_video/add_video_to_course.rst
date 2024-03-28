@@ -49,8 +49,8 @@ To copy the video ID, follow these steps.
    is assigned when you upload a video.
 
 Note that the course team can add a video to their course as soon as the
-unique video ID is visible on the **Videos** page. However, for a video to 
-play successfully, the status for the file must be “Ready”. Processing 
+unique video ID is visible on the **Videos** page. However, for a video to
+play successfully, the status for the file must be “Ready”. Processing
 takes 24 hours to complete for all encodings and all video hosting sites.
 
 You can also :ref:`download a report<Reporting Video Status>` of all uploaded
@@ -80,7 +80,7 @@ To add a video and its transcript to an edx.org course, follow these steps.
 
 #. Under Video Source, in the **Video ID** field, enter the Video ID, or **Video
    URL** fields, enter the streaming media link, or video file URL.
-   
+
    .. note::
       When you add the video ID, you do not need to add values to the **Video
       URL** or **Fallback Video** fields. The URLs that are associated with the
@@ -92,43 +92,43 @@ To add a video and its transcript to an edx.org course, follow these steps.
 #. Select **Save** to save the video component.
 
 =========================================================
-Add New or Previously Uploaded Video to Course on edx.org 
+Add New or Previously Uploaded Video to Course on edx.org
 =========================================================
 
-If you are in a Unit in your course and you want to add a previously uploaded 
-video, click on the green video tile. 
+If you are in a Unit in your course and you want to add a previously uploaded
+video, click on the green video tile.
 
 .. image:: ../images/AddNewComponent.png
-  :alt: this is an image of several components that you can choose from, including 
+  :alt: this is an image of several components that you can choose from, including
    the video component.
 
-You now see a list of all the videos that you have previously uploaded. You can 
-search for specific videos within the Search bar, filter by date added 
-(newest/oldest), name (ascending/descending), or duration (longest/shortest). You 
-can sort by video status (uploading, processing, ready, failed). To add a video 
-to your course, click on the video you want to add and then click on Select video. 
+You now see a list of all the videos that you have previously uploaded. You can
+search for specific videos within the Search bar, filter by date added
+(newest/oldest), name (ascending/descending), or duration (longest/shortest). You
+can sort by video status (uploading, processing, ready, failed). To add a video
+to your course, click on the video you want to add and then click on Select video.
 
 .. image:: ../images/AddVideoToYourCourse.png
-  :alt: this is the page you are brought to after clicking on the video component 
-   and this page offers the ability to select a previously uploaded video so that 
+  :alt: this is the page you are brought to after clicking on the video component
+   and this page offers the ability to select a previously uploaded video so that
    you can add it to the course as well as a button to upload or embed a new video.
 
-To upload or embed a new video, click on the link on the bottom left side of the Add 
-video to your course page. You can drag and drop a video, click to upload a video, 
-or paste your video ID or URL in the text box. 
+To upload or embed a new video, click on the link on the bottom left side of the Add
+video to your course page. You can drag and drop a video, click to upload a video,
+or paste your video ID or URL in the text box.
 
 .. image:: ../images/UploadVideoDragAndDrop.png
   :alt: you can drag and drop a video here or upload MP4 or MOV files.
 
-In the screenshot above, a Youtube URL was pasted into the text box. If you click the 
-right arrow in the box, you are taken to the Video Settings page (screenshot below). 
-If you click Save, the video is added to your course. If you click on Replace video, 
+In the screenshot above, a Youtube URL was pasted into the text box. If you click the
+right arrow in the box, you are taken to the Video Settings page (screenshot below).
+If you click Save, the video is added to your course. If you click on Replace video,
 you are taken back to the Add video to your course page.
 
 .. image:: ../images/VideoUploadDetails.png
-  :alt: this screen shows the settings for the video and includes video ID and video 
-   URL as well as fields for fallback videos, a thumbnail, transcripts, duration, 
-   handout, and license. 
+  :alt: this screen shows the settings for the video and includes video ID and video
+   URL as well as fields for fallback videos, a thumbnail, transcripts, duration,
+   handout, and license.
 
 .. _Add a Video to an Edge Course:
 

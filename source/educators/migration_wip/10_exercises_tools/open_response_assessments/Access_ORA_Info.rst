@@ -290,8 +290,8 @@ contained in your course.
 
 This zipped directory contains a ``downloads.csv`` file which lists all available submissions,
 their location, the content of any text submissions and file IDs for any attached
-files included in the submission. Missing or corrupted files will be annotated with 
-``False`` in the ``file_found`` column of this document but will not be included in the 
+files included in the submission. Missing or corrupted files will be annotated with
+``False`` in the ``file_found`` column of this document but will not be included in the
 zipped file archive.
 
 Inside the zipped directory there's a folder for each unit that contains an ORA

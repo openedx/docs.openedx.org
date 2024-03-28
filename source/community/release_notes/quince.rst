@@ -19,8 +19,8 @@ Breaking Changes
 * Django-storages upgraded to latest version and it has some breaking changes.
   * The constructor kwarg bucket is no longer accepted. Instead, use bucket_name.
   * define default_acl value explicitly in constructor kwarg e.g default_acl: public-read. in previous versions django-storages provides default value as public-read but now it is none. So it's important to mention it explicitly as per your use case.
-* For Django 4.2 CSRF_TRUSTED_ORIGINS must include scheme. Update all urls there with schemes. e.g .edx.org changes to ``https://*.edx.org``.
-* Docker requirements have changed: They are now: Docker v24.0.5+, with BuildKit 0.11+. 
+* For Django 4.2 ``CSRF_TRUSTED_ORIGINS`` must include scheme. Update all urls there with schemes. e.g ``.edx.org`` changes to ``https://*.edx.org``.
+* Docker requirements have changed: They are now: Docker v24.0.5+, with BuildKit 0.11+.
 
 Learner Experiences
 *******************
@@ -42,13 +42,13 @@ Instructor Experiences
 Administrators & Operators
 **************************
 
-New Learner Home Page 
+New Learner Home Page
 ==================================
 
-No longer experimental, the new Learner Home has many of the same features as the old learner dashboard, with some extended functionality and 
-performance enhancements.   
+No longer experimental, the new Learner Home has many of the same features as the old learner dashboard, with some extended functionality and
+performance enhancements.
 
-* The Learner Home is now built with Paragon, the Open edX design pattern library. It is accessible and easy to style with brand colors. 
+* The Learner Home is now built with Paragon, the Open edX design pattern library. It is accessible and easy to style with brand colors.
 * Course cards show the course thumbnail, information about the course, and the ability to upgrade to a paid track or view/begin a course (if applicable). Further course actions (e.g. unenroll, email opt-out settings, and social media share) have been moved to the menu/triple dot icon on the course card.
 * Clicking the “Refine” button opens options to filter by course status or sort either by most recent enrollment (default) or title.
 
@@ -61,7 +61,7 @@ performance enhancements.
     :alt: Next, previous and page number buttons appear below the list of courses
 
 * Site staff can now masquerade as users on the platform by typing a username or email in the “View as” box and hitting submit. This is designed to be “view only” so change actions (e.g. enroll, unenroll, selecting a session) are blocked in this view.
-* There is a complete list of changes in the `Open edX wiki <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/11/21/3584589831/2U+New+Learner+Home+Page#Comparison-with-old-experience>`_. 
+* There is a complete list of changes in the `Open edX wiki <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/11/21/3584589831/2U+New+Learner+Home+Page#Comparison-with-old-experience>`_.
 * `feat: feature flag to disable Advanced Settings <https://github.com/openedx/edx-platform/pull/32015>`__
 * `Tutor Credentials Plugin offers an admin panel where user can do configurations for the certificates of courses and programs. <https://github.com/overhangio/tutor-credentials>`__
 
@@ -73,7 +73,7 @@ New Settings:
 
 New Waffle Flags:
 
-* `CREATE_COURSE_WITH_DEFAULT_ENROLLMENT_START_DATE <https://github.com/openedx/edxplatform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/xmodule/course_block.py#L61>`__ 
+* `CREATE_COURSE_WITH_DEFAULT_ENROLLMENT_START_DATE <https://github.com/openedx/edxplatform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/xmodule/course_block.py#L61>`__
 * `SHOW_REGISTRATION_LINKS <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/lms/envs/common.py#L782>`__
 * `IGNORED_ERRORS[N]['LOG_ERROR'] <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/openedx/core/lib/request_utils.py#L162>`__
 * `IGNORED_ERRORS[N]['LOG_STACK_TRACE'] <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/openedx/core/lib/request_utils.py#L162>`__

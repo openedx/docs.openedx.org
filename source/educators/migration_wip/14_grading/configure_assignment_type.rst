@@ -76,6 +76,6 @@ You configure the following fields for each assignment type.
   will drop the lowest-scored assignments first.
 
 .. image:: ../images/course_grades_page_assignmenttypes.png
-  :alt: An image of the top part of the Grading page in which you can see the 
+  :alt: An image of the top part of the Grading page in which you can see the
    range for grades and set the grace period.
   :width: 600

@@ -52,8 +52,8 @@ You can use two different editing interfaces to work with a Text component.
   With the visual editor you create, edit, and format content in a word
   processing-like interface, without using HTML markup directly. With the
   visual editor, you can more easily format your content, and add links and
-  images. 
-  
+  images.
+
   The visual editor includes an **HTML** option for you to review the
   HTML markup and make small formatting changes to your content. However, this
   HTML option does not provide the detailed control you can get with the raw
@@ -71,7 +71,7 @@ You can use two different editing interfaces to work with a Text component.
   If you add a Text component and select **Raw HTML**, when you select
   **Edit** the raw HTML editor opens by default.
 
-  There is no way to switch between the Visual Editor and the Raw HTML editor 
+  There is no way to switch between the Visual Editor and the Raw HTML editor
   once one is selected.
 
 .. note::
@@ -124,7 +124,7 @@ descriptions.
 #. Change the color of the selected text. The editor encloses the selected text
    in the tag ``<span style="color: color-hex-code;">``.
 
-#. Change the background color of the selected text. The editor encloses the 
+#. Change the background color of the selected text. The editor encloses the
    selected text in the tag ``<span style="background-color: color-hex-code;">``.
 
 #. Align text and images to the left. The editor adds ``style="text-align:
@@ -138,7 +138,7 @@ descriptions.
 
 #. Justify text and images. The editor adds ``style="text-align: justify;"`` to
    the ``<p>`` tags that surround the text.
-   
+
 #. Create a bulleted list, or remove this formatting. The editor inserts
    ``<ul>`` tags around the selected text, and encloses each paragraph in
    ``<li>`` tags.
@@ -164,24 +164,24 @@ descriptions.
 #. Format the selected text as a code block, or remove this formatting. The
    editor inserts ``<code>`` tags around the selected text, which is then
    displayed in a monospace font.
-   
-#. The table toolbar icon lets you drop in a table component and selecting a 
-   given cell lets you create, remove, or adjust rows and columns. 
 
-#. You can easily add emoticons to your text content. This can be a way to break  
-   up long stretches of content. 
+#. The table toolbar icon lets you drop in a table component and selecting a
+   given cell lets you create, remove, or adjust rows and columns.
 
-#. We have introduced a way to to include special characters into your text  
+#. You can easily add emoticons to your text content. This can be a way to break
+   up long stretches of content.
+
+#. We have introduced a way to to include special characters into your text
    content, including mathematical and symbolic elements.
 
 #. Inject a horizontal line in the highlighted content.
 
-#. Clear formatting button which removes all font formatting from the selected 
+#. Clear formatting button which removes all font formatting from the selected
    text.  This does not remove paragraph formatting (e.g. blockquote).
 
 #. Review the HTML markup.
 
-#. Accessibility Checker, which allows you to check HTML in the editor for various 
+#. Accessibility Checker, which allows you to check HTML in the editor for various
    accessibility problems. For more information, see :doc:`../5_accessibility/accessibility_checker`.
 
 
@@ -257,17 +257,17 @@ Create a Text Component
    creates an empty Text component with the :ref:`visual editor<The Visual
    Editor>` selected.
 
-   An empty Text component appears at the bottom of the unit, and the Text 
+   An empty Text component appears at the bottom of the unit, and the Text
    component opens in the visual editor.
 
 #. Enter and format your content. You can :ref:`review the HTML markup<Work
    with HTML code>`.
 
-#. To enter a display name for the component, select the Pencil icon next to 
-   the title in the top left corner of the visual editor. Changing the 
-   display name from it's default value to a unique, descriptive display name 
-   can help you and your learners identify course content quickly and 
-   accurately. If no title is present, the platform shows "Text" as the name 
+#. To enter a display name for the component, select the Pencil icon next to
+   the title in the top left corner of the visual editor. Changing the
+   display name from it's default value to a unique, descriptive display name
+   can help you and your learners identify course content quickly and
+   accurately. If no title is present, the platform shows "Text" as the name
    of the component when in Studio.
 
 #. Select **Save**.
@@ -285,7 +285,7 @@ When you use the visual editor, you can also perform the following tasks.
 Text Component Templates
 =========================
 
-When you create a Text component, you select from a list of templates and 
+When you create a Text component, you select from a list of templates and
 editor types, inlcuding the following:
 
 * Text
@@ -295,13 +295,13 @@ editor types, inlcuding the following:
 
 The **Text** template loads the Visual Editor with no pre-canned text.
 
-The **Announcement** and the **IFrame Tool** templates load the Visual Editor 
-with pre-canned text that instructs the user how to format Announcements, 
+The **Announcement** and the **IFrame Tool** templates load the Visual Editor
+with pre-canned text that instructs the user how to format Announcements,
 or how to use IFrames.
 
 The **Raw HTML** editor type uses the raw HTML editor by default. All other
-options use the visual editor by default. There is no way to switch between 
-Visual and Raw editor types once selected. 
+options use the visual editor by default. There is no way to switch between
+Visual and Raw editor types once selected.
 
 .. _Add a Link in a Text Component:
 
@@ -328,11 +328,11 @@ Add a Link to a Website
 
 #. Select the link icon in the toolbar.
 
-#. In the **Insert/Edit link** dialog box, enter the URL of the website that 
+#. In the **Insert/Edit link** dialog box, enter the URL of the website that
    is the destination for your link in the **URL** field.
 
 #. If you want the link to open in a new window, select the dropdown arrow
-   next to the **Open Link In...** field, and then select **New Window**. 
+   next to the **Open Link In...** field, and then select **New Window**.
    If not, you can leave the default value.
 
 #. Select **OK**.
@@ -387,7 +387,7 @@ Add a Link to a Course Unit
     export and then import the course.
 
 #. If you want the link to open in a new window, select the dropdown arrow
-   next to the **Open Link In...** field, and then select **New Window**. If 
+   next to the **Open Link In...** field, and then select **New Window**. If
    not, you can leave the default value.
 
 #. Select **Insert**.
@@ -434,7 +434,7 @@ Course`.
    Make sure that you include both forward slashes (/).
 
 #. (optional) If you want the link to open in a new window, select the dropdown
-   arrow next to the **Open Link In...** field, and then select **New Window**. 
+   arrow next to the **Open Link In...** field, and then select **New Window**.
    If not, you can leave the default value.
 
 #. Select **OK**.
@@ -479,10 +479,10 @@ Locate an Image on Your Computer
 #. In the **Add an Image** dialog box, **Upload a New Image (10 MB max)**.
 
 #. In the dialog box that opens, locate the file that you want to add, and
-   then select **Open**, or locate the image in the Image Gallery, and then 
+   then select **Open**, or locate the image in the Image Gallery, and then
    select **Next**.
 
-   As soon as your image is selected, the **Image Settings** dialog box 
+   As soon as your image is selected, the **Image Settings** dialog box
    opens.
 
 #. In the **Edit Image Settings** dialog box, add an image description.
@@ -493,7 +493,7 @@ Locate an Image on Your Computer
      information, see :ref:`Best Practices for Describing Images`.
 
    * If your image is a decorative image that does not convey important
-     information, select the **This image is decorative (no alt text required)** 
+     information, select the **This image is decorative (no alt text required)**
      checkbox.
 
 #. (optional) Specify the width and height of your image. For more information,
@@ -509,14 +509,14 @@ Locate an Image on Your Computer
 Select a Previously Uploaded Image
 ==================================
 
-#. When you upload an image, the image automatically becomes available in a 
+#. When you upload an image, the image automatically becomes available in a
    gallery list that opens when you add an image to a Text component.
 
 #. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
-#. In the **Add an Image** dialog box, locate the image in the gallery list, 
-   and then select **Next**.  There are sort and filter options available for 
+#. In the **Add an Image** dialog box, locate the image in the gallery list,
+   and then select **Next**.  There are sort and filter options available for
    the gallery list to make it easy to find the image you need.
 
 #. In the **Image Settings** dialog box, complete one of the following
@@ -528,7 +528,7 @@ Select a Previously Uploaded Image
      information, see :ref:`Best Practices for Describing Images`.
 
    * If your image is a decorative image that does not convey important
-     information, select the **This image is decorative (no alt text 
+     information, select the **This image is decorative (no alt text
      required)** checkbox.
 
 #. (optional) Specify the width and height of your image. For more information,
@@ -593,46 +593,46 @@ the **Width** and **Height** fields.
 Power Paste
 ************
 
-Many course authoring teams rely on copying and pasting content from documents 
-such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS 
-can be most easily realized through Power Paste. 
+Many course authoring teams rely on copying and pasting content from documents
+such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS
+can be most easily realized through Power Paste.
 
-When you copy and paste content into the Text Editor, you will receive a “Paste 
-Formatting Options” popup on the page.  If you choose “Remove formatting”, then 
-the bullets will be correctly aligned with text in both Studio and the LMS. If 
-you select “Keep formatting”, then the formatting is unchanged and bullets and 
-text will not be aligned in Studio or the LMS. 
+When you copy and paste content into the Text Editor, you will receive a “Paste
+Formatting Options” popup on the page.  If you choose “Remove formatting”, then
+the bullets will be correctly aligned with text in both Studio and the LMS. If
+you select “Keep formatting”, then the formatting is unchanged and bullets and
+text will not be aligned in Studio or the LMS.
 
 
 .. image:: ../images/HTML_PowerPastePop.png
-  :alt: an image of the popup that you will receive after copying and 
-   pasting content into the Text Editor. This popup allows you to select 
+  :alt: an image of the popup that you will receive after copying and
+   pasting content into the Text Editor. This popup allows you to select
    either keep or remove formatting.
   :width: 300
 
-Below is a bulleted list example, a type of formatting that commonly needs Power 
+Below is a bulleted list example, a type of formatting that commonly needs Power
 Paste.  If you select “Keep formatting”, this is what Studio and LMS will show:
 
 .. image:: ../images/PowerPaste_KeepFormatting.png
-  :alt: an image of a bulleted list in LMS in which you have chosen to “keep 
+  :alt: an image of a bulleted list in LMS in which you have chosen to “keep
    formatting” when you were in the editor. The bullets and text are misaligned.
   :width: 600
 
 However, if you select “Remove formatting”, this is what Studio and LMS will show:
 
 .. image:: ../images/PowerPaste_RemoveFormatting.png
-  :alt: an image of a bulleted list in LMS in which you have chosen to “remove 
-   formatting” when you were in the editor. The bullets and text are correctly 
+  :alt: an image of a bulleted list in LMS in which you have chosen to “remove
+   formatting” when you were in the editor. The bullets and text are correctly
    aligned.
   :width: 600
 
 
 
-.. JRistau (26 Sept 2022) - LaTeX editor support was removed with the rollout of 
-.. the new Course Authoring based Text Editor.  Coursegraph shows ~100 active 
-.. courses that have enabled the LaTeX advanced module, and we have had no 
-.. issues reported since rollout of the new text editor.  The LaTeX component 
-.. is listed as “Unsupported” in studio (TNL-9993).  For these reasons, edX PM 
+.. JRistau (26 Sept 2022) - LaTeX editor support was removed with the rollout of
+.. the new Course Authoring based Text Editor.  Coursegraph shows ~100 active
+.. courses that have enabled the LaTeX advanced module, and we have had no
+.. issues reported since rollout of the new text editor.  The LaTeX component
+.. is listed as “Unsupported” in studio (TNL-9993).  For these reasons, edX PM
 .. has decided to remove this section of our support documentation.
 
 

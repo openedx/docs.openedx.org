@@ -20,7 +20,7 @@ basically your own copy	of the filesystem, with	your changes applied.
 When we	want to	update our pull	request, we need to first find that copy,
 and then we can	edit pages within it.
 
-  
+
 1. Go to your "branch"
 **********************
 

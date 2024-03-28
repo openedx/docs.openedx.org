@@ -320,7 +320,7 @@ in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams appli
 .. _ORA Coursewide Settings:
 
 ===========================================================
-Configuring Course-level Open Response Assessment Settings 
+Configuring Course-level Open Response Assessment Settings
 ===========================================================
 
 To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable

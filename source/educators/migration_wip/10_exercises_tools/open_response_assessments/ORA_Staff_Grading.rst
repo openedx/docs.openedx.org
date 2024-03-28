@@ -29,12 +29,12 @@ Navigate to ORA Staff Grading
 
 Staff can grade responses for an ORA with a staff grade step from one of 2 places:
 
-1. The Instructor Dashboard > Open Responses. In the responses table, ORAs with staff steps show a "View and grade responses" link which directs to the new experience. 
+1. The Instructor Dashboard > Open Responses. In the responses table, ORAs with staff steps show a "View and grade responses" link which directs to the new experience.
 
 2. The Unit > ORA > Grade Available Responses button links to the new grading experience.
 
 .. Note:: Although the new staff grading experience replaces the old "Staff Assessment"
-    workflows, grades can still be viewed, canceled, and overridden from the "Manage 
+    workflows, grades can still be viewed, canceled, and overridden from the "Manage
     Individual/Team Responses" link in ORAs.
 
 .. _Submissions List View:
@@ -89,8 +89,8 @@ File List & File Previews
 =========================
 
 If the response contains files, a "Submission Files" list will show at the top of the
-page. This lists the name, file type, and size for each uploaded file. Additionally, 
-hovering over the info icon (ℹ) in the file row shows additional metadata about the 
+page. This lists the name, file type, and size for each uploaded file. Additionally,
+hovering over the info icon (ℹ) in the file row shows additional metadata about the
 uploaded file.
 
 Some file types can be previewed directly on the page. To view files that can't be
@@ -122,7 +122,7 @@ Start Grading
 
 When staff is ready to grade they can begin grading with the "Start grading" button.
 This will open an editable rubric which enables staff to select the score for a
-submission and provide comments. 
+submission and provide comments.
 
 The "Start grading" button will also "claim" the current submission for grading. This
 gives the staff member exclusive access to submit a grade for this submission, helping
@@ -133,7 +133,7 @@ staff but cannot be graded by other staff until:
 
 * The grading staff member releases the lock by clicking the "Stop grading" button, or
 
-* After 8 hours elapses (whichever comes first). 
+* After 8 hours elapses (whichever comes first).
 
 While the submission is claimed for grading, staff can select the rubric options for
 each grading criteria and provide any required feedback before clicking "Submit grade"

@@ -18,8 +18,8 @@ offering academic credit, see :ref:`Academic Course Credit`.
 Learners must be in the verified enrollment track to take a proctored exam
 and earn academic course credit.
 
-Proctored exams on edx.org use proctoring software from third-party vendors. 
-A course can use one of two proctoring software products: Software Secure RPNow 
+Proctored exams on edx.org use proctoring software from third-party vendors.
+A course can use one of two proctoring software products: Software Secure RPNow
 and Verificient Proctortrack.
 
 ************************************
@@ -38,11 +38,11 @@ RPNow has a set of standard exam rules, which the course team can supplement
 with custom rules. Proctortrack requires you to choose from a collection of
 binary exam rules.
 
-RPNow uses a secure browser that continuously uploads proctoring data to an 
-RPNow server. This secure browser needs a consistent internet connection with 
+RPNow uses a secure browser that continuously uploads proctoring data to an
+RPNow server. This secure browser needs a consistent internet connection with
 at least 500 kbps bandwidth. If a learner's connectivity drops below this level,
-or if the secure browser is closed after a learner has begun the exam, the 
-exam will end and will be submitted to edX at the point they left off. 
+or if the secure browser is closed after a learner has begun the exam, the
+exam will end and will be submitted to edX at the point they left off.
 
 Review Process
 ==============
@@ -102,10 +102,10 @@ If you want to allow Verified or Master's learners the option to take proctored 
 without proctoring, please contact your edX partner manager to enable this option.
 
 .. note::
-   If a learner opts to take an exam without proctoring, the exam will not be 
-   timed either. In effect, learners who opt out of proctoring will have 
-   unlimited time to complete the exam and could return to problem sets at 
-   any time. You can reduce the ability to view the exam by selecting a due 
+   If a learner opts to take an exam without proctoring, the exam will not be
+   timed either. In effect, learners who opt out of proctoring will have
+   unlimited time to complete the exam and could return to problem sets at
+   any time. You can reduce the ability to view the exam by selecting a due
    date for the exam.
 
 .. only:: Open_edX

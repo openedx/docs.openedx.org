@@ -196,7 +196,7 @@ users hear when they encounter the image in your content.
 
 .. note:: For SVG elements, use ``aria-label`` instead of ``alt`` attributes.  Non-interactive SVGs should also have ``role="img"`` and  ``focusable="false"``.
 
-If an image description that captures the essential information in an image does not fit in 200 characters, you can instead add a 
+If an image description that captures the essential information in an image does not fit in 200 characters, you can instead add a
 Create useful and meaningful text alternatives for images in your course by
 following these guidelines for particular situations.
 
@@ -341,7 +341,7 @@ graphics accessible to visually impaired learners.
 * Avoid using only color to distinguish important features of an image. For
   example, on a line graph, use a different symbol or line style as well as
   color to distinguish the data elements.
-  
+
 * Use colors that have a minimum 3:1 luminance contrast vs. the background color.
 
 * Whenever possible, use an image format that supports scaling, such as .svg,
@@ -373,9 +373,9 @@ Accessible Images Resources
   established by the US Department of Education (Office of Special Education
   Programs), provides guidance on ways to make it easier, faster, and more
   cost effective to create and use accessible images.
-  
+
 * `DataViz Accessibility working group <https://github.com/dataviza11y/resources>`_
-  
+
 
 .. _Creating Accessible Course Materials:
 
@@ -680,7 +680,7 @@ readers. MathJax works together with math notation such as LaTeX and MathML to
 render mathematical equations as text instead of images. edX recommends that
 you use MathML to author your math content. MathJax renders MathML in a variety
 of formats on the client side, offering the end user the ability to consume
-math content in their preferred format. 
+math content in their preferred format.
 
 edX Studio also supports authoring math directly in LaTeX using the `LaTeX Source Compiler
 <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathML.
@@ -869,7 +869,7 @@ video, such as [BUZZER], [LAUGHTER], or [THUNDER]. If you created your video
 using a script, you have a great start on creating the text caption file.
 Simply review the recorded video and update the script as needed. Proper
 editing should maintain both the original meaning, content, and essential
-vocabulary. 
+vocabulary.
 
 For situations where the video content includes a lot of information that cannot be eaisly described in audio, you can include references to an annotations file in the SRT file.  Example: [See Note 5a].
 

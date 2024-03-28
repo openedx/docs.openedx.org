@@ -18,8 +18,8 @@ Maintainers Home
 
       * :doc:`references/tools_for_maintainers`
       * `Maintainers Slack Channel`_
-      
-   .. grid-item-card:: Process Documentation 
+
+   .. grid-item-card:: Process Documentation
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 

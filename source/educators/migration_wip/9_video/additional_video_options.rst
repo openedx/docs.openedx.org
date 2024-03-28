@@ -69,7 +69,7 @@ Video Source
     * - **Video URL**
       - The Video URL is the source for your video. Video URLS are for externally
         hosted video.
-  
+
     * - **Allow Video Downloads**
       - Specifies whether learners can download the video. If you select **Allow
         video downloads**, you must add at least one URL in the **Fallback

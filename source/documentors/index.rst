@@ -4,11 +4,11 @@ Open edX Documentors
 .. grid:: 1 2 2 2
    :gutter: 3
    :padding: 0
-   
+
    .. grid-item-card:: Quick Starts
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
-      
+
       * :doc:`quickstarts/first_documentation_pr`
       * :doc:`quickstarts/quick_start_add_doc`
       * :doc:`quickstarts/update_doc_via_github`
@@ -23,7 +23,7 @@ Open edX Documentors
    .. grid-item-card:: References
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
-      
+
       * :doc:`references/doc_guidelines`
       * :doc:`references/quick_reference_rst`
       * :doc:`references/doc_templates`
@@ -39,7 +39,7 @@ Open edX Documentors
    .. grid-item-card:: How-tos
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
-      
+
       * :doc:`how-tos/update_a_doc_via_github`
       * :doc:`how-tos/add_a_doc_via_github`
       * :doc:`how-tos/make_changes_to_your_pull_request`
@@ -54,7 +54,7 @@ Open edX Documentors
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
-      
+
       A record of all documentation related decisions we've made.
       +++
       .. button-ref:: decisions/index

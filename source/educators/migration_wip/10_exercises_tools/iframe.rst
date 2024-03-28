@@ -146,5 +146,5 @@ elements below affect the iframe.
    :alt: Iframe with only the top half showing but no scroll bar available.
    :width: 500
 
-For more information about iframe attributes, see 
+For more information about iframe attributes, see
 `iframe: The Inline Frame element <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.

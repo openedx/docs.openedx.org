@@ -6,10 +6,10 @@ Viewing Proctored Session Results with Proctortrack
 
 To review individual violation videos and screenshots, follow these steps:
 
-#. In the LMS, open the Proctortrack Review Dashboard by navigating to the **edX Instructor Dashboard** 
+#. In the LMS, open the Proctortrack Review Dashboard by navigating to the **edX Instructor Dashboard**
    -> **Special Exams** tab -> **Review Dashboard**.
 
-#. The Verificient **Proctortrack Review Dashboard** will load inline in the LMS. 
+#. The Verificient **Proctortrack Review Dashboard** will load inline in the LMS.
 
 #. Navigate to the **Quiz List** tab and locate the exam you want to review.
 
@@ -17,15 +17,15 @@ To review individual violation videos and screenshots, follow these steps:
 
 #. Review all learners who are flagged as “Require Attention” as follows.
 
-#. To review an individual learner’s session, click on the learner’s name to pop out 
-   their detailed exam results in a new tab. Here you can review their exam data, including Video 
-   Monitoring, Online Violations, Verification scans, and Onboarding tabs to understand what infractions 
+#. To review an individual learner’s session, click on the learner’s name to pop out
+   their detailed exam results in a new tab. Here you can review their exam data, including Video
+   Monitoring, Online Violations, Verification scans, and Onboarding tabs to understand what infractions
    (if any) were flagged as suspicious
 
-#. If the suspicious behavior is deemed to be in violation of proctoring rules of your course, 
-   select **Fail** to fail the learner and set their grade to 0. Learners will get an email informing them that they did not pass proctoring review, and their grade was set to 0. 
+#. If the suspicious behavior is deemed to be in violation of proctoring rules of your course,
+   select **Fail** to fail the learner and set their grade to 0. Learners will get an email informing them that they did not pass proctoring review, and their grade was set to 0.
 
-#. If needed, you can later revert this decision by clicking **Pass** to pass the learner and 
+#. If needed, you can later revert this decision by clicking **Pass** to pass the learner and
    restore their original exam grade.
 
 #. If needed, you can download the violation screenshot and data by clicking the **Export Data arrow**.

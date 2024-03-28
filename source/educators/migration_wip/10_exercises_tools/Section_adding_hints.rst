@@ -89,7 +89,7 @@ Create Problems with Feedback and Hints
 ------------------------------------------
 
 While editing a problem block, you can apply **Answer-specific feedback**
-for all problem types. **Group feedback** can only be applied to 
+for all problem types. **Group feedback** can only be applied to
 **multi-select** problems.
 
 Any number of **hints** can be added for all simple problem types.
@@ -117,7 +117,7 @@ Adding Group Feedback for Multi-Select Problems
 
 This setting can be found on the collapsible settings to the right of
 the problem editor. Feedback entered in this field will display if and
-only if the learner selects all of the checked answers. Click the 
+only if the learner selects all of the checked answers. Click the
 **Add group feedback** button to add additional feedback for different
 groups of checked answers. **Group feedback** can only be applied for
 the **multi-select** problem type.

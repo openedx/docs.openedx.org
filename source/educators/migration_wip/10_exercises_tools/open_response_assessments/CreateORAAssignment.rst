@@ -21,7 +21,7 @@ assessments.
 
 * Actions you can take for an active ORA assignment: :ref:`Managing ORA
   Assignments`
-  
+
 ********************************
 Team Open Response Assessments
 ********************************
@@ -234,7 +234,7 @@ Team vs. Individual ORA
 
 To make a Team ORA, set the option **Teams Enabled** to **True**\.
 This reveals a drop down for **Selected Team-set** that defines which
-group of teams will be able to submit a response for this assignment. 
+group of teams will be able to submit a response for this assignment.
 
 .. image:: ../../images/ORA_CreateTeamORA.png
    :alt: The settings page with the control which toggles individual / team ORA.
@@ -439,7 +439,7 @@ the Open Response Assessment individually. The options that you can set include:
   cannot type a response or upload files. After, they can begin to work on their response
   and upload files.
 
-* **Response Due Date** and **Response Due Time**: These settings define the date / time by which 
+* **Response Due Date** and **Response Due Time**: These settings define the date / time by which
   learners must complete and submit their response. After this date / time passes, learners
   can no longer submit responses to the problem.
 
@@ -458,7 +458,7 @@ the Open Response Assessment individually. The options that you can set include:
 
 * **Self Assessment Due Date** and **Self Assessment Due Time**: These settings define the date / time
   by which learners must complete their self-assessment. After this date / time has passed learners will
-  no longer be able to complete their self-assessment. 
+  no longer be able to complete their self-assessment.
 
 .. note::
    The times that you set are in Coordinated Universal Time (UTC). To verify
@@ -485,7 +485,7 @@ Match deadlines to the subsection due date
 
 When this setting is selected, all ORA due dates will be set to the due date of the subsection
 that they are contained within. Rather than specifying individual dates and times for the submission, peer,
-and self due dates, they are all set to the due date of the subsection they are contained within. 
+and self due dates, they are all set to the due date of the subsection they are contained within.
 This has multiple benefits:
 
 * **Alignment with other assignment dates**: Rather than having their own separate due dates,
@@ -493,7 +493,7 @@ This has multiple benefits:
   and simplifying the course timelie for students.
 * **Ability to use grace period and individual extensions**: Setting the date configuration to
   this setting allows ORA problems to use the grace period and learner extension features.
-     
+
 .. note::
 
    Becuase the submission and assessment deadlines are all set to the same date under this option,

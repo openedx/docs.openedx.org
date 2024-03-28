@@ -35,7 +35,7 @@ GitHub Notifications
 
 GitHub provides a lot of individual control over how you receive notifications when you or teams you are on are mentioned in issues or pull requests on Github.com
 
-You can learn more about how to configure your notifications settings on `GitHub's notifications documentation`_ 
+You can learn more about how to configure your notifications settings on `GitHub's notifications documentation`_
 
 .. note::
 
@@ -80,7 +80,7 @@ Approving GitHub Actions for new committer PRs
 
    This process is only for contributors that already have passed the CLA check, for those that haven’t please follow the normal process for helping the contributor onboard.
 
-When a user opens their first PR in a repository you maintain it is likely that they will need to be approved before some Github Actions, such as tests, will run. This is to protect us all from having malicious code run in our account as part of our test suite. 
+When a user opens their first PR in a repository you maintain it is likely that they will need to be approved before some Github Actions, such as tests, will run. This is to protect us all from having malicious code run in our account as part of our test suite.
 
 When this occurs the orange “Approve and run“ will appear for the PR.
 
@@ -90,7 +90,7 @@ The current process for this is to:
 
    a. In the event of a questionable or malicious looking change, please notify #maintainers-pilot in Slack to warn other maintainers and allow us to take appropriate action.
 
-2. Any maintainer or Axim employee with write permissions on the repository can approve the PR after step 1 has been completed. This should only need to be done once per contributor per repository. 
+2. Any maintainer or Axim employee with write permissions on the repository can approve the PR after step 1 has been completed. This should only need to be done once per contributor per repository.
 
 3. Once the PR is unblocked, the rest of the approval process should work as normal.
 

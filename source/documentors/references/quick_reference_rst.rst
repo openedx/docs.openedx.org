@@ -11,7 +11,7 @@ Headings
 
 .. tip::
    :class: dropdown
-   
+
    Here's a way to remember the symbols for heading levels: ``#`` has four lines, ``*`` has three lines, ``=`` has two lines, ``-`` has one line, and ``~`` has zero lines.
 
 .. note::
@@ -49,7 +49,7 @@ This codeblock is used for the following published list:
 
   #. Sub-item 1
   #. Sub-item 2
-   
+
 * Item 2
 
 See the `RST guide on lists <https://sublime-and-sphinx-guide.readthedocs.io/en/latest/lists.html>`_ for more detail.

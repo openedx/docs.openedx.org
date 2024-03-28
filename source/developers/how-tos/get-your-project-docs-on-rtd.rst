@@ -22,33 +22,33 @@ Steps
       # .readthedocs.yml
       # Read the Docs configuration file
       # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-      
+
       # Required: the version of this file's schema.
       version: 2
-      
+
       # Build documentation in the docs/ directory with Sphinx
       sphinx:
         configuration: docs/conf.py
         fail_on_warning: true
-      
+
       # Set the version of python needed to build these docs.
       build:
         os: "ubuntu-22.04"
         tools:
           python: "3.8"
-   
+
       # Optionally install extra requirements required to build your docs
       python:
         install:
         - requirements: requirements/doc.txt
-   
+
 #. File an `Axim Request <https://github.com/openedx/axim-engineering/issues/new/choose>`_ to add your docs to docs.openedx.org
 
    Sample request text:
 
    .. code-block:: text
 
-      I'd like to have the documentation for the <url_to_repo> repository published 
+      I'd like to have the documentation for the <url_to_repo> repository published
       under docs.openedx.org.  Please enable publishing the docs as well as running
       test builds on pull requests for this repository.
 

@@ -389,7 +389,7 @@ To remove a submitted Team ORA response, follow these steps.
    by hovering over the learner avatar icons in the **Team Details** panel.
 
 #. View the live version of your course in the LMS, and then go to the ORA assignment
-   that contains the submission you want to remove. 
+   that contains the submission you want to remove.
 
 #. Scroll to the end of the problem, and then select **Manage Team Responses**.
 
@@ -412,7 +412,7 @@ To remove a submitted Team ORA response, follow these steps.
 #. Select **Remove submission**.
    The selected submission is permanently removed from staff assessment.
 
-#. Optionally, delete the team’s state for the problem. 
+#. Optionally, delete the team’s state for the problem.
    This allows the team to submit another response.
    For more information, see :ref:`delete_state`. If you follow the instructions on
    that page and enter the username of a student on a team, the team state will be cleared.

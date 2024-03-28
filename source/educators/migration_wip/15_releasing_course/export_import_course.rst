@@ -67,7 +67,7 @@ computer.
 
 .. image:: ../images/course_export_page.png
  :width: 600
- :alt: an image of the Export page in which you can export courses and 
+ :alt: an image of the Export page in which you can export courses and
   edit them outside of Studio.
 
 **********************************************
@@ -125,7 +125,7 @@ follow.
 The course that you import must be in a .tar.gz file (that is, a .tar file
 compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
 course data directory. The tar.gz file must have the same name as the course
-data directory. It may also contain other files.  For more information, see 
+data directory. It may also contain other files.  For more information, see
 :ref:`Work with the targz file`.
 
 If your course uses legacy layout structures, you may not be able to edit the
@@ -145,7 +145,7 @@ To import a course, follow these steps.
 
 .. image:: ../images/course_import_page.png
  :width: 600
- :alt: an image of the Import page in which you can select a .tar.gz file to 
+ :alt: an image of the Import page in which you can select a .tar.gz file to
   replace your course content.
 
 .. note::

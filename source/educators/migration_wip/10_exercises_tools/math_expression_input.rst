@@ -131,7 +131,7 @@ To create a math expression input problem, follow these steps.
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
 
-#. In the problem editor, select **Advanced problem types**. Then select 
+#. In the problem editor, select **Advanced problem types**. Then select
    **Math Expression Input**.
 
 #. Replace the guidance provided by the template to add your own text. For

@@ -12,5 +12,4 @@
 
 .. |GitHub Icon| image:: /_images/github_icon.png
 
-
 .. |Publish Icon| image:: /_images/publish_icon.png

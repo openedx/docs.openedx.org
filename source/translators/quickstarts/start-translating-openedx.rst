@@ -57,7 +57,6 @@ Finding a string to translate
 
 #. Select the target language that you wish to translate to:
 
-
    .. image:: /_images/SelectTargetLang.png
 
 #. If you are allowed to translate for this language the "Translate" button at the top
@@ -83,33 +82,30 @@ Finding a string to translate
 
 #. After saving your translation, there is a possibility to make a QA test byclicking the button
    "QA Check" on the right side of the screen:
-  
+
    .. image:: /_images/QACheck1.png
 
 #. When you click such button, there are three possibilities for checking your translation by opening LexiQA:
 
-  * Perform Changes: 
-    
+  * Perform Changes:
+
     .. image:: /_images/QACheck2_PerformChanges.png
 
     If you click the first option of this menu,  it shows another screen detailing inconsistencies,
     or sentences/phrases same as source:
 
-    .. image:: /_images/PerformChangesScreen2.png  
+    .. image:: /_images/PerformChangesScreen2.png
 
   * View Reports:
 
     .. image:: /_images/QACheck3_ViewReports.png
-    
-    This option shows the same screen as below within LexiQA, and also another option called "Analytics". 
+
+    This option shows the same screen as below within LexiQA, and also another option called "Analytics".
     Under such option, you can check the following data:
 
     * File info
-
     * Errors
-
     * Statistics (see picture below)
-
     * Downloads
 
     .. image:: /_images/Analytics_Statistics3.png
@@ -119,8 +115,8 @@ Finding a string to translate
     .. image:: /_images/QACheck4_Consistency.png
 
     This option shows the amount of inconsistencies found comparing to the source text,
-    so that you can edit your translation:  
-    
+    so that you can edit your translation:
+
     .. image:: /_images/ConsistencyScreen4.png
 
 Details about how to translate things like HTML, placeholders, and other more complicate strings for Open edX
@@ -158,11 +154,8 @@ to locate an simple untranslated string (something that is just a word or short 
 that you feel confident in translating.
 
 #. Select your string
-
 #. Enter the translation in the center box
-
 #. Press "Save Translation"
-
 #. Your string is now ready for review! Every string must be reviewed and
    approved before it will be accepted into the official translations and
    released to the community.
@@ -182,7 +175,5 @@ Useful links
 ************
 
 * `Confluence site for Translation Working Group <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3157524644/Translation+Working+Group>`_
-
 * `Open edX WG website link <https://openedx.org/open-edx-community-working-groups/>`_
-
-* `Transifex lexiQA Integration <https://www.transifex.com/blog/2019/lexiqa-integration/>`_ 
+* `Transifex lexiQA Integration <https://www.transifex.com/blog/2019/lexiqa-integration/>`_

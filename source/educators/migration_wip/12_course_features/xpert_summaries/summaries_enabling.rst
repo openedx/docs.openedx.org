@@ -15,8 +15,8 @@ Enabling Xpert Unit Summaries
 
   #. Under the **Content permissions** heading is a box for **Xpert unit
      summaries.**
-    
-     .. image:: ../../images/summary_content_permissions.png 
+
+     .. image:: ../../images/summary_content_permissions.png
 
   #. Clicking the **gear icon** opens the settings modal and allows a
      course team member to enable the tool for the entire course.
@@ -39,12 +39,12 @@ Enabling Xpert Unit Summaries
 
   #. In Studio, course team members can navigate to the **Outline** menu
      item in the top navigation menu.
-  
+
   #. Navigate to the unit desired to update and click on the **Configure
      gear icon.**
 
   #. Select or deselect the **“Enable summaries”** checkbox and click **Save.**
 
      .. image:: ../../images/summary_unit_settings.png
- 
+
   .. note:: By enabling Xpert Unit Summaries, course teams are agreeing to send text-based course content to OpenAI, via API, to be summarized using a generative AI model. Read more about OpenAI’s data privacy practices.

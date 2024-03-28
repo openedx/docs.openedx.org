@@ -8,7 +8,7 @@
 Managing Course Videos
 #######################
 
-Uploading a video and transcript is different depending on whether your 
+Uploading a video and transcript is different depending on whether your
 course is on edx.org or Edge.
 
 For more information, see the following topics.
@@ -23,15 +23,15 @@ For more information, see the following topics.
 Course Videos Page
 *******************
 
-You manage videos for your course on the Videos page. This page lists the 
-videos that you have added, along with the following capabilities and 
+You manage videos for your course on the Videos page. This page lists the
+videos that you have added, along with the following capabilities and
 information regarding the videos.
 
 .. image:: ../images/videos_page.png
  :width: 600
- :alt: The Videos page lists all course videos.  Additional features include: 
-  title search; sort and filter; add videos; download videos; delete videos; 
-  view file name, video length, transcript status, and whether video is 
+ :alt: The Videos page lists all course videos.  Additional features include:
+  title search; sort and filter; add videos; download videos; delete videos;
+  view file name, video length, transcript status, and whether video is
   active in the course at a glance.
 
 * A checkbox for Download and Delete bulk actions
@@ -40,28 +40,28 @@ information regarding the videos.
 * The video length
 * Transcript status
 * An indication of whether the video is active in the course
-* An indication of the video status (failed, processing, or blank. The video 
+* An indication of the video status (failed, processing, or blank. The video
   is ready when that column is blank)
-* The three dot menu allows you to copy the Video ID, download the video, 
+* The three dot menu allows you to copy the Video ID, download the video,
   launch the Info Modal, and delete a video
 
 =================
 Video Info Modal
 =================
 
-The Info Modal shows the date added, the file size, and the length of the 
-video. The “Usage” section lists all Units where the file is referenced 
-within the course. Clicking on each link will take you to the corresponding 
-Studio Unit page. 
+The Info Modal shows the date added, the file size, and the length of the
+video. The “Usage” section lists all Units where the file is referenced
+within the course. Clicking on each link will take you to the corresponding
+Studio Unit page.
 
 .. image:: ../images/videos_page_info_modal.png
  :width: 400
- :alt: The Info Modal shows the thumbnail, the date the video was added, 
-  the file size, the video length, and if the video is active, then there 
-  is a link on the bottom left hand corner of the page that will take you 
+ :alt: The Info Modal shows the thumbnail, the date the video was added,
+  the file size, the video length, and if the video is active, then there
+  is a link on the bottom left hand corner of the page that will take you
   to the location of the video in the course.
 
-This page also includes a Search option to help you find specific videos. 
+This page also includes a Search option to help you find specific videos.
 For more information, see :ref:`Find an Uploaded Video`.
 
 .. _Uploading a Video for an edx org Course:
@@ -103,19 +103,19 @@ represents all of the formats and hosting locations for the video.
 
 * For courses that have :ref:`non-integrated transcripts <Automated Video
   Process for Non Integrated Transcripts>`, you must obtain your transcripts
-  from your third party provider. You later :doc:`prepare_video/obtain_transcript` when you create a video component. Transcripts 
+  from your third party provider. You later :doc:`prepare_video/obtain_transcript` when you create a video component. Transcripts
   can also be added in the Transcript tab within the Info Modal.
 
 .. image:: ../images/videos_page_info_modal_transcripts.png
  :width: 400
- :alt: The Transcript Tab shows the languages a video has transcripts for and 
+ :alt: The Transcript Tab shows the languages a video has transcripts for and
   also offers the capability to add languages.
 
 .. note::
   If a step in the process does not complete successfully, the process
   automatically tries again multiple times. If the process does not complete
   successfully after multiple tries, an :ref:`error status <Video Processing
-  Statuses>` appears in the list of videos on the **Videos** page as 
+  Statuses>` appears in the list of videos on the **Videos** page as
   well as within the video component.
 
 For more information, see the following topics:
@@ -209,7 +209,7 @@ non-integrated transcripts, follow these steps.
 
 #. Open the course in Studio.
 #. On the **Content** menu, select **Videos**.
-#. Add video files to the **Videos** page by clicking the “Add videos” button 
+#. Add video files to the **Videos** page by clicking the “Add videos” button
    and browsing your computer to locate the files to upload.
 
 #. (optional) Specify a thumbnail image for the video. The thumbnail image is
@@ -240,8 +240,8 @@ begins.
   This service takes up to 24 hours to complete.
 
 A list of every file that you attempt to upload to the edX servers appears on
-the **Videos** page. The list includes each file's status in the encoding and 
-hosting workflow. In addition, you can download a report of the video files 
+the **Videos** page. The list includes each file's status in the encoding and
+hosting workflow. In addition, you can download a report of the video files
 that you uploaded. For more information, see :ref:`Reporting Video Status`.
 
 .. _Video Processing Statuses:
@@ -323,9 +323,9 @@ The encoding and hosting process assigns the following statuses to video files.
       learners to view.
 
   * - **Partial Failure**
-    - This status appears when the transcription process has been started for 
-      more than one languages and either one or more processes fail. This 
-      indicates a combination of successful and unsuccessful transcription 
+    - This status appears when the transcription process has been started for
+      more than one languages and either one or more processes fail. This
+      indicates a combination of successful and unsuccessful transcription
       processes.
 
   * - **Transcript Failed**
@@ -423,13 +423,13 @@ its destination.
 Find an Uploaded Video
 **********************
 
-The Videos page lists up to 50 videos at one time. If your course has more 
+The Videos page lists up to 50 videos at one time. If your course has more
 than 50 videos, additional videos are listed on subsequent pages.
 
-To find a video on the Videos page, you can use the Search option, or you can 
+To find a video on the Videos page, you can use the Search option, or you can
 view the page that lists the video.
 
-To use the Search option, enter one of the following search terms in the Search 
+To use the Search option, enter one of the following search terms in the Search
 field
 
 * The full video name.
@@ -442,16 +442,16 @@ Sort and Filter Videos
 
 .. image:: ../images/videos_page_sort_filter.png
  :width: 400
- :alt: The Sort & Filter button allows you to sort videos by Name (A-Z) or (Z-A), 
-  Newest, Oldest, File size (high to low) or (low to high). You can filter by 
-  videos that are Transcribed, Not Transcribed, Active, Inactive, Processing, or 
+ :alt: The Sort & Filter button allows you to sort videos by Name (A-Z) or (Z-A),
+  Newest, Oldest, File size (high to low) or (low to high). You can filter by
+  videos that are Transcribed, Not Transcribed, Active, Inactive, Processing, or
   Failed.
 
-On the Videos page, you can sort your files by Name (A-Z), Name (Z-A), Newest, 
-Oldest, File size (high to low), and File size (low to high). To sort by one of 
+On the Videos page, you can sort your files by Name (A-Z), Name (Z-A), Newest,
+Oldest, File size (high to low), and File size (low to high). To sort by one of
 these, select what you wish to sort by and click Apply.
 
-You can filter videos by type so that only a selected type of video is visible. 
+You can filter videos by type so that only a selected type of video is visible.
 The list remains in the current sort order.
 
 To filter the list of videos by type, follow these steps.
@@ -459,30 +459,30 @@ To filter the list of videos by type, follow these steps.
 #. On the Videos page, click the Sort & Filters button.
 #. In the list, select the checkboxes for the type of video that you want.
 
-The list refreshes to show only the type or types of file you selected. To reset 
+The list refreshes to show only the type or types of file you selected. To reset
 the list and view videos of all types, clear all checkboxes.
 
 **************
 Delete a Video
 **************
 
-To delete a video, first click on the corresponding checkboxes of the video(s) 
-that you wish to delete, then click on the Actions button, and then select Delete. 
+To delete a video, first click on the corresponding checkboxes of the video(s)
+that you wish to delete, then click on the Actions button, and then select Delete.
 
-To delete all files, select the very first checkbox, then select the Action button 
-and then select Delete. After you delete a video, any links to the video from 
-inside or outside the course are broken. You must update links to files that you 
-delete, and it is recommended to do this using the Info Modal before deleting any 
+To delete all files, select the very first checkbox, then select the Action button
+and then select Delete. After you delete a video, any links to the video from
+inside or outside the course are broken. You must update links to files that you
+delete, and it is recommended to do this using the Info Modal before deleting any
 referenced videos.
 
 ****************
 Download a Video
 ****************
 
-To download a video, which includes the ability to download individual videos, 
-multiple videos at once, or all of your videos, first click on the corresponding 
-checkboxes of the videos that you wish to download, then click on the Actions 
-button, and then select Download. To download all videos, select the very first 
+To download a video, which includes the ability to download individual videos,
+multiple videos at once, or all of your videos, first click on the corresponding
+checkboxes of the videos that you wish to download, then click on the Actions
+button, and then select Download. To download all videos, select the very first
 checkbox, then select the Action button and then select Download.
 
 

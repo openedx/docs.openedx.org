@@ -112,7 +112,7 @@ Creating a single select problem is as simple as:
 #. Filling in the **Explanation** field. When this is shown to learners is
    based on the selection in the **Show answer** panel on the right.
 #. Filling in the **Answer** fields. Select the correct answer(s) by ticking
-   off the checkbox(es). Additional answers can be added by clicking the 
+   off the checkbox(es). Additional answers can be added by clicking the
    **Add answer** button. Answers can be deleted by clicking the trash can icon.
    Feedback can be provided for each answer. More information on feedback can be
    found in the following section.
@@ -179,8 +179,8 @@ Editing Single Select Problems using the Advanced Editor
 *************************************************************
 
 If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click 
-**Show advanced settings**, then scroll down and click 
+advanced editor. In the setting panels on the right of the editor, click
+**Show advanced settings**, then scroll down and click
 **Switch to advanced editor**.
 
 You can use the advanced editor to identify the elements of a single select problem
@@ -711,7 +711,7 @@ Attributes
      - Required. Must be set to ``"MultipleChoice"``.
    * - ``shuffle``
      - Optional. See :ref:`Shuffle Answers in a Single Select Problem`.
-       When set to ``"true"``, answers are shuffled. 
+       When set to ``"true"``, answers are shuffled.
    * - ``answer-pool``
      - Optional. See :ref:`Answer Pools in a Single Select Problem`.
        Set a numerical value to indicate the number of answers to show to learners.
@@ -764,8 +764,8 @@ Attributes
    * - ``explanation-id``
      - Optional. See :ref:`Targeted Feedback in a Single Select Problem`.
        Links this answer to the corresponding ``explanation-id`` of a
-       ``<solution>`` or ``<targetedfeedback>`` element. For example, 
-       ``<choice correct="false" explanation-id="feedback1">`` links to 
+       ``<solution>`` or ``<targetedfeedback>`` element. For example,
+       ``<choice correct="false" explanation-id="feedback1">`` links to
        ``<targetedfeedback explanation-id="feedback1">``.
 
 ^^^^^^^^^^^^^^^^^^^^
@@ -815,7 +815,7 @@ Attributes
    * - ``explanation-id``
      - Optional. See :ref:`Targeted Feedback in a Single Select Problem`.
        Links this answer to the corresponding ``<choice>`` element. For example,
-       ``<solution explanation-id="correct">`` links to 
+       ``<solution explanation-id="correct">`` links to
        ``<choice correct="true" explanation-id="correct">``.
 
 ----------------------------
@@ -873,7 +873,7 @@ Children
 ----------------------------
 
 Optional. Specifies targeted feedback shown automatically to learners. This element
-contains an HTML division ``<div>``. The division contains one or more paragraphs 
+contains an HTML division ``<div>``. The division contains one or more paragraphs
 ``<p>`` of explanatory text. See :ref:`Targeted Feedback in a Single Select Problem`.
 
 ^^^^^^^^^^^^^^^^^^^^
@@ -889,7 +889,7 @@ Attributes
    * - ``explanation-id``
      - Optional. See :ref:`Targeted Feedback in a Single Select Problem`.
        Links this answer to the corresponding ``<choice>`` element. For example,
-       ``<targetedfeedback explanation-id="feedback1">`` links to 
+       ``<targetedfeedback explanation-id="feedback1">`` links to
        ``<choice correct="false" explanation-id="feedback1">``.
 
 ----------------------------
@@ -917,7 +917,7 @@ Children
 
 Optional. Specifies the explanation shown to learners for a given answer. This
 element contains an HTML division ``<div>``. The division contains one or more
-paragraphs ``<p>`` of explanatory text. See 
+paragraphs ``<p>`` of explanatory text. See
 :ref:`Answer Pools in a Single Select Problem`.
 
 ^^^^^^^^^^^^^^^^^^^^
@@ -933,7 +933,7 @@ Attributes
    * - ``explanation-id``
      - Optional. See :ref:`Answer Pools in a Single Select Problem`.
        Links this answer to the corresponding ``<choice>`` element. For example,
-       ``<solution explanation-id="solution1">`` links to 
+       ``<solution explanation-id="solution1">`` links to
        ``<choice correct="false" explanation-id="solution1">``.
 
 .. _Using the Script Element in Single Select Problems:
@@ -990,4 +990,4 @@ correctness.
 .. note:: After saving a block with scripts, you'll see an error on the block in your
   unit if your script cannot be executed. One common error is the indentation error.
   The script must start on no indentation regardless of the indentation of the previous
-  line. 
+  line.
