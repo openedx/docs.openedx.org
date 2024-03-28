@@ -40,7 +40,7 @@ In order for User Tours to properly work, the backpopulate user tours management
 
 .. code-block:: shell
 
-    $ python ./manage.py lms backpopulate_user_tours
+    python ./manage.py lms backpopulate_user_tours
 
 
 Dates Tab
@@ -50,7 +50,7 @@ The Dates Tab has been added as a default static tab on all courses. All new cou
 
 .. code-block:: shell
 
-    $ python manage.py cms backfill_course_tabs
+    python manage.py cms backfill_course_tabs
 
 The Dates Tab has also been removed from the legacy learner experience. It is only available in the Learner MFE. This is the first step in remove the legacy learner experience altogether, which will be completed in the Olive release.
 
@@ -129,7 +129,7 @@ Administrators & Operators
 .. _learning sequences: https://github.com/openedx/edx-platform/blob/db32ff2cdf678fa8edd12c9da76a76eef0478614/openedx/core/djangoapps/content/learning_sequences/README.rst
 .. code-block:: shell
 
-    $ python manage.py cms simulate_publish
+    python manage.py cms simulate_publish
 
 * By setting the :code:`ENABLE_NEW_RELIC` to false, the new relic logging integration will be disabled across all MFEs.
 

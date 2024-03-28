@@ -100,9 +100,9 @@ whether the learner's answer is correct.
   problem points. The ``msg`` is displayed below all response fields, and it
   can contain XHTML markup.
 
-* A dictionary of the form
+* A dictionary of the form:
 
-  .. code-block:: xml
+  .. code-block:: python
 
     { 'overall_message': 'Overall message',
         'input_list': [
@@ -377,7 +377,7 @@ following ways.
 * Return the value ``"Partial"`` as part of the input list for multi-part
   problems.
 
-  .. code-block:: xml
+  .. code-block:: python
 
     { 'overall_message': 'Overall message',
         'input_list': [

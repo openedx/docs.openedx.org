@@ -404,15 +404,15 @@ Transactions
 * To avoid exceptions when you create models, edX recommends that you use the
   following pattern.
 
-    ::
+  .. code-block:: python
 
-     if need_to_create_model:
-        try:
-            with transaction.atomic():
-                MyFancyModel.create(**kwargs)
-        except IntegrityError:
-            # Model has already been created.
-            log.warning("Something...")
+    if need_to_create_model:
+      try:
+          with transaction.atomic():
+              MyFancyModel.create(**kwargs)
+      except IntegrityError:
+          # Model has already been created.
+          log.warning("Something...")
 
 
 .. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions

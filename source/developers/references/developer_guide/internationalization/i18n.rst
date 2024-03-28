@@ -407,9 +407,9 @@ everything (scraping and serving) is working properly.
 
 First, use the coverage tool to generate dummy files.
 
-.. code-block:: sh
+.. code-block:: bash
 
-    $ paver i18n_dummy
+    paver i18n_dummy
 
 This step creates new dummy translations in the Esperanto directory
 (edx-platform/conf/local/eo/LC_MESSAGES) and the RTL directory
@@ -418,10 +418,10 @@ should discard these files once you have finished testing.
 
 Next, restart the LMS and Studio to load in the new translation files.
 
-.. code-block:: sh
+.. code-block:: bash
 
-    $ paver devstack lms
-    $ paver devstack studio
+    paver devstack lms
+    paver devstack studio
 
 Append ``/update_lang/`` to the root LMS or Studio URL and use the form to set
 the preview language. The language code ``eo`` can be used to specify the test
