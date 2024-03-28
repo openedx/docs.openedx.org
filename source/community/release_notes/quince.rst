@@ -136,32 +136,30 @@ Deprecations & Removals
 
 * `[DEPR]: Expected error part of EXPECTED_ERRORS <https://github.com/openedx/edx-platform/issues/32405>`__
 
-* `[DEPR]: Expected error part of EXPECTED_ERRORS <https://github.com/openedx/public-engineering/issues/190>`__
+* `[DEPR]: Remove JWT_AUTH_REFRESH_COOKIE - only in credentials <https://github.com/openedx/public-engineering/issues/190>`__
 
-* `[DEPR]: Remove JWT_AUTH_REFRESH_COOKIE - only in credentialS <https://github.com/openedx/credentials/issues/1989>`__
+* `Remove bok-choy usage <https://github.com/openedx/credentials/issues/1989>`__
 
-* `Remove bok-choy usagS <https://github.com/openedx/public-engineering/issues/31>`__
+* `[DEPR]: BLOCK_STRUCTURES_SETTINGS['PRUNING_ACTIVE'] in edx-platform <https://github.com/openedx/public-engineering/issues/31>`__
 
-* `[DEPR]: BLOCK_STRUCTURES_SETTINGS['PRUNING_ACTIVE'] in edx-platforS <https://github.com/openedx/edx-platform/issues/33028>`__
+* `[DEPR]: BasicAuthentication as default authentication class in edx-platform <https://github.com/openedx/edx-platform/issues/33028>`__
 
-* `[DEPR]: BasicAuthentication as default authentication class in edx-platforS <https://github.com/openedx/public-engineering/issues/213>`__
+* `[DEPR]: Removal of Deprecated and unused feature flags from Mobile-Config Repo <https://github.com/openedx/public-engineering/issues/213>`__
 
-* `[DEPR]: Removal of Deprecated and unused feature flags from Mobile-Config RepS <https://github.com/openedx/public-engineering/issues/167>`__
+* `[DEPR]: edx-user-state-client repo <https://github.com/openedx/public-engineering/issues/167>`__
 
-* `[DEPR]: edx-user-state-client repS <https://github.com/openedx-unsupported/AnimationXBlock/issues/88>`__
+* `[DEPR]: AnimationXBlock <https://github.com/openedx-unsupported/AnimationXBlock/issues/88>`__
 
-* `[DEPR]: AnimationXBlocS <https://github.com/openedx/public-engineering/issues/33>`__
+* `[DEPR]: block_structure.invalidate_cache_on_publish in edx-platform <https://github.com/openedx/public-engineering/issues/33>`__
 
-* `[DEPR]: block_structure.invalidate_cache_on_publish in edx-platforS <https://github.com/openedx/public-engineering/issues/200>`__
+* `[DEPR]: edx-sphinx-theme  <https://github.com/openedx/public-engineering/issues/200>`__
 
-* `[DEPR]: edx-sphinx-theme <https://github.com/openedx/edx-platform/issues/32683>`__
+* `[DEPR]: paver update_db <https://github.com/openedx/edx-platform/issues/32683>`__
 
-* `[DEPR]: paver update_dS <https://github.com/openedx/public-engineering/issues/52>`__
+* `[DEPR]: Remove FOOTER_ORGANIZATION_IMAGE django settings <https://github.com/openedx/public-engineering/issues/52>`__
 
-* `[DEPR]: Remove FOOTER_ORGANIZATION_IMAGE django settingS <https://github.com/openedx/public-engineering/issues/84>`__
+* `[DEPR]: registration.enable_failure_logging <https://github.com/openedx/public-engineering/issues/84>`__
 
-* `[DEPR]: registration.enable_failure_logginS <https://github.com/openedx/public-engineering/issues/84>`__
- 
 
 Developer Experience
 ********************
