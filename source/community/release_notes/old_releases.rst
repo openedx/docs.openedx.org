@@ -6,7 +6,7 @@ and if you are currently running them, it's recommended that you update to the
 latest supported release.
 
 Supported releases will receive security updates and will have the latest bug
-fixes and features. These older releases will not recieve any of those.
+fixes and features. These older releases will not receive any of those.
 
 .. toctree::
    :maxdepth: 2

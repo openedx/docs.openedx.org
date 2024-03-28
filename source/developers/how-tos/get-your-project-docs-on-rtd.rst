@@ -53,14 +53,14 @@ Steps
       test builds on pull requests for this repository.
 
 #. Once the documentation is published you should update any READMEs and other
-   links that need to point to this documentation. The new documetation will be
+   links that need to point to this documentation. The new documentation will be
    published at a url like ``https://docs.openedx.org/projects/<repo_name>/``
 
 .. Following the steps, you should add the result and any follow-up tasks needed.
 
 .. seealso::
 
-  `Debuging/Fixig Docs Builds <https://openedx.atlassian.net/wiki/spaces/DOC/pages/3014852990/Debugging+Fixing+Docs+and+Adding+Docs+CI>`_
+  `Debugging/Fixing Docs Builds <https://openedx.atlassian.net/wiki/spaces/DOC/pages/3014852990/Debugging+Fixing+Docs+and+Adding+Docs+CI>`_
         A guide to help you fix issues you might run into while setting documentation CI.
 
   :doc:`/developers/how-tos/add-sphinx-docs-to-a-repo`

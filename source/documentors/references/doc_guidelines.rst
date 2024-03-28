@@ -33,4 +33,4 @@ Get Started
 
 When you have identified the audience(s) and content type(s) you need to address, we recommend that you follow the steps in :doc:`../quickstarts/quick_start_add_doc`.
 
-If you have questions as you go, we recoomend asking the Open edX Documentation Slack channel.
+If you have questions as you go, we recommend asking the Open edX Documentation Slack channel.

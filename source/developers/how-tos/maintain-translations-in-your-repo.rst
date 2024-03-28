@@ -20,14 +20,14 @@ translations into the `edx-platform`_ repository:
 
 .. code-block:: bash
 
-    $ cd /path/to/edx-platform
-    $ make pull_translations
+    cd /path/to/edx-platform
+    make pull_translations
 
 The ``make pull_translations`` command will (roughly) run the following command:
 
 .. code-block:: bash
 
-    $ atlas pull translations/edx-platform/conf/locale:conf/locale
+    atlas pull translations/edx-platform/conf/locale:conf/locale
 
 ==============
 Is It Working?
@@ -38,8 +38,8 @@ for the presence of the translations:
 
 .. code-block:: bash
 
-    $ tree conf/locale  # or ls conf/locale
-    $ git status  # Should show the new files
+    tree conf/locale  # or ls conf/locale
+    git status  # Should show the new files
 
 Run your application and test translations by changing the user langauge from the Account Settings page.
 
