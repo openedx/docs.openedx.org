@@ -24,7 +24,7 @@ docutils==0.19
     # via
     #   pydata-sphinx-theme
     #   sphinx
-idna==3.6
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -106,7 +106,7 @@ sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
 tornado==6.4
     # via livereload
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via pydata-sphinx-theme
 urllib3==2.2.1
     # via requests
