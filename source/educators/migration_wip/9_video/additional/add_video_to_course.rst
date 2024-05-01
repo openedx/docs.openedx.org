@@ -22,8 +22,8 @@ To add a video to an edge.edx.org course, follow these steps.
    the "Check" icon will save your changes, the "X" icon will discard them.
 
    This name appears as a heading above the video in the LMS, and it identifies the
-   video for you in Insights. If you do not enter a display name, the platform
-   specifies "Video" for you.
+   video for you in reporting and analytics systems. If you do not enter a
+   display name, the platform specifies "Video" for you.
 
 #. Locate the **Video URL field**, and then enter the location of your video.
    This is the URL that was created when you uploaded the video to the hosting site.

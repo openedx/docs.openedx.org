@@ -17,8 +17,8 @@ an option is available in problems.
    Within the problem text for each problem component, you must identify a
    question or prompt, which is, specifically, the question that learners need
    to answer. This question or prompt also serves as the required accessible
-   label, and is used by screen readers, reports, and Insights. For more
-   information about identifying the question text in your problem, see
+   label, and is used by screen readers, and reports. For more information
+   about identifying the question text in your problem, see
    :ref:`Simple Editor`.
 
 #. **Response field.** Learners enter answers in response fields. The
@@ -122,8 +122,8 @@ visible. You can set these attributes in Studio.
 
 * **Accessible Label.** Within the problem text, you can identify the text
   that is, specifically, the question that learners need to answer. The text
-  that is labeled as the question is used by screen readers, reports, and
-  Insights. For more information, see :ref:`Simple Editor`.
+  that is labeled as the question is used by screen readers, and reports. For
+  more information, see :ref:`Simple Editor`.
 
 * **Randomization.** In certain types of problems, you can include a Python
   script to randomize the values that are presented to learners. You use this

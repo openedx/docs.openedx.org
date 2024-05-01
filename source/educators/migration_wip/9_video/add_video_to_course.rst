@@ -74,9 +74,9 @@ To add a video and its transcript to an edx.org course, follow these steps.
    that you want learners to see for this video as the Component Display Name.
 
    This name appears as a heading above the video in the LMS, and it identifies
-   the video for you in Insights. If you do not enter a display name, the
-   platform specifies “Video” for you. Clicking the “Check” icon will save your
-   changes, the “X” icon will discard them.
+   the video for you in reporting and analytics systems. If you do not enter a
+   display name, the platform specifies “Video” for you. Clicking the “Check”
+   icon will save your changes, the “X” icon will discard them.
 
 #. Under Video Source, in the **Video ID** field, enter the Video ID, or **Video
    URL** fields, enter the streaming media link, or video file URL.

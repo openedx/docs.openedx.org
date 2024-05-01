@@ -61,10 +61,6 @@ Documentation for course teams is available from the docs.edx.org web page.
   You can access this guide by selecting **Help** in Studio or from the
   instructor dashboard in the LMS.
 
-* `Using edX Insights`_ describes the metrics, visualizations, and downloadable
-  .csv files that course teams can use to gain information about student
-  background and activity.
-
 These guides open in your web browser. The left side of each page includes a
 **Search docs** field and links to the contents of that guide. To open or save
 a PDF version, select **v: latest** at the lower right of the page, then select
@@ -81,7 +77,7 @@ Email
 To receive and share information by email, course team members can:
 
 * Subscribe to announcements and other new topics in the edX Partner
-  Portal or the Open edX Portal. For information about how to subscribe, see 
+  Portal or the Open edX Portal. For information about how to subscribe, see
   the :doc:`Release Announcements through the Open edX Portal <edx_site>`
 
 * Join the `openedx-studio`_ Google group to ask questions and participate in

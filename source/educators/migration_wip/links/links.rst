@@ -14,14 +14,6 @@
 
 .. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
 
-.. _Review Answers to Graded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
-
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
-
-.. _Open edX Analytics wiki: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
-
-.. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
-
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
 .. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
@@ -94,8 +86,6 @@
 
 .. _edx-documentation/shared: https://github.com/openedx/edx-documentation/blob/master/shared/conf.py
 
-.. _edx-analytics-configuration: https://github.com/openedx/edx-analytics-configuration
-
 .. _edx-documentation: https://github.com/openedx/edx-documentation
 
 .. _edx-tools wiki: https://github.com/openedx/edx-tools/wiki
@@ -158,8 +148,6 @@
 
 .. _Developing on Devstack: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack
 
-.. _Getting Started on Analytics: https://github.com/openedx/devstack/blob/master/docs/analytics.rst
-
 .. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. _Google Drive XBlock: https://github.com/openedx/xblock-google-drive
@@ -169,8 +157,6 @@
 .. _base.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
 
 .. _S3.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
-
-.. _edX Analytics Installation: https://openedx.atlassian.net/wiki/display/OpenOPS/edX+Analytics+Installation
 
 .. _ux.edx.org: http://ux.edx.org/
 
@@ -421,10 +407,6 @@
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 .. _RST: http://docutils.sourceforge.net/rst.html
 
-.. _edX Insights: https://insights.edx.org
-
-.. _Using edX Insights: http://edx.readthedocs.io/projects/edx-insights/en/latest/
-
 .. _edX Status: http://status.edx.org/
 
 .. _edX roadmap: https://open.edx.org/features-roadmap/all
@@ -629,7 +611,6 @@
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
 .. _edx/configuration: http://github.com/openedx/configuration/wiki
-.. _edX Data Analytics API: http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/index.html
 .. _edx/edx-analytics-dashboard: https://github.com/openedx/edx-analytics-dashboard
 .. _edx/edx-platform: https://github.com/openedx/edx-platform
 .. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/
@@ -645,8 +626,6 @@
 .. _frequently asked questions: http://www.edx.org/student-faq
 .. _Installing, Configuring, and Running the Open edX Platform: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/
 .. _meetup: http://www.meetup.com/edX-Global-Community/
-.. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
-.. _Open edX Analytics: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
 .. _Open edX Learner's Guide: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 .. _open.edx.org/user/register: https://open.edx.org/user/register

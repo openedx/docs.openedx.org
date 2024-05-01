@@ -61,8 +61,8 @@ Additionally, biographies can optionally include the following information.
 Course Team Roles
 *****************
 
-To give team members access to Studio, the instructor dashboard in the LMS, and
-Insights, you assign one of these course team roles to them.
+To give team members access to Studio, and the instructor dashboard in the LMS
+you assign one of these course team roles to them.
 
 * Staff
 
@@ -71,9 +71,9 @@ Insights, you assign one of these course team roles to them.
 * Admin
 
 You can assign these privileged roles when you work in either the LMS or
-Studio. The people who have these roles can work on your course in Studio, the
-LMS, and Insights. For more information about assigning roles to team members
-in Studio, see :ref:`Add Course Team Members <Add Course Team Members>`.
+Studio. The people who have these roles can work on your course in Studio and
+the LMS. For more information about assigning roles to team members in Studio,
+see :ref:`Add Course Team Members <Add Course Team Members>`.
 
 You can also designate teams of people to beta test your course or to moderate
 and manage its discussions by assigning other roles in the LMS. Beta testers
@@ -94,7 +94,7 @@ To provide access to features on the instructor dashboard in the LMS, you
 can assign the Staff role or the Admin role to course team members.
 
 Team members who have either of these roles can work on your course in Studio
-immediately, and can also use the LMS and Insights. For more information about
+immediately, and can also use the LMS. For more information about
 assigning roles while you run your course, see :ref:`Course_Staffing <Course_Staffing>`.
 
 You can also designate teams of people to beta test your course and to

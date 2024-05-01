@@ -20,24 +20,13 @@ learners.
   :local:
   :depth: 1
 
-.. Feature availability on the instructor dash applies to open edX installations only.
-.. DOC-2218 A. Hodges 24 Aug 2015
 
 .. only:: Open_edX
 
   Data about course enrollment is available in the LMS, by selecting
-  **Instructor** to access the instructor dashboard and from Insights. For more
+  **Instructor** to access the instructor dashboard. For more
   information, see :ref:`Report Learners Not Yet Enrolled`.
 
-.. Feature has been turned off for edx.org and Edge (the data is available in Insights instead).
-.. DOC-2218 A. Hodges 24 Aug 2015
-
-.. only:: Partners
-
-  Data about course enrollment is available from edX Insights. You can access
-  Insights for your course from the LMS: after you select **Instructor** to
-  access the instructor dashboard, follow the link in the banner at the top of
-  each page. For more information, see `Using edX Insights`_.
 
 .. _view_enrollment_count:
 
@@ -50,8 +39,8 @@ enrolled in it. Note the following information about how this count is
 computed.
 
 * In addition to learners, the enrollment count includes all course team
-  members, including Admins and Staff. (To work with a course in Studio, the
-  LMS, or Insights, you must be enrolled in that course.)
+  members, including Admins and Staff. (To work with a course in Studio or the
+  LMS you must be enrolled in that course.)
 
 * The enrollment count displays the number of currently enrolled learners and
   course team members. It is not a historical count of everyone who has ever
@@ -96,7 +85,7 @@ Course creators, Admins, and Staff, however, can enroll learners in a course
 either before or after the learners register their user accounts.
 
 .. important:: Course team members are not automatically enrolled in courses,
-   although they can access content in Studio, the LMS, and Insights. To work
+   although they can access content in Studio, and the LMS. To work
    on a course, every course team member must register, activate a user
    account, and enroll in the course.
 

@@ -85,14 +85,13 @@ Set the Display Name for a Component
 
 The display name identifies the component. This name appears as a heading
 above the component in the LMS, and it identifies the component for you in
-Insights.
+reporting and analytics systems.
 
-The following illustration shows the display name of a problem in Studio, in
-the LMS, and in Insights.
+The following illustration shows the display name of a problem in Studio and in
+the LMS.
 
 .. image:: ../images/display_names_problem.png
- :alt: The identifying display name for a problem in Studio, the LMS, and
-     Insights.
+ :alt: The identifying display name for a problem in Studio, and the LMS.
  :width: 800
 
 Unique, descriptive display names help you and your learners identify

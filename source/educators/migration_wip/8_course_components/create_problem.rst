@@ -306,23 +306,19 @@ Display Name
 
 This required setting provides an identifying name for the problem. The display
 name appears as a heading above the problem in the LMS, and it identifies the
-problem for you in Insights. Be sure to add unique, descriptive display names
-so that you, and your learners, can identify specific problems quickly and
-accurately.
+problem for you in reporting and analytics systems. Be sure to add unique,
+descriptive display names so that you, and your learners, can identify specific
+problems quickly and accurately.
 
 You can find the display name setting at the top of your problem. To edit,
 click the pen symbol to the right of the field and enter the desired text.
 
-The following illustration shows the display name of a problem in Studio, in
-the LMS, and in Insights.
+The following illustration shows the display name of a problem in Studio, and
+in the LMS.
 
 .. image:: ../images/display_names_problem.png
- :alt: The identifying display name for a problem in Studio, the LMS, and
-     Insights.
+ :alt: The identifying display name for a problem in Studio, and the LMS.
  :width: 800
-
-For more information about metrics for your course's problem components, see
-`Using edX Insights`_.
 
 .. _Problem Type:
 
@@ -380,8 +376,8 @@ from null to a specific number, you can no longer change the problem-specific
 **Attempts** value to unlimited.
 
 Only problems that have an **Attempts** setting of 1 or higher are included in
-the answer distribution computations used in edX Insights and the Student
-Answer Distribution report.
+the answer distribution computations used in the Student Answer Distribution
+report.
 
 .. note::
    EdX recommends setting **Maximum Attempts** to unlimited or a
@@ -660,22 +656,18 @@ The edX Platform has a 20-seed maximum for randomization. This means that
 learners see up to 20 different problem variants for every problem that has
 **Randomization** set to an option other than **Never**. It also means that
 every answer for the 20 different variants is reported by the Answer
-Distribution report and edX Insights. Limiting the number of variants to a
-maximum of 20 allows for better analysis of learner submissions by allowing you
-to detect common incorrect answers and usage patterns for such answers.
-
-For more information, see :ref:`Student_Answer_Distribution` in this guide, or
-`Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_
-in *Using edX Insights*.
+Distribution report. Limiting the number of variants to a maximum of 20 allows
+for better analysis of learner submissions by allowing you to detect common
+incorrect answers and usage patterns for such answers.
 
 .. important::
  Whenever you choose an option other than **Never** for a
- problem, the computations for the Answer Distribution report and edX Insights
- include up to 20 variants for the problem, **even if the problem was not
- actually configured to include randomly generated values**. This can make data
- collected for problems that cannot include randomly generated values,
- (including, but not limited to, all single select, multi-select, dropdown, and
- text input problems), extremely difficult to interpret.
+ problem, the computations for the Answer Distribution report include up to 20
+ variants for the problem, **even if the problem was not actually configured to
+ include randomly generated values**. This can make data collected for problems
+ that cannot include randomly generated values, (including, but not limited to,
+ all single select, multi-select, dropdown, and text input problems), extremely
+ difficult to interpret.
 
 You can choose the following options for the **Randomization** setting.
 

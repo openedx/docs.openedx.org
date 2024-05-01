@@ -73,9 +73,6 @@ your course starts follow.
   working. See :ref:`Working with Video Components`.
 * Check all assignments for completeness and verify their due dates. See
   :ref:`Working with Problem Components`.
-* Use edX Insights to review the answers that beta testers submitted for
-  problems, and to proofread your display names, accessible labels, and answer
-  text.
 * Review feedback from the course team and beta testers to be sure that the
   content has been thoroughly reviewed and tested.
 

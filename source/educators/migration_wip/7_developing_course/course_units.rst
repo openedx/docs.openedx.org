@@ -294,7 +294,8 @@ To create a unit from the outline, follow these steps.
    page opens for you to add components to the unit.
 #. On the unit page, the unit name is selected. Supply an identifying name. A
    descriptive name can help learners locate content in the course. It can
-   also help you select content when you analyze performance in edX Insights.
+   also help you select content when you analyze performance in reporting and
+   analytics systems.
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
 To create a unit from a unit page, follow these steps.
@@ -309,7 +310,8 @@ To create a unit from a unit page, follow these steps.
 
 #. On the unit page, the unit name is selected. Supply an identifying name. A
    descriptive name can help learners locate content in the course. It can
-   also help you select content when you analyze performance in edX Insights.
+   also help you select content when you analyze performance in reporting and
+   analytics systems.
 
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
