@@ -1,9 +1,9 @@
 How to Enable a Waffle Flag for a User
 #######################################
 
-Follow these steps to enable a waffle flag for internal testing or limited releases:
+Follow these steps to enable a waffle flag for a single user. This may be useful in certain situations, such as internal testing or limited releases:
 
-#. Get the LMS User ID from the Support Tools page. If you do not use the Support Tools Micro-Frontend, find the LMS User ID through other means, such as a database query.
+#. Get the LMS User ID, via a database query or other methods if you have them.
 #. Login to the appropriate Django Admin Portal.
 #. Navigate to ``DJANGO-WAFFLE > Flags``.
 #. Find and select the appropriate flag using the `Open edX Feature Toggles Guide <https://docs.openedx.org/projects/edx-platform/en/latest/references/featuretoggles.html.>`_
