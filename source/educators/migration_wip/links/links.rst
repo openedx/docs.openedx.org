@@ -60,6 +60,8 @@
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
 
+.. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
+
 .. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Partner Portal: http://partners.edx.org/
