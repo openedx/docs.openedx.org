@@ -96,8 +96,6 @@
 
 .. _GitHub Help: https://help.github.com/articles/set-up-git
 
-.. _edx-documentation: https://github.com/openedx/edx-documentation
-
 .. _password_policy_validators: https://github.com/openedx/edx-platform/blob/master/common/djangoapps/util/password_policy_validators.py
 
 .. _PyEnv: https://github.com/yyuu/pyenv
@@ -400,14 +398,7 @@
 .. Release Notes
 
 
-
-.. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
-
-
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
-.. _RST: http://docutils.sourceforge.net/rst.html
-
-.. _edX Status: http://status.edx.org/
 
 .. _edX roadmap: https://open.edx.org/features-roadmap/all
 
@@ -553,11 +544,7 @@
 
 .. _YouTube: http://www.youtube.com
 
-.. _3Play Media: http://www.3playmedia.com
-
 .. _Cielo24: http://www.cielo24.com
-
-.. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 
@@ -566,8 +553,6 @@
 .. _12 Principles of Multimedia Learning: http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf
 
 .. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-
-.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
 
@@ -602,21 +587,16 @@
 .. _Building and Running an edX Course: http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/
 .. _Building and Running an Open edX Course: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/
 .. _Building and Running an Open edX Course - latest: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/
-.. _docs@edx.org: docs@edx.org
-.. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _StudioX: https://www.edx.org/course/creating-course-edx-studio-edx-studiox#.VRLYIJPF8kR
 .. _BlendedX: https://www.edx.org/course/blended-learning-edx-edx-blendedx-1
 .. _VideoX: https://www.edx.org/course/creating-video-edx-platform-edx-videox
 .. _Demo: http://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
-.. _edX Partner Support: https://partners.edx.org/edx_zendesk
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
 .. _edx/configuration: http://github.com/openedx/configuration/wiki
 .. _edx/edx-analytics-dashboard: https://github.com/openedx/edx-analytics-dashboard
 .. _edx/edx-platform: https://github.com/openedx/edx-platform
-.. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/
-.. _edX Support: https://courses.edx.org/support/contact_us
-.. _edX Help Center for Learners: https://support.edx.org/hc/en-us/
-.. _edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
+.. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/.io/projects/edx-developer-docs/en/latest/
+.. _Open edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
 .. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.io/en/latest/index.html
 .. _edX Partner Portal: https://partners.edx.org
 .. _edX Research Guide: http://edx.readthedocs.io/projects/devdata/en/latest/
