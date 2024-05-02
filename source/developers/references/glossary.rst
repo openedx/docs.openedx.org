@@ -30,8 +30,8 @@ Glossary
       This text is referred to as the accessible label because screen readers read
       all of the text that you supply for the problem and then repeat the text that
       is identified with this formatting immediately before reading the answer
-      choices for the problem. This text is also used by reports and Insights to
-      identify each problem.
+      choices for the problem. This text is also used by reporting and analytics
+      systems to identify each problem.
 
       All problems require accessible labels.
 

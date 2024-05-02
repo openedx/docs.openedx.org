@@ -11,8 +11,8 @@ and localizing the code for the edX platform.
 Documentation
 =============
 
-Documentation for developers is available from the `edX Developer Documentation`_ 
-landing page.
+Documentation for developers is available from the
+`Open edX Developer Documentation`_ landing page.
 
 ======
 GitHub
@@ -21,8 +21,6 @@ GitHub
 These are the main edX repositories on GitHub.
 
 * The `edx/edx-platform`_ repo contains the code for the edX platform.
-
-* The `edx/edx-analytics-dashboard`_ repo contains the code for edX Insights.
 
 * The `edx/configuration`_ repo contains scripts to set up and operate the edX
   platform.

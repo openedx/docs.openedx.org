@@ -7,7 +7,6 @@ Other edX Resources
 ####################
 
 .. Doc team! Be sure that when you make any changes to this file that you also make them to the mirrored files in these other locations.
-.. edx-analytics-dashboard/docs/en_us/dashboard/source/front_matter
 .. edx-platform/docs/en_us/shared
 .. Alison 19 Aug 14
 

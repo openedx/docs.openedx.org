@@ -61,9 +61,4 @@ To view this course data, follow these steps.
      more information, see :ref:`Set the Grade Range`.
 
 Additional data about the course and its learners is available from other pages
-in the instructor dashboard, and from Insights.
-
-To access the data visualizations, metrics, and reports that are available in
-Insights from the instructor dashboard, select the link in the banner at the
-top of each page. For more information, see `Using edX Insights`_.
-
+in the instructor dashboard.

@@ -33,30 +33,3 @@ then select **PDF**.
 .. note:: If you use the Safari browser, be aware that it does not support the
  search feature for the HTML versions of the edX guides. This is a known
  limitation.
-
-==============================
-Discussion Forums and Email
-==============================
-
-Researchers, edX data czars, and members of the global edX data and analytics
-community can post and discuss questions in our public research forum: the
-`openedx-analytics`_ Google group.
-
-The edX partner portal also offers community `forums`_, including a Research
-and Analytics topic, for discussions among edX partners.
-
-.. important:: Please do not post sensitive data to public forums.
-
-Data czars who have questions that involve sensitive data, or that are
-institution specific, can send them by email to data.support@edx.org
-with a copy to your edX partner manager.
-
-======
-Wikis
-======
-
-The edX Analytics team maintains the `Open edX Analytics`_ wiki, which includes
-links to periodic release notes and other resources for researchers.
-
-The `edx-tools`_ wiki lists publicly shared tools for working with the edX
-platform, including scripts for data analysis and reporting.

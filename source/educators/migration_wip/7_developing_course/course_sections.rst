@@ -131,7 +131,7 @@ To create a new section, follow these steps.
 
 #. Enter the name for the new section. A descriptive name can help learners
    locate content in the course. It can also help you select content when
-   you analyze performance in edX Insights.
+   you analyze performance in reporting or analytics systems.
 
 #. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
 

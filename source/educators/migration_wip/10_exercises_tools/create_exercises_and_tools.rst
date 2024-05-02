@@ -432,21 +432,6 @@ tools available in Studio. For more information, see
        sections in an image that can be enlarged.
      - Not supported
 
-******************************************
-Analyzing Learner Performance on Problems
-******************************************
-
-For the following problem types in your course, you can use edX Insights to
-review aggregated learner performance data and examine the submitted answers.
-For more information, see `Using edX Insights`_ .
-
-* :ref:`Dropdown`
-* :ref:`Math Expression Input`
-* :ref:`Multi-select`
-* :ref:`Numerical Input`
-* :ref:`Single Select`
-* :ref:`Text Input`
-
 .. _Mobile-Ready Problem Types:
 
 *********************************

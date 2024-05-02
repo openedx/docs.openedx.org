@@ -192,7 +192,7 @@ To create a new subsection, follow these steps.
    selected.
 #. Enter the name for the new subsection. A descriptive name can help learners
    locate content in the course. It can also help you select content when you
-   analyze performance in edX Insights.
+   analyze performance in reporting and analytics systems.
 #. :ref:`Add units<Create a Unit>` to the new subsection as needed.
 
 It is recommended that you :ref:`test course content <Testing Your Course

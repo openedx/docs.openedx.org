@@ -60,8 +60,6 @@ the following ways.
 * The **AnswerValue** in the :ref:`Student_Answer_Distribution` report is
   **1**, for correct.
 
-* The edX Insights performance index count the answer as correct.
-
 Course teams can see that a learner received partial credit for a problem in
 the learner's submission history. The submission history shows the score that
 the learner received out of the total available score, and the value in the

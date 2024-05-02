@@ -110,14 +110,6 @@ problem follows.
     </formularesponse>
   </problem>
 
-========================================================
-Analyzing Performance on Math Expression Input Problems
-========================================================
-
-For the math expression input problems in your course, you can use edX Insights
-to review aggregated learner performance data and examine submitted answers.
-For more information, see `Using edX Insights`_.
-
 ***************************************
 Adding a Math Expression Input Problem
 ***************************************

@@ -14,14 +14,6 @@
 
 .. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
 
-.. _Review Answers to Graded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
-
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
-
-.. _Open edX Analytics wiki: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
-
-.. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
-
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
 .. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
@@ -68,6 +60,8 @@
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
 
+.. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
+
 .. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Partner Portal: http://partners.edx.org/
@@ -94,8 +88,6 @@
 
 .. _edx-documentation/shared: https://github.com/openedx/edx-documentation/blob/master/shared/conf.py
 
-.. _edx-analytics-configuration: https://github.com/openedx/edx-analytics-configuration
-
 .. _edx-documentation: https://github.com/openedx/edx-documentation
 
 .. _edx-tools wiki: https://github.com/openedx/edx-tools/wiki
@@ -105,8 +97,6 @@
 .. _EdX Search: https://github.com/openedx/edx-search/
 
 .. _GitHub Help: https://help.github.com/articles/set-up-git
-
-.. _edx-documentation: https://github.com/openedx/edx-documentation
 
 .. _password_policy_validators: https://github.com/openedx/edx-platform/blob/master/common/djangoapps/util/password_policy_validators.py
 
@@ -158,8 +148,6 @@
 
 .. _Developing on Devstack: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack
 
-.. _Getting Started on Analytics: https://github.com/openedx/devstack/blob/master/docs/analytics.rst
-
 .. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. _Google Drive XBlock: https://github.com/openedx/xblock-google-drive
@@ -169,8 +157,6 @@
 .. _base.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
 
 .. _S3.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
-
-.. _edX Analytics Installation: https://openedx.atlassian.net/wiki/display/OpenOPS/edX+Analytics+Installation
 
 .. _ux.edx.org: http://ux.edx.org/
 
@@ -414,18 +400,7 @@
 .. Release Notes
 
 
-
-.. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
-
-
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
-.. _RST: http://docutils.sourceforge.net/rst.html
-
-.. _edX Insights: https://insights.edx.org
-
-.. _Using edX Insights: http://edx.readthedocs.io/projects/edx-insights/en/latest/
-
-.. _edX Status: http://status.edx.org/
 
 .. _edX roadmap: https://open.edx.org/features-roadmap/all
 
@@ -571,11 +546,7 @@
 
 .. _YouTube: http://www.youtube.com
 
-.. _3Play Media: http://www.3playmedia.com
-
 .. _Cielo24: http://www.cielo24.com
-
-.. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 
@@ -584,8 +555,6 @@
 .. _12 Principles of Multimedia Learning: http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf
 
 .. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-
-.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
 
@@ -620,22 +589,16 @@
 .. _Building and Running an edX Course: http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/
 .. _Building and Running an Open edX Course: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/
 .. _Building and Running an Open edX Course - latest: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/
-.. _docs@edx.org: docs@edx.org
-.. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _StudioX: https://www.edx.org/course/creating-course-edx-studio-edx-studiox#.VRLYIJPF8kR
 .. _BlendedX: https://www.edx.org/course/blended-learning-edx-edx-blendedx-1
 .. _VideoX: https://www.edx.org/course/creating-video-edx-platform-edx-videox
 .. _Demo: http://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
-.. _edX Partner Support: https://partners.edx.org/edx_zendesk
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
 .. _edx/configuration: http://github.com/openedx/configuration/wiki
-.. _edX Data Analytics API: http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/index.html
 .. _edx/edx-analytics-dashboard: https://github.com/openedx/edx-analytics-dashboard
 .. _edx/edx-platform: https://github.com/openedx/edx-platform
-.. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/
-.. _edX Support: https://courses.edx.org/support/contact_us
-.. _edX Help Center for Learners: https://support.edx.org/hc/en-us/
-.. _edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
+.. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/.io/projects/edx-developer-docs/en/latest/
+.. _Open edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
 .. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.io/en/latest/index.html
 .. _edX Partner Portal: https://partners.edx.org
 .. _edX Research Guide: http://edx.readthedocs.io/projects/devdata/en/latest/
@@ -645,8 +608,6 @@
 .. _frequently asked questions: http://www.edx.org/student-faq
 .. _Installing, Configuring, and Running the Open edX Platform: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/
 .. _meetup: http://www.meetup.com/edX-Global-Community/
-.. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
-.. _Open edX Analytics: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
 .. _Open edX Learner's Guide: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 .. _open.edx.org/user/register: https://open.edx.org/user/register

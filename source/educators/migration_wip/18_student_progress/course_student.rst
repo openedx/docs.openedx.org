@@ -11,13 +11,6 @@ any time after you create the course.
   :local:
   :depth: 2
 
-To supplement the learner data that is available from the instructor dashboard
-in the LMS, you can use the charts and reports that are available from edX
-Insights. With Insights, you can review demographic and geographic
-distributions for enrolled learners. You can also monitor learner activity and
-review the number of learners who, each week, interacted with your course. For
-more information, see `Using edX Insights`_.
-
 .. _PII:
 
 ***************************************************************
