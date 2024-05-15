@@ -41,12 +41,12 @@ community, after all!
 Here are a few rules-of-thumb to keep in mind:
 
 * Participate!  Make yourself available in the several community communication
-  channels - `Discourse`_, `Slack`_, `working group meetings`_, and, of course,
-  `Github issues`_ - to discuss matters related to your maintenance role
-  publicly.  Don't restrict yourself to private conversation channels: this
-  would make for an opaque project.
+  channels - the `Open edX discussion forums`_, `Slack`_, `working group meetings`_,
+  and, of course, `Github issues`_ - to discuss matters related to your
+  maintenance role publicly.  Don't restrict yourself to private conversation
+  channels: this would make for an opaque project.
 
-.. _Discourse: https://discuss.openedx.org/
+.. _Open edX discussion forums: https://discuss.openedx.org/
 
 .. _Slack: https://openedx.slack.com/
 
@@ -193,7 +193,6 @@ Discourse allows you a **lot** of control over which categories and sub-categori
 
    If a topic interests you, you can always go to the link provided in the notification to subscribe to all future updates to that topic.
 
-.. _Open edX discussion forums: https://discuss.openedx.org/
 .. _Notifications Primer: https://meta.discourse.org/t/notifications-primer/228439
 
 Transparent Development Expectations
