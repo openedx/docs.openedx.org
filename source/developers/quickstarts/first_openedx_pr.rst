@@ -257,18 +257,12 @@ Now push your changes to a new branch in your fork::
 
     git push --set-upstream origin developer_quickstart
 
-If you get a ``fatal: Authentication failed`` error, run::
+If you get a ``fatal: Authentication failed`` error, authenticate Git Hub by running::
 
    gh auth login
 
-and answer the questions:
+Learn more about authentication `here <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>`_.
 
-::
-
-   ? What account do you want to log into? GitHub.com
-   ? What is your preferred protocol for Git operations? HTTPS
-   ? Authenticate Git with your GitHub credentials? Yes
-   ? How would you like to authenticate GitHub CLI? Login with a web browser
 
 Create A Pull Request
 *********************
