@@ -599,7 +599,7 @@
 .. _edx/edx-platform: https://github.com/openedx/edx-platform
 .. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/.io/projects/edx-developer-docs/en/latest/
 .. _Open edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
-.. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.io/en/latest/index.html
+.. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
 .. _edX Partner Portal: https://partners.edx.org
 .. _edX Research Guide: http://edx.readthedocs.io/projects/devdata/en/latest/
 .. _edX Release Notes: http://edx.readthedocs.io/projects/edx-release-notes/en/latest/
