@@ -82,7 +82,7 @@ Administrators & Operators
    table grows endlessly, and the migrations on the table caused by
    updating the ``social-auth-app-django`` package can run out of
    memory. If maintainers have migration failures on this upgrade, they
-   should run the management command .*
+   should run the management command `truncate_social_auth <https://github.com/openedx/credentials/blob/master/credentials/apps/core/management/commands/truncate_social_auth.py>` _.*
 
    -  This will remove all entries from the ``usersocialauth`` table
       that haven't been updated in 90 days, which makes the size of the
@@ -95,23 +95,28 @@ Administrators & Operators
    your code.*
 
    -  *Relevant Tickets*
+      - `Move user retirement code to edx-platform and drop it from Tubular <https://github.com/openedx/axim-engineering/issues/881>` _.
+      - `Move user retirement scripts code from the tubular repo <https://github.com/openedx/edx-platform/pull/34063>` _.
+      - `Deprecate User Retirement Scripts <https://github.com/openedx-unsupported/tubular/pull/736>` _.
 
 -  *edx-platform and cs_comment_service Mongo Upgrades*
+      - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>` _.
+      - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>` _.
 
--  The Redwood release includes the , which is disabled by default
+-  The Redwood release includes the `Studio Course Search [BETA] <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>` _, which is disabled by default
    as it depends on a new search engine, Meilisearch. We encourage
    operators to install Meilisearch, test out this feature, and give us
    feedback on the viability of using Meilisearch as a replacement for
    Elasticsearch in future releases of Open edX. Here’s how:*
 
-   -  For tutor-based deployments, install the plugin, and apply the
+   -  For tutor-based deployments, install the `tutor-contrib-mailsearch <https://github.com/open-craft/tutor-contrib-meilisearch>`_ plugin, and apply the
       changes to your deployment. See that plugin’s README for details.
       Note in particular that the hostname configured as
       ``MEILISEARCH_PUBLIC_HOST`` must be resolvable on the public
       internet.*
 
    -  If you are not using Tutor, you’ll need to install Meilisearch
-      manually (or use the cloud product), and to explicitly set in the
+      manually (or use the cloud product), and to explicitly set `the related config variables <https://github.com/openedx/edx-platform/blob/aac70563fd8a1492af25ae1b9aa9d14c42b36a18/cms/envs/common.py#L2958-L2969>`_ in the
       CMS as well as set ``MEILISEARCH_ENABLED=true`` in the Course
       Authoring MFE settings.*
 
@@ -128,16 +133,15 @@ Administrators & Operators
       the indexes will be updated automatically as needed.*
 
    -  Please share your feedback about Meilisearch, indexing, and
-      operations in or the Slack channel. Please share feedback about
-      the new course search feature in general or in the Slack channel.*
-
+      operations in `this Discourse thread <https://discuss.openedx.org/t/is-meilisearch-a-viable-upgrade-alternative-to-opensearch/12400>`_ or the `#ops <https://openedx.slack.com/archives/C08B4LZEZ>`_ Slack channel. Please share feedback about
+      the new course search feature in general `in the discussion forums <https://discuss.openedx.org/t/feedback-thread-new-course-search/13076>`_ or in the `#wg-product-core <https://openedx.slack.com/archives/C057J2D1WU9>`_ Slack channel.*
 
 
 Deprecations & Removals
 ***********************
 
 -  *Badges app has been deprecated and removed from ``edx-platform``.
-   See .*
+   See `[DEPR]: lms/djangoapps/badges <https://github.com/openedx/edx-platform/issues/31541>`_ .*
 
    -  *``accomplishments_shared`` field is removed from payloads and
       settings*
@@ -150,16 +154,16 @@ Deprecations & Removals
       ``BADGR_TOKENS_CACHE_KEY``, ``BADGR_TIMEOUT``,
       ``BADGR_ENABLE_NOTIFICATIONS`` are also not configurable anymore.*
 
--  *[] In edxapp, the Waffle switch ``ip.legacy`` is removed. See .*
+-  *[] In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .*
 
    -  *Any deployment that has been relying on this legacy IP address
       option will need to switch to setting
-      ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See for
+      ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See `Nutmeg Announcement <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949>`_ for
       details.*
 
 -  *Asset Processing (webpack, collectstatic, etc.) using Paver Commands
    in edx-platform is now Deprecated and will not be available in Sumac*
-
+   - `[DEPR]: Asset processing in Paver <https://github.com/openedx/edx-platform/issues/31895>`_.
    -  *This should cover everything that a site operator needs to do as
       a part of deployment.*
 
@@ -167,6 +171,7 @@ Deprecations & Removals
 
 -  *The django-splash capability was removed from edx-platform and the
    relevant code has been archived.*
+   - https://github.com/openedx/public-engineering/issues/224
 
 Developer Experience
 ********************
