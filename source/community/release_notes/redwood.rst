@@ -129,13 +129,13 @@ Other Operator Changes
    your code.*
 
    -  *Relevant Tickets*
-      - `Move user retirement code to edx-platform and drop it from Tubular <https://github.com/openedx/axim-engineering/issues/881>` _.
-      - `Move user retirement scripts code from the tubular repo <https://github.com/openedx/edx-platform/pull/34063>` _.
-      - `Deprecate User Retirement Scripts <https://github.com/openedx-unsupported/tubular/pull/736>` _.
+      - `Move user retirement code to edx-platform and drop it from Tubular <https://github.com/openedx/axim-engineering/issues/881>`_.
+      - `Move user retirement scripts code from the tubular repo <https://github.com/openedx/edx-platform/pull/34063>`_.
+      - `Deprecate User Retirement Scripts <https://github.com/openedx-unsupported/tubular/pull/736>`_.
 
 -  *edx-platform and cs_comment_service Mongo Upgrades*
-      - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>` _.
-      - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>` _.
+      - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>`_.
+      - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>`_.
 
 -  The Redwood release includes the `Studio Course Search [BETA] <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>` _, which is disabled by default
    as it depends on a new search engine, Meilisearch. We encourage
@@ -188,7 +188,7 @@ Deprecations & Removals
       ``BADGR_TOKENS_CACHE_KEY``, ``BADGR_TIMEOUT``,
       ``BADGR_ENABLE_NOTIFICATIONS`` are also not configurable anymore.*
 
--  *[] In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .*
+-  * In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .*
 
    -  *Any deployment that has been relying on this legacy IP address
       option will need to switch to setting
