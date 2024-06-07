@@ -25,6 +25,40 @@ Instructor Experiences
 Administrators & Operators
 **************************
 
+Settings and Toggles
+====================
+
+Waffle flags:
+
+contentstore.new_studio_mfe.use_new_advanced_settings_page
+contentstore.new_studio_mfe.use_new_certificates_page
+contentstore.new_studio_mfe.use_new_course_outline_page
+contentstore.new_studio_mfe.use_new_course_team_page
+contentstore.new_studio_mfe.use_new_custom_pages
+contentstore.new_studio_mfe.use_new_export_page
+contentstore.new_studio_mfe.use_new_files_uploads_page
+contentstore.new_studio_mfe.use_new_grading_page
+contentstore.new_studio_mfe.use_new_group_configurations_page
+contentstore.new_studio_mfe.use_new_import_page
+contentstore.new_studio_mfe.use_new_schedule_details_page
+contentstore.new_studio_mfe.use_new_textbooks_page
+contentstore.new_studio_mfe.use_new_unit_page (disabled)
+contentstore.new_studio_mfe.use_new_updates_page
+contentstore.new_studio_mfe.use_new_video_uploads_page (disabled)
+new_studio_mfe.use_new_home_page
+new_studio_mfe.use_tagging_taxonomy_list_page
+contentstore.enable_copy_paste_units
+
+Course authoring MFE config:
+
+ENABLE_UNIT_PAGE: "false"
+ENABLE_NEW_EDITOR_PAGES: "true"
+ENABLE_TAGGING_TAXONOMY_PAGES: "true"
+ENABLE_ASSETS_PAGE: "true"
+ENABLE_HOME_PAGE_COURSE_API_V2: "true"
+
+Other Operator Changes
+======================
 
 -  The default minimum password length has been updated from 2
    characters to 8 characters. `(PR) <https://github.com/openedx/edx-platform/pull/33373>` _.
