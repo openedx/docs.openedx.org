@@ -205,11 +205,15 @@ be visible in your local LMS instance immediately.
 Mounting other directories
 --------------------------
 You should be able to mount any repository by running:
-::
+
+.. code-block:: bash
+
    tutor mounts add /my/workspace/edx-ora2
 
 Verify that your repository is properly bind-mounted by running tutor mounts list:
-::
+
+.. code-block:: bash
+
    $ tutor mounts list
    - name: /my/workspace/edx-ora2
    build_mounts:
@@ -226,9 +230,10 @@ Verify that your repository is properly bind-mounted by running tutor mounts lis
 You should then re-build the “openedx” Docker image to pick up your changes.
 
 If your repository does not match a certain regex, you'll need to tell Tutor directly.
-In your tutor plugin repo (tutor-contrib-[something]), add the following under # CONFIGURATION:
-::
+In your tutor plugin repo (tutor-contrib-[something]), add the following under # CONFIGURATION::
+
    hooks.Filters.MOUNTED_DIRECTORIES.add_item(("openedx", "my-package"))
+
 Re-build the image and check the mounts list to verify it worked.
 
 Exercise: Update the Learner Dashboard
