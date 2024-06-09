@@ -14,7 +14,7 @@ babel==2.15.0
     #   sphinx
 beautifulsoup4==4.12.3
     # via pydata-sphinx-theme
-certifi==2024.2.2
+certifi==2024.6.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -104,11 +104,11 @@ sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-tornado==6.4
+tornado==6.4.1
     # via livereload
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via pydata-sphinx-theme
 urllib3==2.2.1
     # via requests
-zipp==3.19.1
+zipp==3.19.2
     # via importlib-metadata
