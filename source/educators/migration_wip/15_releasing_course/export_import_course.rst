@@ -39,7 +39,7 @@ follow.
 * To create a copy of your course that you can later import into another course
   instance and customize.
 
-When you export your course, Studio creates a **.tar.gz** file that includes
+When you export your course, Studio creates a ``.tar.gz`` file that includes
 the following course data.
 
 * Course content (all Sections, Subsections, and Units)
@@ -62,7 +62,7 @@ To export your course, follow these steps.
 #. From the **Tools** menu, select **Export**.
 #. Select **Export Course Content**.
 
-When the export completes you can then access the .tar.gz file on your
+When the export completes you can then access the ``.tar.gz`` file on your
 computer.
 
 .. image:: ../images/course_export_page.png
@@ -76,7 +76,7 @@ Course Outline Terminology in Exported Files
 
 Sections, subsections, units, and components have different names in the Studio
 **Course Outline** view and in the list of files that you see after you
-export your course and open the .xml files for editing. The following table
+export your course and open the ``.xml`` files for editing. The following table
 lists the names of these elements in the **Course Outline** view and in a list
 of files.
 
@@ -99,10 +99,10 @@ For example, if you want to find a specific section in your course when you
 open the list of files that your course contains, look in the **Chapter**
 directory. To find a unit, look in the **Vertical** directory.
 
-   .. only:: Partners
+.. only:: Partners
 
-     For more information, see `course_structure <course_structure_research_guide>`_ in the **EdX
-     Research Guide**.
+  For more information, see `course_structure <course_structure_research_guide>`_ in the **EdX
+  Research Guide**.
 
 .. _Import a Course:
 
@@ -122,9 +122,9 @@ follow.
 * To run a new version of a course that was not created in Studio.
 * To prepare course content for reuse in another learning system.
 
-The course that you import must be in a .tar.gz file (that is, a .tar file
-compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
-course data directory. The tar.gz file must have the same name as the course
+The course that you import must be in a ``.tar.gz`` file (that is, a .tar file
+compressed with GNU Zip). This ``.tar.gz`` file must contain a ``course.xml`` file in a
+course data directory. The ``tar.gz`` file must have the same name as the course
 data directory. It may also contain other files.  For more information, see
 :ref:`Work with the targz file`.
 
@@ -145,7 +145,7 @@ To import a course, follow these steps.
 
 .. image:: ../images/course_import_page.png
  :width: 600
- :alt: an image of the Import page in which you can select a .tar.gz file to
+ :alt: an image of the Import page in which you can select a ``.tar.gz`` file to
   replace your course content.
 
 .. note::
@@ -157,28 +157,32 @@ To import a course, follow these steps.
 .. _Work with the targz File:
 
 ******************************
-Work with the .tar.gz File
+Work with the ``.tar.gz`` File
 ******************************
 
-Courses are exported and imported in .tar.gz files containing OLX (open
-learning XML), the edX markup format for open course exchange. For more
-information about OLX, see the `EdX Open Learning XML Guide`_..
+Courses are exported and imported in ``.tar.gz`` files containing OLX (Open
+Learning XML), the Open edX markup format for open course exchange. For more
+information about OLX, see the `EdX Open Learning XML Guide`_.
 
-To extract and compress .tar.gz files, you use a third-party program.
+To extract and compress ``.tar.gz`` files, if you're using Linux or macOS ::
 
-If you are using Microsoft Windows, see the following resources.
+  # extract
+  tar -zxvf example.tar.gz
 
-* `How to Unpack a tar File in Windows
+  # compress
+  tar -czvf example.tar.gz /path/to/directory-or-file
+
+If you're using Windows, you'll probably need a 3rd-party tool like `7-zip`_ or
+`TarTool`_.
+
+For more, see the following resources:
+
+* `How to Unpack a tar file in Windows
   <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_
 
-* `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_
+* `How to extract a gz file <http://www.wikihow.com/Extract-a-Gz-File>`_
 
 * `The gzip Home Page <http://www.gzip.org/>`_
 
-* The `Windows <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_ section of the `How to Open .tar.gz Files
-  <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page
-
-If you are using a Macintosh computer, see the following resource.
-
-* The `Mac OS X <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_ section of the `How to Open .tar.gz Files
-  <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
+.. _7-zip: http://www.7-zip.org
+.. _TarTool: https://github.com/senthilrajasek/tartool
