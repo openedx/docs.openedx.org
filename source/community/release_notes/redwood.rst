@@ -30,7 +30,7 @@ Settings and Toggles
 
 Waffle flags:
 
-`contentstore.new_studio_mfe.use_new_advanced_settings_page https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L284>`_
+`contentstore.new_studio_mfe.use_new_advanced_settings_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L284>`_
 `contentstore.new_studio_mfe.use_new_certificates_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L484>`_
 `contentstore.new_studio_mfe.use_new_course_outline_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L424>`_
 `contentstore.new_studio_mfe.use_new_course_team_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L464>`_
