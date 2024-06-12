@@ -30,24 +30,22 @@ Settings and Toggles
 
 Waffle flags:
 
-contentstore.new_studio_mfe.use_new_advanced_settings_page
-contentstore.new_studio_mfe.use_new_certificates_page
-contentstore.new_studio_mfe.use_new_course_outline_page
-contentstore.new_studio_mfe.use_new_course_team_page
-contentstore.new_studio_mfe.use_new_custom_pages
-contentstore.new_studio_mfe.use_new_export_page
-contentstore.new_studio_mfe.use_new_files_uploads_page
-contentstore.new_studio_mfe.use_new_grading_page
-contentstore.new_studio_mfe.use_new_group_configurations_page
-contentstore.new_studio_mfe.use_new_import_page
-contentstore.new_studio_mfe.use_new_schedule_details_page
-contentstore.new_studio_mfe.use_new_textbooks_page
-contentstore.new_studio_mfe.use_new_unit_page (disabled)
-contentstore.new_studio_mfe.use_new_updates_page
-contentstore.new_studio_mfe.use_new_video_uploads_page (disabled)
-new_studio_mfe.use_new_home_page
-new_studio_mfe.use_tagging_taxonomy_list_page
-contentstore.enable_copy_paste_units
+`contentstore.new_studio_mfe.use_new_advanced_settings_page https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L284>`_
+`contentstore.new_studio_mfe.use_new_certificates_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L484>`_
+`contentstore.new_studio_mfe.use_new_course_outline_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L424>`_
+`contentstore.new_studio_mfe.use_new_course_team_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L464>`_
+`contentstore.new_studio_mfe.use_new_custom_pages <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L244>`_
+`contentstore.new_studio_mfe.use_new_export_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L364>`_
+`contentstore.new_studio_mfe.use_new_files_uploads_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L384>`_
+`contentstore.new_studio_mfe.use_new_grading_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L304>`_
+`contentstore.new_studio_mfe.use_new_group_configurations_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L524>`_
+`contentstore.new_studio_mfe.use_new_import_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L344>`_
+`contentstore.new_studio_mfe.use_new_schedule_details_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L264>`_
+`contentstore.new_studio_mfe.use_new_textbooks_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L504>`_
+`contentstore.new_studio_mfe.use_new_unit_page (disabled) <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L444>`_
+`contentstore.new_studio_mfe.use_new_updates_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L324>`_
+`contentstore.new_studio_mfe.use_new_video_uploads_page (disabled) <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L404>`_
+`new_studio_mfe.use_new_home_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L225>`_
 
 Course authoring MFE config:
 
@@ -61,7 +59,7 @@ Other Operator Changes
 ======================
 
 -  The default minimum password length has been updated from 2
-   characters to 8 characters. `(PR) <https://github.com/openedx/edx-platform/pull/33373>` _.
+   characters to 8 characters. `(PR) <https://github.com/openedx/edx-platform/pull/33373>`_.
 
    -  If you have an existing password, this change along will not
       force you to update it. However if you reset your password or go
@@ -111,12 +109,12 @@ Other Operator Changes
       2. This key must be handled very carefully. Anyone in possession
          of the key may impersonate users.*
 
--  The following `requirements update <https://github.com/openedx/credentials/commit/1cd7c25c04a955aa9aaa263fb40ebd3f73d0937e>` _ into credentials might have implications for anyone
+-  The following `requirements update <https://github.com/openedx/credentials/commit/1cd7c25c04a955aa9aaa263fb40ebd3f73d0937e>`_ into credentials might have implications for anyone
    who has a massive ``usersocialauth`` table.  This is because that
    table grows endlessly, and the migrations on the table caused by
    updating the ``social-auth-app-django`` package can run out of
    memory. If maintainers have migration failures on this upgrade, they
-   should run the management command `truncate_social_auth <https://github.com/openedx/credentials/blob/master/credentials/apps/core/management/commands/truncate_social_auth.py>` _.*
+   should run the management command `truncate_social_auth <https://github.com/openedx/credentials/blob/master/credentials/apps/core/management/commands/truncate_social_auth.py>`_.*
 
    -  This will remove all entries from the ``usersocialauth`` table
       that haven't been updated in 90 days, which makes the size of the
@@ -137,7 +135,7 @@ Other Operator Changes
       - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>`_.
       - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>`_.
 
--  The Redwood release includes the `Studio Course Search [BETA] <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>` _, which is disabled by default
+-  The Redwood release includes the `Studio Course Search [BETA] <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>`_, which is disabled by default
    as it depends on a new search engine, Meilisearch. We encourage
    operators to install Meilisearch, test out this feature, and give us
    feedback on the viability of using Meilisearch as a replacement for
