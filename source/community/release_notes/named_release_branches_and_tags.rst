@@ -9,11 +9,15 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 ***********************
 
-The latest supported release line is Palm_, based on code from 2023-04-11.
+The latest supported release line is Quince_, based on code from 2023-10-10.
 
-The next release will be Quince__.
+The next release will be Redwood__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3726802953/Quince
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3890380898/Redwood
+
+Dates for recent and upcoming releases can be found in the `Release Schedule`_.
+
+.. _Release Schedule: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3613392957/Open+edX+Release+Schedule
 
 
 All Open edX Releases
@@ -31,18 +35,44 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Redwood
+=======
+
+* **Code cut date:** 2024-05-09
+* **Status:** upcoming
+* :doc:`Release Notes <./redwood>`
+
 Quince
-~~~~~~
+======
 
 * **Code cut date:** 2023-10-10
-* **Status:** upcoming
+* **Status:** supported
 * :doc:`Release Notes <./quince>`
 
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Quince.1
+     - 2023-12-11
+     - open-release/quince.1
+
+   * - Quince.2
+     - 2024-02-09
+     - open-release/quince.2
+
+   * - Quince.3
+     - 2024-04-09
+     - open-release/quince.3
+
 Palm
-~~~~
+====
 
 * **Code cut date:** 2023-04-11
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./palm>`
 
 .. list-table::
@@ -63,6 +93,10 @@ Palm
    * - Palm.3
      - 2023-10-13
      - open-release/palm.3
+
+   * - Palm.4
+     - 2023-11-16
+     - open-release/palm.4
 
 Olive
 =====

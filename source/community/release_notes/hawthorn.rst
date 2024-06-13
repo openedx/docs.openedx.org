@@ -34,7 +34,7 @@ LMS and Learner Features
   learner's post receives a comment. The message contains the comment and a
   link back to the course discussions for easy access. Inline discussions are
   expanded by default. This change has led to a threefold increase in
-  discussion participation on edx.org.​
+  discussion participation on edx.org.
 
 
 Studio and Course Author Tools
@@ -143,6 +143,6 @@ Several features are deprecated or deleted in the Open edX Hawthorn release.
   experience any change with the next release.
 * ``django-simple-history`` has been deprecated and removed.
 * The ``LogoutViewConfiguration`` model has been removed. Single logout is now
-  permanently enabled. This meants that logging out of the LMS or an IDA logs
+  permanently enabled. This means that logging out of the LMS or an IDA logs
   you out of all systems.
 

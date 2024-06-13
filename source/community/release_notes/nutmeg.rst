@@ -40,7 +40,7 @@ In order for User Tours to properly work, the backpopulate user tours management
 
 .. code-block:: shell
 
-    $ python ./manage.py lms backpopulate_user_tours
+    python ./manage.py lms backpopulate_user_tours
 
 
 Dates Tab
@@ -50,7 +50,7 @@ The Dates Tab has been added as a default static tab on all courses. All new cou
 
 .. code-block:: shell
 
-    $ python manage.py cms backfill_course_tabs
+    python manage.py cms backfill_course_tabs
 
 The Dates Tab has also been removed from the legacy learner experience. It is only available in the Learner MFE. This is the first step in remove the legacy learner experience altogether, which will be completed in the Olive release.
 
@@ -119,7 +119,7 @@ Gradebook Micro-frontend (MFE)
 Administrators & Operators
 **************************
 
-* Various improvements and bugfixes have been applied to `Tutor`_, the officialy-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
+* Various improvements and bugfixes have been applied to `Tutor`_, the officially-supported Open edX distribution and installation method. Notable features include an overhauled Tutor Plugin API and a new CLI for mounting repositories during development. You can see the full list by viewing `Tutor's changelog, starting at v13.0.1`_ (the first Tutor release after Maple) and reading upwards until v14.0.0 (the first Tutor release supporting Nutmeg).
 
 .. _Tutor's changelog, starting at v13.0.1: https://github.com/overhangio/tutor/blob/master/CHANGELOG.md#v1301-2021-12-20
 .. _Tutor: https://docs.tutor.overhang.io/
@@ -129,11 +129,11 @@ Administrators & Operators
 .. _learning sequences: https://github.com/openedx/edx-platform/blob/db32ff2cdf678fa8edd12c9da76a76eef0478614/openedx/core/djangoapps/content/learning_sequences/README.rst
 .. code-block:: shell
 
-    $ python manage.py cms simulate_publish
+    python manage.py cms simulate_publish
 
 * By setting the :code:`ENABLE_NEW_RELIC` to false, the new relic logging integration will be disabled across all MFEs.
 
-* It's now possible to add optional fields to the registations form that are always visible, and do not require the user to click the checkbox "Support education research by providing additional information." Use the new :code:`optional-exposed` setting in the `REGISTRATION_EXTRA_FIELDS`_ setting.
+* It's now possible to add optional fields to the registration form that are always visible and do not require the user to click the checkbox "Support education research by providing additional information." Use the new :code:`optional-exposed` setting in the `REGISTRATION_EXTRA_FIELDS`_ setting.
 
 .. _REGISTRATION_EXTRA_FIELDS: https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-REGISTRATION_EXTRA_FIELDS
 
