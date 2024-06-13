@@ -163,7 +163,7 @@ System Upgrades and Updates
 * With Ficus, the operating system for the Open edX platform changes from
   Ubuntu 12.04 to Ubuntu 16.04, the latest long-term support (LTS) version of
   Ubuntu.  Ubuntu 12.04 reaches its end of life in April of this year.
-  Unfortunately, upgrading Open edX from Ubuntu 12.04 to Ubuntu 16.04 is not
+  Unfortunately, upgrading Open edX from Ubuntu 12.04 to Ubunbu 16.04 is not
   possible. If your existing installation of Open edX is based on Ubuntu 12.04,
   we recommend that you build a new system.
 

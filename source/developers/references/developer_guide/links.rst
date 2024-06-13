@@ -14,6 +14,16 @@
 
 .. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
 
+.. _Using edX Insights: http://edx.readthedocs.io/projects/edx-insights/en/latest/
+
+.. _Review Answers to Graded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
+
+.. _Review Answers to Ungraded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
+
+.. _Open edX Analytics wiki: https://openedx.atlassian.net/wiki/spaces/COMM/pages/979927117/Open+edX+Analytics
+
+.. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
+
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
 .. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
@@ -86,6 +96,8 @@
 
 .. _edx-documentation/shared: https://github.com/openedx/edx-documentation/blob/master/shared/conf.py
 
+.. _edx-analytics-configuration: https://github.com/openedx/edx-analytics-configuration
+
 .. _edx-documentation: https://github.com/openedx/edx-documentation
 
 .. _edx-tools wiki: https://github.com/openedx/edx-tools/wiki
@@ -150,6 +162,8 @@
 
 .. _Developing on Devstack: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack
 
+.. _Getting Started on Analytics: https://github.com/openedx/devstack/blob/master/docs/analytics.rst
+
 .. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. _Google Drive XBlock: https://github.com/openedx/xblock-google-drive
@@ -159,6 +173,8 @@
 .. _base.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
 
 .. _S3.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
+
+.. _edX Analytics Installation: https://openedx.atlassian.net/wiki/display/OpenOPS/edX+Analytics+Installation
 
 .. _ux.edx.org: http://ux.edx.org/
 
@@ -388,7 +404,7 @@
 
 .. _Names and Roles Provisioning Service: https://www.imsglobal.org/spec/lti-nrps/v2p0
 
-.. _LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting: https://github.com/openedx/xblock-lti-consumer/blob/master/docs/decisions/0004-lti-advantage-nrps.rst#decision
+.. _LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting: https://github.com/openedx/xblock-lti-consumer/blob/master/docs/decisions/0004-lti-advantage-nrps.rst#decision 
 
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 
@@ -421,6 +437,8 @@
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 .. _RST: http://docutils.sourceforge.net/rst.html
+
+.. _edX Insights: https://insights.edx.org
 
 .. _edX Status: http://status.edx.org/
 

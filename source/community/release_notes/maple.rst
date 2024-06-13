@@ -244,7 +244,7 @@ Unpacking Errors
 
 - **Permission Denied** - This error occurs if the user does not have the required permissions to perform the course import. Once that case occurs, the system throws the error to the user.
 
-- **Incompatible File** - This error is raised if the file to unpack is not in tar.gz format. This check verifies that the process of unpacking does not execute if the file is not in a valid format.
+- **Incompatble File** - This error is raised if the file to unpack is not in tar.gz format. This check verifies that the process of unpacking does not execute if the file is not in a valid format.
 
 - **File Not Found** - This error occurs if the uploaded file is not available in the storage or has been deleted.
 
@@ -270,7 +270,7 @@ The errors can occur after the XML validation and during the data update in the 
 
 - **Proctoring Provider Error** - This error is raised when a ``courserun.xml`` file contains an attribute ``proctoring_provider`` e.g. ``proctoring_provider="proctortrack"`` and that provider is not available/enabled on the server.
 
-- **Unknown Error** - An unforeseen error occurred while updating the course.
+- **Unknown Error** - An unforeseen error occured while updating the course.
 
 .. note::
 

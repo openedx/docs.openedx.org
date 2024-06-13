@@ -12,7 +12,7 @@
 
    A new subsection is created at the end of the section, with the subsection name selected.
 
-#. Enter the name for the new subsection.
+#. Enter the name for the new subsection. 
 
 #. If the subsection should release a a later time than the containing section, set the release date.
 

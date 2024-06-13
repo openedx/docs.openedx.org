@@ -12,7 +12,6 @@ Per Repo Documentation
 * :doc:`openedx-aspects:index`
 * :doc:`edx-platform:index`
 * :doc:`xblock:index`
-* :doc:`wordpress-ecommerce-plugin:index`
 
 Other References
 ****************

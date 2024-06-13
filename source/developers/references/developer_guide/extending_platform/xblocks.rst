@@ -1,5 +1,5 @@
 Integrating XBlocks with edx-platform
-#####################################
+=====================================
 
 The edX LMS and Studio have several features that are extensions of the core
 XBlock libraries (https://xblock.readthedocs.io). These features are listed
@@ -44,9 +44,9 @@ handler is executed by the LMS.
 In the future, these are likely to become more formal XBlock services (one
 related to users, and the other to event publishing).
 
-==============
+================
 Class Features
-==============
+================
 
 These are class attributes or functions that can be provided by an XBlock to
 customize behavior in the LMS.
@@ -62,9 +62,9 @@ customize behavior in the LMS.
   ``problem``), and determines which icon appears in edx sequence headers.
   There is currently no way to provide a different icon.
 
-=======
+================
 Grading
-=======
+================
 
 To participate in the course grade, an XBlock should set ``has_score`` to
 ``True``, and should ``publish`` a ``grade`` event whenever the grade changes.
@@ -82,9 +82,9 @@ The grade event represents a grade of ``value/max_value`` for the current user.
 The ``user_id`` field is optional, the currently logged in user's ID will be
 used if it is omitted.
 
-============
+================
 Restrictions
-============
+================
 
 A block cannot modify the value of any field with a scope where the ``user``
 property is ``UserScope.NONE``.
@@ -93,9 +93,9 @@ property is ``UserScope.NONE``.
 Studio
 ******
 
-==============
+================
 Class Features
-==============
+================
 
 * studio_view (XBlock.view): The view used to render an editor in Studio. The
   editor rendering can be completely different from the LMS student_view, and
@@ -110,9 +110,9 @@ Class Features
 * non_editable_metadata_fields (property): A list of ``xblock.fields.Field``
   objects that should not be displayed in the default editing view for Studio.
 
-============
+================
 Restrictions
-============
+================
 
 A block cannot modify the value of any field with a scope where the ``user``
 property is not ``UserScope.NONE``.
@@ -131,9 +131,9 @@ steps.
 
 #.  Install your block.
 
-    .. code-block:: bash
+    ::
 
-        vagrant ssh
+        $ vagrant ssh
         vagrant@precise64:~$ sudo -u edxapp /edx/bin/pip.edxapp install /path/to/your/block
 
 #.  Enable the block.
@@ -179,9 +179,9 @@ the list of ``ADVANCED_COMPONENT_TYPES`` in
 
 .. _XBlock URL Dev:
 
-*************************************
+**************************************
 Rendering XBlocks with the XBlock URL
-*************************************
+**************************************
 
 The XBlock URL supports HTML rendering of an individual XBlock without the user
 interface of the LMS.

@@ -48,7 +48,7 @@ extensions = [
 graphviz_output_format = "svg"
 
 rediraffe_redirects = {
-    "community/release_notes/latest.rst": "community/release_notes/quince.rst",
+    "community/release_notes/latest.rst": "community/release_notes/palm.rst",
 }
 
 # Intersphinx Extension Configuration
@@ -87,10 +87,6 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/xblock/{rtd_language}/{rtd_version}",
         None,
     ),
-    "wordpress-ecommerce-plugin": (
-        f"https://docs.openedx.org/projects/wordpress-ecommerce-plugin/{rtd_language}/{rtd_version}",
-        None,
-    ),
 }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -123,7 +119,6 @@ images_config = {
     "default_image_width": "60%",
 }
 
-# 'migration_wip' links.rst added while migration is underway. Should be removed after migration.
 rst_epilog = """
 
 .. raw:: html
@@ -136,7 +131,6 @@ rst_epilog = """
 
 .. include:: /substitutions.txt
 .. include:: /links.txt
-.. include:: /educators/migration_wip/links/links.rst
 
 """
 

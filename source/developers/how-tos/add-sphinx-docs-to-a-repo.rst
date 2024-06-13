@@ -1,5 +1,5 @@
 How To Add Sphinx Docs to a Repo
-################################
+#################################
 
 .. How-tos should have a short introduction sentence that captures the user's goal and introduces the steps.
 
@@ -137,7 +137,7 @@ Steps
       if not os.environ.get('DJANGO_SETTINGS_MODULE'):
          os.environ['DJANGO_SETTINGS_MODULE'] = 'test_utils.test_settings'
 
-#. Run the build again to make sure you have the standard logos and footers
+#. Run the build again to make sure youve got the standard logos and footers
    setup.
 
    .. code::
@@ -155,7 +155,7 @@ Steps
 
 #. Add a title to each index.rst
 
-#. Start writing documentation!
+#. Start wiriting documentation!
 
 .. seealso::
 

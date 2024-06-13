@@ -1,9 +1,9 @@
 
 .. _common:
 
-#############
+#############################
 Common Fields
-#############
+#############################
 
 This section describes the JSON fields that are common to the schema
 definitions of all events. These fields are at the root level of the event
@@ -12,9 +12,9 @@ JSON documents.
 This section presents the common fields in alphabetical order. Actual events
 in your data package can include these fields in different sequences.
 
-=========================
+===========================
 ``accept_language`` Field
-=========================
+===========================
 
 **Type:** string
 
@@ -26,9 +26,9 @@ more information, see the HTTP/1.1 header field definition for
 
 .. _Accept-Language: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4
 
-===============
+=====================
 ``agent`` Field
-===============
+=====================
 
 **Type:** string
 
@@ -36,9 +36,9 @@ more information, see the HTTP/1.1 header field definition for
 
 .. _context:
 
-=================
+===================
 ``context`` Field
-=================
+===================
 
 **Type:** object
 
@@ -57,7 +57,7 @@ information.
   event, see the description of that event later in this section.
 
 ``context`` Member Fields Common to All Events
-**********************************************
+***********************************************
 
 The following member fields are present in the ``context`` field for all
 events.
@@ -89,7 +89,7 @@ events.
  you ignore these events during analysis.
 
 ``context`` Member Fields for Applicable Events
-***********************************************
+******************************************************
 
 When applicable for an event, the ``context`` field also includes these member
 fields to provide additional information.
@@ -127,9 +127,9 @@ The ``context`` member fields are blank if values cannot be determined.
 ``course_user_tags`` added 12 Mar 2014. ``user_id`` added 6 Nov 2013. Other
 event fields may duplicate this data. Added 23 Oct 2013.
 
-===============
+===================
 ``event`` Field
-===============
+===================
 
 **Type:** object
 
@@ -138,9 +138,9 @@ triggered event. Different member fields are supplied for different events.
 For more information about the ``event`` member fields for an event, see the
 description of that event later in this section.
 
-======================
+========================
 ``event_source`` Field
-======================
+========================
 
 **Type:** string
 
@@ -155,9 +155,9 @@ The values in this field are:
 **History**: Updated 16 Oct 2014 to identify events emitted from mobile
 devices.
 
-====================
+=====================
 ``event_type`` Field
-====================
+=====================
 
 **Type:** string
 
@@ -168,26 +168,26 @@ section provide descriptions of each type of event that is included in
 data packages. To locate information about a specific event type, see the
 :ref:`tracking_log_event_list`.
 
-==============
+===================
 ``host`` Field
-==============
+===================
 
 **Type:** string
 
 **Details:** The site visited by the user, for example, ``courses.edx.org``.
 
-============
+===================
 ``ip`` Field
-============
+===================
 
 **Type:** string
 
 **Details:** IP address of the user who triggered the event. Empty for events
 that originate on mobile devices.
 
-==============
+===================
 ``name`` Field
-==============
+===================
 
 **Type:** string
 
@@ -197,9 +197,9 @@ that originate on mobile devices.
 ``name`` field. When this field is present for an event, it supersedes the
 ``event_type`` field.
 
-==============
+===================
 ``page`` Field
-==============
+===================
 
 **Type:** string
 
@@ -211,9 +211,9 @@ video component.
 
 .. _referer_field:
 
-=================
+===================
 ``referer`` Field
-=================
+===================
 
 **Type:** string
 
@@ -224,9 +224,9 @@ information, see the HTTP/1.1 header field definition for `Referer`_.
 
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
-=================
+===================
 ``session`` Field
-=================
+===================
 
 **Type:** string
 
@@ -235,18 +235,18 @@ session. All browser events and the server :ref:`enrollment<enrollment>` events
 include a value for the session. Other server events and mobile events do not
 include a session value.
 
-==============
+===================
 ``time`` Field
-==============
+===================
 
 **Type:** string
 
 **Details:** Gives the UTC time at which the event was emitted in
 'YYYY-MM-DDThh:mm:ss.xxxxxx' format.
 
-==================
+===================
 ``username`` Field
-==================
+===================
 
 **Type:** string
 

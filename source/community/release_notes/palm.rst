@@ -23,32 +23,32 @@ In Palm, the minimum required versions will be `Docker v20.10.15 <https://docs.d
 RateXBlock unsupported
 ======================
 
-The RateXBlock has been deprecated and is now officially unsupported. `FeedbackXBlock
+The RateXBlock has been deprecated and is now officially unsupported. `FeedbackXBlock 
 <https://github.com/openedx/FeedbackXBlock>`_ is the recommended replacement.
 
 Stripe API changes
 ==================
 
-Ecommerce now supports the new Stripe Payment Intents API and no longer uses the Stripe Charges API. The legacy
-Stripe Charges ecommerce payment processor with a frontend in the ecommerce application is upgraded to a Stripe
-Payment Intents payment processor with a frontend in frontend-app-payment. See the discussion post, `Ecommerce:
-Changes to Stripe payment processor
-<https://discuss.openedx.org/t/ecommerce-changes-to-stripe-payment-processor/9457>`_ for more details.
+Ecommerce now supports the new Stripe Payment Intents API and no longer uses the Stripe Charges API. The legacy 
+Stripe Charges ecommerce payment processor with a frontend in the ecommerce application is upgraded to a Stripe 
+Payment Intents payment processor with a frontend in frontend-app-payment. See the discussion post, `Ecommerce: 
+Changes to Stripe payment processor 
+<https://discuss.openedx.org/t/ecommerce-changes-to-stripe-payment-processor/9457>`_ for more details. 
 
-Ecommerce is still officially deprecated and we continue to work on the `Ecommerce Replacement Project
+Ecommerce is still officially deprecated and we continue to work on the `Ecommerce Replacement Project 
 <https://openedx.atlassian.net/wiki/spaces/AC/pages/3617849345/Ecommerce+Deprecation+and+Replacement+Project>`_.
 
 
 Developer changes
 =================
 
-The old developer documentation site has been deprecated and removed. Please use `Open edX Developers - Latest
+The old developer documentation site has been deprecated and removed. Please use `Open edX Developers - Latest 
 Documentation <https://docs.openedx.org/en/latest/developers/index.html>`_  instead.
 
-The modules :code:`tutor.hooks.actions`, :code:`tutor.hooks.filters`, and :code:`tutor.hooks.contexts` are no longer
-part of the Tutor API. This change should not affect most developers, who only use the :code:`Actions` and
-:code:`Filters` classes (notice the plural) from :code:`tutor.hooks`. If it does affect you, there are upgrade
-instructions in the discussion post, `Simplifying & documenting the Tutor Hooks API
+The modules :code:`tutor.hooks.actions`, :code:`tutor.hooks.filters`, and :code:`tutor.hooks.contexts` are no longer 
+part of the Tutor API. This change should not affect most developers, who only use the :code:`Actions` and 
+:code:`Filters` classes (notice the plural) from :code:`tutor.hooks`. If it does affect you, there are upgrade 
+instructions in the discussion post, `Simplifying & documenting the Tutor Hooks API 
 <https://discuss.openedx.org/t/simplifying-documenting-the-tutor-hooks-api/9258>`_
 
 Learner Experiences
@@ -58,29 +58,29 @@ Discussions Improvements
 ========================
 
 * The Posts page has been streamlined, allowing users to see more information at once.
-* Post load faster
+* Post load faster 
 * Comments and responses can now be sorted in reverse order.
-* Filter by discussion with no responses.
+* Filter by discussion with no responses. 
 
 Android App updates
 ===================
 
-* The Learner dashboard was updated. Profile was moved from the header to the footer. Learners can choose between viewing My Courses and My Programs.
+* The Learner dashboard was updated. Profile was moved from the header to the footer. Learners can choose between viewing My Courses and My Programs. 
 * The course header and course navigation have been updated
-* Learners will see a course dates shift banner in the course header when the server returns that dates needs shifting, similar to behavior in the web browser.
+* Learners will see a course dates shift banner in the course header when the server returns that dates needs shifting, similar to behavior in the web browser. 
 
 .. image:: /_images/community/release_notes/palm/android_shift_due_dates.png
     :width: 50%
-    :alt: screenshot of Android banner for shifting due dates
+    :alt: screenshot of Android banner for shifting due dates 
 
 iOS App updates
 ===============
 
-* Learners will see a course dates shift banner in the course header when the server returns that dates needs shifting, similar to behavior in the web browser.
+* Learners will see a course dates shift banner in the course header when the server returns that dates needs shifting, similar to behavior in the web browser. 
 
 .. image:: /_images/community/release_notes/palm/ios_shift_due_dates.png
     :width: 50%
-    :alt: screenshot of iOS banner for shifting due dates
+    :alt: screenshot of iOS banner for shifting due dates 
 
 
 Other New Features
@@ -89,64 +89,68 @@ Other New Features
 * Support for Persian language (locale code :code:`fa_IR`) with 100% translate and reviewed.
 
 
+
+
 Instructor Experiences
 **********************
 
 New Visual Problem Editor
 =========================
 
-The release includes an experimental improved problem-authoring experience with an interactive editor. When enabled, writing markdown
-code is no longer necessary. But, the advanced mode is still available, maintaining the ability to write and edit
+The release includes an experimental improved problem-authoring experience with an interactive editor. When enabled, writing markdown 
+code is no longer necessary. But, the advanced mode is still available, maintaining the ability to write and edit 
 OLX XML.
 
-The Open edX wiki page `[2U] New Visual Problem Editor <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2023/04/07/3724312593/2U+New+Visual+Problem+Editor>`_
-provides a brief explanation of what has changed in the problem editor. Updated detailed instructions on writing
+The Open edX wiki page `[2U] New Visual Problem Editor <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2023/04/07/3724312593/2U+New+Visual+Problem+Editor>`_ 
+provides a brief explanation of what has changed in the problem editor. Updated detailed instructions on writing 
 problems can be found in section `8.4. Working with Problem Components <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_components/create_problem.html#working-with-problem-components>`_ of the Building and Running an edX Course documentation.
 
-The Visual Problem Editor is hosted in the existing Course Authoring Micro-frontend. To enable the Visual Problem Editor, add the waffle flag
+The Visual Problem Editor is hosted in the existing Course Authoring Micro-frontend. To enable the Visual Problem Editor, add the waffle flag 
 :code:`new_core_editors.use_new_problem_editor` and set the value to “Yes” for all users.
 
 New ORA Grading Experience
 ==========================
 
-In this new on-platform grading experience one can easily preview common file types, assign rubric values, provide
-comments, and coordinate grading with all members of the course teams. Complete documentation is in section
-`10.26.4. Staff Grading for Open Response Assignments
-<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#staff-grading-for-open-response-assignments>`_  of the Building and Running an edX Course documentation.
+In this new on-platform grading experience one can easily preview common file types, assign rubric values, provide 
+comments, and coordinate grading with all members of the course teams. Complete documentation is in section 
+`10.26.4. Staff Grading for Open Response Assignments 
+<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#staff-grading-for-open-response-assignments>`_  of the Building and Running an edX Course documentation. 
 
-The new ORA grading experience depends on the ORA Grading Micro-frontend, which was included as an experimental
+The new ORA grading experience depends on the ORA Grading Micro-frontend, which was included as an experimental 
 feature in Olive. To turn on the feature, add the feature flag :code:`openresponseassessment.enhanced_staff_grader`.
 
 New Bulk Email Experience
 =========================
 
-The new bulk email experience for instructors is enabled automatically for any courses that are configured for sending bulk emails. See the Eucalyptus release notes for instructions on configuring bulk email.
+The new bulk email experience for instructors is enabled automatically for any courses that are configured for sending bulk emails. See the Eucalyptus release notes for instructions on configuring bulk email. 
 
 The instructor editing experience is largely the same, with choices of who to send the email to, and places to author the subject and body of the email:
 
 .. image:: /_images/community/release_notes/palm/communications_send_an_email.png
-    :alt: Send and Email interface for sending bulk emails
+    :alt: Send and Email interface for sending bulk emails 
 
 The new experience also allows an experimental feature for instructors to schedule bulk emails, rather than sending them immediately. This feature requires a cron service which isn't currently included in Tutor. For more details see `Processing Scheduled Instructor Tasks <https://github.com/openedx/edx-platform/blob/b74138f2e67d9c636286f4e4633316aed051d21f/lms/djangoapps/instructor_task/docs/decisions/002-processing-scheduled-instructor-tasks.rst#L21>`_
+
+
 
 Other Studio Updates
 ====================
 
-* Using the setting, :code:`FEATURES['ENABLE_CREATOR_GROUP']`, users with CourseCreate permission can choose their organization from a drop-down in Studio.
-* Drag and Drop has been moved out of advanced problem types, and now appears along side other problems in Studio.
-* The "jump_to_id" hint in the Unit View will now pre-fill with the current location ID. This should avoid course authors copying and pasting the generic text.
+* Using the setting, :code:`FEATURES['ENABLE_CREATOR_GROUP']`, users with CourseCreate permission can choose their organization from a drop-down in Studio. 
+* Drag and Drop has been moved out of advanced problem types, and now appears along side other problems in Studio.  
+* The "jump_to_id" hint in the Unit View will now pre-fill with the current location ID. This should avoid course authors copying and pasting the generic text. 
 
 
 Administrators & Operators
 **************************
 
-Experimental New Learner Home Page
+Experimental New Learner Home Page 
 ==================================
 
-The new Learner Home has many of the same features of the old learner dashboard, with some extended functionality and
-performance enhancements. Tutor operators can deploy the new Learner Home using the an `experimental learner-dashboard-mfe plugin <https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-learner-dashboard-mfe#learner-dashboard-mfe-plugin-for-tutor>`_
+The new Learner Home has many of the same features of the old learner dashboard, with some extended functionality and 
+performance enhancements. Tutor operators can deploy the new Learner Home using the an `experimental learner-dashboard-mfe plugin <https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-learner-dashboard-mfe#learner-dashboard-mfe-plugin-for-tutor>`_  
 
-* The Learner Home is now built with Paragon, the Open edX design pattern library. It is accessible and easy to style with brand colors.
+* The Learner Home is now built with Paragon, the Open edX design pattern library. It is accessible and easy to style with brand colors. 
 * Course cards show the course thumbnail, information about the course, and the ability to upgrade to a paid track or view/begin a course (if applicable). Further course actions (e.g. unenroll, email opt-out settings, and social media share) have been moved to the menu/triple dot icon on the course card.
 * Clicking the “Refine” button opens options to filter by course status or sort either by most recent enrollment (default) or title.
 
@@ -159,15 +163,15 @@ performance enhancements. Tutor operators can deploy the new Learner Home using 
     :alt: Next, previous and page number buttons appear below the list of courses
 
 * Site staff can now masquerade as users on the platform by typing a username or email in the “View as” box and hitting submit. This is designed to be “view only” so change actions (e.g. enroll, unenroll, selecting a session) are blocked in this view.
-* There is a complete list of changes in the `Open edX wiki <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/11/21/3584589831/2U+New+Learner+Home+Page#Comparison-with-old-experience>`_.
+* There is a complete list of changes in the `Open edX wiki <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2022/11/21/3584589831/2U+New+Learner+Home+Page#Comparison-with-old-experience>`_. 
 
 Other Operator changes
 ======================
 
-* Mongo is updated to v4.4.
-* Added a setting :code:`expiration_datetime_is_explicit` to the CourseMode model to override the default behavior of the Upgrade Deadline where it is set to be 10 days after the course start date.
-* Operators can now use a shared ElasticSearch installation for multiple OpenedX instances, using the setting :code:`ELASTIC_SEARCH_INDEX_PREFIX`.
-* the Micro-frontend (MFE) config setting `SUPPORT_URL` has been added to all MFEs. Use it to set the
+* Mongo is updated to v4.4. 
+* Added a setting :code:`expiration_datetime_is_explicit` to the CourseMode model to override the default behavior of the Upgrade Deadline where it is set to be 10 days after the course start date. 
+* Operators can now use a shared ElasticSearch installation for multiple OpenedX instances, using the setting :code:`ELASTIC_SEARCH_INDEX_PREFIX`. 
+* the Micro-frontend (MFE) config setting `SUPPORT_URL` has been added to all MFEs. Use it to set the 
 
 Settings and Toggles
 ====================
@@ -209,7 +213,7 @@ Deprecations & Removals
 ***********************
 
 * The Django setting :code:`JWT_AUTH.JWT_PRIVATE_SIGNING_JWK` can be removed from CMS configs if it is still present, as it has only been used by the LMS for some time now.
-* Most of the viewing code for PDF certificates was removed in previous releases. In the Palm release, we closed out this work with an ADR (Architecture Decision Record) on `Leaving PDF Certificate Fields in Certificates Model <https://github.com/openedx/edx-platform/blob/open-release/palm.master/lms/djangoapps/certificates/docs/decisions/008-certificate-model-remnants.rst>`_.
+* Most of the viewing code for PDF certificates was removed in previous releases. In the Palm release, we closed out this work with an ADR (Architecture Decision Record) on `Leaving PDF Certificate Fields in Certificates Model <https://github.com/openedx/edx-platform/blob/open-release/palm.master/lms/djangoapps/certificates/docs/decisions/008-certificate-model-remnants.rst>`_. 
 
 
 Developer Experience
@@ -232,10 +236,10 @@ New filters and hook events
 Researcher & Data Experiences
 *****************************
 
-* Tracking events have been added for reporting of threads, responses and comments, and for marking responses as endorsed.
+* Tracking events have been added for reporting of threads, responses and comments, and for marking responses as endorsed. 
 
 
 Known Issues
 ************
 
-* There are no known issues at this time.
+* There are no known issues at this time. 

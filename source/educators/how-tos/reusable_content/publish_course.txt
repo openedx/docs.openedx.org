@@ -11,7 +11,7 @@ After you have added content, you must publish it to make it available to learne
 
 #. For the section, click the Publish icon (|Publish Icon|).
 
-   .. note::
+   .. note:: 
       :class: dropdown
 
       The Publish icon appears only when there is new or changed content within the section.
@@ -22,7 +22,7 @@ After you have added content, you must publish it to make it available to learne
  Set Content Release Dates (task)
 
  Hide Content from Learners (task)
-
+ 
  Release Statuses of Sections (reference)
 
  Content Visibility (reference)

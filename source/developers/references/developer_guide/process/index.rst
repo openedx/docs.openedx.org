@@ -9,7 +9,6 @@ Contributing to the Open edX Project
 
     overview
     contributor
-    landing-your-work
     code-considerations
     FAQ-about-pull-requests
     pull-request-statuses

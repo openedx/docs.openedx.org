@@ -1,8 +1,8 @@
 .. _analytics:
 
-#########
+##############
 Analytics
-#########
+##############
 
 The edX LMS and Studio are instrumented to enable tracking of metrics and
 events of interest. These data can be used for educational research, decision
@@ -11,9 +11,9 @@ support, and operational monitoring.
 The primary mechanism for tracking events is the `Event Tracking`_ API. It
 should be used for the vast majority of cases.
 
-==============
+=================
 Event Tracking
-==============
+=================
 
 The `event-tracking`_ library aims to provide a simple API for tracking point-
 in-time events. The `event-tracking documentation`_ summarizes the features
@@ -21,7 +21,7 @@ and primary use cases of the library as well as the current and future design
 intent.
 
 Emitting Events
-***************
+*****************
 
 Emitting from server-side python code::
 
@@ -32,16 +32,15 @@ Emitting from client-side JavaScript::
 
     Logger.log 'some.event.name', 'foo': 'bar'
 
-Request Context Middleware
-**************************
-
-The platform includes a middleware class that enriches all events emitted
-during the processing of a given request with details about the request that
-greatly simplify downstream processing. This is called the ``TrackMiddleware``
-and can be found in ``edx-platform/common/djangoapps/track/middleware.py``.
+.. note::
+    The client-side API currently uses a deprecated library (the ``track``
+     djangoapp) instead of the event-tracking library. Eventually, event-tracking
+     will publish a client-side API of its own: when available, that
+     API should be used instead of the ``track``-based solution. See
+     :ref:`deprecated_api`.
 
 Naming Events
-=============
+==============
 
 Event names are intended to be formatted as `.` separated strings and help
 processing of related events. The structure is intended to be
@@ -59,7 +58,7 @@ Examples:
         * Action: ``activated``
 
 Choosing Events to Emit
-=======================
+========================
 
 Consider emitting events to capture user intent. These will typically be
 emitted on the client side when a user interacts with the user interface in
@@ -71,12 +70,6 @@ of a particular field at a particular moment in time. Given that many fields
 are overwritten, that information is lost unless an event is emitted when the
 model is changed.
 
-Consider the source of the event. Events sent from the client can be much
-more easily lost, manipulated, or blocked by browser extensions. Business
-critical events such as enrollments or grading should always be emitted from
-the server. User interface events, such as video interaction, have less
-inherent value to an adversary and are fine to trust to the client.
-
 Sensitive Information
 =====================
 
@@ -85,7 +78,7 @@ Therefore, do not include clear text passwords, credit card numbers, or other
 similarly sensitive information.
 
 Size
-====
+======
 
 A cursory effort to regulate the size of the event is appreciated. If an event
 is too large, it may be omitted from the event stream. However, do not
@@ -96,11 +89,7 @@ Debugging Events
 ================
 
 On devstack, emitted events are stored in the ``/edx/var/log/tracking.log`` log
-file. On Tutor dev or local the file is stored on the host computer at
-``$(tutor config printroot)/data/lms/logs/tracking.log`` and
-``$(tutor config printroot)/data/cms/logs/tracking.log``
-
-This file can be useful for validation and debugging.
+file. This file can be useful for validation and debugging.
 
 .. _Testing Event Emission:
 
@@ -232,6 +221,91 @@ Here is an example of a subclass.
             # call.
             self.assert_no_events_emitted()
 
+Bok Choy Testing
+----------------
+
+Test classes should use the mixin
+``common.test.acceptance.tests.helpers.EventsTestMixin``. At its core, this
+mixin captures all events that are emitted while the test is running and allows
+you to make assertions about those events. Below some common patterns are
+outlined. By default, Bok Choy event assertions are as lenient as possible. The
+tests can be made more strict by passing in ``tolerate=[]`` to indicate that an
+exact match is necessary. Similarly, other flags can be passed into the
+``tolerate`` parameter to tightly control the level of validation performed.
+
+Wait for some events and make assertions about their content.
+
+::
+
+    def test_foobar_event_emission(self):
+        emit_foobar_event()
+
+        # This will wait for the event to be emitted. It will time out if the
+        # event is not emitted quickly enough (or not emitted at all).
+        actual_events = self.wait_for_events({'event_type': 'foobar'})
+
+        # This will compare the first event emitted with the first expected
+        # event, the second with the second etc.
+        self.assert_events_match(
+          [
+            {'event': {'a': 'b'}}
+          ],
+          actual_events
+        )
+
+        # ``wait_for_events`` also accepts arbitrary callable functions to check
+        # to see if an event "matches"
+        def some_custom_event_filter(event):
+            return event['event']['old_time'] > 10
+
+        # This will return when some_custom_event_filter returns true for at
+        # at least one event.
+        actual_events = self.wait_for_events(some_custom_event_filter)
+
+    def test_multiple_events(self):
+        emit_several_events()
+
+        def my_event_filter(event):
+            return event['event_type'] in ('first_event', 'second_event')
+
+        # This will wait for 2 events to match the filter defined above. Note
+        # that it makes no assertions about their ordering or content.
+        actual_events = self.wait_for_events(my_event_filter, number_of_matches=2)
+
+        # This ensures that first_event was emitted before second_event and
+        # checks the payload of both events.
+        self.assert_events_match(
+          [
+            {
+              'event_type': 'first_event',
+              'event': {'a': 'b'}
+            },
+            {
+              'event_type': 'second_event',
+              'event': {'a': 'other'}
+            }
+          ],
+          actual_events
+        )
+
+    def test_granular_assertion(self):
+
+        # This foobar event is emitted first, with the "a" field set to "NOT B"
+        tracker.emit('foobar', {'a': 'NOT B'})
+
+        # A context manager can be used to ensure that the first "foobar" event
+        # is ignored. It only makes assertions about the events that are emitted
+        # inside this context.
+        with self.assert_events_match_during(
+            {'event_type': 'foobar'},
+            [
+              {
+                'event': {'a': 'b'}
+              }
+            ]
+        ):
+            emit_foobar_event()
+
 
 Documenting Events
 *******************
@@ -242,15 +316,24 @@ comments that identify the purpose of the event and its fields. Your
 descriptions and examples can help assure that researchers and other members
 of the open edX community understand your intent and use the events correctly.
 
-You must also update the `Event Reference documentation
-<https://docs.openedx.org/en/latest/developers/references/internal_data_formats/index.html>`_
-to include your changes. These documents are highly valuable for instructors,
-researchers, site operators, and others who use the tracking logs.
+You might find the following references helpful as you prepare your PR.
 
-The *Open edX Developer Guide* provides guidance for `contributing`_
-to the Open edX project.
+* The *edX Platform Developer's Guide* provides guidelines for `contributing
+  to open edX <http://edx.readthedocs.io/projects/edx-developer-
+  guide/en/latest/process/index.html>`_.
 
-.. _contributing: https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html
+* The `edX Research
+  Guide <http://edx.readthedocs.io/projects/devdata/en/latest/>`_ is a
+  reference for information about emitted events that are included in the edX
+  tracking logs.
+
+Request Context Middleware
+**********************************
+
+The platform includes a middleware class that enriches all events emitted
+during the processing of a given request with details about the request that
+greatly simplify downstream processing. This is called the ``TrackMiddleware``
+and can be found in ``edx-platform/common/djangoapps/track/middleware.py``.
 
 Legacy Application Event Processor
 **********************************

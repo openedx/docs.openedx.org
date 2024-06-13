@@ -106,6 +106,15 @@ version of the code (as opposed to the most recent named release):
   git clone --branch=nightly https://github.com/overhangio/tutor.git
   pip install -e "./tutor[full]"
 
+If you are using ARM-64 (such as a MacBook M1 or M2), then install this extra plugin and enable it
+(if you're not, then skip this step):
+
+.. code-block:: bash
+
+  pip install git+https://github.com/open-craft/tutor-contrib-arm64
+  tutor plugins enable arm64
+  tutor config save
+
 Finally, let's configure and provision your Open edX instance!
 You will be asked a couple questions.
 Answer them however you like, although the default answers will work fine.
@@ -256,13 +265,6 @@ Push the Commit to Your Fork
 Now push your changes to a new branch in your fork::
 
     git push --set-upstream origin developer_quickstart
-
-If you get a ``fatal: Authentication failed`` error, authenticate Git Hub by running::
-
-   gh auth login
-
-Learn more about authentication `here <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>`_.
-
 
 Create A Pull Request
 *********************

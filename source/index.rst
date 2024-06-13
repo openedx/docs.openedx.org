@@ -108,7 +108,7 @@ Open edX Documentation
          :color: primary
          :outline:
          :expand:
-
+         
          Site Operators' Home
 
    .. grid-item-card::
@@ -129,7 +129,7 @@ Open edX Documentation
          :color: primary
          :outline:
          :expand:
-
+         
          Developers' Home
 
    .. grid-item-card::
@@ -150,7 +150,7 @@ Open edX Documentation
          :color: primary
          :outline:
          :expand:
-
+         
          Documentors' Home
 
    .. grid-item-card::
@@ -171,7 +171,7 @@ Open edX Documentation
          :color: primary
          :outline:
          :expand:
-
+         
          Translators' Home
 
    .. grid-item-card::

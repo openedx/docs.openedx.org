@@ -37,7 +37,7 @@ Steps
 4. Commit the changes to a branch and get the PR reviewed and merged.
 
    .. image:: /_images/developer_how_tos/python-requirements-upgrade-make-pr.png
-      :alt: An image of the UI for making a branch for your changes.
+      :alt: An image of the UI formaking a branche for your changes.
 
 5. Next, add the `edx-requirements-bot` team to your repository with ``write``
    permissions.  It will be at the following url with ``<repo_name>`` replaced

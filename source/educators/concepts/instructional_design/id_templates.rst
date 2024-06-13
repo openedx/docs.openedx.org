@@ -1,5 +1,5 @@
 Instructional Design Templates
-##############################
+########################################
 
 .. contents:: Table of Contents
    :local:
@@ -9,7 +9,7 @@ Instructional Design Templates
 .. _LearningOutcomesTemplate:
 
 Learning Outcome & Alignment Worksheet
-**************************************
+****************************************
 
 It is important to write learning outcomes and align your learning activities and assessments to those outcomes. Learning outcomes should be measurable and achievable within the parameters of the course and start with a learning verb (see Bloom’s Taxonomy for suggestions).
 
@@ -24,7 +24,7 @@ Filling out the worksheet below will allow you to ensure that your course follow
 .. _ResourceAnalysisTemplate:
 
 Resource Analysis Template
-**************************
+****************************************
 
 A resource, or content, analysis, can help your team discover which pieces of content need to be created, and which pieces of content already exist and can be used in your course. This worksheet will help your team determine how much content needs to be created which can aid in determining a course development timeline. You can also use this worksheet to ensure that you have multiple types of content (video, text, slide decks, etc.) to support the preferences of all learners.
 
@@ -36,7 +36,7 @@ A resource, or content, analysis, can help your team discover which pieces of co
 .. _AudienceAnalysisTemplate:
 
 Audience Analysis Template
-**************************
+****************************************
 
 An Audience Analysis outlines who your audience is, their common characteristics, and why they might be interested in your course. Keeping your audience in mind as you build your course will help to create a course that is relevant and interesting to them.
 
@@ -48,7 +48,7 @@ An Audience Analysis outlines who your audience is, their common characteristics
 .. _CourseOutlineTemplate:
 
 Course Outline Template
-***********************
+****************************************
 
 The course outline is used to track every aspect of the course throughout the various stages of development. This outline allows you to track each item that will be included in your course. You can also use this document as a project management tool to create notes about content, to assign responsibilities to team members. This outline should be used to track progress and create status documents. Ideally, you will share this document with your team so that each person can have access to the most current outline.
 
@@ -60,7 +60,7 @@ The course outline is used to track every aspect of the course throughout the va
 .. _GradingChartTemplate:
 
 Grading Chart
-*************
+****************************************
 
 Most courses will have a variety of assessments that provide learners multiple opportunities to show evidence of their learning. A grading chart like the one below will help you track the assessments in the course and ensure that you have correctly weighted all of the assessments. This chart can also help you to keep track of assignment deadlines for both learners and course instructors.
 
@@ -72,7 +72,7 @@ Most courses will have a variety of assessments that provide learners multiple o
 .. _QualityControlTemplate:
 
 Quality Control Template
-************************
+****************************************
 
 In the final stages of the course development process you will need to spend time reviewing your course for elements that include not only the course content and assessments, but the course about page, certificates (if applicable), and other items that can easily be forgotten during course development. This template should be edited to fit your organization or client’s needs, but it provides a template for many of the items that you should be checking before you launch your course. Keep in mind that reviewing for accessibility (image alt tags, transcripts, etc.) is an important part of this process.
 
@@ -84,7 +84,7 @@ In the final stages of the course development process you will need to spend tim
 .. _CommunicationPlanTemplate:
 
 Communication Plan Template
-***************************
+****************************************
 
 One way to ensure learner engagement is to consistently communicate with your learners. There are various options for communicating with your learners and it is important to plan out through which methods and how often you will communicate with the learners in your course. This example communication plan provides some suggestions on items that should be included in your communication plan but will likely need to be modified to fit the needs of each organization.
 
@@ -96,7 +96,7 @@ One way to ensure learner engagement is to consistently communicate with your le
 .. _SupportCalendarTemplate:
 
 Support Calendar Template
-*************************
+****************************************
 
 If your team is involved in the delivery of a course, you may want to spend some time creating a support calendar (or encouraging your SMEs/instructors to create one). A support calendar lists all of the responsibilities that are needed for delivery from releasing content to providing assignment feedback and communicating with students. You can set deadlines and assign each item to a member of your team.
 

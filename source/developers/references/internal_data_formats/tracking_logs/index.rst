@@ -1,8 +1,8 @@
 .. _Tracking Logs:
 
-###########################
+############################################
 Events in the Tracking Logs
-###########################
+############################################
 
 This section provides reference information about the event data that is
 delivered in data packages. Events are emitted by the server, the browser, or

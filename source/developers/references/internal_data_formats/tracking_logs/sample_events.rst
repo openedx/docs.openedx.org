@@ -1,7 +1,8 @@
 .. _sample_events:
 
+*************************
 Reviewing a Sample Event
-########################
+*************************
 
 A sample event from an edX.log file follows. This sample was edited to remove
 personally identifiable information. Events are stored in JSON documents, which

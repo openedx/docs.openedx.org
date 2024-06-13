@@ -1,5 +1,5 @@
 Documentation Audiences
-#######################
+########################
 
 Open edX documentation is organized by the following audiences:
 

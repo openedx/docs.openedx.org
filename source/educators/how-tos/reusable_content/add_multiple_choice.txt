@@ -11,7 +11,7 @@
 
 #. From the list of problem types, select :guilabel:`Multiple Choice`.
 
-   The problem component is added at the end of the unit.
+   The problem componenet is added at the end of the unit.
 
 #. In the component, select :guilabel:`Edit`.
 

@@ -45,7 +45,7 @@ If you want a checkbox, use the ``<input type=checkbox>`` element. Do not try to
 recreate states and properties that are included with the native element, such
 as focus or state. If you attempt to do so, more than likely you will not fully
 replicate all of them. Native checkbox elements include a toggle for checked
-state upon ``space`` or ``enter`` key presses, exposing its label and
+state upon ``space`` or ``enter`` keypresses, exposing its label and
 "`checkedness <http://www.w3.org/TR/html5/forms.html#concept-fe-checked>`_" to
 the Accessibility API.
 
@@ -518,7 +518,7 @@ These are some automated tools for accessibility testing.
 * Your keyboard. For information about using your keyboard to test for
   accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
 
-* `Accessibility features in Chrome's Developer Tools <https://developers.google.com/web/updates/2018/01/devtools#a11y-pane>`_ allow you to see the Accessibility Tree, ARIA attributes, and computed properties
+* `Accessibility features in Chrome's Developer Tools <https://developers.google.com/web/updates/2018/01/devtools#a11y-pane>`_ allow you to see the Accessibilty Tree, ARIA attributes, and computed properties
 
 * `Lighthouse auditing tools <https://developers.google.com/web/tools/lighthouse>`_ built into Chrome's Developer Tools offer automated accessibility testing.
 

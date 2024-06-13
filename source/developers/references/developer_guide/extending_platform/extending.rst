@@ -1,9 +1,9 @@
 
 .. _Options for Extending the edX Platform:
 
-######################################
+##########################################
 Options for Extending the edX Platform
-######################################
+##########################################
 
 There are several options for extending the Open edX Platform to provide useful
 and innovative educational content in your courses.

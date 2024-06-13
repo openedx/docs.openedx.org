@@ -1,12 +1,12 @@
 Add Links in a Topic
-####################
+#####################
 
 You can include links to other locations in the same document, to locations in other documents and to external websites.
 
 For more information about creating links using RST and Sphinx, see `Sphinx Hyperlinks_`.
 
 Links to Sections in the Same Document
-**************************************
+****************************************************
 
 You can link from text to a heading in any other part of the document by using the ``:ref:`` command with the target heading text as the parameter. For example, this text in another part of this document would link to this section:
 
@@ -19,7 +19,7 @@ The heading text is printed as the link text.
 .. note:: The heading text in the link must match the heading exactly.
 
 Use Custom Link Text
-====================
+=======================
 
 For internal links that use text other than the heading for the section that you're linking to, use ``:ref:`custom text<Heading Text>``` syntax, as in the following example.
 
@@ -32,7 +32,7 @@ For internal links that use text other than the heading for the section that you
 In this example, **link to a different section** is the link text, and **Cross-References to Locations in the Same Document** is the heading text.
 
 Use a Custom Anchor
-===================
+====================
 
 When you have two sections with the same title in a project, you will get build errors when you have a link to either section, because Sphinx does not know which section to link to.
 
@@ -43,7 +43,7 @@ In this case, you can create a custom *anchor* directly above the title and link
   .. _RST Overview:
 
   Overview
-  ********
+  **********
 
   RST Overview content
 
@@ -51,7 +51,7 @@ In this case, you can create a custom *anchor* directly above the title and link
   .. _Sphinx Overview:
 
   Overview
-  ********
+  *********
 
   Sphinx Overview content
 
@@ -66,7 +66,7 @@ In a ``:ref:`` command, you then use the anchor text. For example:
 In both cases, the link text is the section title, **Overview**, unless you `Use Custom Link Text`_.
 
 Links to External Web Pages
-***************************
+*****************************************
 
 To link to an external web page, use the following syntax:
 
@@ -94,7 +94,7 @@ As a best practice, to avoid duplication, in Open edX documentation, all links a
 TO VERIFY
 
 Test External Links
-===================
+=========================
 
 You can use the built-in Sphinx command, ``checklinks`` to test all external
 links in your document. The command checks that a working web page is accessed

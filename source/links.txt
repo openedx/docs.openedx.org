@@ -6,7 +6,6 @@
 .. _GitHub repository: https://github.com/openedx/docs.openedx.org/issues/new
 
 .. _RST: http://docutils.sourceforge.net/rst.html
-
 .. _Sphinx: http://sphinx-doc.org
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
@@ -20,8 +19,3 @@
 .. _Github Forks: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
 
 .. _How to start contributing to the Open edX code base: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
-
-
-
-.. ###### WIP MIGRATION LINKS ######
-.. _edX Partner Portal: https://partners.edx.org

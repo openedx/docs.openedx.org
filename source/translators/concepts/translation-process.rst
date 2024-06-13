@@ -26,7 +26,7 @@ Annotating and Extracting Strings
 
 Given code like this:
 
-.. code-block:: python
+.. code-block::
 
    from django.utils.translation import ugettext as _
 
@@ -71,13 +71,13 @@ In order to use translated strings, they must be downloaded as files. Translatio
 are periodically updated in the openedx-translations_ repository.
 
 The openedx-atlas_ CLI tool was built to help you download translation files for a
-specific part of the codebase.
+specific part of the codebase. 
 
-.. code-block:: bash
+.. code-block::
 
    cd /path/to/credentials
    # pull down the latest translations for all available
-   # languages for the credentials application
+   # languages for the credentials application 
    atlas pull --directory credentials
 
 Once the translations have been downloaded, you can simply start up the service and the

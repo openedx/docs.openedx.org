@@ -1,5 +1,5 @@
 Educators: How-tos
-##################
+##################################
 
 .. grid:: 1 2 2 2
    :gutter: 3
@@ -50,7 +50,6 @@ Educators: How-tos
          add_image
          add_content_iframe
          copy_paste_course_content
-         copy_paste_units
          manage_files
          add_course_updates
          import_scorm_content

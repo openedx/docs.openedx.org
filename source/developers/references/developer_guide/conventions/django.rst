@@ -1,16 +1,16 @@
 .. _Django Good Practices:
 
-#####################
+*********************
 Django Good Practices
-#####################
+*********************
 
 .. contents::
  :local:
  :depth: 2
 
-*******
+=======
 Imports
-*******
+=======
 
 Always import from the root of the project::
 

@@ -2,7 +2,7 @@
 
   .. thumbnail:: /_images/Educators_create_course.png
 
-.. Note::
+.. Note:: 
   :class: dropdown
 
   The Organization, Course Number, and Course run values you enter when creating a course are part of the learner-visible course URL and cannot be changed. The base URL for the new course is in the format:

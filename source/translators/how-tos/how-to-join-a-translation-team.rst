@@ -17,7 +17,7 @@ To join a translation team you must complete these steps:
    as documented in `Understanding User Roles`_. You will start off in the "Translator"
    role.
 
-#. Join the Transifex `openedx-translations project`_ with the language(s) you wish
+#. Join the Transifex `edx-platform project`_ with the language(s) you wish
    to translate to. Please be proficient in both English and the language you wish to
    translate to! If that language does not yet exist, you may follow the directions
    in :doc:`/translators/how-tos/how-to-request-a-new-language` to add it.
@@ -29,6 +29,6 @@ To join a translation team you must complete these steps:
 .. _Transifex: https://www.transifex.com/signup/
 .. _getting   started guide: https://docs.transifex.com/getting-started-1/translators
 .. _Translating with the Web Editor: https://docs.transifex.com/translation/translating-with-the-web-editor
-.. _openedx-translations project: https://explore.transifex.com/open-edx/openedx-translations/
+.. _edx-platform project: https://explore.transifex.com/open-edx/edx-platform/
 .. _Open edX Community: https://openedx.org/community/connect/
 .. _Understanding User Roles: https://docs.transifex.com/teams/understanding-user-roles

@@ -84,7 +84,7 @@ Studio and Course Author Tools
 * The problem component for open response assessments has been renamed from
   "Peer Assessment" to "Open Response Assessment."
 
-* The instructor dashboard includes an **Open Response Assessment** tab to help
+* The instructor dashboard includes an **Open Response Assessent** tab to help
   locate and access open response assessments and provide data about learner
   progress in completing responses and peer assessments.
 
