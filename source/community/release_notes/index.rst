@@ -11,7 +11,7 @@ The *Open edX Platform Release Notes* provide information about releases, migrat
 .. toctree::
     :maxdepth: 2
 
-    Redwood: The next release <redwood>
-    Quince: The current release <quince>
+    Redwood: The current release <redwood>
+    Sumac: The next release <sumac>
     named_release_branches_and_tags
     old_releases
