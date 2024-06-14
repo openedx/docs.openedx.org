@@ -69,32 +69,54 @@ Administrators & Operators
 Settings and Toggles
 ====================
 
-Waffle flags:
+Waffle flags Added In Redwood:
 
-`contentstore.new_studio_mfe.use_new_advanced_settings_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L284>`_
+`ANONYMOUS_SURVEY_REPORT <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/lms/envs/common.py#L5523>`_
+`ENFORCE_SESSION_EMAIL_MATCH <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L5110>`_
+`FEATURES['ENABLE_BLAKE2B_HASHING'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L1068>`_
+`FEATURES['ENABLE_CERTIFICATES_INSTRUCTOR_MANAGE] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/instructor/settings/common.py#L95>`_
+`FEATURES['ENABLE_COURSEWARE_SEARCH_VERIFIED_REQUIRED'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L1059>`_
+`FEATURES['ENABLE_GRADING_METHOD_IN_PROBLEMS'] - LMS <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L1050>`_
+`FEATURES['ENABLE_GRADING_METHOD_IN_PROBLEMS'] - CMS <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/cms/envs/common.py#L575>`_
+`FEATURES['ENABLE_HIDE_FROM_TOC_UI'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/cms/envs/common.py#L555>`_
+`FEATURES['ENABLE_HOME_PAGE_COURSE_API_V2'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/cms/envs/common.py#L565>`_
+`FEATURES['ENABLE_LTI_PII_ACKNOWLEDGEMENT'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/cms/envs/common.py#L497>`_
+`FEATURES['ENABLE_SEND_XBLOCK_LIFECYCLE_EVENTS_OVER_BUS'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/cms/envs/common.py#L542>`_
+`FEATURES['SEND_LEARNING_CERTIFICATE_LIFECYCLE_EVENTS_TO_BUS'] <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L1038>`_
+`JWT_AUTH_ADD_KID_HEADER: <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/oauth_dispatch/jwt.py#L279>`_
+`SURVEY_REPORT_ENABLE <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L5571>`_
+`agreements.enable_lti_pii_acknowledgement <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/agreements/toggles.py#L8>`_
+`commerce.transition_to_coordinator.checkout <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/commerce/waffle.py#L9>`_
+`commerce.transition_to_coordinator.refund <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/commerce/waffle.py#L23>`_
+`content_tagging.disabled <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/content_tagging/toggles.py#L22>`_
 `contentstore.new_studio_mfe.use_new_certificates_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L484>`_
-`contentstore.new_studio_mfe.use_new_course_outline_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L424>`_
-`contentstore.new_studio_mfe.use_new_course_team_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L464>`_
-`contentstore.new_studio_mfe.use_new_custom_pages <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L244>`_
-`contentstore.new_studio_mfe.use_new_export_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L364>`_
-`contentstore.new_studio_mfe.use_new_files_uploads_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L384>`_
-`contentstore.new_studio_mfe.use_new_grading_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L304>`_
 `contentstore.new_studio_mfe.use_new_group_configurations_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L524>`_
-`contentstore.new_studio_mfe.use_new_import_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L344>`_
-`contentstore.new_studio_mfe.use_new_schedule_details_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L264>`_
 `contentstore.new_studio_mfe.use_new_textbooks_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L504>`_
-`contentstore.new_studio_mfe.use_new_unit_page (disabled) <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L444>`_
-`contentstore.new_studio_mfe.use_new_updates_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L324>`_
-`contentstore.new_studio_mfe.use_new_video_uploads_page (disabled) <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L404>`_
-`new_studio_mfe.use_new_home_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L225>`_
+`course_home.new_discussion_sidebar_view <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/course_home_api/toggles.py#L24>`_
+`teams.content_groups_for_teams <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/lib/teams_config.py#L22>`_
+`courseware.always_open_auxiliary_sidebar <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/courseware/toggles.py#L98>`_
+`courseware.disable_navigation_sidebar_blocks_caching <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/courseware/toggles.py#L71>`_
+`courseware.discovery_default_language_filter <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/courseware/toggles.py#L159>`_
+`courseware.enable_navigation_sidebar <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/courseware/toggles.py#L86>`_
+`discussions.enable_reported_content_notifications <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/discussion/toggles.py#L16>`_
+`notifications.enable_coursewide_notifications <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/notifications/config/waffle.py#L41>`_
+`notifications.enable_email_notifications <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/notifications/config/waffle.py#L61>`_
+`notifications.enable_notifications_filters <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/notifications/config/waffle.py#L31>`_
+`notifications.enable_ora_staff_notifications <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/notifications/config/waffle.py#L51>`_
+`student.redirect_to_courseware_after_enrollment <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/common/djangoapps/student/toggles.py#L29>`_
+`studio.enable_course_update_notifications <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/cms/djangoapps/contentstore/config/waffle.py#L58>`_
+`user_tours.tours_disabled <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/user_tours/toggles.py#L7>`_
+`video_config.transcript_feedback <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/video_config/toggles.py#L19>`_
+`video_config.xpert_translations_ui <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/video_config/toggles.py#L30>`_
+`ENABLE_AUTO_GENERATED_USERNAME <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/openedx/core/djangoapps/user_authn/toggles.py#L38>`_
+`EDX_DRF_EXTENSIONS[ENABLE_JWT_AND_LMS_USER_EMAIL_MATCH] <https://github.com/openedx/edx-drf-extensions/blob/85880da4c50fcfd7d3d5190444b848ae9f174968/edx_rest_framework_extensions/config.py#L19>`_
+`FEATURES['ENABLE_ORA_SELECTABLE_LEARNER_WAITING_REVIEW'] <https://github.com/openedx/edx-ora2/blob/8b320d69745a92aa64696c5f2617bd76dff88cb3/openassessment/xblock/config_mixin.py#L175>`_
+`enterprise.enterprise_groups_v1 <https://github.com/openedx/edx-enterprise/blob/007abaf5b10707607d47a9f9d89572b36d18b8e2/enterprise/toggles.py#L34>`_
+`enterprise.feature_prequery_search_suggestions <https://github.com/openedx/edx-enterprise/blob/007abaf5b10707607d47a9f9d89572b36d18b8e2/enterprise/toggles.py#L22>`_
+`EVENT_BUS_PRODUCER_CONFIG['org.openedx.content_authoring.course.catalog_info.changed.v1'] <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/cms/envs/common.py#L2849>`_
+`EVENT_BUS_PRODUCER_CONFIG['org.openedx.learning.course.unenrollment.completed.v1'] <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/lms/envs/common.py#L5428>`_
+`EVENT_BUS_PRODUCER_CONFIG['org.openedx.learning.xblock.skill.verified.v1'] <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/lms/envs/common.py#L5443>`_
 
-Course authoring MFE config:
-
-ENABLE_UNIT_PAGE: "false"
-ENABLE_NEW_EDITOR_PAGES: "true"
-ENABLE_TAGGING_TAXONOMY_PAGES: "true"
-ENABLE_ASSETS_PAGE: "true"
-ENABLE_HOME_PAGE_COURSE_API_V2: "true"
 
 Other Operator Changes
 ======================
