@@ -17,43 +17,43 @@ Breaking Changes
    ``JWT_AUTH['JWT_PRIVATE_SIGNING_JWK']`` Django setting in LMS
    contains the full complement of private key numbers.*
 
-   -  **Background:**\ *In LMS, we are switching from the pyjwkest
+   -  Background: In LMS, we switched from the pyjwkest
       library to PyJWT for signing JWTs. (pyjwkest is now unmaintained.)
       However, PyJWT has stricter requirements for the private key in
       ``JWT_PRIVATE_SIGNING_JWK``. Before you upgrade to Redwood, you
       will need to update this key using a script. Otherwise, JWT
-      signing will fail, and users will be unable to log in.*
+      signing will fail, and users will be unable to log in.
 
-   -  **Steps:**
+   -  Steps:
 
       1. Locate ``JWT_PRIVATE_SIGNING_JWK`` in your deployment
-         configuration.*
+         configuration.
 
       2. Check if the JSON contains all of the following params: ``p``,
          ``q``, ``dp``, ``dq``, and ``qi``. If it does, you don’t need
-         to do anything further. Otherwise, continue.*
+         to do anything further. Otherwise, continue.
 
       3. In your edx-platform virtualenv, run
          ``python3 scripts/jwk-precompute-params.py`` and follow the
-         prompts. (It will ask you to paste in the current JSON.)*
+         prompts. (It will ask you to paste in the current JSON.)
 
       4. Update your config’s ``JWT_AUTH['JWT_PRIVATE_SIGNING_JWK']``
-         with the output of the script.*
+         with the output of the script.
 
       5. You may wish to compare the contents of the private key before
          and after running the script, and verify that the only changes
          it has made to the contents of the JSON are that the ``p``,
          ``q``, ``dp``, ``dq``, and ``qi`` params have been added. (Some
-         or all may already have been present.)*
+         or all may already have been present.)
 
-   -  **Notes:**
+   -  Notes:
 
       1. This should be done while you are still running Quince—it is
          safe to do ahead of the upgrade, and should not have any
-         visible effect at that time.*
+         visible effect at that time.
 
       2. This key must be handled very carefully. Anyone in possession
-         of the key may impersonate users.*
+         of the key may impersonate users.
 
 Learner Experiences
 *******************
