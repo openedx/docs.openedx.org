@@ -55,6 +55,15 @@ Breaking Changes
       2. This key must be handled very carefully. Anyone in possession
          of the key may impersonate users.
 
+- `studio_home.enable_global_staff_optimization flag no longer works in Studio MFE <https://github.com/openedx/wg-build-test-release/issues/380>`_
+   - Background: Basically, this flag worked for the legacy Studio Home, improving performance by
+     adding an organization search bar. But as the report mentions, it's not working
+     correctly in the Studio Home MFE. The good thing is that this flag is not needed
+     in the Studio Home MFE since we already have a search bar and pagination, which
+     improves performance for those home pages with lots of courses. I wouldn't consider
+     it a "breaking change" but a known issue for those who want to turn on the Studio
+     Home MFE and are using the flag.
+
 Learner Experiences
 *******************
 
@@ -232,3 +241,5 @@ Researcher & Data Experiences
 
 Known Issues
 ************
+
+Please refer to `this board <https://github.com/orgs/openedx/projects/28/views/16>`_ for known issues with Redwood.
