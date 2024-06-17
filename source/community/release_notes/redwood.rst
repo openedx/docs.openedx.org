@@ -64,7 +64,10 @@ Breaking Changes
      it a "breaking change" but a known issue for those who want to turn on the Studio
      Home MFE and are using the flag.
 
-Learner Experiences
+Learner & Instructor Experiences
+*********************************
+
+See the Product Release Notes.
 *******************
 
 
