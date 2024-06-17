@@ -81,7 +81,7 @@ Administrators & Operators
 Settings and Toggles
 ====================
 
-Waffle flags Added In Redwood:
+Waffle flags added In Redwood:
 
 `ANONYMOUS_SURVEY_REPORT <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/lms/envs/common.py#L5523>`_
 `ENFORCE_SESSION_EMAIL_MATCH <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/envs/common.py#L5110>`_
