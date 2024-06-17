@@ -15,7 +15,7 @@ Breaking Changes
 
 -  Deployers must ensure that their
    ``JWT_AUTH['JWT_PRIVATE_SIGNING_JWK']`` Django setting in LMS
-   contains the full complement of private key numbers.*
+   contains the full complement of private key ``numbers.*``
 
    -  Background: In LMS, we switched from the pyjwkest
       library to PyJWT for signing JWTs. (pyjwkest is now unmaintained.)
