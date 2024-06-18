@@ -157,7 +157,7 @@ Other Operator Changes
    table grows endlessly, and the migrations on the table caused by
    updating the ``social-auth-app-django`` package can run out of
    memory. If maintainers have migration failures on this upgrade, they
-   should run the management command `truncate_social_auth <https://github.com/openedx/credentials/blob/master/credentials/apps/core/management/commands/truncate_social_auth.py>`_.*
+   should run the management command `truncate_social_auth <https://github.com/openedx/credentials/blob/master/credentials/apps/core/management/commands/truncate_social_auth.py>`_.
 
    -  This will remove all entries from the ``usersocialauth`` table
       that haven't been updated in 90 days, which makes the size of the
