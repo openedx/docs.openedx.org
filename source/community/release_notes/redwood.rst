@@ -198,7 +198,7 @@ Other Operator Changes
       CMS as well as set ``MEILISEARCH_ENABLED=true`` in the Course
       Authoring MFE settings.
 
-   -  To create and populate the search index, you must run a one-time
+   -  Whether or not you're using Tutor, you'll need to create and populate the search index. To do so, you must run a one-time
       command from the CMS shell:
       ``python manage.py cms reindex_studio --experimental``. This
       command may take a while if you have a lot of courses and/or
