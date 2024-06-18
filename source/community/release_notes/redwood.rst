@@ -223,7 +223,7 @@ Deprecations & Removals
       option will need to switch to setting
       ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See `Nutmeg Announcement <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg#CLOSEST_CLIENT_IP_FROM_HEADERS>`_ for
       details.*
--  *Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac*
+-  Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac
    - `[DEPR]: Asset processing in Paver <https://github.com/openedx/edx-platform/issues/31895>`_.
    -  *Non deployment paver commands will be removed by Sumac*
 -  *The django-splash capability was removed from edx-platform and the relevant code has been archived.*
