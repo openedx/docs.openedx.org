@@ -221,7 +221,7 @@ Deprecations & Removals
 
    -  *Any deployment that has been relying on this legacy IP address
       option will need to switch to setting
-      ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See `Nutmeg Announcement <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949>`_ for
+      ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See `Nutmeg Announcement <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg#CLOSEST_CLIENT_IP_FROM_HEADERS>`_ for
       details.*
 -  *Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac*
    - `[DEPR]: Asset processing in Paver <https://github.com/openedx/edx-platform/issues/31895>`_.
