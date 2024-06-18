@@ -166,7 +166,7 @@ Other Operator Changes
 
 -  The scripts related to user retirement across all services
    have been moved to the ``edx-platform`` repository. If you’ve been
-   using the tubular repo to run retirement scripts you should update
+   using the `unsupported tubular repository <https://github.com/openedx-unsupported/tubular>`_ to run retirement scripts you should update
    your code.*
 
    -  *Relevant Tickets*
