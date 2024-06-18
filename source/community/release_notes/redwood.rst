@@ -174,7 +174,10 @@ Other Operator Changes
       - `Move user retirement scripts code from the tubular repo <https://github.com/openedx/edx-platform/pull/34063>`_.
       - `Deprecate User Retirement Scripts <https://github.com/openedx-unsupported/tubular/pull/736>`_.
 
--  *edx-platform and cs_comment_service Mongo Upgrades*
+-  edx-platform and cs_comment_service Mongo Upgrades
+      - Operators will need to `update their Mongo databases to Mongo 7 <https://www.mongodb.com/docs/manual/tutorial/upgrade-revision/#upgrade-to-the-latest-patch-release-of-mongodb>`_ to ensure their deployments don't break in the future. 
+      - Operators will need to update their forums' Ruby version from 3.0 to 3.3.
+      - If you're running Tutor and your Mongo/Ruby are in Tutor, they will get automatically upgraded.
       - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>`_.
       - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>`_.
 
