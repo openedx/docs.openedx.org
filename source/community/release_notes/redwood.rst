@@ -167,7 +167,7 @@ Other Operator Changes
 -  The scripts related to user retirement across all services
    have been moved to the ``edx-platform`` repository. If you’ve been
    using the `unsupported tubular repository <https://github.com/openedx-unsupported/tubular>`_ to run retirement scripts you should update
-   your code.*
+   your code.
 
    -  *Relevant Tickets*
       - `Move user retirement code to edx-platform and drop it from Tubular <https://github.com/openedx/axim-engineering/issues/881>`_.
