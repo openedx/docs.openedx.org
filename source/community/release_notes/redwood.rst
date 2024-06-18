@@ -147,7 +147,7 @@ Other Operator Changes
    characters to 8 characters. `(PR) <https://github.com/openedx/edx-platform/pull/33373>`_.
 
    -  For users with an existing password, this change alone will not
-      force you to update it. However if you reset your password or go
+      force them to update it. However if they reset their password or go
       to change it, you'll have to conform to the new guidelines. If you
       would like to force people to update their password, you'll
       probably want to take a look at `the password_policy plugin and its settings <https://github.com/openedx/edx-platform/blob/2033dcf6ace133719aaeb72dc5dd6ee521a7ac42/openedx/core/djangoapps/password_policy/settings/common.py#L13>`_
