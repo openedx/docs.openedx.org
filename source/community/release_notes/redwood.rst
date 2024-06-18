@@ -212,7 +212,7 @@ Other Operator Changes
 
    -  Please share your feedback about Meilisearch, indexing, and
       operations in `this Discourse thread <https://discuss.openedx.org/t/is-meilisearch-a-viable-upgrade-alternative-to-opensearch/12400>`_ or the `#ops <https://openedx.slack.com/archives/C08B4LZEZ>`_ Slack channel. Please share feedback about
-      the new course search feature in general `in the discussion forums <https://discuss.openedx.org/t/feedback-thread-new-course-search/13076>`_ or in the `#wg-product-core <https://openedx.slack.com/archives/C057J2D1WU9>`_ Slack channel.*
+      the new course search feature in general `in the discussion forums <https://discuss.openedx.org/t/feedback-thread-new-course-search/13076>`_ or in the `#wg-product-core <https://openedx.slack.com/archives/C057J2D1WU9>`_ Slack channel.
 
 
 Deprecations & Removals
