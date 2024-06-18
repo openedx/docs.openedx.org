@@ -194,7 +194,7 @@ Other Operator Changes
       internet.
 
    -  If you are not using Tutor, you’ll need to install Meilisearch
-      manually (or use the cloud product), and to explicitly set `the related config variables <https://github.com/openedx/edx-platform/blob/aac70563fd8a1492af25ae1b9aa9d14c42b36a18/cms/envs/common.py#L2958-L2969>`_ in the
+      manually (or use the cloud product) and explicitly set `the related config variables <https://github.com/openedx/edx-platform/blob/aac70563fd8a1492af25ae1b9aa9d14c42b36a18/cms/envs/common.py#L2958-L2969>`_ in the
       CMS as well as set ``MEILISEARCH_ENABLED=true`` in the Course
       Authoring MFE settings.*
 
