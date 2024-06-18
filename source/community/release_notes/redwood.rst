@@ -149,7 +149,7 @@ Other Operator Changes
    -  For users with an existing password, this change alone will not
       force them to update it. However if they reset their password or go
       to change it, they'll have to conform to the new guidelines. If you
-      would like to force people to update their password, you'll
+      would like to force people to update their password, you
       probably want to take a look at `the password_policy plugin and its settings <https://github.com/openedx/edx-platform/blob/2033dcf6ace133719aaeb72dc5dd6ee521a7ac42/openedx/core/djangoapps/password_policy/settings/common.py#L13>`_
 
 -  The following `requirements update <https://github.com/openedx/credentials/commit/1cd7c25c04a955aa9aaa263fb40ebd3f73d0937e>`_ into credentials might have implications for anyone
