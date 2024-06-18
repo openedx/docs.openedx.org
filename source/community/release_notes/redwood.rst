@@ -261,7 +261,15 @@ Developer Experience
 Researcher & Data Experiences
 *****************************
 
+`Aspects <https://docs.openedx.org/projects/openedx-aspects/en/latest/index.html>`_ 
+is an analytics system for the Open edX platform, bringing actionable data
+about course and learner performance to instructors and site operators. It is primarily
+a Tutor plugin that ties together data from the Open edX learning management system
+and Studio using open source tools to aggregate and transform learning traces into data
+visualizations.
 
+See the `Aspects configuration documentation <https://docs.openedx.org/projects/openedx-aspects/en/latest/how-tos/production_configuration.html>`_
+to learn about setting up Aspects for your production environment.
 Known Issues
 ************
 
