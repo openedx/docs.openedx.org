@@ -146,7 +146,7 @@ Other Operator Changes
 -  The default minimum password length has been updated from 2
    characters to 8 characters. `(PR) <https://github.com/openedx/edx-platform/pull/33373>`_.
 
-   -  If you have an existing password, this change alone will not
+   -  For users with an existing password, this change alone will not
       force you to update it. However if you reset your password or go
       to change it, you'll have to conform to the new guidelines. If you
       would like to force people to update their password, you'll
