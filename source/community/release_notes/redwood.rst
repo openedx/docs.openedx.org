@@ -162,7 +162,7 @@ Other Operator Changes
    -  This will remove all entries from the ``usersocialauth`` table
       that haven't been updated in 90 days, which makes the size of the
       table tractable for the dependency's migration. This is harmless
-      in the ``Credentials`` IDA.*
+      in the ``Credentials`` IDA.
 
 -  The scripts related to user retirement across all services
    have been moved to the ``edx-platform`` repository. If you’ve been
