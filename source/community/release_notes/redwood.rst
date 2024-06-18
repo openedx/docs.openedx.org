@@ -208,7 +208,7 @@ Other Operator Changes
       This command reads from MySQL/MongoDB but does not write to them;
       it only writes to Meilisearch. Once the indexing has completed, it
       should not be necessary to run it again; from that point forward,
-      the indexes will be updated automatically as needed.*
+      the indexes will be updated automatically as needed.
 
    -  Please share your feedback about Meilisearch, indexing, and
       operations in `this Discourse thread <https://discuss.openedx.org/t/is-meilisearch-a-viable-upgrade-alternative-to-opensearch/12400>`_ or the `#ops <https://openedx.slack.com/archives/C08B4LZEZ>`_ Slack channel. Please share feedback about
