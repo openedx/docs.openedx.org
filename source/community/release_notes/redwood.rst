@@ -191,7 +191,7 @@ Other Operator Changes
       changes to your deployment. See that plugin’s README for details.
       Note in particular that the hostname configured as
       ``MEILISEARCH_PUBLIC_HOST`` must be resolvable on the public
-      internet.*
+      internet.
 
    -  If you are not using Tutor, you’ll need to install Meilisearch
       manually (or use the cloud product), and to explicitly set `the related config variables <https://github.com/openedx/edx-platform/blob/aac70563fd8a1492af25ae1b9aa9d14c42b36a18/cms/envs/common.py#L2958-L2969>`_ in the
