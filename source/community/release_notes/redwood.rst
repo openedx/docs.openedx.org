@@ -60,7 +60,6 @@ Breaking Changes
      adding an organization search bar.  This flag does not work in the Studio Home MFE, as it
      is not needed within the MFE. The MFE already have a search bar and pagination, which
      improves performance for those home pages with lots of courses.
-     Home MFE and are using the flag.
 
 Learner & Instructor Experiences
 ********************************
