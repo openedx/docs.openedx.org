@@ -64,7 +64,26 @@ Breaking Changes
 Learner & Instructor Experiences
 ********************************
 
-See the Product Release Notes.
+For in-depth information on new learner and instructor facing features in the Redwood release, please see the Feature-Based Release Notes. Instructions on how to enable those features are as follows.
+
+Courseware Sidebar
+==================
+
+To enable the new Courseware Sidebar, set the ``courseware.enable_navigation_sidebar`` waffle flag to True.
+
+Connect Teams in a course to Content Groups
+===========================================
+
+#. Go to your site's Django Admin Panel
+
+#. Enable the teams feature by turning on the waffle flag: ``teams.enable_teams_app``
+
+#. Then, turn on the ``teams.content_groups_for_teams`` waffle flag for everyone or specific courses with a waffle flag course overrides
+
+Make Sections available independently of the course outline
+===========================================================
+
+Enable this feature flag: ``FEATURES["ENABLE_HIDE_FROM_TOC_UI"] = True`` to your deployment configurations to enable the feature system-wide.
 
 
 Instructor Experiences
