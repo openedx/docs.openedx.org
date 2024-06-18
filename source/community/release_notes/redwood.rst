@@ -218,7 +218,7 @@ Other Operator Changes
 Deprecations & Removals
 ***********************
 
--  *Badges app has been deprecated and removed from ``edx-platform``.
+-  Badges app has been deprecated and removed from ``edx-platform``.
    See `[DEPR]: lms/djangoapps/badges <https://github.com/openedx/edx-platform/issues/31541>`_ .*
 -  - In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .*
 
