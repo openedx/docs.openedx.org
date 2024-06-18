@@ -185,7 +185,7 @@ Other Operator Changes
    as it depends on a new search engine, Meilisearch. We encourage
    operators to install Meilisearch, test out this feature, and give us
    feedback on the viability of using Meilisearch as a replacement for
-   Elasticsearch in future releases of Open edX. Here’s how:*
+   Elasticsearch in future releases of Open edX. Here’s how to enable it:
 
    -  For tutor-based deployments, install the `tutor-contrib-mailsearch <https://github.com/open-craft/tutor-contrib-meilisearch>`_ plugin, and apply the
       changes to your deployment. See that plugin’s README for details.
