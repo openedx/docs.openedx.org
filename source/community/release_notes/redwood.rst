@@ -152,7 +152,7 @@ Other Operator Changes
       would like to force people to update their password, you
      should take a look at `the password_policy plugin and its settings <https://github.com/openedx/edx-platform/blob/2033dcf6ace133719aaeb72dc5dd6ee521a7ac42/openedx/core/djangoapps/password_policy/settings/common.py#L13>`_
 
--  The following `requirements update <https://github.com/openedx/credentials/commit/1cd7c25c04a955aa9aaa263fb40ebd3f73d0937e>`_ into credentials might have implications for anyone
+-  The Credentials service `updated some requirements <https://github.com/openedx/credentials/commit/1cd7c25c04a955aa9aaa263fb40ebd3f73d0937e>`_ and may have implications for anyone
    who has a massive ``usersocialauth`` table.  This is because that
    table grows endlessly, and the migrations on the table caused by
    updating the ``social-auth-app-django`` package can run out of
