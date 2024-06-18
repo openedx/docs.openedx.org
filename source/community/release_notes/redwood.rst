@@ -85,10 +85,6 @@ Make Sections available independently of the course outline
 
 Enable this feature flag: ``FEATURES["ENABLE_HIDE_FROM_TOC_UI"] = True`` to your deployment configurations to enable the feature system-wide.
 
-
-**********************
-
-
 Administrators & Operators
 **************************
 
@@ -250,6 +246,9 @@ Deprecations & Removals
 
 Developer Experience
 ********************
+
+-  *Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac*
+   -  *Non deployment paver commands will be removed by Sumac*
 
 Researcher & Data Experiences
 *****************************
