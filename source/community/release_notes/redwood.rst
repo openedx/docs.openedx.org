@@ -86,7 +86,6 @@ Make Sections available independently of the course outline
 Enable this feature flag: ``FEATURES["ENABLE_HIDE_FROM_TOC_UI"] = True`` to your deployment configurations to enable the feature system-wide.
 
 
-Instructor Experiences
 **********************
 
 
