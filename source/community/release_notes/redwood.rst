@@ -65,7 +65,6 @@ Learner & Instructor Experiences
 ********************************
 
 See the Product Release Notes.
-******************************
 
 
 Instructor Experiences
