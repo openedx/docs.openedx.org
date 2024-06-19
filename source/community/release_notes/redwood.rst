@@ -229,7 +229,7 @@ Deprecations & Removals
       details.
 -  Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac
 
-   - `[DEPR]: Asset processing in Paver`_.
+   - `[DEPR] Asset processing in Paver`_.
    -  *Non deployment paver commands will be removed by Sumac*
 
 -  The ``django-splash`` capability was removed from ``edx-platform`` and the relevant code has been archived.
@@ -267,10 +267,10 @@ Developer Experience
 
 -  Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac
 
-   -    - `[DEPR]: Asset processing in Paver`_.
+   -    - `[DEPR] Asset processing in Paver`_.
    -  Non deployment paver commands will be removed by Sumac
 
-.. _[DEPR]: Asset processing in Paver: https://github.com/openedx/edx-platform/issues/31895
+.. _[DEPR] Asset processing in Paver: https://github.com/openedx/edx-platform/issues/31895
 
 Researcher & Data Experiences
 *****************************
