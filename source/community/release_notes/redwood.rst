@@ -169,7 +169,8 @@ Other Operator Changes
    using the `unsupported tubular repository <https://github.com/openedx-unsupported/tubular>`_ to run retirement scripts you should update
    your code.
 
-   -  *Relevant Tickets*
+   -  Relevant Tickets
+
       - `Move user retirement code to edx-platform and drop it from Tubular <https://github.com/openedx/axim-engineering/issues/881>`_.
       - `Move user retirement scripts code from the tubular repo <https://github.com/openedx/edx-platform/pull/34063>`_.
       - `Deprecate User Retirement Scripts <https://github.com/openedx-unsupported/tubular/pull/736>`_.
@@ -219,18 +220,23 @@ Deprecations & Removals
 ***********************
 
 -  Badges app has been deprecated and removed from ``edx-platform``.
-   See `[DEPR]: lms/djangoapps/badges <https://github.com/openedx/edx-platform/issues/31541>`_ .*
--  - In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .*
+   See `[DEPR]: lms/djangoapps/badges <https://github.com/openedx/edx-platform/issues/31541>`_ .
+-  - In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .
 
-   -  *Any deployment that has been relying on this legacy IP address
+   -  Any deployment that has been relying on this legacy IP address
       option will need to switch to setting
       ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See `Nutmeg Announcement <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949/Nutmeg#CLOSEST_CLIENT_IP_FROM_HEADERS>`_ for
-      details.*
+      details.
 -  Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac
-   - `[DEPR]: Asset processing in Paver <https://github.com/openedx/edx-platform/issues/31895>`_.
+
+   - `[DEPR]: Asset processing in Paver`_.
    -  *Non deployment paver commands will be removed by Sumac*
--  *The django-splash capability was removed from edx-platform and the relevant code has been archived.*
+
+-  The ``django-splash`` capability was removed from ``edx-platform`` and the relevant code has been archived.
+
    - https://github.com/openedx/public-engineering/issues/224
+Flags and toggles removed in Redwood
+==================================== 
 
 * ``accomplishments_shared`` field is removed from payloads and settings
 * ``ENABLE_OPENBADGES``, ``ENABLE_SEND_XBLOCK_EVENTS_OVER_BUS`` are no longer available for configuration in ``FEATURES`` 
@@ -258,8 +264,12 @@ Deprecations & Removals
 Developer Experience
 ********************
 
--  *Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac*
-   -  *Non deployment paver commands will be removed by Sumac*
+-  Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac
+
+   -    - `[DEPR]: Asset processing in Paver`_.
+   -  Non deployment paver commands will be removed by Sumac
+
+.. _ [DEPR]: Asset processing in Paver: https://github.com/openedx/edx-platform/issues/31895
 
 Researcher & Data Experiences
 *****************************
@@ -273,6 +283,7 @@ visualizations.
 
 See the `Aspects configuration documentation <https://docs.openedx.org/projects/openedx-aspects/en/latest/how-tos/production_configuration.html>`_
 to learn about setting up Aspects for your production environment.
+
 Known Issues
 ************
 
