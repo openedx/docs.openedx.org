@@ -235,6 +235,7 @@ Deprecations & Removals
 -  The ``django-splash`` capability was removed from ``edx-platform`` and the relevant code has been archived.
 
    - https://github.com/openedx/public-engineering/issues/224
+
 Flags and toggles removed in Redwood
 ==================================== 
 
@@ -269,7 +270,7 @@ Developer Experience
    -    - `[DEPR]: Asset processing in Paver`_.
    -  Non deployment paver commands will be removed by Sumac
 
-.. _ [DEPR]: Asset processing in Paver: https://github.com/openedx/edx-platform/issues/31895
+.. _[DEPR]: Asset processing in Paver: https://github.com/openedx/edx-platform/issues/31895
 
 Researcher & Data Experiences
 *****************************
