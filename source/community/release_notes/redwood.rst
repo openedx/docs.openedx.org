@@ -217,43 +217,40 @@ Deprecations & Removals
 
 -  *Badges app has been deprecated and removed from ``edx-platform``.
    See `[DEPR]: lms/djangoapps/badges <https://github.com/openedx/edx-platform/issues/31541>`_ .*
-   -  * ``accomplishments_shared`` field is removed from payloads and settings*
-   -  * ``ENABLE_OPENBADGES, ENABLE_SEND_XBLOCK_EVENTS_OVER_BUS`` are no longer available for configuration in ``FEATURES``*
-   -  * ``BADGING_BACKEND``, ``BADGR_BASE_URL``, ``BADGR_ISSUER_SLUG``,*
-   -  * ``BADGR_USERNAME``, ``BADGR_PASSWORD``,*
-   -  * ``BADGR_TOKENS_CACHE_KEY``, ``BADGR_TIMEOUT``,*
-   -  * ``BADGR_ENABLE_NOTIFICATIONS``, ``SEND_CERTIFICATE_REVOKED_SIGNAL``,*
-   -  * ``blockstore.use_blockstore_app_api``,*
-   -  * ``contentstore.enable_copy_paste_units``,*
-   -  * ``course_apps.proctoring_settings_modal_view``,*
-   -  * ``course_live.enable_big_blue_button``,*
-   -  * ``course_live.enable_course_live``,*
-   -  * ``courseware.learning_assistant``,*
-   -  * ``discussions.enable_learners_stats``,*
-   -  * ``discussions.enable_learners_tab_in_discussions_mfe``,*
-   -  * ``discussions.enable_moderation_reason_codes``,*
-   -  * ``discussions.enable_reported_content_email_notifications``,*
-   -  * ``learner_recommendations.enable_course_about_page_recommendations``,*
-   -  * ``learner_recommendations.enable_dashboard_recommendations``,*
-   -  * ``student.enable_2u_recommendations``,*
-   -  * ``student.enable_amplitude_recommendations``,*
-   -  * ``student.enable_fallback_recommendations``,*
-   -  * ``blockstore.use_blockstore_app_api`` are also not configurable anymore.*
 -  - In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .*
 
    -  *Any deployment that has been relying on this legacy IP address
       option will need to switch to setting
       ``CLOSEST_CLIENT_IP_FROM_HEADERS`` appropriately. See `Nutmeg Announcement <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3205201949>`_ for
       details.*
-
 -  *Asset Processing (webpack, collectstatic, etc.) using Paver Commands in edx-platform is now Deprecated and will not be available in Sumac*
    - `[DEPR]: Asset processing in Paver <https://github.com/openedx/edx-platform/issues/31895>`_.
    -  *Non deployment paver commands will be removed by Sumac*
-
--  *The django-splash capability was removed from edx-platform and the
-   relevant code has been archived.*
+-  *The django-splash capability was removed from edx-platform and the relevant code has been archived.*
    - https://github.com/openedx/public-engineering/issues/224
 
+* ``accomplishments_shared`` field is removed from payloads and settings*
+* ``ENABLE_OPENBADGES``, ``ENABLE_SEND_XBLOCK_EVENTS_OVER_BUS`` are no longer available for configuration in ``FEATURES`` *
+* ``BADGING_BACKEND``, ``BADGR_BASE_URL``, ``BADGR_ISSUER_SLUG``,*
+* ``BADGR_USERNAME``, ``BADGR_PASSWORD``,*
+* ``BADGR_TOKENS_CACHE_KEY``, ``BADGR_TIMEOUT``,*
+* ``BADGR_ENABLE_NOTIFICATIONS``, ``SEND_CERTIFICATE_REVOKED_SIGNAL``,*
+* ``blockstore.use_blockstore_app_api``,*
+* ``contentstore.enable_copy_paste_units``,*
+* ``course_apps.proctoring_settings_modal_view``,*
+* ``course_live.enable_big_blue_button``,*
+* ``course_live.enable_course_live``,*
+* ``courseware.learning_assistant``,*
+* ``discussions.enable_learners_stats``,*
+* ``discussions.enable_learners_tab_in_discussions_mfe``,*
+* ``discussions.enable_moderation_reason_codes``,*
+* ``discussions.enable_reported_content_email_notifications``,*
+* ``learner_recommendations.enable_course_about_page_recommendations``,*
+* ``learner_recommendations.enable_dashboard_recommendations``,*
+* ``student.enable_2u_recommendations``,*
+* ``student.enable_amplitude_recommendations``,*
+* ``student.enable_fallback_recommendations``,*
+* ``blockstore.use_blockstore_app_api`` are also not configurable anymore.*
 
 Developer Experience
 ********************
