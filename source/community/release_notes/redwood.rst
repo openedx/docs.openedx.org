@@ -229,28 +229,28 @@ Deprecations & Removals
 -  *The django-splash capability was removed from edx-platform and the relevant code has been archived.*
    - https://github.com/openedx/public-engineering/issues/224
 
-* ``accomplishments_shared`` field is removed from payloads and settings*
-* ``ENABLE_OPENBADGES``, ``ENABLE_SEND_XBLOCK_EVENTS_OVER_BUS`` are no longer available for configuration in ``FEATURES`` *
-* ``BADGING_BACKEND``, ``BADGR_BASE_URL``, ``BADGR_ISSUER_SLUG``,*
-* ``BADGR_USERNAME``, ``BADGR_PASSWORD``,*
-* ``BADGR_TOKENS_CACHE_KEY``, ``BADGR_TIMEOUT``,*
-* ``BADGR_ENABLE_NOTIFICATIONS``, ``SEND_CERTIFICATE_REVOKED_SIGNAL``,*
-* ``blockstore.use_blockstore_app_api``,*
-* ``contentstore.enable_copy_paste_units``,*
-* ``course_apps.proctoring_settings_modal_view``,*
-* ``course_live.enable_big_blue_button``,*
-* ``course_live.enable_course_live``,*
-* ``courseware.learning_assistant``,*
-* ``discussions.enable_learners_stats``,*
-* ``discussions.enable_learners_tab_in_discussions_mfe``,*
-* ``discussions.enable_moderation_reason_codes``,*
-* ``discussions.enable_reported_content_email_notifications``,*
-* ``learner_recommendations.enable_course_about_page_recommendations``,*
-* ``learner_recommendations.enable_dashboard_recommendations``,*
-* ``student.enable_2u_recommendations``,*
-* ``student.enable_amplitude_recommendations``,*
-* ``student.enable_fallback_recommendations``,*
-* ``blockstore.use_blockstore_app_api`` are also not configurable anymore.*
+* ``accomplishments_shared`` field is removed from payloads and settings
+* ``ENABLE_OPENBADGES``, ``ENABLE_SEND_XBLOCK_EVENTS_OVER_BUS`` are no longer available for configuration in ``FEATURES`` 
+* ``BADGING_BACKEND``, ``BADGR_BASE_URL``, ``BADGR_ISSUER_SLUG``,
+* ``BADGR_USERNAME``, ``BADGR_PASSWORD``,
+* ``BADGR_TOKENS_CACHE_KEY``, ``BADGR_TIMEOUT``,
+* ``BADGR_ENABLE_NOTIFICATIONS``, ``SEND_CERTIFICATE_REVOKED_SIGNAL``,
+* ``blockstore.use_blockstore_app_api``,
+* ``contentstore.enable_copy_paste_units``,
+* ``course_apps.proctoring_settings_modal_view``,
+* ``course_live.enable_big_blue_button``,
+* ``course_live.enable_course_live``,
+* ``courseware.learning_assistant``,
+* ``discussions.enable_learners_stats``,
+* ``discussions.enable_learners_tab_in_discussions_mfe``,
+* ``discussions.enable_moderation_reason_codes``,
+* ``discussions.enable_reported_content_email_notifications``,
+* ``learner_recommendations.enable_course_about_page_recommendations``,
+* ``learner_recommendations.enable_dashboard_recommendations``,
+* ``student.enable_2u_recommendations``,
+* ``student.enable_amplitude_recommendations``,
+* ``student.enable_fallback_recommendations``,
+* ``blockstore.use_blockstore_app_api`` are also not configurable anymore.
 
 Developer Experience
 ********************
