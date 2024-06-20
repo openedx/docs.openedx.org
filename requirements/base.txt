@@ -38,7 +38,7 @@ livereload==2.6.3
     # via sphinx-autobuild
 markupsafe==2.1.5
     # via jinja2
-packaging==24.0
+packaging==24.1
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -108,7 +108,7 @@ tornado==6.4.1
     # via livereload
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
-urllib3==2.2.1
+urllib3==2.2.2
     # via requests
 zipp==3.19.2
     # via importlib-metadata
