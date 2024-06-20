@@ -1,7 +1,10 @@
 Open edX Redwood Release
 ########################
 
-These are the release notes for the Redwood release, the 18th community release of the Open edX Platform, spanning changes from October 10 2023 to May 09 2024.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Redwood release, the 18th community release
+of the Open edX Platform, spanning changes from October 10 2023 to May 09 2024.
+You can also review details about `earlier releases`_ or learn more about the
+`Open edX Platform`_.
 
 .. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 .. _Open edX Platform: https://openedx.org
@@ -30,14 +33,14 @@ Breaking Changes
          configuration.
 
       2. Check if the JSON contains all of the following params: ``p``,
-         ``q``, ``dp``, ``dq``, and ``qi``. If it does, you don’t need
+         ``q``, ``dp``, ``dq``, and ``qi``. If it does, you don't need
          to do anything further. Otherwise, continue.
 
       3. In your edx-platform virtualenv, run
          ``python3 scripts/jwk-precompute-params.py`` and follow the
          prompts. (It will ask you to paste in the current JSON.)
 
-      4. Update your config’s ``JWT_AUTH['JWT_PRIVATE_SIGNING_JWK']``
+      4. Update your config's ``JWT_AUTH['JWT_PRIVATE_SIGNING_JWK']``
          with the output of the script.
 
       5. You may wish to compare the contents of the private key before
@@ -64,26 +67,78 @@ Breaking Changes
 Learner & Instructor Experiences
 ********************************
 
-For in-depth information on new learner and instructor facing features in the Redwood release, please see the Feature-Based Release Notes. Instructions on how to enable those features are as follows.
+For in-depth information on new learner and instructor facing features in the
+Redwood release, please see the Feature-Based Release Notes. Instructions on how
+to enable those features are as follows.
+
+Enabling Studio Course Search
+=============================
+
+-  The Redwood release includes the `Studio Course Search [BETA]
+   <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>`_,
+   which is disabled by default as it depends on a new search engine,
+   Meilisearch. We encourage operators to install Meilisearch, test out this
+   feature, and give us feedback on the viability of using Meilisearch as a
+   replacement for Elasticsearch in future Open edX releases. Here's how to
+   enable it:
+
+   -  For tutor-based deployments, install the `tutor-contrib-mailsearch
+      <https://github.com/open-craft/tutor-contrib-meilisearch>`_ plugin, and
+      apply the changes to your deployment. See that plugin's README for
+      details. Note in particular that the hostname configured as
+      ``MEILISEARCH_PUBLIC_HOST`` must be resolvable on the public internet.
+
+   -  If you are not using Tutor, you'll need to install Meilisearch manually
+      (or use the cloud product) and explicitly set `the related config
+      variables
+      <https://github.com/openedx/edx-platform/blob/aac70563fd8a1492af25ae1b9aa9d14c42b36a18/cms/envs/common.py#L2958-L2969>`_
+      in the CMS as well as set ``MEILISEARCH_ENABLED=true`` in the Course
+      Authoring MFE settings.
+
+   -  Whether or not you're using Tutor, you'll need to create and populate the
+      search index. To do so, you must run a one-time command from the CMS
+      shell: ``python manage.py cms reindex_studio --experimental``. This
+      command may take a while if you have a lot of courses and/or libraries in
+      Studio; it will display regular progress indicators while it is running.
+      We are interested in hearing how long it takes for you - please share your
+      experience (see next bullet). This command reads from MySQL/MongoDB but
+      does not write to them; it only writes to Meilisearch. Once the indexing
+      has completed, it should not be necessary to run it again; from that point
+      forward, the indexes will be updated automatically as needed.
+
+   -  Please share your feedback about Meilisearch, indexing, and operations in
+      `this Discourse thread
+      <https://discuss.openedx.org/t/is-meilisearch-a-viable-upgrade-alternative-to-opensearch/12400>`_
+      or the `#ops <https://openedx.slack.com/archives/C08B4LZEZ>`_ Slack
+      channel. Please share feedback about the new course search feature in
+      general `in the discussion forums
+      <https://discuss.openedx.org/t/feedback-thread-new-course-search/13076>`_
+      or in the `#wg-product-core
+      <https://openedx.slack.com/archives/C057J2D1WU9>`_ Slack channel.
+
 
 Courseware Sidebar
 ==================
 
-To enable the new Courseware Sidebar, set the ``courseware.enable_navigation_sidebar`` waffle flag to True.
+To enable the new Courseware Sidebar, set the
+``courseware.enable_navigation_sidebar`` waffle flag to True.
 
 Connect Teams in a course to Content Groups
 ===========================================
 
 #. Go to your site's Django Admin Panel
 
-#. Enable the teams feature by turning on the waffle flag: ``teams.enable_teams_app``
+#. Enable the teams feature by turning on the waffle flag:
+   ``teams.enable_teams_app``
 
-#. Then, turn on the ``teams.content_groups_for_teams`` waffle flag for everyone or specific courses with a waffle flag course overrides
+#. Then, turn on the ``teams.content_groups_for_teams`` waffle flag for everyone
+   or specific courses with a waffle flag course overrides
 
 Make Sections available independently of the course outline
 ===========================================================
 
-Enable this feature flag: ``FEATURES["ENABLE_HIDE_FROM_TOC_UI"] = True`` to your deployment configurations to enable the feature system-wide.
+Enable this feature flag: ``FEATURES["ENABLE_HIDE_FROM_TOC_UI"] = True`` to your
+deployment configurations to enable the feature system-wide.
 
 Administrators & Operators
 **************************
@@ -165,7 +220,7 @@ Other Operator Changes
       in the ``Credentials`` IDA.
 
 -  The scripts related to user retirement across all services
-   have been moved to the ``edx-platform`` repository. If you’ve been
+   have been moved to the ``edx-platform`` repository. If you've been
    using the `unsupported tubular repository <https://github.com/openedx-unsupported/tubular>`_ to run retirement scripts you should update
    your code.
 
@@ -181,39 +236,6 @@ Other Operator Changes
       - If you're running Tutor and your Mongo/Ruby are in Tutor, they will get automatically upgraded.
       - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>`_.
       - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>`_.
-
--  The Redwood release includes the `Studio Course Search [BETA] <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>`_, which is disabled by default
-   as it depends on a new search engine, Meilisearch. We encourage
-   operators to install Meilisearch, test out this feature, and give us
-   feedback on the viability of using Meilisearch as a replacement for
-   Elasticsearch in future releases of Open edX. Here’s how to enable it:
-
-   -  For tutor-based deployments, install the `tutor-contrib-mailsearch <https://github.com/open-craft/tutor-contrib-meilisearch>`_ plugin, and apply the
-      changes to your deployment. See that plugin’s README for details.
-      Note in particular that the hostname configured as
-      ``MEILISEARCH_PUBLIC_HOST`` must be resolvable on the public
-      internet.
-
-   -  If you are not using Tutor, you’ll need to install Meilisearch
-      manually (or use the cloud product) and explicitly set `the related config variables <https://github.com/openedx/edx-platform/blob/aac70563fd8a1492af25ae1b9aa9d14c42b36a18/cms/envs/common.py#L2958-L2969>`_ in the
-      CMS as well as set ``MEILISEARCH_ENABLED=true`` in the Course
-      Authoring MFE settings.
-
-   -  Whether or not you're using Tutor, you'll need to create and populate the search index. To do so, you must run a one-time
-      command from the CMS shell:
-      ``python manage.py cms reindex_studio --experimental``. This
-      command may take a while if you have a lot of courses and/or
-      libraries in Studio; it will display regular progress indicators
-      while it is running. We are interested in hearing how long it
-      takes for you - please share your experience (see next bullet).
-      This command reads from MySQL/MongoDB but does not write to them;
-      it only writes to Meilisearch. Once the indexing has completed, it
-      should not be necessary to run it again; from that point forward,
-      the indexes will be updated automatically as needed.
-
-   -  Please share your feedback about Meilisearch, indexing, and
-      operations in `this Discourse thread <https://discuss.openedx.org/t/is-meilisearch-a-viable-upgrade-alternative-to-opensearch/12400>`_ or the `#ops <https://openedx.slack.com/archives/C08B4LZEZ>`_ Slack channel. Please share feedback about
-      the new course search feature in general `in the discussion forums <https://discuss.openedx.org/t/feedback-thread-new-course-search/13076>`_ or in the `#wg-product-core <https://openedx.slack.com/archives/C057J2D1WU9>`_ Slack channel.
 
 
 Deprecations & Removals
