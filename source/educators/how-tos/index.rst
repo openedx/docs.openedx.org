@@ -124,6 +124,7 @@ Educators: How-tos
          set_release_dates
          publish_content
          hide_content_from_learners
+         use_section_independently_of_course_outline
          set_up_content_groups
          set_access_restrictions_on_unit
          set_access_restrictions_on_component
