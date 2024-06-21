@@ -31,7 +31,8 @@ Course authors can now embed iframes into the Text Editor, making it easier to
 enrich the course experience with third-party content, without having students
 navigate away from the course.
 
-For more details on how to use this feature, see the How-to Guide. 
+For more details on how to use this feature, see
+:doc:`/educators/how-tos/embed_iframe_text_editor`.
 
 This feature is turned on by default in the Text Editor.
 

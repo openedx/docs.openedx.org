@@ -48,6 +48,7 @@ Educators: How-tos
 
          add_written_content
          add_image
+         embed_iframe_text_editor
          add_content_iframe
          copy_paste_course_content
          copy_paste_units
