@@ -19,9 +19,10 @@ reference links to material that must be reviewed at different times of the
 course, and gives learners an easy way to consistently reference parts of the
 course that may need regular review.
 
-For more details on how to use this feature, see the How-to guide. 
+For more details on how to use this feature, see
+:doc:`/educators/how-tos/use_section_independently_of_course_outline`.
 
-For more details on how to turn this feature on, see the :doc:`dev_op_release_notes`.
+For more details on how to turn this feature on, see :doc:`dev_op_release_notes`.
 
 Embed an iframe into the Text Editor
 ************************************
