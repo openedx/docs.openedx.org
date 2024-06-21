@@ -9,11 +9,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 ***********************
 
-The latest supported release line is Quince_, based on code from 2023-10-10.
+The latest supported release line is Redwood_, based on code from 2024-05-09.
 
-The next release will be Redwood__.
+The next release will be Sumac__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/3890380898/Redwood
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/4272947201/Next+Release+Sumac+-+Operator+Dev+Notes
 
 Dates for recent and upcoming releases can be found in the `Release Schedule`_.
 
@@ -29,7 +29,7 @@ All Open edX Releases
 
 Note that the latest release is the only supported release. We currently do not have the ability to support more than one release at a time.
 
-For documentation on the latest release, please visit the :doc:`./index`.
+For documentation on the latest release, please visit the :doc:`./index`.
 
 Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc). Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc). After a few releases, we might still add important fixes to the branch, but not make a new tagged release. At that point, someone installing that line will want to install from the branch, not the tags.
 
@@ -39,14 +39,14 @@ Redwood
 =======
 
 * **Code cut date:** 2024-05-09
-* **Status:** upcoming
+* **Status:** supported
 * :doc:`Release Notes <./redwood>`
 
 Quince
 ======
 
 * **Code cut date:** 2023-10-10
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./quince>`
 
 .. list-table::
