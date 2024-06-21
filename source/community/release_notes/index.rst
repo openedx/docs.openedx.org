@@ -3,15 +3,26 @@
 Open edX Platform Release Notes
 ###############################
 
-The *Open edX Platform Release Notes* provide information about releases, migrations, and other changes and updates to the Open edX platform.
+The *Open edX Platform Release Notes* provide information about releases,
+migrations, and other changes and updates to the Open edX platform.
 
 .. Note to Editors: As we add new releases, be sure to move the older
    un-supported release to the toctree in the old_releases.rst file.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    Redwood: The current release <redwood>
-    Sumac: The next release <sumac>
-    named_release_branches_and_tags
+    Redwood: The Current Release <redwood>
+    Redwood Release Notes <redwood/feature_release_notes>
+    Redwood Developer & Operator Release Notes <redwood/dev_op_release_notes>
+    Sumac: The Next Release <sumac>
     old_releases
+    named_release_branches_and_tags
+
+Release Version Info
+====================
+
+The :doc:`named_release_branches_and_tags` page is a quick reference for site
+operators that details installation information for the current and previous
+releases. Note that the latest release is the only supported release. We
+currently do not have the ability to support more than one release at a time.

@@ -1,5 +1,5 @@
-Older Open edX Releases
-#######################
+Unsupported Open edX Releases
+#############################
 
 These are older releases of the Open edX Platform. They are no longer supported
 and if you are currently running them, it's recommended that you update to the
