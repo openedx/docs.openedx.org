@@ -1,5 +1,5 @@
-Open edX Named Release Branches and Tags
-########################################
+Site Operators: Named Release Branches and Tags
+###############################################
 
 The Open edX community can share knowledge and improvements more easily when most people use the same stable, consistent version of the Open edX codebase. To that end, the Build-Test-Release working group creates an "Open edX named release" every six months. The Open edX community, led by the Build Test Release working group, tests the release for two months prior to it being made available to the community. The codebase is also extensively tested by the 2U/edX team, who deploys the code to the edx.org website multiple times a day.
 
