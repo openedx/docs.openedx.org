@@ -68,8 +68,8 @@ Learner & Instructor Experiences
 ********************************
 
 For in-depth information on new learner and instructor facing features in the
-Redwood release, please see the Feature-Based Release Notes. Instructions on how
-to enable those features are as follows.
+Redwood release, please see the :doc:`feature_release_notes`. Instructions on how
+to enable those features which need configuration are as follows.
 
 Enabling Studio Course Search
 =============================
