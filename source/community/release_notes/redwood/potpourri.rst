@@ -44,7 +44,8 @@ custom content sets using the Cohorts and Content Groups features. Now, course
 authors can also use the Teams feature to connect subsets of learners to custom
 content sets. 
 
-For more details on how to use this feature, see the How-to Guide.
+For more details on how to use this feature, see
+:doc:`/educators/how-tos/connect_teams_content_groups`.
 
 For more details on how to turn this feature on, see the :doc:`dev_op_release_notes`.
 
