@@ -129,6 +129,7 @@ Educators: How-tos
          set_up_content_groups
          set_access_restrictions_on_unit
          set_access_restrictions_on_component
+         connect_teams_content_groups
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
