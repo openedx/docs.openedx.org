@@ -39,7 +39,7 @@ wish to edit or reuse. This is particularly helpful for authors who are staff
 members on multiple different courses, or on courses that have been built by
 multiple authors.
 
-IMAGE
+   .. image:: /_images/release_notes/redwood/Search_main_screen.png
 
 New functionality
 =================
@@ -57,12 +57,15 @@ Details
 The search bar is accessible from the top header in Studio, via the search icon.
 It can be accessed from Studio Home or via any Course Outline Page.
 
-IMAGE
+   .. image:: /_images/release_notes/redwood/Search_icon.png
 
 When accessed via Studio Home, searches are automatically conducted across all
 courses that the user has staff access to. When accessed via a Course Page, the
 user has the option to conduct the search within that course or to expand the
 search to all courses.
+
+   .. image:: /_images/release_notes/redwood/Search_this_course.png
+
 
 2. Search Refinements
 =====================
@@ -73,13 +76,18 @@ can effectively apply filters across all of their content.
 
 There are two ways to refine content:
 
-By type: Refine your content or your search results by component type (text,
-video, problems) or by content type (units, subsections, sections).
+**By type**: Refine your content or your search results by component type (text,
+video, problems) or by content type (units, subsections, sections)..
 
-By tag: Refine your content or your search results by tag. If multiple tags are
+   .. image:: /_images/release_notes/redwood/Search_type_refinement.png
+
+**By tag**: Refine your content or your search results by tag. If multiple tags are
 chosen as refinements, only content which matches all of the selected tags will
 be shown in the search results (that is, the tags are using an AND filter). For
 more information on tagging, see :doc:`content_tagging`.
+
+   .. image:: /_images/release_notes/redwood/Search_tag.png
+
 
 3. Search Results
 =================
@@ -88,6 +96,9 @@ Search Results are displayed based on relevance. Each result contains a link out
 that takes the user directly to the content, in a new tab. Results also contain
 breadcrumbs to provide context for which course the content is coming from, and
 where in the course it can be found.
+
+   .. image:: /_images/release_notes/redwood/Search_breadcrumbs.png
+
 
 4. Advanced Operators
 =====================
