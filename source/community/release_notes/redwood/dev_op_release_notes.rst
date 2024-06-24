@@ -118,6 +118,7 @@ Enabling Studio Course Search
       or in the `#wg-product-core
       <https://openedx.slack.com/archives/C057J2D1WU9>`_ Slack channel.
 
+.. _redwood-enable-sidebar:
 
 Courseware Sidebar
 ==================
