@@ -71,6 +71,8 @@ For in-depth information on new learner and instructor facing features in the
 Redwood release, please see the :doc:`feature_release_notes`. Instructions on how
 to enable those features which need configuration are as follows.
 
+.. _redwood-enable-search:
+
 Enabling Studio Course Search
 =============================
 
@@ -142,6 +144,8 @@ deployment configurations to enable the feature system-wide.
 
 Administrators & Operators
 **************************
+
+.. _redwood-settings-toggles:
 
 Settings and Toggles
 ====================
