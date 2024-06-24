@@ -80,7 +80,7 @@ The subsection heading expands when it is clicked to display its units.
       :height: 450
 
 
-If a learner wants to `view to a unit in another section of the course`_, they can
+If a learner wants to view a unit in another section of the course, they can
 click on the back button in the upper corner of the sidebar to view all sections
 in a course.
 
@@ -107,6 +107,7 @@ still able to view its contents.
       :align: center
       :height: 350
 
+See :doc:`/educators/how-tos/sidebar_view_course_section` for details.
 
 Collapsing and expanding the sidebar navigation
 ===============================================
@@ -165,6 +166,3 @@ updated to reflect the rough amount completed.
 These in-progress icons serve to convey to the learner what sections or
 subsections they have in-progress as well as how much content they've completed
 for each section or subsection at a glance.
-
-.. _view to a unit in another section of the course: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4264263692/How-to+View+course+sections+from+the+navigation+sidebar
-.. _collapse the sidebar navigation: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4264722448/How-to+Collapse+and+expand+the+navigation+sidebar
