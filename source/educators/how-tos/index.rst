@@ -176,3 +176,4 @@ Educators: How-tos
          :caption: Navigate Your Course
 
          sidebar_collapse_expand
+         sidebar_view_course_section
