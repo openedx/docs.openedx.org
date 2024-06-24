@@ -2,7 +2,7 @@ Open edX Redwood Release - Feature-Based Notes
 ##############################################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    aspects
    content_tagging
