@@ -111,7 +111,7 @@ still able to view its contents.
 Collapsing and expanding the sidebar navigation
 ===============================================
 
-The learner can easily `collapse the sidebar navigation`_ at any time to view the
+The learner can easily collapse the sidebar navigation at any time to view the
 course content in a full page format by clicking the collapse button in the
 upper corner of the sidebar.
 
@@ -125,7 +125,8 @@ expand button in the upper corner of the page.
       :align: center
 
 As the learner advances through the course, the expanded or collapsed state of
-the sidebar remains the same until the learner changes it.
+the sidebar remains the same until the learner changes it. See
+:doc:`/educators/how-tos/sidebar_collapse_expand`.
 
 Viewing completed and in-progress items
 =======================================
