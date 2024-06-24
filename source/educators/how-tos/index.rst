@@ -166,3 +166,13 @@ Educators: How-tos
          view_course
          view_course_as_learner
          beta_test_course
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Navigate Your Course
+
+         sidebar_collapse_expand
