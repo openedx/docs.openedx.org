@@ -4,8 +4,8 @@ Course Search Beta Release Notes (Redwood)
 The Redwood Release includes a beta release of the new Course Search feature.
 Course Search enables course authors to conduct searches within a course, or
 across courses, to find content. While it is in Beta, Course Search is not
-enabled by default, but Operators can choose to enable it. See the
-:doc:`dev_op_release_notes` for details about how to enable.
+enabled by default, but Operators can choose to enable it. Operators should see
+the :ref:`redwood-enable-search` for details about how to enable.
 
 .. note::
 
