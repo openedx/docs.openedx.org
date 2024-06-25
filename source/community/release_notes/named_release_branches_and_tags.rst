@@ -42,6 +42,17 @@ Redwood
 * **Status:** supported
 * :doc:`Release Notes <./redwood>`
 
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Redwood.1
+     - 2024-06-19
+     - open-release/redwood.1
+
 Quince
 ======
 
