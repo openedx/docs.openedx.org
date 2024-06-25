@@ -18,7 +18,8 @@ These Release Notes provide a guided, page-by-page tour through the redesigned
 Studio interface, including an overview of new features and enhancements.
 
 All of the Studio pages are part of the Course Authoring Micro-Frontend. They are
-enabled as the default experience for Redwood.
+enabled as the default experience for Redwood. For more information about
+disabling specific pages, site operators should see :ref:`course-authoring-flags`.
 
 *¹ excluding the Unit Page, which will be live in Sumac*
 

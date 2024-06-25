@@ -171,9 +171,6 @@ Waffle flags added In Redwood:
 * `commerce.transition_to_coordinator.checkout <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/commerce/waffle.py#L9>`_
 * `commerce.transition_to_coordinator.refund <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/commerce/waffle.py#L23>`_
 * `content_tagging.disabled <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/djangoapps/content_tagging/toggles.py#L22>`_
-* `contentstore.new_studio_mfe.use_new_certificates_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L484>`_
-* `contentstore.new_studio_mfe.use_new_group_configurations_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L524>`_
-* `contentstore.new_studio_mfe.use_new_textbooks_page <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L504>`_
 * `course_home.new_discussion_sidebar_view <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/course_home_api/toggles.py#L24>`_
 * `teams.content_groups_for_teams <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/openedx/core/lib/teams_config.py#L22>`_
 * `courseware.always_open_auxiliary_sidebar <https://github.com/openedx/edx-platform/blob/b3df1ddb670e9d4dfd68d1a696ea528aed859550/lms/djangoapps/courseware/toggles.py#L98>`_
@@ -198,6 +195,57 @@ Waffle flags added In Redwood:
 * `EVENT_BUS_PRODUCER_CONFIG['org.openedx.content_authoring.course.catalog_info.changed.v1'] <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/cms/envs/common.py#L2849>`_
 * `EVENT_BUS_PRODUCER_CONFIG['org.openedx.learning.course.unenrollment.completed.v1'] <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/lms/envs/common.py#L5428>`_
 * `EVENT_BUS_PRODUCER_CONFIG['org.openedx.learning.xblock.skill.verified.v1'] <https://github.com/openedx/edx-platform/blob/7d11c889bbbf55dfa69c734122de72d83c1893bf/lms/envs/common.py#L5443>`_
+
+.. _course-authoring-flags:
+
+Flags specific to the new Course Authoring MFE
+----------------------------------------------
+
+Every page in the new Course Authoring MFE can be toggled on and off
+individually. By default, these flags default to True when using Tutor.
+
+* `new_studio_mfe.use_new_home_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L225>`_
+* `contentstore.new_studio_mfe.use_new_custom_pages
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L244>`_
+* `contentstore.new_studio_mfe.use_new_schedule_details_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L264>`_
+* `contentstore.new_studio_mfe.use_new_advanced_settings_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L284>`_
+* `contentstore.new_studio_mfe.use_new_grading_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L304>`_
+* `contentstore.new_studio_mfe.use_new_updates_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L324>`_
+* `contentstore.new_studio_mfe.use_new_import_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L344>`_
+* `contentstore.new_studio_mfe.use_new_export_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L364>`_
+* `contentstore.new_studio_mfe.use_new_files_uploads_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L384>`_
+* `contentstore.new_studio_mfe.use_new_video_uploads_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L404>`_
+* `contentstore.new_studio_mfe.use_new_course_outline_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L424>`_
+* `contentstore.new_studio_mfe.use_new_unit_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L444>`_
+* `contentstore.new_studio_mfe.use_new_course_team_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L464>`_
+* `contentstore.new_studio_mfe.use_new_certificates_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L484>`_
+* `contentstore.new_studio_mfe.use_new_textbooks_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L504>`_
+* `contentstore.new_studio_mfe.use_new_group_configurations_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L524>`_
+* `contentstore.new_studio_mfe.use_new_textbooks_page
+  <https://github.com/openedx/edx-platform/blob/f256684646aec6fd0d5519c6900ec99077e7db50/cms/djangoapps/contentstore/toggles.py#L504>`_
+
+Within the Tutor MFE plugin, `additional flags must be set
+<https://github.com/overhangio/tutor-mfe/commit/68fa38778aa96f44a0f41893c1c9318ba3aaeed7>`_.
+
+* ``MFE_CONFIG["ENABLE_ASSETS_PAGE"]``
+* ``MFE_CONFIG["ENABLE_HOME_PAGE_COURSE_API_V2"]``
+* ``MFE_CONFIG["ENABLE_PROGRESS_GRAPH_SETTINGS"]``
+* ``MFE_CONFIG["ENABLE_TAGGING_TAXONOMY_PAGES"]``
 
 
 Other Operator Changes
