@@ -357,7 +357,7 @@ a Tutor plugin that ties together data from the Open edX learning management sys
 and Studio using open source tools to aggregate and transform learning traces into data
 visualizations.
 
-See the `Aspects configuration documentation <https://docs.openedx.org/projects/openedx-aspects/en/latest/how-tos/production_configuration.html>`_
+See the `Aspects configuration documentation <https://docs.openedx.org/projects/openedx-aspects/en/latest/technical_documentation/how-tos/production_configuration.html>`_
 to learn about setting up Aspects for your production environment.
 
 Known Issues
