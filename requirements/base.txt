@@ -34,7 +34,7 @@ importlib-metadata==6.11.0
     #   sphinx
 jinja2==3.1.4
     # via sphinx
-livereload==2.6.3
+livereload==2.7.0
     # via sphinx-autobuild
 markupsafe==2.1.5
     # via jinja2
@@ -56,8 +56,6 @@ requests==2.32.3
     #   sphinx
     #   sphinxcontrib-images
     #   sphinxcontrib-youtube
-six==1.16.0
-    # via livereload
 snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.5
