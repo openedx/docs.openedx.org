@@ -58,7 +58,8 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/internal_data_formats/index`
+      * :doc:`references/running_pr_tests`
+      * :doc:`references/developer_guide/index`
       * :doc:`edx-platform:index`
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
       +++
