@@ -37,7 +37,9 @@ Use a Section from a Course independently of the Course Outline
 
      .. image:: /_images/educator_how_tos/hide_in_outline_embedding_the_page.png
 
+#. In this way, the student will not see the hidden section in the course
+   outline, but they will be able to access it from the page created in the
+   previous step. You can test section visibility by using the masquerade
+   feature in the LMS; see :doc:`view_course_as_learner` for more.
 
-Now, when the course is viewed from the LMS as a student, the section is not
-displayed in the course outline. You can test this by using the masquerade
-feature in the LMS; see :doc:`view_course_as_learner` for more.
+     .. image:: /_images/educator_how_tos/hide_in_outline_learner_view.png
