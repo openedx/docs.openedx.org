@@ -26,6 +26,10 @@ the :ref:`redwood-enable-search` for details about how to enable.
 .. _in the discussion forums: https://discuss.openedx.org/t/feedback-thread-new-course-search/13076
 .. _#wg-product-core: https://openedx.slack.com/archives/C057J2D1WU9
 
+.. contents::
+  :local:
+  :depth: 2
+
 What is Course Search?
 **********************
 

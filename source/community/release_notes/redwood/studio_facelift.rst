@@ -23,8 +23,9 @@ disabling specific pages, site operators should see :ref:`course-authoring-flags
 
 *¹ excluding the Unit Page, which will be live in Sumac*
 
-.. toctree::
-   :maxdepth: 1
+.. contents::
+  :local:
+  :depth: 1
 
 Studio Home Page
 ****************

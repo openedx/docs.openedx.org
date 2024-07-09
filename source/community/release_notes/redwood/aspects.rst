@@ -6,6 +6,10 @@ thrilled to introduce Aspects Reports for course delivery teams and site
 operators! Operators can learn more about enabling Aspects on their
 installations by reviewing the :doc:`dev_op_release_notes`.
 
+.. contents::
+  :local:
+  :depth: 1
+
 What are Aspects Reports?
 *************************
 
