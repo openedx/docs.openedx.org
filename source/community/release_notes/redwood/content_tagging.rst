@@ -2,7 +2,11 @@ Content Tagging Release Notes (Redwood)
 #######################################
 
 The Product and Engineering Teams at OpenCraft and Axim are thrilled to announce
-the release of Content Tagging! 
+the release of Content Tagging!
+
+.. contents::
+  :local:
+  :depth: 1
 
 What is Content Tagging?
 ************************

@@ -33,6 +33,9 @@ experience it can be.
       the sidebar navigation in sections that include content that has yet to be
       published.
 
+.. contents::
+  :local:
+  :depth: 2
 
 What is sidebar navigation?
 ***************************

@@ -4,6 +4,10 @@ Additional Redwood Features
 Redwood contains numerous features and feature enhancements that affect quality
 of life for both authors and learners.
 
+.. contents::
+  :local:
+  :depth: 1
+
 Make Sections available independently of the course outline
 ***********************************************************
 
