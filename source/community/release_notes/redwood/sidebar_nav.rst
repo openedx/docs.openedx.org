@@ -35,13 +35,10 @@ experience it can be.
 
 .. contents::
   :local:
-  :depth: 2
-
-What is sidebar navigation?
-***************************
+  :depth: 1
 
 Overview
-========
+********
 
 The new navigation experience allows learners to navigate through course
 material linearly or non-linearly via a new UI element on the side of the page
@@ -113,7 +110,7 @@ still able to view its contents.
 See :doc:`/educators/how-tos/sidebar_view_course_section` for details.
 
 Collapsing and expanding the sidebar navigation
-===============================================
+***********************************************
 
 The learner can easily collapse the sidebar navigation at any time to view the
 course content in a full page format by clicking the collapse button in the
@@ -133,7 +130,7 @@ the sidebar remains the same until the learner changes it. See
 :doc:`/educators/how-tos/sidebar_collapse_expand`.
 
 Viewing completed and in-progress items
-=======================================
+***************************************
 
 When a learner completes a course unit, the icon next to the unit name in the
 sidebar navigation updates to indicate that it was completed.
