@@ -11,7 +11,7 @@ fixes and features. These older releases will not receive any of those.
 .. toctree::
    :maxdepth: 2
 
-   quince
+   quince-landing
    palm
    olive
    nutmeg
