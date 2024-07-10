@@ -19,4 +19,10 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
    
    :doc:`redwood/dev_op_release_notes`.
 
+.. toctree::
+    :maxdepth: 2
+
+    Redwood Release Notes <redwood/feature_release_notes>
+    Redwood Developer & Operator Release Notes <redwood/dev_op_release_notes>
+
 .. _Open edX Platform: https://openedx.org

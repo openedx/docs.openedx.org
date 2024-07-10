@@ -1,48 +1,29 @@
-Open edX Sumac Release
-######################
+Open edX Sumac - The Next Release
+#################################
 
-These are the release notes for the Sumac release, the 19th community release of the Open edX Platform, spanning changes from May 10, 2024 to October 09, 2024.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Sumac release, the 19th community release
+of the Open edX Platform, which will be released in December 2024. You can also review details
+about :doc:`index` or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+.. highlights::
+
+   What's new in Sumac? Click to read about new features:
+
+   :doc:`sumac/feature_release_notes`.
+
+
+.. highlights::
+
+   What's new in Sumac? Operators and developers, click to read about new
+   updates, patches, and configuration options.
+   
+   :doc:`sumac/dev_op_release_notes`.
+
+.. toctree::
+    :maxdepth: 2
+
+    Sumac Release Notes <sumac/feature_release_notes>
+    Sumac Developer & Operator Release Notes <sumac/dev_op_release_notes>
+
 .. _Open edX Platform: https://openedx.org
 
-.. contents::
- :depth: 1
- :local:
-
-Breaking Changes
-****************
-
-
-Learner Experiences
-*******************
-
-
-Instructor Experiences
-**********************
-
-
-Administrators & Operators
-**************************
-
-Settings and Toggles
-====================
-
-
-Other Operator Changes
-======================
-
-
-Deprecations & Removals
-***********************
-
-
-Developer Experience
-********************
-
-Researcher & Data Experiences
-*****************************
-
-
-Known Issues
-************

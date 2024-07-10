@@ -10,12 +10,14 @@ migrations, and other changes and updates to the Open edX platform.
    un-supported release to the toctree in the old_releases.rst file.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     Redwood: The Current Release <redwood>
-    Redwood Release Notes <redwood/feature_release_notes>
-    Redwood Developer & Operator Release Notes <redwood/dev_op_release_notes>
     Sumac: The Next Release <sumac>
+
+.. toctree::
+    :maxdepth: 1
+
     old_releases
     named_release_branches_and_tags
 
