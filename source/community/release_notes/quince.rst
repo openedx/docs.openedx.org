@@ -1,9 +1,8 @@
 Open edX Quince Release - Developer & Operator Notes
 ####################################################
 
-These are the release notes for the Quince release, the 17th community release of the Open edX Platform, spanning changes from April 11 2023 to October 10 2023.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Quince release, the 17th community release of the Open edX Platform, spanning changes from April 11 2023 to October 10 2023.  You can also review details about :doc:`index` or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 .. _Open edX Platform: https://openedx.org
 
 .. contents::
