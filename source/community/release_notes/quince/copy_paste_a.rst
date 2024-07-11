@@ -2,7 +2,7 @@ Introducing Copy & Paste for Course Components!
 ###############################################
 
 The Open edX Product Team is thrilled to announce the launch of a new Copy &
-Paste feature for course authors! 
+Paste feature for course authors!
 
 Copy & Paste will make it easier for authors to reuse different parts of the
 course and reduce the time it takes to create course content. 

@@ -6,6 +6,7 @@ Open edX Quince Release - Feature-Based Notes
 
    feature_roundup
    demox_course
+   copy_paste_b
    woocommerce
    copy_paste_a
 
