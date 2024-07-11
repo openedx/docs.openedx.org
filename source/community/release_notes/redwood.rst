@@ -3,7 +3,7 @@ Open edX Redwood Release
 
 These are the release notes for the Redwood release, the 18th community release
 of the Open edX Platform, released in June 2024. You can also review details
-about `earlier releases`_ or learn more about the `Open edX Platform`_.
+about :doc:`index` or learn more about the `Open edX Platform`_.
 
 .. highlights::
 
@@ -19,5 +19,4 @@ about `earlier releases`_ or learn more about the `Open edX Platform`_.
    
    :doc:`redwood/dev_op_release_notes`.
 
-.. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
 .. _Open edX Platform: https://openedx.org
