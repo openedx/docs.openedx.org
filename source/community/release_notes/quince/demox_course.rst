@@ -1,5 +1,5 @@
-Introducing the New DemoX Course
-################################
+Introducing the New DemoX Course (Quince)
+#########################################
 
 In 2013, just as the Open edX® platform was starting to take off, the “edX
 Demonstration Course”, or DemoX, was created and bundled with each new Open edX®
