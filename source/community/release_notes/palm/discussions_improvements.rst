@@ -15,7 +15,7 @@ have been added to Palm.
 
       .. image:: /_images/release_notes/palm/discuss1.png
 
- The default is “Newest first”, but that can be switched to “Oldest first”:
+   The default is “Newest first”, but that can be switched to “Oldest first”:
 
       .. image:: /_images/release_notes/palm/discuss2.png
 

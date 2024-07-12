@@ -3,7 +3,7 @@ Palm Feature Roundup
 
 In the latest Open edX release, Palm, there have been many improvements, big and
 small. In this blog, we've done a deep dive into :doc:`new_problem_editor`, the
-new ORA Grading workflows, and changes to the Discussions tool. In this post,
+:doc:`ora_improvements`, and :doc:`discussions_improvements`. In this post,
 we'll check out some of the smaller changes that the Open edX engineering teams
 have contributed to this release.
 
