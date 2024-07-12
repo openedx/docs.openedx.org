@@ -4,6 +4,7 @@ Open edX Palm Release - Feature-Based Notes
 .. toctree::
    :maxdepth: 2
 
+   new_problem_editor
    feature_roundup
 
 Information for site operators and developers, including information on how to
