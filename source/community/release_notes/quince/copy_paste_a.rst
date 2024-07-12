@@ -1,5 +1,5 @@
-Introducing Copy & Paste for Course Components!
-###############################################
+Introducing Copy & Paste for Course Components! (Quince)
+########################################################
 
 The Open edX Product Team is thrilled to announce the launch of a new Copy &
 Paste feature for course authors!

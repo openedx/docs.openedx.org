@@ -2,9 +2,11 @@ Quince Feature Roundup
 ######################
 
 The latest Open edX release, Quince, includes a number of improvements for
-learners and course teams. In this post, we'll highlight some of the biggest
+learners and course teams. In this post we'll highlight some of the biggest
 changes that the Open edX community engineering and product teams have
-contributed to this release.
+contributed to this release. See also features previously discussed:
+:doc:`copy_paste_b`, :doc:`demox_course`, :doc:`woocommerce`, and
+:doc:`copy_paste_a`.
 
 .. contents::
   :local:

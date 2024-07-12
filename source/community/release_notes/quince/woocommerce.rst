@@ -1,5 +1,5 @@
-Integrating WooCommerce WordPress Plugin
-########################################
+Integrating WooCommerce WordPress Plugin (Quince)
+#################################################
 
 Earlier this year, we began discovery work on the possibility of integrating the
 Open edX platform directly with a 3rd party ecommerce platform that we would not

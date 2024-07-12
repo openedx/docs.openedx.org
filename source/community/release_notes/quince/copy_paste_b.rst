@@ -1,5 +1,5 @@
-Copy & Paste - Second Phase Release
-###################################
+Copy & Paste - Second Phase Release (Quince)
+############################################
 
 The Open edX Community Product Team is excited to announce the release of the
 second phase of Copy & Paste!
