@@ -40,7 +40,7 @@ work itself, you can check out:
 .. _deprecation: https://github.com/openedx/public-engineering/issues/22
 .. _ecommerce repo: http://github.com/openedx/ecommerce/
 .. _this plugin: https://edunext-docs-openedx-woocommerce-plugin.readthedocs-hosted.com/en/latest/plugin_quickstart.html#add-the-plugin-settings
-.. _Additional documentation can be found here: https://github.com/openedx/openedx-wordpress-ecommerce/tree/main/docs/source
+.. _Additional documentation can be found here: https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/index.html
 .. _#33006: https://github.com/openedx/edx-platform/pull/33006
 .. _#33059: https://github.com/openedx/edx-platform/pull/33059
 .. _Project discovery documentation: https://docs.google.com/document/d/1gImq4DFy3B_JSZlH3tCj5bmPQXji0OCnw1SbGB8bVxw/edit?usp=sharing
