@@ -5,6 +5,7 @@ Open edX Palm Release - Feature-Based Notes
    :maxdepth: 1
 
    new_problem_editor
+   verifiable_credentials
    ora_improvements
    discussions_improvements
 
