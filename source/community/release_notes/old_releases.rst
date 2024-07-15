@@ -12,7 +12,7 @@ fixes and features. These older releases will not receive any of those.
    :maxdepth: 2
 
    quince-landing
-   palm
+   palm-landing
    olive
    nutmeg
    maple
