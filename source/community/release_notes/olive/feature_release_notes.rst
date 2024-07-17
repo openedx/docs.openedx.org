@@ -6,6 +6,8 @@ Open edX Olive Release - Feature-Based Notes
 
    olive_studio_editor
    olive_discussions
+   olive_discussions_mods
+   olive_3rd_party_discussions
 
 .. toctree::
    :maxdepth: 2

@@ -4,6 +4,10 @@ New and Improved Discussions Forum (Olive)
 The new Community Release, Olive, contains many long-awaited updates to the
 Discussions Forums experience, for learners, course teams and forum moderators.
 
+.. contents::
+  :local:
+  :depth: 1
+
 A freshly designed UI
 *********************
 
@@ -81,11 +85,11 @@ course content.
 And more!
 *********
 
-Our next post will take a look at some of the new features for the forum
+:doc:`olive_discussions_mods` takes a look at some of the new features for the forum
 moderation team, as well as improvements to course authoring. Site operators can
 find information about how to configure the new Discussions feature in the Olive
 release notes.
 
-Thank you to `Kshitij Sobti
+*Thank you to `Kshitij Sobti
 <https://opencraft.com/a-look-at-the-recent-enhancements-to-discussions-in-open-edx/>`_
-and the team at OpenCraft for the gif shown in this post
+and the team at OpenCraft for the gif shown in this post.*

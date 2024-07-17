@@ -4,7 +4,7 @@ Olive Feature Roundup
 The Olive release contains many features, enhancements, and improvements. Some
 are the subject of their own blog posts: :doc:`olive_discussions` and :doc:`olive_studio_editor`.
 In this post we'll run through a number of other interesting
-additions to the platform, with brief descriptions of what they are
+additions to the platform, with brief descriptions of what they are.
 
 .. contents::
   :local:

@@ -18,11 +18,15 @@ Editing is also more streamlined, with new enhancements such as:
 
 Read on for a rundown of everything you need to know about the Text Component.
 
-      .. image:: /_images/release_notes/olive/editor1.png
+.. contents::
+  :local:
+  :depth: 1
 
 
 Updated Editor Overview
 ***********************
+
+      .. image:: /_images/release_notes/olive/editor1.png
 
 The visual above shows the updated Text component editor, which opens up in
 full-screen mode, allowing you to seamlessly build blocks with large amounts of
