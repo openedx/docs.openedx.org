@@ -20,6 +20,11 @@ import sys
 import urllib
 from datetime import datetime
 
+# -- Project Base URL --------------------------------------------------------
+
+# Set canonical URL from the Read the Docs Domain
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
 # -- Project information -----------------------------------------------------
 
 project = ""
