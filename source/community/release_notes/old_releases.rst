@@ -13,7 +13,7 @@ fixes and features. These older releases will not receive any of those.
 
    quince-landing
    palm-landing
-   olive
+   olive-landing
    nutmeg
    maple
    lilac
