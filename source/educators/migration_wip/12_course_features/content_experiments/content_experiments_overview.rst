@@ -1,8 +1,5 @@
-.. _Overview of Content Experiments:
-
-#################################
 Overview of Content Experiments
-#################################
+###############################
 
 This section provides an introduction to using content experiments.
 
@@ -10,7 +7,7 @@ This section provides an introduction to using content experiments.
   :local:
   :depth: 1
 
-For more information, see :ref:`Configure Your Course for Content Experiments`
+For more information, see :doc:`content_experiments_configure`
 and :ref:`Add Content Experiments to Your Course`.
 
 *********
@@ -38,9 +35,6 @@ For information about analyzing events from content experiments, see
   components display in the mobile app with a "Group ID" label.
 
 
-.. _Courses with Multiple Content Experiments:
-
-******************************************
 Courses with Multiple Content Experiments
 ******************************************
 
@@ -60,8 +54,8 @@ experiment to be independent and use a different grouping.
 
 To determine the available groupings of learners, you set up group
 configurations :ref:`using Studio <Set up Group Configurations in edX Studio>`
-or :doc:`subsection_content_experiments_policies`.
+or :doc:`Set Up Group Configuration for OLX Courses`.
 
 You then select which group configuration to use when you add a content
 experiment :ref:`using Studio <Add a Content Experiment in Studio>` or
-:doc:`subsection_content_experiments_OLX`.
+:doc:`Add a Content Experiment in OLX`.
