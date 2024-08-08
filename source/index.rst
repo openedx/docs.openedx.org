@@ -184,4 +184,5 @@ Open edX Documentation
 
          other/feedback
          other/getting_help
+         OLX Docs <olx/index>
          Documentation Decisions <documentors/decisions/index>
