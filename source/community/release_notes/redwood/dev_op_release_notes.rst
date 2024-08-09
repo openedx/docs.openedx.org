@@ -76,7 +76,7 @@ to enable those features which need configuration are as follows.
 Enabling Studio Course Search
 =============================
 
--  The Redwood release includes the :doc:`/community/release_notes/redwood/course_search`,
+-  The Redwood release includes the :doc:`Course Search Beta </community/release_notes/redwood/course_search>`,
    which is disabled by default as it depends on a new search engine,
    Meilisearch. We encourage operators to install Meilisearch, test out this
    feature, and give us feedback on the viability of using Meilisearch as a
