@@ -76,8 +76,7 @@ to enable those features which need configuration are as follows.
 Enabling Studio Course Search
 =============================
 
--  The Redwood release includes the `Studio Course Search [BETA]
-   <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4247257093/BETA+Course+Search+-+Product+Release+Notes>`_,
+-  The Redwood release includes the :doc:`Course Search Beta </community/release_notes/redwood/course_search>`,
    which is disabled by default as it depends on a new search engine,
    Meilisearch. We encourage operators to install Meilisearch, test out this
    feature, and give us feedback on the viability of using Meilisearch as a
