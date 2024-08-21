@@ -16,6 +16,7 @@ Open edX Documentation
    Developers <developers/index>
    Documentors <documentors/index>
    Translators <translators/index>
+   OLX <olx/index>
 
 .. grid:: 1 2 2 2
    :gutter: 3
@@ -185,3 +186,4 @@ Open edX Documentation
          other/feedback
          other/getting_help
          Documentation Decisions <documentors/decisions/index>
+         olx/index
