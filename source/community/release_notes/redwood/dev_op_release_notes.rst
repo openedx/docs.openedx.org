@@ -288,6 +288,9 @@ Other Operator Changes
       - If you're running Tutor and your Mongo/Ruby are in Tutor, they will get automatically upgraded.
       - `chore: add mongo 7 to testing matrix <https://github.com/openedx/edx-platform/pull/34213>`_.
       - `build: Build with newer ruby and mongo versions. <https://github.com/openedx/cs_comments_service/pull/426>`_.
+- django-social-auth-django application
+      - The 'django-social-auth-django application has been upgraded with a security fix. Operators should update to this version of the edx-platform if they are using auth via social media sites eg. "Login with Google, Facebook, etc." features.
+      - `Feanil/backport django social auth <https://github.com/openedx/edx-platform/pull/35166>`_.
 
 
 Deprecations & Removals
