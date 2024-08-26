@@ -1,5 +1,5 @@
-Heading 1
-#########
+Export tag data from a course
+#############################
 
 Export a CSV file that reports on which tags have been added to which parts of the course.
 
