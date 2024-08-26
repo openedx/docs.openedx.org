@@ -57,8 +57,7 @@ Educators: How-tos
          import_scorm_content
          using_lti
          leveraging_libraries
-
-      :doc:`content-tagging-how-tos/index`
+         content-tagging-how-tos/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
