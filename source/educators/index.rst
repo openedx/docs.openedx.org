@@ -22,8 +22,7 @@ Open edX Educators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/simple_problem_types`
-      * :doc:`references/complex_problem_types`
+      * :doc:`how-tos/content-tagging-how-tos/index`
 
    .. grid-item-card:: Common How-tos
       :class-card: sd-shadow-md sd-p-2
