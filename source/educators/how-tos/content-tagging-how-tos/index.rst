@@ -11,6 +11,16 @@ Content Tagging: How-tos
 
       .. toctree::
          :maxdepth: 0
-         :caption: Learn about Content Tagging!
+         :caption: Content Tagging Management
+
+         Create_flat_taxonomy_by_uploading_CSV
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 0
+         :caption: Taxonomies
 
          Create_flat_taxonomy_by_uploading_CSV
