@@ -14,7 +14,6 @@ exercise, tool, or problem type, see :ref:`Levels of Support`.
 .. toctree::
    :maxdepth: 1
 
-   levels_of_support
    ../../educators/migration_wip/10_exercises_tools/annotation
    ../../educators/migration_wip/10_exercises_tools/chemical_equation
    ../../educators/migration_wip/10_exercises_tools/circuit_schematic_builder
