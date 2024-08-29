@@ -8,6 +8,7 @@ to develop edX courses. Readers of this guide should be familiar with XML.
    :numbered:
    :maxdepth: 2
 
+   front_matter/index
    what-is-olx
    getting-started
    directory-structure
@@ -17,6 +18,7 @@ to develop edX courses. Readers of this guide should be familiar with XML.
    pages/pages
    organizing-course/index
    components/index
+   problem-xml/index
    example-course/index
    studio-example/index
    tasks/index

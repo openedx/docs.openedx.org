@@ -1,3 +1,6 @@
+.. _Course Assets:
+
+#################################
 Course Assets
 #################################
 
@@ -6,4 +9,4 @@ directory. Assets include any image files, textbooks, handouts, and supporting
 JavaScript files.
 
 You must also define the asset in the assets policy file. For more information,
-see :doc:`Course Asset Policy`.
+see :doc:`Course Assets Policy <../policies/assets-policy>`.

@@ -30,7 +30,7 @@ OLX.
   and children of ``vertical`` elements are leaf elements (called modules).
 
   * :ref:`Course Components`
-  * :ref:`Problems`
+  * :ref:`Problem Components`
 
 For more information, see :ref:`The Courseware Structure`.
 

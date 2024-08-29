@@ -1,3 +1,6 @@
+.. _Problem Components:
+
+#################################
 Problem Components
 #################################
 
@@ -57,7 +60,7 @@ assignment type that is defined at the subsection level. You can only set
 assignment types at the subsection level, not at the unit or individual
 component level.
 
-For more information, see :doc:`Grading Policy`.
+For more information, see :doc:`Grading Policy <../policies/grading>`.
 
 .. _Problem Student View:
 
@@ -276,7 +279,7 @@ content libraries. For more information, see :ref:`Randomized Content Blocks`.
    :ref:`Randomization`.
 
 
-.. _Create Randomized Problems:
+.. _Create Randomized Problems OLX:
 
 Create Randomized Problems
 ====================================

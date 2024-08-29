@@ -1,3 +1,6 @@
+.. _Organizing Courseware:
+
+##################################
 Organizing Courseware
 ##################################
 

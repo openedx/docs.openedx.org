@@ -1,3 +1,6 @@
+.. _Example of OLX for a Studio Course:
+
+##################################
 Example of OLX for a Studio Course
 ##################################
 

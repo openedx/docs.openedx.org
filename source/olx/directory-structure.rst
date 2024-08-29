@@ -1,3 +1,6 @@
+.. _OLX Directory Structure:
+
+###############################################
 OLX Course Structure
 ###############################################
 
@@ -62,7 +65,7 @@ directory.
 For information about several examples of these directories, see the following topics.
 
 * :ref:`HTML Components`
-* :ref:`Problems`
+* :ref:`Problem Components`
 * :ref:`Video Components`
 
 As the set of XBlocks grows, so does the set of associated XML tags
@@ -129,5 +132,3 @@ The ``tabs`` directory contains an HTML file for each page you add to your
 course.
 
 For more information, see :ref:`Course Tabs`.
-
-.. include:: ../../links/links.rst

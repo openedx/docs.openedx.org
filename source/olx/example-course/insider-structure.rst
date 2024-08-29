@@ -1,3 +1,6 @@
+.. _The Structure of edX-Insider:
+
+#############################
 The Structure of edX-Insider
 #############################
 

@@ -1,3 +1,6 @@
+.. _The Course About Pages:
+
+#################################
 The Course About Pages
 #################################
 

@@ -12,7 +12,7 @@ structured, see
 :ref:`OLX Directory Structure`.
 
 For information about how a non-Studio OLX course can be structured, see
-:doc:`The Structure of edX-Insider`.
+:doc:`The Structure of edX-Insider <../example-course/insider-structure>`.
 
 .. note::
   The structure and content of the manual testing course can change without

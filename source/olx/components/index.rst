@@ -1,3 +1,6 @@
+.. _Course Components:
+
+#################################
 Course Components (XBlocks)
 #################################
 

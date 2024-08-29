@@ -1,3 +1,6 @@
+.. _The Courseware Structure:
+
+##########################
 The Courseware Structure
 ##########################
 
