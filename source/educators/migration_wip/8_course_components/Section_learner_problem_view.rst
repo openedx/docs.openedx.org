@@ -1,5 +1,3 @@
-.. _The Learner View of a Problem:
-
 #############################
 The Learner View of a Problem
 #############################

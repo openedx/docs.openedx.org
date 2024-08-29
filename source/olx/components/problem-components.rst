@@ -64,7 +64,7 @@ For more information, see :doc:`Grading Policy <../policies/grading>`.
 
 .. _Problem Student View:
 
-:ref:`The Learner View of a Problem`
+:doc:`../../educators/migration_wip/8_course_components/Section_learner_problem_view`
 
 Problem Settings
 ******************

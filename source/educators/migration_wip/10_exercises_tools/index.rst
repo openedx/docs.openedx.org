@@ -61,6 +61,7 @@ For information about building specific course component types, see
    single_select_num_input
    staffgraded
    survey
+   symbolic_response
    text_input
    word_cloud
    zooming_image

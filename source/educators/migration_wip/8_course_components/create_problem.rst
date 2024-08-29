@@ -51,7 +51,7 @@ Subsection`.
 
 .. _Problem Learner View:
 
-:doc:`Section_learner_problem_view`
+.. include:: Section_learner_problem_view.rst
 
 .. _Problem Studio View:
 
