@@ -178,3 +178,19 @@ Educators: How-tos
 
          sidebar_collapse_expand
          sidebar_view_course_section
+         
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Navigate the Open edX® Platform
+
+         add_links_to_social_media_accounts
+         add_update_full_profile
+         add_update_limited_profile
+         share_courses_social_media
+         update_course_specific_settings
+         view_another_learners_profile

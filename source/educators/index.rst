@@ -91,8 +91,6 @@ Open edX Educators
    :caption: Sections
    :glob:
 
-   migration_wip/2_getting-started/index
-   migration_wip/3_dashboard_profile/index
    migration_wip/4_reaching_learners/index
    migration_wip/5_accessibility/index
    migration_wip/6_set_up_course/index

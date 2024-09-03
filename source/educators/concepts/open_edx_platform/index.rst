@@ -5,6 +5,8 @@ Instructional Design Concepts
    :maxdepth: 1
    :glob:
 
-   id_instructional_design_overview
-   id_course_dev_process_overview
-   id_templates
+   what_is_lms
+   what_is_studio
+   what_is_profile_page
+   what_is_programs_page
+   what_is_course_dashboard

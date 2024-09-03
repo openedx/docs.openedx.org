@@ -8,3 +8,4 @@ Educators: Concepts
    :glob:
 
    instructional_design/index
+   open_edx_platform/index

@@ -78,7 +78,7 @@ To receive and share information by email, course team members can:
 
 * Subscribe to announcements and other new topics in the edX Partner
   Portal or the Open edX Portal. For information about how to subscribe, see
-  the :doc:`Release Announcements through the Open edX Portal <receive_announcements_by_email>`
+  the :doc:`Release Announcements through the Open edX Portal <../../community/how-tos/receive_announcements_by_email>`
 
 * Join the `openedx-studio`_ Google group to ask questions and participate in
   discussions with peers at other edX partner organizations and edX staffers.
