@@ -4,11 +4,15 @@ Add and delete tags on courses
 Adding Tags from the Course Outline Page
 ****************************************
 
-#. On the Course Outline page, click on "Manage Tags" in the course header section. The tag drawer will open.
+#. On the Course Outline page, click on "Manage Tags" in the course header section.
 
-   Insert image 1
-   
-   Insert image 2
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step1a.png
+      :alt: Screenshot of clicking Manage tags.
+
+   The tag drawer will open.
+
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step1b.png
+      :alt: Screenshot of tag drawer opening.
 
 #. Click “Edit Tags”.
 
