@@ -18,11 +18,13 @@ Adding Tags from the Course Outline Page
 
 #. Click in the “Add a tag” field.
    
-   Insert image 3
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step3.png
+      :alt: Screenshot of clicking in the Add a tag field.
 
 #. If you know the tag you would like to add, start typing the tag in the “Add a tag” field and matches will display.
    
-   Insert image 5
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step4.png
+      :alt: Screenshot of field matches displaying beneath the Add a tag field.
 
 #. If you don’t know the tag you would like to add, scroll through the list of tags until you find the tag you would like to add.
 
@@ -30,7 +32,8 @@ Adding Tags from the Course Outline Page
 
       Tags may be nested as subtags, and that clicking on the arrows will open any nexted tags.
    
-   Insert image 6
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step5.png
+      :alt: Screenshot of arrows next to tags with nexted subtags.
 
 #. Once you have decided which tag you would like to add, click on the checkbox next to the tag. Add as many tags as you would like. 
    
@@ -38,22 +41,26 @@ Adding Tags from the Course Outline Page
       
       Choosing a nested tag will automatically add its parent tag(s) as well. 
    
-   Insert image 7
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step6.png
+      :alt: Screenshot of .
 
 #. When you are finished, click “Add tags”. You will see the newly added tags in the tag drawer view.
    
-   Insert image 8
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step7.png
+      :alt: Screenshot of added tags in the tag drawer.
 
 #. Click save and close out of the tag drawer. You will see the tag count updated in the Manage Course Tags field.
    
-   Insert image 9
+   .. image:: /_images/educator_how_tos/ctag_course_tag_step8.png
+      :alt: Screenshot of the tag count under the Course tags field.
 
 Deleting Tags from the Course Outline Page
 ******************************************
 
-#. Click on “Manage Tags” in the course header section. The tag drawer will open.The tag drawer will open.
+#. Click on “Manage Tags” in the course header section. The tag drawer will open. The tag drawer will open.
    
-   Insert image 10
+   .. image:: /_images/educator_how_tos/ctag_course_tag_del_step1.png
+      :alt: Screenshot of clicking Manage tags.
 
 #. Click “edit tags”.
 
@@ -63,6 +70,7 @@ Deleting Tags from the Course Outline Page
 
       If you delete a tag that is nested underneath another tag, all tags in the hierarchy will delete.
    
-   Insert image 11
+   .. image:: /_images/educator_how_tos/ctag_course_tag_del_step3.png
+      :alt: Screenshot of x button next to tag.
 
 #. Click “save” and close the tag drawer. You will see the tag count updated in the Manage Course Tags field.
