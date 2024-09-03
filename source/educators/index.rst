@@ -1,3 +1,5 @@
+.. tags:: educators, reference
+
 Open edX Educators
 ##################
 
@@ -82,3 +84,52 @@ Open edX Educators
          :expand:
 
          All Educator Videos
+
+.. toctree::
+   :numbered:
+   :maxdepth: 2
+   :caption: Sections
+   :glob:
+
+   migration_wip/2_getting-started/index
+   migration_wip/3_dashboard_profile/index
+   migration_wip/4_reaching_learners/index
+   migration_wip/5_accessibility/index
+   migration_wip/6_set_up_course/index
+   migration_wip/7_developing_course/index
+   migration_wip/8_course_components/index
+   migration_wip/9_video/index
+   migration_wip/10_exercises_tools/index
+   migration_wip/11_course_assets/index
+   migration_wip/12_course_features/index
+   migration_wip/13_proctored_exams/index
+   migration_wip/14_grading/index
+   migration_wip/15_releasing_course/index
+   migration_wip/16_manage_live_course/index
+   migration_wip/17_manage_discussions/index
+   migration_wip/18_student_progress/index
+   migration_wip/19_rerun_course/index
+   migration_wip/20_glossary/glossary
+
+
+.. ALL NEW DOCUMENTATION ABOVE THIS LINE
+.. ## DOCUMENTORS INFORMATION ##
+   Documentors, welcome! You may submit edits to this document by submitting a pull request. Please read about how to contribute to documents:
+   Getting Started: https://docs.openedx.org/en/latest/documentors/references/doc_guidelines.html
+   Update an Existing Doc: https://docs.openedx.org/en/latest/documentors/how-tos/update_a_doc_via_github.html
+
+   # Migration Checklist
+   [ ] Assigned a Diataxis Tag (see https://docs.openedx.org/en/latest/documentors/concepts/content_types.html)
+   [ ] Assigned a persona role or role(s) (see https://docs.openedx.org/en/latest/documentors/concepts/doc_audiences.html)
+   [ ] References to edX/2U/edx.org removed or changed to Open edX® LMS
+
+
+   # Maintenance Checks
+   [ ] Steps have been tested and confirmed
+   [ ] Links Verified
+   [ ] Imagery is relevant and up-to-date
+   Last Maintenance Check - Date: (e.g. 2024/08/26)
+   Last Maintenance Check - Version: (e.g. Redwood)
+
+
+

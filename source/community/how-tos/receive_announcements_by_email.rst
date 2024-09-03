@@ -1,8 +1,8 @@
-.. :diataxis-type: reference
+.. :diataxis-type: how-to
 
-***********************
-The Open edX Site
-***********************
+*************************************************
+Receive Open edX Platform Announcements by Email
+*************************************************
 
 The `Open edX Portal`_ is the destination for learning about hosting an Open
 edX instance, extending the Open edX platform, and contributing to the Open edX project. In
@@ -11,10 +11,6 @@ community resources.
 
 All users can view content on the Open edX site without creating an account
 and logging in.
-
-===============================
-Release Announcements by Email
-===============================
 
 To receive and share product and release announcements by email, you can
 subscribe to announcements on one of the edX portal sites.
@@ -30,4 +26,4 @@ subscribe to announcements on one of the edX portal sites.
 You will now receive email messages when new announcements of the types you
 selected are posted.
 
-.. include:: ../links/links.rst
+.. include:: ../../educators/migration_wip/links/links.rst
