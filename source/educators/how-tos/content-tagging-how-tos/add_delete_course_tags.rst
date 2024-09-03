@@ -42,7 +42,7 @@ Adding Tags from the Course Outline Page
       Choosing a nested tag will automatically add its parent tag(s) as well. 
    
    .. image:: /_images/educator_how_tos/ctag_course_tag_step6.png
-      :alt: Screenshot of .
+      :alt: Screenshot of parent tags being automatically added.
 
 #. When you are finished, click “Add tags”. You will see the newly added tags in the tag drawer view.
    
