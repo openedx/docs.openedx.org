@@ -11,7 +11,6 @@ Open edX Documentation
 
    Community <community/index>
    Educators <educators/index>
-   Course Operators <course_ops/index>
    Site Operators <site_ops/index>
    Developers <developers/index>
    Documentors <documentors/index>
@@ -30,7 +29,6 @@ Open edX Documentation
          :caption: Quick Starts
 
          Educators: Build a Course <educators/quickstarts/build_a_course>
-         Course Operators: Run a Course <course_ops/quickstarts/index>
          Site Operators: Set up Open edX <site_ops/quickstarts/index>
          Developers: Contribute to Open edX <developers/quickstarts/index>
          Documentors: First Documentation PR <documentors/quickstarts/first_documentation_pr>
@@ -68,27 +66,6 @@ Open edX Documentation
          :expand:
 
          Educators' Home
-
-   .. grid-item-card::
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. toctree::
-         :maxdepth: 1
-         :caption: Course Operators: Run Open edX
-
-         Quickstarts <course_ops/quickstarts/index>
-         How-tos <course_ops/how-tos/index>
-         Concepts <course_ops/concepts/index>
-         References <course_ops/references/index>
-
-      +++
-      .. button-ref:: course_ops/index
-         :color: primary
-         :outline:
-         :expand:
-
-         Course Operators' Home
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
