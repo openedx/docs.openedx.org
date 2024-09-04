@@ -1,5 +1,3 @@
-.. tags:: educators, reference
-
 Open edX Educators
 ##################
 
