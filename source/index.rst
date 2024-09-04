@@ -184,4 +184,4 @@ Open edX Documentation
 
          other/feedback
          other/getting_help
-         Documentation Decisions <documentors/decisions/index>
+         Technical Decisions About This Site <documentors/decisions/index>
