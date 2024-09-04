@@ -96,7 +96,7 @@ Open edX Documentation
 
       .. toctree::
          :maxdepth: 1
-         :caption: Site Operators: Set Up Open edX
+         :caption: Site Operators: Deploy And Run An Open edX Site
 
          Quickstarts <site_ops/quickstarts/index>
          How-tos <site_ops/how-tos/index>
