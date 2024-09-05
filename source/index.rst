@@ -52,7 +52,7 @@ Open edX Documentation
 
       .. toctree::
          :maxdepth: 1
-         :caption: Educators: Build an Open edX Course
+         :caption: Educators: Build and/or Run an Open edX Course
 
          Quickstarts <educators/quickstarts/index>
          How-tos <educators/how-tos/index>
@@ -115,7 +115,7 @@ Open edX Documentation
 
       .. toctree::
          :maxdepth: 1
-         :caption: Documentors
+         :caption: Documentors: Document the Open edX Platform
 
          Quickstarts <documentors/quickstarts/index>
          How-tos <documentors/how-tos/index>
@@ -136,7 +136,7 @@ Open edX Documentation
 
       .. toctree::
          :maxdepth: 1
-         :caption: Translators
+         :caption: Translators: Translate the Open edX Platform
 
          Quickstarts <translators/quickstarts/index>
          How-tos <translators/how-tos/index>
