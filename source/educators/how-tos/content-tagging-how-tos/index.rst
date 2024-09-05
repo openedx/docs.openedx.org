@@ -10,7 +10,7 @@ Content Tagging: How-tos
       :class-footer: sd-border-0
 
       .. toctree::
-         :maxdepth: 0
+         :titlesonly:
          :caption: Content Tagging Management
 
          add_delete_course_tags
@@ -20,7 +20,7 @@ Content Tagging: How-tos
       :class-footer: sd-border-0
 
       .. toctree::
-         :maxdepth: 0
+         :titlesonly:
          :caption: Taxonomies
 
          Create_flat_taxonomy_by_uploading_CSV
