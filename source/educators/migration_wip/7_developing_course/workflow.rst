@@ -146,7 +146,7 @@ visibility:
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` during the revision process, including making sure that the content
 is available for learners who access courses using the edX mobile apps. For
-more information, see `Designing Your Course For a Mobile Experience`_.
+more information, see :ref:`Designing for Mobile`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
    appear in the edX mobile apps than on the edX site. In particular, newly

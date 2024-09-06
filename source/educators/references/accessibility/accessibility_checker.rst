@@ -1,3 +1,5 @@
+.. :diataxis-type: reference
+
 .. _Accessibility Checker:
 
 #####################
@@ -27,7 +29,7 @@ sidebar menu with details on each issue found. Navigate between
 the items to learn about each issue and apply the fixes (see
 images below).
 
-.. image:: ../images/AccessibilityCheckerWidget.png
+.. image:: /_images/educator_references/AccessibilityCheckerWidget.png
   :alt: an image of the accessibility checker icon and menu. The
    accessibility checker lists various accessibility issues and
    includes an auto repair capability.
@@ -99,3 +101,8 @@ content:
 * Tables
 * Captions
 * Scopes
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Accessibility`

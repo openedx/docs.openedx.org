@@ -1,5 +1,7 @@
 .. :diataxis-type: concept
 
+.. _Designing for Mobile:
+
 ###############################################
 Designing Your Course For a Mobile Experience
 ###############################################
@@ -97,3 +99,11 @@ renders as you expect it to.
 .. note:: Keep in mind that course updates that you make might not be
    immediately reflected in the edX mobile apps. In particular, newly
    published content can take up to an hour to update on the Android app.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Accessibility Best Practices for Course Content Development` (concept)
+  :ref:`edX Accessibility Guidelines` (concept)
+  :ref:`Supporting Learners with Diverse Needs` (concept)
+  :ref:`Accessibility Checker` (reference)

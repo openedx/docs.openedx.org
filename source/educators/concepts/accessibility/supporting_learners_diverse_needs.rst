@@ -84,3 +84,11 @@ respond to students who inform you of accessibility barriers to learning.
 However, given the large numbers of learners enrolling in many of the courses,
 you will quickly see how important it is to address accessibility concerns
 when creating a course.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Accessibility Best Practices for Course Content Development` (concept)
+  :ref:`edX Accessibility Guidelines` (concept)
+  :ref:`Designing for Mobile` (concept)
+  :ref:`Accessibility Checker` (reference)

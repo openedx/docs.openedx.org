@@ -1053,3 +1053,11 @@ Universal Design for Learning Resources
 =======================================
 
 * `The National Center on Universal Design for Learning <https://udlguidelines.cast.org/>`_ provides a helpful overview on Universal Design for Learning.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`edX Accessibility Guidelines` (concept)
+  :ref:`Designing for Mobile` (concept)
+  :ref:`Supporting Learners with Diverse Needs` (concept)
+  :ref:`Accessibility Checker` (reference)

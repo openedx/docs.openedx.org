@@ -1,8 +1,12 @@
+.. :diataxis-type: concept
+
 .. _edX Accessibility Guidelines:
 
 ===============================================================
 What Is The edX Accessibility Best Practices Guidance Based On?
 ===============================================================
+
+.. note:: This content has been migrated from legacy edx.org docs and has not yet been adjusted for the Open edX® Community
 
 edX measures and evaluates accessibility primarily using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.1 <https://www.w3.org/TR/WCAG/>`_
@@ -38,3 +42,11 @@ For more information, see the following topics.
 
 * :ref:`Supporting Learners with Diverse Needs`
 * :ref:`Accessibility Best Practices for Course Content Development`
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Accessibility Best Practices for Course Content Development` (concept)
+  :ref:`Designing for Mobile` (concept)
+  :ref:`Supporting Learners with Diverse Needs` (concept)
+  :ref:`Accessibility Checker` (reference)
