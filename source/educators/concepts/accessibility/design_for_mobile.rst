@@ -1,8 +1,17 @@
-.. :diataxis-type: reference
+.. :diataxis-type: concept
 
 ###############################################
 Designing Your Course For a Mobile Experience
 ###############################################
+
+Keep in
+mind that the courses and course content that you create should be accessible
+to everyone, regardless of any physical limitation that they might have, and
+regardless whether they are accessing your course using a Web browser or using
+mobile apps.
+
+For information about accessibility best practices, see :ref:`Accessibility
+Index <Accessibility Index>`.
 
 The percentage of learners who access MOOCs using smartphones is increasing
 every day. Most courses on edx.org can be viewed on smartphones using the edX

@@ -67,7 +67,7 @@ The following diagram summarizes the content creation workflow:
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` throughout the creation process, including making sure that the
 content is available for learners who access courses using the edX mobile apps.
-For more information, see :doc:`../4_reaching_learners/design_for_mobile`.
+For more information, see :doc:`../../concepts/accessibility/design_for_mobile`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
    appear in the edX mobile apps than on the edX site. In particular, newly
@@ -146,7 +146,7 @@ visibility:
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` during the revision process, including making sure that the content
 is available for learners who access courses using the edX mobile apps. For
-more information, see :doc:`../4_reaching_learners/design_for_mobile`.
+more information, see `Designing Your Course For a Mobile Experience`_.
 
 .. note:: Keep in mind that course updates that you make might take longer to
    appear in the edX mobile apps than on the edX site. In particular, newly
