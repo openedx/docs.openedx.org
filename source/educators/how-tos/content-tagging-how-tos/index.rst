@@ -13,7 +13,7 @@ Content Tagging: How-tos
          :maxdepth: 0
          :caption: Content Tagging Management
 
-         Create_flat_taxonomy_by_uploading_CSV
+         add_delete_course_tags
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
