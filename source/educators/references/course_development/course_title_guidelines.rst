@@ -1,6 +1,12 @@
+.. :diataxis-type: reference
+
 ############################
 Course Title Guidelines
 ############################
+
+The course title (sometimes also called the course name) and number are
+important identifiers for your course. It is a good idea to use titles and
+numbers that are easy to understand and remember.
 
 When you determine the title of your course, consider the following guidelines.
 
@@ -14,14 +20,8 @@ When you determine the title of your course, consider the following guidelines.
   guidelines.
 * Make sure the course title targets a global audience.
 
-.. only:: Partners
-
- For more information about how to add your course name, see `Pub Create a Course`_.
-
-.. only:: Open_edX
-
- For information about how to add your course name, see
- :ref:`Creating a New Course <Create a New Course>`.
+For information about how to add your course name, see
+:ref:`Creating a New Course <Create a New Course>`.
 
 .. note::
   The title that you specify when you create your course becomes part of the
@@ -45,3 +45,9 @@ as an XSeries.
 * Circuits and Electronics 1: Basic Circuit Analysis
 * Circuits and Electronics 2: Amplification, Speed, and Delay
 * Circuits and Electronics 3: Applications
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Course Number Guidelines` (reference)
+  :ref:`Creating a New Course <Create a New Course>`

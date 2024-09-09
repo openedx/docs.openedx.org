@@ -1,7 +1,12 @@
+.. :diataxis-type: reference
 
 ##############################
 Course Number Guidelines
 ##############################
+
+The course title (sometimes also called the course name) and number are
+important identifiers for your course. It is a good idea to use titles and
+numbers that are easy to understand and remember.
 
 Course numbers have the following guidelines.
 
@@ -16,10 +21,6 @@ Course numbers have the following guidelines.
   the way that your course number appears in Studio and the LMS, see
   :ref:`Change the Course Number <Change the Course Number>`.
 
-.. only:: Partners
-
- For more information about how to add your course number, see `Pub Create a Course`_.
-
 .. only:: Open_edX
 
  For information about how to add your course number, see
@@ -32,3 +33,9 @@ Example Course Numbers
 * CS002x
 * BIO1.1x and BIO1.2x
 * 6.002.1x and 6.002.2x
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Course Title Guidelines` (reference)
+  :ref:`Creating a New Course <Create a New Course>`

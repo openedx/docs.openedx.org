@@ -35,4 +35,5 @@ General References
 
    *
    instructional_design/index
+   course_development/index
    accessibility/index
