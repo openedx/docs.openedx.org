@@ -14,6 +14,7 @@ Content Tagging: How-tos
          :caption: Content Tagging Management
 
          add_delete_course_tags
+         export_tag_data_from_course
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
