@@ -7,11 +7,13 @@ The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarc
 
 #. Open any spreadsheet application (Excel, Numbers, Google Sheets, etc.) and create a new blank spreadsheet. In the first row, add two columns called **id** and **value**.
 
-   Insert image here
+   .. image:: /_images/educator_how_tos/ctag_create_taxonomy_step1.png
+      :alt: Screenshot showing new blank spreadsheet with one row and two columns, the first column called id and the second called value.
 
 #. Below that, enter the new tags that you want to create in the “value” column, and give each tag an ID in the “id” column. The “id” for each tag is required, but mostly relevant when you are aligning your taxonomy with some external system that uses IDs for each tag. If you don’t have that use case, just enter the same text for the id as for the value.
 
-   Insert image here
+   .. image:: /_images/educator_how_tos/ctag_create_taxonomy_step2.png
+      :alt: Screenshot showing a spreadsheet with two columns, the first column called id and the second called value. The same tag values are populated in the id column and the value column. 
 
 #. Save the spreadsheet using the default format, in case you want to edit it later.
 #. Export the spreadsheet to a CSV file.
