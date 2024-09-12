@@ -6,7 +6,6 @@ This repository contains source files for the `Open edX Documentation`_ site. Th
 The `Open edX Documentation`_ site contains complete documentation for:
 
 * Educators
-* Course Operators
 * Site Operators
 * Developers
 
