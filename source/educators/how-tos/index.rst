@@ -21,6 +21,8 @@ Educators: How-tos
          set_up_certificates
          importing_exporting
          course_reruns
+         course_rerun
+         update_rerun_course
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
