@@ -10,7 +10,6 @@ managing learners' answers and grades in your course.
 .. toctree::
    :maxdepth: 2
 
-   course_student
    course_answers
    course_grades
    certificate_data

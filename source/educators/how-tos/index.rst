@@ -196,3 +196,13 @@ Educators: How-tos
          share_courses_social_media
          update_course_specific_settings
          view_another_learners_profile
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Data & Analytics
+
+         data/index
