@@ -1,3 +1,5 @@
+.. :diataxis-type: how-to
+
 .. _Review_Answers:
 
 ############################
@@ -255,56 +257,30 @@ problem or submitted an answer for a problem, identified by username.
 
 The .csv file contains the following columns.
 
-.. only:: Partners
+.. list-table::
+   :widths: 20 60
+   :header-rows: 1
 
-  .. list-table::
-     :widths: 20 60
-     :header-rows: 1
-
-     * - Column
-       - Description
-     * - Username
-       - The student's username.
-     * - Title
-       - The display name or title of the problem or course component.
-     * - Question
-       - The question(s) that were asked to the student.
-     * - Answer
-       - The student's answer(s), in human-readable text.
-     * - Location
-       - The location of the problem or component in the course. For example,
-         **Introduction > Overview > Testing Your Knowledge** (section,
-         subsection, and unit).
-     * - State
-       - The detailed JSON data with details in the student's submission (not
-         human-readable).
-
-.. only:: Open_edX
-
-  .. list-table::
-     :widths: 20 60
-     :header-rows: 1
-
-     * - Column
-       - Description
-     * - Username
-       - The student's username.
-     * - Title
-       - The display name or title of the problem or course component.
-     * - Question
-       - The question(s) that were asked to the student.
-     * - Answer
-       - The student's answer(s), in human-readable text.
-     * - Location
-       - The location of the problem or component in the course. For example,
-         **Introduction > Overview > Testing Your Knowledge** (section,
-         subsection, and unit).
-     * - State
-       - The detailed JSON data with details in the student's submission (not
-         human-readable).
-     * - Block_key
-       - The ID or key of the XBlock. Note that non-interactive XBlocks, such
-         as HTML/text blocks, will not appear in the report.
+   * - Column
+     - Description
+   * - Username
+     - The student's username.
+   * - Title
+     - The display name or title of the problem or course component.
+   * - Question
+     - The question(s) that were asked to the student.
+   * - Answer
+     - The student's answer(s), in human-readable text.
+   * - Location
+     - The location of the problem or component in the course. For example,
+       **Introduction > Overview > Testing Your Knowledge** (section,
+       subsection, and unit).
+   * - State
+     - The detailed JSON data with details in the student's submission (not
+       human-readable).
+   * - Block_key
+     - The ID or key of the XBlock. Note that non-interactive XBlocks, such
+       as HTML/text blocks, will not appear in the report.
 
 The **State** column reports the results of the server processing for each
 learner's most recently submitted answer. When you open the report, the value
@@ -392,9 +368,7 @@ called rerandomization), there is one row for each problem-variant-answer
 combination selected by your learners. For more information, see :ref:`Problem
 Settings`.
 
-.. note:: Certain types of problems can be set up to :doc:`../8_course_components/Section_partial_credit`. When a learner receives
-  either the full or a partial score for a problem, this report includes that
-  answer as correct.
+.. note:: Certain types of problems can be set up to :ref:`award partial credit <Awarding Partial Credit for a Problem>`. When a learner receives either the full or a partial score for a problem, this report includes that answer as correct.
 
 The .csv file contains the following columns.
 
@@ -473,94 +447,6 @@ To download the most recent file of learner answer data, follow these steps.
    ``{course_id}_answer_distribution.csv`` file. You may have to scroll down to
    find this file.
 
-==========================================================================
-Frequently Asked Questions about the Student Answer Distribution Report
-==========================================================================
-
-Answers to questions about the student answer distribution report follow.
-
-**My course doesn't have a student answer distribution report. How can I
-generate it?**
-
-Student answer distribution reports are generated automatically, and refreshed
-several times each day. The ``{course_id}_answer_distribution.csv`` file
-displays after all of the ``{course_id}_grade_report_{date}.csv`` files. Be
-sure to scroll to the end of the list of available reports.
-
-**Why are some problems missing from this report? The ones that are missing do
-have the problem types listed under** :ref:`Review_Answers`.
-
-This report includes only problems that at least one learner has answered since
-early March 2014. For those problems, this report only includes activity that
-occurred after October 2013.
-
-**Why don't I see an AnswerValue for some of my problems?**
-
-For checkboxes and multiple choice problems, the answer choices actually
-selected by a learner after early March 2014 display as described in the
-previous answer. Answer choices selected by at least one learner after October
-2013, but not selected since early March 2014, are included on the report but
-do not include an **AnswerValue**. The **ValueID** does display the internal
-identifiers, such as choice_1 and choice_2, for those answers.
-
-**Why don't I see a Question for some of my problems?**
-
-The value in the **Question** column is the question text that you identified
-for the problem with the accessible label formatting. If you did not identify
-question text for the problem, you will not see a question. For more
-information about how to set up accessible labels for problems, see
-:ref:`Simple Editor`.
-
-Also, for problems that use the **Randomization** setting in Studio, if a
-particular answer has not been selected since early March 2014, the
-**Question** is blank for that answer.
-
-**My learners are saying that they answered a question, but it isn't showing up
-in the report. How can that be?**
-
-Only questions that have a **Maximum Attempts** setting of 1 or higher are
-included on the report.
-
-**I made a correction to a problem after it was released. How can I tell which
-learners tried to answer it before I made the change?**
-
-Problem **Count** values reflect the entire problem history. If you change a
-problem after it is released, it may not be possible for you to determine which
-answers were given before and after you made the change.
-
-**Why is the same answer showing up in two different rows when I view the
-report in a spreadsheet?**
-
-Some spreadsheet applications can alter the data in the .csv report for display
-purposes. For example, for different learner answers of "0.5" and ".5" Excel
-correctly includes the two different lines from the .csv, but displays the
-**AnswerValue** on both of them as "0.5". If you notice answers that appear to
-be the same on separate lines with separate counts, you can review the actual,
-unaltered data by opening the .csv file in a text editor.
-
-**Why are there strange characters in the report when I view it in a
-spreadsheet?**
-
-The .csv file is UTF-8 encoded, but not all spreadsheet applications interpret
-and render UTF-8 encoded characters correctly. For example, a student answer
-distribution report with answer values in French displays differently in
-Microsoft Excel for Mac than in OpenOffice Calc.
-
-  Answer Values in Microsoft Excel for Mac:
-
-   .. image:: ../images/student_answer_excel.png
-     :alt: A spreadsheet that replaces accented French characters with
-      underscores.
-
-  Answer Values in OpenOffice Calc:
-
-   .. image:: ../images/student_answer_calc.png
-     :alt: A spreadsheet that displays accented French characters correctly.
-
-If you notice characters that do not display as expected in a spreadsheet, try
-a different spreadsheet application such as LibreOffice or Apache OpenOffice to
-open the .csv file.
-
 ====================================================
 Interpret the Student Answer Distribution Report
 ====================================================
@@ -574,7 +460,7 @@ correct answer, "Warfarin". When you produce the Student Answer Distribution
 report, you verify that this answer was in fact marked correct: there is a 1 in
 the **Correct Answer** column for this **AnswerValue**.
 
-.. image:: ../images/SAD_Answer_Review.png
+.. image:: /_images/educator_how_tos/SAD_Answer_Review.png
     :alt: In Excel, 5 rows show 5 answer values, 4 of which show comprehension
      of the question, but only 1 answer is marked as correct.
 
@@ -589,7 +475,7 @@ Many spreadsheet applications offer data visualization options, such as charts
 or graphs. Charts can help make your learners' common misconceptions easier to
 identify.
 
-.. image:: ../images/SAD_Column_Chart.png
+.. image:: /_images/educator_how_tos/SAD_Column_Chart.png
     :alt: In Excel, AnswerValue and Count columns next to each other, values
         for 4 rows selected, and a column chart of the count for the 4 answers.
 
@@ -608,3 +494,9 @@ toolbar and then select the type of chart you want.
 You can adjust your course content based on common mistakes. While most
 learners in this example selected the correct answer, the number of incorrect
 answer(s) can guide future changes to the course content.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Answer_Report_FAQ` (reference)
+

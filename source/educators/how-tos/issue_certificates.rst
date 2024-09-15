@@ -1,38 +1,4 @@
-.. _Checking Student Progress and Issuing Certificates:
-
-###############
-Ending a Course
-###############
-
-This topic describes how to complete several end-of-course tasks.
-
-.. contents::
-   :local:
-   :depth: 1
-
-For more information, see the following other topics about certificates.
-
-* :ref:`Setting Up Certificates`
-* :ref:`Reporting Certificate Data`
-
-**************************
-Sending a Farewell Message
-**************************
-
-As you prepare for the end of your course, you can send learners a :ref:`course
-farewell<Course Farewell and Certificates>` email message.
-
-**********************
-Assigning Final Grades
-**********************
-
-To assign a final grade to each learner enrolled in a course, you generate
-grades after the course end date and time have passed. For more information,
-see :ref:`Access_grades`.
-
-The learner's final grade and the grading configuration you set in Studio
-determine whether the learner has earned a certificate for the course.
-
+.. diataxis-type: how-to
 
 .. _Issuing Certificates:
 
@@ -40,15 +6,13 @@ determine whether the learner has earned a certificate for the course.
 Issuing Certificates
 ********************
 
-.. only:: Open_edX
-
-  .. note::
-   Before you can issue certificates, the administrator for your instance of
-   Open edX must configure the platform to allow course teams to generate and
-   issue certificates. For more information, see
-   :ref:`Enable Automatic Certificate Generation` and
-   :ref:`Enable Certificates` in *Installing, Configuring, and
-   Running the Open edX Platform*.
+.. note::
+ Before you can issue certificates, the administrator for your instance of
+ Open edX must configure the platform to allow course teams to generate and
+ issue certificates. For more information, see
+ :ref:`Enable Automatic Certificate Generation` and
+ :ref:`Enable Certificates` in *Installing, Configuring, and
+ Running the Open edX Platform*.
 
 The platform can automatically generate certificates for both self-paced courses and
 instructor-paced courses. When certificates become available, options for
@@ -127,5 +91,9 @@ To allow learners to download early certificates, you modify the
 
 #. Select **Save Changes**.
 
+.. seealso::
+  :class: dropdown
 
+  :ref:`Setting Up Certificates`
+  :ref:`Reporting Certificate Data`
 

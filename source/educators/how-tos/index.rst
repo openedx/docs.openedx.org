@@ -206,3 +206,18 @@ Educators: How-tos
          :caption: Data & Analytics
 
          data/index
+
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Close a Course
+
+         issue_certificates
+
+
+
+         

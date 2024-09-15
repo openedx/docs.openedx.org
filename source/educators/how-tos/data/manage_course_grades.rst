@@ -1,7 +1,9 @@
+.. :diataxis-type: how-to
+
 .. _Grades:
 
 ############################
-Learner Grades and Grading
+Manage Learner Grades
 ############################
 
 You can review information about how grading is configured for your course, and
@@ -52,14 +54,14 @@ learners' grades.
    A list of the assignment types in your course displays. In this example,
    Homework is weighted as 0.3 (30%) of the grade.
 
-   .. image:: ../images/Grading_Configuration.png
+   .. image:: /_images/educator_how_tos/Grading_Configuration.png
      :alt: XML of course assignment types and weights for grading.
 
    In Studio, you define this information by selecting **Settings** and then
    **Grading**. For more information, see :ref:`Configure the Assignment
    Types`.
 
-   .. image:: ../images/Grading_Configuration_Studio.png
+   .. image:: /_images/educator_how_tos/Grading_Configuration_Studio.png
      :alt: Studio example of homework assignment type and grading weight.
 
 
@@ -132,136 +134,10 @@ follow these steps.
    on this page also expire if the page is open for more than 5 minutes. If
    necessary, refresh the page to generate new links.
 
-.. _Interpret the Grade Report:
+.. seealso::
+ :class: dropdown
 
-=============================
-Interpreting the Grade Report
-=============================
-
-A grade report for your course is a time-stamped .csv file that identifies each
-learner by ID, email address, and username, and provides a snapshot of their
-cumulative course scores.
-
-Scores in the grade report are presented by assignment. There is a column for
-every assignment that is included in your grading configuration: each
-homework, lab, midterm, final, and any other assignment type you added to your
-course.
-
-.. note:: The grade report does not include information about individual
-   problems within assignments, or include learner answer distributions. For a
-   report that shows problem-level information, see :ref:`problem_report`.
-
-The report indicates the enrollment track for each learner. For professional
-and verified track learners it also shows whether they have verified their
-identity. The report shows whether each learner is eligible to receive a
-certificate (determined by whether he has earned a passing grade at the time
-the report was requested), whether a certificate has been generated, and the
-type of certificate earned.
-
-If your course includes :ref:`cohorts<Cohorts Overview>`, :ref:`content
-experiments<Overview of Content Experiments>`, or
-:ref:`teams<CA_Teams_Overview>`, the grade report includes additional columns
-indicating the name of the cohort, experiment group, or team that each learner
-belongs to.
-
-.. image:: ../images/Grade-Report-with-enroll-status.png
-  :alt: A course grade report, opened in Excel, showing the grades achieved by
-        learners on several homework assignments and the midterm.
-
-The grade report .csv file contains one row of data for each learner, and
-columns that provide the following information.
-
-* Learner identifiers, including an internal **Student ID**, **Email** address,
-  and **Username**.
-
-* The overall **Grade**, with the total score a learner has currently attained
-  in the course. This value is expressed as a decimal: a learner with a grade
-  of 0.65 has earned 65% of the credit in the course, and a learner with a
-  grade of 1 has earned 100%.
-
-* Each **{assignment type} {number}** defined in your grading configuration,
-  with the score that the learner attained for that specific assignment. For
-  example, column Homework 3 shows the scores for the third homework
-  assignment. If the learner did not attempt the assignment, the value is "Not
-  Attempted". If the assignment was not available for the learner, the value
-  is "Not Available".
-
-* An **{assignment type} (Avg)** with each learner's current average score for
-  that assignment type: for example, "Homework (Avg)". This column is not
-  included if a particular assignment type has only one assignment.
-
-  This assignment type average takes both dropped assignments and the
-  assignment weight into account. For example, if the course includes five
-  homework assignments and the course grading policy allows one homework
-  assignment with the lowest score to be dropped, the homework assignment
-  average in this grade report is calculated over four homework assignments
-  rather than five. This average is then multiplied by the assignment weight to
-  calculate the assignment type average.
-
-* If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
-  column indicates the name of the cohort that each learner belongs to,
-  including the default cohort. The column is empty for learners who are not
-  yet assigned to a cohort.
-
-* If :ref:`content experiments<Overview of Content Experiments>` are used in
-  the course, an **Experiment Group** column indicates the name of the
-  experiment group that each learner belongs to within a group configuration.
-  The column heading includes the name of the group configuration. The column
-  is empty for learners who are not assigned to an experiment group. If you
-  have more than one experiment group configuration in your course, you see one
-  column for each group configuration.
-
-* If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team Name**
-  column indicates the name of the team that each learner belongs to. The
-  column is empty for learners who have not joined a team.
-
-* The **Enrollment Track** column indicates whether each learner is enrolled in
-  the course in the honor code, verified, or professional education track.
-
-* The **Verification Status** column indicates whether learners who are
-  enrolled in course tracks that require ID verification have successfully
-  verified their identities to edX by submitting an official photo ID via
-  webcam. The value in this column is "N/A" for learners enrolled in course
-  tracks that do not require ID verification, such as "Audit".
-
-  A value of "Not ID Verified" in this column indicates that the learner is
-  enrolled in a course mode that requires ID verification, such as "Verified",
-  but she has not attempted ID verification, or her ID verification has failed
-  or expired. A value of "ID Verified" indicates that the learner is enrolled
-  in a course mode that requires ID verification, and her ID verification is
-  current and valid.
-
-* The **Certificate Eligible** column indicates whether a learner is eligible
-  for a certificate for your course.
-
-  The value in this column is "Y" for the following learners.
-
-  * Verified learners who attained a passing grade before this report was
-    requested. For example, the learner could have earned a passing grade in an
-    earlier session, or run, of the course.
-
-  * All whitelisted learners, regardless of grade or enrollment track.
-
-  The value is "N" for the following learners.
-
-  * Learners who did not attain a passing grade.
-
-  * Learners who are in the audit track.
-
-  * Learners who live in embargoed countries.
-
-* For learners who are eligible to receive a certificate, the **Certificate
-  Delivered** column has a value of "Y" when the certificates for a course have
-  been generated. The value is "N" for learners who are not eligible to
-  receive a certificate.
-
-* The **Certificate Type** column indicates the type of certificate that the
-  learner is eligible for, such as "honor" or "verified". If a learner is not
-  eligible for a certificate, or if the certificates for a course have not yet
-  been generated, the value in this column is "N/A".
-
-* The **Enrollment Status** column indicates whether the learner is currently
-  enrolled or unenrolled in the course.
+ :ref:`Interpret the Grade Report` (reference)
 
 .. _problem_report:
 
@@ -314,49 +190,10 @@ ever enrolled in your course, follow these steps.
    minutes. The links on this page also expire if the page is open for more
    than 5 minutes. If necessary, refresh the page to generate new links.
 
-.. _Interpret the Problem Grade Report:
+.. seealso::
+ :class: dropdown
 
-======================================
-Interpreting the Problem Grade Report
-======================================
-
-A problem grade report for your course is a time-stamped .csv file that
-identifies each learner by ID, email address, and username, and provides a
-snapshot of earned scores compared with the possible scores for each problem.
-
-The problem grade report includes two columns for every problem that is
-included in your grading configuration. For each homework, lab, midterm, or
-final exam problem, there is one column for earned points, and one column for
-possible points. In addition, the report shows the final grade score for each
-learner, expressed as a decimal.
-
-.. image:: ../images/Problem_Grade_Report_Example.png
-  :alt: An example problem grade report shown in Excel, showing the decimal
-    final grade for learners as well as the earned vs possible points that they
-    each achieved on several quiz assignments. A column for a midterm is only
-    partially visible.
-
-The .csv file contains one row of data for each learner, and columns that
-provide the following information.
-
-* Learner identifiers, including an internal **Student ID**, **Email** address,
-  and **Username**.
-
-* The **Grade** column shows the total score that a learner has currently
-  attained in the course. This value is expressed as a decimal: a learner with
-  a grade of 0.65 has earned 65% of the credit in the course, and a learner
-  with a grade of 1 has earned 100%.
-
-* For each problem (identified by assignment, subsection, and problem name), a
-  column showing the number of points actually earned by each learner. If the
-  learner did not attempt the assignment, the value is "Not Attempted". If the
-  assignment is not available to the learner, the value in this column is "Not
-  Available".
-
-* For each problem (identified by assignment, subsection, and problem name), a
-  column showing the number of points that it is possible to earn for the
-  problem. If the assignment is not available to the learner, the value in
-  this column is "Not Available".
+ :ref:`Interpret the Problem Grade Report` (reference)
 
 .. _gradebook:
 
@@ -373,7 +210,7 @@ review grades for a course, follow these steps.
 
 #. Select **View Gradebook**. Grades are calculated and the Gradebook displays.
 
-   .. image:: ../images/Learner_Gradebook.png
+   .. image:: /_images/educator_how_tos/Learner_Gradebook.png
      :alt: Course gradebook with rows for learners and columns for assignments.
 
 The gradebook displays a table, with a row for each learner (\*see note) enrolled in the
@@ -582,110 +419,7 @@ It is important to keep in mind that some of the performance displays may be
 impacted by content or grade visibility settings in Studio. The implications of
 these settings will be discussed in the following section.
 
-.. _Understanding the Progress Page:
-
-================================
-Understanding the Progress Page
-================================
-
-.. _course_completion:
-
-Course Completion
-*****************
-
-This chart represents how much of the course content learner’s have completed.
-All units that can be completed are accounted for in this chart, including readings, videos,
-graded assignments, practice assignments, and assignments with future scheduled release dates.
-
-The :ref:`Subsection Visibility Setting<Content Hidden from Students>` in Studio impacts what content is represented in the Course Completion chart.
-
-* Course content with a **Subsection Visibility Setting** of “Entirely Hide Subsection” will not appear in the chart.
-
-* Course content in self-paced courses with a **Subsection Visibility Setting** of “Hide content after course end date” will not appear in the chart once the course has ended.
-
-* Course content in instructor-paced courses with a **Subsection Visibility Setting** of “Hide content after due date” will not appear in the chart once the assignment’s due date has passed.
-
-   .. image:: ../images/Progress_CompletionChart.png
-     :alt: Pie chart representing how much course content has been completed.
-
-.. _grades_chart:
-
-Grades
-*****************
-
-This feature displays the minimum passing grade in the course against the learner's current grade.
-The :ref:`Assessment Visibility Setting<Problem Results Visibility>` in Studio impacts the grade calculation on the **Progress** page. Different settings
-determine whether a graded assignment is considered when calculating the grade to display to the learner.
-
-* If “Always Show Results” has been selected, the assignment will be factored into this grade.
-
-* If “Never Show Results” has been selected, the assignment will not be factored into this grade. This does not change the learner’s grade within Gradebook. This also does not impact the learner’s eligibility for a certificate.
-
-* If “Show When Subsection is Past Due” has been selected, the assignment will only be factored into this grade when the assignment due date has passed.
-
-Regardless of which **Assessment Visibility Setting** is selected, it will not impact the grade within the **Gradebook** of the **Student Admin** tab.
-A learner's certificate eligibility is based on the grade in the **Gradebook**.
-
-Additionally, the Grades display includes a description of the :ref:`grade range<Set the Grade Range>` set for the course. The default grade range for a course is a binary Pass/Fail.
-If your course has additional ranges, they will be displayed here.
-
-   .. image:: ../images/Progress_Grades.png
-     :alt: Example of the Grades feature where the learner's current grade is not above the minimum passing grade.
-
-.. _grade_summary:
-
-Grade Summary
-*************
-
-The Grade Summary table breaks down each :ref:`assignment type<Configure the Assignment Types>` available in the course and the learner's performance in each type.
-The grades displayed in this section follow the same calculation criteria as the :ref:`Grades<grades_chart>` feature. To recap, an assignment will be factored into
-this grade calculation if its :ref:`Assessment Visibility Setting<Problem Results Visibility>` has been set to "Always Show Results" or "Show When Subsection is Past Due".
-
-   .. image:: ../images/Progress_GradeSummary.png
-     :alt: Grade Summary table displaying assignment types and weighted grades.
-
-.. _detailed_grades:
-
-Detailed Grades
-***************
-
-The Detailed Grades section is a list of all graded assignments in a course. Both the overall subsection grade
-and the individual problem scores are included in this list. Assignments will not appear in this display if any of the following criteria are true:
-
-* The assignment has its :ref:`Subsection Visibility Setting<Content Hidden from Students>` set to "Entirely Hide Subsection".
-
-* The assignment has a future scheduled release date.
-
-* The assignment is not graded.
-
-   .. image:: ../images/Progress_DetailedGrades.png
-     :alt: Detailed Grades feature that displays subsection scores.
-
-.. _certificate_status:
-
-Certificate Status
-******************
-
-Certificate Status will only be displayed if your course has a certificate option.
-If your course is eligible, this feature will describe which of the following states the learner is in:
-
-* **Passing**, where the learner has earned the minimum grade required to earn a certificate.
-
-* **Not passing**, where the learner has not earned the minimum grade required to earn a certificate.
-
-* **Audit learner**, where the learner is in an audit track and does not qualify for a certificate.
-
-* **Certificate not yet available**, where the course is instructor-paced, and the certificate will not be available until after the course end date.
-
-* **ID not verified**, where the learner has not completed their ID verification.
-
-* **Can request certificate**, where the learner has earned a certificate, but the certificate has yet to be generated. In this case, the learner can request a certificate.
-
-   .. image:: ../images/Progress_CertificateStatus.png
-     :alt: Certificate Status feature describing the learner has passed and can view their certificate.
-
 .. _grant_extensions:
-
 
 ************************************************
 Grant Due Date Extensions for a Specific Learner
@@ -780,7 +514,7 @@ dashboard Gradebook, follow these steps.
    Grades** dialog opens, displaying the assignment name, the learner's user
    name, and the current grade for the assignment.
 
-   .. image:: ../images/Gradebook_Edit_Grades.png
+   .. image:: /_images/educator_how_tos/Gradebook_Edit_Grades.png
      :alt: The Edit Grades dialog, which enables you to adjust a learner's
            grade for an assignment.
 
