@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Managing Divided Discussion Topics:
 
 ###################################
@@ -29,20 +31,10 @@ particular group. For learners, this is the only noticeable difference between
 discussions in courses that use divided discussions, and courses that do not
 have groups and do not use divided discussions.
 
-.. only:: Partners
-
- You can share the examples in the :ref:`Read the Group Indicator in Posts`
- section with your learners. The `course discussions index`_
- section in the *EdX Learner's Guide* also provides useful information to help
- learners make the most of their participation in course discussions.
-
-.. only:: Open_edX
-
- You can share the examples in the :ref:`Read the Group Indicator in Posts`
- section with your learners. The `course discussions index`_
- section in the *Open edX Learner's Guide* also provides useful information to
- help learners make the most of their participation in course discussions.
-
+You can share the examples in the :ref:`Read the Group Indicator in Posts`
+section with your learners. The `course discussions index`_
+section in the *Open edX Learner's Guide* also provides useful information to
+help learners make the most of their participation in course discussions.
 
 Course team members who have the Discussion Admin, Discussion Moderator,
 Community TA or Group Community TA role see the indicator of who can read each
@@ -100,14 +92,14 @@ Every post includes a sentence that identifies whether everyone can see and
 contribute to it, or only the members of a group in the course. Examples
 follow.
 
-.. image:: ../images/post_visible_all.png
+.. image:: /_images/educator_concepts/post_visible_all.png
  :alt: A discussion topic post with the indicator "This post is visible to
      everyone".
  :width: 600
 
 .. extra line
 
-.. image:: ../images/post_visible_group.png
+.. image:: /_images/educator_concepts/post_visible_group.png
  :alt: A discussion topic post with the indicator "This post is visible to
      Alumni".
  :width: 600
@@ -164,7 +156,7 @@ field.
 This example shows a new post being added to a content-specific
 discussion topic.
 
-.. image:: ../images/discussion_add_post_group_selection.png
+.. image:: /_images/educator_concepts/discussion_add_post_group_selection.png
  :alt: The fields and controls that appear when a course team member with
     discussion admin privileges clicks "Add a Post" for a divided topic.
 
@@ -226,7 +218,7 @@ groups** filter is selected by default. You see every post when you make this
 selection. To limit the list so that you can view the same set of posts as the
 members of a particular group, select the name of that group.
 
-.. image:: ../images/discussion_filter_by_groups.png
+.. image:: /_images/educator_concepts/discussion_filter_by_groups.png
  :alt: An image showing the discussion navigation pane on the Discussion page,
      with a dropdown menu showing the options to select "in all groups" or a
      specific group by name.

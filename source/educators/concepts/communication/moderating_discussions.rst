@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Moderating_discussions:
 
 #######################
@@ -105,78 +107,6 @@ the following roles.
   with a **Community TA** identifier.
 
 
-.. _Assigning_discussion_roles:
-
-*************************************
-Assigning Discussion Moderation Roles
-*************************************
-
-You must either be the course author, or have the Admin role, to add people to
-discussion moderation roles.
-
-You must obtain the email address or username for each person that you want to
-add.
-
-* To obtain the email address or username for a course team member, in the LMS
-  select **Instructor**, then select **Membership**. In the **Course Team
-  Management** section, select the current course team role (Staff or Admin) of
-  the person whose information you are looking for. From the list of course
-  team members with the selected role locate the required email address or
-  username.
-
-* To obtain the email address or username for an enrolled learner, in the LMS
-  select **Instructor**, then select **Data Download**. In the
-  **Reports** section, select **Download profile information as a CSV**. In the
-  downloaded file, locate the required email address or username.
-
-
-====================================
-Add Someone To a Discussion Role
-====================================
-
-You can add any user who is already enrolled in your course to a discussion
-moderation role.
-
-.. note:: To add someone to the Discussion Admin role, you must be the course
-   author or a course team member who has the Admin role.
-
-#. View the live version of the course.
-
-#. Select **Instructor**, and then select **Membership**.
-
-#. In the **Course Team Management** section, select the discussion role that
-   you want to assign: **Discussion Admins**, **Discussion Moderators**,
-   **Group Community TA**, or **Community TA**.
-
-#. Under the list of users who currently have that role, enter the email address
-   or username of the person you want to add.
-
-#. Select **Add** for the role type.
-
-   The person who you added appears in the list.
-
-
-======================================
-Remove Someone from a Discussion Role
-======================================
-
-To remove someone from a discussion moderation role, you must be the course
-author or have the Admin role.
-
-#. View the live version of the course.
-
-#. Select **Instructor**, and then select **Membership**.
-
-#. In the **Course Team Management** section, select the discussion role from
-   which you want to remove the user: **Discussion Admins**, **Discussion
-   Moderators**, **Group Community TA**, or **Community TA**.
-
-#. In the list of users who currently have that role, locate the user you
-   want to remove, and then select **Revoke access**.
-
-   The person who you removed no longer appears in the list.
-
-
 *******************************
 Provide Guidelines for Learners
 *******************************
@@ -186,20 +116,10 @@ them available to learners as a course handout file or on a defined page in
 your course. These guidelines can define your expectations and optionally
 introduce features of edX discussions.
 
-.. only:: Partners
-
- You can also refer learners to the `course discussions index`_
- section in the *EdX Learner's Guide*. Consider referring learners in your
- courses to that section, which describes the structure and features of edX
- course discussions, and provides useful information to help learners make the
- most of their participation in course discussions.
-
-.. only:: Open_edX
-
- You can also refer learners to the `course discussions index`_ section in the *Open EdX Learner's Guide*. Consider referring learners
- in your courses to that section, which describes the structure and features of
- edX course discussions, and provides useful information to help learners make
- the most of their participation in course discussions.
+You can also refer learners to the `course discussions index`_ section in the *Open EdX Learner's Guide*. Consider referring learners
+in your courses to that section, which describes the structure and features of
+edX course discussions, and provides useful information to help learners make
+the most of their participation in course discussions.
 
 .. For a template that you can use to develop your own guidelines, see
 .. :ref:`Discussion Forum Guidelines`.
@@ -265,7 +185,7 @@ dark gray titles and icons. When new responses and comments are made on posts
 that you have read, a "new" indicator displays with the number of new
 responses or comments that you have not yet read.
 
-.. image:: ../images/Discussion_ReadUnreadNew.png
+.. image:: /_images/educator_concepts/Discussion_ReadUnreadNew.png
   :width: 300
   :alt: The discussion navigation pane, showing some unread and some read
      posts, including a post that has been read but now has additional new
@@ -283,117 +203,9 @@ all** drop-down menu.
 
 * **Flagged**, to list only posts that learners have reported as inappropriate.
 
+.. seealso::
+ :class: dropdown
 
-****************
-Edit Messages
-****************
-
-Team members with the Discussion Moderator, Discussion Admin, Community TA or
-Group Community TA role can edit the content of posts, responses, and
-comments. Messages that include spoilers or solutions, or that contain
-inappropriate or off-topic material, should be edited quickly to remove text,
-images, or links.
-
-.. removed note for open edx re edit behavior in mobile apps. Posts can
-.. now be edited in the mobile apps (though ability depends on permissions)
-.. CT April 25, 2016
-
-#. View the live version of the course.
-
-#. On the **Discussions** page, open the post with the content that requires
-   editing. You can select a single topic from the drop-down list of
-   discussion topics, apply a filter, or search to locate the post.
-
-#. For the post or for the response or comment that you want to edit, select
-   the "More" icon and then **Edit**.
-
-#. Remove the problematic portion of the message, or replace it with standard
-   text such as "[REMOVED BY MODERATOR]".
-
-#. Communicate the reason for your change. For example, "Posting a solution
-   violates the honor code."
-
-****************
-Delete Messages
-****************
-
-Team members with the Discussion Moderator, Discussion Admin, Community TA or
-Group Community TA role can delete posts, responses, or comments. It might be
-more appropriate to delete rather than edit posts that consist of spam or
-include abusive language.
-
-.. removed note for open edx re deletion behavior in mobile apps. Posts can
-.. now be deleted in the mobile apps (though ability depends on permissions)
-.. CT April 25, 2016
-
-#. View the live version of the course.
-
-#. On the **Discussion** page, open the post with the content that requires
-   deletion. You can select a single topic from the drop-down list of
-   discussion topics, apply a filter, or search to locate the post.
-
-#. For the post or for the response or comment that you want to delete, select
-   the "More" icon and then **Delete**.
-
-#. Select **OK** to confirm the deletion.
-
-.. important:: If a message is threatening or indicates serious harmful
- intent, contact campus security at your institution. Report the incident
- before taking any other action.
-
-
-********************************
-Respond to Reports of Misuse
-********************************
-
-Learners have the option to report contributions that they find inappropriate.
-Team members with the Discussion Moderator, Discussion Admin, Community TA or
-Group Community TA role can check for messages that have been flagged in this
-way and edit or delete them as needed.
-
-.. removed note for open edx re flag behavior in mobile apps. Posts can
-.. now be flagged in the mobile apps. CT April 25, 2016
-
-#. View the live version of your course and select **Discussion** at the top of
-   the page.
-
-#. In the discussion navigation pane at the side of the page, use the filter
-   drop-down list (set to **Show all** by default) to select **Flagged**.
-
-#. Review listed posts. A post is listed if it or any of its responses or
-   comments has been reported. The reported contribution includes a
-   **Reported** identifier.
-
-#. Edit or delete the post, response, or comment. Alternatively, remove the
-   flag: select the "More" icon and then **Unreport**.
-
-
-*****************************************************
-View Profile Information for Discussion Participants
-*****************************************************
-
-To find out more about a specific discussion participant, you can view that
-learner's edX profile from their linked username on discussion posts.
-
-To access a learner's profile from a discussion post that they contributed,
-follow these steps.
-
-#. On the **Discussion** page, select a username in a post, response, or
-   comment.
-
-#. On the discussion page for that learner, select the linked username.
-
-The learner's account profile page opens. Learners can have either a limited
-profile or a full profile.
-
-For more information about profiles, see `SFD Dashboard <sfd dashboard>`_.
-
-
-****************
-Block Users
-****************
-
-If a learner repeatedly misuses course discussions despite being warned, you
-can unenroll that learner from the course. For more information, see
-:ref:`unenroll_student`. The learner cannot re-enroll in the course if the
-enrollment period for the course is over.
+  :ref:`Guidance for Discussion Moderators` (concept)
+  :ref:`Assigning_discussion_roles` (how-to)
+  :ref:`Administer Discussions` (how-to)

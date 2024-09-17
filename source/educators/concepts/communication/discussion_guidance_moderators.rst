@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Guidance for Discussion Moderators:
 
 ######################################
@@ -170,3 +172,10 @@ Feature Requests
 
 * Search the discussions for other similar requests, and respond to and close
   those as well.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Guidance for Discussion Moderators` (concept)
+  :ref:`Assigning_discussion_roles` (how-to)
+  :ref:`Administer Discussions` (how-to)

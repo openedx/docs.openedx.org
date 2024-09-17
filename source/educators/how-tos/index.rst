@@ -116,6 +116,7 @@ Educators: How-tos
          create_course_discussion
          create_content_discussion
          allow_anonymous_discussions
+         communication/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2

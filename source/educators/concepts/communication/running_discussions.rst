@@ -1,5 +1,6 @@
-.. _Running_discussions:
+.. :diataxis-type: concept
 
+.. _Running_discussions:
 
 ############################
 Running Course Discussions
@@ -45,23 +46,12 @@ The dialog created by a post, its responses, and the comments on those
 responses is sometimes called a thread. Discussion threads are saved as part
 of the course history.
 
-.. only:: Partners
-
- For information about participating in discussions, see the
- `course discussions index`_ section in the *EdX Learner's Guide*.
- Consider referring learners in your courses to that section, which describes
- the structure and features of edX course discussions, and provides useful
- information to help learners make the most of their participation in course
- discussions.
-
-.. only:: Open_edX
-
- For information about participating in discussions, see the
- `course discussions index`_ section in the *Open edX
- Learner's Guide*. Consider referring learners in your courses to that section,
- which describes the structure and features of course discussions, and provides
- useful information to help learners make the most of their participation in
- course discussions.
+For information about participating in discussions, see the
+`course discussions index`_ section in the *Open edX
+Learner's Guide*. Consider referring learners in your courses to that section,
+which describes the structure and features of course discussions, and provides
+useful information to help learners make the most of their participation in
+course discussions.
 
 
 ************************************************
@@ -138,7 +128,7 @@ discussion.
   your own post and then pin it, or pin a post by any author. Select the "More"
   icon and then **Pin**.
 
-  .. image:: ../images/Discussion_Pin.png
+  .. image:: /_images/educator_concepts/Discussion_Pin.png
    :alt: The pin icon for discussion posts.
 
 * Mark responses as answered or endorsed. Depending on whether a post is a
@@ -151,7 +141,7 @@ discussion.
   To mark a response as answered or endorsed, select the "check mark" icon.
   You cannot mark your own responses as answers or as endorsed.
 
-  .. image:: ../images/Discussion_MarkAsAnswer.png
+  .. image:: /_images/educator_concepts/Discussion_MarkAsAnswer.png
    :alt: The "check mark" icon for marking a response as the correct answer
          to a question.
 
@@ -160,7 +150,7 @@ discussion.
   read and responded to. Select the "plus" icon for the response. You cannot
   vote for your own posts.
 
-  .. image:: ../images/Discussion_vote.png
+  .. image:: /_images/educator_concepts/Discussion_vote.png
    :alt: The "plus" icon for voting for discussion posts.
 
 * Close posts. You can respond to a redundant post by (optionally) pasting in
@@ -204,41 +194,9 @@ units and all course-wide topics are affected.
   affected when you close the discussions for a course. Users with these roles
   can continue to add to discussions.
 
+.. seealso::
+ :class: dropdown
 
-============================================
-Specify When Discussions Are Closed
-============================================
-
-.. note:: You can only close discussions when you work in a web browser. You
-   cannot close discussions when you work in an edX mobile app.
-
-To define when discussions are closed to new contributions and when they
-reopen, follow these steps.
-
-1. Navigate to edx discussion configuration page
-(see :ref:`Configuring Edx Discussions`).
-
-2. Scroll down to **Discussion Blackout Dates** field.
-
-3. Create a new blackout date range by clicking on **Add blackout date range**.
-
-.. image:: ../images/Discussion_blackout_dates_configuration.png
-  :width: 300
-  :alt: Option for configuring discussion blackout dates.
-
-4. Add start and end dates and times in the format specified.
-
-.. note:: The dates and times that you enter are in Coordinated Universal
-   Time (UTC), not in your local time zone. You might want to verify that you
-   have specified the times that you intend by using a time zone converter.
-
-.. note:: To close the course discussions permanently, specify an end date
-   and time far in the future.
-
-5. You can add more than one blackout date ranges using step 3 and 4 above.
-
-6. Select **Save Changes**.
-
-
-
-
+  :ref:`Discussions` (concept)
+  :ref:`Configuring Edx Discussions` (how-to)
+  :ref:`Closing Discussions` (how-to)

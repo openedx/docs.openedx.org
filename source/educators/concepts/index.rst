@@ -11,3 +11,4 @@ Educators: Concepts
    open_edx_platform/index
    accessibility/index
    data/index
+   communication/index

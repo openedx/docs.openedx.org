@@ -100,7 +100,6 @@ Open edX Educators
    migration_wip/14_grading/index
    migration_wip/15_releasing_course/index
    migration_wip/16_manage_live_course/index
-   migration_wip/17_manage_discussions/index
 
 
 .. ALL NEW DOCUMENTATION ABOVE THIS LINE
