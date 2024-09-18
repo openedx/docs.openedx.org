@@ -29,17 +29,20 @@ Steps to build a taxonomy using a template
 
 #. Navigate to Studio Home > Taxonomies. You should see Download Template in the top right. Click on that button, then select “CSV template”.
 
-   Insert image 1
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_step2.png
+      :alt: Screenshot clicking Download Template button.
 
 #. A file will download automatically. Open it using any spreadsheet application (Excel, Numbers, Google Sheets, etc.).
 
 #. It should look like this:
 
-   Insert image 2
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_step4.png
+      :alt: Image showing a fully-populated spreadsheet with four columns labeled: id, value, parent_id, and comments.
 
 #. Select and delete all of the entries except the first row, which contains the headings.
 
-   Insert image 3
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_step5.png
+      :alt: Image showing an empty spreadsheet with four columns labeled: id, value, parent_id, and comments.
 
 Create the first tag
 ********************
@@ -48,7 +51,9 @@ Create the first tag
    
    Each row in the spreadsheet corresponds to one tag. To create the “United States” tag from our example, we’ll put “1” for the ID and “United States” for the value:
 
-   Insert image 4
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_first_tag.png
+      :alt: Image showing a spreadsheet with four columns labeled: id, value, parent_id, and comments. The first row is populated with a 1 in the id column and United 
+      States in the value column.
 
    For a tag like “United States” which is a “root” tag in the taxonomy, we leave “parent_id” empty. We can also leave “comments” empty.
 
@@ -59,11 +64,15 @@ Creating "child" tags
 
 #. Now, to add the “California” tag, we put it in the next row. Let’s give it the ID “2” and put the value as “California”. Now, because we want this tag to be a “child” of the “United States” tag in our taxonomy, we also need to set the **parent_id** field. In this case the parent is “United States”, which we gave the ID 1, so we’d put 1 as the parent_id, like this:
 
-   Insert image 5
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_childtag1.png
+      :alt: Image showing a spreadsheet with four columns labeled: id, value, parent_id, and comments. The first row has a 1 in the id column and United 
+      States in the value column and the second row has a 2 in the id column, California in the value column, and 1 in the parent_id column.
 
 #. Likewise, to create “Los Angeles” as a child tag of “California”, we need to give it an ID (say, 3), and set its parent ID to the ID we gave to “California” (in this case, 2).
 
-   Insert image 6
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_childtag2.png
+      :alt: Image showing a spreadsheet with four columns labeled: id, value, parent_id, and comments. The first row has a 1 in the id column and United 
+      States in the value column. The second row has a 2 in the id column, California in the value column, and 1 in the parent_id column. The third row has a 3 in the id column, Los Angeles       in the value column, and 2 in the parent_id column.
 
    So far, this would result in the following taxonomy:
 
@@ -75,7 +84,8 @@ Creating "child" tags
 
 #. Now, continue to add the rest of the tags. You can put notes in the “comments” column if you want; that column and any other columns besides “id”, “value”, and “parent_id” are ignored by the system during import.
 
-   Insert image 7 
+   .. image:: /_images/educator_how_tos/ctag_taxonomy_template_childtag3.png
+      :alt: Image showing a populated spreadsheet with four columns labeled: id, value, parent_id, and comments.
 
 #. Save the spreadsheet using the default format (e.g. .xlsx), in case you want to edit it later.
 
