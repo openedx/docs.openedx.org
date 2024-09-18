@@ -6,7 +6,7 @@ Building a taxonomy using a template
 
 Tags that can be applied to content are organized into hierarchical taxonomies. Currently, the only way to create or modify a taxonomy is by uploading a CSV or JSON file.
 
-The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarchy - see `“How-to: Create a flat taxonomy by uploading a CSV” <Create_flat_taxonomy_by_uploading_CSV.rst>` for a simpler procedure to create such a flat taxonomy. For the purposes of this guide, we’ll assume you want to create a taxonomy of cities, like this:
+The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarchy - see `“How-to: Create a flat taxonomy by uploading a CSV” <Create_flat_taxonomy_by_uploading_CSV.rst>`_ for a simpler procedure to create such a flat taxonomy. For the purposes of this guide, we’ll assume you want to create a taxonomy of cities, like this:
 
 * United States
 
