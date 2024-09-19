@@ -12,3 +12,4 @@ Educators: Concepts
    accessibility/index
    data/index
    communication/index
+   releasing-course/index

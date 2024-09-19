@@ -637,4 +637,4 @@ more beta testers to submit responses and grade each other. The beta testers
 can then let you know if they found the question and the rubric easy to
 understand or if they had any problems with the assignment.
 
-For more information about beta testing, see :doc:`../../15_releasing_course/beta_testing`.
+For more information about beta testing, see :ref:`Beta_Testing`.

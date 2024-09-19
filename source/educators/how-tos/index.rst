@@ -170,6 +170,7 @@ Educators: How-tos
          view_course
          view_course_as_learner
          beta_test_course
+         releasing-course/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -207,6 +208,16 @@ Educators: How-tos
          :caption: Data & Analytics
 
          data/index
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Student Management
+
+         student_management/index
 
 
    .. grid-item-card::

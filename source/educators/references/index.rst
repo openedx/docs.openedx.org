@@ -38,3 +38,5 @@ General References
    course_development/index
    accessibility/index
    data/index
+   student_management/index
+   communication/index

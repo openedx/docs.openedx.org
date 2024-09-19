@@ -1,7 +1,9 @@
+.. :diataxis-type: concept
+
 .. _Launch:
 
 ###########################
-Course Launching Activities
+Launching a Course
 ###########################
 
 To launch a course, you prepare the course itself, the course team, and the

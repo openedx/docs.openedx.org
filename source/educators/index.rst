@@ -98,8 +98,6 @@ Open edX Educators
    migration_wip/12_course_features/index
    migration_wip/13_proctored_exams/index
    migration_wip/14_grading/index
-   migration_wip/15_releasing_course/index
-   migration_wip/16_manage_live_course/index
 
 
 .. ALL NEW DOCUMENTATION ABOVE THIS LINE

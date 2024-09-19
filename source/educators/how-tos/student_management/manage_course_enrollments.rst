@@ -1,32 +1,10 @@
-##########################
-Learner Enrollment
-##########################
+.. :diataxis-type: how-to
 
-Learners can enroll themselves in a course during its defined enrollment
-period.
+.. _Manage_Course_Enrollments:
 
-.. only:: Partners
-
-  For a course running on `edx.org`_, enrollment is publicly available to
-  anyone who registers an edX account. For other courses, such as those on
-  `edx Edge`_, enrollment is limited to learners who know the course URL
-  and learners you explicitly enroll.
-
-The course creator and course team members with the Staff and Admin roles can
-enroll learners in a course. These course team members can also unenroll
-learners.
-
-.. contents::
-  :local:
-  :depth: 1
-
-
-.. only:: Open_edX
-
-  Data about course enrollment is available in the LMS, by selecting
-  **Instructor** to access the instructor dashboard. For more
-  information, see :ref:`Report Learners Not Yet Enrolled`.
-
+##############################
+Manage Course Enrollments
+##############################
 
 .. _view_enrollment_count:
 
@@ -63,69 +41,6 @@ To view the enrollment count for a course, follow these steps.
    number of people who are currently enrolled in your course and in each of
    the certification tracks.
 
-.. _registration_enrollment:
-
-*********************************
-Registration and Enrollment
-*********************************
-
-Before a learner can enroll in a course, he or she must complete these steps.
-
-#. Register a user account, which includes supplying a valid email address, on
-   ``www.edx.org``, ``edge.edx.org``, or your implementation of the edX
-   platform. Each platform requires a separate user account.
-
-#. Activate the registered account by following the emailed instructions.
-
-As long as the course enrollment end date has not passed, learners who
-have registered and activated user accounts can enroll themselves in
-``www.edx.org`` courses, or can enroll in other courses if they know the URL.
-
-Course creators, Admins, and Staff, however, can enroll learners in a course
-either before or after the learners register their user accounts.
-
-.. important:: Course team members are not automatically enrolled in courses,
-   although they can access content in Studio, and the LMS. To work
-   on a course, every course team member must register, activate a user
-   account, and enroll in the course.
-
-.. _enroll_student:
-
-*******************************************
-Options for Enrolling Learners in a Course
-*******************************************
-
-You enroll learners, and other course team members, in your course by
-supplying their email addresses. After the enrollment end date for a
-course learners can no longer enroll themselves. However, you can still
-explicitly enroll learners.
-
-.. note::
- When you enroll learners in a course, all learners are automatically enrolled
- in the audit enrollment track. For more information about course enrollment
- tracks, see :ref:`enrollment track<enrollment_track_g>`.
-
-When you enroll people in a course, you have the following options.
-
-* **Auto Enroll**. When you choose this option, the people who you enroll do
-  not need to complete an explicit course enrollment step. Of the list of email
-  addresses that you supply, those that correspond to a registered user account
-  are immediately enrolled in the course, and your course displays on the
-  **Current Courses** dashboard for those users on log in. Email addresses on
-  the list that do not match a registered user account are enrolled as soon as
-  that account is registered and activated.
-
-  You can track the enrollment status of the learners who you auto enroll. For
-  more information, see :ref:`Report Learners Not Yet Enrolled`.
-
-  If you do not select **Auto Enroll**, the people who you enroll must also
-  actively locate your course and enroll themselves in it. These learners see
-  the course on their dashboards after they have done so.
-
-* **Notify learners by email**. When you choose this option, an email message
-  is automatically sent to each of the email addresses that you supply. The
-  message includes the name of the course and, for learners who are not already
-  enrolled, a reminder to use that same email address to enroll.
 
 *********************************
 Enroll Learners in a Course
@@ -174,15 +89,15 @@ For more information, see :ref:`Student Data`.
  in the audit enrollment track. For more information about course enrollment
  tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
-.. only:: Open_edX
 
-  .. note:: If your course has a fee, and an organization wants to purchase
-     enrollment for multiple seats in your course at one time, you can create
-     enrollment codes for the organization. The organization then distributes
-     these enrollment codes to its learners to simplify the enrollment process.
-     You can also create coupon codes to give learners a discount when they
-     enroll in your course. For more information, see :ref:`Enable
-     and Create Enrollment Codes`.
+
+.. note:: If your course has a fee, and an organization wants to purchase
+   enrollment for multiple seats in your course at one time, you can create
+   enrollment codes for the organization. The organization then distributes
+   these enrollment codes to its learners to simplify the enrollment process.
+   You can also create coupon codes to give learners a discount when they
+   enroll in your course. For more information, see :ref:`Enable
+   and Create Enrollment Codes`.
 
 .. _Report Learners Not Yet Enrolled:
 
@@ -216,6 +131,7 @@ To download this report, follow these steps.
 4. To open or save the report, select the
    ``{org}_{course_id}_may_enroll_info_{date}.csv`` file name at the bottom of
    the page.
+
 
 .. _unenroll_student:
 
@@ -255,3 +171,9 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 #. Select **Unenroll**. The course is no longer listed on the learners'
    **Current Courses** dashboards, and the learners can no longer access the
    course content or contribute to discussions or the wiki.
+
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Enrollment_Requirements` (reference)

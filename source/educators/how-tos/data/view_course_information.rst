@@ -1,19 +1,13 @@
+.. :diataxis-type: how-to
+
 .. _Course Data:
 
 ##############################
-Course Information
+View Course Information
 ##############################
 
 After you create a course in Studio, you can access information about it on the
 instructor dashboard. The instructor dashboard is part of the LMS.
-
-.. contents::
-  :local:
-  :depth: 1
-
-*****************************
-View Basic Course Information
-*****************************
 
 On the Course Info page, you can find the following information.
 
@@ -62,3 +56,8 @@ To view this course data, follow these steps.
 
 Additional data about the course and its learners is available from other pages
 in the instructor dashboard.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Manage_Course_Enrollments` (how-to)

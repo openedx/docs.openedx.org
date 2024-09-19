@@ -1,3 +1,5 @@
+.. :diataxis-type: reference
+
 .. _Staff Debug Info:
 
 ################
