@@ -1,43 +1,18 @@
-.. _CA Online Proctoring Rules:
+.. _Online Proctoring Rules:
 
 ####################################
 Online Proctoring Rules for Learners
 ####################################
 
-.. only:: Partners
+The rules for proctored exams vary according to your online proctoring
+service. The following rules are common rules for "closed book" exams.
 
-    EdX.org uses an online :ref:`proctoring<CA_ProctoredExams>` service to
-    evaluate proctored exams. By default, all learners must adhere to the
-    following rules for proctored exams. A link to these rules, along with any
-    additional rules that you have specified, is visible to learners on the
-    instructions page at the beginning of every proctored exam.
-
-    Learners who do not adhere to the exam rules receive an **Unsatisfactory**
-    result for their proctoring review. Learners also automatically receive a
-    grade of 0 for the exam. For most courses, learners are no longer eligible
-    for academic course credit.
-
-.. only:: Open_edX
-
-    The rules for proctored exams vary according to your online proctoring
-    service. The following rules are common rules for "closed book" exams.
-
-    A link to these rules, along with any additional rules that you have
-    specified, is visible to learners on the instructions page at the beginning
-    of every proctored exam.
+A link to these rules, along with any additional rules that you have
+specified, is visible to learners on the instructions page at the beginning
+of every proctored exam.
 
 For more information about specifying rules, see
 :ref:`specifying_exam_rules_and_exceptions`.
-
-.. only:: Partners
-
-    .. note::
-       Learners who require additional time or any specific accommodations are
-       asked to contact their course teams or edX Support. For information
-       about handling special requests for proctored exams, see :ref:`Respond
-       to Learner Concerns about Proctored Exams` and
-       :ref:`specifying_exam_rules_and_exceptions`.
-
 
 .. This file contains the proctored exam rules. This section is included within
 .. topics in both the learner and course author documentation for partners and
@@ -147,15 +122,17 @@ take the exam, consult your organization’s disability resources or the course
 team before you make any choices on the exam page. The course team must approve
 your request and make any adjustments before you start your exam.
 
-.. only:: Partners
+.. seealso::
+ :class: dropdown
 
-  *******************************
-  Consequences of Rule Violations
-  *******************************
-
-  If you violate the online proctoring rules and receive an **Unsatisfactory**
-  status, you automatically receive a score of 0 for the exam. For most
-  courses, you are no longer eligible for academic credit.
-
-  If you have questions about your proctoring exam status, go to https://edx.org
-  to contact edX Support, or consult your course team.
+  :ref:`ProctoredExams_Overview` (concept)
+  :ref:`Enable Proctored Exams` (how-to)
+  :ref:`Preparing Learners for Proctored Exams` (concept)
+  :ref:`Manage Proctored Exams` (how-to)
+  :ref:`Allow Opting Out of Proctored Exams` (how-to)
+  :ref:`Create a Proctored Exam with Proctortrack` (how-to)
+  :ref:`PT Proctored Session Results File` (reference)
+  :ref:`Review PT Proctored Session Results` (how-to)
+  :ref:`Create a Proctored Exam with RPNow` (how-to)
+  :ref:`RPNow Proctored Session Results File` (reference)
+  :ref:`Review RP Proctored Session Results` (how-to)

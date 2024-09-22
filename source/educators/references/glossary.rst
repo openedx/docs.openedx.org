@@ -835,8 +835,7 @@ P
   exams designed to ensure the identity of the test taker and determine the
   security and integrity of the test taking environment. Proctored exams are
   often required in courses that offer verified certificates or academic
-  credit. For more information, see :ref:`Managing
-  Proctored Exams`.
+  credit. For more information, see :ref:`Manage Proctored Exams`.
 
 .. _Program:
 

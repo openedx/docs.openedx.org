@@ -255,7 +255,7 @@ subsection, follow these steps.
 #. Select the **Configure** icon for the subsection that must be completed
    first. This is the prerequisite subsection.
 
-   .. image:: ../images/subsections-settings-icon.png
+   .. image:: /_images/educator_how_tos/subsections-settings-icon.png
      :alt: A subsection in the course outline with the configure icon
       indicated.
      :width: 600

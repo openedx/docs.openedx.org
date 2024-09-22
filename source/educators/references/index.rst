@@ -41,3 +41,4 @@ General References
    student_management/index
    communication/index
    grading/index
+   proctored_exams/index

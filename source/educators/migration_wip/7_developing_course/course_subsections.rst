@@ -216,7 +216,7 @@ To set the subsection release date, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
-   .. image:: ../images/subsections-settings-icon.png
+   .. image:: /_images/educator_how_tos/subsections-settings-icon.png
     :alt: A subsection in the course outline with an arrow pointing to the
         configure icon.
     :width: 500
@@ -419,7 +419,7 @@ To entirely hide a subsection from learners, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
-   .. image:: ../images/subsections-settings-icon.png
+   .. image:: /_images/educator_how_tos/subsections-settings-icon.png
      :alt: A subsection in the course outline with an arrow pointing to the
         configure icon.
      :width: 500

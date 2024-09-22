@@ -73,7 +73,7 @@ steps.
 
 #. Select the **Configure** icon for the subsection.
 
-   .. image:: ../images/subsections-settings-icon.png
+   .. image:: /_images/educator_how_tos/subsections-settings-icon.png
     :alt: A subsection in the course outline with the configure icon indicated.
     :width: 600
 

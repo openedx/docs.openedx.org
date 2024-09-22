@@ -75,7 +75,7 @@ Creating a Proctored Exam
 
 #. Select the **Configure** icon for the subsection.
 
-   .. image:: ../images/subsections-settings-icon.png
+   .. image:: /_images/educator_how_tos/subsections-settings-icon.png
     :alt: A subsection in the course outline with the configure icon indicated.
     :width: 400
 
@@ -124,3 +124,19 @@ steps.
    exam exemptions and accommodations (Test Settings, Whitelist Url/Apps, or Special Notes
    for custom student needs). This information will be sent over to the exam reviewers along
    with the learner’s attempt.
+
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`ProctoredExams_Overview` (concept)
+  :ref:`Enable Proctored Exams` (how-to)
+  :ref:`Preparing Learners for Proctored Exams` (concept)
+  :ref:`Online Proctoring Rules` (reference)
+  :ref:`Manage Proctored Exams` (how-to)
+  :ref:`Allow Opting Out of Proctored Exams` (how-to)
+  :ref:`PT Proctored Session Results File` (reference)
+  :ref:`Review PT Proctored Session Results` (how-to)
+  :ref:`Create a Proctored Exam with RPNow` (how-to)
+  :ref:`RPNow Proctored Session Results File` (reference)
+  :ref:`Review RP Proctored Session Results` (how-to)
