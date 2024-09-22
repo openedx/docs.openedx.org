@@ -145,6 +145,8 @@ Educators: How-tos
 
          set_grading_policy
          set_grade_subsection
+         grading/set_grade_range
+         grading/set_grace_period
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2

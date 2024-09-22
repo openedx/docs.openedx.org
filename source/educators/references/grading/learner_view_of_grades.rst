@@ -1,14 +1,16 @@
+.. :diataxis-type: reference
+
 .. _The Learner View of Grades:
 
-**************************
-The Learner View of Grades
-**************************
+********************************************
+The Learner View of Grades (Progress Page)
+********************************************
 
 After a grading policy is in place, learners can view both their problem scores
 and the percent completed and current grade on the **Progress** page for the
 course.
 
-  .. image:: ../images/Progress_tab.png
+  .. image:: /_images/educator_references/Progress_tab.png
     :alt: Image of the student Progress tab.
 
 .. note::
@@ -30,3 +32,11 @@ together, followed by labs, then exams.
  that assignment is currently dropped. You configure how many assignments are
  dropped when you :ref:`configure assignment types <Configure the Assignment
  Types>`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Graded Subsections` (concept)
+  :ref:`Gradebook Assignment Types` (reference)
+  :ref:`Set the Grade Range` (how-to)
+  :ref:`Set the Grace Period` (how-to)

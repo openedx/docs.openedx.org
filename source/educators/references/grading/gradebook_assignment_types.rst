@@ -1,7 +1,9 @@
-.. _Configure the Assignment Types:
+.. :diataxis-type: reference
+
+.. _Gradebook Assignment Types:
 
 ******************************
-Configure the Assignment Types
+Gradebook Assignment Types
 ******************************
 
 You must create assignment types for your course and determine the weight of
@@ -75,7 +77,15 @@ You configure the following fields for each assignment type.
   The number of assignments of this type that the grader will drop. The grader
   will drop the lowest-scored assignments first.
 
-.. image:: ../images/course_grades_page_assignmenttypes.png
+.. image:: /_images/educator_references/course_grades_page_assignmenttypes.png
   :alt: An image of the top part of the Grading page in which you can see the
    range for grades and set the grace period.
   :width: 600
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Graded Subsections` (concept)
+  :ref:`The Learner View of Grades` (reference)
+  :ref:`Set the Grade Range` (how-to)
+  :ref:`Set the Grace Period` (how-to)

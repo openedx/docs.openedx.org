@@ -1,3 +1,4 @@
+.. :diataxis-type: how-to
 
 .. _Set the Grace Period:
 
@@ -23,7 +24,15 @@ periods for individual assignments.
 On the **Grading** page, under **Grading Rules & Policies**, enter a value in
 the **Grace Period on Deadline** field. Enter the value in ``HH:MM`` format.
 
-.. image:: ../images/course_grades_page_graderange.png
+.. image:: /_images/educator_how_tos/course_grades_page_graderange.png
   :alt: An image of the top part of the Grading page in which you can see the
    range for grades and set the grace period.
   :width: 600
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Graded Subsections` (concept)
+  :ref:`Gradebook Assignment Types` (reference)
+  :ref:`The Learner View of Grades` (reference)
+  :ref:`Set the Grade Range` (how-to)

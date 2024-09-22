@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Graded Subsections:
 
 **********************************************
@@ -46,3 +48,11 @@ see :ref:`Set the Assignment Type and Due Date for a Subsection`.
 
 For more information about how to designate a subsection as a timed exam, see
 :ref:`Timed Exams`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Gradebook Assignment Types` (reference)
+  :ref:`The Learner View of Grades` (reference)
+  :ref:`Set the Grade Range` (how-to)
+  :ref:`Set the Grace Period` (how-to)

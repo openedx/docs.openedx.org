@@ -1,3 +1,4 @@
+.. :diataxis-type: how-to
 
 .. _Set the Grade Range:
 
@@ -12,7 +13,7 @@ To set the grade range, from the **Settings** menu, select **Grading**.
 
 The control for the grade range is at the top of the Grading page.
 
-.. image:: ../images/grade_range.png
+.. image:: /_images/educator_how_tos/grade_range.png
   :alt: Image of the Grade Range control.
   :width: 600
 
@@ -27,7 +28,7 @@ You can adjust the grade range as needed.
   if you add a grade in the default setting, the grade range changes to **F**
   (0 to 50), **B** (50 to 75), and **A** (75 to 100):
 
-  .. image:: ../images/grade_range_b.png
+  .. image:: /_images/educator_how_tos/grade_range_b.png
     :alt: Image of an altered Grade Range control.
     :width: 600
 
@@ -64,3 +65,11 @@ qualify for a certificate by earning any grade over the F, or Fail, threshold.
 This is true regardless of how many grade levels you add in the grade range.
 
 For more information, see :ref:`Setting Up Certificates`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Graded Subsections` (concept)
+  :ref:`Gradebook Assignment Types` (reference)
+  :ref:`The Learner View of Grades` (reference)
+  :ref:`Set the Grace Period` (how-to)

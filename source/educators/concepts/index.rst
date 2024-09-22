@@ -13,3 +13,4 @@ Educators: Concepts
    data/index
    communication/index
    releasing-course/index
+   grading/index

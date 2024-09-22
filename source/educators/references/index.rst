@@ -40,3 +40,4 @@ General References
    data/index
    student_management/index
    communication/index
+   grading/index
