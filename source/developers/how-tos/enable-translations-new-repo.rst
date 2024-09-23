@@ -45,20 +45,18 @@ workflow:
    - Django plugins: ``django.po``
    - If the repo uses ``gettext`` and has a ``static`` directory with JavaScript, it may include ``djangojs.po``
 
-#. If you need JavaScript translations in your XBlock, use ``XBlockI18NService.get_javascript_i18n_catalog_url``. You can find an example of this in ``_get_statici18n_js_url`` in  ``xblock-drag-and-drop-v2/`` `here <https://github.com/openedx/xblock-drag-and-drop-v2/blob/3900a4eba5befbbaea636c5e256aaabcd985e64d/drag_and_drop_v2/drag_and_drop_v2.py#L343-L349>`_. Note: this requires `XBlock 1.9.1`_ or newer, and `edx-platform e7fc0c6`_ or newer.
+#. If you need JavaScript translations in your XBlock, use ``XBlockI18NService.get_javascript_i18n_catalog_url``. You can find an example of this in ``_get_statici18n_js_url`` in  ``xblock-drag-and-drop-v2/`` `here <https://github.com/openedx/xblock-drag-and-drop-v2/blob/3900a4eba5befbbaea636c5e256aaabcd985e64d/drag_and_drop_v2/drag_and_drop_v2.py#L343-L349>`_. Note: this requires `XBlock 1.9.1`_ or newer, and edx-platform Redwood or newer.
 
 #. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
 
-   Add a new entry under the ``python-translations`` section. For example, the XBlock located at
+   Add a new entry under the ``setup-matrix`` section. For example, the XBlock located at
    ``https://github.com/openedx/xblock-drag-and-drop-v2`` should have the following entry::
 
-    python-translations:
-      strategy:
-        matrix:
-          repo:
-            ...
-            - repo_name: xblock-drag-and-drop-v2
-            ...
+    const allPythonRepos = [
+        ...
+        'xblock-drag-and-drop-v2',
+        ...
+    ]
 
 
 #. Add the repository to the `transifex.yml`_ file in the `openedx-translations repo`_.
@@ -72,7 +70,7 @@ workflow:
 
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
-#. Install the XBlock or plugin in your local `Tutor`_ or `devstack`_ environment. Run
+#. Install the XBlock or plugin in your local `Tutor`_ environment. Run
    ``make pull_translations`` in the ``edx-platform`` repo to preview the translations.
 
 
@@ -103,16 +101,14 @@ To include a Microservice Python repository in the translations workflow:
 
 #. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
 
-   Add a new entry under the ``python-translations`` section. For example for the `credentials`_ repo it should have
+   Add a new entry under the ``setup-matrix`` section. For example for the `credentials`_ repo it should have
    the following entry::
 
-    django-translations:
-      strategy:
-        matrix:
-          repo:
-            ...
-            - repo_name: credentials
-            ...
+    const allPythonRepos = [
+        ...
+        'credentials',
+        ...
+    ]
 
 #. Create a draft pull request in the `openedx-translations repo`_
 
@@ -147,16 +143,14 @@ To include a React repository in the translations workflow:
 
 #. Add the repository to `extract-translation-source-files.yml`_ in the `openedx-translations repo`_.
 
-   Add a new entry under the ``javascript-translations`` section. For example for the `frontend-app-learning`_ repo
+   Add a new entry under the ``setup-matrix`` section. For example for the `frontend-app-learning`_ repo
    should have the following entry::
 
-    js-translations:
-      strategy:
-        matrix:
-          repo:
-            ...
-            - frontend-app-learning
-            ...
+    const allJavascriptRepos = [
+        ...
+        'frontend-app-learning',
+        ...
+    ]
 
 #. Create a draft pull request in the `openedx-translations repo`_
 
@@ -183,16 +177,24 @@ Testing translations sync in your fork
 Before submitting a pull request for review in the `openedx-translations repo`_, you should test the workflow
 on a fork by following the steps below:
 
-#. Fork the `openedx-translations repo`_.
-#. Make a pull request to your fork and modify the `extract-translation-source-files.yml`_ workflow to use your
-   repo, your organization name and the branch in the clone section.
-   For example, the `frontend-lib-special-exams testing pull request`_ uses the ``Zeit-Labs/frontend-lib-special-exams`` repository with the branch
-   set via ``ref: fix-i18n``.
+#. Add the ``make extract_translation`` into your fork of the new repository e.g. ``your-github-user-or-org/credentials`` in a new branch e.g. ``your-branch-name``
+#. Fork the `openedx-translations repo`_ e.g. ``your-github-user-or-org/openedx-translations``.
+#. In your fork, modify the `extract-translation-source-files.yml`_ file in a new branch e.g. ``your-branch-name``.
+#. Go to the ``Actions`` tab in your repository (i.e. ``your-github-user-or-org/openedx-translations``)
+#. From the left section, pick the `"Extract Translation Source Files" section in your fork`_
+#. Click on the "Run workflow" dropdown button with the following parameters:
 
-#. Modify the `extract-translation-source-files.yml`_ workflow to run ``pull_request`` events.
+   - **Use workflow from your branch:** ``your-branch-name``
+   - **Repository to extract translation source files from:** ``credentials``
+   - **The ref to extract translation source files from:** ``omar/add-pull-translations``
+   - Click on the "Run workflow" button
 
-#. Verify that an automated source translation pull request is created on your fork similar to the
-   `chore - add updated translation source files`_ pull request.
+#. Verify the action ran successfully
+#. Verify the new automated branch e.g. ``automated/extract-translation-source-files-20230903T001829`` has been created with a new commit e.g. ``chore: add updated translation source files`` has been created
+
+Once all the above steps are verified, the extraction step is ready for use and the pull request has been tested.
+
+In order to test the ``make pull_translations`` step, please follow the steps below:
 
 #. Add any test translations to your fork of the `openedx-translations repo`_ in the repo directory to overcome the
    fact that translations don't exist in the upstream `openedx-translations repo`_ yet.
@@ -200,18 +202,16 @@ on a fork by following the steps below:
    We recommend copying existing translations. For example to test `credentials`_ we would copy the
    `course discovery translations`_ directory and modify it to include `credentials`_ conf/locale.
 
-#. Temporarily edit the ``Makefile`` so the ``pull_translations`` step pulls from your fork e.g.
-   ``atlas pull --repository=Zeit-Labs/openedx-translations``.
+#. Temporarily pull translations from the fork using the Makefile command e.g. ``make ATLAS_OPTIONS="--repository=your-github-user-or-org/openedx-translations --revision=your-branch-name" pull_translations``
 
-#. If you're testing an Open edX plugin, run the ``make pull_translations`` command in
-   the ``edx-platform`` repo. Otherwise, run ``make pull_translations`` in the repository
-   you're testing e.g. ``frontend-app-learning``.
+#. If you're testing an XBlock or an ``edx-platform`` plugin, run the ``make pull_translations`` command in
+   the ``edx-platform``.
 
 #. Run the application (or plugin) and verify the translations you've added are working properly.
 
    .. note::
 
-     This step assumes that you're already familiar with `Tutor`_ and/or `devstack`_.
+     This step assumes that you're already familiar with `Tutor`_.
 
 
 .. _debugging-translations:
@@ -260,11 +260,10 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _chore - add updated translation source files #615: https://github.com/openedx/openedx-translations/pull/615
 .. _Updates for file translations/frontend-app-learning/src/i18n/transifex_input.json in de on branch main #598: https://github.com/openedx/openedx-translations/pull/598
 .. _course discovery translations: https://github.com/openedx/openedx-translations/tree/f0315d4/translations/course-discovery/course_discovery/conf/locale
-.. _frontend-lib-special-exams testing pull request: https://github.com/Zeit-Labs/openedx-translations/pull/1/files
 .. _transifex.yml: https://github.com/openedx/openedx-translations/blob/main/transifex.yml
 .. _Drag and Drop XBlock transifex.yml entry: https://github.com/openedx/openedx-translations/blob/19c0fcbbc334c56022df355fa5b529e5853d30f9/transifex.yml#L253-L259
-.. _edx-platform e7fc0c6: https://github.com/openedx/edx-platform/commit/e7fc0c6b6f8b44fa4bcc71d00ae2931f91cc664c
 .. _XBlock 1.9.1: https://github.com/openedx/XBlock/releases/tag/xblock-1.9.1
+.. _"Extract Translation Source Files" section in your fork: https://github.com/Zeit-Labs/openedx-translations/actions/workflows/extract-translation-source-files.yml
 
 .. _edx-platform: https://github.com/openedx/edx-platform
 .. _credentials: https://github.com/openedx/credentials
@@ -273,6 +272,4 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _frontend-app-learning: https://github.com/openedx/frontend-app-learning
 
 .. _Tutor: https://docs.tutor.overhang.io/
-.. _devstack: https://github.com/openedx/devstack/
-.. _chore - add updated translation source files: https://github.com/Zeit-Labs/openedx-translations/pull/49/commits/e872c962d6873b9f178f8901ef661c7f1c266397
 .. _Tutor MFE Docker build: https://github.com/overhangio/tutor-mfe/blob/master/tutormfe/templates/mfe/build/mfe/Dockerfile
