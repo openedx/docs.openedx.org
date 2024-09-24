@@ -28,7 +28,7 @@ Copy the following titles as needed.
 Content Links at the top of a Topic
 ***********************************
 
-If you have a long topic with meaning Heading 2s, you can use the **contents** directive at the top of the topic to provide links to the different sections (as shown at the top of this topic).
+If you have a long topic with several Heading 2s, you can use the **contents** directive at the top of the topic to provide links to the different sections (as shown at the top of this topic).
 
 
 Copy the contents directive as needed.
