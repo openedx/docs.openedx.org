@@ -57,9 +57,10 @@ Open edX Educators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`community/release_notes/redwood/aspects`
+      * :doc:`references/course_dates`
       * :doc:`references/course_sections`
       * :doc:`references/simple_problem_types`
+      * :doc:`community/release_notes/redwood/aspects`
 
       * :doc:`references/instructional_design/index`
       +++
