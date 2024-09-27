@@ -215,8 +215,10 @@ might contain tags like these:
 
 Regardless of whether a taxonomy is pulled from a third-party source or created
 from scratch, it must be formatted prior to upload in a CSV or JSON file. For
-in-depth instructions on how to create and format taxonomies, see `How-to Build
-a taxonomy using a template`_` and `How-to Create a flat taxonomy`_.
+in-depth instructions on how to create and format taxonomies, see the How-To articles
+:doc:`/educators/how-tos/content-tagging-how-tos/build_taxonomy_using_template`
+and
+:doc:`/educators/how-tos/content-tagging-how-tos/Create_flat_taxonomy_by_uploading_CSV`.
 
 Taxonomies are dynamic and often require updates. For example, the Lightcast
 Skills Taxonomy is updated on a weekly or biweekly basis. Administrators can
@@ -234,8 +236,8 @@ Taxonomy templates
 
 The Taxonomy Dashboard comes with pre-built taxonomy templates to make it easier
 for administrators to format third-party taxonomies. For in-depth instructions
-on how to create and format taxonomies, see `How-to Build a taxonomy using a
-template`_.
+on how to create and format taxonomies, see
+:doc:`/educators/how-tos/content-tagging-how-tos/build_taxonomy_using_template`.
 
    .. image:: /_images/release_notes/redwood/tagging_taxonomy_templates.png
 
@@ -286,7 +288,3 @@ On the horizon for Sumac and beyond include:
 * Ability to bulk add tags to content
 * Reports and analytics on content by tags
 * In-platform taxonomy editing functionality
-
-
-.. _How-to Build a taxonomy using a template: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4200824840/How-to+Build+a+taxonomy+using+a+template
-.. _How-to Create a flat taxonomy: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4198924327/How-to+Create+a+flat+taxonomy+by+uploading+a+CSV
