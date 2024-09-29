@@ -107,13 +107,13 @@ sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-starlette==0.38.5
+starlette==0.39.1
     # via sphinx-autobuild
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
 urllib3==2.2.3
     # via requests
-uvicorn==0.30.6
+uvicorn==0.31.0
     # via sphinx-autobuild
 watchfiles==0.24.0
     # via sphinx-autobuild
