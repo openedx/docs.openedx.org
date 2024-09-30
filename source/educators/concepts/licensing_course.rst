@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Licensing a Course:
 
 ################

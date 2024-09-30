@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 In the following image, the Studio view of the course outline is on the left.
 On the right is the view of the course outline in the LMS.
 

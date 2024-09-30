@@ -1,3 +1,5 @@
+.. :diataxis-type: reference
+
 .. _Developing Your Course Outline:
 
 ###################################
@@ -94,13 +96,13 @@ Components`.
 
 .. the following note is for prerequisite exams, which are currently released in open edx only and not on edx.org.  when they are available on edx.org, this note should no longer be conditionalized.
 
-.. only:: Open_edX
 
-    .. note::
-      If you want to require an entrance exam for your course, you also create
-      the exam in the course outline. Before you can create an exam, you must
-      set your course to require an entrance exam in Studio. For more
-      information, see :ref:`Require an Entrance Exam<require an entrance exam>`.
+
+  .. note::
+  If you want to require an entrance exam for your course, you also create
+    the exam in the course outline. Before you can create an exam, you must
+    set your course to require an entrance exam in Studio. For more
+    information, see :ref:`Require an Entrance Exam<require an entrance exam>`.
 
 
 ==========================================

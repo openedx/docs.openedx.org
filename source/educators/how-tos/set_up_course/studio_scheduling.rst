@@ -1,14 +1,10 @@
+.. :diataxis-type: how to
+
 .. _Set Schedule and Pacing:
 
 #################################################
 Set the Course Run Schedule and Pacing in Studio
 #################################################
-
-.. only:: Partners
-
-  .. note::
-    This information applies to Edge courses. If your course will run on
-    edx.org, see `Pub Course Run Creation`_.
 
 After you determine the start and end dates for a course run, and whether you
 want your course run to be self-paced or instructor-paced, you specify these
@@ -23,14 +19,9 @@ For more information about determining how to schedule your course, see
 Set Start and End Dates and Times in Studio
 *******************************************
 
-.. only:: Partners
 
- To set dates and times for the course in Studio, follow these steps.
-
-.. only:: Open_edX
-
- To set dates and times for the course and for course enrollment in Studio,
- follow these steps.
+To set dates and times for the course and for course enrollment in Studio,
+follow these steps.
 
 .. note::
  EdX recommends that you verify all important dates in Studio one week before
@@ -99,18 +90,17 @@ To set an advertised start date in Studio, follow these steps.
 Set Pacing for Your Course in Studio
 ************************************
 
-.. only:: Open_edX
 
-    Before you can use this feature to set up a self-paced course, it must be
-    enabled using the Open edX Django admin panel. Follow these steps, or
-    contact your Open edX site administrator for assistance.
+Before you can use this feature to set up a self-paced course, it must be
+enabled using the Open edX Django admin panel. Follow these steps, or
+contact your Open edX site administrator for assistance.
 
-    #. Log in to your Open edX Django Admin panel.
-    #. In the **Self_Paced** section, locate **Self paced configurations**, and
+   #. Log in to your Open edX Django Admin panel.
+   #. In the **Self_Paced** section, locate **Self paced configurations**, and
        then select **Add**.
-    #. Select the **Enabled** and **Enable course home page improvements**
+   #. Select the **Enabled** and **Enable course home page improvements**
        checkboxes.
-    #. Select **Save**.
+   #. Select **Save**.
 
 To set the pacing for your course, follow these steps.
 

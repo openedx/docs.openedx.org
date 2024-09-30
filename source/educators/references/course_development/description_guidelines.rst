@@ -10,17 +10,6 @@ Descriptive course information includes information such as the course short
 and long descriptions, as well as information about what learners will learn,
 the subject, and the difficulty level.
 
-.. only:: Partners
-
-  All of the decription information in this topic is required to create an
-  About page.
-
-  For edx.org courses, you enter this information in Publisher. For more
-  information, see `Pub Create a Course`_.
-
-  For courses on Edge, you enter this content in Studio. For more
-  information, see :ref:`Creating a New Course <Creating a New Course>`.
-
 .. contents::
    :local:
    :depth: 1

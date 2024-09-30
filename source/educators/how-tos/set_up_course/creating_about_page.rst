@@ -1,14 +1,10 @@
+.. :diataxis-type: how to 
+
 .. _Creating a Course About Page:
 
 #######################################
 Creating a Course About Page in Studio
 #######################################
-
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 The course About page, sometimes called the course summary page, provides
 information about your course to learners. Learners can see the About page
@@ -32,11 +28,6 @@ see one of the following topics.
 Describe Your Course
 ******************************
 
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 Learners see a description of your course on the course About page, under the
 heading "About this course". The course description contains the following
@@ -93,11 +84,6 @@ Add a Course Image
 Add a Course About Video
 ******************************
 
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 To upload a course About video, follow these steps.
 
@@ -133,11 +119,6 @@ To upload a course About video, follow these steps.
 Set Course Effort Expectations
 ******************************
 
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 The estimated effort that the course requires appears in the course About
 page.

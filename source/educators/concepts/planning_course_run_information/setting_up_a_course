@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Setting up Your Course Index:
 
 ################################
@@ -12,16 +14,6 @@ types of basic information about your course.
   subject, and course description.
 * **Course run** information changes every time the course runs. This is
   information such as the course staff and start and end dates.
-
-This section provides information about how to determine required course and
-course run information, as well as how to enter this information in Studio.
-
-.. toctree::
-   :maxdepth: 2
-
-   planning_course_information/index
-   planning_course_run_information/index
-   studio_add_course_information/index
 
 For information about how to develop your course content in the Studio course
 outline, see :ref:`Developing Your Course Index <Developing Your Course Index>`.

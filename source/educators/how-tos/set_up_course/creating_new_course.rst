@@ -1,3 +1,5 @@
+.. :diataxis-type: how to 
+
 .. _Creating a New Course:
 
 ###############################
@@ -23,12 +25,6 @@ the course in XML.
 ***************
 Create a Course
 ***************
-
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 To create a course, follow these steps.
 
@@ -82,12 +78,6 @@ To create a course, follow these steps.
 *************
 Edit a Course
 *************
-
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Creating and Announcing a Course`_.
 
 After you create a course, the course opens in Studio automatically and you can
 begin editing. Your next steps might include adding other :ref:`course team
@@ -164,13 +154,11 @@ In Studio and the LMS, your course number changes to the value that you specify
 in the **Course Number Display String** field. The URL for your course does not
 change.
 
-.. only:: Open_edX
+.. _Add Course Metadata:
 
-  .. _Add Course Metadata:
-
-  *******************
-  Add Course Metadata
-  *******************
+*******************
+Add Course Metadata
+*******************
 
   To make certain information about your course available to entities such as
   customer relationship management (CRM) software, a marketing site, or other

@@ -1,25 +1,15 @@
+
+.. :diataxis-type: concept
+
 .. _Scheduling Your Course:
 
 #######################
 Scheduling a Course Run
 #######################
 
-Scheduling, which includes start and end dates as well as whether the course is
-self-paced or instructor-paced, changes with every course run.
-
-.. only:: Partners
-
-   For courses on edx.org, you enter this information in Publisher. For more
-   information, see `Pub Create a Course`_.
-
-   For courses on Edge, you enter this information in Studio. For more
-   information, see :ref:`Creating a Course About Page <Creating a Course About Page>`.
-
-.. only:: Open_edX
-
-   After you determine scheduling for your course run, you enter this
-   information in Studio before the course run begins. For more information,
-   see :ref:`Creating a Course About Page <Creating a Course About Page>`.
+After you determine scheduling for your course run, you enter this
+information in Studio before the course run begins. For more information,
+see :ref:`Creating a Course About Page <Creating a Course About Page>`.
 
 .. contents::
    :local:
@@ -87,29 +77,27 @@ details, see :ref:`Hide a Subsection After its Due Date <Hide a Subsection After
   If you do not set a course end date, learners cannot access earned
   certificates.
 
-.. only:: Open_edX
+===============================
+Enrollment Start Date and Time
+===============================
 
-  ===============================
-  Enrollment Start Date and Time
-  ===============================
+As soon as enrollment starts, prospective learners can see your course in the
+course catalog, view the course **About** page, and enroll in the course.
 
-  As soon as enrollment starts, prospective learners can see your course in the
-  course catalog, view the course **About** page, and enroll in the course.
-
-  The enrollment start date and time specify when learners can start to enroll
-  in the course. Ensure that the enrollment start date is early enough to allow
-  learners to both enroll in and prepare for the course.
+The enrollment start date and time specify when learners can start to enroll
+in the course. Ensure that the enrollment start date is early enough to allow
+learners to both enroll in and prepare for the course.
 
   .. _Enrollment End Date and Time:
 
-  ===============================
-  Enrollment End Date and Time
-  ===============================
+===============================
+Enrollment End Date and Time
+===============================
 
-  The enrollment end date and time specify when learners can no longer enroll
-  in the course. Ensure that the enrollment end date is late enough to allow
-  learners adequate time to enroll. The enrollment end date cannot be later
-  than the course end date.
+The enrollment end date and time specify when learners can no longer enroll
+in the course. Ensure that the enrollment end date is late enough to allow
+learners adequate time to enroll. The enrollment end date cannot be later
+than the course end date.
 
 
 .. _View Start and End Dates:
@@ -129,10 +117,9 @@ course catalog and in the course's About page.
  :alt: The course About page, showing the start date.
  :width: 800
 
-.. only:: Open_edX
 
-  To find the URL of your course's **About** page in Studio, select
-  **Settings**, and then select **Schedule & Details**.
+To find the URL of your course's **About** page in Studio, select
+**Settings**, and then select **Schedule & Details**.
 
 After learners enroll in courses, the courses appear on their course
 dashboards. To access the dashboard, learners select their usernames and then
@@ -235,11 +222,6 @@ Now, Personalized Learning Schedule can be adapted to have:
 #. Custom pacing
 #. A mix of default and custom pacing, where the user sets custom pacing to some, but not all, graded assignments in a course. The rest of the assignments that are not set have default pacing applied to them.
 
-.. only:: Partners
-
-  For more information about the way learners experience instructor-paced and
-  self-paced courses, see :ref:`Differences Between Instructor- and Self-Paced
-  Courses<Setting Course Pacing>` in the *edX Learner's Guide*.
 
 ========================================================
 Setting Custom Pacing in Personalized Learning Schedules

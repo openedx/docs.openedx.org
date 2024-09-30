@@ -1,11 +1,12 @@
+.. :diataxis-type: reference
+
 .. _Getting Started with Course Content Development:
 
 ###############################################
 Getting Started with Course Content Development
 ###############################################
 
-When you have finished :ref:`setting up your course<Setting up your Course
-Index>`, you are ready to build your course content.
+When you have finished :ref:`setting up your course, you are ready to build your course content.
 
 This section provides an outline of the steps involved in developing your
 course content, with links to more details.
@@ -98,27 +99,27 @@ Course content visibility depends on the following factors.
 
 For more information, see :ref:`Controlling Content Visibility`.
 
-.. only:: Open_edX
 
-  .. _Making Course Content Searchable:
 
-  ***********************************
-  Making Course Content Searchable
-  ***********************************
+.. _Making Course Content Searchable:
 
-  Learners can search course text in :ref:`Text components<Working with Text
-  Components>` and video transcripts by using the **Search** box at the top of
-  the **Course** page.
+***********************************
+Making Course Content Searchable
+***********************************
 
-  Before learners can search your course, Studio must index the content. Studio
-  indexes all new course content automatically when you :ref:`publish<Publish a
-  Unit>` the content.
+Learners can search course text in :ref:`Text components<Working with Text
+Components>` and video transcripts by using the **Search** box at the top of
+the **Course** page.
 
-  If necessary, you can manually reindex all of the content in your course at
-  any time. Typically, you would only manually reindex your course content if
-  learners see unexpected search results. To reindex your course content,
-  select **Reindex Content** at the top of the **Course Outline** page.
-  Reindexing usually takes less than 30 seconds.
+Before learners can search your course, Studio must index the content. Studio
+indexes all new course content automatically when you :ref:`publish<Publish a
+Unit>` the content.
+
+If necessary, you can manually reindex all of the content in your course at
+any time. Typically, you would only manually reindex your course content if
+learners see unexpected search results. To reindex your course content,
+select **Reindex Content** at the top of the **Course Outline** page.
+Reindexing usually takes less than 30 seconds.
 
 .. _Revising Content:
 

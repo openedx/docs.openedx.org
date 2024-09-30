@@ -10,18 +10,8 @@ The About page for a course or program includes both a representative image and
 a short About video. The course or program image also appears in places such as
 learner dashboards and search engine results.
 
-.. only:: Partners
-
-    For edx.org courses, you enter this information in Publisher. For more
-    information, see `Pub Create a Course`_.
-
-    For courses on Edge, you enter this content in Studio. For more
-    information, see :ref:`Creating a New Course <Creating a New Course>`.
-
-.. only:: Open_edX
-
- For information about how to add your course title and number, see
- :ref:`Creating a New Course <Creating a New Course>`.
+For information about how to add your course title and number, see
+:ref:`Creating a New Course <Creating a New Course>`.
 
 
 .. contents::
@@ -38,9 +28,6 @@ A representative image is an eye-catching, colorful image that captures the
 essence of a course or program. These images are visible in the following
 locations.
 
-.. only:: Partners
-
-  * The course or program card on edx.org.
 
 * The About page.
 * The learner dashboard.
@@ -68,34 +55,13 @@ Images must follow specific size guidelines.
 Course Image Size
 *****************
 
-.. only:: Partners
 
-  New course images must be 1134 x 675 pixels in size. However, only part of
-  this image may be visible. The viewable area varies according to the web page
-  where the viewer sees the image.
 
-  The following example course image is 1134 x 675 pixels. The image shows the
-  area of a course image that is always visible, as well as the areas that are
-  also visible on different pages. You can click to enlarge the image.
-
-  .. image:: ../../images/course_image.png
-     :width: 500
-     :alt: An example course image, showing the area that is always visible,
-         the additional area visible for program pages and the learner
-         dashboard, and the area that may be hidden in search results.
-
-  .. note::
-    For courses that had a first run before December 2017, image sizes of 2120
-    x 1192 pixels and 378 x 225 pixels are supported. However, we strongly
-    recommend that you update your course image size to 1134 x 675 pixels.
-
-.. only:: Open_edX
-
-  The course image that you add in Studio appears on the About page for the
-  course and on the learner dashboard. It must be a minimum of 378 pixels in
-  width by 225 pixels in height, and in .jpg or .png format. Make sure the
-  image that you upload maintains the aspect ratio of those dimensions so that
-  the image appears correctly on the dashboard.
+The course image that you add in Studio appears on the About page for the
+course and on the learner dashboard. It must be a minimum of 378 pixels in
+width by 225 pixels in height, and in .jpg or .png format. Make sure the
+image that you upload maintains the aspect ratio of those dimensions so that
+the image appears correctly on the dashboard.
 
 
 .. _Course About Video Guidelines:
@@ -133,17 +99,7 @@ as your course content videos.
     information about including video content, see :ref:`Creating and Adding
     Video Content <Creating and Adding Video Content>`.
 
-.. only:: Partners
 
- For courses on edx.org, when you add an About video for a course, you must
- first upload the video to the edX About video upload page. You can then
- optionally enter the URL for your course About video in Publisher. For more
- information, see `Pub Add an About Video`_ and `Pub Create a Course`_.
 
- For courses on Edge, see :ref:`Add an About Video <Add an About Video>` for information about how
- to add an About video to your course About page.
-
-.. only:: Open_edX
-
- For information about how to add an About video to your course About page, see
- :ref:`Add an About Video <Add an About Video>`.
+For information about how to add an About video to your course About page, see
+:ref:`Add an About Video <Add an About Video>`.

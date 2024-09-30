@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Course_Staffing:
 
 #####################
@@ -6,19 +8,8 @@ Planning Course Staff
 
 You can designate a team of people to help you run your course.
 
-.. only:: Partners
-
-  For courses on edx.org, you designate the staff that appears on the About
-  page for a specific course run in Publisher. For more information, see
-  `Pub Add Course Run Staff`_.
-
-  For courses on Edge, you add staff members in Studio. For more information,
-  see :ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
-
-.. only:: Open_edX
-
-  You add staff members in Studio. For more information, see
-  :ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
+You add staff members in Studio. For more information, see
+:ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
 
 .. contents::
   :local:
@@ -50,10 +41,8 @@ Additionally, biographies can optionally include the following information.
 * Facebook, Twitter, and blog URLs
 * List of major works
 
-.. only:: Open_edX
-
- For information about how to enter this information in your course About page,
- see :ref:`Creating a Course About Page <Creating a Course About Page>`.
+For information about how to enter this information in your course About page,
+see :ref:`Creating a Course About Page <Creating a Course About Page>`.
 
 .. _About the Course Team Roles:
 

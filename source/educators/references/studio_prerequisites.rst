@@ -1,3 +1,5 @@
+.. :diataxis-type: reference 
+
 .. _Specify Prerequisite Courses and Exams:
 
 #########################################

@@ -1,14 +1,11 @@
+.. :diataxis-type: how to
+
 .. _Studio_Course_Staffing:
 
 ####################################
 Adding Course Team Members in Studio
 ####################################
 
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Add Course Run Staff`_.
 
 After you have selected the members of your course team, you are ready to add
 team members in Studio.

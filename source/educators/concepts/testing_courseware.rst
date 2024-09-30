@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Testing Your Course Content:
 
 ###########################

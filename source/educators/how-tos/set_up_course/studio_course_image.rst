@@ -1,3 +1,5 @@
+.. :diataxis-type: how to
+
 #################################################
 Add a Course Image in Studio
 #################################################
@@ -6,11 +8,6 @@ For more information about effective course images, see :ref:`Course and
 Program Images and Videos <Course and
 Program Images and Videos>`.
 
-.. only:: Partners
-
-   .. note::
-    This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see `Pub Course Creation`_.
 
 To add a course image in Studio, follow these steps.
 
