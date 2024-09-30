@@ -6,3 +6,4 @@ Course Development
    :glob:
 
    *
+   text_components/index

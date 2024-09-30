@@ -109,14 +109,15 @@ Open edX Educators
    [ ] Assigned a persona role or role(s) (see https://docs.openedx.org/en/latest/documentors/concepts/doc_audiences.html)
    [ ] References to edX/2U/edx.org removed or changed to Open edX® LMS
    [ ] Find any edx-partner or Open edX specifix taxonomy and remove
-   [ ] 
+   [ ] If applicable, a "see also" list is populated
+   [ ] Remove broken images
 
 
    # Maintenance Checks
    [ ] Steps have been tested and confirmed
    [ ] Links Verified
    [ ] Imagery is relevant and up-to-date
-   [ ] Confirm headers structure
+   [ ] Confirm Appropriate RST Structure, especially headers (see https://docs.openedx.org/en/latest/documentors/references/doc_templates.html)
    [ ] How-to docs should start with an action verb; 
    Last Maintenance Check - Date: (e.g. 2024/08/26)
    Last Maintenance Check - Version: (e.g. Redwood)
