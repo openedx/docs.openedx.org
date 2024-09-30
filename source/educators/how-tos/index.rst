@@ -21,6 +21,8 @@ Educators: How-tos
          set_up_certificates
          importing_exporting
          course_reruns
+         course_rerun
+         update_rerun_course
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -114,6 +116,7 @@ Educators: How-tos
          create_course_discussion
          create_content_discussion
          allow_anonymous_discussions
+         communication/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -142,6 +145,8 @@ Educators: How-tos
 
          set_grading_policy
          set_grade_subsection
+         grading/set_grade_range
+         grading/set_grace_period
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -167,6 +172,7 @@ Educators: How-tos
          view_course
          view_course_as_learner
          beta_test_course
+         releasing-course/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -194,3 +200,38 @@ Educators: How-tos
          share_courses_social_media
          update_course_specific_settings
          view_another_learners_profile
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Data & Analytics
+
+         data/index
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Student Management
+
+         student_management/index
+
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Close a Course
+
+         issue_certificates
+
+
+
+         

@@ -10,3 +10,7 @@ Educators: Concepts
    instructional_design/index
    open_edx_platform/index
    accessibility/index
+   data/index
+   communication/index
+   releasing-course/index
+   grading/index

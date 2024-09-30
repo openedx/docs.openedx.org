@@ -97,13 +97,6 @@ Open edX Educators
    migration_wip/11_course_assets/index
    migration_wip/12_course_features/index
    migration_wip/13_proctored_exams/index
-   migration_wip/14_grading/index
-   migration_wip/15_releasing_course/index
-   migration_wip/16_manage_live_course/index
-   migration_wip/17_manage_discussions/index
-   migration_wip/18_student_progress/index
-   migration_wip/19_rerun_course/index
-   migration_wip/20_glossary/glossary
 
 
 .. ALL NEW DOCUMENTATION ABOVE THIS LINE

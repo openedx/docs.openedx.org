@@ -1,8 +1,8 @@
 .. :diataxis-type: reference
 
-##############################
+###########################
 Course Number Guidelines
-##############################
+###########################
 
 The course title (sometimes also called the course name) and number are
 important identifiers for your course. It is a good idea to use titles and
