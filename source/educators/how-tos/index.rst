@@ -60,6 +60,7 @@ Educators: How-tos
          using_lti
          leveraging_libraries
          content-tagging-how-tos/index
+         course_development/text_components/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
