@@ -104,6 +104,7 @@ Educators: How-tos
          math_expression
          open_response
          add_video_quiz
+         proctored_exams/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2

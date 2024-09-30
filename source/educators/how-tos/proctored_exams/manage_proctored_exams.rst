@@ -1,7 +1,7 @@
-.. _Managing Proctored Exams:
+.. _Manage Proctored Exams:
 
 ########################
-Managing Proctored Exams
+Manage Proctored Exams
 ########################
 
 When you administer a proctored exam in your course, learners might have
@@ -159,3 +159,17 @@ To view learners' onboarding status for your course, follow these steps.
          `Checking Your Onboarding Status and Resetting Your Onboarding Exam`_ in
          the edX Help Center.
 
+.. seealso::
+ :class: dropdown
+
+  :ref:`ProctoredExams_Overview` (concept)
+  :ref:`Enable Proctored Exams` (how-to)
+  :ref:`Preparing Learners for Proctored Exams` (concept)
+  :ref:`Online Proctoring Rules` (reference)
+  :ref:`Allow Opting Out of Proctored Exams` (how-to)
+  :ref:`Create a Proctored Exam with Proctortrack` (how-to)
+  :ref:`PT Proctored Session Results File` (reference)
+  :ref:`Review PT Proctored Session Results` (how-to)
+  :ref:`Create a Proctored Exam with RPNow` (how-to)
+  :ref:`RPNow Proctored Session Results File` (reference)
+  :ref:`Review RP Proctored Session Results` (how-to)

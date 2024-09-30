@@ -14,3 +14,4 @@ Educators: Concepts
    communication/index
    releasing-course/index
    grading/index
+   proctored_exams/index
