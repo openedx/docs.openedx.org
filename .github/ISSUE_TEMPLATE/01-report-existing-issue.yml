@@ -1,0 +1,46 @@
+name: Report Issue With Existing File (for docs writers)
+description: For one specific existing file, log an issue about the file in a
+standardized format. Made for the Educators docs projects.
+title: "Issue with page:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Title Your Issue With Filename!
+        Please add the page's filename (eg "educators/how-tos/log-an-issue.rst")
+        after the ":" in the box above. So the above box would say, "Issue with
+        page: educators/how-tos/log-an-issue.rst".
+  - type: input
+    id: file
+    attributes:
+      label: Filename
+      description: What is the filename of the page you're logging an issue about?
+      placeholder: educators/how-tos/log-an-issue.rst
+    validations:
+      required: true
+  - type: dropdown
+    id: persona
+    attributes:
+      label: What persona(s) does this page touch?
+      multiple: true
+      options:
+        - Educators
+        - Site Operators
+        - Developers
+        - Documentors
+    validations:
+      required: true
+  - type: dropdown
+    id: broken
+    attributes:
+      label: What is broken about this file?
+      multiple: true
+      options:
+        - Images are broken
+        - Images are out of date
+        - The steps on this page need to be tested
+        - More docs are needed on this topic
+        - This topic needs a quickstart
+        - This topic needs a concept doc
+    validations:
+      required: true
