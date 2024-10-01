@@ -29,7 +29,7 @@ body:
         - Developers
         - Documentors
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: broken
     attributes:
@@ -42,5 +42,12 @@ body:
         - More docs are needed on this topic
         - This topic needs a quickstart
         - This topic needs a concept doc
+        - Other
     validations:
       required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: You can provide any more details here that you like:
+      description: "e.g. Specific steps that are broken; Suggestions for more docs needed; Open edX® LMS version you are testing with;"
+      render: bash
