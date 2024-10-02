@@ -1,5 +1,5 @@
-Open edX Sumac Release - Feature-Based Notes
-############################################
+Open edX Sumac Release - Product Release Notes
+##############################################
 
 .. toctree::
    :maxdepth: 1
