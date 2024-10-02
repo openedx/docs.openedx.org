@@ -1,11 +1,11 @@
-Open edX Sumac Release - Product Release Notes
-##############################################
+Open edX Teak Release - Product Release Notes
+#############################################
+
+*Releasing June, 2025!*
 
 .. toctree::
    :maxdepth: 1
 
-   customizing_pages
-   aspects_comp_dashboard
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found

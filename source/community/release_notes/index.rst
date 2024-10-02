@@ -13,7 +13,8 @@ migrations, and other changes and updates to the Open edX platform.
     :maxdepth: 2
 
     Redwood: The Current Release <redwood>
-    Sumac: The Next Release <sumac>
+    Sumac: December 2024 Release <sumac>
+    Teak: June 2025 Release <teak>
 
 .. toctree::
     :maxdepth: 1

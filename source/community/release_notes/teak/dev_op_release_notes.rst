@@ -1,10 +1,12 @@
-Open edX Sumac Developer & Operator Release Notes
-#################################################
+Open edX Teak Developer & Operator Release Notes
+################################################
 
-These are the developer & operator release notes for the Sumac release, the 19th
-community release of the Open edX Platform, spanning changes from May 10, 2024
-to October 23, 2024. You can also review details about :doc:`../index` or learn
-more about the `Open edX Platform`_.
+*Releasing June, 2025!*
+
+These are the developer & operator release notes for the Teak release, the 20th
+community release of the Open edX Platform, spanning changes from October 24,
+2024 to April 9, 2025. You can also review details about :doc:`../index` or
+learn more about the `Open edX Platform`_.
 
 To view the end-user facing docs, see the :doc:`feature_release_notes`.
 
