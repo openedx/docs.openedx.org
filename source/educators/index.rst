@@ -58,7 +58,6 @@ Open edX Educators
       :class-footer: sd-border-0
 
       * :doc:`references/course_dates`
-      * :doc:`references/course_sections`
       * :doc:`references/simple_problem_types`
 
       * :doc:`references/instructional_design/index`
@@ -89,8 +88,7 @@ Open edX Educators
    :caption: Sections
    :glob:
 
-   migration_wip/6_set_up_course/index
-   migration_wip/7_developing_course/index
+
    migration_wip/8_course_components/index
    migration_wip/9_video/index
    migration_wip/10_exercises_tools/index

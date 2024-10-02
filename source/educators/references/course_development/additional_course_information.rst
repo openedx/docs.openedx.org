@@ -58,7 +58,7 @@ When you require that your learners pass a particular course before they
 enroll in your course, learners see information about course prerequisites on
 the course **About** page.
 
-.. image:: ../../images/PrereqAboutPage.png
+.. image:: /_images/educator_references/PrereqAboutPage.png
    :width: 500
   :alt: A course About page with prerequisite course information circled.
 
@@ -69,7 +69,7 @@ course content. The dashboard includes a link to the **About** page for the
 prerequisite course. Learners can enroll in the prerequisite course from the
 **About** page.
 
-.. image:: ../../images/Prereq_StudentDashboard.png
+.. image:: /_images/educator_references/Prereq_StudentDashboard.png
   :width: 500
   :alt: The learner dashboard with an available course and a course that is
       unavailable because it has a prerequisite.

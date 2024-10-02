@@ -1,4 +1,4 @@
-.. :diataxis-type: concept
+.. :diataxis-type: reference
 
 .. _Course_Staffing:
 
@@ -11,9 +11,6 @@ You can designate a team of people to help you run your course.
 You add staff members in Studio. For more information, see
 :ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
 
-.. contents::
-  :local:
-  :depth: 1
 
 .. _Staff Biography Guidelines:
 

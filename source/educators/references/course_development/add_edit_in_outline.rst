@@ -1,86 +1,4 @@
-.. :diataxis-type: reference
-
-.. _Developing Your Course Outline:
-
-###################################
-Developing Your Course Outline
-###################################
-
-As you develop your course, you work primarily in the edX Studio course
-outline. This section includes the following information about working with
-the course outline.
-
-.. contents::
-  :local:
-  :depth: 1
-
-See the following sections for information about working with the course
-building blocks in the course outline.
-
-* :ref:`Developing Course Sections`
-* :ref:`Developing Course Subsections`
-* :ref:`Developing Course Units`
-* :ref:`Developing Course Components`
-
-****************************
-Open the Course Outline
-****************************
-
-To view the course outline, follow these steps.
-
-#. Sign in to edX Studio.
-#. On the **My Courses** page, select the course you want to develop.
-
-   The course outline opens by default when you open a course.
-
-To open the outline when you are working in a course, from the **Content**
-menu, select **Outline**.
-
-The first time you view an outline for a course, it contains no content. The
-following message is visible.
-
-::
-
-  You haven't added any content to this course yet.
-
-To add content, you :ref:`create a section<Create a Section>`.
-
-******************************
-Understanding a Course Outline
-******************************
-
-Course authors build a course outline on the **Course Outline** page in Studio.
-Learners see this course outline in the LMS.
-
-To view the course outline in the LMS, go to the **Course Outline** page in
-Studio, and then select either **Preview** or **View Live**.
-
-.. include:: outline_studio_lms.rst
-
-.. _Navigating the Course Outline:
-
-*******************************
-Navigate the Course Outline
-*******************************
-
-In Studio, you navigate the course outline by expanding and collapsing sections
-and subsections. Use the "drop-down" icon next to a section or subsection name
-to expand or collapse its contents.
-
-.. image:: ../images/outline-expand-collapse.png
- :alt: The outline showing an expanded section and a collapsed subsection, with
-     expand and collapse icons circled.
- :width: 500
-
-When you expand a subsection, all units in the subsection are visible.
-
-.. image:: ../images/outline-with-units.png
- :alt: The outline showing an expanded subsection.
- :width: 500
-
-Select the name of a unit to open the :ref:`unit page<Developing Course
-Units>`.
-
+.. :diataxis-type: how-to
 .. _Add Content in the Course Outline:
 
 ************************************************
@@ -138,62 +56,6 @@ original item, with the name "Duplicate of <original item name>".
    release statuses and visibility of sections to learners, see :ref:`Sections
    and Visibility to Learners`.
 
-
-.. _Modify Settings for Objects in the Course Outline:
-
-***************************************************
-Modify Settings for Objects in the Course Outline
-***************************************************
-
-You modify settings for sections, subsections, and units in the course outline.
-Specifically, you can complete the following tasks.
-
-* :ref:`Set a Section Release Date`
-* :ref:`Hide a Section from Students`
-* :ref:`Set a Subsection Release Date`
-* :ref:`Set the Assignment Type and Due Date for a Subsection`
-* :ref:`Hide a Subsection from Students`
-* :ref:`Hide a Unit from Students`
-
-To modify settings for a section, subsection, or unit, select the **Configure**
-icon for that object. In the following example, the **Configure** icon is
-circled for a section, a subsection, and two units.
-
-.. image:: ../images/settings-icons.png
- :alt: Configure icons in the course outline.
- :width: 500
-
-For more information, see the links above.
-
-
-.. _Publish Content from the Course Outline:
-
-************************************************
-Publish Content from the Course Outline
-************************************************
-
-You can publish new and changed units for an entire section or subsection. You
-can also publish individual units.
-
-To publish new and changed units, select the **Publish** icon for a section,
-subsection, or unit. In the following example, the **Publish** icon is circled
-for a section, subsection, and unit.
-
-.. image:: ../images/outline-publish-icons.png
- :alt: Publishing icons in the course outline.
- :width: 500
-
-.. note::
- The **Publish** icon only appears when there is new or changed content within
- the object.
-
-For more information, see the following topics.
-
-* :ref:`Unit Publishing Status`
-* :ref:`Publish all Units in a Section`
-* :ref:`Publish all Units in a Subsection`
-* :ref:`Publish a Unit`
-
 .. _Reorganize the Course Outline:
 
 ************************************************
@@ -212,7 +74,7 @@ outline, move your cursor over the handle on the right of the object's box
 until the cursor changes to a four-headed arrow. For example, in the image
 below, the handle for the subsection Lesson 1 - Getting Started is selected.
 
-.. image:: ../images/outline-drag-select.png
+.. image:: /_images/educator_how_tos/outline-drag-select.png
  :alt: A subsection handle selected to drag it.
  :width: 500
 
@@ -224,7 +86,7 @@ release the mouse button. For example, in the image below, the subsection
 Lesson 1 - Getting Started is being moved to the end of the section
 Introduction.
 
-.. image:: ../images/outline-drag-new-location.png
+.. image:: /_images/educator_how_tos/outline-drag-new-location.png
  :alt: A subsection being dragged to a new section.
  :width: 500
 
@@ -234,7 +96,7 @@ object to a valid location. You can then release the mouse button. For example,
 in the image below, the subsection Lesson 1 - Getting Started is being moved to
 the collapsed section Introduction.
 
-.. image:: ../images/outline-drag-new-location-collapsed.png
+.. image:: /_images/educator_how_tos/outline-drag-new-location-collapsed.png
   :alt: A subsection being dragged to a new section.
   :width: 500
 
@@ -256,7 +118,7 @@ You delete sections, subsections, and units from the course outline.
 
 Select the **Delete** icon in the box for the object you want to delete.
 
-.. image:: ../images/outline-delete.png
+.. image:: /_images/educator_how_tos/outline-delete.png
  :alt: The outline with Delete icons circled.
  :width: 500
 

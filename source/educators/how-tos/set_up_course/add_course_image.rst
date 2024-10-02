@@ -1,5 +1,7 @@
 .. :diataxis-type: how to
 
+.. _Add Course Image:
+
 #################################################
 Add a Course Image in Studio
 #################################################

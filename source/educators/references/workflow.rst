@@ -6,7 +6,7 @@
 Getting Started with Course Content Development
 ###############################################
 
-When you have finished :ref:`setting up your course, you are ready to build your course content.
+When you have finished setting up your course, you are ready to build your course content.
 
 This section provides an outline of the steps involved in developing your
 course content, with links to more details.
@@ -61,14 +61,14 @@ Visibility>` by setting release dates on the outline and publishing units.
 
 The following diagram summarizes the content creation workflow:
 
-.. image:: ../images/workflow-create-content.png
+.. image:: /_images/educator_references/workflow-create-content.png
  :alt: Diagram of the content creation process
  :width: 600
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` throughout the creation process, including making sure that the
 content is available for learners who access courses using the edX mobile apps.
-For more information, see :doc:`../../concepts/accessibility/design_for_mobile`.
+For more information, see :ref:`design for mobile <Designing for Mobile>`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
    appear in the edX mobile apps than on the edX site. In particular, newly
@@ -77,9 +77,9 @@ For more information, see :doc:`../../concepts/accessibility/design_for_mobile`.
 
 .. _Making Course Content Visible to Students:
 
-*****************************************
+*******************************************
 Making Course Content Visible to Students
-*****************************************
+*******************************************
 
 Course content visibility depends on the following factors.
 
@@ -140,7 +140,7 @@ You can revise your course content at any time.
 The following diagram summarizes the content revision workflow and content
 visibility:
 
-.. image:: ../images/workflow-revise-content.png
+.. image:: /_images/educator_references/workflow-revise-content.png
  :alt: Diagram of the content creation process
  :width: 500
 
