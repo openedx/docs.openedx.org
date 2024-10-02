@@ -1,5 +1,5 @@
-Aspects Dashboard
-#################
+Aspects Course Comparison Dashboard
+###################################
 
 The Product and Engineering Teams from eduNEXT and Axim Collaborative are
 excited to introduce a new Aspects Dashboard for course administrators with the
