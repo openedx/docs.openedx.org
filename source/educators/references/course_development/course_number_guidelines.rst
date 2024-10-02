@@ -1,5 +1,7 @@
 .. :diataxis-type: reference
 
+.. _Creating Number Guidelines: 
+
 ###########################
 Course Number Guidelines
 ###########################
@@ -20,11 +22,6 @@ Course numbers have the following guidelines.
   course URL. The course URL cannot be changed. However, if you want to change
   the way that your course number appears in Studio and the LMS, see
   :ref:`Change the Course Number <Change the Course Number>`.
-
-.. only:: Open_edX
-
- For information about how to add your course number, see
- :ref:`Creating a New Course <Create a New Course>`.
 
 ======================
 Example Course Numbers

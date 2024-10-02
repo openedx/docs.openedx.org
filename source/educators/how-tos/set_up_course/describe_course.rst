@@ -1,27 +1,5 @@
 .. :diataxis-type: how to 
 
-.. _Creating a Course About Page:
-
-#######################################
-Creating a Course About Page in Studio
-#######################################
-
-The course About page, sometimes called the course summary page, provides
-information about your course to learners. Learners can see the About page
-before they enroll in the course.
-
-.. image:: ../../images/about_page.png
- :alt: A course About page, showing the course image, video, description, and
-     additional information.
- :width: 600
-
-You add the contents of your course About page in Studio. For more information,
-see one of the following topics.
-
-.. contents::
-  :local:
-  :depth: 1
-
 .. _Describe Your Course:
 
 ******************************
@@ -74,7 +52,7 @@ To provide a description for your course, follow these steps.
 Add a Course Image
 ******************************
 
-.. include:: studio_course_image.rst
+.. include:: add_course_image.rst
 
 
 

@@ -1,9 +1,15 @@
 .. :diataxis-type: concept
 
+.. _Course Outline:
+
+==================
+Course Outline
+==================
+
 In the following image, the Studio view of the course outline is on the left.
 On the right is the view of the course outline in the LMS.
 
-.. image:: ../images/Course_Outline_LMS.png
+.. image:: /_images/educator_concepts/Course_Outline_LMS.png
    :alt: Sections, subsections, and units in the course outline in Studio and
        in the LMS.
    :width: 600

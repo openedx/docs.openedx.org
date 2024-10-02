@@ -23,6 +23,8 @@ Educators: How-tos
          course_reruns
          course_rerun
          update_rerun_course
+         set_up_course/index
+         
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -59,7 +61,10 @@ Educators: How-tos
          import_scorm_content
          using_lti
          leveraging_libraries
+         configure_prerequisite_content
+         set_licensing
          content-tagging-how-tos/index
+         course_development/index
          course_development/text_components/index
 
    .. grid-item-card::
@@ -234,6 +239,14 @@ Educators: How-tos
 
          issue_certificates
 
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
 
+      .. toctree::
+         :maxdepth: 1
+         :caption: course_development
+
+         text_components/index
 
          

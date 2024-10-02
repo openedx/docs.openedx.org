@@ -8,9 +8,6 @@ Setting Up Certificates in Studio
 
 This section describes how to create and manage certificates for your course.
 
-.. contents::
-   :local:
-   :depth: 1
 
   .. note::
    Before you can issue certificates, the administrator for your instance of

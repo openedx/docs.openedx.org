@@ -1,4 +1,4 @@
-.. :diataxis-type: concept
+.. :diataxis-type: reference
 
 .. _Licensing a Course:
 
@@ -80,65 +80,6 @@ Studio.
 
 For more information, see the `Creative Commons website`_.
 
-.. _Set Course Content Licensing:
-
-**************************************
-Set Course Content Licensing in Studio
-**************************************
-
-When you have determined what licenses you want your course content to have,
-you set course content licensing in Studio.
-
-For more information about licensing options, see :ref:`Licensing a Course`.
-
-When you create a new course, the license is set to **All Rights Reserved**.
-You can change the license for your course in the **Schedule & Details** page
-in Studio.
-
-The license options that you select apply to all course content, including
-videos, unless you explicitly specify different licensing options for your
-videos. Learners see the license at the bottom of all pages in the course.
-
-#. From the **Settings** menu, select **Schedule & Details**.
-
-#. Scroll to the bottom of the page to view the **Course Content License**
-   section.
-
-   .. image:: ../images/course_license.png
-      :alt: The Course Content License section of the Schedule & Details page.
-      :width: 600
-
-#. Select the license option for your course.
-
-   * To grant learners to right to share and use course content, select
-     **Creative Commons**. The Creative Commons options are displayed.
-
-     .. image:: ../images/creative-commons-license-course.png
-      :alt: The Creative Commons license options.
-      :width: 600
-
-     Select the :ref:`Creative Commons license options <Creative Commons
-     License>` to apply.
-
-   * To reserve all course content rights, select **All Rights Reserved**.
-
-#. Select **Save** at the bottom of the page to save your changes.
-
-.. _Set Video Licensing:
-
-*************************************
-Set Video Licensing
-*************************************
-
-If you intend for a specific video to have a different license than the course
-as a whole, you must set the license in the :ref:`video settings <Video Settings>`.
-
-For example, you might license for your course under Creative Commons, but use
-a video from another party that is copyrighted. In this case, you can set the
-license for that particular video to **All Rights Reserved**.
-
-If a video is to have the same license as the course as a whole, you do not
-need to set the license for the video.
 
 .. _Learners View of Licenses:
 
@@ -149,14 +90,14 @@ Learners' View of Licenses
 When they view content in the **Course** tab, learners see the license that
 you set for the course at the bottom of the page.
 
-.. image:: ../images/learner_course_license.png
+.. image:: /_images/educator_references/learner_course_license.png
   :alt: A course unit page with a pointer to the license.
   :width: 150
 
 If the video has a different license than the course as a whole, learners see
 the license at the bottom right of the video player.
 
-.. image:: ../images/learner_video_license.png
+.. image:: /_images/educator_references/learner_video_license.png
  :alt: A video with a pointer to the license.
  :width: 600
 

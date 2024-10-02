@@ -1,5 +1,7 @@
 .. :diataxis-type: reference
 
+.. _Course Title Guidelines: 
+
 #########################
 Course Title Guidelines
 #########################

@@ -1,24 +1,6 @@
 .. :diataxis-type: how to
 
-.. _Studio_Course_Staffing:
-
-####################################
-Adding Course Team Members in Studio
-####################################
-
-
-After you have selected the members of your course team, you are ready to add
-team members in Studio.
-
-For more information about selecting course team members, see
-:ref:`Course_Staffing <Course_Staffing>`.
-
-.. contents::
-  :local:
-  :depth: 1
-
-
-.. _Add Course Team Members:
+.. _Add Course Staff:
 
 ************************
 Add Course Team Members

@@ -15,3 +15,4 @@ Educators: Concepts
    releasing-course/index
    grading/index
    proctored_exams/index
+   planning_course_run_information/index
