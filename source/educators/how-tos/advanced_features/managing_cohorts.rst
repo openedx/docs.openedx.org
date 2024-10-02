@@ -1,7 +1,9 @@
-.. _Enabling and Configuring Cohorts:
+.. :diataxis-type: how-to
+
+.. _Manage Course Cohorts:
 
 ############################################
-Enabling and Configuring the Cohorts Feature
+Manage Course Cohorts
 ############################################
 
 This section provides information about setting up cohorts in your course.
@@ -612,3 +614,14 @@ To disable cohorts in your course, follow these steps.
 
 All course content and discussion posts that were previously divided by cohort
 immediately become visible to all students.
+
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Cohorts Overview` (concept)
+  :ref:`Create Cohort Specific Course Content` (how-to)
+  :ref:`About Divided Discussions` (concept)
+  :ref:`Managing Divided Discussion Topics` (concept)
+  :ref:`Moderating_discussions` (concept)
+  :ref:`Setting Up Divided Discussions` (how-to)

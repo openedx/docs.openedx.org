@@ -1,9 +1,11 @@
+.. :diataxis-type: how-to
+
 :orphan:
 
 .. _Enrollment Track Specific Courseware Overview:
 
 #######################################################
-Creating Course Content for Specific Enrollment Tracks
+Create Course Content for Specific Enrollment Tracks
 #######################################################
 
 This section provides information about creating different content for
@@ -172,3 +174,8 @@ Content`.
 
 For details see :ref:`Testing Your Course Content` and :ref:`Roles for Viewing
 Course Content`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Offering Differentiated Content` (concept)

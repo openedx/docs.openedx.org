@@ -234,6 +234,16 @@ Educators: How-tos
 
          issue_certificates
 
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Advanced Features
+
+         advanced_features/index
+
 
 
          

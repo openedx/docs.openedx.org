@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Offering Differentiated Content:
 
 #######################################################
@@ -64,4 +66,9 @@ customized course experience.
 
 For information about creating differentiated content using cohorts, see
 :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Enrollment Track Specific Courseware Overview` (how-to)
 

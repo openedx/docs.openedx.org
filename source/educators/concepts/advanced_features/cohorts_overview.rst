@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Cohorts Overview:
 
 #############################
@@ -277,3 +279,13 @@ previously saw will seem to have "disappeared". To avoid negatively affecting
 the learner experience, any cohort assignment changes should be done as early
 in the course run as possible, so that learners' views of discussion posts and
 contributions remain consistent over time.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Manage Course Cohorts` (how-to)
+  :ref:`Create Cohort Specific Course Content` (how-to)
+  :ref:`About Divided Discussions` (concept)
+  :ref:`Managing Divided Discussion Topics` (concept)
+  :ref:`Moderating_discussions` (concept)
+  :ref:`Setting Up Divided Discussions` (how-to)

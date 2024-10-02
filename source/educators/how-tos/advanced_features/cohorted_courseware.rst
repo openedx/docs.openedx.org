@@ -1,7 +1,9 @@
-.. _Cohorted Courseware Overview:
+.. :diataxis-type: how-to
+
+.. _Create Cohort Specific Course Content:
 
 ###########################################
-Creating Cohort-Specific Course Content
+Create Cohort-Specific Course Content
 ###########################################
 
 This section provides information about setting up content for specific
@@ -310,3 +312,14 @@ Delete Content Groups
 
 #. In the confirmation message, select **Delete** again to confirm the
    deletion.
+
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Cohorts Overview` (concept)
+  :ref:`Manage Course Cohorts` (how-to)
+  :ref:`About Divided Discussions` (concept)
+  :ref:`Managing Divided Discussion Topics` (concept)
+  :ref:`Moderating_discussions` (concept)
+  :ref:`Setting Up Divided Discussions` (how-to)

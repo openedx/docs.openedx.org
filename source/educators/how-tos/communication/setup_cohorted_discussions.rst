@@ -1,3 +1,5 @@
+.. :diataxis-type: how-to
+.. NOTE: This is a how-to in that it answers a very specific "how" to set up discussions in a cohorted course, even though it does that by pointing to other docs. 
 
 .. _Set up Discussions in Cohorted Courses:
 

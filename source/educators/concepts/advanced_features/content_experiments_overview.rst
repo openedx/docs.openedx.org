@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _Overview of Content Experiments:
 
 #################################
