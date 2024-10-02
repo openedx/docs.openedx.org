@@ -13,4 +13,4 @@ Open edX Redwood Release - Feature-Based Notes
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
-in the :doc:`dev_op_release_notes`.
+in the :doc:`Developer & Operator Release Notes<dev_op_release_notes>`.

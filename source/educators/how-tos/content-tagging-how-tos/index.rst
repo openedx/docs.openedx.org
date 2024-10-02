@@ -10,17 +10,19 @@ Content Tagging: How-tos
       :class-footer: sd-border-0
 
       .. toctree::
-         :maxdepth: 0
+         :titlesonly:
          :caption: Content Tagging Management
 
-         Create_flat_taxonomy_by_uploading_CSV
+         add_delete_course_tags
+         export_tag_data_from_course
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
       .. toctree::
-         :maxdepth: 0
+         :titlesonly:
          :caption: Taxonomies
 
          Create_flat_taxonomy_by_uploading_CSV
+         build_taxonomy_using_template

@@ -10,6 +10,6 @@ metadata:
   annotations:
     openedx.org/arch-interest-groups: "feanil"
 spec:
-  owner: user:feanil
+  owner: group:docs-openedx-org-maintainers
   type: 'website'
   lifecycle: 'production'

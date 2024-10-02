@@ -1,2 +1,0 @@
-Open edX Course Operators
-#########################

@@ -13,7 +13,6 @@ Your Audience
 Make sure your documentation is targeted to the right audience and organized under that audience's section of the documentation. Each topic in the documentation is for one of the following audiences:
 
 * Educators
-* Course Operators
 * Site Operators
 * Developers
 

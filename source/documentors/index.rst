@@ -20,21 +20,19 @@ Open edX Documentors
 
          All Quick Starts
 
-   .. grid-item-card:: References
+   .. grid-item-card:: Concepts
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/doc_guidelines`
-      * :doc:`references/quick_reference_rst`
-      * :doc:`references/doc_templates`
-      * :doc:`references/doc_checklist`
+      * :doc:`concepts/doc_audiences`
+      * :doc:`concepts/content_types`
       +++
-      .. button-ref:: references/index
+      .. button-ref:: concepts/index
          :color: primary
          :outline:
          :expand:
 
-         All References
+         All Concepts
 
    .. grid-item-card:: How-tos
       :class-card: sd-shadow-md sd-p-2
@@ -50,6 +48,22 @@ Open edX Documentors
          :expand:
 
          All How-tos
+
+   .. grid-item-card:: References
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      * :doc:`references/doc_guidelines`
+      * :doc:`references/quick_reference_rst`
+      * :doc:`references/doc_templates`
+      * :doc:`references/doc_checklist`
+      +++
+      .. button-ref:: references/index
+         :color: primary
+         :outline:
+         :expand:
+
+         All References
 
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2

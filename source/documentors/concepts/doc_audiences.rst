@@ -3,11 +3,9 @@ Documentation Audiences
 
 Open edX documentation is organized by the following audiences:
 
-* **Educators**, who build online courses using Studio.
+* **Educators**, who build and/or run online courses using Studio.
 
-* **Course Operators**, who run online courses, using features in the LMS.
-
-* **Site Operators**, who install and configure Open edX.
+* **Site Operators**, who install, deploy, and configure Open edX sites.
 
 * **Developers**, who contribute new features or bug fixes to the core Open edX platform, or develop other components and XBlocks that integrate with the core platform.
 
