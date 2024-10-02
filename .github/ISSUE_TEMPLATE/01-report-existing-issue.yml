@@ -1,16 +1,12 @@
 name: Report Issue With Existing File (for docs writers)
-description: For one specific existing file, log an issue about the file in a
-standardized format. Made for the Educators docs projects.
+description: For one specific existing file, log an issue about the file in a standardized format. Made for the Educators docs projects.
 title: "Issue with page:"
 body:
   - type: markdown
     attributes:
       value: |
         ## Title Your Issue With Filename!
-        Please add the page's filename (eg "educators/how-tos/log-an-issue.rst")
-        after the ":" in the box above. So the above box would say, "Issue with
-        page: educators/how-tos/log-an-issue.rst". This helps us search &
-        organize tickets.
+        Please add the page's filename (eg "educators/how-tos/log-an-issue.rst") after the ":" in the box above. So the above box would say, "Issue with page: educators/how-tos/log-an-issue.rst". This helps us search & organize tickets.
   - type: input
     id: file
     attributes:
@@ -49,6 +45,6 @@ body:
   - type: textarea
     id: other
     attributes:
-      label: You can provide any more details here that you like:
+      label: Provide any extra details, such as LMS version, specifics of what's broken, or suggested remediation steps.
       description: "e.g. Specific steps that are broken; Suggestions for more docs needed; Open edX® LMS version you are testing with;"
       render: bash
