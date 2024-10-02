@@ -1,5 +1,7 @@
-Open edX Teak Release - Feature-Based Notes
-###########################################
+Open edX Teak Release - Product Release Notes
+#############################################
+
+*Releasing June, 2025!*
 
 .. toctree::
    :maxdepth: 1
