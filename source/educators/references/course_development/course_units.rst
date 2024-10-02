@@ -16,7 +16,7 @@ understand the following concepts and complete the following tasks.
 You add content to units with :ref:`course components<Developing Course
 Components>`.
 
-.. _What is a Unit? 
+.. _What is a Unit:
 
 ****************************
 What is a Unit?

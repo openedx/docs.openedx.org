@@ -59,7 +59,7 @@ enroll in your course, learners see information about course prerequisites on
 the course **About** page.
 
 .. image:: /_images/educator_references/PrereqAboutPage.png
-   :width: 500
+  :width: 500
   :alt: A course About page with prerequisite course information circled.
 
 If learners have not completed the prerequisite course, they can enroll in

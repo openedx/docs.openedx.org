@@ -72,7 +72,7 @@ Create a Content Experiment
 
    A new content experiment is added to the unit.
 
-   .. image:: ../../images/content_experiment_block.png
+   .. image:: /_images/educator_how_tos/content_experiment_block.png
     :width: 600
     :alt: An image showing the content experiment component in a unit page in
         Studio.
@@ -85,7 +85,7 @@ Create a Content Experiment
 #. Select either **Select a Group Configuration** or **Edit** to open the
    content experiment component.
 
-   .. image:: ../../images/content_experiment_editor.png
+   .. image:: /_images/educator_how_tos/content_experiment_editor.png
     :alt: An image of the content experiment editor in Studio.
     :width: 600
 
@@ -117,7 +117,7 @@ each group that is defined in the group configuration you selected. For
 example, if you select a group configuration that defines two groups, Group A
 and Group B, you see the following page.
 
-.. image:: ../../images/content_experiment_container.png
+.. image:: /_images/educator_how_tos/content_experiment_container.png
  :alt: An image of the content experiment page in Studio, with two groups.
  :width: 600
 
@@ -127,7 +127,7 @@ Other Components`.
 
 For example, you can add a Text component and a video to Group A.
 
-.. image:: ../../images/a_b_test_child_expanded.png
+.. image:: /_images/educator_how_tos/a_b_test_child_expanded.png
  :alt: An image of an expanded content experiment component with an HTML and
      video component.
  :width: 600
@@ -156,7 +156,7 @@ groups, as well as create new components.
 
 #. In the content experiment component, select **Edit**.
 
-   .. image:: ../../images/content_experiment_editor_group2.png
+   .. image:: /_images/educator_how_tos/content_experiment_editor_group2.png
     :alt: An image of the content experiment editor in Studio, with a group
         configuration selected.
     :width: 600
@@ -172,7 +172,7 @@ groups, as well as create new components.
    that you had added to groups in the previous configuration are now moved to
    a section called **Inactive Groups**.
 
-   .. image:: ../../images/inactive_groups.png
+   .. image:: /_images/educator_how_tos/inactive_groups.png
     :alt: An image of a content experiment in Studio, with components in an
         inactive group.
     :width: 600
@@ -180,6 +180,10 @@ groups, as well as create new components.
 #. Drag and drop components from the **Inactive Groups** section into the new
    groups. You can also create new components in the new groups.
 
-.. import OLX-content experiment doc that's shared in OLX guide.
+.. seealso::
+ :class: dropdown
 
-.. include:: subsection_content_experiments_OLX.rst
+  :ref:`Offering Differentiated Content` (concept)
+  :ref:`Overview of Content Experiments` (concept)
+  :ref:`Configure Your Course for Content Experiments` (how-to)
+  :ref:`Add a Content Experiment in OLX` (how-to)

@@ -1,4 +1,6 @@
+.. :diataxis-type: concept
 .. Section is shared in CA and OLX guides
+.. _Guidelines for Modifying Group Configurations:
 
 *********************************************
 Guidelines for Modifying Group Configurations
@@ -46,3 +48,14 @@ the problems in the experiment group content to which they are reassigned.
 Removing an experiment group affects event data for the course. Ensure that
 researchers who are evaluating your course results are aware of the experiment
 group that you removed and the date on which you removed it.
+
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Offering Differentiated Content` (concept)
+  :ref:`Overview of Content Experiments` (concept)
+  :ref:`Configure Your Course for Content Experiments` (how-to)
+  :ref:`Experiment Group Configurations` (reference)
+  :ref:`Add a Content Experiment in OLX` (how-to)
+  :ref:`Set Up Group Configuration for OLX Courses` (how-to)

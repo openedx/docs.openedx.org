@@ -46,60 +46,6 @@ To enable content experiments in your course, you add ``split_test`` to the
 
 #. Select **Save Changes**.
 
-.. _Overview of Group Configurations:
-
-****************************************
-Overview of Group Configurations
-****************************************
-
-Before you can create :ref:`content experiments<Overview of Content
-Experiments>`, you must specify at least one group configuration for your
-course.
-
-A group configuration defines how many groups of learners are in an experiment.
-You can have any number of group configurations in your course. When you create
-a content experiment, you select the group configuration to use.
-
-For example, you might want to run two different content experiments at
-different times during your course. In one content experiment, learners either
-see a video or complete a reading assignment. You can then include problems so
-that you can see which group learned the material more completely. For this
-content experiment, you need a group configuration that assigns your learners
-to two experiment groups.
-
-In the other content experiment, you can present the same question using four
-different types of problems. For this content experiment, you need a
-group configuration that assigns your learners to four experiment groups.
-
-=======================================
-Assigning Learners to Experiment Groups
-=======================================
-
-The edX Platform assigns learners to each experiment group in a group
-configuration.
-
-Experiment group assignments have the following characteristics.
-
-* Dynamic
-
-  The edX Platform assigns a learner to an experiment group the first time he
-  or she views a content experiment that uses the group configuration.
-
-* Random
-
-  You cannot control which learners are assigned to which experiment group.
-
-* Evenly distributed
-
-  The edX Platform keeps track of the size of experiment groups, and assigns
-  new learners to groups evenly. For example, if you have two experiment groups
-  in a configuration, each group includes 50% of the learners in the course; if
-  you have four experiment groups, each group includes 25% of the learners.
-
-* Permanent
-
-  Learners remain in their assigned experiment groups regardless of how many
-  content experiments you set up that use the same group configuration.
 
 .. _Set up Group Configurations in edX Studio:
 
@@ -131,7 +77,7 @@ You can create a group configuration at any time.
 #. On the **Group Configurations** page, under **Experiment Groups**, select
    **New Experiment Group**. The following page opens:
 
-   .. image:: ../../images/create-group-config.png
+   .. image:: /_images/educator_how_tos/create-group-config.png
     :width: 800
     :alt: An image of the Create a New Group Configuration page in Studio.
 
@@ -158,7 +104,7 @@ The group configuration is then listed in the page. You can see the number of
 groups that the configuration contains, as well as whether the configuration is
 in use in the course:
 
-.. image:: ../../images/group_configurations_one_listed.png
+.. image:: /_images/educator_how_tos/group_configurations_one_listed.png
  :width: 800
  :alt: The Group Configurations page with one group configuration listed.
 
@@ -170,20 +116,19 @@ Edit a Group Configuration
 
 .. important:: You can change the name of a group configuration at any time.
    However, before you modify any other characteristics of a group
-   configuration that is currently used in a running course, review `Guidelines
-   for Modifying Group Configurations`_.
+   configuration that is currently used in a running course, review :ref:`Guidelines for Modifying Group Configurations`.
 
 #. On the **Group Configurations** page, hover over the group configuration and
    select **Edit**.
 
-   .. image:: ../../images/group_configurations_edit.png
+   .. image:: /_images/educator_how_tos/group_configurations_edit.png
     :alt: An image of the Group Configurations page with Edit button
         highlighted.
     :width: 800
 
    The following page opens:
 
-   .. image:: ../../images/save-group-config.png
+   .. image:: /_images/educator_how_tos/save-group-config.png
     :alt: An image of the Edit a Group Configuration page.
     :width: 800
 
@@ -209,7 +154,7 @@ Delete a Group Configuration
 #. On the **Group Configurations** page, hover over the group configuration and
    select the Delete icon.
 
-   .. image:: ../../images/group-configuration-delete.png
+   .. image:: /_images/educator_how_tos/group-configuration-delete.png
     :alt: The Delete icon circled for a group configuration.
     :width: 800
 
@@ -228,7 +173,7 @@ On the **Group Configurations** page, select the name of a group to see its
 details. You see links to the content experiments that use this group
 configuration.
 
-.. image:: ../../images/group_configurations_experiments.png
+.. image:: /_images/educator_how_tos/group_configurations_experiments.png
  :alt: An image of a group configuration with the content experiments using the
      configuration circled.
  :width: 800
@@ -245,7 +190,7 @@ configuration used by that experiment in two ways.
 * In a unit that contains a content experiment, in the content experiment
   block, select the name of the group configuration.
 
-  .. image:: ../../images/content_experiment_group_config_link.png
+  .. image:: /_images/educator_how_tos/content_experiment_group_config_link.png
    :alt: An image of the content experiment in the unit page with the group
      configuration link circled
    :width: 800
@@ -253,14 +198,14 @@ configuration used by that experiment in two ways.
 * At the top of the content experiment page, select the name of the group
   configuration.
 
-  .. image:: ../../images/content_experiment_page_group_config_link.png
+  .. image:: /_images/educator_how_tos/content_experiment_page_group_config_link.png
    :alt: An image of the content experiment page with the group configuration
        link circled.
    :width: 800
 
 In both cases, the group configuration opens.
 
-.. image:: ../../images/group_configurations_experiments.png
+.. image:: /_images/educator_how_tos/group_configurations_experiments.png
  :alt: An image of the Group Configuration page with the experiments using it
      circled.
  :width: 800
@@ -268,8 +213,12 @@ In both cases, the group configuration opens.
 You can use the link in the group configuration to return to the unit that
 contains the content experiment.
 
-.. import OLX-content experiment doc that's shared in OLX guide.
+.. seealso::
+ :class: dropdown
 
-.. include:: subsection_content_experiments_group_modify_guidelines.rst
-
-.. include:: subsection_content_experiments_policies.rst
+  :ref:`Offering Differentiated Content` (concept)
+  :ref:`Overview of Content Experiments` (concept)
+  :ref:`Experiment Group Configurations` (reference)
+  :ref:`Add a Content Experiment in OLX` (how-to)
+  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+  :ref:`Guidelines for Modifying Group Configurations` (concept)

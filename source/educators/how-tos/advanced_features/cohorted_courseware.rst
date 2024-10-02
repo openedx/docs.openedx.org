@@ -134,7 +134,7 @@ To create a content group, follow these steps.
 
 #. On the **Group Configurations** page, select **New content group**.
 
-   .. image:: ../../images/Cohorts_AddContentGroup.png
+   .. image:: /_images/educator_how_tos/Cohorts_AddContentGroup.png
     :width: 600
     :alt: Button on Group Configurations page for adding first content group.
 
@@ -216,7 +216,7 @@ To associate a cohort with a content group, follow these steps:
 #. From the content group drop down list, select the content group that you
    want your cohort to be associated with.
 
-   .. image:: ../../images/Cohorts_AssociateWithContentGroup.png
+   .. image:: /_images/educator_how_tos/Cohorts_AssociateWithContentGroup.png
      :alt: Select a content group to associate with the cohort.
 
 #. Select **Save**.

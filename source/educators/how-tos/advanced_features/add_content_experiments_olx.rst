@@ -1,5 +1,7 @@
 .. This section is shared in course authors and OLX guides.
 
+.. _Add a Content Experiment in OLX:
+
 ****************************************
 Add a Content Experiment in OLX
 ****************************************
@@ -81,4 +83,14 @@ In this example:
   ``url_name`` equal to ``group_a``.  Therefore, learners in group 0 see the
   content in that vertical.
 
-For information about the ``policy.json`` file, see :doc:`subsection_content_experiments_policies`.
+For information about the ``policy.json`` file, see :ref:`Set Up Group Configuration for OLX Courses`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Offering Differentiated Content` (concept)
+  :ref:`Overview of Content Experiments` (concept)
+  :ref:`Configure Your Course for Content Experiments` (how-to)
+  :ref:`Experiment Group Configurations` (reference)
+  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+  :ref:`Guidelines for Modifying Group Configurations` (concept)

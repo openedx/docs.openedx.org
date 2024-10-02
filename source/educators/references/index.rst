@@ -42,3 +42,4 @@ General References
    communication/index
    grading/index
    proctored_exams/index
+   advanced_features/index

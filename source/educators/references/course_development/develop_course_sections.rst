@@ -25,7 +25,7 @@ section contains one or more subsections.
 Viewing Sections in the Outline
 ********************************
 
-For more information see :ref:`Course Outline`_
+For more information see :ref:`Course Outline`
 
 .. _Sections and Visibility to Learners:
 

@@ -40,6 +40,8 @@ Then, follow instructions for the type of component you are editing.
 After you edit a component, the changes are not visible to learners until you
 :ref:`publish the unit<Publish a Unit>`.
 
+.. _Set the Display Name for a Component:
+
 =====================================
 Set the Display Name for a Component
 =====================================

@@ -84,7 +84,7 @@ As a course author, you work with units that have the following statuses.
    :local:
 
 
-.. _Draft (Never Published):
+.. _Draft Never Published:
 
 ========================
 Draft (Never Published)
@@ -146,7 +146,7 @@ cannot see this unit until the release date passes.
 This status applies only to instructor-paced courses. It does not apply to
 self-paced courses.
 
-.. _Draft (Unpublished Changes):
+.. _Draft Unpublished Changes:
 
 ===========================
 Draft (Unpublished changes)

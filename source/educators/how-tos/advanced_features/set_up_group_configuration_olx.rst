@@ -1,5 +1,7 @@
 .. Section is shared in CA and OLX guides
 
+.. _Set Up Group Configuration for OLX Courses:
+
 ************************************************
 Set Up Group Configuration for OLX Courses
 ************************************************
@@ -94,3 +96,13 @@ experiment groups, and the second divides learners into three experiment groups.
   As this example shows, each group configuration is independent.  Group IDs
   and names must be unique within a group configuration, but not across all
   group configurations in your course.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Offering Differentiated Content` (concept)
+  :ref:`Overview of Content Experiments` (concept)
+  :ref:`Configure Your Course for Content Experiments` (how-to)
+  :ref:`Experiment Group Configurations` (reference)
+  :ref:`Add a Content Experiment in OLX` (how-to)
+  :ref:`Guidelines for Modifying Group Configurations` (concept)

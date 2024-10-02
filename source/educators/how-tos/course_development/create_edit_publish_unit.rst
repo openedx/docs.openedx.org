@@ -55,7 +55,7 @@ You can edit a unit in the following ways.
 * Reorganize Components in Units
 
 When you make any of these changes, if you previously published the unit, the
-state changes to `Draft (Unpublished Changes)`_. You must then :ref:`publish
+state changes to :ref:`Draft Unpublished Changes`. You must then :ref:`publish
 the unit<Publish a Unit>` to make your edits visible to learners.
 
 If you are designing your course to :ref:`offer different content<Offering
@@ -170,8 +170,8 @@ Publishing a unit makes the current version of the unit in Studio available to
 learners. In an instructor-paced course, the release dates for the section and
 subsection must also have passed for learners to access a published unit.
 
-You publish a unit that has a status of Draft (Never Published) or Draft
-(Unpublished Changes). When you publish a unit, the status changes to
+You publish a unit that has a status of :ref:`Draft Never Published` or :ref:`Draft
+Unpublished Changes`. When you publish a unit, the status changes to
 Published and Live or Published Not Yet Released.
 
 You can publish a unit from the unit page or the course outline.
@@ -234,10 +234,10 @@ Version** at the top of the page.
 The unit page opens in the LMS in Staff view. You might be prompted to log in
 to the LMS.
 
-If the unit status is `Draft (Unpublished Changes)`_, you do not see your
+If the unit status is :ref:`Draft Unpublished Changes`, you do not see your
 changes in the LMS until you publish the unit again.
 
-If the unit status is `Draft (Never Published)`_, **View Live Version** is not
+If the unit status is :ref:`Draft Never Published`, **View Live Version** is not
 enabled.
 
 For information about viewing and testing content, see :ref:`Testing Your

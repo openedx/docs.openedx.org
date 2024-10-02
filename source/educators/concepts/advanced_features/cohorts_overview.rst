@@ -265,7 +265,7 @@ discussion posts. If you want learners to see a different name for the default
 cohort, you can change its name. For details about renaming cohorts, see
 :ref:`Renaming a Cohort`.
 
-.. image:: ../../images/post_visible_default.png
+.. image:: /_images/educator_concepts/post_visible_default.png
  :alt: A discussion topic post with "This post is visible to Default Group"
        above the title.
  :width: 600

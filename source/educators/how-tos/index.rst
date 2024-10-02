@@ -249,14 +249,5 @@ Educators: How-tos
 
          advanced_features/index
 
-   .. grid-item-card::
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. toctree::
-         :maxdepth: 1
-         :caption: course_development
-
-         text_components/index
 
          

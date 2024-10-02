@@ -13,7 +13,6 @@ see :ref:`Developing Your Course Index`.
 .. toctree::
    :maxdepth: 2
 
-   content_experiments/index
    teams/index
    credit_courses/index
    timed_exams
