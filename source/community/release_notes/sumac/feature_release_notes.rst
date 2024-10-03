@@ -4,6 +4,7 @@ Open edX Sumac Release - Product Release Notes
 .. toctree::
    :maxdepth: 1
 
+   content_libraries_redesign_beta
    customizing_pages
    aspects_comp_dashboard
 
