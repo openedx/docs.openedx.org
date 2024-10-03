@@ -99,6 +99,8 @@ Links between rst documents
    override that with doc:`other text </file_d>` if you want.
 
 
+.. _RST Directives:
+
 Directives
 **********
 
