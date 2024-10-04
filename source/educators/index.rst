@@ -58,7 +58,6 @@ Open edX Educators
       :class-footer: sd-border-0
 
       * :doc:`references/course_dates`
-      * :doc:`references/course_sections`
       * :doc:`references/simple_problem_types`
 
       * :doc:`references/instructional_design/index`
@@ -82,3 +81,4 @@ Open edX Educators
          :expand:
 
          All Educator Videos
+

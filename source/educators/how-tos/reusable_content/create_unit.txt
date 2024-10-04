@@ -21,7 +21,7 @@ You can then create units within the subsection.
 
  Add a Component (how-to)
 
- :doc:`/educators/references/course_units` (reference)
+ :ref:`Developing Course Units` (reference)
 
  Components (reference)
 

@@ -21,6 +21,10 @@ Educators: How-tos
          set_up_certificates
          importing_exporting
          course_reruns
+         course_rerun
+         update_rerun_course
+         set_up_course/index
+         
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -57,7 +61,11 @@ Educators: How-tos
          import_scorm_content
          using_lti
          leveraging_libraries
+         configure_prerequisite_content
+         set_licensing
          content-tagging-how-tos/index
+         course_development/index
+         course_development/text_components/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -102,6 +110,7 @@ Educators: How-tos
          math_expression
          open_response
          add_video_quiz
+         proctored_exams/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -114,6 +123,7 @@ Educators: How-tos
          create_course_discussion
          create_content_discussion
          allow_anonymous_discussions
+         communication/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -142,6 +152,8 @@ Educators: How-tos
 
          set_grading_policy
          set_grade_subsection
+         grading/set_grade_range
+         grading/set_grace_period
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -167,6 +179,7 @@ Educators: How-tos
          view_course
          view_course_as_learner
          beta_test_course
+         releasing-course/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -178,3 +191,63 @@ Educators: How-tos
 
          sidebar_collapse_expand
          sidebar_view_course_section
+         
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Navigate the Open edX® Platform
+
+         add_links_to_social_media_accounts
+         add_update_full_profile
+         add_update_limited_profile
+         share_courses_social_media
+         update_course_specific_settings
+         view_another_learners_profile
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Data & Analytics
+
+         data/index
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Student Management
+
+         student_management/index
+
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Close a Course
+
+         issue_certificates
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Advanced Features
+
+         advanced_features/index
+
+
+         

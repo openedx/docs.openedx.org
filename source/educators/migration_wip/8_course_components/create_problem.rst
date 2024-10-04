@@ -316,7 +316,7 @@ click the pen symbol to the right of the field and enter the desired text.
 The following illustration shows the display name of a problem in Studio, and
 in the LMS.
 
-.. image:: ../images/display_names_problem.png
+.. image:: /_images/educator_how_tos/display_names_problem.png
  :alt: The identifying display name for a problem in Studio, and the LMS.
  :width: 800
 
