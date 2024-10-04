@@ -1,3 +1,6 @@
+.. :diataxis-type: reference
+.. _Partial Credit:
+
 ==========================================
 Awarding Partial Credit for a Problem
 ==========================================
@@ -17,14 +20,6 @@ demonstrates their progress.
 For more information about configuring partial credit, see the topic for each
 problem type.
 
-.. only:: Partners
-
-  .. note::
-    Support for the partial credit feature is provisional for courses on
-    edx.org and edX Edge. Ensure that you test such problems thoroughly before
-    you publish them to learners. For more information, contact your edX
-    partner manager.
-
 ------------------------------------------
 How Learners Receive Partial Credit
 ------------------------------------------
@@ -36,7 +31,7 @@ to award 25% of the possible points (instead of 0 points) for one of the
 incorrect answer options. The learner selected this incorrect option, and
 received 25% of the possible points.
 
-.. image:: ../images/partial_credit_multiple_choice.png
+.. image:: /_images/educator_references/partial_credit_multiple_choice.png
  :alt: A single select problem with partial credit for an incorrect
      answer.
  :width: 500

@@ -1,6 +1,13 @@
+.. :diataxis-type: how-to
+.. _Configure Hint:
+
+*****************
+Configure Hint
+*****************
+
 In the settings panels on the right of the editor, you'll find a Hints panel.
 
-.. image:: ../images/problem_editor_hints_box.png
+.. image:: /_images/educator_how_tos/problem_editor_hints_box.png
  :alt: An example of the hints settings panel.
  :width: 200
 

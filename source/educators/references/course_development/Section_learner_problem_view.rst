@@ -1,3 +1,6 @@
+.. :diataxis-type: reference
+.. _Learner View of Problems:
+
 #############################
 The Learner View of a Problem
 #############################
@@ -6,7 +9,7 @@ All problems on the edX platform have these component parts, some of which can
 be configured. For configurable options, you can specify whether and when
 an option is available in problems.
 
-.. image:: ../images/AnatomyOfExercise.png
+.. image:: /_images/educator_references/AnatomyOfExercise.png
   :alt: A problem from a learner's point of view, with numbered callouts for
        elements of the problem.
   :width: 600
@@ -87,7 +90,7 @@ an option is available in problems.
    problem was answered correctly, incorrectly, or partially correctly, and
    shows the problem score.
 
-   .. image:: ../images/AnatomyOfExercise2.png
+.. image:: /_images/educator_references/AnatomyOfExercise2.png
      :alt: A problem from a learner's point of view, with callouts showing the
            feedback elements of an answered problem.
      :width: 600
@@ -129,3 +132,12 @@ visible. You can set these attributes in Studio.
   script to randomize the values that are presented to learners. You use this
   setting to define when values are randomized. For more information, see
   :ref:`Randomization`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Working with Problem Components` (reference)
+  :ref:`Modifying a Released Problem` (reference)
+  :ref:`_Advanced Editor` (reference)
+  :ref:`Problem Settings` (reference)
+  :ref:`Feedback Best Practices` (concept)

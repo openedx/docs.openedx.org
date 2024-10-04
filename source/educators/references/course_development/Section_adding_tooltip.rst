@@ -1,3 +1,6 @@
+.. :diataxis-type: reference
+.. _Adding Tooltips:
+
 ==============================
 Adding Tooltips to a Problem
 ==============================
@@ -9,7 +12,7 @@ cursors over a tooltip icon.
 The following example problem includes two tooltips. The tooltip that provides
 a definition for "ROI" is being shown.
 
-.. image:: ../images/tooltip.png
+.. image:: /_images/educator_references/tooltip.png
  :alt: An example of a tooltip from a learner's point of view.
  :width: 500
 
