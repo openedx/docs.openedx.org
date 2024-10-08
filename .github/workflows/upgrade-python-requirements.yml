@@ -16,8 +16,8 @@ jobs:
     with:
       branch: ${{ github.event.inputs.branch || 'main' }}
       # optional parameters below; fill in if you'd like github or email notifications
-      user_reviewers: "feanil"
-      # team_reviewers: ""
+      # user_reviewers: "feanil"
+      team_reviewers: "docs-openedx-org-maintainers"
       # email_address: ""
       # send_success_notification: false
       python_version: "3.12"
