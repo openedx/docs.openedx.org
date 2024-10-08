@@ -1,3 +1,7 @@
+.. :diataxis-type: how-to
+
+.. _Additional Transcript Options:
+
 #############################
 Specifying Transcript Options
 #############################
@@ -16,7 +20,7 @@ Add a Transcript
    This section is for videos that do not have integrated transcripts. Only use
    this option for transcripts in .srt format. If you want to provide a
    transcript in any other format, such as .pdf, see
-   ::ref:`Additional Transcripts`.
+   :ref:`Additional Transcripts`.
 
 You can provide transcripts for your video in more than one language. To do
 this, you work with a third-party service to obtain an .srt transcript file for
@@ -52,7 +56,7 @@ To add a transcript to a video component, follow these steps.
 When your learners view the video, they can select the **Language menu** to
 select a language.
 
-.. image:: ../images/Video_LanguageTranscripts_LMS.png
+.. image:: /_images/educator_how_tos/Video_LanguageTranscripts_LMS.png
    :alt: The video player with the language menu selected to show English and Spanish as transcript options
 
 
@@ -63,11 +67,6 @@ Edit a Video Transcript
 If you want to edit an existing .srt video transcript, follow
 these steps.
 
-.. only:: Partner
-
-  .. note::
-   If you need to edit an integrated transcript from 3Play Media or cielo24,
-   contact your edX project coordinator. Do not use this procedure.
 
 #. In Studio, open the video component for the video.
 #. For an .srt transcript, locate the **Transcript** section, and then select

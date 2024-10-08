@@ -76,7 +76,6 @@ Educators: How-tos
          :caption: Add Videos to Your Course
 
          prepare_videos
-         set_up_hosting
          create_video
          get_video_transcript
          add_transcript_other_language

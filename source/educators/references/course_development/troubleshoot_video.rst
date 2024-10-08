@@ -1,3 +1,8 @@
+.. :diataxis-type: reference
+
+
+.. _Troubleshoot Videos:
+
 ################################
 Troubleshooting Video Problems
 ################################

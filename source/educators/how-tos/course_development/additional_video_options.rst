@@ -1,3 +1,5 @@
+.. :diataxis-type: how-to
+
 .. _Additional Video Options:
 
 ###################################

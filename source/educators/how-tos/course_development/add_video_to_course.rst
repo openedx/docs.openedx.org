@@ -1,18 +1,12 @@
+.. :diataxis-type: how-to
 
-* A display name for the component.
-* The video location.
-
-  The video location is the video URL that is created when you upload the video
-  to the hosting site. The video URL might resemble the following example.
-
-  ``https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4``
-* The video transcript
+.. _Add a Video:
 
 =======================
 Add a Video
 =======================
 
-To add a video to an edge.edx.org course, follow these steps.
+To add a video, follow these steps.
 
 #. In studo, locate the unit that you want, an then select **Video** under **Add New
    Component**.
@@ -39,3 +33,5 @@ To add a video to an edge.edx.org course, follow these steps.
 
 #. Optionally, you can set more options for the video. For a description of each option,
    see :ref:`Video Settings`.
+
+
