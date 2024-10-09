@@ -1,4 +1,5 @@
 .. :diataxis-type: reference
+
 .. _Modifying a Released Problem:
 
 *****************************
@@ -58,8 +59,7 @@ For information about how to review and adjust learner grades in the LMS, see
  :class: dropdown
 
   :ref:`Working with Problem Components` (reference)
-  :ref:`_Advanced Editor` (reference)
+  :ref:`Advanced Editor` (reference)
   :ref:`Problem Settings` (reference)
   :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems`(reference)
-
+  :ref:`Learner View of Problems` (reference)

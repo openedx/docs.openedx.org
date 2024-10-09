@@ -1,8 +1,10 @@
-.. _Determining Content Addresses:
+.. :diataxis-type: how-to
 
-#####################################
-Determining Content Addresses
-#####################################
+.. _Determine Content Addresses:
+
+#######################################################################
+Determine Content Addresses when using Open edX as an LTI Provider
+#######################################################################
 
 .. only:: Partners
 
@@ -226,4 +228,14 @@ LTI URLs for Text components include "html+block" or "html", as follows.
   ``https://edx-lti.org/lti_provider/courses/course-v1:edX+DemoX+Demo_Course/block-v1:edX+DemoX+Demo_Course+type@html+block@f9f3a25e7bab46e583fd1fbbd7a2f6a0``
 
   ``https://edx-lti.org/lti_provider/courses/edX/DemoX/2014/i4x:;_;_edX;_DemoX;_html;_2b94658d2eee4d85ae13f83bc24cfca9``
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Using Open edX as an LTI Tool Provider` (concept)
+  :ref:`Create a Duplicate Course for LTI use` (how-to)
+  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
+  :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
+  :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
+
 

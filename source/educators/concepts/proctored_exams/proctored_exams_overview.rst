@@ -10,13 +10,7 @@ complete a proctored exam, the recording of the exam is examined to
 determine whether the learner complied with the :ref:`online proctoring rules
 <CA Online Proctoring Rules>`.
 
-All courses can include proctored exams, but proctored exams are most common
-in courses that offer academic credit. Course teams can require that learners
-pass proctored exams to earn credit in the course. For information about
-offering academic credit, see :ref:`Academic Course Credit`.
-
-Learners must be in the verified enrollment track to take a proctored exam
-and earn academic course credit.
+Learners must be in the verified enrollment track to take a proctored exam.
 
 Proctored exams on edx.org use proctoring software from third-party vendors.
 A course can use one of two proctoring software products: Software Secure RPNow

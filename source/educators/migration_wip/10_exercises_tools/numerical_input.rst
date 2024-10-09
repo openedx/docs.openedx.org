@@ -383,7 +383,7 @@ correct answer and received partial credit.
  :alt: A numerical input problem with partial credit for a close answer.
 
 
-For an overview of partial credit in problems, see :doc:`../8_course_components/Section_partial_credit`.
+For an overview of partial credit in problems, see :ref:`Partial Credit`.
 
 You can use the following methods to award partial credit in a numerical input
 problem.

@@ -1,37 +1,19 @@
-.. _Preparing Content:
-
-#####################################
-Preparing to Reuse Course Content
-#####################################
-
-.. only:: Partners
-
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
-
-  To make the content of an existing edX course reusable in an external LMS,
-  you create a duplicate version of the course. You use the duplicate course
-  specifically as a source of content for your external LMS. Based on
-  configuration choices your organization makes for using edX as an LTI tool
-  provider, you might be asked to create the duplicate course on edX Edge or on
-  another host site.
-
-.. only:: Open_edX
-
-  Before you begin work to reuse the content in an Open edX course, check with
-  your development operations (DevOps) team for information about the
-  website to use. At some sites, a completely separate Open edX instance, with
-  a different Studio website, is set up to be the LTI tool provider.
-
-.. contents::
-   :local:
-   :depth: 1
+.. :diataxis-type: reference
 
 .. _Planning for Content Reuse:
 
 ***********************************
-Planning for Content Reuse
+Planning for Content Reuse (LTI)
 ***********************************
+
+.. note:: This feature was a closed pilot experiment. This feature is not
+ supported for new users.
+
+
+Before you begin work to reuse the content in an Open edX course, check with
+your development operations (DevOps) team for information about the
+website to use. At some sites, a completely separate Open edX instance, with
+a different Studio website, is set up to be the LTI tool provider.
 
 When you create links to edX course content in your external LMS, you can link
 to components individually, to all of the content in a unit, or to all of the
@@ -67,38 +49,6 @@ LTI, see :ref:`Select Content in the Duplicate Course`.
 The topics that follow assume use of the edX Studio user interface. However,
 you can also complete these tasks by exporting the course and then reviewing or
 editing its XML before you import.
-
-***********************************
-Create the Duplicate Course
-***********************************
-
-.. only:: Partners
-
-  Before you create a duplicate course, be sure to check with your DevOps team
-  or your edX partner manager to determine the website that hosts your
-  organization's courses for LTI use.
-
-.. only:: Open_edX
-
-  Before you create a duplicate course, be sure to check with your DevOps team
-  to determine the website that hosts your organization's courses for LTI use.
-
-To create the duplicate course, follow these steps.
-
-#. In Studio, export the original course. For more information, see
-   :ref:`Export a Course`.
-
-#. In Studio on your organization's host site for LTI courses, create a course.
-   This is the duplicate course.
-
-   .. note:: If your organization uses the same site as the host for both the
-    original course and for LTI courses, be sure to give the duplicate course a
-    different name or run.
-
-#. In the duplicate course, import the tar.gz file that you exported in step 1.
-   For more information, see :ref:`Import a Course`.
-
-.. future: add re-run as an option for sites that host courses for LTI on the same instance (edit from Mark, Phil says re-run should work). - Alison 1 Sep 2015
 
 .. _Select Content in the Duplicate Course:
 
@@ -156,28 +106,12 @@ Settings**, and then delete the contents of the **Discussion Topic Mapping**
 policy key. For more information, see :ref:`Create CourseWide Discussion
 Topics`.
 
-*******************************
-Verify Content Status
-*******************************
+.. seealso::
+ :class: dropdown
 
-Only edX course content that is published appears in an external LMS.
+  :ref:`Using Open edX as an LTI Tool Provider` (concept)
+  :ref:`Create a Duplicate Course for LTI use` (how-to)
+  :ref:`Determine Content Addresses when using Open edX as an LTI Provider<Determine Content Addresses>` (how-to)
+  :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
+  :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
 
-.. note:: The **Hide from students** setting for sections, subsections,
- and units does not affect the visibility of content in an external LMS. Only
- the publication status of a unit can prevent content from being included.
-
-To verify that all of the content in your edX course is published, follow these
-steps.
-
-#. In Studio, from the **Content** menu select **Outline**. The **Course
-   Outline** page opens.
-
-#. Expand each section and subsection.
-
-#. Locate units with "Unpublished units will not be released" or "Unpublished
-   changes to live content" below the unit name.
-
-#. For each unpublished unit, make any changes that are necessary to prepare
-   the content for publication. Alternatively, delete the unit.
-
-#. Publish the unit. For more information, see :ref:`Publish a Unit`.

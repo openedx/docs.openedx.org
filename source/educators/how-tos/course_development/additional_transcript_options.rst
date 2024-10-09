@@ -10,7 +10,7 @@ Specifying Transcript Options
   :local:
   :depth: 1
 
-.. _Transcripts in Additional Languages:
+.. _Add a Transcript:
 
 ****************
 Add a Transcript

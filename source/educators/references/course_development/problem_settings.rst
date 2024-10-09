@@ -1,4 +1,5 @@
 .. :diataxis-type: reference
+
 .. _Problem Settings:
 
 ****************************************
@@ -118,8 +119,6 @@ report.
 Hints
 =============
 
-.. include:: Subsection_configure_hints.rst
-
 When you add hints, the **Hint** button is automatically displayed to learners.
 Learners can access the hints by selecting **Hint** beneath the problem.  A
 learner can view multiple hints by selecting **Hint** multiple times.
@@ -138,6 +137,11 @@ been used, the **Hint** or **Next Hint** option is no longer available.
 .. image:: /_images/educator_references/multiple_choice_hint2.png
  :alt: Image of a single select problem with the second hint.
  :width: 600
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Configure Hint` (how-to)
 
 -----------------------------------
 Best Practices for Providing Hints
@@ -292,6 +296,7 @@ seconds remaining."
 
   :ref:`Working with Problem Components` (reference)
   :ref:`Modifying a Released Problem` (reference)
-  :ref:`_Advanced Editor` (reference)
+  :ref:`Advanced Editor` (reference)
   :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems`(reference)
+  :ref:`Learner View of Problems` (reference)
+  :ref:`Configure Hint` (how-to)

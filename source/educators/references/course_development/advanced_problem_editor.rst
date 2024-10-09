@@ -226,9 +226,11 @@ numerical input question follows.
     </numericalresponse>
   </problem>
 
-.. include:: Section_partial_credit.rst
+.. seealso::
+ :class: dropdown
 
-.. include:: Section_adding_tooltip.rst
+  :ref:`Partial Credit` (reference)
+  :ref:`Adding Tooltips` (reference)
 
 .. _Problem Randomization:
 
@@ -263,4 +265,6 @@ course's XML files is no longer supported.
   :ref:`Modifying a Released Problem` (reference)
   :ref:`Problem Settings` (reference)
   :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems`(reference)
+  :ref:`Learner View of Problems` (reference)
+  :ref:`Partial Credit` (reference)
+  :ref:`Adding Tooltips` (reference)

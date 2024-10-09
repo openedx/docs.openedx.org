@@ -255,10 +255,10 @@ Paste, see :ref:`Paste without Formatting in a Text Component`.
  :class: dropdown
 
   :ref:`Modifying a Released Problem` (reference)
-  :ref:`_Advanced Editor` (reference)
+  :ref:`Advanced Editor` (reference)
   :ref:`Problem Settings` (reference)
   :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems`(reference)
-  :ref:'Partial Credit' (reference)
-  :ref:'Configure Hint' (how to)
+  :ref:`Learner View of Problems` (reference)
+  :ref:`Partial Credit` (reference)
+  :ref:`Configure Hint` (how to)
 

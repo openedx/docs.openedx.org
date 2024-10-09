@@ -1,3 +1,5 @@
+.. :diataxis-type: reference
+
 .. _edX as an LTI Provider to Blackboard:
 
 ###############################################
@@ -23,7 +25,7 @@ To use edX course content in the Blackboard LMS, you add a new app to the course
 #. Open a **Content Area** page, and from the **Build Content** menu select
    **Web Link**.
 
-   .. image:: ../../images/lti_blackboard_contentarea.png
+   .. image:: /_images/educator_references/lti_blackboard_contentarea.png
      :alt: An image of the Blackboard navigation choices from Content Area to
          Build Content to Web Link.
 
@@ -33,7 +35,7 @@ To use edX course content in the Blackboard LMS, you add a new app to the course
    The **URL** is the LTI URL that you determined for the edX course content,
    such as ``https://edx-lti.org/lti_provider/courses/course-v1:edX+DemoX+2014/block-1:edX+DemoX+Demo_Course+type@problem+block@d2e35c1d294b4ba0b3b1048615605d2a``.
 
-   .. image:: ../../images/lti_blackboard_create_link.png
+   .. image:: /_images/educator_references/lti_blackboard_create_link.png
      :alt: The Blackboard Create Web Link page with example name and URL
          values.
 
@@ -41,8 +43,15 @@ To use edX course content in the Blackboard LMS, you add a new app to the course
 
 #. Review the content to verify that it appears as you expect.
 
-   .. image:: ../../images/lti_blackboard_example.png
+   .. image:: /_images/educator_references/lti_blackboard_example.png
      :alt: An edX drag and drop problem shown as part of a course running on a
       Blackboard system.
 
+.. seealso::
+ :class: dropdown
 
+  :ref:`Using Open edX as an LTI Tool Provider` (concept)
+  :ref:`Create a Duplicate Course for LTI use` (how-to)
+  :ref:`Determine Content Addresses when using Open edX as an LTI Provider<Determine Content Addresses>` (how-to)
+  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
+  :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)

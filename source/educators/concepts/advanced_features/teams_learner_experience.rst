@@ -1,3 +1,5 @@
+.. :diataxis-type: concept
+
 .. _CA Learner Experience of Teams:
 
 
@@ -22,7 +24,7 @@ find a subject that they are interested in collaborating on. Learners can sort
 topics alphabetically by name, or by the number of teams in a topic.
 
 
-.. image:: ../../images/Teams_TopicArrowButton.png
+.. image:: /_images/educator_concepts/Teams_TopicArrowButton.png
   :width: 500
   :alt: On the page showing available topics, one topic has the arrow button
       that takes users to the list of teams within that topic highlighted.
@@ -38,7 +40,7 @@ match their interests, language, or country.
 When learners locate a team that they might be interested in joining, they can
 select **View** on the team overview to view team details.
 
-.. image:: ../../images/Teams_TopicViewButton.png
+.. image:: /_images/educator_concepts/Teams_TopicViewButton.png
   :width: 500
   :alt: View of a team within a topic showing name and description, number of members.
 
@@ -66,7 +68,7 @@ join. Under the list of existing teams in a topic, learners select **create a
 new team in this topic**. This link is available only to learners who do not
 already belong to a team.
 
-.. image:: ../../images/Teams_CreateNewTeamLink.png
+.. image:: /_images/educator_concepts/Teams_CreateNewTeamLink.png
   :width: 500
   :alt: View of a team within a topic showing name and description, number of members.
 
@@ -107,3 +109,12 @@ team.
 
 For information about course discussions and managing discussions, see
 :ref:`Discussions` and :ref:`Guidance for Discussion Moderators`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+  :ref:`Enable and Configure Teams` (how-to)
+  :ref:`Teams Configuration Options` (reference)
+  :ref:`Managing Teams via CSV Upload` (reference)

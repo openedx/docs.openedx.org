@@ -1,4 +1,5 @@
 .. :diataxis-type: reference
+
 .. _Adding Tooltips:
 
 ==============================

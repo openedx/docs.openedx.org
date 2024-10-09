@@ -95,9 +95,9 @@ an option is available in problems.
            feedback elements of an answered problem.
      :width: 600
 
-   .. note::
-     If you want to temporarily or permanently hide learners' results for
-     problems inside of a subsection, see :ref:`Problem Results Visibility`.
+.. note::
+ If you want to temporarily or permanently hide learners' results for
+ problems inside of a subsection, see :ref:`Problem Results Visibility`.
 
 In addition to the items above, which are shown in the example, problems also
 have the following elements.
@@ -138,6 +138,6 @@ visible. You can set these attributes in Studio.
 
   :ref:`Working with Problem Components` (reference)
   :ref:`Modifying a Released Problem` (reference)
-  :ref:`_Advanced Editor` (reference)
+  :ref:`Advanced Editor` (reference)
   :ref:`Problem Settings` (reference)
   :ref:`Feedback Best Practices` (concept)

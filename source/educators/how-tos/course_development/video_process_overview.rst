@@ -28,7 +28,7 @@ The following diagram outlines the general process for adding videos to a course
 #. The course team :ref:`creates video components <Adding a Video to a Course>`
    and adds the video location to the components.
 
-#. The course team :doc:`prepare_video/obtain_transcript` in
+#. The course team :ref:`Add a Transcript` in
    the video component.
 
 
