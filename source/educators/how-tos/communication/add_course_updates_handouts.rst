@@ -1,37 +1,4 @@
-.. _Adding Course Updates and Handouts:
-
-##################################
-Adding Course Updates and Handouts
-##################################
-
-You can create course updates and handouts in Studio.
-
-Course updates are communications, especially a welcome message, that learners
-see at the top of the **Course** page when they enter the course. A welcome
-message is an important way of making each learner feel personally welcomed to
-the course, and of providing orienting information that helps learners succeed
-with the course.
-
-After learners have read the welcome message, they can dismiss the message.
-The message is automatically dismissed seven days after the learner first
-views it if the learner doesn't actively dismiss it first. Learners can access
-the dismissed message and any other updates from the **Updates** link in the
-sidebar on the **Course** page.
-
-Handouts are links to files that you upload in Studio, for example, a PDF
-version of the course syllabus, or an article that you want learners to read.
-Learners see the list of course handouts under **Handouts** in the sidebar.
-
-.. image:: ../images/course_info_updates_handouts.png
- :alt: The **Course** page as it appears to learners, showing the course
-   welcome message in the main reading area, and in the sidebar, the
-   **Updates** link under the **Course Tools** heading and links to handouts
-   under the **Course Handouts** heading.
-
-.. contents:: Section Contents
-   :local:
-   :depth: 1
-
+.. :diataxis-type: how-to
 .. _Add a Course Update:
 
 *******************
@@ -44,7 +11,7 @@ edit or delete a previous update using the pencil and trash icons. If you
 create a new update, learners do not see the update on the **Course** page
 unless it has the latest chronological date of all existing updates.
 
-.. image:: ../images/course_updates_page.png
+.. image:: /_images/educator_how_tos/course_updates_page.png
  :alt: an image of the Updates page. From this page you can add a new update
   by clicking on the button located at the top right hand corner of the page.
   Additionally, you can edit a previous update by selecting the pencil icon
@@ -72,7 +39,7 @@ To add a course update, follow these steps.
    has the latest chronological date, it is shown to learners on the
    **Course** page, otherwise the update appears on the **Updates** page.
 
-.. image:: ../images/course_updates_page_editor.png
+.. image:: /_images/educator_how_tos/course_updates_page_editor.png
  :alt: If you select “+ New update”, you see an editor that has many options
   for styling in the toolbar.
 
@@ -80,9 +47,8 @@ To add a course update, follow these steps.
 .. a push notification to the app when an update is added. Alison, DOC-1814,
 .. June 2015
 
-.. only:: Open_edX
 
-    #. Optionally, choose whether to send a notification about your update to
+#. Optionally, choose whether to send a notification about your update to
        the edX mobile app.
 
       * Learners can choose to turn off notifications for individual courses or
@@ -111,7 +77,7 @@ To add a course handout, follow these steps.
    On the **Updates** page, you see a **Course Updates** panel and a **Course
    Handouts** panel.
 
-   .. image:: ../images/studio_course_handouts.png
+   .. image:: /_images/educator_how_tos/studio_course_handouts.png
     :width: 500
     :alt: The **Course Updates** page in Studio, showing the Course Handouts
        panel.
@@ -121,3 +87,8 @@ To add a course handout, follow these steps.
 #. In the editor that opens, add the link to your new course handout.
 
 #. Select **Save**.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Adding Course Updates and Handouts` (reference)

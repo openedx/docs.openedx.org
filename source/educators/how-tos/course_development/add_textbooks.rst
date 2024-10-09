@@ -1,3 +1,4 @@
+.. :diataxis-type: how-to
 .. _Adding Textbooks:
 
 ###########################
@@ -82,7 +83,7 @@ Delete a Chapter
 #. On the textbook editing page, locate the chapter that you want to delete,
    and then select the X icon next to that chapter.
 
-   .. image:: ../images/DeleteChapter.png
+   .. image:: /_images/educator_how_tos/DeleteChapter.png
 	:width: 500
 	:alt: Textbook editing page with a callout for the X icon
 
@@ -92,3 +93,9 @@ Delete a Chapter
    **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a
    File>` or :ref:`delete<Delete a File>` the PDF file for the chapter on the
    **Files & Uploads** page to avoid copyright issues.
+
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Enable Textbook` (how to)

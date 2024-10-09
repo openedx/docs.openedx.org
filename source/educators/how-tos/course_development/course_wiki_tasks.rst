@@ -1,4 +1,10 @@
-.. _Course_Wiki_Shared_Tasks:
+.. :diataxis-type: how-to
+
+.. _Course_Wiki_Tasks: 
+
+********************
+Course Wiki Tasks
+********************
 
 This section describes how you can contribute to the course wiki.
 
@@ -143,3 +149,9 @@ Combine a Current Version with a Previous Version
    that you want to merge with the current version.
 #. Select **Merge selected with current** to combine the current and the
    selected versions.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Create Course Wiki` (how to)
+  :ref:`About Course Wiki` (reference)

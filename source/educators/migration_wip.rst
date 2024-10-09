@@ -8,4 +8,4 @@
 
 
    migration_wip/10_exercises_tools/index
-   migration_wip/11_course_assets/index
+  

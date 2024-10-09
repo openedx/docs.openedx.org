@@ -1,3 +1,4 @@
+.. :diataxis-type: how-to
 .. _Adding Pages to a Course:
 
 ##################################
@@ -30,7 +31,7 @@ By default, every new course has the following key areas enabled:
 In the learner experience, these will be shown in the primary navigation bar at the top of every page,
 consistently in this order for all courses.
 
-.. image:: ../images/page_bar_lms_orig.png
+.. image:: /_images/educator_how_tos/page_bar_lms_orig.png
  :alt: The navigation bar in the LMS, showing the default pages.
 
 As a course team member with the **Staff** or **Admin** role, you also see the Instructor
@@ -154,7 +155,7 @@ You can customize your course by adding pages. Each page that you add appears in
 bar for your course. When you add a page, you also add its content using an HTML editor.
 The following example shows the navigation bar for a course that has added a custom page named Syllabus.
 
-    .. image:: ../images/lms_navigation_bar.png
+    .. image:: /_images/educator_how_tos/lms_navigation_bar.png
      :width: 500
      :alt: The navigation bar in the LMS, showing a custom page named Syllabus.
 
@@ -223,116 +224,6 @@ the close icon to the right of each listed chapter.
 
  .. note:: After you delete your textbook on the Textbooks page, edX strongly recommends that you :ref:`lock <Lock a File>` or :ref:`delete <Delete a File>` the PDF files for the textbook on the Files & Uploads page to avoid copyright issues.
 
-.. _Configure Resources:
-
-************************************
-Configuring Applications & Resources
-************************************
-
-As a best practice, you should avoid changing the visibility of your course pages after the course starts.
-For example, your course includes the Wiki page when it starts. A learner adds a page to the course wiki,
-and adds a browser bookmark to that page. If you later hide the Wiki page, the learner’s browser bookmark
-will continue to provide access to the entire course wiki.
-
-Included below are detailed instructions for the configuration of applications and resources that have additional settings and options.
-
-.. _Discussion Configuration:
-
-=======================================
-Configuring the Discussions application
-=======================================
-
-There are several configuration options available to the Discussions application.
-Many basic configuration options are provided within Studio’s Pages & Resources area, and moderation capabilities
-are available to instructors, moderators, and community TAs directly from the Discussions application.
-Included below are details about both the configuration options and management tools.
-
-To change how the discussion experience is configured, follow these steps:
-
-#. In **Studio**, from the Content menu select **Pages & Resources**.
-#. Click the gear icon on the **Discussion** card shown on this page.
-#. From the **Configure discussion** modal, adjust any of the configuration settings as described below to fit your course needs.
-#. Select **Apply** to save your configuration changes.
-
-The discussion configuration experience is comprised of two steps: provider selection and provider configuration.
-By default, courses are created with the edX discussion experience and its default configuration.
-Other providers and configuration options can be selected to fit the needs of courses.
-
-**Step 1: Provider Selection**
-
-In this step, educators can select to use the default edX discussion experience or LTI based integrations with other providers.
-Below the grid of available providers is a table summarizing the features each integration provides.
-
-**Step 2: Configuration Options**
-
-Each provider supports its own set of features depending on the discussion features they support. The edX discussion application has various settings and controls that are described below.
-All integrations use LTI 1.1 configuration, and may additionally support platform settings from the list below. Any special instructions or details specific to a given provider are described in this step as well.
-
-**Anonymous Posting**
-
-If this setting is enabled, learners can create posts that are anonymous to all users.
-
-**Allow Anonymous Discussion Posts to Peers**
-
-When enabled learners will be able to post anonymously to other peers but all posts will be visible to course staff.
-
-**General Discussion Topics**
-
-It is possible to include general topics not associated with the course content structure. All courses have an initial general topic by default to start that can be renamed.
-
-**Discussion Blackout Dates**
-
-Course teams can specify one or multiple times during which the discussion forums are not available for new content additions. This can be helpful during exam periods or other course time periods.
-
-
-.. _Wiki Configuration:
-
-================================
-Configuring the Wiki application
-================================
-
-For instructions on how to enable the wiki application see :ref:`11.3.2.3 Enabling the Wiki Application<Enable Wiki>`.
-
-You can control access to the wiki in various ways: by changing access to the wiki as a whole,
-by changing the read/write permissions settings of articles within the wiki, or by locking articles.
-
-To change access to the course wiki, follow these steps.
-
-#. In Studio, from the **Content** menu select **Pages & Resources**.
-#. Click the gear icon on the **Wiki** card shown on this page.
-#. From the **Configure** wiki modal, check or uncheck the toggle of the **Enable public wiki access** setting.
-#. Select **Apply** to save your configuration changes.
-
-The **Enable public wiki** access wiki setting is disabled by default, meaning that only course team members and
-enrolled learners can see the course wiki. If you enable this setting, then any registered edX user can access the
-course wiki, even if they are not enrolled in your course. However, public users would have to explicitly navigate
-to your wiki via the edX-wide wiki structure, or a link that has been provided to them.
-
-.. _Teams Configuration:
-
-=================================
-Configuring the Teams application
-=================================
-
-Additional management and configuration of the teams application can be done through the main Team application tab
-in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`.
-
-.. _ORA Coursewide Settings:
-
-===========================================================
-Configuring Course-level Open Response Assessment Settings
-===========================================================
-
-To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable
-certain course-wide overrides. Rather than going through each ORA in a course individually, these overrides allow
-course staff to enable certain new features course-wide.
-
-**Flexible Peer Grading**
-
-This setting enables Flexible Peer Grade Averaging for all peer-graded ORA assignments across the course, without needing
-to manually edit each individual problem.
-
-To learn about Flexible Peer Grading and the course override setting, see  :ref:`Flexible Peer Grade Averaging`
 
 .. _Reordering and deleting custom pages:
 
@@ -357,3 +248,9 @@ To reorder the pages, follow these steps.
 
 You can also delete a custom page from your course using the delete icon shown on each custom page from the **Custom Pages** Studio page.
 If you delete a page after the course start date, note that the visibility of the page in the learner experience changes immediately.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Configure Resources` (how to)
+  :ref:`Adding Textbooks` (how to)

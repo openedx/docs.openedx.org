@@ -1,3 +1,4 @@
+.. :diataxis-type: how-to
 .. _Course Live:
 
 ###########################
@@ -17,13 +18,13 @@ tab in course navigation.
 
 1.  Go to "Pages & Resources" page and click gear icon on the "Live" configuration card.
 
-.. image:: ../images/Live_configuration_card.png
+.. image:: /_images/educator_how_tos/Live_configuration_card.png
    :width: 200
    :alt: Image of Live configuration card
 
 2.  Turn on the toggle on top-right to enable the app.
 
-.. image:: ../images/Live_app_configuration.png
+.. image:: /_images/educator_how_tos/Live_app_configuration.png
    :width: 300
    :alt: Image of Live app configurations
 
@@ -84,7 +85,7 @@ fields in Live app configuration for Zoom.
 
 Once successfully enabled, Zoom will be accessible in "Live" tab in course navigation.
 
-.. image:: ../images/Zoom_in_Live_tab.png
+.. image:: /_images/educator_how_tos/Zoom_in_Live_tab.png
    :width: 600
    :alt: Screenshot of Zoom rendered in Live tab in course navigation
 
@@ -107,7 +108,7 @@ Configuration options for BBB are presented below:
    *Select a plan* dropdown menu and click *Save*. No further configuration
    is required.
 
-.. image:: ../images/course_live_bbb_free.png
+.. image:: /_images/educator_how_tos/course_live_bbb_free.png
    :width: 300
 
 #. **Commercial/self-hosted**: You can deploy BBB on your own server or use
@@ -132,6 +133,6 @@ https://docs.bigbluebutton.org/administration/lti
 Once successfully configured and enabled, BBB will be
 accessible in *Live* tab in course navigation.
 
-.. image:: ../images/BBB_in_live_tab.png
+.. image:: /_images/educator_how_tos/BBB_in_live_tab.png
    :width: 600
    :alt: Screenshot of BBB rendered in Live tab in course navigation
