@@ -1,97 +1,5 @@
-.. _Create Exercises:
-
-##############################
-Problems, Exercises, and Tools
-##############################
-
-You can add a wide variety of different types of problems, exercises, and
-tools to your course outline. By default, a core set of :ref:`problem
-types<Working with Problem Components>` is available in Studio for you to
-include in your course. You have the option to expand the initial set of core
-problem types by enabling additional exercises and tools.
-
-.. contents::
-  :local:
-  :depth: 2
-
-.. _Levels of Support:
-
-*****************
-Levels of Support
-*****************
-
-.. only:: Open_edX
-
- .. note:: The support level definitions described in this section and the
-    level of support designated for each exercise, problem type, or tool are
-    applicable only to edx.org.
-
-The level of support that edX provides for each problem, exercise, or tool
-varies. The levels of support are categorized as full, provisional, or no
-support. This table provides the definition for each level of support.
-
-In Studio, the support level for each exercise, problem type, or tool is
-represented with an icon when you select **Advanced**, **Text**, or
-**Problem** to add a new component to your course. By default, only fully
-supported or provisionally supported exercises, problem types, or tools are
-available for adding to your course. To add unsupported problem types and
-tools, see :ref:`Add_Unsupported_Exercises_Problems`.
-
-.. Internal note: For the OLX Guide there is a separate levels_of_support.rst file under olx/source/problem-xml that contains the levels of support info
-
-
-.. list-table::
-   :widths: 25 60
-   :header-rows: 1
-
-   * - Level of Support
-     - Description
-   * - Full support
-     - Fully supported tools and features are available on edx.org, are fully
-       tested, have user interfaces where applicable, and are documented in the
-       official edX guides that are available on docs.edx.org.
-   * - Provisional support
-     - Provisionally supported tools and features are available on edx.org,
-       but might lack the robustness of functionality that your courses
-       require. Third party tools are classified as provisionally supported
-       because edX does not have control over the quality of the software, or
-       of the content that can be provided using such tools.
-
-       You should test provisionally supported tools thoroughly
-       before using them in your course, especially in graded sections.
-       Complete documentation might not be available for provisionally
-       supported tools, or documentation might be available from sources other
-       than the official edX guides.
-   * - Not supported
-     - Exercises and tools with no support are not maintained by edX, and
-       might be deprecated in the future. They are not recommended for use in
-       courses due to non-compliance with one or more of the base
-       requirements, such as testing, accessibility, internationalization, and
-       documentation.
-
-
-*********************************************************
-Enhancing Your Course with Additional Exercises and Tools
-*********************************************************
-
-"Exercises and tools" is a general way to refer to the robust variety of
-content that you can integrate into an online course. Software developers use
-the XBlock component architecture to contribute new exercises and tools to the
-Open edX platform and provide new and varied options for reaching learners.
-Exercises enhance the core set of problem types by challenging learners to
-complete graded and ungraded assessments. Tools deliver a variety of other
-types of course content.
-
-* To use an exercise or tool in your course beyond the core set of problem
-  types, you must explicitly enable that exercise or tool. For more
-  information, see :ref:`Enable Additional Exercises and Tools`.
-
-* After you enable an exercise or tool for use in your course, you might need
-  to select **Advanced**, **Text**, or **Problem** on the unit page to
-  add content of that type to your course.
-
-The topics in this section introduce the core set of problem types and a
-selection of other exercises and tools that you can add to your course.
+.. :diataxis-type: reference
+.. _Core Problem Types:
 
 ******************
 Core Problem Types
@@ -460,11 +368,9 @@ in a web browser.
 Adding Unsupported Problem Types and Exercises
 **********************************************
 
-.. only:: Open_edX
+ .. note:: These instructions are applicable only if your Open edX site has configured...insert name of the config setting. 
 
- .. note:: These instructions are applicable only to edx.org.
-
-.. When DOC-3163 is complete, update this Open edX only note to say "These instructions are applicable only to edx.org or if your Open edX site has configured {the name of the config setting}"
+.. When DOC-3163 is complete, update this note to say "These instructions are applicable only to edx.org or if your Open edX site has configured {the name of the config setting}"
 
 In general, you should use only problem types and exercises that are either
 fully or provisionally supported by edX. By default, only supported problem
@@ -487,4 +393,9 @@ After you enable this setting, unsupported problem types, exercises, and tools
 are available in the lists of new components that you can add to your course
 in Studio.
 
-.. include:: ../links/links.rst
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Create Exercises` (concept)
+  :ref:'Enable Additional Exercises and Tools' (how to)

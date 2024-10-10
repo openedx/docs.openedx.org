@@ -4,8 +4,6 @@
 Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
 #############################################################
 
-.. note:: EdX offers provisional support for this problem type.
-
 This section provides information about writing your own grader directly in a
 problem component.
 

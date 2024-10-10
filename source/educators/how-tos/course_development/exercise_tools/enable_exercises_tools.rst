@@ -1,3 +1,4 @@
+.. :diataxis-type: how-to
 .. _Enable Additional Exercises and Tools:
 
 #########################################
@@ -67,4 +68,9 @@ To enable an advanced exercise or tool, follow these steps.
    saved successfully.
 
 
+.. seealso::
+ :class: dropdown
+  
+  :ref:`Core Problem Types` (reference)
+  :ref:'Create Exercises' (concept)
 

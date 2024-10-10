@@ -1,10 +1,9 @@
-.. _completion:
+.. :diataxis-type: reference
+.. _Completion:
 
 ###############
 Completion Tool
 ###############
-
-.. note:: EdX does not support this tool.
 
 The completion tool provides learners with a way to mark sections of the
 course as completed. It helps learners to track their progress through
@@ -53,7 +52,7 @@ When you add a completion component to a unit, learners see a control that is
 labeled **Mark as complete**. In this example, the completion component follows
 a Text component.
 
-.. image:: ../images/completion_markcomplete.png
+.. image:: /_images/educator_references/completion_markcomplete.png
   :alt: The completion component in an incomplete state.
   :width: 400
 
@@ -61,59 +60,11 @@ After a learner selects this control, the label changes to **Unmark**. Learners
 who revisit their work in a unit and want to change the completion status can
 select this control as many times as needed.
 
-.. image:: ../images/completion_unmark.png
+.. image:: /_images/educator_references/completion_unmark.png
   :alt: The completion component in a complete state.
 
+.. seealso::
+ :class: dropdown
 
-**************************
-Enable the Completion Tool
-**************************
-
-Before you can add a completion component to your course, you must enable the
-completion tool in Studio.
-
-To enable the completion tool in Studio, add the ``"done"`` key to the
-**Advanced Module List** on the **Advanced Settings** page, then select **Save
-Changes**. (Be sure to include the quotation marks around the key value.) For
-more information, see :ref:`Enable Additional Exercises and Tools`.
-
-**************************
-Add a Completion Component
-**************************
-
-After you have enabled the completion tool in Studio, to add a completion
-component to a unit in a course, follow these steps.
-
-#. In the course outline in Studio, locate the unit to which you want to add
-   the completion component.
-#. Under **Add New Component**, select **Advanced**.
-#. Select **Completion**.
-   The completion component is added to the unit.
-
-.. note:: Select **Edit** in the completion component for information about the
-   tool.
-
-
-.. only:: OLX
-
- ****************************************
- Add the Completion Tool to an OLX Course
- ****************************************
-
- To add the completion tool to a unit in an OLX (open learning XML) course, it
- is sufficient to add the ``<done>`` tag to the OLX.
-
- EdX recommends that you also explicitly specify a ``url_name`` within the
- ``<done>`` tag, as shown in the following example. If you do not explicitly
- specify a ``url_name``, a value is automatically assigned, which can be
- problematic if the same course is imported several times. For example, if the
- ``url_name`` value is automatically generated each time you import your
- course, and if you import your course more than once, the learner state for
- the associated problems is lost each time a new ``url_name`` value is
- assigned.
-
- .. code-block:: xml
-
-    <done url_name="video_3_completion"/>
-
-
+  :ref:`Enable Completion` (how to)
+  :ref:`OLX Completion` (how to)

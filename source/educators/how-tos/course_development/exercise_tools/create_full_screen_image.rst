@@ -1,10 +1,9 @@
+.. :diataxis-type: how-to
 .. _Full Screen Image:
 
 ######################
 Full Screen Image Tool
 ######################
-
-.. note:: EdX does not support this problem type.
 
 Some large images are difficult for learners to view in the courseware. The
 full screen image tool allows learners to enlarge the image, so they can see
@@ -21,19 +20,19 @@ The Learner View of a Full Screen Image
 The learner sees the full screen image in a unit page. When the learner moves
 the cursor over the image, the **Fullscreen** option appears.
 
-.. image:: ../images/image-modal.png
+.. image:: /_images/educator_how_tos/image-modal.png
  :alt: Image of the full screen image tool with the Full Screen button.
 
 When the learner selects **Fullscreen**, the image opens and expands in the
 full browser window. **Close**, **Zoom In**, and **Zoom Out** options appear.
 
-.. image:: ../images/image-modal-window.png
+.. image:: /_images/educator_how_tos/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 The learner can then zoom in on the image, and drag the image to view a
 specific part of it.
 
-.. image:: ../images/image-modeal-zoomed.png
+.. image:: /_images/educator_how_tos/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 ******************************

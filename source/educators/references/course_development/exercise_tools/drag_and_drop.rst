@@ -1,98 +1,5 @@
-.. _drag_and_drop_problem:
-
-#####################
-Drag and Drop Problem
-#####################
-
-.. note:: EdX offers full support for this problem type.
-
-In drag and drop problems, learners respond to a question by dragging text or
-images to a specific location on a background image. This section explains how
-to use drag and drop problems in your course.
-
-.. contents::
-  :local:
-  :depth: 1
-
-.. note::
-    This drag and drop problem type is intended as a replacement for an older
-    drag and drop problem type. This drag and drop problem type includes
-    significant improvements and you should use it for any new course
-    development. For more information about the previous, deprecated drag and
-    drop problem type, see :ref:`Drag and Drop`.
-
-.. _overview_of_drag_and_drop_problems:
-
-**********************************
-Overview of Drag and Drop Problems
-**********************************
-
-A drag and drop problem includes a background image and one or more items that
-learners can drag into target zones on the background image. You can include as
-many draggable items and as many target zones as you need. You can include
-decoy items that do not have a target, and you can include decoy targets that
-do not correspond to draggable items.
-
-When learners view a drag and drop problem in the LMS, the problem includes a
-top section and a bottom section. Learners drag items from the top section on
-to the background image in the section below it.
-
-The way that a learner selects, or grabs, an item depends on the type of
-browser that the learner uses. For example, a learner might click and hold on
-a draggable item with a mouse pointer to select it, drag the item to a target,
-and release the mouse pointer to drop the item on the target. A learner who
-accesses the problem on a mobile device with a touch screen might swipe an item
-from the top section into a target zone. A learner who uses a keyboard
-interface might use the navigation keys to select an item and then match it to
-a target zone.
-
-You can configure a drag and drop problem to give learners unlimited attempts
-to match items to target zones or you can configure it to behave restrictively,
-like a test.
-
-* In standard mode, the problem gives learners unlimited attempts to match
-  items and it provides immediate feedback to indicate whether an item is
-  matched correctly.
-
-* In assessment mode, learners must match all of the draggable items to target
-  zones and then submit the problem. The problem does not reveal
-  whether items are matched correctly until the learner submits the problem.
-
-For more information about assessment mode and standard mode, see
-:ref:`choosing_a_dnd_mode`.
-
-The following image shows an example drag and drop problem.
-
-.. image:: ../images/dnd-initial.png
-  :width: 600
-  :alt: An example of a simple drag and drop problem. The components of the
-      problem, such as its title, text, and introductory feedback are labeled.
-
-The following image shows the success feedback message that learners see when
-they match a draggable item with its target zone. Each draggable item has its
-own success feedback message.
-
-.. image:: ../images/dnd-correct-feedback.png
-  :width: 400
-  :alt: An example of a simple drag and drop problem. The success feedback
-      message appears above the background image.
-
-The following image shows the error feedback message that learners see when
-they match a draggable item with an incorrect target zone. Each draggable item
-has its own error feedback message.
-
-.. image:: ../images/dnd-incorrect-feedback.png
-  :width: 400
-  :alt: An example of a simple drag and drop problem. The error feedback
-      message appears over the background image.
-
-The following image shows a completed drag and drop problem. The final feedback
-message informs the learner that the problem is complete.
-
-.. image:: ../images/dnd-complete.png
-  :width: 400
-  :alt: An example of a simple drag and drop problem. The problem is complete
-      and the final feedback message appears below the background image.
+.. :diataxis-type: reference
+.. _Drag and Drop:
 
 .. _drag_and_drop_background_images:
 
@@ -248,63 +155,6 @@ submit a drag and drop problem. If you allow more than one attempt, the problem
 reveals which items are correctly matched and gives learners an opportunity to
 move items that are not correct. If you do not specify a limit, learners have
 unlimited attempts.
-
-.. _creating_a_drag_and_drop_problem:
-
-********************************
-Creating a Drag and Drop Problem
-********************************
-
-To create a drag and drop problem, follow these steps.
-
-#. In the unit where you want to create the problem, under **Add New
-   Component** select **Drag and Drop**.
-
-   Studio adds the drag and drop problem to the unit.
-
-#. Select **Edit**. The **Editing** dialog box opens.
-
-   Configure your drag and drop problem. For detailed information about
-   individual controls in the **Editing** dialog box, see
-   :ref:`drag_and_drop_editor_fields`.
-
-   The **Editing** dialog box includes multiple screens.
-   Configure each screen and select **Continue**. On the final screen, select
-   **Save** to exit the configuration dialog box and save your changes.
-
-   In particular, configure the aspects of the drag and drop problem described
-   below.
-
-   * Edit the problem title, problem text, introductory feedback, and final
-     feedback for the problem. For more information about how the text in these
-     fields appears in a drag and drop problem, see
-     :ref:`overview_of_drag_and_drop_problems`.
-
-   * Specify a background image in the **Background URL** field. Enter the URL
-     of a file you have added to your course or the URL of an image on the web.
-     For more information about working with course files, see :ref:`Add Files
-     to a Course`.  For more information about background images, see
-     :ref:`drag_and_drop_background_images`.
-
-     Select **Change background** after you enter the URL for your background
-     image.
-
-     If you specify the URL of an image on the web, make sure that you are
-     legally authorized to use the image and that the image is available to
-     learners around the world.
-
-   * Remove the target zones for the example drag and drop problem. Select
-     **Add a zone** to add each target zone for your problem. For more
-     information about target zones, see
-     :ref:`drag_and_drop_background_images`.
-
-   * Remove the draggable items for the example drag and drop problem. Select
-     **Add an item** to add draggable items for your problem. Select a matching
-     target zone for each item in the **Zone** field. Add a label, success
-     feedback text, and error feedback text. For more information about how the
-     text in these fields appears, see
-     :ref:`overview_of_drag_and_drop_problems`. For more information about
-     draggable items, see :ref:`drag_and_drop_draggable_items`.
 
 .. _drag_and_drop_editor_fields:
 
@@ -473,26 +323,11 @@ The following table explains the controls in the **Editing** dialog box.
 
    * - **Add an item**
      - Adds a set of controls for a new draggable item to the **Editing**
-       dialog box.
-
-.. _changing_visual_style_of_drag_and_drop_problem:
-
-****************************************************
-Changing the Visual Style of a Drag and Drop Problem
-****************************************************
-
-You can change the visual appearance of drag and drop problems in your courses.
-
-The **Background color** and **Text color** controls for the draggable items in
-a drag and drop problem set the appearance of items for an individual problem.
-You can choose colors for the background and text of items when you create or
-edit a drag and drop problem.
-
-.. only:: Open_edX
-
-  You can develop a Python programming language module and include a custom
-  Cascading Style Sheet (CSS) file for drag and drop problems in your Open edX
-  site. For more information, see
-  :ref:`styling_drag_and_drop_problems`.
 
 
+.. seealso::
+ :class: dropdown
+
+  :ref:`Drag and Drop Problem` (concep)
+  :ref:`Drag and Drop` (reference)
+  

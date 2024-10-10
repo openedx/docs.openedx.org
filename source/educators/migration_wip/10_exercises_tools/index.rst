@@ -14,31 +14,11 @@ page, see :ref:`Developing Your Course Index`.
 For information about building specific course component types, see
 :ref:`Course Components Index`.
 
-
 .. toctree::
    :maxdepth: 1
 
-   create_exercises_and_tools
-   enable_exercises_tools
-   annotation
-   calculator
-   chemical_equation
-   circuit_schematic_builder
-   completion
-   conditional_module
-   custom_javascript
    custom_python
-   drag_and_drop
-   drag_and_drop_deprecated
-   dropdown
    external_graders
-   full_screen_image
-   gene_explorer
-   google_calendar
-   google_docs
-   iframe
-   image_mapped_input
-   lti_component
    math_expression_input
    mathjax
    multi_select

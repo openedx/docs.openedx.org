@@ -1,35 +1,5 @@
-.. _IFrame:
-
-###########
-Iframe Tool
-###########
-
-.. note:: EdX offers provisional support for this tool.
-
-The iframe tool allows you to integrate ungraded exercises and tools from any
-Internet site into the body of your course. It places an iframe inside an HTML
-component, and then the exercise or tool appears inside the iframe. The iframe
-can include your own tools or third-party tools.
-
-.. image:: ../images/IFrame_1.png
-  :alt: Iframe tool showing a Euler line exercise.
-  :width: 500
-
-Before you make content or a tool from an external site available through your
-course, be sure to review the content or tool to ensure that it is accessible
-to people with disabilities. For example, in addition to testing the iframe
-components that you add to your course, you can ask third party providers to
-confirm that a tool is accessible, and, if available, contact your on campus
-accessibility support services for additional guidance. For more information,
-see :ref:`Accessibility Best Practices for Course Content Development`.
-
-Iframes are well-suited for tools that demonstrate a concept, but that are not
-graded or used to store student data. If you want to add a graded tool or
-exercise, add the tool as a :ref:`custom JavaScript problem<Custom JavaScript>`
-or an :ref:`LTI component<LTI Component>`.
-
-For more information about iframes, see the `iframe: The Inline Frame element
-<https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.
+.. :diataxis-type: how-to
+.. _Create IFrame: 
 
 *********************
 Create an IFrame Tool
@@ -133,7 +103,7 @@ elements below affect the iframe.
 
       <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="442" height="200" marginwidth="20" marginheight="20" frameborder="1" scrolling="yes">You need an iFrame capable browser to view this.</iframe></p>
 
-.. image:: ../images/IFrame_3.png
+.. image:: /_images/educator_how_tos/IFrame_3.png
    :alt: Iframe with only the top half showing and a vertical scroll bar on the
     side.
    :width: 500
@@ -142,9 +112,15 @@ elements below affect the iframe.
 
       <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="550" height="250" marginwidth="30" marginheight="60" frameborder="1" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
 
-.. image:: ../images/IFrame_4.png
+.. image:: /_images/educator_how_tos/IFrame_4.png
    :alt: Iframe with only the top half showing but no scroll bar available.
    :width: 500
 
 For more information about iframe attributes, see
 `iframe: The Inline Frame element <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`IFrame` (reference)
+

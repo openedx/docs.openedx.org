@@ -1,10 +1,9 @@
+.. :diataxis-type: how-to
 .. _Calculator:
 
 ##################
 Calculator Tool
 ##################
-
-.. note:: EdX offers provisional support for this tool.
 
 .. contents::
   :local:
@@ -25,7 +24,7 @@ advanced settings.
 When the calculator is visible in a course, the calculator icon appears at the
 bottom of every unit page.
 
-.. image:: ../images/Calc_Closed.png
+.. image:: /_images/educator_how_tos/Calc_Closed.png
   :width: 600
   :alt: Course page with an arrow pointing to the calculator.
 
@@ -37,7 +36,7 @@ questions about entering input in the calculator. Learners access the
 calculator's information page by selecting the ``i`` icon next to the input
 field.
 
-.. image:: ../images/Calc_Open_InfoPage.png
+.. image:: /_images/educator_how_tos/Calc_Open_InfoPage.png
   :width: 600
   :alt: Course page with the calculator visible along the edge of the browser.
 

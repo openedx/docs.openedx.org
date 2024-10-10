@@ -1,11 +1,13 @@
-.. _Drag and Drop:
+.. _Drag and Drop Deprecated:
+
+..Confirm removal of this page. 
 
 ##################################
 Drag and Drop Problem (Deprecated)
 ##################################
 
 .. note::
-    EdX does not support this problem type.
+    EdX does not support this problem type. 
 
 This drag and drop problem type has been replaced by a newer drag and drop
 problem type. The newer drag and drop problem type includes significant
@@ -32,7 +34,7 @@ information about the replacement drag and drop problem type, see
 In drag and drop problems, learners respond to a question by dragging text or
 objects to a specific location on an image.
 
-.. image:: ../images/DragAndDropProblem.png
+.. image:: /_images/educator_how_tos/DragAndDropProblem.png
  :alt: Image of a drag and drop problem.
 
 *********************************

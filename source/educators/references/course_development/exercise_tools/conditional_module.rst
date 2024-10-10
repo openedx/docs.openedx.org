@@ -1,10 +1,9 @@
+.. :diataxis-type: reference
 .. _Conditional Module:
 
 ##################
 Conditional Module
 ##################
-
-.. note:: EdX offers provisional support for this problem type.
 
 A conditional module controls the content that learners see after a response
 that they make meets a certain condition. For example, learners who answer

@@ -66,6 +66,7 @@ Educators: How-tos
          content-tagging-how-tos/index
          course_development/index
          course_development/text_components/index
+         course_development/exercise_tools/index
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2

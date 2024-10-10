@@ -103,7 +103,7 @@ the feedback icon to the right of the answer text. Feedback entered in
 these fields are given when the learner selects that answer or when the
 learner does not select that answer.
 
-.. image:: ../images/problem_editor_feedback_box.png
+.. image:: /_images/educator_how_tos/problem_editor_feedback_box.png
  :alt: Image of the answer-specific feedback settings.
  :width: 600
 

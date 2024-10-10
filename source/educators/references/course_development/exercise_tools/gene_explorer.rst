@@ -1,10 +1,9 @@
+.. :diataxis-type: reference
 .. _Gene Explorer:
 
 ##################
 Gene Explorer Tool
 ##################
-
-.. note:: EdX does not support this tool.
 
 The gene explorer (GeneX), from the biology department at `UMB
 <https://www.umb.edu/>`_, simulates the transcription, splicing, processing, and
@@ -21,7 +20,7 @@ Specifically, the gene explorer does the following:
 #. Finds the start codon.
 #. Translates the mRNA.
 
-.. image:: ../images/GeneExplorer.png
+.. image:: /_images/educator_references/GeneExplorer.png
   :alt: Image of the gene explorer.
 
 For more information about the gene explorer, see

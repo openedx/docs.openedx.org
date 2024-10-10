@@ -1,10 +1,9 @@
+.. :diataxis-type: how-to
 .. _Annotation:
 
 ###################
 Annotation Problem
 ###################
-
-.. note:: EdX does not support this problem type.
 
 In an annotation problem, you highlight specific text inside a larger text
 block and then ask questions about that text. The questions appear when
@@ -12,7 +11,7 @@ learners move their cursors over the highlighted text. The questions also
 appear in a section below the text block, along with space for learners'
 responses.
 
-.. image:: ../images/AnnotationExample.png
+.. image:: /_images/educator_how_tos/AnnotationExample.png
   :alt: An example annotation problem.
 
 .. contents::

@@ -1,40 +1,5 @@
-.. _Google Calendar Tool:
-
-#####################
-Google Calendar Tool
-#####################
-
-.. note:: EdX offers provisional support for this tool.
-
-This topic describes how to embed Google Calendars in your course.
-
-.. contents::
-  :local:
-  :depth: 2
-
-Before you make content from an external site available through your course, be
-sure to review the content to ensure that it is accessible to people with
-disabilities. For more information, see :ref:`Accessibility Best Practices for
-Course Content Development`.
-
-You can also add Google Drive files, such as documents, spreadsheets, and
-images, to your course. For more information, see :ref:`Google Drive Files
-Tool`.
-
-.. note:: Google services are not available in some regions and countries.
-  If Google services are not available in a learner's area, the learner might
-  see an "image unavailable" message in the place of the Google Drive file or
-  Google Calendar. EdX strongly suggests that you provide alternative resources
-  for learners in these areas.
-
-*********
-Overview
-*********
-
-You can embed a Google Calendar in your course so that learners see the
-calendar in the course body. You can use a Google Calendar to share quiz dates,
-office hours, or other schedules of interest to learners.
-
+.. :diataxis-type: how-to
+.. _Embed Google Calendar:
 
 *******************************************
 Embedding a Google Calendar in Your Course
@@ -114,7 +79,7 @@ Make the Google Calendar Public
 #. Select the **Share this Calendar** tab, and then select **Make this calendar
    public**.
 
-  .. image:: ../images/google-calendar-settings.png
+  .. image:: /_images/educator_how_tos/google-calendar-settings.png
    :alt: Google Calendar settings.
 
 #. Select **Save**.
@@ -134,7 +99,7 @@ Obtain the Google Calendar ID
    colored **XML**, **ICAL**, and **HTML** buttons. In parentheses, you can see
    the calendar ID.
 
-   .. image:: ../images/google-calendar-address.png
+   .. image:: /_images/educator_how_tos/google-calendar-address.png
      :width: 600
      :alt: Image of Calendar Address label with the calendar ID to the right.
 
@@ -217,11 +182,10 @@ in the :ref:`Obtain the Google Calendar ID` task.
   Google Calendars. If you add these attributes, the LMS overrides your
   changes.
 
-**************************
-Editing Google Calendars
-**************************
+.. seealso::
+ :class: dropdown
 
-When you make changes to a Google Calendar that is embedded in your course,
-learners see the updates immediately. You make changes to calendars with the
-Google user interface. You do not need to edit the Google Calendar component.
+  :ref:`Google Calendar Tool` (reference)
+
+
 

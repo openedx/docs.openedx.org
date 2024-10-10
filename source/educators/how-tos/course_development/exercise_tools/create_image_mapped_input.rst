@@ -1,31 +1,5 @@
-.. _Image Mapped Input:
-
-###########################
-Image Mapped Input Problem
-###########################
-
-.. note:: EdX does not support this problem type.
-
-In an image mapped input problem, also known as a "pointing on a picture"
-problem, students click inside a defined region in an image. You define this
-region by including coordinates in the body of the problem.
-
-.. image:: ../images/ImageMappedInput-Simple.png
- :width: 500
- :alt: Problem that asks learners to click inside Egypt on a map of Africa.
-
-You can specify the following types of regions.
-
-* One rectangular region. For more information, see :ref:`Specify a
-  Rectangular Region`.
-* Multiple rectangular regions. For more information, see :ref:`Specify
-  Multiple Rectangular Regions`.
-* One non-rectangular region. For more information, see :ref:`Specify an
-  Irregular Region`.
-
-.. note:: When you create a problem that contains an image, you must include
- alt text for your image to make the image accessible. For more information
- about alt text, see :ref:`Best Practices for Describing Images`.
+.. :diataxis-type: how-to
+.. _Create Image Mapped Input Problem: 
 
 ****************************************
 Create an Image Mapped Input Problem
@@ -158,7 +132,7 @@ Specify Multiple Rectangular Regions
 
 You can specify more than one rectangular region in an image.
 
-.. image:: ../images/ImgMapInput_Mult.png
+.. image:: /_images/educator_how_tos/ImgMapInput_Mult.png
  :width: 350
  :alt: Problem that asks learners to click inside one of three rectangles
 
@@ -201,7 +175,7 @@ Specify an Irregular Region
 
 You can specify one non-rectangular region.
 
-.. image:: ../images/ImgMapInput_Irreg.png
+.. image:: /_images/educator_how_tos/ImgMapInput_Irreg.png
   :width: 500
   :alt: Problem that asks learners to click inside a pentagon.
 
@@ -238,77 +212,8 @@ For example, the following ``regions`` attribute creates a pentagon.
 
  </problem>
 
-.. _Image Mapped Input Problem XML:
+.. seealso::
+ :class: dropdown
 
-******************************
-Image Mapped Input Problem XML
-******************************
-
-==========
-Template
-==========
-
-.. code-block:: xml
-
-  <problem>
-
-    <p>Problem text</p>
-
-        <imageresponse>
-
-         <imageinput src="IMAGE FILE PATH" width="NUMBER" height="NUMBER"
-         rectangle="(X-AXIS,Y-AXIS)-(X-AXIS,Y-AXIS)" alt="DESCRIPTION OF
-         IMAGE" />
-
-        </imageresponse>
-
-  </problem>
-
-=====
-Tags
-=====
-
-* ``<imageresponse>``: Indicates that the problem is an image mapped input
-  problem.
-* ``<imageinput>``: Specifies the image file and the region in the file that
-  the learner must click.
-
-**Tag:** ``<imageresponse>``
-
-Indicates that the problem is an image mapped input problem.
-
-  **Attributes**
-
-  (none)
-
-  **Children**
-
-  * ``<imageinput>``
-
-**Tag:** ``<imageinput>``
-
-Specifies the image file and the region in the file where learners must click.
-
-  **Attributes**
-
-   .. list-table::
-      :widths: 20 80
-
-      * - Attribute
-        - Description
-      * - ``src`` (required)
-        - The URL of the image
-      * - ``height`` (required)
-        - The height of the image, in pixels
-      * - ``width`` (required)
-        - The width of the image, in pixels
-      * - ``rectangle`` (required) (or, for irregular regions, ``region``)
-        - An attribute with two or more coordinate pairs that define the region
-          where learners should click
-      * - ``alt`` (required)
-        - A description of the image, used for accessibility
-
-  **Children**
-
-  (none)
-
+  :ref:`Image Mapped Input` (reference)
+  :ref:`Image Mapped Input Problem XML` (reference)
