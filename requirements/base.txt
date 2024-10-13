@@ -20,7 +20,7 @@ beautifulsoup4==4.12.3
     # via pydata-sphinx-theme
 certifi==2024.8.30
     # via requests
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via requests
 click==8.1.7
     # via uvicorn
@@ -40,7 +40,7 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.4
     # via sphinx
-markupsafe==2.1.5
+markupsafe==3.0.1
     # via jinja2
 packaging==24.1
     # via
@@ -53,6 +53,8 @@ pygments==2.18.0
     #   accessible-pygments
     #   pydata-sphinx-theme
     #   sphinx
+pyyaml==6.0.2
+    # via sphinxcontrib-mermaid
 requests==2.32.3
     # via
     #   sphinx
@@ -75,6 +77,7 @@ sphinx==7.4.7
     #   sphinx-design
     #   sphinxcontrib-contentui
     #   sphinxcontrib-images
+    #   sphinxcontrib-mermaid
     #   sphinxcontrib-youtube
     #   sphinxext-rediraffe
 sphinx-autobuild==2024.10.3
@@ -97,7 +100,7 @@ sphinxcontrib-images==0.9.4
     # via -r requirements/base.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-mermaid==0.9.2
+sphinxcontrib-mermaid==1.0.0
     # via -r requirements/base.in
 sphinxcontrib-qthelp==2.0.0
     # via sphinx
@@ -113,7 +116,7 @@ typing-extensions==4.12.2
     # via pydata-sphinx-theme
 urllib3==2.2.3
     # via requests
-uvicorn==0.31.0
+uvicorn==0.31.1
     # via sphinx-autobuild
 watchfiles==0.24.0
     # via sphinx-autobuild
