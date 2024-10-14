@@ -22,9 +22,11 @@
 .. _How to start contributing to the Open edX code base: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
 
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
+.. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
 
 .. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
 
+.. _xqueue_watcher: https://github.com/openedx/xqueue-watcher
 
 
 .. ###### WIP MIGRATION LINKS ######

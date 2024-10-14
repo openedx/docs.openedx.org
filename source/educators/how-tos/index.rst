@@ -96,6 +96,7 @@ Educators: How-tos
          add_multiple_choice
          add_numerical_input
          add_text_input
+         drag_and_drop_deprecated
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2

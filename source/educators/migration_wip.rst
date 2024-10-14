@@ -7,5 +7,4 @@
    :glob:
 
 
-   migration_wip/10_exercises_tools/index
   

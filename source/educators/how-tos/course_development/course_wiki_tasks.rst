@@ -1,6 +1,6 @@
 .. :diataxis-type: how-to
 
-.. _Course_Wiki_Tasks: 
+.. _Course Wiki Tasks: 
 
 ********************
 Course Wiki Tasks

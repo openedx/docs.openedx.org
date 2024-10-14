@@ -1,6 +1,6 @@
 .. :diataxis-type: how-to
 
-.. _Create_Course_Wiki:
+.. _Create Course Wiki:
 
 ########################
 Using the Course Wiki

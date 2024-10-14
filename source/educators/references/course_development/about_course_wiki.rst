@@ -1,6 +1,6 @@
 .. :diataxis-type: reference
 
-.. _About_Course_Wiki:
+.. _About Course Wiki:
 
 ***********************
 About the Course Wiki

@@ -1,5 +1,5 @@
 .. :diataxis-type: how-to
-.. _creating_a_drag_and_drop_problem:
+.. _Creating a Drag and Drop Problem:
 
 ********************************
 Creating a Drag and Drop Problem

@@ -34,7 +34,7 @@ The following image shows a background image and target zones in the drag and
 drop problem editing dialog box. For more information about editing drag and
 drop problems, see :ref:`creating_a_drag_and_drop_problem`.
 
-.. image:: ../images/dnd-zone-borders.png
+.. image:: /_images/educator_references/dnd-zone-borders.png
   :width: 600
   :alt: A background image and target zones shown in the drag and drop problem
       editing dialog box.
@@ -75,7 +75,7 @@ Using Draggable Items with Images
 The following image shows draggable items with images. For examples of items
 with text, see :ref:`overview_of_drag_and_drop_problems`.
 
-.. image:: ../images/dnd-draggable-item-images.png
+.. image:: /_images/educator_references/dnd-draggable-item-images.png
   :width: 400
   :alt: Draggable items with image labels in the item area of a drag and drop
       problem.

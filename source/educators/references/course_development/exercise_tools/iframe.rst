@@ -10,7 +10,7 @@ Internet site into the body of your course. It places an iframe inside an HTML
 component, and then the exercise or tool appears inside the iframe. The iframe
 can include your own tools or third-party tools.
 
-.. image:: /_images/educator_references/images/IFrame_1.png
+.. image:: /_images/educator_references/IFrame_1.png
   :alt: Iframe tool showing a Euler line exercise.
   :width: 500
 
