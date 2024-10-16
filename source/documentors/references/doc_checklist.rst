@@ -123,7 +123,7 @@ If there is an error when building the documentation, the pull request will indi
 Migrating Docs Checklist
 ************************
 
-Some checklist items are specific to migrating 2U/Edx.org legacy docs into Open edX® Docs. During migration, documentors are using this `Open EdX Doc Migration Tracking`_ sheet.
+Some checklist items are specific to migrating 2U/Edx.org legacy docs into Open edX® Docs. During migration, documentors are using this `Open edX Doc Migration Tracking`_ sheet.
 
 Remove or modify references that are specific to 2U/EdX.org
 ========================================================================
