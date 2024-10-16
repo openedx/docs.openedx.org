@@ -23,7 +23,7 @@
 
 .. _Submit a Docs Issue: https://github.com/openedx/docs.openedx.org/issues/new/choose
 
-.. _Open EdX Doc Migration Tracking: https://docs.google.com/spreadsheets/d/1r0mbC1Ay-6vGVzGvHKRq9VHyowT7j-lm-4-8z38c5mM/edit
+.. _Open edX Doc Migration Tracking: https://docs.google.com/spreadsheets/d/1r0mbC1Ay-6vGVzGvHKRq9VHyowT7j-lm-4-8z38c5mM/edit
 
 
 
