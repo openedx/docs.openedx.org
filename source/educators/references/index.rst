@@ -3,10 +3,11 @@ Educators: References
 
 Learners, course teams, researchers, developers: the edX community includes
 groups with a range of reasons for using the platform and objectives to
-accomplish. To help members of each group learn about what edX offers, reach
-goals, and solve problems, edX provides a variety of information resources.
+accomplish. To help members of each group learn about what the Open edX platform
+offers, reach goals, and solve problems, the Open edX community provides a
+variety of information resources.
 
-To help you find what you need, browse the edX offerings in the following
+To help you find what you need, browse the Open edX offerings in the following
 categories.
 
 .. grid:: 1 2 2 2
@@ -30,7 +31,6 @@ General References
 ******************
 .. toctree::
    :maxdepth: 1
-   :caption: References
    :glob:
 
    *

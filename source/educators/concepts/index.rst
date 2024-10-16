@@ -1,7 +1,6 @@
 Educators: Concepts
 ###################
 
-
 .. toctree::
    :maxdepth: 1
    :caption: Concepts
@@ -17,3 +16,4 @@ Educators: Concepts
    proctored_exams/index
    planning_course_run_information/index
    advanced_features/index
+   uncategorized/index

@@ -1,5 +1,5 @@
-Quickstarts
-###########
+Other Concepts
+##############
 
 .. toctree::
    :maxdepth: 1
