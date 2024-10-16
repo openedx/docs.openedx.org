@@ -16,7 +16,7 @@ How-to document names should start with a verb to reflect action (e.g. ``create_
 
 **Reference** 
 
-Reference topics provide details about a function or feature of Open edX. For example there are many details about course subsections such as the different publication states, grading configuration, and visibility that are not included in the how-to topic *Create a Subsection* but are fully described in the reference topic *Course Subsections*.  These two topics are linked in See Also sections. 
+Reference topics provide details about a function or feature of the Open edX platform. For example there are many details about course subsections such as the different publication states, grading configuration, and visibility that are not included in the how-to topic *Create a Subsection* but are fully described in the reference topic *Course Subsections*.  These two topics are linked in See Also sections. 
 
 Reference document names should use nouns and clear descriptions of the subject matter, as these docs serve as lookup resources (e.g. ``publication_states.rst``, ``grading_configuration.rst``).
 
