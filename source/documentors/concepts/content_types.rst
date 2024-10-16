@@ -23,7 +23,7 @@ Reference document names should use nouns and clear descriptions of the subject 
 
 **Concept** 
 
-Concept topics provide best practices or other guidelines for using Open edX. For example, the topics *Crafting Effective Learning Objectives* and *Aligning End-of-Module Assessments to Learning Objectives* are meant to provide guidelines for educators. 
+Concept topics provide best practices or other guidelines for using the Open edX platform. For example, the topics *Crafting Effective Learning Objectives* and *Aligning End-of-Module Assessments to Learning Objectives* are meant to provide guidelines for educators. 
 
 Concept document names should use nouns or noun phrases that indicate theoretical or conceptual topics (e.g. ``user_management_overview.rst``, ``learning_objective_best_practices.rst``).
 
