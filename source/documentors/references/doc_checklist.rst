@@ -128,7 +128,7 @@ Some checklist items are specific to migrating 2U/Edx.org legacy docs into Open 
 Remove or modify references that are specific to 2U/EdX.org
 ========================================================================
 
-When migrating from legacy documenation from 2U/EdX.org, remove references that are applicable only to the 2U or EdX.org users.
+When migrating legacy documentation from 2U/EdX.org, remove references that are applicable only to the 2U or EdX.org users.
 
 Modify references that may have come from 2U/EdX.org but are also applicable to Open edX® LMS users.
 
