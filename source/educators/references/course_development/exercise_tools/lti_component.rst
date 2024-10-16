@@ -7,10 +7,10 @@ LTI Component
 
 You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The
-LTI component supports tools with the :ref:`LTI 1.1` and :ref:`LTI 1.3` specifications.
+LTI component supports tools with the `LTI 1.1`_ and `LTI 1.3`_ specifications.
 Additionally, the LTI 1.3 tools can use the following LTI Advantage extensions:
-:ref:`Deep Linking`, :ref:`Assignments and Grades services` and
-:ref:`Names and Roles Provisioning Service`.
+`Deep Linking`_, `Assignments and Grades services`_ and
+`Names and Roles Provisioning Service`_.
 
 .. contents::
    :local:

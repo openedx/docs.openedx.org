@@ -27,7 +27,7 @@ allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
 For more information about how learners enter expressions, see
-:ref:`Math Formatting` in the *Open edX Learner's Guide*.
+`Math Formatting`_ in the *Open edX Learner's Guide*.
 
 .. note::
   You can make a calculator tool available to your learners on every unit

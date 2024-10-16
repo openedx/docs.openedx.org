@@ -50,7 +50,7 @@ element in the ``vertical`` element, or you can create the
 ``google-document`` element as a stand-alone file that you reference
 in the vertical.
 
-For more information, see :ref:`OLX Course Building Blocks` in the
+For more information, see `OLX Course Building Blocks`_ in the
 *EdX Open Learning XML Guide*.
 
 For example:
@@ -75,4 +75,4 @@ The value of the ``embed_code`` attribute is the embed code you copied in the
  :class: dropdown
 
   :ref:`Google Drive Files Tool` (reference)
-  :ref:`AEmbed Google Drive Files` (how to)
+  :ref:`Embed Google Drive Files` (how to)

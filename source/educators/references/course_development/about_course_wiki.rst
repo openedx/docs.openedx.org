@@ -79,5 +79,5 @@ the permissions that you set for an article.
 .. seealso::
  :class: dropdown
 
-  :ref:`Course Wiki Tasks <Course Wiki Shared Tasks>` (how to)
+  :ref:`Course Wiki Tasks <Course Wiki Tasks>` (how to)
   :ref:`Using the Course Wiki <Create Course Wiki>` (how to)

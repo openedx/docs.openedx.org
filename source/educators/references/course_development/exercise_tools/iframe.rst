@@ -33,4 +33,4 @@ For more information about iframes, see the `iframe: The Inline Frame element
 .. seealso::
  :class: dropdown
 
-  :ref:`Create an IFrame` (how to)
+  :ref:`Create IFrame` (how to)

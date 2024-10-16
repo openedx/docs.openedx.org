@@ -12,9 +12,9 @@ components using LaTeX notation into beautiful math.
 
 This topic provides some pointers to get you started. Many resources for
 learning and using MathJax are available online, including the official
-:ref:`MathJax Documentation`. A tutorial is available on the :ref:`Mathematics meta`
+`MathJax Documentation`_. A tutorial is available on the `Mathematics meta`_
 stack exchange. Additional documentation, with a testing tool, is available on
-the :ref:`Tree of Math` site.
+the `Tree of Math`_ site.
 
 A MathJax equation can appear with other text in the paragraph (inline format)
 or on its own dedicated line (display format).

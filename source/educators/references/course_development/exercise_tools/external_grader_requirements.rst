@@ -22,7 +22,7 @@ GPG Key
 
 Before you can add an external grader problem, you must obtain a public GNU
 Privacy Guard (GPG) key. For information about how to obtain a GPG key, see the
-:ref:`GnuPG website`.
+`GnuPG website`_.
 
 .. _XQueue Name:
 

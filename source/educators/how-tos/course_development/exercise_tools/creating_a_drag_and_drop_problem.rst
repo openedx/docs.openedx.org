@@ -82,6 +82,6 @@ edit a drag and drop problem.
 .. seealso::
  :class: dropdown
 
-  :ref:`Drap and Drop Problem` (concept)
+  :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
   :ref:`Drag and Drop` (reference)
 

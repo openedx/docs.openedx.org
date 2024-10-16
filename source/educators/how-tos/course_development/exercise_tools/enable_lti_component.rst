@@ -229,13 +229,13 @@ Enabling and using LTI Advantage features
 *****************************************
 
 LTI Advantage is an extension of the LTI 1.3 specification that enables additional
-features in LTI components. See :ref:`LTI Advantage` for more information.
+features in LTI components. See `LTI Advantage`_ for more information.
 
 Currently, the platform supports the following LTI Advantage extensions:
 
-* :ref:`Assignments and Grades services`
-* :ref:`Deep Linking`
-* :ref:`Names and Roles Provisioning Service`
+`Assignments and Grades services`_
+`Deep Linking`_
+`Names and Roles Provisioning Service`_
 
 
 .. _Enabling LTI Assignments and Grades services:

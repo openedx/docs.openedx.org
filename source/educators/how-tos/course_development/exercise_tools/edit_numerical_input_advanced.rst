@@ -72,7 +72,7 @@ If you define multiple correct responses, you can define feedback for each respo
 Adding Hints
 ===================
 
-See :ref:`Subsection_configure_hints_advanced` for more information about adding hints to problems.
+See :ref:`Adding Hints via the Advanced Editor` for more information about adding hints to problems.
 
 .. _Multiple Responses in Numerical Input Problems:
 
