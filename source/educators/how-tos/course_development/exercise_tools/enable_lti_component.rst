@@ -1,4 +1,5 @@
 .. :diataxis-type: how-to
+
 .. _enable_lti_components:
 
 ******************************************

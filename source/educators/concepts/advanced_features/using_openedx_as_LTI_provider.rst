@@ -2,9 +2,9 @@
 
 .. _Using Open edX as an LTI Tool Provider:
 
-#####################################
+#######################################
 Using Open edX as an LTI Tool Provider
-#####################################
+#######################################
 
 .. note:: This feature was a closed pilot experiment. This feature is not
  supported for new users.

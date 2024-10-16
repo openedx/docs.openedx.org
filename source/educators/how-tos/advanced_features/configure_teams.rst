@@ -50,7 +50,7 @@ To create a team, follow these steps.
 #. At the bottom of the list of teams within the team-set, select the **create a
    new team in this team-set** link.
 
-   .. image:: ../../images/Teams_CreateNewTeamLink.png
+   .. image:: /_images/educator_how_tos/Teams_CreateNewTeamLink.png
      :width: 600
      :alt: The "create a new team in this team-set" link
 
@@ -60,7 +60,7 @@ To create a team, follow these steps.
    In the description, include details about the proposed project or activity
    to help learners to decide whether they want to join this team.
 
-   .. image:: ../../images/Teams_CreateNewTeamForm.png
+   .. image:: /_images/educator_how_tos/Teams_CreateNewTeamForm.png
      :width: 600
      :alt: Empty form with fields to be completed when you create a new team.
 
@@ -159,7 +159,7 @@ To remove a learner from a team, follow these steps.
 #. Select **Edit Team**.
 #. On the **Instructor Tools** bar, select **Edit Membership**.
 
-   .. image:: ../../images/Teams_InstructorToolsEditMembers.png
+   .. image:: /_images/educator_how_tos/Teams_InstructorToolsEditMembers.png
      :width: 600
      :alt: The Edit Membership button on the "Instructor Tools" bar on the Edit Team page.
 
@@ -206,7 +206,7 @@ To delete a team, follow these steps.
    Team**.
 #. On the **Instructor Tools** bar, select **Delete Team**.
 
-   .. image:: ../../images/Teams_InstructorToolsDeleteTeam.png
+   .. image:: /_images/educator_how_tos/Teams_InstructorToolsDeleteTeam.png
      :width: 600
      :alt: The Edit Membership button on the "Instructor Tools" bar on the Edit Team page.
 
@@ -224,4 +224,4 @@ To delete a team, follow these steps.
   :ref:`Managing Team Discussions <Teams Discussions>` (concept)
   :ref:`Teams Configuration Options` (reference)
   :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
-  :ref:`Manage Teams via CSV Upload` (reference)
+  :ref:`Managing Teams via CSV Upload` (reference)

@@ -681,3 +681,9 @@
 .. _video player: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_video_player.html
 
 .. _math formatting: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/SFD_mathformatting.html
+
+.. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
+
+.. _MathJax Documentation: http://docs.mathjax.org/en/latest/index.html
+
+.. _Mathematics meta: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference

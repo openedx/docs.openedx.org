@@ -19,14 +19,14 @@ For example, in the following image, Group 0 is selected, and the HTML
 component and video that is part of Group 0 is displayed.
 
 
-.. image:: ../../images/a-b-test-lms-group-0.png
+.. image:: /_images/educator_how_tos/a-b-test-lms-group-0.png
  :alt: An Image of a unit page in the LMS, with Group 0 selected.
  :width: 800
 
 You can change the experiment group selection to view the content that a
 different experiment group of learners sees.
 
-.. image:: ../../images/a-b-test-lms-group-2.png
+.. image:: /_images/educator_how_tos/a-b-test-lms-group-2.png
  :alt: An image of a unit page in the LMS, with Group 1 selected.
  :width: 800
 

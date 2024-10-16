@@ -17,7 +17,7 @@ You can share either a limited profile or a full profile.
 * A limited profile shares only your username. You can also add a profile
   picture, if you are over 13 years of age.
 
-  .. image:: ../../migration_wip/images/SFD_Profile_Limited.png
+  .. image:: /_images/educator_concepts/SFD_Profile_Limited.png
     :width: 500
     :alt: A learner's limited profile showing only username and image.
 
@@ -33,7 +33,7 @@ You can share either a limited profile or a full profile.
   * Links to any course certificates that you have earned
   * Links to your social media accounts (optional)
 
-  .. image:: ../../migration_wip/images/SFD_Profile_Full.png
+  .. image:: /_images/educator_concepts/SFD_Profile_Full.png
     :width: 500
     :alt: A learner's full profile shows full name, join date, location,
      language, biographical information, links to course certificates, and

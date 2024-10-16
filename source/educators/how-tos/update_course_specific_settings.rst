@@ -18,7 +18,7 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
 #. Select the course settings icon. The course settings icon resembles a gear
    and appears next to **View Course** or **View Archived Course**.
 
-   .. image:: ../../educators/migration_wip/images/LearnDash_GearIcon.png
+   .. image:: /_images/educator_how_tos/LearnDash_GearIcon.png
      :width: 200
      :alt: The course settings icon next to the View Course button on the
            learner dashboard.
