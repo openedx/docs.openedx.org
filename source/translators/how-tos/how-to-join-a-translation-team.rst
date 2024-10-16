@@ -11,7 +11,7 @@ Steps
 *****
 To join a translation team you must complete these steps:
 
-#. Sign up for a `Transifex`_ account and read through their `getting
+#. Sign up for a `Transifex Signup`_ account and read through their `getting
    started guide`_. For help getting started with Transifex, please review their
    `Translating with the Web Editor`_ page, and get familiar with the roles and permissions
    as documented in `Understanding User Roles`_. You will start off in the "Translator"
@@ -26,7 +26,7 @@ To join a translation team you must complete these steps:
    `Open edX Community`_ page. Translation help is available in the
    ``#translations-working-group`` Slack channel!
 
-.. _Transifex: https://www.transifex.com/signup/
+
 .. _getting   started guide: https://docs.transifex.com/getting-started-1/translators
 .. _Translating with the Web Editor: https://docs.transifex.com/translation/translating-with-the-web-editor
 .. _openedx-translations project: https://explore.transifex.com/open-edx/openedx-translations/

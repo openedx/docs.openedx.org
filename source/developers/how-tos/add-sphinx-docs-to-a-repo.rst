@@ -19,8 +19,6 @@ Assumptions
 
 * You are familiar with `basic python development`_ (pip, virtualenvs, etc.)
 
-.. _make: https://www.gnu.org/software/make/manual/html_node/index.html
-
 .. _basic python development: https://docs.python.org/3/tutorial/index.html
 
 Steps

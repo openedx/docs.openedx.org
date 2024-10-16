@@ -14,7 +14,7 @@ Before you start
 
 This tutorial assumes the following:
 
-* You have signed up for a `Transifex`_ account and have read through their `getting
+* You have signed up for a `Transifex Signup`_ account and have read through their `getting
   started guide`_. For help getting started with Transifex, please review their
   `Translating with the Web Editor`_ page, and understand the roles and permissions
   as documented in `Understanding User Roles`_. You will start off in the "Translator"
@@ -40,7 +40,6 @@ This tutorial assumes the following:
   Huthmacher by writing an `email <ehuthmacher@tcril.org>`_.
 
 
-.. _Transifex: https://www.transifex.com/signup/
 .. _getting   started guide: https://docs.transifex.com/getting-started-1/translators
 .. _Translating with the Web Editor: https://docs.transifex.com/translation/translating-with-the-web-editor
 .. _openedx-translations project: https://explore.transifex.com/open-edx/openedx-translations/

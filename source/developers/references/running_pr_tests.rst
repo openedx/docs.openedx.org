@@ -99,4 +99,3 @@ tests!
 
 .. _Open edX Forums: https://discuss.openedx.org/
 .. _openedx.org/cla: http://openedx.org/cla
-.. _Conventional Commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html

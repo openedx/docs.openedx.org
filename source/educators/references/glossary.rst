@@ -444,13 +444,6 @@ E
     that as of December 2015, edx.org no longer offers honor code certificates.
     For more information, see `News About edX Certificates`_.
 
-  .. only:: Partners
-
-    * **credit**: In this enrollment track, learners who pass the course and
-      comply with additional requirements, including identity verification, can
-      receive academic credit for the course. For more information, see
-      :ref:`Academic Course Credit`.
-
   .. only:: Open_edX
 
     * **professional (no ID)**: Like the professional enrollment track, this
@@ -794,14 +787,6 @@ P
 
   Each EdX partner institution has an edX partner manager. The partner manager
   is the primary contact for the institution's course teams.
-
-
-**pre-roll video**
-
-  A short video file that plays before the video component selected by the
-  learner. Pre-roll videos play automatically, on an infrequent schedule.
-
-  For more information, see :ref:`Adding a PreRoll Video`.
 
 
 .. _Preview Mode:
