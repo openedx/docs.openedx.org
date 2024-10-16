@@ -1,5 +1,5 @@
-Instructional Design Concepts
-#############################
+Other Concepts
+##############
 
 .. toctree::
    :maxdepth: 1
