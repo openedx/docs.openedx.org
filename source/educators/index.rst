@@ -23,7 +23,7 @@ Open edX Educators
       :class-footer: sd-border-0
 
       * :doc:`how-tos/content-tagging-how-tos/index`
-      * :doc:`concepts/why-taxonomy-tag-id`
+      * :doc:`concepts/uncategorized/why-taxonomy-tag-id`
 
    .. grid-item-card:: Common How-tos
       :class-card: sd-shadow-md sd-p-2
@@ -48,7 +48,7 @@ Open edX Educators
       * :doc:`concepts/instructional_design/id_instructional_design_overview`
       * :doc:`concepts/instructional_design/id_course_dev_process_overview`
       * :doc:`concepts/instructional_design/id_templates`
-      * :doc:`concepts/why-taxonomy-tag-id`
+      * :doc:`concepts/uncategorized/why-taxonomy-tag-id`
       +++
       .. button-ref:: concepts/index
          :color: primary
