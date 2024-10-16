@@ -48,11 +48,7 @@ has decided to remove this section of our support documentation.
 
    The LaTeX editor opens.
 
-<<<<<<< HEAD
-   .. image:: ../images/HTML_LaTeXEditor.png
-=======
    .. image:: /_images/educator_how_tos/HTML_LaTeXEditor.png
->>>>>>> eafbca14c70de8ef25654be61fc9a6ee08846a7e
     :alt: The LaTeX editor.
     :width: 500
 
