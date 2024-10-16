@@ -5,9 +5,7 @@ Setup
 *****
 
 Turn on the Teams feature for your course and configure your Teams. See the
-`Teams documentation
-<https://docs.openedx.org/en/latest/educators/migration_wip/12_course_features/teams/teams_setup.html#enable-and-configure-teams>`_
-for more information.
+:ref:`Teams documentation <Enable and Configure Teams>` for more information.
 
 Connecting Teams to Content Groups
 **********************************

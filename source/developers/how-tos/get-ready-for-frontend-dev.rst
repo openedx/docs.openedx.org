@@ -48,4 +48,3 @@ Steps
 
   :doc:`/developers/concepts/platform_overview`
 
-.. _Devstack: https://edx.readthedocs.io/projects/open-edx-devstack/en/latest/

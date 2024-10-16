@@ -24,6 +24,7 @@ Educators: How-tos
          course_rerun
          update_rerun_course
          set_up_course/index
+         add_delete_course_tags
          
 
    .. grid-item-card::
@@ -66,6 +67,10 @@ Educators: How-tos
          content-tagging-how-tos/index
          course_development/index
          course_development/text_components/index
+<<<<<<< HEAD
+=======
+         course_development/exercise_tools/index
+>>>>>>> eafbca14c70de8ef25654be61fc9a6ee08846a7e
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
@@ -76,7 +81,6 @@ Educators: How-tos
          :caption: Add Videos to Your Course
 
          prepare_videos
-         set_up_hosting
          create_video
          get_video_transcript
          add_transcript_other_language
@@ -96,6 +100,7 @@ Educators: How-tos
          add_multiple_choice
          add_numerical_input
          add_text_input
+         drag_and_drop_deprecated
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2

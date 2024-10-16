@@ -32,8 +32,7 @@ as your course content videos.
 
   * The process for adding a course about video is different than the process
     for including videos as part of the content of your course. For more
-    information about including video content, see :ref:`Creating and Adding
-    Video Content <Creating and Adding Video Content>`.
+    information about including video content, see :ref:`Introduction to Video`.
 
 
 

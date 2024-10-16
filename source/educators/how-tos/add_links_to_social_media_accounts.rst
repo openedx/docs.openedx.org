@@ -31,7 +31,7 @@ When you view your profile, icons for the social media icons that you added
 links for appear below your username. Other learners or course team members
 can click those icons to visit your social media account page.
 
-  .. image:: ../../educators/migration_wip/images/SFD_Profile_Full_SocialMediaIcons.png
+  .. image:: /_images/educator_how_tos/SFD_Profile_Full_SocialMediaIcons.png
     :width: 500
     :alt: A learner's full profile, with social media icons circled.
 

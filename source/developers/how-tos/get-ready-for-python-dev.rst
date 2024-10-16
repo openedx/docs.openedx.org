@@ -47,7 +47,7 @@ Once you have done this, any calls to ``python``, ``pip``, or other Python execu
 
 .. note::
 
-   Many developers use wrapper scripts (or write their own using shell aliases). One commonly used tool is `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io/en/stable/>`_, which manages the virtualenv directories outside of repositories; this avoids several issues with git and other tools being able to see the virtualenv, but will require explicitly naming each virtualenv.
+   Many developers use wrapper scripts (or write their own using shell aliases). One commonly used tool is `virtualenvwrapper`_, which manages the virtualenv directories outside of repositories; this avoids several issues with git and other tools being able to see the virtualenv, but will require explicitly naming each virtualenv.
 
 Working on a Repo
 =================
@@ -80,5 +80,3 @@ Working on a Repo
 #. Run ``make test`` one more time and commit your changes with ``git add`` and ``git commit``. Follow the `conventional commits`_ documentation. Make sure your commit message is informative and describes why the change is being made. While the first line of the message should be terse, the body of the message has plenty of room for details.
 #. Push your changes to GitHub with ``git push``.
 #. In GitHub, open a pull request (PR). In the PR description, include anything that could help reviewers understand and test your change.
-
-.. _conventional commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html

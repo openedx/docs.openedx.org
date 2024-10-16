@@ -72,3 +72,16 @@ Open edX Educators
          :expand:
 
          All Educator References
+
+   .. grid-item-card:: Video Demos
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      * TBP
+      +++
+      .. button-ref:: how-tos/index
+         :color: primary
+         :outline:
+         :expand:
+
+         All Educator Videos

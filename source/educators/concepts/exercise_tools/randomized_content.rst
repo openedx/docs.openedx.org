@@ -1,0 +1,24 @@
+.. :diataxis-type: concept
+.. _Randomized Content Blocks:
+
+#########################
+Randomized Content Blocks
+#########################
+
+If your course has :ref:`content libraries<Content Libraries>` enabled and you
+have access to a library whose content you want to use, you can reference that
+library to create randomized assignments for students.
+
+To create a randomized assignment, you add one or more randomized content
+blocks to a course unit. For each randomized content block, specify a library
+from which to draw the content, and indicate the number and optionally the type
+of problem to randomly give each student.
+
+The libraries that you create or have access to are listed on the **Libraries**
+tab on the Studio Home page. For details about content libraries, see
+:ref:`Content Libraries`.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Use Randomized Content Blocks` (how to)
