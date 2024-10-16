@@ -24,6 +24,7 @@ Educators: How-tos
          course_rerun
          update_rerun_course
          set_up_course/index
+         add_delete_course_tags
          
 
    .. grid-item-card::
