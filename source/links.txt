@@ -21,6 +21,10 @@
 
 .. _How to start contributing to the Open edX code base: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
 
+.. _Submit a Docs Issue: https://github.com/openedx/docs.openedx.org/issues/new/choose
+
+.. _Open edX Doc Migration Tracking: https://docs.google.com/spreadsheets/d/1r0mbC1Ay-6vGVzGvHKRq9VHyowT7j-lm-4-8z38c5mM/edit
+
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 
 .. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
