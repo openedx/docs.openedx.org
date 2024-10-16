@@ -25,6 +25,10 @@
 
 .. _Open edX Doc Migration Tracking: https://docs.google.com/spreadsheets/d/1r0mbC1Ay-6vGVzGvHKRq9VHyowT7j-lm-4-8z38c5mM/edit
 
+.. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
+
+.. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
+
 
 
 .. ###### WIP MIGRATION LINKS ######

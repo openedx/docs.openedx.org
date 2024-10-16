@@ -176,7 +176,7 @@ Obtaining a Video Transcript
   your course is on Edge, you cannot use the integrated video transcript
   functionality in Studio. Instead, you send your videos to the transcript
   provider, and the provider sends you the completed transcripts. You later
-  upload the transcripts when you :doc:`../../8_course_components/create_video`.
+  upload the transcripts when you :ref:`Create a Video`.
 
   If your course is on Edge, integrated transcript functionality is not
   available even if you work with 3Play Media or cielo24.

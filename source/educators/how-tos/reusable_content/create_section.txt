@@ -32,7 +32,7 @@ You can then create Subsections within the section.
 .. seealso::
  :class: dropdown
 
- :doc:`/educators/references/course_sections` (reference)
+ :ref:`Developing Course Sections` (reference)
 
  Subsections
 

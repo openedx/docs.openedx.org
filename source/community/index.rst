@@ -6,3 +6,4 @@ Community Home
 
    release_notes/index
    security_policy/index
+   how-tos/receive_announcements_by_email

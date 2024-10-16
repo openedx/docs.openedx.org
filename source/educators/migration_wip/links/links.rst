@@ -250,7 +250,7 @@
 .. _VoiceOver for OS X: https://www.apple.com/accessibility/osx/voiceover/
 .. _Creative Commons website: http://creativecommons.org/licenses
 .. _Google Fonts: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
-.. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
+
 .. _Cross-referencing arbitrary locations: http://www.sphinx-doc.org/en/stable/markup/inline.html#cross-referencing-arbitrary-locations
 .. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
 .. _MOOCdb project: http://moocdb.csail.mit.edu/
