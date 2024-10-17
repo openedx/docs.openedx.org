@@ -7,3 +7,4 @@ Course Development
 
    *
    text_components/index
+   exercise_tools/index

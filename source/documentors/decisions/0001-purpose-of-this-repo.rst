@@ -122,4 +122,3 @@ Consequences
    high level documentation with the decisions made here.
 
 .. _OEP-19: https://open-edx-proposals--340.org.readthedocs.build/en/340/best-practices/oep-0019-bp-developer-documentation.html
-.. _docs.edx.org: https://docs.edx.org

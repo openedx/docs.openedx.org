@@ -132,7 +132,6 @@ images_config = {
     "default_image_width": "60%",
 }
 
-# 'migration_wip' links.rst added while migration is underway. Should be removed after migration.
 rst_epilog = """
 
 .. raw:: html
@@ -145,7 +144,6 @@ rst_epilog = """
 
 .. include:: /substitutions.txt
 .. include:: /links.txt
-.. include:: /educators/migration_wip/links/links.rst
 
 """
 

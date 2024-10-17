@@ -48,7 +48,7 @@ has decided to remove this section of our support documentation.
 
    The LaTeX editor opens.
 
-   .. image:: ../images/HTML_LaTeXEditor.png
+   .. image:: /_images/educator_how_tos/HTML_LaTeXEditor.png
     :alt: The LaTeX editor.
     :width: 500
 
@@ -78,7 +78,7 @@ has decided to remove this section of our support documentation.
 .. example, if you want to create "beautiful math" such as the math in the
 .. following image.
 
-.. .. image:: ../images/HTML_LaTeX_LMS.png
+.. .. image:: /_images/educator_how_tos/HTML_LaTeX_LMS.png
  :alt: Math formulas created with LaTeX in a Text component.
 
 .. .. warning::

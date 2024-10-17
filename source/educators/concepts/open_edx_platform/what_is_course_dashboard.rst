@@ -9,7 +9,7 @@ create an account or enroll in a course, you automatically go to your
 dashboard. You can also access your dashboard by selecting the dropdown menu
 icon next to your username at the top of any page.
 
-.. image:: ../../migration_wip/images/dashboard_menu.png
+.. image:: /_images/educator_concepts/dashboard_menu.png
  :width: 300
  :alt: The menu that appears on the website when you select the
      dropdown icon next to your username. The Dashboard option is circled, and

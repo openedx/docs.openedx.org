@@ -26,7 +26,7 @@ To add or update a limited profile, follow these steps.
    #. Move your cursor over the placeholder image, and click **Upload an
       image**.
 
-      .. image:: ../../educators/migration_wip/images/SFD_Profile_UploadImage.png
+      .. image:: /_images/educator_how_tos/SFD_Profile_UploadImage.png
        :width: 250
        :alt: A profile with the image upload area selected.
 

@@ -59,7 +59,6 @@ Here are a few rules-of-thumb to keep in mind:
   reviewed by somebody other than the submitter.  And if the change is
   user-facing, it must necessarily undergo the public `Product Review Process`_.
 
-.. _Product Review Process: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
 
 .. important::
 
