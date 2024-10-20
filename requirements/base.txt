@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==0.7.16
     # via sphinx
-anyio==4.6.0
+anyio==4.6.2.post1
     # via
     #   starlette
     #   watchfiles
@@ -40,7 +40,7 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.4
     # via sphinx
-markupsafe==3.0.1
+markupsafe==3.0.2
     # via jinja2
 packaging==24.1
     # via
@@ -110,13 +110,13 @@ sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-starlette==0.39.2
+starlette==0.41.0
     # via sphinx-autobuild
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
 urllib3==2.2.3
     # via requests
-uvicorn==0.31.1
+uvicorn==0.32.0
     # via sphinx-autobuild
 watchfiles==0.24.0
     # via sphinx-autobuild
