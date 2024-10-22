@@ -1,5 +1,5 @@
-Instructional Design Concepts
-#############################
+LMS & Studio Concepts
+#####################
 
 .. toctree::
    :maxdepth: 1
