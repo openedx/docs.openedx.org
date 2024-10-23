@@ -53,6 +53,14 @@ Redwood
      - 2024-06-19
      - open-release/redwood.1
 
+   * - Redwood.2
+     - 2024-08-09
+     - open-release/redwood.2
+
+   * - Redwood.3
+     - 2024-10-23
+     - open-release/redwood.3
+
 Quince
 ======
 
