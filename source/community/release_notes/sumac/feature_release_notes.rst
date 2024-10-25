@@ -5,7 +5,8 @@ Open edX Sumac Release - Product Release Notes
    :maxdepth: 1
 
    content_libraries_redesign_beta
-   customizing_pages
+   customizing_header
+   customizing_learner_dashboard
    aspects_comp_dashboard
    default_sidebar_nav
 
