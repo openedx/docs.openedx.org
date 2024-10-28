@@ -33,6 +33,7 @@ General References
    :caption: References
    :glob:
 
+   /developers/references/aspects_home
    *
    instructional_design/index
    course_development/index

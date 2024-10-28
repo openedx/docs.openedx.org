@@ -61,6 +61,7 @@ Open edX Educators
       * :doc:`references/simple_problem_types`
 
       * :doc:`references/instructional_design/index`
+      * :doc:`/developers/references/aspects_home`
       +++
       .. button-ref:: references/index
          :color: primary
