@@ -1,3 +1,5 @@
+.. _tag-ids-for-taxonomy-import:
+
 Why does each tag need an ID when importing a taxonomy?
 #######################################################
 
