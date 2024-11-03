@@ -94,4 +94,4 @@ create a taxonomy of cities, like this:
   * In Google Sheets, use File > Download > Comma Separated Values (.csv).
   * In Numbers, use File > Export To > CSV… and use the default options.
 
-* Import your taxonomy following the How To :ref:`import-taxonomy`.
+* Import your taxonomy following the How To :ref:`import-export-taxonomy`.

@@ -1,4 +1,4 @@
-.. _import-taxonomy:
+.. _import-export-taxonomy:
 
 Import and Export A Taxonomy
 ############################

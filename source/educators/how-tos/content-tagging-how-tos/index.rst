@@ -25,6 +25,7 @@ Content Tagging: How-tos
          :titlesonly:
          :caption: Taxonomies
 
-         import_a_taxonomy
+         import_export_a_taxonomy
          Create_flat_taxonomy_by_uploading_CSV
          build_taxonomy_using_template
+         

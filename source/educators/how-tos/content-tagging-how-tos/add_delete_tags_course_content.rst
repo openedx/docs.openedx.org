@@ -38,7 +38,7 @@ Adding Tags from the Course Outline Page
 
 #. Click in the “Add a tag” field in any taxonomy from which you'd like to
    choose tags. (For instructions on how to add and enable a taxonomy, see
-   :ref:`import-taxonomy`).
+   :ref:`import-export-taxonomy`).
 
    .. image:: /_images/educator_how_tos/ctag_course_tag_step3.png
       :alt: Screenshot of clicking in the Add a tag field.
