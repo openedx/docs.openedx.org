@@ -29,3 +29,4 @@ Content Tagging: How-tos
          Create_flat_taxonomy_by_uploading_CSV
          build_taxonomy_using_template
          update_reimport_taxonomy
+         manage_permissions_taxonomy
