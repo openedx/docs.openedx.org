@@ -1,3 +1,5 @@
+.. _create-flat-taxonomy:
+
 Create a flat taxonomy by uploading a CSV
 #########################################
 
