@@ -1,3 +1,5 @@
+.. _add-tags-to-a-course:
+
 Add and delete tags on courses
 ##############################
 
@@ -26,14 +28,14 @@ Adding Tags from the Course Outline Page
    .. image:: /_images/educator_how_tos/ctag_course_tag_step4.png
       :alt: Screenshot of field matches displaying beneath the Add a tag field.
 
-#. If you don’t know the tag you would like to add, scroll through the list of tags until you find the tag you would like to add.
+#. If you don't know the tag you would like to add, scroll through the list of tags until you find the tag you would like to add.
 
    .. note::
 
-      Tags may be nested as subtags, and that clicking on the arrows will open any nexted tags.
+      Tags may be nested as subtags, and that clicking on the arrows will open any nested tags.
    
    .. image:: /_images/educator_how_tos/ctag_course_tag_step5.png
-      :alt: Screenshot of arrows next to tags with nexted subtags.
+      :alt: Screenshot of arrows next to tags with nested subtags.
 
 #. Once you have decided which tag you would like to add, click on the checkbox next to the tag. Add as many tags as you would like. 
    
