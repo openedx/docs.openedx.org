@@ -22,8 +22,10 @@ Open edX Educators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
+      * :doc:`concepts/open_edx_platform/index`
+      * :doc:`references/course_development/index`
       * :doc:`how-tos/content-tagging-how-tos/index`
-      * :doc:`concepts/uncategorized/why-taxonomy-tag-id`
+      * :doc:`concepts/advanced_features/index`
 
    .. grid-item-card:: Common How-tos
       :class-card: sd-shadow-md sd-p-2
@@ -48,7 +50,6 @@ Open edX Educators
       * :doc:`concepts/instructional_design/id_instructional_design_overview`
       * :doc:`concepts/instructional_design/id_course_dev_process_overview`
       * :doc:`concepts/instructional_design/id_templates`
-      * :doc:`concepts/uncategorized/why-taxonomy-tag-id`
       +++
       .. button-ref:: concepts/index
          :color: primary

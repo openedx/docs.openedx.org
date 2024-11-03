@@ -17,4 +17,3 @@ Educators: Concepts
    planning_course_run_information/index
    advanced_features/index
    exercise_tools/index
-   uncategorized/index
