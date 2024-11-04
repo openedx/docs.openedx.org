@@ -7,11 +7,9 @@ What is the Hooks Extension Framework?
 
 Based on the `open-closed principle`_, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the plugin architecture, allowing developers to implement new features to fit customer needs while reducing the need for core modifications and minimizing maintenance efforts.
 
-Hooks are a list of places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they act as notifications. All hooks are designed to be extended through Open edX plugins and configurations.
+Hooks are a list of places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they act as notifications. All hooks are designed to be extended through `Open edX Django plugins`_ and configurations.
 
-Hooks can be of two types: events and filters. Events are signals sent in specific places whose receivers can extend functionality, while filters are functions that can modify the application's behavior.
-
-To allow extension developers to use the framework's definitions in their implementations, both kinds of hooks are defined in lightweight external libraries:
+Hooks can be of two types: events and filters. Events are signals sent in specific places whose receivers can extend functionality, while filters are functions that can modify the application's behavior. To allow extension developers to use these definitions in their implementations, both kinds of hooks are defined in lightweight external libraries:
 
 * `openedx-filters`_
 * `openedx-events`_
@@ -28,31 +26,31 @@ A longer description of the framework and its history can be found in `OEP 50`_.
 Why adopt the Hooks Extension Framework?
 ========================================
 
-1. Stable and Maintainable Extensions
+#. Stable and Maintainable Extensions
 
 The Hooks Extension Framework allows developers to extend the platform's functionality in a stable, maintainable, and decoupled way ensuring easier upgrades and long-term stability by removing the need to modify the core in an significant way.
 
-2. Contained Solution Implementation
+#. Contained Solution Implementation
 
-By avoiding core modifications, the framework promotes self-contained solutions, eliminating the need  for custom code to coexist with core logic which lowers maintenance costs for extension developers.
+By avoiding core modifications, the framework promotes self-contained solutions, eliminating the need for custom code to coexist with core logic which lowers maintenance costs for extension developers.
 
-3. Leveraging the Open edX Plugin Extension Mechanism
+#. Leveraging the Open edX Plugin Extension Mechanism
 
 The framework allows developers to implement custom business logic and integrations directly in plugins. This keeps core modifications minimal, focusing maintenance and development efforts on plugins, where solutions can be built and maintained independently of the core platform.
 
-4. Standardization
+#. Standardization
 
 Both filters and events implementations implement an approach for adding additional features, such as communication between services or backend flow control. With these standards in place, it’s easy to identify when and how to use the framework as a solution, ensuring a consistent and predictable approach to extending the platform.
 
-5. Reduce Fork Modifications
+#. Reduce Fork Modifications
 
 The need to modify logic in forks is minimized, as most extensions can now be implementing using the framework, keeping forks closer to the core and easier to manage.
 
-6. Community Compatibility
+#. Community Compatibility
 
 The framework allows for shorter and more agile contribution cycles. By adding standardized extension points, contributors avoid creating customer-specific logic, making development more community-friendly.
 
-7. Backward Compatibility
+#. Backward Compatibility
 
 Hooks are designed to be backward compatible, guaranteeing stability across releases and making it easier to upgrade without breaking existing functionality.
 
@@ -92,7 +90,7 @@ Here are some key differences between Open edX Events and Filters:
 |                    | triggered.                                                             |  component without directly modifying the application       |
 |                    |                                                                        |  itself.                                                    |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
-|  **Definition**    |  Defined using the `OpenEdxPublicSignal` class, which                  |  Defined using the ``OpenEdxPublicFilter`` class,           |
+|  **Definition**    |  Defined using the ``OpenEdxPublicSignal``` class, which               |  Defined using the ``OpenEdxPublicFilter`` class,           |
 |                    |  provides a structured way to define the data and                      |  which provides a way to define the filter function         |
 |                    |  metadata associated with the event.                                   |  and the parameters it should receive.                      |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
@@ -113,7 +111,7 @@ How to know when to use an Event or a Filter?
 When to use an Open edX Event?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use an Open edX Event when you need to:
+Use an Open edX Event when but not limited to:
 
 - Trigger custom logic or processing in response to specific actions within the platform, e.g., updating a search index after a course block is modified.
 - Communicate, synchronize, or coordinate with other components or services based on specific events or actions, e.g., send certificate data from LMS to credentials service to keep models up to date.
@@ -131,11 +129,12 @@ You can review the `Open edX Events`_ documentation for more information on `how
 When to use an Open edX Filter?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use an Open edX Filter when:
+Use an Open edX Filter when but not limited to:
 
 - Enrich the data or parameters passed to a specific component, e.g., fetch reusable LTI configurations from external plugins.
 - Intercept and modify the input of a specific component, e.g., include "Edit" link to an HTML block if certain conditions are met.
 - Enforce specific constraints or business rules on the input or output of a specific function or method, e.g., prevent enrollment for non-authorized users.
+- Implement additional features or behavior in a specific component, e.g., add custom logic to the user profile update process.
 
 In summary, filters can be used when implementing application flow control that modifies the application's behavior, navigation, or user interaction flow during runtime.
 
@@ -146,3 +145,4 @@ You can review the `Open edX Filters`_ documentation for more information on `ho
 .. _list of available filters: https://docs.openedx.org/projects/openedx-filters/en/latest/reference/filters.html
 .. _how to implement filter pipelines: https://docs.openedx.org/projects/openedx-filters/en/latest/how-tos/using-filters.html#implement-pipeline-steps
 .. _create new filters: https://docs.openedx.org/projects/openedx-filters/en/latest/how-tos/create-new-filters.html
+.. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
