@@ -19,8 +19,8 @@ The main goal of the framework is that developers can use it to change the platf
 A longer description of the framework and its history can be found in `OEP 50`_.
 
 .. _OEP 50: https://open-edx-proposals.readthedocs.io/en/latest/oep-0050-hooks-extension-framework.html
-.. _openedx-filters: https://github.com/eduNEXT/openedx-filters
-.. _openedx-events: https://github.com/eduNEXT/openedx-events
+.. _openedx-filters: https://github.com/openedx/openedx-filters
+.. _openedx-events: https://github.com/openedx/openedx-events
 .. _open-closed principle: https://docs.openedx.org/projects/edx-platform/en/open-release-quince.master/concepts/extension_points.html
 
 Why adopt the Hooks Extension Framework?
