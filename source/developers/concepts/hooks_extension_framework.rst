@@ -5,9 +5,9 @@ Hooks Extension Framework
 What is the Hooks Extension Framework?
 =======================================
 
-Based on the `open-closed principle`_, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the plugin architecture, allowing developers to implement new features to fit customer needs while reducing the need for core modifications and minimizing maintenance efforts.
+Based on the `open-closed principle`_, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the `Open edX Django plugins`_ architecture, allowing developers to implement new features to fit customer needs while reducing the need for core modifications and minimizing maintenance efforts.
 
-Hooks are a list of places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they act as notifications. All hooks are designed to be extended through `Open edX Django plugins`_ and configurations.
+Hooks are a list of places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they are informative only. All hooks are designed to be extended through `Open edX Django plugins`_ and configurations.
 
 Hooks can be of two types: events and filters. Events are signals sent in specific places whose receivers can extend functionality, while filters are functions that can modify the application's behavior. To allow extension developers to use these definitions in their implementations, both kinds of hooks are defined in lightweight external libraries:
 
@@ -44,7 +44,7 @@ The framework allows developers to implement custom business logic and integrati
 Standardization
 ---------------
 
-Both filters and events implementations implement an approach for adding additional features, such as communication between services or backend flow control. With these standards in place, it’s easy to identify when and how to use the framework as a solution, ensuring a consistent and predictable approach to extending the platform.
+Both filters and events implement approaches for adding additional features, such as communication between services or backend flow control. With these standards in place, it's easy to identify when and how to use the framework as a solution, ensuring a consistent and predictable approach to extending the platform.
 
 Reduce Fork Modifications
 -------------------------
@@ -93,7 +93,7 @@ Here are some key differences between Open edX Events and Filters:
 | **Purpose**        | Notify when an action occurs in a specific part of the                 | Alter the application flow control.                         |
 |                    | application.                                                           |                                                             |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
-|  **Usage**         | Used to **extend** functionality via signal handlers when an event is  |  Used to intercept and **modify** the data used within a    |
+|  **Usage**         | Used to **extend** functionality via signal receivers when an event is |  Used to intercept and **modify** the data used within a    |
 |                    | triggered.                                                             |  component without directly modifying the application       |
 |                    |                                                                        |  itself.                                                    |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
@@ -107,7 +107,6 @@ Here are some key differences between Open edX Events and Filters:
 |                    |                                                                        |  processing.                                                |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
 | **Use cases**      |  Send an email notification when a user enrolls in a course.           |  Include additional information in an API endpoint response.|
-|                    |  an email notification.                                                |                                                             |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
 
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
@@ -138,9 +137,9 @@ When to use an Open edX Filter?
 
 Use an Open edX Filter when but not limited to:
 
-- Enrich the data or parameters passed to a specific component, e.g., fetch reusable LTI configurations from external plugins.
-- Intercept and modify the input of a specific component, e.g., include "Edit" link to an HTML block if certain conditions are met.
-- Enforce specific constraints or business rules on the input or output of a specific function or method, e.g., prevent enrollment for non-authorized users.
+- Enrich the data or parameters used to a specific component, e.g., fetch reusable LTI configurations from external plugins.
+- Intercept and modify runtime data of a specific component, e.g., include "Edit" link to an HTML block if certain conditions are met.
+- Enforce specific constraints or business rules of a specific component, e.g., prevent enrollment for non-authorized users.
 - Implement additional features or behavior in a specific component, e.g., add custom logic to the user profile update process.
 
 In summary, filters can be used when implementing application flow control that modifies the application's behavior, navigation, or user interaction flow during runtime.
