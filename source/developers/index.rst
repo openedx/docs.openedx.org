@@ -62,6 +62,7 @@ Open edX Developers
       * :doc:`references/developer_guide/index`
       * :doc:`edx-platform:index`
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
+      * :doc:`references/aspects_home`
       +++
       .. button-ref:: references/index
          :color: primary
