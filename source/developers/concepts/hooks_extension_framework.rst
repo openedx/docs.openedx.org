@@ -26,31 +26,38 @@ A longer description of the framework and its history can be found in `OEP 50`_.
 Why adopt the Hooks Extension Framework?
 ========================================
 
-#. Stable and Maintainable Extensions
+Stable and Maintainable Extensions
+----------------------------------
 
 The Hooks Extension Framework allows developers to extend the platform's functionality in a stable, maintainable, and decoupled way ensuring easier upgrades and long-term stability by removing the need to modify the core in an significant way.
 
-#. Contained Solution Implementation
+Contained Solution Implementation
+---------------------------------
 
 By avoiding core modifications, the framework promotes self-contained solutions, eliminating the need for custom code to coexist with core logic which lowers maintenance costs for extension developers.
 
-#. Leveraging the Open edX Plugin Extension Mechanism
+Leveraging the Open edX Plugin Extension Mechanism
+--------------------------------------------------
 
 The framework allows developers to implement custom business logic and integrations directly in plugins. This keeps core modifications minimal, focusing maintenance and development efforts on plugins, where solutions can be built and maintained independently of the core platform.
 
-#. Standardization
+Standardization
+---------------
 
 Both filters and events implementations implement an approach for adding additional features, such as communication between services or backend flow control. With these standards in place, it’s easy to identify when and how to use the framework as a solution, ensuring a consistent and predictable approach to extending the platform.
 
-#. Reduce Fork Modifications
+Reduce Fork Modifications
+-------------------------
 
 The need to modify logic in forks is minimized, as most extensions can now be implementing using the framework, keeping forks closer to the core and easier to manage.
 
-#. Community Compatibility
+Community Compatibility
+------------------------
 
 The framework allows for shorter and more agile contribution cycles. By adding standardized extension points, contributors avoid creating customer-specific logic, making development more community-friendly.
 
-#. Backward Compatibility
+Backward Compatibility
+-----------------------
 
 Hooks are designed to be backward compatible, guaranteeing stability across releases and making it easier to upgrade without breaking existing functionality.
 
