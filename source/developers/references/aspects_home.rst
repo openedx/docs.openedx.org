@@ -1,5 +1,5 @@
 ################
-Aspects
+Aspects: Learner analytics for the Open edX Platform
 ################
 
 Aspects Homepage
