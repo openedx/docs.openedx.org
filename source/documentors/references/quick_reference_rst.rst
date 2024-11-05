@@ -133,6 +133,37 @@ RST can do a lot of things via `directives`_. Here are some common ones:
       `Link to another thing <https://example.com/other>`_
          A brief description of another thing.
 
+Tables
+******
+
+To add a table in RST like the following example:
+=====================  =====  ======
+   Outputs                Inputs
+---------------------  -------------
+  A  or  B               A      B
+=====================  =====  ======
+False                  False  False
+True                   False  True
+True                   True   False
+True                   True   True
+=====================  =====  ======
+
+Use the following code:
+
+.. code-block::
+
+  =====================  =====  ======
+     Outputs                Inputs
+  ---------------------  -------------
+    A  or  B               A      B
+  =====================  =====  ======
+  False                  False  False
+  True                   False  True
+  True                   True   False
+  True                   True   True
+  =====================  =====  ======
+
+
 Learn More
 **********
 
