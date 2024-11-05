@@ -137,6 +137,7 @@ Tables
 ******
 
 To add a table in RST like the following example:
+
 =====================  =====  ======
    Outputs                Inputs
 ---------------------  -------------
