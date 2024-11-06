@@ -1,4 +1,5 @@
 build
+_tags
 .DS_Store
 source/.DS_Store
 .idea/
