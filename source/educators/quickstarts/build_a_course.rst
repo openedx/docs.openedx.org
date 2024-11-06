@@ -1,3 +1,5 @@
+.. _Quick Start Build a Course:
+
 Quick Start: Build a Course
 ####################################
 

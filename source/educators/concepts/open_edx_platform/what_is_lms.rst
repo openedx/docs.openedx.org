@@ -1,5 +1,7 @@
 .. :diataxis-type: concept
 
+.. _What is LMS:
+
 ****************
 What Is the LMS?
 ****************

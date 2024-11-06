@@ -10,15 +10,9 @@ Open edX Educators
       :class-footer: sd-border-0
       :columns: 12
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
-
-         concepts/open_edx_platform/what_is_lms
-         concepts/open_edx_platform/what_is_studio
-         quickstarts/build_a_course
-
-
+      | :ref:`Quick Start Build a Course`
+      | :ref:`What is LMS`
+      | :ref:`What is Studio`
 
    .. grid-item-card:: Creating a Course in Open edX®
       :class-card: sd-shadow-md sd-p-2
@@ -29,15 +23,17 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      | :ref:`Planning Course Information`
-      | :ref:`Create a New Course`
-      | :ref:`Add Course Staff`
+      | :ref:`Instructional Design Concepts`
+      | :ref:`Nav Create a New Course`
+      | :ref:`Plan Course Run Information`
       | :ref:`Launch a Course`
 
       .. button-ref:: navigation/creating_course
          :color: primary
          :outline:
          :expand:
+
+         See All
 
    .. grid-item-card:: Learner Engagement & Communication
       :class-card: sd-shadow-md sd-p-2
@@ -58,6 +54,8 @@ Open edX Educators
          :outline:
          :expand:
 
+         See All
+
 
    .. grid-item-card:: Content Creation & Management
       :class-card: sd-shadow-md sd-p-2
@@ -68,11 +66,17 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`Create and Manage Components`
+      | :ref:`Add Text Components`
+      | :ref:`Add Video Components`
+      | :ref:`Control Visibility and Access`
 
-         navigation/content_creation_management
+      .. button-ref:: navigation/content_creation_management
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
 
    .. grid-item-card:: Components & Activities
       :class-card: sd-shadow-md sd-p-2
@@ -83,11 +87,19 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`The Open edX Problem Component`
+      | :ref:`Dropdown Problem`
+      | :ref:`Multi Select Problem`
+      | :ref:`Nav Open Response Assessments`
+      | :ref:`Single Select Problem`
+      | :ref:`Text Input Problem`
 
-         navigation/components_activities
+      .. button-ref:: navigation/components_activities
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
 
    .. grid-item-card:: Data & Analytics
       :class-card: sd-shadow-md sd-p-2
@@ -98,11 +110,17 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`Nav Course Data`
+      | :ref:`Nav Learner Data`
+      | :ref:`Grades Data`
+      | :ref:`Certificate Data`
 
-         navigation/data_analytics
+      .. button-ref:: navigation/data_analytics
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
 
    .. grid-item-card:: Accessibility
       :class-card: sd-shadow-md sd-p-2
@@ -113,11 +131,15 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`Accessibility Best Practices`
+      | :ref:`Accessibility for Video`
 
-         navigation/accessibility
+      .. button-ref:: navigation/accessibility
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
 
    .. grid-item-card:: Advanced Course Features
       :class-card: sd-shadow-md sd-p-2
@@ -128,17 +150,31 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`Offer Different Content to Different Groups`
+      | :ref:`Run Content Experiments`
+      | :ref:`Use Teams in Your Course`
 
-         navigation/advanced_features
+      .. button-ref:: navigation/advanced_features
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
+
+   .. grid-item-card:: Other
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+      :columns: 12
+
+      | :ref:`The Open edX Platform`
+      | :ref:`Explore Your Dashboard and Profile`
+
+      .. button-ref:: navigation/other
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
 
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   navigation/creating_course
-   navigation/learner_engagement_communication
 

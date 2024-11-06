@@ -1,12 +1,15 @@
+:orphan:
+
 Components & Activities
 #######################
+
+.. _The Open edX Problem Component:
 
 The Open edX® Problem Component
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/Subsection_configure_hints.rst
@@ -30,7 +33,6 @@ Chemical Equation Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/chemical_equation_xml.rst
@@ -41,7 +43,6 @@ Circuit Schematic Builder Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/exercise_tools/add_circuit_schematic_builder.rst
@@ -51,7 +52,6 @@ Completion Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/completion.rst
@@ -62,7 +62,6 @@ Configure Grades
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../concepts/grading/graded_subsections.rst
@@ -75,7 +74,6 @@ Custom Javascript Display and Grading Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/custom_javascript.rst
@@ -86,7 +84,6 @@ Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/custom_python.rst
@@ -96,7 +93,6 @@ Drag and Drop Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/drag_and_drop.rst
@@ -107,12 +103,13 @@ Drag and Drop Problem
    ../how-tos/course_development/exercise_tools/use_dropdown_hints.rst
    ../how-tos/drag_and_drop_deprecated.rst
 
+.. _Dropdown Problem:
+
 Dropdown Problem
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/dropdown.rst
@@ -122,7 +119,6 @@ Dropdown Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
 Enable Advanced Problem Types
@@ -130,7 +126,6 @@ Enable Advanced Problem Types
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/exercise_tools/enable_exercises_tools.rst
@@ -140,7 +135,6 @@ External Grader
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/external_grader_requirements.rst
@@ -152,7 +146,6 @@ Gene Explorer Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/gene_explorer.rst
@@ -162,7 +155,6 @@ Image Mapped Input Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/image_mapped_input_xml.rst
@@ -174,7 +166,6 @@ Learner View
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/grading/learner_view_of_grades.rst
@@ -184,7 +175,6 @@ LTI Component
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/lti_component_settings.rst
@@ -197,7 +187,6 @@ Math Expression Input Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/math_expression_input.rst
@@ -206,12 +195,13 @@ Math Expression Input Problem
    ../how-tos/math_expression.rst
    ../how-tos/course_development/exercise_tools/adding_math_expression_problem.rst
 
+.. _Multi Select Problem:
+
 Multi-Select Problem
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/add_checkbox.rst
@@ -226,7 +216,6 @@ Numerical Input Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/numerical_input.rst
@@ -236,12 +225,13 @@ Numerical Input Problem
    ../how-tos/course_development/exercise_tools/create_problem_in_latex.rst
    ../how-tos/course_development/exercise_tools/add_numerical_input_problem.rst
 
+.. _Nav Open Response Assessments:
+
 Open Response Assessments
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/Access_ORA_Info.rst
@@ -256,7 +246,6 @@ Oppia Exploration Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/oppia_exploration.rst
@@ -267,7 +256,6 @@ Peer Instruction Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../concepts/exercise_tools/peer_instruction.rst
@@ -278,7 +266,6 @@ Periodic Table Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_periodic_table.rst
@@ -288,7 +275,6 @@ Poll Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/poll_tool.rst
@@ -299,7 +285,6 @@ Problem with Adaptive Hint
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/problem_hint_xml.rst
@@ -310,7 +295,6 @@ Proctored Exams
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/proctored_exams/rpnow_proctored_exam_report.rst
@@ -331,7 +315,6 @@ Protex Protein Builder
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_protein_builder.rst
@@ -341,7 +324,6 @@ Randomized Content Block
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../concepts/exercise_tools/randomized_content.rst
@@ -352,17 +334,17 @@ Single Select and Numerical Input Problem
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/exercise_tools/add_single_select_num_input.rst
+
+.. _Single Select Problem:
 
 Single Select Problem
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/single_select_xml.rst
@@ -380,19 +362,18 @@ Staff Graded Assignment
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../concepts/exercise_tools/staff_graded.rst
    ../how-tos/course_development/exercise_tools/create_staffgraded.rst
 
+.. _Text Input Problem:
 
 Text Input Problem
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/course_development/exercise_tools/text_input.rst
@@ -407,7 +388,6 @@ Timed Exams
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../concepts/advanced_features/timed_exams.rst
@@ -417,7 +397,6 @@ Zooming Image Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_zooming_image.rst

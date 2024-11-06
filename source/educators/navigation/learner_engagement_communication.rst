@@ -1,3 +1,5 @@
+:orphan:
+
 Learner Engagement & Communication
 #####################################
 
@@ -8,7 +10,6 @@ Course Discussions
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../concepts/communication/course_discussions.rst
@@ -34,7 +35,6 @@ Bulk Emails
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/communication/bulk_email.rst
@@ -47,7 +47,6 @@ Automatic Emails
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/communication/automatic_email.rst
@@ -57,7 +56,6 @@ Course Highlights
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/course_development/set_course_highlights.rst
@@ -69,7 +67,6 @@ Course Updates
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/communication/course_updates_handouts.rst
@@ -81,7 +78,6 @@ Course Wiki
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/about_course_wiki.rst
@@ -93,7 +89,6 @@ Adding Live Sessions
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/course_development/add_course_live.rst
@@ -103,7 +98,6 @@ Google Calendar Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/exercise_tools/google_calendar.rst
@@ -113,7 +107,6 @@ Learner View
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/sidebar_collapse_expand.rst
@@ -123,7 +116,6 @@ Manage a Course Run
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/student_management/enrollment_requirements.rst
@@ -133,7 +125,6 @@ Poll Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/exercise_tools/enable_poll_OLX.rst
@@ -144,7 +135,6 @@ Survey Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/exercise_tools/enable_survey_olx.rst
@@ -155,7 +145,6 @@ Qualtrics Survey Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/exercise_tools/view_qualtrics_responses.rst
@@ -166,7 +155,6 @@ Resources for Students
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/resources_for_students.rst
@@ -176,7 +164,6 @@ Word Cloud Tool
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/course_development/exercise_tools/add_word_cloud.rst

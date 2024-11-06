@@ -1,14 +1,28 @@
+:orphan:
+
 Creating a Course in Open edX®
 #####################################
 
-.. _Planning Course Information:
+.. _Instructional Design Concepts:
 
-Planning Course Information
+Instructional Design Concepts
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
+   :glob:
+
+   ../concepts/instructional_design/id_instructional_design_overview.rst
+   ../concepts/instructional_design/id_templates.rst
+   ../concepts/instructional_design/id_course_dev_process_overview.rst
+
+.. _Plan Course Information:
+
+Plan Course Information
+*******************************************************
+
+.. toctree::
+   :maxdepth: 2
    :glob:
 
    ../concepts/planning_course_run_information/set_up_course.rst
@@ -18,13 +32,13 @@ Planning Course Information
    ../references/course_development/description_guidelines.rst
    ../references/course_development/additional_course_information.rst
    
+.. _Plan Course Run Information:
 
-Planning Course Run Information
+Plan Course Run Information
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_dates.rst
@@ -34,19 +48,20 @@ Planning Course Run Information
    ../references/setting_course_pacing.rst
    ../concepts/planning_course_run_information/additional_course_run_information.rst
    
+.. _Nav Create a New Course:
 
 Create a New Course
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/workflow.rst
    ../concepts/open_edx_platform/outline_studio_lms.rst
    ../how-tos/set_up_course/creating_new_course.rst
    ../how-tos/create_course.rst
+   ../how-tos/create_course_about_page.rst
    ../references/course_development/understanding_course_outline.rst
    ../references/course_development/add_edit_in_outline.rst
    ../references/course_development/course_outline.rst
@@ -64,12 +79,13 @@ Create a New Course
    ../references/resources_for_course_teams.rst
    ../references/resources_for_open_edx.rst
 
+.. _Nav Add Course Staff:
+
 Add Course Staff
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../references/user_roles.rst
@@ -77,6 +93,7 @@ Add Course Staff
    ../how-tos/set_up_course/add_course_staff.rst
    ../how-tos/beta_test_course.rst
    ../how-tos/add_course_creators.rst
+   ../how-tos/releasing-course/add_beta_testers.rst
    
 
 Create a Course About Page
@@ -84,7 +101,6 @@ Create a Course About Page
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/course_about_page.rst
@@ -99,7 +115,6 @@ Set Up Course Certificates
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/creating_certificates.rst
@@ -113,20 +128,27 @@ Set Up Course Pre-Requisites
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/set_up_prerequisites.rst
    ../how-tos/set_up_course/require_entrance_exam.rst
    ../how-tos/set_up_course/set_prerequisites.rst
-   
 
-Beta Testing a Course
+Set Course License
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
+   :glob:
+
+   ../references/licensing_course.rst
+   ../how-tos/set_licensing.rst
+
+Beta Test a Course
+*******************************************************
+
+.. toctree::
+   :maxdepth: 2
    :glob:
 
    ../concepts/releasing-course/beta_testing.rst
@@ -139,17 +161,32 @@ Launch a Course
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../concepts/releasing-course/course_launching.rst
+
+
+.. _Manage a Course Run:
+
+Manage a Course Run
+*******************************************************
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   ../how-tos/data/view_course_information.rst
+   ../how-tos/student_management/manage_course_enrollments.rst
+   ../references/student_management/enrollment_requirements.rst
+   ../references/data/staff_debug_info.rst
+   ../how-tos/advanced_features/create_content_for_specific_enrollment_tracks.rst
+
 
 Re-Run a Course
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/course_development/rerunning_course.rst

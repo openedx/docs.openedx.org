@@ -1,17 +1,15 @@
+:orphan:
+
 Accessibility
 ##############
 
-.. toctree::
-   :maxdepth: 2
-   :numbered:
-   :glob:
+.. _Accessibility Best Practices:
 
 Accessibility Best Practices
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../concepts/accessibility/accessibility_guidelines.rst
@@ -20,12 +18,13 @@ Accessibility Best Practices
    ../concepts/accessibility/design_for_mobile.rst
    ../references/accessibility/accessibility_checker.rst
 
+.. _Accessibility for Video:
+
 Accessibility for Video
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:   
 
    ../how-tos/enable_video_transcript_downloads.rst

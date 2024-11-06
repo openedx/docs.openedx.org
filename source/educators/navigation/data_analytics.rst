@@ -1,24 +1,28 @@
+:orphan:
+
 Data & Analytics
 ##################
+
+.. _Nav Course Data:
 
 Course Data
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/data/staff_debug_info.rst
    ../how-tos/data/view_course_information.rst
    ../how-tos/student_management/manage_course_enrollments.rst
 
+.. _Nav Learner Data:
+
 Learner Data
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../concepts/data/learner_data.rst
@@ -31,18 +35,18 @@ Answer Data
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/data/course_answers.rst
    ../references/data/answer_report_faq.rst
+
+.. _Grades Data:
 
 Grades Data
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/data/manage_course_grades.rst
@@ -50,12 +54,13 @@ Grades Data
    ../references/data/interpreting_grade_report.rst
    ../references/data/interpreting_problem_grade_report.rst
 
+.. _Certificate Data:
+
 Certificate Data
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/data/certificate_data.rst

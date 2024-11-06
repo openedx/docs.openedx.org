@@ -1,12 +1,15 @@
+:orphan:
+
 Advanced Features
 ###################
+
+.. _Offer Different Content to Different Groups:
 
 Offer Different Content to Different Groups (Cohorts)
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../concepts/advanced_features/cohorts_overview.rst
@@ -17,12 +20,13 @@ Offer Different Content to Different Groups (Cohorts)
    ../how-tos/set_up_content_groups.rst
    ../how-tos/advanced_features/set_up_group_configuration_olx.rst
 
-Running Content Experiments
+.. _Run Content Experiments:
+
+Run Content Experiments
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../concepts/advanced_features/content_experiments_overview.rst
@@ -33,12 +37,13 @@ Running Content Experiments
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/test_content_experiments.rst
 
-Using Teams in Your Course
+.. _Use Teams in Your Course:
+
+Use Teams in Your Course
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../references/advanced_features/managing_teams_via_csv.rst
@@ -49,12 +54,11 @@ Using Teams in Your Course
    ../how-tos/advanced_features/configure_teams.rst
    ../how-tos/connect_teams_content_groups.rst
 
-Using Open edX as an LTI Tool Provider
+Use Open edX as an LTI Tool Provider
 *******************************************************
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../concepts/advanced_features/using_openedx_as_LTI_provider.rst
@@ -70,7 +74,6 @@ Course Tags
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/content-tagging-how-tos/export_tag_data_from_course.rst
@@ -83,7 +86,6 @@ Advanced Components
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :glob:
 
    ../how-tos/course_development/exercise_tools/enable_notes.rst
