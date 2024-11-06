@@ -6,6 +6,8 @@
 Graded Subsections
 **********************************************
 
+.. tags:: educator, concept, test other tag
+
 After you configure assignment types, as you are organizing your course, you
 set the assignment type for subsections that contain problems that are to be
 graded.

@@ -5,6 +5,8 @@
 Adding Files to a Course
 ########################
 
+.. tags:: educator, how-to
+
 Adding files, such as images, that you can use in your course has the following
 steps.
 
