@@ -1,9 +1,8 @@
-=========================
 Hooks Extension Framework
-=========================
+#########################
 
 What is the Hooks Extension Framework?
-=======================================
+**************************************
 
 Based on the `open-closed principle`_, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the `Open edX Django plugins`_ architecture, allowing developers to implement new features to fit customer needs while reducing the need for core modifications and minimizing maintenance efforts.
 
@@ -24,48 +23,48 @@ A longer description of the framework and its history can be found in `OEP 50`_.
 .. _open-closed principle: https://docs.openedx.org/projects/edx-platform/en/open-release-quince.master/concepts/extension_points.html
 
 Why adopt the Hooks Extension Framework?
-========================================
+****************************************
 
 Stable and Maintainable Extensions
-----------------------------------
+==================================
 
 The Hooks Extension Framework allows developers to extend the platform's functionality in a stable, maintainable, and decoupled way ensuring easier upgrades and long-term stability by removing the need to modify the core in an significant way.
 
 Contained Solution Implementation
----------------------------------
+=================================
 
 By avoiding core modifications, the framework promotes self-contained solutions, eliminating the need for custom code to coexist with core logic which lowers maintenance costs for extension developers.
 
 Leveraging the Open edX Plugin Extension Mechanism
---------------------------------------------------
+==================================================
 
 The framework allows developers to implement custom business logic and integrations directly in plugins. This keeps core modifications minimal, focusing maintenance and development efforts on plugins, where solutions can be built and maintained independently of the core platform.
 
 Standardization
----------------
+===============
 
 Both filters and events implement approaches for adding additional features, such as communication between services or backend flow control. With these standards in place, it's easy to identify when and how to use the framework as a solution, ensuring a consistent and predictable approach to extending the platform.
 
 Reduce Fork Modifications
--------------------------
+=========================
 
 The need to modify logic in forks is minimized, as most extensions can now be implementing using the framework, keeping forks closer to the core and easier to manage.
 
 Community Compatibility
-------------------------
+=======================
 
 The framework allows for shorter and more agile contribution cycles. By adding standardized extension points, contributors avoid creating customer-specific logic, making development more community-friendly.
 
 Backward Compatibility
------------------------
+======================
 
 Hooks are designed to be backward compatible, guaranteeing stability across releases and making it easier to upgrade without breaking existing functionality.
 
 Open edX Events and Filters
-============================
+***************************
 
 Open edX Events
-----------------
+===============
 
 Events are Open edX-specific Django signals sent in specific places on the Open edX platform. They allow developers to listen to these signals and perform additional processing based on the event data.
 
@@ -74,7 +73,7 @@ To start using Open edX Events in your project, see the `Open edX Events`_ docum
 .. _Open edX Events: https://docs.openedx.org/projects/openedx-events/en/latest/
 
 Open edX Filters
------------------
+================
 
 Filters are functions that can modify the application's behavior by altering input data or halting execution based on specific conditions. They allow developers to implement application flow control based on their business logic or requirements without directly modifying the application code.
 
@@ -83,7 +82,7 @@ To start using Open edX Filters in your project, see the `Open edX Filters`_ doc
 .. _Open edX Filters: https://docs.openedx.org/projects/openedx-filters/en/latest/
 
 Differences between Events and Filters
----------------------------------------
+=======================================
 
 Here are some key differences between Open edX Events and Filters:
 
@@ -112,10 +111,10 @@ Here are some key differences between Open edX Events and Filters:
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
 
 How to know when to use an Event or a Filter?
-----------------------------------------------
+=============================================
 
 When to use an Open edX Event?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Use an Open edX Event when but not limited to:
 
@@ -133,7 +132,7 @@ You can review the `Open edX Events`_ documentation for more information on `how
 .. _how to implement event receivers: https://docs.openedx.org/projects/openedx-events/en/latest/how-tos/using-events.html#receiving-events
 
 When to use an Open edX Filter?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Use an Open edX Filter when but not limited to:
 
