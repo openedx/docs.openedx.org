@@ -1,6 +1,8 @@
 Learner Engagement & Communication
 #####################################
 
+.. _Course Discussions:
+
 Course Discussions
 *******************************************************
 
@@ -24,6 +26,8 @@ Course Discussions
    ../how-tos/communication/setup_cohorted_discussions.rst
    ../concepts/communication/manage_divided_discussions.rst
    ../how-tos/communication/closing_discussions.rst
+
+.. _Bulk Emails:
 
 Bulk Emails
 *******************************************************
@@ -57,6 +61,8 @@ Course Highlights
    :glob:
 
    ../how-tos/course_development/set_course_highlights.rst
+
+.. _Course Updates:
 
 Course Updates
 *******************************************************

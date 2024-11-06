@@ -1,6 +1,8 @@
 Creating a Course in Open edX®
 #####################################
 
+.. _Planning Course Information:
+
 Planning Course Information
 *******************************************************
 
@@ -129,6 +131,8 @@ Beta Testing a Course
 
    ../concepts/releasing-course/beta_testing.rst
    ../how-tos/releasing-course/add_beta_testers.rst
+
+.. _Launch a Course:
 
 Launch a Course
 *******************************************************

@@ -29,11 +29,15 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`Planning Course Information`
+      | :ref:`Create a New Course`
+      | :ref:`Add Course Staff`
+      | :ref:`Launch a Course`
 
-         navigation/creating_course
+      .. button-ref:: navigation/creating_course
+         :color: primary
+         :outline:
+         :expand:
 
    .. grid-item-card:: Learner Engagement & Communication
       :class-card: sd-shadow-md sd-p-2
@@ -44,11 +48,15 @@ Open edX Educators
          :height: 150px
          :align: center
 
-      .. toctree::
-         :maxdepth: 1
-         :glob:
+      | :ref:`Course Discussions`
+      | :ref:`Bulk Emails`
+      | :ref:`Course Updates`
+      
 
-         navigation/learner_engagement_communication
+      .. button-ref:: navigation/learner_engagement_communication
+         :color: primary
+         :outline:
+         :expand:
 
 
    .. grid-item-card:: Content Creation & Management
@@ -125,4 +133,12 @@ Open edX Educators
          :glob:
 
          navigation/advanced_features
+
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   navigation/creating_course
+   navigation/learner_engagement_communication
 
