@@ -160,3 +160,4 @@ Open edX Documentation
          other/feedback
          other/getting_help
          Technical Decisions About This Site <documentors/decisions/index>
+         developers/references/aspects_home
