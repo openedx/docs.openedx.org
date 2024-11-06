@@ -33,6 +33,7 @@ General References
    :maxdepth: 1
    :glob:
 
+   /developers/references/aspects_home
    *
    instructional_design/index
    course_development/index

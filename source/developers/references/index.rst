@@ -9,7 +9,7 @@ Per Repo Documentation
    relevant mapping to the ``intersphinx_mapping`` setting in conf.py
 
 * :doc:`DoneXBlock:index`
-* :doc:`openedx-aspects:index`
+* :doc:`aspects_home`
 * :doc:`edx-platform:index`
 * :doc:`xblock:index`
 * :doc:`wordpress-ecommerce-plugin:index`
@@ -26,3 +26,8 @@ Other References
    internal_data_formats/index
    developer_guide/index
    glossary
+
+.. toctree::
+   :hidden:
+   
+   aspects_home

@@ -80,6 +80,12 @@ intersphinx_mapping = {
         f"/{rtd_version}",
         None,
     ),
+    "platform-plugin-aspects": (
+        f"https://docs.openedx.org/projects/platform-plugin-aspects/{rtd_language}/{rtd_version}", None
+    ),
+    "event-routing-backends": (
+        f"https://event-routing-backends.readthedocs.io/{rtd_language}/{rtd_version}", None
+    ),
     "edx-installing-configuring-and-running": (
         f"https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/{rtd_language}/{rtd_version}",
         None,
