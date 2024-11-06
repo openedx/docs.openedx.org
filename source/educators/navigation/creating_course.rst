@@ -76,6 +76,7 @@ Create a New Course
    ../how-tos/course_development/create_hide_delete_sections.rst
    ../how-tos/create_subsection.rst
    ../how-tos/set_up_course/add_metadata.rst
+   ../how-tos/use_section_independently_of_course_outline.rst
    ../references/resources_for_course_teams.rst
    ../references/resources_for_open_edx.rst
 
@@ -88,7 +89,6 @@ Add Course Staff
    :maxdepth: 2
    :glob:   
 
-   ../references/user_roles.rst
    ../references/course_development/course_staff.rst
    ../how-tos/set_up_course/add_course_staff.rst
    ../how-tos/beta_test_course.rst
@@ -108,6 +108,7 @@ Create a Course About Page
    ../how-tos/set_up_course/describe_course.rst
    ../how-tos/set_up_course/edit_course_about.rst
    ../how-tos/add_image.rst
+   ../references/course_development/about_video_guidelines.rst
    
 
 Set Up Course Certificates
@@ -122,6 +123,7 @@ Set Up Course Certificates
    ../how-tos/set_up_course/enable_badges.rst
    ../how-tos/set_up_course/edit_certificate.rst
    ../how-tos/set_up_certificates.rst
+   ../how-tos/issue_certificates.rst
 
 Set Up Course Pre-Requisites
 *******************************************************

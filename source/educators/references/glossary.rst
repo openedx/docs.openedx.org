@@ -1,5 +1,9 @@
+:orphan:
+
+.. _Educators Glossary:
+
 #####################
-Glossary (MIGRATION)
+Glossary
 #####################
 
 :ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F`

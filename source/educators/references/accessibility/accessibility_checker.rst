@@ -105,4 +105,7 @@ content:
 .. seealso::
  :class: dropdown
 
-  :ref:`Accessibility`
+  :ref:`edX Accessibility Guidelines` (concept)
+  :ref:`Accessibility Best Practices for Course Content Development` (concept)
+  :ref:`Designing for Mobile` (concept)
+  :ref:`Supporting Learners with Diverse Needs` (concept)

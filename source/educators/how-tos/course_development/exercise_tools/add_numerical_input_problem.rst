@@ -5,6 +5,8 @@
 Adding a Numerical Input Problem
 ***********************************
 
+.. youtube:: fkoF8ZDPMoQ
+
 You add numerical input problems in Studio by selecting the **Problem**
 component. In the problem editor, select the **Numerical Input** option. Fill in
 the fields on this screen to create your problem.

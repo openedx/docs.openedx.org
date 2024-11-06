@@ -18,6 +18,8 @@ Create and Manage Course Units
    ../how-tos/delete_content.rst
    ../how-tos/copy_paste_course_content.rst
    ../how-tos/publish_content.rst
+   ../references/course_development/course_units.rst
+   ../references/course_development/unit_workflow_and_status.rst
 
 .. _Create and Manage Components:
 
@@ -28,6 +30,7 @@ Create and Manage Components
    :maxdepth: 2
    :glob:
 
+   ../references/course_development/what_is_a_component.rst
    ../how-tos/course_development/add_edit_components.rst
    ../how-tos/course_development/set_component_restrictions.rst
    ../how-tos/course_development/reorganize_components.rst
@@ -50,6 +53,7 @@ Add Text Components
    ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
    ../how-tos/course_development/text_components/paste_without_formatting.rst
    ../how-tos/add_written_content.rst
+   ../how-tos/course_development/text_components/work_with_latex.rst
    
 .. _Add Video Components:
 

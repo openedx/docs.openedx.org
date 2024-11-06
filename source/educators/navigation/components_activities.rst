@@ -223,6 +223,7 @@ Numerical Input Problem
    ../how-tos/course_development/exercise_tools/edit_numerical_input_advanced.rst
    ../how-tos/course_development/exercise_tools/award_partial_credit_numerical_input.rst
    ../how-tos/course_development/exercise_tools/create_problem_in_latex.rst
+   ../how-tos/course_development/text_components/work_with_latex.rst
    ../how-tos/course_development/exercise_tools/add_numerical_input_problem.rst
 
 .. _Nav Open Response Assessments:
@@ -391,6 +392,7 @@ Timed Exams
    :glob:   
 
    ../concepts/advanced_features/timed_exams.rst
+   ../how-tos/advanced_features/timed_exams.rst
 
 Zooming Image Tool
 *******************************************************

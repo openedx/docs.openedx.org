@@ -1,3 +1,0 @@
-Open the Course Outline
-#############################
-

@@ -167,7 +167,9 @@ Open edX Educators
       :columns: 12
 
       | :ref:`The Open edX Platform`
+      | :ref:`Export Import Courses`
       | :ref:`Explore Your Dashboard and Profile`
+      | :ref:`Educators Glossary`
 
       .. button-ref:: navigation/other
          :color: primary
