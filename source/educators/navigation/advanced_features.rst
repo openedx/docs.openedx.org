@@ -69,7 +69,7 @@ Use Open edX as an LTI Tool Provider
    ../references/advanced_features/lti_canvas_example.rst
    ../references/advanced_features/lti_blackboard_example.rst  
 
-Course Tags
+Course Tags and Taxonomies
 *******************************************************
 
 .. toctree::
