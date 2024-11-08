@@ -178,4 +178,4 @@ Course Content`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Offering Differentiated Content` (concept)
+ :ref:`Offering Differentiated Content` (concept)

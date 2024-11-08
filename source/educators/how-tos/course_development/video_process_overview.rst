@@ -32,4 +32,3 @@ The following diagram outlines the general process for adding videos to a course
    the video component.
 
 
-

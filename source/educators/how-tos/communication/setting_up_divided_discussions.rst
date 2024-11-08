@@ -116,4 +116,4 @@ Divided Discussion Topics`.
 .. seealso::
  :class: dropdown
 
-  :ref:`About Divided Discussions` (concept)
+ :ref:`About Divided Discussions` (concept)

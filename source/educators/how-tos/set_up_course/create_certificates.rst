@@ -164,4 +164,3 @@ manually remove unused images. For information, see
 :ref:`Delete a File <Delete a File>`.
 
 
-

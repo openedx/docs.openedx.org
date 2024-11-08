@@ -6,6 +6,8 @@
 Import a Course
 ***************
 
+.. youtube:: q8QJB5KVKbw
+
 When you have released your course, you can use the course export and import
 tools in Studio to save a backup copy of the course, and optionally re-import
 your course for editing. For more information, see :ref:`Export a Course` and
@@ -71,6 +73,8 @@ To import a course, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Export a Course` (how-to)
-  :ref:`Course Export File Terminology` (reference)
-  :ref:`Work with the targz File` (reference)
+ :ref:`Export a Course` (how-to)
+
+ :ref:`Course Export File Terminology` (reference)
+
+ :ref:`Work with the targz File` (reference)

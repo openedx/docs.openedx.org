@@ -95,4 +95,3 @@ Create a Zooming Image Tool
 
 #. Select **Save**.
 
-

@@ -451,6 +451,8 @@ When preparing a message from this template, search for values enclosed by
 .. seealso::
  :class: dropdown
 
-  :ref:`Bulk Email` (reference)
-  :ref:`Send_Bulk_Email` (how-to)
-  :ref:`Review Sent Messages` (how-to)
+ :ref:`Bulk Email` (reference)
+
+ :ref:`Send_Bulk_Email` (how-to)
+
+ :ref:`Review Sent Messages` (how-to)

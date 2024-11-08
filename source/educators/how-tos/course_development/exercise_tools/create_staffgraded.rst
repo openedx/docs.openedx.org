@@ -52,7 +52,7 @@ Staff Graded Assignment Settings
 .. seealso::
  :class: dropdown
 
-  :ref:`StaffGraded Grading` (concept)
+ :ref:`StaffGraded Grading` (concept)
 
 
 

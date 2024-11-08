@@ -261,6 +261,8 @@ inside this tag will be ignored by MathJax processor. An example follows.
 .. seealso::
  :class: dropdown
 
-  :ref:`Text Input` (reference)
-  :ref:`Add Text Input Problem` (how to)
-  :ref:`Text Input Problem XML` (reference)
+ :ref:`Text Input` (reference)
+
+ :ref:`Add Text Input Problem` (how to)
+
+ :ref:`Text Input Problem XML` (reference)

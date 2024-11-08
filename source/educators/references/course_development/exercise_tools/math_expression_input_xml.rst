@@ -262,6 +262,7 @@ more paragraphs ``<p>`` of explanatory text.
 .. seealso::
  :class: dropdown
 
-  :ref:`Math Expression Input` (reference)
-  :ref:`Adding Math Expression Problem` (reference)
+ :ref:`Math Expression Input` (reference)
+
+ :ref:`Adding Math Expression Problem` (reference)
 

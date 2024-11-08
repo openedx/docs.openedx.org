@@ -32,7 +32,10 @@ the **Grace Period on Deadline** field. Enter the value in ``HH:MM`` format.
 .. seealso::
  :class: dropdown
 
-  :ref:`Graded Subsections` (concept)
-  :ref:`Gradebook Assignment Types` (reference)
-  :ref:`The Learner View of Grades` (reference)
-  :ref:`Set the Grade Range` (how-to)
+ :ref:`Graded Subsections` (concept)
+
+ :ref:`Gradebook Assignment Types` (reference)
+
+ :ref:`The Learner View of Grades` (reference)
+
+ :ref:`Set the Grade Range` (how-to)

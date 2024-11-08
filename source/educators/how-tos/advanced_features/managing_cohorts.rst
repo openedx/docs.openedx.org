@@ -619,9 +619,14 @@ immediately become visible to all students.
 .. seealso::
  :class: dropdown
 
-  :ref:`Cohorts Overview` (concept)
-  :ref:`Create Cohort Specific Course Content` (how-to)
-  :ref:`About Divided Discussions` (concept)
-  :ref:`Managing Divided Discussion Topics` (concept)
-  :ref:`Moderating_discussions` (concept)
-  :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Cohorts Overview` (concept)
+
+ :ref:`Create Cohort Specific Course Content` (how-to)
+
+ :ref:`About Divided Discussions` (concept)
+
+ :ref:`Managing Divided Discussion Topics` (concept)
+
+ :ref:`Moderating_discussions` (concept)
+
+ :ref:`Setting Up Divided Discussions` (how-to)

@@ -65,7 +65,10 @@ You can see the OLX for the example problem from the Overview section below.
 .. seealso::
  :class: dropdown
 
-  :ref:`Dropdown` (reference)
-  :ref:`Dropdown Problem XML` (reference)
-  :ref:`Use Hints in a Dropdown Problem` (how to)
-  :ref:`Use Feedback in a Dropdown Problem` (how to)
+ :ref:`Dropdown` (reference)
+
+ :ref:`Dropdown Problem XML` (reference)
+
+ :ref:`Use Hints in a Dropdown Problem` (how to)
+
+ :ref:`Use Feedback in a Dropdown Problem` (how to)

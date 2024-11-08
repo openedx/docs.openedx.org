@@ -122,4 +122,4 @@ Create the Text Component in Studio
 .. seealso::
  :class: dropdown
 
-  :ref:`View Qualtrics Responses` (reference)
+ :ref:`View Qualtrics Responses` (reference)

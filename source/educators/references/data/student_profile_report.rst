@@ -98,6 +98,8 @@ team member and the following columns.
  :class: dropdown
 
  :ref:`Learner Data` (concept)
+
  :ref:`View and download student data` (how-to)
+
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
 

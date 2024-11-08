@@ -47,5 +47,5 @@ Create a Custom JavaScript Display and Grading Problem
 .. seealso::
  :class: dropdown
 
-  :ref:`Custom JavaScript` (reference)
+ :ref:`Custom JavaScript` (reference)
 

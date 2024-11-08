@@ -1,3 +1,0 @@
-Reorganize the Course Outline
-################################
-

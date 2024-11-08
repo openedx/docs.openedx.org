@@ -51,5 +51,6 @@ as an XSeries.
 .. seealso::
  :class: dropdown
 
-  :ref:`Course Number Guidelines` (reference)
-  :ref:`Creating a New Course <Create a New Course>`
+ :ref:`Course Number Guidelines` (reference)
+
+ :ref:`Creating a New Course <Create a New Course>`

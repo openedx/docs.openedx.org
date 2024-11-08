@@ -62,4 +62,3 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 1. From your course Studio, navigate to *Advanced Settings*
 2. Set "Allow Anonymous Discussion Posts to Peers" to true/false to enable/disable.
 
-

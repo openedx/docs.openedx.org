@@ -282,7 +282,10 @@ halves.
 .. seealso::
  :class: dropdown
 
-  :ref:`Multi select` (reference)
-  :ref:`Adding a Multi Select Problem` (how to)
-  :ref:`Adding Feedback and Hints to a Problem` (how to)
-  :ref:`Multi select Problem XML` (reference)
+ :ref:`Multi select` (reference)
+
+ :ref:`Adding a Multi Select Problem` (how to)
+
+ :ref:`Adding Feedback and Hints to a Problem` (how to)
+
+ :ref:`Multi select Problem XML` (reference)

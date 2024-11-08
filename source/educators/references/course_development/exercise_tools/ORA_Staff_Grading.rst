@@ -174,7 +174,10 @@ grading claim on any submissions the staff member currently has open, but ungrad
 .. seealso::
  :class: dropdown
 
-  :ref:`Open Response Assessments` (concept)
-  :ref:`PA Create an ORA Assignment` (how to)
-  :ref:`Managing ORA Assignments` (how to)
-  :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`Open Response Assessments` (concept)
+
+ :ref:`PA Create an ORA Assignment` (how to)
+
+ :ref:`Managing ORA Assignments` (how to)
+
+ :ref:`Accessing ORA Assignment Information` (reference)

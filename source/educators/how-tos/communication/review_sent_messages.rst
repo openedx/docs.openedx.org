@@ -41,6 +41,8 @@ message text.
 .. seealso::
  :class: dropdown
 
-  :ref:`Bulk Email` (reference)
-  :ref:`Send_Bulk_Email` (how-to)
-  :ref:`Example Messages to Students` (reference)
+ :ref:`Bulk Email` (reference)
+
+ :ref:`Send_Bulk_Email` (how-to)
+
+ :ref:`Example Messages to Students` (reference)

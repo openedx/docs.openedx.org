@@ -41,6 +41,6 @@ selection of other exercises and tools that you can add to your course.
 .. seealso::
  :class: dropdown
 
-  :ref:`Core Problem Types` (reference)
-  :ref:'Enable Additional Exercises and Tools' (how to)
+ :ref:`Core Problem Types` (reference)
 
+ :ref:'Enable Additional Exercises and Tools' (how to)

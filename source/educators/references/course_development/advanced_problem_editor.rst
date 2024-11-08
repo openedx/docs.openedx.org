@@ -229,8 +229,10 @@ numerical input question follows.
 .. seealso::
  :class: dropdown
 
-  :ref:`Partial Credit` (reference)
-  :ref:`Adding Tooltips` (reference)
+ :ref:`Partial Credit` (reference)
+
+ :ref:`Adding Tooltips` (reference)
+
 
 .. _Problem Randomization:
 
@@ -261,10 +263,16 @@ course's XML files is no longer supported.
 .. seealso::
  :class: dropdown
 
-  :ref:`Working with Problem Components` (reference)
-  :ref:`Modifying a Released Problem` (reference)
-  :ref:`Problem Settings` (reference)
-  :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems` (reference)
-  :ref:`Partial Credit` (reference)
-  :ref:`Adding Tooltips` (reference)
+ :ref:`Working with Problem Components` (reference)
+
+ :ref:`Modifying a Released Problem` (reference)
+
+ :ref:`Problem Settings` (reference)
+
+ :ref:`Feedback Best Practices` (concept)
+
+ :ref:`Learner View of Problems` (reference)
+
+ :ref:`Partial Credit` (reference)
+
+ :ref:`Adding Tooltips` (reference)

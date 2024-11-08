@@ -730,7 +730,10 @@ information, see
 .. seealso::
  :class: dropdown
 
-  :ref:`PA Create an ORA Assignment` (how to)
-  :ref:`Managing ORA Assignments` (how to)
-  :ref:`ORA Staff Grading` (reference)
-  :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`PA Create an ORA Assignment` (how to)
+
+ :ref:`Managing ORA Assignments` (how to)
+
+ :ref:`ORA Staff Grading` (reference)
+
+ :ref:`Accessing ORA Assignment Information` (reference)

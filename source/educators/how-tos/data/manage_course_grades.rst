@@ -139,6 +139,7 @@ follow these steps.
 
  :ref:`Interpret the Grade Report` (reference)
 
+
 .. _problem_report:
 
 ************************************************************
@@ -194,6 +195,7 @@ ever enrolled in your course, follow these steps.
  :class: dropdown
 
  :ref:`Interpret the Problem Grade Report` (reference)
+
 
 .. _gradebook:
 

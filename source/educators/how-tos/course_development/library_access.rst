@@ -138,6 +138,8 @@ steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Content Libraries Overview` (concept)
-  :ref:`Create a New Library` (how to)
-  :ref:`Exporting and Importing a Library` (how to)
+ :ref:`Content Libraries Overview` (concept)
+
+ :ref:`Create a New Library` (how to)
+
+ :ref:`Exporting and Importing a Library` (how to)

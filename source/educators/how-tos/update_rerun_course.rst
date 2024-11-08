@@ -95,4 +95,3 @@ for launch, see :ref:`Launch`.
 
 .. note::
   Changes you make in the new course have no effect on the original course.
-

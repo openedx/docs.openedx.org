@@ -54,7 +54,10 @@ selected **Show Answer** to reveal the correct answer and an explanation.
 .. seealso::
  :class: dropdown
 
-  :ref:`Adding a Multi Select Problem` (how to)
-  :ref:`Adding Feedback and Hints to a Problem` (how to)
-  :ref:`Multi select Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Multi select Problem` (how to)
+ :ref:`Adding a Multi Select Problem` (how to)
+
+ :ref:`Adding Feedback and Hints to a Problem` (how to)
+
+ :ref:`Multi select Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Multi select Problem` (how to)

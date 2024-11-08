@@ -91,4 +91,4 @@ To add a course handout, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Adding Course Updates and Handouts` (reference)
+ :ref:`Adding Course Updates and Handouts` (reference)

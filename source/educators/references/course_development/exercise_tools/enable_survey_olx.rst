@@ -119,4 +119,4 @@ The following table describes the attribute of the ``survey`` element.
 .. seealso::
  :class: dropdown
 
-  :ref:`Survey Tool` (how to)
+ :ref:`Survey Tool` (how to)

@@ -146,4 +146,4 @@ problems, questions, and issues can occur while a course is running.
 .. seealso::
  :class: dropdown
 
-  :ref:`Beta_Testing` (reference)
+ :ref:`Beta_Testing` (reference)

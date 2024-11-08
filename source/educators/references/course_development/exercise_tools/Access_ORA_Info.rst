@@ -310,8 +310,11 @@ Example: ``[1] - john_doe - prompt_0.txt``.
 .. seealso::
  :class: dropdown
 
-  :ref:`Open Response Assessments` (concept)
-  :ref:`PA Create an ORA Assignment` (how to)
-  :ref:`Managing ORA Assignments` (how to)
-  :ref:`ORA Staff Grading` (reference)
+ :ref:`Open Response Assessments` (concept)
+
+ :ref:`PA Create an ORA Assignment` (how to)
+
+ :ref:`Managing ORA Assignments` (how to)
+
+ :ref:`ORA Staff Grading` (reference)
 

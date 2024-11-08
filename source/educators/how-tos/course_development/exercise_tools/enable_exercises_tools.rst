@@ -70,7 +70,7 @@ To enable an advanced exercise or tool, follow these steps.
 
 .. seealso::
  :class: dropdown
-  
-  :ref:`Core Problem Types` (reference)
-  :ref:'Create Exercises' (concept)
 
+ :ref:`Core Problem Types` (reference)
+
+ :ref:'Create Exercises' (concept)

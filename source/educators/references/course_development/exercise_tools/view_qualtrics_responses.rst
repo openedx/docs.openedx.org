@@ -88,4 +88,4 @@ use functions such as VLOOKUP in Microsoft Excel.
 .. seealso::
  :class: dropdown
 
-  :ref:`Qualtrics Survey` (how to)
+ :ref:`Qualtrics Survey` (how to)

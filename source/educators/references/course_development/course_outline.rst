@@ -46,4 +46,3 @@ following message is visible.
 To add content, you :ref:`create a section<Create a Section>`.
 
 
-

@@ -94,6 +94,5 @@ To allow learners to download early certificates, you modify the
 .. seealso::
   :class: dropdown
 
-  :ref:`Setting Up Certificates`
-  :ref:`Reporting Certificate Data`
-
+ :ref:`Setting Up Certificates`
+ :ref:`Reporting Certificate Data`

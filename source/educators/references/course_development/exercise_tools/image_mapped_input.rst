@@ -29,5 +29,6 @@ You can specify the following types of regions.
 .. seealso::
  :class: dropdown
 
-  :ref:`Create Image Mapped Input Problem` (how to)
-  :ref:`Image Mapped Input Problem XML` (reference)
+ :ref:`Create Image Mapped Input Problem` (how to)
+
+ :ref:`Image Mapped Input Problem XML` (reference)

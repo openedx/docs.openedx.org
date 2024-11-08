@@ -1,3 +1,4 @@
+#########################################
 Create a flat taxonomy by uploading a CSV
 #########################################
 
@@ -23,4 +24,3 @@ The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarc
    #. In Numbers, use File > Export To > CSV… and use the default options.
 
 #. Import the taxonomy following `How-To: Import and export a taxonomy <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4154490883/How-to+Import+and+export+a+taxonomy>`_ guide.
-

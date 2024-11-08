@@ -63,4 +63,3 @@ width by 225 pixels in height, and in .jpg or .png format. Make sure the
 image that you upload maintains the aspect ratio of those dimensions so that
 the image appears correctly on the dashboard.
 
-

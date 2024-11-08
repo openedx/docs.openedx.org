@@ -69,4 +69,3 @@ Create a Discussion Component
    names of discussion components that you created until after the course has
    started and the unit is released. For more details about when discussion
    topics are visible, see :ref:`Visibility of Discussion Topics`.
-

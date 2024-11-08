@@ -190,5 +190,6 @@ that are anonymous to other learners, as seen below.
 .. seealso::
  :class: dropdown
 
-  :ref:`Discussions` (concept)
+ :ref:`Discussions` (concept)
+
   

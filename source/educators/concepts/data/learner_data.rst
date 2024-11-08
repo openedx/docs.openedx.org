@@ -72,5 +72,7 @@ understanding of how the learner population changes over time.
  :class: dropdown
 
  :ref:`Columns in the Student Profile Report` (reference)
+
  :ref:`View and download student data` (how-to)
+
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)

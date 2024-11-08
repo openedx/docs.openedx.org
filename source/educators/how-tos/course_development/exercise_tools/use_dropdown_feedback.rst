@@ -117,9 +117,12 @@ a custom label.
 .. seealso::
  :class: dropdown
 
-  :ref:`Dropdown` (reference)
-  :ref:`Dropdown Problem XML` (reference)
-  :ref:`Adding Dropdown` (how to)
-  :ref:`Use Hints in a Dropdown Problem` (how to)
+ :ref:`Dropdown` (reference)
+
+ :ref:`Dropdown Problem XML` (reference)
+
+ :ref:`Adding Dropdown` (how to)
+
+ :ref:`Use Hints in a Dropdown Problem` (how to)
 
 

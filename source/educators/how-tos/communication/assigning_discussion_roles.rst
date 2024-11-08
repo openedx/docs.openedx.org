@@ -74,8 +74,10 @@ author or have the Admin role.
 .. seealso::
  :class: dropdown
 
-  :ref:`Guidance for Discussion Moderators` (concept)
-  :ref:`Moderating_discussions` (concept)
-  :ref:`Administer Discussions` (how-to)
+ :ref:`Guidance for Discussion Moderators` (concept)
+
+ :ref:`Moderating_discussions` (concept)
+
+ :ref:`Administer Discussions` (how-to)
 
 

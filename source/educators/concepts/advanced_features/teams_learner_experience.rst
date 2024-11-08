@@ -113,8 +113,12 @@ For information about course discussions and managing discussions, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-  :ref:`Enable and Configure Teams` (how-to)
-  :ref:`Teams Configuration Options` (reference)
-  :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+
+ :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+
+ :ref:`Enable and Configure Teams` (how-to)
+
+ :ref:`Teams Configuration Options` (reference)
+
+ :ref:`Managing Teams via CSV Upload` (reference)

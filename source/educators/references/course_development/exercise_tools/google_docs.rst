@@ -53,6 +53,7 @@ Google user interface. You do not need to edit the Google Document component.
 .. seealso::
  :class: dropdown
 
-  :ref:`Embed Google Drive Files` (how to)
-  :ref:`Add a Google Drive File to Your Course` (how to)
+ :ref:`Embed Google Drive Files` (how to)
+
+ :ref:`Add a Google Drive File to Your Course` (how to)
 

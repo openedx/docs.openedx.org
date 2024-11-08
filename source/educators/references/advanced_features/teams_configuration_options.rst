@@ -59,8 +59,12 @@ a given team group, allowing you to adjust team sizes to fit your course needs.
 .. seealso::
  :class: dropdown
 
-  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-  :ref:`Enable and Configure Teams` (how-to)
-  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
-  :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+
+ :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+
+ :ref:`Enable and Configure Teams` (how-to)
+
+ :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+
+ :ref:`Managing Teams via CSV Upload` (reference)

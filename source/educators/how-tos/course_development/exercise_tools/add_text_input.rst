@@ -67,6 +67,8 @@ advanced editor. For an overview of hints in problems, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Text Input` (reference)
-  :ref:`Text Input Problem XML` (reference)
-  :ref:`Editing Text Input Problems using the Advanced Editor` (how to)
+ :ref:`Text Input` (reference)
+
+ :ref:`Text Input Problem XML` (reference)
+
+ :ref:`Editing Text Input Problems using the Advanced Editor` (how to)

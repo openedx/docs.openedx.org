@@ -104,4 +104,4 @@ topics, see :ref:`Visibility of Discussion Topics`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Configuring Edx Discussions` (how-to)

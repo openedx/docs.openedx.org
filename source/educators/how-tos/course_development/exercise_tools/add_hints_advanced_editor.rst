@@ -41,7 +41,10 @@ For example, the following OLX for a single select problem shows two hints.
   .. seealso::
  :class: dropdown
 
-  :ref:`Dropdown` (reference)
-  :ref:`Dropdown Problem XML` (reference)
-  :ref:`Adding Dropdown` (how to)
-  :ref:`Use Feedback in a Dropdown Problem` (how to)
+ :ref:`Dropdown` (reference)
+
+ :ref:`Dropdown Problem XML` (reference)
+
+ :ref:`Adding Dropdown` (how to)
+
+ :ref:`Use Feedback in a Dropdown Problem` (how to)

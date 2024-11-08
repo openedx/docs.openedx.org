@@ -185,7 +185,7 @@ in the :ref:`Obtain the Google Calendar ID` task.
 .. seealso::
  :class: dropdown
 
-  :ref:`Google Calendar Tool` (reference)
+ :ref:`Google Calendar Tool` (reference)
 
 
 

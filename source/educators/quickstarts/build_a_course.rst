@@ -1,3 +1,5 @@
+.. _Quick Start Build a Course:
+
 Quick Start: Build a Course
 ####################################
 
@@ -69,7 +71,6 @@ Follow the steps below to build your first course. By the end, you will have a f
 *****************************
 
 .. include:: ../how-tos/reusable_content/view_as_learner.txt
-
 
 
 

@@ -93,6 +93,8 @@ To send a scheduled email message to course participants, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Bulk Email` (reference)
-  :ref:`Review Sent Messages` (how-to)
-  :ref:`Example Messages to Students` (reference)
+ :ref:`Bulk Email` (reference)
+
+ :ref:`Review Sent Messages` (how-to)
+
+ :ref:`Example Messages to Students` (reference)

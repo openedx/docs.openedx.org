@@ -64,5 +64,5 @@ To create the problem illustrated above, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Problem with Adaptive Hint XML` (reference)
+ :ref:`Problem with Adaptive Hint XML` (reference)
 

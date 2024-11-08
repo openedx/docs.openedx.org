@@ -88,6 +88,7 @@ file to the web and obtain the embed code for the file.
 .. seealso::
  :class: dropdown
 
-  :ref:`Google Drive Files Tool` (reference)
-  :ref:`Add a Google Drive File to Your Course` (how to)
+ :ref:`Google Drive Files Tool` (reference)
+
+ :ref:`Add a Google Drive File to Your Course` (how to)
 

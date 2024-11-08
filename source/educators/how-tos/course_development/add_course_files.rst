@@ -152,5 +152,5 @@ button and then select Download.
 .. seealso::
  :class: dropdown
 
-  :ref:`The Files Page` (reference)
+ :ref:`The Files Page` (reference)
 

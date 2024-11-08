@@ -79,7 +79,10 @@ literature. A few guidelines for the creation of such questions follow.
 .. seealso::
  :class: dropdown
 
-  :ref:`Single Select` (how to)
-  :ref:`Single Select Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
-  :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
+ :ref:`Single Select` (how to)
+
+ :ref:`Single Select Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
+
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how to)

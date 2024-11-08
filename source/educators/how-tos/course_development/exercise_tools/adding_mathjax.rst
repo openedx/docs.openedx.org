@@ -37,4 +37,4 @@ appears on its own line (display).
 .. seealso::
  :class: dropdown
 
-  :ref:`MathJax in Studio` (reference)
+ :ref:`MathJax in Studio` (reference)

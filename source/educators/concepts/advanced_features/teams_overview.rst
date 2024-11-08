@@ -41,8 +41,12 @@ For more information about using discussions, see :ref:`Running_discussions`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-  :ref:`Enable and Configure Teams` (how-to)
-  :ref:`Teams Configuration Options` (reference)
-  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
-  :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+
+ :ref:`Enable and Configure Teams` (how-to)
+
+ :ref:`Teams Configuration Options` (reference)
+
+ :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+
+ :ref:`Managing Teams via CSV Upload` (reference)

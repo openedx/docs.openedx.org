@@ -243,7 +243,10 @@ None.
 .. seealso::
  :class: dropdown
 
-  :ref:`Dropdown` (reference)
-  :ref:`Adding Dropdown` (how to)
-  :ref:`Use Hints in a Dropdown Problem` (how to)
-  :ref:`Use Feedback in a Dropdown Problem` (how to)
+ :ref:`Dropdown` (reference)
+
+ :ref:`Adding Dropdown` (how to)
+
+ :ref:`Use Hints in a Dropdown Problem` (how to)
+
+ :ref:`Use Feedback in a Dropdown Problem` (how to)

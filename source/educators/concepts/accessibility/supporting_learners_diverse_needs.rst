@@ -88,7 +88,10 @@ when creating a course.
 .. seealso::
  :class: dropdown
 
-  :ref:`Accessibility Best Practices for Course Content Development` (concept)
-  :ref:`edX Accessibility Guidelines` (concept)
-  :ref:`Designing for Mobile` (concept)
-  :ref:`Accessibility Checker` (reference)
+ :ref:`Accessibility Best Practices for Course Content Development` (concept)
+
+ :ref:`edX Accessibility Guidelines` (concept)
+
+ :ref:`Designing for Mobile` (concept)
+
+ :ref:`Accessibility Checker` (reference)

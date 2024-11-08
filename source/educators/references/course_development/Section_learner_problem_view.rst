@@ -136,8 +136,12 @@ visible. You can set these attributes in Studio.
 .. seealso::
  :class: dropdown
 
-  :ref:`Working with Problem Components` (reference)
-  :ref:`Modifying a Released Problem` (reference)
-  :ref:`Advanced Editor` (reference)
-  :ref:`Problem Settings` (reference)
-  :ref:`Feedback Best Practices` (concept)
+ :ref:`Working with Problem Components` (reference)
+
+ :ref:`Modifying a Released Problem` (reference)
+
+ :ref:`Advanced Editor` (reference)
+
+ :ref:`Problem Settings` (reference)
+
+ :ref:`Feedback Best Practices` (concept)

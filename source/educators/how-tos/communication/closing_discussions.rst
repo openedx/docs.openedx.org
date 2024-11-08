@@ -39,6 +39,8 @@ reopen, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Discussions` (concept)
-  :ref:`Running_discussions` (concept)
-  :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Discussions` (concept)
+
+ :ref:`Running_discussions` (concept)
+
+ :ref:`Configuring Edx Discussions` (how-to)

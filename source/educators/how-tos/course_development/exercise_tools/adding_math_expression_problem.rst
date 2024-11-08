@@ -31,5 +31,6 @@ To create a math expression input problem, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Math Expression Input` (reference)
-  :ref:`Math Expression Input Problem XML` (reference)
+ :ref:`Math Expression Input` (reference)
+
+ :ref:`Math Expression Input Problem XML` (reference)

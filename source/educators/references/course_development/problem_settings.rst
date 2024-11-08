@@ -141,7 +141,8 @@ been used, the **Hint** or **Next Hint** option is no longer available.
 .. seealso::
  :class: dropdown
 
-  :ref:`Configure Hint` (how-to)
+ :ref:`Configure Hint` (how-to)
+
 
 -----------------------------------
 Best Practices for Providing Hints
@@ -294,9 +295,14 @@ seconds remaining."
 .. seealso::
  :class: dropdown
 
-  :ref:`Working with Problem Components` (reference)
-  :ref:`Modifying a Released Problem` (reference)
-  :ref:`Advanced Editor` (reference)
-  :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems` (reference)
-  :ref:`Configure Hint` (how-to)
+ :ref:`Working with Problem Components` (reference)
+
+ :ref:`Modifying a Released Problem` (reference)
+
+ :ref:`Advanced Editor` (reference)
+
+ :ref:`Feedback Best Practices` (concept)
+
+ :ref:`Learner View of Problems` (reference)
+
+ :ref:`Configure Hint` (how-to)

@@ -1,5 +1,7 @@
 .. :diataxis-type: concept
 
+.. _What is Studio:
+
 ***************
 What Is Studio?
 ***************

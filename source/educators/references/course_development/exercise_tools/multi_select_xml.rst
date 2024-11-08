@@ -346,7 +346,10 @@ correctness.
 .. seealso::
  :class: dropdown
 
-  :ref:`Multi select` (reference)
-  :ref:`Adding a Multi Select Problem` (how to)
-  :ref:`Adding Feedback and Hints to a Problem` (how to)
-  :ref:`Awarding Partial Credit in a Multi select Problem` (how to)
+ :ref:`Multi select` (reference)
+
+ :ref:`Adding a Multi Select Problem` (how to)
+
+ :ref:`Adding Feedback and Hints to a Problem` (how to)
+
+ :ref:`Awarding Partial Credit in a Multi select Problem` (how to)

@@ -435,7 +435,10 @@ correctness.
 .. seealso::
  :class: dropdown
 
-  :ref:`Single Select Overview` (concept)
-  :ref:`Single Select` (how to)
-  :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
-  :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
+ :ref:`Single Select Overview` (concept)
+
+ :ref:`Single Select` (how to)
+
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
+
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
