@@ -175,4 +175,4 @@ The results of the survey are then displayed.
 .. seealso::
  :class: dropdown
 
-  :ref:`Enable Survey OLX` (reference)
+ :ref:`Enable Survey OLX` (reference)

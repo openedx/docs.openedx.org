@@ -73,6 +73,8 @@ To import a course, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Export a Course` (how-to)
-  :ref:`Course Export File Terminology` (reference)
-  :ref:`Work with the targz File` (reference)
+ :ref:`Export a Course` (how-to)
+
+ :ref:`Course Export File Terminology` (reference)
+
+ :ref:`Work with the targz File` (reference)

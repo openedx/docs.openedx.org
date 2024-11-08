@@ -34,4 +34,3 @@ To add a video, follow these steps.
 #. Optionally, you can set more options for the video. For a description of each option,
    see :ref:`Video Settings`.
 
-

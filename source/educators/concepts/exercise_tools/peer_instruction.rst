@@ -110,4 +110,4 @@ include quotation marks around the key value. For more information, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Add Peer Instruction Assignment` (how to)
+ :ref:`Add Peer Instruction Assignment` (how to)

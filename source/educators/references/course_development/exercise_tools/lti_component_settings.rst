@@ -193,5 +193,6 @@ LTI Component Settings
 .. seealso::
  :class: dropdown
 
-  :ref:`Enable_LTI_Components` (how to)
-  :ref:`LTI Component` (reference)
+ :ref:`Enable_LTI_Components` (how to)
+
+ :ref:`LTI Component` (reference)

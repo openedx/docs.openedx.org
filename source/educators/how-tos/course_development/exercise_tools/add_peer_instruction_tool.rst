@@ -169,4 +169,4 @@ reviewed the responses submitted by other class participants.
 .. seealso::
  :class: dropdown
 
-  :ref:`UBC Peer Instruction` (concept)
+ :ref:`UBC Peer Instruction` (concept)

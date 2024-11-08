@@ -73,4 +73,3 @@ Running the Open edX Platform*.
        For information about starting the course, see :ref:`Guidelines for
        Start and End Dates <Guidelines for
        Start and End Dates>`.
-

@@ -60,4 +60,4 @@ in the instructor dashboard.
 .. seealso::
  :class: dropdown
 
-  :ref:`Manage_Course_Enrollments` (how-to)
+ :ref:`Manage_Course_Enrollments` (how-to)

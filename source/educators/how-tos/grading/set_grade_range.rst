@@ -69,7 +69,10 @@ For more information, see :ref:`Setting Up Certificates`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Graded Subsections` (concept)
-  :ref:`Gradebook Assignment Types` (reference)
-  :ref:`The Learner View of Grades` (reference)
-  :ref:`Set the Grace Period` (how-to)
+ :ref:`Graded Subsections` (concept)
+
+ :ref:`Gradebook Assignment Types` (reference)
+
+ :ref:`The Learner View of Grades` (reference)
+
+ :ref:`Set the Grace Period` (how-to)

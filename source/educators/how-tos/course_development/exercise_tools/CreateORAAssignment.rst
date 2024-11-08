@@ -643,7 +643,10 @@ For more information about beta testing, see :ref:`Beta_Testing`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Open Response Assessments` (concept)
-  :ref:`Managing ORA Assignments` (how to)
-  :ref:`ORA Staff Grading` (reference)
-  :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`Open Response Assessments` (concept)
+
+ :ref:`Managing ORA Assignments` (how to)
+
+ :ref:`ORA Staff Grading` (reference)
+
+ :ref:`Accessing ORA Assignment Information` (reference)

@@ -76,4 +76,3 @@ To move components to another unit in the course outline, follow these steps.
        If the old and new locations of the component that you moved were
        previously published, your changes are not reflected in the learner's
        view of the course until you republish the affected units.
-

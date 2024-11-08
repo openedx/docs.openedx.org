@@ -202,5 +202,6 @@ To restore a deleted article, select the link to the article and select
 .. seealso::
  :class: dropdown
 
-  :ref:`About Course Wiki` (reference)
-  :ref:`Course Wiki Tasks` (how to)
+ :ref:`About Course Wiki` (reference)
+
+ :ref:`Course Wiki Tasks` (how to)

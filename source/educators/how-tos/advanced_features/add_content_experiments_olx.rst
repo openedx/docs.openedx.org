@@ -88,9 +88,14 @@ For information about the ``policy.json`` file, see :ref:`Set Up Group Configura
 .. seealso::
  :class: dropdown
 
-  :ref:`Offering Differentiated Content` (concept)
-  :ref:`Overview of Content Experiments` (concept)
-  :ref:`Configure Your Course for Content Experiments` (how-to)
-  :ref:`Experiment Group Configurations` (reference)
-  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
-  :ref:`Guidelines for Modifying Group Configurations` (concept)
+ :ref:`Offering Differentiated Content` (concept)
+
+ :ref:`Overview of Content Experiments` (concept)
+
+ :ref:`Configure Your Course for Content Experiments` (how-to)
+
+ :ref:`Experiment Group Configurations` (reference)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
+ :ref:`Guidelines for Modifying Group Configurations` (concept)

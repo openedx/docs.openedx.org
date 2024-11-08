@@ -106,4 +106,3 @@ A section can contain a unit that is hidden from learners and available to
 members of the course team only. That unit is not visible to learners,
 regardless of the release date of the section or subsection.
 
-

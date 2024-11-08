@@ -98,5 +98,6 @@ message informs the learner that the problem is complete.
 .. seealso::
  :class: dropdown
 
-  :ref:`Creating a Drag and Drop Problem` (how to)
-  :ref:`Drag and Drop` (reference)
+ :ref:`Creating a Drag and Drop Problem` (how to)
+
+ :ref:`Drag and Drop` (reference)

@@ -83,5 +83,5 @@ Sample Chemical Equation Problem Code
 .. seealso::
  :class: dropdown
 
-  :ref:`Chemical Equation Problem XML` (reference)
+ :ref:`Chemical Equation Problem XML` (reference)
 

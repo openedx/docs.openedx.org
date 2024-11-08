@@ -129,14 +129,24 @@ steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`ProctoredExams_Overview` (concept)
-  :ref:`Enable Proctored Exams` (how-to)
-  :ref:`Preparing Learners for Proctored Exams` (concept)
-  :ref:`Online Proctoring Rules` (reference)
-  :ref:`Manage Proctored Exams` (how-to)
-  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-  :ref:`PT Proctored Session Results File` (reference)
-  :ref:`Review PT Proctored Session Results` (how-to)
-  :ref:`Create a Proctored Exam with RPNow` (how-to)
-  :ref:`RPNow Proctored Session Results File` (reference)
-  :ref:`Review RP Proctored Session Results` (how-to)
+ :ref:`ProctoredExams_Overview` (concept)
+
+ :ref:`Enable Proctored Exams` (how-to)
+
+ :ref:`Preparing Learners for Proctored Exams` (concept)
+
+ :ref:`Online Proctoring Rules` (reference)
+
+ :ref:`Manage Proctored Exams` (how-to)
+
+ :ref:`Allow Opting Out of Proctored Exams` (how-to)
+
+ :ref:`PT Proctored Session Results File` (reference)
+
+ :ref:`Review PT Proctored Session Results` (how-to)
+
+ :ref:`Create a Proctored Exam with RPNow` (how-to)
+
+ :ref:`RPNow Proctored Session Results File` (reference)
+
+ :ref:`Review RP Proctored Session Results` (how-to)

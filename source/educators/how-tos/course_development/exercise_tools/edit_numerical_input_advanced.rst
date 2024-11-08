@@ -166,8 +166,12 @@ attribute: ``<numericalresponse answer="[5,8)">`` or
 .. seealso::
  :class: dropdown
 
-  :ref:`Numerical Input` (reference)
-  :ref:`Adding Numerical Input Problem` (how to)
-  :ref:`Use Feedback in a Numerical Input Problems` (how to)
-  :ref:`Numerical Input Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+ :ref:`Numerical Input` (reference)
+
+ :ref:`Adding Numerical Input Problem` (how to)
+
+ :ref:`Use Feedback in a Numerical Input Problems` (how to)
+
+ :ref:`Numerical Input Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)

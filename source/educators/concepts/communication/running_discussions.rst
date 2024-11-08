@@ -197,6 +197,8 @@ units and all course-wide topics are affected.
 .. seealso::
  :class: dropdown
 
-  :ref:`Discussions` (concept)
-  :ref:`Configuring Edx Discussions` (how-to)
-  :ref:`Closing Discussions` (how-to)
+ :ref:`Discussions` (concept)
+
+ :ref:`Configuring Edx Discussions` (how-to)
+
+ :ref:`Closing Discussions` (how-to)

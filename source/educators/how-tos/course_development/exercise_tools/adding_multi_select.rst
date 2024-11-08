@@ -280,10 +280,13 @@ See :ref:`Adding Feedback and Hints to a Problem` for more information on adding
 .. seealso::
  :class: dropdown
 
-  :ref:`Multi select` (reference)
-  :ref:`Adding Feedback and Hints to a Problem` (how to)
-  :ref:`Multi select Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Multi select Problem` (how to)
+ :ref:`Multi select` (reference)
+
+ :ref:`Adding Feedback and Hints to a Problem` (how to)
+
+ :ref:`Multi select Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Multi select Problem` (how to)
 
 
 

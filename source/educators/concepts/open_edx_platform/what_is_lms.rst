@@ -22,4 +22,3 @@ If you have not created a course, see :ref:`Creating a New Course<Creating a New
 
 To continue working on your course, return to the browser tab that shows
 Studio.
-

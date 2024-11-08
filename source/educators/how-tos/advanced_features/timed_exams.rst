@@ -212,4 +212,3 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 
 #. Select **Save**.
 
-

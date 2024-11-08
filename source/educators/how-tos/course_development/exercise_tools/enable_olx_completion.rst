@@ -25,5 +25,6 @@ ssigned.
 .. seealso::
  :class: dropdown
 
-  :ref:`Enable Completion` (how to)
-  :ref:`Completion` (reference)
+ :ref:`Enable Completion` (how to)
+
+ :ref:`Completion` (reference)

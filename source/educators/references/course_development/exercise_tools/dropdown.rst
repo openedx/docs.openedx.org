@@ -44,7 +44,10 @@ problem. An example of a dropdown problem from the learner's perspective follows
 .. seealso::
  :class: dropdown
 
-  :ref:`Adding Dropdown` (how to)
-  :ref:`Dropdown Problem XML` (reference)
-  :ref:`Use Hints in a Dropdown Problem` (how to)
-  :ref:`Use Feedback in a Dropdown Problem` (how to)
+ :ref:`Adding Dropdown` (how to)
+
+ :ref:`Dropdown Problem XML` (reference)
+
+ :ref:`Use Hints in a Dropdown Problem` (how to)
+
+ :ref:`Use Feedback in a Dropdown Problem` (how to)

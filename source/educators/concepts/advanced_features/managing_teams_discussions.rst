@@ -54,8 +54,12 @@ administrators have a **Staff** label.
 .. seealso::
  :class: dropdown
 
-  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-  :ref:`Enable and Configure Teams` (how-to)
-  :ref:`Teams Configuration Options` (reference)
-  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
-  :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+
+ :ref:`Enable and Configure Teams` (how-to)
+
+ :ref:`Teams Configuration Options` (reference)
+
+ :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+
+ :ref:`Managing Teams via CSV Upload` (reference)

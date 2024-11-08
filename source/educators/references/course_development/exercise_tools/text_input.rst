@@ -43,6 +43,8 @@ input problem. An example of a completed text input problem follows.
 .. seealso::
  :class: dropdown
 
-  :ref:`Add Text Input Problem` (how to)
-  :ref:`Text Input Problem XML` (reference)
-  :ref:`Editing Text Input Problems using the Advanced Editor` (how to)
+ :ref:`Add Text Input Problem` (how to)
+
+ :ref:`Text Input Problem XML` (reference)
+
+ :ref:`Editing Text Input Problems using the Advanced Editor` (how to)

@@ -139,4 +139,3 @@ To set the hours per week week estimate in Studio, follow these steps.
 
 #. View your course About page to test how the requirements will appear to
    learners.
-

@@ -21,4 +21,4 @@ tab on the Studio Home page. For details about content libraries, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Use Randomized Content Blocks` (how to)
+ :ref:`Use Randomized Content Blocks` (how to)

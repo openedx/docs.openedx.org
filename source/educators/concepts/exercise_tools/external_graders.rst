@@ -116,5 +116,6 @@ When you build your external grader, keep the following requirements in mind.
 .. seealso::
  :class: dropdown
 
-  :ref:`External Grader Problem Requirements` (reference)
-  :ref:`Create an External Grader Problem in Studio` (how-to)
+ :ref:`External Grader Problem Requirements` (reference)
+
+ :ref:`Create an External Grader Problem in Studio` (how-to)

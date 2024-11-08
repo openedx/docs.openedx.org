@@ -206,6 +206,8 @@ all** drop-down menu.
 .. seealso::
  :class: dropdown
 
-  :ref:`Guidance for Discussion Moderators` (concept)
-  :ref:`Assigning_discussion_roles` (how-to)
-  :ref:`Administer Discussions` (how-to)
+ :ref:`Guidance for Discussion Moderators` (concept)
+
+ :ref:`Assigning_discussion_roles` (how-to)
+
+ :ref:`Administer Discussions` (how-to)

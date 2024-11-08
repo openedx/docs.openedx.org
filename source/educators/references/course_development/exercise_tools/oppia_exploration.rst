@@ -90,4 +90,3 @@ of the website that hosts that exploration and its ID.
 
    Studio does not show the exploration on the unit page. To verify your work,
    select **Preview**, or publish the unit and then select **View Live**.
-

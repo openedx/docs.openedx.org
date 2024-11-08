@@ -215,5 +215,6 @@ For example, the following ``regions`` attribute creates a pentagon.
 .. seealso::
  :class: dropdown
 
-  :ref:`Image Mapped Input` (reference)
-  :ref:`Image Mapped Input Problem XML` (reference)
+ :ref:`Image Mapped Input` (reference)
+
+ :ref:`Image Mapped Input Problem XML` (reference)

@@ -119,6 +119,8 @@ The following table describes the attributes of the ``poll`` element.
 .. seealso::
  :class: dropdown
 
-  :ref:`Poll Tool` (reference)
-  :ref:`Add Poll` (how to)
-  :ref:`Poll Tool for OLX` (reference)
+ :ref:`Poll Tool` (reference)
+
+ :ref:`Add Poll` (how to)
+
+ :ref:`Poll Tool for OLX` (reference)

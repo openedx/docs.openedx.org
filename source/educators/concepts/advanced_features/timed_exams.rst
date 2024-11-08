@@ -45,4 +45,3 @@ To better understand the learner's experience of timed exams, see
   Timed exams are different from :ref:`proctored exams<CA_ProctoredExams>`.
   While both types of exams have a time limit, learners are monitored only
   during proctored exams.
-

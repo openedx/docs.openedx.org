@@ -111,5 +111,6 @@ problem follows.
 .. seealso::
  :class: dropdown
 
-  :ref:`Adding Math Expression Problem` (how to)
-  :ref:`Math Expression Input Problem XML` (reference)
+ :ref:`Adding Math Expression Problem` (how to)
+
+ :ref:`Math Expression Input Problem XML` (reference)

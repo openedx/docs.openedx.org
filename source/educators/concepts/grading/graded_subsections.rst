@@ -52,7 +52,10 @@ For more information about how to designate a subsection as a timed exam, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Gradebook Assignment Types` (reference)
-  :ref:`The Learner View of Grades` (reference)
-  :ref:`Set the Grade Range` (how-to)
-  :ref:`Set the Grace Period` (how-to)
+ :ref:`Gradebook Assignment Types` (reference)
+
+ :ref:`The Learner View of Grades` (reference)
+
+ :ref:`Set the Grade Range` (how-to)
+
+ :ref:`Set the Grace Period` (how-to)

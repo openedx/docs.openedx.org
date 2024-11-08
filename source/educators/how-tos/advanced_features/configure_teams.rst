@@ -220,8 +220,12 @@ To delete a team, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-  :ref:`Teams Configuration Options` (reference)
-  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
-  :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+
+ :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+
+ :ref:`Teams Configuration Options` (reference)
+
+ :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+
+ :ref:`Managing Teams via CSV Upload` (reference)

@@ -85,7 +85,10 @@ You configure the following fields for each assignment type.
 .. seealso::
  :class: dropdown
 
-  :ref:`Graded Subsections` (concept)
-  :ref:`The Learner View of Grades` (reference)
-  :ref:`Set the Grade Range` (how-to)
-  :ref:`Set the Grace Period` (how-to)
+ :ref:`Graded Subsections` (concept)
+
+ :ref:`The Learner View of Grades` (reference)
+
+ :ref:`Set the Grade Range` (how-to)
+
+ :ref:`Set the Grace Period` (how-to)

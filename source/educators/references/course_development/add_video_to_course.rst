@@ -83,4 +83,3 @@ that site. Keep the following guidelines in mind.
 * After you upload a video on a hosting site, you must make sure you have the
   URL for that copy of the video. If you upload copies of your video on more
   than one hosting site, make sure you have the URL for each video location.
-

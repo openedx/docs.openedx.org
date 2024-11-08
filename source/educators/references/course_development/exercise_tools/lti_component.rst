@@ -66,5 +66,6 @@ For more information about how to use Studio as an LTI tool provider, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Enable_LTI_Components` (how to)
-  :ref:`LTI Component settings` (reference)
+ :ref:`Enable_LTI_Components` (how to)
+
+ :ref:`LTI Component settings` (reference)

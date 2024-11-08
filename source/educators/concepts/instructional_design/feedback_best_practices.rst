@@ -26,8 +26,12 @@ reason why the selection is correct.
 .. seealso::
  :class: dropdown
 
-  :ref:`Working with Problem Components` (reference)
-  :ref:`Modifying a Released Problem` (reference)
-  :ref:`Advanced Editor` (reference)
-  :ref:`Problem Settings` (reference)
-  :ref:`Learner View of Problems` (reference)
+ :ref:`Working with Problem Components` (reference)
+
+ :ref:`Modifying a Released Problem` (reference)
+
+ :ref:`Advanced Editor` (reference)
+
+ :ref:`Problem Settings` (reference)
+
+ :ref:`Learner View of Problems` (reference)

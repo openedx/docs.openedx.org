@@ -32,4 +32,4 @@ Learners see the list of course handouts under **Handouts** in the sidebar.
 .. seealso::
  :class: dropdown
 
-  :ref:`Add a Course Update` (how-to)
+ :ref:`Add a Course Update` (how-to)

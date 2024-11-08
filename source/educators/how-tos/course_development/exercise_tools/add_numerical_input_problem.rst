@@ -132,7 +132,10 @@ advanced editor. For an overview of hints in problems, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Numerical Input` (reference)
-  :ref:`Use Feedback in a Numerical Input Problems` (how to)
-  :ref:`Numerical Input Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+ :ref:`Numerical Input` (reference)
+
+ :ref:`Use Feedback in a Numerical Input Problems` (how to)
+
+ :ref:`Numerical Input Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)

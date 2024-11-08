@@ -252,5 +252,6 @@ If you delete a page after the course start date, note that the visibility of th
 .. seealso::
  :class: dropdown
 
-  :ref:`Configure Resources` (how to)
-  :ref:`Adding Textbooks` (how to)
+ :ref:`Configure Resources` (how to)
+
+ :ref:`Adding Textbooks` (how to)

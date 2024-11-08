@@ -232,10 +232,14 @@ LTI URLs for Text components include "html+block" or "html", as follows.
 .. seealso::
  :class: dropdown
 
-  :ref:`Using Open edX as an LTI Tool Provider` (concept)
-  :ref:`Create a Duplicate Course for LTI use` (how-to)
-  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
-  :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
-  :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Using Open edX as an LTI Tool Provider` (concept)
+
+ :ref:`Create a Duplicate Course for LTI use` (how-to)
+
+ :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
+
+ :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
+
+ :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
 
 

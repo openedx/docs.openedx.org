@@ -34,5 +34,6 @@ Example Course Numbers
 .. seealso::
  :class: dropdown
 
-  :ref:`Course Title Guidelines` (reference)
-  :ref:`Creating a New Course <Create a New Course>`
+ :ref:`Course Title Guidelines` (reference)
+
+ :ref:`Creating a New Course <Create a New Course>`

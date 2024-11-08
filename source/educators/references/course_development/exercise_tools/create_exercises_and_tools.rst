@@ -397,5 +397,6 @@ in Studio.
 .. seealso::
  :class: dropdown
 
-  :ref:`Create Exercises` (concept)
-  :ref:'Enable Additional Exercises and Tools' (how to)
+ :ref:`Create Exercises` (concept)
+
+ :ref:'Enable Additional Exercises and Tools' (how to)

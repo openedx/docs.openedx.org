@@ -36,6 +36,8 @@ For more, see the following resources:
 .. seealso::
  :class: dropdown
 
-  :ref:`Export a Course` (how-to)
-  :ref:`Import a Course` (how-to)
-  :ref:`Course Export File Terminology` (reference)
+ :ref:`Export a Course` (how-to)
+
+ :ref:`Import a Course` (how-to)
+
+ :ref:`Course Export File Terminology` (reference)

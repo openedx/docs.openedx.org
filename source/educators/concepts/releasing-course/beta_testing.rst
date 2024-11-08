@@ -192,5 +192,5 @@ unit<Publish a Unit>`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Add_Beta_Testers` (how-to)
+ :ref:`Add_Beta_Testers` (how-to)
 
