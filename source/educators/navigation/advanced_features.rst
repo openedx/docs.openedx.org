@@ -1,5 +1,7 @@
 :orphan:
 
+.. _Advanced Features TOC:
+
 Advanced Features
 ###################
 

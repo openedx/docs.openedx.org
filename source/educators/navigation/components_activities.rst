@@ -1,5 +1,7 @@
 :orphan:
 
+.. _Components and Activities TOC:
+
 Components & Activities
 #######################
 

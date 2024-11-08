@@ -1,5 +1,7 @@
 :orphan:
 
+.. _Creating Course TOC:
+
 Creating a Course in Open edX®
 #####################################
 

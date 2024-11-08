@@ -22,6 +22,7 @@ Open edX Educators
          :alt: Character building a course
          :height: 150px
          :align: center
+         :target: navigation/creating_course.html
 
       | :ref:`Instructional Design Concepts`
       | :ref:`Nav Create a New Course`
@@ -43,6 +44,7 @@ Open edX Educators
          :alt: Two character communicating via text
          :height: 150px
          :align: center
+         :target: navigation/learner_engagement_communication.html
 
       | :ref:`Course Discussions`
       | :ref:`Bulk Emails`
@@ -65,6 +67,7 @@ Open edX Educators
          :alt: A character managing files in a folder
          :height: 150px
          :align: center
+         :target: navigation/content_creation_management.html
 
       | :ref:`Create and Manage Components`
       | :ref:`Add Text Components`
@@ -86,6 +89,7 @@ Open edX Educators
          :alt: A chart of abstract user scores
          :height: 150px
          :align: center
+         :target: navigation/components_activities.html
 
       | :ref:`The Open edX Problem Component`
       | :ref:`Dropdown Problem`
@@ -109,6 +113,7 @@ Open edX Educators
          :alt: A chart of abstract user scores
          :height: 150px
          :align: center
+         :target: navigation/data_analytics.html
 
       | :ref:`Nav Course Data`
       | :ref:`Nav Learner Data`
@@ -130,6 +135,7 @@ Open edX Educators
          :alt: A user in a wheelchair and assistive device representing accessible internet usage
          :height: 150px
          :align: center
+         :target: navigation/accessibility.html
 
       | :ref:`Accessibility Best Practices`
       | :ref:`Accessibility for Video`
@@ -149,6 +155,7 @@ Open edX Educators
          :alt: A user with abstract icons around them
          :height: 150px
          :align: center
+         :target: navigation/advanced_features.html
 
       | :ref:`Offer Different Content to Different Groups`
       | :ref:`Run Content Experiments`

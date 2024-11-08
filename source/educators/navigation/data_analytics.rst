@@ -1,5 +1,7 @@
 :orphan:
 
+.. _Data and Analytics TOC:
+
 Data & Analytics
 ##################
 
