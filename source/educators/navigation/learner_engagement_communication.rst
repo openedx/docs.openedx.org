@@ -18,17 +18,18 @@ Course Discussions
    ../concepts/communication/running_discussions.rst
    ../concepts/communication/moderating_discussions.rst
    ../concepts/communication/discussion_guidance_moderators.rst
-   ../how-tos/course_development/create_discussion.rst
-   ../how-tos/communication/configure-discussions.rst
-   ../how-tos/communication/administer_discussions.rst
-   ../how-tos/allow_anonymous_discussions.rst
    ../how-tos/communication/assigning_discussion_roles.rst
+   ../how-tos/communication/configure-discussions.rst
+   ../how-tos/course_development/create_discussion.rst
+   ../how-tos/communication/administer_discussions.rst
+   ../how-tos/communication/closing_discussions.rst
+   ../how-tos/allow_anonymous_discussions.rst
    ../references/communication/learner_view_discussion.rst
    ../concepts/communication/about_divided_discussions.rst
    ../how-tos/communication/setting_up_divided_discussions.rst
    ../how-tos/communication/setup_cohorted_discussions.rst
    ../concepts/communication/manage_divided_discussions.rst
-   ../how-tos/communication/closing_discussions.rst
+
 
 .. _Bulk Emails:
 
@@ -41,8 +42,8 @@ Bulk Emails
 
    ../references/communication/bulk_email.rst
    ../how-tos/communication/send_bulk_email.rst
-   ../references/communication/example_bulk_emails.rst
-   ../how-tos/communication/review_sent_messages.rst   
+   ../how-tos/communication/review_sent_messages.rst 
+   ../references/communication/example_bulk_emails.rst  
 
 Automatic Emails
 *******************************************************
@@ -129,8 +130,9 @@ Poll Tool
    :maxdepth: 2
    :glob:
 
-   ../references/course_development/exercise_tools/enable_poll_OLX.rst
    ../references/course_development/exercise_tools/poll_olx.rst
+   ../references/course_development/exercise_tools/enable_poll_OLX.rst
+
 
 Survey Tool
 *******************************************************
@@ -139,8 +141,9 @@ Survey Tool
    :maxdepth: 2
    :glob:
 
-   ../references/course_development/exercise_tools/enable_survey_olx.rst
    ../how-tos/course_development/exercise_tools/add_survey.rst
+   ../references/course_development/exercise_tools/enable_survey_olx.rst
+
 
 Qualtrics Survey Tool
 *******************************************************
@@ -149,17 +152,10 @@ Qualtrics Survey Tool
    :maxdepth: 2
    :glob:
 
-   ../references/course_development/exercise_tools/view_qualtrics_responses.rst
    ../how-tos/course_development/exercise_tools/add_qualtrics_survey.rst
+   ../references/course_development/exercise_tools/view_qualtrics_responses.rst
 
-Resources for Students 
-*******************************************************
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../references/resources_for_students.rst
 
 Word Cloud Tool
 *******************************************************

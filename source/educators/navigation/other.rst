@@ -51,3 +51,15 @@ Explore Your Dashboard and Profile
    ../how-tos/add_links_to_social_media_accounts.rst
    ../how-tos/view_another_learners_profile.rst
    ../how-tos/update_course_specific_settings.rst
+
+
+.. _Resources for Students:
+
+Resources for Students 
+*******************************************************
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   ../references/resources_for_students.rst

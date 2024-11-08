@@ -14,9 +14,9 @@ Course Data
    :maxdepth: 2
    :glob:
 
-   ../references/data/staff_debug_info.rst
    ../how-tos/data/view_course_information.rst
    ../how-tos/student_management/manage_course_enrollments.rst
+   ../references/data/staff_debug_info.rst
 
 .. _Nav Learner Data:
 
@@ -32,15 +32,6 @@ Learner Data
    ../how-tos/data/access_anonymized_data.rst
    ../references/data/student_profile_report.rst
 
-Answer Data
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../how-tos/data/course_answers.rst
-   ../references/data/answer_report_faq.rst
 
 .. _Grades Data:
 
@@ -55,6 +46,16 @@ Grades Data
    ../references/data/understanding_progress_page.rst
    ../references/data/interpreting_grade_report.rst
    ../references/data/interpreting_problem_grade_report.rst
+
+Answer Data
+*******************************************************
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   ../how-tos/data/course_answers.rst
+   ../references/data/answer_report_faq.rst   
 
 .. _Certificate Data:
 
