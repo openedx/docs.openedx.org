@@ -106,7 +106,7 @@ you send from the LMS, follow these steps.
 .. note::
   Be sure that you do not use the Studio URL in an email message. For more
   information about sending email messages, see
- :ref:`Send_Bulk_Email`.
+  :ref:`Send_Bulk_Email`.
 
 .. _Lock a File:
 
