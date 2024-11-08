@@ -6,15 +6,20 @@ Glossary
 
 .. glossary::
 
+:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F`
+- :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L`
+- :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` - :ref:`R`
+- :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
+
+.. _A:
+
+A
+***
 
    AAC
       Advanced audio coding (AAC) is an audio coding standard for digital audio
       compression. AAC is the standard format for YouTube.
 
-
-   A/B test
-
-      See `Content Experiment <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_features/content_experiments/content_experiments_overview.html>`_.
 
    About page
 
@@ -35,14 +40,11 @@ Glossary
 
       All problems require accessible labels.
 
-      For more information, see `partnercoursestaff:Simple Editor`.
 
-
-   advanced editor
+   Advanced editor
 
       An OLX (open learning XML) editor in a problem component that allows you to
-      create and edit any type of problem. For more information, see
-      `partnercoursestaff:Advanced Editor`.
+      create and edit any type of problem. 
 
    Amazon Web Services (AWS)
 
@@ -51,10 +53,11 @@ Glossary
       AWS, the AWS version of the video serves as a backup in case the YouTube
       video does not play.
 
-   assignment type
+   Assignment type
 
       The category of graded student work, such as homework, exams, and exercises.
-      For more information, see `partnercoursestaff:Grading Index`.
+
+.. _C:
 
    CAPA problem
 
@@ -68,70 +71,60 @@ Glossary
       XBlocks. An open response assessment is an example of a non-CAPA problem
       type.
 
-   certificate
+   Certificate
 
       A document issued to an enrolled learner who successfully completes a course
       with the required passing grade. Not all Open edX courses offer certificates, and
       not all learners enroll as certificate candidates.
 
-      For information about setting up certificates for your course, see
-      `Setting Up Certificates`.
 
-   chapter
+   Chapter
 
       See :term:`Section`.
 
 
-   chemical equation response problem
+   Chemical Equation Response Problem
 
-      A problem that allows learners to enter chemical equations as answers. For
-      more information, see `partnercoursestaff:Chemical Equation`.
+      A problem that allows learners to enter chemical equations as answers.
 
-   circuit schematic builder problem
+   Circuit Schematic Builder Problem
 
       A problem that allows learners to construct a schematic answer (such as an
-      electronics circuit) on an interactive grid. For more information, see
-      `partnercoursestaff:Circuit Schematic Builder`.
+      electronics circuit) on an interactive grid. 
 
-   closed captions
+   Closed Captions
 
       The spoken part of the transcript for a video file, which is overlaid on the
       video as it plays. To show or hide closed captions, you select the CC
       icon. You can move closed captions to different areas on the video screen by
       dragging and dropping them.
 
-      For more information, see `learners:Video Player`.
-
-   codec
+   Codec
 
       A portmanteau of "code" and "decode". A computer program that can encode or
       decode a data stream.
 
-   cohort
+   Cohort
 
       A group of learners who participate in a class together. Learners who are in
       the same cohort can communicate and share experiences in private
       discussions.
 
-      Cohorts are an optional feature of courses on the Open edX platform. For
-      information about how you enable the cohort feature, set up cohorts, and
-      assign learners to them, see `partnercoursestaff:Cohorts Overview`.
+      Cohorts are an optional feature of courses on the Open edX platform. 
 
-   component
+   Component
 
       The part of a unit that contains your actual course content. A unit can
-      contain one or more components. For more information, see
-      `partnercoursestaff:Developing Course Components`.
+      contain one or more components. 
 
-   content experiment
+   Content Experiment
 
       You can define alternative course content to be delivered to different,
       randomly assigned groups of learners. Also known as A/B or split testing,
       you use content experiments to compare the performance of learners who have
-      been exposed to different versions of the content. For more information, see
-      `partnercoursestaff:Overview of Content Experiments`.
+      been exposed to different versions of the content. 
 
-   content library
+   Content Library
 
      See :term:`Library`.
 
@@ -146,28 +139,22 @@ Glossary
       respond to posts and responses by other members of the cohort that they are
       in.
 
-      For more information, see `partnercoursestaff:Working with Discussion
-      Components`. For information about making content-specific discussion topics
-      divided by cohort, see `partnercoursestaff:Set up Discussions in
-      Cohorted Courses`.
 
-
-   course catalog
+   Course Catalog
 
       The page that lists all courses offered in the Open edX learning management
       system.
 
-   course handouts
+   Course Handouts
 
       Course handouts are files you make available to learners on the Home
-      page. For more information, see `partnercoursestaff:Adding Course
-      Updates and Handouts`.
+      page. 
 
-   course mode
+   Course Mode
 
      See :term:`enrollment track`.
 
-   course navigation pane
+   Course Navigation Pane
 
       The navigation frame that appears at one side of the Course page in the
       LMS. The course navigation pane shows the sections in the course. When you
@@ -176,7 +163,7 @@ Glossary
 
       See also :term:`Unit Navigation Bar`.
 
-   Course page
+   Course Page
 
       The page that opens first when learners access your course. On the Course
       page, learners can view the course outline and directly access the course,
@@ -189,18 +176,22 @@ Glossary
       Reviews and Updates appear at the side of this page. This page is a
       combination of the former Home and Courseware pages.
 
-   course run
+   Course Run
 
       A version of the course that runs at a particular time. Information about a
       course run includes start and end dates, as well as staff and the languages
       the course is available in. You can create a course run when you create a
       course.
 
-   course track
+   Course Track
 
       See :term:`enrollment track`.
 
-   courseware
+   Course Team Member
+
+      It refers to instructors, professors, course authors, course staff, faculty, and others with editing permissions for the course.
+
+   Courseware
 
       In OLX (open learning XML) and in data packages, "courseware" refers to the
       main content of your course, consisting mainly of lessons and assessments.
@@ -211,7 +202,7 @@ Glossary
       Note that the Course page was formerly called the Courseware page.
 
 
-   course-wide discussion topic
+   Course-wide Discussion Topic
 
       Optional discussion categories that you create to guide how learners find
       and share information in the course discussion. Course-wide discussion
@@ -224,34 +215,23 @@ Glossary
       If you use cohorts in your course, you can divide course-wide discussion
       topics by cohort, so that although all learners see the same topics, they
       only see and respond to posts and responses by other members of the cohort
-      that they are in. For information about configuring discussion topics in
-      courses that use cohorts, see `partnercoursestaff:Set up Discussions in
-      Cohorted Courses`.
+      that they are in. 
 
-   custom response problem
+   Custom Response Problem
 
       A custom response problem evaluates text responses from learners using an
       embedded Python script. These problems are also called
-      "write-your-own-grader" problems. For more information, see
-      `partnercoursestaff:Write Your Own Grader`.
+      "write-your-own-grader" problems. 
 
-   data czar
+.. _D:
 
-      A data czar is a role specific to edx.org. At edx.org, a data czar is the
-      single representative at a partner institution who is responsible for
-      receiving course data from edx.org, and transferring it securely to
-      researchers and other interested parties after it is received.
-
-      For more information, see the `data:edX Research Guide`.
-
-   discussion
+   Discussion
 
       The set of topics defined to promote course-wide or unit-specific dialog.
       Learners use the discussion topics to communicate with each other and the
-      course team in threaded exchanges. For more information, see
-      `partnercoursestaff:Discussions`.
+      course team in threaded exchanges. 
 
-   discussion component
+   Discussion Component
 
       Discussion topics that course teams add directly to units. For example, a
       video component can be followed by a discussion component so that learners
@@ -259,10 +239,7 @@ Glossary
       a discussion component to a unit, you create a content-specific discussion
       topic. See also :term:`Content Specific Discussion Topic`.
 
-      For more information, see `partnercoursestaff:Working with Discussion
-      Components`.
-
-   discussion thread list
+   Discussion Thread List
 
       The navigation frame that appears at one side of the Discussion page in
       the LMS. The discussion thread list shows the discussion categories and
@@ -271,35 +248,23 @@ Glossary
       all of the posts in that subcategory. Select a post to read it and its
       responses and comments, if any.
 
-   dropdown problem
+   Dropdown Problem
 
       A problem that asks learners to choose from a collection of answer options,
-      presented as a drop-down list. For more information, see
-      `partnercoursestaff:Dropdown`.
+      presented as a drop-down list. 
 
-
-   edX Edge
-
-      edX Edge is a less restricted site than edX.org. While only edX employees
-      and consortium members can create and post content on edX.org, any users with
-      course creator permissions for Edge can create courses with Studio on
-      studio.edge.edx.org, then view the courses on the learning management system
-      at edge.edx.org.
+.. _E:
 
    embargo
 
       An embargo is an official ban on trade or commercial activity with a
-      particular country. For example, due to U.S. federal regulations, edx.org cannot
-      offer certain courses (for example, particular advanced STEM courses) on the
-      edx.org website to learners in embargoed countries. Learners cannot access
-      restricted courses from an embargoed country. In some cases, depending on the
-      terms of the embargo, learners cannot access any edx.org courses at all.
+      particular country. 
 
-   enrollment mode
+   Enrollment mode
 
       See :term:`enrollment track`.
 
-   enrollment track
+   Enrollment track
 
       Also called certificate type, course mode, course seat, course
       track, course type, enrollment mode, or seat type.
@@ -323,11 +288,6 @@ Glossary
         verified enrollment track. Courses that offer the professional track do not
         offer a free enrollment track.
 
-        .. note::
-           If your course is part of a MicroMasters or professional certificate
-           program, your course uses the verified track. These courses do not use
-           the professional enrollment track.
-
       * **verified**: This enrollment track offers verified certificates to
         learners who pass the course, verify their identities, and pay a required
         course fee. A course that offers the verified enrollment track also
@@ -344,23 +304,21 @@ Glossary
         (no ID) track do not offer a free enrollment track.
 
 
-   exercises
+   Exercises
 
       Practice or practical problems that are interspersed in Open edX course content
       to keep learners engaged. Exercises are also an important measure of
-      teaching effectiveness and learner comprehension. For more information, see
-      `partnercoursestaff:Exercises and Tools Index`.
+      teaching effectiveness and learner comprehension. 
 
-   export
+   Export
 
       A tool in Open edX Studio that you use to export your course or library for
       backup purposes, or so that you can edit the course or library directly in
       OLX format. See also :term:`Import`.
 
-      For more information, see `partnercoursestaff:Export a Course` or
-      `partnercoursestaff:Export a Library`.
+.. _F:
 
-   forum
+   Forum
 
       See :term:`discussion`.
 
@@ -369,88 +327,81 @@ Glossary
       Frames per second. In video, the number of consecutive images that appear
       every second.
 
-   grade range
+.. _G:
+
+   Grade Range
 
       Thresholds that specify how numerical scores are associated with grades, and
       the score that learners must obtain to pass a course.
 
-      For more information, see `partnercoursestaff:Set the Grade Range`.
-
-
-   grading rubric
+   Grading Rubric
 
       See :term:`Rubric`.
+
+.. _H:
 
    H.264
 
       A standard for high definition digital video.
 
-   Home page
+   Home Page
 
      See :term:`Course Page`.
 
-   Text component
+.. _I:
 
-      A type of component that you can use to add and format text for your course.
-      A Text component can contain text, lists, links, and images. For more
-      information, see `partnercoursestaff:Working with Text Components`.
-
-   Image mapped input problem
+   Image Mapped Input Problem
 
       A problem that presents an image and accepts clicks on the image as an
-      answer. For more information, see `partnercoursestaff:Image Mapped
-      Input`.
+      answer. 
 
    Import
 
       A tool in Studio that you use to load a course or library in OLX format
       into your existing course or library. When you use the Import tool, Studio
       replaces all of your existing course or library content with the content
-      from the imported course or library. See also :ref:`Export<E>`.
+      from the imported course or library. See also :ref:`Export`.
 
-      For more information, see `partnercoursestaff:Import a Course` or
-      `partnercoursestaff:Import a Library`.
-
-   instructor dashboard
+   Instructor Dashboard
 
       A user who has the Admin or Staff role for a course can access the instructor
       dashboard in the LMS by selecting Instructor. Course team members use the
       tools, reports, and other features that are available on the pages of the
       instructor dashboard to manage a running course.
 
-      For more information, see `partnercoursestaff:Managing Live Course
-      Index`.
+.. _K:
 
-   keyword
+   Keyword
 
       A variable in a bulk email message. When you send the message, a value that
       is specific to the each recipient is substituted for the keyword.
 
-   label
+.. _L:
+
+   Label
 
      See :term:`Accessible Label`.
 
    LaTeX
 
       A document markup language and document preparation system for the TeX
-      typesetting program. In Open edX Studio, you can `partnercoursestaff:import
-      LaTeX code`.
+      typesetting program. 
 
-   learning management system (LMS)
+   Learning Management System (LMS)
 
       The platform that learners use to view courses, and that course team members
       use to manage learner enrollment, assign team member privileges, moderate
       discussions, and access data while the course is running.
 
-   learning sequence
+   Learning Sequence
 
      See :term:`Unit Navigation Bar`.
 
-   left pane
+   Left Pane
 
       See :term:`Course Navigation Pane`.
 
-   library
+   Library
 
       A pool of components for use in randomized assignments that can be shared
       across multiple courses from your organization. Course teams configure
@@ -458,15 +409,11 @@ Glossary
       of components, and randomly provide a specified number of problems from that
       content library to each learner.
 
-      For more information, see `partnercoursestaff:Content Libraries` and
-      `partnercoursestaff:Randomized Content Blocks`.
-
-   live mode
+   Live Mode
 
       A view that allows the course team to review all published units as learners
       see them, regardless of the release dates of the section and subsection that
-      contain the units. For more information, see `partnercoursestaff:View
-      Published Content`.
+      contain the units. 
 
    LON-CAPA
 
@@ -477,27 +424,24 @@ Glossary
 
       See also :term:`CAPA Problem`.
 
-   math expression input problem
+.. _M:
+
+   Math Expression Input Problem
 
       A problem that requires learners to enter a mathematical expression as text,
       such as e=m*c^2.
-
-      For more information, see `learners:Math Formatting` in the *Open edX
-      Learner's Guide*.
 
    MathJax
 
       A LaTeX-like language that you use to write equations. Studio uses MathJax
       to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
 
-      For more information, see `partnercoursestaff:MathJax in Studio`.
-
    MFE
 
       Micro-frontends are how we refer to the user facing Single Page Apps that
       make up the user experience of the Open edX Platform.
 
-   module
+   Module
 
       An item of course content, created in an XBlock, that appears on the
       Course page in the Open edX learning management system. Examples of
@@ -508,22 +452,24 @@ Glossary
       course itself is a top-level module that contains all of the other course
       content as children.
 
-   multi-select problem
+   Multi-Select Problem
 
       A problem that prompts learners to select one or more options from a list of
-      possible answers. For more information, see
-      `partnercoursestaff:Multi-select`.
+      possible answers. 
+
+.. _N:
 
    NTSC
 
       National Television System Committee. The NTSC standard is a color encoding
       system for analog videos that is used mostly in North America.
 
-   numerical input problem
+   Numerical Input Problem
 
       A problem that asks learners to enter numbers or specific and relatively
-      simple mathematical expressions. For more information, see
-      `partnercoursestaff:Numerical Input`.
+      simple mathematical expressions. 
+
+.. _O:
 
    OLX
 
@@ -532,29 +478,25 @@ Glossary
 
       For more information, see `olx:What is Open Learning XML?`.
 
-   open response assessment
+   Open Response Assessment
 
       A type of assignment that allows learners to answer with text, such as a
       short essay and, optionally, an image or other file. Learners then evaluate
-      each others' work by comparing each response to a :term:`rubric`
+      each others' work by comparing each response to a :term:`Rubric`
       created by the course team.
 
       These assignments can also include a self assessment, in which learners
       compare their own responses to the rubric, or a staff assessment, in which
       members of course staff evaluate learner responses using the same rubric.
 
-      For more information, see `partnercoursestaff:Open Response Assessments
-      Two`.
+.. _P:
 
-   pages
+   Pages
 
       Pages organize course materials into categories that learners select in the
       learning management system. Pages provide access to the course content and to
       tools and uploaded files that supplement the course. Links to each page
       appear in the course material navigation bar.
-
-      For more information, see `partnercoursestaff:Adding Pages to a
-      Course`.
 
    PAL
 
@@ -562,58 +504,39 @@ Glossary
       analog videos. It is used in locations such as Brazil, Australia, south Asia,
       most of Africa, and western Europe.
 
-   partner manager
-
-      Each edX partner institution has an edX partner manager. The partner manager
-      is the primary contact for the institution's course teams.
-
-
-   pre-roll video
+   Pre-roll video
 
       A short video file that plays before the video component selected by the
       learner. Pre-roll videos play automatically, on an infrequent schedule.
 
-      For more information, see `partnercoursestaff:Adding a PreRoll Video`.
-
-   preview mode
+   Preview mode
 
       A view that allows you to see all the units of your course as learners see
       them, regardless of the unit status and regardless of whether the release
       dates have passed.
 
-      For more information, see `partnercoursestaff:Preview Unpublished
-      Content`.
-
-
-   problem component
+   Problem Component
 
       A component that allows you to add interactive, automatically graded
       exercises to your course content. You can create many different types of
       problems.
 
-      For more information, see `partnercoursestaff:Working with Problem
-      Components` and `partnercoursestaff:Exercises and Tools Index`.
+   Proctored Exam
 
-   proctored exam
-
-      On edx.org, proctored exams are timed, impartially and electronically monitored
+      Proctored exams are timed, impartially and electronically monitored
       exams designed to ensure the identity of the test taker and determine the
       security and integrity of the test taking environment. Proctored exams are
       often required in courses that offer verified certificates or academic
-      credit. For more information, see `partnercoursestaff:Managing
-      Proctored Exams`.
+      credit. 
 
-   program
+   Program
 
       A program is a collection of related courses. Learners enroll in a program by
       enrolling in any course that is part of a program, and earn a program
       certificate by passing each of the courses in the program with a grade that
       qualifies them for a verified certificate.
 
-      Several types of program are available on edx.org, including MicroMasters,
-      Professional Certificate, and XSeries programs.
-
-   program offer
+   Program Offer
 
       A program offer is a discount offered for a specific program. The discount
       can be either a percentage amount or an absolute (dollar) amount.
@@ -621,144 +544,120 @@ Glossary
    Progress page
 
       The page in the learning management system that shows learners their scores
-      on graded assignments in the course. For more information, see
-      `learners:SFD Check Progress` in the *EdX Learner's Guide*.
+      on graded assignments in the course. 
 
-   question
+.. _Q:
+
+   Question
 
       A question is a type of post that you or a learner can add to a course
       discussion topic to bring attention to an issue that the discussion
       moderation team or learners can resolve.
 
-      For more information, see `partnercoursestaff:Discussions`.
+.. _R:
 
-   Research Data Exchange (RDX)
-
-      An edX program that allows participating partner institutions to request data
-      for completed edx.org courses to further approved educational research
-      projects. Only partner institutions that choose to participate in RDX
-      contribute data to the program, and only researchers at those institutions
-      can request data from the program.
-
-      For more information, see `data:Research Data Exchange`.
-
-   rubric
+   Rubric
 
       A list of the items that a learner's response should cover in an open
-      response assessment. For more information, see the
-      `partnercoursestaff:PA Rubric` topic in `partnercoursestaff:Open
-      Response Assessments Two`.
+      response assessment. 
 
       See also :ref:`Open Response Assessment<Open Response Assessment_g>`.
 
-   seat type
+.. _S:
+
+   Seat Type
 
       See :ref:`enrollment track<enrollment_track_g>`.
 
-   section
+   Section
 
       The topmost category in your course outline. A section can represent a time
       period or another organizing principle for course content. A section
       contains one or more subsections.
 
-      For more information, see `partnercoursestaff:Developing Course
-      Sections`.
 
-
-   sequential
+   Sequential
 
       See :term:`Subsection`.
 
-   short description
+   Short Description
 
       The description of your course that appears on the Course List page.
 
-      For more information, see `Course Short Description Guidelines`.
-
-   simple editor
+   Simple Editor
 
       The graphical user interface in a problem component. The simple editor is
-      available for some problem types. For more information, see
-      `partnercoursestaff:Problem Studio View`.
+      available for some problem types. 
 
-   single sign-on (SSO)
+   Single Sign-On (SSO)
 
       SSO is an authentication service that allows a user to access multiple
       related applications, such as Studio and the LMS, with the same username and
       password. The term SSO is sometimes used to refer to third party
-      authentication, which is a different type of authentication system. For
-      information about third party authentication, see
-      :term:`Third Party Authentication`.
+      authentication, which is a different type of authentication system.
 
-   single select problem
+   Single Select Problem
 
       A problem that asks learners to select one answer from a list of options.
-      For more information, see `partnercoursestaff:Single Select`.
 
-   special exam
+   Special Exam
 
       A general term that applies to proctored and timed exams in edX courses. See
       :term:`Timed Exam` and :term:`Proctored Exam`.
 
-   split test
+   Split Test
 
       See :term:`Content Experiment`.
 
    Studio
 
-     The Open edX tool that you use to build your courses. For more information, see
-      `Getting Started with Studio`.
+     The Open edX tool that you use to build your courses. 
 
-   subsection
+   Subsection
 
       A division in the course outline that represents a topic in your course,
       such as a lesson or another organizing principle. Subsections are defined
       inside sections and contain units.
 
-      For more information, see `partnercoursestaff:Developing Course
-      Subsections`.
+.. _T:
 
-   text input problem
+   Text Component
+
+      A type of component that you can use to add and format text for your course.
+      A Text component can contain text, lists, links, and images. 
+
+   Text Input Problem
 
       A problem that asks learners to enter a line of text, which is then checked
       against a specified expected answer.
 
-      For more information, see `partnercoursestaff:Text Input`.
-
-   timed exam
+   Timed Exam
 
       Timed exams are sets of problems that a learner must complete in the amount
       of time you specify. When a learner begins a timed exam, a countdown timer
       displays, showing the amount of time allowed to complete the exam.
       If needed, you can grant learners additional time to complete the exam.
-      For more information, see `partnercoursestaff:Timed Exams`.
 
-   third party authentication
+   Third Party Authentication
 
       A system-wide configuration option that allows users who have a username and
       password for one system, such as a campus or institutional system, to log in
       to that system and automatically be given access to the LMS. These users do
       not enter their system credentials in the LMS.
 
-      For more information about how system administrators can integrate an
-      Open edX instance with a campus or institutional authentication system,
-      see `installation:Enabling Third Party Authentication`.
-
-   transcript
+   Transcript
 
       A text version of the content of a video. You can make video transcripts
       available to learners.
 
-      For more information, see `Obtain a Video Transcript`.
+.. _U:
 
-   unit
+   Unit
 
       A unit is a division in the course outline that represents a lesson.
       Learners view all of the content in a unit on a single page.
 
-      For more information, see `partnercoursestaff:Developing Course Units`.
-
-   unit navigation bar
+   Unit Navigation Bar
 
       The horizontal control that appears at the top of the Course page in the
       LMS. The unit navigation bar contains an icon for each unit in the selected
@@ -768,41 +667,31 @@ Glossary
 
       See also :term:`Course Navigation Pane`.
 
+.. _V:
+
    VBR
 
       Variable bit rate. The bit rate is the number of bits per second that are
       processed or transferred. A variable bit rate allows the bit rate to change
       according to the complexity of the media segment.
 
-   vertical
+   Vertical
 
       See :term:`Unit`.
 
-   video component
+   Video component
 
       A component that you can use to add recorded videos to your course.
 
-      For more information, see `partnercoursestaff:Working with Video
-      Components`.
-
-   whitelist
-
-      In edX courses, a whitelist is a list of learners who are being provided with
-      a particular privilege. For example, whitelisted learners can be specified as
-      being eligible to receive a certificate in a course, regardless of whether
-      they would otherwise have qualified based on their grade.
-
-      In the grade report for a course, whitelisted learners have a value of "Yes"
-      in the Certificate Eligible column, regardless of the grades they
-      attained. For information about the grade report, see
-      `partnercoursestaff:Interpret the Grade Report`.
+.. _W:
 
    wiki
 
       The page in each Open edX course that allows both learners and members of the
       course team to add, modify, or delete content. Learners can use the wiki to
-      share links, notes, and other helpful information with each other. For more
-      information, see `partnercoursestaff:Course_Wiki`.
+      share links, notes, and other helpful information with each other. 
+
+.. _X:
 
    XBlock
 
