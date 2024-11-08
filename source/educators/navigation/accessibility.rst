@@ -39,7 +39,5 @@ Accessibility for Video
    :maxdepth: 2
    :glob:   
 
-   ../how-tos/enable_video_transcript_downloads.rst
    ../how-tos/course_development/additional_transcript_options.rst
    ../how-tos/add_transcript_other_language.rst
-   ../how-tos/get_video_transcript.rst

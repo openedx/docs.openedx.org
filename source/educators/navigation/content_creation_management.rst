@@ -17,9 +17,7 @@ Create and Manage Course Units
    ../how-tos/course_development/set_restrictions_unit.rst
    ../how-tos/copy_paste_units.rst
    ../how-tos/course_development/hide_units.rst
-   ../how-tos/delete_content.rst
    ../how-tos/copy_paste_course_content.rst
-   ../how-tos/publish_content.rst
    ../references/course_development/course_units.rst
    ../references/course_development/unit_workflow_and_status.rst
 
@@ -95,7 +93,6 @@ Add Course Assets
 
    ../how-tos/course_development/add_course_files.rst
    ../how-tos/course_development/add_pages.rst
-   ../how-tos/reorder_course_pages.rst
    ../how-tos/course_development/add_textbooks.rst
    ../how-tos/course_development/configure_resources.rst
    ../how-tos/add_course_page.rst
@@ -197,7 +194,6 @@ Test Your Course
 
    ../references/testing_course_content.rst
    ../references/roles_for_viewing.rst
-   ../how-tos/view_course_as_learner.rst
 
 Embed IFrames
 *******************************************************

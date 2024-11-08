@@ -67,7 +67,6 @@ Create a New Course
    ../references/course_development/understanding_course_outline.rst
    ../references/course_development/add_edit_in_outline.rst
    ../references/course_development/course_outline.rst
-   ../how-tos/reorganize_outline.rst
    ../references/course_development/modify_outline_settings.rst
    ../references/course_development/publish_from_outline.rst
    ../references/course_development/develop_course_sections.rst
@@ -93,7 +92,6 @@ Add Course Staff
 
    ../references/course_development/course_staff.rst
    ../how-tos/set_up_course/add_course_staff.rst
-   ../how-tos/beta_test_course.rst
    ../how-tos/add_course_creators.rst
    ../how-tos/releasing-course/add_beta_testers.rst
    

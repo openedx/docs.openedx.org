@@ -69,7 +69,6 @@ Configure Grades
    ../concepts/grading/graded_subsections.rst
    ../how-tos/grading/set_grace_period.rst
    ../how-tos/grading/set_grade_range.rst
-   ../how-tos/set_grade_subsection.rst
 
 Custom Javascript Display and Grading Problem
 *******************************************************
@@ -194,7 +193,6 @@ Math Expression Input Problem
    ../references/course_development/exercise_tools/math_expression_input.rst
    ../references/course_development/exercise_tools/math_expression_input_xml.rst
    ../how-tos/course_development/exercise_tools/adding_mathjax.rst
-   ../how-tos/math_expression.rst
    ../how-tos/course_development/exercise_tools/adding_math_expression_problem.rst
 
 .. _Multi Select Problem:
@@ -242,7 +240,6 @@ Open Response Assessments
    ../concepts/exercise_tools/OpenResponseAssessments.rst
    ../how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    ../how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
-   ../how-tos/open_response.rst
 
 Oppia Exploration Tool
 *******************************************************

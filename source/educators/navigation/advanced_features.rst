@@ -83,7 +83,7 @@ Course Tags and Taxonomies
    ../how-tos/content-tagging-how-tos/add_delete_course_tags.rst
    ../how-tos/content-tagging-how-tos/export_tag_data_from_course.rst
 
- Google Calendar Tool
+Google Calendar Tool
 *******************************************************
 
 .. toctree::
@@ -116,3 +116,4 @@ Advanced Components
    ../how-tos/course_development/exercise_tools/add_annotation.rst
    ../how-tos/course_development/exercise_tools/add_calculator.rst
    ../how-tos/course_development/exercise_tools/enable_completion.rst
+
