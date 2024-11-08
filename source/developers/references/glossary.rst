@@ -13,9 +13,6 @@ Glossary
 
 .. _A:
 
-A
-***
-
    AAC
       Advanced audio coding (AAC) is an audio coding standard for digital audio
       compression. AAC is the standard format for YouTube.
