@@ -64,7 +64,7 @@ Deafness
 Generally, people who are deaf cannot access the audio content of your media. As a result, you will need to add an alternative format. You can provide this in the Open edX videos through synchronized captions. 
 
 Things to Keep in Mind
-=================
+======================
 
 When creating timed-text caption files, be sure to include descriptions of
 audible, non-speech content that is important to comprehend the video (such as [APPLAUSE], [BUZZER], [ASCENDING TONE]). The text should "fulfill the same function or purpose" as the audio.
@@ -88,6 +88,7 @@ Things to Keep in Mind
 
 * Avoid background noise or music that competes with the primary audio.  
 
+.. _Audio Description:
 Audio Description
 ******************
 
