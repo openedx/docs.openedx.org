@@ -89,8 +89,9 @@ Things to Keep in Mind
 * Avoid background noise or music that competes with the primary audio.  
 
 .. _Audio Description:
+
 Audio Description
-******************
+*****************
 
 Most people are unfamiliar with `audio descriptions`_ and this reference will provide important information about them. It also is relevant to know the `WCAG 2 0 guidelines`_. 
 
