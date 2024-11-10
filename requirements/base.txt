@@ -42,7 +42,7 @@ jinja2==3.1.4
     # via sphinx
 markupsafe==3.0.2
     # via jinja2
-packaging==24.1
+packaging==24.2
     # via sphinx
 pydata-sphinx-theme==0.16.0
     # via sphinx-book-theme
@@ -66,7 +66,7 @@ soupsieve==2.6
     # via beautifulsoup4
 sphinx==7.4.7
     # via
-    #   -c requirements/constraints.txt
+    #   -c /home/runner/work/docs.openedx.org/docs.openedx.org/requirements/constraints.txt
     #   -r requirements/base.in
     #   pydata-sphinx-theme
     #   sphinx-autobuild
@@ -118,5 +118,5 @@ uvicorn==0.32.0
     # via sphinx-autobuild
 watchfiles==0.24.0
     # via sphinx-autobuild
-websockets==13.1
+websockets==14.0
     # via sphinx-autobuild
