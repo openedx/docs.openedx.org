@@ -112,4 +112,3 @@ To set the pacing for your course, follow these steps.
 #. Under **Course Pacing**, select either **Instructor-Paced** or
    **Self-Paced**.
 #. Select **Save Changes**.
-

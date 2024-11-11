@@ -338,5 +338,6 @@ To set up LTI-NRPS services on a component, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`LTI Component` (reference)
-  :ref:`LTI Component settings` (reference)
+ :ref:`LTI Component` (reference)
+
+ :ref:`LTI Component settings` (reference)

@@ -20,4 +20,3 @@ you've added, click the trash can icon next to its respective hint field.
 .. note::
   You can configure any number of hints. The learner views one hint at a time
   and views the next one by selecting **Hint** again.
-

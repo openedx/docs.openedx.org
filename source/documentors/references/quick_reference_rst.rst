@@ -133,6 +133,45 @@ RST can do a lot of things via `directives`_. Here are some common ones:
       `Link to another thing <https://example.com/other>`_
          A brief description of another thing.
 
+Tables
+******
+
+To add a table in RST like the following example:
+
++---------------+--------------------------------------------------------------+
+| Code Number   | #1                                                           |
++---------------+--------------------------------------------------------------+
+| Title         | Table Example                                                |
++---------------+--------------------------------------------------------------+
+| Last-Modified | 2024-11-08                                                   |
++---------------+--------------------------------------------------------------+
+| Documents     | - Open edX Documentors Style Guide                           |
+|               | - Open edX Diataxis Criteria                                 |
+|               | - Example 3                                                  |
+|               | - Example 4                                                  |
+|               | - Example 5                                                  |
++---------------+--------------------------------------------------------------+
+
+Use the following code:
+
+.. code-block::
+
+   +---------------+--------------------------------------------------------------+
+   | Code Number   | #1                                                           |
+   +---------------+--------------------------------------------------------------+
+   | Title         | Table Example                                                |
+   +---------------+--------------------------------------------------------------+
+   | Last-Modified | 2024-11-08                                                   |
+   +---------------+--------------------------------------------------------------+
+   | Documents     | - Open edX Documentors Style Guide                           |
+   |               | - Open edX Diataxis Criteria                                 |
+   |               | - Example 3                                                  |
+   |               | - Example 4                                                  |
+   |               | - Example 5                                                  |
+   +---------------+--------------------------------------------------------------+
+
+.. seealso:: To see alternative ways of defining tables, visit the `RST documentation about this topic <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#tables>`_.
+
 Learn More
 **********
 

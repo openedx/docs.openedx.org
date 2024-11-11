@@ -103,7 +103,10 @@ renders as you expect it to.
 .. seealso::
  :class: dropdown
 
-  :ref:`Accessibility Best Practices for Course Content Development` (concept)
-  :ref:`edX Accessibility Guidelines` (concept)
-  :ref:`Supporting Learners with Diverse Needs` (concept)
-  :ref:`Accessibility Checker` (reference)
+ :ref:`Accessibility Best Practices for Course Content Development` (concept)
+
+ :ref:`edX Accessibility Guidelines` (concept)
+
+ :ref:`Supporting Learners with Diverse Needs` (concept)
+
+ :ref:`Accessibility Checker` (reference)

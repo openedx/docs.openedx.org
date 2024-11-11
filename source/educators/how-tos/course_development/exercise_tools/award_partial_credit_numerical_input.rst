@@ -182,8 +182,12 @@ questions that use this attribute.
 .. seealso::
  :class: dropdown
 
-  :ref:`Numerical Input` (reference)
-  :ref:`Adding Numerical Input Problem` (how to)
-  :ref:`Use Feedback in a Numerical Input Problems` (how-to)
-  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
-  :ref:`Numerical Input Problem XML` (reference)
+ :ref:`Numerical Input` (reference)
+
+ :ref:`Adding Numerical Input Problem` (how to)
+
+ :ref:`Use Feedback in a Numerical Input Problems` (how-to)
+
+ :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
+
+ :ref:`Numerical Input Problem XML` (reference)

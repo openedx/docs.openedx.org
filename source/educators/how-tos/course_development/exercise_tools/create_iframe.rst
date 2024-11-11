@@ -122,5 +122,5 @@ For more information about iframe attributes, see
 .. seealso::
  :class: dropdown
 
-  :ref:`IFrame` (reference)
+ :ref:`IFrame` (reference)
 

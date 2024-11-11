@@ -58,8 +58,12 @@ For information about how to review and adjust learner grades in the LMS, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Working with Problem Components` (reference)
-  :ref:`Advanced Editor` (reference)
-  :ref:`Problem Settings` (reference)
-  :ref:`Feedback Best Practices` (concept)
-  :ref:`Learner View of Problems` (reference)
+ :ref:`Working with Problem Components` (reference)
+
+ :ref:`Advanced Editor` (reference)
+
+ :ref:`Problem Settings` (reference)
+
+ :ref:`Feedback Best Practices` (concept)
+
+ :ref:`Learner View of Problems` (reference)

@@ -1,5 +1,9 @@
+:orphan:
+
+.. _Educators Glossary:
+
 #####################
-Glossary (MIGRATION)
+Glossary
 #####################
 
 :ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F`
@@ -1137,6 +1141,5 @@ XYZ
   A set of related courses in a specific subject. Learners qualify for an
   XSeries certificate when they pass all of the courses in the XSeries. For
   more information, see `XSeries Programs`_.
-
 
 

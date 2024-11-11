@@ -69,6 +69,8 @@ computer.
 .. seealso::
  :class: dropdown
 
-  :ref:`Import a Course` (how-to)
-  :ref:`Course Export File Terminology` (reference)
-  :ref:`Work with the targz File` (reference)
+ :ref:`Import a Course` (how-to)
+
+ :ref:`Course Export File Terminology` (reference)
+
+ :ref:`Work with the targz File` (reference)

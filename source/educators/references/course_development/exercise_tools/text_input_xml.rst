@@ -303,6 +303,8 @@ None.
 .. seealso::
  :class: dropdown
 
-  :ref:`Text Input` (reference)
-  :ref:`Add Text Input Problem` (how to)
-  :ref:`Editing Text Input Problems using the Advanced Editor` (how to)
+ :ref:`Text Input` (reference)
+
+ :ref:`Add Text Input Problem` (how to)
+
+ :ref:`Editing Text Input Problems using the Advanced Editor` (how to)

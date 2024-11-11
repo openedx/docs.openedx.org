@@ -28,9 +28,14 @@ group configuration that assigns your learners to four experiment groups.
 .. seealso::
  :class: dropdown
 
-  :ref:`Offering Differentiated Content` (concept)
-  :ref:`Configure Your Course for Content Experiments` (how-to)
-  :ref:`Experiment Group Configurations` (reference)
-  :ref:`Add a Content Experiment in OLX` (how-to)
-  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
-  :ref:`Guidelines for Modifying Group Configurations` (concept)
+ :ref:`Offering Differentiated Content` (concept)
+
+ :ref:`Configure Your Course for Content Experiments` (how-to)
+
+ :ref:`Experiment Group Configurations` (reference)
+
+ :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
+ :ref:`Guidelines for Modifying Group Configurations` (concept)

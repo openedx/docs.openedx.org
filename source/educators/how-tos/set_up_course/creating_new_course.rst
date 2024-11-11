@@ -68,4 +68,3 @@ To create a course, follow these steps.
    The :ref:`Course Outline<Developing Your Course Outline>` page opens. You
    can start developing course content. For more information, see
    :ref:`Getting Started with Course Content Development <Getting Started with Course Content Development>`.
-

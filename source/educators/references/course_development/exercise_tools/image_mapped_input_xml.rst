@@ -76,5 +76,6 @@ Specifies the image file and the region in the file where learners must click.
 .. seealso::
  :class: dropdown
 
-  :ref:`Create Image Mapped Input Problem` (how to)
-  :ref:`Image Mapped Input` (reference)
+ :ref:`Create Image Mapped Input Problem` (how to)
+
+ :ref:`Image Mapped Input` (reference)

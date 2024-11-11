@@ -66,5 +66,6 @@ select this control as many times as needed.
 .. seealso::
  :class: dropdown
 
-  :ref:`Enable Completion` (how to)
-  :ref:`OLX Completion` (how to)
+ :ref:`Enable Completion` (how to)
+
+ :ref:`OLX Completion` (how to)

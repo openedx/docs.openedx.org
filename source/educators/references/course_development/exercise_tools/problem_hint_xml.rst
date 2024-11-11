@@ -111,4 +111,4 @@ Tags
 .. seealso::
  :class: dropdown
 
-  :ref:`Problem with Adaptive Hint` (how to)
+ :ref:`Problem with Adaptive Hint` (how to)

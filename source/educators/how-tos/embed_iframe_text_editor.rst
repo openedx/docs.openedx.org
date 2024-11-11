@@ -17,4 +17,3 @@ in the Redwood release and later.
 #. Clicking on save will render the iframe:
 
      .. image:: /_images/educator_how_tos/text_editor_embedded_iframe.png
-

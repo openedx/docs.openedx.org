@@ -81,4 +81,3 @@ In Studio and the LMS, your course number changes to the value that you specify
 in the **Course Number Display String** field. The URL for your course does not
 change.
 
-

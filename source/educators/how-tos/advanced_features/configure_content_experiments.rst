@@ -216,9 +216,14 @@ contains the content experiment.
 .. seealso::
  :class: dropdown
 
-  :ref:`Offering Differentiated Content` (concept)
-  :ref:`Overview of Content Experiments` (concept)
-  :ref:`Experiment Group Configurations` (reference)
-  :ref:`Add a Content Experiment in OLX` (how-to)
-  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
-  :ref:`Guidelines for Modifying Group Configurations` (concept)
+ :ref:`Offering Differentiated Content` (concept)
+
+ :ref:`Overview of Content Experiments` (concept)
+
+ :ref:`Experiment Group Configurations` (reference)
+
+ :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
+ :ref:`Guidelines for Modifying Group Configurations` (concept)

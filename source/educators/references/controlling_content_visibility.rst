@@ -198,4 +198,3 @@ For information about creating differentiated content based on cohorts, see
 For information about creating differentiated content based on enrollment
 track, see :ref:`Enrollment Track Specific Courseware Overview`.
 
-

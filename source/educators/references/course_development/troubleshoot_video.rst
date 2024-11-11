@@ -34,4 +34,3 @@ When you use video, you might experience one of the following problems.
   YouTube account settings for playback are set to always show captions. To
   correct this problem, select **CC** again or change your YouTube account
   settings.
-

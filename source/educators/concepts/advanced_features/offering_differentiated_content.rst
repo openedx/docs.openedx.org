@@ -70,5 +70,5 @@ For information about creating differentiated content using cohorts, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Enrollment Track Specific Courseware Overview` (how-to)
+ :ref:`Enrollment Track Specific Courseware Overview` (how-to)
 

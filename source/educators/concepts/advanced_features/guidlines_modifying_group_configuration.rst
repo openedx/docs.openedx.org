@@ -53,9 +53,14 @@ group that you removed and the date on which you removed it.
 .. seealso::
  :class: dropdown
 
-  :ref:`Offering Differentiated Content` (concept)
-  :ref:`Overview of Content Experiments` (concept)
-  :ref:`Configure Your Course for Content Experiments` (how-to)
-  :ref:`Experiment Group Configurations` (reference)
-  :ref:`Add a Content Experiment in OLX` (how-to)
-  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+ :ref:`Offering Differentiated Content` (concept)
+
+ :ref:`Overview of Content Experiments` (concept)
+
+ :ref:`Configure Your Course for Content Experiments` (how-to)
+
+ :ref:`Experiment Group Configurations` (reference)
+
+ :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)

@@ -46,18 +46,16 @@ Open edX Documentation
          How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
          OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
 
-   .. grid-item-card::
+   .. grid-item-card:: Educators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      .. toctree::
-         :maxdepth: 1
-         :caption: Educators: Build and/or Run an Open edX Course
+      .. image:: /_images/educators_homepage/educator_undraw.png
+         :alt: Educator Persona building a course
+         :height: 150px
+         :align: center
 
-         Quickstarts <educators/quickstarts/index>
-         How-tos <educators/how-tos/index>
-         Concepts <educators/concepts/index>
-         Reference <educators/references/index>
+      Build, run and analyze courses on the Open edX® Platform.
 
       +++
       .. button-ref:: educators/index
@@ -162,3 +160,4 @@ Open edX Documentation
          other/feedback
          other/getting_help
          Technical Decisions About This Site <documentors/decisions/index>
+         developers/references/aspects_home

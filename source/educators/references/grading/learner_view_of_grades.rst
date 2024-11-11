@@ -36,7 +36,10 @@ together, followed by labs, then exams.
 .. seealso::
  :class: dropdown
 
-  :ref:`Graded Subsections` (concept)
-  :ref:`Gradebook Assignment Types` (reference)
-  :ref:`Set the Grade Range` (how-to)
-  :ref:`Set the Grace Period` (how-to)
+ :ref:`Graded Subsections` (concept)
+
+ :ref:`Gradebook Assignment Types` (reference)
+
+ :ref:`Set the Grade Range` (how-to)
+
+ :ref:`Set the Grace Period` (how-to)

@@ -19,4 +19,4 @@ While your course is running, after learners have had a chance to complete the o
 .. seealso::
  :class: dropdown
 
-  :ref:`StaffGraded` (how to)
+ :ref:`StaffGraded` (how to)

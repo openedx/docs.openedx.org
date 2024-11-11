@@ -39,7 +39,9 @@ directory. To find a unit, look in the **Vertical** directory.
 .. seealso::
  :class: dropdown
 
-  :ref:`Export a Course` (how-to)
-  :ref:`Import a Course` (how-to)
-  :ref:`Work with the targz File` (reference)
+ :ref:`Export a Course` (how-to)
+
+ :ref:`Import a Course` (how-to)
+
+ :ref:`Work with the targz File` (reference)
 

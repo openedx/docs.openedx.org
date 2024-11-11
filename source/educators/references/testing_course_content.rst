@@ -146,4 +146,3 @@ configured in Studio, and as a learner in the selected group would see it.
    been assigned to a particular learner from a randomized content block in a
    live course, see :ref:`Specific Student View`.
 
-

@@ -76,6 +76,6 @@ Uploading the SCORM content
 .. seealso::
  :class: dropdown
 
-  :ref:`SCORM Overview` (reference)
+ :ref:`SCORM Overview` (reference)
 
 

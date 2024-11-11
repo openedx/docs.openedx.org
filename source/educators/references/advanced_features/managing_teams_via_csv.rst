@@ -225,8 +225,12 @@ Increase the team-set size or redistribute users to different/more teams and re-
 .. seealso::
  :class: dropdown
 
-  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-  :ref:`Enable and Configure Teams` (how-to)
-  :ref:`Teams Configuration Options` (reference)
-  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+ :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+
+ :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+
+ :ref:`Enable and Configure Teams` (how-to)
+
+ :ref:`Teams Configuration Options` (reference)
+
+ :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)

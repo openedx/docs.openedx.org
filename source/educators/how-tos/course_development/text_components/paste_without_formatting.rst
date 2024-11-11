@@ -42,12 +42,17 @@ However, if you select “Remove formatting”, this is what Studio and LMS will
 .. seealso::
  :class: dropdown
 
-  :ref:`Working with Text Components` (reference)
-  :ref:`Create a Text Component` (how-to)
-  :ref:`Add an Image to a Text Component` (how-to)
-  :ref:`Add Link to Website Course Unit or File` (how-to)
-  :ref:`Work with HTML code` (how-to)
-  :ref:`Work with Latex Code` (how-to)
+ :ref:`Working with Text Components` (reference)
+
+ :ref:`Create a Text Component` (how-to)
+
+ :ref:`Add an Image to a Text Component` (how-to)
+
+ :ref:`Add Link to Website Course Unit or File` (how-to)
+
+ :ref:`Work with HTML code` (how-to)
+
+ :ref:`Work with Latex Code` (how-to)
 
 
 

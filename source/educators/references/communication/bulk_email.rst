@@ -416,8 +416,11 @@ Failure.
 .. seealso::
  :class: dropdown
 
-  :ref:`Send_Bulk_Email` (how-to)
-  :ref:`Review Sent Messages` (how-to)
-  :ref:`Example Messages to Students` (reference)
+ :ref:`Send_Bulk_Email` (how-to)
+
+ :ref:`Review Sent Messages` (how-to)
+
+ :ref:`Example Messages to Students` (reference)
+
   
   

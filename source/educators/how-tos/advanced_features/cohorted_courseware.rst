@@ -317,9 +317,14 @@ Delete Content Groups
 .. seealso::
  :class: dropdown
 
-  :ref:`Cohorts Overview` (concept)
-  :ref:`Manage Course Cohorts` (how-to)
-  :ref:`About Divided Discussions` (concept)
-  :ref:`Managing Divided Discussion Topics` (concept)
-  :ref:`Moderating_discussions` (concept)
-  :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Cohorts Overview` (concept)
+
+ :ref:`Manage Course Cohorts` (how-to)
+
+ :ref:`About Divided Discussions` (concept)
+
+ :ref:`Managing Divided Discussion Topics` (concept)
+
+ :ref:`Moderating_discussions` (concept)
+
+ :ref:`Setting Up Divided Discussions` (how-to)

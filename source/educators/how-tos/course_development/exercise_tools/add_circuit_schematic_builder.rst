@@ -156,4 +156,3 @@ the advanced editor.
    </div>
   </solution>
  </problem>
-

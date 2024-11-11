@@ -44,4 +44,4 @@ For display equations, you can do either of the following.
 .. seealso::
  :class: dropdown
 
-  :ref:`Adding MathJax` (reference)
+ :ref:`Adding MathJax` (reference)

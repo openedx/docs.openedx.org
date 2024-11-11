@@ -1057,7 +1057,10 @@ Universal Design for Learning Resources
 .. seealso::
  :class: dropdown
 
-  :ref:`edX Accessibility Guidelines` (concept)
-  :ref:`Designing for Mobile` (concept)
-  :ref:`Supporting Learners with Diverse Needs` (concept)
-  :ref:`Accessibility Checker` (reference)
+ :ref:`edX Accessibility Guidelines` (concept)
+
+ :ref:`Designing for Mobile` (concept)
+
+ :ref:`Supporting Learners with Diverse Needs` (concept)
+
+ :ref:`Accessibility Checker` (reference)

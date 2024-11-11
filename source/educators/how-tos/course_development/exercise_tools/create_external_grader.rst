@@ -31,5 +31,6 @@ To create a code response problem in Studio, follow these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`External Grader` (concept)
-  :ref:`External Grader Problem Requirements` (reference)
+ :ref:`External Grader` (concept)
+
+ :ref:`External Grader Problem Requirements` (reference)

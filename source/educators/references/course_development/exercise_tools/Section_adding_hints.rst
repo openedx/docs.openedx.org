@@ -139,4 +139,3 @@ hints for learners.
  :alt: Image of the hints settings.
  :width: 300
 
-

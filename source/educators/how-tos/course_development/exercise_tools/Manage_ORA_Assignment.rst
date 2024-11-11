@@ -465,7 +465,10 @@ grading>`, locate the specific submission by following these steps.
 .. seealso::
  :class: dropdown
 
-  :ref:`Open Response Assessments` (concept)
-  :ref:`PA Create an ORA Assignment` (how to)
-  :ref:`ORA Staff Grading` (reference)
-  :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`Open Response Assessments` (concept)
+
+ :ref:`PA Create an ORA Assignment` (how to)
+
+ :ref:`ORA Staff Grading` (reference)
+
+ :ref:`Accessing ORA Assignment Information` (reference)

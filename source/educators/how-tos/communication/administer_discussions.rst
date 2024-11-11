@@ -123,6 +123,8 @@ enrollment period for the course is over.
 .. seealso::
  :class: dropdown
 
-  :ref:`Guidance for Discussion Moderators` (concept)
-  :ref:`Moderating_discussions` (concept)
-  :ref:`Assigning_discussion_roles` (how-to)
+ :ref:`Guidance for Discussion Moderators` (concept)
+
+ :ref:`Moderating_discussions` (concept)
+
+ :ref:`Assigning_discussion_roles` (how-to)

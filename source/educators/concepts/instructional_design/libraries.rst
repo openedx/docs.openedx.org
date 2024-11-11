@@ -32,6 +32,8 @@ tab on the Studio Home page.
 .. seealso::
  :class: dropdown
 
-  :ref:`Create a New Library` (how to)
-  :ref:`Exporting and Importing a Library` (how to)
-  :ref:`Give Other Users Access to Your Library` (how to)
+ :ref:`Create a New Library` (how to)
+
+ :ref:`Exporting and Importing a Library` (how to)
+
+ :ref:`Give Other Users Access to Your Library` (how to)

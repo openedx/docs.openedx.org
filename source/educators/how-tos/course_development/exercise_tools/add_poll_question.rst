@@ -103,6 +103,8 @@ The results of the poll are then displayed.
 .. seealso::
  :class: dropdown
 
-  :ref:`Poll Tool` (reference)
-  :ref:`Poll Tool for OLX` (reference)
-  :ref:`Enable Poll in OLX` (reference)
+ :ref:`Poll Tool` (reference)
+
+ :ref:`Poll Tool for OLX` (reference)
+
+ :ref:`Enable Poll in OLX` (reference)

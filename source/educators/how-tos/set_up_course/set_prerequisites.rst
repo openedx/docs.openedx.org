@@ -34,4 +34,3 @@ To specify a prerequisite course, follow these steps.
 
 For more information about prerequisite courses, see :ref:`Prerequisite
 Courses`.
-

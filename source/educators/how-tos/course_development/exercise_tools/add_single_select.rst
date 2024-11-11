@@ -93,7 +93,10 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Single Select Overview` (concept)
-  :ref:`Single Select Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
-  :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
+ :ref:`Single Select Overview` (concept)
+
+ :ref:`Single Select Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
+
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how to)

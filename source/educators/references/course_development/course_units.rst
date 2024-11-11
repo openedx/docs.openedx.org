@@ -82,4 +82,3 @@ following actions.
 * Viewed all of each video.
 * Submitted answers for all of the problems.
 * Viewed all HTML content for at least five seconds.
-

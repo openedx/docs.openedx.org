@@ -48,6 +48,8 @@ To download certificate data, follow these steps.
  :class: dropdown
 
  :ref:`Setting Up Certificates`
+
  :ref:`Checking Student Progress and Issuing Certificates`
+
  :ref:`Columns in the Certificate Report` (reference)
 

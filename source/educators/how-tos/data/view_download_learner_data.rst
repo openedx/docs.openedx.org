@@ -59,5 +59,7 @@ To view learner data, follow these steps.
  :class: dropdown
 
  :ref:`Learner Data` (concept)
+
  :ref:`Columns in the Student Profile Report` (reference)
+
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)

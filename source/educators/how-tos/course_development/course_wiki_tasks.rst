@@ -153,5 +153,6 @@ Combine a Current Version with a Previous Version
 .. seealso::
  :class: dropdown
 
-  :ref:`Create Course Wiki` (how to)
-  :ref:`About Course Wiki` (reference)
+ :ref:`Create Course Wiki` (how to)
+
+ :ref:`About Course Wiki` (reference)

@@ -178,4 +178,3 @@ the subsection has been released.
 When a subsection contains a unit that has staff-only content, the subsection
 is visible in the outline with a vertical black bar next to the subsection's
 display name.
-

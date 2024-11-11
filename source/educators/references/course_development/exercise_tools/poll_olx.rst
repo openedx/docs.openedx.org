@@ -210,6 +210,8 @@ Example of poll with unable reset functionality
 .. seealso::
  :class: dropdown
 
-  :ref:`Poll Tool` (reference)
-  :ref:`Add Poll` (how to)
-  :ref:`Enable Poll in OLX` (reference)
+ :ref:`Poll Tool` (reference)
+
+ :ref:`Add Poll` (how to)
+
+ :ref:`Enable Poll in OLX` (reference)

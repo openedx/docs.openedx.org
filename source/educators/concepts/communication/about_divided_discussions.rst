@@ -65,5 +65,6 @@ Discussion Topics` and :ref:`Running_discussions`.
 .. seealso::
  :class: dropdown
 
-  :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Setting Up Divided Discussions` (how-to)
+
   

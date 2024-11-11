@@ -106,4 +106,3 @@ available because the due date (or course end date) has passed.
 In the course outline in Studio, the subsection is shown with an icon and a
 "Subsection is hidden after due date" or "Subsection is hidden after course
 end date" message under the subsection's display name.
-

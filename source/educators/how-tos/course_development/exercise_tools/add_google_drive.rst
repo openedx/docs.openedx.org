@@ -74,5 +74,6 @@ The value of the ``embed_code`` attribute is the embed code you copied in the
 .. seealso::
  :class: dropdown
 
-  :ref:`Google Drive Files Tool` (reference)
-  :ref:`Embed Google Drive Files` (how to)
+ :ref:`Google Drive Files Tool` (reference)
+
+ :ref:`Embed Google Drive Files` (how to)

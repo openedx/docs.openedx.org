@@ -50,6 +50,8 @@ quotation marks around the key value.) For more information, see
 .. seealso::
  :class: dropdown
 
-  :ref:`Add Poll` (how to)
-  :ref:`Poll Tool for OLX` (reference)
-  :ref:`Enable Poll in OLX` (reference)
+ :ref:`Add Poll` (how to)
+
+ :ref:`Poll Tool for OLX` (reference)
+
+ :ref:`Enable Poll in OLX` (reference)

@@ -113,4 +113,4 @@ To learn about Flexible Peer Grading and the course override setting, see  :ref:
 .. seealso::
  :class: dropdown
 
-  :ref:`Adding Pages to a Course` (how to)
+ :ref:`Adding Pages to a Course` (how to)

@@ -280,4 +280,4 @@ problem.
 .. seealso::
  :class: dropdown
 
-  :ref:`Randomized Content Blocks` (reference)
+ :ref:`Randomized Content Blocks` (reference)

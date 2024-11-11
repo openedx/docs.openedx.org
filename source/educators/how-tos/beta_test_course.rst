@@ -1,2 +1,0 @@
-Beta Test Your Course
-#####################

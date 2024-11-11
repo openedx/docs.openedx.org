@@ -65,8 +65,12 @@ numerical input problem. An example of a completed numerical input problem follo
 .. seealso::
  :class: dropdown
 
-  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
-  :ref:`Use Feedback in a Numerical Input Problems` (how-to)
-  :ref:`Adding Numerical Input Problem` (how to)
-  :ref:`Numerical Input Problem XML` (reference)
-  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+ :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
+
+ :ref:`Use Feedback in a Numerical Input Problems` (how-to)
+
+ :ref:`Adding Numerical Input Problem` (how to)
+
+ :ref:`Numerical Input Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)

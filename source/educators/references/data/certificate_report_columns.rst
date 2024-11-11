@@ -30,4 +30,3 @@ the course.
 
  :ref:`Setting Up Certificates`
  :ref:`Checking Student Progress and Issuing Certificates`
-
