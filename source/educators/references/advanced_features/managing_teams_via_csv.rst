@@ -1,10 +1,11 @@
-.. :diataxis-type: reference
-
 .. _Managing Teams via CSV Upload:
 
 ##########################################
 Managing Teams via CSV Upload
 ##########################################
+
+.. tags:: educator, reference
+    
 Initial Setup
 -------------
 There are cases where an instructor may want to manage team membership within a course

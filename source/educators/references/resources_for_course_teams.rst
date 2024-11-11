@@ -1,8 +1,8 @@
-.. :diataxis-type: reference
-
 **********************************
 Resources for edx.org Course Teams
 **********************************
+
+.. tags:: educator, reference
 
 Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses

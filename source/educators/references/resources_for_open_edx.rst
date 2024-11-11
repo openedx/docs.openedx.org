@@ -1,8 +1,8 @@
-.. :diataxis-type: reference
-
 **************************
 Resources for Open edX
 **************************
+
+.. tags:: educator, reference
 
 Hosting providers, platform extenders, core contributors, and course staff all
 use Open edX. EdX provides release-specific documentation, as well as the

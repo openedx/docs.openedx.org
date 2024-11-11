@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Write Your Own Grader:
 
 #############################################################
 Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
 #############################################################
+
+.. tags:: educator, reference
 
 This section provides information about writing your own grader directly in a
 problem component.

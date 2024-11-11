@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Work with the targz File:
 
 ***********************************
 Working with the ``.tar.gz`` File
 ***********************************
+
+.. tags:: educator, reference
 
 Courses are exported and imported in ``.tar.gz`` files containing OLX (Open
 Learning XML), the Open edX markup format for open course exchange. For more

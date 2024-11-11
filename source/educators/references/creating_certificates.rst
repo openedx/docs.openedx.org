@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Setting Up Certificates:
 
 #################################
 Setting Up Certificates in Studio
 #################################
+
+.. tags:: educator, reference
 
 This section describes how to create and manage certificates for your course.
 

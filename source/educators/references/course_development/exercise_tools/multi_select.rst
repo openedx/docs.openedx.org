@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Multi select:
 
 #####################
 Multi-select Problem
 #####################
+
+.. tags:: educator, reference
 
 The multi-select problem type is a simple problem type that can be added to any
 course. At a minimum, multi-select problems include a question or prompt and

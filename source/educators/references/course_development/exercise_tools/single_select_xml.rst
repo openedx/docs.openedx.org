@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Single Select Problem XML:
 
 ***********************************
 Single Select Problem OLX Reference
 ***********************************
+
+.. tags:: educator, reference
 
 .. note:: You can also set attributes and options by adding a ``<script>`` element.
  For more information, see :ref:`Using the Script Element<Using the Script

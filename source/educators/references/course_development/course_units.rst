@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Developing Course Units:
 
 ###################################
 Developing Course Units
 ###################################
+
+.. tags:: educator, reference
 
 To work with units in the course outline and develop your course, you need to
 understand the following concepts and complete the following tasks.

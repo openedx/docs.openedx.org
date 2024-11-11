@@ -1,8 +1,8 @@
-.. :diataxis-type: reference
-
 ******************************
 Resources for edx.org Learners
 ******************************
+
+.. tags:: educator, reference
 
 ===========
 In a Course

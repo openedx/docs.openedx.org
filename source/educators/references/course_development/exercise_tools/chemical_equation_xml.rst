@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Chemical Equation Problem XML:
 
 ************************************
 Chemical Equation Problem XML
 ************************************
+
+.. tags:: educator, reference
 
 ============
 Template

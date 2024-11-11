@@ -4,6 +4,8 @@
 Interpreting the Problem Grade Report
 ########################################
 
+.. tags:: educator, reference
+
 A problem grade report for your course is a time-stamped .csv file that
 identifies each learner by ID, email address, and username, and provides a
 snapshot of earned scores compared with the possible scores for each problem.

@@ -6,6 +6,8 @@
 Glossary
 #####################
 
+.. tags:: educator, reference
+
 :ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F`
 - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L`
 - :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` - :ref:`R`

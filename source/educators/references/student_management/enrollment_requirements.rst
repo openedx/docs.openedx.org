@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Enrollment_Requirements:
 
 ##########################
 Enrollment Requirements
 ##########################
+
+.. tags:: educator, reference
 
 Learners can enroll themselves in a course during its defined enrollment
 period.

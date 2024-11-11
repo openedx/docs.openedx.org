@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Adding Tooltips:
 
 ==============================
 Adding Tooltips to a Problem
 ==============================
+
+.. tags:: educator, reference
 
 To help learners understand terminology or other aspects of a problem, you can
 add inline tooltips. Tooltips show text to learners when they move their

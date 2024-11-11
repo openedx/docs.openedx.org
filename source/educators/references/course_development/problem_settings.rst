@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Problem Settings:
 
 ****************************************
 Defining Settings for Problem Components
 ****************************************
+
+.. tags:: educator, reference
 
 In addition to the text of the problem and its formatting or OLX
 markup, you define the following settings for problem components. To access

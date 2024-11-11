@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Advanced Editor:
 
 ***************************************************
 The Advanced Editor
 ***************************************************
+
+.. tags:: educator, reference
 
 If the simple editor cannot fulfill your needs, you might turn your attention
 to the Advanced Editor. This editor will allow you to directly edit the open

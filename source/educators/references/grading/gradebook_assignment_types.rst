@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Gradebook Assignment Types:
 
 ******************************
 Gradebook Assignment Types
 ******************************
+
+.. tags:: educator, reference
 
 You must create assignment types for your course and determine the weight of
 the total grade for each assignment type.

@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _LTI Component settings:
 
 **********************
 LTI Component Settings
 **********************
+
+.. tags:: educator, reference
 
 .. list-table::
    :widths: 20 80

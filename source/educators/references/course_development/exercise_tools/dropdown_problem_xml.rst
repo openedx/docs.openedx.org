@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Dropdown Problem XML:
 
 ******************************
 Dropdown Problem OLX Reference
 ******************************
+
+.. tags:: educator, reference
 
 ========
 Template

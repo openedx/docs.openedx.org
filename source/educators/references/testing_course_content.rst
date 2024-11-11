@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Testing Your Course Content:
 
 ###########################
 Testing Your Course Content
 ###########################
+
+.. tags:: educator, reference
 
 The way your course looks in Studio is different from the way that learners
 will see and experience it when it is live in the LMS. As a best practice, you

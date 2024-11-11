@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Numerical Input Problem XML:
 
 *************************************
 Numerical Input Problem OLX Reference
 *************************************
+
+.. tags:: educator, reference
 
 =========
 Templates

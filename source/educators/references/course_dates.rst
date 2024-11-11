@@ -1,6 +1,8 @@
 Course Dates
 #####################
 
+.. tags:: educator, reference
+
 
 
 Start Date and Time

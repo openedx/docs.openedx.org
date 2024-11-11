@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Gene Explorer:
 
 ##################
 Gene Explorer Tool
 ##################
+
+.. tags:: educator, reference
 
 The gene explorer (GeneX), from the biology department at `UMB
 <https://www.umb.edu/>`_, simulates the transcription, splicing, processing, and

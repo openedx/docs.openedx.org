@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Planning for Content Reuse:
 
 ***********************************
 Planning for Content Reuse (LTI)
 ***********************************
+
+.. tags:: educator, reference
 
 .. note:: This feature was a closed pilot experiment. This feature is not
  supported for new users.

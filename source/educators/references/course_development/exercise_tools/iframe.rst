@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _IFrame:
 
 ###########
 Iframe Tool
 ###########
+
+.. tags:: educator, reference
 
 The iframe tool allows you to integrate ungraded exercises and tools from any
 Internet site into the body of your course. It places an iframe inside an HTML

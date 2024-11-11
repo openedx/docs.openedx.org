@@ -1,11 +1,10 @@
-
-.. :diataxis-type: reference
-
 .. _Scheduling Your Course:
 
 #######################
 Scheduling a Course Run
 #######################
+
+.. tags:: educator, reference
 
 After you determine scheduling for your course run, you enter this
 information in Studio before the course run begins. For more information,

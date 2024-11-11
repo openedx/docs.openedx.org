@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Additional Course Information:
 
 #######################################
 Additional Course Information
 #######################################
+
+.. tags:: educator, reference
 
 Optionally, you can share additional information on your About page. This
 section describes this information.

@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Oppia Exploration Tool:
 
 ##########################
 Oppia Exploration Tool
 ##########################
+
+.. tags:: educator, reference
 
 `Oppia`_ is a third-party tool that you can use to create short interactive
 tutorials, called explorations. This topic describes how to embed Oppia

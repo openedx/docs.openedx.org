@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Staff Debug Info:
 
 ################
 Staff Debug Info
 ################
+
+.. tags:: educator, reference
 
 The edX system keeps track of learners' progress through a course -- recording
 when the learner watches videos, responds to problems, and so on. If you are a

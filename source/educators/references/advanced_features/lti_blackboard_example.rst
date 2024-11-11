@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _edX as an LTI Provider to Blackboard:
 
 ###############################################
 Example: edX as an LTI Provider to Blackboard
 ###############################################
+
+.. tags:: educator, reference
 
 .. only:: Partners
 

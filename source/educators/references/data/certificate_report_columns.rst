@@ -1,10 +1,10 @@
-.. diataxis-type: reference
-
 .. _Columns in the Certificate Report:
 
 ####################################
 Columns in the Certificate Report
 ####################################
+
+.. tags:: educator, reference
 
 The certificate report includes a row for each type of certificate issued for
 the course.

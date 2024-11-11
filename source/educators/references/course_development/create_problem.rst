@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Working with Problem Components:
 
 ################################
 Working with Problem Components
 ################################
+
+.. tags:: educator, reference
 
 This section introduces the core set of problem types that course teams can add
 to any course by using the problem component. It also describes editing options

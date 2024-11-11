@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Publish Content from the Course Outline:
 
 ************************************************
 Publish Content from the Course Outline
 ************************************************
+
+.. tags:: educator, reference
 
 You can publish new and changed units for an entire section or subsection. You
 can also publish individual units.

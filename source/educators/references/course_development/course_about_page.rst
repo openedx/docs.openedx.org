@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Creating a Course About Page:
 
 #######################
 A Course About Page
 #######################
+
+.. tags:: educator, reference
 
 The course About page, sometimes called the course summary page, provides
 information about your course to learners. Learners can see the About page

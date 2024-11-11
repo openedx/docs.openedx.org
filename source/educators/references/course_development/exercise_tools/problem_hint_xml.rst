@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Problem with Adaptive Hint XML:
 
 *********************************
 Problem with Adaptive Hint XML
 *********************************
+
+.. tags:: educator, reference
 
 ========
 Template

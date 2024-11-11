@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Enable Survey OLX:
 
 ======================================
 Enable the Survey Tool in OLX
 ======================================
+
+.. tags:: educator, reference
 
 To enable the survey tool, you edit the XML file that defines the course
 structure.

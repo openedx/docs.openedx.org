@@ -1,11 +1,10 @@
-.. :diataxis-type: reference
-
-
 .. _Troubleshoot Videos:
 
 ################################
 Troubleshooting Video Problems
 ################################
+
+.. tags:: educator, reference
 
 When you use video, you might experience one of the following problems.
 

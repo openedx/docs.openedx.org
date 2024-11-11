@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Developing Course Sections:
 
 ###################################
 Developing Course Sections
 ###################################
+
+.. tags:: educator, reference
 
 To develop sections in your course, you must first understand the following
 topics.

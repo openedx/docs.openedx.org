@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Licensing a Course:
 
 ################
 Course Licensing
 ################
+
+.. tags:: educator, reference
 
 You can specify licensing options for your course content as well as for each
 video in your course. By specifying the license, you communicate to learners

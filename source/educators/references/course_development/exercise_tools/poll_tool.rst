@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Poll Tool:
 
 ###################
 Poll Tool
 ###################
+
+.. tags:: educator, reference
 
 This section describes how to include polls in your course.
 

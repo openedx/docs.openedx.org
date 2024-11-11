@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Partial Credit:
 
 ==========================================
 Awarding Partial Credit for a Problem
 ==========================================
+
+.. tags:: educator, reference
 
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit an answer that is partly correct.

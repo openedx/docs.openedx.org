@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Dropdown:
 
 ################
 Dropdown Problem
 ################
+
+.. tags:: educator, reference
 
 The dropdown problem type is a simple problem type that can be added to any
 course. Dropdown problems include a question or prompt and

@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Completion:
 
 ###############
 Completion Tool
 ###############
+
+.. tags:: educator, reference
 
 The completion tool provides learners with a way to mark sections of the
 course as completed. It helps learners to track their progress through

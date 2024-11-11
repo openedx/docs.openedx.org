@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Course and Program Images and Videos:
 
 ##########################################
 Images and Videos for a Course or Program
 ##########################################
+
+.. tags:: educator, reference
 
 The About page for a course or program includes both a representative image and
 a short About video. The course or program image also appears in places such as

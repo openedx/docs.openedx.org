@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Course Export File Terminology:
 
 ********************************************
 Course Outline Terminology in Exported Files
 ********************************************
+
+.. tags:: educator, reference
 
 Sections, subsections, units, and components have different names in the Studio
 **Course Outline** view and in the list of files that you see after you

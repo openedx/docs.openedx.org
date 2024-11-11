@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _What is a Component:
 
 ********************
 What is a Component?
 ********************
+
+.. tags:: educator, reference
 
 A component is the part of a unit that contains your actual course content. A
 unit can contain one or more components.

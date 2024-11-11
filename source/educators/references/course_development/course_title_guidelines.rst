@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Course Title Guidelines: 
 
 #########################
 Course Title Guidelines
 #########################
+
+.. tags:: educator, reference
 
 The course title (sometimes also called the course name) and number are
 important identifiers for your course. It is a good idea to use titles and

@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Experiment Group Configurations:
 
 =======================================
 Experiment Group Configurations
 =======================================
+
+.. tags:: educator, reference
 
 The edX Platform assigns learners to each experiment group in a group
 configuration.

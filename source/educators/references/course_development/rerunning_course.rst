@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Rerun a Course:
 
 ###################
 Re-running a Course
 ###################
+
+.. tags:: educator, reference
 
 Another way to create a course in Studio is to re-run an existing course. When
 you re-run a course, most, but not all, of the original course content is

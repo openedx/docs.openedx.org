@@ -1,10 +1,10 @@
-
-.. :diataxis-type: reference
 .. _A Students View of the Discussion:
 
 **********************************
 A Learner's View of the Discussion
 **********************************
+
+.. tags:: educator, reference
 
 When you add a discussion component to a unit, in the LMS, learners see only
 the discussion, together with the display name of the discussion component, the category, and the subcategory. EdX recommends that you add an HTML

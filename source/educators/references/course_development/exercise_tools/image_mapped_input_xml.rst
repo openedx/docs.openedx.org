@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Image Mapped Input Problem XML:
 
 ******************************
 Image Mapped Input Problem XML
 ******************************
+
+.. tags:: educator, reference
 
 ==========
 Template

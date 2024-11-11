@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Teams Configuration Options:
 
 ##########################################
 Teams Configuration Options
 ##########################################
+
+.. tags:: educator, reference
 
 There are several configuration options available to the Teams application.
 Many basic configuration options are provided within Studio’s Pages & Resources area,

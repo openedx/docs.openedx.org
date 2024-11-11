@@ -1,11 +1,10 @@
-
-.. :diataxis-type: how-to
-
 .. _Modify Settings for Objects in the Course Outline:
 
 ***************************************************
 Modify Settings for Objects in the Course Outline
 ***************************************************
+
+.. tags:: educator, reference
 
 You modify settings for sections, subsections, and units in the course outline.
 Specifically, you can complete the following tasks.

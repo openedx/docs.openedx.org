@@ -1,6 +1,6 @@
-.. :diataxis-type: reference
-
 .. _Working with Text Components:
+
+.. tags:: educator, reference
 
 .. this is the old name of this section, left here so that frozen Maple
     projects will resolve the reference:
@@ -9,6 +9,8 @@
 ############################
 About Text Components
 ############################
+
+.. tags:: educator, reference
 
 Text components are the basic building blocks of your course content. You use
 Text components to add and format text, links, images, and more. You can work

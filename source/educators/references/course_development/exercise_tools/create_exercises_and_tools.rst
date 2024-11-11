@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Core Problem Types:
 
 ******************
 Core Problem Types
 ******************
+
+.. tags:: educator, reference
 
 The problem types that you can include in any course, without taking any
 other steps to identify or enable additional exercises or tools, are the core

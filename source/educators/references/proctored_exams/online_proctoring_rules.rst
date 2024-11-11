@@ -4,6 +4,8 @@
 Online Proctoring Rules for Learners
 ####################################
 
+.. tags:: educator, reference
+
 The rules for proctored exams vary according to your online proctoring
 service. The following rules are common rules for "closed book" exams.
 

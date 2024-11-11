@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _MathJax in Studio:
 
 ##############################
 MathJax for Mathematics
 ##############################
+
+.. tags:: educator, reference
 
 To produce clear and professional-looking symbols and equations in web browser,
 edX uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
