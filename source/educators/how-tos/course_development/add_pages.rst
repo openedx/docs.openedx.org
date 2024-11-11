@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding Pages to a Course:
 
 ##################################
 Managing the Pages in Your Course
 ##################################
+
+.. tags:: educator, how-to
 
 This topic describes the applications and resources that your course experience
 has enabled outside of the core content experience and how you can modify these

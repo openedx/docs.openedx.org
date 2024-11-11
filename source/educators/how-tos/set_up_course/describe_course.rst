@@ -1,11 +1,10 @@
-.. :diataxis-type: how to 
-
 .. _Describe Your Course:
 
 ******************************
 Describe Your Course
 ******************************
 
+.. tags:: educator, how-to
 
 Learners see a description of your course on the course About page, under the
 heading "About this course". The course description contains the following

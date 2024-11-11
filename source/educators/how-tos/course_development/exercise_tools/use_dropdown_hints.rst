@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Use Hints in a Dropdown Problem:
 
 ============
 Adding Hints
 ============
+
+.. tags:: educator, how-to
 
 You can add hints to a dropdown problem. For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.

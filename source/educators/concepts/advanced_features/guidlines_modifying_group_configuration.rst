@@ -1,10 +1,11 @@
-.. :diataxis-type: concept
 .. Section is shared in CA and OLX guides
 .. _Guidelines for Modifying Group Configurations:
 
 *********************************************
 Guidelines for Modifying Group Configurations
 *********************************************
+
+.. tags:: educator, concept
 
 Review these guidelines if you must modify a group configuration after a course
 starts. These guidelines apply for courses built in Studio or using OLX (open

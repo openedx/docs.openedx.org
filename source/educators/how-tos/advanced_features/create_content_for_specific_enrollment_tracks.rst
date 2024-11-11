@@ -1,5 +1,3 @@
-.. :diataxis-type: how-to
-
 :orphan:
 
 .. _Enrollment Track Specific Courseware Overview:
@@ -7,6 +5,8 @@
 #######################################################
 Create Course Content for Specific Enrollment Tracks
 #######################################################
+
+.. tags:: educator, how-to
 
 This section provides information about creating different content for
 learners who are enrolled in specific enrollment tracks in your course.

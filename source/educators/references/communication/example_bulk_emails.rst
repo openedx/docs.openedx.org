@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Example Messages to Students:
 
 *********************************
 Example Messages to Learners
 *********************************
+
+.. tags:: educator, reference
 
 You can use these example messages, prepared for delivery before typical course
 milestones, as models for your own course communications.

@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 ================================
 Add or Update a Limited Profile
 ================================
+
+.. tags:: educator, how-to
 
 A limited profile includes only your username and, optionally, an image.
 

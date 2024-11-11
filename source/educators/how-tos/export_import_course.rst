@@ -1,5 +1,3 @@
-.. :diataxis-type: how-to
-
 .. only:: Partners
 
  .. note::

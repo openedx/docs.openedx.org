@@ -6,6 +6,8 @@
 Add a Content Experiment in OLX
 ****************************************
 
+.. tags:: educator, how-to
+
 You work with multiple XML files to configure a content experiment. This
 section steps through the files involved in a content experiment that shows
 different content to two different groups of learners.

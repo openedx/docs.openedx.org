@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Awarding Partial Credit in a Numerical Input Problem:
 
 =========================================
 Awarding Partial
 =========================================
+
+.. tags:: educator, how-to
 
 You can configure a numerical input problem to award partial credit to learners
 who submit an answer that is close or related to the correct answer. You must

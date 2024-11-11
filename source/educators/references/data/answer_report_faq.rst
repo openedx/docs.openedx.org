@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Answer_Report_FAQ:
 
 ########################################################################
 Frequently Asked Questions about the Student Answer Distribution Report
 ########################################################################
+
+.. tags:: educator, reference
 
 Answers to questions about the student answer distribution report follow.
 

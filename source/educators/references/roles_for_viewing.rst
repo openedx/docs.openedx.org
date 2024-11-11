@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Roles for Viewing Course Content:
 
 ***************************************
 Viewing Course Content Based on Roles
 ***************************************
+
+.. tags:: educator, reference
 
 When you select **View Live** or **Preview** from the course outline in Studio,
 you can see how it would appear to members of different groups by selecting one

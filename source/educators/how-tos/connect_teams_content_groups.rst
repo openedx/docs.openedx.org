@@ -1,6 +1,8 @@
 Connect Teams to Content Groups
 ###############################
 
+.. tags:: educator, how-to
+
 Setup
 *****
 

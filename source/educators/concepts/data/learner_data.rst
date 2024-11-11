@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Learner Data:
 
 ############################
 Learner Data
 ############################
+
+.. tags:: educator, concept
 
 You can access data about the individuals who are enrolled in your course at
 any time after you create the course.

@@ -1,10 +1,10 @@
-.. :diataxis-type: how to 
-
 .. _Edit a Certificate:
 
 ******************
 Edit a Certificate
 ******************
+
+.. tags:: educator, how-to
 
 You can edit certificates before and after they are activated.
 

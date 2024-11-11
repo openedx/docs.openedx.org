@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Additional Video Options:
 
 ###################################
 Specifying Additional Video Options
 ###################################
+
+.. tags:: educator, how-to
 
 When you create a video component, you can customize additonal settings such as
 specifying download options for the video and transcript, video license options,

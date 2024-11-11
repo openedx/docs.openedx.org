@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Work with Latex Code:
 
 #############################################
 Work with LaTeX Code
 #############################################
+
+.. tags:: educator, how-to
 
 
 JRistau (26 Sept 2022) - LaTeX editor support was removed with the rollout of

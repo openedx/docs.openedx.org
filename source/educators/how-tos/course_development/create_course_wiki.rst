@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create Course Wiki:
 
 ########################
 Using the Course Wiki
 ########################
+
+.. tags:: educator, how-to
 
 Wikis provide a way for the course team and learners to access, share, and
 collaboratively edit information both about, and for, your course.

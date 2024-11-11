@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Overview of Content Experiments:
 
 #################################
 Overview of Content Experiments
 #################################
+
+.. tags:: educator, concept
 
 
 You use content experiments to show different course content to different

@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Accessibility Checker:
 
 #####################
 Accessibility Checker
 #####################
+
+.. tags:: educator, reference
 
 * This feature allows you to check HTML in the editor for various
   WCAG and Section 508 accessibility problems.

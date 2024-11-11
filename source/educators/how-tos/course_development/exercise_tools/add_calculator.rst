@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Calculator:
 
 ##################
 Calculator Tool
 ##################
+
+.. tags:: educator, how-to
 
 .. contents::
   :local:

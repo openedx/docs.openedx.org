@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Image Mapped Input:
 
 ###########################
 Image Mapped Input Problem
 ###########################
+
+.. tags:: educator, reference
 
 In an image mapped input problem, also known as a "pointing on a picture"
 problem, students click inside a defined region in an image. You define this

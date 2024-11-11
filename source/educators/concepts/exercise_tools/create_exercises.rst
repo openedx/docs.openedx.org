@@ -1,9 +1,10 @@
-.. :diataxis-type: concept
 .. _Create Exercises:
 
 ##############################
 Problems, Exercises, and Tools
 ##############################
+
+.. tags:: educator, concept
 
 You can add a wide variety of different types of problems, exercises, and
 tools to your course outline. By default, a core set of :ref:`problem

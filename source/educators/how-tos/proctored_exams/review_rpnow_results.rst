@@ -4,6 +4,8 @@
 Viewing Proctored Session Results with RPNow
 ############################################
 
+.. tags:: educator, how-to
+
 To view proctored exam results, you use the Proctored Exam Results report. This
 report is a .csv file that you can download from the instructor dashboard. You
 can use this report to view proctoring results for all learners, or

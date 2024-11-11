@@ -2,6 +2,8 @@
 Export tag data from a course
 #############################
 
+.. tags:: educator, how-to
+
 Export a CSV file that reports on which tags have been added to which parts of the course.
 
 #. From the Tools dropdown, select “Export Tags”. 

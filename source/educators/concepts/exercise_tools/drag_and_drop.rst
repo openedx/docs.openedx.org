@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _drag_and_drop_problem:
 
 #####################
 Drag and Drop Problem
 #####################
+
+.. tags:: educator, concept
 
 In drag and drop problems, learners respond to a question by dragging text or
 images to a specific location on a background image. This section explains how

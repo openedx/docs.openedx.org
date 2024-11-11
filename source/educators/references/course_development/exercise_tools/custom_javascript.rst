@@ -1,9 +1,10 @@
-.. :diataxis-type: reference 
 .. _Custom JavaScript:
 
 #############################################
 Custom JavaScript Display and Grading Problem
 #############################################
+
+.. tags:: educator, reference
 
 Custom JavaScript display and grading problems (also called custom JavaScript
 problems or JS input problems) allow you to create a custom problem or tool

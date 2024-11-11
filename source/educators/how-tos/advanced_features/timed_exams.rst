@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Configure Timed Exams:
 
 ######################
 Configure Timed Exams
 ######################
+
+.. tags:: educator, how-to
 
 *******************
 Enable Timed Exams

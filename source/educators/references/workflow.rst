@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Getting Started with Course Content Development:
 
 ###############################################
 Getting Started with Course Content Development
 ###############################################
+
+.. tags:: educator, reference
 
 When you have finished setting up your course, you are ready to build your course content.
 

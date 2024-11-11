@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Editing Numerical Input Problems using the Advanced Editor:
 
 **************************************************************
 Editing Numerical Input Problems using the Advanced Editor
 **************************************************************
+
+.. tags:: educator, how-to
 
 If the simple editor is not enough to meet your needs, you can switch over to the
 advanced editor. In the setting panels on the right of the editor, click

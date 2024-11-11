@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Setting Up Divided Discussions:
 
 ******************************
 Setting Up Divided Discussions
 ******************************
+
+.. tags:: educator, how-to
 
 .. note::
    You must set up divided discussions before your course starts. You cannot

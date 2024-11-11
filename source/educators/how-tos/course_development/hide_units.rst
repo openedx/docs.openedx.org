@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Hide a Unit from Students:
 
 ****************************
 Hide a Unit from Learners
 ****************************
+
+.. tags:: educator, how-to
 
 You can prevent learners from seeing a unit regardless of the unit status or
 the release schedules of the section and subsection.

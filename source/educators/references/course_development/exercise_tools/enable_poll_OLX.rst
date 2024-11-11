@@ -1,5 +1,3 @@
-.. :diataxis-type: reference
-
 Alternatively, you can use OLX to enable the poll tool.
 
 .. _Enable Poll in OLX:
@@ -7,6 +5,8 @@ Alternatively, you can use OLX to enable the poll tool.
 ======================================
 Enable the Poll Tool in OLX
 ======================================
+
+.. tags:: educator, reference
 
 To enable polls in your course, you edit the XML file that defines
 the course structure.

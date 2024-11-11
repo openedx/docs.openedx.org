@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _edX as an LTI Provider to Canvas:
 
 ##########################################
 Example: edX as an LTI Provider to Canvas
 ##########################################
+
+.. tags:: educator, reference
 
 .. note:: This feature was a closed pilot experiment. This feature is not
  supported for new users.

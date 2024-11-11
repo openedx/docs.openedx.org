@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Numerical Input:
 
 ########################
 Numerical Input Problem
 ########################
+
+.. tags:: educator, reference
 
 The numerical input problem type is a simple problem type that can be added to
 any course. At a minimum, numerical input problems include a question or

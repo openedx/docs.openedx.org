@@ -3,6 +3,9 @@
 #########################################
 Create a Proctored Exam with Proctortrack
 #########################################
+
+.. tags:: educator, how-to
+   
 After you enable proctored exams with Proctortrack for your course, you can create proctored exams.
 
 To create a proctored exam for Proctortrack, you first create a single Onboarding exam subsection in your course, and then create one or more proctored exam subsections.

@@ -1,9 +1,10 @@
-.. :diataxis-type: concept
 .. _Open Response Assessments:
 
 ###########################################
 Introduction to Open Response Assessments
 ###########################################
+
+.. tags:: educator, concept
 
 In open response assessments (ORA), learners submit essay responses and then go
 through a series of assessment steps (such as peer assessment and self

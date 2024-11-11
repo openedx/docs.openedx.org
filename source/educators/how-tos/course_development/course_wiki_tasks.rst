@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Course Wiki Tasks: 
 
 ********************
 Course Wiki Tasks
 ********************
+
+.. tags:: educator, how-to
 
 This section describes how you can contribute to the course wiki.
 

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _enable_lti_components:
 
 ******************************************
 Enabling LTI Components for a Course
 ******************************************
+
+.. tags:: educator, how-to
 
 Before you can add LTI components to your course, you must enable the LTI tool
 in Studio.

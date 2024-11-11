@@ -1,6 +1,8 @@
 Copy and Paste Course Units
 ###########################
 
+.. tags:: educator, how-to
+
 There are two options for copying and pasting a unit:
 
 #. From the Course Outline page

@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Google Calendar Tool:
 
 #####################
 Google Calendar Tool
 #####################
+
+.. tags:: educator, reference
 
 This topic describes how to embed Google Calendars in your course.
 

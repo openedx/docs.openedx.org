@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add a Component:
 
 ********************
 Add a Component
 ********************
+
+.. tags:: educator, how-to
 
 To add a component to the unit, follow these steps.
 

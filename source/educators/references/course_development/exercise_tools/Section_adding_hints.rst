@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Adding Feedback and Hints to a Problem:
 
 =======================================
 Adding Feedback and Hints to a Problem
 =======================================
+
+.. tags:: educator, reference
 
 You can add feedback, hints, or both to the simple problem types.
 

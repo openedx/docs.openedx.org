@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _StaffGraded Grading:
 
 ================
 Grading Learners
 ================
+
+.. tags:: educator, concept
 
 While your course is running, after learners have had a chance to complete the off-platform assignment you’re grading, you can assign learner grades from the LMS Instructor view of the component as follows:
 

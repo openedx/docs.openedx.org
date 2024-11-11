@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Course_Staffing:
 
 #####################
 Planning Course Staff
 #####################
+
+.. tags:: educator, reference
 
 You can designate a team of people to help you run your course.
 

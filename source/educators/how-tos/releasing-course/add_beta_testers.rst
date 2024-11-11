@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Add_Beta_Testers:
 
 #############################
 Add Beta Testers to a Course
 #############################
+
+.. tags:: educator, how-to
 
 ================================
 Define When the Beta Test Starts

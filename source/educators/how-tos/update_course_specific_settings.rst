@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 *********************************
 Updating Course-Specific Settings
 *********************************
+
+.. tags:: educator, how-to
 
 From the dashboard, access the courses that you are enrolled in and change
 course-specific settings. You can also unenroll from a course from the dashboard.

@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _View Qualtrics Responses: 
 
 *******************************
 View Survey Responses
 *******************************
+
+.. tags:: educator, reference
 
 You can view both overall survey responses and responses for individual
 learners.

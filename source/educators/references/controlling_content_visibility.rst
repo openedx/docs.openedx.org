@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Controlling Content Visibility:
 
 #########################################
 Controlling Content Visibility and Access
 #########################################
+
+.. tags:: educator, reference
 
 As a member of the course team, you must carefully control which content is
 available to which learners, and when. Visibility settings, together with

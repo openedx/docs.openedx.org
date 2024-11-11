@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add Files to a Course:
 
 ########################
 Adding Files to a Course
 ########################
+
+.. tags:: educator, how-to
 
 Adding files, such as images, that you can use in your course has the following
 steps.

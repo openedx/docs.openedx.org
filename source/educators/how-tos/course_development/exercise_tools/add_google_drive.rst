@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add a Google Drive File to Your Course:
 
 ========================================
 Add a Google Drive File to Your Course
 ========================================
+
+.. tags:: educator, how-to
 
 To add a Google Drive file in the course body, you create an advanced
 component in Studio or create a Google Document XBlock in OLX.

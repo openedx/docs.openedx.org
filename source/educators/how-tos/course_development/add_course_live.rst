@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Course Live:
 
 ###########################
 Course Live
 ###########################
+
+.. tags:: educator, how-to
 
 Live app can be used to configure video conferencing LTI tools like Zoom
 and BigBlueButton. These tools will help connect educators and learners

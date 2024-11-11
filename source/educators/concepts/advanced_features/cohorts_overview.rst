@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Cohorts Overview:
 
 #############################
 Using Cohorts in Your Courses
 #############################
+
+.. tags:: educator, concept
 
 This section provides an introduction to using cohorts to divide the learners
 in your course into smaller groups.

@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Problem Written in LaTeX:
 
 ############################
 Problem Written in LaTeX
 ############################
+
+.. tags:: educator, how-to
 
 .. warning:: This problem type is a prototype, and is not supported. By
  default, the ability to create these problems is not enabled in Studio. You

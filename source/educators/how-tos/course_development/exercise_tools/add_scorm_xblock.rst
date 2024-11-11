@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _SCORM XBlock:
 
 ######
 SCORM
 ######
+
+.. tags:: educator, how-to
 
 This section describes how to include `SCORM <https://en.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model>`_ content in your course.
 

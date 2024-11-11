@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Developing Your Course Outline:
 
 ###################################
 Developing Your Course Outline
 ###################################
+
+.. tags:: educator, reference
 
 As you develop your course, you work primarily in the edX Studio course
 outline. This section includes the following information about working with

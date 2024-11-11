@@ -1,6 +1,8 @@
 Copy and Paste Course Content
 #############################
 
+.. tags:: educator, how-to
+
 .. note::
 
    The copy/paste function can currently be used at the component-level or the

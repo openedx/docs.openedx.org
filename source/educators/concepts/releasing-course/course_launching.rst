@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Launch:
 
 ###########################
 Launching a Course
 ###########################
+
+.. tags:: educator, concept
 
 To launch a course, you prepare the course itself, the course team, and the
 learners. This topic describes on how to accomplish this.

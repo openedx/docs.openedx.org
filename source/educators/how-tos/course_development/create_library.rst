@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create a New Library:
 
 ********************
 Create a New Library
 ********************
+
+.. tags:: educator, how-to
 
 Use :ref:`content libraries<Content Libraries>` to build a pool of components
 that can be used in randomized assignments in your courses.

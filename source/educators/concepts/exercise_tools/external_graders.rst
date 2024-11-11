@@ -1,9 +1,10 @@
-.. :diataxis-type: concept
 .. _External Grader:
 
 ###########################
 External Grader
 ###########################
+
+.. tags:: educator, concept
 
 An external grader is a service that receives learner responses to a
 problem, processes those responses, and returns feedback and a problem

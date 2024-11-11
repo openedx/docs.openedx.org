@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Columns in the Student Profile Report:
 
 ===========================================
 Columns in the Student Profile Report
 ===========================================
+
+.. tags:: educator, reference
 
 The student profile report includes a row for each enrolled learner or course
 team member and the following columns.

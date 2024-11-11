@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding Math Expression Problem: 
 
 **************************************
 Adding a Math Expression Input Problem
 **************************************
+
+.. tags:: educator, how-to
 
 You add math expression input problems in Studio by selecting the **Problem**
 component type and then using the advanced editor to specify the prompt and the

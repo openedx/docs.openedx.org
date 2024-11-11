@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add Content in the Course Outline:
 
 ************************************************
 Add Content in the Course Outline
 ************************************************
+
+.. tags:: educator, reference
 
 You can add content in the course outline by creating a new section,
 subsection, or unit, or by duplicating an existing unit, subsection, or

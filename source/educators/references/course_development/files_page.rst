@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _The Files Page:
 
 **************
 The Files Page
 **************
+
+.. tags:: educator, reference
 
 You manage most files for your course, including image files, on the **Files**
 page. This page lists the files that you have added, along with the

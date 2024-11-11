@@ -2,6 +2,8 @@
 Add and delete tags on courses
 ##############################
 
+.. tags:: educator, how-to
+
 Adding Tags from the Course Outline Page
 ****************************************
 

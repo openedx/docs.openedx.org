@@ -1,5 +1,3 @@
-.. _diataxis-type: how-to
-
 .. This file is linked to from the OLX topic about testing content
 .. experiments. We did not use an include because file structure differs in
 .. the OLX guide and shared relative paths did not work. CT Nov 2015
@@ -7,6 +5,8 @@
 ##########################################
 Test Content Experiments
 ##########################################
+
+.. tags:: educator, how-to
 
 You should test content experiments in your course before the course starts, to
 ensure that content is delivered to experiment groups as you intended.

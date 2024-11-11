@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _LTI Component:
 
 ###############
 LTI Component
 ###############
+
+.. tags:: educator, reference
 
 You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The

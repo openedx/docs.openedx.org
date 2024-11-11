@@ -1,11 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Video Process Overview:
 
 ####################################
 Video Process Overview
 ####################################
 
+.. tags:: educator, how-to
 
 The following diagram outlines the general process for adding videos to a course.
 

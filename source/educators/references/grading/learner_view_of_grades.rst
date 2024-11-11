@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _The Learner View of Grades:
 
 ********************************************
 The Learner View of Grades (Progress Page)
 ********************************************
+
+.. tags:: educator, reference
 
 After a grading policy is in place, learners can view both their problem scores
 and the percent completed and current grade on the **Progress** page for the

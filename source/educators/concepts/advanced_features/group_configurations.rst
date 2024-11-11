@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Overview of Group Configurations:
 
 ****************************************
 Overview of Group Configurations
 ****************************************
+
+.. tags:: educator, concept
 
 Before you can create :ref:`content experiments<Overview of Content
 Experiments>`, you must specify at least one group configuration for your

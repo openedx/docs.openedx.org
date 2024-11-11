@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Timed Exams:
 
 ######################
 Timed Exams
 ######################
+
+.. tags:: educator, concept
 
 This topic describes how to add and manage timed exams in your course.
 

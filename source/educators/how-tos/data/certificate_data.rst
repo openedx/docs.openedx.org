@@ -1,10 +1,10 @@
-.. diataxis-type: how-to
-
 .. _Access Certificate Data:
 
 ##############################
 Obtaining Certificate Data
 ##############################
+
+.. tags:: educator, how-to
 
 You can view data about the certificates that have been issued for your course
 in the LMS by selecting **Instructor** to access the instructor dashboard. You

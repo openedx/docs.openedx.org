@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Embed Google Drive Files:
 
 ********************************************
 Embedding a Google Drive File in Your Course
 ********************************************
+
+.. tags:: educator, how-to
 
 To embed a Google Drive file in your course, follow these steps.
 

@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Reusing Course Content:
 
 ##########################################
 Reusing Course Content with LTI
 ##########################################
+
+.. tags:: educator, concept
 
 .. only:: Partners
 

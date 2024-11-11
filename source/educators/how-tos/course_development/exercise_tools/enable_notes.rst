@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Notes Tool:
 
 ##############################
 Notes Tool
 ##############################
+
+.. tags:: educator, how-to
 
 The notes tool allows learners to highlight and make notes about what
 they read in the body of the course.

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Exporting and Importing a Library:
 
 *********************************
 Exporting and Importing a Library
 *********************************
+
+.. tags:: educator, how-to
 
 You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
 content library in Studio.

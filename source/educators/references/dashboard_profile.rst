@@ -1,5 +1,3 @@
-.. :diataxis-type: reference
-
 .. This content is used as "include" in both the Learner's Guide and Building
 .. and Running Guide. SFD_dashboard_profile_SectionHead and
 .. CA_dashboard_profile_SectionHead files.
@@ -7,6 +5,8 @@
 ###########################################
 The Dashboard, Profile, and Account Pages
 ###########################################
+
+.. tags:: educator, reference
 
 
 You can access course, account, or profile information from any page on the

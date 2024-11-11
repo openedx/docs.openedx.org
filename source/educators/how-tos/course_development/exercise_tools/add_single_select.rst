@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Single Select:
 
 #####################
 Single Select Problem
 #####################
+
+.. tags:: educator, how-to
 
 The single select problem type is a simple problem type that can be added to
 any course. At a minimum, single select problems include a question or

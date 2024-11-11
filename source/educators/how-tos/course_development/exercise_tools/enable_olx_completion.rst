@@ -1,10 +1,10 @@
- .. :diataxis-type: how-to
-
 .. _OLX Completion: 
 
 ****************************************
 Add the Completion Tool to an OLX Course
 ****************************************
+
+.. tags:: educator, how-to
 
 To add the completion tool to a unit in an OLX (open learning XML) course, it
 is sufficient to add the ``<done>`` tag to the OLX.

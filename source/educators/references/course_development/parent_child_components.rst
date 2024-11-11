@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Components that Contain Other Components:
 
 ******************************************
 Components that Contain Other Components
 ******************************************
+
+.. tags:: educator, reference
 
 For specific use cases, you configure course content so that components contain
 other components. For example, if you want to include conditional components or

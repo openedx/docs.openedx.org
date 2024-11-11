@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Using Open edX as an LTI Tool Provider:
 
 #######################################
 Using Open edX as an LTI Tool Provider
 #######################################
+
+.. tags:: educator, concept
 
 .. note:: This feature was a closed pilot experiment. This feature is not
  supported for new users.

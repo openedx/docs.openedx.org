@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Automatic Email:
 
 #################################
 Automatic Email Messages from edX
 #################################
+
+.. tags:: educator, reference
 
 .. Note: Any update to the **discussion notification** information should also
 .. be made to the manage_live_course/automatic_email.rst file in the Open edX

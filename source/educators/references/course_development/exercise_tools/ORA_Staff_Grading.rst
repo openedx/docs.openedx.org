@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _ORA Staff Grading:
 
 ###########################################
 Staff Grading for Open Response Assignments
 ###########################################
+
+.. tags:: educator, reference
 
 Staff grading for Open Response Assessments (ORAs) now exists as a separate app to
 enable more efficient and fully-featured grading workflows. Within this ORA staff

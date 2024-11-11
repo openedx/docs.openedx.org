@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Hide a Subsection from Students:
 
 ***********************************
 Hiding a Subsection from Learners
 ***********************************
+
+.. tags:: educator, how-to
 
 You can hide a subsection from learners in the following ways.
 

@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _What is Studio:
 
 ***************
 What Is Studio?
 ***************
+
+.. tags:: educator, concept
 
 Studio is the tool you use to build your courses.
 

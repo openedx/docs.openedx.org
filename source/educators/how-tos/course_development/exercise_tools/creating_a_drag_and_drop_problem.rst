@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Creating a Drag and Drop Problem:
 
 ********************************
 Creating a Drag and Drop Problem
 ********************************
+
+.. tags:: educator, how-to
 
 To create a drag and drop problem, follow these steps.
 

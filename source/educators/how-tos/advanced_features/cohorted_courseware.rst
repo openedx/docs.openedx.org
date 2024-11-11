@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create Cohort Specific Course Content:
 
 ###########################################
 Create Cohort-Specific Course Content
 ###########################################
+
+.. tags:: educator, how-to
 
 This section provides information about setting up content for specific
 cohorts.

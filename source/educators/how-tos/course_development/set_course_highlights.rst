@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set Section Highlights for Course Highlight Messages:
 
 ***********************************************************
 Set Section Highlights for Highlight Emails
 ***********************************************************
+
+.. tags:: educator, how-to
 
 
 If your Open edX system adminstrator has configured your instance of the Open

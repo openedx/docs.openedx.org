@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Setting Course Pacing:
 
 *************
 Course Pacing
 *************
+
+.. tags:: educator, reference
 
 This topic describes the difference between instructor-paced and self-paced
 courses.

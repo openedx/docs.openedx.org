@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Working with Discussion Components:
 
 ###################################
 Working with Discussion Components
 ###################################
+
+.. tags:: educator, how-to
 
 You can add discussion components to a unit to pose questions about other
 components, such as videos or text, in the unit. A discussion component gives

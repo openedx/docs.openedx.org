@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Text Input:
 
 ########################
 Text Input Problem
 ########################
+
+.. tags:: educator, reference
 
 The text input problem type is a simple problem type that can be added to any
 course. At a minimum, text input problems include a question or prompt and a

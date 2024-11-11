@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Bulk Email:
 
 ########################################
 Bulk Email Messages from the Course Team
 ########################################
+
+.. tags:: educator, reference
 
 For courses on edx.org, you can send bulk email messages to course participants
 directly from the instructor dashboard: in the LMS, select **Instructor**, and

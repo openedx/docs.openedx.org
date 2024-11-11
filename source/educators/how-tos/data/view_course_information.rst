@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Course Data:
 
 ##############################
 View Course Information
 ##############################
+
+.. tags:: educator, how-to
 
 After you create a course in Studio, you can access information about it on the
 instructor dashboard. The instructor dashboard is part of the LMS.

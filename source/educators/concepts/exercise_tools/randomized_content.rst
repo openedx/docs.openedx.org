@@ -1,9 +1,10 @@
-.. :diataxis-type: concept
 .. _Randomized Content Blocks:
 
 #########################
 Randomized Content Blocks
 #########################
+
+.. tags:: educator, concept
 
 If your course has :ref:`content libraries<Content Libraries>` enabled and you
 have access to a library whose content you want to use, you can reference that

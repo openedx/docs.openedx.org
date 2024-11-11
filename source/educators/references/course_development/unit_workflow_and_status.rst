@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _The Unit Workflow:
 
 ******************
 The Unit Workflow
 ******************
+
+.. tags:: educator, reference
 
 When you have set up the :ref:`section<Developing Course Sections>` and
 :ref:`subsection<Developing Course Subsections>` in the course outline, you

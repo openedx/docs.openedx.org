@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Moderating_discussions:
 
 #######################
 Moderating Discussions
 #######################
+
+.. tags:: educator, concept
 
 Developing and sustaining a positive discussion culture requires that a team of
 discussion moderators dedicates sufficient time to reviewing discussions and

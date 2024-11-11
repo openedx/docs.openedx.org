@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 =================================================
 Add Links to Your Personal Social Media Accounts
 =================================================
+
+.. tags:: educator, how-to
 
 If you select the **Full Profile** option, you can add social media icons on
 your profile that link to your personal Twitter, Facebook, or LinkedIn account

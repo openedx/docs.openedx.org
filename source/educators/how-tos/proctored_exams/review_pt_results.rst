@@ -4,6 +4,8 @@
 Viewing Proctored Session Results with Proctortrack
 ###################################################
 
+.. tags:: educator, how-to
+
 To review individual violation videos and screenshots, follow these steps:
 
 #. In the LMS, open the Proctortrack Review Dashboard by navigating to the **edX Instructor Dashboard**

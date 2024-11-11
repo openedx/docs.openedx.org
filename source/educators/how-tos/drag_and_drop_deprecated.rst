@@ -6,6 +6,8 @@
 Drag and Drop Problem (Deprecated)
 ##################################
 
+.. tags:: educator, how-to
+
 .. note::
     EdX does not support this problem type. 
 

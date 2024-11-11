@@ -4,6 +4,8 @@
 Understanding the Progress Page
 ================================
 
+.. tags:: educator, reference
+
 .. _course_completion:
 
 Course Completion

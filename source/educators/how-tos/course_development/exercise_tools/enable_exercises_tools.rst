@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Enable Additional Exercises and Tools:
 
 #########################################
 Enabling Additional Exercises and Tools
 #########################################
+
+.. tags:: educator, how-to
 
 Studio includes a default set of core problem types that can be added to any
 course, including CAPA problems like text input, single select, and math

@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding MathJax: 
 
 *************************************
 Adding MathJax to Text Components
 *************************************
+
+.. tags:: educator, how-to
 
 In the Text component editor, you can use MathJax in both visual view and
 HTML view.

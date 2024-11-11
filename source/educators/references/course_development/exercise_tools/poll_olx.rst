@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Poll Tool for OLX:
 
 ##################
 Poll Tool for OLX
 ##################
+
+.. tags:: educator, reference
 
 You can run polls in your course so that your students can share opinions on
 different questions.

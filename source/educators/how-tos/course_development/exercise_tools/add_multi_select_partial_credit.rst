@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Awarding Partial Credit in a Multi select Problem:
 
 =============================
 Awarding Partial Credit
 =============================
+
+.. tags:: educator, how-to
 
 You can configure a multi-select problem to award partial credit to learners
 who submit an answer that is partly correct.

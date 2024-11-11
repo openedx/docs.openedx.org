@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Adding Course Updates and Handouts:
 
 ##################################
 Adding Course Updates and Handouts
 ##################################
+
+.. tags:: educator, reference
 
 You can create course updates and handouts in Studio.
 

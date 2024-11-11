@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _CA_Teams_Overview:
 
 *******************************
 Teams Overview
 *******************************
+
+.. tags:: educator, concept
 
 Using teams in your course is an effective way for learners to interact and
 collaborate on small group projects or activities. You define the structure of

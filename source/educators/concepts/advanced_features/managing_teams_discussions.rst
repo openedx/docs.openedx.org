@@ -1,11 +1,11 @@
-.. :diataxis-type: concept
-
 .. _Teams Discussions:
 
 
 #########################
 Managing Team Discussions
 #########################
+
+.. tags:: educator, concept
 
 EdX recommends that you designate course staff and optionally student teaching
 assistants (TAs) to moderate team discussions. The same discussion

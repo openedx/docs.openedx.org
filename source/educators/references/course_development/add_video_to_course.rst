@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Introduction to Video:
 
 ************************
 Introduction to Video
 ************************
+
+.. tags:: educator, reference
 
 Videos in a course supplement active learning components, such as discussions
 and problems. Videos can be effective for presenting motivating material,

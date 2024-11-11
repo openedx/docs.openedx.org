@@ -47,6 +47,7 @@ extensions = [
     "sphinxcontrib.mermaid",
     "sphinx.ext.intersphinx",
     "sphinxext.rediraffe",
+    "sphinx_tags"
 ]
 
 # Extension Configuration
@@ -54,6 +55,23 @@ graphviz_output_format = "svg"
 
 rediraffe_redirects = {
     "community/release_notes/latest.rst": "community/release_notes/redwood.rst",
+}
+
+tags_create_tags = True
+tags_create_badges = True
+
+tags_badge_colors = {
+    "educator": "primary",
+    "developer": "primary",
+    "site operator": "primary",
+    "community": "primary",
+    "documentor": "primary",
+    "translator": "primary",
+    "concept": "secondary",
+    "how-to": "secondary",
+    "quickstart": "secondary",
+    "reference": "secondary",
+    "*": "dark",  # Used as a default value
 }
 
 # Intersphinx Extension Configuration

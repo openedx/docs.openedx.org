@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set Access Restrictions For a Component:
 
 ***************************************
 Set Access Restrictions for a Component
 ***************************************
+
+.. tags:: educator, how-to
 
 If you have more than one enrollment track in your course, or if you have
 enabled cohorts, you can limit a component's availability to specific groups of

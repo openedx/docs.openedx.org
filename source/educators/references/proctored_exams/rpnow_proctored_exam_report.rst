@@ -4,6 +4,8 @@
 Interpret the Proctored Exam Results Report
 ********************************************
 
+.. tags:: educator, reference
+
 The Proctored Exam Results report contains the following fields.
 
 .. list-table::

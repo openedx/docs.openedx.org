@@ -4,6 +4,8 @@
 Allow Opting Out of Proctored Exams
 ***************************************************
 
+.. tags:: educator, how-to
+
 When a proctored exam opens, by default, verified learners must take the exam
 with proctoring.
 

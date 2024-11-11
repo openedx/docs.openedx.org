@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _About Divided Discussions:
 
 ###################################
 About Divided Discussion Topics
 ###################################
+
+.. tags:: educator, concept
 
 This section provides information about setting up discussions that are
 divided by learner groups (cohorts) within your course.

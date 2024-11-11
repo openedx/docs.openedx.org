@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _edX Accessibility Guidelines:
 
 ===============================================================
 What Is The edX Accessibility Best Practices Guidance Based On?
 ===============================================================
+
+.. tags:: educator, concept
 
 .. note:: This content has been migrated from legacy edx.org docs and has not yet been adjusted for the Open edX® Community
 

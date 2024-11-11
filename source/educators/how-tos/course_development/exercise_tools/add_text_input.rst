@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add Text Input Problem:
 
 ******************************
 Adding a Text Input Problem
 ******************************
+
+.. tags:: educator, how-to
 
 You add text input problems in Studio by selecting the **Problem** component.
 In the problem editor, select the **Text Input** option. Fill in the fields on

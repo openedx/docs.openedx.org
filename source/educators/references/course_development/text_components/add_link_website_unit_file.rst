@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Add Link to Website Course Unit or File:
 
 #############################################
 Add Link to Website, Course Unit, or a File
 #############################################
+
+.. tags:: educator, reference
 
 .. _Add a Link in a Text Component:
 

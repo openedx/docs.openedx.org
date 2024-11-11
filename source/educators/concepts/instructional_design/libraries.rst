@@ -1,9 +1,10 @@
-.. :diataxis-type: concept 
 .. _Content Libraries Overview:
 
 **************************
 Content Libraries Overview
 **************************
+
+.. tags:: educator, concept
 
 In Studio, you can create a library to build a pool of components for use in
 randomized assignments in your courses. You can add Text components, problems,

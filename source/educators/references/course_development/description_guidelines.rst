@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Course Description:
 
 ##################
 Course Description
 ##################
+
+.. tags:: educator, reference
 
 Descriptive course information includes information such as the course short
 and long descriptions, as well as information about what learners will learn,

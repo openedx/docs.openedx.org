@@ -4,6 +4,8 @@
 Preparing Learners for Proctored Exams
 ######################################
 
+.. tags:: educator, concept
+
 To prepare learners for a proctored exam, follow these guidelines.
 
 

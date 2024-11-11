@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set the Grace Period:
 
 *************************
 Set the Grace Period
 *************************
+
+.. tags:: educator, how-to
 
 You can set a grace period that extends homework due dates for your learners.
 The grace period applies to the whole course; you cannot set different grace

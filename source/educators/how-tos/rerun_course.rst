@@ -1,5 +1,3 @@
-.. :diataxis-type: how-to
-
 .. note:: Before you re-run a course, make sure that its settings and content
   are complete. Additions and changes that you make to the original course
   after you create the new course have no effect on the new course.

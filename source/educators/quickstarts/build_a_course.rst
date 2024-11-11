@@ -3,6 +3,8 @@
 Quick Start: Build a Course
 ####################################
 
+.. tags:: educator, quickstart
+
 .. contents:: Steps
   :local:
   :class: no-bullets

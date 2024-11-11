@@ -1,10 +1,10 @@
-.. :diataxis-type: how to 
-
 .. _Add Course Metadata:
 
 *******************
 Add Course Metadata
 *******************
+
+   .. tags:: educator, how-to
 
   To make certain information about your course available to entities such as
   customer relationship management (CRM) software, a marketing site, or other

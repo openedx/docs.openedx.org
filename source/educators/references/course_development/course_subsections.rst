@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Developing Course Subsections:
 
 ###################################
 Developing Course Subsections
 ###################################
+
+.. tags:: educator, reference
 
 To develop subsections in your course, you must first understand the
 following topics.

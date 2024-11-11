@@ -1,6 +1,8 @@
 Instructional Design Overview
 #############################
 
+.. tags:: educator, concept
+
 .. contents:: Table of Contents
    :local:
    :class: no-bullets

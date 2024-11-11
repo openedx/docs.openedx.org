@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Math Expression Input:
 
 ##############################
 Math Expression Input Problems
 ##############################
+
+.. tags:: educator, reference
 
 The math expression input problem type is a core problem type that can be added
 to any course. At a minimum, math expression problems include a question or

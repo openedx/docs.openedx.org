@@ -1,4 +1,3 @@
-.. :diataxis-type: reference
 .. _Drag and Drop:
 
 .. _drag_and_drop_background_images:
@@ -6,6 +5,8 @@
 ===============================
 Understanding Background Images
 ===============================
+
+.. tags:: educator, reference
 
 The background image for a drag and drop problem is the surface that learners
 drag items onto.

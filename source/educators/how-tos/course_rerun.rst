@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Re-Run Course:
 
 ###################
 Re-Run a Course
 ###################
+
+.. tags:: educator, how-to
 
 .. note::
   After the end date for a course has passed, the course moves to the

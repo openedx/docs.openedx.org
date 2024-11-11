@@ -1,8 +1,8 @@
-.. :diataxis-type: concept
-
 ********************************
 What is the User Profile Page?
 ********************************
+
+.. tags:: educator, concept
 
 Your personal profile allows you to optionally share information about yourself
 with other participants in the courses that you take. If you choose to add

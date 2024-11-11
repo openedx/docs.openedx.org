@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _configuring_prerequisite_content:
 
 ********************************
 Prerequisite Course Subsections
 ********************************
+
+.. tags:: educator, how-to
 
 You can lock subsections of your course until learners complete other,
 prerequisite subsections. If a subsection has a prerequisite, it is displayed

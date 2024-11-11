@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Text Input Problem XML:
 
 ********************************
 Text Input Problem XML Reference
 ********************************
+
+.. tags:: educator, reference
 
 ==============
 Template

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Enable Completion: 
 
 **************************
 Enable the Completion Tool
 **************************
+
+.. tags:: educator, how-to
 
 Before you can add a completion component to your course, you must enable the
 completion tool in Studio.

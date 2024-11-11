@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create a Subsection:
 
 ****************************
 Create a Subsection
 ****************************
+
+.. tags:: educator, how-to
 
 To create a new subsection, follow these steps.
 

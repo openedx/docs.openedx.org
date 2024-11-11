@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _About Course Wiki:
 
 ***********************
 About the Course Wiki
 ***********************
+
+.. tags:: educator, reference
 
 Courses can optionally configure a wiki application and set it up for appropriate use in your course.
 If you have specific expectations for how the wiki should be

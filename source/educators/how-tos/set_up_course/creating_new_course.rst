@@ -1,10 +1,10 @@
-.. :diataxis-type: how to 
-
 .. _Creating a New Course:
 
 ###############################
 Creating a New Course in Studio
 ###############################
+
+.. tags:: educator, how-to
 
 This topic describes how to use Studio to create and set up a course.
 

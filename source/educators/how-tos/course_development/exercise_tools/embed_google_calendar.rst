@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Embed Google Calendar:
 
 *******************************************
 Embedding a Google Calendar in Your Course
 *******************************************
+
+.. tags:: educator, how-to
 
 To embed a Google Calendar in your course, follow these steps.
 

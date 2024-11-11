@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Modifying a Released Problem:
 
 *****************************
 Modifying a Released Problem
 *****************************
+
+.. tags:: educator, reference
 
 .. warning::
  Be careful when you modify problems after they have been

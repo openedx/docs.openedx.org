@@ -1,6 +1,8 @@
 Course Pacing
 #####################
 
+.. tags:: educator, reference
+
 
 
 

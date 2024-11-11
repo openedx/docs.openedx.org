@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Course About Video Guidelines:
 
 ********************************
 Course About Video Guidelines
 ********************************
+
+.. tags:: educator, reference
 
 The course About video should excite and entice potential learners to enroll,
 and reveal some of the personality that the course team brings to the course.

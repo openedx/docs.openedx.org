@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Running_discussions:
 
 ############################
 Running Course Discussions
 ############################
+
+.. tags:: educator, concept
 
 On an ongoing basis, the members of your :ref:`discussion
 team<Assigning_discussion_roles>` run the course discussion by adding posts

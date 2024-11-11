@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Paste without Formatting in a Text Component:
 
 #############################################
 Paste without Formatting in a Text Component
 #############################################
+
+.. tags:: educator, how-to
 
 Many course authoring teams rely on copying and pasting content from documents
 such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS

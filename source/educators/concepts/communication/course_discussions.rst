@@ -1,9 +1,9 @@
-.. :diataxis-type: concept
-
 .. _Discussions:
 
 About Course Discussions
 ###########################
+
+.. tags:: educator, concept
 
 Discussions in an edX course include both course-wide topics of interest to
 all learners (such as "Feedback", "Troubleshooting", or "Technical Help") as

@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Single Select and Numerical Input:
 
 ############################################
 Single Select and Numerical Input Problem
 ############################################
+
+.. tags:: educator, how-to
 
 You can create a problem that combines a single select and numerical input
 problems. Students not only select a response from options that you provide,

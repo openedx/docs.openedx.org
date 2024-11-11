@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Additional Transcript Options:
 
 #############################
 Specifying Transcript Options
 #############################
+
+.. tags:: educator, how-to
 
 .. contents::
   :local:

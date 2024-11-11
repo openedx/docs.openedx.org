@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Full Screen Image:
 
 ######################
 Full Screen Image Tool
 ######################
+
+.. tags:: educator, how-to
 
 Some large images are difficult for learners to view in the courseware. The
 full screen image tool allows learners to enlarge the image, so they can see

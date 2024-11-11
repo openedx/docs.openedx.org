@@ -1,4 +1,3 @@
-.. :diataxis-type: how-to
 .. _Use Randomized Content Blocks:
 
 .. _Use Components from Libraries in a Course:
@@ -6,6 +5,8 @@
 *****************************************
 Use Components from Libraries in a Course
 *****************************************
+
+.. tags:: educator, how-to
 
 To create randomized assignments that make use of components from content
 libraries, you must have at least **User** level access to the libraries that

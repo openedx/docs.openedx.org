@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Accessing ORA Assignment Information:
 
 ######################################
 Accessing Metrics for ORA Assignments
 ######################################
+
+.. tags:: educator, reference
 
 After you release an open response assessment assignment, you can access various
 metrics for the assignment or for all open response assessment assignments in

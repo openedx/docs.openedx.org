@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Math Expression Input Problem XML:
 
 *******************************************
 Math Expression Input Problem OLX Reference
 *******************************************
+
+.. tags:: educator, reference
 
 ========
 Template

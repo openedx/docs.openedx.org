@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 #######################################
 What is the Programs Page?
 #######################################
+
+.. tags:: educator, concept
 
 The **Programs** page lists the programs that you have
 enrolled in. You see a program on this page if you are enrolled in any courses

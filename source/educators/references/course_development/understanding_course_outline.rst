@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Understanding Your Course Outline: 
 
 ******************************
 Understanding a Course Outline
 ******************************
+
+.. tags:: educator, reference
 
 Course authors build a course outline on the **Course Outline** page in Studio.
 Learners see this course outline in the LMS.

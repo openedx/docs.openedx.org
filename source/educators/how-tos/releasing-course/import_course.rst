@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Import a Course:
 
 ***************
 Import a Course
 ***************
+
+.. tags:: educator, how-to
 
 .. youtube:: q8QJB5KVKbw
 

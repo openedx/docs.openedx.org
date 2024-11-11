@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Create Custom Javascript: 
 
 ******************************************************
 Create a Custom JavaScript Display and Grading Problem
 ******************************************************
+
+.. tags:: educator, how-to
 
 #. Create your JavaScript application, and then upload all files associated
    with that application to the **Files & Uploads** page.

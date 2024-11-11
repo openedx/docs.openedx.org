@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _External Grader Problem Requirements:
 
 **************************************
 External Grader Problem Requirements
 **************************************
+
+.. tags:: educator, reference
 
 An external grader problem in Studio must have the following requirements.
 

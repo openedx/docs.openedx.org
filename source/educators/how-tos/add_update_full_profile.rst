@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 ================================
 Add or Update a Full Profile
 ================================
+
+.. tags:: educator, how-to
 
 .. note:: You must specify your year of birth on the **Account Settings** page
    before you can share a full profile. If you are under 13 years of age, you

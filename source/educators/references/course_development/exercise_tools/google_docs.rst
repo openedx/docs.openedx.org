@@ -1,9 +1,10 @@
-.. :diataxis-type: reference
 .. _Google Drive Files Tool:
 
 ########################
 Google Drive Files Tool
 ########################
+
+.. tags:: educator, reference
 
 This topic describes how to embed Google Drive files, such as documents,
 spreadsheets, and images, in your course.
