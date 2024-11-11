@@ -1,5 +1,3 @@
-.. tags:: educator, how-to
-
 .. only:: Partners
 
  .. note::
