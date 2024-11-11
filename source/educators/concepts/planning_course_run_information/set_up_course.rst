@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Setting up Your Course Index:
 
 ################################
 Setting Up a Course
 ################################
+
+.. tags:: educator, concept
 
 When you begin to set up a course, the first step is to plan and specify two
 types of basic information about your course.

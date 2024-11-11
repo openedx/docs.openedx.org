@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Feedback Best Practices:
 
 -------------------------------------------
 Best Practices for Providing Feedback
 -------------------------------------------
+
+.. tags:: educator, concept
 
 The immediacy of the feedback available to learners is a key advantage of
 online instruction and difficult to do in a traditional classroom environment.

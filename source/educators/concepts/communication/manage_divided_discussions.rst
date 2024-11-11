@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Managing Divided Discussion Topics:
 
 ###################################
 Managing Divided Discussion Topics
 ###################################
+
+.. tags:: educator, concept
 
 This section provides information about managing :ref:`discussions<Discussions>`
 that are divided based on learner groups (:ref:`cohorts<Cohort>`).

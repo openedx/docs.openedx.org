@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Additional Course Run Information:
 
 #################################
 Additional Course Run Information
 #################################
+
+.. tags:: educator, concept
 
 Optional additional information that may change with each course run includes
 information about the languages that course content is available in, as well as

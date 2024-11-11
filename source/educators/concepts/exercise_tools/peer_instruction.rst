@@ -1,9 +1,10 @@
-.. :diataxis-type: concept
 .. _UBC Peer Instruction:
 
 ##########################
 Peer Instruction Tool
 ##########################
+
+.. tags:: educator, concept
 
 The Peer Instruction learning system provides students with in class
 opportunities to discuss questions and arrive at a deeper understanding of

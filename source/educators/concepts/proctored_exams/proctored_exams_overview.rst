@@ -4,6 +4,8 @@
 Proctored Exam Overview
 ############################
 
+.. tags:: educator, concept
+
 Proctored exams are timed exams that learners take while online proctoring
 software monitors their computer, environment, and behavior. When learners
 complete a proctored exam, the recording of the exam is examined to

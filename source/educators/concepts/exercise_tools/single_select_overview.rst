@@ -1,9 +1,10 @@
-.. :diataxis-type: concept
 .. _Single Select Overview:
 
 ********
 Overview
 ********
+
+.. tags:: educator, concept
 
 In single select problems, learners select one option from a list of answer
 options. Unlike :ref:`dropdown<Dropdown>` problems, where the answer choices

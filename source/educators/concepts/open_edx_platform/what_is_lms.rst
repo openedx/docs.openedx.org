@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _What is LMS:
 
 ****************
 What Is the LMS?
 ****************
+
+.. tags:: educator, concept
 
 The LMS is the web-based tool where you view the courses you have created in
 Studio.

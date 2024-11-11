@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Designing for Mobile:
 
 ###############################################
 Designing Your Course For a Mobile Experience
 ###############################################
+
+.. tags:: educator, concept
 
 Keep in
 mind that the courses and course content that you create should be accessible

@@ -4,6 +4,8 @@
 Accessibility Best Practices for Developing Course Content
 ##########################################################
 
+.. tags:: educator, concept
+
 edX is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to provide

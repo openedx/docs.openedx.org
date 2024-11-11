@@ -4,6 +4,8 @@
 Supporting Learners with Diverse Needs
 ######################################
 
+.. tags:: educator, concept
+
 Almost one fifth of the world's population has some kind of disability. Online
 courses can reduce many barriers to education for these learners by providing
 access to courses from any location, at any time, and through the use of

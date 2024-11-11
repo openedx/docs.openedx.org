@@ -1,10 +1,10 @@
-.. :diataxis-type: reference
-
 .. _Beta_Testing:
 
 #############################
 Beta Testing a Course
 #############################
+
+.. tags:: educator, concept
 
 To gather information about the overall experience of taking a course, you can
 recruit beta testers to test your course before it is available to general learners.

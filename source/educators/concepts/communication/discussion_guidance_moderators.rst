@@ -1,10 +1,10 @@
-.. :diataxis-type: concept
-
 .. _Guidance for Discussion Moderators:
 
 ######################################
 Guidance for Discussion Moderators
 ######################################
+
+.. tags:: educator, concept
 
 Discussion forums are hugely important tools in running a successful MOOC;
 they allow for substantive community development, in addition to being

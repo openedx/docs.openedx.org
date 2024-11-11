@@ -1,8 +1,8 @@
-.. :diataxis-type: concept
-
 ******************************************
 What is the Course Dashboard?
 ******************************************
+
+.. tags:: educator, concept
 
 Your dashboard lists all of the courses that you are enrolled in. When you
 create an account or enroll in a course, you automatically go to your

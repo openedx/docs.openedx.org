@@ -1,11 +1,11 @@
-.. :diataxis-type: concept
-
 .. _CA Learner Experience of Teams:
 
 
 ##########################################
 The Learner's Experience of Teams
 ##########################################
+
+.. tags:: educator, concept
 
 After you have :ref:`enabled teams <Teams Setup>` and created topics in your
 course, learners can begin browsing topics and joining teams. Teams are formed
