@@ -1,9 +1,10 @@
-.. :diataxis-type: how to
 .. _Create an External Grader Problem in Studio:
 
 *******************************************
 Create an External Grader Problem in Studio
 *******************************************
+
+.. tags:: educator, how-to
 
 To create a code response problem in Studio, follow these steps.
 

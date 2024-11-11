@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Create Image Mapped Input Problem: 
 
 ****************************************
 Create an Image Mapped Input Problem
 ****************************************
+
+.. tags:: educator, how-to
 
 To create an image mapped input problem, follow these steps.
 

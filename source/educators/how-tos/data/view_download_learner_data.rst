@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _View and download student data:
 
 ==========================================
 Download or View Learner Data
 ==========================================
+
+.. tags:: educator, how-to
 
 You can download a report of learner data to gain more information about the
 individuals who are enrolled in your course. You also have the option to view

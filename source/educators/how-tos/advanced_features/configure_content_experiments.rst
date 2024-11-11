@@ -4,6 +4,8 @@
 Configure Your Course for Content Experiments
 #####################################################
 
+.. tags:: educator, how-to
+
 This section provides instructions for configuring your course to use
 :ref:`content experiments<Overview of Content Experiments>`.
 

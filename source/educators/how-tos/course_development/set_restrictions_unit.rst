@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set Access Restrictions For a Unit:
 
 ***********************************
 Set Access Restrictions For a Unit
 ***********************************
+
+.. tags:: educator, how-to
 
 If you have more than one enrollment track in your course, or if you have
 enabled cohorts, you can limit a unit's availability to specific groups of

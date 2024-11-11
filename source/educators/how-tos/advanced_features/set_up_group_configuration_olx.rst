@@ -6,6 +6,8 @@
 Set Up Group Configuration for OLX Courses
 ************************************************
 
+.. tags:: educator, how-to
+
 You define group configurations in the ``policy.json`` file in the ``policies``
 directory of an OLX (open learning XML) course.
 

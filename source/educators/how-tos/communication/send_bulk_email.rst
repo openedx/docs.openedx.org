@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Send_Bulk_Email:
 
 **************************************************
 Send an Email Message to Course Participants
 **************************************************
+
+.. tags:: educator, how-to
 
 .. Important:: You cannot cancel non-scheduled bulk email messages after you send them.
 

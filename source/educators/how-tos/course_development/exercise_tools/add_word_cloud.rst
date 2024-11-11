@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Word Cloud:
 
 ##################
 Word Cloud Tool
 ##################
+
+.. tags:: educator, how-to
 
 In a word cloud, learners enter words into a field in response to a question
 or prompt. The words that all of the learners enter then appear instantly as a

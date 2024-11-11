@@ -1,10 +1,10 @@
-.. :diataxis-type: how to
-
 .. _Add Course Staff:
 
 ************************
 Add Course Team Members
 ************************
+
+.. tags:: educator, how-to
 
 Course team members are users who help you build your course. To add someone
 to the course team, you must meet these prerequisites.

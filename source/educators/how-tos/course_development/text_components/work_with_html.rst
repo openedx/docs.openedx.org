@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Work with HTML code:
 
 #############################################
 Work with HTML Code in the Text Component
 #############################################
+
+.. tags:: educator, how-to
 
 HTML, or HyperText Markup Language, is the standard markup language used to
 create web pages. Web browsers present HTML code in a more readable format.

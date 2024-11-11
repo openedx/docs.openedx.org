@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Grades:
 
 ############################
 Manage Learner Grades
 ############################
+
+.. tags:: educator, how-to
 
 You can review information about how grading is configured for your course, and
 access learner grades, at any time after you create the course. You can also

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Specify Prerequisite Courses and Exams:
 
 #########################################
 Specifying Prerequisite Courses and Exams
 #########################################
+
+.. tags:: educator, how-to
 
 In Studio, you can specify that learners must complete a specific course
 before they can take another course. You can also require learners to

@@ -1,6 +1,8 @@
 Add Course Creators
 ###################
 
+.. tags:: educator, how-to
+
 
 When you create a new course in Studio, you are automatically an Admin in the course, meaning you can create and add course creators, in addition to being able to create and manage course content.
 

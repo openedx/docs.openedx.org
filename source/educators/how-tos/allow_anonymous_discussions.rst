@@ -1,6 +1,8 @@
 Enable/Disable Anonymous Discussion Posts
 #########################################
 
+.. tags:: educator, how-to
+
 There are two options for anonymous discussion posts.
 
 1. Allow Anonymous Discussion Posts - Posts can be made anonymously to *everyone*, including discussion admins.

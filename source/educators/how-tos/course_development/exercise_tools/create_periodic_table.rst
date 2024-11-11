@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Periodic Table:
 
 #####################
 Periodic Table Tool
 #####################
+
+.. tags:: educator, how-to
 
 You can create an interactive periodic table of the elements to help your
 students learn about various elements' properties. In the table below, detailed

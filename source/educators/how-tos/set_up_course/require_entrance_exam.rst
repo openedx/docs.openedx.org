@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Require an Entrance Exam:
 
 ****************************
 Require an Entrance Exam
 ****************************
+
+.. tags:: educator, how-to
 
 To require an entrance exam, follow these steps.
 

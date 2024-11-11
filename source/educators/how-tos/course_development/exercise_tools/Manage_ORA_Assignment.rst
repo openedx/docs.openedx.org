@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Managing ORA Assignments:
 
 ##############################################
 Managing Open Response Assessment Assignments
 ##############################################
+
+.. tags:: educator, how-to
 
 After you publish an open response assessment (ORA) assignment and learners
 start to submit responses and perform assessments, members of the course team

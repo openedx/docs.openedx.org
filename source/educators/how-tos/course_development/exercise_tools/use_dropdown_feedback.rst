@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Use Feedback in a Dropdown Problem:
 
 ===============
 Adding Feedback
 ===============
+
+.. tags:: educator, how-to
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. You can add feedback for each of the answer options you provide in

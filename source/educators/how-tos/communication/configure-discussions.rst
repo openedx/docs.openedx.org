@@ -1,9 +1,9 @@
-.. :diataxis-type: how-to
-
 .. _Configuring Edx Discussions:
 
 Configuring Edx Discussions
 ***************************
+
+.. tags:: educator, how-to
 
 To open edx discussions configuration page, follow these steps.
 

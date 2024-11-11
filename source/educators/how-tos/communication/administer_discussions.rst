@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Administer Discussions:
 
 ##########################
 Administer Discussions
 ##########################
+
+.. tags:: educator, how-to
 
 ****************
 Edit Messages

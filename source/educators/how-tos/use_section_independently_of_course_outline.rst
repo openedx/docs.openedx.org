@@ -1,6 +1,8 @@
 Use a Section from a Course independently of the Course Outline
 ###############################################################
 
+.. tags:: educator, how-to
+
 #. From the course outline in Studio, go to the visibility options of a Section.
    You will see the option “Hide in Course Outline, accessible via Link”:
 

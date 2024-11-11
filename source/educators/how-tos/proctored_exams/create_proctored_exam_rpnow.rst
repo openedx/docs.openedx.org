@@ -4,6 +4,8 @@
 Create a Proctored Exam with RPNow
 ##################################
 
+.. tags:: educator, how-to
+
 After you enable proctored exams for your course, you can create a proctored
 exam or a practice exam using your choice of either RPNow or Proctortrack.
 To create a proctored exam or a practice proctored exam for RPNow, follow these

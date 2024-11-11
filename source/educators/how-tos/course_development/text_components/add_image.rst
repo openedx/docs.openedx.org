@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Add an Image to a Text Component:
 
 *********************************
 Add an Image to a Text Component
 *********************************
+
+.. tags:: educator, how-to
 
 When you use the Visual Editor, you can add any image from your computer to
 a Text component. You can see a preview of the image before you add it to the

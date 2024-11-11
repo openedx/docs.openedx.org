@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create a Section:
 
 ****************************
 Create a Section
 ****************************
+
+.. tags:: educator, how-to
 
 If you do not change the :ref:`course start date<Set Start and End Dates>`
 default value, ``1/1/2030``, when you create a new section, its release date

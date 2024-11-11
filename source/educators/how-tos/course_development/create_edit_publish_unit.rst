@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create a Unit:
 
 ****************************
 Create a Unit
 ****************************
+
+.. tags:: educator, how-to
 
 You can create a unit from the outline or create a unit in the same subsection
 from the unit page.

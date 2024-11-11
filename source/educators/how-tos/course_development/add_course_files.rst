@@ -1,4 +1,3 @@
-.. :diataxis-type: how-to
 .. _Add Files to a Course:
 
 ########################

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Access_anonymized:
 
 #################################
 Access Anonymized Learner IDs
 #################################
+
+.. tags:: educator, how-to
 
 Some of the tools that are available for use with the edX platform, including
 external graders and surveys, work with anonymized learner data. If it becomes

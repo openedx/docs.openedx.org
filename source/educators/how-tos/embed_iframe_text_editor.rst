@@ -1,6 +1,8 @@
 Embed an iframe in the Text Editor
 ##################################
 
+.. tags:: educator, how-to
+
 This How-To assumes you are working with the latest version of the Text Editor,
 in the Redwood release and later.
 

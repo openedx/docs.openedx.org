@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add Poll: 
 
 ***************************
 Add a Poll in edX Studio
 ***************************
+
+.. tags:: educator, how-to
 
 You must :ref:`enable the poll <Enable Additional Exercises and Tools>` tool
 before you add the component.

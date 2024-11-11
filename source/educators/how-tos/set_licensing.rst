@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set Course Content Licensing:
 
 **************************************
 Set Course Content Licensing in Studio
 **************************************
+
+.. tags:: educator, how-to
 
 When you have determined what licenses you want your course content to have,
 you set course content licensing in Studio.

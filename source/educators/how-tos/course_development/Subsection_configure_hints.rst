@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Configure Hint:
 
 *****************
 Configure Hint
 *****************
+
+.. tags:: educator, how-to
 
 In the settings panels on the right of the editor, you'll find a Hints panel.
 

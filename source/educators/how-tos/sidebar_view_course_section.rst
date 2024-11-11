@@ -1,6 +1,8 @@
 View course sections from the navigation sidebar
 ################################################
 
+.. tags:: educator, how-to
+
 Clicking the back button in the upper corner of the sidebar:
 
    .. image:: /_images/educator_how_tos/LSN_view_sections_step1a.png

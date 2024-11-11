@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Annotation:
 
 ###################
 Annotation Problem
 ###################
+
+.. tags:: educator, how-to
 
 In an annotation problem, you highlight specific text inside a larger text
 block and then ask questions about that text. The questions appear when

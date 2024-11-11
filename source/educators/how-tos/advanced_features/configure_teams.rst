@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Enable and Configure Teams:
 
 *******************************
 Enable and Configure Teams
 *******************************
+
+.. tags:: educator, how-to
 
 To disable or enable the Teams application, follow these steps.
 

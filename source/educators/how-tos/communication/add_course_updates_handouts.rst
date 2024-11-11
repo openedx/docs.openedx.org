@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add a Course Update:
 
 *******************
 Add a Course Update
 *******************
+
+.. tags:: educator, how-to
 
 On the **Updates** page in Studio, you see the list of updates sorted in the
 order that they were created (most recent at the top of the list). You can

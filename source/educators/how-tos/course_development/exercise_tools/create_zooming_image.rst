@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Zooming Image:
 
 ##################
 Zooming Image Tool
 ##################
+
+.. tags:: educator, how-to
 
 If you present information to your learners using very large or very detailed
 images, learners might not be able to clearly see all the information in the

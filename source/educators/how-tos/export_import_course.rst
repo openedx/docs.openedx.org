@@ -1,4 +1,4 @@
-.. :diataxis-type: how-to
+.. tags:: educator, how-to
 
 .. only:: Partners
 

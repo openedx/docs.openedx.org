@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Review_Answers:
 
 ############################
 Answer Data
 ############################
+
+.. tags:: educator, how-to
 
 To review learner answers to the problems in your course, you can review the
 answer submitted by a selected learner for a specific problem or download a

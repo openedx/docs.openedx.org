@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding Textbooks:
 
 ###########################
 Textbooks
 ###########################
+
+.. tags:: educator, how-to
 
 You can add textbooks in PDF format to your course.
 

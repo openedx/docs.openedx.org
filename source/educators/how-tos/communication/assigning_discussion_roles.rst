@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Assigning_discussion_roles:
 
 *************************************
 Assigning Discussion Moderation Roles
 *************************************
+
+.. tags:: educator, how-to
 
 You must either be the course author, or have the Admin role, to add people to
 discussion moderation roles.

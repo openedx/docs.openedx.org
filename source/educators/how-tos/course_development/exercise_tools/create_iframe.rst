@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Create IFrame: 
 
 *********************
 Create an IFrame Tool
 *********************
+
+.. tags:: educator, how-to
 
 To add an exercise or tool in an iframe, you create an iframe Text component
 and add the URL of the page that contains the exercise or tool to the

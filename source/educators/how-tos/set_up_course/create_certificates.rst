@@ -1,11 +1,11 @@
 
-.. :diataxis-type: how to 
 .. _Enable a Certificate:
-
 
 ********************
 Enable a Certificate
 ********************
+
+.. tags:: educator, how-to
 
 Before you can create certificates, you must ensure web certificates are enabled
 for your course. Web certificates are enabled by default for new courses, however

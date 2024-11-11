@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Configure Resources:
 
 ************************************
 Configuring Applications & Resources
 ************************************
+
+.. tags:: educator, how-to
 
 As a best practice, you should avoid changing the visibility of your course pages after the course starts.
 For example, your course includes the Wiki page when it starts. A learner adds a page to the course wiki,

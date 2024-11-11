@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Manage_Course_Enrollments:
 
 ##############################
 Manage Course Enrollments
 ##############################
+
+.. tags:: educator, how-to
 
 .. _view_enrollment_count:
 

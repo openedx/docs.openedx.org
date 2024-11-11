@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Add Peer Instruction Assignment: 
 
 ************************************************
 Adding a Peer Instruction Assignment in Studio
 ************************************************
+
+.. tags:: educator, how-to
 
 .. contents::
   :local:

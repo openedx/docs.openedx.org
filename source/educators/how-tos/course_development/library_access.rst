@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Give Other Users Access to Your Library:
 
 ***************************************
 Give Other Users Access to Your Library
 ***************************************
+
+.. tags:: educator, how-to
 
 When you create a library, you are automatically assigned an Admin role in that
 library.

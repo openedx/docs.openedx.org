@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set the Assignment Type and Due Date for a Subsection:
 
 ********************************************************
 Set the Assignment Type and Due Date for a Subsection
 ********************************************************
+
+.. tags:: educator, how-to
 
 You set the assignment type for problems at the subsection level.
 

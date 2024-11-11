@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Export a Course:
 
 ***************
 Export a Course
 ***************
+
+.. tags:: educator, how-to
 
 When you have released your course, you can use the course export and import
 tools in Studio to save a backup copy of the course, and optionally re-import

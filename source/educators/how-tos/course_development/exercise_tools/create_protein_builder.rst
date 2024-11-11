@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Protein Builder:
 
 ############################
 Protex Protein Builder Tool
 ############################
+
+.. tags:: educator, how-to
 
 The Protex protein builder asks students to create specified protein shapes by
 stringing together amino acids. In the example below, the goal protein shape is

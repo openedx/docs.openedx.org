@@ -1,4 +1,3 @@
-.. :diataxis-type: how-to
 .. _Course Live:
 
 ###########################

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create a Duplicate Course for LTI use:
 
 ######################################
 Create a Duplicate Course for LTI use
 ######################################
+
+.. tags:: educator, how-to
 
 .. note:: This feature was a closed pilot experiment. This feature is not
  supported for new users.

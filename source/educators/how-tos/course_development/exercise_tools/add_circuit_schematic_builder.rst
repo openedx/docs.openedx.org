@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Circuit Schematic Builder:
 
 ##################################
 Circuit Schematic Builder Problem
 ##################################
+
+.. tags:: educator, how-to
 
 In circuit schematic builder problems, students can arrange circuit elements
 such as voltage sources, capacitors, resistors, and MOSFETs on an interactive

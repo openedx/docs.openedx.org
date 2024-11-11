@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Determine Content Addresses:
 
 #######################################################################
 Determine Content Addresses when using Open edX as an LTI Provider
 #######################################################################
+
+.. tags:: educator, how-to
 
 .. only:: Partners
 

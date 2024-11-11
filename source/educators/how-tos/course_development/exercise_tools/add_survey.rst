@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Survey Tool:
 
 ###################
 Survey Tool
 ###################
+
+.. tags:: educator, how-to
 
 This section describes how to include surveys in your course.
 

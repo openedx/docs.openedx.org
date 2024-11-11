@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Manage Course Cohorts:
 
 ############################################
 Manage Course Cohorts
 ############################################
+
+.. tags:: educator, how-to
 
 This section provides information about setting up cohorts in your course.
 

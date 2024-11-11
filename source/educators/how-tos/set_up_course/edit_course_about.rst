@@ -1,10 +1,10 @@
-.. :diataxis-type: how to 
-
 .. _Edit Your Course:
 
 *************
 Edit a Course
 *************
+
+.. tags:: educator, how-to
 
 After you create a course, the course opens in Studio automatically and you can
 begin editing. Your next steps might include adding other :ref:`course team

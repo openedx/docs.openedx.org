@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding a Multi Select Problem: 
 
 ******************************
 Adding a Multi-select Problem
 ******************************
+
+.. tags:: educator, how-to
 
 You add multi-select problems in Studio by selecting the **Problem** component.
 In the problem editor, select **the Multi-select** option. Fill in the fields

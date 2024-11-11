@@ -4,6 +4,8 @@
 Adding Hints via the Advanced Editor
 ========================================
 
+.. tags:: educator, how-to
+
 In the advanced editor, you add the ``<demandhint>`` element immediately before
 the closing ``</problem>`` tag, and then configure each hint using the
 ``<hint>`` element.

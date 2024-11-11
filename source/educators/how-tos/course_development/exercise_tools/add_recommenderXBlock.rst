@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _RecommenderXBlock:
 
 ##################
 Recommender Tool
 ##################
+
+.. tags:: educator, how-to
 
 The recommender provides learners with a list of online resources related to
 the course content. These resources are jointly managed by course team members

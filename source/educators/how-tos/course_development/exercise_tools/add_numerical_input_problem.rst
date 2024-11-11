@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding Numerical Input Problem: 
 
 ***********************************
 Adding a Numerical Input Problem
 ***********************************
+
+.. tags:: educator, how-to
 
 .. youtube:: fkoF8ZDPMoQ
 

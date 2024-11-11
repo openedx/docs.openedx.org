@@ -2,6 +2,8 @@
 Create a flat taxonomy by uploading a CSV
 #########################################
 
+.. tags:: educator, how-to
+
 Tags that can be applied to content are organized into hierarchical taxonomies. Currently, the only way to create or modify a taxonomy is by uploading a CSV or JSON file.
 
 The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarchy. For example, if you want to tag the “difficulty” of problems as either “Easy”, “Medium”, or “Hard”, you could do that by creating a flat taxonomy. Here’s how to do that:

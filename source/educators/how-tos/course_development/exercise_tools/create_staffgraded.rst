@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _StaffGraded:
 
 #######################
 Staff Graded Assignment
 #######################
+
+.. tags:: educator, how-to
 
 Staff Graded Assignment allows you to assign scores to learners for off-platform activities
 or participation, at the assessment level. It provides a text component with instructions

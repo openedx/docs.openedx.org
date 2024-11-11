@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _PA Create an ORA Assignment:
 
 #############################################
 Create an Open Response Assessment Assignment
 #############################################
+
+.. tags:: educator, how-to
 
 Creating an :ref:`open response assessment (ORA) assignment <Open Response Assessments Two>` is a multi-step process. This section covers each step in
 detail.

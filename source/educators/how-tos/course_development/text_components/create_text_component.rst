@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Create a Text Component:
 
 ***********************
 Create a Text Component
 ***********************
+
+.. tags:: educator, how-to
 
 #. Under **Add New Component**, select **Text**.
 

@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Adding Dropdown: 
 
 *************************
 Adding a Dropdown Problem
 *************************
+
+.. tags:: educator, how-to
 
 You add dropdown problems in Studio by selecting the **Problem**
 component. In the problem editor, select the **Dropdown** option. Fill in

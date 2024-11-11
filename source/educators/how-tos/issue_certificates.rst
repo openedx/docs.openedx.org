@@ -1,10 +1,10 @@
-.. diataxis-type: how-to
-
 .. _Issuing Certificates:
 
 ********************
 Issuing Certificates
 ********************
+
+.. tags:: educator, how-to
 
 .. note::
  Before you can issue certificates, the administrator for your instance of

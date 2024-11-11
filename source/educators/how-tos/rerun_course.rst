@@ -1,4 +1,4 @@
-.. :diataxis-type: how-to
+.. tags:: educator, how-to
 
 .. note:: Before you re-run a course, make sure that its settings and content
   are complete. Additions and changes that you make to the original course

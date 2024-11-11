@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 ================================
 View Another Learner's Profile
 ================================
+
+.. tags:: educator, how-to
 
 You can view other learners' profiles through their posts, responses, or
 comments in course discussions.

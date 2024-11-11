@@ -1,10 +1,10 @@
-.. :diataxis-type: how to
-
 .. _Set Schedule and Pacing:
 
 #################################################
 Set the Course Run Schedule and Pacing in Studio
 #################################################
+
+.. tags:: educator, how-to
 
 After you determine the start and end dates for a course run, and whether you
 want your course run to be self-paced or instructor-paced, you specify these

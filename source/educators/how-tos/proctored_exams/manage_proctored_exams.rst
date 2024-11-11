@@ -4,6 +4,8 @@
 Manage Proctored Exams
 ########################
 
+.. tags:: educator, how-to
+
 When you administer a proctored exam in your course, learners might have
 questions or concerns about the exam. Usually, you can direct learners to the
 FAQ section on edx.org or to `Taking Timed and Proctored Exams`_ in the edX

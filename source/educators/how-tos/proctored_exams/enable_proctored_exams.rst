@@ -4,6 +4,8 @@
 Enable Proctored Exams
 ########################################
 
+.. tags:: educator, how-to
+
 To create a proctored exam, you modify the Proctored Exam Settings in Studio
 to enable proctored exams, and then you modify the settings of a subsection to
 specify that the subsection is a proctored exam.

@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Review Sent Messages:
 
 ********************************
 Review Sent Messages
 ********************************
+
+.. tags:: educator, how-to
 
 You can review a list of all of the messages that have been sent for the
 course. For any listed message, you can review the subject, the username of the

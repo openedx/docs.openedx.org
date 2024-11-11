@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Add a Video:
 
 =======================
 Add a Video
 =======================
+
+.. tags:: educator, how-to
 
 To add a video, follow these steps.
 

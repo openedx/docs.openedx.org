@@ -1,6 +1,8 @@
 Collapse and expand the navigation sidebar
 ##########################################
 
+.. tags:: educator, how-to
+
 Collapse the sidebar by clicking the collapse button in its upper corner:
 
    .. image:: /_images/educator_how_tos/LSN_collapse_expand_step1.png

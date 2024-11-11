@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Closing Discussions:
 
 ============================================
 Closing Discussions
 ============================================
+
+.. tags:: educator, how-to
 
 .. note:: You can only close discussions when you work in a web browser. You
    cannot close discussions when you work in an edX mobile app.

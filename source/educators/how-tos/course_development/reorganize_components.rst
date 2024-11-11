@@ -1,11 +1,11 @@
 
-.. :diataxis-type: how-to
-
 .. _Reorganizing Components:
 
 ******************************************
 Reorganizing Components
 ******************************************
+
+.. tags:: educator, how-to
 
 You can drag and drop components to a new position within their current unit,
 or you can move components from one unit to another unit.

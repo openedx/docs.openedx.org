@@ -1,10 +1,10 @@
-.. :diataxis-type: how to 
-
 .. _Enable Badges in Course:
 
 ****************************************
 Enable or Disable Badges for Your Course
 ****************************************
+
+.. tags:: educator, how-to
 
 Badges provide a way for learners to share their course achievements. For
 courses that have course completion badges enabled, learners receive a badge

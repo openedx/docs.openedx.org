@@ -1,9 +1,10 @@
-.. :diataxis-type: how to
 .. _Qualtrics Survey:
 
 #########################
 Qualtrics Survey Tool
 #########################
+
+.. tags:: educator, how-to
 
 You can administer Qualtrics surveys to your learners in your edX course. The
 Qualtrics survey appears in an iframe inside the course.

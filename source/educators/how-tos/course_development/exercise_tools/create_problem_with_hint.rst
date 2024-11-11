@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Problem with Adaptive Hint:
 
 ################################
 Problem with Adaptive Hint
 ################################
+
+.. tags:: educator, how-to
 
 A problem with an adaptive hint evaluates a student's response, then gives the
 student feedback or a hint based on that response so that the student is more

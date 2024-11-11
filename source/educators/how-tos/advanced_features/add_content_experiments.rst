@@ -4,6 +4,8 @@
 Add Content Experiments to Your Course
 #########################################
 
+.. tags:: educator, how-to
+
 This section provides instructions for adding content experiments to your
 course.
 

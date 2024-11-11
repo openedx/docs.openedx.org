@@ -1,9 +1,10 @@
-.. :diataxis-type: how-to
 .. _Chemical Equation:
 
 ################################
 Chemical Equation Problem
 ################################
+
+.. tags:: educator, how-to
 
 The chemical equation problem type allows the learner to enter text that
 represents a chemical equation into a text box. The system converts that text

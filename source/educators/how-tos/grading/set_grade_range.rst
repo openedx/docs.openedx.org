@@ -1,10 +1,10 @@
-.. :diataxis-type: how-to
-
 .. _Set the Grade Range:
 
 *******************
 Set the Grade Range
 *******************
+
+.. tags:: educator, how-to
 
 You must set the grade range for the course.  For example, your course can be
 pass/fail, or can have letter grades A through F.

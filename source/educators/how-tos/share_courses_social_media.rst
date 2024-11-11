@@ -1,8 +1,8 @@
-.. :diataxis-type: how-to
-
 #######################################
 Sharing Your Courses on Social Media
 #######################################
+
+.. tags:: educator, how-to
 
 On your dashboard, you can share the courses you are enrolled in on social
 media sites such as Facebook and Twitter.
