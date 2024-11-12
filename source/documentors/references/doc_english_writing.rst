@@ -58,12 +58,12 @@ Use active verbs. Avoid nominalizations (nouns made from verbs or adjectives) as
   utilization, operation, facilitation, activation, completion, reaction,
   improvement, movement, discovery, difficulty
 
-Here's an example of a sentence drafted in the passive voice, and how it was rewritten in the active voice.
+Here's an example of a sentence drafted in the passive voice and how it was rewritten in the active voice.
 
   Passive: This method is typically applied to free text fields, including
   discussion posts and wiki articles.
 
-  Active: Open edX typically applies this method to free text fields, including
+  Active: The Open edX community writers typically apply this method to free text fields, including
   discussion posts and wiki articles.
 
 
@@ -71,13 +71,13 @@ Here's an example of a sentence drafted in the passive voice, and how it was rew
 Bulleted Lists
 **************
 
-Write bulleted lists so that they are translatable.
+- Write bulleted lists so that they are translatable.
 
-Introduce the list with a complete sentence.
+- Introduce the list with a complete sentence.
 
-Do not use the bulleted points to complete an introductory sentence fragment.
+- Please don't use the bulleted points to complete an introductory sentence.
 
-Make sure each bulleted point can stand alone.
+- Make sure each bulleted point can stand alone.
 
 This approach might increase word count, but it decreases translation costs.
 
@@ -97,7 +97,7 @@ Ask "of what?", "of which?" or "as what?" when you use these words.
 
   Example:
 
-  In order to sterilize a reusable product using an autoclave, it must first be
+  To sterilize a reusable product using an autoclave, it must first be
   properly cleaned and disinfected.
 
   What must be cleaned and disinfected?
