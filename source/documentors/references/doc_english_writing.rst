@@ -207,9 +207,9 @@ Preferred Usage
    * - Contractions
      - Do not use.
    * - Cross-references
-     - Introduce standalone cross-references to other Open edX topics with the phrase, “For more information, see :ref:`{topic name}`”. To include more specific information about the material you are                    referencing, use the expanded phrase, “For more information about {task or concept}, see :ref:`{topic name}`.” Exception: In the glossary, cross-references to other glossary entries begin with, “See              :ref:`{topic name}`” if the current entry consists only of the cross-reference. To refer to a related entry, use “See also :ref:`{topic name}`.” To include a cross-reference inline, extend the cross-             reference to include a phrase that makes sense in context. In this example, the “course launch checklist” is added to the cross-reference markup to create a sentence with the correct capitalization. “To          verify that the course is ready for release, you can use the :ref:`course launch checklist<Course Launch Checklist>`.” For a cross-reference to an external resource, provide the title of the destination,         not just a URL. This style promotes a better experience for those using screen readers. In addition, avoid repeating links to the same destination multiple times on a single HTML page.
+     - Introduce standalone cross-references to other Open edX topics with the phrase, ``For more information, see :ref:`{topic name}```. To include more specific information about the material you are   referencing, use the expanded phrase, ``For more information about {task or concept}, see :ref:`{topic name}`.`` Exception: In the glossary, cross-references to other glossary entries begin with, ``See :ref:`{topic name}``` if the current entry consists only of the cross-reference. To refer to a related entry, use “See also :ref:`{topic name}`.” To include a cross-reference inline, extend the cross-reference to include a phrase that makes sense in context. In this example, the “course launch checklist” is added to the cross-reference markup to create a sentence with the correct capitalization. ``To verify that the course is ready for release, you can use the :ref:`course launch checklist<Course Launch Checklist>`.`` For a cross-reference to an external resource, provide the title of the destination, not just a URL. This style promotes a better experience for those using screen readers. In addition, avoid repeating links to the same destination multiple times on a single HTML page.
    * - Dates
-     - Format dates as "DD Mon YYYY" or "DD Month YYYY". For example, 11 Jan 2015. Do not use both date formats within the same .rst file.
+     - Format dates as ``DD Mon YYYY`` or ``DD Month YYYY``. For example, 11 Jan 2015. Do not use both date formats within the same .rst file.
    * - First-person
      - Do not use “I” or “me” unless you follow the text of a user interface label or message. Avoid using “we”. If there is an established Open edX best practice, identify the entity that recommends that               practice by name.
    * - Hyphenation
@@ -222,7 +222,7 @@ Preferred Usage
      - Avoid including unnecessary words. For example, instead of “Create a new {noun},” use “Create a {noun},” and instead of “Delete or edit an existing {noun},” use “Delete or edit a {noun}.”
    * - Word choice
      - See the Glossary section for our preferred terminology. Avoid jargon, colloquialisms, and humor. 
-       Do not use non-technical words that are not in common use, such as “and so forth,” albeit, heretofore, thus, or whilst. Be careful of commonly used phrases that introduce ambiguity. For example, instead of “When the process completes…” use “After the process completes…”
+       Do not use non-technical words that are not commonly used, such as “and so forth,” albeit, heretofore, thus, or whilst. Be careful of commonly used phrases that introduce ambiguity. For example, instead of “When the process completes…” use “After the process completes…”
 
 
 *********************
