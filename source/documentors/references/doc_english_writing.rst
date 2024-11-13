@@ -10,12 +10,7 @@ Guidelines for Writing Global English
 Global Examples
 ***************
 
-In addition to writing so that the text can be easily translated, remember
-that the Open edX audience is global, and make sure this is reflected in the examples
-that we use to illustrate concepts in the documentation. Use situations that
-people can relate to regardless of their culture, and use example names and
-email addresses that represent diverse ethnicities.
-
+In addition to writing so that the text can be easily translated, remember that the Open edX audience is global, and make sure this is reflected in the examples that we use to illustrate concepts in the documentation. Use situations that people can relate to regardless of their culture, and use example names and email addresses that represent diverse ethnicities.
 
 ***************
 Short Sentences
@@ -29,8 +24,7 @@ Write short sentences when possible. Long sentences can include problems...
 * long clauses
 * complex modifier strings
 
-Try to limit sentences to 20-30 words. Rule of thumb: if you run out of breath
-when you read a sentence aloud, it is too long.
+Try to limit sentences to 20-30 words. Rule of thumb: if you run out of breath when you read a sentence aloud, it is too long.
 
 However!
 
@@ -40,9 +34,7 @@ However!
 
 Example:
 
-"Block open port on catheter fitting" could mean completely different things
-once the definite article is inserted. Compare "Block the open port on the
-catheter fitting." to "Block open the port on the catheter fitting.
+"Block open port on catheter fitting" could mean completely different things once the definite article is inserted. Compare "Block the open port on the catheter fitting." to "Block open the port on the catheter fitting.
 
 
 ******************************
@@ -55,16 +47,13 @@ Use active verbs. Avoid nominalizations (nouns made from verbs or adjectives) as
 
   Example nominalizations:
 
-  utilization, operation, facilitation, activation, completion, reaction,
-  improvement, movement, discovery, difficulty
+  utilization, operation, facilitation, activation, completion, reaction, improvement, movement, discovery, difficulty
 
 Here's an example of a sentence drafted in the passive voice and how it was rewritten in the active voice.
 
-  Passive: This method is typically applied to free text fields, including
-  discussion posts and wiki articles.
+  Passive: This method is typically applied to free text fields, including discussion posts and wiki articles.
 
-  Active: The Open edX community writers typically apply this method to free text fields, including
-  discussion posts and wiki articles.
+  Active: The Open edX community writers typically apply this method to free text fields, including discussion posts and wiki articles.
 
 
 **************
@@ -85,20 +74,17 @@ This approach might increase word count, but it decreases translation costs.
 Pronouns
 *********
 
-Avoid ambiguous pronouns, particularly impersonal pronouns.  All kinds of
-words can sneak into use as pronouns.
+Avoid ambiguous pronouns, particularly impersonal pronouns.  All kinds of words can sneak into use as pronouns.
 
   Examples:
 
-  all, another, any, each, either, few, following, many, neither, none, one,
-  other, rest, same, several, some, such, that, them, these, those
+  all, another, any, each, either, few, following, many, neither, none, one, other, rest, same, several, some, such, that, them, these, those
 
 Ask "of what?", "of which?" or "as what?" when you use these words.
 
   Example:
 
-  To sterilize a reusable product using an autoclave, it must first be
-  properly cleaned and disinfected.
+  To sterilize a reusable product using an autoclave, it must first be properly cleaned and disinfected.
 
   What must be cleaned and disinfected?
 
@@ -106,22 +92,19 @@ Avoid broad-reference pronouns.
 
   Example:
 
-  Our new monitor has virtually no background noise, which should substantially
-  reduce the number of false positives.
+  Our new monitor has virtually no background noise, which should substantially reduce the number of false positives.
 
 ****
 Mood
 ****
 
-Avoid the subjunctive mood. Native English speakers have trouble with it.
-Prefer the indicative and imperative moods.
+Avoid the subjunctive mood. Native English speakers have trouble with it. Prefer the indicative and imperative moods.
 
 ***************
 Provide Context
 ***************
 
-Be sensitive to words that are used as both nouns and verbs and provide
-context for them.
+Be sensitive to words that are used as both nouns and verbs and provide context for them.
 
   Examples:
 
@@ -163,22 +146,19 @@ Use and maintain our :ref: `glossary <Glossary>`. Be consistent in the terms use
 
   Example:
 
-  top, cap, and cover are translated and understood as three different
-  things, not as the same thing.
+  top, cap, and cover are translated and understood as three different things, not as the same thing.
 
 *************
 Contractions
 *************
 
-Avoid contractions. They introduce ambiguity, particularly 'd and 's. Use
-other means to convey a friendly, informal tone.
+Avoid contractions. They introduce ambiguity, particularly 'd and 's. Use other means to convey a friendly, informal tone.
 
 ***********
 White Space
 ***********
 
-Plan for expanded text. Expansion of 25% is common, so incorporate white space
-in flowcharts, blocks of text, UI strings...
+Plan for expanded text. Expansion of 25% is common, so incorporate white space in flowcharts, blocks of text, UI strings...
 
 ***********
 Punctuation
@@ -186,8 +166,7 @@ Punctuation
 
 Avoid slashes. They introduce ambiguity.
 
-Avoid em dashes. Putting non-restrictive relative clauses into separate
-sentences lead to simpler, clearer writing.
+Avoid em dashes. Putting non-restrictive relative clauses into separate sentences lead to simpler, clearer writing.
 
 Do not use smart quotes or smart apostrophes. Prefer the straight versions.
 
@@ -210,6 +189,48 @@ Avoid acronyms.
 Do not use Latin abbreviations.
 
 Do not use non-technical abbreviations.
+
+***************
+Preferred Usage
+***************
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Term
+     - Usage
+   * - Can, Might, and May
+     - Use the verb “can” to describe ability, capability, or capacity. Use “might” to describe possibility or eventuality. Because “may” implies permission, the Open edX documentation team prefers to use one of the other two verbs.
+   * - Capitalization
+     - Use title capitalization for headings. When referring to elements in the user interface, follow the capitalization that is used in the labels or text.
+      Do not capitalize job titles, such as professor, instructor, or program manager. Do not capitalize terms unless they are trademarks, so refer to the instructor dashboard or a course about video rather than the Instructor Dashboard or a course About video.
+      Always capitalize “Open edX” with a capital O to begin, a space between “Open” and “edX”, and a capital “X” to end. Do not use spellings such as “OPEN EDX”, “OpenedX”, or “openedx” (unless referring specifically to terms used in code). Further, “Open edX” must always be used as an adjective per trademark rules.
+   * - Contractions
+     - Do not use.
+   * - Cross-references
+     - Introduce standalone cross-references to other Open edX topics with the phrase, “For more information, see :ref:`{topic name}`”. To include more specific information about the material you are referencing, use the expanded phrase, “For more information about {task or concept}, see :ref:`{topic name}`”.
+     Exception: In the glossary, cross-references to other glossary entries begin with, “See :ref:`{topic name}`” if the current entry consists only of the cross-reference. To refer to a related entry, use “See also :ref:`{topic name}`”.
+     To include a cross-reference inline, extend the cross-reference to include a phrase that makes sense in context. In this example, the “course launch checklist” is added to the cross-reference markup to create a sentence with the correct capitalization. “To verify that the course is ready for release, you can use the :ref:`course launch checklist<Course Launch Checklist>`.”
+     For a cross-reference to an external resource, provide the title of the destination, not just a URL. This style promotes a better experience for those using screen readers. In addition, avoid repeating links to the same destination multiple times on a single HTML page.
+   * - Dates
+     - Format dates as "DD Mon YYYY" or "DD Month YYYY". For example, 11 Jan 2015. Do not use both date formats within the same .rst file.
+   * - First-person
+     - Do not use “I” or “me” unless you follow the text of a user interface label or message. Avoid using “we”. If there is an established Open edX best practice, identify the entity that recommends that practice by name.
+   * - Hyphenation
+     - Minimize the use of hyphenated compounds. Present compound words as either two separate words or a single word. Use hyphens only when the meaning is unclear without them. For exceptions to this rule, see the word list.
+   * - Pronouns
+     - Avoid ambiguous pronouns such as all, each, many, several, some, that, them, these, those.
+   * - Punctuation
+     - Avoid slashes, particularly “and/or”. They introduce ambiguity.
+     Avoid em dashes. Putting non-restrictive relative clauses into separate sentences leads to simpler, clearer writing.
+     Do not use smart quotes or smart apostrophes. Use the straight versions of these marks.
+   * - Redundancy
+     - Avoid including unnecessary words. For example, instead of “Create a new {noun},” use “Create a {noun},” and instead of “Delete or edit an existing {noun}”, use “Delete or edit a {noun}.”
+   * - Word choice
+     - See the Glossary section for our preferred terminology. Avoid jargon, colloquialisms, and humor.
+     Do not use non-technical words that are not in common use, such as “and so forth,” albeit, heretofore, thus, or whilst.}
+     Be careful of commonly used phrases that introduce ambiguity. For example, instead of “When the process completes…” use “After the process completes…”
+
 
 *********************
 References to Explore
