@@ -193,6 +193,7 @@ Do not use non-technical abbreviations.
 ***************
 Preferred Usage
 ***************
+
 .. list-table::
    :widths: 20 80
    :header-rows: 1
@@ -203,15 +204,13 @@ Preferred Usage
      - Use the verb “can” to describe ability, capability, or capacity. Use “might” to describe possibility or eventuality. Because “may” implies permission, the Open edX documentation team prefers to use one of the other two verbs.
    * - Capitalization
      - Use title capitalization for headings. When referring to elements in the user interface, follow the capitalization that is used in the labels or text.
-      Do not capitalize job titles, such as professor, instructor, or program manager. Do not capitalize terms unless they are trademarks, so refer to the instructor dashboard or a course about video rather than the Instructor Dashboard or a course About video.
-      Always capitalize “Open edX” with a capital O to begin, a space between “Open” and “edX”, and a capital “X” to end. Do not use spellings such as “OPEN EDX”, “OpenedX”, or “openedx” (unless referring specifically to terms used in code). Further, “Open edX” must always be used as an adjective per trademark rules.
+      Do not capitalize job titles, such as professor, instructor, or program manager. Do not capitalize terms unless they are trademarks, so refer to the instructor dashboard or a course about video rather than the Instructor Dashboard or a course About video. Always capitalize “Open edX” with a capital O to begin, a space between “Open” and “edX”, and a capital “X” to end. Do not use spellings such as “OPEN EDX”, “OpenedX”, or “openedx” (unless referring specifically to terms used in code). Further, “Open edX” must always be used as an adjective per trademark rules.
    * - Contractions
      - Do not use.
    * - Cross-references
      - Introduce standalone cross-references to other Open edX topics with the phrase, “For more information, see :ref:`{topic name}`”. To include more specific information about the material you are referencing, use the expanded phrase, “For more information about {task or concept}, see :ref:`{topic name}`”.
      Exception: In the glossary, cross-references to other glossary entries begin with, “See :ref:`{topic name}`” if the current entry consists only of the cross-reference. To refer to a related entry, use “See also :ref:`{topic name}`”.
-     To include a cross-reference inline, extend the cross-reference to include a phrase that makes sense in context. In this example, the “course launch checklist” is added to the cross-reference markup to create a sentence with the correct capitalization. “To verify that the course is ready for release, you can use the :ref:`course launch checklist<Course Launch Checklist>`.”
-     For a cross-reference to an external resource, provide the title of the destination, not just a URL. This style promotes a better experience for those using screen readers. In addition, avoid repeating links to the same destination multiple times on a single HTML page.
+     To include a cross-reference inline, extend the cross-reference to include a phrase that makes sense in context. In this example, the “course launch checklist” is added to the cross-reference markup to create a sentence with the correct capitalization. “To verify that the course is ready for release, you can use the :ref:`course launch checklist<Course Launch Checklist>`.” For a cross-reference to an external resource, provide the title of the destination, not just a URL. This style promotes a better experience for those using screen readers. In addition, avoid repeating links to the same destination multiple times on a single HTML page.
    * - Dates
      - Format dates as "DD Mon YYYY" or "DD Month YYYY". For example, 11 Jan 2015. Do not use both date formats within the same .rst file.
    * - First-person
@@ -222,14 +221,12 @@ Preferred Usage
      - Avoid ambiguous pronouns such as all, each, many, several, some, that, them, these, those.
    * - Punctuation
      - Avoid slashes, particularly “and/or”. They introduce ambiguity.
-     Avoid em dashes. Putting non-restrictive relative clauses into separate sentences leads to simpler, clearer writing.
-     Do not use smart quotes or smart apostrophes. Use the straight versions of these marks.
+     Avoid em dashes. Putting non-restrictive relative clauses into separate sentences leads to simpler, clearer writing. Do not use smart quotes or smart apostrophes. Use the straight versions of these marks.
    * - Redundancy
      - Avoid including unnecessary words. For example, instead of “Create a new {noun},” use “Create a {noun},” and instead of “Delete or edit an existing {noun}”, use “Delete or edit a {noun}.”
    * - Word choice
      - See the Glossary section for our preferred terminology. Avoid jargon, colloquialisms, and humor.
-     Do not use non-technical words that are not in common use, such as “and so forth,” albeit, heretofore, thus, or whilst.}
-     Be careful of commonly used phrases that introduce ambiguity. For example, instead of “When the process completes…” use “After the process completes…”
+     Do not use non-technical words that are not in common use, such as “and so forth,” albeit, heretofore, thus, or whilst. Be careful of commonly used phrases that introduce ambiguity. For example, instead of “When the process completes…” use “After the process completes…”
 
 
 *********************
