@@ -79,8 +79,12 @@ Course Tags and Taxonomies
    :glob:
 
    ../how-tos/content-tagging-how-tos/build_taxonomy_using_template.rst
+   ../how-tos/content-tagging-how-tos/import_export_a_taxonomy.rst
    ../how-tos/content-tagging-how-tos/Create_flat_taxonomy_by_uploading_CSV.rst
+   ../how-tos/content-tagging-how-tos/update_reimport_taxonomy.rst
+   ../how-tos/content-tagging-how-tos/manage_permissions_taxonomy.rst
    ../how-tos/content-tagging-how-tos/add_delete_course_tags.rst
+   ../how-tos/content-tagging-how-tos/add_delete_tags_course_content.rst
    ../how-tos/content-tagging-how-tos/export_tag_data_from_course.rst
 
 Google Calendar Tool
