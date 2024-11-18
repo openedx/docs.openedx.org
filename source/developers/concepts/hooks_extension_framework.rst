@@ -97,6 +97,12 @@ Here are some key differences between Open edX Events and Filters:
 | **Use cases**      |  Send an email notification when a user enrolls in a course.           |  Prevent the enrollment of non-authorized users.            |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
 
+In this diagram you can see the main differences in functionality between Open edX Events and Filters:
+
+.. image:: /_images/hooks_events_and_filters_side_by_side.png
+   :alt: Open edX Events and Filters Side by Side
+   :align: center
+
 How to Know When to Use an Event or a Filter?
 =============================================
 
