@@ -24,26 +24,31 @@ For each type of document, you will find the explanation, the technical guidelin
 Quickstart
 **********
 
-A Quickstart is a lesson that guides the reader through **practical steps** to complete a stated goal. It is **learning-oriented**. In other words, it is a lesson and a learning experience. For example, creating a virtual course can be a quickstart because it’s a practical skill. A Quickstart may comprise the contents of multiple How-To guides
+A Quickstart is a lesson that guides the reader through **practical steps** to complete a stated goal. It is **learning-oriented**. In other words, it is a lesson and a learning experience. For example, creating a virtual course can be a Quickstart because it’s a practical skill. A Quickstart may comprise the contents of multiple How-To guides
 
 Although Quickstart topics may seem similar to How-Tos, they focus differently. Quickstarts are specifically built for beginners and are meant to help them gain experience with the product.
 
 How to Write a Good Quickstart:
 ===============================
 #. **Learning objectives.** Describe what the learner will accomplish.
+
 	E.g., *“In this quickstart, you will…”* 
 
 #. **Clear learning path.** Describe the topics, the order, and the activities your learner will follow to accomplish the learning objectives.
+
 	E.g., *“To accomplish that, you will learn how to …” “You will create …”*
 
 #. **Step-by-step process** explanation with just the necessary amount of explanation. Link to a more detailed explanation.
+
 	E.g., *“Step 0: First, do x.”*
 	E.g., *“Note: For more information about migration, click here.”*
 
 #. **Output examples:** Give your learner clear expectations.
+
 	E.g., *“The output should look like this: (add image).”*
 
 #. **Accomplishment description:**
+
 	E.g., *“You have successfully imported a course to your platform.”*
 
 Technical Guidelines:
@@ -82,7 +87,7 @@ Criteria of a Good Quickstart:
        - The document is easy for the learner to follow.
 
    * - **Very accurate**
-     - Document shares features of 5 and 3.
+     - Document shares features of Perfect and Acceptable.
      - 
 
    * - **Acceptable**
@@ -93,7 +98,7 @@ Criteria of a Good Quickstart:
        - The document can confuse the learner at specific points.
 
    * - **Needs corrections**
-     - Document shares features of 3 and 1.
+     - Document shares features of Acceptable and Not acceptable.
      - 
 
    * - **Not acceptable**
@@ -166,7 +171,7 @@ Criteria of the How-To Guide:
        - The document is easy for the reader to follow.
 
    * - **Very accurate**
-     - Document shares features of 5 and 3.
+     - Document shares features of Perfect and Acceptable.
      - 
 
    * - **Acceptable**
@@ -177,7 +182,7 @@ Criteria of the How-To Guide:
        - The document can confuse the reader at specific points.
 
    * - **Needs corrections**
-     - Document shares features of 3 and 1.
+     - Document shares features of Acceptable and Not Acceptable.
      - 
 
    * - **Not acceptable**
@@ -244,7 +249,7 @@ Criteria of a Reference Document:
        - The document descriptions are comprehensive.
 
    * - **Very accurate**
-     - Document shares features of 5 and 3.
+     - Document shares features of Perfect and Acceptable.
      - 
 
    * - **Acceptable**
@@ -254,7 +259,7 @@ Criteria of a Reference Document:
        - The document has one or two elements that need to be clarified.
 
    * - **Needs corrections**
-     - Document shares features of 3 and 1.
+     - Document shares features of Acceptable and Not acceptable.
      - 
 
    * - **Not acceptable**
@@ -312,7 +317,7 @@ Criteria of a Concept Document:
        - The document is clear and precise about the topic.
 
    * - **Very accurate**
-     - Document shares features of 5 and 3.
+     - Document shares features of Perfect and Acceptable.
      - 
 
    * - **Acceptable**
@@ -322,7 +327,7 @@ Criteria of a Concept Document:
        - Certain text parts need to be clarified.
 
    * - **Needs corrections**
-     - Document shares features of 3 and 1.
+     - Document shares features of Acceptable and Not acceptable.
      - 
 
    * - **Not acceptable**
