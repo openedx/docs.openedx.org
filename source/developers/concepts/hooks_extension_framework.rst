@@ -130,7 +130,32 @@ In summary, filters can be used when implementing application flow control that 
 
 You can review the :doc:`Open edX Filters <openedx-filters:index>` documentation for more information on :doc:`openedx-filters:how-tos/using-filters` in your project. This documentation includes a list of :doc:`openedx-filters:reference/filters` and much more.
 
+Still Deciding Which to Use?
+----------------------------
+
+If you're still unsure whether to use an Open edX Event or Filter, ask yourself the following questions:
+
+1. **Does it change the default platform behavior?**
+   - **Yes:** For example, the course enrollment process now depends on a third-party subscription service. This modifies the default enrollment process.
+   - **No:** For example, when generating certificates, you may need to create credentials in an external service, but the default process remains unchanged.
+
+Filters are useful when you need an immediate response that directly modifies the caller process and impacts the rest of the flow. In contrast, events are more decoupled from the caller process. They do not return a response, leaving the caller process unchanged.
+
+2. **If yes, should it be a filter?**
+   - **Does the application component benefit from being extended?**
+ 	- If so, a filter may suit your needs.
+ 	- If not, maybe because your use case should be the default offering of the platform, contribute changes if they benefit the community, but check with the `Product Working Group`_ first.
+ 	- If the latter is not the case, then implementing the feature in a plugin using filters is the way to go.
+    - Next, review existing filter use cases to find similar implementations.
+
+3. **If no, should it be an event?**
+   - Consider if your use case involves communication, synchronization, or integration between services or components.
+   - Next, review existing event use cases to find similar implementations.
+
+.. TODO: ADD REFERENCE TO REAL LIFE USE CASES documentation.
+
 .. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
 .. _openedx-events: https://github.com/openedx/openedx-events
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
+.. _Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3449028609/Product+Working+Group
