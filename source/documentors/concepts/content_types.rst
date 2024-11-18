@@ -13,7 +13,7 @@ The Diataxis framework is an approach to quality in technical documentation and 
 * `Quickstart`_
 * `How-to`_
 * `Reference`_
-* `Concepts`_
+* `Concept`_
 
 Using diataxis, documentation can be organized to meet diverse user needs, making it easier to find relevant information based on the user’s situation or goal. This structure enhances usability and comprehension, allowing users to navigate documentation more effectively.
 
@@ -31,14 +31,18 @@ Although Quickstart topics may seem similar to How-Tos, they focus differently. 
 How to Write a Good Quickstart:
 ===============================
 #. **Learning objectives.** Describe what the learner will accomplish.
-	E.g., *“In this quickstart, you will…”*   
+	E.g., *“In this quickstart, you will…”* 
+
 #. **Clear learning path.** Describe the topics, the order, and the activities your learner will follow to accomplish the learning objectives.
 	E.g., *“To accomplish that, you will learn how to …” “You will create …”*
+
 #. **Step-by-step process** explanation with just the necessary amount of explanation. Link to a more detailed explanation.
 	E.g., *“Step 0: First, do x.”*
 	E.g., *“Note: For more information about migration, click here.”*
+
 #. **Output examples:** Give your learner clear expectations.
 	E.g., *“The output should look like this: (add image).”*
+
 #. **Accomplishment description:**
 	E.g., *“You have successfully imported a course to your platform.”*
 
@@ -101,6 +105,7 @@ Criteria of a Good Quickstart:
 
  
 .. _How To:
+
 How-To
 ******
 
@@ -114,11 +119,17 @@ A How-to Guide Must Have:
 =========================
 
 #. **Problem description:** Describe clearly the problem or task and show the user how to solve it.
+
   E.g., *“This guide shows you how to…”*
+
 #. **Step-by-step process:** Indicates the order of the steps to make the process compelling.
+
   E.g., *“Step 1; Step 2” or “ 1. , 2.”*
+
 #. **Visual supports:** Accompany the steps with images, videos, or graphics to guide the person following the process.
+
 #. **Reference links:** 
+
   E.g., *“To learn more about x, visit our documentation”*
 
 Technical Guidelines:
@@ -193,8 +204,11 @@ Reference Material Must Have:
 =============================
 
 #. **An accurate and precise description** of the product you’re referencing.
+
 #. **Provide examples of the uses and functions** of the product to make it more comprehensive.
+
 #. Generally, a reference **lists details or provides a glossary** of aspects of the product that the reader needs. (For example: definitions, commands, options, operations, features, flags, limitations, error messages, etc.)
+
 #. Provide **warnings** where appropriate.
 
 Technical Guidelines:
@@ -251,6 +265,7 @@ Criteria of a Reference Document:
 
 
 .. _Concept:
+
 Concept
 *******
 
@@ -260,8 +275,11 @@ A Good Concept Must Have:
 =========================
 
 #. A **clear title** about the topic.
+
   E.g., *“About XBlocks and Their Uses in Course Creation” or “What are Learning Taxonomies?”*
-#.An explanation that **answers a why question**. It could be descriptive, historical, or even propose different alternatives to explain the bigger picture and give context.
+
+#. An explanation that **answers a why question**. It could be descriptive, historical, or even propose different alternatives to explain the bigger picture and give context.
+
   E.g., *“What is an XBlock? The Open edX platform provides different components, called XBlocks, that can work to create a course, like text, video, assessment, and discussions.”*
 
 Technical Guidelines:
