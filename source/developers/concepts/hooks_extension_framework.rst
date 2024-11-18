@@ -17,7 +17,7 @@ The framework's main goal is to empower developers to change the platform's func
 
 A longer description of the framework and its history can be found in :doc:`openedx-proposals:architectural-decisions/oep-0050-hooks-extension-framework`.
 
-Why adopt the Hooks Extension Framework?
+Why Adopt the Hooks Extension Framework?
 ****************************************
 
 Stable and Maintainable Extensions
@@ -70,7 +70,7 @@ Filters are functions that can modify the application's behavior by altering inp
 
 To start using Open edX Filters in your project, see the :doc:`Open edX Filters <openedx-filters:index>` documentation.
 
-Differences between Events and Filters
+Differences Between Events and Filters
 =======================================
 
 Here are some key differences between Open edX Events and Filters:
@@ -97,10 +97,10 @@ Here are some key differences between Open edX Events and Filters:
 | **Use cases**      |  Send an email notification when a user enrolls in a course.           |  Prevent the enrollment of non-authorized users.            |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
 
-How to know when to use an Event or a Filter?
+How to Know When to Use an Event or a Filter?
 =============================================
 
-When to use an Open edX Event?
+When to Use an Open edX Event?
 ------------------------------
 
 A developer might use an Open edX Event in order to perform the following actions. Note that this is not an exhaustive list.
@@ -115,7 +115,7 @@ In summary, events can be used to integrate application components with each oth
 
 You can review the :doc:`Open edX Events <openedx-events:index>` documentation for more information on :doc:`openedx-events:how-tos/using-events` in your project. This documentation includes a list of :doc:`openedx-events:reference/events` and much more.
 
-When to use an Open edX Filter?
+When to Use an Open edX Filter?
 -------------------------------
 
 A developer might use an Open edX Filter in order to perform the following actions. Note that this is not an exhaustive list.
