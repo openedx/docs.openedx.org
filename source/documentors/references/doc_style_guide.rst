@@ -185,12 +185,11 @@ Images should be used to explain complex processes. They are a quick solution to
 
 To add an image to an Open edX document, use the following RST format, which has all the necessary parameters included:
 
-```rst
-.. image:: ../assets/example_title.jpg
-    :width: 500px
-    :align: center
-    :alt: This should describe the image for SEO and accessibility reasons.``
-
+.. code::
+    .. image:: ../assets/example_title.jpg
+        :width: 500px
+        :align: center
+        :alt: This should describe the image for SEO and accessibility reasons.
 
 You can modify the width if the image size needs to be adjusted to be more apparent or visible to the reader.
 
@@ -249,7 +248,7 @@ To have more interactive documents, always try to include hyperlinks to help rea
 For adding links to other locations in the same document, to locations in other documents and to external websites, please check this document.
 
 Types of Call-Out Boxes
-======================
+=======================
 
 Notes
 -----
@@ -311,19 +310,11 @@ Additionally, “See Also Tables” is an important way for users to find docume
     :ref:`Configure Your Course for Content Experiments` (how-to)
 
 Table of contents
-================
+=================
 
 The table of contents is the navigation section to the left of your document. Clicking entries on the table of contents will open that document. The table of contents is consistent across all documents on docs.openedx.org. Every document must belong to at least one table of contents. In other words, you cannot create “orphan” documents that are not reachable to users via standard navigation.
 
-As an example, if a new file `build_a_course.rst` is created, then it would need to be appended to an existing table of contents, as shown in the example below. Note that in this example, the `build_a_course.rst` file is contained in the `quickstarts` subfolder:
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   concepts/open_edx_platform/what_is_lms
-   concepts/open_edx_platform/what_is_studio
-   quickstarts/build_a_course
+As an example, if a new file `build_a_course.rst` is created, then it would need to be appended to an existing table of contents, as shown in the example below. 
 
 You can learn more about adding your document to a table of contents by following this guide.
 
@@ -342,11 +333,19 @@ When you include a table, be sure to include a heading row. In addition, conside
 
 Tables should be used to compile complicated data and indicate its relationships. In Open edX documentation, tables look like this:
 
-+-------------+--------------+--------------+
-| Table Name | Column Name  | Third Column |
-+-------------+--------------+--------------+
-| Data        | Data         | When to use a table |
-+-------------+--------------+--------------+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
 
 • When the information is significantly complicated.
 • When the information repeats at least one element more than twice.
