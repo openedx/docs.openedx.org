@@ -72,7 +72,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 9. View as a Learner
 *****************************
 
-.. include:: ../how-tos/reusable_content/view_as_learner.txt
+.. include:: ../how-tos/add_checkbox.rst
 
 
 
