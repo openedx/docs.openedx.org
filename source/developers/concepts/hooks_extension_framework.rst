@@ -92,7 +92,7 @@ Here are some key differences between Open edX Events and Filters:
 | **Implementation** |  Implemented using `Django signals`_, which allow                      |  Implemented using an accumulative pipeline mechanism which |
 |                    |  developers to send and receive notifications that an action happened  |  takes a set of arguments and returns a modified set        |
 |                    |  within a Django application.                                          |  to the caller or raises exceptions during                  |
-|                    |  Events use `attrs`_ classes with simple data types.                   |  processing. The input arguments are in-memory platform     |                                          |
+|                    |  Events use `attrs`_ classes with simple data types.                   |  processing. The input arguments are in-memory platform     |
 |                    |                                                                        |  objects that can be modified.                              |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
 | **Use cases**      |  Send an email notification when a user enrolls in a course.           |  Prevent the enrollment of non-authorized users.            |
