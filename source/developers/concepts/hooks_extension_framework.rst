@@ -109,7 +109,7 @@ A developer might use an Open edX Event in order to perform the following action
 - Communicate, synchronize, or coordinate with other components or services based on specific events or actions, e.g., send certificate data from LMS to credentials service to keep models up to date.
 - Integrate with external systems or services based on specific events or actions, e.g., send user data to third-party services upon registration for marketing purposes.
 
-Fore more detailed use cases, please visit :doc:`openedx-events:references/real-life-use-cases`.
+Fore more detailed use cases, please visit :doc:`openedx-events:reference/real-life-use-cases`.
 
 In summary, events can be used to integrate application components with each other or with external services, allowing them to communicate, synchronize, and perform additional actions when specific triggers occur.
 
@@ -124,7 +124,7 @@ A developer might use an Open edX Filter in order to perform the following actio
 - Enforce specific constraints or business rules of a specific component, e.g., don't allow registration for non-authorized email domains.
 - Implement additional features or behavior in a specific component, e.g., add registration extra fields to the user registration form.
 
-Fore more detailed use cases, please visit :doc:`openedx-filters:references/real-life-use-cases`.
+Fore more detailed use cases, please visit :doc:`openedx-filters:reference/real-life-use-cases`.
 
 In summary, filters can be used when implementing application flow control that modifies the application's behavior, navigation, or user interaction flow during runtime.
 
