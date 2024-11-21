@@ -146,13 +146,13 @@ Filters are useful when you need an immediate response that directly modifies th
  	- If so, a filter may suit your needs.
  	- If not, maybe because your use case should be the default offering of the platform, contribute changes if they benefit the community, but check with the `Product Working Group`_ first.
  	- If the latter is not the case, then implementing the feature in a plugin using filters is the way to go.
-    - Next, review existing filter use cases to find similar implementations.
+    - Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
 
 3. **If no, should it be an event?**
    - Consider if your use case involves communication, synchronization, or integration between services or components.
-   - Next, review existing event use cases to find similar implementations.
+   - Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
 
-.. TODO: ADD REFERENCE TO REAL LIFE USE CASES documentation.
+We encourage you to review the list of use cases for events and filters to draw inspiration from real-life scenarios and see if your use case aligns with any of them.
 
 .. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
