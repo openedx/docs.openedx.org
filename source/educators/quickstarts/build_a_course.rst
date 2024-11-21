@@ -67,8 +67,8 @@ Follow the steps below to build your first course. By the end, you will have a f
 *****************************
 
 .. include:: ../how-tos/copy_paste_units.rst
-    :start-after: .. start_mark
-    :end-before: .. end_mark
+    :start-after::.. start_mark
+    :end-before:: .. end_mark
 
 
 9. View as a Learner
