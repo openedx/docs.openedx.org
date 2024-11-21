@@ -187,7 +187,7 @@ The Hooks Extension Framework is designed to provide a stable and maintainable w
 | **Upgrade Compatibility**                                          | High, due to backward compatibility policies.                                                                 | Low, as forks must manually integrate their changes with the Open edX platform for each new release.                               |
 +--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
-When implementing a new feature, consider the advantages and disadvantages of each approach to determine the best fit for your use case and long-term goals.
+When implementing a new feature, consider the advantages and disadvantages of each approach to determine the best fit for your use case and long-term goals. If you think your feature can be part of the core instead of an extension, consider proposing it as a new feature in the Open edX platform.
 
 .. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
