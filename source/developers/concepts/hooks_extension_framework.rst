@@ -4,7 +4,7 @@ Hooks Extension Framework
 What is the Hooks Extension Framework?
 **************************************
 
-Based on the :doc:`edx-platform:concepts/extension_points`, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the `Open edX Django plugins`_ architecture, allowing developers to implement new features to fit customer needs while reducing the need for core modifications and minimizing maintenance efforts.
+Based on the :doc:`edx-platform:concepts/extension_points`, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the `Open edX Django plugins`_ architecture, allowing developers to implement new features while reducing the need for core modifications and minimizing maintenance efforts.
 
 Hooks are places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they are informative only. All hooks are designed to be used along with `Open edX Django plugins`_.
 
