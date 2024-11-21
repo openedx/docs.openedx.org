@@ -185,11 +185,12 @@ Images should be used to explain complex processes. They are a quick solution to
 
 To add an image to an Open edX document, use the following RST format, which has all the necessary parameters included:
 
-.. code::
-    .. image:: ../assets/example_title.jpg
-        :width: 500px
-        :align: center
-        :alt: This should describe the image for SEO and accessibility reasons.
+.. code-block::
+
+.. image:: _assets/example_image_2.png
+:width: 500px
+:align: center
+:alt: Alternative text. this is important for accessibility
 
 You can modify the width if the image size needs to be adjusted to be more apparent or visible to the reader.
 
