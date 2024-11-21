@@ -66,7 +66,9 @@ Follow the steps below to build your first course. By the end, you will have a f
 8. Publish the Course
 *****************************
 
-.. include:: ../how-tos/reusable_content/publish_course.txt
+.. include:: ../how-tos/copy_paste_units.rst
+    :start-after: .. start_mark
+    :end-before: .. end_mark
 
 
 9. View as a Learner
