@@ -24,7 +24,7 @@ Open edX Developers
 
       * :doc:`references/running_pr_tests`
       * :doc:`references/internal_data_formats/index`
-      * :doc: `contents/hooks_extension_framework`
+      * :doc: `concepts/hooks_extension_framework`
 
    .. grid-item-card:: How-tos
       :class-card: sd-shadow-md sd-p-2
@@ -47,7 +47,7 @@ Open edX Developers
       * :doc:`concepts/platform_overview`
       * :doc:`concepts/backend_layout_and_approach`
       * :doc:`concepts/accessibility`
-      * :doc: `contents/hooks_extension_framework`
+      * :doc: `concepts/hooks_extension_framework`
       +++
       .. button-ref:: concepts/index
          :color: primary
