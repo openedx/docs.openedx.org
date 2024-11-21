@@ -135,22 +135,24 @@ Still Deciding Which to Use?
 
 If you're still unsure whether to use an Open edX Event or Filter, ask yourself the following questions:
 
-1. **Does it change the default platform behavior?**
-   - **Yes:** For example, the course enrollment process now depends on a third-party subscription service. This modifies the default enrollment process.
-   - **No:** For example, when generating certificates, you may need to create credentials in an external service, but the default process remains unchanged.
+**Does it change the default platform behavior?**
+
+- **Yes:** For example, the course enrollment process now depends on a third-party subscription service. This modifies the default enrollment process.
+- **No:** For example, when generating certificates, you may need to create credentials in an external service, but the default process remains unchanged.
 
 Filters are useful when you need an immediate response that directly modifies the caller process and impacts the rest of the flow. In contrast, events are more decoupled from the caller process. They do not return a response, leaving the caller process unchanged.
 
-2. **If yes, should it be a filter?**
-   - **Does the application component benefit from being extended?**
- 	- If so, a filter may suit your needs.
- 	- If not, maybe because your use case should be the default offering of the platform, contribute changes if they benefit the community, but check with the `Product Working Group`_ first.
- 	- If the latter is not the case, then implementing the feature in a plugin using filters is the way to go.
-    - Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
+**If the answer yes, should it be a filter? Does the application behavior benefit from being altered?**
 
-3. **If no, should it be an event?**
-   - Consider if your use case involves communication, synchronization, or integration between services or components.
-   - Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
+- If so, a filter may suit your needs.
+- If not, maybe because your use case should be the default offering of the platform, contribute changes if they benefit the community, but check with the `Product Working Group`_ first.
+- If the latter is not the case, then implementing your feature in a plugin using filters is the way to go.
+- Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
+
+**If the answer is no, should it be an event?**
+
+- Consider if your use case involves communication, synchronization, or integration between services or components.
+- Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
 
 We encourage you to review the list of use cases for events and filters to draw inspiration from real-life scenarios and see if your use case aligns with any of them.
 
