@@ -10,7 +10,7 @@ Guidelines for Writing Global English
 Global Examples
 ***************
 
-In addition to writing so that the text can be easily translated, remember that the Open edX audience is global, and make sure this is reflected in the examples that we use to illustrate concepts in the documentation. Use situations that people can relate to regardless of their culture, and use example names and email addresses that represent diverse ethnicities.
+In addition to writing so that the text can be easily translated, remember that the Open edX audience is global, and ensure this is reflected in the examples we use to illustrate concepts in the documentation. Use situations that people can relate to regardless of their culture, and use example names and email addresses that represent diverse ethnicities.
 
 ***************
 Short Sentences
@@ -34,7 +34,7 @@ However!
 
 Example:
 
-"Block open port on catheter fitting" could mean completely different things once the definite article is inserted. Compare "Block the open port on the catheter fitting." to "Block open the port on the catheter fitting.
+"Create course content" could mean completely different things once a preposition is inserted. Compare "Create course content for the new program." to "Create course content about the new program."
 
 
 ******************************
@@ -158,7 +158,7 @@ Avoid contractions. They introduce ambiguity, particularly 'd and 's. Use other 
 White Space
 ***********
 
-Plan for expanded text. Expansion of 25% is common, so incorporate white space in flowcharts, blocks of text, UI strings...
+Plan for expanded text. An expansion of 25% is common, so incorporate white space in flowcharts, blocks of text, and UI strings.
 
 ***********
 Punctuation
@@ -223,12 +223,3 @@ Preferred Usage
    * - Word choice
      - See the Glossary section for our preferred terminology. Avoid jargon, colloquialisms, and humor. 
        Do not use non-technical words that are not commonly used, such as “and so forth,” albeit, heretofore, thus, or whilst. Be careful of commonly used phrases that introduce ambiguity. For example, instead of “When the process completes…” use “After the process completes…”
-
-
-*********************
-References to Explore
-*********************
-
-*The Global English Style Guide* JR Kohl
-
-*Microsoft Manual of Style 4th ed.* 
