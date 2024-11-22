@@ -38,7 +38,7 @@ The framework allows developers to implement custom business logic and integrati
 Standardization
 ===============
 
-Both filters and events implement approaches for adding additional features, such as communication between services or backend flow control. With these standards in place, it's easy to identify when and how to use the framework as a solution, ensuring a consistent and predictable approach to extending the platform.
+Filters and events provide developers with a standard for adding new features to the platform through extension mechanisms. Events primarily handle communication or synchronization between different parts of the application, while filters modify application behavior. If a problem can be addressed through one of these two options, the implementation becomes pretty straightforward.
 
 Community Compatibility
 =======================
