@@ -160,4 +160,4 @@ We encourage you to review the list of use cases for events and filters to draw 
 .. _openedx-filters: https://github.com/openedx/openedx-filters
 .. _openedx-events: https://github.com/openedx/openedx-events
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
-.. _Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
+.. _Product Proposal: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
