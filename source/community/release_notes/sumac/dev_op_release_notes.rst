@@ -42,6 +42,8 @@ Administrators & Operators
 
 Settings and Toggles
 ====================
+- `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L613>`_
+- `contentstore.new_studio_mfe.disable_new_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L641C1-L641C2>`_
 
 
 Other Operator Changes
