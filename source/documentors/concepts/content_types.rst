@@ -8,23 +8,23 @@ Open edX Diataxis Guide
 Diataxis Definition
 *******************
 
-The Diataxis framework is an approach to quality in technical documentation and creates a systematic organization. Diataxis identifies four modes of documentation:
+The `Diataxis framework <https://diataxis.fr/>`_ is an approach to quality in technical documentation and creates a systematic organization. Diataxis identifies four modes of documentation:
 
 * `Quickstart`_
 * `How-to`_
 * `Reference`_
 * `Concept`_
 
-Using diataxis, documentation can be organized to meet diverse user needs, making it easier to find relevant information based on the user’s situation or goal. This structure enhances usability and comprehension, allowing users to navigate documentation more effectively.
+Using Diataxis, documentation can be organized to meet diverse user needs, making it easier to find relevant information based on the user’s situation or goal. This structure enhances usability and comprehension, allowing users to navigate documentation more effectively.
 
-For each type of document, you will find the explanation, the technical guidelines, and a matrix of criteria that will allow you to identify whether or not a document complies with the parameters of the diataxis used in the Open edx repositories. 
+For each type of document, you will find the explanation, the technical guidelines, and a matrix of criteria that will allow you to identify whether or not a document complies with the parameters of the Diataxis used in the Open edX repositories. 
 
 .. _Quickstart:
 
 Quickstart
 **********
 
-A Quickstart is a lesson that guides the reader through **practical steps** to complete a stated goal. It is **learning-oriented**. In other words, it is a lesson and a learning experience. For example, creating a virtual course can be a Quickstart because it’s a practical skill. A Quickstart may comprise the contents of multiple How-To guides
+A Quickstart is a lesson that guides the reader through **practical steps** to complete a stated goal. It is **learning-oriented**. In other words, it is a lesson and a learning experience. For example, creating a virtual course can be a Quickstart because it’s a practical skill. A Quickstart may comprise the contents of multiple How-To guides.
 
 Although Quickstart topics may seem similar to How-Tos, they focus differently. Quickstarts are specifically built for beginners and are meant to help them gain experience with the product.
 
@@ -49,7 +49,7 @@ How to Write a Good Quickstart:
 
 #. **Accomplishment description:**
 
-	E.g., *“You have successfully imported a course to your platform.”*
+	E.g., *“You have successfully created your first course.”*
 
 Technical Guidelines:
 =====================
@@ -125,21 +125,21 @@ A How-to Guide Must Have:
 
 #. **Problem description:** Describe clearly the problem or task and show the user how to solve it.
 
-  E.g., *“This guide shows you how to…”*
+	E.g., *“This guide shows you how to…”*
 
 #. **Step-by-step process:** Indicates the order of the steps to make the process compelling.
 
-  E.g., *“Step 1; Step 2” or “ 1. , 2.”*
+	E.g., *“Step 1; Step 2” or “ 1. , 2.”*
 
 #. **Visual supports:** Accompany the steps with images, videos, or graphics to guide the person following the process.
 
 #. **Reference links:** 
 
-  E.g., *“To learn more about x, visit our documentation”*
+	E.g., *“To learn more about x, visit our documentation”*
 
 Technical Guidelines:
 =====================
-By following these recommendations, you will be able to write a good quality how-to guides:}
+By following these recommendations, you will be able to write good quality how-to guides:
 
 - Describe a sequence of actions. A how-to guide contains a sequence of actions that have an order.
 - Solve a particular task. The problem or task is the concern of a how-to guide: stick to that practical goal.
@@ -223,7 +223,7 @@ By following these recommendations, you will be able to write a good quality ref
 - Do nothing but describe. References have one job: **to explain** and do that **accurately and comprehensively**.
 - **Be accurate.** These descriptions must be accurate and kept up-to-date.
 - **Provide examples.** It is a valuable way of providing illustrations that help readers understand the references without becoming distracted from the job of describing them.
-- **The documentation structure should mirror the product's structure** so the user can work their way through it simultaneously. It doesn’t mean forcing the documentation into an unnatural structure. What’s important is that the logical, conceptual arrangement of and relations within the code should help make sense of the documentation.
+- **The documentation structure should mirror the product's structure** so the user can work their way through it simultaneously. It doesn’t mean forcing the documentation into an unnatural structure. What’s important is that the documentation should help make sense of the product.
 - **Be consistent** in structure, language, terminology, and tone.
 
 Criteria of a Reference Document:
@@ -274,18 +274,18 @@ Criteria of a Reference Document:
 Concept
 *******
 
-Concept documentation **clarifies and illuminates** a particular topic. It is **understanding-oriented**, and it could be considered a **conceptual guide**. Concept topics provide best practices or other guidelines for using the Open edX platform. 
+Concept documentation **clarifies and illuminates** a particular topic. It is **understanding-oriented**and could be considered a **conceptual guide**. Concept topics provide best practices or other Open edX platform guidelines. 
 
 A Good Concept Must Have:
 =========================
 
 #. A **clear title** about the topic.
 
-  E.g., *“About XBlocks and Their Uses in Course Creation” or “What are Learning Taxonomies?”*
+	E.g., *“About XBlocks and Their Uses in Course Creation” or “What are Learning Taxonomies?”*
 
 #. An explanation that **answers a why question**. It could be descriptive, historical, or even propose different alternatives to explain the bigger picture and give context.
 
-  E.g., *“What is an XBlock? The Open edX platform provides different components, called XBlocks, that can work to create a course, like text, video, assessment, and discussions.”*
+	E.g., *“What is an XBlock? The Open edX platform provides different components, called XBlocks, that can work to create a course, like text, video, assessment, and discussions.”*
 
 Technical Guidelines:
 =====================
@@ -293,7 +293,7 @@ By following these recommendations, you will be able to write a good quality con
 
 - **Make connections to other things**, even to things outside the immediate topic, if that helps to clarify the subject you are explaining.
 - Provide **background and context** in your explanation: explain why things are so.
-- **Concept guides are about a topic.** You should be able to place an implicit (or even explicit) about before each title—for example, “(About) Instructional Design.” Also, concept document names should use nouns or noun phrases that indicate theoretical or conceptual topics.
+- **Concept guides are about a topic.** You should be able to place an implicit (or even explicit) *"About"* before each title—for example, “(About) Instructional Design.” Also, concept document names should use nouns or noun phrases that indicate theoretical or conceptual topics.
 
 Criteria of a Concept Document:
 ===============================
@@ -338,5 +338,5 @@ Criteria of a Concept Document:
        - The document's topic needs to be clarified.
 
 
-.. Note:: To learn more about the diataxis framework, visit `diataxis fr <https://diataxis.fr/>`_. The community adapted the framework for the Open edX repositories according to the platform's needs.
+.. Note:: To learn more about the Diataxis framework, visit `the Diataxis homepage <https://diataxis.fr/>`_. The Open edX community adapted the framework according to the platform's needs.
 
