@@ -7,7 +7,7 @@ A How-To guide document guides the reader through the steps to solve a real-worl
 
 For example, following the steps in this How-To guide, you can create a how-to document for any repository for the Open edX platform. (Description)
 
-1. Copy this document in a new file to edit it as needed. At the bottom, you will find a template in RST to make this process easier.
+1. Copy this document into a new file to edit it as needed. At the bottom, you will find a template in RST to make this process easier.
 
 2. Edit the title according to the topic you are working on. Adding the how-to is unnecessary, but the matter should be clear from this point on.
 
@@ -18,24 +18,21 @@ For example, following the steps in this How-To guide, you can create a how-to d
 5. Add the images and audiovisual resources you think could be necessary to clarify the process.
 To do it, follow these parameters: 
 
-	- Callouts are ``red (#d23228)`` round-edged rectangles. 3pt edges
-	- Save images as .png  or .jpg files for upload.
+- Callouts are ``red (#d23228)`` round-edged rectangles. 3pt edges
+- Save images as .png  or .jpg files for upload.
 
-	For example:
+For example:
 
-	.. image:: ../../_image/documentors_howto/image_example.png
-	   :width: 500px
-	   :align: center
-	   :alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
-
-
+.. image:: ../_image/documentors_howto/image_example.png
+	:width: 500px
+	:align: center
+	:alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
 
 6. If the solution requires code, add the reference the person should use. For example, the following case is an HTML code.
 
-	.. code-block:: HTML
-	  :linenos:
-	
-	  <h1>HTMLcode block example</h1>
+.. code-block:: HTML
+	:linenos:
+	<h1>HTMLcode block example</h1>
 
 .. seealso:: To learn more about how to add a code, visit the `Code blocks documentation <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#code-blocks>`_.
 
