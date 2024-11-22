@@ -21,8 +21,7 @@ Accessibility Checker Use Case
 When using the Accessibility Checker, begin by looking for the
 accessibility icon . As you enter content into the Rich Content
 Editor, the Accessibility Checker will automatically start looking
-for any potential accessibility issues. Click on the icon to learn
-more.
+for any potential accessibility issues. Click on the icon to learn more.
 
 After clicking it, the Accessibility Checker will open in the
 sidebar menu with details on each issue found. Navigate between
