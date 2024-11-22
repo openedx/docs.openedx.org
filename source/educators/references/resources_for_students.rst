@@ -1,5 +1,5 @@
 ******************************
-Resources for edx.org Learners
+Resources for Open edX.org Learners
 ******************************
 
 .. tags:: educator, reference
@@ -8,7 +8,7 @@ Resources for edx.org Learners
 In a Course
 ===========
 
-If you have a question about something you encounter in an edX course, try
+If you have a question about something you encounter in an Open edX course, try
 these options for getting an answer.
 
 .. note::
