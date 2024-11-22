@@ -15,13 +15,7 @@ For example, following the steps in this How-To guide, you can create a how-to d
 
 4. Start creating the step-by-step the reader should follow to solve the problem. Please don't ignore any step, even if it is evident. 
 
-5. Add the images and audiovisual resources you think could be necessary to clarify the process.
-To do it, follow these parameters: 
-
-- Callouts are ``red (#d23228)`` round-edged rectangles. 3pt edges
-- Save images as .png  or .jpg files for upload.
-
-For example:
+5. Add the images and audiovisual resources you think could be necessary to clarify the process. Remember that  the callouts should be in Open edX red ``(#d23228)`` and round-edged rectangles. Also, save images as .png  or .jpg files for upload. For example:
 
 .. image:: ../_image/documentors_howto/image_example.png
 	:width: 500px
@@ -30,9 +24,10 @@ For example:
 
 6. If the solution requires code, add the reference the person should use. For example, the following case is an HTML code.
 
-.. code-block:: HTML
-	:linenos:
-	<h1>HTMLcode block example</h1>
+.. code:: HTML
+   :linenos:
+
+   <h1>HTMLcode block example</h1>
 
 .. seealso:: To learn more about how to add a code, visit the `Code blocks documentation <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#code-blocks>`_.
 
