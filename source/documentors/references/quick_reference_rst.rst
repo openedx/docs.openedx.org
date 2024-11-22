@@ -1,7 +1,7 @@
 Quick Reference: Writing RST
 ############################
 
-RST is very powerful and flexible.  Below we provide a quick guide for how you
+RST is very powerful and flexible.  Below, we provide a quick guide for how you
 can use it to write Open edX documentation.
 
 Headings
@@ -17,14 +17,14 @@ Headings
 .. note::
    :class: dropdown
 
-   RST allows you to use almost any symbol to underline headings, as long as you're consistent between heading level. However, the way shown above is how headings should be defined in all Open edX documentation.
+   RST allows you to use almost any symbol to underline headings as long as you're consistent between heading levels. However, the abovementioned way is how headings should be defined in all Open edX documentation.
 
-Develop Sections
-****************
+How To Use Sections Effectively
+*******************************
 
-You can nest sections in the topic as needed, to give it structure and break it up into discrete parts.
+You can nest sections in the topic as needed to structure it and break it into discrete parts.
 
-Copy the Topic and Section Structure as needed
+Copy the Topic and Section Structure below as needed.
 
 .. code-block:: RST
 
@@ -36,7 +36,8 @@ Copy the Topic and Section Structure as needed
    If this is a long topic with multiple sections, use the **contents** directive below:
 
    .. contents:: Contents
-   :local:
+      :depth: 1
+      :local:
 
    Section 1
    *********
@@ -248,7 +249,7 @@ You then add the *variable name* inline in the topic.
 Add a Sidebar
 *************
 
-You can add any content in a sidebar. Open edX uses sidebars for image thumbnails, videos, and other notes.
+You can add any content in a sidebar. Open edX documentation uses sidebars for image thumbnails, videos, and other notes.
 
 The sidebar must come directly after a heading.
 
@@ -263,11 +264,11 @@ Copy this codeblock to add a new sidebar topic.
 Add an Image to a Topic
 ***********************
 
-You can add an on its own separate line, inline, or in a sidebar.
+You can add an image on its separate line, inline, or in a sidebar.
 
-You can also add an image directly, or add a thumbnail of an larger image, which when clicked on will open the full image.
+You can also add an image directly or add a thumbnail of a larger image, which, when clicked on, will open the full image.
 
-You must save images in the ``source/_images`` directory before adding a reference to it in a topic.
+You must save images in the ``source/_images`` directory before adding a reference to it in a topic. 
 
 Add an Image on its Own Line
 ============================
@@ -301,8 +302,8 @@ You then add the *variable name* inline in the topic.
 
   A line of text with an |variable name| inserted.
 
-Add an Thumbnail in a Sidebar
-=============================
+Add a Thumbnail in a Sidebar
+============================
 
 You can add a thumbnail in a sidebar, a common practice for How-to topics.
 
@@ -316,23 +317,13 @@ Copy this codeblock to add a new sidebar with a thumbnail.
 
     .. thumbnail:: _images/image-file-name
 
-Use Inline Formatting
-*********************
-
-RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also make GUI elements appear as :guilabel:`objects`.
-
-Copy this codeblock for inline formatting as needed.
-
-.. include:: ../references/rst_samples/inline.txt
-
-
 Learn More
 **********
 
 .. seealso::
 
    :download:`A one-page reference document <RST_quick_reference.pdf>` (PDF)
-      This reference document summarizes the above rules in an easy to print reference guide
+      This reference document summarizes the above rules in an easy-to-print reference guide.
 
    `RST Primer`_
       The primer has a lot more detail about the concepts behind the markup.
