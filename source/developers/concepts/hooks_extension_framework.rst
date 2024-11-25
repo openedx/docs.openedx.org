@@ -130,7 +130,34 @@ In summary, filters can be used when implementing application flow control that 
 
 You can review the :doc:`Open edX Filters <openedx-filters:index>` documentation for more information on :doc:`openedx-filters:how-tos/using-filters` in your project. This documentation includes a list of :doc:`openedx-filters:reference/filters` and much more.
 
+Still Deciding Which to Use?
+----------------------------
+
+If you're still unsure whether to use an Open edX Event or Filter, ask yourself the following questions:
+
+**Does it change the default platform behavior?**
+
+- **Yes:** For example, the course enrollment process now depends on a third-party subscription service. This modifies the default enrollment process.
+- **No:** For example, when generating certificates, you may need to create credentials in an external service, but the default process remains unchanged.
+
+Filters are useful when you need an immediate response that directly modifies the caller process and impacts the rest of the flow. In contrast, events are more decoupled from the caller process. They do not return a response, leaving the caller process unchanged.
+
+**If the answer yes, should it be a filter? Does the application behavior benefit from being altered?**
+
+- If so, a filter may suit your needs.
+- If not, maybe because your use case should be the default offering of the platform, contribute changes if they benefit the community, but consider submitting a `Product Proposal`_ to begin discussing changes to the default offering.
+- If the latter is not the case, then implementing your feature in a plugin using filters is the way to go.
+- Next, review existing :doc:`openedx-filters:reference/real-life-use-cases` to find similar implementations.
+
+**If the answer is no, should it be an event?**
+
+- Consider if your use case involves communication, synchronization, or integration between services or components.
+- Next, review existing :doc:`openedx-events:reference/real-life-use-cases` to find similar implementations.
+
+We encourage you to review the list of use cases for events and filters to draw inspiration from real-life scenarios and see if your use case aligns with any of them. Also, maybe your feature can be implementing using the framework but there's not an available event or filter for it yet. In that case, consider proposing a new event or filter to the community!
+
 .. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
 .. _openedx-events: https://github.com/openedx/openedx-events
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
+.. _Product Proposal: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
