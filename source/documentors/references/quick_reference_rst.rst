@@ -1,7 +1,7 @@
 Quick Reference: Writing RST
 ############################
 
-RST is very powerful and flexible.  Below we provide a quick guide for how you
+RST is very powerful and flexible.  Below, we provide a quick guide for how you
 can use it to write Open edX documentation.
 
 Headings
@@ -17,7 +17,57 @@ Headings
 .. note::
    :class: dropdown
 
-   RST allows you to use almost any symbol to underline headings, as long as you're consistent between heading level. However, the way shown above is how headings should be defined in all Open edX documentation.
+   RST allows you to use almost any symbol to underline headings as long as you're consistent between heading levels. However, the abovementioned way is how headings should be defined in all Open edX documentation.
+
+How To Use Sections Effectively
+*******************************
+
+You can nest sections in the topic as needed to structure it and break it into discrete parts.
+
+Copy the Topic and Section Structure below as needed.
+
+.. code-block:: RST
+
+   Topic Title
+   ###########
+
+   Introduce the topic
+
+   If this is a long topic with multiple sections, use the **contents** directive below:
+
+   .. contents:: Contents
+      :depth: 1
+      :local:
+
+   Section 1
+   *********
+
+   Introduce Section One
+
+   Subsection 1
+   ++++++++++++
+
+   Content for Section 1/Subsection 1
+
+   Subsection 2
+   ++++++++++++
+
+   Content for Section 1/Subsection 2
+
+   Section 2
+   *********
+
+   Introduce Section Two
+
+   Subsection 1
+   ++++++++++++
+
+   Content for Section 2/Subsection 1
+
+   Subsection 2
+   ++++++++++++
+
+   Content for Section 2/Subsection 2
 
 
 Inline Markup
@@ -172,13 +222,108 @@ Use the following code:
 
 .. seealso:: To see alternative ways of defining tables, visit the `RST documentation about this topic <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#tables>`_.
 
+Add a Substitution
+******************
+
+In RST, a *substitution* serves as a variable which you can set a value for once, then use repeatedly. This is useful for words or phrases that are used often, as it enables you to edit the value once and change it everywhere.
+
+You also need to use substitutions for inline images, as explained below.
+
+Substitutions are all kept in the source/substitutions.txt file in the documentation project on GitHub.
+
+Copy the format for the substitution as needed.
+
+.. code-block:: RST
+
+  .. |variable name| replace:: value
+
+  .. |Platform name| replace:: Open edX
+
+You then add the *variable name* inline in the topic.
+
+.. code-block:: RST
+
+  A line of text with an |variable name| inserted.
+
+
+Add a Sidebar
+*************
+
+You can add any content in a sidebar. Open edX documentation uses sidebars for image thumbnails, videos, and other notes.
+
+The sidebar must come directly after a heading.
+
+Copy this codeblock to add a new sidebar topic.
+
+.. code-block:: RST
+
+  .. sidebar:: Sample Sidebar
+
+    Any content, typically an image, video, or note.
+
+Add an Image to a Topic
+***********************
+
+You can add an image on its separate line, inline, or in a sidebar.
+
+You can also add an image directly or add a thumbnail of a larger image, which, when clicked on, will open the full image.
+
+You must save images in the ``source/_images`` directory before adding a reference to it in a topic. 
+
+Add an Image on its Own Line
+============================
+
+Copy this codeblock to an image on its own line.
+
+.. code-block:: RST
+
+  Line of content, followed by a line with an image.
+
+  .. image:: /_images/image-file-name
+
+  Or, a line of content, followed by a clickable thumbnail of a large image.
+
+  .. thumbnail:: /_images/image-file-name
+
+Add an Image Inline
+===================
+
+To add an image inline, you must first create a substitution for the image in the substitutions.txt file.
+
+Copy the format for the substitution as needed.
+
+.. code-block:: RST
+
+  .. |variable name| image:: /_images/image-file-name
+
+You then add the *variable name* inline in the topic.
+
+.. code-block:: RST
+
+  A line of text with an |variable name| inserted.
+
+Add a Thumbnail in a Sidebar
+============================
+
+You can add a thumbnail in a sidebar, a common practice for How-to topics.
+
+The sidebar must come directly after a heading.
+
+Copy this codeblock to add a new sidebar with a thumbnail.
+
+.. code-block:: RST
+
+  .. sidebar:: Sample Sidebar with a thumbnail
+
+    .. thumbnail:: _images/image-file-name
+
 Learn More
 **********
 
 .. seealso::
 
    :download:`A one-page reference document <RST_quick_reference.pdf>` (PDF)
-      This reference document summarizes the above rules in an easy to print reference guide
+      This reference document summarizes the above rules in an easy-to-print reference guide.
 
    `RST Primer`_
       The primer has a lot more detail about the concepts behind the markup.
