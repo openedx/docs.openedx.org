@@ -1,5 +1,5 @@
 ###################################
-Resources for Open edX.org Learners
+Resources for Open edX Learners
 ###################################
 
 .. tags:: educator, reference
