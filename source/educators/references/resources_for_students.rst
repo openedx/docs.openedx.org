@@ -1,12 +1,12 @@
-***********************************
+###################################
 Resources for Open edX.org Learners
-***********************************
+###################################
 
 .. tags:: educator, reference
 
-===========
+***********
 In a Course
-===========
+***********
 
 If you have a question about something you encounter in an Open edX course, try
 these options for getting an answer.
