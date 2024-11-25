@@ -64,25 +64,25 @@ Review and Edit
 
 Accessibility
 =============
-* **Readable Layout**: Is the layout easy to navigate?
-* **Accessibility Features**: Are there considerations for individuals with disabilities (e.g., alt text for images)?
+- **Readable Layout**: Is the layout easy to navigate?
+- **Accessibility Features**: Are there considerations for individuals with disabilities (e.g., alt text for images)?
 
 Apart from answering those questions, our document needs to follow these principles:
 
-* **Make it clear**: Is the purpose of the document well-defined? The best documentation doesn't try to sound fancy, complicated, or self-important. While what you are doing may be difficult, there is no reason to make it seem that way through documentation. Instead, focus on clarity and ease of reading. To this end:
+- **Make it clear**: Is the purpose of the document well-defined? The best documentation doesn't try to sound fancy, complicated, or self-important. While what you are doing may be difficult, there is no reason to make it seem that way through documentation. Instead, focus on clarity and ease of reading. To this end:
     * Use simple language.
     * Keep sentences short.
     * Be direct.
 
-* **Make it scannable**: Good documentation should allow users to scan through for just the information that they need. To this end:
+- **Make it scannable**: Good documentation should allow users to scan through for just the information that they need. To this end:
     * Organize the information based on what is most important to your users. Thinking about things from the user's standpoint is a vital step to making the documentation accessible.
     * Use headings and subheadings strategically to separate the document into scannable sections.
     * Use stylistic elements strategically to help you organize your document and highlight the most critical information.
     * Use bolded text rather than capital letters to draw attention to key words and phrases.
 
-    Use directives such as :info:, :warning:, and :guilabel: to draw attention to important text and button labels. For more information about this, please check this Quick Reference Directives.
+    Use directives such as ``:info:``, ``:warning:``, and ``:guilabel:`` to draw attention to important text and button labels. For more information about this, please check this Quick Reference Directives.
 
-* **Make it connect**: Good documentation connects to other resources. This connection helps users gain a firmer grasp on the material, adds credibility to your writing, and eliminates the need to "reinvent the wheel." To this end:
+- **Make it connect**: Good documentation connects to other resources. This connection helps users gain a firmer grasp on the material, adds credibility to your writing, and eliminates the need to "reinvent the wheel." To this end:
     * Link to other Open edX documentation that is relevant to your topic and audience.
     * Link to other external sites only if they provide information not contained in the first two sources. Use caution when connecting to external sites, as the content of those sites may unexpectedly change without warning.
     * All links should be written as text links in context. Your final document should not include full URLs written out.
@@ -91,9 +91,11 @@ Audience
 ========
 
 Make sure your documentation is targeted to the right audience and organized under that audience’s section of the documentation. Each topic in the documentation is for one of the following audiences:
-* Educators
-* Site Operators
-* Developers
+
+
+- Educators
+- Site Operators
+- Developers
 
 Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see Documentation Audiences.
 
@@ -169,11 +171,13 @@ At this point you have probably noticed the document-level navigation panel to t
 * For topics that describe a procedure, use an imperative verb to start the title.
 
 Example:
+
 * "Adding Course Updates and Handouts"
 * "Adding a Course Update"
 * "Identify a Course Handout"
 
 **Additional Tips**
+
 * Headings should be first-letter capitalized.
 * Headings should not be bolded or italicized.
 * Headings should not use end punctuation.
@@ -187,10 +191,10 @@ To add an image to an Open edX document, use the following RST format, which has
 
 .. code-block::
 
-.. image:: _assets/example_image_2.png
-:width: 500px
-:align: center
-:alt: Alternative text. this is important for accessibility
+    .. image:: _assets/example_image_2.png
+        :width: 500px
+        :align: center
+        :alt: Alternative text. This is important for accessibility
 
 You can modify the width if the image size needs to be adjusted to be more apparent or visible to the reader.
 
@@ -291,16 +295,14 @@ Warning blocks are specialized block quotes that will appear in a special way on
 
 Example:
 
-.. warning:: 
-    Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the RST guide to know how to include them.
+.. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the RST guide to know how to include them.
 
 See also
 ========
 
 This directive is useful for referencing other documents related to the topic that may be of interest to the reader.
 
-.. seealso:: 
-    Here goes the reference to another document.
+.. seealso:: Here goes the reference to another document.
 
 Additionally, “See Also Tables” is an important way for users to find documents related to the topic they are exploring. Good docs will have thorough, accurate, and relevant links in the See Also section through this syntax.
 
@@ -321,11 +323,13 @@ You can learn more about adding your document to a table of contents by followin
 
 Also, you can do a :glob: `*` on an index page, meaning in some cases, documents in a page tree are automatically added to the ToC. In the following example, any file contained in the same folder will automatically be added to the table of contents. It is a quick way to set up a table of contents so that new documents are automatically picked up, but it reduces the control you have on the order of your documents in the TOC:
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
+.. code-block::
 
-   *
+    .. toctree::
+       :maxdepth: 1
+       :glob:
+
+       *
 
 Tables
 ======
@@ -392,11 +396,17 @@ Quotation marks are commonly used incorrectly by newer documentation writers. Fo
 • If you want to emphasize text, you should use italic text.
 • If you want to draw attention to a specific word, you should use bolded text.
 • If you want to ensure that code appears correctly, you should use code notation.
-• Use the :guilabel: directive to highlight the text of a button.
+• Use the `` :guilabel`` : directive to highlight the text of a button.
 
 • Quotation marks should always use the double quotes ("), unless you are quoting inside a quotation. Under those conditions, you can use the single quote (').
 
 Italic Text
 ===========
 
-Italic text can be used to add
+Italic text can be used to add emphasis to a word, phrase or sentence. As italic text is slightly more difficult to read, it should be used sparingly. Instead, we recommend using bolded text. 
+
+Bolded Text 
+===========
+
+Using bold type for emphasis serves to draw the reader's attention to specific words or phrases that are particularly important or impactful
+
