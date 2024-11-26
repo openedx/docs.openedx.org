@@ -381,7 +381,7 @@ Use of Abbreviations
 
 The first time you want to use an abbreviation, spell it out. For example:
 
-The Open edX `docs.openedx.org` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: RST Guide.
+The Open edX ``docs.openedx.org`` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: RST Guide.
 
 Punctuation
 ===========
