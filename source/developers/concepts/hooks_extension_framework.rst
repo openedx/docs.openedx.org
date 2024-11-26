@@ -92,10 +92,17 @@ Here are some key differences between Open edX Events and Filters:
 | **Implementation** |  Implemented using `Django signals`_, which allow                      |  Implemented using an accumulative pipeline mechanism which |
 |                    |  developers to send and receive notifications that an action happened  |  takes a set of arguments and returns a modified set        |
 |                    |  within a Django application.                                          |  to the caller or raises exceptions during                  |
-|                    |                                                                        |  processing.                                                |
+|                    |  Events use `attrs`_ classes with simple data types.                   |  processing. The input arguments are in-memory platform     |
+|                    |                                                                        |  objects that can be modified.                              |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
 | **Use cases**      |  Send an email notification when a user enrolls in a course.           |  Prevent the enrollment of non-authorized users.            |
 +--------------------+------------------------------------------------------------------------+-------------------------------------------------------------+
+
+In this diagram you can see the main differences in functionality between Open edX Events and Filters:
+
+.. image:: /_images/hooks_events_and_filters_side_by_side.png
+   :alt: Open edX Events and Filters Side by Side
+   :align: center
 
 How to Know When to Use an Event or a Filter?
 =============================================
@@ -161,3 +168,4 @@ We encourage you to review the list of use cases for events and filters to draw 
 .. _openedx-events: https://github.com/openedx/openedx-events
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
 .. _Product Proposal: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
+.. _attrs: https://www.attrs.org/en/stable/
