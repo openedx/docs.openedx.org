@@ -318,7 +318,7 @@ Table of contents
 
 The table of contents is the navigation section to the left of your document. Clicking entries on the table of contents will open that document. The table of contents is consistent across all documents on docs.openedx.org. Every document must belong to at least one table of contents. In other words, you cannot create “orphan” documents that are not reachable to users via standard navigation.
 
-As an example, if a new file `build_a_course.rst` is created, then it would need to be appended to an existing table of contents, as shown in the example below. 
+As an example, if a new file ``build_a_course.rst`` is created, then it would need to be appended to an existing table of contents, as shown in the example below. 
 
 You can learn more about adding your document to a table of contents by following this guide.
 
