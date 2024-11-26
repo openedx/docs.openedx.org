@@ -164,7 +164,7 @@ If you want to make sure that text is shown in monospaced fonts for code example
 Sections
 ========
 
-At this point you have probably noticed the document-level navigation panel to the right of each document in Open edX. It displays all of the sections in the document, and allows users easy access to those contents. Because headings have a navigational component, it is especially important to use headings strategically and word them in a clear and accessible manner.
+At this point you have probably noticed the document-level navigation panel to the right of each document on the Open edX documentation sites. It displays all of the sections in the document, and allows users easy access to those contents. Because headings have a navigational component, it is especially important to use headings strategically and word them in a clear and accessible manner.
 
 * Use title case for all headings.
 * For a top level section heading and for topics that introduce concepts, use a verb in gerund form to start the title.
