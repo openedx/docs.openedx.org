@@ -258,7 +258,7 @@ Types of Call-Out Boxes
 Notes
 -----
 
-Notes should be used to highlight the most valuable information in a section. Notes are considered to be more important than information that is bold. Notes are highly visible, and as such should be used sparingly.
+Notes (using the `.. note::` directive) should be used to highlight the most valuable information in a section. Notes are considered to be more important than information that is bold. Notes are highly visible, and as such should be used sparingly.
 
 Example:
 
