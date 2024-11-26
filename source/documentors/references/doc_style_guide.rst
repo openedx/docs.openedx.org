@@ -404,7 +404,7 @@ Quotation marks are commonly used incorrectly by newer documentation writers. Fo
 Italic Text
 ===========
 
-Italic text can be used to add emphasis to a word, phrase or sentence. As italic text is slightly more difficult to read, it should be used sparingly. Instead, we recommend using bolded text. 
+*Italic* text can be used to add emphasis to a word, phrase or sentence. As italic text is slightly more difficult to read, it should be used sparingly. Instead, we recommend using bolded text. 
 
 Bolded Text 
 ===========
