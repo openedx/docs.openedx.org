@@ -298,7 +298,7 @@ Example:
 .. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the RST guide to know how to include them.
 
 See also
-========
+--------
 
 This directive is useful for referencing other documents related to the topic that may be of interest to the reader.
 
