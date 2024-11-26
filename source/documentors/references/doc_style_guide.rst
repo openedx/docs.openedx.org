@@ -32,35 +32,35 @@ Apart from having the documents under such framework, when writing a new documen
 
 Content
 =======
-* **Clear Purpose**: Is the purpose of the document well-defined?
-* **Relevant Information**: Does it include all necessary information, and nothing extra that should go into a different guide?
-* **Accuracy**: Are the facts and data correct?
-* **Thoroughness**: Does it cover the topic comprehensively?
+- **Clear Purpose**: Is the purpose of the document well-defined?
+- **Relevant Information**: Does it include all necessary information, and nothing extra that should go into a different guide?
+- **Accuracy**: Are the facts and data correct?
+- **Thoroughness**: Does it cover the topic comprehensively?
 
 Structure
 =========
-* **Logical Organization**: Is the information presented in a logical order?
-* **Headings and Subheadings**: Are they used effectively to guide the reader?
-* **Sections and Paragraphs**: Are sections well-defined and paragraphs concise?
+- **Logical Organization**: Is the information presented in a logical order?
+- **Headings and Subheadings**: Are they used effectively to guide the reader?
+- **Sections and Paragraphs**: Are sections well-defined and paragraphs concise?
 
 Clarity and Style
 =================
-* **Clear Language**: Is the language straightforward and easy to understand?
-* **Consistent Tone**: Is the tone appropriate for the audience and consistent throughout?
-* **Avoid Jargon**: Is jargon minimized or explained for clarity?
-* **Voice**: Is the voice active? Are you using third person?
+- **Clear Language**: Is the language straightforward and easy to understand?
+- **Consistent Tone**: Is the tone appropriate for the audience and consistent throughout?
+- **Avoid Jargon**: Is jargon minimized or explained for clarity?
+- **Voice**: Is the voice active? Are you using third person?
 
 Visual Elements
 ===============
-* **Formatting**: Is the document visually appealing with appropriate fonts and sizes?
-* **Lists and Bullet Points**: Are they used to enhance readability?
-* **Images and Graphs**: Are visuals used effectively to support the text?
+- **Formatting**: Is the document visually appealing with appropriate fonts and sizes?
+- **Lists and Bullet Points**: Are they used to enhance readability?
+- **Images and Graphs**: Are visuals used effectively to support the text?
 
 Review and Edit
 ===============
-* **Proofreading**: Is the document free of spelling and grammatical errors?
-* **Feedback**: Has it been reviewed by someone else for clarity and effectiveness?
-* **Revisions**: Have necessary changes been made based on feedback?
+- **Proofreading**: Is the document free of spelling and grammatical errors?
+- **Feedback**: Has it been reviewed by someone else for clarity and effectiveness?
+- **Revisions**: Have necessary changes been made based on feedback?
 
 Accessibility
 =============
