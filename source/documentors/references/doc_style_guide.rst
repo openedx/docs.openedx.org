@@ -368,7 +368,7 @@ Tags appear as links (e.g. #Administrator) at the top of the article. If you cli
 - One or more persona tags: The document is tagged with the intended reader persona type. If the document is relevant to more than one audience, then you may use more than one tag. Educator, developer, site operator, community, documentor, translator.
 - One (and only one) diataxis tag: The document is tagged with the diataxis type it belongs to. Concept, reference, quick-start, how-to.
 
-The syntax of tags is as follows:
+The syntax of tags is a directive, `.. tags::`, followed by the tag names, such as `educators, reference`. It renders as follows:
 
 .. tags:: educator, reference
 
