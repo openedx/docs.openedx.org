@@ -310,6 +310,7 @@ Additionally, “See Also Tables” is an important way for users to find docume
     :class: dropdown
 
     :ref:`Offering Differentiated Content` (concept)
+    
     :ref:`Configure Your Course for Content Experiments` (how-to)
 
 Table of contents
