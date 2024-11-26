@@ -319,8 +319,6 @@ The table of contents is the navigation section to the left of your document. Cl
 
 As an example, if a new file ``build_a_course.rst`` is created, then it would need to be appended to an existing table of contents, as shown in the example below. 
 
-You can learn more about adding your document to a table of contents by following this guide.
-
 Also, you can do a :glob: `*` on an index page, meaning in some cases, documents in a page tree are automatically added to the ToC. In the following example, any file contained in the same folder will automatically be added to the table of contents. It is a quick way to set up a table of contents so that new documents are automatically picked up, but it reduces the control you have on the order of your documents in the TOC:
 
 .. code-block::
@@ -352,6 +350,7 @@ Tables should be used to compile complicated data and indicate its relationships
      - Row 2, column 2
      - Row 2, column 3
 
+When to use a table:
 • When the information is significantly complicated.
 • When the information repeats at least one element more than twice.
 • When the information does not benefit from being compressed.
