@@ -409,5 +409,5 @@ Italic text can be used to add emphasis to a word, phrase or sentence. As italic
 Bolded Text 
 ===========
 
-Using bold type for emphasis serves to draw the reader's attention to specific words or phrases that are particularly important or impactful
+Using **bold type** for emphasis serves to draw the reader's attention to specific words or phrases that are particularly important or impactful.
 
