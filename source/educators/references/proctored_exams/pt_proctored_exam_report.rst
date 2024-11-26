@@ -1,8 +1,8 @@
 .. _PT Proctored Session Results File:
 
-********************************************
+###########################################
 Interpret the Proctored Exam Results Report
-********************************************
+###########################################
 
 .. tags:: educator, reference
 
@@ -69,9 +69,9 @@ The Proctored Exam Results report contains the following fields.
 
 .. _Proctoring Results Status Column:
 
-===============================
+*******************************
 Values in the ``status`` Column
-===============================
+*******************************
 
 The following table describes the possible values in the ``status`` column.
 
@@ -138,9 +138,9 @@ The following table describes the possible values in the ``status`` column.
 
 .. _Proctoring Results Review Status Column PT:
 
-======================================
+**************************************
 Values in the ``review_status`` Column
-======================================
+**************************************
 
 After learners complete a proctored exam, a reviewer from the proctoring
 service provider reviews the exam according to specific criteria, including the
