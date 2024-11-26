@@ -172,9 +172,9 @@ At this point you have probably noticed the document-level navigation panel to t
 
 Example:
 
-* "Adding Course Updates and Handouts"
-* "Adding a Course Update"
-* "Identify a Course Handout"
+* "Adding Course Updates and Handouts".
+* "Adding a Course Update".
+* "Identify a Course Handout".
 
 **Additional Tips**
 
@@ -187,14 +187,7 @@ Images
 
 Images should be used to explain complex processes. They are a quick solution to explain the location of an object on a page or to demonstrate the flow of information. However, be judicious and avoid using numerous large screenshots when a sentence can provide the user with sufficient guidance.
 
-To add an image to an Open edX document, use the following RST format, which has all the necessary parameters included:
-
-.. code-block::
-
-    .. image:: _assets/example_image_2.png
-        :width: 500px
-        :align: center
-        :alt: Alternative text. This is important for accessibility
+To add an image to an Open edX document, you can check the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 You can modify the width if the image size needs to be adjusted to be more apparent or visible to the reader.
 
@@ -356,6 +349,7 @@ When to use a table:
 • When the information does not benefit from being compressed.
 
 When not to use a table:
+
 • If that information could be better written in a sentence.
 • The information is important but not sufficiently complicated.
 
@@ -368,12 +362,13 @@ Tags appear as links (e.g. #Administrator) at the top of the article. If you cli
 - One or more persona tags: The document is tagged with the intended reader persona type. If the document is relevant to more than one audience, then you may use more than one tag. Educator, developer, site operator, community, documentor, translator.
 - One (and only one) diataxis tag: The document is tagged with the diataxis type it belongs to. Concept, reference, quick-start, how-to.
 
-The syntax of tags is a directive, `.. tags::`, followed by the tag names, such as `educators, reference`. It renders as follows:
+The syntax of tags is a directive. It should be followed by the tag names, such as ``.. educators, reference:``. It renders as follows:
 
-.. tags:: educator, reference
+.. code-block:: RST
 
-   .. note::
-     Tags should be placed after the first heading in the document.
+    tags:: educator, reference
+
+.. note:: Tags should be placed after the first heading in the document.
 
 Use of Abbreviations
 ====================
