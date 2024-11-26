@@ -107,15 +107,15 @@ Open edX documentation is written in American English.
 Documentation Language
 ======================
 
-The Open edX docs.openedx.org repository is using a documentation markup language called reStructured Text language (RST) which is very similar to Markdown. You can check this guide which is helpful to learn how to implement such language: RST Guide.
+The Open edX docs.openedx.org repository is using a documentation markup language called reStructured Text language (RST) which is very similar to Markdown. You can check this guide which is helpful to learn how to implement such language: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Migrating Docs Checklist
 ************************
 
 Some checklist items are specific to migrating 2U/Edx.org legacy docs into Open edX® Docs. During migration, documentors are using this Open edX Doc Migration Tracking sheet.
 
-* **Remove or modify references that are specific to 2U/EdX.org**: When migrating legacy documentation from 2U/EdX.org, remove references that are applicable only to the 2U or EdX.org users.
-* **Modify references that may have come from 2U/EdX.org but are also applicable to Open edX® LMS users**.
+- **Remove or modify references that are specific to 2U/EdX.org**: When migrating legacy documentation from 2U/EdX.org, remove references that are applicable only to the 2U or EdX.org users.
+- **Modify references that may have come from 2U/EdX.org but are also applicable to Open edX® LMS users**.
 
 Clear any .. only:: formatting
 ==============================
@@ -130,7 +130,7 @@ This type of formatting is left over from legacy documentation and won’t rende
 
     To clear it, remove the `.. only::` line and unindent the text. For 2U/Edx.org specific text, see point above.
 
-* **Verify All Links**: Some legacy documents are many years old. Links may no longer be working or accurate, even if they are not throwing an error in the Sphinx Docs build process. All links (internal and external) should be verified manually.
+- **Verify All Links**: Some legacy documents are many years old. Links may no longer be working or accurate, even if they are not throwing an error in the Sphinx Docs build process. All links (internal and external) should be verified manually.
 
 Elements
 ********
@@ -243,14 +243,13 @@ Bulleted, or Unordered lists display information in a compact and highly visible
 - No
 - Punctuation
 
-For information on entering unordered lists in RST, see the list-table section on the RST guide.
+For information on entering unordered lists in RST, see the list-table section on the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Links
 =====
 
-To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the RST guide.
+To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
-For adding links to other locations in the same document, to locations in other documents and to external websites, please check this document.
 
 Types of Call-Out Boxes
 =======================
@@ -263,7 +262,7 @@ Notes (using the `.. note::` directive) should be used to highlight the most val
 Example:
 
 .. note:: 
-    Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the guide.
+    Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Tip
 ---
@@ -273,7 +272,7 @@ Tips are another specialized block quote that will appear in a special way on th
 Example:
 
 .. tip:: 
-    Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the RST guide.
+    Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Important
 ---------
@@ -295,7 +294,7 @@ Warning blocks are specialized block quotes that will appear in a special way on
 
 Example:
 
-.. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the RST guide to know how to include them.
+.. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the RST guide (https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html) to know how to include them.
 
 See also
 --------
@@ -361,7 +360,7 @@ When not to use a table:
 • If that information could be better written in a sentence.
 • The information is important but not sufficiently complicated.
 
-For information on entering tables in RST, see the RST guide.
+For information on entering tables in RST, see the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Tags
 ====
@@ -374,14 +373,15 @@ The syntax of tags is as follows:
 
 .. tags:: educator, reference
 
-NOTE: Tags should be placed after the first heading in the document.
+   .. note::
+     Tags should be placed after the first heading in the document.
 
 Use of Abbreviations
 ====================
 
 The first time you want to use an abbreviation, spell it out. For example:
 
-The Open edX ``docs.openedx.org`` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: RST Guide.
+The Open edX ``docs.openedx.org`` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: RST Guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Punctuation
 ===========
