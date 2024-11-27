@@ -8,7 +8,7 @@ Resources for Open edX Learners
 In a Course
 ***********
 
-If you have a question about something you encounter in an edX course, try
+If you have a question about something you encounter in an Open edX course, try
 these options for getting an answer.
 
 .. note::
