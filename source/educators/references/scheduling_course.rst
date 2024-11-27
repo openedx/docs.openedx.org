@@ -13,17 +13,17 @@ see :ref:`Creating a Course About Page <Creating a Course About Page>`.
 
 .. _Guidelines for Start and End Dates:
 
-*******************************************
+**********************************
 Guidelines for Start and End Dates
-*******************************************
+**********************************
 
 The start and end dates you set for your course are important for prospective
 and current learners. Current learners see your course start or end date on
 their dashboards. You should consider your course dates carefully.
 
-============================
+**************************
 Course Start Date and Time
-============================
+**************************
 
 The course start date and time specify when learners can access published
 course content. By default, the course start date and time are set to
@@ -55,9 +55,9 @@ content before the course start date, see :ref:`Beta_Testing`.
   the start date as "Coming Soon". For more information, see
   :ref:`Advertise a Different Start Date <Advertise a Different Start Date>`.
 
-============================
+************************
 Course End Date and Time
-============================
+************************
 
 The course end date and time specify when learners can no longer earn credit
 toward certificates. Learners can continue to complete available coursework,
@@ -73,9 +73,9 @@ details, see :ref:`Hide a Subsection After its Due Date <Hide a Subsection After
   If you do not set a course end date, learners cannot access earned
   certificates.
 
-===============================
+******************************
 Enrollment Start Date and Time
-===============================
+******************************
 
 As soon as enrollment starts, prospective learners can see your course in the
 course catalog, view the course **About** page, and enroll in the course.
@@ -86,9 +86,9 @@ learners to both enroll in and prepare for the course.
 
 .. _Enrollment End Date and Time:
 
-===============================
+****************************
 Enrollment End Date and Time
-===============================
+****************************
 
 The enrollment end date and time specify when learners can no longer enroll
 in the course. Ensure that the enrollment end date is late enough to allow
@@ -98,9 +98,9 @@ than the course end date.
 
 .. _View Start and End Dates:
 
-========================================================
+************************************************
 The Learner's View of Course Start and End Dates
-========================================================
+************************************************
 
 When learners browse courses, the start date for each course is visible in the
 course catalog and in the course's About page.

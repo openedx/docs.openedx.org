@@ -1,8 +1,8 @@
 .. _Enrollment_Requirements:
 
-##########################
+#######################
 Enrollment Requirements
-##########################
+#######################
 
 .. tags:: educator, reference
 
@@ -19,21 +19,21 @@ information, see :ref:`Report Learners Not Yet Enrolled`.
 
 .. _registration_enrollment:
 
-*********************************
+***************************
 Registration and Enrollment
-*********************************
+***************************
 
 Before a learner can enroll in a course, he or she must complete these steps.
 
 #. Register a user account, which includes supplying a valid email address, on
-   ``www.edx.org``, ``edge.edx.org``, or your implementation of the edX
+   ``www.openedx.org``, or your implementation of the Open edX
    platform. Each platform requires a separate user account.
 
 #. Activate the registered account by following the emailed instructions.
 
 As long as the course enrollment end date has not passed, learners who
 have registered and activated user accounts can enroll themselves in
-``www.edx.org`` courses, or can enroll in other courses if they know the URL.
+``www.openedx.org`` courses, or can enroll in other courses if they know the URL.
 
 Course creators, Admins, and Staff, however, can enroll learners in a course
 either before or after the learners register their user accounts.
