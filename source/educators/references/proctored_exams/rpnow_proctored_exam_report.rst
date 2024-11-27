@@ -1,8 +1,8 @@
 .. _RPNow Proctored Session Results File:
 
-********************************************
+###########################################
 Interpret the Proctored Exam Results Report
-********************************************
+###########################################
 
 .. tags:: educator, reference
 
@@ -68,9 +68,9 @@ The Proctored Exam Results report contains the following fields.
 
 .. _RPNow Proctoring Results Status Column:
 
-===============================
+*******************************
 Values in the ``status`` Column
-===============================
+*******************************
 
 The following table describes the possible values in the ``status`` column.
 
