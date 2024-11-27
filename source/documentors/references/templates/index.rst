@@ -5,4 +5,6 @@ Open edX Documents Templates
    :maxdepth: 1
    :glob:
 
-   <templates/index>
+   doc_concept_template
+   doc_reference_template
+   doc_how_to_template
