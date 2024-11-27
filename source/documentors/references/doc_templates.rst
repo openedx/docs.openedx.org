@@ -5,6 +5,6 @@ Documentation Templates
     :maxdepth: 2
     :glob:
 
-    Templates <template/index>
+    Templates <templates/index>
    
     

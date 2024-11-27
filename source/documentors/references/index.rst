@@ -6,3 +6,4 @@ Documentors: References
    :glob:
 
    *
+   templates/index.rst
