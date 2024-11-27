@@ -6,3 +6,4 @@ Documentors: References
    :glob:
 
    *
+   Documentation Types Templates <templates/index>
