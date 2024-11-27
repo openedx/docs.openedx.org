@@ -60,7 +60,7 @@ Internal Links
 Link to :doc:`doc_how_to_template` in the same folder or :doc:`../quick_reference_rst` in a different
 folder.
 
-By default, it will use the title of the doc as the link text but you can override that with :doc:`other text </doc_how_to_template>` if you want.
+By default, it will use the title of the doc as the link text but you can override that with :doc:`other text <doc_how_to_template>` if you want.
 
 RST Template
 ************
