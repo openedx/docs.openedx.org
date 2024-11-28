@@ -69,7 +69,6 @@ If you want to include or embed only certain sections of a document, you can fol
 The reader will see something like this:
 
 .. include:: /doc_how_to_template.rst
-
  	:start-after: .. START HERE
  	:end-before: .. END HERE
 
@@ -169,7 +168,7 @@ RST Template
 	.. code-block:: RST
 
 		include:: templates/doc_how_to_template.rst
-2
+
 	How to Embed Only a Section
 	***************************
 
@@ -188,7 +187,7 @@ RST Template
 
 	The reader will see something like this:
 
-	.. include:: templates/doc_how_to_template.rst
+	.. include:: doc_how_to_template.rst
 	 	:start-after: .. START HERE
 	 	:end-before: .. END HERE
 
@@ -204,12 +203,12 @@ RST Template
 
 	.. code-block:: RST
 
-		.. image:: /_image/documentors_howto/image_example.png
+		.. image:: /_images/documentors_howto/image_example.png
 			:width: 500px
 			:align: center
 			:alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
 
-	.. image:: /_image/documentors_howto/image_example.png
+	.. image:: /_images/documentors_howto/image_example.png
 			:width: 500px
 			:align: center
 			:alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
