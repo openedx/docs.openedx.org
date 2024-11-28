@@ -1,8 +1,8 @@
 .. _OLX Completion: 
 
-****************************************
+########################################
 Add the Completion Tool to an OLX Course
-****************************************
+########################################
 
 .. tags:: educator, how-to
 
@@ -15,8 +15,7 @@ specify a ``url_name``, a value is automatically assigned, which can be
 problematic if the same course is imported several times. For example, if the
 ``url_name`` value is automatically generated each time you import your
 course, and if you import your course more than once, the learner state for
-the associated problems is lost each time a new ``url_name`` value is
-ssigned.
+the associated problems is lost each time a new ``url_name`` value is assigned.
 
  .. code-block:: xml
 
