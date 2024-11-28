@@ -167,7 +167,7 @@ RST Template
 
 	.. code-block:: RST
 
-		include:: doc_how_to_template.rst
+		include:: /doc_how_to_template.rst
 
 	How to Embed Only a Section
 	***************************
