@@ -14,13 +14,17 @@ Example Lists
 As mentioned, a reference document can contain lists detailing different elements, like a glossary or a list of resources to consult. Those lists could have different formats depending on their purpose. For example,
 
 **Ordered Lists**
+
 #. Reference A
+
 #. Reference B
+
 #. Reference C
 
 Or
 
 **Unordered Lists**
+
 - Reference A
 - Reference B
 - Reference C
@@ -82,7 +86,9 @@ RST Template
 	**Ordered Lists**
 
 	#. Reference A
+
 	#. Reference B
+	
 	#. Reference C
 
 	Or

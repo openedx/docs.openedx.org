@@ -8,3 +8,4 @@ Open edX Documents Templates
    doc_concept_template
    doc_reference_template
    doc_how_to_template
+   doc_quickstart_template
