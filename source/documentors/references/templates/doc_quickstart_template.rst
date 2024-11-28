@@ -13,7 +13,7 @@ A quickstart is a brief, streamlined guide that helps users get up and running w
 
 #. **Testing and Verification** – Ways to ensure everything is working correctly.
 
-# **Common Next Steps** – Information on where to go next, often with links to detailed documentation.
+#. **Common Next Steps** – Information on where to go next, often with links to detailed documentation.
 
 A good quickstart is designed for users who want to dive in with minimal setup. It benefits developers, allowing them to try out a tool or platform without wading through extensive documentation upfront. 
 
@@ -48,7 +48,7 @@ A Quickstart may be the union of different documents, such as how-tos, reference
 
 .. code-block:: RST
 
-	include:: /doc_how_to_template.rst
+	include:: ../templates/doc_how_to_template.rst
 
 How to Embed Only a Section
 ***************************
@@ -68,7 +68,7 @@ If you want to include or embed only certain sections of a document, you can fol
 
 The reader will see something like this:
 
-.. include:: /doc_how_to_template.rst
+.. include:: ../templates/doc_how_to_template.rst
  	:start-after: .. START HERE
  	:end-before: .. END HERE
 
@@ -132,7 +132,7 @@ RST Template
 
 	#. **Testing and Verification** – Ways to ensure everything is working correctly.
 
-	# **Common Next Steps** – Information on where to go next, often with links to detailed documentation.
+	#. **Common Next Steps** – Information on where to go next, often with links to detailed documentation.
 
 	A good quickstart is designed for users who want to dive in with minimal setup. It benefits developers, allowing them to try out a tool or platform without wading through extensive documentation upfront. 
 
@@ -167,7 +167,7 @@ RST Template
 
 	.. code-block:: RST
 
-		include:: /doc_how_to_template.rst
+		include:: ../templates/doc_how_to_template.rst
 
 	How to Embed Only a Section
 	***************************
@@ -187,7 +187,7 @@ RST Template
 
 	The reader will see something like this:
 
-	.. include:: /doc_how_to_template.rst
+	.. include:: ../templates/doc_how_to_template.rst
 	 	:start-after: .. START HERE
 	 	:end-before: .. END HERE
 
