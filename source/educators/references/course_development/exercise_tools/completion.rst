@@ -33,10 +33,8 @@ score on the **Progress** page. Practice scores are not included in the
 learner's final grade for the course.
 
 You can also use the completion tool in graded sections of the course. If you
-do so, a score for completing the activity is included in learners' final
-grades. For example, if you include a completion component in a particular unit
-of the course content, learners who use the component to mark the unit as
-complete receive 1/1 points, while learners who do not mark the unit as
+do so, a score for completing the activity is included in learners' final grades. For example, if you include a completion component in a particular unit
+of the course content, learners who use the component to mark the unit as complete receive 1/1 points, while learners who do not mark the unit as
 complete receive 0/1 points. These scores are included in learners' final
 grades on the **Progress** page.
 
@@ -45,9 +43,9 @@ grades on the **Progress** page.
    or participating in course discussions.
 
 
-======================
+**********************
 The Completion Control
-======================
+**********************
 
 When you add a completion component to a unit, learners see a control that is
 labeled **Mark as complete**. In this example, the completion component follows
