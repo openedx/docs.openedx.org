@@ -1,8 +1,8 @@
 Quickstrat Document Template
 ############################
 
-What Is a Quickstart? (Subtitle)
-********************************
+What Is a Quickstart
+********************
 A quickstart is a brief, streamlined guide that helps users get up and running with a tool, project, or system as quickly as possible. Quickstarts focus on the essential steps to start working with a particular technology, often covering:
 
 #. **Setup Requirements** – Prerequisites like software dependencies or configuration steps.
@@ -21,7 +21,7 @@ For this Quickstart template, we will go through the process of creating this do
 
 Because a Quickstart is usually composed of two or more How-tos and some concepts and references, it is essential to add a table of contents to guide the reader through the document. For example:
 
-1. `What Is a Quickstart?`_
+1. `What Is a Quickstart`_
 2. `Prerequisites Example`_
 3. `How To Embed One Document in Another`_
 4. `How To Embed Only a Section`_
@@ -68,7 +68,8 @@ If you want to include or embed only certain sections of a document, you can fol
 
 The reader will see something like this:
 
-.. include:: templates/doc_how_to_template.rst
+.. include:: /doc_how_to_template.rst
+
  	:start-after: .. START HERE
  	:end-before: .. END HERE
 
@@ -84,12 +85,12 @@ Add the images and audiovisual resources you think could be necessary to clarify
 
 .. code-block:: RST
 
-	.. image:: /_image/documentors_howto/image_example.png
+	.. image:: /_images/documentors_howto/image_example.png
 		:width: 500px
 		:align: center
 		:alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
 
-.. image:: /_image/documentors_howto/image_example.png
+.. image:: /_images/documentors_howto/image_example.png
 		:width: 500px
 		:align: center
 		:alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
@@ -168,7 +169,7 @@ RST Template
 	.. code-block:: RST
 
 		include:: templates/doc_how_to_template.rst
-
+2
 	How to Embed Only a Section
 	***************************
 

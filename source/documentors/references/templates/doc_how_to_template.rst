@@ -6,6 +6,7 @@ A How-To guide document guides the reader through the steps to solve a real-worl
 For example, following the steps in this How-To guide, you can create a how-to document for any repository for the Open edX platform. (Description)
 
 .. START HERE
+
 1. Copy this document into a new file to edit as needed. At the bottom, you will find a template in RST to make this process easier.
 
 2. Edit the title according to the topic you are working on. Adding the how-to is unnecessary, but the matter should be clear from this point on.
