@@ -1,8 +1,8 @@
 .. _configuring_prerequisite_content:
 
-********************************
+################################
 Prerequisite Course Subsections
-********************************
+################################
 
 .. tags:: educator, how-to
 
@@ -17,9 +17,9 @@ content until they have earned a minimum score in the prerequisite subsection.
 
 .. _enabling_subsection_gating:
 
-=================================
+********************************
 Enable Subsection Prerequisites
-=================================
+********************************
 
 To enable prerequisite subsections in a course, follow these steps.
 
@@ -31,9 +31,9 @@ To enable prerequisite subsections in a course, follow these steps.
 
 .. _creating_a_prerequisite_subsection:
 
-==================================
+********************************
 Create a Prerequisite Subsection
-==================================
+********************************
 
 To prevent learners from seeing a subsection of your course until they have
 earned a minimum score or completed a minimum portion in a prerequisite
