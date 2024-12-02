@@ -141,9 +141,9 @@ You can hide content at different levels, as described in the following topics.
 
 .. _Hiding Graded Content:
 
-=====================
+*********************
 Hiding Graded Content
-=====================
+*********************
 
 Grading is affected if you hide sections, subsections, or units that contain
 graded problems in such a way that they are not included in the course
@@ -183,8 +183,7 @@ For example, if you have cohorts enabled in your course, you can use content
 groups to give access to particular components or units in your course only to
 learners in specific cohorts. If your course has more than one enrollment
 track, you might provide the same practice assignments to all learners yet
-provide learners in the certificate track with different exams from non-
-certificate learners.
+provide learners in the certificate track with different exams from non-certificate learners.
 
 
 * :ref:`Modify access settings for a unit<Set Access Restrictions For a Unit>`
