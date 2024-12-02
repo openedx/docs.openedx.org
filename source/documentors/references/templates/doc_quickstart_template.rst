@@ -1,4 +1,4 @@
-Quickstrat Document Template
+Quickstart Document Template
 ############################
 
 What Is a Quickstart
@@ -15,7 +15,7 @@ A quickstart is a brief, streamlined guide that helps users get up and running w
 
 #. **Common Next Steps** – Information on where to go next, often with links to detailed documentation.
 
-A good quickstart is designed for users who want to dive in with minimal setup. It benefits developers, allowing them to try out a tool or platform without wading through extensive documentation upfront. 
+A good quickstart is designed for users who want to dive in with minimal setup. For example, allowing developers to try out a tool or platform without wading through extensive documentation upfront, or empowering course authors to quickly get up and running with a complex area of Studio.
 
 For this Quickstart template, we will go through the process of creating this document, including how to add or embed one document in another and the principal tools to guide a learner. 
 
@@ -75,7 +75,7 @@ The reader will see something like this:
 Useful Resources
 ****************
 
-Here is a list of the most used resources to create a Quickstart
+Here is a list of the most used resources to create a Quickstart:
 
 Images
 ======
@@ -100,7 +100,7 @@ Links:
 External Links
 --------------
 
-You can have `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking>`_ and `indirect links`_, that are useful if you want to link to the same thing multiple times, or if the URL is really long and you want things to read more cleanly.
+You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
 
 .. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking
 
@@ -219,7 +219,7 @@ RST Template
 	External Links
 	--------------
 
-	You can have `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking>`_ and `indirect links`_, that are useful if you want to link to the same thing multiple times, or if the URL is really long and you want things to read more cleanly.
+	You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
 
 	.. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking
 

@@ -32,7 +32,7 @@ For example, following the steps in this How-To guide, you can create a how-to d
 
 7. Add any reference that could be important for someone to understand the topic. For example, here is additional information about `how to style for Read the Docs <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/>`_.
 
-Now, you have a how-to document. ¡Congratulations! 
+Now, you have a how-to document. Congratulations! 
 
 .. END HERE
 
@@ -76,7 +76,7 @@ RST Template
 
 	7. Add any reference that could be important for someone to understand the topic. For example, here is additional information about `how to style for Read the Docs <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/>`_.
 
-	Now, you have a how-to document. ¡Congratulations! 
+	Now, you have a how-to document. Congratulations! 
 
 	.. note:: To upload your document to RTD, you can review the `Documentors Quickstarts <https://docs.openedx.org/en/latest/documentors/quickstarts/index.html#>`_.
 		

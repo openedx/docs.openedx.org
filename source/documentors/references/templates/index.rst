@@ -1,4 +1,4 @@
-Open edX Documents Templates
+Open edX Document Templates
 ############################
 
 .. toctree::
