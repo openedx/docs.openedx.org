@@ -1,23 +1,22 @@
 .. _Configure Resources:
 
-************************************
+####################################
 Configuring Applications & Resources
-************************************
+####################################
 
 .. tags:: educator, how-to
 
 As a best practice, you should avoid changing the visibility of your course pages after the course starts.
 For example, your course includes the Wiki page when it starts. A learner adds a page to the course wiki,
-and adds a browser bookmark to that page. If you later hide the Wiki page, the learner’s browser bookmark
-will continue to provide access to the entire course wiki.
+and adds a browser bookmark to that page. If you later hide the Wiki page, the learner’s browser bookmark will continue to provide access to the entire course wiki.
 
 Included below are detailed instructions for the configuration of applications and resources that have additional settings and options.
 
 .. _Discussion Configuration:
 
-=======================================
+***************************************
 Configuring the Discussions application
-=======================================
+***************************************
 
 There are several configuration options available to the Discussions application.
 Many basic configuration options are provided within Studio’s Pages & Resources area, and moderation capabilities
@@ -64,9 +63,9 @@ Course teams can specify one or multiple times during which the discussion forum
 
 .. _Wiki Configuration:
 
-================================
+********************************
 Configuring the Wiki application
-================================
+********************************
 
 For instructions on how to enable the wiki application see :ref:`11.3.2.3 Enabling the Wiki Application<Enable Wiki>`.
 
@@ -87,18 +86,20 @@ to your wiki via the edX-wide wiki structure, or a link that has been provided t
 
 .. _Teams Configuration:
 
-=================================
+********************************
 Configuring the Teams application
-=================================
+********************************
 
 Additional management and configuration of the teams application can be done through the main Team application tab
 in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`.
 
 .. _ORA Coursewide Settings:
 
-===========================================================
+**************************************************
+********
 Configuring Course-level Open Response Assessment Settings
-===========================================================
+**************************************************
+********
 
 To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable
 certain course-wide overrides. Rather than going through each ORA in a course individually, these overrides allow
