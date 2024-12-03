@@ -3,7 +3,7 @@ How-To Document Template
 
 A How-To guide document guides the reader through the steps to solve a real-world problem. This documentation is goal-oriented and similar to recipes, with directions that guide the reader through the steps to achieve a specific end.
 
-For example, following the steps in this How-To guide, you can create a how-to document for any repository for the Open edX platform. (Description)
+For example, following the steps in this How-To guide, you can create a how-to document for any repository for the Open edX platform.
 
 .. START HERE
 
@@ -38,6 +38,8 @@ Now, you have a how-to document. Congratulations!
 
 .. note:: To upload your document to RTD, you can review the `Documentors Quickstarts <https://docs.openedx.org/en/latest/documentors/quickstarts/index.html#>`_.
 
+..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+
 RST Template
 ************
 
@@ -48,7 +50,7 @@ RST Template
 
 	A How-To guide document guides the reader through the steps to solve a real-world problem. This documentation is goal-oriented and similar to recipes, with directions that guide the reader through the steps to achieve a specific end.
 
-	For example, following the steps in this How-To guide, you can create a how-to document for any repository for the Open edX platform. (Description)
+	For example, following the steps in this How-To guide, you can create a how-to document for any repository for the Open edX platform.
 
 	1. Copy this document into a new file to edit as needed. At the bottom, you will find a template in RST to make this process easier.
 
@@ -79,5 +81,7 @@ RST Template
 	Now, you have a how-to document. Congratulations! 
 
 	.. note:: To upload your document to RTD, you can review the `Documentors Quickstarts <https://docs.openedx.org/en/latest/documentors/quickstarts/index.html#>`_.
+
+	..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
 		
 

@@ -57,16 +57,19 @@ If you want to include or embed only certain sections of a document, you can fol
 
 1.  Open the document you want to embed. Add ``.. START HERE`` at the beginning and ``.. END HERE`` at the end of the section you want to embed.
 
-2. You will embed the other document in the document. Use the following code to the exact place where you want to add that particular section. Do not forget to edit the document link that you want to include in your Quickstart
+2. You will embed the other document in the document. Use the following code to the exact place where you want to add that particular section. Do not forget to edit the document link that you want to include in your Quickstart.
 
 .. code-block:: RST
 
 
 	.. include:: docs/section1.rst
-  	:start-after: .. START HERE
-   	:end-before: .. END HERE
+  		:start-after: .. START HERE
+   		:end-before: .. END HERE
 
 The reader will see something like this:
+
+How-To Document Template Section
+--------------------------------
 
 .. include:: ../templates/doc_how_to_template.rst
  	:start-after: .. START HERE
@@ -109,7 +112,7 @@ Directives:
 
 Usually, for this type of document, you can use different directives like ``warning``, ``note``,  and ``see also``, among others.
 
-..  see also:: Review the Style Guide to learn more about directives and other resources to create your documentation.
+..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
 
 
 RST Template
@@ -176,7 +179,7 @@ RST Template
 
 	1.  Open the document you want to embed. Add ``.. START HERE`` at the beginning and ``.. END HERE`` at the end of the section you want to embed.
 
-	2. You will embed the other document in the document. Use the following code to the exact place where you want to add that particular section. Do not forget to edit the document link that you want to include in your Quickstart
+	2. You will embed the other document in the document. Use the following code to the exact place where you want to add that particular section. Do not forget to edit the document link that you want to include in your Quickstart.
 
 	.. code-block:: RST
 
@@ -186,6 +189,9 @@ RST Template
 	   	:end-before: .. END HERE
 
 	The reader will see something like this:
+
+	How-To Document Template Section
+	--------------------------------
 
 	.. include:: ../templates/doc_how_to_template.rst
 	 	:start-after: .. START HERE
@@ -228,5 +234,5 @@ RST Template
 
 	Usually, for this type of document, you can use different directives like ``warning``, ``note``,  and ``see also``, among others.
 
-	..  see also:: Review the Style Guide to learn more about directives and other resources to create your documentation.
+	..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
 

@@ -66,6 +66,8 @@ folder.
 
 By default, it will use the title of the doc as the link text but you can override that with :doc:`other text <doc_how_to_template>` if you want.
 
+..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+
 RST Template
 ************
 
@@ -73,10 +75,9 @@ RST Template
 
 	Reference material is information-oriented. Regarding software, reference guides describe the software - APIs, classes, functions, etc. In the context of the Open edX® Docs, reference docs are often in the form of informational lists (e.g., Resources for Students) and tables (e.g., Course Access Roles and Privileges).
 
-	Reference material is like a map. A map tells you what you need to know about the territory without having to go out and check it for yourself; a reference guide serves the same purpose for the product and its internal machinery. For example, this part works as the introduction to the article and as a description of the product of what this document is about. (Replace this text with your content.)
-
+	Reference material is like a map. A map tells you what you need to know about the territory without having to go out and check it for yourself; a reference guide serves the same purpose for the product and its internal machinery. For example, this part works as the introduction to the article and as a description of the product of what this document is about. 
 	The purpose of this document is to be as straightforward as possible. In addition to an accurate and precise description of the product you’re referencing, use examples of the uses and functions of the product to make it more comprehensive.
-	For example, list details or a product glossary that the reader could need to use. (Replace this text with your content.)
+	For example, list details or a product glossary that the reader could need to use. 
 
 	Example Lists
 	=============
@@ -134,3 +135,5 @@ RST Template
 	Link to :doc:`doc_how_to_template` in the same folder or :doc:`../quick_reference_rst` in a different folder.
 
 	By default, it will use the title of the doc as the link text but you can override that with :doc:`other text </doc_how_to_template>` if you want.
+
+	..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
