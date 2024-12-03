@@ -1,8 +1,8 @@
 .. _Hide a Unit from Students:
 
-****************************
+#########################
 Hide a Unit from Learners
-****************************
+#########################
 
 .. tags:: educator, how-to
 
@@ -13,9 +13,9 @@ For more information, see :ref:`Content Hidden from Students`.
 
 You can hide a unit from learners using the course outline or the unit page.
 
-=======================================
+********************************
 Use the Unit Page to Hide a Unit
-=======================================
+********************************
 
 In the status panel, select **Hide from learners**.
 
@@ -24,9 +24,9 @@ appear for units in self-paced courses.
 
 For more information, see :ref:`Controlling Content Visibility`.
 
-=======================================
+******************************
 Use the Outline to Hide a Unit
-=======================================
+******************************
 
 #. Select the **Configure** icon in the unit box.
 
@@ -41,9 +41,9 @@ Use the Outline to Hide a Unit
 
 #. Select **Save**.
 
-=======================================
+**************************************
 Make a Hidden Unit Visible to Learners
-=======================================
+**************************************
 
 Before you make a hidden unit visible to learners, be aware that course content
 will immediately be visible to learners, as follows.
