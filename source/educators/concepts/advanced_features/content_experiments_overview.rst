@@ -39,7 +39,7 @@ You then select which group configuration to use when you add a content experime
 
   :ref:`Set Up Group Configuration for OLX Courses`
 
-  :ref:`Add a Content Experiment in Studio>`
+  :ref:`Add a Content Experiment in Studio`
 
   :ref:`Add a Content Experiment in OLX`
 
