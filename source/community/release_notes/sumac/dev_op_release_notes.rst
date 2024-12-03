@@ -61,7 +61,7 @@ Deprecations & Removals
 - In edx-platform:
    - ``commerce-coordinator`` related code has been removed
    - `PR: <https://github.com/openedx/edx-platform/pull/35527>`_
-
+- [UPCOMING] In Teak pre-design-tokens brand packages will no longer be supported. With design tokens, theme authors will instead override core Paragon tokens by defining their own JSON tokens that get deep merged alongside the core Paragon tokens, thus overriding any tokens that were defined by the theme author. See `the associated DEPR ticket for details <https://github.com/openedx/brand-openedx/issues/23>`_.
 Developer Experience
 ********************
 
