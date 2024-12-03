@@ -1,8 +1,8 @@
 .. _Embed Google Calendar:
 
-*******************************************
+##########################################
 Embedding a Google Calendar in Your Course
-*******************************************
+##########################################
 
 .. tags:: educator, how-to
 
@@ -14,9 +14,9 @@ To embed a Google Calendar in your course, follow these steps.
 
 .. _Enable the Google Calendars Tool:
 
-================================================
+********************************
 Enable the Google Calendars Tool
-================================================
+********************************
 
 Before you can add Google Calendars to your course, you must enable the Google
 Calendars tool in Studio or OLX (open learning XML).
@@ -30,8 +30,9 @@ Alternatively, you can use OLX to enable the Google Calendars tool.
 
 .. _Enable Google Calendars in OLX:
 
+******************************
 Enable Google Calendars in OLX
-**********************************************
+******************************
 
 To enable Google Calendars in your course, you edit the XML file that defines
 the course structure. You locate the ``course`` element's ``advanced-modules``
@@ -53,9 +54,9 @@ For more information, see `OLX Course Building Blocks`_ in the
 
 .. _Make the Google Calendar Public and Obtain Its ID:
 
-===================================================
+*************************************************
 Make the Google Calendar Public and Obtain Its ID
-===================================================
+*************************************************
 
 Before you can add a Google Calendar to your course, you must make the Calendar
 public and obtain its ID.
@@ -65,8 +66,9 @@ public and obtain its ID.
  Because the software is subject to change by its owner, the steps provided
  here are intended as guidelines and not as an exact procedure.
 
+*******************************
 Make the Google Calendar Public
-**********************************************
+*******************************
 
 #. Open the Google Calendar.
 #. From the **Settings** menu, select **Settings**.
@@ -91,8 +93,9 @@ Make the Google Calendar Public
 
 .. _Obtain the Google Calendar ID:
 
+******************************
 Obtain the Google Calendar ID
-**********************************************
+******************************
 
 #. On the **Calendars** tab, select the name of the calendar.
 #. Select the **Calendar Details** tab.
@@ -113,17 +116,18 @@ Obtain the Google Calendar ID
 
 .. _Add a Google Calendar in the Course Body:
 
-========================================
+****************************************
 Add a Google Calendar in the Course Body
-========================================
+****************************************
 
 To add a Google calendar in the course body, you create an advanced component
 in Studio or create a Google Calendar XBlock in OLX.
 
 .. _Add a Google Calendar Component in edX Studio:
 
+*********************************************
 Add a Google Calendar Component in edX Studio
-**********************************************
+*********************************************
 
 Make sure that you :ref:`enable Google Calendars<Enable the Google Calendars
 Tool>` for your course before you add a Google Calendar component.
@@ -158,8 +162,9 @@ Google Calendar will appear to learners.
 
 .. _Add a Google Calendar XBlock in OLX:
 
+***********************************
 Add a Google Calendar XBlock in OLX
-**********************************************
+***********************************
 
 To add a Google Calendar XBlock in OLX, create the ``google-calendar`` element.
 You can embed this element in the ``vertical`` element, or you can embed this
