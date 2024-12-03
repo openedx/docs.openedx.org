@@ -10,8 +10,6 @@ You use content experiments to show different course content to different groups
 
 If your course uses content experiments, the grade report that you generate from the instructor dashboard includes a column identifying the experiment group that each learner has been assigned to. For more information, see :ref:`Interpret the Grade Report`.
 
-For more information, see :ref:`Configure Your Course for Content Experiments`and :ref:`Add Content Experiments to Your Course`.
-
 .. important:: Content experiments do not display correctly in the mobile apps. Blocks created with Content Experiment components display in the mobile app with a "Group ID" label.
 
 
@@ -30,17 +28,3 @@ You can run multiple content experiments in your course. You can set up each exp
 To determine the available groupings of learners, you set up group configurations from :ref:`Set Up Group Configuration for OLX Courses`.
 
 You then select which group configuration to use when you add a content experiment :ref:`using Studio <Add a Content Experiment in Studio>` or :ref:`Add a Content Experiment in OLX`.
-
-.. seealso::
-
-  :ref:`Configure Your Course for Content Experiments`
-
-  :ref:`Add Content Experiments to Your Course`
-
-  :ref:`Set Up Group Configuration for OLX Courses`
-
-  :ref:`Add a Content Experiment in Studio`
-
-  :ref:`Add a Content Experiment in OLX`
-
-  :ref:`Interpret the Grade Report`
