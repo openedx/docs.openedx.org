@@ -19,9 +19,9 @@ Course Content Licensing`.
 
 .. _License Options:
 
-*************************************
+***************
 License Options
-*************************************
+***************
 
 For your course content and for each video in your course, you can select one
 of the following license options.
@@ -31,9 +31,9 @@ of the following license options.
 
 .. _All Rights Reserved License:
 
-====================================
+*******************
 All Rights Reserved
-====================================
+*******************
 
 All Rights Reserved indicates to learners that you own the copyright but
 reserve all rights for sharing copies of course content or videos. Learners
@@ -42,17 +42,16 @@ Reserved licenses.
 
 .. _Creative Commons License:
 
-====================================
+************************
 Creative Commons License
-====================================
+************************
 
 The Creative Commons license indicates to learners that you own the copyright
 but are granting certain permissions for reuse, depending on the license
 options that you select.
 
 When you create a new course, the default terms are set to All Rights Reserved.
-You can change the terms for your course in the **Schedule & Details** page in
-Studio.
+You can change the terms for your course in the **Schedule & Details** page in Studio.
 
 .. list-table::
    :widths: 10 70
@@ -83,9 +82,9 @@ For more information, see the `Creative Commons website`_.
 
 .. _Learners View of Licenses:
 
-*************************************
+**************************
 Learners' View of Licenses
-*************************************
+**************************
 
 When they view content in the **Course** tab, learners see the license that
 you set for the course at the bottom of the page.
