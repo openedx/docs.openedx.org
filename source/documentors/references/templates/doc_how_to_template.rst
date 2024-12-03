@@ -38,7 +38,7 @@ Now, you have a how-to document. Congratulations!
 
 .. note:: To upload your document to RTD, you can review the `Documentors Quickstarts <https://docs.openedx.org/en/latest/documentors/quickstarts/index.html#>`_.
 
-..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+..  see also:: Review the Style Guide to learn more about directives and other resources to create your documentation.
 
 RST Template
 ************
@@ -82,6 +82,6 @@ RST Template
 
 	.. note:: To upload your document to RTD, you can review the `Documentors Quickstarts <https://docs.openedx.org/en/latest/documentors/quickstarts/index.html#>`_.
 
-	..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 		
 

@@ -8,10 +8,10 @@ For example, “What is an XBlock? The Open edX platform provides different comp
 Since this type of document seeks to explain a topic, you will likely need to add images to illustrate the topic you are talking about. For example:
 
 
-.. image:: /_images/documentors_howto/superset_overview.png
+.. image:: /_images/documentors_howto/xblock_example.png
 	:width: 500px
 	:align: center
-	:alt: This image example shows the Superset Overview Dashboard for Open edX Aspects.
+	:alt: This image shows the Advance Module List, where the XBlocks are added to the platform.
 
 External Links
 --------------
@@ -28,7 +28,7 @@ folder.
 
 By default, it will use the title of the doc as the link text but you can override that with :doc:`other text <doc_how_to_template>` if you want.
 
-..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 
 RST Template
 ************
@@ -45,10 +45,10 @@ RST Template
 	Since this type of document seeks to explain a topic, you will likely need to add images to exemplify the topic you are talking about. For example:
 
 
-	.. image:: /_images/documentors_howto/superset_overview.png
+	.. image:: /_images/documentors_howto/xblock_example.png
 		:width: 500px
 		:align: center
-		:alt: This image example shows the Superset Overview Dashboard for Open edX Aspects.
+		:alt: This image shows the Advance Module List, where the XBlocks are added to the platform.
 
 	External Links
 	--------------
@@ -65,6 +65,6 @@ RST Template
 
 	By default, it will use the title of the doc as the link text but you can override that with :doc:`other text </doc_how_to_template>` if you want.
 
-	..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 			
 

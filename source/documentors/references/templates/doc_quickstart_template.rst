@@ -69,7 +69,7 @@ If you want to include or embed only certain sections of a document, you can fol
 The reader will see something like this:
 
 How-To Document Template Section
---------------------------------
+================================
 
 .. include:: ../templates/doc_how_to_template.rst
  	:start-after: .. START HERE
@@ -81,7 +81,7 @@ Useful Resources
 Here is a list of the most used resources to create a Quickstart:
 
 Images
-======
+=======
 
 Add the images and audiovisual resources you think could be necessary to clarify the process. Remember that the callouts should be in Open edX red ``(#d23228)`` and round-edged rectangles. 
 
@@ -97,7 +97,7 @@ Add the images and audiovisual resources you think could be necessary to clarify
 		:align: center
 		:alt: This image example shows how to access the GitHub repository from the Open edX documentation repository.
 
-Links:
+Links
 ======
 
 External Links
@@ -112,7 +112,7 @@ Directives:
 
 Usually, for this type of document, you can use different directives like ``warning``, ``note``,  and ``see also``, among others.
 
-..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 
 
 RST Template
@@ -234,5 +234,5 @@ RST Template
 
 	Usually, for this type of document, you can use different directives like ``warning``, ``note``,  and ``see also``, among others.
 
-	..  see also:: Review the `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_ to learn more about directives and other resources to create your documentation.
+	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 
