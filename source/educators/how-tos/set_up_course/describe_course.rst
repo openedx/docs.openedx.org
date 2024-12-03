@@ -1,8 +1,8 @@
 .. _Describe Your Course:
 
-******************************
+####################
 Describe Your Course
-******************************
+####################
 
 .. tags:: educator, how-to
 
@@ -136,5 +136,4 @@ To set the hours per week week estimate in Studio, follow these steps.
 
 #. Select **Save Changes**.
 
-#. View your course About page to test how the requirements will appear to
-   learners.
+#. View your course About page to test how the requirements will appear to learners.
