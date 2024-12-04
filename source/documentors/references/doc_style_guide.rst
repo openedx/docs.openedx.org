@@ -97,12 +97,12 @@ Make sure your documentation is targeted to the right audience and organized und
 - Site Operators
 - Developers
 
-Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see Documentation Audiences.
+Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see `Documentation Audiences <https://docs.openedx.org/en/latest/documentors/concepts/doc_audiences.html>`_
 
 Languages
 *********
 
-Open edX documentation is written in American English.
+Open edX documentation is written in American English. See `Guidelines for Writing Global English <https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html>`_
 
 Documentation Language
 ======================
@@ -187,7 +187,7 @@ Images
 
 Images should be used to explain complex processes. They are a quick solution to explain the location of an object on a page or to demonstrate the flow of information. However, be judicious and avoid using numerous large screenshots when a sentence can provide the user with sufficient guidance.
 
-To add an image to an Open edX document, you can check the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+To add an image to an Open edX document, you can check the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 You can modify the width if the image size needs to be adjusted to be more apparent or visible to the reader.
 
@@ -236,12 +236,12 @@ Bulleted, or Unordered lists display information in a compact and highly visible
 - No
 - Punctuation
 
-For information on entering unordered lists in RST, see the list-table section on the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+For information on entering unordered lists in RST, see the list-table section on the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Links
 =====
 
-To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 
 Types of Call-Out Boxes
@@ -265,7 +265,7 @@ Tips are another specialized block quote that will appear in a special way on th
 Example:
 
 .. tip:: 
-    Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+    Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Important
 ---------
@@ -287,7 +287,7 @@ Warning blocks are specialized block quotes that will appear in a special way on
 
 Example:
 
-.. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the RST guide (https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html) to know how to include them.
+.. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_ to know how to include them.
 
 See also
 --------
@@ -353,7 +353,7 @@ When not to use a table:
 • If that information could be better written in a sentence.
 • The information is important but not sufficiently complicated.
 
-For information on entering tables in RST, see the RST guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+For information on entering tables in RST, see the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Tags
 ====
@@ -375,12 +375,12 @@ Use of Abbreviations
 
 The first time you want to use an abbreviation, spell it out. For example:
 
-The Open edX ``docs.openedx.org`` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: RST Guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+The Open edX ``docs.openedx.org`` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Punctuation
 ===========
 
-Punctuation is the primary example of a convention. For specifics on punctuation use, see https://draft-edx-style-guide.readthedocs.io/en/latest/global_English.html#.
+Punctuation is the primary example of a convention. For specifics on punctuation use, see `Guidelines for Writing Global English Punctuation Section <https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html#punctuation>`_
 
 Quotation Marks
 ===============
