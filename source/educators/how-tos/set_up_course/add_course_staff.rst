@@ -14,8 +14,7 @@ to the course team, you must meet these prerequisites.
 * The team member that you want to add must register a user account and
   activate the account.
 
-* You need the same, registered email address for the team member you want to
-  add.
+* You need the same, registered email address for the team member you want to add.
 
 Other course team members can edit the course and perform all tasks except
 adding and removing other team members and granting Admin access.
@@ -52,8 +51,7 @@ Assign Course Team Roles
 Assigning a course team role to a user both adds the user to the course team
 and assigns the role to that user.
 
-To assign the Staff or Admin role to a team member, you must meet these
-prerequisites.
+To assign the Staff or Admin role to a team member, you must meet these prerequisites.
 
 * You must have the Admin role in the course.
 
