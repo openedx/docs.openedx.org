@@ -25,8 +25,7 @@ Registration and Enrollment
 
 Before a learner can enroll in a course, he or she must complete these steps.
 
-#. Register a user account, which includes supplying a valid email address, on
-   ``www.openedx.org``, or your implementation of the Open edX
+#. Register a user account, which includes supplying a valid email address, or your implementation of the Open edX
    platform. Each platform requires a separate user account.
 
 #. Activate the registered account by following the emailed instructions.

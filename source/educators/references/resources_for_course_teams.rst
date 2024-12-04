@@ -8,14 +8,6 @@ Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses
 on an Open edX site.
 
-**********************************
-The Open edX Course Creator Series
-**********************************
-
-The courses in the Open edX Course Creator Series provide foundational knowledge
-about using the Open edX platform to deliver educational experiences. These courses
-are available on Open edX platform.
-
 .. contents::
  :local:
  :depth: 1
@@ -85,5 +77,5 @@ To receive and share information by email, course team members can:
 Wikis and Web Sites
 *******************
 
-The Open edX product team maintains public product roadmaps on `the Open edX Portal <https://openedx.org/>` and `the Open edX Commnity <https://openedx.org/community/>`_.
+The Open edX product team maintains public product roadmaps at this `public roadmap <https://github.com/orgs/openedx/projects/4>`_and, you can get involved with defining the roadmap by joining the `Product Working Group <https://openedx.atlassian.net/wiki/spaces/OEPM/overview>`_.
 
