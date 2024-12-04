@@ -391,7 +391,7 @@ Quotation marks are commonly used incorrectly by newer documentation writers. Fo
 • If you want to emphasize text, you should use italic text.
 • If you want to draw attention to a specific word, you should use bolded text.
 • If you want to ensure that code appears correctly, you should use code notation.
-• Use the `` :guilabel:`` directive to highlight the text of a button.
+• Use the ``:guilabel:`` directive to highlight the text of a button.
 
 • Quotation marks should always use the double quotes ("), unless you are quoting inside a quotation. Under those conditions, you can use the single quote (').
 
