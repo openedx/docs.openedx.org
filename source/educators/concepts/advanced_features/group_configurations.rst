@@ -1,8 +1,7 @@
 .. _Overview of Group Configurations:
 
-****************************************
 Overview of Group Configurations
-****************************************
+********************************
 
 .. tags:: educator, concept
 
