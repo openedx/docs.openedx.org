@@ -225,11 +225,11 @@ Bulleted, or Unordered lists display information in a compact and highly visible
 * Complete sentences should start with a capital letter, and should end with end punctuation.
 * Some items
 * May contain
-    - sub-items.
+    * sub-items.
 * Sentences that are
-    - broken over multiple lines
-    - do not need to have end punctuation
-    - until that sentence ends.
+    * broken over multiple lines
+    * do not need to have end punctuation
+    * until that sentence ends.
 * Single
 * Items
 * Need
@@ -255,7 +255,8 @@ Notes (using the ``note`` directive) should be used to highlight the most valuab
 Example:
 
     .. note:: 
-     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+
 
 Tip
 ---
@@ -264,8 +265,8 @@ Tips are another specialized block quote that will appear in a special way on th
 
 Example:
 
-.. tip:: 
- Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+    .. tip:: 
+     Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Important
 ---------
@@ -274,8 +275,8 @@ Important blocks are specialized block quotes that will appear in a special way 
 
 Example:
 
-.. important:: 
- Vital information that should not be ignored. Highlights critical information that the reader should pay special attention to, but may not necessarily indicate a risk. Important notes can be entered in RST.
+    .. important:: 
+     Vital information that should not be ignored. Highlights critical information that the reader should pay special attention to, but may not necessarily indicate a risk. Important notes can be entered in RST.
 
 Warning
 -------
@@ -287,7 +288,8 @@ Warning blocks are specialized block quotes that will appear in a special way on
 
 Example:
 
-.. warning:: Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_ to know how to include them.
+    .. warning:: 
+     Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_ to know how to include them.
 
 See also
 --------
