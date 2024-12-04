@@ -6,7 +6,7 @@ Resources for Open edX Course Teams
 
 Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses
-on Open edX platform.
+on an Open edX site.
 
 **********************************
 The Open edX Course Creator Series
