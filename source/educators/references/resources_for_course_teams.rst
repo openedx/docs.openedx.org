@@ -23,7 +23,7 @@ are available on Open edX platform.
 Open edX101: Overview of Creating a Course
 ==========================================
 
-The `Open edX101 <https://sandbox.openedx.org/courses/course-v1:OpenedX+01-2024+2024-1/about>`_ course is designed to provide a high-level overview of the course
+The `Open edX Demo Course <https://sandbox.openedx.org/courses/course-v1:OpenedX+01-2024+2024-1/about>`_ course is designed to provide a high-level overview of the course
 creation and delivery process using Studio and the Open edX LMS. It also highlights
 the extensive capabilities of the Open edX platform.
 
