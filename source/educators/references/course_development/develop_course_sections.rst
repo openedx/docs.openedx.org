@@ -6,8 +6,7 @@ Developing Course Sections
 
 .. tags:: educator, reference
 
-To develop sections in your course, you must first understand the following
-topics.
+To develop sections in your course, you must first understand the following topics.
 
 .. contents::
   :local:
@@ -18,8 +17,7 @@ What Is a Section?
 ****************************
 
 A section is the topmost category in your course. A section can represent a
-time period in your course, a chapter, or another organizing principle. A
-section contains one or more subsections.
+time period in your course, a chapter, or another organizing principle. A section contains one or more subsections.
 
 ********************************
 Viewing Sections in the Outline
