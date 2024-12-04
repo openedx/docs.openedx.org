@@ -20,12 +20,10 @@ are available on Open edX platform.
  :local:
  :depth: 1
 
-Open edX101: Overview of Creating a Course
-==========================================
+Open edX Demo Course
+====================
 
-The `Open edX Demo Course <https://sandbox.openedx.org/courses/course-v1:OpenedX+01-2024+2024-1/about>`_ course is designed to provide a high-level overview of the course
-creation and delivery process using Studio and the Open edX LMS. It also highlights
-the extensive capabilities of the Open edX platform.
+The `Open edX Demo Course <https://sandbox.openedx.org/courses/course-v1:OpenedX+01-2024+2024-1/about>`_ course is designed to In discuss the tools and features that can leverage your learning program. After providing details about the platform, the course shows the different types of content that can be created, showcase the variety of assessment tools, and explore the different ways that you can engage your learners with social interactions.
 
 StudioX: Creating a Course with Open edX Studio
 ===============================================
