@@ -28,7 +28,7 @@ For example, following the steps in this How-To guide, you can create a how-to d
 
   <h1 class="title">Title</h1>
 
-.. seealso:: To learn more about how to add a code, visit the `Code blocks documentation <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#code-blocks>`_.
+.. seealso:: To learn more about how to add a code block, visit the `Code blocks documentation <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#code-blocks>`_.
 
 7. Add any reference that could be important for someone to understand the topic. For example, here is additional information about `how to style for Read the Docs <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/>`_.
 
@@ -74,7 +74,7 @@ RST Template
   		<h1 class="title">Title</h1>
 
 
-	.. seealso:: To learn more about how to add a code, visit the `Code blocks documentation <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#code-blocks>`_.
+	.. seealso:: To learn more about how to add a code block, visit the `Code blocks documentation <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#code-blocks>`_.
 
 	7. Add any reference that could be important for someone to understand the topic. For example, here is additional information about `how to style for Read the Docs <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/>`_.
 
