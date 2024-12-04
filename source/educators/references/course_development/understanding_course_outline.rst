@@ -1,8 +1,8 @@
 .. _Understanding Your Course Outline: 
 
-******************************
+##############################
 Understanding a Course Outline
-******************************
+##############################
 
 .. tags:: educator, reference
 
