@@ -6,8 +6,7 @@ Publish Content from the Course Outline
 
 .. tags:: educator, reference
 
-You can publish new and changed units for an entire section or subsection. You
-can also publish individual units.
+You can publish new and changed units for an entire section or subsection. You can also publish individual units.
 
 To publish new and changed units, select the **Publish** icon for a section,
 subsection, or unit. In the following example, the **Publish** icon is circled
