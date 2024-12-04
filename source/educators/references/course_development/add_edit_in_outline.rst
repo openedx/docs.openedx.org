@@ -7,8 +7,7 @@ Add Content in the Course Outline
 .. tags:: educator, reference
 
 You can add content in the course outline by creating a new section,
-subsection, or unit, or by duplicating an existing unit, subsection, or
-section.
+subsection, or unit, or by duplicating an existing unit, subsection, or section.
 
 For information about adding content to a unit, see :ref:`Developing Course
 Components`.
@@ -39,14 +38,13 @@ Adding New Sections, Subsections, or Units
   **New Unit**. The :ref:`unit<Developing Course Units>` page opens.
 
 
-=======================================================
+======================================================
 Duplicating Existing Sections, Subsections, or Units
-=======================================================
+======================================================
 
 To add a section, subsection, or unit by duplicating content that already
 exists in the course outline, select the **Duplicate** icon for the item that
-you want to duplicate. You see a **Duplicating** indicator at the bottom of the
-Studio page.
+you want to duplicate. You see a **Duplicating** indicator at the bottom of the Studio page.
 
 Duplicated items are added to the course outline immediately below the
 original item, with the name "Duplicate of <original item name>".
