@@ -208,13 +208,13 @@ Example:
 1. Open Studio at the URL provided by your administrator.
 2. Click New Course. The Create a New Course screen opens.
 3. Enter information for the new course:
-    - Course Name: The public display name of the course. You can override the name later in the Advanced Settings.
-    - Organization: Your school or organization. This value becomes part of the course URL and cannot be changed. You can override how the organization is displayed to learners in Advanced Settings.
-    - Course Number: The unique number that identifies your course. Note: This value becomes part of the course URL and cannot be changed. No spaces or special characters are allowed.
-    - Course Run: The term or unique run of the course. This value part of your course URL, so no spaces or special characters are allowed and it cannot be changed.
+    * Course Name: The public display name of the course. You can override the name later in the Advanced Settings.
+    * Organization: Your school or organization. This value becomes part of the course URL and cannot be changed. You can override how the organization is displayed to learners in Advanced Settings.
+    * Course Number: The unique number that identifies your course. Note: This value becomes part of the course URL and cannot be changed. No spaces or special characters are allowed.
+    * Course Run: The term or unique run of the course. This value part of your course URL, so no spaces or special characters are allowed and it cannot be changed.
 4. Click Create.
 
-.. note:: 
+   .. note::
     Numbered lists should not be extended over headings. If you use a heading, you should restart your numbered list.
 
 Bulleted lists
@@ -222,19 +222,19 @@ Bulleted lists
 
 Bulleted, or Unordered lists display information in a compact and highly visible format. For usage rules, see the example below:
 
-- Complete sentences should start with a capital letter, and should end with end punctuation.
-- Some items
-- May contain
+* Complete sentences should start with a capital letter, and should end with end punctuation.
+* Some items
+* May contain
     - sub-items.
-- Sentences that are
+* Sentences that are
     - broken over multiple lines
     - do not need to have end punctuation
     - until that sentence ends.
-- Single
-- Items
-- Need
-- No
-- Punctuation
+* Single
+* Items
+* Need
+* No
+* Punctuation
 
 For information on entering unordered lists in RST, see the list-table section on the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
@@ -250,12 +250,12 @@ Types of Call-Out Boxes
 Notes
 -----
 
-Notes (using the `.. note::` directive) should be used to highlight the most valuable information in a section. Notes are considered to be more important than information that is bold. Notes are highly visible, and as such should be used sparingly.
+Notes (using the ``note`` directive) should be used to highlight the most valuable information in a section. Notes are considered to be more important than information that is bold. Notes are highly visible, and as such should be used sparingly.
 
 Example:
 
-.. note:: 
-    Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+    .. note:: 
+     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the guide: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
 
 Tip
 ---
@@ -265,7 +265,7 @@ Tips are another specialized block quote that will appear in a special way on th
 Example:
 
 .. tip:: 
-    Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+ Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Important
 ---------
@@ -275,7 +275,7 @@ Important blocks are specialized block quotes that will appear in a special way 
 Example:
 
 .. important:: 
-    Vital information that should not be ignored. Highlights critical information that the reader should pay special attention to, but may not necessarily indicate a risk. Important notes can be entered in RST.
+ Vital information that should not be ignored. Highlights critical information that the reader should pay special attention to, but may not necessarily indicate a risk. Important notes can be entered in RST.
 
 Warning
 -------
@@ -344,14 +344,15 @@ Tables should be used to compile complicated data and indicate its relationships
      - Row 2, column 3
 
 When to use a table:
-• When the information is significantly complicated.
-• When the information repeats at least one element more than twice.
-• When the information does not benefit from being compressed.
+
+- When the information is significantly complicated.
+- When the information repeats at least one element more than twice.
+- When the information does not benefit from being compressed.
 
 When not to use a table:
 
-• If that information could be better written in a sentence.
-• The information is important but not sufficiently complicated.
+- If that information could be better written in a sentence.
+- The information is important but not sufficiently complicated.
 
 For information on entering tables in RST, see the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
@@ -375,7 +376,7 @@ Use of Abbreviations
 
 The first time you want to use an abbreviation, spell it out. For example:
 
-The Open edX ``docs.openedx.org`` repository is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+The `Open edX repository <https://github.com/openedx/docs.openedx.org/tree/main>`_ is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
 
 Punctuation
 ===========
@@ -387,13 +388,12 @@ Quotation Marks
 
 Quotation marks are commonly used incorrectly by newer documentation writers. Follow this short list to ensure that you use quotation marks correctly.
 
-• Quotation marks should only be used for direct quotations.
-• If you want to emphasize text, you should use italic text.
-• If you want to draw attention to a specific word, you should use bolded text.
-• If you want to ensure that code appears correctly, you should use code notation.
-• Use the ``:guilabel:`` directive to highlight the text of a button.
-
-• Quotation marks should always use the double quotes ("), unless you are quoting inside a quotation. Under those conditions, you can use the single quote (').
+- Quotation marks should only be used for direct quotations.
+- If you want to emphasize text, you should use italic text.
+- If you want to draw attention to a specific word, you should use bolded text.
+- If you want to ensure that code appears correctly, you should use code notation.
+- Use the ``:guilabel:`` directive to highlight the text of a button.
+- Quotation marks should always use the double quotes ("), unless you are quoting inside a quotation. Under those conditions, you can use the single quote (').
 
 Italic Text
 ===========
