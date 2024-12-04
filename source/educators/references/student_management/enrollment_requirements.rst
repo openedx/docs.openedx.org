@@ -33,7 +33,7 @@ Before a learner can enroll in a course, he or she must complete these steps.
 
 As long as the course enrollment end date has not passed, learners who
 have registered and activated user accounts can enroll themselves in
-``www.openedx.org`` courses, or can enroll in other courses if they know the URL.
+courses on your Open edX instance, or can enroll in other courses on your instance if they know the URL.
 
 Course creators, Admins, and Staff, however, can enroll learners in a course
 either before or after the learners register their user accounts.
