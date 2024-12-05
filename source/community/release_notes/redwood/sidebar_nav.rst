@@ -37,6 +37,8 @@ experience it can be.
   :local:
   :depth: 1
 
+.. sidebar_nav_content_marker
+
 Overview
 ********
 
