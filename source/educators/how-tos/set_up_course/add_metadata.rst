@@ -1,8 +1,8 @@
 .. _Add Course Metadata:
 
-*******************
+###################
 Add Course Metadata
-*******************
+###################
 
    .. tags:: educator, how-to
 
