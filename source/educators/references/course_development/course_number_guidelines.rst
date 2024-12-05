@@ -13,7 +13,7 @@ numbers that are easy to understand and remember.
 Course numbers have the following guidelines.
 
 * Course numbers can have a maximum of 10 characters.
-* Characters can be letters, numbers, or periods.
+* Characters can be letters, numbers or periods.
 * If a course consists of several modules, the course number can have an ending
   such as .1x or .2x.
 
@@ -23,9 +23,9 @@ Course numbers have the following guidelines.
   the way that your course number appears in Studio and the LMS, see
   :ref:`Change the Course Number <Change the Course Number>`.
 
-======================
+**********************
 Example Course Numbers
-======================
+**********************
 
 * CS002x
 * BIO1.1x and BIO1.2x
