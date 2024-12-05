@@ -181,9 +181,9 @@ Messages`.
 
 .. _Discussion Notification:
 
-================================
+=======================
 Discussion Notification
-================================
+=======================
 
 After a learner or course team member creates a post in the course discussions, edX sends the following email message the first time a learner or course team member replies to the original post.
 

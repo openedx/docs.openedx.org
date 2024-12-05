@@ -1,8 +1,8 @@
 .. _Roles for Viewing Course Content:
 
-***************************************
+#####################################
 Viewing Course Content Based on Roles
-***************************************
+#####################################
 
 .. tags:: educator, reference
 
