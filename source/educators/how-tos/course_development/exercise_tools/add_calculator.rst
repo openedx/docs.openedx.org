@@ -1,8 +1,8 @@
 .. _Calculator:
 
-##################
+###############
 Calculator Tool
-##################
+###############
 
 .. tags:: educator, how-to
 
@@ -10,15 +10,15 @@ Calculator Tool
   :local:
   :depth: 1
 
-**********
+********
 Overview
-**********
+********
 
-Learners can use the edX calculator tool to perform simple
+Learners can use the Open edX calculator tool to perform simple
 and complex calculations. Learners can enter input including numbers,
 operators, Greek letters, affixes, trigonometric functions, and more.
 
-The calculator is available for every edX course, but it is not visible by
+The calculator is available for every Open edX course, but it is not visible by
 default. To make the calculator visible, you must enable it in the course
 advanced settings.
 
@@ -44,9 +44,9 @@ field.
 Learners close the calculator by selecting the X.
 
 
-************************************
+**************************
 Enable the Calculator Tool
-************************************
+**************************
 
 To enable the calculator tool, follow these steps.
 
