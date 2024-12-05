@@ -1,3 +1,4 @@
+#############################
 Instructional Design Overview
 #############################
 
@@ -7,16 +8,17 @@ Instructional Design Overview
    :local:
    :class: no-bullets
 
-
+*********************
 Instructional Design
-********************
+*********************
 
+=============================
 What is instructional Design?
 =============================
 
 Instructional design is a combination of educational psychology, communications and user experience design. Instructional design in its most basic term is the creation of materials used to teach. However, instructional design goes beyond just the creation of materials to considering the best approaches and tools for teaching depending on the learner and the educational platform. Today, instructional design has become synonymous with online learning.
 
-
+==================================
 An Introduction to the ADDIE Model
 ==================================
 
@@ -37,6 +39,7 @@ The approach below is a revision of the ADDIE model that will be discussed in mo
 .. image:: /_images/instructional_design/addie_model.png
    :alt: An ADDIE Model Diagram
 
+=====================================
 The Role of an Instructional Designer
 =====================================
 
@@ -57,12 +60,14 @@ A subject matter expert (SME):
 - Grades submitted assignments (if applicable)
 - Provides ongoing academic support/communication during delivery
 
+*****************************
 Alignment & Backwards Design
 *****************************
 
 .. image:: /_images/instructional_design/backwards_design.png
    :alt: A Backward Design Diagram - Identify Result, Determine Evidence, Plan Teaching and Learning
 
+================
 Backwards Design
 ================
 
@@ -79,6 +84,7 @@ Designing a course requires an SME and ID to work backwards.
 
 .. _ConstructiveAlignment:
 
+======================
 Constructive Alignment
 ======================
 
@@ -96,6 +102,7 @@ One way to double check if your course is aligned is to check your assessment ag
 -   If a learning outcome says a learner should "identify", do you have a checkbox or multiple choice question about that topic?
 -   If a learning outcome says a learner should "discuss", do you have a discussion forum? A peer-graded assessment?
 
+***************************************
 Defining Goals, Objectives and Outcomes
 ***************************************
 
@@ -108,6 +115,7 @@ Learning Goals, Objectives and Outcomes are three course design terms that are o
 - **Learning Objectives:** are **instructor focused**. Objectives are the things that the instructor wants to teach or accomplish in the course. Objectives are translated into outcomes.
 - **Learning Outcomes:** are **learner focused**. Learning outcomes are statements that provide clarity about what a learner should know or be able to do at the end of a course.
 
+==============
 Learning Goals
 ==============
 
@@ -129,7 +137,7 @@ Examples of learning goals:
 
 > An ‘Audience Analysis’ template [[LINK]](/docs/templates/template_audience_analysis) can help you think through who your audience will be and why they might be interested in (motivated or required to) take your course.
 
-
+===================
 Learning Objectives
 ===================
 
@@ -152,6 +160,7 @@ Examples of learning objectives:
 -   Present 3 case studies as examples of information manipulation
 -   Explain the four main tactics used in information manipulation campaigns; provide examples.
 
+=================
 Learning Outcomes
 =================
 
@@ -195,6 +204,7 @@ Examples of learning outcomes
 
 > [[Link to Outcome & Alignment template]](/docs/templates/template_outcomes)
 
+*****************
 Learning Theories
 *****************
 
@@ -212,6 +222,7 @@ Instructional designers and subject matter experts will use various learning the
 
 .. _ActiveLearning:
 
+***************
 Active Learning
 ***************
 
@@ -242,9 +253,11 @@ Below is a list of engagement trigger examples that can be built into your cours
 - Annotate an image or text.
 - Use a padlet board for sharing ideas.
 
+***********
 Assessments
 ***********
 
+===========
 Why assess?
 ===========
 
@@ -254,6 +267,7 @@ There are three main reasons why outcomes are assessed:
 2.  For certification: to provide a grade, rank, certification or degree, to complete training or job performance requirements, and to meet governing body regulations.
 3.  For quality assurance: to assess the achievement of course/program aims (learning goals), to track learning achievement over time, and to protect the profession and the public.
 
+==============
 How to Assess?
 ==============
 
@@ -264,6 +278,7 @@ There are different types of assessment, all of which can be graded or ungraded 
 
 It is important to provide hints, explanations and feedback for all formative assessments (and it is encouraged for summative assessments).
 
+=======================
 Examples of assessments
 =======================
 
@@ -279,9 +294,11 @@ Examples of assessments
 
 .. _MotivationCommunication:
 
+**************************
 Motivation & Communication
 **************************
 
+===================
 What is motivation?
 ===================
 
@@ -292,6 +309,7 @@ Motivation is the force that encourages a learning to persist even when they mee
 
 Many learners are primarily motivated (or moved to engage in learning behaviours) by external factors which can include requirements from an employer, the opportunity for payment/advancement in their career, to meet the expectations of others, or by deadlines. Timelines and deadlines are motivators because failing to meet those deadlines can have negative consequences that results in either more effort required (repeating a course or training program) or being unable to progress (get a promotion, be approved to engage in certain tasks, etc.).
 
+========================
 ARCS Model of Motivation
 ========================
 
@@ -305,6 +323,7 @@ The **ARCS model of motivation** is widely used in eLearning which focuses on cr
 - **Confidence:** This refers to developing an expectation of success among learners. This is achieved by clear communication of learning outcomes, providing feedback and opportunities for practice and allowing learners to have control of their own learning.
 - **Satisfaction:** This refers to the direct connection between satisfaction and motivation. Encouraging intrinsic enjoyment of learning, ensuring equal standards across the course, and provide feedback and ‘rewards’ to boost satisfaction.
 
+=============================
 Additional Motivation Factors
 =============================
 
@@ -319,6 +338,7 @@ One really important aspect of motivating learners is providing clear, explicit 
 
 Providing clear instructions, articulating expectations and providing feedback are ways that an instructional designer can help learners gain motivation. Understanding why something is being taught or assessed can help learners tap into the strategies and skills needed to complete a learning task. Of course, communication is key to ensuring that learners complete tasks on time and to the level of effort that is expected.
 
+******************************
 Online Learning Best Practices
 ******************************
 
