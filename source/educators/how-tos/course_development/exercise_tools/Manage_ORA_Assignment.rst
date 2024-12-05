@@ -1,8 +1,8 @@
 .. _Managing ORA Assignments:
 
-##############################################
+#############################################
 Managing Open Response Assessment Assignments
-##############################################
+#############################################
 
 .. tags:: educator, how-to
 
@@ -29,9 +29,9 @@ assessments.
 
 .. _Access Information for a Specific Learner:
 
-****************************************************
+**************************************************
 View a Specific Learner's Response and Assessments
-****************************************************
+**************************************************
 
 You can view the following information about an individual learner's open
 response assessment assignment.
@@ -96,9 +96,9 @@ To access information about a specific learner, follow these steps.
 
 .. _Perform a Staff Assessment:
 
-*************************************************
+**********************************************
 Perform Staff Assessments in an ORA Assignment
-*************************************************
+**********************************************
 
 .. Note:: The staff grading experience has gotten a makeover! Learn about the
    :ref:`new ORA staff grading experience <ORA Staff Grading>`.
@@ -140,9 +140,9 @@ To perform a staff assessment in an assignment, follow these steps.
 
 .. _Performing Staff Assessments in a Team ORA Assignment:
 
-*******************************************************
+*****************************************************
 Performing Staff Assessments in a Team ORA Assignment
-*******************************************************
+*****************************************************
 
 .. Note:: The staff grading experience has gotten a makeover! Learn about the
    :ref:`new ORA staff grading experience <ORA Staff Grading>`.
@@ -162,9 +162,9 @@ grade and close the grading dialog.
 
 .. _Override a learner assessment grade:
 
-************************************************
+*************************************
 Override a Learner's Assessment Grade
-************************************************
+*************************************
 
 For any open response assessment, whether or not a staff assessment is already
 included, you can override a learner's final grade for the assignment. The
@@ -195,9 +195,9 @@ Learners who receive override grades for their submissions see a **Staff
 Assessment** step in their assignments, where they can view the rubric and any
 comments provided in the staff assessments.
 
-=======================================
+==============================
 Perform an Override Assessment
-=======================================
+==============================
 
 In order to perform an override assessment for a learner, you need that
 learner's username or email address. For more information, see
@@ -239,9 +239,9 @@ To perform an override assessment, follow these steps.
 
 .. _Overriding a Team Assessment Grade:
 
-**************************************
+************************************
 Overriding a Team's Assessment Grade
-**************************************
+************************************
 
 As with individual ORAs, you can override the final grade for a Team ORA if it
 has previously been graded. Although only staff may grade team assignments, this
@@ -289,9 +289,9 @@ To perform an override assessment, follow these steps:
 
 .. _Remove a learner response from peer grading:
 
-****************************
+***************************
 Remove a Learner's Response
-****************************
+***************************
 
 In a course that contains assignments with peer assessment steps, learners
 might alert you to inappropriate responses that they have seen while
@@ -378,9 +378,9 @@ was cancelled, and the comments relating to the removal of their submission.
 
 .. _Remove a Team Response:
 
-**************************
+************************
 Remove a Team’s Response
-**************************
+************************
 
 Removing a team's response is very similar to removing a single learner's response.
 To remove a submitted Team ORA response, follow these steps.
