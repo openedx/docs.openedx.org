@@ -30,7 +30,7 @@ create a taxonomy of cities, like this:
   * Mexico City
 
 1. Build a taxonomy using a template
-***************************************
+************************************
   
 * First, review your proposed taxonomy. Note that each tag must have a unique name (across all levels of the hierarchy). So, for example, we could not have “New York” as both a second-level (state) tag and third-level (city) tag - we have to rename one of them (e.g. “New York City” in this case)
 
