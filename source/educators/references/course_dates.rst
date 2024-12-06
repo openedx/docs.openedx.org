@@ -1,10 +1,10 @@
+#####################
 Course Dates
 #####################
 
 .. tags:: educator, reference
 
-
-
+********************
 Start Date and Time
 ********************
 
@@ -19,6 +19,7 @@ The course start date and time specify when learners can access published course
 
 Although learners cannot access any part of your course before the course start date, course team members who are enrolled in the course and who have the staff, admin, or beta tester role can see published content in the course before the course start date.
 
+*********************
 End Date and Time
 *********************
 
@@ -29,7 +30,7 @@ In self-paced courses, course teams can make certain course components unavailab
 .. Important::
   If you do not set a course end date, learners cannot access earned certificates.
 
-
+*******************************
 Enrollment Start Date and Time
 *******************************
 
@@ -37,6 +38,7 @@ The enrollment start date and time specify when learners can start to enroll in 
 
 As soon as enrollment starts, prospective learners can see your course in the course catalog, view the course About page, and enroll in the course.
 
+*****************************
 Enrollment End Date and Time
 *****************************
 
