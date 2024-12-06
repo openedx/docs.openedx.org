@@ -39,9 +39,9 @@ objects to a specific location on an image.
 .. image:: /_images/educator_how_tos/DragAndDropProblem.png
  :alt: Image of a drag and drop problem.
 
-*********************************
+******************************
 Adding a Drag and Drop Problem
-*********************************
+******************************
 
 Before you can include problems that use this deprecated problem type in your
 course, you must configure your course to :ref:`add unsupported problems
@@ -93,9 +93,9 @@ to drag labels onto, and then create a problem component.
 
 #. Click **Save**.
 
-==========================================
+=================================
 Sample Drag and Drop Problem Code
-==========================================
+=================================
 
 To create the drag and drop problem that appears in the image above, you
 download two files from edX, upload these files to the **Files & Uploads**
@@ -157,9 +157,9 @@ page, and then add the code for the problem to a problem component.
 
 .. _Drag and Drop Problem XML:
 
-*********************************
+*************************
 Drag and Drop Problem XML
-*********************************
+*************************
 
 .. code-block:: xml
 
@@ -237,9 +237,9 @@ Drag and Drop Problem XML
  </problem>
 
 
-========
+====
 Tags
-========
+====
 
 * ``<customresponse>``: Indicates that the problem is a custom response
   problem.
@@ -353,9 +353,9 @@ the base image.
 
   (none)
 
-**********************
+*********************
 Targets on Draggables
-**********************
+*********************
 
 Sometimes it is not enough to have targets only on the base image, and all of
 the draggables on these targets. If a complex problem exists where a draggable
@@ -379,9 +379,9 @@ you will be specifying inner target position coordinates. Use the ``x`` and
 ``y`` attributes to set the offset of the inner target from the upper-left
 corner of the parent draggable (that contains the inner target).
 
-=====================================
+====================================
 Limitations of targets on draggables
-=====================================
+====================================
 
 * Currently there is a limitation to the level of nesting of targets.
 
@@ -406,9 +406,9 @@ Limitations of targets on draggables
   nesting (draggables on the base image). In this case the client side will be
   reporting (x,y) positions of each draggable on the base image.
 
-**********************
+*********************
 Correct answer format
-**********************
+*********************
 
 For specifying answers for targets on draggables, see `Answer format for
 targets on draggables`_.
@@ -624,9 +624,9 @@ Grading logic
 #. For every group, lists of targets are compared using the rule for that
    group.
 
-==========================
+=========================
 Set and ``+number`` cases
-==========================
+=========================
 
 ``set()`` and ``+number`` are needed only for the case of reusable draggables.
 For other cases there are no equal draggables in list, so set() does nothing.
