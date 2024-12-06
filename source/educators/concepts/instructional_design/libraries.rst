@@ -1,8 +1,8 @@
 .. _Content Libraries Overview:
 
-##########################
-Content Libraries Overview
-##########################
+#############################
+Content Libraries v1 Overview
+#############################
 
 .. tags:: educator, concept
 
