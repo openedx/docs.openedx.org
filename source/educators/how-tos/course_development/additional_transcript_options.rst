@@ -101,3 +101,10 @@ To add another downloadable transcript, follow these steps.
 #. Locate the **Handout** section, and then select **Upload Handout**.
 #. In the dialog box, select the file on your computer, and then select
    **Open**.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Video Process Overview` (how-to)
+
+ :ref:`Add Transcript in Another Language` (how-to)

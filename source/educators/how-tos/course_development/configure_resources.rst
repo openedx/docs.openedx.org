@@ -86,20 +86,18 @@ to your wiki via the edX-wide wiki structure, or a link that has been provided t
 
 .. _Teams Configuration:
 
-********************************
+**********************************
 Configuring the Teams application
-********************************
+**********************************
 
 Additional management and configuration of the teams application can be done through the main Team application tab
 in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`.
 
 .. _ORA Coursewide Settings:
 
-**************************************************
-********
+**********************************************************
 Configuring Course-level Open Response Assessment Settings
-**************************************************
-********
+**********************************************************
 
 To simplify the management of Open Response Assessment (ORA) problems, a card on this page provides a way to enable
 certain course-wide overrides. Rather than going through each ORA in a course individually, these overrides allow
