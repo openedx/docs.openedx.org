@@ -1,8 +1,8 @@
 .. _Adding Numerical Input Problem: 
 
-***********************************
+################################
 Adding a Numerical Input Problem
-***********************************
+################################
 
 .. tags:: educator, how-to
 
@@ -35,9 +35,9 @@ Creating a numerical input problem is as simple as:
 If you have any questions on the specifics of using the simple editor, please check
 out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
-============================================================
+*****************************
 Adding a Tolerance or a Range
-============================================================
+*****************************
 
 To give learners the option to receive full credit for a close approximation of
 the correct answer, and to support a wide range of possible correct numerical
@@ -51,9 +51,9 @@ to mark as correct for the numerical input problem type.
 .. note:: You can either have a **tolerance** or an **answer range** for a
   numerical input problem. You cannot add both.
 
--------------------
+==================
 Adding a Tolerance
--------------------
+==================
 
 You can specify a margin of error or tolerance for learner responses. You
 can specify a percentage or number. The tolerance settings panel can be
@@ -63,9 +63,9 @@ found to the right of the editor.
  :alt: An example tolerance setting set to 5%.
  :width: 200
 
---------------------------------------
+==========================
 Specifying an Answer Range
---------------------------------------
+==========================
 
 You can specify an answer range so that any learner response within that range
 is marked correct.
@@ -95,9 +95,9 @@ For example, to identify the correct answers as 5, 6, or 7, but not 8, specify
 .. :diataxis-type: how-to
 .. _Use Feedback in a Numerical Input Problems:
 
-=================
+===============
 Adding Feedback
-=================
+===============
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. In numerical input problems, you can provide feedback for correct
@@ -122,9 +122,9 @@ learner submits this answer.
 
 .. _Use Hints in a Numerical Input Problem:
 
-=================
+============
 Adding Hints
-=================
+============
 
 You can add hints to a numerical input problem using the simple editor or the
 advanced editor. For an overview of hints in problems, see
