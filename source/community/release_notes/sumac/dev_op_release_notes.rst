@@ -45,6 +45,9 @@ Settings and Toggles
 ====================
 - `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L613>`_
 - `contentstore.new_studio_mfe.disable_new_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L641C1-L641C2>`_
+- `DISABLED_COUNTRIES <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L2956>`_
+- `GRADEBOOK_FREEZE_DAYS <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/lms/envs/common.py#L1098>`_
+- `XBLOCK_RUNTIME_V2_EPHEMERAL_DATA_CACHE <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L1034>`_
 
 
 Other Operator Changes
