@@ -1,8 +1,8 @@
 .. _Edit Your Course:
 
-*************
+#############
 Edit a Course
-*************
+#############
 
 .. tags:: educator, how-to
 
@@ -13,8 +13,7 @@ dates<Scheduling Your Course>`, or developing the :ref:`course
 outline<Developing Your Course Outline>`.
 
 When you return to Studio later, your **My Courses** dashboard page lists
-the courses that you created as well as any courses for which you have course
-team privileges.
+the courses that you created as well as any courses for which you have course team privileges.
 
 .. image:: /_images/educator_how_tos/open_course.png
   :width: 600
@@ -45,8 +44,7 @@ change the way that your course title and number appear in Studio and the LMS.
 Change the Course Title
 =======================
 
-To change the way that your course title appears in Studio and the LMS, follow
-these steps.
+To change the way that your course title appears in Studio and the LMS, follow these steps.
 
 .. note::
  EdX does not recommended that you do this if your course is live.

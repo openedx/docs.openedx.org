@@ -1,3 +1,4 @@
+##############################
 The Course Development Process
 ##############################
 
@@ -7,11 +8,11 @@ The Course Development Process
    :local:
    :class: no-bullets
 
-
+***************************************
 The Course Development Process Overview
 ***************************************
 
-This course development process model is based on the ADDIE model and tied to the principles of backward design. By working backwards, we start first with defining our learning outcomes and work backwards to determining what content we need to create. It looks like this:
+This course development process model is based on the ADDIE model and tied to the principles of backward design. By working backward, we start first with defining our learning outcomes and work backward to determining what content we need to create. It looks like this:
 
 1. Start with learning outcomes - What do we expect students will be able to do or know when they complete this course?
 
@@ -24,20 +25,21 @@ The ADDIE Model breaks down this process into five iterative phases, and we’ve
 .. image:: /_images/instructional_design/addie_model.png
    :alt: An ADDIE Model Diagram
 
-As you go through this process, you will see that each of these phases are iterative and may loop back into a previous phase as ideas, goals and feedback about the course are gathered. Each phase has inputs and outputs that inform future phases and help the team move forward in the process.
+As you go through this process, you will see that each of these phases is iterative and may loop back into a previous phase as ideas, goals and feedback about the course are gathered. Each phase has inputs and outputs that inform future phases and help the team move forward in the process.
 
--   **Phase 1** is about **information collection**. You collect information about your project (who is the audience, why is this course being created) and decide on the learning outcomes. At this stage you will create a draft course syllabus and a list of learning outcomes.
+-   **Phase 1** is about **information collection**. You collect information about your project (who is the audience, why is this course being created) and decide on the learning outcomes. At this stage, you will create a draft course syllabus and a list of learning outcomes.
 
--   **Phase 2** is about **designing the course**. This is where you will decide on the structure of the course, start to think about the types of assessments and content that will be in the course. At this stage, you will create a course outline document.
+-   **Phase 2** is about **designing the course**. This is where you will decide on the structure of the course and start to think about the types of assessments and content that will be in the course. At this stage, you will create a course outline document.
 
 -   **Phase 3** is the **building phase**. This can be one of the longest phases as it requires your subject matter expert to create or curate content, and for the instructional designer to build that content and the assessments in the course. By the end of this phase, you should have the entire course built in the LMS.
 
--   **Phase 4** is the **review phase**. In this phase your course team as well as a couple of beta testers will review the course from start to finish. You will test the assessments, check for accessibility, and ensure that the course is ready to be launched to the public.
+-   **Phase 4** is the **review phase**. In this phase, your course team as well as a couple of beta testers will review the course from start to finish. You will test the assessments, check for accessibility, and ensure that the course is ready to be launched to the public.
 
 -   **Phase 5** is the **support and evaluation phase**. This phase will extend into the delivery of the course where communication with learners is key.
 
 The goal of using this process is to increase the speed at which a course is created and to improve the team dynamic. Remember, that while these phases are presented in a linear order, you will often have to return to previous phases and make adjustments.
 
+*******************************
 Phase 1: Information Collection
 *******************************
 
@@ -69,18 +71,19 @@ Outcomes and Templates for the Information Collection phase that may be helpful:
 
 Remember, this phase can require multiple meetings to ensure that the entire team is on the same page regarding why this course is being created, who the learners will be, and what resources will be available throughout the development process. Depending on the project, your SME(s) and the timeline, this phase could take anywhere from one meeting to several weeks.
 
+****************
 Phase 2: Design
-***************
+****************
 
-In phase two, you will use the outputs from phase one (the syllabus and outcomes list) as your inputs. Here, your focus will be on deciding on the assessments and teaching materials that will be used to help your learners achieve the learning outcomes. The goal of this phase is to create a course outline that identifies the structure and components of your course.
+In phase two, you will use the outputs from phase one (the syllabus and outcomes list) as your input. Here, your focus will be on deciding on the assessments and teaching materials that will be used to help your learners achieve the learning outcomes. The goal of this phase is to create a course outline that identifies the structure and components of your course.
 
-The outline can give your team a sense of the amount of content that needs to be curated or created and how many assessments need to be created. This can give your team a chance to predict how much time it will take to develop all of the components of the course, and to check in on project scope and make adjustments to your outline.
+The outline can give your team a sense of the amount of content that needs to be curated or created and how many assessments need to be created. This can give your team a chance to predict how much time it will take to develop all of the components of the course, and to check in on the project scope and make adjustments to your outline.
 
 The ID in this phase will likely be able to provide valuable information regarding the structure, content forms to ensure a mix of media, and possible assessment types. The ID will have an understanding of what is possible within the LMS and can share examples and suggestions from successful courses.
 
 By the end of this phase, you should have a :ref:`Course Outline<CourseOutlineTemplate>`
 
--   Ideally, by the end of the process this will be a large document that tracks every element of your course (each video, text input, assessment question, etc.).
+-   Ideally, by the end of the process, this will be a large document that tracks every element of your course (each video, text input, assessment question, etc.).
 
 -   You can assign components of the course to various members of your team to be tracked during phase three.
 
@@ -99,15 +102,16 @@ Outcomes and Templates for the Information Collection phase that may be helpful:
 
 Remember, that this is a highly iterative phase in the course development process. You will likely come back to this phase as you move on to asset collection and build. Your course outline should be a living document that tracks all of the changes and components within your course.
 
+**********************************
 Phase 3: Asset Collection & Build
-*********************************
+**********************************
 
 The goal of this phase is to create or collect all of the course materials and build the course in the LMS. The course outline that you created in phase two is a vital input in this phase and will continue to grow in this phase.
 
-In this phase, it is important to share any background materials that may be used in the creation of this course (a handbook, an existing in-person training deck, a series of powerpoint lectures, etc). A well-organized shared repository (a google drive, dropbox, etc.) for course materials can be really helpful during this phase, especially with larger teams and lots of content being accumulated.
+In this phase, it is important to share any background materials that may be used in the creation of this course (a handbook, an existing in-person training deck, a series of PowerPoint lectures, etc). A well-organized shared repository (a Google Drive, dropbox, etc.) for course materials can be really helpful during this phase, especially with larger teams and lots of content being accumulated.
 
 
-In this phase you may need to support your SME(s) in their collection, translation and creation of content. This is often the busiest phase of the process for the instructional designer. You may need to:
+In this phase, you may need to support your SME(s) in their collection, translation and creation of content. This is often the busiest phase of the process for the instructional designer. You may need to:
 
 -   Provide video scripting and video production suggestions.
 
@@ -120,31 +124,32 @@ In this phase you may need to support your SME(s) in their collection, translati
 -   Create and implement a design theme or branding for the course.
 
 
-Building the course in the LMS at this stage helps everyone on the team to visualize the course and make adjustments as needed to the structure, content, assessments and learning outcomes.
+Building the course in the LMS at this stage helps everyone on the team visualize the course and make adjustments as needed to the structure, content, assessments and learning outcomes.
 
-In this phase of the process you will likely have ongoing check-in meetings with the entire team. You can use the :ref:`Course Outline Template<CourseOutlineTemplate>`  to create status updates that are shared with the team. These status updates can:
+In this phase of the process, you will likely have ongoing check-in meetings with the entire team. You can use the :ref:`Course Outline Template<CourseOutlineTemplate>`  to create status updates that are shared with the team. These status updates can:
 
--   provide information on progress
+-   Provide information on progress
 
 -   Identify current roadblocks
 
--   assign upcoming tasks
+-   Assign upcoming tasks
 
--   check on the guiding principles or important features of your course (for example, do you have engagement triggers planned?)
+-   Check on the guiding principles or important features of your course (for example, do you have engagement triggers planned?)
 
-Note: In this phase it is important to remember that learners have different learning preferences and needs. It is important to provide a variety of media in a course if it is possible. A mix of text, video, images and varying levels of interactivity will be important here to create opportunities for :ref:`active learning<ActiveLearning>`. It is also important to remind the SME of learner’s :ref:`motivations<MotivationCommunication>` for learning and create opportunities for learners to connect the content to their own experiences and apply their learning.
+Note: In this phase, it is important to remember that learners have different learning preferences and needs. It is important to provide a variety of media in a course if it is possible. A mix of text, video, images and varying levels of interactivity will be important here to create opportunities for :ref:`active learning<ActiveLearning>`. It is also important to remind the SME of the learner’s :ref:`motivations<MotivationCommunication>` for learning and create opportunities for learners to connect the content to their own experiences and apply their learning.
 
-By the end of this phase you should have a completed course built in the LMS. Your course outline document should track every component of the course and flag each component as inputted into the course. Your course outline becomes both a design and project management document in this phase. This is often the longest phase of the course development process: some SMEs will have content that is easily translatable, while others may need to create content from scratch which can be a lengthy process.
+By the end of this phase, you should have a completed course built in the LMS. Your course outline document should track every component of the course and flag each component as input into the course. Your course outline becomes both a design and project management document in this phase. This is often the longest phase of the course development process: some SMEs will have content that is easily translatable, while others may need to create content from scratch which can be a lengthy process.
 
 
 Remember to check in on the learning outcomes throughout this phase: are the assessments aligned with the learning outcomes? Do the learners have the right content to help them complete those assessments successfully?
 
+***************
 Phase 4: Review
 ***************
 
-The focus of this phase is student satisfaction. Coming into this phase, you should have a completed course built in the LMS and an up to date course outline document. In this phase the goal is to review the course from the learner’s perspective before launching it to the public.
+The focus of this phase is student satisfaction. Coming into this phase, you should have a completed course built in the LMS and an up-to-date course outline document. In this phase, the goal is to review the course from the learner’s perspective before launching it to the public.
 
-In this phase, you will want your entire team to do a course walk through. This review should be very thorough; every link should be clicked, every video viewed, every assessment completed, etc. Some things to look for during your review:
+In this phase, you will want your entire team to do a course walk-through. This review should be very thorough; every link should be clicked, every video viewed, every assessment completed, etc. Some things to look for during your review:
 
 -   Clear assignment instructions and deadlines
 
@@ -175,11 +180,11 @@ By the end of this phase, you should have incorporated feedback from your review
 
 Remember to do reviews on desktop and mobile devices!
 
-
+****************
 Phase 5: Support
 ****************
 
-This phase usually happens during the delivery of the course. As a result, not all instructional designers will be involved at this phase, but it is important to have strategies in place prior to the launch of the course.
+This phase usually happens during the delivery of the course. As a result, not all instructional designers will be involved in this phase, but it is important to have strategies in place prior to the launch of the course.
 
 In this phase, communication with learners is key. Creating a communication plan that outlines the type and frequency of communication can help to keep learners engaged and progressing through your course. It is also important for your SMEs or course instructors to have a plan for how they will communicate with and support learners. You can help them to create a support calendar and assign tasks to instructors or team members. This is especially important for synchronous courses where learners expect to have interaction with and communication from their instructors.
 
@@ -204,7 +209,7 @@ It is important to include opportunities for learners to provide feedback to the
 
 -   Grade reports.
 
-By the end of this phase, you should develop a communication plan and have opportunities for learner feedback in place prior to the launch of the course. This phase continues into the delivery of the course and will provide information for how to improve future iterations of the course.
+By the end of this phase, you should develop a communication plan and have opportunities for learner feedback in place prior to the launch of the course. This phase continues into the delivery of the course and will provide information on how to improve future iterations of the course.
 
 Templates for the Information Collection phase that may be helpful:
 
