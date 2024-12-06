@@ -16,6 +16,8 @@ sidebar navigation to let us know if they discover any additional bugs while
 using it. With the community's help, we can aim to make this the best navigation
 experience it can be. 
 
+.. sidebar_nav_issues_marker
+
 .. note::
 
     Known issues with sidebar navigation include:
