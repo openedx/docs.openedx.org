@@ -31,17 +31,17 @@ To change how the discussion experience is configured, follow these steps:
 #. Select **Apply** to save your configuration changes.
 
 The discussion configuration experience is comprised of two steps: provider selection and provider configuration.
-By default, courses are created with the edX discussion experience and its default configuration.
+By default, courses are created with the discussion experience and its default configuration.
 Other providers and configuration options can be selected to fit the needs of courses.
 
 **Step 1: Provider Selection**
 
-In this step, educators can select to use the default edX discussion experience or LTI based integrations with other providers.
+In this step, educators can select to use the default discussion experience or LTI based integrations with other providers.
 Below the grid of available providers is a table summarizing the features each integration provides.
 
 **Step 2: Configuration Options**
 
-Each provider supports its own set of features depending on the discussion features they support. The edX discussion application has various settings and controls that are described below.
+Each provider supports its own set of features depending on the discussion features they support. The discussion application has various settings and controls that are described below.
 All integrations use LTI 1.1 configuration, and may additionally support platform settings from the list below. Any special instructions or details specific to a given provider are described in this step as well.
 
 **Anonymous Posting**
@@ -80,7 +80,7 @@ To change access to the course wiki, follow these steps.
 #. Select **Apply** to save your configuration changes.
 
 The **Enable public wiki** access wiki setting is disabled by default, meaning that only course team members and
-enrolled learners can see the course wiki. If you enable this setting, then any registered edX user can access the
+enrolled learners can see the course wiki. If you enable this setting, then any registered user can access the
 course wiki, even if they are not enrolled in your course. However, public users would have to explicitly navigate
 to your wiki via the edX-wide wiki structure, or a link that has been provided to them.
 
@@ -114,3 +114,11 @@ To learn about Flexible Peer Grading and the course override setting, see  :ref:
  :class: dropdown
 
  :ref:`Adding Pages to a Course` (how to)
+
+ :ref:`Discussions` (concept)
+
+ :ref:`About Course Wiki` (reference)
+
+ :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+
+ :ref:`Open Response Assessments` (concept)
