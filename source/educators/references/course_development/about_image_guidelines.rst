@@ -38,7 +38,7 @@ mind.
 
 * The image must not include text or headlines.
 * You must have permission to use the image. Possible image sources include
-  Flickr creative commons, Stock Vault, Stock XCHNG, and iStock Photo.
+  Flickr Creative Commons, Stock Vault, Stock XCHNG, and iStock Photo.
 * Each course in a sequence or program must have a unique image.
 
 
@@ -51,9 +51,9 @@ Image Size Guidelines
 
 Images must follow specific size guidelines.
 
-
+-----------------
 Course Image Size
-*****************
+-----------------
 
 
 
