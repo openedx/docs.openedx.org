@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==0.7.16
     # via sphinx
-anyio==4.6.2.post1
+anyio==4.7.0
     # via
     #   starlette
     #   watchfiles
@@ -114,7 +114,9 @@ sphinxext-rediraffe==0.2.7
 starlette==0.41.3
     # via sphinx-autobuild
 typing-extensions==4.12.2
-    # via pydata-sphinx-theme
+    # via
+    #   anyio
+    #   pydata-sphinx-theme
 urllib3==2.2.3
     # via requests
 uvicorn==0.32.1
