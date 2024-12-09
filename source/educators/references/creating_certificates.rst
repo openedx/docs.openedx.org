@@ -73,3 +73,16 @@ Running the Open edX Platform*.
        For information about starting the course, see :ref:`Guidelines for
        Start and End Dates <Guidelines for
        Start and End Dates>`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Enable a Certificate` (how-to)
+
+  :ref:`Edit a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Issuing Certificates` (how-to)
+
+  :ref:`Enable Badges in Course` (how-to)

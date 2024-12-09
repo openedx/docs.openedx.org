@@ -164,3 +164,15 @@ manually remove unused images. For information, see
 :ref:`Delete a File <Delete a File>`.
 
 
+.. seealso::
+  :class: dropdown
+
+  :ref:`Setting Up Certificates` (reference)
+
+  :ref:`Edit a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Issuing Certificates` (how-to)
+
+  :ref:`Enable Badges in Course` (how-to)
