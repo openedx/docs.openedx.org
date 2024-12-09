@@ -104,3 +104,8 @@ For the course and for videos, if you choose **All Rights Reserved**, learners
 see **All Rights Reserved**; if you choose **Creative Commons** and select any
 allowed combination of options, learners see **Some Rights Reserved** and can
 select the link to see details.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Set Course Content Licensing` (how-to)
