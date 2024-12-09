@@ -77,17 +77,7 @@ To add multiple beta testers:
    cannot enroll themselves in your course.
 
 #. To send an email message to the beta testers, leave **Notify users by
-   email** selected. An example of the message that is sent to a beta tester
-   who is not enrolled in the course follows.::
-
-    Dear betatester,
-
-    You have been invited to be a beta tester for *course* at edge.edx.org
-    by a member of the course team.
-
-    Visit https://edge.edx.org/courses/course-name/about to join the course
-    and begin the beta test.
-
+   email** selected.
 
 #. Select **Add beta testers**.
 
