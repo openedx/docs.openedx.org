@@ -177,6 +177,8 @@ After choosing between an event or filter based on your use case, you can start 
 
 Here's an overview of the contribution process:
 
+.. TODO: Reference new documentation for creating long-term Open edX Events and Filters contributions, but for the time being reference what's available in the openedx-events and openedx-filters repositories.
+
 #. When contributing a hook, either an event or filter, you will need to interact with at least two repositories during the implementation: the hook repository (openedx-events or openedx-filters) and the service repository (edx-platform (LMS/CMS), credentials, etc.). This is necessary due to the design of the framework, implemented across two lightweight libraries that can be installed independently (see ADR: purpose of this repo) in the service repositories where definitions are used.
 #. For implementing the hook, follow the instructions in the guide specific to each repository for :doc:`openedx-events:how-tos/creating-new-events` and :doc:`openedx-filters:how-tos/create-new-filter`.
 #. For integrating the hook into a service, follow the instructions in the relevant repository for :doc:`openedx-events:how-tos/using-events` and :doc:`openedx-filters:how-tos/using-filters`.
