@@ -1,4 +1,4 @@
-.. _ReRun A Course:
+.. _Re Run A Course:
 
 ###################
 Re-Run a Course
@@ -19,7 +19,7 @@ that the **Import** and **Export** method takes less time than the **Course
 Re-Run** option because this method does not require action from a system
 administrator.
 
-.. _Export Import the Course:
+.. _Export-Import the Course:
 
 ***************************************
 Export and Import the Previous Course
@@ -27,7 +27,7 @@ Export and Import the Previous Course
 
 .. include:: export_import_course.rst
 
-.. _Use ReRun to Create a Course:
+.. _Use Re-Run to Create a Course:
 
 ***************************************
 Use the Course Re-Run Option
