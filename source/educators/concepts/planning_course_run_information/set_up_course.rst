@@ -17,3 +17,18 @@ types of basic information about your course.
 
 For information about how to develop your course content in the Studio course
 outline, see :ref:`Developing Your Course Index <Developing Your Course Index>`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Title Guidelines` (reference)
+
+  :ref:`Creating Number Guidelines` (reference)
+
+  :ref:`Course and Program Images and Videos` (reference)
+
+  :ref:`Course Description` (reference)
+
+  :ref:`Additional Course Information` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`

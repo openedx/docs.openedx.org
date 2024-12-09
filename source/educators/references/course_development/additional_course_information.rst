@@ -219,3 +219,17 @@ For example, you might want to make the following information available.
 
 You add this information as a JSON dictionary in Studio. For more
 information, see :ref:`Add Course Metadata <Add Course Metadata>`.
+
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Title Guidelines` (reference)
+
+  :ref:`Creating Number Guidelines` (reference)
+
+  :ref:`Course and Program Images and Videos` (reference)
+
+  :ref:`Course Description` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`

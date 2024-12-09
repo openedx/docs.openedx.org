@@ -32,8 +32,14 @@ Example Course Numbers
 * 6.002.1x and 6.002.2x
 
 .. seealso::
- :class: dropdown
+  :class: dropdown
 
- :ref:`Course Title Guidelines` (reference)
+  :ref:`Course Title Guidelines` (reference)
 
- :ref:`Creating a New Course <Create a New Course>`
+  :ref:`Course and Program Images and Videos` (reference)
+
+  :ref:`Course Description` (reference)
+
+  :ref:`Additional Course Information` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`

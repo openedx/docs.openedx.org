@@ -55,11 +55,22 @@ Images must follow specific size guidelines.
 Course Image Size
 -----------------
 
-
-
 The course image that you add in Studio appears on the About page for the
 course and on the learner dashboard. It must be a minimum of 378 pixels in
 width by 225 pixels in height, and in .jpg or .png format. Make sure the
 image that you upload maintains the aspect ratio of those dimensions so that
 the image appears correctly on the dashboard.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Title Guidelines` (reference)
+
+  :ref:`Creating Number Guidelines` (reference)
+
+  :ref:`Course Description` (reference)
+
+  :ref:`Additional Course Information` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`
 

@@ -49,8 +49,14 @@ as an XSeries.
 * Circuits and Electronics 3: Applications
 
 .. seealso::
- :class: dropdown
+  :class: dropdown
 
- :ref:`Course Number Guidelines` (reference)
+  :ref:`Creating Number Guidelines` (reference)
 
- :ref:`Creating a New Course <Create a New Course>`
+  :ref:`Course and Program Images and Videos` (reference)
+
+  :ref:`Course Description` (reference)
+
+  :ref:`Additional Course Information` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`
