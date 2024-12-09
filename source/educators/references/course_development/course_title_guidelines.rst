@@ -31,9 +31,9 @@ For information about how to add your course name, see
   the way that your course title appears in Studio and the LMS, see
   :ref:`Change the Course Title <Change the Course Title>`.
 
-======================
+*********************
 Example Course Titles
-======================
+*********************
 
 The following course titles are for stand-alone courses.
 

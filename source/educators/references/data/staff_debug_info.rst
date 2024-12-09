@@ -33,7 +33,7 @@ but for the sake of clarity, some of these fields are documented here.
   correctly.
 
 ``attempts``
-  The number of times that the currently logged in learner has
+  The number of times that the currently logged-in learner has
   attempted to answer the problem correctly, so far. Every time this learner
   attempts to answer this question, this number will go up, until it reaches
   ``max_attempts``.

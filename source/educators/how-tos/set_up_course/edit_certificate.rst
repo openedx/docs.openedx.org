@@ -1,8 +1,8 @@
 .. _Edit a Certificate:
 
-******************
+##################
 Edit a Certificate
-******************
+##################
 
 .. tags:: educator, how-to
 

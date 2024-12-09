@@ -1,8 +1,8 @@
 .. _Require an Entrance Exam:
 
-****************************
+########################
 Require an Entrance Exam
-****************************
+########################
 
 .. tags:: educator, how-to
 
@@ -19,17 +19,17 @@ After you save your changes, Studio automatically creates an **Entrance Exam**
 section in your course outline. To add content to your entrance exam, go to the
 course outline.
 
-=======================
+***********************
 Create an Entrance Exam
-=======================
+***********************
 
 You create your course entrance exam from the course outline in Studio.
 Creating entrance exam content is just like creating other course content. For
 more information, see :ref:`Course Components Index`.
 
-==================================
+**********************************
 Adjust Scores in the Entrance Exam
-==================================
+**********************************
 
 If you find an error in the exam after learners have taken it, and corrections
 to the exam are unavoidable, you have several options to rescore the exam for
