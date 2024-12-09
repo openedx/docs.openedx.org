@@ -79,3 +79,19 @@ In Studio and the LMS, your course number changes to the value that you specify
 in the **Course Number Display String** field. The URL for your course does not
 change.
 
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+
+ :ref:`Course Outline` (concept)
+
+ :ref:`Create a Course` (how-to)
+
+ :ref:`Create the Course About Page` (how-to)
+
+ :ref:`Understanding a Course Outline` (reference)
+
+ :ref:`Developing Your Course Outline` (reference)
+

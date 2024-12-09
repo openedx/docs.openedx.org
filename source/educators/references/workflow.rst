@@ -21,7 +21,7 @@ course content, with links to more details.
 Understanding Course Building Blocks
 ************************************************
 
-Before you begin, you should understand the building blocks of an edX course.
+Before you begin, you should understand the building blocks of an Open edX course.
 
 * :ref:`The course outline<Developing Your Course Outline>` is the container
   for all of your course content. The outline contains one or more sections.
@@ -42,7 +42,7 @@ Before you begin, you should understand the building blocks of an edX course.
 Creating New Course Content
 ****************************************
 
-Once you understand the way edX courses are structured, you can start
+Once you understand the way Open edX courses are structured, you can start
 organizing your content and entering it into Studio.
 
 You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a
@@ -152,3 +152,26 @@ more information, see :ref:`Designing for Mobile`.
 .. note:: Keep in mind that course updates that you make might take longer to
    appear in the edX mobile apps than on the edX site. In particular, newly
    published content can take up to an hour to update on the Android app.
+
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Course Outline` (concept)
+ :ref:`Creating a New Course in Studio` (how-to)
+ :ref:`Create a Course` (how-to)
+ :ref:`Create the Course About Page` (how-to)
+ :ref:`Understanding a Course Outline` (reference)
+ :ref:`Add Content in the Course Outline` (reference)
+ :ref:`Developing Your Course Outline` (reference)
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
+ :ref:`Publish Content from the Course Outline` (reference)
+ :ref:`Developing Course Sections` (reference)
+ :ref:`Developing Course Subsections` (reference)
+ :ref:`Create a Section` (how-to)
+ :ref:`Create a Subsection ` (how-to)
+ :ref:`Hiding a Subsection from Learners` (how-to)
+ :ref:`Add Course Metadata` (how-to)
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
+ :ref:`Resources for edx.org Course Teams` (reference)
+ :ref:`Resources for Open edX` (reference)   

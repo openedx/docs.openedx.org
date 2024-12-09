@@ -35,3 +35,26 @@ When you expand a subsection, all units in the subsection are visible.
 
 Select the name of a unit to open the :ref:`unit page<Developing Course
 Units>`.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Getting Started with Course Content Development` (reference)
+ :ref:`Course Outline` (concept)
+ :ref:`Creating a New Course in Studio` (how-to)
+ :ref:`Create a Course` (how-to)
+ :ref:`Create the Course About Page` (how-to)
+ :ref:`Add Content in the Course Outline` (reference)
+ :ref:`Developing Your Course Outline` (reference)
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
+ :ref:`Publish Content from the Course Outline` (reference)
+ :ref:`Developing Course Sections` (reference)
+ :ref:`Developing Course Subsections` (reference)
+ :ref:`Create a Section` (how-to)
+ :ref:`Create a Subsection ` (how-to)
+ :ref:`Hiding a Subsection from Learners` (how-to)
+ :ref:`Add Course Metadata` (how-to)
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
+ :ref:`Resources for edx.org Course Teams` (reference)
+ :ref:`Resources for Open edX` (reference)
