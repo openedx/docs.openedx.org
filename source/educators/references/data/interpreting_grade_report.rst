@@ -132,6 +132,12 @@ columns that provide the following information.
   enrolled or unenrolled in the course.
 
 .. seealso::
- :class: dropdown
+  :class: dropdown
 
- :ref:`Access_grades` (how-to)
+  :ref:`Learner Data` (concept)
+  
+  :ref:`Interpret the Problem Grade Report` (reference)
+
+  :ref:`Understanding the Progress Page` (reference
+
+  :ref:`Manage Learner Grades <Grades>` (how-to)
