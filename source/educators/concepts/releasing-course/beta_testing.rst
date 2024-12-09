@@ -103,10 +103,10 @@ reluctant to provide feedback, or overly zealous.
 
 If you do want a team member to be a beta tester, note that the privileges of
 the Staff or Admin role override those of a beta tester. The team member must
-use a different, second email address to create an additional edX account and
+use a different, second email address to create an additional account and
 enroll in the course, and the course team must assign only the beta tester role
-to that edX account. The course team member experiences the course as a learner
-only when she signs in to edX using the beta tester account.
+to that account. The course team member experiences the course as a learner
+only when she signs in using the beta tester account.
 
 .. _What_Test:
 
