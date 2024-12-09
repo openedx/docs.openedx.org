@@ -1,3 +1,6 @@
+.. _Set Up Course Prerequisites:
+
+###########################
 Set Up Course Prerequisites
 ###########################
 

@@ -74,5 +74,12 @@ To assign a privileged role to a course team member, follow these steps.
 To remove an assigned role, view the list of users and then select **Revoke
 access**.
 
+.. seealso::
+  :class: dropdown
 
+  :ref:`Planning Course Staff <Course_Staffing>` (reference)
+
+  :ref:`Add Course Creators` (how-to)
+
+  :ref:`Add Beta Testers to a Course <Add_Beta_Testers>` (how-to)  
 

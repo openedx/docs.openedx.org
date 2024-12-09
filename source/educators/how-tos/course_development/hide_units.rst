@@ -61,3 +61,10 @@ outline. Follow the instructions above and clear the **Hide from learners**
 check box.
 
 You are prompted to confirm that you want to make the unit visible to learners.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Set Access Restrictions For a Unit` (how-to)
+
+  :ref:`Create a Unit` (how-to) 

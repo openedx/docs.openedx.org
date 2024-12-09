@@ -197,3 +197,7 @@ For information about creating differentiated content based on cohorts, see
 For information about creating differentiated content based on enrollment
 track, see :ref:`Enrollment Track Specific Courseware Overview`.
 
+.. seealso::
+  :class: dropdown
+
+  :ref:`Prerequisite Course Subsections <configuring_prerequisite_content>` (how-to)

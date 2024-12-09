@@ -54,3 +54,10 @@ for Student**. If you reset learner attempts, rescore learner submissions, or
 delete learner state, the operation runs in the background. If you want to see
 a record of all the operations that have run for the entrance exam, select
 **Show Background Task History for Student**.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Specify Prerequisite Courses and Exams` (how-to)
+
+  :ref:`Set Up Course Prerequisites` (how-to)
