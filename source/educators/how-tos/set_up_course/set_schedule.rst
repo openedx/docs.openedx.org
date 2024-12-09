@@ -23,7 +23,7 @@ To set dates and times for the course and for course enrollment in Studio,
 follow these steps.
 
 .. note::
- EdX recommends that you verify all important dates in Studio one week before
+ Open EdX recommends that you verify all important dates in Studio one week before
  you plan to start the course.
 
 #. On the **Settings** menu, select **Schedule & Details**.
@@ -39,7 +39,7 @@ follow these steps.
 .. note::
   The times that you set are in Coordinated Universal Time (UTC). You might
   want to verify that you have specified the times that you intend by using a
-  time zone converter such as `Time and Date Time Zone Converter`_.
+  time zone converter such as `Time and Date Time Zone Converter`.
 
 .. _Advertise a Different Start Date:
 
@@ -110,3 +110,17 @@ To set the pacing for your course, follow these steps.
 #. Under **Course Pacing**, select either **Instructor-Paced** or
    **Self-Paced**.
 #. Select **Save Changes**.
+
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Dates` (reference)
+
+  :ref:`Scheduling Your Course` (reference)
+
+  :ref:`Setting Course Pacing` (reference)
+
+  :ref:`Course Pacing` (reference)
+
+  :ref:`Additional Course Run Information` (concept)

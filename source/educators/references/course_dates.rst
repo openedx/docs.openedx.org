@@ -1,3 +1,5 @@
+.. _Course Dates: 
+
 #####################
 Course Dates
 #####################
@@ -45,9 +47,17 @@ Enrollment End Date and Time
 The enrollment end date and time specify when learners can no longer enroll in the course. Ensure that the enrollment end date is late enough to allow learners adequate time to enroll. The enrollment end date must be before the course end date.
 
 .. seealso::
+  :class: dropdown
 
- Beta Test a Course (task)
+  :ref:`Scheduling Your Course` (reference)
 
- Section and Subsection Release Dates (references)
+  :ref:`Set Schedule and Pacing` (how-to)
+
+  :ref:`Setting Course Pacing` (reference)
+
+  :ref:`Course Pacing` (reference)
+
+  :ref:`Additional Course Run Information` (concept)
+
 
 
