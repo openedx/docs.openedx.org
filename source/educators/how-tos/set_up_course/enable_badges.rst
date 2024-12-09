@@ -30,3 +30,16 @@ To stop issuing badges in your course, follow these steps.
 
 To enable badging for your course if it was previously disabled, change the
 value of the key to ``True``.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Setting Up Certificates` (reference)
+
+  :ref:`Enable a Certificate` (how-to)
+
+  :ref:`Edit a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Issuing Certificates` (how-to)
