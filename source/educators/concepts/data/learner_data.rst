@@ -76,3 +76,5 @@ understanding of how the learner population changes over time.
  :ref:`View and download student data` (how-to)
 
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+
+ :ref:`Manage Learner Grades <Grades>` (how-to) 
