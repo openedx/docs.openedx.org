@@ -1,11 +1,38 @@
 Aspects Course Comparison Dashboard
 ###################################
 
-The Product and Engineering Teams from eduNEXT and Axim Collaborative are
-excited to introduce a new Aspects Dashboard for course administrators with the
-upcoming Sumac Release! The new Course Comparison Dashboard will allow users to
-easily compare courses and runs by enrollment, number of active users,
-high-level performance and video engagement metrics. We've also made
-improvements to existing course-level dashboards to make them easier to use.
+The Product and Engineering Teams from eduNEXT and Axim Collaborative are excited to introduce the 'Aspects Course Comparison Dashboards </en/latest/documentors/references/quick_reference_rst.html>'_ for course administrators! We’ve also made improvements to existing course-level dashboards to make them easier to use. 
 
-The Open edX Sumac release comes out in December 2024.
+Operators can learn more about enabling or updating Aspects on their installations by reviewing the Operator Release Notes.
+
+Compare courses and course runs with Aspects
+********************************************
+
+The new Course Comparison Dashboard allows users to easily compare courses and/or course runs by enrollment, number of active users, high-level performance and video engagement information. We’ve included filters and sorting functionality to help users make comparisons between courses. 
+
+In this new dashboard, users can view metrics for all runs of a course combined or broken out by each individual run by switching between two tabs at the top of the dashboard. Those who want to compare all runs of a course at a glance can easily do so by filtering the dashboard by course and viewing the Run Metrics tab.
+
+INSERT IMAGE 1
+
+Spot high and low enrollment and activity
+=========================================
+
+The Course Comparison Dashboard makes it easy to identify courses with the highest and lowest levels of enrollment and activity with tables that allow users to sort courses or runs by current enrollment or active learner count. 
+
+INSERT IMAGE 2
+
+Filter by course tags
+=====================
+
+The Course Comparison Dashboard displays the course-level tags applied to each course or run on instances running the Redwood Release or later. Users can even filter the dashboard to view, sort, and compare only courses that have specific tag(s) applied. 
+
+INSERT IMAGE 3
+
+Gauge problem difficulty
+========================
+
+We’ve tried to make it easy for course delivery teams to spot courses with problems that may need review. The learner performance table in the dashboard shows a sortable average percent correct on the first problem attempt averaged across all problems in a course to highlight which courses’ problems might be too easy or too difficult for learners.
+
+INSERT IMAGE 4
+
+We’ve made it easy for users who want to easily drill further into a course’s problem attempts and results data by providing links to the individual course dashboard for each course directly in the Course Comparison Dashboard.
