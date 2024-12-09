@@ -137,3 +137,15 @@ To set the hours per week week estimate in Studio, follow these steps.
 #. Select **Save Changes**.
 
 #. View your course About page to test how the requirements will appear to learners.
+
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Creating a Course About Page` (reference)
+
+  :ref:`Create the Course About Page` (how-to)
+
+  :ref:`Course About Video Guidelines` (reference)
+
+  :ref:`Add an Image` (how-to)
