@@ -48,6 +48,14 @@ Settings and Toggles
 - `DISABLED_COUNTRIES <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L2956>`_
 - `GRADEBOOK_FREEZE_DAYS <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/lms/envs/common.py#L1098>`_
 - `XBLOCK_RUNTIME_V2_EPHEMERAL_DATA_CACHE <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L1034>`_
+- `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/cms/djangoapps/contentstore/toggles.py#L613>`_
+- `contentstore.new_studio_mfe.disable_new_libraries <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/cms/djangoapps/contentstore/toggles.py#L641C3-L641C4`_
+- `course_experience.enable_ses_for_goalreminder <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/features/course_experience/__init__.py#L37>`_
+- `discounts.enable_first_purchase_discount_override <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/features/discounts/applicability.py#L32>`_
+- `new_core_editors.use_advanced_problem_editor <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/cms/djangoapps/contentstore/toggles.py#L163>`_
+- `notifications.enable_new_notification_view <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/core/djangoapps/notifications/config/waffle.py#L53>`_
+- `notifications.enable_notification_grouping <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/core/djangoapps/notifications/config/waffle.py#L42C19-L42C61>`_
+- `notifications.enable_ora_grade_notifications <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/core/djangoapps/notifications/config/waffle.py#L40>`_
 
 
 Other Operator Changes
