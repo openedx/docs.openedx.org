@@ -116,3 +116,8 @@ subsection, follow these steps.
   .. note:: Prerequisite course subsection settings are not retained when
      you :ref:`export or import a course<Exporting and Importing a Course>`, or
      when you :ref:`re-run a course<Rerun a Course>`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Controlling Content Visibility` (reference)     
