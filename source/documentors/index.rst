@@ -55,6 +55,7 @@ Open edX Documentors
 
       * :doc:`references/doc_guidelines`
       * :doc:`references/quick_reference_rst`
+      * :doc:`references/templates/index`
       * :doc:`references/doc_templates`
       * :doc:`references/doc_checklist`
       +++

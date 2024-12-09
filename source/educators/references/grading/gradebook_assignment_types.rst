@@ -1,8 +1,8 @@
 .. _Gradebook Assignment Types:
 
-******************************
+##########################
 Gradebook Assignment Types
-******************************
+##########################
 
 .. tags:: educator, reference
 
@@ -36,9 +36,9 @@ To create a new assignment type, in the bottom of the Grading page, select
   and allowing droppable assignments.
 
 
-==========================
+**********************
 Assignment Type Fields
-==========================
+**********************
 
 You configure the following fields for each assignment type.
 

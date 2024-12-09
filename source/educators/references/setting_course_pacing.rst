@@ -1,19 +1,19 @@
 .. _Setting Course Pacing:
 
-*************
+#############
 Course Pacing
-*************
+#############
 
 .. tags:: educator, reference
 
 This topic describes the difference between instructor-paced and self-paced
 courses.
 
-===========================
+*************************
 Overview of Course Pacing
-===========================
+*************************
 
-When you create an edX course, you can set the schedule of the course,
+When you create an Open edX course, you can set the schedule of the course,
 including due dates for assignments or exams, or you can allow learners to work
 at their own pace. Courses that follow a schedule that you set are known as
 instructor- paced courses. Courses that offer suggested due dates for
@@ -32,9 +32,9 @@ page. By default, courses are instructor-paced.
 .. note::
     You cannot change the course pacing after the course start date has passed.
 
-=======================================
+***************************************
 Instructor-Paced and Self-Paced Courses
-=======================================
+***************************************
 
 Instructor-paced courses progress at the pace that the course author sets. You
 set release dates for content and due dates for assignments, and assignment due
@@ -89,9 +89,9 @@ Now, Personalized Learning Schedule can be adapted to have:
 #. A mix of default and custom pacing, where the user sets custom pacing to some, but not all, graded assignments in a course. The rest of the assignments that are not set have default pacing applied to them.
 
 
-========================================================
+********************************************************
 Setting Custom Pacing in Personalized Learning Schedules
-========================================================
+********************************************************
 
 Once you have created a graded assignment in your self-paced course, the assignment is eligible to be included in
 a learner’s Personalized Learning Schedule (PLS), and it will automatically inherit default pacing.
