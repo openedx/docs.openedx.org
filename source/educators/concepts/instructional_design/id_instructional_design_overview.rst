@@ -1,3 +1,5 @@
+.. _Instructional Design Overview: 
+
 #############################
 Instructional Design Overview
 #############################
@@ -349,3 +351,10 @@ As you get started building your online course in Open EdX, here are five import
 3.  Create opportunities for learners to engage with a) what they’ve learned, b) their peers, c) the course instructor.
 4.  Think about the needs and motivations of different learners.
 5.  Create a course outline before you start building.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Development Process` (concept)
+
+  :ref:`Instructional Design Templates` (concept)

@@ -1,3 +1,5 @@
+.. _Course Development Process:
+
 ##############################
 The Course Development Process
 ##############################
@@ -216,3 +218,10 @@ Templates for the Information Collection phase that may be helpful:
 * :ref:`Support Calendar Template<SupportCalendarTemplate>`
 
 Remember: Course development is an iterative process. It is important to assume that there will be some changes made after the first group of learners completes the course and provides feedback.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Instructional Design Overview` (concept)
+
+  :ref:`Instructional Design Templates` (concept)

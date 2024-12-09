@@ -1,3 +1,5 @@
+.. _Instructional Design Templates:
+
 ##############################
 Instructional Design Templates
 ##############################
@@ -115,3 +117,10 @@ If your team is involved in the delivery of a course, you may want to spend some
 
 .. image:: /_images/instructional_design/support_calendar_template.png
    :alt: Thumbnail of Downloadable Template for Support Calendar
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Instructional Design Overview` (concept)
+
+  :ref:`Course Development Process` (concept) 
