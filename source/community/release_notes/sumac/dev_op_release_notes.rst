@@ -74,6 +74,7 @@ Other Operator Changes
 Deprecations & Removals
 ***********************
 
+- The existing "Content Libraries" feature has been renamed to "Legacy Libraries" and will be deprecated in the next release (Teak), and removed entirely in release after Teak in favor of the new "Content Libraries" feature. The Teak release will include a tool for migrating content from Legacy Libraries into new Content Libraries.
 - In `frontend-app-learner-dashboard <https://github.com/openedx/frontend-app-learner-dashboard>`_ 
    - support for Optimizely has been removed along with the ProductRecommendations widget.
    - `DEPR: Optimizely Support <https://github.com/openedx/frontend-app-learner-dashboard/issues/387>`_
