@@ -80,7 +80,8 @@ Deprecations & Removals
    - ``commerce-coordinator`` related code has been removed
    - `PR: <https://github.com/openedx/edx-platform/pull/35527>`_
 - [UPCOMING] In Teak pre-design-tokens brand packages will no longer be supported. With design tokens, theme authors will instead override core Paragon tokens by defining their own JSON tokens that get deep merged alongside the core Paragon tokens, thus overriding any tokens that were defined by the theme author. See `the associated DEPR ticket for details <https://github.com/openedx/brand-openedx/issues/23>`_.
-- the cs_comments_service application is being replaced by forum. `[DEPR]: Replace cs_comments_service #437 <https://github.com/openedx/cs_comments_service/issues/437>`_
+- The cs_comments_service application is being replaced by forum. `[DEPR]: Replace cs_comments_service #437 <https://github.com/openedx/cs_comments_service/issues/437>`_
+- The Zooming Image Tool will be deprecated in Sumac. `[DEPR] Zooming Image Tool (HTML block template) #31436 <https://github.com/openedx/edx-platform/issues/31436>`_
 
 Developer Experience
 ********************
