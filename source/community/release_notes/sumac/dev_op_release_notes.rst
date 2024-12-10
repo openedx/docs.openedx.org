@@ -45,6 +45,7 @@ For users running Tutor, they will automatically switch to the new app. Instruct
 
 Users not running Tutor will by default remain on the legacy cs_comments_service app. They need to read this part of the forum app README: https://github.com/openedx/forum?tab=readme-ov-file#forum-v2-toggle Some settings need to be defined even for legacy app users.
 
+
 Settings and Toggles
 ====================
 - `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L613>`_
