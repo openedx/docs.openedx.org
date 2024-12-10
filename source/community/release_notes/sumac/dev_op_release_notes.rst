@@ -41,6 +41,10 @@ Administrators & Operators
    - Additional Considerations: Commerce app itself is slated for deprecation nevertheless.
    - `courseware.enable_navigation_sidebar <https://github.com/openedx/edx-platform/blob/38f73442e78a8b9afb5543facd170dca830acb1a/lms/djangoapps/courseware/toggles.py#L86>`_  is now enabled by default. It was disabled by default in Redwood.
 
+For users running Tutor, they will automatically switch to the new app. Instructions to migrate data from mongodb to mysql is available in the plugin README https://github.com/overhangio/tutor-forum/ (not yet merged, see this PR).
+
+Users not running Tutor will by default remain on the legacy cs_comments_service app. They need to read this part of the forum app README: https://github.com/openedx/forum?tab=readme-ov-file#forum-v2-toggle Some settings need to be defined even for legacy app users.
+
 Settings and Toggles
 ====================
 - `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L613>`_
@@ -48,14 +52,16 @@ Settings and Toggles
 - `DISABLED_COUNTRIES <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L2956>`_
 - `GRADEBOOK_FREEZE_DAYS <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/lms/envs/common.py#L1098>`_
 - `XBLOCK_RUNTIME_V2_EPHEMERAL_DATA_CACHE <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L1034>`_
-- `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/cms/djangoapps/contentstore/toggles.py#L613>`_
-- `contentstore.new_studio_mfe.disable_new_libraries <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/cms/djangoapps/contentstore/toggles.py#L641C3-L641C4`_
 - `course_experience.enable_ses_for_goalreminder <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/features/course_experience/__init__.py#L37>`_
 - `discounts.enable_first_purchase_discount_override <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/features/discounts/applicability.py#L32>`_
 - `new_core_editors.use_advanced_problem_editor <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/cms/djangoapps/contentstore/toggles.py#L163>`_
 - `notifications.enable_new_notification_view <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/core/djangoapps/notifications/config/waffle.py#L53>`_
 - `notifications.enable_notification_grouping <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/core/djangoapps/notifications/config/waffle.py#L42C19-L42C61>`_
 - `notifications.enable_ora_grade_notifications <https://github.com/openedx/edx-platform/blob/dafcac780ae96a2ca93a2dc94425d3a3e27bbc83/openedx/core/djangoapps/notifications/config/waffle.py#L40>`_
+- `ENABLE_ORA_PEER_CONFIGURABLE_GRADING <https://github.com/openedx/edx-ora2/blob/5ce41562e7b874856c541a20eb8288880628b3f0/openassessment/xblock/config_mixin.py#L186-L198>`_
+- `RBAC_IGNORE_INVALID_JWT_COOKIE <https://github.com/openedx/edx-rbac/blob/b354112ff24181ceb7ca660db493b5a03d62f808/edx_rbac/constants.py#L7-L16>`_
+- `enterprise.enterprise_customer_support_tool <https://github.com/openedx/edx-enterprise/blob/7ca07317c5dc05ab70b83451144192a0e1c4162f/enterprise/toggles.py#L46-L56>`_
+- `enterprise.enterprise_groups_v2 <https://github.com/openedx/edx-enterprise/blob/7ca07317c5dc05ab70b83451144192a0e1c4162f/enterprise/toggles.py#L58-L68>`_
 
 
 Other Operator Changes
@@ -74,6 +80,8 @@ Deprecations & Removals
    - ``commerce-coordinator`` related code has been removed
    - `PR: <https://github.com/openedx/edx-platform/pull/35527>`_
 - [UPCOMING] In Teak pre-design-tokens brand packages will no longer be supported. With design tokens, theme authors will instead override core Paragon tokens by defining their own JSON tokens that get deep merged alongside the core Paragon tokens, thus overriding any tokens that were defined by the theme author. See `the associated DEPR ticket for details <https://github.com/openedx/brand-openedx/issues/23>`_.
+- the cs_comments_service application is being replaced by forum. `[DEPR]: Replace cs_comments_service #437 <https://github.com/openedx/cs_comments_service/issues/437>`_
+
 Developer Experience
 ********************
 
