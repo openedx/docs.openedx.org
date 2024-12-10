@@ -90,6 +90,8 @@ Deprecations & Removals
 Developer Experience
 ********************
 
+- With the launch of the new Content Libraries feature, many new or updated APIs are now ready for developers to start using (though some are in beta and may change). This includes the entire `Learning Core API <https://github.com/openedx/openedx-learning/blob/main/openedx_learning/api/authoring.py>`_ (Components, Contents, Publishing, Collections), `Content Tagging API <https://github.com/openedx/edx-platform/blob/master/openedx/core/djangoapps/content_tagging/api.py>`_, `Content Libraries API <https://github.com/openedx/edx-platform/blob/master/openedx/core/djangoapps/content_libraries/api.py>`_, and `Learning Core XBlock API <https://github.com/openedx/edx-platform/blob/master/openedx/core/djangoapps/xblock/api.py>`_. Most of these APIs (other than tagging) are only useful in content libraries at the moment, but when courseware is eventually moved to Learning Core as well, the Learning Core APIs will be recommended way to work with all learning content in the platform, and the modulestore APIs will be deprecated.
+
 Researcher & Data Experiences
 *****************************
 
