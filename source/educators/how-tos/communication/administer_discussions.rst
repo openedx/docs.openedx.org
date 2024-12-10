@@ -1,14 +1,14 @@
 .. _Administer Discussions:
 
-##########################
+######################
 Administer Discussions
-##########################
+######################
 
 .. tags:: educator, how-to
 
-****************
+*************
 Edit Messages
-****************
+*************
 
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can edit the content of posts, responses, and
@@ -35,9 +35,9 @@ images, or links.
 #. Communicate the reason for your change. For example, "Posting a solution
    violates the honor code."
 
-****************
+***************
 Delete Messages
-****************
+***************
 
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can delete posts, responses, or comments. It might be
@@ -64,9 +64,9 @@ include abusive language.
  before taking any other action.
 
 
-********************************
+****************************
 Respond to Reports of Misuse
-********************************
+****************************
 
 Learners have the option to report contributions that they find inappropriate.
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
@@ -90,9 +90,9 @@ way and edit or delete them as needed.
    flag: select the "More" icon and then **Unreport**.
 
 
-*****************************************************
+****************************************************
 View Profile Information for Discussion Participants
-*****************************************************
+****************************************************
 
 To find out more about a specific discussion participant, you can view that
 learner's edX profile from their linked username on discussion posts.
@@ -108,12 +108,11 @@ follow these steps.
 The learner's account profile page opens. Learners can have either a limited
 profile or a full profile.
 
-For more information about profiles, see `SFD Dashboard <sfd dashboard>`_.
 
 
-****************
+***********
 Block Users
-****************
+***********
 
 If a learner repeatedly misuses course discussions despite being warned, you
 can unenroll that learner from the course. For more information, see
