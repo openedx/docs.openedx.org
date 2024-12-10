@@ -95,7 +95,7 @@ View Profile Information for Discussion Participants
 ****************************************************
 
 To find out more about a specific discussion participant, you can view that
-learner's edX profile from their linked username on discussion posts.
+learner's Open edX profile from their linked username on discussion posts.
 
 To access a learner's profile from a discussion post that they contributed,
 follow these steps.
