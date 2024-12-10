@@ -33,7 +33,7 @@ Administrators & Operators
    - After upgrading, you need to run ``manage.py cms reindex_studio --experimental --incremental`` to populate the new Studio Search index with your existing content (courseware/libraries). Studio search results will be incomplete until this command has finished.
 - `Course assets should be served by a view rather than a middleware <https://github.com/openedx/edx-platform/issues/34702>`_
    - Background: The LMS/CMS previously handled course asset requests (asset-v1: andc4x URLs) via a middleware called StaticContentServer. This middleware has been converted to a view.
-   - Action: If your deployment has a custom MIDDLEWARE list in Django, you will need to remove this item at the time of upgrade to Sumac. Otherwise, no action is needed..
+   - Action: If your deployment has a custom MIDDLEWARE list in Django, you will need to remove this item at the time of upgrade to Sumac. Otherwise, no action is needed.
 - Ubuntu 22.04 Related Operators Note
    - `PR <https://github.com/openedx/edx-platform/pull/35450>`_
    - In newer versions of ubuntu the MD4 hashing algorithm is disabled by default. To enable it the openssl config needs to be updated in a manner similar to what's being done here. Alternatively, you can set the FEATURES['ENABLE_BLAKE2B_HASHING'] setting to True which will switch to a newer hashing algorithm where MD4 was previously used.
