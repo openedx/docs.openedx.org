@@ -1,19 +1,19 @@
 .. _Closing Discussions:
 
-============================================
+###################
 Closing Discussions
-============================================
+###################
 
 .. tags:: educator, how-to
 
 .. note:: You can only close discussions when you work in a web browser. You
-   cannot close discussions when you work in an edX mobile app.
+   cannot close discussions when you work in an Open edX mobile app.
 
 To define when discussions are closed to new contributions and when they
 reopen, follow these steps.
 
-1. Navigate to edx discussion configuration page
-(see :ref:`Configuring Edx Discussions`).
+1. Navigate to Open edx discussion configuration page
+(see :ref:`Configuring Open Edx Discussions`).
 
 2. Scroll down to **Discussion Blackout Dates** field.
 
@@ -43,4 +43,4 @@ reopen, follow these steps.
 
  :ref:`Running_discussions` (concept)
 
- :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Configuring Open Edx Discussions` (how-to)
