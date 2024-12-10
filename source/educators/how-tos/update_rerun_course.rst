@@ -1,8 +1,8 @@
 .. _Update the New Course:
 
-#######################################
+####################################
 Update the New Course after a Re-Run
-#######################################
+####################################
 
 .. tags:: educator, how-to
 
@@ -87,8 +87,8 @@ who enroll in the new course run.
 
   .. only:: Partners
 
-    Another example of a user interface change is for courses on the edx.org
-    website. A new **Help** option was added to the LMS in September 2016 to
+    Another example of a user interface change is for courses on the `Open edX Website <https://openedx.org/>`_
+    A new **Help** option was added to the LMS in September 2016 to
     provide access to the *EdX Learner's Guide*. When this option was added,
     the previous **Help** option was renamed **Support**.
 
