@@ -30,7 +30,7 @@ Administrators & Operators
 **************************
 
 - Most search functionality included in the core platform now supports Meilisearch as an alternative to Elasticsearch. For instances deployed using Tutor, only Meilisearch is supported, and Tutor will automatically provision Meilisearch and create the indexes during the upgrade.
-  - After upgrading, you need to run `manage.py cms reindex_studio --experimental --incremental` to populate the new Studio Search index with your existing content (courseware/libraries). Studio search results will be incomplete until this command has finished.
+   - After upgrading, you need to run ``manage.py cms reindex_studio --experimental --incremental`` to populate the new Studio Search index with your existing content (courseware/libraries). Studio search results will be incomplete until this command has finished.
 - `Course assets should be served by a view rather than a middleware <https://github.com/openedx/edx-platform/issues/34702>`_
    - Background: The LMS/CMS previously handled course asset requests (asset-v1: andc4x URLs) via a middleware called StaticContentServer. This middleware has been converted to a view.
    - Action: If your deployment has a custom MIDDLEWARE list in Django, you will need to remove this item at the time of upgrade to Sumac. Otherwise, no action is needed..
