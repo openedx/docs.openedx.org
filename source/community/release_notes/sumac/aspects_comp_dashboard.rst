@@ -35,4 +35,5 @@ We’ve tried to make it easy for course delivery teams to spot courses with pro
 
 .. image:: /_images/release_notes/sumac/sumac-aspects-problem-4.png
 
+
 We’ve made it easy for users who want to easily drill further into a course’s problem attempts and results data by providing links to the individual course dashboard for each course directly in the Course Comparison Dashboard.
