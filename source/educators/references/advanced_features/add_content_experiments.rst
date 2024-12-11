@@ -41,6 +41,4 @@ Components`.
 
  :ref:`Create Content for Content Experiment Groups` (how-to)
 
- :ref:`Change the Group Configuration for a Content Experiment` (how-to)
-
  :ref:`Create a Content Experiment` (how-to)
