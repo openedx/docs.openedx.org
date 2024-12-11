@@ -1,12 +1,19 @@
+.. _build-taxonomy-using-template:
+
 #################################
 Build a taxonomy using a template
 #################################
 
 .. tags:: educator, how-to
 
-Tags that can be applied to content are organized into hierarchical taxonomies. Currently, the only way to create or modify a taxonomy is by uploading a CSV or JSON file.
+Tags that can be applied to content are organized into hierarchical taxonomies.
+Currently, the only way to create or modify a taxonomy is by uploading a CSV or
+JSON file.
 
-The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarchy - see `“How-to: Create a flat taxonomy by uploading a CSV” <Create_flat_taxonomy_by_uploading_CSV.rst>`_ for a simpler procedure to create such a flat taxonomy. For the purposes of this guide, we’ll assume you want to create a taxonomy of cities, like this:
+The simplest type of taxonomy is a flat taxonomy that doesn't have any hierarchy -
+see :ref:`create-flat-taxonomy` for a simpler procedure to create
+such a flat taxonomy. For the purposes of this guide, we'll assume you want to
+create a taxonomy of cities, like this:
 
 * United States
 
@@ -23,7 +30,7 @@ The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarc
   * Mexico City
 
 1. Build a taxonomy using a template
-***************************************
+************************************
   
 * First, review your proposed taxonomy. Note that each tag must have a unique name (across all levels of the hierarchy). So, for example, we could not have “New York” as both a second-level (state) tag and third-level (city) tag - we have to rename one of them (e.g. “New York City” in this case)
 
@@ -92,4 +99,4 @@ The simplest type of taxonomy is a flat taxonomy that doesn’t have any hierarc
   * In Google Sheets, use File > Download > Comma Separated Values (.csv).
   * In Numbers, use File > Export To > CSV… and use the default options.
 
-* Import your taxonomy following the `How-to: Import and export a taxonomy guide <https://openedx.atlassian.net/l/cp/axcFGD1Q>`_.
+* Import your taxonomy following the How To :ref:`import-export-taxonomy`.

@@ -1,60 +1,35 @@
+<<<<<<< HEAD
 .. _Resources for edx org Course Teams: 
 
 **********************************
 Resources for edx.org Course Teams
 **********************************
+=======
+###################################
+Resources for Open edX Course Teams
+###################################
+>>>>>>> origin/main
 
 .. tags:: educator, reference
 
 Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses
-on edx.org or edX Edge.
-
-======================================
-The edX Course Creator Series
-======================================
-
-The courses in the edX Course Creator Series provide foundational knowledge
-about using the edX platform to deliver educational experiences. These courses
-are available on edx.org.
+on an Open edX site.
 
 .. contents::
  :local:
  :depth: 1
 
-edX101: Overview of Creating a Course
-**************************************
+Open edX Demo Course
+====================
 
-The `edX101`_ course is designed to provide a high-level overview of the course
-creation and delivery process using Studio and the edX LMS. It also highlights
-the extensive capabilities of the edX platform.
+The `Open edX Demo Course <https://sandbox.openedx.org/courses/course-v1:OpenedX+01-2024+2024-1/about>`_ course is designed to discuss the tools and features that you can leverage in your learning program. After providing details about the platform, the course shows the different types of content that can be created, showcase the variety of assessment tools, and explore the different ways that you can engage your learners with social interactions.
 
-StudioX: Creating a Course with edX Studio
-*************************************************
-
-After you complete edX101, "StudioX" provides more detail about using Studio
-to create a course, add different types of content, and configure your course
-to provide an optimal online learning experience.
-
-BlendedX: Blended Learning with edX
-************************************
-
-In "BlendedX" you explore ways to blend educational technology with
-traditional classroom learning to improve educational outcomes.
-
-VideoX: Creating Video for the edX Platform
-*************************************************
-
-"VideoX" presents strategies for creating videos for course content and course
-marketing. The course provides step-by-step instructions for every stage of
-video creation, and includes links to exemplary sample videos created by edX
-partner institutions.
-
-==============
+*************
 Documentation
-==============
+*************
 
-Documentation for course teams is available from the docs.edx.org web page.
+Documentation for course teams is available from the docs.openedx.org web page.
 
 * `Building and Running an Open edX Course`_ is a comprehensive guide with
   concepts and procedures to help you build a course in Studio and then
@@ -69,29 +44,12 @@ a PDF version, select **v: latest** at the lower right of the page, then select
 **PDF**.
 
 .. note:: If you use the Safari browser, be aware that it does not support the
- search feature for the HTML versions of the edX guides. This is a known
+ search feature for the HTML versions of the Open edX guides. This is a known
  limitation.
 
-======
-Email
-======
-
-To receive and share information by email, course team members can:
-
-* Subscribe to announcements and other new topics in the edX Partner
-  Portal or the Open edX Portal. For information about how to subscribe, see
-  the :doc:`Release Announcements through the Open edX Portal <../../community/how-tos/receive_announcements_by_email>`
-
-* Join the `openedx-studio`_ Google group to ask questions and participate in
-  discussions with peers at other edX partner organizations and edX staffers.
-
-====================
+*******************
 Wikis and Web Sites
-====================
+*******************
 
-The edX product team maintains public product roadmaps on :ref:`the Open edX
-Portal<The Open edX Portal>` and :ref:`the edX Partner Portal<The edX Partner
-Portal>`.
+The Open edX product team maintains public product roadmaps at this `public roadmap <https://github.com/orgs/openedx/projects/4>`_and, you can get involved with defining the roadmap by joining the `Product Working Group <https://openedx.atlassian.net/wiki/spaces/OEPM/overview>`_.
 
-The `edX Partner Support`_ site for edX partners hosts discussions that are
-monitored by edX staff.

@@ -7,6 +7,7 @@ Open edX Sumac Release - Product Release Notes
    content_libraries_redesign_beta
    customizing_pages
    aspects_comp_dashboard
+   default_sidebar_nav
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found

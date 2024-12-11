@@ -1,3 +1,5 @@
+.. _add-tags-to-a-course:
+
 ##############################
 Add and delete tags on courses
 ##############################
