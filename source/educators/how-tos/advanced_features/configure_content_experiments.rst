@@ -65,3 +65,13 @@ Configuration>`.
  :ref: `Edit a Group Configuration` (how-to)
 
  :ref:`Delete a Group Configuration` (how to)
+
+
+Maintenance chart
+-----------------
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Revision Year| Working Group reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 01/2024      | Documentation WG - Ana Gomez  |Redwood         |Pass.                           |
++--------------+-------------------------------+----------------+--------------------------------+
