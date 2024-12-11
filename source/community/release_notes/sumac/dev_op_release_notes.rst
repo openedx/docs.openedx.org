@@ -44,6 +44,7 @@ Administrators & Operators
    - `courseware.enable_navigation_sidebar <https://github.com/openedx/edx-platform/blob/38f73442e78a8b9afb5543facd170dca830acb1a/lms/djangoapps/courseware/toggles.py#L86>`_  is now enabled by default. It was disabled by default in Redwood.
 
 - New Forums Implementation (migration from Ruby to Python forums backend)
+
 For users running Tutor, they will automatically switch to the new app. Instructions to migrate data from mongodb to mysql is available in the plugin README https://github.com/overhangio/tutor-forum/ (not yet merged, see this PR).
 
 Users not running Tutor will by default remain on the legacy cs_comments_service app. They need to read this part of the forum app README: https://github.com/openedx/forum?tab=readme-ov-file#forum-v2-toggle Some settings need to be defined even for legacy app users.
