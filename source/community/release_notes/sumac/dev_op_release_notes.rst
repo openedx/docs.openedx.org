@@ -17,6 +17,8 @@ To view the end-user facing docs, see the :doc:`feature_release_notes`.
 Breaking Changes
 ****************
 
+No breaking changes in Sumac.
+
 
 User Facing Experiences
 *************************
