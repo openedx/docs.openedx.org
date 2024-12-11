@@ -18,12 +18,10 @@ Breaking Changes
 ****************
 
 
-Learner Experiences
-*******************
+User Facing Experiences
+*************************
 
-
-Instructor Experiences
-**********************
+See the :doc:`feature_release_notes` for more detail on user-facing changes in this release.
 
 
 Administrators & Operators
