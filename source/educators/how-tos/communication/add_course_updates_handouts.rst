@@ -1,8 +1,8 @@
 .. _Add a Course Update:
 
-*******************
+###################
 Add a Course Update
-*******************
+###################
 
 .. tags:: educator, how-to
 
