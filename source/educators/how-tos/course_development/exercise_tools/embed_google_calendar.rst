@@ -140,8 +140,7 @@ To add a Google Calendar component, follow these steps.
 #. Under **Add New Component**, select **Advanced**, and then select **Google
    Calendar**.
 
-   The new component is added to the unit, with the default Open edX Google Calendar
-   embedded.
+   The new component is added to the unit.
 
 #. In the new component, select **Edit**.
 

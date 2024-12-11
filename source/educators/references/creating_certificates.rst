@@ -10,8 +10,8 @@ This section describes how to create and manage certificates for your course.
 
 
   .. note::
-   Before you can issue certificates, the administrator for your instance of
-   Open edX must configure the platform to allow course teams to generate and
+   Before you can issue certificates, the administrator for your instance
+   must configure the platform to allow course teams to generate and
    issue certificates. For more information, see
    :ref:`Enable a Certificate <Enable a Certificate>`.
 
@@ -52,7 +52,7 @@ For more information about issuing certificates, see :ref:`Issuing
 Certificates <Issuing Certificates>`.
 
 The design of certificates for your course, including your institution's
-logo, are configured on your instance of Open edX. For more information, see
+logo, are configured on your instance. For more information, see
 :ref:`Enable a Certificate <Enable a Certificate>`.
 
 .. The course start date limitation is not published for partners at this time.

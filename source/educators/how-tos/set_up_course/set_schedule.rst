@@ -23,7 +23,7 @@ To set dates and times for the course and for course enrollment in Studio,
 follow these steps.
 
 .. note::
- Open EdX recommends that you verify all important dates in Studio one week before
+ It is recommended that you verify all important dates in Studio one week before
  you plan to start the course.
 
 #. On the **Settings** menu, select **Schedule & Details**.

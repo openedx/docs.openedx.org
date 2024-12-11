@@ -96,7 +96,7 @@ What You Will Learn Guidelines
 ************************************
 
 The "what you will learn" information describes the skills and knowledge
-learners will acquire in the course in an itemized list. Open EdX recommends that
+learners will acquire in the course in an itemized list. It is recommended that
 you format each item as a bullet with four to ten words.
 
 

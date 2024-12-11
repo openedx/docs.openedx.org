@@ -344,7 +344,7 @@ Providing clear instructions, articulating expectations and providing feedback a
 Online Learning Best Practices
 ******************************
 
-As you get started building your online course in Open EdX, here are five important principles to keep in mind:
+As you get started building your online course on your platform, here are five important principles to keep in mind:
 
 1.  Clearly define the learning goals and outcomes.
 2.  Match your learning outcomes to the content you present and the ways you assess learning.

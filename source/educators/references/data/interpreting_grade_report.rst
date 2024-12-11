@@ -88,7 +88,7 @@ columns that provide the following information.
 
 * The **Verification Status** column indicates whether learners who are
   enrolled in course tracks that require ID verification have successfully
-  verified their identities to your Open edX instance by submitting an official photo ID via webcam. The value in this column is "N/A" for learners enrolled in course
+  verified their identities to your instance by submitting an official photo ID via webcam. The value in this column is "N/A" for learners enrolled in course
   tracks that do not require ID verification, such as "Audit".
 
   A value of "Not ID Verified" in this column indicates that the learner is

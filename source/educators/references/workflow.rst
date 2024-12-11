@@ -21,7 +21,7 @@ course content, with links to more details.
 Understanding Course Building Blocks
 ************************************************
 
-Before you begin, you should understand the building blocks of an Open edX course.
+Before you begin, you should understand the building blocks of courses built on the Open edX® platform.
 
 * :ref:`The course outline<Developing Your Course Outline>` is the container
   for all of your course content. The outline contains one or more sections.
@@ -42,7 +42,7 @@ Before you begin, you should understand the building blocks of an Open edX cours
 Creating New Course Content
 ****************************************
 
-Once you understand the way Open edX courses are structured, you can start
+Once you understand the way courses are structured on Open edX®, you can start
 organizing your content and entering it into Studio.
 
 You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a

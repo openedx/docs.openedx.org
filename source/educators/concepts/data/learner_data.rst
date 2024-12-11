@@ -19,7 +19,7 @@ any time after you create the course.
 Guidance for Working with Personal Information
 **********************************************
 
-The information that your Open edX instance collects from site registrants includes personal information that can be used to identify, contact, and locate individuals. This
+The information that your instance collects from site registrants includes personal information that can be used to identify, contact, and locate individuals. This
 information is available to course team members with the Admin or Staff role
 for the learners who are enrolled in their courses.
 

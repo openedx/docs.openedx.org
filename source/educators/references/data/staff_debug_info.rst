@@ -6,13 +6,13 @@ Staff Debug Info
 
 .. tags:: educator, reference
 
-The Open edX system keeps track of learners' progress through a course -- recording
+The platform keeps track of learners' progress through a course -- recording
 when the learner watches videos, responds to problems, and so on. If you are a
 member of a course team, some of that data is visible to you for debugging
 purposes. Under every problem is a **Staff Debug Info** button: selecting this
 button opens a window with information about the problem.
 
-None of this information should be necessary for day-to-day usage of Open edX,
+None of this information should be necessary for day-to-day usage of your Open edX® LMS,
 but for the sake of clarity, some of these fields are documented here.
 
 ``is_released``
