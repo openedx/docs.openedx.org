@@ -1,4 +1,4 @@
-.. _Copy and Past Course Content:
+.. _Copy and Paste Course Content:
 
 #############################
 Copy and Paste Course Content
@@ -43,5 +43,5 @@ Copy and Paste Course Content
 .. seealso::
    :class: dropdown
 
-   :ref:`Copy and Past Course Units` (how-to)
+   :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
    :ref:`Add Units to the Outline` (how-to)

@@ -24,7 +24,7 @@ Course Launch Checklist in Studio
   Your Course`.
 * **Create Your Course Grading Policy**: Establish your grading policy,
   including assignment types and passing score. All assignments add up to
-  100%. See :ref:`Grading Index`.
+  100%. See :ref:`Manage Learner Grades <Grades>`.
 * **Enable Your Certificate**: Make sure that all text is correct, signatures
   have been uploaded, and the certificate has been activated. See :ref:`Setting Up Certificates`.
 * **Set Important Course Dates**: Establish your course schedule, including
@@ -58,7 +58,7 @@ your course starts follow.
 * Check the course start date and time in Studio. See :ref:`Scheduling Your
   Course`.
 * Review the grading policy, and set a grace period for homework assignment
-  due dates. See :ref:`Grading Index`.
+  due dates. See :ref:`Manage Learner Grades <Grades>`.
 * Confirm that any optional features that you want your course to include, such
   as learner cohorts, are enabled and configured. See :ref:`Cohorts Overview`.
 

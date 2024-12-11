@@ -58,7 +58,7 @@ If your course has additional ranges, they will be displayed here.
 Grade Summary
 *************
 
-The Grade Summary table breaks down each :ref:`assignment type<Configure the Assignment Types>` available in the course and the learner's performance in each type.
+The Grade Summary table breaks down each :ref:`assignment type<Gradebook Assignment Types>` available in the course and the learner's performance in each type.
 The grades displayed in this section follow the same calculation criteria as the :ref:`Grades<grades_chart>` feature. To recap, an assignment will be factored into
 this grade calculation if its :ref:`Assessment Visibility Setting<Problem Results Visibility>` has been set to "Always Show Results" or "Show When Subsection is Past Due".
 

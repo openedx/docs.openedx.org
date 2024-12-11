@@ -68,4 +68,11 @@ re-run course are independent. Changes to either course have no effect on the
 other course. Therefore, you should ensure that the original course content is
 as complete as possible before you re-run the course.
 
+.. seealso::
+ :class: dropdown
 
+ :ref:`Course re-runs <Course reruns>` (how-to)
+
+ :ref:`Re-Run a Course <Re Run A Course>` (concept)
+
+ :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)

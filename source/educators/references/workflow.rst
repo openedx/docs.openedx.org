@@ -67,11 +67,11 @@ The following diagram summarizes the content creation workflow:
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` throughout the creation process, including making sure that the
-content is available for learners who access courses using the edX mobile apps.
+content is available for learners who access courses using the mobile apps.
 For more information, see :ref:`design for mobile <Designing for Mobile>`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
-   appear in the edX mobile apps than on the edX site. In particular, newly
+   appear in the mobile apps than on your course website. In particular, newly
    published content can take up to an hour to update on the Android app.
 
 
@@ -146,11 +146,11 @@ visibility:
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` during the revision process, including making sure that the content
-is available for learners who access courses using the edX mobile apps. For
+is available for learners who access courses using the mobile apps. For
 more information, see :ref:`Designing for Mobile`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
-   appear in the edX mobile apps than on the edX site. In particular, newly
+   appear in the mobile apps than on your course website. In particular, newly
    published content can take up to an hour to update on the Android app.
 
 
@@ -158,10 +158,10 @@ more information, see :ref:`Designing for Mobile`.
  :class: dropdown
  
  :ref:`Course Outline` (concept)
- :ref:`Creating a New Course in Studio` (how-to)
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
  :ref:`Create a Course` (how-to)
  :ref:`Create the Course About Page` (how-to)
- :ref:`Understanding a Course Outline` (reference)
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
  :ref:`Add Content in the Course Outline` (reference)
  :ref:`Developing Your Course Outline` (reference)
  :ref:`Modify Settings for Objects in the Course Outline` (reference)
@@ -169,9 +169,9 @@ more information, see :ref:`Designing for Mobile`.
  :ref:`Developing Course Sections` (reference)
  :ref:`Developing Course Subsections` (reference)
  :ref:`Create a Section` (how-to)
- :ref:`Create a Subsection ` (how-to)
- :ref:`Hiding a Subsection from Learners` (how-to)
+ :ref:`Create a Subsection` (how-to)
+ :ref:`Hiding a Subsection from Learners  <Hide a Subsection from Students>` (how-to)
  :ref:`Add Course Metadata` (how-to)
  :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
- :ref:`Resources for edx.org Course Teams` (reference)
+ :ref:`Resources for Open edX Course Teams <Resources for edx org Course Teams>` (reference)
  :ref:`Resources for Open edX` (reference)   

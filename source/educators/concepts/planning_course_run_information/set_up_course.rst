@@ -16,7 +16,7 @@ types of basic information about your course.
   information such as the course staff and start and end dates.
 
 For information about how to develop your course content in the Studio course
-outline, see :ref:`Developing Your Course Index <Developing Your Course Index>`.
+outline, see the section on :ref:`Creating a Course in Open edX® <Creating Course TOC>`.
 
 .. seealso::
   :class: dropdown
