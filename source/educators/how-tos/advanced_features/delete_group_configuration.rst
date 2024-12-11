@@ -31,15 +31,15 @@ Delete a Group Configuration
 
  :ref:`Configure Your Course for Content Experiments` (how-to)
 
- :ref: `Create a Group Configuration` (how-to)
+ :ref:`Create a Group Configuration` (how-to)
 
- :ref: `Edit a Group Configuration` (how-to)
+ :ref:`Edit a Group Configuration` (how-to)
 
 Maintenance chart
 -----------------
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Revision Year| Working Group reviewer        |   Release      |Test situation                  |
+|Review Date   | Working Group Reviewer        |   Release      |  Test situation                |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 01/2024      | Documentation WG - Ana Gomez  |Redwood         |Fail. Images need to be updated.|
+| 2024/12      | Documentation WG - Ana Gomez  |Redwood         |  Fail.                         |
 +--------------+-------------------------------+----------------+--------------------------------+

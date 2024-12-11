@@ -60,9 +60,9 @@ Configuration>`.
 
  :ref:`Guidelines for Modifying Group Configurations` (concept)
 
- :ref: `Create a Group Configuration` (how-to)
+ :ref:`Create a Group Configuration` (how-to)
 
- :ref: `Edit a Group Configuration` (how-to)
+ :ref:`Edit a Group Configuration` (how-to)
 
  :ref:`Delete a Group Configuration` (how to)
 
@@ -71,7 +71,7 @@ Maintenance chart
 -----------------
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Revision Year| Working Group reviewer        |   Release      |Test situation                  |
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 01/2024      | Documentation WG - Ana Gomez  |Redwood         |Pass.                           |
+| 2024/12      | Documentation WG - Ana Gomez  |Redwood         |Pass.                           |
 +--------------+-------------------------------+----------------+--------------------------------+
