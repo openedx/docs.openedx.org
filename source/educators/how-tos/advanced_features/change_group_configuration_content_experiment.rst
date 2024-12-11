@@ -54,6 +54,4 @@ groups, as well as create new components.
 
  :ref:`Create a Content Experiment` (how-to)
 
- :ref:`Change the Group Configuration for a Content Experiment` (how-to)
-
  :ref:`Add Content Experiments to Your Course` (reference)
