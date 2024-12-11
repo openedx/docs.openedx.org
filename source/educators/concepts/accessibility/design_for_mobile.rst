@@ -16,7 +16,7 @@ For information about accessibility best practices, see :ref:`Accessibility
 Index <Accessibility Index>`.
 
 The percentage of learners who access MOOCs using smartphones is increasing
-every day. Courses on you Open edX instance may be viewed on smartphones using the
+every day. Courses on your instance may be viewed on smartphones using the
 Android and iPhone apps, although we still recommend that learners complete
 graded assignments on a desktop computer, depending on the type of assessments
 that their courses include. For information on which exercises and tools are
