@@ -56,7 +56,7 @@ you design, test, and run your course.
 * Learners might be viewing your course materials on screens as large as a
   high-resolution Mac Thunderbolt display, or as small as a 5 inch smartphone
   screen, so it is difficult to size an image so that it displays well at all
-  resolutions. In general, Open edX recommends keeping most images under 0.5MB in
+  resolutions. In general, it is recommended to keep most images under 0.5MB in
   size so that learners who have low Internet bandwidth will not have trouble
   downloading the images. If you have a large image that requires zooming to
   view the full detail, in addition to providing an image that can be easily
