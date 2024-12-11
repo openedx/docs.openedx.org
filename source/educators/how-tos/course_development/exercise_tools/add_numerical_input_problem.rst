@@ -92,8 +92,7 @@ or a combination of one bracket and one parenthesis.
 For example, to identify the correct answers as 5, 6, or 7, but not 8, specify
 ``[5,8)``. To identify the correct answers as 6, 7, and 8, but not 5, specify
 ``(5,8]``.
-.. :diataxis-type: how-to
-.. _Use Feedback in a Numerical Input Problems:
+
 
 ===============
 Adding Feedback

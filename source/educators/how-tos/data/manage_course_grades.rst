@@ -70,7 +70,7 @@ learners' grades.
    learners' grades and their experience in the course as well as analysis of
    course data.
 
-   Oepn edX platform recommends that you announce any unavoidable grading related changes to
+   Best practice is that you announce any unavoidable grading related changes to
    learners by using, for example, updates on the **Course** page. You should
    also carefully track such changes for researchers.
 
@@ -81,9 +81,7 @@ Generate a Grade Report for All Learners in a Course
 ****************************************************
 
 For any course, you can generate grades and then download a file with the
-results for all learners in the course, including unenrolled learners. Open edX platform
-recommends that you generate a grade report as soon as certificates have been
-issued for your course.
+results for all learners in the course, including unenrolled learners. Best practice is to generate a grade report as soon as certificates have been issued for your course.
 
 When you initiate calculations to grade learner work, a process starts on the
 Open edX servers. The complexity of your grading configuration and the number of
@@ -286,7 +284,7 @@ To override grades in bulk, follow these steps.
 
    The CSV contains one row per learner, and the following columns:
 
-   * **username**: The user's Open edX username
+   * **username**: The user's username
    * **student_key**: The user's external university ID, if configured
    * **course_id**: The course ID
    * **track**: The user's enrollment track (e.g. audit, verified, etc.)
@@ -340,9 +338,9 @@ To download and view the interventions report, follow these steps:
 
 The report file contains per-learner information for learners in the Master’s track, including:
 
-* Open edX user ID
+* User ID
 
-* Open edX username
+* Username
 
 * Student Key
 
@@ -452,7 +450,7 @@ To extend a deadline for a learner, visit the **Extensions** tab on the **Instru
 
 You can also use this tab to **view all deadlines** or **reset a deadline**.
 
-*This feature is supported in courses published after June 1, 2019. To enable for an older course, first Publish the course from Studio. If you have questions, please contact your Open edX Project Coordinator.*
+*This feature is supported in courses published after June 1, 2019. To enable for an older course, first Publish the course from Studio.*
 
 
 
@@ -888,7 +886,7 @@ the problem. See :ref:`find_URL`.
 Find the Unique Location Identifier for a Problem
 ==================================================
 
-When you create each of the problems for a course, Open edX assigns a unique
+When you create each of the problems for a course, the platform assigns a unique
 location to it. To make grading adjustments for a problem, or to view data
 about it, you need to specify the problem location.
 

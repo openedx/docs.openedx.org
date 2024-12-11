@@ -433,7 +433,7 @@ the left and continuing through the columns to the right.
 Download the Student Answer Distribution Report
 ===============================================
 
-An automated process runs periodically on the Open edX servers to update the .csv
+An automated process runs periodically on the Open edX instance to update the .csv
 file of learner answer data. A link to the most recently updated version of the
 .csv file is available on the Instructor Dashboard.
 

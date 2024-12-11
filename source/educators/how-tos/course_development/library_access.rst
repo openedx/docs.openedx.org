@@ -1,8 +1,8 @@
 .. _Give Other Users Access to Your Library:
 
-#######################################
-Give Other Users Access to Your Library
-#######################################
+##############################################
+Give Other Users Access to Your Legacy Library
+##############################################
 
 .. tags:: educator, how-to
 

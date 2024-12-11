@@ -16,9 +16,6 @@ comments. Messages that include spoilers or solutions, or that contain
 inappropriate or off-topic material, should be edited quickly to remove text,
 images, or links.
 
-.. removed note for open edx re edit behavior in mobile apps. Posts can
-.. now be edited in the mobile apps (though ability depends on permissions)
-.. CT April 25, 2016
 
 #. View the live version of the course.
 
@@ -95,7 +92,7 @@ View Profile Information for Discussion Participants
 ****************************************************
 
 To find out more about a specific discussion participant, you can view that
-learner's Open edX profile from their linked username on discussion posts.
+learner's profile from their linked username on discussion posts.
 
 To access a learner's profile from a discussion post that they contributed,
 follow these steps.
