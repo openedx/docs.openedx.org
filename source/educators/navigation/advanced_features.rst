@@ -37,14 +37,13 @@ Run Content Experiments
    ../how-tos/advanced_features/create_group_configuration.rst
    ../how-tos/advanced_features/edit_group_configuration.rst
    ../how-tos/advanced_features/delete_group_configuration.rst
-   ../reference/advanced_features/add_content_experiments.rst
-   ../how-tos/advanced_features/create_content_experiments.rst
+   ../how-tos/advanced_features/create_content_experiment.rst
    ../how-tos/advanced_features/create_content_experiment_groups.rst
    ../how-tos/advanced_features/change_group_configuration_content_experiment.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/test_content_experiments.rst
    ../references/advanced_features/experiment_group_configurations.rst
-   ../reference/advanced_features/add_content_experiments.rst
+   ../references/advanced_features/add_content_experiments.rst
 
 .. _Use Teams in Your Course:
 
