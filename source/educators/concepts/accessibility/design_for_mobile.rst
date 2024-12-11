@@ -89,7 +89,7 @@ Testing Your Course For Mobile Devices
 **************************************
 
 If you have included some of the more complex problem types, or have highly
-customized the way course content displays, Open edX recommends that you test your
+customized the way course content displays, it is recommended that you test your
 course for multiple devices and displays.
 
 To test the mobile experience of your course, sign in to your course using the
