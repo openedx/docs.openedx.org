@@ -125,9 +125,9 @@ in Studio or create a Google Calendar XBlock in OLX.
 
 .. _Add a Google Calendar Component in edX Studio:
 
-*********************************************
-Add a Google Calendar Component in edX Studio
-*********************************************
+**************************************************
+Add a Google Calendar Component in Open edX Studio
+**************************************************
 
 Make sure that you :ref:`enable Google Calendars<Enable the Google Calendars
 Tool>` for your course before you add a Google Calendar component.
@@ -140,7 +140,7 @@ To add a Google Calendar component, follow these steps.
 #. Under **Add New Component**, select **Advanced**, and then select **Google
    Calendar**.
 
-   The new component is added to the unit, with the default edX Google Calendar
+   The new component is added to the unit, with the default Open edX Google Calendar
    embedded.
 
 #. In the new component, select **Edit**.
@@ -184,7 +184,7 @@ The value of the ``calendar_id`` attribute is the calendar ID that you copied
 in the :ref:`Obtain the Google Calendar ID` task.
 
 .. note::
-  The edX Learning Management System sets the height and width values for
+  The Learning Management System sets the height and width values for
   Google Calendars. If you add these attributes, the LMS overrides your
   changes.
 
