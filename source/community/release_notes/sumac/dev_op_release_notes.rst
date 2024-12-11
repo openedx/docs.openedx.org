@@ -30,6 +30,7 @@ Administrators & Operators
 **************************
 
 - Most search functionality included in the core platform now supports Meilisearch as an alternative to Elasticsearch. For instances deployed using Tutor, only Meilisearch is supported, and Tutor will automatically provision Meilisearch and create the indexes during the upgrade.
+   - Two recent features, Studio Course Search and the new Content Libraries (beta), require Meilisearch and will be hidden from the UI if Meilisearch is not available. (For the Content Libraries beta, this affects only the UI - developers can still use the APIs without Meilisearch.)
    - After upgrading, if you wish to use the new Content Libraries (beta) or Studio Course Search features, you will need to run ``manage.py cms reindex_studio --experimental --incremental`` to populate the new Studio Search index with your existing content (courseware/libraries). Studio search results will be incomplete until this command has finished.
 - `Course assets are now served by a view rather than a middleware <https://github.com/openedx/edx-platform/issues/34702>`_
    - Background: The LMS/CMS previously handled course asset requests (asset-v1: andc4x URLs) via a middleware called StaticContentServer. This middleware has been converted to a view.
