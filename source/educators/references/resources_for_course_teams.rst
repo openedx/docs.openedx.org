@@ -1,3 +1,5 @@
+.. _Resources for edx org Course Teams: 
+
 **********************************
 Resources for edx.org Course Teams
 **********************************

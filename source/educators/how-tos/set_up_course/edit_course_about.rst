@@ -91,7 +91,7 @@ change.
 
  :ref:`Create the Course About Page` (how-to)
 
- :ref:`Understanding a Course Outline` (reference)
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 
  :ref:`Developing Your Course Outline` (reference)
 

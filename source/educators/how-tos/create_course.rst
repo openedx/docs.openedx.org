@@ -1,3 +1,6 @@
+.. _Create a Course:
+
+###############
 Create a Course
 ###############
 
