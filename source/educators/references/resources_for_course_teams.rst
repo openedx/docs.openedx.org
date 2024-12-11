@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 .. _Resources for edx org Course Teams: 
 
-**********************************
-Resources for edx.org Course Teams
-**********************************
-=======
-###################################
+####################################
 Resources for Open edX Course Teams
-###################################
->>>>>>> origin/main
+####################################
 
 .. tags:: educator, reference
 
