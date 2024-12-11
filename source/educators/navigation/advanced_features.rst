@@ -32,12 +32,15 @@ Run Content Experiments
    :glob:
 
    ../concepts/advanced_features/content_experiments_overview.rst
-   ../how-tos/advanced_features/configure_content_experiments.rst
-   ../references/advanced_features/experiment_group_configurations.rst
    ../concepts/advanced_features/guidlines_modifying_group_configuration.rst
+   ../how-tos/advanced_features/configure_content_experiments.rst
+   ../how-tos/advanced_featurees/create_group_configuration.rst
+   ../how-tos/advanced_features/edit_group_configuration.rst
+   ../how-tos/advanced_features/delete_group_configuration.rst
    ../how-tos/advanced_features/add_content_experiments.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/test_content_experiments.rst
+   ../references/advanced_features/experiment_group_configurations.rst
 
 .. _Use Teams in Your Course:
 
