@@ -51,8 +51,8 @@ Administrators & Operators
    - Users not running Tutor will by default remain on the legacy `cs_comments_service` app. They need to read this part of the forum app README: https://github.com/openedx/forum?tab=readme-ov-file#forum-v2-toggle Some settings need to be defined even for legacy app users.
 
 
-Settings and Toggles
-====================
+New And Updated Settings and Toggles
+====================================
 - `contentstore.new_studio_mfe.disable_legacy_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L613>`_
 - `contentstore.new_studio_mfe.disable_new_libraries <https://github.com/openedx/edx-platform/blob/2c575209f1177f095860a89b0c0ac080db9442a1/cms/djangoapps/contentstore/toggles.py#L641C1-L641C2>`_
 - `DISABLED_COUNTRIES <https://github.com/openedx/edx-platform/blob/b07464ba2dc4e397af799e40effd2e267516ea2a/cms/envs/common.py#L2956>`_
@@ -68,6 +68,29 @@ Settings and Toggles
 - `RBAC_IGNORE_INVALID_JWT_COOKIE <https://github.com/openedx/edx-rbac/blob/b354112ff24181ceb7ca660db493b5a03d62f808/edx_rbac/constants.py#L7-L16>`_
 - `enterprise.enterprise_customer_support_tool <https://github.com/openedx/edx-enterprise/blob/7ca07317c5dc05ab70b83451144192a0e1c4162f/enterprise/toggles.py#L46-L56>`_
 - `enterprise.enterprise_groups_v2 <https://github.com/openedx/edx-enterprise/blob/7ca07317c5dc05ab70b83451144192a0e1c4162f/enterprise/toggles.py#L58-L68>`_
+
+Removed Settings and Toggles
+============================
+COURSEGRAPH_DUMP_COURSE_ON_PUBLISH
+FEATURESENABLE_LIBRARY_AUTHORING_MICROFRONTEND
+FEATURESENABLE_V2_CERT_DISPLAY_SETTINGS
+commerce.transition_to_coordinator.checkout
+commerce.transition_to_coordinator.refund
+contentstore.library_authoring_mfe
+discussions.enable_reported_content_notifications
+learner_dashboard.enable_b2c_subscriptions
+notifications.enable_coursewide_notifications
+notifications.enable_notifications_filters
+notifications.enable_ora_staff_notifications
+notifications.show_notifications_tray
+studio.enable_course_update_notifications
+BLOCKSTORE_BUNDLE_CACHE_TIMEOUT
+BUNDLE_ASSET_STORAGE_SETTINGS
+BUNDLE_ASSET_URL_STORAGE_KEY
+BUNDLE_ASSET_URL_STORAGE_SECRET
+BLOCKSTORE_BUNDLE_CACHE_TIMEOUT
+COURSEGRAPH_CONNECTION
+COURSEGRAPH_JOB_QUEUE
 
 
 Other Operator Changes
