@@ -43,3 +43,5 @@ sidebars to manage content`.
     :ref:`Sync a Library update to your course`
 
     :ref:`Add a Problem Bank to your course for randomization`
+
+    :ref:`Add users to Libraries`
