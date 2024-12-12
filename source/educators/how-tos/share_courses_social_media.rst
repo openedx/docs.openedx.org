@@ -26,3 +26,6 @@ media sites such as Facebook and Twitter.
 #. Select the appropriate button to publish your message on the social media
    site.
 
+.. _Explore edX Programs:
+
+.. only:: Partners
