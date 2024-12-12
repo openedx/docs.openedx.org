@@ -207,7 +207,14 @@ Embed IFrames
    ../how-tos/add_content_iframe.rst
 
 Work with Content Libraries
-*******************************************************
+***************************
+
+Work with Legacy Content Libraries
+**********************************
+
+The Legacy Libraries feature will be supported through Teak, moving to
+unsupported in Ulmo. Teak will include a one-click migration feature that will
+make it easy to convert a Legacy Library into the new Library interface.
 
 .. toctree::
    :maxdepth: 2
