@@ -14,7 +14,7 @@ duplicated to the new course. The original course is not changed in any way.
   :local:
   :depth: 1
 
-.. _Data Duplicated When You Re-Run a Course:
+.. _Data Duplicated When You Re Run a Course:
 
 ********************************************
 Data Duplicated When You Re-Run a Course
@@ -68,5 +68,11 @@ re-run course are independent. Changes to either course have no effect on the
 other course. Therefore, you should ensure that the original course content is
 as complete as possible before you re-run the course.
 
-For more information, see :ref:`Re-Run Course` and :ref:`Update the New
-Course`.
+.. seealso::
+ :class: dropdown
+
+ :ref:`Course re-runs <Course reruns>` (how-to)
+
+ :ref:`Re-Run a Course <Re Run A Course>` (concept)
+
+ :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)

@@ -7,8 +7,7 @@ Add Content in the Course Outline
 .. tags:: educator, reference
 
 You can add content in the course outline by creating a new section,
-subsection, or unit, or by duplicating an existing unit, subsection, or
-section.
+subsection, or unit, or by duplicating an existing unit, subsection, or section.
 
 For information about adding content to a unit, see :ref:`Developing Course
 Components`.
@@ -39,14 +38,13 @@ Adding New Sections, Subsections, or Units
   **New Unit**. The :ref:`unit<Developing Course Units>` page opens.
 
 
-=======================================================
+======================================================
 Duplicating Existing Sections, Subsections, or Units
-=======================================================
+======================================================
 
 To add a section, subsection, or unit by duplicating content that already
 exists in the course outline, select the **Duplicate** icon for the item that
-you want to duplicate. You see a **Duplicating** indicator at the bottom of the
-Studio page.
+you want to duplicate. You see a **Duplicating** indicator at the bottom of the Studio page.
 
 Duplicated items are added to the course outline immediately below the
 original item, with the name "Duplicate of <original item name>".
@@ -129,3 +127,25 @@ You are prompted to confirm the deletion.
  When you delete an object, all objects that it contains are deleted. For
  example, when you delete a subsection, all units in that subsection are
  deleted.
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+ :ref:`Course Outline` (concept)
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
+ :ref:`Create a Course` (how-to)
+ :ref:`Create the Course About Page` (how-to)
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+ :ref:`Developing Your Course Outline` (reference)
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
+ :ref:`Publish Content from the Course Outline` (reference)
+ :ref:`Developing Course Sections` (reference)
+ :ref:`Developing Course Subsections` (reference)
+ :ref:`Create a Section` (how-to)
+ :ref:`Create a Subsection` (how-to)
+ :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
+ :ref:`Add Course Metadata` (how-to)
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
+ :ref:`Resources for edx org Course Teams` (reference)
+ :ref:`Resources for Open edX` (reference)

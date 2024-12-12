@@ -1,3 +1,6 @@
+.. _Create the Course About Page:
+
+############################
 Create the Course About Page
 ############################
 

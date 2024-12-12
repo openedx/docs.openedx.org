@@ -96,7 +96,7 @@ What You Will Learn Guidelines
 ************************************
 
 The "what you will learn" information describes the skills and knowledge
-learners will acquire in the course in an itemized list. EdX recommends that
+learners will acquire in the course in an itemized list. It is recommended that
 you format each item as a bullet with four to ten words.
 
 
@@ -145,3 +145,16 @@ Use the following guidelines to select the level for your course.
   school or some university courses.
 * Advanced - Significant prerequisites; the course is geared to third or fourth
   year university students or master's degree students.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Title Guidelines` (reference)
+
+  :ref:`Creating Number Guidelines` (reference)
+
+  :ref:`Course and Program Images and Videos` (reference)
+
+  :ref:`Additional Course Information` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`

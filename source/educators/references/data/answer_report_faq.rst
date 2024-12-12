@@ -11,7 +11,7 @@ Answers to questions about the student answer distribution report follow.
 **My course doesn't have a student answer distribution report. How can I
 generate it?**
 
-Student answer distribution reports are generated automatically, and refreshed
+Student answer distribution reports are generated automatically and refreshed
 several times each day. The ``{course_id}_answer_distribution.csv`` file
 displays after all of the ``{course_id}_grade_report_{date}.csv`` files. Be
 sure to scroll to the end of the list of available reports.
@@ -35,7 +35,7 @@ identifiers, such as choice_1 and choice_2, for those answers.
 **Why don't I see a Question for some of my problems?**
 
 The value in the **Question** column is the question text that you identified
-for the problem with the accessible label formatting. If you did not identify
+for the problem with the accessible label formatting. If you did not identify the
 question text for the problem, you will not see a question. For more
 information about how to set up accessible labels for problems, see
 :ref:`Simple Editor`.
@@ -48,7 +48,7 @@ particular answer has not been selected since early March 2014, the
 in the report. How can that be?**
 
 Only questions that have a **Maximum Attempts** setting of 1 or higher are
-included on the report.
+included in the report.
 
 **I made a correction to a problem after it was released. How can I tell which
 learners tried to answer it before I made the change?**

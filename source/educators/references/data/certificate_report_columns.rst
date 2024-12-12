@@ -28,5 +28,8 @@ the course.
 .. seealso::
  :class: dropdown
 
- :ref:`Setting Up Certificates`
- :ref:`Checking Student Progress and Issuing Certificates`
+ :ref:`Access Certificate Data` (how-to)
+
+ :ref:`Setting Up Certificates` (reference)
+
+ :ref:`Learner Data` (concept)

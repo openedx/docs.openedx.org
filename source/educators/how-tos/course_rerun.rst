@@ -1,4 +1,4 @@
-.. _Re-Run Course:
+.. _Re Run A Course:
 
 ###################
 Re-Run a Course
@@ -35,7 +35,13 @@ Use the Course Re-Run Option
 
 .. include:: rerun_course.rst
 
+.. seealso::
+ :class: dropdown
 
+ :ref:`Re-running a Course <Rerun a Course>` (reference)
 
+ :ref:`Course re-runs <Course reruns>` (how-to)
+
+ :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)
 
 

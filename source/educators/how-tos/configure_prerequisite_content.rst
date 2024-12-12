@@ -1,8 +1,8 @@
 .. _configuring_prerequisite_content:
 
-********************************
+################################
 Prerequisite Course Subsections
-********************************
+################################
 
 .. tags:: educator, how-to
 
@@ -17,9 +17,9 @@ content until they have earned a minimum score in the prerequisite subsection.
 
 .. _enabling_subsection_gating:
 
-=================================
+********************************
 Enable Subsection Prerequisites
-=================================
+********************************
 
 To enable prerequisite subsections in a course, follow these steps.
 
@@ -31,9 +31,9 @@ To enable prerequisite subsections in a course, follow these steps.
 
 .. _creating_a_prerequisite_subsection:
 
-==================================
+********************************
 Create a Prerequisite Subsection
-==================================
+********************************
 
 To prevent learners from seeing a subsection of your course until they have
 earned a minimum score or completed a minimum portion in a prerequisite
@@ -116,3 +116,8 @@ subsection, follow these steps.
   .. note:: Prerequisite course subsection settings are not retained when
      you :ref:`export or import a course<Exporting and Importing a Course>`, or
      when you :ref:`re-run a course<Rerun a Course>`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Controlling Content Visibility` (reference)     

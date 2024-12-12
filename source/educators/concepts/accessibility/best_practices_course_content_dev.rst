@@ -573,7 +573,7 @@ Accessible Microsoft Word Resources
 ===================================
 Creating Accessible Excel Documents
 ===================================
-
+ 
 Many of the same accessibility techniques and principles that apply to
 authoring data tables in HTML also apply to creating Excel spreadsheets.
 

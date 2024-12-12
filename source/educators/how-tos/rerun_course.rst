@@ -31,7 +31,3 @@ steps.
   while the process runs. The new course appears on your **My Courses**
   dashboard in Studio when configuration is complete.
 
-.. seealso::
- :class: dropdown
-
- :ref:`Updating a New Course after a Re-Run <Update the New Course>` (how-to)
