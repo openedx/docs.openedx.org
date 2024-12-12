@@ -209,6 +209,13 @@ Embed IFrames
 Work with Content Libraries
 ***************************
 
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   ../how-tos/course_development/navigate_library_homepage.rst
+   ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
+
 Work with Legacy Content Libraries
 **********************************
 
