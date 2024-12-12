@@ -6,10 +6,7 @@ Preparing Learners for Proctored Exams
 
 .. tags:: educator, concept
 
-To prepare learners for a proctored exam, follow these guidelines.
-
-
-only:: Open_edX
+To prepare learners for a proctored exam, follow these guidelines:
 
 * Emphasize that learners must be aware of the requirements before taking the
   exam, and that some of the requirements might take some preparation.
