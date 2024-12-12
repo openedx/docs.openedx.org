@@ -1,8 +1,8 @@
 .. _Review_Answers:
 
-############################
+###########
 Answer Data
-############################
+###########
 
 .. tags:: educator, how-to
 
@@ -18,9 +18,9 @@ download an answer distribution report for course problems.
 
 .. _Student_Answer_Submission:
 
-*****************************
+**************************
 Learner Answer Submissions
-*****************************
+**************************
 
 You can review a single learner's complete submission history for a specific
 problem, or the answers submitted by all learners for that problem. For either
@@ -31,9 +31,9 @@ the number of attempts made, and the date and time of the submission.
  :local:
  :depth: 1
 
-============================================================
+=====================================
 View One Learner's Submission History
-============================================================
+=====================================
 
 Before you can check the answer or answers submitted by a learner, you need the
 learner's username. For more information about how to obtain usernames, see
@@ -60,9 +60,9 @@ the viewer.
 
 .. _Interpret a Student Submission History:
 
-==========================================
+========================================
 Interpret a Learner's Submission History
-==========================================
+========================================
 
 The Submission History Viewer shows every timestamped database record of the
 interactions between a learner and a problem, which can include processes
@@ -209,9 +209,9 @@ reported ``Score`` and the values for ``student_answers``, ``attempts``, and
 
 .. _Student_Problem_Answers:
 
-============================================================
+=======================================
 Report All Learners' Answer Submissions
-============================================================
+=======================================
 
 The Student State report lists the answers that every learner has submitted for
 one or more problems. You can download this report for just one problem, or for
@@ -248,9 +248,9 @@ steps.
 
 .. _Interpret the Student State Report:
 
-============================================================
+==================================
 Interpret the Student State Report
-============================================================
+==================================
 
 The Student State report contains a row for each learner who has viewed a
 problem or submitted an answer for a problem, identified by username.
@@ -345,9 +345,9 @@ indicates that no peer assessments have been submitted.
 
 .. _Student_Answer_Distribution:
 
-****************************************
+***************************
 Student Answer Distribution
-****************************************
+***************************
 
 For certain types of problems in your course, you can download a .csv file with
 data about the distribution of learner answers. Student answer distribution
@@ -429,11 +429,11 @@ the left and continuing through the columns to the right.
 
 .. _Download_Answer_Distributions:
 
-===================================================
+===============================================
 Download the Student Answer Distribution Report
-===================================================
+===============================================
 
-An automated process runs periodically on the edX servers to update the .csv
+An automated process runs periodically on the Open edX instance to update the .csv
 file of learner answer data. A link to the most recently updated version of the
 .csv file is available on the Instructor Dashboard.
 
@@ -447,9 +447,9 @@ To download the most recent file of learner answer data, follow these steps.
    ``{course_id}_answer_distribution.csv`` file. You may have to scroll down to
    find this file.
 
-====================================================
+================================================
 Interpret the Student Answer Distribution Report
-====================================================
+================================================
 
 You can use the Student Answer Distribution report to review learner responses
 to assignments, which can then help you evaluate the structure and completeness

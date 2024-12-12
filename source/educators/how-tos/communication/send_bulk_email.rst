@@ -1,8 +1,8 @@
 .. _Send_Bulk_Email:
 
-**************************************************
+############################################
 Send an Email Message to Course Participants
-**************************************************
+############################################
 
 .. tags:: educator, how-to
 
@@ -40,9 +40,9 @@ while you wait for your message to be sent.
 
 .. _Send_Scheduled_Bulk_Email:
 
-*********************************************************
+*****************************************************
 Send a Scheduled Email Message to Course Participants
-*********************************************************
+*****************************************************
 
 We have introduced a way to schedule a bulk email message to be sent at a
 specified date and time in the future. Once a message has been scheduled,
