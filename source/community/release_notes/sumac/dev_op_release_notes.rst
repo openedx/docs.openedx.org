@@ -33,7 +33,7 @@ Administrators & Operators
    - Two recent features, Studio Course Search and the new Content Libraries (beta), require Meilisearch and will be hidden from the UI if Meilisearch is not available. (For the Content Libraries beta, this affects only the UI - developers can still use the APIs without Meilisearch.)
    - The new Content Libraries (beta) can be hidden entirely in Sumac by setting the waffle flag ``contentstore.new_studio_mfe.disable_new_libraries`` to "Yes". This option will be removed in Teak.
    - After upgrading, if you wish to use the new Content Libraries (beta) or Studio Course Search features, you will need to run ``manage.py cms reindex_studio --experimental --incremental`` to populate the new Studio Search index with your existing content (courseware/libraries). Studio search results will be incomplete until this command has finished.
-   - A new media storage setting is required for new Content Libraries. This should be specified as `OPENEDX_LEARNING['MEDIA']`. Tutor will [provide this setting automatically](https://github.com/overhangio/tutor/blob/33d2bc2c71e3cd30545417afb18ba2bd989a19fd/tutor/templates/apps/openedx/settings/partials/common_all.py#L251-L258), and can be used as an example for those who are running different infrastructure. For those not running Tutor, _please ensure that the file storage location is not publicly accessible_.
+   - A new media storage setting is required for new Content Libraries. This should be specified as OPENEDX_LEARNING['MEDIA']. Tutor will `provide this setting automatically <https://github.com/overhangio/tutor/blob/33d2bc2c71e3cd30545417afb18ba2bd989a19fd/tutor/templates/apps/openedx/settings/partials/common_all.py#L251-L258>`_, and can be used as an example for those who are running different infrastructure. For those not running Tutor, **please ensure that the file storage location is not publicly accessible**.
 - `Course assets are now served by a view rather than a middleware <https://github.com/openedx/edx-platform/issues/34702>`_
    - Background: The LMS/CMS previously handled course asset requests (asset-v1: andc4x URLs) via a middleware called StaticContentServer. This middleware has been converted to a view.
    - Action: If your deployment has a custom MIDDLEWARE list in Django, you will need to remove this item at the time of upgrade to Sumac. Otherwise, no action is needed.
@@ -111,8 +111,21 @@ Deprecations & Removals
 - In edx-platform:
    - ``commerce-coordinator`` related code has been removed. `PR: <https://github.com/openedx/edx-platform/pull/35527>`_
 - [UPCOMING] In Teak pre-design-tokens brand packages will no longer be supported. With design tokens, theme authors will instead override core Paragon tokens by defining their own JSON tokens that get deep merged alongside the core Paragon tokens, thus overriding any tokens that were defined by the theme author. See `the associated DEPR ticket for details <https://github.com/openedx/brand-openedx/issues/23>`_.
+- [UPCOMING] Between now and the release of Teak, all Dockerfiles will be removed from the Open edX organization. As an alternative, Tutor provides `production-ready Docker images <https://hub.docker.com/u/overhangio/>`_ for all supported Open edX services. And each Open edX service repository should contain documentation describing how it can be installed and executed, allowing anyone to write a Dockerfile that provisions the repository. See `this associated DEPR ticket for details <https://github.com/openedx/public-engineering/issues/263>`_. 
 - The cs_comments_service application is being replaced by forum. `[DEPR]: Replace cs_comments_service #437 <https://github.com/openedx/cs_comments_service/issues/437>`_
 - The Zooming Image Tool will be deprecated in Sumac. `[DEPR] Zooming Image Tool (HTML block template) #31436 <https://github.com/openedx/edx-platform/issues/31436>`_
+- The EdxRestApiClient has been deprecated and removed in this release. See `[DEPR]: Complete removal of `EdxRestApiClient <https://github.com/openedx/public-engineering/issues/189>`_ for details. 
+- The Demographics app has been removed. It was added to support a private edX Demographics IDA for collecting additional user info. See `[DEPR]: Demographics Django app #35127 <https://github.com/openedx/edx-platform/issues/35127>`_.
+- The programs_listing endpoint in the credentials application has been removed. `[DEPR]: /program-listing endpoint <https://github.com/openedx/credentials/issues/2642>`_.
+- The skill_level endpoint has been removed `[DEPR]: endpoint /user/v1/skill_level/{job_id}/ <https://github.com/openedx/edx-platform/issues/35302>`_.
+- [UPCOMING] The Toggle 'block_structure.storage_backing_for_cache' will be removed, with a default setting of True. You may want to test enabling in Sumac before it becomes the default behavior in Teak. See `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_.
+- As part of the `Oscare Ecommerce Stack deprecation <https://github.com/openedx/public-engineering/issues/22>`_ , the following repositories have been archived:
+   - https://github.com/openedx/ecommerce
+   - https://github.com/openedx/ecommerce-worker
+   - https://github.com/openedx/frontend-app-payment
+   - https://github.com/openedx/frontend-app-ecommerce
+   - https://github.com/openedx/ecommerce-scripts
+
 
 Developer Experience
 ********************
