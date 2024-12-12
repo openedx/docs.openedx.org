@@ -41,9 +41,6 @@ Group Community TA role can delete posts, responses, or comments. It might be
 more appropriate to delete rather than edit posts that consist of spam or
 include abusive language.
 
-.. removed note for open edx re deletion behavior in mobile apps. Posts can
-.. now be deleted in the mobile apps (though ability depends on permissions)
-.. CT April 25, 2016
 
 #. View the live version of the course.
 
@@ -70,8 +67,6 @@ Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can check for messages that have been flagged in this
 way and edit or delete them as needed.
 
-.. removed note for open edx re flag behavior in mobile apps. Posts can
-.. now be flagged in the mobile apps. CT April 25, 2016
 
 #. View the live version of your course and select **Discussion** at the top of
    the page.
