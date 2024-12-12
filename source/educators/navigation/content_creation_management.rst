@@ -215,6 +215,8 @@ Work with Content Libraries
 
    ../how-tos/course_development/navigate_library_homepage.rst
    ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
+   ../how-tos/course_development/add_tags_to_library_content.rst
+   ../how-tos/course_development/build_a_collection_in_a_library.rst
 
 Work with Legacy Content Libraries
 **********************************
