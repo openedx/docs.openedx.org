@@ -17,8 +17,8 @@ To add links to your social media accounts to your profile, follow these steps.
    either your username or the URL to the profile page for each social media
    account that you want to add to your profile.
 
-   For example, if your Facebook username is ``edx``, you can enter either
-   ``edx`` or ``https://www.facebook.com/edx``.
+   For example, if your Facebook username is `` Oepn edX``, you can enter either
+   ``edx`` or ``https://www.facebook.com/openedx``.
 
    For LinkedIn, note that your username might include numbers. For example,
    if the URL of your LinkedIn profile page is ``https://www.linkedin.com/in
