@@ -1,8 +1,8 @@
-Open edX Sumac - The Next Release
-#################################
+Open edX Sumac - The Current Release
+####################################
 
 These are the release notes for the Sumac release, the 19th community release
-of the Open edX Platform, which will be released in December 2024. You can also review details
+of the Open edX Platform, which was released in December 2024. You can also review details
 about :doc:`index` or learn more about the `Open edX Platform`_.
 
 .. highlights::
