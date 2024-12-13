@@ -206,7 +206,7 @@ Contribute to the Hooks Extension Framework
 
 Before considering contributing to the framework, we suggest you make a quick proposal with your use case and intended solution, and share it with the community to gather feedback and validate the approach. This can be done in the Open edX Discuss forum or in each repository's issue tracker.
 
-If you're new to contributing to the Hooks Extension Framework, we recommend also reading the :doc:`openedx-events:index` and :doc:`openedx-filters:index` documentation to understand each hook concepts and how to use them in your project.
+If you're new to contributing to the Hooks Extension Framework, we recommend also reading the :doc:`openedx-events <openedx-events:index>` and :doc:`openedx-filters <openedx-filters:index>` documentation to understand each hook concepts and how to use them in your project.
 
 After choosing between an event or filter based on your use case, you can start integrating the framework into your solution. You can find the list of available events and filters that work out-of-the-box in :doc:`openedx-events:reference/events` and :doc:`openedx-filters:reference/filters` corresponding documentation. If you have a use case that doesn't fit any existing hook, consider proposing a new one to the community.
 
