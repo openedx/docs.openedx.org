@@ -101,7 +101,6 @@ Drag and Drop Problem
    ../how-tos/course_development/exercise_tools/creating_a_drag_and_drop_problem.rst
    ../how-tos/course_development/exercise_tools/adding_dropdown.rst
    ../how-tos/course_development/exercise_tools/use_dropdown_hints.rst
-   ../how-tos/drag_and_drop_deprecated.rst
 
 .. _Dropdown Problem:
 
