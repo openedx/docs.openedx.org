@@ -41,7 +41,7 @@ Open edX Documentation
          :maxdepth: 1
          :caption: Open Source Community
 
-         Current Release: Redwood <community/release_notes/redwood>
+         Current Release: Sumac <community/release_notes/sumac>
          All Release Notes <community/release_notes/index>
          How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
          OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
