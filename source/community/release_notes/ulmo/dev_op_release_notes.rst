@@ -1,11 +1,11 @@
-Open edX Teak Developer & Operator Release Notes
+Open edX Ulmo Developer & Operator Release Notes
 ################################################
 
-*Releasing June, 2025!*
+*Releasing December, 2025!*
 
-These are the developer & operator release notes for the Teak release, the 20th
-community release of the Open edX Platform, spanning changes from October 24,
-2024 to April 9, 2025. You can also review details about :doc:`../index` or
+These are the developer & operator release notes for the Teak release, the 21st
+community release of the Open edX Platform, spanning changes from April 10,
+2025 to December 9, 2025. You can also review details about :doc:`../index` or
 learn more about the `Open edX Platform`_.
 
 To view the end-user facing docs, see the :doc:`feature_release_notes`.
