@@ -66,7 +66,7 @@ You can now create content for the groups in the experiment.
 
  :ref:`Enable Content Experiments` (how-to)
 
- :ref:`Set up Group Configurations in edX Studio` (how-to)
+ :ref:`Set up Group Configurations in Studio` (how-to)
 
  :ref:`Create Content for Content Experiment Groups` (how-to)
 
