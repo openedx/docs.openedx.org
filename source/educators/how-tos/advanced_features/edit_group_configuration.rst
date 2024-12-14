@@ -15,7 +15,7 @@ Edit a Group Configuration
    .. image:: /_images/educator_how_tos/group_configurations_edit.png
     :width: 800
     :align: center
-    :alt: An image of the Group Configurations page with Edit button
+    :alt: An image of the Group Configurations page with the Edit button
         highlighted.
 
    The following page opens:
@@ -25,7 +25,7 @@ Edit a Group Configuration
     :align: center
     :alt: An image of the Edit a Group Configuration page.
 
-#. On the **Edit a Group Configuration** page modify the name and description as
+#. On the **Edit a Group Configuration** page, modify the name and description as
    needed.
 
 #. Modify groups in the configuration as needed. See :ref:`Create a Group
@@ -59,11 +59,11 @@ View a Group Configuration from an Experiment
 When working with a content experiment, you can view details about the group
 configuration used by that experiment in two ways.
 
-* In a unit that contains a content experiment, in the content experiment
+* In a unit that contains a content experiment, the content experiment
   block, select the name of the group configuration.
 
   .. image:: /_images/educator_how_tos/content_experiment_group_config_link.png
-   :alt: An image of the content experiment in the unit page with the group
+   :alt: An image of the content experiment on the unit page with the group
      configuration link circled
    :width: 800
 
@@ -106,8 +106,8 @@ contains the content experiment.
 Maintenance chart
 -----------------
 
-+--------------+------------------------------+----------------+-------------------------------+
-| Review Date  | Working Group Reviewer       |   Release      |Test situation                 |
-+--------------+------------------------------+----------------+-------------------------------+
-| 2024/12      | Documentation WG - Ana Gomez |Redwood         |Fail. Images need to be updated|
-+--------------+------------------------------+----------------+-------------------------------+
++--------------+------------------------------+----------------+---------------------------------------------------------------+
+| Review Date  | Working Group Reviewer       |   Release      |Test situation                                                 |
++--------------+------------------------------+----------------+---------------------------------------------------------------+
+| 2024/12      | Documentation WG - Ana Gomez |Redwood         |`Fail<https://github.com/openedx/docs.openedx.org/issues/678>`_|
++--------------+------------------------------+----------------+---------------------------------------------------------------+
