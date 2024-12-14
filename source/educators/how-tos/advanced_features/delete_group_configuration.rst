@@ -41,5 +41,5 @@ Maintenance chart
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 |Review Date   | Working Group Reviewer        |   Release      |  Test situation                                               |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 2024/12      | Documentation WG - Ana Gomez  |Redwood         |`Fail<https://github.com/openedx/docs.openedx.org/issues/677>`_|
+| 2024/12      | Documentation WG - Ana Gomez  |Redwood         |`Fail <https://github.com/openedx/docs.openedx.org/issues/677>`_|
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
