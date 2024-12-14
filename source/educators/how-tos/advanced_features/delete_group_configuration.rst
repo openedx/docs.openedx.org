@@ -6,8 +6,8 @@ Delete a Group Configuration
 .. tags:: educator, how-to
 
 .. note::
- You can only delete a group configuration that is not currently used in a
- content experiment. You cannot delete a group configuration that is used in a
+ You can only delete a group configuration not currently used in a
+ content experiment. You cannot delete a group configuration used in a
  content experiment.
 
 #. On the **Group Configurations** page, hover over the group configuration and
@@ -38,8 +38,8 @@ Delete a Group Configuration
 Maintenance chart
 -----------------
 
-+--------------+-------------------------------+----------------+--------------------------------+
-|Review Date   | Working Group Reviewer        |   Release      |  Test situation                |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2024/12      | Documentation WG - Ana Gomez  |Redwood         |  Fail.                         |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+|Review Date   | Working Group Reviewer        |   Release      |  Test situation                                               |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 2024/12      | Documentation WG - Ana Gomez  |Redwood         |`Fail<https://github.com/openedx/docs.openedx.org/issues/677>`_|
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
