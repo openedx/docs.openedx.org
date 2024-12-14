@@ -9,7 +9,7 @@ Before you add content experiments to your course, ensure that you have
 completed the following tasks.
 
 * :ref:`Enable Content Experiments`
-* :ref:`Set up Group Configurations in edX Studio`
+* :ref:`Set up Group Configurations in Studio`
 
 #. On the unit page, under **Add New Component**, select **Advanced**.
 
