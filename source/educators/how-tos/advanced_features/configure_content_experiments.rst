@@ -6,7 +6,9 @@ Configure Your Course for Content Experiments
 .. tags:: educator, how-to
 
 This how-to provides instructions for configuring your course to enable
-:ref:`content experiments<Overview of Content Experiments>`. Let's start.
+:ref:`content experiments<Overview of Content Experiments>`. 
+To enable content experiments in your course, you must ``split_test`` to the
+**Advanced Module List** in Advanced Settings. To do it, follow the next steps:
 
 
 
@@ -36,7 +38,7 @@ This how-to provides instructions for configuring your course to enable
 #. Select **Save Changes**.
 
 
-.. _Set up Group Configurations in edX Studio:
+.. _Set up Group Configurations in Studio:
 
 #. To set up group configurations, on the **Settings** menu, select **Group
 Configurations**. The **Group Configurations** page opens.
