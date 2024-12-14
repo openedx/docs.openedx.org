@@ -8,8 +8,7 @@ Create a Content Experiment
 Before you add content experiments to your course, ensure that you have
 completed the following tasks.
 
-* :ref:`Enable Content Experiments`
-* :ref:`Set up Group Configurations in Studio`
+* :ref:`Configure Your Course for Content Experiments`
 
 #. On the unit page, under **Add New Component**, select **Advanced**.
 
@@ -65,8 +64,6 @@ You can now create content for the groups in the experiment.
  :ref:`Add a Content Experiment in OLX` (how-to)
 
  :ref:`Enable Content Experiments` (how-to)
-
- :ref:`Set up Group Configurations in Studio` (how-to)
 
  :ref:`Create Content for Content Experiment Groups` (how-to)
 

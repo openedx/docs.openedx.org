@@ -8,8 +8,7 @@ Create Content for Groups in the Content Experiment
 Before you add content experiments to your course, ensure that you have
 completed the following tasks.
 
-* :ref:`Enable Content Experiments`
-* :ref:`Set up Group Configurations in Studio`
+* :ref:`Configure Your Course for Content Experiments`
 
 #. After you select a group configuration in the content experiment component,
 select **View**.
@@ -51,8 +50,6 @@ For example, you can add a Text component and a video to Group A.
  :ref:`Add a Content Experiment in OLX` (how-to)
 
  :ref:`Enable Content Experiments` (how-to)
-
- :ref:`Set up Group Configurations in Studio` (how-to)
 
  :ref:`Create a Content Experiment` (how-to)
 
