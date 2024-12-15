@@ -18,7 +18,7 @@ babel==2.16.0
     #   sphinx
 beautifulsoup4==4.12.3
     # via pydata-sphinx-theme
-certifi==2024.8.30
+certifi==2024.12.14
     # via requests
 charset-normalizer==3.4.0
     # via requests
@@ -111,7 +111,7 @@ sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-starlette==0.41.3
+starlette==0.42.0
     # via sphinx-autobuild
 typing-extensions==4.12.2
     # via
@@ -119,9 +119,9 @@ typing-extensions==4.12.2
     #   pydata-sphinx-theme
 urllib3==2.2.3
     # via requests
-uvicorn==0.32.1
+uvicorn==0.33.0
     # via sphinx-autobuild
-watchfiles==1.0.0
+watchfiles==1.0.3
     # via sphinx-autobuild
 websockets==14.1
     # via sphinx-autobuild
