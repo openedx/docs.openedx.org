@@ -43,7 +43,7 @@ Administrators & Operators
       Because this hashing is being used as a part of the edx-platform caching mechanism, this will effectively clear the cache for the items that use this hash. The will impact any items where the cache key might have been too big to store in memcache so it's hard to predict exactly which items will be impacted.
 - Added override options to commerce related CTA URLs in edx-platform
    - Background: Extension points have been added have been added to commerce app in: `PR1 <https://github.com/openedx/edx-platform/pull/35441>`_, `PR2 <https://github.com/openedx/edx-platform/pull/35501>`_ so Open edX community members who wants to extend the commerce functionality can do so without explicitly adding code into edx-platform codebase. For more information into extension points see Pluggable override section in `Extension Points <https://github.com/openedx/edx-platform/blob/master/docs/concepts/extension_points.rst>`_.
-   - Additional Considerations: Commerce app itself is slated for deprecation nevertheless.
+   - Additional Considerations: Commerce app itself is slated for deprecation. `See the associated DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_. 
 - `courseware.enable_navigation_sidebar <https://github.com/openedx/edx-platform/blob/38f73442e78a8b9afb5543facd170dca830acb1a/lms/djangoapps/courseware/toggles.py#L86>`_  is now enabled by default. It was disabled by default in Redwood.
 
 - New Forums Implementation (migration from Ruby to Python forums backend)
