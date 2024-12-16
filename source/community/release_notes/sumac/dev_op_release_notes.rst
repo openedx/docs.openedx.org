@@ -19,6 +19,8 @@ Breaking Changes
 
 No breaking changes in Sumac.
 
+No breaking changes in Sumac.
+
 
 User Facing Experiences
 *************************
