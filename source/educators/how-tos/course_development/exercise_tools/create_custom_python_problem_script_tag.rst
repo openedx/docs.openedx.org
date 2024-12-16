@@ -5,14 +5,14 @@ Create a Custom Python-Evaluated Input Problem in Script Tag Format
 
 .. tags:: educator, how-to
 
-You can use script tag format or answer tag format to create these problems. To create a custom Python-evaluated input problem using a ``<script>`` tag, follow these steps.
+You can use a script or answer tag format to create these problems. To create a custom Python-evaluated input problem using a ``<script>`` tag, follow these steps.
 
 #. In the component editor, modify the example as needed, following a structure similar to the one in the example below.
 
 #. Select **Save**.
 
 Example:
-*******
+********
 
 **Problem Code**:
 
@@ -122,7 +122,7 @@ sure to set **Show Answer** to **Never** in the problem component.
 .. seealso::
  :class: dropdown
 
- :ref:`Custom Python-evaluated Input Problem (Write-Your-Own-Grader)` (reference)
+ :ref:`Custom Python-evaluated Input Problem (Write Your Own Grader)` (reference)
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 
