@@ -44,7 +44,7 @@ For information about course enrollment, see :ref:`Enrollment`.
 About Learner-Reported Data
 ===========================
 
-When learners create or register, their user accounts, they select a public
+When learners create or register their user accounts, they select a public
 username and supply their full names and email addresses. Learners also have
 the option to provide personal demographic information, including the highest
 level of education completed, gender, year of birth, and preferred language.

@@ -104,4 +104,4 @@ To allow learners to download early certificates, you modify the
 
   :ref:`Enable Badges in Course` (how-to)
 
- :ref:`Reporting Certificate Data` (how-to)
+  :ref:`Reporting Certificate Data` (how-to)
