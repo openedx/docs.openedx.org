@@ -42,7 +42,7 @@ Units>`.
 
  :ref:`Getting Started with Course Content Development` (reference)
  
-  :ref:`Course Outline` (concept)
+ :ref:`Course Outline` (concept)
   
  :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
  
