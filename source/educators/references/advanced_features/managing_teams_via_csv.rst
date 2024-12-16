@@ -57,14 +57,13 @@ team-set in the header row. For example, here are 8 students assigned across dif
     garrett,         verified, ,                 Team C
     hannah,          masters,  Team A,           Team 1
 
-.. note:: Since teams are only unique within a team-set, the “Team A” that hannah is a member of for the
-“discussion-teams” team-set is different from the “Team A” in “case-studies” that alice and derek are assigned to.
 
+.. note:: Since teams are only unique within a team-set, the “Team A” that hannah is a member of for the “discussion-teams” team-set is different from the “Team A” in “case-studies” that Alice and Derek are assigned to.
 
 Managing Teams
 **************
 
-.. note:: Prerequisites: at least one managed team-set configured for course
+.. note:: Prerequisites: at least one managed team-set configured for course.
 
 From the **Teams > Manage** page, an instructor can use a CSV file, formatted per the schema above, to manage team memberships.
 
