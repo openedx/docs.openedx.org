@@ -104,7 +104,7 @@ content:
 .. seealso::
  :class: dropdown
 
- :ref:`edX Accessibility Guidelines` (concept)
+ :ref:`Accessibility Guidelines` (concept)
 
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
 

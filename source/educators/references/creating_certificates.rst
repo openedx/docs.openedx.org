@@ -57,7 +57,7 @@ logo, are configured on your instance. For more information, see
 
 .. The course start date limitation is not published for partners at this time.
 .. Confirmed March 9, 2017 that there's no hard requirement for having
-.. activated certs before edX course starts. Although there is a procedural
+.. activated certs before the course starts. Although there is a procedural
 .. requirement for announcing activated certs, courses are able to start if
 .. they have deactivated certs.
 

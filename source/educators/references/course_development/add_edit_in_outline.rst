@@ -12,12 +12,8 @@ subsection, or unit, or by duplicating an existing unit, subsection, or section.
 For information about adding content to a unit, see :ref:`Developing Course
 Components`.
 
-.. the following note is for prerequisite exams, which are currently released in open edx only and not on edx.org.  when they are available on edx.org, this note should no longer be conditionalized.
-
-
-
   .. note::
-  If you want to require an entrance exam for your course, you also create
+    If you want to require an entrance exam for your course, you also create
     the exam in the course outline. Before you can create an exam, you must
     set your course to require an entrance exam in Studio. For more
     information, see :ref:`Require an Entrance Exam<require an entrance exam>`.
@@ -133,7 +129,7 @@ You are prompted to confirm the deletion.
  
  :ref:`Getting Started with Course Content Development` (reference)
  
-  :ref:`Course Outline` (concept)
+ :ref:`Course Outline` (concept)
   
  :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
  
@@ -163,24 +159,7 @@ You are prompted to confirm the deletion.
  
  :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
  
- :ref:`Resources for edx org Course Teams` (reference)
+ :ref:`Resources for Course Teams` (reference)
  
  :ref:`Resources for Open edX` (reference)
  
- :ref:`Course Outline` (concept)
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
- :ref:`Create a Course` (how-to)
- :ref:`Create the Course About Page` (how-to)
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
- :ref:`Developing Your Course Outline` (reference)
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- :ref:`Publish Content from the Course Outline` (reference)
- :ref:`Developing Course Sections` (reference)
- :ref:`Developing Course Subsections` (reference)
- :ref:`Create a Section` (how-to)
- :ref:`Create a Subsection` (how-to)
- :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
- :ref:`Add Course Metadata` (how-to)
- :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
- :ref:`Resources for edx org Course Teams` (reference)
- :ref:`Resources for Open edX` (reference)

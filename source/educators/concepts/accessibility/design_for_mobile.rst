@@ -105,7 +105,7 @@ renders as you expect it to.
 
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
 
- :ref:`edX Accessibility Guidelines` (concept)
+ :ref:`Accessibility Guidelines` (concept)
 
  :ref:`Supporting Learners with Diverse Needs` (concept)
 

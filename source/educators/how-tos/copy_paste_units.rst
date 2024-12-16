@@ -87,4 +87,5 @@ From the Unit Page
    :class: dropdown
 
    :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+   
    :ref:`Add Units to the Outline` (how-to)
