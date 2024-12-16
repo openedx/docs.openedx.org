@@ -1,4 +1,4 @@
-.. _Resources for edx org Course Teams: 
+.. _Resources for Open edX Course Teams: 
 
 ####################################
 Resources for Open edX Course Teams

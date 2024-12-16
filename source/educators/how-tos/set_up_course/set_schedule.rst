@@ -39,7 +39,7 @@ follow these steps.
 .. note::
   The times that you set are in Coordinated Universal Time (UTC). You might
   want to verify that you have specified the times that you intend by using a
-  time zone converter such as `Time and Date Time Zone Converter`.
+  time zone converter such as `Time and Date Time Zone Converter`_.
 
 .. _Advertise a Different Start Date:
 

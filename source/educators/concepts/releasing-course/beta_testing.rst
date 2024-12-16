@@ -124,7 +124,7 @@ Beta testers should interact with everything in the course.
 
 * Complete all problems.
 
-Beta testers can use a desktop computer to access an your course website, the
+Beta testers can use a desktop computer to access your course website, the
 mobile app on a smartphone, or both to complete their tests. As they work,
 beta testers log issues and questions for the course team.
 
