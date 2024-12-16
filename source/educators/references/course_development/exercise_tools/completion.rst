@@ -38,7 +38,7 @@ of the course content, learners who use the component to mark the unit as comple
 complete receive 0/1 points. These scores are included in learners' final
 grades on the **Progress** page.
 
-.. note:: EdX recommends using the completion tool primarily to track progress
+.. note:: It is recommended to use the completion tool primarily to track progress
    for ungraded activities such as reading assigned texts, watching videos,
    or participating in course discussions.
 

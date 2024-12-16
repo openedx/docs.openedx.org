@@ -82,7 +82,7 @@ To change access to the course wiki, follow these steps.
 The **Enable public wiki** access wiki setting is disabled by default, meaning that only course team members and
 enrolled learners can see the course wiki. If you enable this setting, then any registered user can access the
 course wiki, even if they are not enrolled in your course. However, public users would have to explicitly navigate
-to your wiki via the edX-wide wiki structure, or a link that has been provided to them.
+to your wiki via the platform-wide wiki structure, or a link that has been provided to them.
 
 .. _Teams Configuration:
 

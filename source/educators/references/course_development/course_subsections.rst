@@ -199,5 +199,5 @@ display name.
  :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
  :ref:`Add Course Metadata` (how-to)
  :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
- :ref:`Resources for edx org Course Teams` (reference)
+ :ref:`Resources for Course Teams` (reference)
  :ref:`Resources for Open edX` (reference)

@@ -47,7 +47,7 @@ Change the Course Title
 To change the way that your course title appears in Studio and the LMS, follow these steps.
 
 .. note::
- EdX does not recommended that you do this if your course is live.
+ It is not recommended that you do this if your course is live.
 
 #. Open the course in Studio.
 #. On the **Settings** menu, select **Advanced Settings**.
@@ -67,7 +67,7 @@ To change the way that your course number appears in Studio and the LMS, follow
 these steps.
 
 .. note::
- EdX does not recommended that you do this if your course is live.
+ It is not recommended that you do this if your course is live.
 
 #. Open the course in Studio.
 #. On the **Settings** menu, select **Advanced Settings**.

@@ -12,10 +12,6 @@ subsection, or unit, or by duplicating an existing unit, subsection, or section.
 For information about adding content to a unit, see :ref:`Developing Course
 Components`.
 
-.. the following note is for prerequisite exams, which are currently released in open edx only and not on edx.org.  when they are available on edx.org, this note should no longer be conditionalized.
-
-
-
   .. note::
   If you want to require an entrance exam for your course, you also create
     the exam in the course outline. Before you can create an exam, you must
@@ -147,5 +143,5 @@ You are prompted to confirm the deletion.
  :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
  :ref:`Add Course Metadata` (how-to)
  :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
- :ref:`Resources for edx org Course Teams` (reference)
+ :ref:`Resources for Course Teams` (reference)
  :ref:`Resources for Open edX` (reference)

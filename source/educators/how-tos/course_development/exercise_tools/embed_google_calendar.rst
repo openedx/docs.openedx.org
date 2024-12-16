@@ -123,7 +123,7 @@ Add a Google Calendar in the Course Body
 To add a Google calendar in the course body, you create an advanced component
 in Studio or create a Google Calendar XBlock in OLX.
 
-.. _Add a Google Calendar Component in edX Studio:
+.. _Add a Google Calendar Component in Studio:
 
 **************************************************
 Add a Google Calendar Component in Open edX Studio
