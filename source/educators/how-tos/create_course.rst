@@ -5,9 +5,9 @@ Create a New Course Screen
 
 .. tags:: educator, quickstart
 
-.. contents:: Contents
-  :depth: 1
-  :local: no-bullets
+.. contents:: Steps
+  :local:
+  :class: no-bullets
 
 .. thumbnail:: /_images/Educators_create_course.png
 
