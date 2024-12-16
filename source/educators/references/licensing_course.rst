@@ -62,7 +62,7 @@ You can change the terms for your course in the **Schedule & Details** page in S
    * - **Attribution**
      - This option allows others to copy, distribute, display, and perform your
        copyrighted work but only if they give credit to you in the way that you
-       request. This option is enabled for all Creative Commons licenses on edX
+       request. This option is enabled for all Creative Commons licenses on 
        course content. You cannot clear this option.
    * - **Noncommercial**
      - This option allows others to distribute, display, and perform your work

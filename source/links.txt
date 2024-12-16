@@ -627,6 +627,8 @@
 
 .. _GitHub repository: https://github.com/openedx/docs.openedx.org/issues/new
 
+.. _Submit an Open edX Issue: https://github.com/openedx/edx-platform/issues
+
 .. _Sphinx: http://sphinx-doc.org
 
 .. _RST Primer: https://docutils.sourceforge.io/docs/user/rst/quickstart.html
