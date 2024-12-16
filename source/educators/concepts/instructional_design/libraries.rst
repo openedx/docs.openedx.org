@@ -1,8 +1,8 @@
 .. _Content Libraries Overview:
 
-*********************************
-Legacy Content Libraries Overview
-*********************************
+#####################################
+Legacy Content Libraries v1 Overview
+#####################################
 
 .. tags:: educator, concept
 
