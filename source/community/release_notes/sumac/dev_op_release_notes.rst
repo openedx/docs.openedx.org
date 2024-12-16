@@ -119,7 +119,7 @@ Deprecations & Removals
 - The programs_listing endpoint in the credentials application has been removed. `[DEPR]: /program-listing endpoint <https://github.com/openedx/credentials/issues/2642>`_.
 - The skill_level endpoint has been removed `[DEPR]: endpoint /user/v1/skill_level/{job_id}/ <https://github.com/openedx/edx-platform/issues/35302>`_.
 - [UPCOMING] The Toggle 'block_structure.storage_backing_for_cache' will be removed, with a default setting of True. You may want to test enabling in Sumac before it becomes the default behavior in Teak. See `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_.
-- As part of the `Oscare Ecommerce Stack deprecation <https://github.com/openedx/public-engineering/issues/22>`_ , the following repositories have been archived:
+- As part of the `Oscar Ecommerce Stack deprecation <https://github.com/openedx/public-engineering/issues/22>`_ , the following repositories have been archived:
    - https://github.com/openedx/ecommerce
    - https://github.com/openedx/ecommerce-worker
    - https://github.com/openedx/frontend-app-payment
