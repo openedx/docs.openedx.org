@@ -9,11 +9,9 @@ Columns in the Student Profile Report
 The student profile report includes a row for each enrolled learner or course
 team member and the following columns.
 
-.. only:: Open_edX
-
- The descriptions of columns in the following table apply to edx.org. Required
+ The descriptions of columns in the following table apply to standard installations of Open edX. Required
  or optional fields shown to learners during registration and available for
- editing in **Account Settings** might vary for Open edX sites.
+ editing in **Account Settings** might vary for your installation.
 
 
 .. list-table::
@@ -62,22 +60,6 @@ team member and the following columns.
    * - enrollment_mode
      - Indicates the enrollment track that the learner is enrolled in, such as
        "audit" or "verified".
-   * - verification_status
-
-     - Indicates whether learners who are enrolled in course tracks that require
-       ID verification have successfully verified their identities to edX by
-       submitting an official photo ID via webcam. The value in this column is
-       "N/A" for learners enrolled in course tracks that do not require ID
-       verification.
-
-       A value of "Not ID Verified" in this column indicates that the learner is
-       enrolled in a course track that requires ID verification (such as
-       "verified") but she has not attempted ID verification, or the ID
-       verification has failed or expired.
-
-       A value of "ID Verified" indicates that the learner is enrolled in a
-       course track that requires ID verification, and her ID verification is
-       current and valid.
 
    * - cohort
      - This column is included only if the course has cohorts enabled. For
@@ -89,7 +71,7 @@ team member and the following columns.
        that include teams, shows the name of the team that the learner belongs
        to. If a learner has not joined a team, the value is ``[unavailable]``.
    * - city
-     - Data for this column is not currently collected on edx.org.
+     - Data for this column is not currently collected.
    * - country
      - Learners are required to specify **Country** during registration, and can
        update this value on the **Account Settings** page.
