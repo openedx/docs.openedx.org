@@ -1,8 +1,8 @@
 .. _Access Certificate Data:
 
-##############################
+##########################
 Obtaining Certificate Data
-##############################
+##########################
 
 .. tags:: educator, how-to
 
@@ -11,9 +11,9 @@ in the LMS by selecting **Instructor** to access the instructor dashboard. You
 can also download a .csv (comma-separated values) file with the certificate
 data.
 
-=====================
+*********************
 View Certificate Data
-=====================
+*********************
 
 To view certificate data, follow these steps.
 
@@ -27,9 +27,9 @@ To view certificate data, follow these steps.
    certificate issued. For more information on the contents of this report, see
    :ref:`Columns in the Certificate Report`.
 
-=========================
+*************************
 Download Certificate Data
-=========================
+*************************
 
 To download certificate data, follow these steps.
 

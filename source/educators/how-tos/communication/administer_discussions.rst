@@ -1,14 +1,14 @@
 .. _Administer Discussions:
 
-##########################
+######################
 Administer Discussions
-##########################
+######################
 
 .. tags:: educator, how-to
 
-****************
+*************
 Edit Messages
-****************
+*************
 
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can edit the content of posts, responses, and
@@ -16,9 +16,6 @@ comments. Messages that include spoilers or solutions, or that contain
 inappropriate or off-topic material, should be edited quickly to remove text,
 images, or links.
 
-.. removed note for open edx re edit behavior in mobile apps. Posts can
-.. now be edited in the mobile apps (though ability depends on permissions)
-.. CT April 25, 2016
 
 #. View the live version of the course.
 
@@ -35,18 +32,15 @@ images, or links.
 #. Communicate the reason for your change. For example, "Posting a solution
    violates the honor code."
 
-****************
+***************
 Delete Messages
-****************
+***************
 
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can delete posts, responses, or comments. It might be
 more appropriate to delete rather than edit posts that consist of spam or
 include abusive language.
 
-.. removed note for open edx re deletion behavior in mobile apps. Posts can
-.. now be deleted in the mobile apps (though ability depends on permissions)
-.. CT April 25, 2016
 
 #. View the live version of the course.
 
@@ -64,17 +58,15 @@ include abusive language.
  before taking any other action.
 
 
-********************************
+****************************
 Respond to Reports of Misuse
-********************************
+****************************
 
 Learners have the option to report contributions that they find inappropriate.
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can check for messages that have been flagged in this
 way and edit or delete them as needed.
 
-.. removed note for open edx re flag behavior in mobile apps. Posts can
-.. now be flagged in the mobile apps. CT April 25, 2016
 
 #. View the live version of your course and select **Discussion** at the top of
    the page.
@@ -90,12 +82,12 @@ way and edit or delete them as needed.
    flag: select the "More" icon and then **Unreport**.
 
 
-*****************************************************
+****************************************************
 View Profile Information for Discussion Participants
-*****************************************************
+****************************************************
 
 To find out more about a specific discussion participant, you can view that
-learner's edX profile from their linked username on discussion posts.
+learner's profile from their linked username on discussion posts.
 
 To access a learner's profile from a discussion post that they contributed,
 follow these steps.
@@ -108,12 +100,11 @@ follow these steps.
 The learner's account profile page opens. Learners can have either a limited
 profile or a full profile.
 
-For more information about profiles, see `SFD Dashboard <sfd dashboard>`_.
 
 
-****************
+***********
 Block Users
-****************
+***********
 
 If a learner repeatedly misuses course discussions despite being warned, you
 can unenroll that learner from the course. For more information, see

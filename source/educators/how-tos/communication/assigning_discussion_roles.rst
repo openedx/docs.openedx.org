@@ -1,8 +1,8 @@
 .. _Assigning_discussion_roles:
 
-*************************************
+#####################################
 Assigning Discussion Moderation Roles
-*************************************
+#####################################
 
 .. tags:: educator, how-to
 
@@ -25,9 +25,9 @@ add.
   downloaded file, locate the required email address or username.
 
 
-====================================
+********************************
 Add Someone To a Discussion Role
-====================================
+********************************
 
 You can add any user who is already enrolled in your course to a discussion
 moderation role.
@@ -51,9 +51,9 @@ moderation role.
    The person who you added appears in the list.
 
 
-======================================
+*************************************
 Remove Someone from a Discussion Role
-======================================
+*************************************
 
 To remove someone from a discussion moderation role, you must be the course
 author or have the Admin role.
