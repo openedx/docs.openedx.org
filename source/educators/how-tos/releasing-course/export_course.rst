@@ -1,8 +1,8 @@
 .. _Export a Course:
 
-***************
+###############
 Export a Course
-***************
+###############
 
 .. tags:: educator, how-to
 
