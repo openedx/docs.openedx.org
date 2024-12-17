@@ -70,3 +70,5 @@ For more information about how to use Studio as an LTI tool provider, see
  :ref:`Enable_LTI_Components` (how to)
 
  :ref:`LTI Component settings` (reference)
+
+ :ref:`Accessibility Best Practices for Course Content Development`

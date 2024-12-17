@@ -6,7 +6,7 @@ Math Expression Input Problems
 
 .. tags:: educator, reference
 
-The math expression input problem type is a core problem type that can be added
+The math expression input problem is a core problem type that can be added
 to any course. At a minimum, math expression problems include a question or
 prompt and a response field for a numeric answer.
 
@@ -27,9 +27,6 @@ appears below the response field. Unlike numerical input problems, which only
 allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
-For more information about how learners enter expressions, see
-`Math Formatting`_ in the *Open edX Learner's Guide*.
-
 .. note::
   You can make a calculator tool available to your learners on every unit
   page. For more information, see :ref:`Calculator`.
@@ -49,9 +46,9 @@ Studio`.
  input problems can include complex numbers raised to fractional powers, or
  positive non-complex numbers raised to fractional powers.
 
-=====================================
+
 Example Math Expression Input Problem
-=====================================
+*************************************
 
 In the LMS, learners enter a value into a response field to complete a math
 expression input problem. The following example shows a completed math
