@@ -60,7 +60,7 @@ input problem.
 .. seealso::
  :class: dropdown
 
- :ref:`Custom Python-evaluated Input Problem (Write-Your-Own-Grader)` (reference)
+ :ref:`Custom Python-evaluated Input Problem (Write Your Own Grader)` (reference)
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 
