@@ -1,8 +1,7 @@
 .. _LTI Component settings:
 
-**********************
 LTI Component Settings
-**********************
+######################
 
 .. tags:: educator, reference
 
@@ -44,7 +43,7 @@ LTI Component Settings
        authentication flow. This can also be called *Login URL* on some tools.
 
    * - LTI 1.3 Tool Public Key (LTI 1.3 only)
-     - The LTI 1.3 Tool's public key. This is a string that starts with
+     - The LTI 1.3 tool's public key. This is a string that starts with
        '-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if
        the messages and launch requests received have the signature from the tool.
        This is not required when doing LTI 1.3 Launches without LTI Advantage.
@@ -161,7 +160,7 @@ LTI Component Settings
        learners to interact with it.
 
    * - Accept grades past deadline
-     - Specifies whether third party systems are allowed to post grades after
+     - Specifies whether third-party systems are allowed to post grades after
        the deadline. By default, this value is set to **True**.
 
    * - Request user's email
