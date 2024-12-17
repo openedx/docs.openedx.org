@@ -1,6 +1,5 @@
 .. _Create a Custom Python Evaluated Input Problem in Studio:
 
-
 Create a Custom Python-Evaluated Input Problem in Studio
 ########################################################
 
@@ -17,13 +16,13 @@ Following the next steps, you can :ref:`Write Your Own Grader` using Python in y
 
 #. Select **Save**.
 
-You can also use :ref:`Script Tag Format` or answer tag format to create these problems. Learn how to do it with this :ref:`How-to <create_custom_python_problem_script_tag>`.
+You can also use :ref:`Script Tag Format` or answer tag format to create these problems. Learn how to :ref:`Create a Custom Python Evaluated Input Problem in Script Tag Format`.
 
 
 .. seealso::
  :class: dropdown
 
- :ref:`Custom Python-evaluated Input Problem (Write-Your-Own-Grader)` (reference)
+ :ref:`Custom Python-evaluated Input Problem (Write Your Own Grader)` (reference)
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 
