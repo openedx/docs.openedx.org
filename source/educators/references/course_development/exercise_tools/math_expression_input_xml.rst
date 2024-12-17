@@ -150,7 +150,7 @@ Children
 None.
 
 ``<description>``
-*****************
+=================
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
