@@ -57,7 +57,7 @@ Redwood
 =======
 
 * **Code cut date:** 2024-05-09
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./redwood>`
 
 .. list-table::
