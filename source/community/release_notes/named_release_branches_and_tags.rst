@@ -35,6 +35,24 @@ Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Sumac
+=====
+
+* **Code cut date:** 2024-10-24
+* **Status:** supported
+* :doc:`Release Notes <./sumac>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Sumac.1
+     - 2024-12-16
+     - open-release/sumac.1
+
 Redwood
 =======
 
