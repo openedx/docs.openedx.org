@@ -22,7 +22,7 @@ You can also use :ref:`Script Tag Format` or answer tag format to create these p
 .. seealso::
  :class: dropdown
 
- :ref:`Custom Python-evaluated Input Problem (Write Your Own Grader)` (reference)
+ :ref:`Write Your Own Grader` (reference)
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 

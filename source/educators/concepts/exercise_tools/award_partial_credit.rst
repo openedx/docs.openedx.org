@@ -46,8 +46,7 @@ following ways.
 With all of these options, ``True`` awards learners with 100% of the available
 points for the problem, ``'Partial'`` with 50%, and ``False`` with 0%.
 
-For more information about ``check`` function return values, see `The check
-Function`_.
+For more information about ``check`` function return values, see :ref:`The Check Function`.
 
 .. _Award a Percentage of Credit:
 
@@ -118,7 +117,7 @@ You can enhance and apply this example for your own partial credit problems.
 .. seealso::
  :class: dropdown
 
- :ref:`Custom Python-evaluated Input Problem (Write-Your-Own-Grader)` (reference)
+ :ref:`Write Your Own Grader` (reference)
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 

@@ -122,7 +122,7 @@ sure to set **Show Answer** to **Never** in the problem component.
 .. seealso::
  :class: dropdown
 
- :ref:`Custom Python-evaluated Input Problem (Write Your Own Grader)` (reference)
+ :ref:`Write Your Own Grader` (reference)
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 
