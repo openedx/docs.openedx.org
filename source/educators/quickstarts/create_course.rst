@@ -7,8 +7,8 @@ Create a New Course Screen
 
 .. thumbnail:: /_images/Educators_create_course.png
 
-  .. Note::
-   :class: dropdown
+.. Note::
+ :class: dropdown
 
   The Organization, Course Number, and Course run values you enter when creating a course are part of the learner-visible course URL and cannot be changed. The base URL for the new course is in the format:
 
@@ -16,11 +16,11 @@ Create a New Course Screen
 
   So take care when entering values for the new course.
 
-1. Open Studio at the URL provided by your administrator.
+#. Open Studio at the URL provided by your administrator.
 
-2. Click :guilabel:`New Course`. The Create a New Course screen opens.
+#. Click :guilabel:`New Course`. The Create a New Course screen opens.
 
-3. Enter information for the new course:
+#. Enter information for the new course:
 
    * **Course Name**: The public display name of the course. You can override the name later in the Advanced Settings.
 
@@ -30,9 +30,6 @@ Create a New Course Screen
 
    * **Course Run**: The term or unique run of the course. This value part of your course URL, so no spaces or special characters are allowed and it cannot be changed.
 
-4. Click :guilabel:`Create`.
+#. Click :guilabel:`Create`.
 
 You are then taken to the empty Outline page in Studio.
-
-
-
