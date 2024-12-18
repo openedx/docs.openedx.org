@@ -88,6 +88,11 @@ Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
    :glob:   
 
    ../references/course_development/exercise_tools/custom_python.rst
+   ../references/course_development/exercise_tools/script_tag_format.rst
+   ../how-tos/course_development/exercise_tools/create_custom_python_problem.rst
+   ../how-tos/course_development/exercise_tools/create_custom_python_problem_script_tag.rst
+   ../how-tos/course_development/exercise_tools/randomized_custom_python_problem.rst
+   ../how-tos/course_development/exercise_tools/award_partial_credit.rst
 
 Drag and Drop Problem
 *******************************************************
