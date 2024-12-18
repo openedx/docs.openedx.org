@@ -14,7 +14,7 @@ your development operations (DevOps) team for information about the
 website to use. At some sites, a completely separate Open edX instance, with
 a different Studio website, is set up to be the LTI tool provider.
 
-When you create links to a course content in your external LMS, you can link
+When you create links to course content in your external LMS, you can link
 to components individually, to all of the content in a unit, or to all of the
 content in a subsection.
 
@@ -22,8 +22,7 @@ As you plan which parts of the course you want to reuse, note the following
 considerations.
 
 * Some content can be confusing to learners when it appears in the context
-  of an external LMS. For example, in some configurations, a course in an Open edX instance
-  discussions identify learners by their internally assigned IDs instead of
+  of an external LMS. For example, in some configurations, Open edX course discussion identify learners by their internally assigned IDs instead of
   by their usernames. Rather than linking to a subsection or unit that contains
   discussion components, you could plan to either link only to specific
   components or remove the discussion components from the unit or subsection,

@@ -3,7 +3,7 @@
 Script Tag Format
 #################
 
-.. tags:: educator, concept
+.. tags:: educator, reference
 
 The script tag format encloses a Python script that contains a "check function"
 in a ``<script>`` tag, and adds the ``cfn`` attribute of the

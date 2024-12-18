@@ -41,8 +41,8 @@ For example, a course with 2 team-sets (``discussion-teams`` and ``case-studies`
     user, mode, discussion-teams, case-studies
 
 Each additional row is a **user row** and has a ``user-identifier``
-(which, in priority order, is the ``student-key``, ``instance-username``, or ``institution-email``),
-``enrollment mode`` (one of ``audit``, ``verified``, or ``masters``), and the ``team`` assignment for the matchin
+(which, in priority order, is the ``student-key``, ``username``, or ``email``),
+``enrollment mode`` (one of ``audit``, ``verified``, or ``masters``), and the ``team`` assignment for the matching
 team-set in the header row. For example, here are 8 students assigned across different teams in the 2 team-sets:
 
 .. code::
@@ -81,7 +81,7 @@ Actions
 A **user can be added or moved** to a ``team`` by adding the ``team-name`` in the appropriate ``team-set`` column.
 If the team does not already exist within the team-set a **new team will be created**.
 
-.. note:: ``team-name`` and ``team-set`` * are case sensitive.
+.. note:: ``team-name`` and ``team-set`` **are case sensitive**.
 
 A **user can be removed** from a team by removing the ``team-name`` from the appropriate ``team-set`` column,
 leaving the entry empty.

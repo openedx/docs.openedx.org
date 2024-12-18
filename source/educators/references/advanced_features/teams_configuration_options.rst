@@ -32,7 +32,7 @@ These names and descriptions are visible to learners in the Teams application as
 
 
 .. note::  Do not delete topics once your course is
-   running, and if learners might have already joined teams within topics. If
+   running, if learners might have already joined teams within topics. If
    you delete a topic from the **Teams Configuration** policy key, that topic
    is no longer visible in the LMS, and learners will not be able to leave
    teams associated with the deleted topic.

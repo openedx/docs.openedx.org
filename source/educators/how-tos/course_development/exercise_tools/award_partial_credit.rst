@@ -3,7 +3,7 @@
 Award Partial Credit for a Custom Python-Evaluated Input Problem 
 #################################################################
 
-.. tags:: educator, concept
+.. tags:: educator, how-to
 
 You can configure a custom Python-evaluated input problem so that learners
 who give a partially correct answer receive partial credit for the problem.
