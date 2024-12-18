@@ -15,12 +15,11 @@ any time after you create the course.
 
 .. _PII:
 
-***************************************************************
+**********************************************
 Guidance for Working with Personal Information
-***************************************************************
+**********************************************
 
-The information that edX collects from site registrants includes personal
-information that can be used to identify, contact, and locate individuals. This
+The information that your instance collects from site registrants includes personal information that can be used to identify, contact, and locate individuals. This
 information is available to course team members with the Admin or Staff role
 for the learners who are enrolled in their courses.
 
@@ -45,9 +44,9 @@ For information about course enrollment, see :ref:`Enrollment`.
 About Learner-Reported Data
 ===========================
 
-When learners create, or register, their user accounts, they select a public
+When learners create or register their user accounts, they select a public
 username and supply their full names and email addresses. Learners also have
-the option to provide personal demographic information, including highest
+the option to provide personal demographic information, including the highest
 level of education completed, gender, year of birth, and preferred language.
 Because this information is optional, not all of the learners who are enrolled
 in your course provide it.
@@ -76,3 +75,5 @@ understanding of how the learner population changes over time.
  :ref:`View and download student data` (how-to)
 
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+
+ :ref:`Manage Learner Grades <Grades>` (how-to) 

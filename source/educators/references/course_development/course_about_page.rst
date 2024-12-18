@@ -16,3 +16,15 @@ before they enroll in the course.
  :width: 600
 
 You add the contents of your course About page in Studio.
+
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+
+ :ref:`Create a Course` (how-to)
+
+ :ref:`Edit Your Course` (how-to)
+ 
+ 

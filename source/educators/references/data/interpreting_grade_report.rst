@@ -16,7 +16,7 @@ homework, lab, midterm, final, and any other assignment type you added to your
 course.
 
 .. note:: The grade report does not include information about individual
-   problems within assignments, or include learner answer distributions. For a
+   problems within assignments or include learner answer distributions. For a
    report that shows problem-level information, see :ref:`problem_report`.
 
 The report indicates the enrollment track for each learner. For professional
@@ -47,7 +47,7 @@ columns that provide the following information.
   of 0.65 has earned 65% of the credit in the course, and a learner with a
   grade of 1 has earned 100%.
 
-* Each **{assignment type} {number}** defined in your grading configuration,
+* Each **{assignment type} {number}** is defined in your grading configuration,
   with the score that the learner attained for that specific assignment. For
   example, column Homework 3 shows the scores for the third homework
   assignment. If the learner did not attempt the assignment, the value is "Not
@@ -88,8 +88,7 @@ columns that provide the following information.
 
 * The **Verification Status** column indicates whether learners who are
   enrolled in course tracks that require ID verification have successfully
-  verified their identities to edX by submitting an official photo ID via
-  webcam. The value in this column is "N/A" for learners enrolled in course
+  verified their identities to your instance by submitting an official photo ID via webcam. The value in this column is "N/A" for learners enrolled in course
   tracks that do not require ID verification, such as "Audit".
 
   A value of "Not ID Verified" in this column indicates that the learner is
@@ -132,6 +131,12 @@ columns that provide the following information.
   enrolled or unenrolled in the course.
 
 .. seealso::
- :class: dropdown
+  :class: dropdown
 
- :ref:`Access_grades` (how-to)
+  :ref:`Learner Data` (concept)
+  
+  :ref:`Interpret the Problem Grade Report` (reference)
+
+  :ref:`Understanding the Progress Page` (reference
+
+  :ref:`Manage Learner Grades <Grades>` (how-to)

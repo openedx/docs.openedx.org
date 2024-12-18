@@ -19,9 +19,9 @@ Course Content Licensing`.
 
 .. _License Options:
 
-*************************************
+***************
 License Options
-*************************************
+***************
 
 For your course content and for each video in your course, you can select one
 of the following license options.
@@ -31,9 +31,9 @@ of the following license options.
 
 .. _All Rights Reserved License:
 
-====================================
+*******************
 All Rights Reserved
-====================================
+*******************
 
 All Rights Reserved indicates to learners that you own the copyright but
 reserve all rights for sharing copies of course content or videos. Learners
@@ -42,17 +42,16 @@ Reserved licenses.
 
 .. _Creative Commons License:
 
-====================================
+************************
 Creative Commons License
-====================================
+************************
 
 The Creative Commons license indicates to learners that you own the copyright
 but are granting certain permissions for reuse, depending on the license
 options that you select.
 
 When you create a new course, the default terms are set to All Rights Reserved.
-You can change the terms for your course in the **Schedule & Details** page in
-Studio.
+You can change the terms for your course in the **Schedule & Details** page in Studio.
 
 .. list-table::
    :widths: 10 70
@@ -63,7 +62,7 @@ Studio.
    * - **Attribution**
      - This option allows others to copy, distribute, display, and perform your
        copyrighted work but only if they give credit to you in the way that you
-       request. This option is enabled for all Creative Commons licenses on edX
+       request. This option is enabled for all Creative Commons licenses on 
        course content. You cannot clear this option.
    * - **Noncommercial**
      - This option allows others to distribute, display, and perform your work
@@ -83,9 +82,9 @@ For more information, see the `Creative Commons website`_.
 
 .. _Learners View of Licenses:
 
-*************************************
+**************************
 Learners' View of Licenses
-*************************************
+**************************
 
 When they view content in the **Course** tab, learners see the license that
 you set for the course at the bottom of the page.
@@ -105,3 +104,8 @@ For the course and for videos, if you choose **All Rights Reserved**, learners
 see **All Rights Reserved**; if you choose **Creative Commons** and select any
 allowed combination of options, learners see **Some Rights Reserved** and can
 select the link to see details.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Set Course Content Licensing` (how-to)

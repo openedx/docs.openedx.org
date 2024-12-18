@@ -6,8 +6,7 @@ Developing Course Sections
 
 .. tags:: educator, reference
 
-To develop sections in your course, you must first understand the following
-topics.
+To develop sections in your course, you must first understand the following topics.
 
 .. contents::
   :local:
@@ -18,8 +17,7 @@ What Is a Section?
 ****************************
 
 A section is the topmost category in your course. A section can represent a
-time period in your course, a chapter, or another organizing principle. A
-section contains one or more subsections.
+time period in your course, a chapter, or another organizing principle. A section contains one or more subsections.
 
 ********************************
 Viewing Sections in the Outline
@@ -106,3 +104,42 @@ A section can contain a unit that is hidden from learners and available to
 members of the course team only. That unit is not visible to learners,
 regardless of the release date of the section or subsection.
 
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+ 
+ :ref:`Course Outline` (concept)
+ 
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
+ 
+ :ref:`Create a Course` (how-to)
+ 
+ :ref:`Create the Course About Page` (how-to)
+ 
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+ 
+ :ref:`Add Content in the Course Outline` (reference)
+ 
+ :ref:`Developing Your Course Outline` (reference)
+ 
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
+ 
+ :ref:`Publish Content from the Course Outline` (reference)
+ 
+ :ref:`Developing Course Subsections` (reference)
+ 
+ :ref:`Create a Section` (how-to)
+ 
+ :ref:`Create a Subsection` (how-to)
+ 
+ :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
+ 
+ :ref:`Add Course Metadata` (how-to)
+ 
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
+ 
+ :ref:`Resources for Course Teams <Resources for Course Teams>` (reference)
+ 
+ :ref:`Resources for Open edX` (reference)

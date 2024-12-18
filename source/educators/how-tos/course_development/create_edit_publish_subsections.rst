@@ -1,8 +1,8 @@
 .. _Create a Subsection:
 
-****************************
+###################
 Create a Subsection
-****************************
+###################
 
 .. tags:: educator, how-to
 
@@ -111,3 +111,40 @@ To delete a subsection, follow these steps.
 
 #. When the confirmation prompt appears, select **Yes, delete this
    subsection**.
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+ 
+ :ref:`Course Outline` (concept)
+ 
+ :ref:`Creating a New Course` (how-to)
+ 
+ :ref:`Create the Course About Page` (how-to)
+ 
+ :ref:`Understanding Your Course Outline` (reference)
+
+ :ref:`Add Content in the Course Outline` (reference)
+ 
+ :ref:`Developing Your Course Outline` (reference)
+ 
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
+ 
+ :ref:`Publish Content from the Course Outline` (reference)
+ 
+ :ref:`Developing Course Sections` (reference)
+ 
+ :ref:`Developing Course Subsections` (reference)
+ 
+ :ref:`Create a Section` (how-to)
+ 
+ :ref:`Hide a Subsection from Students` (how-to)
+ 
+ :ref:`Add Course Metadata` (how-to)
+ 
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
+
+ :ref:`Resources for Course Teams <Resources for Course Teams>` (reference)
+
+ :ref:`Resources for Open edX` (reference)   
