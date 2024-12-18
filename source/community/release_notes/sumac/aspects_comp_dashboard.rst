@@ -1,9 +1,9 @@
 Aspects Course Comparison Dashboard
 ###################################
 
-The Product and Engineering Teams from eduNEXT and Axim Collaborative are excited to introduce the `Aspects Course Comparison Dashboards </en/latest/documentors/references/quick_reference_rst.html>`_ for course administrators! We’ve also made improvements to existing course-level dashboards to make them easier to use. 
+The Product and Engineering Teams from eduNEXT and Axim Collaborative are excited to introduce the :doc:`openedx-aspects:reference/course_comparison_dashboard` for course administrators! We’ve also made improvements to existing course-level dashboards to make them easier to use.
 
-Operators can learn more about enabling or updating Aspects on their installations by reviewing the Operator Release Notes.
+Operators can learn more about enabling or updating Aspects on their installations by reviewing :ref:`Sumac Aspects Notes`.
 
 Compare courses and course runs with Aspects
 ********************************************
