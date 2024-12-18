@@ -37,7 +37,7 @@ Example Multi-select Problem
 ****************************
 
 In the LMS, learners complete a multi-select problem by selecting the correct answers and leaving the incorrect ones unselected. An example of a completed multi-select
-problem follows selecting the correct answers and leaving the incorrect ones unselected
+problem follows, selecting the correct answers and leaving the incorrect ones unselected.
 
 .. image:: /_images/educator_references/CheckboxExample.png
  :alt: An example multi-select problem in the LMS. This problem was incorrectly
