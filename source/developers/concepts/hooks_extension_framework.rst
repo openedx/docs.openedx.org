@@ -201,6 +201,35 @@ When implementing a new feature, look into how the Hooks Extension Framework can
 
 .. note:: If you think your feature should be part of the core instead of an extension, consider making a `Product Proposal`_.
 
+Contribute to the Hooks Extension Framework
+*******************************************
+
+Before considering contributing to the framework, we suggest you make a quick proposal with your use case and intended solution, and share it with the community to gather feedback and validate the approach. This can be done in the Open edX Discuss forum or in each repository's issue tracker.
+
+If you're new to contributing to the Hooks Extension Framework, we recommend also reading the :doc:`openedx-events <openedx-events:index>` and :doc:`openedx-filters <openedx-filters:index>` documentation to understand each hook concepts and how to use them in your project.
+
+After choosing between an event or filter based on your use case, you can start integrating the framework into your solution. You can find the list of available events and filters that work out-of-the-box in :doc:`openedx-events:reference/events` and :doc:`openedx-filters:reference/filters` corresponding documentation. If you have a use case that doesn't fit any existing hook, consider proposing a new one to the community.
+
+.. note:: if your use case is too specific to your organization, consider making your definitions organization-scoped by implementing them in your project. However, if you believe your use case can benefit the community, consider proposing a new event or filter to the community.
+
+Here's an overview of the steps that usually take place when contributing to the Hooks Extension Framework:
+
+.. TODO: Reference new documentation for creating long-term Open edX Events and Filters contributions, but for the time being reference what's available in the openedx-events and openedx-filters repositories.
+
+#. When contributing a hook, either an event or filter, you will need to interact with at least two repositories during the implementation: the hook repository (openedx-events or openedx-filters) and the service repository (edx-platform (LMS/CMS), credentials, etc.) where the hook will be used. This is done this way due to the design of the framework, implemented across two lightweight libraries that can be installed independently (see ADR: :doc:`openedx-events:decisions/0001-purpose-of-this-repo` for more details) in the service repositories where definitions are used.
+#. For implementing the hook, follow the instructions in the guide specific to each repository for :doc:`openedx-events:how-tos/creating-new-events` and :doc:`openedx-filters:how-tos/create-new-filter`.
+#. For integrating the hook into a service, follow the instructions in the relevant repository for :doc:`openedx-events:how-tos/using-events` and :doc:`openedx-filters:how-tos/using-filters`.
+#. We recommend validating the previous steps simultaneously to ensure the implementations in both the hooks repository and the service align properly. The validation process might also include the implementation of an extension, e.g., a plugin, that uses the new hook to ensure it works as expected.
+#. Once you've validated both implementations, you can open the Pull Requests for review. Typically, the Pull Request for the hook definition (in `openedx-events`_ or `openedx-filters`_) is opened first, along with a simultaneous PR in the service. While managing two Pull Requests at the same time might be challenging, it's recommended to avoid rework by validating definitions early, like ensuring the filter arguments are objects available during execution, verifying the event payload can be populated with the available information, that the hook name fits the context where it will be used, etc.
+#. At this point you can actively involve the maintainers of the respective repositories. The framework maintainers would help you verify that the definitions are accurate and follow the repository guidelines, they should also take a look at the service repository Pull Request to ensure the hook is consistent with the service's context and the intended use case.
+#. Once the review process is complete, the Pull Request will be merged, followed by a GitHub and Pypi release of either the `openedx-events`_ or `openedx-filters`_ library.
+#. After the release, include the new version of the libraries in your Pull Request for the service repository. This ensures that the repository is using the latest version of the library, which includes the new hook definition.
+#. Finally, the service repository Pull Request will be reviewed and merged by maintainers, completing the integration of the new hook.
+
+By following these steps, you can start contributing to the Hooks Extension Framework and help extend the Open edX platform in a maintainable way.
+
+For more specifics about Open edX Events and Filters, please visit the :doc:`openedx-events <openedx-events:index>` and :doc:`openedx-filters <openedx-filters:index>` documentation.
+
 .. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
 .. _openedx-events: https://github.com/openedx/openedx-events
