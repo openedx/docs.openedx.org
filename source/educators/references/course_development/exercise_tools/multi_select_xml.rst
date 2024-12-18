@@ -1,8 +1,7 @@
 .. _Multi select Problem XML:
 
-***********************************
 Multi-select Problem OLX Reference
-***********************************
+##################################
 
 .. tags:: educator, reference
 
@@ -10,9 +9,8 @@ Multi-select Problem OLX Reference
  For more information, see :ref:`Using the Script Element<Using the Script
  Element in Multi-select Problems>`.
 
-============
 Template
-============
+********
 
 .. code-block:: xml
 
@@ -38,9 +36,9 @@ Template
     </demandhint>
   </problem>
 
-=========
+
 Elements
-=========
+********
 
 For multi-select problems, the ``<problem>`` element can include this hierarchy of
 child elements.
@@ -61,15 +59,15 @@ child elements.
 
 In addition, standard HTML tags can be used to format text.
 
---------------------------
+
 ``<choiceresponse>``
---------------------------
+====================
 
 Required. Indicates that the problem is a multi-select problem.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+-----------
 
 .. list-table::
    :widths: 20 80
@@ -81,80 +79,74 @@ Attributes
      - Optional. Specifies the type of partial credit given. ``EDC`` or
        ``halves``.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 * ``<label>``
 * ``<description>``
 * ``<checkboxgroup>``
 * ``<solution>``
 
---------------------------
+
 ``<label>``
---------------------------
+============
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
-^^^^^^^^^^^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 None.
 
---------------------------
 ``<description>``
---------------------------
+=================
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 None.
 
---------------------------
 ``<checkboxgroup>``
---------------------------
+===================
 
 Required. Indicates the beginning of the list of options.
 
-^^^^^^^^^^^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 * ``<choice>``
 * ``<compoundhint>``
 
 ``<choice>``
-************
+============
 
 Required. Designates an answer option.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 .. list-table::
    :widths: 20 80
@@ -169,21 +161,21 @@ Attributes
          required.
        * When set to ``"false"``, the choice is an incorrect answer.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 ``<choicehint>``
 
---------------------------
+
 ``<choicehint>``
---------------------------
+================
 
 Optional. Specifies feedback for the answer.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 .. list-table::
    :widths: 20 80
@@ -195,21 +187,20 @@ Attributes
      -  Required. ``true`` or ``false``. Indicates if the feedback is given
         when the answer option is selected, or when it is not selected.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 None.
 
---------------------------
+
 ``<compoundhint>``
---------------------------
+==================
 
 Optional. Specifies feedback for a specific combination of answers.
 
-^^^^^^^^^^^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 .. list-table::
    :widths: 20 80
@@ -222,15 +213,15 @@ Attributes
        feedback. Answers are identified by uppercase letters, in ascending
        alphabetical order.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 None.
 
---------------------------
+
 ``<solution>``
---------------------------
+==============
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.
@@ -238,57 +229,55 @@ the questions in a problem that contains more than one question.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
---------------------------
+
 ``<demandhint>``
---------------------------
+================
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
+
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 ``<hint>``
 
---------------------------
+
 ``<hint>``
---------------------------
+==========
 
 Required. Specifies additional information that learners can access if needed.
 
-^^^^^^^^^^^^^^^^^^^^
 Attributes
-^^^^^^^^^^^^^^^^^^^^
+----------
 
 None.
 
-^^^^^^^^^^^^^^^^^^^^
 Children
-^^^^^^^^^^^^^^^^^^^^
+--------
 
 None.
 
 .. _Using the Script Element in Multi-select Problems:
 
-========================
+
 Using the Script Element
-========================
+************************
 
 You can use the ``<script>`` element to programmatically set attributes and
 options for your multi-select problems.  You could use this feature to display
 different questions/answers depending on variable factors, like time of day, or
 randomly generated numbers.
 
--------------------------------------------------------
+
 Use the Advanced Editor to Configure the Script Element
--------------------------------------------------------
+=======================================================
 
 You must use the :ref:`advanced editor<Advanced Editor>` to configure a
 ``<script>`` element.

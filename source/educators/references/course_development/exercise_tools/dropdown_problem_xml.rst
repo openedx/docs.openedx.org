@@ -1,14 +1,13 @@
 .. _Dropdown Problem XML:
 
-******************************
 Dropdown Problem OLX Reference
-******************************
+##############################
 
 .. tags:: educator, reference
 
-========
+
 Template
-========
+********
 
 .. code-block:: xml
 
@@ -36,9 +35,9 @@ Template
     </demandhint>
   </problem>
 
-========
+
 Elements
-========
+********
 
 For dropdown problems, the ``<problem>`` element can include this
 hierarchy of child elements.
@@ -57,74 +56,65 @@ hierarchy of child elements.
 
 In addition, standard HTML tags can be used to format text.
 
---------------------
+====================
 ``<optionresponse>``
---------------------
+====================
 
 Required. Indicates that the problem is a dropdown problem.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+
+**Attributes:**
+
 
 None.
 
-^^^^^^^^
-Children
-^^^^^^^^
+
+**Children:**
+
 
 * ``<label>``
 * ``<description>``
 * ``<optioninput>``
 * ``<solution>``
 
------------
+===========
 ``<label>``
------------
+===========
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 None.
 
-^^^^^^^^
-Children
-^^^^^^^^
+
+**Children:**
 
 None.
 
------------------
+=================
 ``<description>``
------------------
+=================
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 None.
 
-^^^^^^^^
-Children
-^^^^^^^^
+**Children:**
 
 None.
 
------------------
+=================
 ``<optioninput>``
------------------
+=================
 
 Required. Designates an answer option.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 .. list-table::
    :widths: 20 80
@@ -143,23 +133,19 @@ Attributes
      - Used if the ``options`` attribute is set. Required. Indicates
        which of the answer options is correct.
 
-^^^^^^^^
-Children
-^^^^^^^^
+**Children:**
 
 * ``<option>``
 * ``<optionhint>``
 
-------------
+============
 ``<option>``
-------------
+============
 
 Designates an answer option. Either a set of ``<option>`` child elements or the
 ``options`` attribute for ``<optioninput>`` is required.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 .. list-table::
    :widths: 20 80
@@ -175,27 +161,23 @@ Attributes
 If the ``<option>`` element is used, ``<optionhint>`` is a child of
 ``<option>``.
 
-----------------
+================
 ``<optionhint>``
-----------------
+================
 
 Optional. Specifies feedback for the answer.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 None.
 
-^^^^^^^^
-Children
-^^^^^^^^
+**Children:**
 
 None.
 
---------------
+==============
 ``<solution>``
---------------
+==============
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.
@@ -203,40 +185,32 @@ the questions in a problem that contains more than one question.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
-----------------
+================
 ``<demandhint>``
-----------------
+================
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 None.
 
-^^^^^^^^
-Children
-^^^^^^^^
+**Children:**
 
 ``<hint>``
 
-----------
+==========
 ``<hint>``
-----------
+==========
 
 Required. Specifies additional information that learners can access if needed.
 
-^^^^^^^^^^
-Attributes
-^^^^^^^^^^
+**Attributes:**
 
 None.
 
-^^^^^^^^
-Children
-^^^^^^^^
+**Children:**
 
 None.
 

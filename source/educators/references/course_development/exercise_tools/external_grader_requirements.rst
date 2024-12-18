@@ -1,8 +1,7 @@
 .. _External Grader Problem Requirements:
 
-**************************************
 External Grader Problem Requirements
-**************************************
+####################################
 
 .. tags:: educator, reference
 
@@ -17,9 +16,8 @@ An external grader problem in Studio must have the following requirements.
 
 .. _GPG Key:
 
-=======
 GPG Key
-=======
+*******
 
 Before you can add an external grader problem, you must obtain a public GNU
 Privacy Guard (GPG) key. For information about how to obtain a GPG key, see the
@@ -27,9 +25,8 @@ Privacy Guard (GPG) key. For information about how to obtain a GPG key, see the
 
 .. _XQueue Name:
 
-===========
 XQueue Name
-===========
+***********
 
 The external grader problems in your course must use a specific XQueue name.
 You create the name for the XQueue that your course uses when you request
