@@ -1,8 +1,8 @@
 .. _View and download student data:
 
-==========================================
+#############################
 Download or View Learner Data
-==========================================
+#############################
 
 .. tags:: educator, how-to
 
@@ -10,8 +10,9 @@ You can download a report of learner data to gain more information about the
 individuals who are enrolled in your course. You also have the option to view
 learner data on the instructor dashboard.
 
+*********************
 Download Learner Data
-***********************
+*********************
 
 To download learner data, follow these steps.
 
@@ -38,8 +39,9 @@ To download learner data, follow these steps.
    All learner-supplied data is included in this file without truncation. For
    more information, see :ref:`Columns in the Student Profile Report`.
 
+*****************
 View Learner Data
-***********************
+*****************
 
 To view learner data, follow these steps.
 

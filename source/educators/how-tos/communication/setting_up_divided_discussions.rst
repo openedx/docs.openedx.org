@@ -1,8 +1,8 @@
 .. _Setting Up Divided Discussions:
 
-******************************
+##############################
 Setting Up Divided Discussions
-******************************
+##############################
 
 .. tags:: educator, how-to
 
@@ -35,9 +35,9 @@ topics.
 
 .. _Divide All Content Specific Discussion Topics:
 
-**********************************************
+*********************************************
 Divide All Content-Specific Discussion Topics
-**********************************************
+*********************************************
 
 When you :ref:`create content-specific discussion topics<Create
 ContentSpecific Discussion Topics>` by adding discussion components to units
@@ -50,7 +50,7 @@ the steps below.
 .. warning:: If you make changes to discussion division settings in a running
    course, be aware that learners will be affected by your changes.
 
-1. Navigate to edx discussion provider configuration page
+1. Navigate to Open edX discussion provider configuration page
 (see :ref:`Configuring Edx Discussions`).
 
 2. Turn on the toggle for **Divide discussions by cohort** to divide all
@@ -70,9 +70,9 @@ For information about managing discussions that are divided, see
 
 .. _Divide Course Wide Discussion Topics:
 
-*************************************
+************************************
 Divide Course-Wide Discussion Topics
-*************************************
+************************************
 
 When you create :ref:`course-wide discussion topics<Create CourseWide
 Discussion Topics>`, they are by default unified. All learners in the
@@ -90,7 +90,7 @@ course can see and respond to posts from all other learners.
 To specify that one or more course-wide discussion topics are divided,
 follow these steps.
 
-1. Navigate to edx discussion provider configuration page (see :ref:`Configuring Edx Discussions`).
+1. Navigate to Open edx discussion provider configuration page (see :ref:`Configuring Edx Discussions`).
 
 2. Turn on the toggle for **Divide discussions by cohort** to divide all
    content-specific discussion topics by cohort.
