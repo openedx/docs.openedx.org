@@ -77,4 +77,6 @@ release note!
 
    * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
 
+   * :doc:`customizing_learner_dashboard`
+
    * :doc:`/site_ops/references/frontend-plugin-slots`

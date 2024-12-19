@@ -42,3 +42,12 @@ Slots only available in the Learning MFE:
 - `header_slot <https://github.com/openedx/frontend-app-learning/tree/open-release/sumac.master/src/plugin-slots/HeaderSlot#header-slot>`_
 - `sequence_container_slot <https://github.com/openedx/frontend-app-learning/tree/open-release/sumac.master/src/plugin-slots/SequenceContainerSlot#sequence-container-slot>`_
 - `unit_title_slot <https://github.com/openedx/frontend-app-learning/tree/open-release/sumac.master/src/plugin-slots/UnitTitleSlot#slot-id-unit_title_slot>`_
+
+
+.. seealso::
+
+   * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
+
+   * :doc:`/community/release_notes/sumac/customizing_header`
+
+   * :doc:`/community/release_notes/sumac/customizing_learner_dashboard`

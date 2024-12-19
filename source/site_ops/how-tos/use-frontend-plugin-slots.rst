@@ -39,3 +39,7 @@ for more about Frontend Plugin Slots and their usage.
 .. seealso::
 
    See :doc:`../references/frontend-plugin-slots` for a list of available slots.
+
+   :doc:`/community/release_notes/sumac/customizing_header`
+
+   :doc:`/community/release_notes/sumac/customizing_learner_dashboard`
