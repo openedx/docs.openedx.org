@@ -1,7 +1,5 @@
 .. _Give Other Users Access to Your Library:
 
-<<<<<<< Updated upstream
-=======
 ##############################################
 Give Other Users Access to Your Legacy Library
 ##############################################
@@ -44,9 +42,6 @@ These are the levels of access for libraries.
    give them the **Staff** level of access. You can give the **Admin** level of
    access only to people who already have the **Staff** level of access.
 
-<<<<<<< Updated upstream
-=======
-
 *************************
 Add a User to the Library
 *************************
@@ -71,8 +66,6 @@ To grant a user initial **User** access to a library, follow these steps.
    The new user is added to the list of library members with the **User** level
    of access.
 
-<<<<<<< Updated upstream
-=======
 ******************************
 Remove a User from the Library
 ******************************
@@ -96,9 +89,6 @@ To remove a user from the library, follow these steps.
 #. Select **Delete**.
 
   The user is removed from the library.
-
-<<<<<<< Updated upstream
-=======
 
 *************************
 Add Staff or Admin Access
@@ -130,13 +120,9 @@ steps.
   or Admin Access`.
   
 
-<<<<<<< Updated upstream
-.. _Remove Staff or Admin Access:
-=======
 ****************************
 Remove Staff or Admin Access
 ****************************
->>>>>>> Stashed changes
 
 After you have granted users **Staff** or **Admin** access, you (or other
 **Admin** library users) can reduce their levels of access.
@@ -159,7 +145,7 @@ steps.
 .. note:: There must always be at least one Admin for a library. If there is
    only one user with the Admin role, you cannot remove him or her from the
    Admin role unless you first assign another user to the Admin role.
-
+   
 
 .. seealso::
  :class: dropdown
