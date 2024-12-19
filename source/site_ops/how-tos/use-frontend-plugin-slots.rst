@@ -8,18 +8,18 @@ that can be “swapped out” with other visual elements using custom code defin
 in an `env.config.jsx` file. Note: In some cases a slot may default to being
 empty, existing solely to be a placeholder for optional elements.
 
-The basic procedure for replacing a slot is as follows:
+The basic procedure for replacing a slot in a production Tutor deployment is as follows:
 
 #. Find the slot(s) you wish to customize by visiting the relevant
    `/src/plugin-slots` page of the MFE you wish to customize (for example, see
    the `Learner Dashboard MFE slots documentation
    <https://github.com/openedx/frontend-app-learner-dashboard/tree/master/src/plugin-slots>`_)
 
-#. Create or modify the `env.config.jsx` file as demonstrated in the documentation.
+#. Follow the `Tutor MFE instructions <https://github.com/overhangio/tutor-mfe/tree/v19.0.0?tab=readme-ov-file#using-frontend-plugin-slots>`_ to `create a Tutor plugin <https://docs.tutor.edly.io/tutorials/plugin.html>`_ that configures `env.config.jsx` to use the slot you selected above.
 
-#. (How to test changes)
+#. After enabling your Tutor plugin, rebuild the MFE image via the `tutor images build mfe` command.  Then restart the MFE container with `tutor local stop mfe && tutor local start -d mfe`. 
 
-#. Rebuild the MFE (link to instructions - where?) to see your changes live on your site
+#. After restarting, navigate to the page where the plugin slot is exposed, where you should be able to see the custom content your plugin provides.
 
 Note that up to three actions may be available for a slot: “modify" (changing
 the links in the existing component), "replace" (fully removing the existing
