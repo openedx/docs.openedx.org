@@ -54,7 +54,7 @@ access the hints by selecting **Hint** beneath the problem.  A learner can view
 multiple hints by selecting **Hint** multiple times.
 
 For example, in the following single select problem, the learner selects
-**Hint** after an incorrect attempt.
+**Hint** after having made an incorrect attempt.
 
 .. image:: /_images/educator_references/multiple_choice_hint.png
  :alt: Image of a single select problem with the first hint.
