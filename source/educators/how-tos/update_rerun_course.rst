@@ -85,12 +85,6 @@ who enroll in the new course run.
   For example, you could revise a description of the problem **Check** button,
   which was accurate before October 2016, to reflect its new label, **Submit**.
 
-  .. only:: Partners
-
-   
-    The previous **Help** option was renamed **Support** to the LMS in September 2016 to
-    provide access to the *Open edX Learner's Guide*. 
-
 For more information about tools and ideas that can help you prepare a course
 for launch, see :ref:`Launch`.
 
