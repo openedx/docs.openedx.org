@@ -14,6 +14,7 @@ The Open edX® Problem Component
    :maxdepth: 2
    :glob:   
 
+   ../references/course_development/exercise_tools/create_exercises_and_tools.rst
    ../how-tos/course_development/Subsection_configure_hints.rst
    ../how-tos/course_development/set_subsection_problem_date.rst
    ../references/course_development/Section_adding_tooltip.rst
@@ -28,7 +29,7 @@ The Open edX® Problem Component
    ../concepts/exercise_tools/create_exercises.rst
    ../how-tos/course_development/exercise_tools/add_hints_advanced_editor.rst
    ../references/grading/gradebook_assignment_types.rst
-   ../references/course_development/exercise_tools/create_exercises_and_tools.rst
+   ../how-tos/course_development/exercise_tools/add_unsupported_problem_types.rst
 
 Chemical Equation Problem
 *******************************************************

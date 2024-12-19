@@ -1,12 +1,11 @@
 .. _Learner View of Problems:
 
-#############################
 The Learner View of a Problem
 #############################
 
 .. tags:: educator, reference
 
-All problems on the edX platform have these component parts, some of which can
+All problems on the Open edX platform have these component parts, some of which can
 be configured. For configurable options, you can specify whether and when
 an option is available in problems.
 
