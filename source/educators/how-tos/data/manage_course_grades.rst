@@ -249,14 +249,6 @@ The gradebook includes the following features:
   specific graded subsection. For information about how to do this, see
   :ref:`Override in Gradebook`.
 
-* **Master’s courses:** The Open edX gradebook has several features for high-touch courses. For learners in the Master’s track:
-
-  * You can search by email or university student key.
-
-  * You can override grades in bulk. For more information, see :ref:`Override Subsection Bulk`.
-
-  * You can download and view a detailed per-learner report for tracking learner progress and planning learning interventions. For more information, see :ref:`Interventions Report`.
-
 
 .. _Override Subsection Bulk:
 
