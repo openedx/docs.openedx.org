@@ -105,6 +105,7 @@ steps.
   of access and move them back to their previous level of access. For details
   about reducing a user's level of access to a library, see :ref:`Remove Staff
   or Admin Access`.
+  
 
 .. _Remove Staff or Admin Access:
 
