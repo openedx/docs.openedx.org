@@ -143,4 +143,4 @@ hints for learners.
  
  :ref:`Use Hints in a Dropdown Problem` (how-to)
 
- :ref:`Defining Settings for Problem Components` (reference)
+ :ref:`Problem Settings` (reference)
