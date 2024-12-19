@@ -1,3 +1,5 @@
+.. _Create a New Course Screen 
+
 
 ##########################
 Create a New Course Screen
