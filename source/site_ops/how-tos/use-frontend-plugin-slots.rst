@@ -32,5 +32,10 @@ More on Frontend Plugin Slots
 *****************************
 
 See the `Frontend Plugin Slots section of the tutor-mfe README
-<https://github.com/overhangio/tutor-mfe/blob/7e34b50d5f3707ac6c22072a2c64283be9c4b661/README.rst#using-frontend-plugin-slots>`_
+<https://github.com/overhangio/tutor-mfe/?tab=readme-ov-file#using-frontend-plugin-slots>`_
 for more about Frontend Plugin Slots and their usage.
+
+
+.. seealso::
+
+   See :ref:`../references/frontend-plugin-slots` for a list of available slots.
