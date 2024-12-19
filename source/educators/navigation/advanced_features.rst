@@ -68,8 +68,8 @@ Use Open edX as an LTI Tool Provider
    ../references/advanced_features/planning_content_reuse.rst
    ../how-tos/advanced_features/lti_prepare_content.rst
    ../how-tos/advanced_features/lti_determine_content_address.rst
-   ../references/advanced_features/lti_canvas_example.rst
-   ../references/advanced_features/lti_blackboard_example.rst  
+   ../how-tos/advanced_features/lti_canvas_example.rst
+   ../how-tos/advanced_features/lti_blackboard_example.rst  
 
 Course Tags and Taxonomies
 *******************************************************

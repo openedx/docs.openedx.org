@@ -1,8 +1,7 @@
 .. _Partial Credit:
 
-==========================================
 Awarding Partial Credit for a Problem
-==========================================
+#####################################
 
 .. tags:: educator, reference
 
@@ -10,7 +9,7 @@ You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit an answer that is partly correct.
 
 * :ref:`Single Select <Awarding Partial Credit in a Multiple Choice Problem>`
-* :ref:`Multi-select <Awarding Partial Credit in a Multi-select Problem>`
+* :ref:`Multi-select <Awarding Partial Credit in a Multi select Problem:>`
 * :ref:`Numerical Input <Awarding Partial Credit in a Numerical Input Problem>`
 * :ref:`Custom Python-evaluated Input Problem (Write-Your-Own Grader) <Award Half Credit>`
 
@@ -21,9 +20,9 @@ demonstrates their progress.
 For more information about configuring partial credit, see the topic for each
 problem type.
 
-------------------------------------------
+
 How Learners Receive Partial Credit
-------------------------------------------
+************************************
 
 Learners receive partial credit when they submit an answer in the LMS.
 
@@ -38,9 +37,9 @@ received 25% of the possible points.
  :width: 500
 
 
------------------------------------------------------
+
 Partial Credit and Reporting on Learner Performance
------------------------------------------------------
+***************************************************
 
 When a learner receives partial credit for a problem, the LMS only adds the
 points that the learner earned to the grade. However, the LMS reports any
@@ -61,3 +60,13 @@ the learner's submission history. The submission history shows the score that
 the learner received out of the total available score, and the value in the
 ``correctness`` field is ``partially-correct``.  For more information, see
 :ref:`Student_Answer_Submission`.
+
+.. seealso::
+
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
+ 
+ :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)
+
+ :ref:`Awarding Partial Credit in a Numerical Input Problem` (how-to)
+
+ :ref:`Award Partial Credit for a Custom Python-Evaluated Input Problem <Award Partial Credit>` (how-to)
