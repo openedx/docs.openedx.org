@@ -1,0 +1,29 @@
+.. _Create a Unit:  
+
+#############
+Create a Unit
+#############
+
+
+#. In the course outline, within the subsection that you want to create the unit, click :guilabel:`New Unit`.
+
+   A new unit is created at the end of the subsection and the blank unit editor opens.
+
+#. Click the pencil icon (|Pencil Icon|) and enter the name for the new unit.
+
+   You can now add components to the unit as needed.
+
+#. Click the Visibility tab to change the subsection visibility and assessment results visibility.
+
+You can then create units within the subsection.
+
+.. seealso::
+ :class: dropdown
+
+ Add a Component (how-to)
+
+ :ref:`Developing Course Units` (reference)
+
+ Components (reference)
+
+ Conditional Content (reference)
