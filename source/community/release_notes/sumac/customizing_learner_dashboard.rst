@@ -153,5 +153,10 @@ This slot can be utilized via code-based configuration. Site operators should
 consult the `Learner Dashboard plugin slot documentation`_ for examples of how to
 use this slot.
 
+.. seealso::
+
+   * :ref:`/site_ops/how-tos/use-frontend-plugin-slots`
+
+   * :ref:`/site_ops/references/frontend-plugin-slots`
 
 .. _Learner Dashboard plugin slot documentation: https://github.com/openedx/frontend-app-learner-dashboard/tree/master/src/plugin-slots
