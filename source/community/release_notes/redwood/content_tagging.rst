@@ -1,3 +1,5 @@
+.. _Content Tagging Release Notes (Redwood):
+
 Content Tagging Release Notes (Redwood)
 #######################################
 

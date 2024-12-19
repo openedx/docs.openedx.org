@@ -1,8 +1,8 @@
 .. _Import a Course:
 
-***************
+###############
 Import a Course
-***************
+###############
 
 .. tags:: educator, how-to
 
@@ -50,7 +50,7 @@ that all components are embedded in a unit.
 
 The import process has five stages. During the first two stages, you must stay
 on the Course Import page. You can leave this page after the Unpacking stage
-has completed. EdX recommends, however, that you don't make important changes
+has completed. Open edX community recommends, however, that you don't make important changes
 to your course until the import operation has completed.
 
 To import a course, follow these steps.

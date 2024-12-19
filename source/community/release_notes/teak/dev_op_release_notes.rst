@@ -20,14 +20,6 @@ Breaking Changes
 ****************
 
 
-Learner Experiences
-*******************
-
-
-Instructor Experiences
-**********************
-
-
 Administrators & Operators
 **************************
 

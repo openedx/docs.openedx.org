@@ -1,7 +1,5 @@
-.. only:: Partners
-
  .. note::
-   Courses on edx.org must use Publisher to re-run courses `Pub Creating a Course Run`_.
+   Courses on openedx.org must use Publisher to re-run courses `Pub Creating a Course Run`_.
 
 To use the import and export options to re-run a course, follow these steps.
 
