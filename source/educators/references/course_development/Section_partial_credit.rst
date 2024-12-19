@@ -6,7 +6,7 @@ Awarding Partial Credit for a Problem
 .. tags:: educator, reference
 
 You can configure the following problem types so that learners can receive
-partial credit for a problem if they submit a partly correct answer.
+partial credit for a problem if they submit a partially correct answer.
 
 * :ref:`Single Select <Awarding Partial Credit in a Multiple Choice Problem>`
 * :ref:`Multi-select <Awarding Partial Credit in a Multi select Problem>`
