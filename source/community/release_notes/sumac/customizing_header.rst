@@ -72,3 +72,9 @@ your site, please feel free to make a pull request to add your example to this
 release note!
 
 .. advanced-example-end
+
+.. seealso::
+
+   * :ref:`/site_ops/how-tos/use-frontend-plugin-slots`
+
+   * :ref:`/site_ops/references/frontend-plugin-slots`
