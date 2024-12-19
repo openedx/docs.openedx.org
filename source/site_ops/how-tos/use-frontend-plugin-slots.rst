@@ -38,4 +38,4 @@ for more about Frontend Plugin Slots and their usage.
 
 .. seealso::
 
-   See :ref:`../references/frontend-plugin-slots` for a list of available slots.
+   See :doc:`../references/frontend-plugin-slots` for a list of available slots.

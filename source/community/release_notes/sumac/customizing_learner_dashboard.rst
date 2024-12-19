@@ -155,8 +155,8 @@ use this slot.
 
 .. seealso::
 
-   * :ref:`/site_ops/how-tos/use-frontend-plugin-slots`
+   * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
 
-   * :ref:`/site_ops/references/frontend-plugin-slots`
+   * :doc:`/site_ops/references/frontend-plugin-slots`
 
 .. _Learner Dashboard plugin slot documentation: https://github.com/openedx/frontend-app-learner-dashboard/tree/master/src/plugin-slots
