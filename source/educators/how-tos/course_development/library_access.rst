@@ -1,5 +1,12 @@
 .. _Give Other Users Access to Your Library:
 
+<<<<<<< Updated upstream
+=======
+##############################################
+Give Other Users Access to Your Legacy Library
+##############################################
+
+>>>>>>> Stashed changes
 .. tags:: educator, how-to
 
 .. warning::
@@ -37,6 +44,14 @@ These are the levels of access for libraries.
    give them the **Staff** level of access. You can give the **Admin** level of
    access only to people who already have the **Staff** level of access.
 
+<<<<<<< Updated upstream
+=======
+
+*************************
+Add a User to the Library
+*************************
+
+>>>>>>> Stashed changes
 To grant a user initial **User** access to a library, follow these steps.
 
 .. note:: Only library users with the **Admin** level of access can add users
@@ -56,6 +71,13 @@ To grant a user initial **User** access to a library, follow these steps.
    The new user is added to the list of library members with the **User** level
    of access.
 
+<<<<<<< Updated upstream
+=======
+******************************
+Remove a User from the Library
+******************************
+
+>>>>>>> Stashed changes
 You can remove users from the library at any time, regardless of the level of
 access that they have.
 
@@ -75,6 +97,14 @@ To remove a user from the library, follow these steps.
 
   The user is removed from the library.
 
+<<<<<<< Updated upstream
+=======
+
+*************************
+Add Staff or Admin Access
+*************************
+
+>>>>>>> Stashed changes
 The levels of access for libraries are hierarchical. You can add new library
 members only with the **User** level of access, after which you can give them
 the **Staff** level of access. You can give the **Admin** level of access only
@@ -100,7 +130,13 @@ steps.
   or Admin Access`.
   
 
+<<<<<<< Updated upstream
 .. _Remove Staff or Admin Access:
+=======
+****************************
+Remove Staff or Admin Access
+****************************
+>>>>>>> Stashed changes
 
 After you have granted users **Staff** or **Admin** access, you (or other
 **Admin** library users) can reduce their levels of access.
