@@ -75,6 +75,6 @@ release note!
 
 .. seealso::
 
-   * :ref:`/site_ops/how-tos/use-frontend-plugin-slots`
+   * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
 
-   * :ref:`/site_ops/references/frontend-plugin-slots`
+   * :doc:`/site_ops/references/frontend-plugin-slots`
