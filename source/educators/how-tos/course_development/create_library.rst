@@ -1,13 +1,22 @@
 .. _Create a New Library:
 
-********************
-Create a New Library
-********************
+###########################
+Create a New Legacy Library
+###########################
 
 .. tags:: educator, how-to
 
-Use :ref:`content libraries<Content Libraries>` to build a pool of components
+Use :ref:`legacy content libraries<Content Libraries>` to build a pool of components
 that can be used in randomized assignments in your courses.
+
+.. warning::
+
+   The Legacy Libraries feature will be supported through Teak, moving to
+   unsupported in Ulmo. Teak will include a one-click migration feature that
+   will make it easy to convert a Legacy Library into the new Library interface.
+
+   See :doc:`/community/release_notes/sumac/content_libraries_redesign_beta` for
+   more information.
 
 To create a new library, follow these steps.
 
@@ -52,9 +61,9 @@ you create it, see :ref:`Give Other Users Access to Your Library`.
 
 .. _Edit a Library:
 
-**************
-Edit a Library
-**************
+*********************
+Edit a Legacy Library
+*********************
 
 After you create a library, the only change you can make to the initial library
 information is to the name. However, at any time, you can make changes to the
@@ -86,9 +95,9 @@ Other Users Access to Your Library`.
 
 .. _Add Components to a Library:
 
-****************************
-Add Components to a Library
-****************************
+**********************************
+Add Components to a Legacy Library
+**********************************
 
 To add new :ref:`components<Developing Course Components>` to your library,
 follow these steps.
@@ -119,9 +128,9 @@ a Library` and :ref:`Get the Latest Version of Library Content <Get the Latest V
 
 .. _View the Contents of a Library:
 
-******************************
-View the Contents of a Library
-******************************
+*************************************
+View the Contents of a Legacy Library
+*************************************
 
 To view the entire contents of a library in Studio, follow these steps.
 
@@ -164,9 +173,9 @@ To view the randomized content that was assigned to a specific learner, see
 
 .. _Edit Components in a Library:
 
-****************************
-Edit Components in a Library
-****************************
+***********************************
+Edit Components in a Legacy Library
+***********************************
 
 After you have added components to a library, you can edit, duplicate, or
 delete them.
@@ -187,9 +196,9 @@ refer to the following topics.
 
 .. _Delete a Library:
 
-*****************
-Delete a Library
-*****************
+***********************
+Delete a Legacy Library
+***********************
 
 You cannot delete a library. Instead, you can discontinue use of an unwanted
 library. To do so, first make sure that none of its components are in use in
@@ -205,6 +214,8 @@ in a Library`.
 .. seealso::
  :class: dropdown
 
+ :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
+ 
  :ref:`Content Libraries Overview` (concept)
 
  :ref:`Give Other Users Access to Your Library` (how to)

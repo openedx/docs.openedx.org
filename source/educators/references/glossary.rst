@@ -2,9 +2,9 @@
 
 .. _Educators Glossary:
 
-#####################
+########
 Glossary
-#####################
+########
 
 .. tags:: educator, reference
 

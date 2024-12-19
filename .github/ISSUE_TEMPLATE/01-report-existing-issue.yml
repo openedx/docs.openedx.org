@@ -47,4 +47,3 @@ body:
     attributes:
       label: Provide any extra details, such as LMS version, specifics of what's broken, or suggested remediation steps.
       description: "e.g. Specific steps that are broken; Suggestions for more docs needed; Open edX® LMS version you are testing with;"
-      render: bash

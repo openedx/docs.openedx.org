@@ -207,7 +207,30 @@ Embed IFrames
    ../how-tos/add_content_iframe.rst
 
 Work with Content Libraries
-*******************************************************
+***************************
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   ../how-tos/course_development/navigate_library_homepage.rst
+   ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
+   ../how-tos/course_development/create_and_edit_content_in_a_library.rst
+   ../how-tos/course_development/publish_library_content.rst
+   ../how-tos/course_development/add_delete_tags_in_library_content.rst
+   ../how-tos/course_development/build_a_collection_in_a_library.rst
+   ../how-tos/course_development/search_for_content_in_a_library.rst
+   ../how-tos/course_development/add_users_to_libraries.rst
+   ../how-tos/course_development/add_library_content_to_a_course.rst
+   ../how-tos/course_development/add_a_problem_bank_to_your_course.rst
+   ../how-tos/course_development/sync_a_library_update_to_your_course.rst
+
+Work with Legacy Content Libraries
+**********************************
+
+The Legacy Libraries feature will be supported through Teak, moving to
+unsupported in Ulmo. Teak will include a one-click migration feature that will
+make it easy to convert a Legacy Library into the new Library interface.
 
 .. toctree::
    :maxdepth: 2

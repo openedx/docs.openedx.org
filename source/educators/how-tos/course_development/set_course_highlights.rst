@@ -1,8 +1,8 @@
 .. _Set Section Highlights for Course Highlight Messages:
 
-***********************************************************
+###########################################
 Set Section Highlights for Highlight Emails
-***********************************************************
+###########################################
 
 .. tags:: educator, how-to
 
@@ -23,9 +23,9 @@ For more information, contact your Open edX system administrator.
 
 .. _Set Section Highlights:
 
-=========================================
+*********************
 Send Highlight Emails
-=========================================
+*********************
 
 To send highlight emails to your learners, you must first set highlights
 for each section. When you have set section highlights, you then enable the
@@ -40,8 +40,9 @@ visible in the course outline, below the name of the section.
 
 .. _Set Course Section Highlights:
 
+*****************************
 Set Course Section Highlights
-**********************************
+*****************************
 
   .. note::
     If your Open edX system adminstrator has not configured your instance of
@@ -61,11 +62,12 @@ To set highlights for a course section, follow these steps.
 
 .. _Enable Course Highlight Messages:
 
+***********************
 Enable Highlight Emails
-********************************************
+***********************
 
 .. note::
-   If you do not enable highlights, the edX platform does not send
+   If you do not enable highlights, the Open edX platform does not send
    course highlight emails, even if you enter highlights for one or more
    sections.
 
