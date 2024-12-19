@@ -16,7 +16,7 @@ a definition for "ROI" is being shown.
  :width: 500
 
 .. note::
-  For learners using screen reader, the tooltip expands to make its
+  For learners using a screen reader, the tooltip expands to make its
   associated text accessible when the screen reader focuses on the tooltip
   icon.
 
