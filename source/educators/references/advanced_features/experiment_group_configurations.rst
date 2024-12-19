@@ -1,20 +1,19 @@
 .. _Experiment Group Configurations:
 
-=======================================
 Experiment Group Configurations
-=======================================
+###############################
 
 .. tags:: educator, reference
 
-The edX Platform assigns learners to each experiment group in a group
+Your Open edX instance assigns learners to each experiment groups within a group
 configuration.
 
 Experiment group assignments have the following characteristics.
 
 * Dynamic
 
-  The edX Platform assigns a learner to an experiment group the first time he
-  or she views a content experiment that uses the group configuration.
+  Your instance assigns a learner to an experiment group the first time they
+  view a content experiment that uses the group configuration.
 
 * Random
 
@@ -22,7 +21,7 @@ Experiment group assignments have the following characteristics.
 
 * Evenly distributed
 
-  The edX Platform keeps track of the size of experiment groups, and assigns
+  Your instance keeps track of the size of experiment groups, and assigns
   new learners to groups evenly. For example, if you have two experiment groups
   in a configuration, each group includes 50% of the learners in the course; if
   you have four experiment groups, each group includes 25% of the learners.

@@ -1,6 +1,5 @@
 .. _Custom JavaScript:
 
-#############################################
 Custom JavaScript Display and Grading Problem
 #############################################
 
@@ -35,11 +34,8 @@ Google Web Toolkit (GWT), to create your JS input problem.
     the learner's view of the problem in the LMS, but the button does not work.
 
 
-
-
-=====================================
 JavaScript Input Example Problem Code
-=====================================
+*************************************
 
 The following code recreates the JavaScript Input problem example shown in the
 overview. The example problem uses these files.
@@ -122,7 +118,7 @@ overview. The example problem uses these files.
 
 .. _JS Input Problem XML:
 
-****************************
+
 JavaScript Input Problem XML
 ****************************
 
@@ -135,7 +131,7 @@ passes the return value of author-specified functions to the enclosing
 response type (generally **CustomResponse**). JSInput can also store and
 retrieve state.
 
-========
+
 Template
 ========
 
