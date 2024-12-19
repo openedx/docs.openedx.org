@@ -7,10 +7,11 @@ Configure Your Course for Content Experiments
 
 This how-to provides instructions for configuring your course to enable
 :ref:`content experiments<Overview of Content Experiments>`. 
+
 To enable content experiments in your course, you must ``split_test`` to the
 **Advanced Module List** in Advanced Settings. To do it, follow the next steps:
 
-
+.. note:: ``split_test`` is the internal name for a content experiment.
 
 .. _Enable Content Experiments:
 
@@ -21,7 +22,7 @@ To enable content experiments in your course, you must ``split_test`` to the
 #. In the **Advanced Module List** field, add ``"split_test"``. Be sure that
    you include the double quotation marks.
 
-   If you have multiple values, ensure that they are separated by commas
+   If you have multiple values, ensure that commas separate them
    (``,``).
 
    For example, the text in the **Advanced Module List** field may resemble
