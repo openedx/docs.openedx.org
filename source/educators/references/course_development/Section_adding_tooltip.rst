@@ -1,13 +1,11 @@
 .. _Adding Tooltips:
 
-==============================
 Adding Tooltips to a Problem
-==============================
+############################
 
 .. tags:: educator, reference
 
-To help learners understand terminology or other aspects of a problem, you can
-add inline tooltips. Tooltips show text to learners when they move their
+You can add inline tooltips to help learners understand terminology or other aspects of a problem. Tooltips display text to learners when they move their
 cursors over a tooltip icon.
 
 The following example problem includes two tooltips. The tooltip that provides
@@ -18,7 +16,7 @@ a definition for "ROI" is being shown.
  :width: 500
 
 .. note::
-  For learners using a screen reader, the tooltip expands to make its
+  For learners using screen reader, the tooltip expands to make its
   associated text accessible when the screen reader focuses on the tooltip
   icon.
 
@@ -36,3 +34,10 @@ tooltips.
             Investment</clarification> over 20 years.
           </p>
        . . .
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Adding Feedback and Hints to a Problem` (reference)
+
+ :ref:`Accessibility Best Practices for Course Content Development` (concept)
