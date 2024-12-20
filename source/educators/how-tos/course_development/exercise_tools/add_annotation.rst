@@ -93,6 +93,7 @@ To add the **Annotation problem** segment of the problem, follow these steps.
 
 #. Select **Save**.
 
+<<<<<<< Updated upstream
 .. seealso::
  :class: dropdown
 
@@ -100,3 +101,12 @@ To add the **Annotation problem** segment of the problem, follow these steps.
 
  :doc:`source/educators/how-tos/course_development/exercise_tools/add_chemical_equation` (how-to)
 
+=======
+
+.. seealso::
+ :class: dropdown
+
+ :doc:`educators/how-tos/course_development/exercise_tools/add_calculator` (how-to)
+
+ :doc:`educators/how-tos/course_development/exercise_tools/add_chemical_equation` (how-to)
+>>>>>>> Stashed changes
