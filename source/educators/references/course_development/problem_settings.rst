@@ -1,8 +1,7 @@
 .. _Problem Settings:
 
-****************************************
 Defining Settings for Problem Components
-****************************************
+########################################
 
 .. tags:: educator, reference
 
@@ -26,9 +25,9 @@ problems.
   change the visibility of individual problems. For more information,
   see :ref:`Problem Results Visibility`.
 
-=============
+
 Display Name
-=============
+************
 
 This required setting provides an identifying name for the problem. The display
 name appears as a heading above the problem in the LMS, and it identifies the
@@ -48,9 +47,9 @@ in the LMS.
 
 .. _Problem Type:
 
-========
+
 Type
-========
+****
 
 You can change the problem type after your initial selection. The current
 problem type is shown with a check mark. Selecting any other problem type will
@@ -64,16 +63,16 @@ over when changing problem types.
 
 .. _Problem Scoring:
 
-==========
+
 Scoring
-==========
+********
 
 These settings allow you to change the amount of points your problem is worth
 and the number of attempts a student has for answering it.
 
----------------
+
 Problem Points
----------------
+==============
 
 This setting specifies the total number of points possible for the problem.
 This defaults to 1 point. In the LMS, the number of points a problem is worth
@@ -84,9 +83,9 @@ appears near the problem's display name.
   components that are in graded subsections count toward a learner's final
   grade.
 
----------------
+
 Attempts
----------------
+********
 
 This setting specifies the number of times that a learner is allowed to try
 to answer this problem correctly. You can define a different **Attempts**
@@ -106,18 +105,49 @@ the answer distribution computations used in the Student Answer Distribution
 report.
 
 .. note::
-   EdX recommends setting **Maximum Attempts** to unlimited or a
+   The recomendation is to set **Maximum Attempts** to unlimited or a
    large number when possible. Problems that allow unlimited attempts encourage
    risk taking and experimentation, both of which lead to improved learning
    outcomes. However, allowing for unlimited attempts might not be feasible in
    some courses, such as those that use primarily single select or dropdown
    problems in graded subsections.
 
+.. _Show Answer Number of Attempts:
+
+
+Number of Attempts
+==================
+
+This setting appears under the Show answer dropdown when the
+**After some number of attempts**, **After all attempts** or
+**After all attempts or correct** option is selected. This limits when
+learners can select the **Show Answer** option for a problem. Learners must
+submit at least the specified number of attempted answers for the problem
+before the **Show Answer** option is available to them.
+
+.. _Time Between Attempts:
+
+Time Between Attempts
+=======================
+
+This setting can be found on the collapsible settings to the right of the
+problem editor after clicking **Show advanced settings**. It specifies the
+number of seconds that a learner must wait between submissions for a problem
+that allows multiple attempts. If the value is 0, the learner can attempt the
+problem again immediately after an incorrect attempt.
+
+Adding required wait time between attempts can help to prevent learners from
+simply guessing when multiple attempts are allowed.
+
+If a learner attempts a problem again before the required time has elapsed, they
+see a message below the problem indicating the remaining wait time. The format
+of the message is, "You must wait at least {n} seconds between submissions. {n}
+seconds remaining."
+
 .. _Hints:
 
-=============
 Hints
-=============
+******
 
 When you add hints, the **Hint** button is automatically displayed to learners.
 Learners can access the hints by selecting **Hint** beneath the problem.  A
@@ -144,9 +174,9 @@ been used, the **Hint** or **Next Hint** option is no longer available.
  :ref:`Configure Hint` (how-to)
 
 
------------------------------------
+
 Best Practices for Providing Hints
------------------------------------
+==================================
 
 To ensure that your hints can assist learners with varying backgrounds and
 levels of understanding, you should provide multiple hints with different
@@ -162,9 +192,8 @@ solution for learners who are still confused.
 
 .. _Show Answer:
 
-===============
 Show Answer
-===============
+***********
 
 This setting can be found on the collapsible settings to the right of the
 problem editor after clicking Show advanced settings. This will add a
@@ -236,24 +265,11 @@ options define when the answer is shown to learners.
 An explanation for the correct answer can be entered below. This explanation
 is displayed when the learner presses the Show answer option.
 
-.. _Show Answer Number of Attempts:
-
--------------------
-Number of Attempts
--------------------
-
-This setting appears under the Show answer dropdown when the
-**After some number of attempts**, **After all attempts** or
-**After all attempts or correct** option is selected. This limits when
-learners can select the **Show Answer** option for a problem. Learners must
-submit at least the specified number of attempted answers for the problem
-before the **Show Answer** option is available to them.
-
 .. _Show Reset Button:
 
-=================
+
 Show Reset Button
-=================
+*****************
 
 This setting can be found on the collapsible settings to the right of the
 problem editor after clicking **Show advanced settings**. It defines whether a
@@ -272,25 +288,6 @@ reached, the **Reset** option is not visible.
 This problem-level setting overrides the course-level **Show Reset Button for
 Problems** advanced setting.
 
-.. _Time Between Attempts:
-
-=======================
-Time Between Attempts
-=======================
-
-This setting can be found on the collapsible settings to the right of the
-problem editor after clicking **Show advanced settings**. It specifies the
-number of seconds that a learner must wait between submissions for a problem
-that allows multiple attempts. If the value is 0, the learner can attempt the
-problem again immediately after an incorrect attempt.
-
-Adding required wait time between attempts can help to prevent learners from
-simply guessing when multiple attempts are allowed.
-
-If a learner attempts a problem again before the required time has elapsed, they
-see a message below the problem indicating the remaining wait time. The format
-of the message is, "You must wait at least {n} seconds between submissions. {n}
-seconds remaining."
 
 .. seealso::
  :class: dropdown

@@ -1,8 +1,7 @@
 .. _Modifying a Released Problem:
 
-*****************************
 Modifying a Released Problem
-*****************************
+#############################
 
 .. tags:: educator, reference
 
@@ -34,9 +33,9 @@ If you change the points setting for the problem in Studio, however, existing
 scores update when the learner's **Progress** page is refreshed. In a live
 section, learners will see the effect of these changes.
 
-============
+
 Workarounds
-============
+************
 
 If you have to modify a released problem in a way that affects grading, you
 have two options to ensure that every learner has the opportunity
