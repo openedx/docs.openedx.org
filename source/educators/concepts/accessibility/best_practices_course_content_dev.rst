@@ -6,23 +6,10 @@ Accessibility Best Practices for Developing Course Content
 
 .. tags:: educator, concept
 
-edX is dedicated to creating a platform that is not only itself accessible, but
+The Open edX project is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to provide
-accessible course content, please contact us using one of the following
-methods. We welcome any comments and questions.
-
-* Send an email message to accessibility@edx.org.
-* Submit a comment on the edX `Website Accessibility Policy
-  <http://www.edx.org/accessibility>`_ page.
-* Submit a comment on the `Individualized Accessibility Process for Course
-  Creators <https://studio.edx.org/accessibility>`_ page.
-
-.. Do not modify wording of the following note. Exact wording is from Legal.
-
-.. note:: Use of authoring tools other than those provided by edX might result
-   in inaccessible course content. However, for clarity, use of edX authoring
-   tools does not ensure that your course content will be accessible.
+accessible course content, please `submit a Github issue <.. _Submit an Open edX Issue>`_ to the Open edX project. 
 
 .. contents::
    :local:
@@ -100,7 +87,7 @@ readable, and that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
 element or conveying critical information. If you must create images that
 contain text, make sure that the text has good contrast with the background. Images of text cannot be scaled or
-color corrected as effectively as HTML text. If you choose to override edX platform's default font colors, make sure that the
+color corrected as effectively as HTML text. If you choose to override platform's default font colors, make sure that the
 foreground and background colors have `sufficient contrast
 <https://contrast-ratio.com/>`_.
 
@@ -113,7 +100,7 @@ than background sounds.
 Make Sure Your Course Content is Understandable
 ***********************************************
 
-Make sure your course content is readable and understandable. EdX courses have
+Make sure your course content is readable and understandable. Online courses often have
 a global and diverse audience, including learners whose native language is not
 the language in which you created your course, as well as learners who have a
 disability that affects reading, such as dyslexia or a visual impairment.
@@ -180,7 +167,7 @@ non-text content.
 
 The text alternative for an image depends on the image's context and purpose,
 and might not be a simple description of the image's visual characteristics.
-In general, for every image, edX recommends that you provide a text
+In general, for every image, it is recommended that you provide a text
 alternative that provides the equivalent information that a sighted learner
 would obtain from viewing the image. If the image contains words that are
 important for understanding the content, include the words in the text
@@ -337,7 +324,7 @@ that requires color perception or a diagram with tiny labels and annotations
 will likely be difficult to comprehend for learners with color blindness or low
 vision. All images present a barrier to learners who are blind.
 
-edX recommends that you follow these best practices for making information
+It is recommended that you follow these best practices for making information
 graphics accessible to visually impaired learners.
 
 * Avoid using only color to distinguish important features of an image. For
@@ -394,7 +381,7 @@ making them available through your course.
 Carefully consider the document format you choose for publishing your course
 materials, because some formats support accessibility better than others.
 Whenever possible, create course materials in HTML format, using the tools
-available to you in edX Studio. When you make digital textbooks (ebooks)
+available to you in Studio. When you make digital textbooks (ebooks)
 available within your course, ask digital book publishers for books in `EPUB 3
 <https://en.wikipedia.org/wiki/EPUB#Version_3.0.1>`_
 format. This digital book format includes unparalleled
@@ -411,7 +398,7 @@ parties, it helps to ask the right questions about accessibility.
   headings, and bookmarks?
 
 Natively accessible formats like those mentioned above might not always be
-available options. Other popular document formats included in edX courses
+available options. Other popular document formats included in online courses
 include PDF, Microsoft Word, Excel, or PowerPoint. Many of the same
 accessibility techniques and principles that apply to authoring web content
 apply to these document formats as well.
@@ -511,7 +498,7 @@ Best Practices for Authoring Accessible PDF Documents
 Evaluating PDF Files for Accessibility
 **************************************
 
-EdX highly recommends using the tools available in Adobe Acrobat Pro (for
+It is highly recommended that you use the tools available in Adobe Acrobat Pro (for
 example, "Accessibility Checker") to evaluate your PDF files for accessibility.
 Adobe Acrobat Pro also includes tools (for example, "Make Accessible") for
 fixing most common accessibility issues.
@@ -573,7 +560,7 @@ Accessible Microsoft Word Resources
 ===================================
 Creating Accessible Excel Documents
 ===================================
-
+ 
 Many of the same accessibility techniques and principles that apply to
 authoring data tables in HTML also apply to creating Excel spreadsheets.
 
@@ -676,16 +663,16 @@ accessible to people with vision impairments. Non-scalable images of
 mathematical content cannot be sufficiently enlarged or navigated by low-vision
 users and are not accessible to blind users at all.
 
-edX uses `MathJax <https://www.mathjax.org>`_ to render math content in a
+The Open edX® platform uses `MathJax <https://www.mathjax.org>`_ to render math content in a
 format that is clear, readable, and accessible to people who use screen
 readers. MathJax works together with math notation such as LaTeX and MathML to
-render mathematical equations as text instead of images. edX recommends that
+render mathematical equations as text instead of images. It is recommended that
 you use MathML to author your math content. MathJax renders MathML in a variety
 of formats on the client side, offering the end user the ability to consume
 math content in their preferred format.
 
-edX Studio also supports authoring math directly in LaTeX using the `LaTeX Source Compiler
-<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathML.
+Studio also supports authoring math directly in LaTeX using the :ref:`LaTeX Source Compiler
+<import latex code>` to transform LaTeX into MathML.
 
 
 =========================================
@@ -807,7 +794,7 @@ Third-Party Content
 ===================
 
 If you include links to third-party content in your course, be mindful of the
-accessibility of such resources. edX recommends that you evaluate third-party
+accessibility of such resources. It is recommended that you evaluate third-party
 content prior to sharing it with learners.
 
 You can use the eReader tool or :ref:`Add Files to a Course <Add Files to a Course>` to incorporate
@@ -839,9 +826,7 @@ Create Accessible Media
 ***********************
 
 Media-based course materials help to convey concepts and can bring course
-information to life. We require all videos in edX courses to include timed text
-captions in `SubRip (SRT) format
-<https://en.wikipedia.org/wiki/SubRip>`_. The edX media
+information to life.  The Open edX® platform media
 player displays caption files in an interactive sidebar that benefits a variety
 of learners, including learners who are hard of hearing or whose native
 language differs from the primary language of the media. This built-in
@@ -860,7 +845,7 @@ loss affects about 10% of the population to some degree. It causes disability
 in 5% (360 to 538 million) and moderate to severe disability in 124 million
 people.  Timed text captions also be helpful for learners whose native
 languages are languages other than the primary language of the media or who
-have cognitive conditions that benefit from visual. The edX media player
+have cognitive conditions that benefit from visual. The media player
 displays timed text captions as links in an interactive area adjacent to the
 video, which allows all learners to navigate to a specific section of the video
 by selecting some location within the caption text.
@@ -945,10 +930,10 @@ and adaptable across browsers and devices. Also, the information in HTML
 markup helps assistive technologies, such as screen reader software, to
 provide information and functionality to people with vision impairments.
 
-Most of the problem type templates in edX Studio conform to our recommended
+Most of the problem type templates in Studio conform to our recommended
 best practices in terms of good HTML markup. You can manually add appropriate
 HTML tagging even if it does not exist in the component template. Depending on
-the type of component you are adding to your course in edX Studio, the raw
+the type of component you are adding to your course in Studio, the raw
 HTML data is available either automatically or by selecting the "Advanced
 Editor" or "HTML" views.
 
@@ -1047,7 +1032,7 @@ guidelines.
   there is a justification, communicate these requirements to prospective
   learners in the course description and establish a plan for responding to
   learners who encounter barriers. If there is no justification for the
-  requirements, edX recommends that you redesign the learning activities to be
+  requirements, it is recommended that you redesign the learning activities to be
   more flexible and broadly accessible.
 
 =======================================
@@ -1059,7 +1044,7 @@ Universal Design for Learning Resources
 .. seealso::
  :class: dropdown
 
- :ref:`edX Accessibility Guidelines` (concept)
+ :ref:`Accessibility Guidelines` (concept)
 
  :ref:`Designing for Mobile` (concept)
 
