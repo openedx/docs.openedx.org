@@ -1,8 +1,8 @@
 .. _Require an Entrance Exam:
 
-****************************
+########################
 Require an Entrance Exam
-****************************
+########################
 
 .. tags:: educator, how-to
 
@@ -19,17 +19,17 @@ After you save your changes, Studio automatically creates an **Entrance Exam**
 section in your course outline. To add content to your entrance exam, go to the
 course outline.
 
-=======================
+***********************
 Create an Entrance Exam
-=======================
+***********************
 
 You create your course entrance exam from the course outline in Studio.
 Creating entrance exam content is just like creating other course content. For
-more information, see :ref:`Course Components Index`.
+more information, see the section on :ref:`Content Creation and Management <Content Creation and Management TOC>`.
 
-==================================
+**********************************
 Adjust Scores in the Entrance Exam
-==================================
+**********************************
 
 If you find an error in the exam after learners have taken it, and corrections
 to the exam are unavoidable, you have several options to rescore the exam for
@@ -54,3 +54,10 @@ for Student**. If you reset learner attempts, rescore learner submissions, or
 delete learner state, the operation runs in the background. If you want to see
 a record of all the operations that have run for the entrance exam, select
 **Show Background Task History for Student**.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Specify Prerequisite Courses and Exams` (how-to)
+
+  :ref:`Set Up Course Prerequisites` (how-to)
