@@ -76,3 +76,10 @@ Tp specify a unit's access settings, follow these steps.
        which have access to a unit appears under the unit title in the Studio
        course outline.
     :width: 500
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Hide a Unit from Students` (how-to)
+
+  :ref:`Create a Unit` (how-to)    

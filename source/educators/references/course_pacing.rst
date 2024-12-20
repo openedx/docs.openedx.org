@@ -1,3 +1,5 @@
+.. _Course Pacing: 
+
 #############
 Course Pacing
 #############

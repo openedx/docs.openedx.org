@@ -94,5 +94,14 @@ To allow learners to download early certificates, you modify the
 .. seealso::
   :class: dropdown
 
- :ref:`Setting Up Certificates`
- :ref:`Reporting Certificate Data`
+  :ref:`Setting Up Certificates` (reference)
+
+  :ref:`Enable a Certificate` (how-to)
+
+  :ref:`Edit a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Enable Badges in Course` (how-to)
+
+  :ref:`Reporting Certificate Data` (how-to)
