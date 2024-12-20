@@ -97,13 +97,19 @@ To add the **Annotation problem** segment of the problem, follow these steps.
  :class: dropdown
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  :doc:`/educators/references/add_calculator` (how-to)
 
  :doc:`/educators/references/add_chemical_equation` (how-to)
 =======
+=======
+>>>>>>> Stashed changes
  :doc:`source/educators/how-tos/course_development/exercise_tools/add_calculator` (how-to)
 
  :doc:`source/educators/how-tos/course_development/exercise_tools/add_chemical_equation` (how-to)
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
