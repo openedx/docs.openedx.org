@@ -5,8 +5,6 @@ Adding Unsupported Problem Types and Exercises
 
 .. tags:: educator, how-to
 
- .. .. note: These instructions are applicable only if your Open edX site has configured...insert name of the config setting. 
-
 In general, you should use only problem types and exercises that are either
 fully or provisionally supported. By default, only supported problem
 types and exercises are available in Studio for adding to courses.

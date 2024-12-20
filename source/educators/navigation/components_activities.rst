@@ -208,7 +208,6 @@ Multi-Select Problem
    ../how-tos/add_checkbox.rst
    ../references/course_development/exercise_tools/multi_select_xml.rst
    ../references/course_development/exercise_tools/multi_select.rst
-   ../references/course_development/exercise_tools/checkbox.rst
    ../how-tos/course_development/exercise_tools/adding_multi_select.rst
    ../how-tos/course_development/exercise_tools/add_multi_select_partial_credit.rst
 

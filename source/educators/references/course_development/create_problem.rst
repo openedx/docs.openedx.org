@@ -66,7 +66,7 @@ types** or select Advanced problem types for a list of **advanced problem types*
   Options for scoring, hints, feedback and more can be entered.
 
 * For advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
-  In this editor you use :ref:`Set Up Group Configuration for OLX Course`.
+  In this editor you use :ref:`Set Up Group Configuration for OLX Courses`.
   elements and attributes to identify the elements of the problem. Options for scoring,
   feedback and more can be entered.
 
@@ -97,7 +97,7 @@ the simple editor.
 
 *  :ref:`Single Select<Single Select>`
 
-*  :ref:`Multi-select<multi_select>`
+*  :ref:`Multi-select<multi select>`
 
 *  :ref:`Dropdown<Dropdown>`
 
