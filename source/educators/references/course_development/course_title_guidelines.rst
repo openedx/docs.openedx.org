@@ -31,9 +31,9 @@ For information about how to add your course name, see
   the way that your course title appears in Studio and the LMS, see
   :ref:`Change the Course Title <Change the Course Title>`.
 
-======================
+*********************
 Example Course Titles
-======================
+*********************
 
 The following course titles are for stand-alone courses.
 
@@ -49,8 +49,14 @@ as an XSeries.
 * Circuits and Electronics 3: Applications
 
 .. seealso::
- :class: dropdown
+  :class: dropdown
 
- :ref:`Course Number Guidelines` (reference)
+  :ref:`Creating Number Guidelines` (reference)
 
- :ref:`Creating a New Course <Create a New Course>`
+  :ref:`Course and Program Images and Videos` (reference)
+
+  :ref:`Course Description` (reference)
+
+  :ref:`Additional Course Information` (reference)
+
+  :ref:`Creating a New Course <Create a New Course>`

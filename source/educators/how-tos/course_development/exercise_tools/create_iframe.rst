@@ -1,8 +1,8 @@
 .. _Create IFrame: 
 
-*********************
+#####################
 Create an IFrame Tool
-*********************
+#####################
 
 .. tags:: educator, how-to
 
@@ -50,9 +50,9 @@ component. You can also add text and images both before and after the iframe.
 
 .. _IFrame Settings:
 
-===============
+***************
 Iframe Settings
-===============
+***************
 
 To specify settings for your iframe, you add, remove, or change the
 attributes inside the opening ``<iframe>`` tag. The ``<iframe>`` tag **must**
@@ -80,8 +80,7 @@ You can add these attributes in any order you want.
        If you do not specify the width and height, the iframe uses the
        dimensions that the linked page has set. These dimensions vary by
        website. If you change the width and height of the iframe, the content
-       from the linked page might be resized, or only part of the content may
-       appear.
+       from the linked page might be resized, or only part of the content may appear.
 
    * - ``marginwidth`` and ``marginheight`` (optional)
      - Specify the size of the space between the edges of the iframe and your

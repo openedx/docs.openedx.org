@@ -1,3 +1,6 @@
+.. _Instructional Design Templates:
+
+##############################
 Instructional Design Templates
 ##############################
 
@@ -10,6 +13,7 @@ Instructional Design Templates
 
 .. _LearningOutcomesTemplate:
 
+**************************************
 Learning Outcome & Alignment Worksheet
 **************************************
 
@@ -25,6 +29,7 @@ Filling out the worksheet below will allow you to ensure that your course follow
 
 .. _ResourceAnalysisTemplate:
 
+**************************
 Resource Analysis Template
 **************************
 
@@ -37,6 +42,7 @@ A resource, or content, analysis, can help your team discover which pieces of co
 
 .. _AudienceAnalysisTemplate:
 
+**************************
 Audience Analysis Template
 **************************
 
@@ -49,6 +55,7 @@ An Audience Analysis outlines who your audience is, their common characteristics
 
 .. _CourseOutlineTemplate:
 
+***********************
 Course Outline Template
 ***********************
 
@@ -61,6 +68,7 @@ The course outline is used to track every aspect of the course throughout the va
 
 .. _GradingChartTemplate:
 
+*************
 Grading Chart
 *************
 
@@ -73,6 +81,7 @@ Most courses will have a variety of assessments that provide learners multiple o
 
 .. _QualityControlTemplate:
 
+************************
 Quality Control Template
 ************************
 
@@ -85,6 +94,7 @@ In the final stages of the course development process you will need to spend tim
 
 .. _CommunicationPlanTemplate:
 
+***************************
 Communication Plan Template
 ***************************
 
@@ -97,6 +107,7 @@ One way to ensure learner engagement is to consistently communicate with your le
 
 .. _SupportCalendarTemplate:
 
+*************************
 Support Calendar Template
 *************************
 
@@ -106,3 +117,10 @@ If your team is involved in the delivery of a course, you may want to spend some
 
 .. image:: /_images/instructional_design/support_calendar_template.png
    :alt: Thumbnail of Downloadable Template for Support Calendar
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Instructional Design Overview` (concept)
+
+  :ref:`Course Development Process` (concept) 

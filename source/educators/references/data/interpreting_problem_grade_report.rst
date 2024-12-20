@@ -47,4 +47,10 @@ provide the following information.
 .. seealso::
  :class: dropdown
 
- :ref:`problem_report` (how-to)
+  :ref:`Learner Data` (concept)
+
+  :ref:`Interpret the Grade Report` (reference)
+
+  :ref:`Understanding the Progress Page` (reference)
+
+  :ref:`Manage Learner Grades <Grades>` (how-to)

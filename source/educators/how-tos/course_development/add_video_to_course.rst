@@ -1,8 +1,8 @@
 .. _Add a Video:
 
-=======================
+###########
 Add a Video
-=======================
+###########
 
 .. tags:: educator, how-to
 
@@ -34,3 +34,17 @@ To add a video, follow these steps.
 #. Optionally, you can set more options for the video. For a description of each option,
    see :ref:`Video Settings`.
 
+.. seealso::
+  :class: dropdown
+
+  :ref:`Video Process Overview` (how-to)
+
+  :ref:`Introduction to Video` (reference)
+
+  :ref:`Troubleshoot Videos` (reference)
+
+  :ref:`Create a Video` (how-to)
+
+  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+
+  :ref:`Add an In Video Quiz` (how-to)

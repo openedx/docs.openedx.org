@@ -33,3 +33,16 @@ Effort Guidelines
 
 Effort indicates the number of hours each week you expect learners to work on
 your course, rounded to the nearest whole number.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Dates` (reference)
+
+  :ref:`Scheduling Your Course` (reference)
+
+  :ref:`Set Schedule and Pacing` (how-to)
+
+  :ref:`Setting Course Pacing` (reference)
+
+  :ref:`Course Pacing` (reference)
