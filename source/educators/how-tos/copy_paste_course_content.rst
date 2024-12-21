@@ -1,3 +1,6 @@
+.. _Copy and Paste Course Content:
+
+#############################
 Copy and Paste Course Content
 #############################
 
@@ -38,4 +41,7 @@ Copy and Paste Course Content
     in the original.
 
 .. seealso::
-   :doc:`copy_paste_units`
+   :class: dropdown
+
+   :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+   :ref:`Add Units to the Outline` (how-to)

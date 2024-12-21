@@ -1,8 +1,8 @@
 .. _Set Access Restrictions For a Component:
 
-***************************************
+#######################################
 Set Access Restrictions for a Component
-***************************************
+#######################################
 
 .. tags:: educator, how-to
 
@@ -45,8 +45,7 @@ To specify a component's access settings, follow these steps.
    After you have selected a group type, you see a list of the groups that
    exist for that group type.
 
-#. Select the checkbox for each group for which you want the current component
-   to be available.
+#. Select the checkbox for each group for which you want the current component to be available.
 
 #. Select **Save**.
 
@@ -60,8 +59,8 @@ To specify a component's access settings, follow these steps.
     :width: 500
 
    In addition, on the unit page in Studio, a message in the publishing status
-   bar indicates that some content in the unit is restricted to specific groups
-   of learners.
+   bar indicates that some content in the unit is restricted to specific groups of learners.
+
 
    .. image:: /_images/educator_how_tos/components_restricted_access_indicator.png
     :alt: When any component in a unit has restricted access, a message

@@ -1,8 +1,8 @@
 .. _Edit a Certificate:
 
-******************
+##################
 Edit a Certificate
-******************
+##################
 
 .. tags:: educator, how-to
 
@@ -124,3 +124,16 @@ To delete a certificate, follow these steps.
         top.
 
 #. In the confirmation dialog, confirm that you want to delete the certificate.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Setting Up Certificates` (reference)
+
+  :ref:`Enable a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Issuing Certificates` (how-to)
+
+  :ref:`Enable Badges in Course` (how-to)

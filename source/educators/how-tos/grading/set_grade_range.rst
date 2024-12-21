@@ -1,8 +1,8 @@
 .. _Set the Grade Range:
 
-*******************
+###################
 Set the Grade Range
-*******************
+###################
 
 .. tags:: educator, how-to
 
@@ -56,9 +56,9 @@ at the bottom of the page.
 
 .. _Grade Ranges and Certificates:
 
-==============================
+******************************
 Grade Ranges and Certificates
-==============================
+******************************
 
 If you plan for your course to offer certificates, note that a learner will
 qualify for a certificate by earning any grade over the F, or Fail, threshold.

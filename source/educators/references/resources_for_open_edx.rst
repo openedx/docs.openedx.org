@@ -1,3 +1,5 @@
+.. _Resources for Open edX:
+
 ######################
 Resources for Open edX
 ######################

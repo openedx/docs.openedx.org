@@ -1,6 +1,8 @@
-##########################
-Create a New Course Screen
-##########################
+.. _Create a Course:
+
+###############
+Create a Course
+###############
 
 .. tags:: educator, quickstart
 
