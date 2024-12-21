@@ -73,6 +73,4 @@ as complete as possible before you re-run the course.
 
  :ref:`Course re-runs <Course reruns>` (how-to)
 
- :ref:`Re-Run a Course <Re Run A Course>` (concept)
-
  :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)

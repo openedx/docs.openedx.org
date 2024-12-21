@@ -15,6 +15,4 @@ It is possible to schedule a re-run of an existing course, as described in the f
 
  :ref:`Re-running a Course <Rerun a Course>` (reference)
 
- :ref:`Re-Run a Course <Re Run A Course>` (concept)
-
  :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)

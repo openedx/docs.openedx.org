@@ -105,5 +105,3 @@ for launch, see :ref:`Launch`.
 
  :ref:`Course re-runs <Course reruns>` (how-to)
 
- :ref:`Re-Run a Course <Re Run A Course>` (concept)
-

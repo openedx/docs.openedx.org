@@ -33,8 +33,6 @@ Export and Import the Previous Course
 Use the Course Re-Run Option
 ***************************************
 
-.. include:: rerun_course.rst
-
 
 
 
