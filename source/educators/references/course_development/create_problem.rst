@@ -63,10 +63,10 @@ types** or select Advanced problem types for a list of **advanced problem types*
 
 * For simple problem types, the :ref:`simple editor<Simple Editor>` opens. In
   this editor, you can quickly create problems with question and answer formats.
-  Options for scoring, hints, feedback and more can be entered.
+  Options for scoring, hints, feedback, and more can be entered.
 
 * For advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
-  In this editor you use :ref:`Set Up Group Configuration for OLX Courses`.
+  In this editor, you use `EdX Open Learning XML Guide`_.
   elements and attributes to identify the elements of the problem. Options for scoring,
   feedback and more can be entered.
 
@@ -74,7 +74,7 @@ types** or select Advanced problem types for a list of **advanced problem types*
   options by using a graphical user interface. For more information, see
   :ref:`PA Create an ORA Assignment`.
 
-* For drag and drop problem types, you build an interactive assessment in a
+* For drag-and-drop problem types, you build an interactive assessment in a
   customized interface in which you define areas that learners can drag into target
   zones on a background image. For more information, see
   :ref:`Creating a Drag and Drop Problem`.
