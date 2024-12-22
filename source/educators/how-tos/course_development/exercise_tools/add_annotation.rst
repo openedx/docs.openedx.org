@@ -94,8 +94,8 @@ To add the **Annotation problem** segment of the problem, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- :class: dropdown
+:class: dropdown
 
- :doc:`educators/how-tos/course_development/exercise_tools/add_calculator` (how-to)
+:ref: `Calculator` (how-to)
 
- :doc:`educators/how-tos/course_development/exercise_tools/add_chemical_equation` (how-to)
+:ref:`Chemical Equation` (how-to)
