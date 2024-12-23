@@ -19,8 +19,8 @@ To learn more about the different types of Multiple-Choice Questions, please vis
 
  :ref:`Multi select` (reference)
 
- :doc:`../add_multiple_choice` (how-to)
+ :ref:`../add_multiple_choice` (how-to)
 
- :doc:`../single_select_overview` (concept)
+ :ref:`../single_select_overview` (concept)
 
 
