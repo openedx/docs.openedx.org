@@ -175,3 +175,10 @@ learners in a specific enrollment track is displaying as intended.
 For more information about enrollment track groups, and about creating and
 previewing enrollment track based content, see :ref:`About Enrollment Track
 Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Create Cohort-Specific Course Content` (how-to)
+
+ :ref:`Manage Learner Grades` (how-to)
