@@ -245,6 +245,11 @@ Open Response Assessments
    ../concepts/exercise_tools/OpenResponseAssessments.rst
    ../how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    ../how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
+   ../how-tos/course_development/exercise_tools/list_manage_students_waiting_peer_step.rst
+   ../how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
+   ../how-tos/course_development/exercise_tools/view_statistics_single_ORA_assignment
+   ../how-tos/course_development/exercise_tools/generate_ORA_report.rst
+   ../how-tos/course_development/exercise_tools/generate_report_ORA_submissions_attachments.rst
 
 Oppia Exploration Tool
 *******************************************************
