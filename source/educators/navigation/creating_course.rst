@@ -158,7 +158,7 @@ Beta Test a Course
 
 .. _Launch a Course:
 
-Launch a Course
+Launch a Course-
 *******************************************************
 
 .. toctree::
