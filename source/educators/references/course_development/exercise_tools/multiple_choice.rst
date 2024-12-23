@@ -19,7 +19,7 @@ To learn more about the different types of Multiple-Choice Questions, please vis
 
  :ref:`Multi select`
 
- :ref:`add_multiple_choice`
+ :ref:`Add a Multiple Choice Problem`
 
 
 
