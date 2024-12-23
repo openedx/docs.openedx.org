@@ -1,12 +1,12 @@
 .. _Access_anonymized:
 
-#################################
+#############################
 Access Anonymized Learner IDs
-#################################
+#############################
 
 .. tags:: educator, how-to
 
-Some of the tools that are available for use with the edX platform, including
+Some of the tools that are available for use with the Open edX platform, including
 external graders and surveys, work with anonymized learner data. If it becomes
 necessary for you to deanonymize previously anonymized data, you can download a
 CSV file to use for that purpose.
@@ -22,7 +22,7 @@ steps.
 
 You are prompted to open or save the {course-id}-anon-id.csv file for your
 course. This file contains the user ID that is assigned to each learner at
-registration and its corresponding edX-wide anonymized user ID and course
+registration and its corresponding Open edX-wide anonymized user ID and course
 specific anonymized user ID. Values are included for every learner who ever
 enrolled for your course.
 
