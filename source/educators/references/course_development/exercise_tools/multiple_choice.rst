@@ -15,11 +15,10 @@ To learn more about the different types of Multiple-Choice Questions, please vis
 .. seealso::
  :class: dropdown
 
- :ref:`Single Select`
+ :ref:`Single Select` (reference)
 
- :ref:`Multi select`
+ :ref:`Multi select` (reference)
 
- :ref:`Add a Multiple Choice Problem <add_multiple_choice>`
-
+ :ref:`Add a Multiple Choice Problem` (how-to)
 
 
