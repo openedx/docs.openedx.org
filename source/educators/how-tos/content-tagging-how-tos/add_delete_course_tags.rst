@@ -79,3 +79,12 @@ Deleting Tags from the Course Outline Page
       :alt: Screenshot of x button next to tag.
 
 #. Click “save” and close the tag drawer. You will see the tag count updated in the Manage Course Tags field.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Add and delete tags on course content` (how-to)
+
+ :ref:`Add and Delete tags in Library content` (how-to)
+ 
