@@ -19,7 +19,7 @@ To learn more about the different types of Multiple-Choice Questions, please vis
 
  :ref:`Multi select`
 
- :ref:`Add a Multiple Choice Problem <https://docs.openedx.org/en/latest/educators/how-tos/add_multiple_choice.html>`_
+ :ref:`Add a Multiple Choice Problem <add_multiple_choice>`
 
 
 
