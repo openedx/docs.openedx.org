@@ -47,8 +47,11 @@ Use a Section from a Course independently of the Course Outline
      .. image:: /_images/educator_how_tos/hide_in_outline_learner_view.png
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 .. seealso::
@@ -57,7 +60,10 @@ Use a Section from a Course independently of the Course Outline
  :ref: `Add Content Experiments to Your Course` (how-to)
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  :ref:`Additional Redwood Features` (reference)
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
