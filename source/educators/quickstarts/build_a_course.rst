@@ -80,7 +80,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 
  :ref: `Edit a Course` (how-to)
 
- :ref:`Quick Start: First Open edX Pull Request` (quickstart)
+
 
 
 

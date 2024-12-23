@@ -123,6 +123,3 @@ To change the results visibility for your subsection, follow these steps.
 
  :ref: `Create an Open Response Assessment Assignment` (how-to)
 
- :ref:`14. Establishing a Grading Policy For Your Course` (reference)
-
- :ref:`Viewing Course Content Based on Roles` (reference)
