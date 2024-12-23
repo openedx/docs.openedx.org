@@ -44,3 +44,11 @@ taxonomy. Here's how to do that:
 #. Import the taxonomy following `How-To: Import and export a taxonomy
    <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4154490883/How-to+Import+and+export+a+taxonomy>`_
    guide.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Build a taxonomy using a template` (how-to)
+
+ :ref:`Content Tagging Release Notes (Redwood)` (concept)
