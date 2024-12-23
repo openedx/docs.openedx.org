@@ -22,3 +22,11 @@ Connecting Teams to Content Groups
    select one or multiple Teams.
 
      .. image:: /_images/educator_how_tos/teams_within_groups.png
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Additional Redwood Features` (reference)
+
+ 

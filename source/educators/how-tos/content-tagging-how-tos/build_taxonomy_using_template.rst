@@ -100,3 +100,10 @@ create a taxonomy of cities, like this:
   * In Numbers, use File > Export To > CSV… and use the default options.
 
 * Import your taxonomy following the How To :ref:`import-export-taxonomy`.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Create a flat taxonomy by uploading a CSV` (how-to)
+
+ :ref:`Content Tagging Release Notes (Redwood)` (concept)
