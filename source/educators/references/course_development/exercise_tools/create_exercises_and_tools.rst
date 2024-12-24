@@ -1,8 +1,7 @@
 .. _Core Problem Types:
 
-******************
 Core Problem Types
-******************
+##################
 
 .. tags:: educator, reference
 
@@ -15,9 +14,9 @@ types are classified as either **Simple Problem Types** or **Advanced**.
   :local:
   :depth: 1
 
-====================
+
 Simple Problem Types
-====================
+*********************
 
 When you create a problem in Studio, the editor opens with options for the
 following problem types. When you select any of the simple problem types, the
@@ -34,7 +33,7 @@ following problem types. When you select any of the simple problem types, the
      - In single select problems, learners select one answer from a set of
        possible answers, which are visible directly below the question.
      - Full support; mobile-ready
-   * - :ref:`Multi-select`
+   * - :ref:`Multi select`
      - In multi-select problems, learners select one or more options from a list of
        possible answers. To answer the problem correctly, a learner must select
        all of the options that are correct answers, and none of the options
@@ -64,9 +63,9 @@ the editor interface provides additional guidance and text fields for entering
 these options. All of these problem types also have full support and are
 mobile-ready.
 
-========
-Advanced
-========
+
+Advanced Problem Types
+***********************
 
 If none of the simple problem types fit what you need, the editor's problem type
 select page has an option for **Advanced problem types**. Selecting this option
@@ -84,7 +83,7 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
 .. note:: Some advanced problem types are :ref:`unsupported<Levels of
    Support>` and are not available in the list of problem types unless you
    enable a setting in Studio. For more information, see :ref:`Unsupported
-   Advanced Problem Types` and :ref:`Add_Unsupported_Exercises_Problems`.
+   Advanced Problem Types` and :ref:`Add Unsupported Exercises Problems`.
 
 
 .. list-table::
@@ -116,12 +115,12 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
 
 .. _Unsupported Advanced Problem Types:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Unsupported Advanced Problem Types
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================================
 
 The following advanced problem types are :ref:`not supported<Levels of
-Support>` by edX. You can enable an option to make unsupported problem types
+Support>` by the Open edX Platform. You can enable an option to make unsupported problem types
 available in Studio. For more information, see
 :ref:`Add_Unsupported_Exercises_Problems`.
 
@@ -156,19 +155,17 @@ This table lists the fully or provisionally supported additional exercises and
 tools that you can add to your course.
 
 .. note:: Some additional exercises and tools are :ref:`not supported<Levels
-   of Support>` by edX. You can enable an option to make unsupported exercises
+   of Support>` by the Open edX Platform. You can enable an option to make unsupported exercises
    and tools available in Studio. For more information, see :ref:`Unsupported
    Additional Exercises and Tools` and
    :ref:`Add_Unsupported_Exercises_Problems`.
 
 .. to come: revise to eliminate entries with no support. Add pointer (at least for Open edX) to all of the XBlocks that are available.
 
-.. only:: Open_edX
 
-  .. note:: In addition to the following exercises and tools, Open edX offers
+.. note:: In addition to the following exercises and tools, the Open edX platform offers
    the :ref:`Notes tool<Notes Tool>`. The Notes tool allows learners to
-   highlight and make notes about what they read in the course. This tool
-   is not available for courses on edx.org.
+   highlight and make notes about what they read in the course. T
 
 .. list-table::
    :widths: 25 60 20
@@ -205,8 +202,8 @@ tools that you can add to your course.
    * - :ref:`External Grader`
      - An external grader is a service that receives learner responses to a
        problem, processes those responses, and returns feedback and a problem
-       grade to the edX platform. You build and deploy an external grader
-       separately from the edX platform. An external grader is particularly
+       grade to the Open edX platform. You build and deploy an external grader
+       separately from the Open edX platform. An external grader is particularly
        useful for software programming courses where learners are asked to
        submit complex code.
      - Provisional support
@@ -227,7 +224,7 @@ tools that you can add to your course.
      - LTI components allow you to add an external learning application or non-
        PDF textbook to Studio.
      - Full support
-   * - :ref:`Open Response Assessment<Open Response Assessments Two>`
+   * - :ref:`Open Response Assessments`
      - Learners receive feedback on responses that they submit and give
        feedback to other course participants. Open response assessments include
        self assessment, peer assessment, and optionally, staff assessment.
@@ -266,7 +263,7 @@ Unsupported Additional Exercises and Tools
 ==========================================
 
 The following additional exercises and tools are :ref:`not supported<Levels of
-Support>` by edX. You can enable an option to make unsupported exercises and
+Support>` by the Open edX Platform. You can enable an option to make unsupported exercises and
 tools available in Studio. For more information, see
 :ref:`Add_Unsupported_Exercises_Problems`.
 
@@ -311,11 +308,11 @@ tools available in Studio. For more information, see
        information about each element when learners move the pointer over each
        element.
      - Not supported
-   * - :ref:`Poll`
+   * - :ref:`Poll Tool for OLX`
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
        course by using OLX (open learning XML). Support for this tool in Studio
-       is not available. For more information, see the `EdX Open Learning XML Guide`_..
+       is not available. For more information, see the :ref:`Set Up Group Configuration for OLX Courses`.
      - Not supported
    * - :ref:`Problem Written in LaTeX`
      - If you have a problem that is already written in LaTeX, you can use this
@@ -341,58 +338,26 @@ tools available in Studio. For more information, see
        sections in an image that can be enlarged.
      - Not supported
 
-.. _Mobile-Ready Problem Types:
+.. _Mobile Ready Problem Types:
 
 **************************
 Mobile-Ready Problem Types
 **************************
 
 Learners can read and submit answers for the following types of problems while
-they use the edX mobile app.
+they use the Open edX mobile app.
 
 * :ref:`drag_and_drop_problem`
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
-* :ref:`Multi-select`
+* :ref:`Multi select`
 * :ref:`Numerical Input`
 * :ref:`Single Select`
 * :ref:`Text Input`
 
-Questions that have other problem types do not appear in the edX mobile app.
+Questions that have other problem types do not appear in the Open edX mobile app.
 Instead, a message appears with a link to open the applicable problem component
 in a web browser.
-
-
-.. _Add_Unsupported_Exercises_Problems:
-
-**********************************************
-Adding Unsupported Problem Types and Exercises
-**********************************************
-
- .. note:: These instructions are applicable only if your Open edX site has configured...insert name of the config setting. 
-
-.. When DOC-3163 is complete, update this note to say "These instructions are applicable only to edx.org or if your Open edX site has configured {the name of the config setting}"
-
-In general, you should use only problem types and exercises that are either
-fully or provisionally supported by edX. By default, only supported problem
-types and exercises are available in Studio for adding to courses.
-
-However, in some situations, you might choose to use exercises and problem types
-that edX does not support.
-
-To add unsupported problem types, exercises, and tools to your course, follow
-these steps.
-
-#. In Studio, select **Settings**, then **Advanced Settings**.
-
-#. Locate the **Add Unsupported Problems and Tools** field, and enter a value
-   of ``true``.
-
-#. Select **Save Changes**.
-
-After you enable this setting, unsupported problem types, exercises, and tools
-are available in the lists of new components that you can add to your course
-in Studio.
 
 
 .. seealso::
@@ -400,4 +365,6 @@ in Studio.
 
  :ref:`Create Exercises` (concept)
 
- :ref:'Enable Additional Exercises and Tools' (how to)
+ :ref:`Enable Additional Exercises and Tools` (how to)
+
+ :ref:`Add Unsupported Exercises Problems` (how to)
