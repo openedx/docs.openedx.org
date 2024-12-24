@@ -4,7 +4,7 @@
 Add Link to Website, Course Unit, or a File
 #############################################
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
 
 .. _Add a Link in a Text Component:
 

@@ -25,8 +25,8 @@ Overview
 In text input problems, learners enter text into a response field. The
 response can include numbers, letters, and special characters such as
 punctuation marks. Because the text that the learner enters must match the
-instructor's specified answer exactly, including spelling and punctuation, edX
-recommends that you specify more than one correct answer for text input
+instructor's specified answer exactly, including spelling and punctuation, it is
+recommend that you specify more than one correct answer for text input
 problems to allow for differences in capitalization and typographical errors.
 
 =============================

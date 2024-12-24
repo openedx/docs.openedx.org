@@ -48,7 +48,7 @@ Add Text Components
    ../references/course_development/text_components/text_components.rst
    ../how-tos/course_development/text_components/work_with_html.rst
    ../how-tos/course_development/text_components/create_text_component.rst
-   ../references/course_development/text_components/add_link_website_unit_file.rst
+   ../how-tos/course_development/text_components/add_link_website_unit_file.rst
    ../how-tos/course_development/text_components/add_image.rst
    ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
    ../how-tos/course_development/text_components/paste_without_formatting.rst
@@ -194,6 +194,8 @@ Test Your Course
 
    ../references/testing_course_content.rst
    ../references/roles_for_viewing.rst
+   ../how-tos/view_published_released_content.rst
+   ../how-tos/preview_content.rst
 
 Embed IFrames
 *******************************************************

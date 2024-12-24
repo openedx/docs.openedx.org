@@ -1,8 +1,7 @@
 .. _Work with the targz File:
 
-***********************************
 Working with the ``.tar.gz`` File
-***********************************
+###################################
 
 .. tags:: educator, reference
 

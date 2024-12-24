@@ -1,8 +1,7 @@
 .. _Course About Video Guidelines:
 
-********************************
 Course About Video Guidelines
-********************************
+##############################
 
 .. tags:: educator, reference
 
@@ -38,3 +37,14 @@ as your course content videos.
 
 For information about how to add an About video to your course About page, see
 :ref:`Add an About Video <Add an About Video>`.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Introduction to Video` (reference)
+
+ :ref:`Add an About Video` (how-to)
+
+ :ref:`Course and Program Images and Videos` (reference)
+
+ :ref:`Additional Video Options` (how-to)
