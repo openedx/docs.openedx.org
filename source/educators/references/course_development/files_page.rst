@@ -1,8 +1,7 @@
 .. _The Files Page:
 
-**************
 The Files Page
-**************
+################
 
 .. tags:: educator, reference
 
@@ -140,3 +139,5 @@ To reset the list and view files of all types, clear all checkboxes.
  :class: dropdown
 
  :ref:`Add Files to a Course` (how-to)
+
+ :ref:`manage_files` (how-to)

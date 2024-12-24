@@ -1,15 +1,14 @@
 .. _Components that Contain Other Components:
 
-******************************************
 Components that Contain Other Components
-******************************************
+#########################################
 
 .. tags:: educator, reference
 
 For specific use cases, you configure course content so that components contain
 other components. For example, if you want to include conditional components or
 content experiments, you have to create components inside components. See
-:ref:`Creating Content Experiments` for more information.
+:ref:`Add Content Experiments to Your Course` for more information.
 
 The component that contains other components is referred to as the *parent*;
 the contained components are referred to as child components, or children.
@@ -22,9 +21,9 @@ On a unit page, a parent component appears with its display name and a
  :width: 500
 
 
-========================
+
 Edit a Parent Component
-========================
+*************************
 
 A parent component does not directly contain content. Content such as HTML,
 videos, or problems are in the child components.
@@ -37,9 +36,9 @@ select **Edit** in the parent component to change the display name.
   additional attributes that you edit.
 
 
-======================
+
 View Child Components
-======================
+**********************
 
 When you select **View** in the parent component, the parent component page
 opens, showing all child components. In this example, Child Component A
@@ -59,9 +58,9 @@ For more information, see the following topics.
 * :ref:`Duplicate a Component`
 * :ref:`Delete a Component`
 
-======================================
+
 Add a Child Component
-======================================
+**********************
 
 If the containing unit is private or in draft, you can add a child component in
 its parent component.
@@ -79,9 +78,9 @@ want.
 - :ref:`Working with Video Components`
 
 
-======================================
+
 XML for Parent and Child Components
-======================================
+************************************
 
 You develop parent and child components in XML, then import the XML course into
 Studio to verify that the structure is as you intended.
@@ -132,9 +131,9 @@ Theoretically, there is no limit to the levels of component nesting you can use
 in your course.
 
 
-======================================
+
 The Learner View of Nested Components
-======================================
+**************************************
 
 For learners, all parent and child components appear on the unit page.
 
@@ -148,3 +147,16 @@ The following example shows the learner view of the unit described above.
 .. image:: /_images/educator_references/nested_components_student_view.png
  :alt: The learner's view of nested components.
  :width: 400
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Unit States and Visibility to Students` (reference)
+
+ :ref:`Working with Discussion Components` (reference)
+ 
+ :ref:`Working with Text Components` (reference)
+ 
+ :ref:`Working with Problem Components` (reference)
+ 
+ :ref:`Working with Video Components` (reference)
