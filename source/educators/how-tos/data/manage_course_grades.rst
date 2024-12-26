@@ -911,3 +911,13 @@ To find the unique location identifier for a problem, follow these steps.
 
 To close the Staff Debug viewer, click on the browser page outside of the
 viewer.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Understanding the Progress Page` (reference)
+
+ :ref: `Interpreting the Grade Report` (reference)
+
+ :ref: `Interpreting the Problem Grade Report` (reference)
