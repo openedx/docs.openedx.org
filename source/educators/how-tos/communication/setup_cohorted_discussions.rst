@@ -37,11 +37,7 @@ Divided Discussion Topics` and :ref:`Moderating_discussions`.
 
  :ref: `Working with Discussion Components` (how-to)
 
- :ref: `Administer Discussions` (how-to)
-
  :ref: `Closing Discussions` (how-to)
-
- :ref: `Administer Discussions` (how-to)
 
  :ref: `Enable/Disable Anonymous Discussion Posts` (how-to)
 
