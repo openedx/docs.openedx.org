@@ -15,10 +15,5 @@ After you have published content, you should view it in the LMS, as a learner wi
 .. seealso::
  :class: dropdown
 
- Beta Test Your Course (task)
+ :ref: `Controlling Content Visibility and Access` (reference)
 
- Hide Content from Learners (task)
-
- Release Statuses of Sections (reference)
-
- Content Visibility (reference)
