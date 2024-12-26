@@ -37,21 +37,16 @@ This video explains how to add a multiple choice (also known as "single-select")
 .. seealso::
  :class: dropdown
 
- Problem Home (home)
+ :ref: `The Advanced Editor` (reference)
 
- Add Problem Feedback (task)
+ :ref: `A New Problem Editor Experience (Palm)` (reference)
 
- Add Problem Hints (task)
 
- Award Partial Credit for a Problem (task)
 
- Shuffle Answers in a Problem
 
- Use Answer Pools in a Problem
 
- Problem Simple Editor (reference)
 
- Problem Advanced Editor (reference)
 
- Pedagogical Considerations for Multiple Choice Questions (concept)
+
+ 
 
