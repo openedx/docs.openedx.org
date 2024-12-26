@@ -16,10 +16,7 @@ These instructions assume you have uploaded the video to YouTube.
 
 #. In the **Component Display Name** field, enter the name that you want learners to see for this video.
 
-   .. note::
-    :class: dropdown
-
-    This name appears as a heading above the video in the LMS, and it identifies the video for you in reports and analytics. If you do not enter a display name, the platform specifies “video” for you.
+This name appears as a heading above the video in the LMS, and it identifies the video for you in reports and analytics. If you do not enter a display name, the platform specifies “video” for you.
 
 #. Paste the video URL in the default Video URL field, and then enter the location of your video. This is the URL that was created when you uploaded the video to the hosting site.
 
