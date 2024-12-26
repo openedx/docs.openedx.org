@@ -12,10 +12,6 @@ After you have added content, you must publish it to make it available to learne
 
 #. For the section, click the Publish icon (|Publish Icon|).
 
-   .. note::
-      :class: dropdown
-
-      The Publish icon appears only when there is new or changed content within the section.
 
 .. seealso::
  :class: dropdown
