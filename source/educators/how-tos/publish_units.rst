@@ -20,10 +20,5 @@ After you have added content, you must publish it to make it available to learne
 .. seealso::
  :class: dropdown
 
- Set Content Release Dates (task)
+ :ref: `Controlling Content Visibility and Access` (reference)
 
- Hide Content from Learners (task)
-
- Release Statuses of Sections (reference)
-
- Content Visibility (reference)

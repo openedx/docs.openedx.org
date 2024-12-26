@@ -26,10 +26,4 @@ Add Text
 .. seealso::
  :class: dropdown
 
- Add a Link in a Text Component (task)
-
- Add an Image in a Text Component (task)
-
- Import LaTeX Code into a Text Component (task)
-
- Text Editor Options (reference)
+ :ref: `Embed an iframe in the Text Editor` (how-to)
