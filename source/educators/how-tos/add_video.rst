@@ -26,20 +26,14 @@ These instructions assume you have uploaded the video to YouTube.
 #. Click :guilabel:`Save` to save the video in the unit.
 
 
-.. seealso::
+ .. seealso::
  :class: dropdown
 
- Preparing a video (task)
+ :ref: `Course About Video Guidelines` (reference)
 
- Add a video transcript (task)
+ :ref: `Troubleshooting Video Problems` (reference)
 
- Add a video with different encodings (task)
 
- Use Amazon S3 to serve a video (task)
 
- Video Guidelines (concept)
 
- Advanced video options (reference)
-
- Video troubleshooting (reference)
 
