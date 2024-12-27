@@ -113,3 +113,11 @@ Follow these steps to override the course’s default pacing, and enable custom 
 3. Click “Save”
 
 The relative due date you saved will now be published for all enrolled learners.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Course Pacing` (how-to)
+
+ :ref: `Beta Testing a Course` (concept)

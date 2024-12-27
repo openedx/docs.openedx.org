@@ -30,3 +30,14 @@ You can also make the user an Admin.
 For a step-by-step to grant staff permissions to courses, check out this video:
 
 .. youtube:: IwuGccK49m8
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Add Beta Testers to a CourseAdd Beta Testers to a CourseAdd Beta Testers to a Course` (how-to)
+
+ :ref: `Add Course Team Members` (how-to)
+
+ :ref: `Planning Course Staff` (reference)
+
