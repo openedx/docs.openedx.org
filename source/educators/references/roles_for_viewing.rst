@@ -181,3 +181,6 @@ Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
 
  :ref: `Create Cohort-Specific Course Content` (how-to)
 
+ :ref: `Testing Your Course Content` (reference)
+ 
+
