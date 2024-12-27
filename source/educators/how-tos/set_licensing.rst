@@ -1,8 +1,8 @@
 .. _Set Course Content Licensing:
 
-**************************************
+======================================
 Set Course Content Licensing in Studio
-**************************************
+======================================
 
 .. tags:: educator, how-to
 
@@ -46,9 +46,9 @@ videos. Learners see the license at the bottom of all pages in the course.
 
 .. _Set Video Licensing:
 
-*************************************
+*******************
 Set Video Licensing
-*************************************
+*******************
 
 If you intend for a specific video to have a different license than the course
 as a whole, you must set the license in the :ref:`video settings <Video Settings>`.

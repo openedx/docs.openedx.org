@@ -1,8 +1,8 @@
 .. _Hide a Subsection from Students:
 
-***********************************
+#################################
 Hiding a Subsection from Learners
-***********************************
+#################################
 
 .. tags:: educator, how-to
 
@@ -26,9 +26,9 @@ For more information, see :ref:`Content Hidden from Students`.
 
 .. _Entirely Hide a Subsection:
 
-========================================
+****************************************
 Entirely Hide a Subsection from Learners
-========================================
+****************************************
 
 You can completely hide a subsection and its content from learners, regardless
 of the status of units within the section. Subsections hidden in this way are
@@ -65,9 +65,9 @@ To make the subsection visible to learners, repeat these steps and select
 
 .. _Hide a Subsection After its Due Date:
 
-========================================
+*******************************
 Hide a Subsection Based on Date
-========================================
+*******************************
 
 You can make a subsection's content unavailable based on date. For example, you
 might want to make exam questions unavailable after a certain date. For
@@ -106,3 +106,45 @@ available because the due date (or course end date) has passed.
 In the course outline in Studio, the subsection is shown with an icon and a
 "Subsection is hidden after due date" or "Subsection is hidden after course
 end date" message under the subsection's display name.
+
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Course Outline` (concept)
+
+ :ref: `Creating a New Course in Studio` (how-to)
+
+ :ref: `Create a New Course Screen` (quick start)
+
+ :ref: `Create the Course About Page` (how-to)
+
+ :ref: `Understanding a Course Outline` (reference)
+
+ :ref: `Add Content in the Course Outline` (reference)
+
+ :ref: `Developing Your Course Outline` (reference)
+
+ :ref: `Modify Settings for Objects in the Course Outline` (reference)
+
+ :ref: `Publish Content from the Course Outline` (reference)
+
+ :ref: `Developing Course Sections` (reference)
+
+ :ref: `Developing Course Subsections` (reference)
+
+ :ref: `Create a Section` (how-to)
+
+ :ref: `Create a Subsection` (how-to)
+
+ :ref: `Create a Section` (how-to)
+
+ :ref: `Add Course Metadata` (how-to)
+
+ :ref: `Use a Section from a Course independently of the Course Outline` (how-to)
+
+ :ref: `Resources for Open edX Course Teams` (reference)
+
+ :ref: `Resources for Open edX` (reference)
+

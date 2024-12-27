@@ -1,14 +1,12 @@
 .. _Image Mapped Input Problem XML:
 
-******************************
 Image Mapped Input Problem XML
-******************************
+##############################
 
 .. tags:: educator, reference
 
-==========
 Template
-==========
+********
 
 .. code-block:: xml
 
@@ -26,9 +24,9 @@ Template
 
   </problem>
 
-=====
+
 Tags
-=====
+****
 
 * ``<imageresponse>``: Indicates that the problem is an image mapped input
   problem.
