@@ -37,7 +37,7 @@ assessment, or custom JavaScript problems.
 Adding Graded or Ungraded Problems
 =====================================
 
-When you :ref:`establish the grading policy<Grading Index>` for your course,
+When you :ref:`establish the grading policy<Set the Grade Range>` for your course,
 you define the assignment types that count toward learners' grades: for
 example, homework, labs, midterm, final, and participation. You specify
 one of these assignment types for each of the subsections in your course.
@@ -63,10 +63,10 @@ types** or select Advanced problem types for a list of **advanced problem types*
 
 * For simple problem types, the :ref:`simple editor<Simple Editor>` opens. In
   this editor, you can quickly create problems with question and answer formats.
-  Options for scoring, hints, feedback and more can be entered.
+  Options for scoring, hints, feedback, and more can be entered.
 
 * For advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
-  In this editor you use `EdX Open Learning XML Guide`_.
+  In this editor, you use `EdX Open Learning XML Guide`_.
   elements and attributes to identify the elements of the problem. Options for scoring,
   feedback and more can be entered.
 
@@ -74,10 +74,10 @@ types** or select Advanced problem types for a list of **advanced problem types*
   options by using a graphical user interface. For more information, see
   :ref:`PA Create an ORA Assignment`.
 
-* For drag and drop problem types, you build an interactive assessment in a
+* For drag-and-drop problem types, you build an interactive assessment in a
   customized interface in which you define areas that learners can drag into target
   zones on a background image. For more information, see
-  :ref:`creating_a_drag_and_drop_problem`.
+  :ref:`Creating a Drag and Drop Problem`.
 
 You can switch from the simple editor to the advanced editor at any time by
 selecting the **Switch to advanced editor** from the simple editor's settings.
@@ -97,7 +97,7 @@ the simple editor.
 
 *  :ref:`Single Select<Single Select>`
 
-*  :ref:`Multi-select<Multi-select>`
+*  :ref:`Multi-select<multi select>`
 
 *  :ref:`Dropdown<Dropdown>`
 
@@ -248,7 +248,7 @@ Power Paste
 ============
 
 Many course authoring teams rely on copying and pasting content from documents
-such as Google docs or Microsoft Word. Correct formatting in Studio and the LMS
+such as Google Docs or Microsoft Word. Correct formatting in Studio and the LMS
 can be most easily realized through Power Paste. To learn how to use Power
 Paste, see :ref:`Paste without Formatting in a Text Component`.
 
