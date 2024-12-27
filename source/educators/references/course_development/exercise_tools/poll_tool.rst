@@ -1,8 +1,7 @@
 .. _Poll Tool:
 
-###################
 Poll Tool
-###################
+###########
 
 .. tags:: educator, reference
 
@@ -36,7 +35,6 @@ configured to hide results.
     :alt: A poll showing results after the learner has submitted a response.
     :width: 400
 
-*******************************************
 Enable the Poll Tool
 *******************************************
 
