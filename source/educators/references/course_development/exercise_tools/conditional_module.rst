@@ -1,8 +1,7 @@
 .. _Conditional Module:
 
-##################
 Conditional Module
-##################
+###################
 
 .. tags:: educator, reference
 
@@ -97,3 +96,8 @@ Examples of conditional depends on problem
     <conditional sources="i4x://MITx/0.000x/problem/Conditional:lec27_Q1" attempted="False">
         <html display_name="HTML for not attempted problem">You see this because "lec27_Q1" was not attempted.</html>
     </conditional>
+
+.. seealso::
+ :class:dropdown
+
+ :ref: `add_delete_course_tags` (how-to)

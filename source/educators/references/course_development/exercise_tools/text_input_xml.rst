@@ -1,14 +1,12 @@
 .. _Text Input Problem XML:
 
-********************************
 Text Input Problem XML Reference
-********************************
+#################################
 
 .. tags:: educator, reference
 
-==============
 Template
-==============
+*********
 
 .. code-block:: xml
 
@@ -32,9 +30,9 @@ Template
     </demandhint>
   </problem>
 
-=========
+
 Elements
-=========
+*********
 
 For text input problems, the ``<problem>`` element can include this
 hierarchy of child elements.
@@ -54,15 +52,15 @@ hierarchy of child elements.
 
 In addition, standard HTML tags can be used to format text.
 
----------------------
+
 ``<stringresponse>``
----------------------
+=====================
 
 Required. Indicates that the problem is a text input problem.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 .. list-table::
    :widths: 20 80
@@ -89,9 +87,9 @@ Attributes
        example, ``<stringresponse type="regexp cs">`` specifies that the
        problem allows regular expressions and is case sensitive.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 * ``<label>``
 * ``<description>``
@@ -101,54 +99,53 @@ Children
 * ``<stringequalhint>``
 * ``<solution>``
 
----------------------
+
 ``<label>``
----------------------
+=============
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 None.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 None.
 
----------------------
+
 ``<description>``
----------------------
+===================
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
-^^^^^^^^^^
 Attributes
-^^^^^^^^^^
+-----------
 
 None.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 None.
 
----------------------
+
 ``<textline>``
----------------------
+===============
 
 Required. Creates a response field in the LMS where the learner enters a text
 string.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 .. list-table::
    :widths: 20 80
@@ -168,22 +165,22 @@ Attributes
 
 .. reviewers, note that I could not get "correct_answer" to work ^^. The answer attribute of stringresponse is required and overrides whatever I put in here. Can this attribute be removed or marked as deprecated? - Alison 10 Aug
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 None.
 
-------------------------
+
 ``<additional_answer>``
-------------------------
+========================
 
 Optional. Specifies an additional correct answer for the problem. A problem can
 contain an unlimited number of additional answers.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 .. list-table::
    :widths: 20 80
@@ -194,22 +191,22 @@ Attributes
    * - ``answer``
      - Required. The text of the alternative correct answer.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 ``<correcthint>``
 
-------------------------
+
 ``<correcthint>``
-------------------------
+===================
 
 Optional. Specifies feedback to appear after the learner submits a correct
 answer.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 .. list-table::
    :widths: 20 80
@@ -220,22 +217,22 @@ Attributes
    * - ``label``
      - Optional. The text of the custom feedback label.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 None.
 
-------------------------
+
 ``<stringequalhint>``
-------------------------
+======================
 
 Optional. Specifies feedback to appear after the learner submits an incorrect
 answer.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 .. list-table::
    :widths: 20 80
@@ -248,15 +245,15 @@ Attributes
    * - ``label``
      - Optional. The text of the custom feedback label.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+-----------
 
 None.
 
-------------------------
+
 ``<solution>``
-------------------------
+===============
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.
@@ -264,40 +261,40 @@ the questions in a problem that contains more than one question.
 This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
-------------------------
+
 ``<demandhint>``
-------------------------
+=================
 
 Optional. Specifies hints for the learner. For problems that include multiple
 questions, the hints apply to the entire problem.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 None.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 ``<hint>``
 
-------------------------
+
 ``<hint>``
-------------------------
+============
 
 Required. Specifies additional information that learners can access if needed.
 
-^^^^^^^^^^
+
 Attributes
-^^^^^^^^^^
+-----------
 
 None.
 
-^^^^^^^^^^
+
 Children
-^^^^^^^^^^
+---------
 
 None.
 
