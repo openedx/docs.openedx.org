@@ -238,6 +238,11 @@ make it easy to convert a Legacy Library into the new Library interface.
    
    ../concepts/instructional_design/libraries.rst
    ../how-tos/course_development/create_library.rst
+   ../how-tos/course_development/edit_library.rst
+   ../how-tos/course_development/add_components_library.rst
+   ../how-tos/course_development/view_content_legacy_library.rst
+   ../how-tos/course_development/edit_components_library.rst
+   ../how-tos/course_development/delete_library.rst
    ../how-tos/course_development/library_access.rst
    ../how-tos/course_development/export_import_library.rst
    ../how-tos/leveraging_libraries.rst
