@@ -6,7 +6,7 @@ Create a New Legacy Library
 
 .. tags:: educator, how-to
 
-Use :ref:`legacy content libraries<Content Libraries Overview:>` to build a pool of components
+Use :ref:`legacy content libraries<Content Libraries Overview>` to build a pool of components
 that can be used in randomized assignments in your courses.
 
 .. warning::
