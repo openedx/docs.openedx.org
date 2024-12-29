@@ -2,9 +2,8 @@
 
 .. _Add a Content Experiment in OLX:
 
-****************************************
 Add a Content Experiment in OLX
-****************************************
+################################
 
 .. tags:: educator, how-to
 
@@ -12,9 +11,8 @@ You work with multiple XML files to configure a content experiment. This
 section steps through the files involved in a content experiment that shows
 different content to two different groups of learners.
 
-=====================================================
 Define the Content Experiment in the Sequential File
-=====================================================
+*****************************************************
 
 You reference a content experiment in the file for the subsection, or
 sequential, in the ``sequential`` directory. For example:
@@ -33,9 +31,9 @@ content experiment file in the ``split_test`` directory.
 .. caution::
   You can only define a content experiment in a unit, or vertical, in which different collections of components are associated with different experiment groups.  You cannot define a content experiment at a subsection (sequential) or section (chapter) level and have different units or subsections associated with different groups.
 
-=====================================================
+
 Define the Experiment Content in the Split Test File
-=====================================================
+******************************************************
 
 After you define the content experiment in the sequential file, you define the
 course content you want to test in the file in the ``split_test`` directory.

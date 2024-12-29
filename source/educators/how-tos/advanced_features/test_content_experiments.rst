@@ -2,9 +2,10 @@
 .. experiments. We did not use an include because file structure differs in
 .. the OLX guide and shared relative paths did not work. CT Nov 2015
 
-##########################################
+.. _Test Content Experiments:
+
 Test Content Experiments
-##########################################
+###########################
 
 .. tags:: educator, how-to
 
@@ -35,3 +36,20 @@ different experiment group of learners sees.
  terminology ("Welcome to Group A", for example) to make the functionality
  clear. Typically, you would not use terminology in course content that would
  make learners aware of the experiment.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Offering Differentiated Content` (concept)
+
+ :ref:`Overview of Content Experiments` (concept)
+
+ :ref:`Configure Your Course for Content Experiments` (how-to)
+
+ :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Create Content for Content Experiment Groups` (how-to)
+
+ :ref:`Create a Content Experiment` (how-to)
+
+ :ref:`Add Content Experiments to Your Course` (reference)
