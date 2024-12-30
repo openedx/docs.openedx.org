@@ -115,7 +115,7 @@ C
 
 **Chapter**
 
-  See :ref:`Section`.
+  See :ref:`Section_g`.
 
 
 .. _Chemical Equation_g:
@@ -141,7 +141,7 @@ C
   icon. You can move closed captions to different areas on the video screen by
   dragging and dropping them.
 
-  For more information, see `Additional Transcript Options`_.
+  For more information, see :ref:`Additional Transcript Options`.
 
 .. _codec_g:
 
@@ -626,7 +626,7 @@ M
   A problem that requires learners to enter a mathematical expression as text,
   such as e=m*c^2.
 
-  For more information, see `Adding Math Expression Problem`_.
+  For more information, see :ref:`Adding Math Expression Problem`.
 
 
 .. _MathJax:
