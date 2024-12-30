@@ -1,22 +1,20 @@
 .. _Create Exercises:
 
-##############################
 Problems, Exercises, and Tools
 ##############################
 
 .. tags:: educator, concept
 
-You can add a wide variety of different types of problems, exercises, and
-tools to your course outline. By default, a core set of :ref:`problem
-types<Working with Problem Components>` is available in Studio for you to
-include in your course. You have the option to expand the initial set of core
-problem types by enabling additional exercises and tools.
+You can add a variety of problems, exercises, and tools to your course outline.
+By default, a core set of :ref:`problem types<Working with Problem Components>`
+is available in Studio for you to include in your course. You have the option
+to expand the initial set of core problem types by enabling additional
+exercises and tools.
 
 .. contents::
   :local:
   :depth: 2
 
-*********************************************************
 Enhancing Your Course with Additional Exercises and Tools
 *********************************************************
 
@@ -42,6 +40,6 @@ selection of other exercises and tools that you can add to your course.
 .. seealso::
  :class: dropdown
 
- :ref:`Core Problem Types` (reference)
+ :ref: `Core Problem Types` (reference)
 
- :ref:'Enable Additional Exercises and Tools' (how to)
+ :ref: `Enable Additional Exercises and Tools` (how-to)
