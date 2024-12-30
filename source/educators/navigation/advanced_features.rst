@@ -18,6 +18,14 @@ Offer Different Content to Different Groups (Cohorts)
    ../concepts/advanced_features/cohorts_overview.rst
    ../how-tos/advanced_features/managing_cohorts.rst
    ../how-tos/advanced_features/cohorted_courseware.rst
+   ../how-tos/advanced_features/enable_cohorts.rst
+   ../how-tos/advanced_features/add_cohorts.rst
+   ../how-tos/advanced_features/assign_learners_cohort_manually.rst
+   ../how-tos/advanced_features/assign_learners_cohort_csv.rst
+   ../how-tos/advanced_features/chage_learner_cohort_assignment.rst
+   ../how-tos/advanced_features/rename_cohort.rst
+   ../how-tos/advanced_features/change_assignment_method_cohort.rst
+   ../how-tos/advanced_features/disable_cohorts.rst
    ../concepts/advanced_features/group_configurations.rst
    ../how-tos/set_up_content_groups.rst
    ../how-tos/advanced_features/set_up_group_configuration_olx.rst

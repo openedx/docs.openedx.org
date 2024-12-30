@@ -30,7 +30,7 @@ A
 
 **A/B test**
 
-  See :ref:`Content Experiment`.
+  See :ref:`Add Content Experiments to Your Course`.
 
 
 .. _About Page:
@@ -40,12 +40,10 @@ A
   The course page that provides potential learners with a course summary,
   prerequisites, a course video and image, and important dates.
 
-.. only:: Partners
 
-  For more information, see `pub creating and announcing a course`_.
+.. _accessible label:
 
-
-**accessible label**
+**Accessible Label**
 
   In a problem component, you use special formatting to identify the specific
   question that learners will answer by selecting options or entering text or
@@ -64,7 +62,7 @@ A
 
 .. _Advanced Editor_g:
 
-**advanced editor**
+**Advanced Editor**
 
   An OLX (open learning XML) editor in a problem component that allows you to
   create and edit any type of problem. For more information, see
@@ -81,10 +79,10 @@ A
 
 .. _Assignment Type:
 
-**assignment type**
+**Assignment Type**
 
   The category of graded student work, such as homework, exams, and exercises.
-  For more information, see :ref:`Grading Index`.
+  For more information, see :ref:`Grades`.
 
 .. _C:
 
@@ -92,7 +90,7 @@ A
 C
 ****
 
-**CAPA problem**
+**CAPA Problem**
 
   A CAPA (computer assisted personalized approach) problem refers to any of
   the problem types that are implemented in the edX platform by the
@@ -106,7 +104,7 @@ C
 
 .. _Certificate:
 
-**certificate**
+**Certificate**
 
   A document issued to an enrolled learner who successfully completes a course
   with the required passing grade. Not all edX courses offer certificates, and
@@ -115,14 +113,14 @@ C
   For information about setting up certificates for your course, see
   :ref:`Setting Up Certificates`.
 
-**chapter**
+**Chapter**
 
-  See :ref:`Section<S>`.
+  See :ref:`Section_g`.
 
 
 .. _Chemical Equation_g:
 
-**chemical equation response problem**
+**Chemical Equation Response Problem**
 
   A problem that allows learners to enter chemical equations as answers. For
   more information, see :ref:`Chemical Equation`.
@@ -130,31 +128,31 @@ C
 
 .. _Circuit Schematic_g:
 
-**circuit schematic builder problem**
+**Circuit Schematic Builder Problem**
 
   A problem that allows learners to construct a schematic answer (such as an
   electronics circuit) on an interactive grid. For more information, see
   :ref:`Circuit Schematic Builder`.
 
-**closed captions**
+**Closed Captions**
 
   The spoken part of the transcript for a video file, which is overlaid on the
   video as it plays. To show or hide closed captions, you select the **CC**
   icon. You can move closed captions to different areas on the video screen by
   dragging and dropping them.
 
-  For more information, see `Video Player`_.
+  For more information, see :ref:`Additional Transcript Options`.
 
 .. _codec_g:
 
-**codec**
+**Codec**
 
   A portmanteau of "code" and "decode". A computer program that can encode or
   decode a data stream.
 
 .. _Cohort:
 
-**cohort**
+**Cohort**
 
   A group of learners who participate in a class together. Learners who are in
   the same cohort can communicate and share experiences in private
@@ -166,15 +164,15 @@ C
 
 .. _Component_g:
 
-**component**
+**Component**
 
   The part of a unit that contains your actual course content. A unit can
   contain one or more components. For more information, see
-  :ref:`Developing Course Components`.
+  :ref:`Components and Activities TOC`.
 
 .. _Content Experiment:
 
-**content experiment**
+**Content Experiment**
 
   You can define alternative course content to be delivered to different,
   randomly assigned groups of learners. Also known as A/B or split testing,
@@ -183,14 +181,14 @@ C
   :ref:`Overview of Content Experiments`.
 
 
-**content library**
+**Content Library**
 
-  See :ref:`Library<Library_g>`.
+  See :ref:`Library_g`.
 
 
 .. _Content Specific Discussion Topic_g:
 
-**content-specific discussion topic**
+**Content-Specific Discussion Topic**
 
   A category within the course discussion that appears at a defined point in
   the course to encourage questions and conversations. To add a content-
@@ -209,25 +207,25 @@ C
 
 .. _Course Catalog:
 
-**course catalog**
+**Course Catalog**
 
-  The page that lists all courses offered in the edX learning management
+  The page that lists all courses offered in the your Open edX learning management
   system.
 
 
 .. _Course Handouts:
 
-**course handouts**
+**Course Handouts**
 
   Course handouts are files you make available to learners on the **Home**
   page. For more information, see :ref:`Adding Course
   Updates and Handouts`.
 
-**course mode**
+**Course Mode**
 
   See :ref:`enrollment track<enrollment_track_g>`.
 
-**course navigation pane**
+**Course Navigation Pane**
 
   The navigation frame that appears at one side of the **Course** page in the
   LMS. The course navigation pane shows the sections in the course. When you
@@ -238,7 +236,7 @@ C
 
 .. _Course Page:
 
-**Course page**
+**Course Page**
 
   The page that opens first when learners access your course. On the **Course**
   page, learners can view the course outline and directly access the course,
@@ -253,24 +251,20 @@ C
 
 .. _Run:
 
-**course run**
+**Course Run**
 
   A version of the course that runs at a particular time. Information about a
   course run includes start and end dates, as well as staff and the languages
   the course is available in. You can create a course run when you create a
   course.
 
-  .. only:: Partners
-
-    For more information, see :ref:`Planning Course Run Information`.
-
-**course track**
+**Course Track**
 
   See :ref:`enrollment track<enrollment_track_g>`.
 
 .. _Courseware:
 
-**courseware**
+**Courseware**
 
   In OLX (open learning XML) and in data packages, "courseware" refers to the
   main content of your course, consisting mainly of lessons and assessments.
@@ -281,7 +275,7 @@ C
   Note that the **Course** page was formerly called the **Courseware** page.
 
 
-**course-wide discussion topic**
+**Course-Wide Discussion Topic**
 
   Optional discussion categories that you create to guide how learners find
   and share information in the course discussion. Course-wide discussion
@@ -301,7 +295,7 @@ C
 
 .. _Custom Response Problem:
 
-**custom response problem**
+**Custom Response Problem**
 
   A custom response problem evaluates text responses from learners using an
   embedded Python script. These problems are also called
@@ -316,15 +310,13 @@ D
 
 .. _Data Czar_g:
 
-**data czar**
+**Data Czar**
 
   A data czar is the single representative at a partner institution who is
   responsible for receiving course data from edX, and transferring it securely
   to researchers and other interested parties after it is received.
 
-  For more information, see the `edX Research Guide`_.
-
-**discussion**
+**Discussion**
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Learners use the discussion topics to communicate with each other and the
@@ -333,7 +325,7 @@ D
 
 .. _Discussion Component:
 
-**discussion component**
+**Discussion Component**
 
   Discussion topics that course teams add directly to units. For example, a
   video component can be followed by a discussion component so that learners
@@ -345,7 +337,7 @@ D
   For more information, see :ref:`Working with Discussion
   Components`.
 
-**discussion thread list**
+**Discussion Thread List**
 
   The navigation frame that appears at one side of the **Discussion** page in
   the LMS. The discussion thread list shows the discussion categories and
@@ -356,7 +348,7 @@ D
 
 .. _Dropdown_g:
 
-**dropdown problem**
+**Dropdown Problem**
 
   A problem that asks learners to choose from a collection of answer options,
   presented as a drop-down list. For more information, see
@@ -369,48 +361,13 @@ D
 E
 ****
 
-.. _edX101_g:
-
-**edX101**
-
-  An online course about how to create online courses. The intended audience
-  for `edX101`_ is faculty and university administrators.
-
-.. _edX Edge_g:
-
-**edX Edge**
-
-  `edX Edge`_ is a less restricted site than edX.org. While only edX employees
-  and consortium members can create and post content on edX.org, any users with
-  course creator permissions for Edge can create courses with Studio on
-  studio.edge.edx.org, then view the courses on the learning management system
-  at edge.edx.org.
-
-.. _edX Studio:
-
-**edX Studio**
-
-  The edX tool that you use to build your courses. For more information, see
-  :ref:`Getting Started with Studio`.
-
-.. _embargo:
-
-**embargo**
-
-  An embargo is an official ban on trade or commercial activity with a
-  particular country. For example, due to U.S. federal regulations, edX cannot
-  offer certain courses (for example, particular advanced STEM courses) on the
-  edx.org website to learners in embargoed countries. Learners cannot access
-  restricted courses from an embargoed country. In some cases, depending on the
-  terms of the embargo, learners cannot access any edX courses at all.
-
-**enrollment mode**
+**Enrollment Mode**
 
   See :ref:`enrollment track<enrollment_track_g>`.
 
 .. _enrollment_track_g:
 
-**enrollment track**
+**Enrollment Track**
 
   Also called **certificate type**, **course mode**, **course seat**, **course
   track**, **course type**, **enrollment mode**, or **seat type**.
@@ -446,31 +403,27 @@ E
 
   * **honor**: This enrollment track was offered in the past and offered an
     honor code certificate to learners who pass the course. This track does not
-    require identity verification and does not require a fee. Note, however,
-    that as of December 2015, edx.org no longer offers honor code certificates.
-    For more information, see `News About edX Certificates`_.
+    require identity verification and does not require a fee. 
 
-  .. only:: Open_edX
-
-    * **professional (no ID)**: Like the professional enrollment track, this
-      track offers certificates and requires a fee. However, this track does
-      not require identity verification. Courses that offer the professional
-      (no ID) track do not offer a free enrollment track.
+  * **professional (no ID)**: Like the professional enrollment track, this
+    track offers certificates and requires a fee. However, this track does
+    not require identity verification. Courses that offer the professional
+    (no ID) track do not offer a free enrollment track.
 
 
 .. _Exercises:
 
-**exercises**
+**Exercises**
 
   Practice or practical problems that are interspersed in edX course content
   to keep learners engaged. Exercises are also an important measure of
   teaching effectiveness and learner comprehension. For more information, see
-  :ref:`Exercises and Tools Index`.
+  :ref:`Create Exercises`.
 
 
 .. _Export:
 
-**export**
+**Export**
 
   A tool in edX Studio that you use to export your course or library for
   backup purposes, or so that you can edit the course or library directly in
@@ -485,7 +438,7 @@ E
 F
 ***
 
-**forum**
+**Forum**
 
   See :ref:`Discussion<D>`.
 
@@ -505,7 +458,7 @@ G
 
 .. _grade:
 
-**grade range**
+**Grade Range**
 
   Thresholds that specify how numerical scores are associated with grades, and
   the score that learners must obtain to pass a course.
@@ -513,7 +466,7 @@ G
   For more information, see :ref:`Set the Grade Range`.
 
 
-**grading rubric**
+**Grading Rubric**
 
   See :ref:`Rubric<R>`.
 
@@ -538,7 +491,7 @@ H
 
 .. _Text Component:
 
-**Text component**
+**Text Component**
 
   A type of component that you can use to add and format text for your course.
   A Text component can contain text, lists, links, and images. For more
@@ -555,7 +508,7 @@ I
 
 .. _Image Mapped_g:
 
-**Image mapped input problem**
+**Image Mapped Input Problem**
 
   A problem that presents an image and accepts clicks on the image as an
   answer. For more information, see :ref:`Image Mapped
@@ -574,15 +527,14 @@ I
   For more information, see :ref:`Import a Course` or
   :ref:`Import a Library`.
 
-**instructor dashboard**
+**Instructor Dashboard**
 
   A user who has the Admin or Staff role for a course can access the instructor
   dashboard in the LMS by selecting **Instructor**. Course team members use the
   tools, reports, and other features that are available on the pages of the
   instructor dashboard to manage a running course.
 
-  For more information, see :ref:`Managing Live Course
-  Index`.
+  For more information, see :ref:`Content Creation and Management TOC`.
 
 .. _K:
 
@@ -590,7 +542,7 @@ I
 K
 ****
 
-**keyword**
+**Keyword**
 
   A variable in a bulk email message. When you send the message, a value that
   is specific to the each recipient is substituted for the keyword.
@@ -601,7 +553,7 @@ K
 L
 ****
 
-**label**
+**Label**
 
   See :ref:`Accessible Label<A>`.
 
@@ -615,23 +567,23 @@ L
 
 .. _Learning Management System:
 
-**learning management system (LMS)**
+**Learning Management System (LMS)**
 
   The platform that learners use to view courses, and that course team members
   use to manage learner enrollment, assign team member privileges, moderate
   discussions, and access data while the course is running.
 
-**learning sequence**
+**Learning Sequence**
 
   See :ref:`Unit Navigation Bar<U>`.
 
-**left pane**
+**Left Pane**
 
   See :ref:`Course Navigation Pane<C>`.
 
 .. _Library_g:
 
-**library**
+**Library**
 
   A pool of components for use in randomized assignments that can be shared
   across multiple courses from your organization. Course teams configure
@@ -639,13 +591,13 @@ L
   of components, and randomly provide a specified number of problems from that
   content library to each learner.
 
-  For more information, see :ref:`Content Libraries` and
+  For more information, see :ref:`Navigate the Library Homepage` and
   :ref:`Randomized Content Blocks`.
 
 
 .. _Live Mode:
 
-**live mode**
+**Live Mode**
 
   A view that allows the course team to review all published units as learners
   see them, regardless of the release dates of the section and subsection that
@@ -669,13 +621,12 @@ M
 
 .. _Math Expression_g:
 
-**math expression input problem**
+**Math Expression Input Problem**
 
   A problem that requires learners to enter a mathematical expression as text,
   such as e=m*c^2.
 
-  For more information, see `Math Formatting`_ in the *EdX
-  Learner's Guide*.
+  For more information, see :ref:`Adding Math Expression Problem`.
 
 
 .. _MathJax:
@@ -690,7 +641,7 @@ M
 
 .. _Module_g:
 
-**module**
+**Module**
 
   An item of course content, created in an XBlock, that appears on the
   **Course** page in the edX learning management system. Examples of
@@ -704,11 +655,11 @@ M
 
 .. _Multi-select_g:
 
-**multi-select problem**
+**Multi-Select Problem**
 
   A problem that prompts learners to select one or more options from a list of
   possible answers. For more information, see
-  :ref:`Multi-select`.
+  :ref:`Multi select`.
 
 
 .. _N:
@@ -726,7 +677,7 @@ N
 
 .. _Numerical Input_g:
 
-**numerical input problem**
+**numerical Input Problem**
 
   A problem that asks learners to enter numbers or specific and relatively
   simple mathematical expressions. For more information, see
@@ -744,12 +695,12 @@ O
   OLX  (open learning XML) is the XML-based markup language that is used to
   build courses on the Open edX platform.
 
-  For more information, see `What is Open Learning XML? <what is open learning xml>`_.
+  For more information, see :ref:`Add a Content Experiment in OLX`.
 
 
 .. _Open Response Assessment_g:
 
-**open response assessment**
+**Open Response Assessment**
 
   A type of assignment that allows learners to answer with text, such as a
   short essay and, optionally, an image or other file. Learners then evaluate
@@ -760,8 +711,7 @@ O
   compare their own responses to the rubric, or a staff assessment, in which
   members of course staff evaluate learner responses using the same rubric.
 
-  For more information, see :ref:`Open Response Assessments
-  Two`.
+  For more information, see :ref:`Open Response Assessments`.
 
 .. _P:
 
@@ -771,7 +721,7 @@ P
 
 .. _Pages_g:
 
-**pages**
+**Pages**
 
   Pages organize course materials into categories that learners select in the
   learning management system. Pages provide access to the course content and to
@@ -789,15 +739,9 @@ P
   analog videos. It is used in locations such as Brazil, Australia, south Asia,
   most of Africa, and western Europe.
 
-**partner manager**
-
-  Each EdX partner institution has an edX partner manager. The partner manager
-  is the primary contact for the institution's course teams.
-
-
 .. _Preview Mode:
 
-**preview mode**
+**Preview Mode**
 
   A view that allows you to see all the units of your course as learners see
   them, regardless of the unit status and regardless of whether the release
@@ -809,18 +753,18 @@ P
 
 .. _Problem Component:
 
-**problem component**
+**Problem Component**
 
   A component that allows you to add interactive, automatically graded
   exercises to your course content. You can create many different types of
   problems.
 
   For more information, see :ref:`Working with Problem
-  Components` and :ref:`Exercises and Tools Index`.
+  Components` and :ref:`Core Problem Types`.
 
 .. _Proctored Exam_g:
 
-**proctored exam**
+**Proctored Exam**
 
   At edX, proctored exams are timed, impartially and electronically monitored
   exams designed to ensure the identity of the test taker and determine the
@@ -830,20 +774,16 @@ P
 
 .. _Program:
 
-**program**
+**Program**
 
   A program is a collection of related courses. Learners enroll in a program by
   enrolling in any course that is part of a program, and earn a program
   certificate by passing each of the courses in the program with a grade that
   qualifies them for a verified certificate.
 
-  Several types of program are available on edx.org, including MicroMasters,
-  Professional Certificate, and XSeries programs.
-
-
 .. _Program Offer:
 
-**program offer**
+**Program Offer**
 
   A program offer is a discount offered for a specific program. The discount
   can be either a percentage amount or an absolute (dollar) amount.
@@ -854,8 +794,7 @@ P
 **Progress page**
 
   The page in the learning management system that shows learners their scores
-  on graded assignments in the course. For more information, see
-  `SFD Check Progress`_ in the *EdX Learner's Guide*.
+  on graded assignments in the course. 
 
 
 .. _Q:
@@ -864,7 +803,7 @@ P
 Q
 *****
 
-**question**
+**Question**
 
   A question is a type of post that you or a learner can add to a course
   discussion topic to bring attention to an issue that the discussion
@@ -892,14 +831,14 @@ R
 
 .. _Rubric_g:
 
-**rubric**
+**Rubric**
 
   A list of the items that a learner's response should cover in an open
   response assessment. For more information, see the
   :ref:`PA Rubric` topic in :ref:`Open
-  Response Assessments Two`.
+  Response Assessments`.
 
-  See also :ref:`Open Response Assessment<Open Response Assessment_g>`.
+  See also :ref:`Open Response Assessment_g`.
 
 
 .. _S:
@@ -908,13 +847,13 @@ R
 S
 ****
 
-**seat type**
+**Seat Type**
 
   See :ref:`enrollment track<enrollment_track_g>`.
 
 .. _Section_g:
 
-**section**
+**Section**
 
   The topmost category in your course outline. A section can represent a time
   period or another organizing principle for course content. A section
@@ -924,30 +863,29 @@ S
   Sections`.
 
 
-**sequential**
+**Sequential**
 
   See :ref:`Subsection<Subsection>`.
 
 
 .. _Short Course Description:
 
-**short description**
+**Short Description**
 
-  The description of your course that appears on the edX `Course List
-  <https://www.edx.org/course-list>`_ page.
+  The description of your course that appears on Course Dashboard of your instance.
 
   For more information, see :ref:`Course Short Description Guidelines`.
 
 
 .. _Simple Editor_g:
 
-**simple editor**
+**Simple Editor**
 
   The graphical user interface in a problem component. The simple editor is
   available for some problem types. For more information, see
   :ref:`Problem Studio View`.
 
-**single sign-on (SSO)**
+**Single Sign-On (SSO)**
 
   SSO is an authentication service that allows a user to access multiple
   related applications, such as Studio and the LMS, with the same username and
@@ -959,7 +897,7 @@ S
 
 .. _Single_select_g:
 
-**single select problem**
+**Single Select Problem**
 
   A problem that asks learners to select one answer from a list of options.
   For more information, see :ref:`Single Select`.
@@ -967,21 +905,21 @@ S
 
 .. _Special Exam_g:
 
-**special exam**
+**Special Exam**
 
   A general term that applies to proctored and timed exams in edX courses. See
   :ref:`Timed Exam<T>` and :ref:`Proctored Exam<P>`.
 
 .. _Split_Test:
 
-**split test**
+**Split Test**
 
   See :ref:`Content Experiment<C>`.
 
 
 .. _Subsection:
 
-**subsection**
+**Subsection**
 
   A division in the course outline that represents a topic in your course,
   such as a lesson or another organizing principle. Subsections are defined
@@ -999,7 +937,7 @@ T
 
 .. _Text Input_g:
 
-**text input problem**
+**Text Input Problem**
 
   A problem that asks learners to enter a line of text, which is then checked
   against a specified expected answer.
@@ -1008,7 +946,7 @@ T
 
 .. _Timed Exam_g:
 
-**timed exam**
+**Timed Exam**
 
   Timed exams are sets of problems that a learner must complete in the amount
   of time you specify. When a learner begins a timed exam, a countdown timer
@@ -1018,7 +956,7 @@ T
 
 .. _TPA_g:
 
-**third party authentication**
+**Third-Party Authentication**
 
   A system-wide configuration option that allows users who have a username and
   password for one system, such as a campus or institutional system, to log in
@@ -1027,16 +965,16 @@ T
 
   For more information about how system administrators can integrate an
   instance of Open edX with a campus or institutional authentication system,
-  see :ref:`Enabling Third Party Authentication`.
+  see :ref:`enable_lti_components`.
 
 .. _Transcript Definition:
 
-**transcript**
+**Transcript**
 
   A text version of the content of a video. You can make video transcripts
   available to learners.
 
-  For more information, see :ref:`Obtain a Video Transcript`.
+  For more information, see :ref:`Additional Transcript Options`.
 
 .. _U:
 
@@ -1044,14 +982,14 @@ T
 U
 ***
 
-**unit**
+**Unit**
 
   A unit is a division in the course outline that represents a lesson.
   Learners view all of the content in a unit on a single page.
 
   For more information, see :ref:`Developing Course Units`.
 
-**unit navigation bar**
+**Unit Navigation Bar**
 
   The horizontal control that appears at the top of the **Course** page in the
   LMS. The unit navigation bar contains an icon for each unit in the selected
@@ -1075,13 +1013,13 @@ V
   processed or transferred. A variable bit rate allows the bit rate to change
   according to the complexity of the media segment.
 
-**vertical**
+**Vertical**
 
   See :ref:`Unit<U>`.
 
 .. _Video Component:
 
-**video component**
+**Video Component**
 
   A component that you can use to add recorded videos to your course.
 
@@ -1097,7 +1035,7 @@ W
 
 .. _Whitelist:
 
-**whitelist**
+**Whitelist**
 
   In edX courses, a whitelist is a list of learners who are being provided with
   a particular privilege. For example, whitelisted learners can be specified as
@@ -1112,12 +1050,12 @@ W
 
 .. _Wiki:
 
-**wiki**
+**Wiki**
 
   The page in each edX course that allows both learners and members of the
   course team to add, modify, or delete content. Learners can use the wiki to
   share links, notes, and other helpful information with each other. For more
-  information, see :ref:`Course_Wiki`.
+  information, see :ref:`About Course Wiki`.
 
 
 .. _X:
@@ -1134,14 +1072,5 @@ XYZ
   the components that deliver course content to learners.
 
   Third parties can create components as web applications that can run within
-  the edX learning management system. For more information, see
-  :ref:`Open edX XBlock Tutorial`.
-
-
-**XSeries**
-
-  A set of related courses in a specific subject. Learners qualify for an
-  XSeries certificate when they pass all of the courses in the XSeries. For
-  more information, see `XSeries Programs`_.
-
+  the edX learning management system.
 
