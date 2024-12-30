@@ -616,7 +616,7 @@
 
 .. _XQueue: https://github.com/openedx/xqueue
 
-.. _edX XQueue repository: https://github.com/openedx/xqueue/blob/master/queue
+.. _Open edX XQueue repository: https://github.com/openedx/xqueue/tree/master/xqueue
 
 .. _GnuPG website: https://www.gnupg.org
 
