@@ -12,24 +12,24 @@ To set up cohorts and content groups, see this video:
 .. seealso::
  :class:dropdown
 
- :ref:`../concepts/advanced_features/offering_differentiated_content.rst` (concept)
+ :ref:`Offering Differentiated Content` (concept)
 
- :ref:`../concepts/advanced_features/cohorts_overview.rst` (concept)
+ :ref:`Cohorts Overview` (concept)
 
- :ref:`../how-tos/advanced_features/managing_cohorts.rst` (how-to)
+ :ref:`Manage Course Cohorts` (how-to)
 
- :ref:`../how-tos/advanced_features/cohorted_courseware.rst` (how-to)
+ :ref:`Create Cohort Specific Course Content` (how-to)
 
- :ref:`../how-tos/advanced_features/create_content_group.rst` (how-to)
+ :ref:`Creating Content Groups` (how-to)
 
- :ref:`specify_content_particular_content_groups` (how-to)
+ :ref:`Specify Content as Available Only to Certain Content Group` (how-to)
 
- :ref:`associate_cohort_with_groups` (how-to)
+ :ref:`Associate Cohorts with Content Groups` (how-to)
 
- :ref:`view_cohort_specific_courseware` (how-to)
+ :ref:`Viewing Cohort Specific Courseware` (how-to)
 
- :ref:`delete_content_groups` (how-to)
+ :ref:`Delete Content Groups` (how-to)
 
- :ref:`group_configurations` (concept)
+ :ref:`Overview of Group Configurations` (concept)
 
- :ref:`set_up_group_configuration_olx` (how-to)
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
