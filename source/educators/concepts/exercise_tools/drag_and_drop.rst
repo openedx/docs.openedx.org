@@ -1,6 +1,5 @@
 .. _drag_and_drop_problem:
 
-#####################
 Drag and Drop Problem
 #####################
 
@@ -23,7 +22,6 @@ to use drag and drop problems in your course.
 
 .. _overview_of_drag_and_drop_problems:
 
-**********************************
 Overview of Drag and Drop Problems
 **********************************
 
@@ -94,10 +92,9 @@ message informs the learner that the problem is complete.
   :alt: An example of a simple drag and drop problem. The problem is complete
       and the final feedback message appears below the background image.
 
-
 .. seealso::
  :class: dropdown
 
- :ref:`Creating a Drag and Drop Problem` (how to)
+ :ref:`Creating a Drag and Drop Problem` (how-to)
 
  :ref:`Drag and Drop` (reference)
