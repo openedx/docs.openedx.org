@@ -22,8 +22,6 @@ To set up cohorts and content groups, see this video:
 
  :ref:`Creating Content Groups` (how-to)
 
- :ref:`Specify Content as Available Only to Certain Content Group` (how-to)
-
  :ref:`Associate Cohorts with Content Groups` (how-to)
 
  :ref:`Viewing Cohort Specific Courseware` (how-to)
