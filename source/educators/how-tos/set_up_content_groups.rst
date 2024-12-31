@@ -12,24 +12,24 @@ To set up cohorts and content groups, see this video:
 .. seealso::
  :class:dropdown
 
- :ref:`offering_differentiated_content` (concept)
+ :doc:`offering_differentiated_content` (concept)
 
- :ref:`cohorts_overview` (concept)
+ :doc:`cohorts_overview` (concept)
 
- :ref:`managing_cohorts` (how-to)
+ :doc:`managing_cohorts` (how-to)
 
- :ref:`cohorted_courseware` (how-to)
+ :doc:`cohorted_courseware` (how-to)
 
- :ref:`create_content_group` (how-to)
+ :doc:`create_content_group` (how-to)
 
- :ref:`specify_content_particular_content_groups` (how-to)
+ :doc:`specify_content_particular_content_groups` (how-to)
 
- :ref:`associate_cohort_with_groups` (how-to)
+ :doc:`associate_cohort_with_groups` (how-to)
 
- :ref:`view_cohort_specific_courseware` (how-to)
+ :doc:`view_cohort_specific_courseware` (how-to)
 
- :ref:`delete_content_groups` (how-to)
+ :doc:`delete_content_groups` (how-to)
 
- :ref:`group_configurations` (concept)
+ :doc:`group_configurations` (concept)
 
- :ref:`set_up_group_configuration_olx` (how-to)
+ :doc:`set_up_group_configuration_olx` (how-to)

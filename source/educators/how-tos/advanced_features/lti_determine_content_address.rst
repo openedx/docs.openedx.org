@@ -122,8 +122,7 @@ To find the usage ID for a unit or component in the LMS, follow these steps.
 
 #. To find the usage ID for a component, find the **location**.
 
-   For example, ``location = block-v1:demo+demox+01+type@html+block@054cef851ecc415e969cd82c06a3307b
-``
+   For example, ``location = block-v1:demo+demox+01+type@html+block@054cef851ecc415e969cd82c06a3307b``
 
 #. To find the usage ID for a unit, scroll down to find the **parent**.
 
