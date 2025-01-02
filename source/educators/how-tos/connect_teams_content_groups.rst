@@ -23,27 +23,17 @@ Connecting Teams to Content Groups
 
      .. image:: /_images/educator_how_tos/teams_within_groups.png
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-.. seealso::
  :class: dropdown
 
- :ref: `Additional Redwood Features` (reference)
-
-<<<<<<< Updated upstream
- 
-=======
  :ref: `Teams Overview` (concept)
 
  :ref: `Teams Configuration Options` (reference)
 
- :ref: `Additional Redwood Features` (reference)
+ :ref: `Managing Teams via CSV Upload` (reference)
  
- :ref: `Additional Redwood Features` (reference)
+ :ref: `Managing Team Discussions` (concept)
 
+ :ref: `The Learner's Experience of Teams` (concept)
 
+ :ref: `Enable and Configure Teams` (how-to)
 
- 
->>>>>>> Stashed changes
