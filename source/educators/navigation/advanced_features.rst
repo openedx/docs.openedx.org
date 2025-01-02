@@ -53,7 +53,12 @@ Use Teams in Your Course
    ../references/advanced_features/managing_teams_via_csv.rst
    ../concepts/advanced_features/managing_teams_discussions.rst
    ../concepts/advanced_features/teams_learner_experience.rst
-   ../how-tos/advanced_features/configure_teams.rst
+   ../how-tos/advanced_features/enable_teams.rst
+   ../how-tos/advanced_features/create_teams.rst
+   ../how-tos/advanced_features/search_teams.rst
+   ../how-tos/advanced_features/edit_teams.rst
+   ../how-tos/advanced_features/remove_learner_from_team.rst
+   ../how-tos/advanced_features/delete_teams.rst
    ../how-tos/connect_teams_content_groups.rst
 
 Use Open edX as an LTI Tool Provider
