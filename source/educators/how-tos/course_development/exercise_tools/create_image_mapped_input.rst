@@ -1,8 +1,7 @@
-.. _Create Image Mapped Input Problem: 
+.. _Create Image Mapped Input Problem:
 
-****************************************
 Create an Image Mapped Input Problem
-****************************************
+####################################
 
 .. tags:: educator, how-to
 
@@ -15,9 +14,8 @@ To create an image mapped input problem, follow these steps.
 
 .. _Determine Coordinates:
 
-============================
 Collect Image Information
-============================
+*************************
 
 To create an image mapped input problem, you need the following elements.
 
@@ -47,9 +45,8 @@ tool such as Microsoft Paint.
 
 .. _Create an IMI Problem in Studio:
 
-================================================
 Create an Image Mapped Input Problem in Studio
-================================================
+**********************************************
 
 #. In Studio, upload your image to the **Files & Uploads** page, and make a
    note of the file path for the image. For more information, see :ref:`Add
@@ -82,7 +79,7 @@ Create an Image Mapped Input Problem in Studio
 .. _Specify a Rectangular Region:
 
 Specify a Rectangular Region
-****************************************
+============================
 
 To specify a rectangular region, edit the ``rectangle`` attribute in the
 ``<imageinput>`` element.
@@ -129,7 +126,7 @@ two coordinate pairs:
 .. _Specify Multiple Rectangular Regions:
 
 Specify Multiple Rectangular Regions
-****************************************
+====================================
 
 You can specify more than one rectangular region in an image.
 
@@ -172,7 +169,7 @@ For example, the following ``rectangle`` attribute creates three rectangles:
 .. _Specify an Irregular Region:
 
 Specify an Irregular Region
-****************************************
+===========================
 
 You can specify one non-rectangular region.
 
