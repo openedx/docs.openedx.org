@@ -10,16 +10,15 @@ This section describes how to create and manage certificates for your course.
 
 
   .. note::
-   Before you can issue certificates, the administrator for your instance of
-   Open edX must configure the platform to allow course teams to generate and
+   Before you can issue certificates, the administrator for your instance
+   must configure the platform to allow course teams to generate and
    issue certificates. For more information, see
-   :ref:`Enable Certificates <Enable Certificates>` in *Installing, Configuring, and
-   Running the Open edX Platform*.
+   :ref:`Enable a Certificate <Enable a Certificate>`.
 
 For more information about certificates, see these additional topics.
 
-* :ref:`Obtaining Certificate Data<Reporting Certificate Data>`
-* :ref:`Ending a Course<Checking Student Progress and Issuing Certificates>`
+* :ref:`Access Certificate Data <Access Certificate Data>`
+* :ref:`Issuing Certificates <Issuing Certificates>`
 
 
 For information about awarding badges for your course, see :ref:`Enable or
@@ -50,17 +49,15 @@ certificates are available on the learner dashboard,
 the learner **Profile** page, and the course **Progress** page.
 
 For more information about issuing certificates, see :ref:`Issuing
-Certificates <Checking Student Progress and Issuing Certificates>`.
+Certificates <Issuing Certificates>`.
 
 The design of certificates for your course, including your institution's
-logo, are configured on your instance of Open edX. For more information, see
-:ref:`Enable Certificates <Enable Certificates>` in *Installing, Configuring, and
-Running the Open edX Platform*.
-
+logo, are configured on your instance. For more information, see
+:ref:`Enable a Certificate <Enable a Certificate>`.
 
 .. The course start date limitation is not published for partners at this time.
 .. Confirmed March 9, 2017 that there's no hard requirement for having
-.. activated certs before edX course starts. Although there is a procedural
+.. activated certs before the course starts. Although there is a procedural
 .. requirement for announcing activated certs, courses are able to start if
 .. they have deactivated certs.
 
@@ -73,3 +70,16 @@ Running the Open edX Platform*.
        For information about starting the course, see :ref:`Guidelines for
        Start and End Dates <Guidelines for
        Start and End Dates>`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Enable a Certificate` (how-to)
+
+  :ref:`Edit a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Issuing Certificates` (how-to)
+
+  :ref:`Enable Badges in Course` (how-to)
