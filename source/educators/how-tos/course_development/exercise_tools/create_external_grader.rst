@@ -1,8 +1,7 @@
 .. _Create an External Grader Problem in Studio:
 
-*******************************************
 Create an External Grader Problem in Studio
-*******************************************
+###########################################
 
 .. tags:: educator, how-to
 
@@ -23,11 +22,10 @@ To create a code response problem in Studio, follow these steps.
 
 #. Test the problem in the LMS.
 
-  .. note::
-    To validate your external grader and test a problem, you must view the
-    component in a published unit in the LMS. If you test a problem in Studio,
-    you receive an “Error: No grader has been set up for this problem” message.
-
+.. note::
+   To validate your external grader and test a problem, you must view the
+   component in a published unit in the LMS. If you test a problem in Studio,
+   you receive an “Error: No grader has been set up for this problem” message.
 
 .. seealso::
  :class: dropdown

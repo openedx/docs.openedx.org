@@ -1,8 +1,7 @@
 .. _Use Hints in a Dropdown Problem:
 
-============
 Adding Hints
-============
+############
 
 .. tags:: educator, how-to
 
@@ -21,3 +20,10 @@ you've added, click the trash can icon next to its respective hint field.
 .. note::
   You can configure any number of hints. The learner views one hint at a time
   and views the next one by selecting **Hint** again.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Adding Feedback and Hints to a Problem` (reference)
+
+ :ref:`Adding Dropdown` (how-to)
