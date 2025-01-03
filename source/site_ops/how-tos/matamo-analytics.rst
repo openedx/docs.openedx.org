@@ -8,7 +8,7 @@ In order to inject various analytics there is a provision to add them to head or
 `body-extra.html`.
 
 One needs to be using comprehensive theme in order to use these templates. More information can be found at `README.rst under themes
-in edx-platform <https://github.com/openedx/edx-platform/blob/master/themes/README.rst>_`.
+in edx-platform <https://github.com/openedx/edx-platform/blob/master/themes/README.rst>`_.
 
 Let us walk you through integrating Matamo to the platform:
 
@@ -22,7 +22,7 @@ script.
 Note::
 
 This will only be applied to the pages served by LMS and would not be supported by different MFEs used by the platform.
-Hence, for introducing the same you need to create a custom component and put it in a slot. You can have a look at `frontend-footer-component <https://github.com/openedx/frontend-component-footer>_`.
+Hence, for introducing the same you need to create a custom component and put it in a slot. You can have a look at `frontend-footer-component <https://github.com/openedx/frontend-component-footer>`_.
 
 
 
