@@ -1,3 +1,5 @@
+
+###############################################################
 Use a Section from a Course independently of the Course Outline
 ###############################################################
 
@@ -45,3 +47,8 @@ Use a Section from a Course independently of the Course Outline
    feature in the LMS;
 
      .. image:: /_images/educator_how_tos/hide_in_outline_learner_view.png
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Add Content Experiments to Your Course` (how-to)

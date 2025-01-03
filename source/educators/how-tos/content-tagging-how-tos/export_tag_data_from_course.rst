@@ -12,3 +12,10 @@ Export a CSV file that reports on which tags have been added to which parts of t
       :alt: Image showing clicking Export Tags from the Tools dropdown.
 
 #. A CSV file will download to your local machine. It may take a few minutes.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Export a Course` (how-to)
+
+ :ref:`Import a Course` (how-to)

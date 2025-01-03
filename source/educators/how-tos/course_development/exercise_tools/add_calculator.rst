@@ -54,3 +54,11 @@ To enable the calculator tool, follow these steps.
 #. Click the gear icon on the **Calculator** card shown on this page.
 #. From the **Configure calculator** modal, select the toggle to enable or disable the notes application.
 #. Select **Apply** to save your configuration changes.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Annotation Problem` (how-to)
+
+ :ref:`Chemical Equation` (how-to)
