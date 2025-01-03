@@ -1,0 +1,20 @@
+Configuring Matamo Analytics
+#############################
+
+In addition to Google Analytics, the Open edX platform is flexible enough to support different analytics tools.
+
+To inject various analytics, there is a provision to add them to the head or body using head-extra.html, body-initial.html, or body-extra.html.
+
+One needs to be using the comprehensive theme to use these templates. More information can be found in the `README.rst under themes in edx-platform <https://github.com/openedx/edx-platform/blob/master/themes/README.rst>`_.
+
+Let us walk you through integrating Matamo into the platform:
+
+Matamo needs to be included under the head tag of the page; hence, we will use head-extra.html to include the analytics script.
+
+1. Create the head-extra.html file under {theme}/lms/templates/.
+2. Add the script provided by the platform to the file.
+3. Apply the theme, and we are good to go.
+
+Note::
+
+This will only be applied to the pages served by LMS and would not be supported by different MFEs used by the platform. Hence, to introduce the same, you need to create a custom component and put it in a slot. You can have a look at the `frontend-footer-component <https://github.com/openedx/frontend-component-footer>`_.
