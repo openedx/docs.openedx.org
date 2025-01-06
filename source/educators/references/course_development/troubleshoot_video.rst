@@ -19,9 +19,7 @@ When you use video, you might experience one of the following problems.
     video elements`_.
 
   * Verify that file metadata, particularly the MIME type, is correctly set on
-    the host site. For example, when Open edX platform offered support for Internet Explorer
-    10 browsers, videos did not play if the MIME type was not set. The HTTP
-    header ``Content-Type`` had to be set to video/mp4 for an .mp4 file.
+    the host site. 
 
     As an example of how you might set metadata on a video host site, the
     *Console User Guide* for Amazon Simple Storage Service (S3) provides

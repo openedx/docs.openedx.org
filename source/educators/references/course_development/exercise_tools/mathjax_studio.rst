@@ -6,7 +6,7 @@ MathJax for Mathematics
 .. tags:: educator, reference
 
 To produce clear and professional-looking symbols and equations in web browser,
-Open edX platform uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
+the Open edX platform uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
 the mathematical symbols and equations that you enter in Text and problem
 components using LaTeX notation into beautiful math.
 
