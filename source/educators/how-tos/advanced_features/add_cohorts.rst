@@ -37,7 +37,7 @@ applicable, and specifying the assignment method for each cohort.
    your course that is automatically assigned. If you have not created at
    least one automated assignment cohort in the course by the time that the
    first learner accesses your course content or a divided discussion topic,
-   Open edX creates a default cohort to which learners are automatically assigned.
+   the platform creates a default cohort in your course to which learners are automatically assigned.
 
 For details about adding learners to a cohort by uploading a .csv file, see
 :ref:`Assign Learners to Cohort Groups by uploading CSV`.

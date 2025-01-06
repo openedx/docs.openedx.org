@@ -41,7 +41,7 @@ Once successfully enabled, the LTI provider will be accessible in
 Provider specific configuration
 ********************************
 
-At present, Open edX supports following video conferencing LTI provider:
+At present, the Open edX platform supports following video conferencing LTI provider:
 1.  Zoom
 2.  Big Blue button
 
@@ -72,7 +72,7 @@ To generate LTI credentials in LTI pro app:
 
    a. Add "instructor_email" to `Email or Employee Unique ID Attribute Name` setting.
 
-   b. Add the link to your Open edX instance to the `Approved Domains` setting.
+   b. Add the link to your Open edX instance's Learning MFE (for example, `learning.myinstance.com` - see the URL when you view your course) to the `Approved Domains` setting.
 
 
 To configure Zoom, navigate to Live app configurations
@@ -91,7 +91,7 @@ Once successfully enabled, Zoom will be accessible in "Live" tab in course navig
    :alt: Screenshot of Zoom rendered in Live tab in course navigation
 
 
-Big Blue Button Setup
+Big Blue Button setup
 ======================
 
 `Big blue button <https://bigbluebutton.org/>`_ can be used to create virtual classrooms
