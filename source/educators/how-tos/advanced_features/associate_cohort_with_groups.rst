@@ -5,7 +5,7 @@ Associate Cohorts with Content Groups
 
 .. tags:: educator, how-to
 
-After you :ref:`create a content<Creating Content Groups>` group, you can associate it with one or more cohorts
+After you :ref:`create a content group<Creating Content Groups>`, you can associate it with one or more cohorts
 with which you want to share the same special content.
 
 .. note:: A content group can be associated with more than one cohort; a cohort

@@ -32,7 +32,7 @@ The identifier for your course can be in one of these formats.
 * ``{key type}:{org}+{course}+{run}``, for example,
   ``course-v1:OpenedX+DemoX+2024``
 
-* ``{org}/{course}/{run}``, for example, ``OpenedX/DemoX/2024``
+* ``{org}/{course}/{run}`` (for courses created prior to 2015), for example, ``OpenedX/DemoX/2014``
 
 Courses created since Fall 2014 typically have an ID that uses the first
 format, while older courses have IDs that use the second format.
@@ -45,8 +45,8 @@ To find the course ID for your course, follow these steps.
 
 For example, you open the "Open edX Demo Course" course to the **Course**
 page for the course. The URL for the **Course** page is
-``https://apps.sandbox.openedx.org/learning/course/course-v1:OpenedX+01-2024+2024-1/home``. From
-the URL, you determine that the course ID is ``course-v1:OpenedX+01-2024``.
+``https://training.openedx.io/courses/course-v1:OpenedX+DemoX+Demo_Course/about``. From
+the URL, you determine that the course ID is ``course-v1:OpenedX+DemoX+Demo_Course``.
 
 The same course ID applies to every item of content in the course.
 
@@ -60,7 +60,7 @@ The identifier for a specific component, unit, or subsection in your course can
 be in one of these formats.
 
 * ``{key type}:{org}+{course}+{run}+type@{type}+block@{display name}``, for
-  example, ``block-v1:OpenedX+DemoX-2024+2024-1+type@sequential+block@basic_questions``
+  example, ``block-v1:OpenedX+DemoX+Demo_Course+type@sequential+block@basic_questions``
 
 * ``i4x:;_;_{org};_{course};_{type};_{display name}``, for example,
   ``i4x:;_;_OpenedX;_DemoX;_sequential;_basic_questions``
@@ -75,7 +75,7 @@ units, and components.
    :widths: 45 45
    :header-rows: 1
 
-   * - Open EdX Studio
+   * - Studio
      - Page Source
    * - subsection
      - sequential
@@ -122,11 +122,11 @@ To find the usage ID for a unit or component in the LMS, follow these steps.
 
 #. To find the usage ID for a component, find the **location**.
 
-   For example, ``location = block-v1:demo+demox+01+type@html+block@054cef851ecc415e969cd82c06a3307b``
+   For example, ``location = block-v1:OpenedX+DemoX+Demo_Course+type@html+block@054cef851ecc415e969cd82c06a3307b``
 
 #. To find the usage ID for a unit, scroll down to find the **parent**.
 
-   For example, ``parent  demo+demox+01+type@vertical+block@7be7c1ea72f94d08b8bca998aa81f898``
+   For example, ``parent  block-v1:OpenedX+DemoX+Demo_Course+type@vertical+block@7be7c1ea72f94d08b8bca998aa81f898``
 
 The usage ID value begins with ``block-v1`` for newer courses or ``i4x://`` for
 older courses. If you are using a spreadsheet to organize your location
@@ -159,7 +159,7 @@ To find the usage ID for a subsection, unit, or component, follow these steps.
 
 #. Use your browser's Find feature to locate the term ``data-usage-id``. This
    attribute contains the usage ID.
-   ..This step needs review because is not working in the last versions of Open edX.
+   ..note:: This step needs review because is not working in the last versions of the Open edX platform.
 
 #. Review the value for the usage id to determine the part of the course it
    identifies: the sequential (subsection), a unit (vertical) or a specific
@@ -174,7 +174,7 @@ To find the usage ID for a subsection, unit, or component, follow these steps.
 For example, you want to link to a subsection in the Open edX Demo course. You open
 the course, go to the problem, and then right click to view the page source.
 When you search for ``data-usage-id``, the first match is
-``block-v1:OpenedX+Demo+Demo_Course+type@sequential+block@basic_questions``. You
+``block-v1:OpenedX+DemoX+Demo_Course+type@sequential+block@basic_questions``. You
 verify that this usage ID value is for the subsection by checking for the
 presence of ``sequential``.
 
