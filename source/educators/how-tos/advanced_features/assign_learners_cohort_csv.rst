@@ -8,7 +8,7 @@ Assign Learners to Cohorts by Uploading a .csv File
 Uploading a .csv file containing a list of learners and the cohorts that you
 want to assign them to is another way of assigning learners to cohorts
 manually. For details about the other manual assignment method, see
-:ref:`Assign Learners to Cohorts Manually`.¿
+:ref:`Assign Learners to Cohorts Manually`.
 
 Any assignments to cohorts that you specify in the .csv files you upload will
 overwrite or change existing cohort assignments. The configuration of your

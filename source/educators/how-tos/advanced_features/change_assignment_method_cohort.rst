@@ -15,8 +15,8 @@ Learners to Cohorts` and :ref:`Altering Cohort Configuration`.
 .. note:: When your course starts, you must have at least one cohort in your
    course that has automatic assignment. If you have not created at least one
    automated assignment cohort in the course by the time that the first learner
-   accesses your course content, Open edX creates a default cohort to which learners
-   are automatically assigned. If the :ref:`default group<Default Cohort
+   accesses your course content, a default cohort to which learners
+   are automatically assigned will be created in your course. If the :ref:`default group<Default Cohort
    Group>` is the only automated assignment cohort in your course, you cannot
    change its assignment method to **Manual**.
 

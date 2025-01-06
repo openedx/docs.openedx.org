@@ -8,13 +8,13 @@ Change Learner Cohort Assignments
 After your course starts and learners begin to contribute to the course
 discussion, each post that they add is visible either to everyone or to the
 members of a single cohort. When you change the cohort that a learner is
-assigned to, there are three results.
+assigned to, the following occur:
 
 * The learner continues to see the posts that are visible to everyone.
 
-* The learner sees the posts that are visible to his new cohort.
+* The learner now sees the posts that are visible to their new cohort.
 
-* The learner no longer sees the posts that are visible only to his original
+* The learner no longer sees the posts that are visible only to their original
   cohort.
 
 The visibility of a post and its responses and comments does not change, even
