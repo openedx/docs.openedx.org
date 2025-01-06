@@ -255,7 +255,7 @@ Specify the Response Type
 =========================
 
 Learners can submit written responses, files, or both in their responses to the
-assignent. If you want learners to upload files, make sure the text of your
+assignment. If you want learners to upload files, make sure the text of your
 prompt includes adequate instructions for learners to upload the required
 files, including the file types that learners can upload.
 
