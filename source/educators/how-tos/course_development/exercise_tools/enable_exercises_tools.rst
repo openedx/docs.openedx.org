@@ -1,7 +1,7 @@
 .. _Enable Additional Exercises and Tools:
 
-Enabling Additional Exercises and Tools
-#######################################
+Enable Additional Exercises and Tools
+#####################################
 
 .. tags:: educator, how-to
 

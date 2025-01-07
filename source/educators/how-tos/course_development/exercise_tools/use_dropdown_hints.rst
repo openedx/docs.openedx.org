@@ -1,7 +1,7 @@
 .. _Use Hints in a Dropdown Problem:
 
-Adding Hints
-############
+Use Hints in a Dropdown Problem
+###############################
 
 .. tags:: educator, how-to
 

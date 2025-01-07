@@ -1,7 +1,7 @@
 .. _Circuit Schematic Builder:
 
-Circuit Schematic Builder Problem
-#################################
+Add a Circuit Schematic Builder Problem
+#######################################
 
 .. tags:: educator, how-to
 

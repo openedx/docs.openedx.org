@@ -1,7 +1,7 @@
 .. _Creating a Drag and Drop Problem:
 
-Creating a Drag and Drop Problem
-################################
+Create a Drag and Drop Problem
+##############################
 
 .. tags:: educator, how-to
 

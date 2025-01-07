@@ -1,7 +1,7 @@
 .. _Chemical Equation:
 
-Chemical Equation Problem
-#########################
+Add a Chemical Equation Problem
+###############################
 
 .. tags:: educator, how-to
 

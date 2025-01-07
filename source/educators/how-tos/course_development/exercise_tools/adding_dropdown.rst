@@ -1,7 +1,7 @@
 .. _Adding Dropdown:
 
-Adding a Dropdown Problem
-#########################
+Add a Dropdown Problem
+######################
 
 .. tags:: educator, how-to
 
