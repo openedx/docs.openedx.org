@@ -37,9 +37,6 @@ tool, follow these steps.
 
 #. Select **Apply** to save your configuration changes.
 
- For more information about the ways learners can use notes, see
- `SFD Notes`_.
-
 .. seealso::
  :class: dropdown
 
