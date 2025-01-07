@@ -12,3 +12,22 @@ Export a CSV file that reports on which tags have been added to which parts of t
       :alt: Image showing clicking Export Tags from the Tools dropdown.
 
 #. A CSV file will download to your local machine. It may take a few minutes.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Build a taxonomy using a template` (how-to)
+
+ :ref: `Import and export a taxonomy` (how-to)
+
+ :ref: `Update/Re-import a taxonomy` (how-to)
+
+ :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ 
+ :ref: `Manage Permissions on a Taxonomy` (how-to)
+
+ :ref: `Add and delete tags on courses` (how-to)
+
+ :ref: `Create a flat taxonomy by uploading a CSV` (how-to) 
+
+ :ref: `Add and delete tags on course content` (how-to)

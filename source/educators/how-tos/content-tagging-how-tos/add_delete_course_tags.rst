@@ -79,3 +79,25 @@ Deleting Tags from the Course Outline Page
       :alt: Screenshot of x button next to tag.
 
 #. Click “save” and close the tag drawer. You will see the tag count updated in the Manage Course Tags field.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Build a taxonomy using a template` (how-to)
+
+ :ref: `Create a flat taxonomy by uploading a CSV` (how-to) 
+
+ :ref: `Import and export a taxonomy` (how-to)
+
+ :ref: `Update/Re-import a taxonomy` (how-to)
+
+ :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ 
+ :ref: `Manage Permissions on a Taxonomy` (how-to)
+
+ :ref: `Add and delete tags on courses` (how-to)
+
+ :ref: `Export tag data from a course` (how-to)
+
+ 
