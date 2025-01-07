@@ -84,7 +84,20 @@ Deleting Tags from the Course Outline Page
 .. seealso::
  :class: dropdown
 
- :ref: `Add and delete tags on course content` (how-to)
+ :ref: `Build a taxonomy using a template` (how-to)
 
- :ref:`Add and Delete tags in Library content` (how-to)
+ :ref: `Create a flat taxonomy by uploading a CSV` (how-to) 
+
+ :ref: `Import and export a taxonomy` (how-to)
+
+ :ref: `Update/Re-import a taxonomy` (how-to)
+
+ :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ 
+ :ref: `Manage Permissions on a Taxonomy` (how-to)
+
+ :ref: `Add and delete tags on courses` (how-to)
+
+ :ref: `Export tag data from a course` (how-to)
+
  
