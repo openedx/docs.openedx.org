@@ -1,8 +1,7 @@
 .. _Awarding Partial Credit in a Numerical Input Problem:
 
-=========================================
 Awarding Partial
-=========================================
+################
 
 .. tags:: educator, how-to
 
@@ -29,9 +28,8 @@ problem.
 .. note:: You can use these methods of awarding partial credit individually or
  in combination.
 
---------------------------
 Identifying Close Answers
---------------------------
+*************************
 
 You can configure a numerical input problem so that answers that are close to
 the correct answer receive partial credit.
@@ -56,9 +54,8 @@ apply.
 
 * An answer more than 3x outside of the tolerance receives 0%.
 
-^^^^^^^^^^^^^^^^^^^^^^^^
 Configure Close Answers
-^^^^^^^^^^^^^^^^^^^^^^^^
+=======================
 
 To configure a numerical input problem to award partial credit for close
 answers, you add the following attributes to the problem XML.
@@ -87,9 +84,8 @@ credit for close answers.
     </numericalresponse>
   </problem>
 
-----------------------------------------------------
 Awarding Partial Credit for Answers in a List
-----------------------------------------------------
+*********************************************
 
 For some numerical input problems, mistakes do not help a learner arrive at the
 correct answer. For example, a small mistake can lead to negative instead of
@@ -100,9 +96,8 @@ For these types of problems, you can configure a list of wrong answers that
 receive partial credit. Learners who submit answers that are on the list
 receive 50% of the problem's points.
 
-^^^^^^^^^^^^^^^^^^
 Configure a List
-^^^^^^^^^^^^^^^^^^
+================
 
 To configure a numerical input problem to award partial credit for answers in a
 list, you add the following attributes to the problem XML.
@@ -131,64 +126,17 @@ updated to provide partial credit for a different answer.
     </numericalresponse>
   </problem>
 
-=============================================
-Adding Text after the Numeric Response Field
-=============================================
-
-You might want to include a word, phrase, or sentence after the response field
-in a numerical input problem to help guide your students or resolve ambiguity.
-
-.. image:: /_images/educator_how_tos/NI_trailing_text.png
- :width: 500
- :alt: Three numerical input problems with text after the response field:
-     "km", a percent sign, and a symbol for meters per second squared.
-
-To do this, you use the advanced editor.
-
-In the problem, locate the ``formulaequationinput`` element. This element
-creates the response field for the problem and is a child of the
-``numericalresponse`` element.
-
-To add text after the response field, add the ``trailing_text`` attribute
-together with the symbol or text that you want to use inside the
-``formulaequationinput`` element. An example problem follows with three
-questions that use this attribute.
-
-.. note:: You can use MathJax inside the ``trailing_text`` attribute, as the
- third question in this example shows. You cannot use HTML inside this
- attribute.
-
-.. code-block:: xml
-
-  <problem>
-    <numericalresponse answer="12.87">
-      <label>How far is 8 miles in kilometers?</label>
-      <formulaequationinput trailing_text="km" />
-    </numericalresponse>
-
-    <numericalresponse answer="91">
-      <label>According to the Pew Research Center's Internet and American Life
-       Project, what percentage of the world's population had a cellular phone
-       as of May 2013?</label>
-      <formulaequationinput trailing_text="%" />
-    </numericalresponse>
-
-    <numericalresponse answer="9.81">
-      <label>What is the strength of Earth's gravity, to two decimal places?</label>
-      <formulaequationinput trailing_text="\(m/s^{2}\)" />
-    </numericalresponse>
-  </problem>
-
-
 .. seealso::
  :class: dropdown
 
  :ref:`Numerical Input` (reference)
 
- :ref:`Adding Numerical Input Problem` (how to)
+ :ref:`Adding Numerical Input Problem` (how-to)
+
+ :ref:`Adding Text After the Numeric Response Field` (how-to)
 
  :ref:`Use Feedback in a Numerical Input Problems` (how-to)
 
- :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
+ :ref:`Editing Numerical Input Problems using the Advanced Editor` (how-to)
 
  :ref:`Numerical Input Problem XML` (reference)

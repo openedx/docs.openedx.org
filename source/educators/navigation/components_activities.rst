@@ -232,6 +232,7 @@ Numerical Input Problem
    ../references/course_development/exercise_tools/numerical_input_xml.rst
    ../how-tos/course_development/exercise_tools/edit_numerical_input_advanced.rst
    ../how-tos/course_development/exercise_tools/award_partial_credit_numerical_input.rst
+   ../how-tos/course_development/exercise_tools/adding_text_in_numeric_response_field.rst
    ../how-tos/course_development/exercise_tools/create_problem_in_latex.rst
    ../how-tos/course_development/text_components/work_with_latex.rst
 
