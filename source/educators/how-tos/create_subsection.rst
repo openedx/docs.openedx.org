@@ -1,10 +1,33 @@
+.. _Create a Subsection: 
+
+###################
 Create a Subsection
-####################
+###################
 
 .. tags:: educator, how-to
 
-.. include:: reusable_content/create_subsection.txt
 
+#. In the course outline, within the section that you want to create the subsection, click :guilabel:`New Subsection`.
+
+   A new subsection is created at the end of the section, with the subsection name selected.
+
+#. Enter the name for the new subsection.
+
+#. If the subsection should release a a later time than the containing section, set the release date.
+
+   #. Select the Configure icon in the subsection box.
+
+      The Settings dialog box opens.
+
+   #. Enter the release date and time for the subsection in the Basics tab.
+
+#. If the subsection is to be graded, in the Settings dialog box, set release a a later time than the containing section, set type of assignment and the due date in the Basics tab.
+
+#. Click the :guilabel:`Visibility` tab to change the subsection visibility and assessment results visibility.
+
+#. Click :guilabel:`Save`.
+
+You can then create units within the subsection.
 
 .. seealso::
  :class: dropdown
@@ -44,3 +67,4 @@ Create a Subsection
  :ref: `Resources for Open edX Course Teams` (reference)
 
  :ref: `Resources for Open edX` (reference)
+
