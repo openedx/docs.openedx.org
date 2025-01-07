@@ -1,8 +1,7 @@
 .. _Editing Numerical Input Problems using the Advanced Editor:
 
-**************************************************************
 Editing Numerical Input Problems using the Advanced Editor
-**************************************************************
+##########################################################
 
 .. tags:: educator, how-to
 
@@ -37,9 +36,8 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
-===================
 Adding Feedback
-===================
+***************
 
 In the advanced editor, you configure feedback with the following syntax.
 
@@ -68,18 +66,15 @@ For example, the following problem has feedback for each answer.
 
 If you define multiple correct responses, you can define feedback for each response.
 
-
-===================
 Adding Hints
-===================
+************
 
 See :ref:`Adding Hints via the Advanced Editor` for more information about adding hints to problems.
 
 .. _Multiple Responses in Numerical Input Problems:
 
-=========================================
 Adding Multiple Correct Responses
-=========================================
+*********************************
 
 You can specify more than one specific, correct response for numerical input problems.
 To do this, use the advanced editor.
@@ -104,9 +99,8 @@ To specify an additional correct response in the advanced editor, within the
     </numericalresponse>
   </problem>
 
-=========================================
 Adding a Tolerance
-=========================================
+******************
 
 You can specify a margin of error or tolerance for learner responses. You can
 specify a percentage, number, or range.
@@ -139,9 +133,8 @@ The following example shows a problem with a percentage tolerance.
     </numericalresponse>
   </problem>
 
-=========================================
 Specifying an Answer Range
-=========================================
+**************************
 
 You can specify an answer range so that any learner response within that
 range is marked correct. To format an answer range, you provide the starting
@@ -169,10 +162,10 @@ attribute: ``<numericalresponse answer="[5,8)">`` or
 
  :ref:`Numerical Input` (reference)
 
- :ref:`Adding Numerical Input Problem` (how to)
+ :ref:`Adding Numerical Input Problem` (how-to)
 
- :ref:`Use Feedback in a Numerical Input Problems` (how to)
+ :ref:`Use Feedback in a Numerical Input Problems` (how-to)
 
  :ref:`Numerical Input Problem XML` (reference)
 
- :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+ :ref:`Awarding Partial Credit in a Numerical Input Problem` (how-to)
