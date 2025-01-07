@@ -1,8 +1,7 @@
 .. _Notes Tool:
 
-##############################
 Notes Tool
-##############################
+##########
 
 .. tags:: educator, how-to
 
@@ -40,3 +39,14 @@ tool, follow these steps.
 
  For more information about the ways learners can use notes, see
  `SFD Notes`_.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`RecommenderXBlock` (how-to)
+
+ :ref:`Annotation` (how-to)
+
+ :ref:`Calculator` (how-to)
+
+ :ref:`Enable Completion` (how-to)
