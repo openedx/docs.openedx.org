@@ -51,4 +51,17 @@ taxonomy. Here's how to do that:
 
  :ref: `Build a taxonomy using a template` (how-to)
 
- :ref:`Content Tagging Release Notes (Redwood)` (concept)
+ :ref: `Import and export a taxonomy` (how-to)
+
+ :ref: `Update/Re-import a taxonomy` (how-to)
+
+ :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ 
+ :ref: `Manage Permissions on a Taxonomy` (how-to)
+
+ :ref: `Add and delete tags on courses` (how-to)
+
+ :ref: `Export tag data from a course` (how-to)
+
+ :ref: `Add and delete tags on course content` (how-to)
+
