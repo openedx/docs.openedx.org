@@ -229,3 +229,18 @@ License
           The license options that you select control the copyright notice that
           learners see for the video. For more information, see :ref:`Licensing
           a Course`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Video Process Overview` (how-to)
+
+  :ref:`Introduction to Video` (reference)
+
+  :ref:`Add a Video` (how-to)
+
+  :ref:`Troubleshoot Videos` (reference)
+
+  :ref:`Create a Video` (how-to)
+
+  :ref:`Add an In Video Quiz` (how-to)

@@ -1,8 +1,7 @@
 .. _StaffGraded Grading:
 
-================
 Grading Learners
-================
+#################
 
 .. tags:: educator, concept
 

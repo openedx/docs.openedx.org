@@ -75,29 +75,6 @@ mode, keep the following points in mind.
 For information about unit publishing statuses, see :ref:`Unit Publishing
 Status`.
 
-========================================
-View Published and Released Content
-========================================
-
-To view published and released content as it would appear to members of
-different groups, follow these steps.
-
-#. From the Studio **Course Outline** page, select **View Live**.
-   Alternatively, from a unit page, select **View Live Version**.
-
-   A separate browser tab opens for the course in the LMS.
-
-#. In the LMS, select one of the **View this course as** options, as described
-   in :ref:`Roles for Viewing Course Content`.
-
-The course view refreshes to present published course content as a learner in
-the selected group would see it.
-
-For more information about each view, see :ref:`Staff View`, :ref:`Student
-View`, or :ref:`Specific Student View`. For more information about viewing
-cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`.
-
-
 .. _Preview Unpublished Content:
 
 ************************
@@ -122,27 +99,12 @@ When you use **Staff** view in preview mode, you also see any content that is
 :ref:`Visible to Staff Only`.
 
 
-=============================
-Preview Draft Content
-=============================
+.. seealso::
+ :class:dropdown
 
-To preview draft content and see how it would appear to members of different
-groups when it is released, follow these steps.
+ :ref:`Roles for Viewing Course Content` (reference)
 
-#. From a unit page in the **Course Outline** in Studio, select **Preview**.
+ :ref:`How to View Published and Released Content` (how-to)
 
-   A separate browser tab opens for the course in the LMS.
-
-#. In the LMS, select one of the **View this course as** options, as described
-   in :ref:`Roles for Viewing Course Content`.
-
-The course view refreshes to present course content as it is currently
-configured in Studio, and as a learner in the selected group would see it.
-
-.. note:: If you use randomized content blocks in your course, you cannot
-   preview unpublished units that contain content from randomized content
-   blocks, because the randomized content is not assigned until after the unit
-   is published. For information about viewing the actual content that has
-   been assigned to a particular learner from a randomized content block in a
-   live course, see :ref:`Specific Student View`.
+ :ref:`Preview Draft Content` (how-to)
 

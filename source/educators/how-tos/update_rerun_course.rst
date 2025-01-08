@@ -1,8 +1,8 @@
 .. _Update the New Course:
 
-#######################################
+####################################
 Update the New Course after a Re-Run
-#######################################
+####################################
 
 .. tags:: educator, how-to
 
@@ -85,15 +85,15 @@ who enroll in the new course run.
   For example, you could revise a description of the problem **Check** button,
   which was accurate before October 2016, to reflect its new label, **Submit**.
 
-  .. only:: Partners
-
-    Another example of a user interface change is for courses on the edx.org
-    website. A new **Help** option was added to the LMS in September 2016 to
-    provide access to the *EdX Learner's Guide*. When this option was added,
-    the previous **Help** option was renamed **Support**.
-
 For more information about tools and ideas that can help you prepare a course
 for launch, see :ref:`Launch`.
 
 .. note::
   Changes you make in the new course have no effect on the original course.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Re-running a Course` (reference)
+
+ :ref: `Re-Run a Course` (how-to)

@@ -13,7 +13,7 @@ This section provides an introduction to using cohorts to divide the learners in
 
 For more information about setting up and managing cohorts, see the following topics.
 
-* :ref:`Enabling and Configuring Cohorts`
+* :ref:`Enable Cohorts`
 
 * :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in Cohorted Courses>`
 
@@ -27,7 +27,7 @@ For information about offering different content to different cohorts of learner
 Overview
 *********
 
-To create smaller communities in your course, or to design different course experiences for different groups of learners, you can :ref:`set up cohorts<Enabling and Configuring Cohorts>` in your course.
+To create smaller communities in your course, or to design different course experiences for different groups of learners, you can :ref:`set up cohorts<Enable Cohorts>` in your course.
 
 To use cohorts in your course, you define a set of cohorts that are either random or that reflect some characteristic of the communities of learners in your course. Then, you decide on a strategy for :ref:`assigning learners to these cohorts<Options for Assigning Learners to Cohorts>`.
 

@@ -8,10 +8,11 @@ Understanding the Progress Page
 
 .. _course_completion:
 
+*****************
 Course Completion
 *****************
 
-This chart represents how much of the course content learner’s have completed.
+This chart represents how much of the course content learners have completed.
 All units that can be completed are accounted for in this chart, including readings, videos,
 graded assignments, practice assignments, and assignments with future scheduled release dates.
 
@@ -28,8 +29,9 @@ The :ref:`Subsection Visibility Setting<Content Hidden from Students>` in Studio
 
 .. _grades_chart:
 
+*******
 Grades
-*****************
+*******
 
 This feature displays the minimum passing grade in the course against the learner's current grade.
 The :ref:`Assessment Visibility Setting<Problem Results Visibility>` in Studio impacts the grade calculation on the **Progress** page. Different settings
@@ -37,7 +39,7 @@ determine whether a graded assignment is considered when calculating the grade t
 
 * If “Always Show Results” has been selected, the assignment will be factored into this grade.
 
-* If “Never Show Results” has been selected, the assignment will not be factored into this grade. This does not change the learner’s grade within Gradebook. This also does not impact the learner’s eligibility for a certificate.
+* If “Never Show Results” has been selected, the assignment will not be factored into this grade. This does not change the learner’s grade within the Gradebook. This also does not impact the learner’s eligibility for a certificate.
 
 * If “Show When Subsection is Past Due” has been selected, the assignment will only be factored into this grade when the assignment due date has passed.
 
@@ -52,10 +54,11 @@ If your course has additional ranges, they will be displayed here.
 
 .. _grade_summary:
 
+*************
 Grade Summary
 *************
 
-The Grade Summary table breaks down each :ref:`assignment type<Configure the Assignment Types>` available in the course and the learner's performance in each type.
+The Grade Summary table breaks down each :ref:`assignment type<Gradebook Assignment Types>` available in the course and the learner's performance in each type.
 The grades displayed in this section follow the same calculation criteria as the :ref:`Grades<grades_chart>` feature. To recap, an assignment will be factored into
 this grade calculation if its :ref:`Assessment Visibility Setting<Problem Results Visibility>` has been set to "Always Show Results" or "Show When Subsection is Past Due".
 
@@ -64,6 +67,7 @@ this grade calculation if its :ref:`Assessment Visibility Setting<Problem Result
 
 .. _detailed_grades:
 
+***************
 Detailed Grades
 ***************
 
@@ -81,6 +85,7 @@ and the individual problem scores are included in this list. Assignments will no
 
 .. _certificate_status:
 
+******************
 Certificate Status
 ******************
 
@@ -97,7 +102,18 @@ If your course is eligible, this feature will describe which of the following st
 
 * **ID not verified**, where the learner has not completed their ID verification.
 
-* **Can request certificate**, where the learner has earned a certificate, but the certificate has yet to be generated. In this case, the learner can request a certificate.
+* **Can request the certificate**, where the learner has earned a certificate, but the certificate has yet to be generated. In this case, the learner can request a certificate.
 
    .. image:: /_images/educator_references/Progress_CertificateStatus.png
      :alt: Certificate Status feature describing the learner has passed and can view their certificate.
+
+.. seealso::
+ :class: dropdown
+
+  :ref:`Learner Data` (concept)
+
+  :ref:`Interpret the Grade Report` (reference)
+
+  :ref:`Interpret the Problem Grade Report` (reference)
+
+  :ref:`Manage Learner Grades <Grades>` (how-to)     

@@ -1,8 +1,7 @@
 .. _Single Select Overview:
 
-********
 Overview
-********
+#########
 
 .. tags:: educator, concept
 
@@ -16,9 +15,8 @@ reordering, or shuffling, the set of answer choices for each learner. For more
 information about these options, see
 :ref:`Editing Single Select Problems using the Advanced Editor`.
 
-=============================
 Example Single Select Problem
-=============================
+*******************************
 
 In the LMS, learners select a single answer option to complete a single
 select problem. An example of a completed single select problem follows.
@@ -29,11 +27,11 @@ select problem. An example of a completed single select problem follows.
    the answer options.
  :width: 600
 
-======================================================
-Pedagogical Considerations for Single Select Questions
-======================================================
 
-EdX recommends the use, whenever possible, of authentic assessment rather than
+Pedagogical Considerations for Single Select Questions
+*******************************************************
+
+It is recommended the use, whenever possible, of authentic assessment rather than
 single select questions for graded problems. The use of authentic assessment
 in online courses tends to lead to better learning outcomes. In addition,
 authentic assessment allows for infinite attempts, mastery learning, and more

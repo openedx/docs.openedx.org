@@ -87,10 +87,6 @@ course.
  discussion component after the peer instruction component to give learners an
  opportunity to continue the conversation.
 
- For more information about how learners experience peer instruction
- assignments, see 'interactive_multiple_choice' in the
- *Open edX Learner's Guide*.
-
 .. _Enable the Peer Instruction Tool:
 
 ==================================
@@ -105,7 +101,7 @@ the **Advanced Module List** on the **Advanced Settings** page. Be sure to
 include quotation marks around the key value. For more information, see
 :ref:`Enable Additional Exercises and Tools`.
 
-.. note:: This tool was developed and contributed to the edX platform by the
+.. note:: This tool was developed and contributed to the Open edX platform by the
  University of British Columbia.
 
 .. seealso::

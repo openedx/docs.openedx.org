@@ -34,3 +34,10 @@ To specify a prerequisite course, follow these steps.
 
 For more information about prerequisite courses, see :ref:`Prerequisite
 Courses`.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Require an Entrance Exam` (how-to)
+
+  :ref:`Set Up Course Prerequisites` (how-to)

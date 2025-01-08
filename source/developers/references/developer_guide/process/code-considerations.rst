@@ -19,7 +19,7 @@ analytics.
 
 * `Internationalization Coding Guidelines`_
 * `RTL UI Best Practices`_
-* `Accessibility Guidelines`_
+* :ref:`Accessibility Guidelines`
 * `Analytics Guidelines`_
 * `Eventing Design and Review Process`_
 

@@ -1,12 +1,15 @@
 .. _SCORM Overview:
 
+SCORM Overview
+###############
+
 ********
 Overview
 ********
 
 .. tags:: educator, reference
 
-The SCORM `XBlock <https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/overview/introduction.html>`_ provides the ability to display SCORM content within the Open edX LMS and Studio.
+The :ref:`SCORM XBlock` provides the ability to display SCORM content within the Open edX LMS and Studio.
 It can save a learners state and report scores to the progress tab of the course.
 It currently supports SCORM 1.2 and SCORM 2004 standard.
 
@@ -25,7 +28,6 @@ Try to limit the SCORM package to 1 quiz or scored component.
 *********************
 Technical information
 *********************
-
 
 There are 2 events a SCORM package can emit in order to communicate with the Open edX platform.
 
