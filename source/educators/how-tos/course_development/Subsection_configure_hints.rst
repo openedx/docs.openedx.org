@@ -5,7 +5,7 @@ Configure a Hint in a Problem
 
 .. tags:: educator, how-to
 
-#. You will find the Hints panel at the settings panels on the right side of the promblem editor.
+#. You will find the Hints panel at the settings panels on the right side of the problem editor.
 
 #. There, click the **Add hint** button to add a new hint text field. 
 
