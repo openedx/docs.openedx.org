@@ -74,3 +74,11 @@ Enable Highlight Emails
    You cannot disable highlight emails after you enable them. If you do
    not want to send highlight emails after you enable them, you can
    delete highlights in all sections.
+
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Juniper release notes: Educator Experiences` (reference)
+

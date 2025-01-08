@@ -1,14 +1,13 @@
 .. _Chemical Equation Problem XML:
 
-************************************
 Chemical Equation Problem XML
-************************************
+#############################
 
 .. tags:: educator, reference
 
-============
+
 Template
-============
+********
 
 .. code-block:: xml
 
@@ -38,9 +37,9 @@ Template
    </solution>
   </problem>
 
-======
+
 Tags
-======
+****
 
 * ``<customresponse>``: Indicates that this problem has a custom response.
 * ``<chemicalequationinput>``: Specifies that the answer to this problem is a

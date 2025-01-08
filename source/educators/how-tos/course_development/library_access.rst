@@ -1,10 +1,20 @@
 .. _Give Other Users Access to Your Library:
 
-***************************************
-Give Other Users Access to Your Library
-***************************************
+##############################################
+Give Other Users Access to Your Legacy Library
+##############################################
 
+>>>>>>> Stashed changes
 .. tags:: educator, how-to
+
+.. warning::
+
+   The Legacy Libraries feature will be supported through Teak, moving to
+   unsupported in Ulmo. Teak will include a one-click migration feature that
+   will make it easy to convert a Legacy Library into the new Library interface.
+
+   See :doc:`/community/release_notes/sumac/content_libraries_redesign_beta` for
+   more information.
 
 When you create a library, you are automatically assigned an Admin role in that
 library.
@@ -32,10 +42,11 @@ These are the levels of access for libraries.
    give them the **Staff** level of access. You can give the **Admin** level of
    access only to people who already have the **Staff** level of access.
 
-=========================
+*************************
 Add a User to the Library
-=========================
+*************************
 
+>>>>>>> Stashed changes
 To grant a user initial **User** access to a library, follow these steps.
 
 .. note:: Only library users with the **Admin** level of access can add users
@@ -55,10 +66,11 @@ To grant a user initial **User** access to a library, follow these steps.
    The new user is added to the list of library members with the **User** level
    of access.
 
-==============================
+******************************
 Remove a User from the Library
-==============================
+******************************
 
+>>>>>>> Stashed changes
 You can remove users from the library at any time, regardless of the level of
 access that they have.
 
@@ -78,10 +90,11 @@ To remove a user from the library, follow these steps.
 
   The user is removed from the library.
 
-=========================
+*************************
 Add Staff or Admin Access
-=========================
+*************************
 
+>>>>>>> Stashed changes
 The levels of access for libraries are hierarchical. You can add new library
 members only with the **User** level of access, after which you can give them
 the **Staff** level of access. You can give the **Admin** level of access only
@@ -105,12 +118,11 @@ steps.
   of access and move them back to their previous level of access. For details
   about reducing a user's level of access to a library, see :ref:`Remove Staff
   or Admin Access`.
+  
 
-.. _Remove Staff or Admin Access:
-
-============================
+****************************
 Remove Staff or Admin Access
-============================
+****************************
 
 After you have granted users **Staff** or **Admin** access, you (or other
 **Admin** library users) can reduce their levels of access.
@@ -133,10 +145,12 @@ steps.
 .. note:: There must always be at least one Admin for a library. If there is
    only one user with the Admin role, you cannot remove him or her from the
    Admin role unless you first assign another user to the Admin role.
-
+   
 
 .. seealso::
  :class: dropdown
+
+ :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
 
  :ref:`Content Libraries Overview` (concept)
 

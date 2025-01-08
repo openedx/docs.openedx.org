@@ -1,3 +1,5 @@
+.. _Content Tagging Release Notes (Redwood):
+
 Content Tagging Release Notes (Redwood)
 #######################################
 
@@ -191,9 +193,8 @@ the Taxonomy Dashboard.
 The platform supports both flat and hierarchical taxonomies. Flat taxonomies are
 the simplest types of taxonomies, consisting of simple lists of tags. For
 example, a Taxonomy for tagging the "difficulty" of problems might contain tags
-like these:
+like these::
 
-.. code block:: text
 
     Taxonomy: Problem Difficulty
 
@@ -204,9 +205,8 @@ like these:
 Hierarchical taxonomies are more complex, consisting of one or more levels of
 hierarchical, or nested, tags. These tags are often called Parent Tags, Children
 Tags, Grandchildren Tags, etc. For example, a hierarchical taxonomy of locations
-might contain tags like these:
+might contain tags like these::
 
-.. code block:: text
 
     Taxonomy: Cities
        United States

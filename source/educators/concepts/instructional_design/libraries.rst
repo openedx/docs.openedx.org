@@ -1,10 +1,19 @@
 .. _Content Libraries Overview:
 
-**************************
-Content Libraries Overview
-**************************
+#####################################
+Legacy Content Libraries v1 Overview
+#####################################
 
 .. tags:: educator, concept
+
+.. warning::
+
+   The Legacy Libraries feature will be supported through Teak, moving to
+   unsupported in Ulmo. Teak will include a one-click migration feature that
+   will make it easy to convert a Legacy Library into the new Library interface.
+
+   See :doc:`/community/release_notes/sumac/content_libraries_redesign_beta` for
+   more information.
 
 In Studio, you can create a library to build a pool of components for use in
 randomized assignments in your courses. You can add Text components, problems,
@@ -32,6 +41,8 @@ tab on the Studio Home page.
 
 .. seealso::
  :class: dropdown
+
+ :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
 
  :ref:`Create a New Library` (how to)
 

@@ -29,10 +29,7 @@ The Open edX® Problem Component
    ../how-tos/course_development/exercise_tools/add_hints_advanced_editor.rst
    ../references/course_development/modifying_released_problem.rst
    ../references/course_development/Section_learner_problem_view.rst
-   
-   
-   
-   
+   ../how-tos/course_development/exercise_tools/add_unsupported_problem_types.rst
 
 Chemical Equation Problem
 *******************************************************
@@ -92,6 +89,11 @@ Custom Python-evaluated Input Problem (Write-Your-Own-Grader)
    :glob:   
 
    ../references/course_development/exercise_tools/custom_python.rst
+   ../references/course_development/exercise_tools/script_tag_format.rst
+   ../how-tos/course_development/exercise_tools/create_custom_python_problem.rst
+   ../how-tos/course_development/exercise_tools/create_custom_python_problem_script_tag.rst
+   ../how-tos/course_development/exercise_tools/randomized_custom_python_problem.rst
+   ../how-tos/course_development/exercise_tools/award_partial_credit.rst
 
 Drag and Drop Problem
 *******************************************************
@@ -106,7 +108,6 @@ Drag and Drop Problem
    ../how-tos/course_development/exercise_tools/adding_dropdown.rst
    ../how-tos/course_development/exercise_tools/use_dropdown_feedback.rst
    ../how-tos/course_development/exercise_tools/use_dropdown_hints.rst
-   ../how-tos/drag_and_drop_deprecated.rst
 
 .. _Dropdown Problem:
 
@@ -213,7 +214,6 @@ Multi-Select Problem
    ../how-tos/course_development/exercise_tools/adding_multi_select.rst
    ../how-tos/course_development/exercise_tools/add_multi_select_partial_credit.rst
    ../references/course_development/exercise_tools/multi_select_xml.rst
-   ../references/course_development/exercise_tools/checkbox.rst
 
 
 Numerical Input Problem

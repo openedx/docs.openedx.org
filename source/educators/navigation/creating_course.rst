@@ -75,9 +75,13 @@ Create a New Course
    ../how-tos/course_development/create_edit_publish_subsections.rst
    ../how-tos/course_development/hide_subsections.rst
    ../how-tos/course_development/create_hide_delete_sections.rst
+   ../how-tos/course_development/exercise_tools/adding_text.rst
+   ../how-tos/publish_units.rst
    ../how-tos/create_subsection.rst
+   ../how-tos/view_as_learner.rst
    ../how-tos/set_up_course/add_metadata.rst
    ../how-tos/use_section_independently_of_course_outline.rst
+   ../how-tos/add_multiple_choice.rst
    ../references/resources_for_course_teams.rst
    ../references/resources_for_open_edx.rst
 
@@ -158,7 +162,7 @@ Beta Test a Course
 
 .. _Launch a Course:
 
-Launch a Course
+Launch a Course-
 *******************************************************
 
 .. toctree::

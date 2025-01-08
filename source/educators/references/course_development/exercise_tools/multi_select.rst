@@ -28,18 +28,16 @@ of the options that are correct answers, and none of the options that are
 incorrect. The course team must set up each multi-select problem to have at least
 one correct answer.
 
-As a best practice, be sure that all of the answer choices are unambiguous, and
-avoid trick questions. Multi-select problems with ambiguity can be frustrating to
+As a best practice, ensure all answer choices are unambiguous and
+avoid trick questions. Multi-select problems with ambiguity can frustrate
 learners, especially if the problems have a limited number of attempts.
 
-=============================
-Example Multi-select Problem
-=============================
 
-In the LMS, learners complete a multi-select problem by selecting the answer
-options that they believe are correct as well as leaving unselected the answer
-options that they believe are incorrect. An example of a completed multi-select
-problem follows.
+Example Multi-select Problem
+****************************
+
+In the LMS, learners complete a multi-select problem by selecting the correct answers and leaving the incorrect ones unselected. An example of a completed multi-select
+problem follows, selecting the correct answers and leaving the incorrect ones unselected.
 
 .. image:: /_images/educator_references/CheckboxExample.png
  :alt: An example multi-select problem in the LMS. This problem was incorrectly

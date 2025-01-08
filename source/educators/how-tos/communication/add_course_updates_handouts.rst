@@ -1,8 +1,8 @@
 .. _Add a Course Update:
 
-*******************
+###################
 Add a Course Update
-*******************
+###################
 
 .. tags:: educator, how-to
 
@@ -44,13 +44,13 @@ To add a course update, follow these steps.
  :alt: If you select “+ New update”, you see an editor that has many options
   for styling in the toolbar.
 
-.. The following step allows installations that use the edX mobile apps to send
+.. The following step allows installations that use the Open edX mobile apps to send
 .. a push notification to the app when an update is added. Alison, DOC-1814,
 .. June 2015
 
 
 #. Optionally, choose whether to send a notification about your update to
-       the edX mobile app.
+       the Open edX mobile app.
 
       * Learners can choose to turn off notifications for individual courses or
         for all courses. The **Course** page continues to show updates.

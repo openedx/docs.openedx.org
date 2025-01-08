@@ -27,8 +27,6 @@ Course numbers have the following guidelines.
 Example Course Numbers
 **********************
 
-* CS002x
-* BIO1.1x and BIO1.2x
 * CS101
 * BI01.1 and BI01.2
 * 6.002.1x and 6.002.2x

@@ -1,8 +1,8 @@
 .. _Survey Tool:
 
-###################
+###########
 Survey Tool
-###################
+###########
 
 .. tags:: educator, how-to
 
@@ -12,9 +12,9 @@ This section describes how to include surveys in your course.
    :local:
    :depth: 2
 
-*********
+********
 Overview
-*********
+********
 
 You can include surveys in your course to collect learner responses to multiple
 questions.
@@ -42,9 +42,9 @@ configured to hide results.
 
 .. _Enable the Survey Tool:
 
-*********************************************
+**********************
 Enable the Survey Tool
-*********************************************
+**********************
 
 Before you can add a survey to your course, you must enable the survey tool in
 Studio or OLX (open learning XML).
@@ -57,9 +57,9 @@ include the quotation marks around the key value.) For more information, see
 Alternatively, you can use OLX to enable the survey tool. See :ref:`Enable Survey OLX`.
 
 
-***************************
-Add a Survey in edX Studio
-***************************
+*******************************
+Add a Survey in Open edX Studio
+*******************************
 
 You must :ref:`enable the survey tool <Enable the Survey Tool>` before you add
 the component.
@@ -134,9 +134,9 @@ the component.
 #. Select **Save**.
 
 
-***************************
+*************************
 Editing Published Surveys
-***************************
+*************************
 
 Do not publish a survey until you have completed and tested it. You should
 avoid changing a survey after learners have begun using it.
@@ -153,9 +153,9 @@ account the following implications.
   next view the unit. Learners with invalid submissions are permitted to submit
   new responses.
 
-***************************
+*******************
 View Survey Results
-***************************
+*******************
 
 When you view the survey as a course staff member, you can view results of the
 survey inside the course.

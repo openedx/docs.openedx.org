@@ -61,3 +61,11 @@ In this code:
   if you want this problem to look like the second gene editor problem in the
   7.00x course, you would set the **genex_problem_number** value to 2. The
   number must be 1, 2, 3, 4, or 5.
+
+.. seealso::
+
+ :class: dropdown
+
+ :ref:`Create Custom Javascript` (how to) 
+
+ :ref:`Core Problem Types` (reference)

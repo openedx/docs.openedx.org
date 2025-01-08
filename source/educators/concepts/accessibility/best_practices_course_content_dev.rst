@@ -87,7 +87,7 @@ readable, and that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
 element or conveying critical information. If you must create images that
 contain text, make sure that the text has good contrast with the background. Images of text cannot be scaled or
-color corrected as effectively as HTML text. If you choose to override platform's default font colors, make sure that the
+color corrected as effectively as HTML text. If you choose to override the platform's default font colors, make sure that the
 foreground and background colors have `sufficient contrast
 <https://contrast-ratio.com/>`_.
 

@@ -1,15 +1,15 @@
-*********************************
+#################################
 Updating Course-Specific Settings
-*********************************
+#################################
 
 .. tags:: educator, how-to
 
 From the dashboard, access the courses that you are enrolled in and change
 course-specific settings. You can also unenroll from a course from the dashboard.
 
-=================================
+********************************
 Change a Course Email Preference
-=================================
+********************************
 
 To subscribe or unsubscribe to emails from a course, follow these steps.
 
@@ -31,3 +31,20 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
    .. note:: If you clear this check box, you will not receive any of the
         email messages that course teams send to communicate with enrolled
         learners in the course.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `What is the Course Dashboard?` (concept)
+
+ :ref: `Sharing Your Courses on Social Media` (how-to)
+ 
+ :ref: `What is the User Profile Page?` (concept)
+ 
+ :ref: `Add or Update a Limited Profile` (how-to)
+ 
+ :ref: `Add or Update a Full Profile` (how-to)
+ 
+ :ref: `Add Links to Your Personal Social Media Accounts` (how-to)
+
+ :ref: `View Another Learner's Profile` (how-to)

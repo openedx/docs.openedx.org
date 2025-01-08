@@ -1,8 +1,8 @@
 .. _Adding MathJax: 
 
-*************************************
+#################################
 Adding MathJax to Text Components
-*************************************
+#################################
 
 .. tags:: educator, how-to
 
@@ -14,9 +14,9 @@ HTML view.
    Text component editor visual view and HTML view are shown at the top, with
    the rendered text and equation on the Studio unit page and in the LMS below.
 
-*****************************************
+************************************
 Adding MathJax to Problem Components
-*****************************************
+************************************
 
 In the problem component editor, you can use MathJax in either the simple
 editor or advanced editor.
