@@ -33,9 +33,14 @@ Courses that allow learners to work at their own pace, as long as they are finis
 
 
 .. seealso::
+ :class: dropdown
 
- Beta Test a Course (task)
+ :ref: `Course Pacing` (reference)
 
- Section and Subsection Release Dates (references)
+ :ref: `Beta Testing a Course` (concept)
+
+
+
+
 
 
