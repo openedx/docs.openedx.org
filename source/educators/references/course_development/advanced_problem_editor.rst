@@ -1,14 +1,14 @@
 .. _Advanced Editor:
 
-***************************************************
+
 The Advanced Editor
-***************************************************
+####################
 
 .. tags:: educator, reference
 
 If the simple editor cannot fulfill your needs, you might turn your attention
 to the Advanced Editor. This editor will allow you to directly edit the open
-learning XML (OLX) of your problem. The Advanced Editor can be accessed one of
+learning XML (OLX) of your problem. The Advanced Editor can be accessed in one of
 two ways.
 
 If you are creating a new problem, on the **Select problem type** screen,
@@ -28,7 +28,7 @@ While the other settings are not shown on the collapsible panes to the right of
 the problem editor, they can be added via editing the OLX.
 
 OLX specifications can be found under each problem type in
-:ref:`Exercises and Tools Index`.
+:ref:`Components and Activities TOC`.
 
 .. note::
    If you have turned your problem into an advanced problem, it is possible to
@@ -43,8 +43,7 @@ Advanced Editor Features
 ***************************************************
 
 Since the Advanced Editor allows you to edit the problem directly using the OLX,
-there are many more ways to write a problem. Below are several features the
-Advanced Editor is capable of:
+there are many more ways to write a problem. Below are several features that the Advanced Editor is capable of:
 
 .. contents::
  :local:
@@ -64,7 +63,7 @@ Randomization
    versions to different learners. For more information, see
    :ref:`Problem Randomization`.
 
-This setting can be found on the collapsible settings to the right of the
+This setting can be found in the collapsible settings to the right of the
 problem editor. For problems that include a Python script to generate numbers
 randomly, this setting specifies how frequently the values in the problem
 change: each time a different learner accesses the problem, each time a single
@@ -82,7 +81,7 @@ learner submits an answer to the problem.
    values that change.
  :width: 800
 
-If you want to randomize numeric values in a problem, you complete both of
+If you want to randomize numeric values in a problem, you must complete both of
 these steps.
 
 * Make sure that you edit your problem to include a Python script that randomly
@@ -90,7 +89,7 @@ these steps.
 
 * Select an option other than **Never** for the **Randomization** setting.
 
-The edX Platform has a 20-seed maximum for randomization. This means that
+The Open edX Platform has a 20-seed maximum for randomization. This means that
 learners see up to 20 different problem variants for every problem that has
 **Randomization** set to an option other than **Never**. It also means that
 every answer for the 20 different variants is reported by the Answer
@@ -181,7 +180,7 @@ all of the other required elements for each question.
 * You can provide a different explanation for each question with the
   OLX ``<solution>`` element.
 
-As a best practice, edX recommends that you avoid including unformatted
+As a best practice, avoid including unformatted
 paragraph text between the questions. Screen readers can skip over text that is
 inserted among multiple questions.
 
@@ -227,13 +226,6 @@ numerical input question follows.
     </numericalresponse>
   </problem>
 
-.. seealso::
- :class: dropdown
-
- :ref:`Partial Credit` (reference)
-
- :ref:`Adding Tooltips` (reference)
-
 
 .. _Problem Randomization:
 
@@ -277,3 +269,4 @@ course's XML files is no longer supported.
  :ref:`Partial Credit` (reference)
 
  :ref:`Adding Tooltips` (reference)
+

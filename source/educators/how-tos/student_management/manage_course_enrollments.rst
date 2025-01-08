@@ -1,16 +1,16 @@
 .. _Manage_Course_Enrollments:
 
-##############################
+#########################
 Manage Course Enrollments
-##############################
+#########################
 
 .. tags:: educator, how-to
 
 .. _view_enrollment_count:
 
-=========================
+************************
 View an Enrollment Count
-=========================
+************************
 
 After you create a course, you can access the total number of people who are
 enrolled in it. Note the following information about how this count is
@@ -42,9 +42,9 @@ To view the enrollment count for a course, follow these steps.
    the certification tracks.
 
 
-*********************************
+***************************
 Enroll Learners in a Course
-*********************************
+***************************
 
 To enroll learners or course team members, follow these steps.
 
@@ -135,9 +135,9 @@ To download this report, follow these steps.
 
 .. _unenroll_student:
 
-*********************************
+*******************************
 Unenroll Learners from a Course
-*********************************
+*******************************
 
 You can remove learners from a course by unenrolling them. To prevent learners
 from re-enrolling, course enrollment must also be closed. You use Studio to set

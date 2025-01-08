@@ -41,3 +41,4 @@ Accessibility for Video
 
    ../how-tos/course_development/additional_transcript_options.rst
    ../how-tos/add_transcript_other_language.rst
+   ../how-tos/add_video.rst
