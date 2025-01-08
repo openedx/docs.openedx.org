@@ -5,13 +5,13 @@ Managing Teams Discussions
 
 .. tags:: educator, concept
 
-Open EdX recommends that you designate course staff and optionally student
-teaching assistants (TAs) to moderate team discussions. The same discussion
-administration roles for managing course discussions on the **Discussions**
-page apply to discussion administration for team discussions. Course team
-members and student TAs who already have discussion moderation roles for course
-discussions on the **Discussions** page can perform the same roles for
-discussions in teams.
+The Open EdX community recommends that you designate course staff and
+optionally student teaching assistants (TAs) to moderate team discussions. The
+same discussion administration roles for managing course discussions on the
+**Discussions** page apply to discussion administration for team discussions.
+Course team members and student TAs who already have discussion moderation
+roles for course discussions on the **Discussions** page can perform the same
+roles for discussions in teams.
 
 For information about discussion administration roles, see
 :ref:`Assigning_discussion_roles`. For information about managing discussions,

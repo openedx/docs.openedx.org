@@ -274,8 +274,8 @@ in the course. For each response, they select an option for each criterion in
 your rubric based on the response. Learners can also provide text feedback, or
 comments, on each response.
 
-If you include both peer and self assessment steps, Open edX recommends that
-you place the peer assessment before the self assessment.
+If you include both peer and self assessment steps, the Open edX Community
+recommends that you place the peer assessment before the self assessment.
 
 For information about how peer assessments affect a learner's assignment grade,
 see :ref:`PA Scoring`.
@@ -340,8 +340,8 @@ In self assessment steps, the learner sees her own response followed by the rubr
 As with peer assessments, the learner evaluates the response using the rubric,
 selecting an option for each criterion.
 
-If you include both peer and self assessments, Open edX recommends that you
-include the peer assessment before the self assessment.
+If you include both peer and self assessments, the Open edX Community
+recommends that you include the peer assessment before the self assessment.
 
 .. _Staff Assessment Step:
 
@@ -391,9 +391,9 @@ assessment portions independently.
 In open response assessments that include only self assessments, the
 assignment's final score is equivalent to the self assessment score.
 
-.. note:: Given the high level of subjectivity in peer assessments, Open edX
-   recommends that you make ORA assignments count towards only a small
-   percentage of a course's final grade.
+.. note:: Given the high level of subjectivity in peer assessments, the Open
+   edX Community recommends that you make ORA assignments count towards only a
+   small percentage of a course's final grade.
 
 The following topics detail how the scores for peer assessments and self
 assessments are calculated.
@@ -539,8 +539,8 @@ assignment.
 You can allow the **Top Responses** section to show between 1 and 100
 responses. Keep in mind, however, that each response might be up to 300 pixels
 in height in the list. (For longer responses, learners can scroll to see the
-entire response.) Open edX recommends that you specify 20 or fewer responses to
-prevent the page from becoming too long.
+entire response.) The Open edX Community recommends that you specify 20 or
+fewer responses to prevent the page from becoming too long.
 
 .. note:: It can take up to an hour for a high-scoring response to appear in the
    **Top Responses** list.
@@ -568,8 +568,9 @@ correct or incorrect answers to questions.
 .. note:: Do not add more than one ORA component in a course unit. Multiple ORA
    assignments in a unit cause errors when learners submit their assessments.
 
-Open edX suggests that you follow the guidelines and best practices in the
-following sections when you use open response assessments in your courses.
+The Open edX Community suggests that you follow the guidelines and best
+practices in the following sections when you use open response assessments in
+your courses.
 
 Designing the Assignment
 ========================
@@ -613,8 +614,9 @@ Peer Assessments
 ================
 
 * Set the **Must Grade** number higher than the **Graded By** number to
-  minimize the chance that some responses will not be peer assessed. Open edX
-  recommends a setting such as **Must Grade** = 4 and **Graded By** = 3.
+  minimize the chance that some responses will not be peer assessed. The Open
+  edX Community recommends a setting such as **Must Grade** = 4 and **Graded
+  By** = 3.
 
 * To allow enough time for peer assessments to be performed after learners
   have submitted their own responses, set the response due date and time at
@@ -678,12 +680,11 @@ For more information, see :ref:`PA Allow Images`.
 Prohibited File Extensions
 ==========================
 
-Learners cannot upload file types that have the following file name extensions
-as part of an open response assessment on openedx.org or Open edX Edge. When
-you define a set of custom file types for learners to upload with their
-responses, you cannot specify these file types. The extensions on this list are
-selected and maintained by the development operations team at Open edX, and are
-subject to change.
+Learners cannot upload file types with the following file name extensions as
+part of and Open Response Assessment. When you define a set of custom file
+types for learners to upload with their responses, you cannot specify them. The
+extensions on this list are selected and maintained by the development
+operations team at the Open edX Community and are subject to change.
 
 This set of file name extensions is provided as the default for Open edX
 installations. Open edX system administrators can update this list. For more

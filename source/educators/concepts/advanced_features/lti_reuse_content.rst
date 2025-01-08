@@ -5,19 +5,17 @@ Reusing Course Content with LTI
 
 .. tags:: educator, concept
 
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
-
-When you use LTI to reuse Open edX course content, learners who are already
+When you use LTI to reuse your course content, learners who are already
 familiar with an external learning management system or other consumer
-application (external LMS) see content from Open edX that is seamlessly
-integrated into a familiar context. Only the content that you specify from Open
-edX appears in the external LMS, typically within an iframe on a page.
+application (external LMS) see content from your Open edX instance that is
+seamlessly integrated into a familiar context. Only the content that you
+specify from your Open edX instance appears in the external LMS, typically
+within an iframe on a page.
 
 For example, you can set up a course on an external LMS, such as Canvas, to
-include a link to a problem component that is part of an Open edX course. The
-problem is included as one of the course's assignments, and appears in Canvas
-like other content.
+include a link to a problem component that is part of a course on your
+instance. The problem is included as one of the course's assignments, and
+appears in Canvas like other content.
 
 .. image:: /_images/educator_concepts/lti_canvas_example.png
   :alt: An Open edX molecule builder problem shown as part of a course running
@@ -48,23 +46,19 @@ the external LMS.
 Learner Identification and Single Sign On
 *****************************************
 
-  .. note:: Different configuration options are available for how an external
-   LMS and Open edX Edge authenticate users. Your DevOps team is likely to have
-   additional information about the specific authentication process used by
-   your institution.
-
 Learners do not need to navigate to a different website, or sign in to any
-other system (including Open edX), to access content that originates in an Open
-edX course. However, the first time a learner views Open edX course content in
-the external LMS, she might have to re-enter her credentials for the external
-LMS, even though she is already signed in to the external LMS.
+other system (including your Open edX instance), to access content that
+originates in an course in your instance. However, the first time a learner
+views Open edX course content in the external LMS, she might have to re-enter
+her credentials for the external LMS, even though she is already signed in to
+the external LMS.
 
 Internally, the Open edX instance associates a unique internal identifier to
 each learner's credentials to allow for a streamlined, single sign in
-experience in the future. However, this separate Open edX identifier can make
-some Open edX content confusing for learners when viewed in the context of an
+experience in the future. However, this separate identifier can make
+some content confusing for learners when viewed in the context of an
 external LMS. For example, Open edX course discussions can identify
-participants by their Open edX IDs instead of the usernames they would normally
+participants by these unique IDs instead of the usernames they would normally
 see in the external LMS. As a result, some Open edX content is not currently
 suitable for use in an external LMS.
 

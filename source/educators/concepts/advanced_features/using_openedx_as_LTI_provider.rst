@@ -5,27 +5,16 @@ Using Open edX as an LTI Tool Provider
 
 .. tags:: educator, concept
 
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
-
-An experimental feature enabled the Open edX Edge site to be configured to be a
-learning tool interoperability (LTI) provider to other systems and applications
-that partner institutions use. After initial configuration and testing between
-Edge and your system or application is complete, course teams could use this
-feature to reuse Edge course content, including advanced problem types and
-videos, in an on campus or in house learning management system. Examples
-currently include courses running on Canvas and Blackboard.
-
-You can also include content from an LTI provider in your Open edX courses. For
-more information, see :ref:`LTI Component`.
+You can also include content from an LTI provider in your courses. For more
+information, see :ref:`LTI Component`.
 
 .. _Grading Remote Content:
 
 Grading Remote Content
 **********************
 
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
+.. warning:: This feature was a closed pilot experiment. This feature is poorly
+  documented and may not work properly.
 
 When you include the problem components in a graded Open edX subsection in an
 external LMS, the Open edX system grades the learner responses to those
@@ -56,10 +45,10 @@ For more information about constructing an LTI URL for a course component, see
 
  :ref:`Create a Duplicate Course for LTI use` (how-to)
 
- :ref:`Determine Content Addresses when using Open edX as an LTI Provider<Determine Content Addresses>` (how-to)
+ :ref:`Determine Content Addresses` (how-to)
 
- :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
+ :ref:`Planning for Content Reuse` (reference)
 
- :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
+ :ref:`Open edX as an LTI Provider to Canvas` (how-to)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
