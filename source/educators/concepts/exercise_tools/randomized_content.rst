@@ -6,7 +6,7 @@ Randomized Content Blocks
 
 .. tags:: educator, concept
 
-If your course has :ref:`content libraries<Content Libraries>` enabled and you
+If your course has :ref:`content libraries<Content Libraries Overview>` enabled and you
 have access to a library whose content you want to use, you can reference that
 library to create randomized assignments for students.
 
@@ -17,7 +17,7 @@ of problem to randomly give each student.
 
 The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page. For details about content libraries, see
-:ref:`Content Libraries`.
+:ref:`Content Libraries Overview`.
 
 .. seealso::
  :class: dropdown
