@@ -31,3 +31,10 @@ verified enrollment track.
     Don't miss the opportunity to highlight your new knowledge and skills by
     earning a verified certificate. Upgrade to the verified track by September
     10, 2017.
+
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Automatic Email Messages from edX` (reference)

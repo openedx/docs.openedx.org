@@ -1,13 +1,12 @@
 .. _MathJax in Studio:
 
-##############################
 MathJax for Mathematics
 ##############################
 
 .. tags:: educator, reference
 
 To produce clear and professional-looking symbols and equations in web browser,
-edX uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
+the Open edX platform uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
 the mathematical symbols and equations that you enter in Text and problem
 components using LaTeX notation into beautiful math.
 
@@ -46,3 +45,9 @@ For display equations, you can do either of the following.
  :class: dropdown
 
  :ref:`Adding MathJax` (reference)
+
+ :ref:`Math Expression Input` (reference)
+
+ :ref:`Math Expression Input Problem XML` (reference)
+
+ :ref:`Adding MathJax` (how-to)

@@ -1,10 +1,13 @@
 .. _Exporting and Importing a Library:
 
-****************************************
 Exporting and Importing a Legacy Library
-****************************************
+###########################################
 
 .. tags:: educator, how-to
+
+.. contents::
+  :local:
+  :depth: 1
 
 .. warning::
 
@@ -23,12 +26,10 @@ content library in Studio.
   import. Before you proceed, we recommend that you export the current
   library, so that you have a backup copy of it.
 
-
 .. _Export a Library:
 
-=======================
 Export a Legacy Library
-=======================
+************************
 
 There are several reasons why you might want to export your library.
 
@@ -59,9 +60,8 @@ computer.
 
 .. _Import a Library:
 
-=======================
 Import a Legacy Library
-=======================
+*************************
 
 You might want to import a library if you developed or updated library content
 outside of Studio, or if you want to overwrite a problematic or outdated

@@ -29,10 +29,7 @@ The Open edX® Problem Component
    ../how-tos/course_development/exercise_tools/add_hints_advanced_editor.rst
    ../references/course_development/modifying_released_problem.rst
    ../references/course_development/Section_learner_problem_view.rst
-   
-   
-   
-   
+   ../how-tos/course_development/exercise_tools/add_unsupported_problem_types.rst
 
 Chemical Equation Problem
 *******************************************************
@@ -111,7 +108,6 @@ Drag and Drop Problem
    ../how-tos/course_development/exercise_tools/adding_dropdown.rst
    ../how-tos/course_development/exercise_tools/use_dropdown_feedback.rst
    ../how-tos/course_development/exercise_tools/use_dropdown_hints.rst
-   ../how-tos/drag_and_drop_deprecated.rst
 
 .. _Dropdown Problem:
 

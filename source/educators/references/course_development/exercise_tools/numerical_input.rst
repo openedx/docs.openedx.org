@@ -1,6 +1,5 @@
 .. _Numerical Input:
 
-########################
 Numerical Input Problem
 ########################
 
@@ -18,7 +17,6 @@ both, you can give learners guidance and help when they work on a problem.
 For more information about the simple problem types, see
 :ref:`Working with Problem Components`.
 
-**********
 Overview
 **********
 
@@ -68,7 +66,7 @@ numerical input problem. An example of a completed numerical input problem follo
 
  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
 
- :ref:`Use Feedback in a Numerical Input Problems` (how-to)
+ :ref:`Use Feedback in a Numerical Input Problems` (how to)
 
  :ref:`Adding Numerical Input Problem` (how to)
 

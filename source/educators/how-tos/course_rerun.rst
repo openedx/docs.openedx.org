@@ -1,8 +1,8 @@
 .. _Re Run A Course:
 
-###################
+###############
 Re-Run a Course
-###################
+###############
 
 .. tags:: educator, how-to
 
@@ -21,17 +21,17 @@ administrator.
 
 .. _Export-Import the Course:
 
-***************************************
+*************************************
 Export and Import the Previous Course
-***************************************
+*************************************
 
 .. include:: export_import_course.rst
 
 .. _Use Re-Run to Create a Course:
 
-***************************************
+****************************
 Use the Course Re-Run Option
-***************************************
+****************************
 
 .. note:: Before you re-run a course, make sure that its settings and content
   are complete. Additions and changes that you make to the original course
