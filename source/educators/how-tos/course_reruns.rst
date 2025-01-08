@@ -1,4 +1,4 @@
-.. _Course reruns:
+.. _Course Reruns:
 
 ##############
 Course re-runs
