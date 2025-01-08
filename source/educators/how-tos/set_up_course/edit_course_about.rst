@@ -1,8 +1,8 @@
 .. _Edit Your Course:
 
-*************
+#############
 Edit a Course
-*************
+#############
 
 .. tags:: educator, how-to
 
@@ -13,8 +13,7 @@ dates<Scheduling Your Course>`, or developing the :ref:`course
 outline<Developing Your Course Outline>`.
 
 When you return to Studio later, your **My Courses** dashboard page lists
-the courses that you created as well as any courses for which you have course
-team privileges.
+the courses that you created as well as any courses for which you have course team privileges.
 
 .. image:: /_images/educator_how_tos/open_course.png
   :width: 600
@@ -45,11 +44,10 @@ change the way that your course title and number appear in Studio and the LMS.
 Change the Course Title
 =======================
 
-To change the way that your course title appears in Studio and the LMS, follow
-these steps.
+To change the way that your course title appears in Studio and the LMS, follow these steps.
 
 .. note::
- EdX does not recommended that you do this if your course is live.
+ It is not recommended that you do this if your course is live.
 
 #. Open the course in Studio.
 #. On the **Settings** menu, select **Advanced Settings**.
@@ -69,7 +67,7 @@ To change the way that your course number appears in Studio and the LMS, follow
 these steps.
 
 .. note::
- EdX does not recommended that you do this if your course is live.
+ It is not recommended that you do this if your course is live.
 
 #. Open the course in Studio.
 #. On the **Settings** menu, select **Advanced Settings**.
@@ -80,4 +78,20 @@ these steps.
 In Studio and the LMS, your course number changes to the value that you specify
 in the **Course Number Display String** field. The URL for your course does not
 change.
+
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+
+ :ref:`Course Outline` (concept)
+
+ :ref:`Create a Course` (how-to)
+
+ :ref:`Create the Course About Page` (how-to)
+
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+
+ :ref:`Developing Your Course Outline` (reference)
 

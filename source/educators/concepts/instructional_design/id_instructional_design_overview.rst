@@ -355,4 +355,6 @@ As you get started building your online course on your platform, here are five i
 .. seealso::
   :class: dropdown
 
+  :ref:`Course Development Process` (concept)
+
   :ref:`Instructional Design Templates` (concept)
