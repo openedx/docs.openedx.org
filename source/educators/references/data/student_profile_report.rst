@@ -7,13 +7,9 @@ Columns in the Student Profile Report
 .. tags:: educator, reference
 
 The student profile report includes a row for each enrolled learner or course
-team member and the following columns.
-
-.. only:: Open_edX
-
- The descriptions of columns in the following table apply to edx.org. Required
- or optional fields shown to learners during registration and available for
- editing in **Account Settings** might vary for Open edX sites.
+team member and the following columns. The fields fields that are available for 
+students to fill out in **Account Settings** (and therefore will be populated
+in this report) are configurable in the Open edX site configuration. 
 
 
 .. list-table::
