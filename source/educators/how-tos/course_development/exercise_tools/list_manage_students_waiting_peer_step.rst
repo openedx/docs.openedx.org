@@ -6,7 +6,7 @@ List and Manage Students Waiting in Peer Step
 .. tags:: educator, how-to
 
 On ORA problems with the peer assessment step, sometimes learners might get stuck
-waiting peer responses to evaluate or peer reviews from other learners indefinitely.
+waiting for peer responses to evaluate or peer reviews from other learners indefinitely.
 There's a tool in the instructor dashboard that allows listing and managing those
 learners.
 
