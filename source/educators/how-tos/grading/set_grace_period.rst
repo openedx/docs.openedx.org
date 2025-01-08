@@ -1,8 +1,8 @@
 .. _Set the Grace Period:
 
-*************************
+#####################
 Set the Grace Period
-*************************
+#####################
 
 .. tags:: educator, how-to
 
@@ -11,8 +11,7 @@ The grace period applies to the whole course; you cannot set different grace
 periods for individual assignments.
 
 .. note::
-  The grace period setting does not apply to the following assignments and
-  exams.
+  The grace period setting does not apply to the following assignments and exams.
 
   * Timed exams. For more information, see :ref:`Grant Learners More Time for a
     Timed Exam`.

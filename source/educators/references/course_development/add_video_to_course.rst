@@ -77,14 +77,16 @@ that site. Keep the following guidelines in mind.
   than one hosting site, make sure you have the URL for each video location.
 
 .. seealso::
- :class:dropdown
+  :class: dropdown
 
- :ref:`Course About Video Guidelines` (reference)
+  :ref:`Video Process Overview` (how-to)
 
- :ref:`Add an About Video` (how-to)
+  :ref:`Add a Video` (how-to)
 
- :ref:`Course and Program Images and Videos` (reference)
+  :ref:`Troubleshoot Videos` (reference)
 
- :ref:`Additional Video Options` (how-to)
+  :ref:`Create a Video` (how-to)
 
- :ref:`Troubleshoot Videos` (reference)
+  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+
+  :ref:`Add an In Video Quiz` (how-to)
