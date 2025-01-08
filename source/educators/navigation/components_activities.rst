@@ -186,8 +186,8 @@ LTI Component
    ../references/course_development/exercise_tools/lti_component_settings.rst
    ../references/course_development/exercise_tools/lti_component.rst
    ../how-tos/course_development/exercise_tools/enable_lti_component.rst
-   ../how-tos/course_development/exercise_tools/setting_up_lti_1.1_component.rst
-   ../how-tos/course_development/exercise_tools/setting_up_lti_1.3_component.rst
+   ../how-tos/course_development/exercise_tools/setting_up_lti_1_1_component.rst
+   ../how-tos/course_development/exercise_tools/setting_up_lti_1_3_component.rst
    ../how-tos/course_development/exercise_tools/using_lti_advantage_features.rst
    ../how-tos/using_lti.rst
 
