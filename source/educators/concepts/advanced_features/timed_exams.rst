@@ -1,20 +1,9 @@
 .. _Timed Exams:
 
-######################
 Timed Exams
-######################
+#############
 
 .. tags:: educator, concept
-
-This topic describes how to add and manage timed exams in your course.
-
-.. contents::
-  :local:
-  :depth: 2
-
-**********
-Overview
-**********
 
 You can configure a :ref:`subsection <Developing Course Subsections>`
 in your course so that learners have a set amount of time to complete and
@@ -33,15 +22,10 @@ Course teams can grant individual learners more time to complete problems in
 the subsection, but only if learners request additional time **before**
 starting a timed exam.
 
-.. note::
-  Learners cannot complete timed exams using the edX mobile app.
+.. seealso::
+ :class:dropdown
 
-To better understand the learner's experience of timed exams, see
-`taking_timed_exams`_ in the *edX Learner's Guide* or
-`taking_timed_exams`_ in the *Open edX Learner's Guide*.
+ :ref:`Configure Timed Exams`
 
-.. only:: Partners
 
-  Timed exams are different from :ref:`proctored exams<CA_ProctoredExams>`.
-  While both types of exams have a time limit, learners are monitored only
-  during proctored exams.
+

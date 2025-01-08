@@ -1,8 +1,7 @@
 .. _Add Peer Instruction Assignment: 
 
-************************************************
 Adding a Peer Instruction Assignment in Studio
-************************************************
+###############################################
 
 .. tags:: educator, how-to
 
@@ -10,20 +9,9 @@ Adding a Peer Instruction Assignment in Studio
   :local:
   :depth: 1
 
-.. _Upload PI Images:
 
-=================================
-Upload Images (Optional)
-=================================
-
-If the question or an answer choice in an assignment includes an image, you
-:ref:`upload the image file<Upload a File>` on the **Files & Uploads** page.
-The **Studio URL** for the image can then be added to the question or
-answer choice in the peer instruction component.
-
-============================================
 Add a Peer Instruction Component
-============================================
+***********************************
 
 After you :ref:`enable the peer instruction tool <Enable the Peer Instruction
 Tool>` for your course, you can add the component for a peer instruction
@@ -52,9 +40,9 @@ assignment.
 #. Select **Save**, or continue on to replace the template information with the
    details for this assignment.
 
-============================================
+
 Add the Assignment Details
-============================================
+**************************
 
 Before you add the details of the assignment to a peer instruction component,
 you :ref:`design the assignment<Designing a Peer Instruction Assignment>` by
@@ -166,6 +154,16 @@ reviewed the responses submitted by other class participants.
      :alt: Class breakdown histograms showing an increase in correct answer
       frequency.
      :width: 600
+
+.. _Upload PI Images:
+
+Upload Images (Optional)
+**************************
+
+If the question or an answer choice in an assignment includes an image, you
+:ref:`upload the image file<Upload a File>` on the **Files & Uploads** page.
+The **Studio URL** for the image can then be added to the question or
+answer choice in the peer instruction component.
 
 .. seealso::
  :class: dropdown

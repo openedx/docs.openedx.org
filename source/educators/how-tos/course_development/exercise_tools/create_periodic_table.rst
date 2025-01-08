@@ -16,9 +16,8 @@ element.
 
 .. _Create the Periodic Table:
 
-******************************
 Create the Periodic Table Tool
-******************************
+###############################
 
 To create a periodic table, you need the following files:
 
@@ -43,3 +42,8 @@ To create the periodic table, you need a Text component.
    Text component editor. (Note that the PeriodicTableHTML.txt file contains
    over 6000 lines of code. Paste all of this code into the component editor.)
 #. Click **Save**.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Working with Problem Components`
