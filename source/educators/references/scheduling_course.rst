@@ -129,3 +129,12 @@ visible.
   started.
  :width: 800
 
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Course Dates` (reference)
+
+ :ref: `Set the Course Run Schedule and Pacing in Studio` (how-to)
+
+ :ref: `Additional Course Run Information` (concept)

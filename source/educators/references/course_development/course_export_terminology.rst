@@ -1,8 +1,7 @@
 .. _Course Export File Terminology:
 
-********************************************
 Course Outline Terminology in Exported Files
-********************************************
+#############################################
 
 .. tags:: educator, reference
 
@@ -30,11 +29,6 @@ of files.
 For example, if you want to find a specific section in your course when you
 open the list of files that your course contains, look in the **Chapter**
 directory. To find a unit, look in the **Vertical** directory.
-
-.. only:: Partners
-
-  For more information, see `course_structure <course_structure_research_guide>`_ in the **EdX
-  Research Guide**.
 
 .. seealso::
  :class: dropdown

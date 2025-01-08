@@ -24,8 +24,7 @@ body. For more information, see :ref:`Google Calendar Tool`.
 .. note:: Google services are not available in some regions and countries. If
   Google services are not available in a learner's area, the learner might see
   an "image unavailable" message in the place of the Google Drive file or
-  calendar. EdX strongly suggests that you provide alternative resources for
-  learners in these areas.
+  calendar.  It is recommended that you provide alternative resources for learners in these areas.
 
 *********
 Overview
