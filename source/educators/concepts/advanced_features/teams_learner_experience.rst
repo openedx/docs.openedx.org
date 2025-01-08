@@ -70,8 +70,8 @@ Learners specify a name and description for their team, and optionally specify
 a country and language that team members identify with. A learner who creates
 a team automatically becomes a member of the new team.
 
-.. note:: Open EdX recommends that you encourage learners to join existing
-   teams before they create new teams.
+.. note:: The recommendation is to encourage learners to join existing teams
+   before they create new teams.
 
 .. note:: Because course staff who have the role of Admin, Discussion Moderator,
    or Discussion Admin can create multiple teams, these course staff are not
