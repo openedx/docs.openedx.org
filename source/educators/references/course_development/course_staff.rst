@@ -146,3 +146,13 @@ complete the following tasks.
      added to a discussion moderation role in addition to having the course
      team Staff or Admin role. For more information, see
      :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
+
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Add Course Staff` (how-to)
+
+  :ref:`Add Course Creators` (how-to)
+
+  :ref:`Add Beta Testers to a Course <Add_Beta_Testers>` (how-to)  

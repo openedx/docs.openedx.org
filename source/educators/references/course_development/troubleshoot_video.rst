@@ -33,13 +33,16 @@ When you use video, you might experience one of the following problems.
   settings.
 
 .. seealso::
- :class:dropdown
+  :class: dropdown
 
- :ref:`Introduction to Video` (reference)
+  :ref:`Video Process Overview` (how-to)
 
- :ref:`Add an About Video` (how-to)
+  :ref:`Introduction to Video` (reference)
 
- :ref:`Additional Video Options` (how-to)
+  :ref:`Add a Video` (how-to)
 
- :ref:`Course and Program Images and Videos` (reference)
+  :ref:`Create a Video` (how-to)
 
+  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+
+  :ref:`Add an In Video Quiz` (how-to)

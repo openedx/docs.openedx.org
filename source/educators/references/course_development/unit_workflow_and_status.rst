@@ -1,14 +1,13 @@
 .. _The Unit Workflow:
 
-******************
+##################
 The Unit Workflow
-******************
+##################
 
 .. tags:: educator, reference
 
 When you have set up the :ref:`section<Developing Course Sections>` and
-:ref:`subsection<Developing Course Subsections>` in the course outline, you
-then work with units.
+:ref:`subsection<Developing Course Subsections>` in the course outline, you then work with units.
 
 The typical workflow includes these steps.
 
@@ -197,4 +196,20 @@ the release date has passed (in an instructor-paced course).
 The **Release** section applies only to instructor-paced courses. It does not
 appear for units in self-paced courses.
 
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Add Units to the Outline` (how-to)
+
+ :ref:`Create a Unit` (how-to)
+
+ :ref:`Set Access Restrictions For a Unit` (how-to)
+
+ :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+
+ :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
+
+ :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+
+ :ref:`Developing Course Units` (reference)
 
