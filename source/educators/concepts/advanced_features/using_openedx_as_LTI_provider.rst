@@ -16,20 +16,19 @@ Grading Remote Content
 .. warning:: This feature was a closed pilot experiment. This feature is poorly
   documented and may not work properly.
 
-When you include the problem components in a graded Open edX subsection in an
-external LMS, the Open edX system grades the learner responses to those
-problems. The Open edX system then transfers the learner scores back to the
-external LMS. This exchange between an external LMS, the Open edX system, and
-the external LMS again is near real time. It can take a few moments to complete
-this exchange for a single problem component, and up to several minutes to
-return aggregated scores of all of the problems in a unit or subsection.
+When you include problem components from a graded subsection in your Open edX
+instance in an external LMS, your Open edX instance will grade the learner
+responses to those problems. Your instance then transfers the learner scores
+back to the external LMS. This exchange between an external LMS, your Open edX
+instance, and the external LMS again is near real time. It can take a few
+moments to complete this exchange for a single problem component, and up to
+several minutes to return aggregated scores of all of the problems in a unit or
+subsection.
 
-When you include Open edX problem components in an external LMS, note the
-following requirements.
+When you include problem components from your Open edX instance in an external
+LMS, note the following requirements.
 
-* The Open edX problem component must be in one of the graded subsections in
-  your course.
-
+* The problem component must be in one of the graded subsections in your course.
 * Your external LMS might also require that you use a specific part of the
   course for graded content. For example, in Canvas, you must add the LTI URL
   of a problem component to the "Assignments" section of a course, or to a
