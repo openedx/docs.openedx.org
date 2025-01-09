@@ -63,7 +63,7 @@ Create a New Course
    ../concepts/open_edx_platform/outline_studio_lms.rst
    ../how-tos/set_up_course/creating_new_course.rst
    ../how-tos/create_course.rst
-   ../how-tos/create_unit.rst
+   ../how-tos/create.rst
    ../how-tos/create_course_about_page.rst
    ../references/course_development/understanding_course_outline.rst
    ../references/course_development/add_edit_in_outline.rst
