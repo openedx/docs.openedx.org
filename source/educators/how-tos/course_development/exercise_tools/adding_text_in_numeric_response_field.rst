@@ -1,7 +1,7 @@
-.. _Adding Text After the Numeric Response Field:
+.. _Add Text After the Numeric Response Field:
 
-Adding Text after the Numeric Response Field
-############################################
+Add Text after the Numeric Response Field
+#########################################
 
 .. tags:: educator, how-to
 

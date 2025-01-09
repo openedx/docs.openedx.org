@@ -133,7 +133,7 @@ updated to provide partial credit for a different answer.
 
  :ref:`Adding Numerical Input Problem` (how-to)
 
- :ref:`Adding Text After the Numeric Response Field` (how-to)
+ :ref:`Add Text After the Numeric Response Field` (how-to)
 
  :ref:`Use Feedback in a Numerical Input Problems` (how-to)
 

@@ -1,7 +1,7 @@
-.. _Adding a Multi Select Problem:
+.. _Add a Multi Select Problem:
 
-Adding a Multi-select Problem
-#############################
+Add a Multi-select Problem
+##########################
 
 .. tags:: educator, how-to
 
@@ -124,7 +124,7 @@ You can add hints to a multi-select problem. For an overview of hints in problem
 
  :ref:`Multi select` (reference)
 
- :ref:`Adding a Checkbox Problem` (how-to)
+ :ref:`Add a Checkbox Problem` (how-to)
 
  :ref:`Editing Multi select Problems using the Advanced Editor` (how-to)
 
