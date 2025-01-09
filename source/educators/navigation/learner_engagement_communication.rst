@@ -20,6 +20,7 @@ Course Discussions
    ../concepts/communication/discussion_guidance_moderators.rst
    ../how-tos/communication/assigning_discussion_roles.rst
    ../how-tos/communication/configure-discussions.rst
+   ../how-tos/create.rst
    ../how-tos/course_development/create_discussion.rst
    ../how-tos/communication/administer_discussions.rst
    ../how-tos/communication/closing_discussions.rst
