@@ -151,9 +151,9 @@ See :ref:`Adding Feedback and Hints to a Problem` for more information on adding
 
  :ref:`Multi select` (reference)
 
- :ref:`Adding a Checkbox Problem` (how-to)
+ :ref:`Add a Checkbox Problem` (how-to)
 
- :ref:`Adding a Multi Select Problem` (how-to)
+ :ref:`Add a Multi Select Problem` (how-to)
 
  :ref:`Adding Feedback and Hints to a Problem` (how-to)
 
