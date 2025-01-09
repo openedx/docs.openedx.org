@@ -17,7 +17,7 @@ assessment) to complete the assignment.
    an open response assessment divided by cohort, you must create that
    assessment in a course component that is defined as cohort-specific. For  more
    information about cohorts and creating cohort-specific course content, see
-   :ref:`Cohorts Overview <cohorts overview>` and :ref:`Cohorted Courseware Overview <cohorted courseware overview>`.
+   :ref:`Cohorts Overview <cohorts overview>` and :ref:`Create Cohort Specific Course Content`.
 
 The following topics provide conceptual information about open response
 assessments.
@@ -366,7 +366,7 @@ steps, and make it available only to the members of one or more specific
 cohorts. For the members of the remaining cohorts, you create an ORA assignment
 that has only the peer assessment step. For details about creating different
 course experiences for learners in different cohorts, see
-:ref:`Cohorted Courseware Overview <cohorted courseware overview>`.
+:ref:`Create Cohort Specific Course Content`.
 
 For details about performing grading in staff assessment steps, see
 :ref:`Perform a Staff Assessment`.
