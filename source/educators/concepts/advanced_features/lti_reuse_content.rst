@@ -81,14 +81,14 @@ available in the external LMS.
 .. seealso::
  :class: dropdown
 
- :doc: `using_openedx_as_LTI_provider` (concept)
+ :ref: `Using Open edX as an LTI Tool Provider` (concept)
 
- :doc: `/how-tos/advanced_features/lti_prepare_content` (how-to)
+ :ref: `Create a Duplicate Course for LTI use` (how-to)
 
- :doc: `/how-tos/advanced_features/lti_determine_content_address` (how-to)
+ :ref: `Determine Content Addresses` (how-to)
 
- :doc: `/references/advanced_features/planning_content_reuse` (reference)
+ :ref: `Planning for Content Reuse` (reference)
 
- :doc: `/references/advanced_features/lti_canvas_example` (reference)
+ :ref: `Open edX as an LTI Provider to Canvas` (how-to)
 
- :doc: `/references/advanced_features/lti_blackboard_example` (reference)
+ :ref: `Open edX as an LTI Provider to Blackboard` (how-to)
