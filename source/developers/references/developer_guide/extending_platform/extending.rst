@@ -61,7 +61,7 @@ ways to extend the platform, starting with the following table.
      - Yes
    * - Clean UI Integration
      - Yes
-     - No (see :doc:`openedx-building-and-running-a-course:exercises_tools/lti_component`)
+     - No (see :ref:`LTI Component`)
      - Yes
      - Yes
      - Yes
@@ -72,13 +72,13 @@ ways to extend the platform, starting with the following table.
      - Yes
      - Yes
    * - Server Side Grading
-     - Possibly (See :doc:`openedx-building-and-running-a-course:exercises_tools/custom_javascript`)
+     - Possibly (See :ref:`Custom JavaScript`)
      - Yes
      - Yes
      - Yes
      - Yes
    * - Usage Data
-     - No (See :doc:`openedx-building-and-running-a-course:exercises_tools/custom_javascript`)
+     - No (See :doc:`Custom JavaScript`)
      - No
      - Limited
      - Yes

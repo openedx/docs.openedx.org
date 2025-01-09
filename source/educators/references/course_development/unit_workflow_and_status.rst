@@ -13,7 +13,7 @@ The typical workflow includes these steps.
 
 #. :ref:`Create a unit<Create a Unit>`.
 #. :ref:`Add components to the unit<Add a Component>`.
-#. :ref:`Modify components in the unit<Developing Course Components>`.
+#. :ref:`Modify components in the unit<Add a Component>`.
 
 .. The following image could use some re-work to make the contrast greater.
 

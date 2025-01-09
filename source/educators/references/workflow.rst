@@ -33,7 +33,7 @@ Before you begin, you should understand the building blocks of an edX course.
   subsection contains one or more units.
 * :ref:`Course units <Developing Course Units>` are lessons in a subsection
   that learners view as single pages. A unit contains one or more components.
-* :ref:`Course components<Developing Course Components>` are objects within
+* :ref:`Course components<Add a Component>` are objects within
   units that contain your actual course content.
 
 .. _Creating New Course Content:

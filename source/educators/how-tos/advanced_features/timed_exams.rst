@@ -6,6 +6,8 @@ Configure Timed Exams
 
 .. tags:: educator, how-to
 
+.. _Enable Timed Exams:
+
 *******************
 Enable Timed Exams
 *******************
@@ -59,7 +61,7 @@ steps.
 
      If your course has the proctored exam feature enabled, the
      **Advanced** tab also shows options for :ref:`proctored and practice
-     proctored exams<CA_ProctoredExams>`.
+     proctored exams<ProctoredExams_Overview:>`.
 
 #. In the **Time Allotted** field, enter the length of time that you want
    learners to have to complete the problems in the subsection. Enter the time

@@ -17,7 +17,7 @@ cohorts.
 Overview
 *********
 
-If you have :ref:`enabled cohorts<Enabling and Configuring Cohorts>` in your
+If you have :ref:`enabled cohorts<Manage Course Cohorts>` in your
 course, you can create different course experiences for learners in different
 cohorts.
 
@@ -36,7 +36,7 @@ Complete these steps to create cohort-specific content in your course.
 
 In Studio
 
-#. :ref:`Enable cohorts in your course<Enabling and Configuring Cohorts>`.
+#. :ref:`Enable cohorts in your course<Manage Course Cohorts>`.
 #. :ref:`Create content groups<Creating Content Groups>`.
 #. :ref:`Specify components or units as available only to particular content
    groups<Specify Content as Available Only to Certain Content Groups>`.
@@ -61,7 +61,7 @@ University Alumni and Current University Students. Learners who are not in
 either of these cohorts are automatically placed into a third cohort, the
 default cohort, when they access the **Course** or **Discussion** tabs in the
 course. For more information about enabling cohorts in your course and
-assigning students to cohorts, see :ref:`Enabling and Configuring Cohorts`.
+assigning students to cohorts, see :ref:`Manage Course Cohorts`.
 
 You intend all learners to have substantially the same course experience, with
 the exception that only learners in the two university-related cohorts will

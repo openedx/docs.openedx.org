@@ -20,7 +20,7 @@ building blocks in the course outline.
 * :ref:`Developing Course Sections`
 * :ref:`Developing Course Subsections`
 * :ref:`Developing Course Units`
-* :ref:`Developing Course Components`
+* :ref:`Add a Component`
 
 ****************************
 Open the Course Outline

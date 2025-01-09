@@ -65,7 +65,7 @@ Specify Exam Rules and Exceptions
 *********************************
 
 By default, reviewers evaluate exam attempts according to a standard set of
-:ref:`online proctoring rules <CA Online Proctoring Rules>` that the
+:ref:`online proctoring rules <Online Proctoring Rules>` that the
 proctoring service has provided.
 
 .. note::

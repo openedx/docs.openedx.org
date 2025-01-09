@@ -12,8 +12,7 @@ Setting Up Divided Discussions
 
 
 By default, all :ref:`course-wide discussion topics<Create CourseWide
-Discussion Topics>` and :ref:`content-specific discussion topics<Create
-ContentSpecific Discussion Topics>` are unified: all learners can interact
+Discussion Topics>` and :ref:`content-specific discussion topics<Content Specific Discussion Topics>` are unified: all learners can interact
 with all posts, responses, and comments. You can change discussion topics of
 either type to be divided or unified on the discussions configuration page
 (see :ref:`Create CourseWide Discussion Topics`).
@@ -39,8 +38,7 @@ topics.
 Divide All Content-Specific Discussion Topics
 *********************************************
 
-When you :ref:`create content-specific discussion topics<Create
-ContentSpecific Discussion Topics>` by adding discussion components to units
+When you :ref:`create content-specific discussion topics<Enable Discussion on a Course Unit>` by adding discussion components to units
 in Studio, these discussion topics are by default unified. All learners in the
 course can see and respond to posts from all other learners. You can change
 content-specific discussion topics to be divided, so that only members of the

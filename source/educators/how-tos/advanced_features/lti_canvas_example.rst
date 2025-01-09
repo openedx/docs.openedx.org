@@ -26,7 +26,7 @@ To use Open edX course content in the Canvas LMS, you add a new app to the cours
      :alt: The Canvas page where you add an external tool and supply the LTI
          URL.
 
-   For more information, see :ref:`Determining Content Addresses`.
+   For more information, see :ref:`Determine Content Addresses`.
 
 #. Review the content to verify that it appears as you expect.
 

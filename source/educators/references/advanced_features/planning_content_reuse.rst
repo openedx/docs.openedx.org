@@ -63,7 +63,7 @@ example, you can use a spreadsheet column to identify the type of content (for
 example, component, unit, subsection), and add their display names to the next
 column. Additional columns can contain the values that you use to construct the
 addresses for your LTI links. For more information about addressing content,
-see :ref:`Determining Content Addresses`.
+see :ref:`Determine Content Addresses`.
 
 Optionally, you can streamline the contents of units and subsections by
 removing components, or disable course features that you do not plan to use.

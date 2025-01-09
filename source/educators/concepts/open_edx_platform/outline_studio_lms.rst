@@ -42,5 +42,4 @@ If a learner selects the **Resume Course** option, the course opens to the
 unit that the learner most recently completed.
 
 For information about more specific learner data, including the learner's
-grades or answers for individual problems, see :ref:`Manage Student Progress
-Index`.
+grades or answers for individual problems, see :ref:`Learner Data`.
