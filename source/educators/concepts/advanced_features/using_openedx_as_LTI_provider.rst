@@ -38,21 +38,17 @@ following requirements.
   a learner and not a TA or course designer.
 
 For more information about constructing an LTI URL for a course component, see
-:ref:`Determining Content Addresses`.
+:ref:`Determine Content Addresses`.
 
 .. seealso::
  :class: dropdown
 
  :ref:`Create a Duplicate Course for LTI use` (how-to)
 
- :ref:`Determine Content Addresses when using Open edX as an LTI Provider<Determine Content Addresses>` (how-to)
+ :ref:`Determine Content Addresses` (how-to)
 
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
+ :ref: `Open edX as an LTI Provider to Canvas` (how-to)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
-
- :ref: `edX as an LTI Provider to Canvas` (reference)
-
- :ref: `edX as an LTI Provider to Blackboard` (reference)
+ :ref: `Open edX as an LTI Provider to Blackboard` (hot-to)
