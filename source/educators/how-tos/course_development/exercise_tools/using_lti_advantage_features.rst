@@ -1,7 +1,7 @@
 .. _Enabling and using LTI Advantage features:
 
-Enabling and using LTI Advantage features
-#########################################
+Enable and Use LTI Advantage Features
+#####################################
 
 .. tags:: educator, how-to
 

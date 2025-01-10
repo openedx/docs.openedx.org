@@ -1,7 +1,7 @@
 .. _Adding Math Expression Problem:
 
-Adding a Math Expression Input Problem
-######################################
+Add a Math Expression Input Problem
+###################################
 
 .. tags:: educator, how-to
 

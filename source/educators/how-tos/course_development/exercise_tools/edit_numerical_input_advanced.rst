@@ -1,7 +1,7 @@
 .. _Editing Numerical Input Problems using the Advanced Editor:
 
-Editing Numerical Input Problems using the Advanced Editor
-##########################################################
+Edit Numerical Input Problems using the Advanced Editor
+#######################################################
 
 .. tags:: educator, how-to
 
