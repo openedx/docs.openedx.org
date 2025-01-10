@@ -1,7 +1,7 @@
 .. _Notes Tool:
 
-Notes Tool
-##########
+Enable the Notes Tool
+#####################
 
 .. tags:: educator, how-to
 

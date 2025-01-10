@@ -1,7 +1,7 @@
 .. _enable_lti_components:
 
-Enabling LTI Components for a Course
-####################################
+Enable LTI Components for a Course
+##################################
 
 .. tags:: educator, how-to
 

@@ -1,7 +1,7 @@
 .. _Awarding Partial Credit in a Numerical Input Problem:
 
-Awarding Partial
-################
+Award Partial Credit in a Numerical Input Problem
+#################################################
 
 .. tags:: educator, how-to
 
