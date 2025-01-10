@@ -1,22 +1,9 @@
 .. _Single Select:
 
-#####################
-Single Select Problem
-#####################
+Add a Single Select Problem
+###########################
 
 .. tags:: educator, how-to
-
-The single select problem type is a simple problem type that can be added to
-any course. At a minimum, single select problems include a question or
-prompt and several answer options. By adding hints, feedback, or both, you can
-give learners guidance and help when they work on a problem.
-
-For more information about the simple problem types, see
-:ref:`Working with Problem Components`.
-
-******************************
-Adding a Single Select Problem
-******************************
 
 You add single select problems in Studio by selecting the **Problem**
 component. In the problem editor, select the **Single select** option.
@@ -43,17 +30,14 @@ Creating a single select problem is as simple as:
 If you have any questions on the specifics of using the simple editor, please check
 out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
-Note
-
 .. note:: With the single select problem type, although the learner only selects
   one answer, you can set more than one correct answer. You can do this by ticking
   more than one of the checkboxes in the Answers section.
 
 .. _Use Feedback in a Single Select Problem:
 
-===============
 Adding Feedback
-===============
+***************
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
 a Problem`. You can add feedback for each of the answer options you provide in
@@ -84,9 +68,8 @@ learner submits this answer.
 
 .. _Use Hints in a Single Select Problem:
 
-============
 Adding Hints
-============
+************
 
 You can add hints to a single select problem . For an overview of hints in
 problems, see :ref:`Adding Feedback and Hints to a Problem`.
@@ -98,6 +81,6 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
 
  :ref:`Single Select Problem XML` (reference)
 
- :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
 
- :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
