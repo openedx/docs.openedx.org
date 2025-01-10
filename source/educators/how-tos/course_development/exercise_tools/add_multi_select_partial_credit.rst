@@ -1,7 +1,7 @@
 .. _Awarding Partial Credit in a Multi select Problem:
 
-Awarding Partial Credit
-#######################
+Award Partial Credit
+####################
 
 .. tags:: educator, how-to
 

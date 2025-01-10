@@ -1,7 +1,7 @@
 .. _Setting up a LTI 1.3 component:
 
-Setting up an LTI 1.3 component
-###############################
+Set Up an LTI 1.3 Component
+###########################
 
 .. tags:: educator, how-to
 
