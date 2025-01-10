@@ -683,6 +683,11 @@ For more information, see :ref:`PA Allow Images`.
 Prohibited File Extensions
 ==========================
 
+Learners cannot upload file types that have the following file name extensions
+as part of an Open Response Assessment in your Open edX courses. When you
+define a set of custom file types for learners to upload with their responses,
+you cannot specify these file types.
+
 This set of file name extensions is provided as the default for Open edX
 installations. Open edX system administrators can update this list. For more
 information, see `Configuring ora2 to prohibit submission of file types`_.
