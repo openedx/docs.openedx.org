@@ -1,3 +1,5 @@
+.. _Add a Multiple Choice Problem:
+
 Add a Multiple Choice Problem
 #############################
 
