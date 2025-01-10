@@ -1,8 +1,7 @@
 .. _Editing Single Select Problems using the Advanced Editor:
 
-********************************************************
 Editing Single Select Problems using the Advanced Editor
-********************************************************
+########################################################
 
 .. tags:: educator, how-to
 
@@ -53,9 +52,8 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
-===============
 Adding Feedback
-===============
+***************
 
 In the advanced editor, you configure feedback with the following syntax.
 
@@ -97,9 +95,8 @@ For example, the following problem has feedback for each answer.
 
 .. _Targeted Feedback in a Single Select Problem:
 
------------------
 Targeted Feedback
------------------
+=================
 
 You can configure a single select problem so that explanations for specific
 answers are automatically shown to learners. You can use these explanations to
@@ -175,9 +172,8 @@ targeted feedback.
     </targetedfeedbackset>
   </problem>
 
-============
 Adding Hints
-============
+************
 
 You can add hints to a single select problem . For an overview of hints in
 problems, see :ref:`Adding Feedback and Hints to a Problem`.
@@ -187,8 +183,8 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
 
  :ref:`Single Select Overview` (concept)
 
- :ref:`Single Select` (how to)
+ :ref:`Single Select` (how-to)
 
  :ref:`Single Select Problem XML` (reference)
 
- :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
