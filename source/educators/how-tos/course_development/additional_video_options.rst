@@ -241,6 +241,8 @@ License
 
   :ref:`Troubleshoot Videos` (reference)
 
+  :ref:`Video Guidelines` (reference)
+
   :ref:`Create a Video` (how-to)
 
   :ref:`Add an In Video Quiz` (how-to)

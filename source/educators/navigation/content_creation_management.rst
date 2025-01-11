@@ -68,6 +68,7 @@ Add Video Components
    ../references/course_development/add_video_to_course.rst
    ../how-tos/course_development/add_video_to_course.rst
    ../references/course_development/troubleshoot_video.rst
+   ../references/course_development/video_guidelines.rst
    ../how-tos/create_video.rst
    ../how-tos/course_development/additional_video_options.rst
    ../how-tos/add_video_quiz.rst

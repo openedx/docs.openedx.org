@@ -43,6 +43,8 @@ To add a video, follow these steps.
 
   :ref:`Troubleshoot Videos` (reference)
 
+  :ref:`Video Guidelines` (reference)
+
   :ref:`Create a Video` (how-to)
 
   :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
