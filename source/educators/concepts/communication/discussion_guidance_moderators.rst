@@ -1,6 +1,5 @@
 .. _Guidance for Discussion Moderators:
 
-######################################
 Guidance for Discussion Moderators
 ######################################
 
@@ -24,7 +23,6 @@ contributions of your discussion moderators.
   :local:
   :depth: 1
 
-**********************
 Responsibilities
 **********************
 
@@ -50,7 +48,6 @@ Responsibilities
 
 * Add helpful items to the FAQ or to a welcome message or course handout.
 
-***************************************
 Qualities of Good Discussion Moderators
 ***************************************
 
@@ -67,7 +64,7 @@ Qualities of Good Discussion Moderators
 
 * Enthusiasm: this is the best predictor of moderator excellence!
 
-******************************************
+
 Best Practices for Discussion Moderation
 ******************************************
 
@@ -89,7 +86,7 @@ Best Practices for Discussion Moderation
 * Develop a discussion persona. Try to answer your questions in your own
   slightly unique way.
 
-*******************************************
+
 Guidelines for Specific Types of Posts
 *******************************************
 
@@ -154,21 +151,20 @@ Bugs or Errors
   platform.
 
   You might say: “Thanks for letting us know about that issue. We
-  are working with edX to get it fixed as quickly as possible.”
+  are working to get it fixed as quickly as possible.”
 
 ============================
 Feature Requests
 ============================
 
 * Keep an organized collection of feature requests cultivated by the course
-  team. That list can subsequently be shared with an edX product manager, who
+  team. That list can subsequently be shared with a product manager, who
   will log those requests internally.
 
 * Reply to the post to let the person know that their request was heard,
   without promising that the feature will be implemented.
 
-  You might say: "Thanks for your suggestion. I've logged it for review by edX
-  staff, who will prioritize feature requests on the development roadmap."
+  You might say: "Thanks for your suggestion. I've logged it for review by the Open edX Community, who will prioritize feature requests on the development roadmap."
 
 * Search the discussions for other similar requests, and respond to and close
   those as well.
