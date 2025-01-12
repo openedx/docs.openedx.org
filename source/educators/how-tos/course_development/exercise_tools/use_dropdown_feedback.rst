@@ -1,8 +1,7 @@
 .. _Use Feedback in a Dropdown Problem:
 
-===============
-Adding Feedback
-===============
+Use Feedback in a Dropdown Problem
+##################################
 
 .. tags:: educator, how-to
 
@@ -26,9 +25,8 @@ the problem. Use the following guidelines when providing feedback.
     the 'is selected' feedback field.
  :width: 600
 
-===============
-Adding Feedback
-===============
+Adding Feedback in the Advanced Editor
+**************************************
 
 In the advanced editor, you configure feedback with the following syntax.
 
@@ -67,9 +65,8 @@ For example, the following problem has feedback for each answer.
     </optionresponse>
   </problem>
 
------------------------------
 Customizing Feedback Labels
------------------------------
+***************************
 
 By default, the feedback labels shown to learners are **Correct** and
 **Incorrect**. If you do not define feedback labels, learners see these terms
@@ -122,8 +119,6 @@ a custom label.
 
  :ref:`Dropdown Problem XML` (reference)
 
- :ref:`Adding Dropdown` (how to)
+ :ref:`Adding Dropdown` (how-to)
 
- :ref:`Use Hints in a Dropdown Problem` (how to)
-
-
+ :ref:`Use Hints in a Dropdown Problem` (how-to)

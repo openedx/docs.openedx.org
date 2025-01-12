@@ -104,6 +104,8 @@ content:
 .. seealso::
  :class: dropdown
 
+ :ref:`Accessibility Guidelines` (concept)
+
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
 
  :ref:`Designing for Mobile` (concept)

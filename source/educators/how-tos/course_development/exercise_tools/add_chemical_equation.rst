@@ -1,8 +1,7 @@
 .. _Chemical Equation:
 
-################################
-Chemical Equation Problem
-################################
+Add a Chemical Equation Problem
+###############################
 
 .. tags:: educator, how-to
 
@@ -23,9 +22,8 @@ problem.
   You can make a calculator available to your learners on every
   unit page. For more information, see :ref:`Calculator`.
 
-**********************************************
 Create a Chemical Equation Problem
-**********************************************
+**********************************
 
 Chemical equation problems use MathJax to create formulas. For more
 information about using MathJax in Studio, see :ref:`MathJax in Studio`.
@@ -39,9 +37,8 @@ To create the above chemical equation problem, follow these steps.
 #. In the component editor, paste the code from below.
 #. Select **Save**.
 
-==========================================
 Sample Chemical Equation Problem Code
-==========================================
+=====================================
 
 .. code-block:: xml
 
@@ -85,4 +82,3 @@ Sample Chemical Equation Problem Code
  :class: dropdown
 
  :ref:`Chemical Equation Problem XML` (reference)
-

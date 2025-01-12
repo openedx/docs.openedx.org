@@ -1,8 +1,7 @@
 .. _Creating a Drag and Drop Problem:
 
-********************************
-Creating a Drag and Drop Problem
-********************************
+Create a Drag and Drop Problem
+##############################
 
 .. tags:: educator, how-to
 
@@ -61,7 +60,6 @@ To create a drag and drop problem, follow these steps.
 
 .. _Styling Drag and Drop Problems:
 
-****************************************************
 Changing the Visual Style of a Drag and Drop Problem
 ****************************************************
 
@@ -72,12 +70,9 @@ a drag and drop problem set the appearance of items for an individual problem.
 You can choose colors for the background and text of items when you create or
 edit a drag and drop problem.
 
-.. only:: Open_edX
-
-  You can develop a Python programming language module and include a custom
-  Cascading Style Sheet (CSS) file for drag and drop problems in your Open edX
-  site. For more information, see
-  :ref:`Styling Drag and Drop Problems`.
+You can develop a Python programming language module and include a custom
+Cascading Style Sheet (CSS) file for drag and drop problems in your Open edX
+site. For more information, see :ref:`Styling Drag and Drop Problems`.
 
 
 .. seealso::
@@ -86,4 +81,3 @@ edit a drag and drop problem.
  :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
 
  :ref:`Drag and Drop` (reference)
-

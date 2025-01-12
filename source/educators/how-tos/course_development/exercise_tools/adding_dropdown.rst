@@ -1,14 +1,13 @@
-.. _Adding Dropdown: 
+.. _Adding Dropdown:
 
-*************************
-Adding a Dropdown Problem
-*************************
+Add a Dropdown Problem
+######################
 
 .. tags:: educator, how-to
 
-You add dropdown problems in Studio by selecting the **Problem**
-component. In the problem editor, select the **Dropdown** option. Fill in
-the fields on this screen to create your problem.
+You add dropdown problems in Studio by selecting the **Problem** component.
+In the problem editor, select the **Dropdown** option. Fill in the fields on
+this screen to create your problem.
 
 .. image:: /_images/educator_how_tos/problem_editor_dropdown.png
  :alt: An example dropdown problem in the problem editor with number
@@ -28,23 +27,23 @@ Creating a dropdown problem is as simple as:
    feedback can be found in the following section.
 #. Selecting and filling in any desired settings on the right.
 
-If you have any questions on the specifics of using the simple editor, please check
-out :ref:`Simple Editor` and :ref:`Problem Settings`.
+If you have any questions on the specifics of using the simple editor, please
+check out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
 .. _Editing Dropdown Problems using the Advanced Editor:
 
-***************************************************
 Editing Dropdown Problems using the Advanced Editor
 ***************************************************
 
-If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click
-**Show advanced settings**, then scroll down and click
-**Switch to advanced editor**.
+If the simple editor is not enough to meet your needs, you can switch over to
+the advanced editor. In the setting panels on the right of the editor, click
+**Show advanced settings**, then scroll down and click **Switch to advanced
+editor**.
 
 You can use the advanced editor to identify the elements of a dropdown problem
-with OLX. For more information, see :ref:`Dropdown Problem XML`. To format equations,
-you can use MathJax. For more information, see :ref:`MathJax in Studio`.
+with OLX. For more information, see :ref:`Dropdown Problem XML`. To format
+equations, you can use MathJax. For more information, see :ref:`MathJax in
+Studio`.
 
 You can see the OLX for the example problem from the Overview section below.
 
@@ -70,6 +69,6 @@ You can see the OLX for the example problem from the Overview section below.
 
  :ref:`Dropdown Problem XML` (reference)
 
- :ref:`Use Hints in a Dropdown Problem` (how to)
+ :ref:`Use Hints in a Dropdown Problem` (how-to)
 
- :ref:`Use Feedback in a Dropdown Problem` (how to)
+ :ref:`Use Feedback in a Dropdown Problem` (how-to)

@@ -1,14 +1,12 @@
 .. _Problem with Adaptive Hint XML:
 
-*********************************
 Problem with Adaptive Hint XML
-*********************************
+###############################
 
 .. tags:: educator, reference
 
-========
 Template
-========
+*********
 
 .. code-block:: xml
 
@@ -48,9 +46,9 @@ Template
 .. note:: If the hints that you supply include characters, the letters must be
  lowercase.
 
-========
+
 Tags
-========
+******
 
 * ``<text>``: Surrounds the script and text in the problem.
 * ``<customresponse>``: Indicates that this problem has a custom response.
