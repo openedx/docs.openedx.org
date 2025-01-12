@@ -117,8 +117,9 @@ steps.
   addition, their listing now includes a button to remove their current level
   of access and move them back to their previous level of access. For details
   about reducing a user's level of access to a library, see :ref:`Remove Staff
-  or Admin Access`.
+  or Admin Access<Remove Staff or Admin Access>`.
   
+.. _Remove Staff or Admin Access:
 
 ****************************
 Remove Staff or Admin Access

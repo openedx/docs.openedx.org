@@ -192,7 +192,7 @@ The following table explains the controls in the **Editing** dialog box.
    * - **Maximum score**
      - The total number of points that learners receive for completing the
        problem. For more information about scores and
-       grading, see :ref:`Grading Index`.
+       grading, see :ref:`Grades`.
 
    * - **Problem text**
      - Text that appears above the problem in the LMS. You can use this text to

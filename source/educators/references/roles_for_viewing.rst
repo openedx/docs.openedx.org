@@ -28,10 +28,10 @@ content.
     * - :ref:`Staff<Staff View>`
       - You see content that has any of the publishing statuses
         :ref:`Published and Live`, :ref:`Published Not Yet Released`, or
-        :ref:`Draft (Unpublished Changes)`. In **Staff** view, you also see
+        :ref:`Draft Unpublished Changes`. In **Staff** view, you also see
         content that is :ref:`Visible to Staff Only`.
       - In addition to the content you would see in "View Live" mode, you also
-        see content that is in :ref:`Draft (Never Published)` status. In
+        see content that is in :ref:`Draft Never Published` status. In
         **Staff** view, you also see content that is :ref:`Visible to Staff
         Only`.
 
@@ -41,8 +41,8 @@ content.
         is not intended for a specific cohort group. In **Student** view, you
         do not see content that is :ref:`Visible to Staff Only`.
       - In addition to the content that you would see in "View Live" mode, you
-        also see content that has a status of :ref:`Draft (Never Published)`
-        or :ref:`Draft (Unpublished Changes)`. In **Student** view, you do not
+        also see content that has a status of :ref:`Draft Never Published`
+        or :ref:`Draft Unpublished Changes`. In **Student** view, you do not
         see content that is :ref:`Visible to Staff Only`.
 
     * - :ref:`Specific Learner<Specific Student View>`
@@ -57,8 +57,8 @@ content.
         would be available to learners who belong to the specified content
         group.
       - In addition to the content you would see in "View Live" mode, you also
-        see content that has a status of :ref:`Draft (Never Published)` or
-        :ref:`Draft (Unpublished Changes)` that would be available to learners
+        see content that has a status of :ref:`Draft Never Published` or
+        :ref:`Draft Unpublished Changes` that would be available to learners
         who belong to the specified content group.
 
     * - :ref:`Learner in an Enrollment Track<Learner in Enrollment Track Group
@@ -67,8 +67,8 @@ content.
         would be available to learners who are in the specified enrollment
         track.
       - In addition to the content you would see in "View Live" mode, you also
-        see content that has a status of :ref:`Draft (Never Published)` or
-        :ref:`Draft (Unpublished Changes)` that would be available to learners
+        see content that has a status of :ref:`Draft Never Published` or
+        :ref:`Draft Unpublished Changes` that would be available to learners
         who are in the specified enrollment track.
 
 .. note:: When a unit's state is :ref:`Published and Live`, the preview and
@@ -159,7 +159,7 @@ group would experience it. You can use this view to verify that content
 designed for learners in a specific content group is displaying as intended.
 
 For details about content groups, and about creating and previewing cohort-specific
-content, see :ref:`About Content Groups`, :ref:`Cohorted Courseware Overview`,
+content, see :ref:`About Content Groups`, :ref:`Create Cohort Specific Course Content`,
 and :ref:`Viewing Cohort Specific Courseware`.
 
 .. _Learner in Enrollment Track Group View:

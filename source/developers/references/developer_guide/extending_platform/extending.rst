@@ -78,7 +78,7 @@ ways to extend the platform, starting with the following table.
      - Yes
      - Yes
    * - Usage Data
-     - No (See :doc:`Custom JavaScript`)
+     - No (See :ref:`Custom JavaScript`)
      - No
      - Limited
      - Yes

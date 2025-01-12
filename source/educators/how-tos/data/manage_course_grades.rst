@@ -26,7 +26,7 @@ provides details of each learner's response and of assessments that were
 performed on each response. For details, see :ref:`Generate ORA Report`.
 
 For information about how you establish a grading policy and work with the
-Problem components in your course, see :ref:`Grading Index` or
+Problem components in your course, see :ref:`Set the Grade Range` or
 :ref:`Working with Problem Components`.
 
 .. _Review_grades:
@@ -58,8 +58,7 @@ learners' grades.
      :alt: XML of course assignment types and weights for grading.
 
    In Studio, you define this information by selecting **Settings** and then
-   **Grading**. For more information, see :ref:`Configure the Assignment
-   Types`.
+   **Grading**. For more information, see :ref:`Gradebook Assignment Types`.
 
    .. image:: /_images/educator_how_tos/Grading_Configuration_Studio.png
      :alt: Studio example of homework assignment type and grading weight.

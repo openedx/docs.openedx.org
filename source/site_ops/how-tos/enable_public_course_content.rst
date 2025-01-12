@@ -46,13 +46,13 @@ in two different ways:
 * Create a normal waffle flag to enable this flag for all courses. For more
   information, see the `Waffle documentation`_.
 
-  .. image:: ../Images/site_ops_how_tos/enable_anonymous_courseware_access.png
+  .. image:: /_images/site_ops_how_tos/enable_anonymous_courseware_access.png
          :alt: Setting a waffle flag in the Django LMS Admin.
 
 * Create a **Waffle flag course override** with the ID of a course to enable 
   this flag for just that course.  
 
-  .. image:: ../Images/site_ops_how_tos/course_enable_anonymous_courseware_access.png
+  .. image:: /_images/site_ops_how_tos/course_enable_anonymous_courseware_access.png
          :alt: Setting a waffle flag in the Django LMS Admin.
 
 *************************************

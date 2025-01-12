@@ -10,8 +10,7 @@ You can add content in the course outline by creating a new section,
 subsection, or unit, or by duplicating an existing unit, subsection, or
 section.
 
-For information about adding content to a unit, see :ref:`Developing Course
-Components`.
+For information about adding content to a unit, see :ref:`What is a Component`.
 
 .. the following note is for prerequisite exams, which are currently released in open edx only and not on edx.org.  when they are available on edx.org, this note should no longer be conditionalized.
 

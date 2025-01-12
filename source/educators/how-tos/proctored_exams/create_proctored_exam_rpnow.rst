@@ -52,9 +52,8 @@ steps.
    to allow for the exam as HH:MM, where HH is hours and MM is minutes.
 
 #. (optional) For a proctored exam, in the **Review Rules** field, enter any
-   additions or exceptions to the :ref:`default rules for proctored exams<CA
-   Online Proctoring Rules>`. For more information, see
-   :ref:`specifying_exam_rules_and_exceptions`.
+   additions or exceptions to the :ref:`default rules for proctored exams<Online Proctoring Rules>`. 
+   For more information, see :ref:`specifying_exam_rules_and_exceptions`.
 
 #. Select **Save**.
 

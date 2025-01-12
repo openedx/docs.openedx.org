@@ -140,6 +140,8 @@
 
 .. _submission_mixin.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/xblock/submission_mixin.py
 
+.. _Configuring ORA2 to Prohibit Submission of File Types: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/ora2/ora2_blacklist.html
+
 .. _edx-platform: https://github.com/openedx/edx-platform
 
 .. _configuration: https://github.com/openedx/configuration
@@ -480,6 +482,10 @@
 
 .. _News About edX Certificates: http://blog.edx.org/news-about-edx-certificates?track=blog
 
+.. _Enable Certificates: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_certificates.html
+
+.. _Enable Automatic Certificate Generation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_certificates.html#enable-automatic-certificate-generation
+
 .. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`
 
 .. _edX Programs: https://www.edx.org/course?program=all
@@ -647,6 +653,8 @@
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 
 .. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
+
+.. _Installing, Configuring, and Running the Open edX Platform: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/index.html
 
 
 .. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html

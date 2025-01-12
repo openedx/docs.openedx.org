@@ -56,7 +56,7 @@ The following information summarizes whether or not learners can see a unit.
 * If the publishing status is `Published and Live`_, learners see the current
   version of the unit.
 
-* If the publishing status is `Draft (Unpublished Changes)`_, learners see the
+* If the publishing status is `Draft Unpublished Changes`_, learners see the
   last published version of the unit if the :ref:`release dates<Release Dates>`
   for the containing section and subsection have passed.
 

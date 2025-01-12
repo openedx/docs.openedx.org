@@ -21,8 +21,7 @@ The numbers represent the following levels.
 #. :ref:`Units<Developing Course Units>`
 
 .. note::
-    The **Course Outline** page does not show :ref:`components<Developing
-    Course Components>`. You add or access components by selecting the units
+    The **Course Outline** page does not show :ref:`components<What is a Component>`. You add or access components by selecting the units
     that contain the components.
 
 ===========================

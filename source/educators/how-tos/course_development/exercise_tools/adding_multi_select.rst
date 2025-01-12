@@ -137,7 +137,7 @@ advanced editor. In the setting panels on the right of the editor, click
 **Switch to advanced editor**.
 
 You can use the advanced editor to identify the elements of a multi-select problem
-with OLX. For more information, see :ref:`Multi-select Problem XML`. To format equations,
+with OLX. For more information, see :ref:`Multi select Problem XML`. To format equations,
 you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 
 You can see the OLX for the example problem from the Overview section below.

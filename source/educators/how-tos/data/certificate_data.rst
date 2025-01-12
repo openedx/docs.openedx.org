@@ -49,7 +49,7 @@ To download certificate data, follow these steps.
 
  :ref:`Setting Up Certificates`
 
- :ref:`Checking Student Progress and Issuing Certificates`
+ :ref:`Issuing Certificates`
 
  :ref:`Columns in the Certificate Report` (reference)
 

@@ -374,7 +374,7 @@ steps, and make it available only to the members of one or more specific
 cohorts. For the members of the remaining cohorts, you create an ORA assignment
 that has only the peer assessment step. For details about creating different
 course experiences for learners in different cohorts, see
-:ref:`Cohorted Courseware Overview <cohorts overview>`.
+:ref:`Create Cohort Specific Course Content <cohorts overview>`.
 
 For details about performing grading in staff assessment steps, see
 :ref:`Perform a Staff Assessment`.
@@ -710,8 +710,7 @@ change.
 
 This set of file name extensions is provided as the default for Open edX
 installations. Open edX system administrators can update this list. For more
-information, see
-:ref:`Configuring ORA2 to Prohibit Submission of File Types <configuring ora2 to prohibit submission of file types>`.
+information, see `Configuring ora2 to prohibit submission of file types`_.
 
 .. list-table::
    :widths: 15 75

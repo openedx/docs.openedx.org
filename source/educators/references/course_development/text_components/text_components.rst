@@ -1,10 +1,8 @@
-.. _Working with Text Components:
-
-.. tags:: educator, reference
-
 .. this is the old name of this section, left here so that frozen Maple
     projects will resolve the reference:
 .. _Working with HTML Components:
+
+.. _Working with Text Components:
 
 ############################
 About Text Components

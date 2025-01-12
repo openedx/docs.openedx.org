@@ -240,6 +240,6 @@ LTI URLs for Text components include "html+block" or "html", as follows.
 
  :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Example: edX as an LTI Provider to Blackboard Provider <Open edX as an LTI Provider to Blackboard>` (reference)
 
 

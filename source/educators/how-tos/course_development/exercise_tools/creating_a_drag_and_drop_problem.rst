@@ -59,7 +59,7 @@ To create a drag and drop problem, follow these steps.
 
      dialog box.
 
-.. _changing_visual_style_of_drag_and_drop_problem:
+.. _Styling Drag and Drop Problems:
 
 ****************************************************
 Changing the Visual Style of a Drag and Drop Problem
@@ -77,7 +77,7 @@ edit a drag and drop problem.
   You can develop a Python programming language module and include a custom
   Cascading Style Sheet (CSS) file for drag and drop problems in your Open edX
   site. For more information, see
-  :ref:`styling_drag_and_drop_problems`.
+  :ref:`Styling Drag and Drop Problems`.
 
 
 .. seealso::
