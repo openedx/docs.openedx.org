@@ -1,6 +1,5 @@
 .. _Managing Divided Discussion Topics:
 
-###################################
 Managing Divided Discussion Topics
 ###################################
 
@@ -21,7 +20,6 @@ Discussions`.
   :local:
   :depth: 1
 
-*********
 Overview
 *********
 
@@ -30,11 +28,6 @@ indicator of who can read it: either all learners, or only the members of a
 particular group. For learners, this is the only noticeable difference between
 discussions in courses that use divided discussions, and courses that do not
 have groups and do not use divided discussions.
-
-You can share the examples in the :ref:`Read the Group Indicator in Posts`
-section with your learners. The `course discussions index`_
-section in the *Open edX Learner's Guide* also provides useful information to
-help learners make the most of their participation in course discussions.
 
 Course team members who have the Discussion Admin, Discussion Moderator,
 Community TA or Group Community TA role see the indicator of who can read each
@@ -145,7 +138,7 @@ Community TA role can make posts to divided discussion topics visible to
 everyone who is enrolled in the course or only to the members of a specified
 group.
 
-If you are a course team member with one of these roles, when you `add a post`_, the **Visible to** dropdown list appears above the **Title**
+If you are a course team member with one of these roles, when you add a post, the **Visible to** dropdown list appears above the **Title**
 field.
 
 .. note:: Group Community TAs cannot choose the group visibility of a post.
@@ -229,3 +222,12 @@ posts that the members of that group see.
 
 For other options that you can use to view posts, see
 :ref:`Moderating_discussions`.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Guidance for Discussion Moderators` (concept)
+
+ :ref:`Assigning_discussion_roles` (how-to)
+
+ :ref:`Administer Discussions` (how-to)

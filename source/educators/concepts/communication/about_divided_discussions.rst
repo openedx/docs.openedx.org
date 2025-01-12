@@ -1,6 +1,5 @@
 .. _About Divided Discussions:
 
-###################################
 About Divided Discussion Topics
 ###################################
 
@@ -19,7 +18,6 @@ For more information about creating differentiated course content for learners
 in different groups (cohorts), see :ref:`Offering Differentiated Content`.
 
 
-******************************
 What Are Divided Discussions?
 ******************************
 

@@ -1,8 +1,7 @@
 .. _What is LMS:
 
-****************
 What Is the LMS?
-****************
+#################
 
 .. tags:: educator, concept
 
@@ -15,10 +14,16 @@ If you have not created a course, see :ref:`Creating a New Course<Creating a New
 
 #. On the **Course Outline** page, select **View Live**.
 
-   Your course enrollment page opens in a new browser tab.
-
-#. Select **Enroll** to enroll in your course. After you enroll in your course,
-   it opens in the LMS.
+#. After clicking **View Live**, the course opens in the LMS page.
 
 To continue working on your course, return to the browser tab that shows
 Studio.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Course Outline` (concept)
+
+ :ref:`What is Studio` (concept)
+
+ :ref:`What is Course Dashboard` (concept)

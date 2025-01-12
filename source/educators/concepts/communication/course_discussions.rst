@@ -5,7 +5,7 @@ About Course Discussions
 
 .. tags:: educator, concept
 
-Discussions in an edX course include both course-wide topics of interest to
+Discussions in an Open edX course include both course-wide topics of interest to
 all learners (such as "Feedback", "Troubleshooting", or "Technical Help") as
 well as content-specific topics that you add to course units as discussion
 components. You can create both types of discussion topics in Studio.
@@ -31,13 +31,13 @@ the course has started and the unit is released.
 However, "seed" posts that you create in content-specific discussion topics
 before a course starts, or before the unit is released, are immediately visible
 on the Discussion page, even though the containing category or subcategory
-names are not visible. EdX recommends that you do not create posts in
+names are not visible. The recommendation is that you do not create posts in
 content-specific discussion topics before a unit is released. For more
 information about release dates and the visibility of components, see
 :ref:`Controlling Content Visibility`.
 
 In contrast, :ref:`course-wide discussion topics<Create CourseWide Discussion
-Topics>` that you create on the edx discussions configuration page in Studio,
+Topics>` that you create on the course discussions configuration page in Studio,
 including the default "General" discussion topic, are immediately visible,
 regardless of whether the course has started. They are not associated with any
 particular section or subsection of the course, and are not subject to
@@ -45,16 +45,16 @@ release dates.
 
 .. _Discussions on Mobile Apps:
 
-Discussions in the edX Mobile App
-*********************************
+Discussions in the Open edX Mobile App
+***************************************
 
-Learners can participate in course discussions using the edX mobile app as
-they do on the edX site, but there are some differences in the actions that
+Learners can participate in course discussions using the Open edX mobile app of your instance as
+they do on the website, but there are some differences in the actions that
 moderators can take in discussions using the mobile app. To perform moderation
 or administrative tasks for your course discussions, you need to work in a web
 browser.
 
-The following actions are not supported on the edX mobile apps.
+The following actions are not supported on the Open edX mobile apps.
 
   * Pinning posts
   * Marking responses to question posts as answers
@@ -63,20 +63,19 @@ The following actions are not supported on the edX mobile apps.
 
 .. _The Upgraded Discussion Forum:
 
-*****************************************
 The Upgraded Discussion Forum
 *****************************************
 
 Course runs created on or after May 16, 2023, use an upgraded version of
-the edX discussion forum. Learn more about it `here`_. 
+the Open edX discussion forum. Learn more about it `here`_. 
 
 .. _here: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3470655498/Discussions+upgrade+Sidebar+and+new+topic+structure.
 
 .. _Content Specific Discussion Topics:
 
-============================================
+
 Content-specific Discussion Topics (Legacy)
-============================================
+********************************************
 
 To create a content-specific discussion topic, you add a discussion component
 to a unit. Typically, you do this while you are designing and creating your
@@ -104,4 +103,4 @@ topics, see :ref:`Visibility of Discussion Topics`.
 .. seealso::
  :class: dropdown
 
- :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Configuring Open edX Discussions` (how-to)

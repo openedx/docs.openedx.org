@@ -1,6 +1,7 @@
-#######################################
+.. _What is the Programs Page:
+
 What is the Programs Page?
-#######################################
+#############################
 
 .. tags:: educator, concept
 
@@ -29,3 +30,16 @@ On the **Programs** page, you can perform the following actions.
   In the right pane, a **Program Certificates** list shows the names of
   programs for which you have earned certificates. For more information about
   the program, or to view the certificate, select the name of the program.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`What is Course Dashboard` (concept)
+
+ :ref:`What is LMS` (concept)
+
+ :ref:`What is Studio` (concept)
+
+ :ref:`Course Outline` (concept)
+
+ :ref:`What is the User Profile Page` (concept)
