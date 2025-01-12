@@ -6,21 +6,21 @@ Configuring Open edX Discussions
 
 .. tags:: educator, how-to
 
-For opening Open edX discussions configuration page, follow these steps.
+To open the Open edX discussions configuration page, follow these steps.
 
 1. Open your course in Studio.
 
 2. Select **Content**, then **Pages & Resources**.
 
-3. Click on the gear icon on top-right of **Discussion** tile (as seen below).
-This will take you to the discussions configuration page where you can select
+3. Click on the gear icon on the top-right of the **Discussion** tile (as seen below).
+This will take you to the discussions configuration page, where you can select
 a discussion provider.
 
 .. image:: /_images/educator_how_tos/Discussion_tile_in_pages_and_resources.png
   :width: 300
   :alt: Appearance of Discussion tile in Pages & Resources.
 
-4. Select Open edX as discussion provider by checking the box on top-right of **Open edX**
+4. Select Open edX as the discussion provider by checking the box on the top-right of **Open edX**
 tile. Click Next.
 
 .. image:: /_images/educator_how_tos/Tile_for_edx_discussion_provider.png
@@ -129,6 +129,7 @@ discussion sidebar visible alongside the course unit.
   :width: 300
   :align: center
   :alt: Toggle switches for anonymous posts in Open edX discussions configuration.
+
 To disable discussion for a unit, uncheck the **Discussion enabled** checkbox in the
 unit’s configuration and click **Save**.
 
