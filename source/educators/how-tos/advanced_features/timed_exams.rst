@@ -6,6 +6,10 @@ Configure Timed Exams
 
 .. tags:: educator, how-to
 
+.. contents::
+  :local:
+  :depth: 1
+
 *******************
 Enable Timed Exams
 *******************
@@ -18,7 +22,7 @@ is set to be a "timed" exam, and set it to "none".
 
    The **Enable Timed Exams** field is now deprecated in the
    **Advanced Settings** page. If you want to access the field, you'll need
-   to click on the "Show Deprecated Settings" button on the **Advanced Settings**
+   to click on the **Show Deprecated Settings** button on the **Advanced Settings**
    page.
 
 
@@ -45,21 +49,16 @@ steps.
 
 #. Select the **Advanced** tab.
 
-   .. only:: Open_edX
-
-    If the **Settings** dialog box does not contain the **Advanced** tab, timed
-    exams might not be enabled for your Open edX site. Enabling timed exams for
-    an Open edX site is a task that is usually performed by a system
-    administrator. For more information, see :ref:`Enable Timed
-    Exams` in *Installing, Configuring, and Running the Open edX Platform*.
+   If the **Settings** dialog box does not contain the **Advanced** tab, timed
+   exams might not be enabled for your Open edX site. Enabling timed exams for
+   an Open edX site is a task that is usually performed by a system
+   administrator.
 
 #. In the **Set as a Special Exam** section, select **Timed**.
 
-   .. only:: Partners
-
-     If your course has the proctored exam feature enabled, the
-     **Advanced** tab also shows options for :ref:`proctored and practice
-     proctored exams<CA_ProctoredExams>`.
+   If your course has the proctored exam feature enabled, the
+   **Advanced** tab also shows options for :ref:`proctored and practice
+   proctored exams<CA_ProctoredExams>`.
 
 #. In the **Time Allotted** field, enter the length of time that you want
    learners to have to complete the problems in the subsection. Enter the time
@@ -104,8 +103,7 @@ extra time to complete a timed or proctored exam.
 
    .. note:: You must enter a whole number greater than 0.
 
-#. Otherwise if you selected **Time Multiplier**, enter the multiplier for how much total time you want the learners to have.
-For example for an exam of 30 minutes, a multiplier of 1.5 will give 15 extra minutes to each learner.
+#. Otherwise if you selected **Time Multiplier**, enter the multiplier for how much total time you want the learners to have. For example for an exam of 30 minutes, a multiplier of 1.5 will give 15 extra minutes to each learner.
 
    .. note:: You must enter a number greater than 1.
 
@@ -127,11 +125,6 @@ can allow them to resume the exam with their answers and time remaining saved.
 .. note::
    This option is only available if a learner's exam attempt is in an **Error**
    state. This can be seen by following the directions below.
-
-.. note::
-   Onboarding and practice exams can be self-service reset by the learner. See
-   `Checking Your Onboarding Status and Resetting Your Onboarding Exam`_ in the
-   edX Help Center.
 
 To allow a learner to resume a timed or proctored exam attempt, follow these
 steps.
@@ -211,4 +204,10 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 #. In the **Subsection Visibility** section, select **Hide content after due date**.
 
 #. Select **Save**.
+
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Timed Exams` (concept)
 

@@ -1,8 +1,7 @@
 .. _Add Poll: 
 
-***************************
-Add a Poll in edX Studio
-***************************
+Add a Poll in Open edX Studio
+##############################
 
 .. tags:: educator, how-to
 
@@ -89,15 +88,15 @@ View Poll Results
 When you view the poll as a course staff member, you can view results of the
 poll inside the course.
 
-Select **View results** in the poll.
+#. Select **View results** in the poll.
 
-.. image:: /_images/educator_how_tos/poll_view_results.png
+ .. image:: /_images/educator_how_tos/poll_view_results.png
     :alt: A poll with the View Results button for course staff.
     :width: 400
 
-The results of the poll are then displayed.
+#. The results of the poll are then displayed.
 
-.. image:: /_images/educator_references/poll_with_results.png
+ .. image:: /_images/educator_references/poll_with_results.png
     :alt: A poll showing results after the learner has submitted a response.
     :width: 400
 
