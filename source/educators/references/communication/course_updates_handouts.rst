@@ -1,6 +1,5 @@
 .. _Adding Course Updates and Handouts:
 
-##################################
 Adding Course Updates and Handouts
 ##################################
 
