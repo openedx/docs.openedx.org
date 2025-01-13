@@ -38,7 +38,7 @@ To add a custom page and its content to your course, follow these steps.
     To add HTML tags to your content, select HTML to open the :ref:`the raw HTML editor<The Raw HTML Editor>`.
     For more information about entering content, see :ref:`Options for Editing Text Components`.
 
-    .. note:: If you copy text from another source and paste it into the visual editor,be sure to proofread the result carefully. Some applications automatically change quotation marks and apostrophes from the “straight” version to the “smart” or “curly” version. The raw HTML editor requires “straight” quotation marks and apostrophes.
+    .. note:: If you copy text from another source and paste it into the visual editor, be sure to proofread the result carefully. Some applications automatically change quotation marks and apostrophes from the “straight” version to the “smart” or “curly” version. The raw HTML editor requires “straight” quotation marks and apostrophes.
 
 #. To rename the page, select Settings, and then enter a Display Name. The display name is the label that course participants use in the course navigation bar.
 #. To hide the page from learners, select **Settings**, and then select true for **Hide Page from Learners**. By default, pages are visible to learners.
