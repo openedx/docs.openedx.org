@@ -1,6 +1,6 @@
 .. _Reordering and deleting custom pages:
 
-Reordering and Deleting Custom Pages
+Reorder and Delete Custom Pages
 #####################################
 
 For instructions on how to add custom pages see :ref:`Add Custom Page`.
