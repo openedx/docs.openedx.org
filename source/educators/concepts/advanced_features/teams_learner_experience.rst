@@ -1,9 +1,7 @@
 .. _CA Learner Experience of Teams:
 
-
-##########################################
 The Learner's Experience of Teams
-##########################################
+#################################
 
 .. tags:: educator, concept
 
@@ -15,14 +13,12 @@ within topics. Each learner can belong to only one team.
   :local:
   :depth: 1
 
-***********************************
 Browsing Teams by Topic
-***********************************
+***********************
 
 On the **Teams** page in the LMS, learners in your course can browse topics to
 find a subject that they are interested in collaborating on. Learners can sort
 topics alphabetically by name, or by the number of teams in a topic.
-
 
 .. image:: /_images/educator_concepts/Teams_TopicArrowButton.png
   :width: 500
@@ -51,10 +47,8 @@ identify with. While they are browsing teams, learners can read any team's
 discussion posts, but they cannot add posts to a team's discussion forum
 unless they join that team.
 
-
-*************************************
 Joining, Creating, or Leaving a Team
-*************************************
+************************************
 
 When learners find a team that they want to join, they select **Join Team**
 and are immediately added to the team membership.
@@ -76,7 +70,7 @@ Learners specify a name and description for their team, and optionally specify
 a country and language that team members identify with. A learner who creates
 a team automatically becomes a member of the new team.
 
-.. note:: EdX recommends that you encourage learners to join existing teams
+.. note:: The recommendation is to encourage learners to join existing teams
    before they create new teams.
 
 .. note:: Because course staff who have the role of Admin, Discussion Moderator,
@@ -92,10 +86,8 @@ they have left.
 
 .. Add back Invite Others when available
 
-
-*************************************
 Participating in Team Discussions
-*************************************
+*********************************
 
 Only members of a team (or anyone with a discussion administrator, discussion
 moderator, or community TA role) can post to a team's discussion forum. Any

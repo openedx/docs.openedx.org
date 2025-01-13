@@ -1,8 +1,7 @@
 .. _CA_Teams_Overview:
 
-***************
 Teams Overview
-***************
+##############
 
 .. tags:: educator, concept
 
