@@ -1,6 +1,6 @@
 .. _Editing Text Input Problems using the Advanced Editor:
 
-Editing Text Input Problems using the Advanced Editor
+Edit Text Input Problems using the Advanced Editor
 #####################################################
 
 .. tags:: educator, how-to
