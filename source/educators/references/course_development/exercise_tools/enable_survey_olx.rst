@@ -1,8 +1,7 @@
 .. _Enable Survey OLX:
 
-======================================
 Enable the Survey Tool in OLX
-======================================
+################################
 
 .. tags:: educator, reference
 
@@ -22,7 +21,6 @@ For example, the following XML code enables the survey tool.
       ...
   </course>
 
-***************************
 Add a Survey in OLX
 ***************************
 
@@ -69,9 +67,9 @@ The following example shows the OLX definition for a survey with two questions.
             ]"
   />
 
-==========================
+
 survey Element Attributes
-==========================
+**************************
 
 The following table describes the attribute of the ``survey`` element.
 
