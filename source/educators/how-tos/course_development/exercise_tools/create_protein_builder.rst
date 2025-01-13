@@ -1,8 +1,7 @@
 .. _Protein Builder:
 
-############################
 Protex Protein Builder Tool
-############################
+###########################
 
 .. tags:: educator, how-to
 
@@ -16,9 +15,8 @@ a simple line.
 
 .. _Create the Protein Builder:
 
-********************************
 Create the Protein Builder Tool
-********************************
+*******************************
 
 To create the protein builder, follow these steps.
 
@@ -31,7 +29,6 @@ To create the protein builder, follow these steps.
 
 .. _Protein Builder Code:
 
-*************************
 Protein Builder Tool Code
 *************************
 
@@ -102,3 +99,12 @@ In this code:
        - W
        - Y
        - V
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Chemical Equation` (how-to)
+
+ :ref:`Custom JavaScript` (reference)
+
+ :ref:`Gene Explorer` (reference)
