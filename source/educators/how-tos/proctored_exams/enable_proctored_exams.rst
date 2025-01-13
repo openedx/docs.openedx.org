@@ -1,8 +1,7 @@
 .. _Enable Proctored Exams:
 
-########################################
 Enable Proctored Exams
-########################################
+######################
 
 .. tags:: educator, how-to
 
@@ -21,10 +20,8 @@ To enable proctored exams in your course, follow these steps.
 
 #. Select **Submit**. You can now create proctored exams in your course.
 
-
-*****************************************
 Configuring Proctoring Provider
-*****************************************
+*******************************
 
 The choice of proctoring provider can be configured. Since Fall 2019,
 the default proctoring provider is **RPNow** by PSI.  To use

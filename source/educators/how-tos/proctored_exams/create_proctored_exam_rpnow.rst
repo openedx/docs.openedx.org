@@ -1,6 +1,5 @@
 .. _Create a Proctored Exam with RPNow:
 
-##################################
 Create a Proctored Exam with RPNow
 ##################################
 
@@ -11,14 +10,14 @@ exam or a practice exam using your choice of either RPNow or Proctortrack.
 To create a proctored exam or a practice proctored exam for RPNow, follow these
 steps.
 
-  .. note::
-    Practice proctored exams are visible to all learners, regardless of
-    enrollment track.
+.. note::
+   Practice proctored exams are visible to all learners, regardless of
+   enrollment track.
 
 #. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
    would any other subsection.
 
-   For a practice proctored exam, edX recommends that you include only a few
+   For a practice proctored exam, it is recommended that you include only a few
    problems in this subsection. Or, you could add a unit with a text component
    that provides information about the exam.
 
@@ -52,21 +51,20 @@ steps.
    to allow for the exam as HH:MM, where HH is hours and MM is minutes.
 
 #. (optional) For a proctored exam, in the **Review Rules** field, enter any
-   additions or exceptions to the :ref:`default rules for proctored exams<CA
-   Online Proctoring Rules>`. For more information, see
+   additions or exceptions to the :ref:`default rules for proctored exams
+   <Online Proctoring Rules>`. For more information, see
    :ref:`specifying_exam_rules_and_exceptions`.
 
 #. Select **Save**.
 
 .. _specifying_exam_rules_and_exceptions:
 
-*********************************
 Specify Exam Rules and Exceptions
 *********************************
 
 By default, reviewers evaluate exam attempts according to a standard set of
-:ref:`online proctoring rules <CA Online Proctoring Rules>` that the
-proctoring service has provided.
+:ref:`online proctoring rules <Online Proctoring Rules>` that the proctoring
+service has provided.
 
 .. note::
   The course grace period setting does not apply to proctored exams. For more
@@ -79,11 +77,10 @@ exam.
 
 To specify custom proctored exam rules, follow these steps.
 
-  .. note::
-
-    Your additional rules must be clear, specific, and easy to understand so
-    that reviewers do not incorrectly review a learner’s exam. Use simple
-    sentences and words for a global English speaking audience.
+.. note::
+   Your additional rules must be clear, specific, and easy to understand so
+   that reviewers do not incorrectly review a learner's exam. Use simple
+   sentences and words for a global English speaking audience.
 
 #. In Studio, open your course outline and select the subsection for the exam.
 

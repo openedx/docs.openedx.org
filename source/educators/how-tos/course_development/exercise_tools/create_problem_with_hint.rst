@@ -1,8 +1,7 @@
 .. _Problem with Adaptive Hint:
 
-################################
 Problem with Adaptive Hint
-################################
+##########################
 
 .. tags:: educator, how-to
 
@@ -14,9 +13,8 @@ input problems or single select problems.
 .. image:: /_images/educator_how_tos/ProblemWithAdaptiveHintExample.png
  :alt: Image of a problem with an adaptive hint
 
-******************************************
 Create a Problem with an Adaptive Hint
-******************************************
+**************************************
 
 To create the problem illustrated above, follow these steps.
 
@@ -66,4 +64,3 @@ To create the problem illustrated above, follow these steps.
  :class: dropdown
 
  :ref:`Problem with Adaptive Hint XML` (reference)
-

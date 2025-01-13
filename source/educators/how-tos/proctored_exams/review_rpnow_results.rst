@@ -1,8 +1,7 @@
 .. _Review RP Proctored Session Results:
 
-############################################
-Viewing Proctored Session Results with RPNow
-############################################
+View Proctored Session Results with RPNow
+#########################################
 
 .. tags:: educator, how-to
 
@@ -27,7 +26,6 @@ sections.
 
 .. _Viewing RPNow Proctored Session Results:
 
-*********************************************
 Download the Proctored Exam Results Report
 *********************************************
 
@@ -81,7 +79,6 @@ steps.
 
 .. _Determine if Learner Passed RPNow Proctoring Review:
 
-*******************************************************
 Determine if a Learner Passed the Proctored Exam Review
 *******************************************************
 
@@ -89,7 +86,6 @@ To determine whether a specific learner passed the proctored exam review, you
 can either view the Proctored Session Results report or view the course as the
 learner.
 
-=========================================
 View the Proctored Session Results Report
 =========================================
 
@@ -101,7 +97,6 @@ View the Proctored Session Results Report
      learner automatically receives a score of 0 on the exam. Additionally, for
      most courses, the learner is no longer eligible for academic credit.
 
-==============================
 View the Course as the Learner
 ==============================
 

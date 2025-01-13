@@ -1,15 +1,14 @@
 .. _Review PT Proctored Session Results:
 
-###################################################
-Viewing Proctored Session Results with Proctortrack
-###################################################
+View Proctored Session Results with Proctortrack
+################################################
 
 .. tags:: educator, how-to
 
 To review individual violation videos and screenshots, follow these steps:
 
-#. In the LMS, open the Proctortrack Review Dashboard by navigating to the **edX Instructor Dashboard**
-   -> **Special Exams** tab -> **Review Dashboard**.
+#. In the LMS, open the Proctortrack Review Dashboard by navigating to the **Instructor Dashboard**
+   > **Special Exams** tab > **Review Dashboard**.
 
 #. The Verificient **Proctortrack Review Dashboard** will load inline in the LMS.
 
@@ -19,7 +18,7 @@ To review individual violation videos and screenshots, follow these steps:
 
 #. Review all learners who are flagged as “Require Attention” as follows.
 
-#. To review an individual learner’s session, click on the learner’s name to pop out
+#. To review an individual learner's session, click on the learner's name to pop out
    their detailed exam results in a new tab. Here you can review their exam data, including Video
    Monitoring, Online Violations, Verification scans, and Onboarding tabs to understand what infractions
    (if any) were flagged as suspicious
@@ -53,9 +52,8 @@ sections.
 
 .. _Viewing PT Proctored Session Results:
 
-*********************************************
 Download the Proctored Exam Results Report
-*********************************************
+******************************************
 
 At any time after learners have taken the proctored exam in your course, you
 can download a .csv file that displays the current status of the proctoring
@@ -106,7 +104,6 @@ steps.
 
 .. _Determine if Learner Passed Proctoring Review:
 
-*******************************************************
 Determine if a Learner Passed the Proctored Exam Review
 *******************************************************
 
@@ -114,7 +111,6 @@ To determine whether a specific learner passed the proctored exam review, you
 can either view the Proctored Session Results report or view the course as the
 learner.
 
-=========================================
 View the Proctored Session Results Report
 =========================================
 
@@ -126,7 +122,6 @@ View the Proctored Session Results Report
      learner automatically receives a score of 0 on the exam. Additionally, for
      most courses, the learner is no longer eligible for academic credit.
 
-==============================
 View the Course as the Learner
 ==============================
 
