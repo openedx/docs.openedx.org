@@ -31,7 +31,7 @@ To create the duplicate course, follow these steps.
 Verify Content Status
 *******************************
 
-Only the published course content appears in an external LMS of your Open edX instance.
+Only the published course content from your Open edX instance appears in an external LMS.
 
 .. note:: The **Hide from students** setting for sections, subsections,
  and units does not affect the visibility of content in an external LMS. Only
