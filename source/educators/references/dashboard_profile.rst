@@ -32,5 +32,3 @@ menu options.
  :ref:`Course Outline` (concept)
 
  :ref:`What is Studio` (concept)
-
- :ref:`What is Course Dashboard` (concept)
