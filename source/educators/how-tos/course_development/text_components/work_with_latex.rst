@@ -7,9 +7,7 @@ Work with LaTeX Code
 
 
 .. note:: LaTeX editor support was removed with the rollout of
-the new Course Authoring based Text Editor.
-
-
+the new Course Authoring-based Text Editor.
 
 .. ==========================
 .. Enable the LaTeX Processor
