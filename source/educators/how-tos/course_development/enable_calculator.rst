@@ -1,6 +1,6 @@
 .. _Enable Calculator:
 
-Enabling the Calculator Resource
+Enable the Calculator Resource
 #################################
 
 .. tags:: educator, how-to
