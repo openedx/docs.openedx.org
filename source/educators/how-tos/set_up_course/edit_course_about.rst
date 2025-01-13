@@ -8,7 +8,7 @@ Edit a Course
 
 After you create a course, the course opens in Studio automatically and you can
 begin editing. Your next steps might include adding other :ref:`course team
-members<Add Course Team Members>`, setting the course :ref:`start and end
+members<Add Course Staff>`, setting the course :ref:`start and end
 dates<Scheduling Your Course>`, or developing the :ref:`course
 outline<Developing Your Course Outline>`.
 

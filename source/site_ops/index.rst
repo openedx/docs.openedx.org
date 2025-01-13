@@ -4,7 +4,7 @@ Open edX Site Operators
 .. note::
 
    This area is still under active development.  You can find the old
-   documentation here: :doc:`edx-installing-configuring-and-running:index`
+   documentation here: `Installing, Configuring, and Running the Open edX Platform`_
 
    For information about the latest release of the Open edX Platform, you can
    check out the  :doc:`/community/release_notes/index`

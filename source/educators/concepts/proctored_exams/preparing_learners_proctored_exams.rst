@@ -15,8 +15,7 @@ To prepare learners for a proctored exam, follow these guidelines:
 * Explain what proctored exams are, and provide learners with links to the
   `OE SFD Proctored Exams`_ topic in the *Open edX
   Learner’s Guide*.
-* Communicate the rules for proctored exams, including the :ref:`online
-  proctoring rules<CA Online Proctoring Rules>` in the *Open edX Learner’s
+* Communicate the rules for proctored exams, including the :ref:`Online Proctoring Rules` in the *Open edX Learner’s
   Guide* as well as any specific rules for a particular exam. For information
   about creating specific rules, see
   :ref:`specifying_exam_rules_and_exceptions`.

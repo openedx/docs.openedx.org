@@ -85,6 +85,8 @@ that site. Keep the following guidelines in mind.
 
   :ref:`Troubleshoot Videos` (reference)
 
+  :ref:`Video Guidelines` (reference)
+
   :ref:`Create a Video` (how-to)
 
   :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)

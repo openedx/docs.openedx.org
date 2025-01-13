@@ -10,7 +10,7 @@ Proctored exams are timed exams that learners take while online proctoring
 software monitors their computer, environment, and behavior. When learners
 complete a proctored exam, the recording of the exam is examined to
 determine whether the learner complied with the :ref:`online proctoring rules
-<CA Online Proctoring Rules>`.
+<Online Proctoring Rules>`.
 
 Learners must be in the verified enrollment track to take a proctored exam.
 

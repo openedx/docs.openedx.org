@@ -47,8 +47,6 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 #. Select **Save**.
 
-For more information, see :ref:`Grading Index`.
-
 .. _Problem Results Visibility:
 
 *********************************
@@ -72,7 +70,7 @@ The **Assessment Results Visibility** setting can be used with the following
 common problem types.
 
 * :ref:`Dropdown`
-* :ref:`Multi-select`
+* :ref:`Multi select`
 * :ref:`Numerical Input`
 * :ref:`Single Select`
 * :ref:`Text Input`

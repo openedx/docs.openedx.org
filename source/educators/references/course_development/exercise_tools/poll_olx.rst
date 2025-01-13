@@ -58,7 +58,7 @@ Create a Poll
    **Unit Location**.
 
 #. Export your course. For information about how to do this, see
-   :ref:`Exporting and Importing a Course`. Save the .tar.gz file that contains
+   :ref:`Export a Course`. Save the .tar.gz file that contains
    your course in a memorable location so that you can find it easily.
 
 #. Locate the .tar.gz file that contains your course, and then unpack the

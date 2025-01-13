@@ -37,6 +37,8 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
+.. _Use Feedback in a Numerical Input Problems:
+
 ===================
 Adding Feedback
 ===================

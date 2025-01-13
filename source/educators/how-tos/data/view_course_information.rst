@@ -34,7 +34,7 @@ To view this course data, follow these steps.
    * **Course Run**: Specified when you create the course. Becomes part of the
      course URL, and cannot be changed.
    * **Course Number**: Specified when you create the course. Becomes part of
-     the course URL. For more information, see :ref:`Course Number Guidelines`.
+     the course URL. For more information, see :ref:`Creating Number Guidelines`.
    * **Organization**: Specified when you create the course. Becomes part of
      the course URL, and cannot be changed.
    * **Course Start Date**: The date and time that the course is scheduled to

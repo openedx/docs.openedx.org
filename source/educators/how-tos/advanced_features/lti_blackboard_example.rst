@@ -35,7 +35,7 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
      :alt: The Blackboard Create Web Link page with example name and URL
          values.
 
-   For more information, see :ref:`Determining Content Addresses`.
+   For more information, see :ref:`Determine Content Addresses`.
 
 #. Review the content to verify that it appears as you expect.
 
@@ -54,4 +54,4 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
 
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
+ :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)

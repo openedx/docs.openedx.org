@@ -9,8 +9,7 @@ Add Content in the Course Outline
 You can add content in the course outline by creating a new section,
 subsection, or unit, or by duplicating an existing unit, subsection, or section.
 
-For information about adding content to a unit, see :ref:`Developing Course
-Components`.
+For information about adding content to a unit, see :ref:`What is a Component`.
 
   .. note::
     If you want to require an entrance exam for your course, you also create
@@ -159,7 +158,7 @@ You are prompted to confirm the deletion.
  
  :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
  
- :ref:`Resources for Course Teams` (reference)
+ :ref:`Resources for Open edX Course Teams` (reference)
  
  :ref:`Resources for Open edX` (reference)
  

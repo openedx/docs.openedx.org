@@ -132,7 +132,7 @@ Transcript
 
     * - **Transcript Languages**
       - The transcript files for any additional languages. For more
-        information, see :ref:`Transcripts in Additional Languages`.
+        information, see :ref:`Transcripts in Additional Languages<Add a Transcript>`.
 
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow learners to download the .srt or
@@ -240,6 +240,8 @@ License
   :ref:`Add a Video` (how-to)
 
   :ref:`Troubleshoot Videos` (reference)
+
+  :ref:`Video Guidelines` (reference)
 
   :ref:`Create a Video` (how-to)
 

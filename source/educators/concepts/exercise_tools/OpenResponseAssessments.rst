@@ -18,7 +18,7 @@ assessment) to complete the assignment.
    an open response assessment divided by cohort, you must create that
    assessment in a course component that is defined as cohort-specific. For  more
    information about cohorts and creating cohort-specific course content, see
-   :ref:`Cohorts Overview <cohorts overview>` and :ref:`Cohorted Courseware Overview <cohorted courseware overview>`.
+   :ref:`Cohorts Overview <cohorts overview>` and :ref:`Offering Differentiated Content to Different Learner Groups <Offering Differentiated Content>`.
 
 The following topics provide conceptual information about open response
 assessments.
@@ -374,7 +374,7 @@ steps, and make it available only to the members of one or more specific
 cohorts. For the members of the remaining cohorts, you create an ORA assignment
 that has only the peer assessment step. For details about creating different
 course experiences for learners in different cohorts, see
-:ref:`Cohorted Courseware Overview <cohorted courseware overview>`.
+:ref:`Create Cohort Specific Course Content <cohorts overview>`.
 
 For details about performing grading in staff assessment steps, see
 :ref:`Perform a Staff Assessment`.
@@ -710,8 +710,7 @@ change.
 
 This set of file name extensions is provided as the default for Open edX
 installations. Open edX system administrators can update this list. For more
-information, see
-:ref:`Configuring ORA2 to Prohibit Submission of File Types <configuring ora2 to prohibit submission of file types>`.
+information, see `Configuring ora2 to prohibit submission of file types`_.
 
 .. list-table::
    :widths: 15 75

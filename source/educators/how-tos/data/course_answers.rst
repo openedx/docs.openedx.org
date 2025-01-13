@@ -368,7 +368,7 @@ called rerandomization), there is one row for each problem-variant-answer
 combination selected by your learners. For more information, see :ref:`Problem
 Settings`.
 
-.. note:: Certain types of problems can be set up to :ref:`award partial credit <Awarding Partial Credit for a Problem>`. When a learner receives either the full or a partial score for a problem, this report includes that answer as correct.
+.. note:: Certain types of problems can be set up to :ref:`award partial credit <Partial Credit>`. When a learner receives either the full or a partial score for a problem, this report includes that answer as correct.
 
 The .csv file contains the following columns.
 
