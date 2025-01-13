@@ -5,9 +5,8 @@ Work with LaTeX Code
 
 .. tags:: educator, how-to
 
+.. note:: LaTeX editor support was removed with the rollout of the new Course Authoring-based Text Editor.
 
-.. note:: LaTeX editor support was removed with the rollout of
-the new Course Authoring-based Text Editor.
 
 .. ==========================
 .. Enable the LaTeX Processor
@@ -72,12 +71,12 @@ the new Course Authoring-based Text Editor.
 .. following image.
 
 .. .. image:: /_images/educator_how_tos/HTML_LaTeX_LMS.png
- :alt: Math formulas created with LaTeX in a Text component.
+.. :alt: Math formulas created with LaTeX in a Text component.
 
 .. .. warning::
- The LaTeX processor that Studio uses to convert LaTeX code to XML is a third
- party tool. We recommend  you use this feature with caution. If you use
- the tool, make sure you work with your partner manager.
+..    The LaTeX processor that Studio uses to convert LaTeX code to XML is a third
+..    party tool. We recommend  you use this feature with caution. If you use
+..    the tool, make sure you work with your partner manager.
 
 .. seealso::
  :class: dropdown
