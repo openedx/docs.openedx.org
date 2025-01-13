@@ -1,6 +1,6 @@
 .. _Enable Wiki:
 
-Enabling the Wiki Application
+Enable the Wiki Application
 ###############################
 
 .. tags:: educator, how-to
