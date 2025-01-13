@@ -1,7 +1,7 @@
 .. _Editing Single Select Problems using the Advanced Editor:
 
-Editing Single Select Problems using the Advanced Editor
-########################################################
+Edit Single Select Problems using the Advanced Editor
+#####################################################
 
 .. tags:: educator, how-to
 

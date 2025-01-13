@@ -1,7 +1,7 @@
 .. _Single Select and Numerical Input:
 
-Single Select and Numerical Input Problem
-#########################################
+Add a Single Select and Numerical Input Problem
+###############################################
 
 .. tags:: educator, how-to
 
