@@ -4,11 +4,11 @@
 Enabling Public Course Content
 ####################################
 
-By default, learners must create an Open edX account, be signed in to the LMS, 
+By default, learners must create an account on your Open edX instance, be signed in to the LMS, 
 and enroll in a course before they can see the course content. The *Public 
 Course Content* feature gives you the option to make either a course outline 
 or course content available to anyone, regardless of whether they have registered 
-for an Open edX account or enrolled in the course. You can decide which courses, 
+for an account on your instance or enrolled in the course. You can decide which courses, 
 and which parts of those courses, that you want to make public. For example, 
 you can:
 
@@ -114,7 +114,7 @@ including the following.
   randomized content blocks, exams, Open Response Assessment, and other XBlocks.
 
 * Unenrolled learners will not see course completion or progress updates as 
-  they proceed through the course, and Open edX doesn't remember where they 
+  they proceed through the course, and the LMS doesn't remember where they 
   left off if they leave the course and come back.
 
-* The edX mobile apps do not support public course content.
+* The Open edX mobile apps do not support public course content.
