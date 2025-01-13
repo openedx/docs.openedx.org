@@ -1,8 +1,7 @@
 .. _RecommenderXBlock:
 
-##################
 Recommender Tool
-##################
+################
 
 .. tags:: educator, how-to
 
@@ -14,9 +13,8 @@ and the learners.
   :local:
   :depth: 2
 
-***********
 Overview
-***********
+********
 
 The most common use of the recommender is for remediation of errors and
 misconceptions, followed by providing additional, more advanced resources.
@@ -54,9 +52,8 @@ assure that they are accessible before making them available through your
 course. For more information, see :ref:`Accessibility Best Practices for Course
 Content Development`.
 
-**************************************************
 Enable the Recommender Tool
-**************************************************
+***************************
 
 Before you can add a recommender component to your course, you must enable the
 recommender tool in Studio.
@@ -66,9 +63,8 @@ the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
 include the quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.
 
-********************************
 Add a Recommender
-********************************
+*****************
 
 To add a recommender to a course, follow these steps.
 
@@ -87,8 +83,9 @@ To add a recommender to a course, follow these steps.
      sees the recommender, there will be a short guided tutorial.
 
    * Whether to disable the user interface functions which are under
-     development. Because these are untested and under development, please leave
-     these disabled unless otherwise advised by edX staff.
+     development. Because these are untested and under development, please
+     leave these disabled unless your Open edX instance requieres another
+     settings.
 
    * How many resources you want to show in each page of the resource list.
 
@@ -99,3 +96,14 @@ To add a recommender to a course, follow these steps.
 #. Select **Save**.
 
 #. Optionally, open the unit in the LMS and suggest some resources.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Notes Tool` (how-to)
+
+ :ref:`Annotation` (how-to)
+
+ :ref:`Calculator` (how-to)
+
+ :ref:`Enable Completion` (how-to)

@@ -1,8 +1,7 @@
 .. _Single Select and Numerical Input:
 
-############################################
-Single Select and Numerical Input Problem
-############################################
+Add a Single Select and Numerical Input Problem
+###############################################
 
 .. tags:: educator, how-to
 
@@ -16,31 +15,29 @@ but also provide more specific information, if necessary.
 .. note::
  Currently, students can only enter numerals in the text field. Students
  cannot enter words or mathematical expressions, which might be confusing to
- students who are accustomed to other edX numerical input fields.
+ students who are accustomed to other Open edX numerical input fields.
 
  You can make a calculator available to your learners on every unit
  page. For more information, see :ref:`Calculator`.
 
 .. _Create an MCNI Problem:
 
-********************************************************
 Create a Single Select and Numerical Input Problem
-********************************************************
+**************************************************
 
 To create a single select and numerical input problem, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem** under
    **Add New Component**.
-#. Clicke ** Advanced problem types**. Then click **Blank Advanced Problem**.
+#. Click in **Advanced problem types**. Then click **Blank Advanced Problem**.
 #. In the component editor, paste the code from below.
 #. Replace the example problem and response options with your own text.
 #. Click **Save**.
 
 .. _MCNI Problem Code:
 
-************************************************
 Single Select and Numerical Input Problem Code
-************************************************
+**********************************************
 
 .. code-block:: xml
 
@@ -53,3 +50,14 @@ Single Select and Numerical Input Problem Code
       </radiotextgroup>
     </choicetextresponse>
   </problem>
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Numerical Input` (reference)
+
+ :ref:`Adding Numerical Input Problem` (how-to)
+
+ :ref:`Single Select Overview` (concept)
+
+ :ref:`Single Select` (how-to)
