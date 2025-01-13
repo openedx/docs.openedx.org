@@ -6,7 +6,7 @@ Adding Custom Page Resources
 .. tags:: educator, how-to
 
 You can customize your course by adding pages. Each page that you add appears in the navigation
-bar for your course. When you add a page, you also add its content using an HTML editor.
+bar for your course. When you add a page, you add its content using an HTML editor.
 The following example shows the navigation bar for a course that has added a custom page named Syllabus.
 
     .. image:: /_images/educator_how_tos/lms_navigation_bar.png
