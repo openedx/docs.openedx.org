@@ -70,7 +70,7 @@ Create a Zooming Image Tool
    - Replace the following file name and path with the name and path of the
      image that you want to appear when the page opens.
 
-    ``https://studio.openedx.org/c4x/openedX/DemoX/asset//pathways_overview_01.png``
+    ``https://studio.openedx.org/c4x/openedX/DemoX/asset/pathways_overview_01.png``
 
      For example, your file name and path might be ``/static/Image2.jpg``.
 
