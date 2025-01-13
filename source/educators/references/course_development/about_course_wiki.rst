@@ -1,8 +1,7 @@
 .. _About Course Wiki:
 
-***********************
 About the Course Wiki
-***********************
+######################
 
 .. tags:: educator, reference
 
@@ -28,10 +27,6 @@ As learners and course team members create and edit wiki articles, they
 contribute to a repository of information about your course that can be
 immediately useful to other learners, or useful for you and your course team as
 you develop other courses or future runs of the same course.
-
-The wiki for each course is a "child" wiki of the edX-wide wiki. From within
-any course wiki, select the top level **Wiki** link in the breadcrumb trail
-at the top of the page to visit the edX-wide wiki.
 
 .. Some courses have linked wikis, which can be useful for course re-runs or for course series. You link a wiki with another course's wiki by...?
 

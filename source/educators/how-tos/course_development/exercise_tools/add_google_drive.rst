@@ -1,17 +1,16 @@
 .. _Add a Google Drive File to Your Course:
 
-========================================
 Add a Google Drive File to Your Course
-========================================
+##########################################
 
 .. tags:: educator, how-to
 
 To add a Google Drive file in the course body, you create an advanced
 component in Studio or create a Google Document XBlock in OLX.
 
-.. _Add a Google Drive File Component in edX Studio:
+.. _Add a Google Drive File Component in Open edX Studio:
 
-Add a Google Drive File Component in edX Studio
+Add a Google Drive File Component in Open edX Studio
 ******************************************************
 
 Ensure you :ref:`enable Google Drive files<Enable the Google Drive Files Tool>`
@@ -32,7 +31,7 @@ To add a Google Drive file component, follow these steps.
 
 #. In the **Display Name** field, enter the name for the component.
 
-#. In the **Embed Code** field, paste the embed code that you copied in the
+#. In the **Embed Code** field, paste the embed code you copied in the
    :ref:`Obtain the Google Drive File Embed Code` task.
 
 #. Select **Save**.
@@ -48,11 +47,8 @@ Add a Google Drive File XBlock in OLX
 To add a Google Drive file XBlock in OLX, you create the
 ``google-document`` element. You can embed the ``google-document``
 element in the ``vertical`` element, or you can create the
-``google-document`` element as a stand-alone file that you reference
+``google-document`` element as a stand-alone file you reference
 in the vertical.
-
-For more information, see `OLX Course Building Blocks`_ in the
-*EdX Open Learning XML Guide*.
 
 For example:
 
@@ -68,7 +64,7 @@ The value of the ``embed_code`` attribute is the embed code you copied in the
 :ref:`Obtain the Google Drive File Embed Code` task.
 
 .. note::
-  The edX Learning Management System sets the height and width values for
+  The Open edX LMS sets the height and width values for
   Google Drive files. If you add these attributes, the LMS overrides your
   changes.
 
