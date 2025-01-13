@@ -1,6 +1,6 @@
 .. _Add Custom Page:
 
-Adding Custom Page Resources
+Add Custom Page Resources
 #############################
 
 .. tags:: educator, how-to
