@@ -1,6 +1,5 @@
 .. _Full Screen Image:
 
-######################
 Full Screen Image Tool
 ######################
 
@@ -14,27 +13,27 @@ all the detail in context.
   :local:
   :depth: 1
 
-****************************************
+
 The Learner View of a Full Screen Image
 ****************************************
 
-The learner sees the full screen image in a unit page. When the learner moves
+#. The learner sees the full screen image in a unit page. When the learner moves
 the cursor over the image, the **Fullscreen** option appears.
 
-.. image:: /_images/educator_how_tos/image-modal.png
- :alt: Image of the full screen image tool with the Full Screen button.
+  .. image:: /_images/educator_how_tos/image-modal.png
+   :alt: Image of the full screen image tool with the Full Screen button.
 
-When the learner selects **Fullscreen**, the image opens and expands in the
+#. When the learner selects **Fullscreen**, the image opens and expands in the
 full browser window. **Close**, **Zoom In**, and **Zoom Out** options appear.
 
-.. image:: /_images/educator_how_tos/image-modal-window.png
- :alt: Image of the Image Modal tool with the Full Screen button.
+  .. image:: /_images/educator_how_tos/image-modal-window.png
+   :alt: Image of the Image Modal tool with the Full Screen button.
 
-The learner can then zoom in on the image, and drag the image to view a
+#. The learner can then zoom in on the image, and drag the image to view a
 specific part of it.
 
-.. image:: /_images/educator_how_tos/image-modeal-zoomed.png
- :alt: Image of the Image Modal tool with the Full Screen button.
+  .. image:: /_images/educator_how_tos/image-modeal-zoomed.png
+   :alt: Image of the Image Modal tool with the Full Screen button.
 
 ******************************
 Create a Full Screen Image
@@ -68,7 +67,7 @@ Create a Full Screen Image
      ``<img alt="Full screen image" src="/static/Image1.jpg"/>``
 
    * Ensure that the value of the ``href`` and ``src`` attributes are the same,
-     and that you do not change the class attribute. Your sample code should
+     and you do not change the class attribute. Your sample code should
      look like the following example.
 
    .. code-block:: xml
@@ -83,3 +82,22 @@ Create a Full Screen Image
      components you created as full screen images.
 
 #. Select **Save**.
+
+.. seealso::
+ :class:dropdown
+ 
+ :ref:`Working with Text Components` (reference)
+
+ :ref:`Work with HTML code` (how-to)
+
+ :ref:`Create a Text Component` (how-to)
+
+ :ref:`Add Link to Website Course Unit or File` (how-to)
+
+ :ref:`Add an Image to a Text Component` (how-to)
+
+ :ref:`Paste without Formatting in a Text Component` (how-to)
+
+ :ref:`Work with Latex Code` (how-to)
+
+ :ref:`Add Written Content` (how-to)

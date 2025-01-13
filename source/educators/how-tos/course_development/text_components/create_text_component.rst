@@ -1,8 +1,7 @@
 .. _Create a Text Component:
 
-***********************
 Create a Text Component
-***********************
+#########################
 
 .. tags:: educator, how-to
 
@@ -37,9 +36,8 @@ When you use the visual editor, you can also perform the following tasks.
 
 .. _Text Component Templates:
 
-========================
 Text Component Templates
-========================
+**************************
 
 When you create a Text component, you select from a list of templates and
 editor types, including the following:

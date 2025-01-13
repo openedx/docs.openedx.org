@@ -50,6 +50,7 @@ Add Text Components
    ../how-tos/course_development/text_components/create_text_component.rst
    ../how-tos/course_development/text_components/add_link_website_unit_file.rst
    ../how-tos/course_development/text_components/add_image.rst
+   ../how-tos/course_development/text_components/format_image.rst
    ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
    ../how-tos/course_development/text_components/paste_without_formatting.rst
    ../how-tos/add_written_content.rst

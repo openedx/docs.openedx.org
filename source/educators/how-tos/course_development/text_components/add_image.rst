@@ -1,8 +1,7 @@
 .. _Add an Image to a Text Component:
 
-*********************************
 Add an Image to a Text Component
-*********************************
+#################################
 
 .. tags:: educator, how-to
 
@@ -11,8 +10,8 @@ a Text component. You can see a preview of the image before you add it to the
 component.
 
 .. note::
- * Before you add an image, make sure that you obtain copyright permissions for
-   images you use in your course, and that you cite sources appropriately.
+ * Before you add an image, make sure you obtain copyright permissions for
+   images you use in your course, and cite sources appropriately.
  * To add effective alternative text for images, review :ref:`Best Practices
    for Describing Images`.
  * You can only add one image at one time.
@@ -23,21 +22,24 @@ procedures.
 
 * :ref:`Locate an image <Locate an Image on Your Computer>` by using the
   **Browse Your Computer** option in the **Add Image** dialog box.
-* :ref:`Select an image <Select a Previously Uploaded Image>` that you have
+* :ref:`Select an image <Select a Previously Uploaded Image>` you have
   previously uploaded.
+
+.. contents::
+ :local:
+ :depth: 1
 
 .. _Locate an Image on Your Computer:
 
-================================
 Locate an Image on Your Computer
-================================
+**********************************
 
 #. In the Text component, position the cursor where you want to add an image,
    and then select the image icon on the toolbar.
 
 #. In the **Add an Image** dialog box, **Upload a New Image (10 MB max)**.
 
-#. In the dialog box that opens, locate the file that you want to add, and
+#. In the dialog box that opens, locate the file you want to add, and
    then select **Open**, or locate the image in the Image Gallery, and then
    select **Next**.
 
@@ -64,9 +66,8 @@ Locate an Image on Your Computer
 
 .. _Select a Previously Uploaded Image:
 
-==================================
 Select a Previously Uploaded Image
-==================================
+***********************************
 
 #. When you upload an image, the image automatically becomes available in a
    gallery list that opens when you add an image to a Text component.
@@ -97,59 +98,12 @@ Select a Previously Uploaded Image
 
 #. Save the Text component and test the image.
 
-.. _Format an Image in a Text Component:
-
-===================================
-Format an Image in a Text Component
-===================================
-
-You have several options for formatting an image in a Text component.
-
-.. contents::
- :local:
- :depth: 1
-
-.. _Align an Image:
-
-Align an Image
-**************
-
-To align your image to the right, the left, or the center, follow these steps.
-
-#. In the Text component, select the image.
-
-#. On the toolbar, select the left align, right align, or center icon.
-
-.. _Change the Image Size:
-
-Change the Image Size
-*********************
-
-To change the size of your image, follow these steps.
-
-#. In the Text component, select the image that you want to edit, and then
-   select the Contextual image icon that appears above the image.
-
-#. In the **Image Settings** dialog box, locate **Image Dimensions**, and
-   then enter the values that you want for the **Width** and **Height**
-   options.
-
-   .. note::
-    To make sure that the image keeps the same proportions when you change the
-    image size, make sure that **Lock proportions** is selected, and enter a
-    number in only the **Width** field or the **Height** field. After you tab
-    or click outside that field, the number in the other field changes to a
-    value that maintains the image proportions.
-
-#. Select **Save**.
-
-If you want to change the image back to the original size, clear the values in
-the **Width** and **Height** fields.
-
 .. seealso::
  :class: dropdown
 
  :ref:`Working with Text Components` (reference)
+
+ :ref:`Format an Image in a Text Component` (how-to)
 
  :ref:`Create a Text Component` (how-to)
 
