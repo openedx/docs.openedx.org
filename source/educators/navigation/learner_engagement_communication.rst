@@ -132,6 +132,7 @@ Poll Tool
 
    ../references/course_development/exercise_tools/poll_olx.rst
    ../references/course_development/exercise_tools/enable_poll_OLX.rst
+   ..how-ros/course_development/exercise_tools/create_poll_olx.rst
 
 
 Survey Tool
@@ -154,6 +155,7 @@ Qualtrics Survey Tool
 
    ../how-tos/course_development/exercise_tools/add_qualtrics_survey.rst
    ../references/course_development/exercise_tools/view_qualtrics_responses.rst
+   ../how-tos/course_development/exercise_tools/download_data_instructor_dashboard.rst
 
 
 

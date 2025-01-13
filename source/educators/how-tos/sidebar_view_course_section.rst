@@ -1,4 +1,4 @@
-View course sections from the navigation sidebar
+View Course Sections from the Navigation Sidebar
 ################################################
 
 .. tags:: educator, how-to
@@ -19,3 +19,12 @@ brings you to a view of the contents of that section, regardless of where you
 are in the course at the moment:
 
    .. image:: /_images/educator_how_tos/LSN_view_sections_step2b.png
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`What is LMS` (concept)
+
+ :ref:`What is Studio` (concept)
+
+ :ref:`Course Outline` (concept)

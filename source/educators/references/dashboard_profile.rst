@@ -2,7 +2,7 @@
 .. and Running Guide. SFD_dashboard_profile_SectionHead and
 .. CA_dashboard_profile_SectionHead files.
 
-###########################################
+
 The Dashboard, Profile, and Account Pages
 ###########################################
 
@@ -26,7 +26,11 @@ menu options.
   settings and preferences. For example, you can update your password or email
   address and set your Time Zones.
 
-  .. only:: Partners
+.. seealso::
+ :class:dropdown
 
-    On the **Account Settings** page, you can also view your `View Order History`_ and link your edX account to a social media or
-    organization account.
+ :ref:`Course Outline` (concept)
+
+ :ref:`What is Studio` (concept)
+
+ :ref:`What is Course Dashboard` (concept)
