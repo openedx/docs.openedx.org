@@ -22,7 +22,7 @@ For more information, see :ref:`Working with Text Components<working with text c
 Restricted HTML Content
 ========================
 
-The Bulk Course Email tool restricts use of specific HTML elements from being
+The Bulk Course Email tool restricts the use of specific HTML elements from being
 used in messages. The following HTML elements may not be used in messages
 authored with this tool:
 
@@ -31,17 +31,17 @@ authored with this tool:
 * form
 * script
 
-.. note:: If a message contains restricted HTML content it will **not** be
+.. note:: If a message contains restricted HTML content, it will **not** be
    stripped from the message. The HTML code will be converted to plain text. You
-   should send a test message to yourself first before sending to larger groups
+   should send a test message to yourself before sending it to larger groups
    to ensure message content is displayed as desired.
 
 
 Images
 ********
 
-Messages can include images. To include an image, you must first add the file
-to your course on the **Files & Uploads** page. For an email message, you copy
+Messages can include images. You must first add the file
+to your course on the **Files & Uploads** page to include an image. For an email message, you copy
 the **Web** URL that the system assigns to the image. Then, in the email
 message editor, you select the **Insert/edit image** icon to add the web URL.
 
@@ -62,30 +62,27 @@ For more information, see :ref:`Add Files to a Course`.
 Keywords
 *********
 
-Messages can include variables that represent values that are specific to each
-message recipient, such as learner name or user ID. The LMS substitutes these
+Messages can include variables representing values specific to each
+recipient, such as learner name or user ID. The LMS substitutes these
 variables, called keywords, with actual values when it sends a message.
-
-For more information, see :ref:`Use Keywords in Messages`.
 
 
 .. _Use Keywords in Messages:
 
-****************************
 Use Keywords in Messages
-****************************
+========================
 
 You can include keywords in your messages. A keyword is a variable: when you
-send the message, a value that is specific to the each recipient is substituted
+send the message, a value specific to each recipient is substituted
 for the keyword. For example, when you use the ``%%USER_FULLNAME%%`` keyword,
-each message contains the name of the recipient.
+each message contains the recipient's name.
 
 .. note::
   Do not use keywords in the Subject line of a message. The keyword in the
   subject will not be assigned a value, and the recipient will see the keyword
   text.
 
-===================
+
 Supported Keywords
 ===================
 
@@ -96,7 +93,7 @@ You can use the following keywords in your messages.
 * ``%%COURSE_DISPLAY_NAME%%`` - the display name of the course
 * ``%%COURSE_END_DATE%%`` - the end date of the course
 
-===================
+
 Keyword Formatting
 ===================
 
