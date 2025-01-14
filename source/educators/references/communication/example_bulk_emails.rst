@@ -159,7 +159,7 @@ You can use this template as a starting point for designing your own message,
 omitting the discussion highlights if they are not appropriate for your course
 (the example discussion highlights are from a course about urban solutions to
 the global water crisis). Search for the values enclosed by {braces} and
-replace them with information for your course. In addition, check you are
+replace them with information for your course. In addition, check that you are
 using :ref:`keywords <Use Keywords in Messages>` appropriately.
 
 ::
