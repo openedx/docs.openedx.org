@@ -22,7 +22,7 @@ until you :ref:`publish the unit<Publish a Unit>`.
 .. note::  Duplicating content experiments after you have configured them is not
    supported.
 
-   .. seealso::
+.. seealso::
  :class: dropdown
 
  :ref:`Edit a Component` (how-to)
