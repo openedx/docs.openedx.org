@@ -1,7 +1,7 @@
-.. _Editing Multi select Problems using the Advanced Editor:
+.. _Edit Multi select Problems using the Advanced Editor:
 
-Editing Multi-select Problems using the Advanced Editor
-#######################################################
+Edit Multi-select Problems using the Advanced Editor
+####################################################
 
 If the simple editor is not enough to meet your needs, you can switch over to the
 advanced editor. In the setting panels on the right of the editor, click
