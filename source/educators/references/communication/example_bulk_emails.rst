@@ -371,7 +371,7 @@ about future access to course materials. Be sure to replace values enclosed by
   * If you qualify for a certificate (overall score {number}% or higher), the
     dashboard will include a link to your certificate in the near future.
     While you may see the link in a few days, it can take up to two weeks for
-    platform to generate all of the course certificates.
+    all of the course certificates to be generated.
 
   * As an enrolled student, you will have access to the lecture videos even
     after the course ends. Assessments will remain, but you will no longer be
