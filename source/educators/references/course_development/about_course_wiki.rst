@@ -25,10 +25,14 @@ Common uses for the course wiki might include the following activities.
 
 As learners and course team members create and edit wiki articles, they
 contribute to a repository of information about your course that can be
-immediately useful to other learners, or useful for you and your course team as
+immediately useful to other learners or useful for you and your course team as
 you develop other courses or future runs of the same course.
 
 .. Some courses have linked wikis, which can be useful for course re-runs or for course series. You link a wiki with another course's wiki by...?
+
+The wiki for each course is a "child" wiki of the single wiki that exists for your
+whole instance. From within any course wiki, select the top-level **Wiki** link
+in the breadcrumb trail at the top of the page to visit the instance-wide wiki.
 
 .. _Wikis Overview:
 
@@ -38,10 +42,10 @@ Managing the Course Wiki
 
 Keep these points in mind as you design the wiki for your course.
 
-* Be clear about the purpose for the wiki or for different parts of the wiki.
+* Be clear about the wiki's purpose or for different parts of the wiki.
   For example, are some parts of the wiki only for disseminating information?
-  If that is the case, then make sure that only your course team has write
-  access for those articles.
+  If so, ensure that only your course team has written
+  access to those articles.
 
 * Decide whether some parts of the wiki are intended for learner collaboration
   or learner input. Make sure that learners are able to create and edit wiki
@@ -49,7 +53,7 @@ Keep these points in mind as you design the wiki for your course.
   these pages can be edited.
 
 * Think about the different tasks that will be performed by people in different
-  roles. Typically you want your course team to have some privileges that
+  roles. Typically, you want your course team to have some privileges that
   learners do not have. For example, course team members can delete wiki
   articles, but learners cannot.
 
