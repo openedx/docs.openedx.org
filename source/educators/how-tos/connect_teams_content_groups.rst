@@ -22,3 +22,19 @@ Connecting Teams to Content Groups
    select one or multiple Teams.
 
      .. image:: /_images/educator_how_tos/teams_within_groups.png
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Teams Overview` (concept)
+
+ :ref: `Teams Configuration Options` (reference)
+
+ :ref: `Managing Teams via CSV Upload` (reference)
+ 
+ :ref: `Managing Team Discussions` (concept)
+
+ :ref: `The Learner's Experience of Teams` (concept)
+
+ :ref: `Enable and Configure Teams` (how-to)
+

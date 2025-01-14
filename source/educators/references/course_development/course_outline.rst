@@ -78,8 +78,6 @@ To add content, you :ref:`create a section<Create a Section>`.
  
  :ref:`Add Course Metadata` (how-to)
  
- :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
- 
  :ref:`Resources for Open edX Course Teams` (reference)
  
  :ref:`Resources for Open edX` (reference)
