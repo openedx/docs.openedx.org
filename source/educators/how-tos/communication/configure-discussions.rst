@@ -58,7 +58,7 @@ Discussions in these topics can begin as soon as your course is available.
 
 To create a course-wide discussion topic, follow these steps.
 
-1. Navigate to Open edX discussion provider configuration page (see :ref:`Configuring Edx Discussions`).
+1. Navigate to Open edX discussion provider configuration page (see :ref:`Configuring Open edX Discussions`).
 
 2. Scroll down to **General discussion topics**. You would see a topic named **General**
 already there. This topic cannot be deleted but can be renamed.
