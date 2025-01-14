@@ -10,7 +10,7 @@ components, such as videos or text, in the unit. A discussion component gives
 learners a chance to respond to and interact with each other about a specific
 subject.
 
-Discussion topics you create by adding discussion components in your
+Discussion topics that you create by adding discussion components in your
 course are known as content-specific discussion topics.
 
 For more information about discussions, see these topics.
