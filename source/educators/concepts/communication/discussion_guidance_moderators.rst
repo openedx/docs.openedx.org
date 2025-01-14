@@ -157,7 +157,7 @@ Bugs or Errors
 Feature Requests
 ============================
 
-* Keep an organized collection of feature requests cultivated by the course
+* Consider keeping an organized collection of feature requests cultivated by the course team, to share with the Open edX community for potential future feature development.
   team. That list can subsequently be shared with a product manager, who
   will log those requests internally.
 
