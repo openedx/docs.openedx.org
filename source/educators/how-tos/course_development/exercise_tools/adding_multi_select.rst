@@ -126,7 +126,7 @@ You can add hints to a multi-select problem. For an overview of hints in problem
 
  :ref:`Add a Checkbox Problem` (how-to)
 
- :ref:`Editing Multi select Problems using the Advanced Editor` (how-to)
+ :ref:`Edit Multi select Problems using the Advanced Editor` (how-to)
 
  :ref:`Adding Feedback and Hints to a Problem` (how-to)
 
