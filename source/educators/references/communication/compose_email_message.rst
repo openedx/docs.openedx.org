@@ -54,7 +54,7 @@ To ensure your course assets are transmitted securely, add the
 
 ::
 
-    https://courses.openedx.org/asset-v1:{course}.x+{run}+type@asset+block@{image}.jpg
+    https://courses.myinstance.com/asset-v1:{course}.x+{run}+type@asset+block@{image}.jpg
 
 For more information, see :ref:`Add Files to a Course`.
 
