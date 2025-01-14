@@ -91,7 +91,7 @@ Configuring the Teams application
 **********************************
 
 Additional management and configuration of the teams application can be done through the main Team application tab
-in the learner experience, and is detailed in :ref:`12.4.1 Using the Teams application<Teams Setup>`.
+in the learner experience, and is detailed in :ref:`Using the Teams application<CA_Teams_Overview>`.
 
 .. _ORA Coursewide Settings:
 

@@ -50,6 +50,7 @@ Add Text Components
    ../how-tos/course_development/text_components/create_text_component.rst
    ../how-tos/course_development/text_components/add_link_website_unit_file.rst
    ../how-tos/course_development/text_components/add_image.rst
+   ../how-tos/course_development/text_components/format_image.rst
    ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
    ../how-tos/course_development/text_components/paste_without_formatting.rst
    ../how-tos/add_written_content.rst
@@ -68,6 +69,7 @@ Add Video Components
    ../references/course_development/add_video_to_course.rst
    ../how-tos/course_development/add_video_to_course.rst
    ../references/course_development/troubleshoot_video.rst
+   ../references/course_development/video_guidelines.rst
    ../how-tos/create_video.rst
    ../how-tos/course_development/additional_video_options.rst
    ../how-tos/add_video_quiz.rst

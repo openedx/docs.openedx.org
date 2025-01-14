@@ -88,9 +88,11 @@ Discussion list now includes the topic you added.
    configure these topics to be divided by cohort. For more information, see
    :ref:`Divide Course Wide Discussion Topics`.
 
+.. _Enable Discussion on a Course Unit:
 
-Upgraded Open edX Forum
-=======================
+**********************************
+Enable Discussion on a Course Unit
+**********************************
 
 Discussion can be enabled for a course unit, which is equivalent to adding
 a content-specific discussion topic in that unit in the :ref:`legacy version of

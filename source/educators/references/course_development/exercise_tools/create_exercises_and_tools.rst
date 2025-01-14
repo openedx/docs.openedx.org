@@ -80,8 +80,8 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
   editor with guidance for adding all of that problem type's required elements,
   as well as several optional elements.
 
-.. note:: Some advanced problem types are :ref:`unsupported<Levels of
-   Support>` and are not available in the list of problem types unless you
+.. note:: Some advanced problem types are **unsupported**
+   and are not available in the list of problem types unless you
    enable a setting in Studio. For more information, see :ref:`Unsupported
    Advanced Problem Types` and :ref:`Add Unsupported Exercises Problems`.
 
@@ -119,10 +119,10 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
 Unsupported Advanced Problem Types
 ===================================
 
-The following advanced problem types are :ref:`not supported<Levels of
-Support>` by the Open edX Platform. You can enable an option to make unsupported problem types
+The following advanced problem types are **not supported**
+by the Open edX Platform. You can enable an option to make unsupported problem types
 available in Studio. For more information, see
-:ref:`Add_Unsupported_Exercises_Problems`.
+:ref:`Add Unsupported Exercises Problems`.
 
 .. list-table::
    :widths: 25 60 20
@@ -154,11 +154,11 @@ Additional Exercises and Tools
 This table lists the fully or provisionally supported additional exercises and
 tools that you can add to your course.
 
-.. note:: Some additional exercises and tools are :ref:`not supported<Levels
-   of Support>` by the Open edX Platform. You can enable an option to make unsupported exercises
+.. note:: Some additional exercises and tools are **not supported**
+   by the Open edX Platform. You can enable an option to make unsupported exercises
    and tools available in Studio. For more information, see :ref:`Unsupported
    Additional Exercises and Tools` and
-   :ref:`Add_Unsupported_Exercises_Problems`.
+   :ref:`Add Unsupported Exercises Problems`.
 
 .. to come: revise to eliminate entries with no support. Add pointer (at least for Open edX) to all of the XBlocks that are available.
 
@@ -262,10 +262,9 @@ tools that you can add to your course.
 Unsupported Additional Exercises and Tools
 ==========================================
 
-The following additional exercises and tools are :ref:`not supported<Levels of
-Support>` by the Open edX Platform. You can enable an option to make unsupported exercises and
+The following additional exercises and tools are **not supported** by the Open edX Platform. You can enable an option to make unsupported exercises and
 tools available in Studio. For more information, see
-:ref:`Add_Unsupported_Exercises_Problems`.
+:ref:`Add Unsupported Exercises Problems`.
 
 
 .. list-table::

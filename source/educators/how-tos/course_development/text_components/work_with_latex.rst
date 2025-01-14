@@ -1,19 +1,11 @@
 .. _Work with Latex Code:
 
-#############################################
 Work with LaTeX Code
 #############################################
 
 .. tags:: educator, how-to
 
-
-JRistau (26 Sept 2022) - LaTeX editor support was removed with the rollout of
-the new Course Authoring based Text Editor.  Coursegraph shows ~100 active
-courses that have enabled the LaTeX advanced module, and we have had no
-issues reported since rollout of the new text editor.  The LaTeX component
-is listed as “Unsupported” in studio (TNL-9993).  For these reasons, edX PM
-has decided to remove this section of our support documentation.
-
+.. note:: LaTeX editor support was removed with the rollout of the new Course Authoring-based Text Editor in the Redwood release.
 
 
 .. ==========================
@@ -79,12 +71,12 @@ has decided to remove this section of our support documentation.
 .. following image.
 
 .. .. image:: /_images/educator_how_tos/HTML_LaTeX_LMS.png
- :alt: Math formulas created with LaTeX in a Text component.
+.. :alt: Math formulas created with LaTeX in a Text component.
 
 .. .. warning::
- The LaTeX processor that Studio uses to convert LaTeX code to XML is a third
- party tool. We recommend that you use this feature with caution. If you use
- the tool, make sure that you work with your partner manager.
+..    The LaTeX processor that Studio uses to convert LaTeX code to XML is a third
+..    party tool. We recommend  you use this feature with caution. If you use
+..    the tool, make sure you work with your partner manager.
 
 .. seealso::
  :class: dropdown

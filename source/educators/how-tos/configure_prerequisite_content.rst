@@ -12,7 +12,7 @@ in the course outline with a lock icon, and learners cannot view the subsection
 content until they have earned a minimum score in the prerequisite subsection.
 
 .. note::
-   You must first :ref:`Enable Course Prerequisites` before
+   You must first :ref:`Set up Course Prerequisites` before
    prerequisite course subsections can be used.
 
 .. _enabling_subsection_gating:
@@ -47,8 +47,7 @@ subsection, follow these steps.
     learners.
 
 .. note::
-    You cannot use :ref:`open response assessments<Open Response Assessments
-    Two>` that have a point value of 0 as the prerequisite for other course
+    You cannot use :ref:`Open Response Assessments` that have a point value of 0 as the prerequisite for other course
     subsections.
 
 #. Enable subsection prerequisites for your course. For more information, see
@@ -114,7 +113,7 @@ subsection, follow these steps.
      :width: 600
 
   .. note:: Prerequisite course subsection settings are not retained when
-     you :ref:`export or import a course<Exporting and Importing a Course>`, or
+     you :ref:`Export a Course` and :ref:`Import a Course`, or
      when you :ref:`re-run a course<Rerun a Course>`.
 
 .. seealso::

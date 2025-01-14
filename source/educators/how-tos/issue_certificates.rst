@@ -10,8 +10,8 @@ Issuing Certificates
  Before you can issue certificates, the administrator for your instance of
  Open edX must configure the platform to allow course teams to generate and
  issue certificates. For more information, see
- :ref:`Enable Automatic Certificate Generation` and
- :ref:`Enable Certificates` in *Installing, Configuring, and
+ `Enable Automatic Certificate Generation`_ and
+ `Enable Certificates`_ in *Installing, Configuring, and
  Running the Open edX Platform*.
 
 The platform can automatically generate certificates for both self-paced courses and
@@ -64,7 +64,7 @@ Allow Learners to Receive Early Certificates
 ********************************************
 
 If the administrator has configured the site correctly (see
-:ref:`Enable Automatic Certificate Generation` in
+`Enable Automatic Certificate Generation`_ in
 *Installing, Configuring, and Running the Open edX Platform*),
 self-paced courses issue certificates to learners as soon as learners
 have completed enough of the course, with a high enough grade, to earn
@@ -105,4 +105,4 @@ To allow learners to download early certificates, you modify the
 
   :ref:`Enable Badges in Course` (how-to)
 
-  :ref:`Reporting Certificate Data` (how-to)
+  :ref:`Access Certificate Data` (how-to)

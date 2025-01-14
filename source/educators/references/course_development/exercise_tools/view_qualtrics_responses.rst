@@ -45,7 +45,7 @@ Download Data from the Instructor Dashboard
 
    ``<course name>_<course number>_<year>_<term>_student_profile_info_<date and time>.csv``
 
-For more information about accessing learner data, see :ref:`Student Data`.
+For more information about accessing learner data, see :ref:`Learner Data`.
 
 Download Data from Qualtrics
 *******************************

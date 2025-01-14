@@ -192,7 +192,7 @@ provide learners in the certificate track with different exams from non-certific
   Component>`
 
 For information about creating differentiated content based on cohorts, see
-:ref:`Cohorted Courseware Overview`.
+:ref:`Create Cohort Specific Course Content`.
 
 For information about creating differentiated content based on enrollment
 track, see :ref:`Enrollment Track Specific Courseware Overview`.

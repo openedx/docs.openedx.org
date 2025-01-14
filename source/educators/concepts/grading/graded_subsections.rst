@@ -1,3 +1,5 @@
+.. _Graded Subsections:
+
 ##################
 Graded Subsections
 ##################

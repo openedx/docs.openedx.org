@@ -15,6 +15,10 @@ To enable content experiments in your course, you must add ``split_test`` to the
 
 .. _Enable Content Experiments:
 
+*********************************
+Enable Content Experiments
+*********************************
+
 #. From the **Settings** menu, select **Advanced Settings**.
 
 #. On the **Advanced Settings** page, locate **Advanced Module List**.

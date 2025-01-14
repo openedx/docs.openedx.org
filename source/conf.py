@@ -104,14 +104,6 @@ intersphinx_mapping = {
     "event-routing-backends": (
         f"https://event-routing-backends.readthedocs.io/{rtd_language}/{rtd_version}", None
     ),
-    "edx-installing-configuring-and-running": (
-        f"https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/{rtd_language}/{rtd_version}",
-        None,
-    ),
-    "openedx-building-and-running-a-course": (
-        f"https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/{rtd_language}/{rtd_version}",
-        None,
-    ),
     "edx-platform": (
         f"https://docs.openedx.org/projects/edx-platform/{rtd_language}/{rtd_version}",
         None,
