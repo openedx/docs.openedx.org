@@ -22,7 +22,7 @@ To create the duplicate course, follow these steps.
     original course and for LTI courses, be sure to give the duplicate course a
     different name or run.
 
-#. In the duplicate course, import the tar.gz file that you exported in step 1.
+#. In the duplicate course, import the tar.gz file you exported in step 1.
    For more information, see :ref:`Import a Course`.
 
 .. future: add re-run as an option for sites that host courses for LTI on the same instance (edit from Mark, Phil says re-run should work). - Alison 1 Sep 2015
@@ -65,3 +65,5 @@ steps.
  :ref:`Open edX as an LTI Provider to Canvas` (how-to)
 
  :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
+
+

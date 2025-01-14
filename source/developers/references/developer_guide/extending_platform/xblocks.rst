@@ -166,7 +166,7 @@ other course content component, or for sequential or vertical course container
 component. There are several ways to find the ``usage_id`` for an XBlock in the
 LMS, including viewing either the staff debug info or the page source. For more
 information, see
-:doc:`openedx-building-and-running-a-course:course_features/lti/lti_address_content`.
+:ref:`Determine Content Addresses`.
 
 
 Example XBlock URLs

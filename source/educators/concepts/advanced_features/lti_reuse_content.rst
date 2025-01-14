@@ -35,7 +35,7 @@ content in the context of an external LMS.
    :depth: 1
 
 For information about the content that you can include in an external LMS, see
-:ref:`Preparing Content`.
+:ref:`Planning for Content Reuse`.
 
 **********************************
 Course Roster Management
@@ -74,7 +74,7 @@ example, edX course discussions can identify participants by their edX IDs
 instead of the usernames they would normally see in the external LMS. As a
 result, some edX content is not currently suitable for use in an external LMS.
 
-For more information, see :ref:`Preparing Content`.
+For more information, see :ref:`Planning for Content Reuse`.
 
 ******************************
 Learner Progress and Grades

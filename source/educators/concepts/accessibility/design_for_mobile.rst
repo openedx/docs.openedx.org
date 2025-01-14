@@ -12,8 +12,7 @@ to everyone, regardless of any physical limitation that they might have, and
 regardless whether they are accessing your course using a Web browser or using
 mobile apps.
 
-For information about accessibility best practices, see :ref:`Accessibility
-Index <Accessibility Index>`.
+For information about accessibility best practices, see :ref:`Accessibility Best Practices for Course Content Development`.
 
 The percentage of learners who access MOOCs using smartphones is increasing
 every day. Courses on your instance may be viewed on smartphones using the

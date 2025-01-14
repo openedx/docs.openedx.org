@@ -26,7 +26,7 @@ add a cohort to your course, follow these steps.
 #. Optionally, select **Select a Content Group** to associate the cohort with a
    :ref:`content group<About Content Groups>`. For information about creating
    cohort-specific course content by associating cohorts with content groups,
-   see :ref:`Cohorted Courseware Overview`.
+   see :ref:`Cohorts Overview` and :ref:`Offering Differentiated Content`.
 
 #. Select **Save**.
 

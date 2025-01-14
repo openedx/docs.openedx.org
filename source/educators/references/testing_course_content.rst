@@ -60,11 +60,11 @@ mode, keep the following points in mind.
   released.
 
 * You see published units that are in :ref:`Visible to Staff Only` or
-  :ref:`Draft (Unpublished Changes)` status, regardless of the release dates of
+  :ref:`Draft Unpublished Changes` status, regardless of the release dates of
   the containing section or subsection, but you see only the latest published
   version of such units.
 
-* You do not see units that are in :ref:`Draft (Never Published)` status. To
+* You do not see units that are in :ref:`Draft Never Published` status. To
   see these units, you must use Preview mode, as described in :ref:`Preview
   Unpublished Content`.
 
@@ -92,8 +92,8 @@ content as learners belonging to different groups would, but you select
 In **Preview** mode, if you use one of the student-based **View course as**
 options, you can see draft course content unrestricted by release date. You
 see any content that has a publishing status of :ref:`Published and Live` as
-well as content with publishing statuses of :ref:`Draft (Never Published)` or
-:ref:`Draft (Unpublished Changes)`.
+well as content with publishing statuses of :ref:`Draft Never Published` or
+:ref:`Draft Unpublished Changes`.
 
 When you use **Staff** view in preview mode, you also see any content that is
 :ref:`Visible to Staff Only`.

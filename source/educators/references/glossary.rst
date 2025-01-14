@@ -115,7 +115,7 @@ C
 
 **Chapter**
 
-  See :ref:`Section_g`.
+  See :ref:`Section<Section_g>`.
 
 
 .. _Chemical Equation_g:
@@ -183,7 +183,7 @@ C
 
 **Content Library**
 
-  See :ref:`Library_g`.
+  See :ref:`Library<Library_g>`.
 
 
 .. _Content Specific Discussion Topic_g:
@@ -487,7 +487,7 @@ H
 
 **Home page**
 
-  See :ref:`Course Page`.
+  See :ref:`Course Page<Course Page>`.
 
 .. _Text Component:
 
@@ -838,7 +838,7 @@ R
   :ref:`PA Rubric` topic in :ref:`Open
   Response Assessments`.
 
-  See also :ref:`Open Response Assessment_g`.
+  See also :ref:`Open Response Assessment<Open Response Assessment_g>`.
 
 
 .. _S:

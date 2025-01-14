@@ -21,6 +21,8 @@ It's possible to add quizzes directly to a video!  Watch this for a how-to:
 
   :ref:`Troubleshoot Videos` (reference)
 
+  :ref:`Video Guidelines` (reference)
+
   :ref:`Create a Video` (how-to)
 
   :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)

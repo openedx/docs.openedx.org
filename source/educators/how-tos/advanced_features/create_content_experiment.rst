@@ -24,7 +24,7 @@ completed the following tasks.
    The content experiment includes a container for each group that is defined
    in the group configuration you selected. You create content for each
    experiment group as you do any other component. For more information, see
-   :ref:`Developing Course Components`.
+   :ref:`Add a Component`.
 
 #. Select either **Select a Group Configuration** or **Edit** to open the
    content experiment component.

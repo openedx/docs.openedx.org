@@ -10,6 +10,8 @@ Configure Timed Exams
   :local:
   :depth: 1
 
+.. _Enable Timed Exams:
+
 *******************
 Enable Timed Exams
 *******************
@@ -30,7 +32,7 @@ is set to be a "timed" exam, and set it to "none".
 Set a Subsection to be Timed
 *****************************
 
-Ensure that you have enabled timed exams in the course. Then follow these
+Ensure you have enabled timed exams in the course. Then follow these
 steps.
 
 #. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
@@ -60,7 +62,8 @@ steps.
    **Advanced** tab also shows options for :ref:`proctored and practice
    proctored exams<CA_ProctoredExams>`.
 
-#. In the **Time Allotted** field, enter the length of time that you want
+
+#. In the **Time Allotted** field, enter the length of time  you want
    learners to have to complete the problems in the subsection. Enter the time
    as HH:MM, where HH is hours and MM is minutes.
 
@@ -90,7 +93,7 @@ extra time to complete a timed or proctored exam.
 
    The **Add a New Allowance** dialog box opens.
 
-#. For **Username** or **Email**, enter all the learners' emails/usernames seperated by a comma that you wish to add an exception for.
+#. For **Username** or **Email**, enter all the learners' emails/usernames you wish to add an exception for seperated by a comma .
 
 #. For **Select Exam Type**, select the type of exams you want to add extra time for, either proctored or timed exams.
 
@@ -98,7 +101,7 @@ extra time to complete a timed or proctored exam.
 
 #. For **Allowance Type**, select either **Additional Time** or **Time Multiplier**
 
-#. If you selected **Additional Time**, enter the number of extra minutes that you
+#. If you selected **Additional Time**, enter the number of extra minutes you
    want to grant to the learner.
 
    .. note:: You must enter a whole number greater than 0.
@@ -137,7 +140,7 @@ steps.
 #. In the **Exam Name** column, locate the name of the specific exam for which
    you are resuming the learner's exam attempt.
 #. In the **Actions** column, click the gear icon (⚙) and select **Resume**.
-   A message displays asking you to confirm that you want to resume the learner's
+   A message displays asking you to confirm you want to resume the learner's
    exam attempt.
 #. Select **OK**. The learner's exam attempt status will change from **Error**
    to **Ready to Resume**, and they will be able to access the exam again.
@@ -167,7 +170,7 @@ To clear a timed or proctored exam attempt, follow these steps.
 #. In the **Exam Name** column, locate the name of the specific exam for which
    you are cleaning the learner's exam attempt.
 #. In the **Actions** column, select **Reset**. A message displays asking you
-   to confirm that you want to remove the learner's exam attempt.
+   to confirm you want to remove the learner's exam attempt.
 
    .. note::
       If the learner's exam attempt is in an error state, there will be a gear
@@ -195,7 +198,7 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 
 
 #. In Studio, select the **Configure** icon for the timed exam (subsection)
-   that you want to configure.
+   you want to configure.
 
    The **Settings** dialog box opens to the **Basic** tab.
 

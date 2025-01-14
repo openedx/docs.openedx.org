@@ -51,7 +51,7 @@ requirements.
   a learner and not a TA or course designer.
 
 For more information about constructing an LTI URL for a course component, see
-:ref:`Determining Content Addresses`.
+:ref:`Determine Content Addresses`.
 
 .. seealso::
  :class: dropdown
@@ -62,6 +62,6 @@ For more information about constructing an LTI URL for a course component, see
 
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Canvas<edX as an LTI Provider to Canvas>` (reference)
+ :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Example: edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (reference)

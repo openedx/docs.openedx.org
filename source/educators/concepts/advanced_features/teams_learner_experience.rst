@@ -7,7 +7,7 @@ The Learner's Experience of Teams
 
 .. tags:: educator, concept
 
-After you have :ref:`enabled teams <Teams Setup>` and created topics in your
+After you have :ref:`enabled teams <Enable and Configure Teams>` and created topics in your
 course, learners can begin browsing topics and joining teams. Teams are formed
 within topics. Each learner can belong to only one team.
 

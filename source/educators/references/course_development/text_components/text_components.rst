@@ -1,10 +1,8 @@
-.. _Working with Text Components:
-
-.. tags:: educator, reference
-
 .. this is the old name of this section, left here so that frozen Maple
     projects will resolve the reference:
 .. _Working with HTML Components:
+
+.. _Working with Text Components:
 
 ############################
 About Text Components
@@ -18,7 +16,7 @@ with your Text components in a "visual" or WYSIWYG editor that hides the HTML
 code details, or in a "raw" editor that requires you to mark up your content.
 
 .. note::
- Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML
+ Review :ref:`Developing Your Course Outline` and :ref:`Best Practices for HTML
  Markup` before you start working with Text components.
 
 
