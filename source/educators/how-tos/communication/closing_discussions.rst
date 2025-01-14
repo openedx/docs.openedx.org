@@ -42,4 +42,4 @@ reopen, follow these steps.
 
  :ref:`Running_discussions` (concept)
 
- :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Configuring Open edX Discussions` (how-to)

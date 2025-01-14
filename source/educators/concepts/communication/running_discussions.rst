@@ -1,6 +1,5 @@
 .. _Running_discussions:
 
-############################
 Running Course Discussions
 ############################
 
@@ -45,13 +44,6 @@ there are three hierarchical levels of interaction.
 The dialog created by a post, its responses, and the comments on those
 responses is sometimes called a thread. Discussion threads are saved as part
 of the course history.
-
-For information about participating in discussions, see the
-`course discussions index`_ section in the *Open edX
-Learner's Guide*. Consider referring learners in your courses to that section,
-which describes the structure and features of course discussions, and provides
-useful information to help learners make the most of their participation in
-course discussions.
 
 
 ************************************************
@@ -100,7 +92,7 @@ Some examples follow.
   providing guidance, these initial messages can act as models for learners to
   follow when they create their own posts.
 
-EdX strongly recommends that you do not create seed posts in content-specific
+It is strongly recommended that you do not create seed posts in content-specific
 discussion topics before the course starts or before the containing unit is
 released. The category and subcategory names for content-specific discussion
 topics are subject to the release visibility of their containing unit, and are
@@ -120,7 +112,7 @@ discussion.
 
 .. note:: You can only pin or close posts and mark questions as answered when
    you work in a web browser. You cannot complete these activities when you
-   work in the edX mobile app.
+   work in the Open edX mobile app.
 
 * Pin posts. Pinning a post makes it appear at the top of the list of posts in
   the discussion navigation pane on the **Discussion** page. As a result, it is
@@ -199,6 +191,6 @@ units and all course-wide topics are affected.
 
  :ref:`Discussions` (concept)
 
- :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Configuring Open edX Discussions` (how-to)
 
  :ref:`Closing Discussions` (how-to)

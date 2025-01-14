@@ -1,6 +1,7 @@
-********************************
+.. _What is the User Profile Page:
+
 What is the User Profile Page?
-********************************
+##############################
 
 .. tags:: educator, concept
 
@@ -26,7 +27,7 @@ You can share either a limited profile or a full profile.
   * Your full name
   * Your username
   * Your profile image (optional)
-  * The date that you joined edX
+  * The date that you joined the Open edX instance.
   * Your language (optional)
   * Your location (optional)
   * Information about you (optional)
@@ -43,7 +44,10 @@ You can share either a limited profile or a full profile.
 .. seealso::
  :class: dropdown
 
- :doc:`add_update_limited_profile <../../how-tos/add_update_limited_profile>` (how-to)
- :doc:`add_update_full_profile <../../how-tos/add_update_full_profile>` (how-to)
- :doc:`add_links_to_social_media_accounts <../../how-tos/add_links_to_social_media_accounts>` (how-to)
- :doc:`view_another_learners_profile <../../how-tos/view_another_learners_profile>` (how-to)
+ :doc:`Add or Update a Limited Profile <../../how-tos/add_update_limited_profile>` (how-to)
+
+ :doc:`Add or Update a Full Profile <../../how-tos/add_update_full_profile>` (how-to)
+ 
+ :doc:`Add Links to Your Personal Social Media Accounts <../../how-tos/add_links_to_social_media_accounts>` (how-to)
+ 
+ :doc:`View Another Learner’s Profile <../../how-tos/view_another_learners_profile>` (how-to)
