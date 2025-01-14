@@ -28,7 +28,7 @@ The dashboard has two main pages.
 *   The **Courses** page provides information about your courses and allows you to change course settings. By
     default, the dashboard opens to the **Courses** page. The **Courses** page on the dashboard now includes two main categories of filters with subcategories in each main category. **Course Status** includes 'In progress,' 'Not Started,' 'Done,' 'Not Enrolled,' and 'Upgraded.' These different filters allow you to filter all of the courses based on the course status. **Sort** includes 'Last enrolled' and 'Title (A-Z).' These filters allow you to filter the course alphabetically or when you were last enrolled in the course.
 
-*  The **Programs** page lists any programs offer by your Open edX instance for courses that you are enrolled in. Programs appear on this page if you are enrolled in any course that is part of that program. This page also shows how many courses in the program you have completed, how many are in progres, and the number of remaining courses you have left in the program. . 
+*  The **Programs** page lists any programs offer by your Open edX instance for courses that you are enrolled in. Programs appear on this page if you are enrolled in any course that is part of that program. This page also shows how many courses in the program you have completed, how many are in progres, and the number of remaining courses you have left in the program.
 
 .. seealso::
  :class: dropdown
