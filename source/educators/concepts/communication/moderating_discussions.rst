@@ -66,7 +66,7 @@ the following roles.
    available when members of the discussion administration team work in a web
    browser. The Open edX mobile apps do not currently offer moderation options.
 
-   For more information about differences between discussions on the openedx.org
+   For more information about differences between discussions on the desktop
    site and on the mobile apps, see :ref:`Discussions on Mobile Apps`.
 
 * Course team members with the Discussion Moderator role can edit and delete
