@@ -32,9 +32,7 @@ Proctortrack.
    * Create an Onboarding subsection in the first section of any course using
      Proctortrack proctoring, as described below.
 
-   * Add in-course messaging that completing Onboarding early is important, and
-     that access to Onboarding requires to be in a paid track (e.g. Verified or
-     Master's).
+   * Add in-course messaging that completing Onboarding early is important.
 
    * Nudge learners who have not yet completed Onboarding a week before the
      first proctored exam.
