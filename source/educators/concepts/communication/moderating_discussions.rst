@@ -25,7 +25,7 @@ relay it back to the course team.
 
 .. note:: Not all options for moderating discussions are available when
    discussions are accessed using the Open edX mobile app. For information about
-   the differences between discussions on the openedx.org site and in the mobile
+   the differences between discussions on the desktop site and in the mobile
    apps, see :ref:`Discussions on Mobile Apps`.
 
 .. contents::
