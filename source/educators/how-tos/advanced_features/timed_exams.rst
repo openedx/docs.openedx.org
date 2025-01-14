@@ -53,14 +53,13 @@ steps.
 
    If the **Settings** dialog box does not contain the **Advanced** tab, timed
    exams might not be enabled for your Open edX site. Enabling timed exams for
-   an Open edX site is a task that is usually performed by a system
-   administrator.
+   an Open edX site is a task that a system administrator usually performs.
 
 #. In the **Set as a Special Exam** section, select **Timed**.
 
    If your course has the proctored exam feature enabled, the
    **Advanced** tab also shows options for :ref:`proctored and practice
-   proctored exams<CA_ProctoredExams>`.
+   proctored exams<Preparing Learners for Proctored Exams>`.
 
 
 #. In the **Time Allotted** field, enter the length of time  you want
