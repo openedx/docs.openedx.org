@@ -27,7 +27,7 @@ You can share either a limited profile or a full profile.
   * Your full name
   * Your username
   * Your profile image (optional)
-  * The date that you joined to the Open edX instance.
+  * The date that you joined the Open edX instance.
   * Your language (optional)
   * Your location (optional)
   * Information about you (optional)
