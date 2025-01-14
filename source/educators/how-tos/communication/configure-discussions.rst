@@ -25,7 +25,7 @@ tile. Click Next.
 
 .. image:: /_images/educator_how_tos/Tile_for_edx_discussion_provider.png
   :width: 300
-  :alt: Appearance of tile for Open edx discussion provider in configuration.
+  :alt: Appearance of tile for Open edX discussion provider in configuration.
 
 5. This is the Open edX discussions configuration page. All configuration options
 for Open edX discussions can be found here.
