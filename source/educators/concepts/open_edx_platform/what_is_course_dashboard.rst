@@ -23,7 +23,7 @@ icon next to your username at the top of any page.
 You can find information about your courses and change course-specific email
 subscription settings on your dashboard. For more information, see :doc:`update_course_specific_settings <../../how-tos/update_course_specific_settings>`.
 
-The dashboard has three main pages.
+The dashboard has two main pages.
 
 *   The **Courses** page provides information about your courses and allows you to change course settings. By
     default, the dashboard opens to the **Courses** page. The **Courses** page on the dashboard now includes two main categories of filters with subcategories in each main category. **Course Status** includes 'In progress,' 'Not Started,' 'Done,' 'Not Enrolled,' and 'Upgraded.' These different filters allow you to filter all of the courses based on the course status. **Sort** includes 'Last enrolled' and 'Title (A-Z).' These filters allow you to filter the course alphabetically or when you were last enrolled in the course.
