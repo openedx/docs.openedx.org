@@ -5,7 +5,7 @@ Work with LaTeX Code
 
 .. tags:: educator, how-to
 
-.. note:: LaTeX editor support was removed with the rollout of the new Course Authoring-based Text Editor.
+.. note:: LaTeX editor support was removed with the rollout of the new Course Authoring-based Text Editor in the Redwood release.
 
 
 .. ==========================
