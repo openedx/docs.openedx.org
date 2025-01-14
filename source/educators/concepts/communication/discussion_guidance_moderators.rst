@@ -158,8 +158,6 @@ Feature Requests
 ============================
 
 * Consider keeping an organized collection of feature requests cultivated by the course team, to share with the Open edX community for potential future feature development.
-  team. That list can subsequently be shared with a product manager, who
-  will log those requests internally.
 
 * Reply to the post to let the person know that their request was heard,
   without promising that the feature will be implemented.
