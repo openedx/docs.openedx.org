@@ -26,4 +26,4 @@ learners until you :ref:`publish the unit<Publish a Unit>`.
 
  :ref:`Duplicate a Component` (how-to)
 
- :ref:`Add a Componentt` (how-to)
+ :ref:`Add a Component` (how-to)
