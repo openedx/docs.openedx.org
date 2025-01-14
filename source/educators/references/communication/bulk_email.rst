@@ -1,12 +1,11 @@
 .. _Bulk Email:
 
-########################################
 Bulk Email Messages from the Course Team
 ########################################
 
 .. tags:: educator, reference
 
-For courses on edx.org, you can send bulk email messages to course participants
+For courses on an Open edX instance, you can send bulk email messages to course participants
 directly from the instructor dashboard: in the LMS, select **Instructor**, and
 then select **Email**.
 
@@ -21,7 +20,7 @@ one email message per week to course participants, unless there is good reason
 to do so.
 
 .. note:: Some courses use third party services such as MailChimp to send bulk
-   email. Do not use both a third party service and the edX bulk email
+   email. Do not use both a third party service and the Open edX bulk email
    service. If you use more than one service to send email message, your
    messages are more likely to be marked as spam, and learners might not read
    them.
@@ -34,7 +33,6 @@ This section contains the following topics.
 
 .. _bulk_email_message_addressing:
 
-*************************
 Message Addressing
 *************************
 
@@ -75,7 +73,6 @@ separate recipient group. For more information, see :ref:`Bulk Email Cohorts`.
 
 .. _Bulk Email Who Is Included or Excluded:
 
-=========================================
 Who Is Included in Each Recipient Group?
 =========================================
 
@@ -84,10 +81,10 @@ should be aware of who is included in each group.
 
 .. note:: It is considered good practice to only send messages to active and
    engaged learners. For this reason, regardless of the recipient groups
-   selected, edX will only send email messages to learners in a course run who
+   selected, the Open edX platform will only send email messages to learners in a course run who
    have logged in within the last 18 months. This helps reduce the risk of
    messages being marked as spam (or bouncing) and helps ensure the continued
-   delivery of bulk course email messages through edX's email providers.
+   delivery of bulk course email messages through Open edX's email providers.
 
 .. list-table::
    :widths: 30 40 40
@@ -112,7 +109,7 @@ should be aware of who is included in each group.
      - * All currently enrolled learners in your course, including those who
          have enrolled but have not yet accessed the course.
      - * Learners who have not replied to the account activation email message
-         that they received when they registered on edx.org.
+         that they received when they registered on your Open edX instance.
        * Learners who have opted out of receiving email messages through the
          **Email Settings** link for the course on the learner's dashboard.
        * Course team members, regardless of whether they are enrolled in the
@@ -164,81 +161,8 @@ Default Group** is also available.
    cohort. You can manually reassign learners from the default cohort to
    another cohort. For more information, see :ref:`Default Cohort Group`.
 
-
-.. _Options for Email Message Text:
-
-*******************************
-Composing Email Messages
-*******************************
-
-When you compose an email message, you can use the following options.
-
-.. contents::
-  :local:
-  :depth: 2
-
-=======
-Styling
-=======
-
-Messages can include HTML styling, including text formatting and links.
-
-For more information, see :ref:`Working with Text Components<working with text components>`.
-
------------------------
-Restricted HTML Content
------------------------
-
-The Bulk Course Email tool restricts use of specific HTML elements from being
-used in messages. The following HTML elements may not be used in messages
-authored with this tool:
-
-* iframe
-* svg
-* form
-* script
-
-.. note: If a message contains restricted HTML content it will **not** be
-   stripped from the message. The HTML code will be converted to plain text. You
-   should send a test message to yourself first before sending to larger groups
-   to ensure message content is displayed as desired.
-
-======
-Images
-======
-
-Messages can include images. To include an image, you must first add the file
-to your course on the **Files & Uploads** page. For an email message, you copy
-the **Web** URL that the system assigns to the image. Then, in the email
-message editor, you select the **Insert/edit image** icon to add the web URL.
-
-.. note:: Scalable Vector Graphic (SVG) images are restricted from use in
-   messages authored with the Bulk Course Email tool. Please see the above note
-   in the *Restricted HTML Content* section.
-
-To ensure that your course assets are transmitted securely, add the
-``https://`` preface to the web URL. An example follows.
-
-::
-
-    https://courses.edx.org/asset-v1:{course}.x+{run}+type@asset+block@{image}.jpg
-
-For more information, see :ref:`Add Files to a Course`.
-
-=========
-Keywords
-=========
-
-Messages can include variables that represent values that are specific to each
-message recipient, such as learner name or user ID. The LMS substitutes these
-variables, called keywords, with actual values when it sends a message.
-
-For more information, see :ref:`Use Keywords in Messages`.
-
-
-=====================================
 Managing Scheduled Email Messages
-=====================================
+**********************************
 
 Once a message has been scheduled it will appear in the **Scheduled emails**
 table. Each entry will describe *when* the message will be sent (in local time),
@@ -260,51 +184,8 @@ Each scheduled email entry in this table will support the following actions:
   time the message should be sent.
 
 
-.. _Use Keywords in Messages:
-
-****************************
-Use Keywords in Messages
-****************************
-
-You can include keywords in your messages. A keyword is a variable: when you
-send the message, a value that is specific to the each recipient is substituted
-for the keyword. For example, when you use the ``%%USER_FULLNAME%%`` keyword,
-each message contains the name of the recipient.
-
-.. note::
-  Do not use keywords in the Subject line of a message. The keyword in the
-  subject will not be assigned a value, and the recipient will see the keyword
-  text.
-
-===================
-Supported Keywords
-===================
-
-You can use the following keywords in your messages.
-
-* ``%%USER_ID%%`` - the anonymous user ID of the message recipient
-* ``%%USER_FULLNAME%%`` - the full name of the message recipient
-* ``%%COURSE_DISPLAY_NAME%%`` - the display name of the course
-* ``%%COURSE_END_DATE%%`` - the end date of the course
-
-===================
-Keyword Formatting
-===================
-
-You format keywords as: ``%%Keyword%%``.  You can include keywords in any HTML
-tags in an email message. An example follows.
-
-::
-
-  <h2>%%COURSE_DISPLAY_NAME%% Updates</h2>
-
-  <p>Dear %%USER_FULLNAME%%, this is a reminder that the last day of the course
-     is <b>%%COURSE_END_DATE%%</b></p>
-  . . .
-
 .. _Email_queuing:
 
-****************************
 Message Workflow States
 ****************************
 
@@ -345,74 +226,6 @@ When the bulk email task is complete, you can find its final state by checking
 the Email Task History report. For more information, see :ref:`Email Task
 History Report`.
 
-.. _Email Task History Report:
-
-********************************
-Email Task History Report
-********************************
-
-The Email Task History report can help you keep track of who sent messages,
-when, to which groups, and how many messages were successfully sent. For each
-message sent, the report includes the username of the requester, the date and
-time it was submitted, the duration and state of the entire task, the task
-status, and the task progress.
-
-You can use this history to investigate questions relating to bulk email
-messages that have been sent, such as these examples.
-
-* How frequently learners are sent course-related email messages.
-* Whether a message was sent successfully.
-* The change in the number of people who were sent course-related messages over
-  time.
-
-To produce the Email Task History report, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Email**.
-
-#. In the **Email Task History** section of the page, select **Show Email Task
-   History**. A report like the following example displays on the instructor
-   dashboard.
-
-.. image:: /_images/educator_how_tos/Bulk_email_history.png
-       :alt: A tabular report with a row for each message sent and columns for
-             requester, date and time submitted, duration, state, task status,
-             and task progress.
-
-===========================
-Review Email Task History
-===========================
-
-For tasks with a **State** of Success, the **Task Progress** column shows an
-informational message. These messages can have a format such as "Message
-successfully emailed for 13457 recipients (skipping 29) (out of 13486)". To
-interpret this message, note that:
-
-* The first number ("recipients") indicates the number of messages sent to the
-  selected recipients.
-
-* The second number ("skipping") indicates the number of enrolled and activated
-  users who were not sent the message. This count is of learners who have opted
-  not to receive course email messages.
-
-* The final number ("out of") indicates the number of users in the set of
-  recipients you selected who were enrolled in the course (and had activated
-  their user accounts) when you sent the email message.
-
-If the "recipients" and "out of" numbers are the same, the message reads
-"Message successfully emailed for 13457 recipients" instead.
-
-Other **Task Progress** messages for tasks with a **State** of Success indicate
-that some or all of the emailing subtasks did not successfully send email:
-
-* "Message emailed for {number succeeded} of {number attempted} recipients"
-* "Message failed to be emailed for any of {number attempted} recipients"
-* "Unable to find any recipients to be emailed"
-
-No **Task Progress** messages display for tasks that have a **State** of
-Failure.
-
 .. seealso::
  :class: dropdown
 
@@ -420,7 +233,11 @@ Failure.
 
  :ref:`Review Sent Messages` (how-to)
 
+ :ref:`Email Task History Report` (how-to)
+
  :ref:`Example Messages to Students` (reference)
+
+ :ref:`Options for Email Message Text` (reference)
 
   
   

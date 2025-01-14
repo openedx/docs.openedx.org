@@ -1,6 +1,5 @@
 .. _Working with Discussion Components:
 
-###################################
 Working with Discussion Components
 ###################################
 
@@ -11,7 +10,7 @@ components, such as videos or text, in the unit. A discussion component gives
 learners a chance to respond to and interact with each other about a specific
 subject.
 
-Discussion topics that you create by adding discussion components in your
+Discussion topics you create by adding discussion components in your
 course are known as content-specific discussion topics.
 
 For more information about discussions, see these topics.
@@ -26,8 +25,8 @@ For more information about discussions, see these topics.
 Create a Discussion Component
 *****************************
 
-.. note:: EdX recommends that you add a Text component before each discussion
-   component to introduce the topic that you want learners to discuss. The
+.. note:: The recommendation is to add a Text component before each discussion
+   component to introduce the topic you want learners to discuss. The
    discussion component itself does not contain any text and can be easy for
    learners to overlook.
 
@@ -66,6 +65,15 @@ Create a Discussion Component
 #. Select **Save**.
 
 .. note:: On the **Discussion** page, you cannot see category and subcategory
-   names of discussion components that you created until after the course has
+   names of discussion components you created until after the course has
    started and the unit is released. For more details about when discussion
    topics are visible, see :ref:`Visibility of Discussion Topics`.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Discussions` (concept)
+ 
+ :ref:`Guidance for Discussion Moderators` (concept)
+ 
+ :ref:`Set up Discussions in Cohorted Courses` (how-to)
