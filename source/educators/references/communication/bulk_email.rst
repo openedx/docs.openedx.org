@@ -84,7 +84,7 @@ should be aware of who is included in each group.
    selected, the Open edX platform will only send email messages to learners in a course run who
    have logged in within the last 18 months. This helps reduce the risk of
    messages being marked as spam (or bouncing) and helps ensure the continued
-   delivery of bulk course email messages through Open edX's email providers.
+   delivery of bulk course email messages through your instance's email providers.
 
 .. list-table::
    :widths: 30 40 40
