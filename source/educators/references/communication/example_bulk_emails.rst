@@ -259,7 +259,7 @@ completion. This example lets learners know:
   graders.
 
 Be sure to search for the values enclosed by {braces} and replace them with
-information for your course. In addition, check you are using
+information for your course. In addition, check that you are using
 :ref:`keywords <Use Keywords in Messages>` appropriately.
 
 ::
