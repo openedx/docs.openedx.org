@@ -1,8 +1,7 @@
 .. _Embed Google Drive Files:
 
-********************************************
 Embedding a Google Drive File in Your Course
-********************************************
+##############################################
 
 .. tags:: educator, how-to
 
@@ -14,9 +13,8 @@ To embed a Google Drive file in your course, follow these steps.
 
 .. _Enable the Google Drive Files Tool:
 
-==================================================
 Enable the Google Drive Files Tool
-==================================================
+***********************************
 
 Before you can add Google Drive files to your course, you must enable the
 Google Drive tool in Studio or OLX (open learning XML).
@@ -48,14 +46,10 @@ also enables Google calendars.
       ...
   </course>
 
-For more information, see `OLX Course Building Blocks`_ in the
-*EdX Open Learning XML Guide*.
-
 .. _Obtain the Google Drive File Embed Code:
 
-=======================================================
 Publish the Google Drive File and Obtain the Embed Code
-=======================================================
+********************************************************
 
 Before you can add a Google Drive file to your course, you must publish the
 file to the web and obtain the embed code for the file.

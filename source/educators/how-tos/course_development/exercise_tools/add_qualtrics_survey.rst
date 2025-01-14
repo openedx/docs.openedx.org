@@ -1,12 +1,11 @@
 .. _Qualtrics Survey:
 
-#########################
 Qualtrics Survey Tool
 #########################
 
 .. tags:: educator, how-to
 
-You can administer Qualtrics surveys to your learners in your edX course. The
+You can administer Qualtrics surveys to your learners in your Open edX course. The
 Qualtrics survey appears in an iframe inside the course.
 
 .. image:: /_images/educator_how_tos/Qualtrics.png
@@ -19,7 +18,7 @@ from individual learners.
 .. note:: To use a Qualtrics survey, you must have a Qualtrics license.
  Qualtrics licenses are available for a fee at the `Qualtrics website
  <http://www.qualtrics.com>`_. If you want to include a survey but you do not
- have a Qualtrics license, you can use the :ref:`edX survey tool<Survey Tool>`
+ have a Qualtrics license, you can use the :ref:`Open edX survey tool<Survey Tool>`
  or a :ref:`Google form<Google Drive Files Tool>`.
 
 For more information, see the following sections.
@@ -33,7 +32,6 @@ accessible before making them available through your course. For more
 information, see
 :ref:`Accessibility Best Practices for Course Content Development`.
 
-*************************************
 Add a Qualtrics Survey to Your Course
 *************************************
 
@@ -52,7 +50,7 @@ Create the Qualtrics Survey
  <http://www.qualtrics.com>`_ for the most up-to-date Qualtrics documentation.
 
 #. Using your Qualtrics account, create your survey.
-#. Add the statements and options that you want the survey to include.
+#. Add the statements and options you want the survey to include.
 #. Add the **user ID** element. This element imports data from your course
    into Qualtrics.
 
@@ -108,7 +106,7 @@ Create the Text Component in Studio
   * Replace the values in the ``width`` and ``height`` attributes with values
     that allow your survey to appear the way you want it to. For example, you
     might change ``width`` to 800 and ``height`` to 1000.
-  * (Optional) If your survey might be taller than the value that you set for
+  * (Optional) If your survey might be taller than the value you set for
     ``height``, in the ``scrolling`` attribute, change the value to ``yes``.
     If you do not change the value to ``yes`` and your survey is taller than
     the ``height`` value, learners cannot scroll down to respond to all the
