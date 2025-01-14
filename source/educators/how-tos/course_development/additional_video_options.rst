@@ -1,6 +1,6 @@
 .. _Additional Video Options:
 
-Specifying Additional Video Options
+Specify Additional Video Options
 ###################################
 
 .. tags:: educator, how-to
