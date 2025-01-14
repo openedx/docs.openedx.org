@@ -1,8 +1,7 @@
-.. _Create Custom Javascript: 
+.. _Create Custom Javascript:
 
-******************************************************
 Create a Custom JavaScript Display and Grading Problem
-******************************************************
+######################################################
 
 .. tags:: educator, how-to
 
@@ -18,7 +17,6 @@ Create a Custom JavaScript Display and Grading Problem
 #. (Optional) To add a **Save** button to your problem, in the settings panels on
    the right side of the editor, set **Attempts** to a number larger than zero.
 #. Select **Save**.
-
 
 .. note::  All problems include more than one resource. If all the resources in
    a problem have the same protocol, host, and port, then the problem conforms
@@ -44,9 +42,7 @@ Create a Custom JavaScript Display and Grading Problem
    Developer Network site <https://developer.mozilla.org/en-US/docs/Web/Security/>`_
    or on `Wikipedia <https://en.wikipedia.org/wiki/Same_origin_policy>`_.
 
-
 .. seealso::
  :class: dropdown
 
  :ref:`Custom JavaScript` (reference)
-

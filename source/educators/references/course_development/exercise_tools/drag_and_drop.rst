@@ -2,9 +2,8 @@
 
 .. _drag_and_drop_background_images:
 
-===============================
 Understanding Background Images
-===============================
+###############################
 
 .. tags:: educator, reference
 
@@ -33,7 +32,7 @@ between the top of the background image and the top of the target zone.
 
 The following image shows a background image and target zones in the drag and
 drop problem editing dialog box. For more information about editing drag and
-drop problems, see :ref:`creating_a_drag_and_drop_problem`.
+drop problems, see :ref:`Creating a Drag and Drop Problem`.
 
 .. image:: /_images/educator_references/dnd-zone-borders.png
   :width: 600
@@ -48,9 +47,8 @@ drop problems, see :ref:`creating_a_drag_and_drop_problem`.
 
 .. _drag_and_drop_draggable_items:
 
-=============================
 Understanding Draggable Items
-=============================
+*****************************
 
 A draggable item is a rectangle that contains either a label or an image.
 Learners grab draggable items from the top of a drag and drop problem and drag
@@ -69,9 +67,9 @@ If you include only a text label, that label appears in the draggable item. If
 you include both a text label and an image for an item, the image appears as
 its label.
 
-=================================
+
 Using Draggable Items with Images
-=================================
+*********************************
 
 The following image shows draggable items with images. For examples of items
 with text, see :ref:`overview_of_drag_and_drop_problems`.
@@ -96,9 +94,9 @@ draggable item, you should consider how that image appears after scaling.
 
 .. _choosing_a_dnd_mode:
 
-=====================================
+
 Choosing a Drag and Drop Problem Mode
-=====================================
+*************************************
 
 You can configure drag and drop problems to allow learners to experiment with
 matching draggable items to target zones until all items are matched correctly,
@@ -159,7 +157,6 @@ unlimited attempts.
 
 .. _drag_and_drop_editor_fields:
 
-************************************************
 Understanding the Drag and Drop Editing Controls
 ************************************************
 
@@ -195,7 +192,7 @@ The following table explains the controls in the **Editing** dialog box.
    * - **Maximum score**
      - The total number of points that learners receive for completing the
        problem. For more information about scores and
-       grading, see :ref:`Grading Index`.
+       grading, see :ref:`Grades`.
 
    * - **Problem text**
      - Text that appears above the problem in the LMS. You can use this text to

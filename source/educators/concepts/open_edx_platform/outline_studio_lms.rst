@@ -21,8 +21,7 @@ The numbers represent the following levels.
 #. :ref:`Units<Developing Course Units>`
 
 .. note::
-    The **Course Outline** page does not show :ref:`components<Developing
-    Course Components>`. You add or access components by selecting the units
+    The **Course Outline** page does not show :ref:`components<What is a Component>`. You add or access components by selecting the units
     that contain the components.
 
 ===========================
@@ -42,5 +41,4 @@ If a learner selects the **Resume Course** option, the course opens to the
 unit that the learner most recently completed.
 
 For information about more specific learner data, including the learner's
-grades or answers for individual problems, see :ref:`Manage Student Progress
-Index`.
+grades or answers for individual problems, see :ref:`Learner Data`.

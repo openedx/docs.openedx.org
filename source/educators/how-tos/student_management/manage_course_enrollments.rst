@@ -1,16 +1,16 @@
 .. _Manage_Course_Enrollments:
 
-##############################
+#########################
 Manage Course Enrollments
-##############################
+#########################
 
 .. tags:: educator, how-to
 
 .. _view_enrollment_count:
 
-=========================
+************************
 View an Enrollment Count
-=========================
+************************
 
 After you create a course, you can access the total number of people who are
 enrolled in it. Note the following information about how this count is
@@ -42,9 +42,9 @@ To view the enrollment count for a course, follow these steps.
    the certification tracks.
 
 
-*********************************
+***************************
 Enroll Learners in a Course
-*********************************
+***************************
 
 To enroll learners or course team members, follow these steps.
 
@@ -82,22 +82,13 @@ To enroll learners or course team members, follow these steps.
 #. Select **Enroll**.
 
 You can view or download a list of the people who are enrolled in the course.
-For more information, see :ref:`Student Data`.
+For more information, see :ref:`Learner Data`.
 
 .. note::
  When you enroll learners in a course, all learners are automatically enrolled
  in the audit enrollment track. For more information about course enrollment
  tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
-
-
-.. note:: If your course has a fee, and an organization wants to purchase
-   enrollment for multiple seats in your course at one time, you can create
-   enrollment codes for the organization. The organization then distributes
-   these enrollment codes to its learners to simplify the enrollment process.
-   You can also create coupon codes to give learners a discount when they
-   enroll in your course. For more information, see :ref:`Enable
-   and Create Enrollment Codes`.
 
 .. _Report Learners Not Yet Enrolled:
 
@@ -135,9 +126,9 @@ To download this report, follow these steps.
 
 .. _unenroll_student:
 
-*********************************
+*******************************
 Unenroll Learners from a Course
-*********************************
+*******************************
 
 You can remove learners from a course by unenrolling them. To prevent learners
 from re-enrolling, course enrollment must also be closed. You use Studio to set

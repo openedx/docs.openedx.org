@@ -19,9 +19,7 @@ When you use video, you might experience one of the following problems.
     video elements`_.
 
   * Verify that file metadata, particularly the MIME type, is correctly set on
-    the host site. For example, when edX offered support for Internet Explorer
-    10 browsers, videos did not play if the MIME type was not set. The HTTP
-    header ``Content-Type`` had to be set to video/mp4 for an .mp4 file.
+    the host site. 
 
     As an example of how you might set metadata on a video host site, the
     *Console User Guide* for Amazon Simple Storage Service (S3) provides
@@ -33,3 +31,18 @@ When you use video, you might experience one of the following problems.
   YouTube account settings for playback are set to always show captions. To
   correct this problem, select **CC** again or change your YouTube account
   settings.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Video Process Overview` (how-to)
+
+  :ref:`Introduction to Video` (reference)
+
+  :ref:`Add a Video` (how-to)
+
+  :ref:`Create a Video` (how-to)
+
+  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+
+  :ref:`Add an In Video Quiz` (how-to)

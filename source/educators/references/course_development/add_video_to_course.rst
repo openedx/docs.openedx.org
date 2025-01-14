@@ -1,8 +1,7 @@
 .. _Introduction to Video:
 
-************************
 Introduction to Video
-************************
+#########################
 
 .. tags:: educator, reference
 
@@ -28,9 +27,8 @@ For more information about how learners can interact with course videos, see
 
 .. _Working with Video Components:
 
-#############################
 Working with Video Components
-#############################
+******************************
 
 You use video components to add videos to your course in Studio. In video
 components, you add the name and location of your video, as well as the video
@@ -46,9 +44,8 @@ Video Options`.
 
 .. _Adding a Video to a Course:
 
-##########################
 Adding a Video to a Course
-##########################
+**************************
 
 To make a video visible in your course, you create a video component in a Unit
 in Studio, and then you add information for the video to the video component.
@@ -70,12 +67,7 @@ that site. Keep the following guidelines in mind.
   you upload on sites such as Vimeo, Dailymotion, or other sites that use their
   own player.
 
-  To help make sure all standard browsers can play your video, edX strongly
-  recommends that you use .mp4 format.
-
-  The video URL might resemble the following example.
-
-  ``https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4``
+  To ensure that all standard browsers can play your video, you should use the .mp4 format.
 
 * If you have copies of a video in multiple resolutions, you must upload each
   copy to the hosting site. For more information, see :ref:`Video Guidelines`.
@@ -83,3 +75,20 @@ that site. Keep the following guidelines in mind.
 * After you upload a video on a hosting site, you must make sure you have the
   URL for that copy of the video. If you upload copies of your video on more
   than one hosting site, make sure you have the URL for each video location.
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Video Process Overview` (how-to)
+
+  :ref:`Add a Video` (how-to)
+
+  :ref:`Troubleshoot Videos` (reference)
+
+  :ref:`Video Guidelines` (reference)
+
+  :ref:`Create a Video` (how-to)
+
+  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+
+  :ref:`Add an In Video Quiz` (how-to)

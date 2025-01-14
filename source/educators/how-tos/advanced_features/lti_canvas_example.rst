@@ -1,15 +1,13 @@
-.. _edX as an LTI Provider to Canvas:
+.. _Open edX as an LTI Provider to Canvas:
 
-##########################################
-Example: edX as an LTI Provider to Canvas
-##########################################
+Example: Open edX Platform as an LTI Provider to Canvas
+#######################################################
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
 
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
+.. warning:: This feature was a closed pilot experiment. This feature is poorly documented and may not work properly.
 
-To use edX course content in the Canvas LMS, you add a new app to the course and then add external tool module items.
+To use Open edX course content in the Canvas LMS, you add a new app to the course and then add external tool module items.
 
 .. note:: This example relies on the use of a third-party tool. Because this
   tool is subject to change by its owner, the steps and illustrations provided
@@ -22,19 +20,18 @@ To use edX course content in the Canvas LMS, you add a new app to the course and
          site as a LTI tool provider.
 
 #. In **Modules**, add a new **External Tool** item. The **URL** is the LTI
-   URL that you determined for the edX course content, such as
-   ``https://edx-lti.org/lti_provider/courses/course-v1:edX+DemoX+2014/block-v1:edX+DemoX+Demo_Course+type@problem+block@d2e35c1d294b4ba0b3b1048615605d2a``.
+   URL that you determined for the your course content.
 
    .. image:: /_images/educator_references/lti_edit_problem_Canvas.png
      :alt: The Canvas page where you add an external tool and supply the LTI
          URL.
 
-   For more information, see :ref:`Determining Content Addresses`.
+   For more information, see :ref:`Determine Content Addresses`.
 
 #. Review the content to verify that it appears as you expect.
 
    .. image:: /_images/educator_references/lti_canvas_example2.png
-     :alt: An edX drag and drop problem shown as part of a course running on a
+     :alt: An Open edX drag and drop problem shown as part of a course running on a
       Canvas system.
 
 .. seealso::
@@ -48,4 +45,4 @@ To use edX course content in the Canvas LMS, you add a new app to the course and
 
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Example: edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (how-to)

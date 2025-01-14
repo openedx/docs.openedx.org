@@ -15,7 +15,7 @@ team who have **Admin** access to that library can grant you access.
 
 The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page. For details about content libraries, see
-:ref:`Content Libraries`.
+:ref:`Content Libraries Overview`.
 
 Using components from content libraries in your course involves two steps.
 

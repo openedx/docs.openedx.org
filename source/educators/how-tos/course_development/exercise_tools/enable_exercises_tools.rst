@@ -1,8 +1,7 @@
 .. _Enable Additional Exercises and Tools:
 
-#########################################
-Enabling Additional Exercises and Tools
-#########################################
+Enable Additional Exercises and Tools
+#####################################
 
 .. tags:: educator, how-to
 
@@ -16,7 +15,6 @@ additional exercises and tools. After you enable an exercise or tool for use
 with your course, when you add a component to a unit, that type of content
 might be listed as one of the **Advanced**, **Text**, or **Problem** options
 
-******************************************
 Enable an Exercise or Tool for Your Course
 ******************************************
 
@@ -68,10 +66,9 @@ To enable an advanced exercise or tool, follow these steps.
    feeds and indentation. A message lets you know whether your changes were
    saved successfully.
 
-
 .. seealso::
  :class: dropdown
 
  :ref:`Core Problem Types` (reference)
 
- :ref:'Create Exercises' (concept)
+ :ref:`Create Exercises` (concept)

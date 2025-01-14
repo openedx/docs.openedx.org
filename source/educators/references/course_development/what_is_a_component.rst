@@ -22,3 +22,14 @@ your course.
   circuit schematic exercises.
 * **Video** components contain the videos that you want to include in your
   course.
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Add a Component` (how-to)
+
+ :ref:`Set Access Restrictions for a Component` (how-to)
+
+ :ref:`Reorganizing Components` (how-to)
+
+ :ref:`Components that Contain Other Components` (reference)  

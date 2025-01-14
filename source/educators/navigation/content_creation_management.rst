@@ -48,8 +48,9 @@ Add Text Components
    ../references/course_development/text_components/text_components.rst
    ../how-tos/course_development/text_components/work_with_html.rst
    ../how-tos/course_development/text_components/create_text_component.rst
-   ../references/course_development/text_components/add_link_website_unit_file.rst
+   ../how-tos/course_development/text_components/add_link_website_unit_file.rst
    ../how-tos/course_development/text_components/add_image.rst
+   ../how-tos/course_development/text_components/format_image.rst
    ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
    ../how-tos/course_development/text_components/paste_without_formatting.rst
    ../how-tos/add_written_content.rst
@@ -68,6 +69,7 @@ Add Video Components
    ../references/course_development/add_video_to_course.rst
    ../how-tos/course_development/add_video_to_course.rst
    ../references/course_development/troubleshoot_video.rst
+   ../references/course_development/video_guidelines.rst
    ../how-tos/create_video.rst
    ../how-tos/course_development/additional_video_options.rst
    ../how-tos/add_video_quiz.rst
@@ -194,6 +196,8 @@ Test Your Course
 
    ../references/testing_course_content.rst
    ../references/roles_for_viewing.rst
+   ../how-tos/view_published_released_content.rst
+   ../how-tos/preview_content.rst
 
 Embed IFrames
 *******************************************************
@@ -238,6 +242,11 @@ make it easy to convert a Legacy Library into the new Library interface.
    
    ../concepts/instructional_design/libraries.rst
    ../how-tos/course_development/create_library.rst
+   ../how-tos/course_development/edit_library.rst
+   ../how-tos/course_development/add_components_library.rst
+   ../how-tos/course_development/view_content_legacy_library.rst
+   ../how-tos/course_development/edit_components_library.rst
+   ../how-tos/course_development/delete_library.rst
    ../how-tos/course_development/library_access.rst
    ../how-tos/course_development/export_import_library.rst
    ../how-tos/leveraging_libraries.rst

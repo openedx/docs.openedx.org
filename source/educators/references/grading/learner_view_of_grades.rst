@@ -30,8 +30,7 @@ together, followed by labs, then exams.
 .. note::
  The **x** for an assignment in the Progress tab indicates that the grade for
  that assignment is currently dropped. You configure how many assignments are
- dropped when you :ref:`configure assignment types <Configure the Assignment
- Types>`.
+ dropped when you :ref:`configure assignment types <Gradebook Assignment Types>`.
 
 .. seealso::
  :class: dropdown

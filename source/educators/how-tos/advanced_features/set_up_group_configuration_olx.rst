@@ -2,9 +2,8 @@
 
 .. _Set Up Group Configuration for OLX Courses:
 
-************************************************
 Set Up Group Configuration for OLX Courses
-************************************************
+###########################################
 
 .. tags:: educator, how-to
 
@@ -27,9 +26,8 @@ each of which defines the experiment groups of learners.
 
 See the following examples for more information.
 
-=============================================
 Example: One Group Configuration
-=============================================
+*********************************
 
 The following code shows an example JSON object that defines a group
 configuration with two learner segments.
@@ -58,9 +56,9 @@ In this example:
   randomly assigned. For XML courses, each group ``id`` value is referenced in
   the ``group_id_to_child`` attribute of the ``<split_test>`` element.
 
-==========================================================
+
 Example: Multiple Group Configurations
-==========================================================
+*****************************************
 
 The following code shows an example JSON object that defines two group
 configurations. The first group configuration divides learners into two

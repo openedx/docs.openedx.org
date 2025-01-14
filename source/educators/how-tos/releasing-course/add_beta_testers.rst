@@ -1,14 +1,14 @@
 .. _Add_Beta_Testers:
 
-#############################
+############################
 Add Beta Testers to a Course
-#############################
+############################
 
 .. tags:: educator, how-to
 
-================================
+********************************
 Define When the Beta Test Starts
-================================
+********************************
 
 To define the start of the beta test, you use Studio to specify a number of
 days before the course start date for self-paced courses or before the section
@@ -24,9 +24,9 @@ information, see :ref:`How_Testers_See_Course`.
 
 .. _Add_Testers:
 
-*********************************
+===================
 Adding Beta Testers
-*********************************
+===================
 
 Before you can add beta testers:
 
@@ -52,9 +52,9 @@ When you add beta testers, note the following.
 
 .. _Add_Testers_Bulk:
 
-================================
+*************************
 Add Multiple Beta Testers
-================================
+*************************
 
 If you have a number of beta testers that you want to add, you can use the
 "batch add" option to add them all at once, rather than individually. With this
@@ -77,17 +77,7 @@ To add multiple beta testers:
    cannot enroll themselves in your course.
 
 #. To send an email message to the beta testers, leave **Notify users by
-   email** selected. An example of the message that is sent to a beta tester
-   who is not enrolled in the course follows.::
-
-    Dear betatester,
-
-    You have been invited to be a beta tester for *course* at edge.edx.org
-    by a member of the course team.
-
-    Visit https://edge.edx.org/courses/course-name/about to join the course
-    and begin the beta test.
-
+   email** selected.
 
 #. Select **Add beta testers**.
 
@@ -100,9 +90,9 @@ testers**.
    enrolled in the course.
 
 
-================================
+*****************************
 Add Beta Testers Individually
-================================
+*****************************
 
 
 #. View the live version of the course.
@@ -130,9 +120,9 @@ user's email address.
 
 .. _Issue_Reporting_During_Course:
 
-*********************************
+********************************
 Reporting Issues During a Course
-*********************************
+********************************
 
 Despite the efforts of the course team and the beta testers, additional
 problems, questions, and issues can occur while a course is running.

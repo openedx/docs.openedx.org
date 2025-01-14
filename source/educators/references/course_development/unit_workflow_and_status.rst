@@ -1,20 +1,19 @@
 .. _The Unit Workflow:
 
-******************
+##################
 The Unit Workflow
-******************
+##################
 
 .. tags:: educator, reference
 
 When you have set up the :ref:`section<Developing Course Sections>` and
-:ref:`subsection<Developing Course Subsections>` in the course outline, you
-then work with units.
+:ref:`subsection<Developing Course Subsections>` in the course outline, you then work with units.
 
 The typical workflow includes these steps.
 
 #. :ref:`Create a unit<Create a Unit>`.
 #. :ref:`Add components to the unit<Add a Component>`.
-#. :ref:`Modify components in the unit<Developing Course Components>`.
+#. :ref:`Modify components in the unit<Add a Component>`.
 
 .. The following image could use some re-work to make the contrast greater.
 
@@ -57,7 +56,7 @@ The following information summarizes whether or not learners can see a unit.
 * If the publishing status is `Published and Live`_, learners see the current
   version of the unit.
 
-* If the publishing status is `Draft (Unpublished Changes)`_, learners see the
+* If the publishing status is `Draft Unpublished Changes`_, learners see the
   last published version of the unit if the :ref:`release dates<Release Dates>`
   for the containing section and subsection have passed.
 
@@ -197,4 +196,20 @@ the release date has passed (in an instructor-paced course).
 The **Release** section applies only to instructor-paced courses. It does not
 appear for units in self-paced courses.
 
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Add Units to the Outline` (how-to)
+
+ :ref:`Create a Unit` (how-to)
+
+ :ref:`Set Access Restrictions For a Unit` (how-to)
+
+ :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+
+ :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
+
+ :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+
+ :ref:`Developing Course Units` (reference)
 

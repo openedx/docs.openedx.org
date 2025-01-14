@@ -1,8 +1,8 @@
 .. _Update the New Course:
 
-#######################################
+####################################
 Update the New Course after a Re-Run
-#######################################
+####################################
 
 .. tags:: educator, how-to
 
@@ -16,7 +16,7 @@ At a minimum, you must make the following changes to prepare the new
 course for release.
 
 * Add course team members, including discussion admins, moderators, and
-  community TAs. See :ref:`Add Course Team Members` or :ref:`Course_Staffing`.
+  community TAs. See :ref:`Add Course Staff` or :ref:`Course_Staffing`.
 
 * Update course-wide dates, including course and enrollment start and end
   dates. See :ref:`Scheduling Your Course`.
@@ -30,8 +30,8 @@ course for release.
 * Delete or edit posts on the **Course Updates** page in Studio. See :ref:`Add
   a Course Update`.
 
-* For a course that includes :ref:`learner cohorts<Enabling and Configuring
-  Cohorts>`, set up the cohorts and select a strategy for assigning learners to
+* For a course that includes :ref:`learner cohorts<Cohorts Overview>`, 
+  set up the cohorts and select a strategy for assigning learners to
   the cohorts.
 
 * For a course that includes drag and drop problems, replace any problems
@@ -58,8 +58,8 @@ who enroll in the new course run.
    or :ref:`Add a Link to a File`.
 
 * Review the staff biographies and other information on the course About page
-  and make needed updates. See :ref:`Planning Course Information` and
-  :ref:`Planning Course Run Information`.
+  and make needed updates. See :ref:`Plan Course Information` and
+  :ref:`Plan Course Run Information`.
 
 * Create initial posts for discussion topics and an "introduce yourself"
   post. See :ref:`Discussions`.
@@ -85,15 +85,15 @@ who enroll in the new course run.
   For example, you could revise a description of the problem **Check** button,
   which was accurate before October 2016, to reflect its new label, **Submit**.
 
-  .. only:: Partners
-
-    Another example of a user interface change is for courses on the edx.org
-    website. A new **Help** option was added to the LMS in September 2016 to
-    provide access to the *EdX Learner's Guide*. When this option was added,
-    the previous **Help** option was renamed **Support**.
-
 For more information about tools and ideas that can help you prepare a course
 for launch, see :ref:`Launch`.
 
 .. note::
   Changes you make in the new course have no effect on the original course.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Re-running a Course` (reference)
+
+ :ref: `Re-Run a Course` (how-to)

@@ -9,7 +9,7 @@ Planning Course Staff
 You can designate a team of people to help you run your course.
 
 You add staff members in Studio. For more information, see
-:ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
+:ref:`Add Course Staff <Add Course Staff>`.
 
 
 .. _Staff Biography Guidelines:
@@ -59,7 +59,7 @@ you assign one of these course team roles to them.
 You can assign these privileged roles when you work in either the LMS or
 Studio. The people who have these roles can work on your course in Studio and
 the LMS. For more information about assigning roles to team members in Studio,
-see :ref:`Add Course Team Members <Add Course Team Members>`.
+see :ref:`Add Course Team Members <Add Course Staff>`.
 
 You can also designate teams of people to beta test your course or to moderate
 and manage its discussions by assigning other roles in the LMS. Beta testers
@@ -68,7 +68,7 @@ need to have the Staff or Admin role. For more information, see
 :ref:`Beta_Testing <Beta_Testing>` and :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
 
 For more information about how to add course team members, see
-:ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
+:ref:`Add Course Staff <Add Course Staff>`.
 
 .. _Administrative Team Roles:
 
@@ -90,7 +90,7 @@ they do not need to have Staff or Admin access. For more information, see
 :ref:`Beta_Testing <Beta_Testing>` and :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
 
 For more information about how to add course team members, see
-:ref:`Studio_Course_Staffing <Studio_Course_Staffing>`.
+:ref:`Add Course Staff <Add Course Staff>`.
 
 
 ==================
@@ -146,3 +146,13 @@ complete the following tasks.
      added to a discussion moderation role in addition to having the course
      team Staff or Admin role. For more information, see
      :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
+
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Add Course Staff` (how-to)
+
+  :ref:`Add Course Creators` (how-to)
+
+  :ref:`Add Beta Testers to a Course <Add_Beta_Testers>` (how-to)  

@@ -21,7 +21,7 @@ course content, with links to more details.
 Understanding Course Building Blocks
 ************************************************
 
-Before you begin, you should understand the building blocks of an edX course.
+Before you begin, you should understand the building blocks of courses built on the Open edX® platform.
 
 * :ref:`The course outline<Developing Your Course Outline>` is the container
   for all of your course content. The outline contains one or more sections.
@@ -33,7 +33,7 @@ Before you begin, you should understand the building blocks of an edX course.
   subsection contains one or more units.
 * :ref:`Course units <Developing Course Units>` are lessons in a subsection
   that learners view as single pages. A unit contains one or more components.
-* :ref:`Course components<Developing Course Components>` are objects within
+* :ref:`Course components<Add a Component>` are objects within
   units that contain your actual course content.
 
 .. _Creating New Course Content:
@@ -42,7 +42,7 @@ Before you begin, you should understand the building blocks of an edX course.
 Creating New Course Content
 ****************************************
 
-Once you understand the way edX courses are structured, you can start
+Once you understand the way courses are structured on the Open edX® platform, you can start
 organizing your content and entering it into Studio.
 
 You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a
@@ -67,11 +67,11 @@ The following diagram summarizes the content creation workflow:
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` throughout the creation process, including making sure that the
-content is available for learners who access courses using the edX mobile apps.
+content is available for learners who access courses using the mobile apps.
 For more information, see :ref:`design for mobile <Designing for Mobile>`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
-   appear in the edX mobile apps than on the edX site. In particular, newly
+   appear in the mobile apps than on your course website. In particular, newly
    published content can take up to an hour to update on the Android app.
 
 
@@ -146,9 +146,50 @@ visibility:
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` during the revision process, including making sure that the content
-is available for learners who access courses using the edX mobile apps. For
+is available for learners who access courses using the mobile apps. For
 more information, see :ref:`Designing for Mobile`.
 
 .. note:: Keep in mind that course updates that you make might take longer to
-   appear in the edX mobile apps than on the edX site. In particular, newly
+   appear in the mobile apps than on your course website. In particular, newly
    published content can take up to an hour to update on the Android app.
+
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Course Outline` (concept)
+ 
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
+  
+ :ref:`Create a Course` (how-to)
+ 
+ :ref:`Create the Course About Page` (how-to)
+ 
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+ 
+ :ref:`Add Content in the Course Outline` (reference)
+ 
+ :ref:`Developing Your Course Outline` (reference)
+ 
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
+ 
+ :ref:`Publish Content from the Course Outline` (reference)
+ 
+ :ref:`Developing Course Sections` (reference)
+ 
+ :ref:`Developing Course Subsections` (reference)
+ 
+ :ref:`Create a Section` (how-to)
+ 
+ :ref:`Create a Subsection` (how-to)
+ 
+ :ref:`Hiding a Subsection from Learners  <Hide a Subsection from Students>` (how-to)
+ 
+ :ref:`Add Course Metadata` (how-to)
+ 
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
+ 
+ :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
+ 
+ :ref:`Resources for Open edX` (reference)  
+ 

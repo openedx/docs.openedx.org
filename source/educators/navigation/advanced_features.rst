@@ -18,6 +18,19 @@ Offer Different Content to Different Groups (Cohorts)
    ../concepts/advanced_features/cohorts_overview.rst
    ../how-tos/advanced_features/managing_cohorts.rst
    ../how-tos/advanced_features/cohorted_courseware.rst
+   ../how-tos/advanced_features/create_content_group.rst
+   ../how-tos/advanced_features/specify_content_particular_content_groups.rst
+   ../how-tos/advanced_features/associate_cohort_with_groups.rst
+   ../how-tos/advanced_features/view_cohort_specific_courseware.rst
+   ../how-tos/advanced_features/delete_content_groups.rst
+   ../how-tos/advanced_features/enable_cohorts.rst
+   ../how-tos/advanced_features/add_cohorts.rst
+   ../how-tos/advanced_features/assign_learners_cohort_manually.rst
+   ../how-tos/advanced_features/assign_learners_cohort_csv.rst
+   ../how-tos/advanced_features/chage_learner_cohort_assignment.rst
+   ../how-tos/advanced_features/rename_cohort.rst
+   ../how-tos/advanced_features/change_assignment_method_cohort.rst
+   ../how-tos/advanced_features/disable_cohorts.rst
    ../concepts/advanced_features/group_configurations.rst
    ../how-tos/set_up_content_groups.rst
    ../how-tos/advanced_features/set_up_group_configuration_olx.rst
@@ -32,12 +45,18 @@ Run Content Experiments
    :glob:
 
    ../concepts/advanced_features/content_experiments_overview.rst
-   ../how-tos/advanced_features/configure_content_experiments.rst
-   ../references/advanced_features/experiment_group_configurations.rst
    ../concepts/advanced_features/guidlines_modifying_group_configuration.rst
-   ../how-tos/advanced_features/add_content_experiments.rst
+   ../how-tos/advanced_features/configure_content_experiments.rst
+   ../how-tos/advanced_features/create_group_configuration.rst
+   ../how-tos/advanced_features/edit_group_configuration.rst
+   ../how-tos/advanced_features/delete_group_configuration.rst
+   ../how-tos/advanced_features/create_content_experiment.rst
+   ../how-tos/advanced_features/create_content_experiment_groups.rst
+   ../how-tos/advanced_features/change_group_configuration_content_experiment.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/test_content_experiments.rst
+   ../references/advanced_features/experiment_group_configurations.rst
+   ../references/advanced_features/add_content_experiments.rst
 
 .. _Use Teams in Your Course:
 
@@ -53,7 +72,12 @@ Use Teams in Your Course
    ../references/advanced_features/managing_teams_via_csv.rst
    ../concepts/advanced_features/managing_teams_discussions.rst
    ../concepts/advanced_features/teams_learner_experience.rst
-   ../how-tos/advanced_features/configure_teams.rst
+   ../how-tos/advanced_features/enable_teams.rst
+   ../how-tos/advanced_features/create_teams.rst
+   ../how-tos/advanced_features/search_teams.rst
+   ../how-tos/advanced_features/edit_teams.rst
+   ../how-tos/advanced_features/remove_learner_from_team.rst
+   ../how-tos/advanced_features/delete_teams.rst
    ../how-tos/connect_teams_content_groups.rst
 
 Use Open edX as an LTI Tool Provider
@@ -68,8 +92,8 @@ Use Open edX as an LTI Tool Provider
    ../references/advanced_features/planning_content_reuse.rst
    ../how-tos/advanced_features/lti_prepare_content.rst
    ../how-tos/advanced_features/lti_determine_content_address.rst
-   ../references/advanced_features/lti_canvas_example.rst
-   ../references/advanced_features/lti_blackboard_example.rst  
+   ../how-tos/advanced_features/lti_canvas_example.rst
+   ../how-tos/advanced_features/lti_blackboard_example.rst  
 
 Course Tags and Taxonomies
 *******************************************************

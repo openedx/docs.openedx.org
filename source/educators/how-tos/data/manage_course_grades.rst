@@ -1,8 +1,8 @@
 .. _Grades:
 
-############################
+#####################
 Manage Learner Grades
-############################
+#####################
 
 .. tags:: educator, how-to
 
@@ -26,14 +26,14 @@ provides details of each learner's response and of assessments that were
 performed on each response. For details, see :ref:`Generate ORA Report`.
 
 For information about how you establish a grading policy and work with the
-Problem components in your course, see :ref:`Grading Index` or
+Problem components in your course, see :ref:`Set the Grade Range` or
 :ref:`Working with Problem Components`.
 
 .. _Review_grades:
 
-********************************************************
+************************************************
 Review How Grading Is Configured for Your Course
-********************************************************
+************************************************
 
 You can review the assignment types that are graded and their respective
 weights in the LMS by selecting **Instructor** to access the instructor
@@ -58,8 +58,7 @@ learners' grades.
      :alt: XML of course assignment types and weights for grading.
 
    In Studio, you define this information by selecting **Settings** and then
-   **Grading**. For more information, see :ref:`Configure the Assignment
-   Types`.
+   **Grading**. For more information, see :ref:`Gradebook Assignment Types`.
 
    .. image:: /_images/educator_how_tos/Grading_Configuration_Studio.png
      :alt: Studio example of homework assignment type and grading weight.
@@ -70,7 +69,7 @@ learners' grades.
    learners' grades and their experience in the course as well as analysis of
    course data.
 
-   EdX recommends that you announce any unavoidable grading related changes to
+   Best practice is that you announce any unavoidable grading related changes to
    learners by using, for example, updates on the **Course** page. You should
    also carefully track such changes for researchers.
 
@@ -81,12 +80,10 @@ Generate a Grade Report for All Learners in a Course
 ****************************************************
 
 For any course, you can generate grades and then download a file with the
-results for all learners in the course, including unenrolled learners. EdX
-recommends that you generate a grade report as soon as certificates have been
-issued for your course.
+results for all learners in the course, including unenrolled learners. Best practice is to generate a grade report as soon as certificates have been issued for your course.
 
 When you initiate calculations to grade learner work, a process starts on the
-edX servers. The complexity of your grading configuration and the number of
+Open edX servers. The complexity of your grading configuration and the number of
 learners in your course affect how long this process takes. You can download a
 report of the calculated grades in a comma-separated values (.csv) file when
 the grading process is complete.
@@ -251,20 +248,12 @@ The gradebook includes the following features:
   specific graded subsection. For information about how to do this, see
   :ref:`Override in Gradebook`.
 
-* **Master’s courses:** The edX gradebook has several features for high-touch courses. For learners in the Master’s track:
-
-  * You can search by email or university student key.
-
-  * You can override grades in bulk. For more information, see :ref:`Override Subsection Bulk`.
-
-  * You can download and view a detailed per-learner report for tracking learner progress and planning learning interventions. For more information, see :ref:`Interventions Report`.
-
 
 .. _Override Subsection Bulk:
 
-**********************************************
+******************************************
 Override Learner Subsection Scores in Bulk
-**********************************************
+******************************************
 
 .. note:: Master’s-only feature
 
@@ -286,7 +275,7 @@ To override grades in bulk, follow these steps.
 
    The CSV contains one row per learner, and the following columns:
 
-   * **username**: The user's edX username
+   * **username**: The user's username
    * **student_key**: The user's external university ID, if configured
    * **course_id**: The course ID
    * **track**: The user's enrollment track (e.g. audit, verified, etc.)
@@ -317,9 +306,9 @@ You can find a history of files uploaded and summary of results by clicking the 
 
 .. _Interventions Report:
 
-**********************************************
+********************************
 Per-Learner Interventions Report
-**********************************************
+********************************
 
 .. note:: Master’s-only feature
 
@@ -340,9 +329,9 @@ To download and view the interventions report, follow these steps:
 
 The report file contains per-learner information for learners in the Master’s track, including:
 
-* edX user ID
+* User ID
 
-* edX username
+* Username
 
 * Student Key
 
@@ -367,9 +356,9 @@ Learner data is updated every day to include activity through the end of the pre
 
 .. _check_student_progress:
 
-**********************************************
+****************************************
 Check the Progress of a Specific Learner
-**********************************************
+****************************************
 
 To check a single learner's progress in your course, you can review the data
 in the :ref:`grade report<Access_grades>` or :ref:`problem grade
@@ -452,7 +441,7 @@ To extend a deadline for a learner, visit the **Extensions** tab on the **Instru
 
 You can also use this tab to **view all deadlines** or **reset a deadline**.
 
-*This feature is supported in courses published after June 1, 2019. To enable for an older course, first Publish the course from Studio. If you have questions, please contact your edX Project Coordinator.*
+*This feature is supported in courses published after June 1, 2019. To enable for an older course, first Publish the course from Studio.*
 
 
 
@@ -588,7 +577,7 @@ learner responses that were already submitted.
 
 
 .. note::
-   You can only rescore problems that have a correct answer defined in edX
+   You can only rescore problems that have a correct answer defined in Open edX
    Studio, including CAPA problems and drag and drop problems. This procedure
    cannot be used to rescore open response assessment (ORA) problems or
    problems that are scored by an external grader. For ORA problems, you can
@@ -888,7 +877,7 @@ the problem. See :ref:`find_URL`.
 Find the Unique Location Identifier for a Problem
 ==================================================
 
-When you create each of the problems for a course, edX assigns a unique
+When you create each of the problems for a course, the platform assigns a unique
 location to it. To make grading adjustments for a problem, or to view data
 about it, you need to specify the problem location.
 
@@ -921,3 +910,13 @@ To find the unique location identifier for a problem, follow these steps.
 
 To close the Staff Debug viewer, click on the browser page outside of the
 viewer.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Understanding the Progress Page` (reference)
+
+ :ref: `Interpreting the Grade Report` (reference)
+
+ :ref: `Interpreting the Problem Grade Report` (reference)

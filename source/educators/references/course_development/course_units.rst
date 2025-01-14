@@ -13,8 +13,7 @@ understand the following concepts and complete the following tasks.
    :depth: 1
    :local:
 
-You add content to units with :ref:`course components<Developing Course
-Components>`.
+You add content to units with :ref:`course components<What is a Component>`.
 
 .. _What is a Unit:
 
@@ -25,7 +24,7 @@ What is a Unit?
 A unit is a part of a :ref:`subsection<Developing Course Subsections>` that
 learners view as a single page.
 
-A unit contains one or more :ref:`components<Developing Course Components>`,
+A unit contains one or more :ref:`components<Add a Component>`,
 such as text with :ref:`HTML<Working with Text Components>` markup,
 :ref:`problems<Working with Problem Components>`, a :ref:`discussion<Working
 with Discussion Components>`, or a
@@ -62,11 +61,11 @@ circles and text to show different areas and controls in the page.
 Viewing Units as a Learner
 ****************************
 
-To a learner using the edX learning management system (LMS), each unit in the
+To a learner using the learning management system 
+(LMS), each unit in the
 subsection is represented by an icon in the unit navigation bar at the top of
 the **Course** page. The current unit is indicated with bold underlining in the
-unit navigation bar. The components in the current unit appear below the unit
-navigation bar.
+unit navigation bar. The components in the current unit appear below the unit navigation bar.
 
 The following image shows a subsection in the LMS that contains several units.
 
@@ -82,3 +81,21 @@ following actions.
 * Viewed all of each video.
 * Submitted answers for all of the problems.
 * Viewed all HTML content for at least five seconds.
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Add Units to the Outline` (how-to)
+
+ :ref:`Create a Unit` (how-to)
+
+ :ref:`Set Access Restrictions For a Unit` (how-to)
+
+ :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+
+ :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
+
+ :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+
+ :ref:`The Unit Workflow` (reference)
+

@@ -19,12 +19,11 @@ For more information about determining how to schedule your course, see
 Set Start and End Dates and Times in Studio
 *******************************************
 
-
 To set dates and times for the course and for course enrollment in Studio,
 follow these steps.
 
 .. note::
- EdX recommends that you verify all important dates in Studio one week before
+ It is recommended that you verify all important dates in Studio one week before
  you plan to start the course.
 
 #. On the **Settings** menu, select **Schedule & Details**.
@@ -44,9 +43,9 @@ follow these steps.
 
 .. _Advertise a Different Start Date:
 
-====================================
+*********************************
 Advertise a Different Start Date
-====================================
+*********************************
 
 You can advertise a start date for your course that is different from the
 course start date you set in the **Schedule & Details** page. You might want
@@ -90,7 +89,6 @@ To set an advertised start date in Studio, follow these steps.
 Set Pacing for Your Course in Studio
 ************************************
 
-
 Before you can use this feature to set up a self-paced course, it must be
 enabled using the Open edX Django admin panel. Follow these steps, or
 contact your Open edX site administrator for assistance.
@@ -112,3 +110,17 @@ To set the pacing for your course, follow these steps.
 #. Under **Course Pacing**, select either **Instructor-Paced** or
    **Self-Paced**.
 #. Select **Save Changes**.
+
+
+.. seealso::
+  :class: dropdown
+
+  :ref:`Course Dates` (reference)
+
+  :ref:`Scheduling Your Course` (reference)
+
+  :ref:`Setting Course Pacing` (reference)
+
+  :ref:`Course Pacing` (reference)
+
+  :ref:`Additional Course Run Information` (concept)

@@ -1,14 +1,13 @@
 .. _Math Expression Input Problem XML:
 
-*******************************************
 Math Expression Input Problem OLX Reference
-*******************************************
+###########################################
 
 .. tags:: educator, reference
 
-========
+
 Template
-========
+********
 
 .. note:: The following template includes a Python script. When you add a
   script to a problem component, do not add to or change its internal
@@ -42,9 +41,9 @@ in the following format:
 ``samples="VARIABLES@LOWER_BOUNDS:UPPER_BOUNDS#NUMBER_OF_SAMPLES"``. Additional detail follows in the description of the ``<formularesponse>``
 element.
 
-========
+
 Elements
-========
+********
 
 For math expression input problems, the ``<problem>`` element can include this
 hierarchy of child elements.
@@ -63,7 +62,7 @@ hierarchy of child elements.
 In addition, standard HTML tags can be used to format text.
 
 ``<formularesponse>``
-*********************
+=====================
 
 Required. Indicates that the problem is a math expression input problem.
 
@@ -72,7 +71,7 @@ used  by :ref:`numerical input<Numerical Input>` problem types, but
 ``<formularesponse>`` allows unknown variables.
 
 Attributes
-==========
+----------
 
 .. list-table::
    :widths: 20 80
@@ -125,7 +124,7 @@ The following are examples of valid variable names: ``V_out``, ``m_1``, ``G_{ij}
 
 
 Children
-========
+--------
 
 * ``<label>``
 * ``<description>``
@@ -135,39 +134,39 @@ Children
 * ``<solution>``
 
 ``<label>``
-***********
+===========
 
 Required. Identifies the question or prompt. You can include HTML tags within
 this element.
 
 Attributes
-==========
+----------
 
 None.
 
 Children
-========
+--------
 
 None.
 
 ``<description>``
-*****************
+=================
 
 Optional. Provides clarifying information about how to answer the question. You
 can include HTML tags within this element.
 
 Attributes
-==========
+----------
 
 None.
 
 Children
-========
+--------
 
 None.
 
 ``<formulaequationinput>``
-**************************
+==========================
 
 Required. Creates a response field in the LMS where learners enter a response.
 
@@ -177,7 +176,7 @@ plain text into typeset math is the same parser that evaluates the response for
 grading.
 
 Attributes
-==========
+----------
 
 .. list-table::
    :widths: 20 80
@@ -190,18 +189,18 @@ Attributes
        the LMS.
 
 Children
-========
+--------
 
 None.
 
 ``<responseparam>``
-*******************
+===================
 
 Used to define an upper bound on the variance of the numerical methods used to
 approximate a test for equality.
 
 Attributes
-==========
+----------
 
 .. list-table::
    :widths: 20 80
@@ -219,12 +218,12 @@ Attributes
        learner input as incorrect, even if it is algebraically equivalent.
 
 Children
-========
+--------
 
 None.
 
 ``<script>``
-************
+============
 
 Optional. Specifies a script that the grader uses to evaluate a learner's
 response. A problem behaves as if all of the code in all of the script elements
@@ -235,7 +234,7 @@ As with all Python code, indentation matters, even though the code is embedded
 in XML.
 
 Attributes
-==========
+----------
 
 .. list-table::
    :widths: 20 80
@@ -247,12 +246,12 @@ Attributes
      - Required. Must be set to ``loncapa/python``.
 
 Children
-========
+--------
 
 None.
 
 ``<solution>``
-**************
+==============
 
 Optional. Identifies the explanation or solution for the problem, or for one of
 the questions in a problem that contains more than one question.

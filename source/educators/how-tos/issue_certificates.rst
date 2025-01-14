@@ -1,8 +1,8 @@
 .. _Issuing Certificates:
 
-********************
+####################
 Issuing Certificates
-********************
+####################
 
 .. tags:: educator, how-to
 
@@ -10,8 +10,8 @@ Issuing Certificates
  Before you can issue certificates, the administrator for your instance of
  Open edX must configure the platform to allow course teams to generate and
  issue certificates. For more information, see
- :ref:`Enable Automatic Certificate Generation` and
- :ref:`Enable Certificates` in *Installing, Configuring, and
+ `Enable Automatic Certificate Generation`_ and
+ `Enable Certificates`_ in *Installing, Configuring, and
  Running the Open edX Platform*.
 
 The platform can automatically generate certificates for both self-paced courses and
@@ -46,9 +46,9 @@ You can specify when you want to make certificates available.
 
 .. _Issue Certificates on a Specified Date:
 
-======================================
+**************************************
 Issue Certificates on a Specified Date
-======================================
+**************************************
 
 If you do not want to generate certificates 48 hours after the course
 end date, you can specify the date when you want the platform to generate
@@ -59,12 +59,12 @@ For more information about how to specify a day to issue certificates, see
 
 .. _Allow Learners to Receive Early Certificates:
 
-============================================
+********************************************
 Allow Learners to Receive Early Certificates
-============================================
+********************************************
 
 If the administrator has configured the site correctly (see
-:ref:`Enable Automatic Certificate Generation` in
+`Enable Automatic Certificate Generation`_ in
 *Installing, Configuring, and Running the Open edX Platform*),
 self-paced courses issue certificates to learners as soon as learners
 have completed enough of the course, with a high enough grade, to earn
@@ -76,6 +76,7 @@ been removed.
 
 .. _Allow Learners to Download Certificates:
 
+*********************************************
 Allow Learners to Download Early Certificates
 *********************************************
 
@@ -94,5 +95,14 @@ To allow learners to download early certificates, you modify the
 .. seealso::
   :class: dropdown
 
- :ref:`Setting Up Certificates`
- :ref:`Reporting Certificate Data`
+  :ref:`Setting Up Certificates` (reference)
+
+  :ref:`Enable a Certificate` (how-to)
+
+  :ref:`Edit a Certificate` (how-to)
+
+  :ref:`Set Up Certificates` (how-to)
+
+  :ref:`Enable Badges in Course` (how-to)
+
+  :ref:`Access Certificate Data` (how-to)
