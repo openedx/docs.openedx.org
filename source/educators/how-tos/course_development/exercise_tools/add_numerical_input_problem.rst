@@ -94,8 +94,6 @@ For example, to identify the correct answers as 5, 6, or 7, but not 8, specify
 ``(5,8]``.
 
 
-.. _Use Feedback in a Numerical Input Problems:
-
 ===============
 Adding Feedback
 ===============
