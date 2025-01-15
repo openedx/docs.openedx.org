@@ -12,16 +12,10 @@ This video explains how to add a dropdown-type problem:
 .. seealso::
   :class: dropdown
 
-  :ref:`Single Select Overview` (concept)
+  :ref:`Dropdown` (reference)
 
-  :ref:`Multiple Choice` (reference)
+  :ref:`Dropdown Problem XML` (reference)
 
-  :ref:`Single Select` (how-to)
+  :ref:`Use Hints in a Dropdown Problem` (how-to)
 
-  :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
-
-  :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
-
-  :ref:`Single Select Problem XML` (reference)
-
-  :ref:`Add a Multiple Choice Problem` (how-to)
+  :ref:`Use Feedback in a Dropdown Problem` (how-to)
