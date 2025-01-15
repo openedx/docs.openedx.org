@@ -1,6 +1,6 @@
 .. _Email Task History Report:
 
-How to Use the Email Task History Report
+Use the Email Task History Report
 ###########################################
 
 .. tags:: educator, how-to
