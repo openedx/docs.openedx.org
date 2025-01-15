@@ -120,7 +120,7 @@ Fore more detailed use cases, please visit :doc:`openedx-events:reference/real-l
 
 In summary, events can be used to integrate application components with each other or with external services, allowing them to communicate, synchronize, and perform additional actions when specific triggers occur.
 
-You can review the :doc:`Open edX Events <openedx-events:index>` documentation for more information on :doc:`openedx-events:how-tos/create-a-new-event` and :doc:`openedx-events:how-tos/consume-an-event` in your project. This documentation includes a list of :doc:`openedx-events:reference/events` and much more.
+You can review the :doc:`Open edX Events <openedx-events:index>` documentation for more information on :doc:`creating events <openedx-events:how-tos/create-a-new-event>` and :doc:`consuming them <openedx-events:how-tos/consume-an-event>` in your project. This documentation includes a list of :doc:`openedx-events:reference/events` and much more.
 
 When to Use an Open edX Filter?
 -------------------------------
@@ -135,7 +135,7 @@ Fore more detailed use cases, please visit :doc:`openedx-filters:reference/real-
 
 In summary, filters can be used when implementing application flow control that modifies the application's behavior, navigation, or user interaction flow during runtime.
 
-You can review the :doc:`Open edX Filters <openedx-filters:index>` documentation for more information on :doc:`openedx-filters:how-tos/using-filters` in your project. This documentation includes a list of :doc:`openedx-filters:reference/filters` and much more.
+You can review the :doc:`Open edX Filters <openedx-filters:index>` documentation for more information on :doc:`creating filters <openedx-filters:how-tos/create-new-filter>` and :doc:`using them <openedx-filters:how-tos/using-filters>` in your project. This documentation includes a list of :doc:`openedx-filters:reference/filters` and much more.
 
 Still Deciding Which to Use?
 ----------------------------
