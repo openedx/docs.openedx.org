@@ -16,7 +16,7 @@ Reorganize Components Within a Unit
 *****************************************
 
 To reorganize components within their current unit, you drag and drop
-components in the same way you can drag and drop units, subsections, and
+components like you can drag and drop units, subsections, and
 sections on the **Course Outline** page. For more information, see
 :ref:`Reorganize the Course Outline`.
 
@@ -40,9 +40,9 @@ moves to the same level as the parent.
 Move Components to Other Units
 ********************************
 
-To move components to another unit in the course outline, follow these steps.
+Follow these steps to move components to another unit in the course outline.
 
-#. Select the **Move** icon for the component you want to move.
+#. Select the **Move** icon for the component that you want to move.
 
    .. image:: /_images/educator_how_tos/component_move_icon.png
       :alt: The action icons for components, with the Move icon highlighted.
