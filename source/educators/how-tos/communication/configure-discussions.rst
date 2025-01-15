@@ -1,4 +1,4 @@
-.. _Configuring Edx Discussions:
+.. _Configuring Open edX Discussions:
 
 ################################
 Configuring Open edX Discussions
@@ -6,33 +6,33 @@ Configuring Open edX Discussions
 
 .. tags:: educator, how-to
 
-For opening Open edX discussions configuration page, follow these steps.
+To open the Open edX discussions configuration page, follow these steps.
 
 1. Open your course in Studio.
 
 2. Select **Content**, then **Pages & Resources**.
 
-3. Click on the gear icon on top-right of **Discussion** tile (as seen below).
-This will take you to the discussions configuration page where you can select
+3. Click on the gear icon on the top-right of the **Discussion** tile (as seen below).
+This will take you to the discussions configuration page, where you can select
 a discussion provider.
 
 .. image:: /_images/educator_how_tos/Discussion_tile_in_pages_and_resources.png
   :width: 300
   :alt: Appearance of Discussion tile in Pages & Resources.
 
-4. Select Open edX as discussion provider by checking the box on top-right of **Open edX**
+4. Select Open edX as the discussion provider by checking the box on the top-right of **Open edX**
 tile. Click Next.
 
 .. image:: /_images/educator_how_tos/Tile_for_edx_discussion_provider.png
   :width: 300
-  :alt: Appearance of tile for edx discussion provider in configuration.
+  :alt: Appearance of tile for Open edX discussion provider in configuration.
 
 5. This is the Open edX discussions configuration page. All configuration options
 for Open edX discussions can be found here.
 
 .. image:: /_images/educator_how_tos/edx_discussions_configurations_page.png
   :width: 300
-  :alt: Appearance of edx discussions configurations page.
+  :alt: Appearance of Open edX discussions configurations page.
 
 .. _Create CourseWide Discussion Topics:
 
@@ -58,7 +58,7 @@ Discussions in these topics can begin as soon as your course is available.
 
 To create a course-wide discussion topic, follow these steps.
 
-1. Navigate to Open edX discussion provider configuration page (see :ref:`Configuring Edx Discussions`).
+1. Navigate to Open edX discussion provider configuration page (see :ref:`Configuring Open edX Discussions`).
 
 2. Scroll down to **General discussion topics**. You would see a topic named **General**
 already there. This topic cannot be deleted but can be renamed.
@@ -105,7 +105,7 @@ the forum <Content Specific Discussion Topics>`. To enable discussion on a cours
 .. image:: /_images/educator_how_tos/enable-discussion.png
   :width: 700
   :align: center
-  :alt: Toggle switches for anonymous posts in edx discussions configuration.
+  :alt: Toggle switches for anonymous posts in Open edX discussions configuration.
 
 3. Click **Save**.
 
@@ -115,11 +115,11 @@ discussions enabled for them will show a **Discussion enabled** label in Studio.
 .. image:: /_images/educator_how_tos/discussion-enabled.png
   :width: 700
   :align: center
-  :alt: Toggle switches for anonymous posts in edx discussions configuration.
+  :alt: Toggle switches for anonymous posts in Open edX discussions configuration.
 
 .. note:: To enable discussion for units in subsections marked as graded (but
   not **Timed Exams**), first enable the **Enable discussions on units in graded
-  subsusections** toggle on discussion configuration page in studio (see :ref:`Configuring Edx Discussions`).
+  subsusections** toggle on discussion configuration page in studio (see :ref:`Configuring Open edX Discussions`).
 
 .. note:: Discussions can not be enabled for units belonging to subsections marked
   as **Timed Exams**.
@@ -130,7 +130,7 @@ discussion sidebar visible alongside the course unit.
 .. image:: /_images/educator_how_tos/discussion-sidebar.png
   :width: 300
   :align: center
-  :alt: Toggle switches for anonymous posts in edx discussions configuration.
+  :alt: Toggle switches for anonymous posts in Open edX discussions configuration.
 
 To disable discussion for a unit, uncheck the **Discussion enabled** checkbox in the
 unit’s configuration and click **Save**.
@@ -145,10 +145,10 @@ with the threads contained within it.
 .. image:: /_images/educator_how_tos/archived.png
   :width: 300
   :height: 400
-  :alt: Toggle switches for anonymous posts in edx discussions configuration.
+  :alt: Toggle switches for anonymous posts in Open edX discussions configuration.
 
 .. warning:: If **Enable discussions on units in graded subsections** toggle on
-  the discussion configuration page (see :ref:`Configuring Edx Discussions`) is turned
+  the discussion configuration page (see :ref:`Configuring Open edX Discussions`) is turned
   off, any discussion topics associated with units belonging to graded subsections
   will be archived or deleted (if they don’t contain any threads). Enabling the
   toggle again will restore archived topics and replace deleted topics with new ones.
@@ -172,7 +172,7 @@ to other learners.
 To allow anonymous discussion posts in your course, follow these steps.
 
 1. Navigate to Open edX discussion configuration page
-(see :ref:`Configuring Edx Discussions`).
+(see :ref:`Configuring Open edX Discussions`).
 
 2. Toggle the **Allow anonymous discussion posts to peers** to enable learners to
 make posts that are anonymous to everyone other learners.

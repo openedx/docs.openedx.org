@@ -63,21 +63,21 @@ Create a Zooming Image Tool
      image that you want to appear magnified when the user hovers over the
      regular image.
 
-     ``https://studio.edx.org/c4x/edX/DemoX/asset/pathways_detail_01.png``
+     ``https://studio.openedx.org/c4x/openedX/DemoX/asset/pathways_detail_01.png``
 
      For example, your file name and path might be ``/static/Image1.jpg``.
 
    - Replace the following file name and path with the name and path of the
      image that you want to appear when the page opens.
 
-    ``https://studio.edx.org/c4x/edX/DemoX/asset/pathways_overview_01.png``
+    ``https://studio.openedx.org/c4x/openedX/DemoX/asset/pathways_overview_01.png``
 
      For example, your file name and path might be ``/static/Image2.jpg``.
 
    - Replace the following name and file path with the name and path of the
      JavaScript file that you downloaded from ``files.edx.org``.
 
-     ``https://studio.edx.org/c4x/edX/DemoX/asset/jquery.loupeAndLightbox.js``
+     ``https://studio.openedx.org/c4x/openedX/DemoX/asset/jquery.loupeAndLightbox.js``
 
      Because you uploaded the ``jquery.loupeAndLightbox.js`` file to the
      **Files & Uploads** page, your file name and path is
@@ -95,4 +95,12 @@ Create a Zooming Image Tool
      :alt: Example HTML for a zooming image tool.
 
 #. Select **Save**.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Add Files to a Course` (how-to)
+
+ :ref:`Image Mapped Input` (reference)
+
 

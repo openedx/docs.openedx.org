@@ -1,8 +1,7 @@
 .. _Notes Tool:
 
-##############################
-Notes Tool
-##############################
+Enable the Notes Tool
+#####################
 
 .. tags:: educator, how-to
 
@@ -38,5 +37,13 @@ tool, follow these steps.
 
 #. Select **Apply** to save your configuration changes.
 
- For more information about the ways learners can use notes, see
- `SFD Notes`_.
+.. seealso::
+ :class: dropdown
+
+ :ref:`RecommenderXBlock` (how-to)
+
+ :ref:`Annotation` (how-to)
+
+ :ref:`Calculator` (how-to)
+
+ :ref:`Enable Completion` (how-to)

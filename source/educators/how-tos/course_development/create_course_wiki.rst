@@ -1,6 +1,5 @@
 .. _Create Course Wiki:
 
-########################
 Using the Course Wiki
 ########################
 
@@ -16,7 +15,6 @@ collaboratively edit information both about, and for, your course.
 
 .. _Showing or Hiding the Wiki:
 
-********************************
 Showing or Hiding the Wiki
 ********************************
 
@@ -27,14 +25,13 @@ To disable or enable the Wiki application, follow these steps.
 #. From the **Configure wiki** modal, select the toggle to enable or disable the **wiki**.
 #. Select **Apply** to save your configuration changes.
 
-When you hide the wiki in your course, any existing articles remain in the edX- wide wiki,
+When you hide the wiki in your course, any existing articles remain in the wide wiki,
 but the Wiki page is removed from your course pages.
 
 .. In XML authoring, remove the `{"type": "wiki"}` entry in your `/policies/TERM/policy.json` file.
 
 .. _Controlling Wiki Access:
 
-********************************
 Controlling Access to the Wiki
 ********************************
 
@@ -51,9 +48,9 @@ To change access to the course wiki, follow these steps.
 
 
 The **Enable public wiki access** wiki setting is disabled by default, meaning that only course team members
-and enrolled learners can see the course wiki. If you enable this setting, then any registered edX user
+and enrolled learners can see the course wiki. If you enable this setting, then any registered user
 can access the course wiki, even if they are not enrolled in your course. However, public users would have
-to explicitly navigate to your wiki via the edX-wide wiki structure, or a link that has been provided to them.
+to explicitly navigate to your wiki via the wide wiki structure, or a link that has been provided to them.
 
 To modify viewing or editing permissions for specific groups of users by
 article, see :ref:`Setting Permissions for Wiki Articles`.
@@ -63,7 +60,6 @@ a Wiki Article`.
 
 .. _Setting Permissions for Wiki Articles:
 
-***************************************
 Setting Permissions for Wiki Articles
 ***************************************
 
@@ -72,7 +68,7 @@ need to modify the read/write permissions for articles. For example, as a
 member of the course team, you likely want to prevent learners from creating
 wiki articles at the top level, so you should remove write access to course-
 level wiki articles for most users. (Top-level wiki articles are children of
-the edX-wide wiki, and cannot be found within the course wiki).
+the wide wiki, and cannot be found within the course wiki).
 
 To modify the permissions for wiki articles, follow these steps.
 
@@ -107,11 +103,10 @@ You add users to these groups in the LMS by selecting **Instructor** and then
 The permissions for the **Others** group apply to users who are not in the
 three course groups, including learners.
 
-.. If permissions are unchanged from the default wiki, students can create articles at the course level (children of the edX-wide wiki). This is easy to do accidentally due to the prominence of the Add article button for the top level.
+.. If permissions are unchanged from the default wiki, students can create articles at the course level. This is easy to do accidentally due to the prominence of the Add article button for the top level.
 
 .. _Seeding the Wiki:
 
-********************************
 Seeding the Wiki
 ********************************
 
@@ -129,7 +124,6 @@ Read more about tasks :ref:`Course Wiki Tasks`
 
 .. _Locking a Wiki Article:
 
-********************************
 Locking a Wiki Article
 ********************************
 
@@ -152,7 +146,6 @@ follow these steps.
 
 .. _Deleting a Wiki Article:
 
-********************************
 Deleting a Wiki Article
 ********************************
 

@@ -22,7 +22,7 @@ information, see :ref:`Creating a Course About Page <Creating a Course About Pag
 Skill and Knowledge Prerequisites
 *********************************
 
-You might want to make sure that your learners have a specific set of skills
+You might want to make sure your learners have a specific set of skills
 and knowledge before they take your course. This information appears on the
 course About page.
 
@@ -54,7 +54,7 @@ Example Skill and Knowledge Prerequisites
 Prerequisite Courses
 ****************************
 
-When you require that your learners pass a particular course before they
+When you require your learners pass a particular course before they
 enroll in your course, learners see information about course prerequisites on
 the course **About** page.
 
@@ -96,13 +96,13 @@ an Entrance Exam <Require an Entrance Exam>`.
 Best Practices for Entrance Exams
 ==================================
 
-We strongly recommend that you follow several guidelines to help you and your
+We strongly recommend you follow several guidelines to help you and your
 learners have a positive experience with entrance exams.
 
-* Make sure that your beta testers include the entrance exam when they test
+* Make sure your beta testers include the entrance exam when they test
   your other course content.
 
-* Make sure that you mention the entrance exam in the course description on
+* Make sure you mention the entrance exam in the course description on
   your course **About** page. Otherwise, learners will not know about the
   entrance exam before they enroll in your course and try to access course
   content.
@@ -110,7 +110,7 @@ learners have a positive experience with entrance exams.
 * Add an announcement to the **Course Updates & News** page that contains
   information and instructions for learners who need to take the exam. When
   learners first try to access content in a course that has an entrance exam,
-  they see the **Course Updates & News** page. We suggest that you include
+  they see the **Course Updates & News** page. We suggest you include
   the following information.
 
   * To begin the course entrance exam, learners select **Entrance Exam**.
@@ -138,7 +138,7 @@ You can add the syllabus to your course About page. For more information, see
 :ref:`Creating a Course About Page <Creating a Course About Page>`.
 
 You can also add a syllabus to your course in Studio by creating a custom page
-or a handout. For more information, see :ref:`Add Page <Add Page>` and :ref:`Add Course
+or a handout. For more information, see :ref:`Add Page <Adding Pages to a Course>` and :ref:`Add Course
 Handouts <Add Course Handouts>`.
 
 ================

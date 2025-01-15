@@ -50,6 +50,7 @@ Add Text Components
    ../how-tos/course_development/text_components/create_text_component.rst
    ../how-tos/course_development/text_components/add_link_website_unit_file.rst
    ../how-tos/course_development/text_components/add_image.rst
+   ../how-tos/course_development/text_components/format_image.rst
    ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
    ../how-tos/course_development/text_components/paste_without_formatting.rst
    ../how-tos/add_written_content.rst
@@ -100,7 +101,13 @@ Add Course Assets
    ../references/course_development/exercise_tools/google_docs.rst
    ../references/course_development/files_page.rst
    ../how-tos/manage_files.rst
-   
+   ../how-tos/course_development/enable_notes.rst
+   ../how-tos/course_development/enable_teams.rst
+   ../how-tos/course_development/enable_wiki.rst
+   ../how-tos/course_development/enable_calculator.rst
+   ../how-tos/course_development/add_custom_page.rst
+   ../how-tos/course_development/enable_textbook.rst
+   ../how-tos/course_development/reorder_deleting_custom_pages.rst
 
 Add Mathjax
 *******************************************************

@@ -1,8 +1,7 @@
 .. _What is Studio:
 
-***************
 What Is Studio?
-***************
+###############
 
 .. tags:: educator, concept
 
@@ -16,3 +15,20 @@ course team, set the grading policy, publish your course, and more.
 
 You use Studio directly through your browser. You do not need any additional
 software.
+
+.. seealso::
+ :class: dropdown
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
+
+ :ref:`Course Outline` (concept)
+
+ :ref:`Create a Course` (how-to)
+
+ :ref:`Create the Course About Page` (how-to)
+
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+
+ :ref:`Add Content in the Course Outline` (reference)
+
+ :ref:`Developing Your Course Outline` (reference)

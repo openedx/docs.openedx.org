@@ -114,3 +114,10 @@ To change the results visibility for your subsection, follow these steps.
       an end date, results are always visible.
 
 #. Select **Save**.
+
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Create an Open Response Assessment Assignment` (how-to)
+
