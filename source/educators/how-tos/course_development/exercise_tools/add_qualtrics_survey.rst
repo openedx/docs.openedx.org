@@ -50,7 +50,7 @@ Create the Qualtrics Survey
  <http://www.qualtrics.com>`_ for the most up-to-date Qualtrics documentation.
 
 #. Using your Qualtrics account, create your survey.
-#. Add the statements and options you want the survey to include.
+#. Add the statements and options that you want the survey to include.
 #. Add the **user ID** element. This element imports data from your course
    into Qualtrics.
 
@@ -106,7 +106,7 @@ Create the Text Component in Studio
   * Replace the values in the ``width`` and ``height`` attributes with values
     that allow your survey to appear the way you want it to. For example, you
     might change ``width`` to 800 and ``height`` to 1000.
-  * (Optional) If your survey might be taller than the value you set for
+  * (Optional) If your survey might be taller than the value that you set for
     ``height``, in the ``scrolling`` attribute, change the value to ``yes``.
     If you do not change the value to ``yes`` and your survey is taller than
     the ``height`` value, learners cannot scroll down to respond to all the
@@ -114,7 +114,7 @@ Create the Text Component in Studio
   * Leave the other default values, and then select **OK** at the bottom
     of the HTML source code editor to return to the component editor.
 
-#. In the component editor, delete all of the default instructional text, or
+#. In the component editor, delete all of the default instructional text or
    replace it with introductory text for your Qualtrics survey.
 #. Select **Save**.
 
