@@ -45,7 +45,7 @@ discussion topics.
 
  :ref:`Assigning_discussion_roles` (how-to)
 
- :ref:`Configuring Edx Discussions` (how-to)
+ :ref:`Configuring Open edX Discussions` (how-to)
 
  :ref:`Administer Discussions` (how-to)
 
