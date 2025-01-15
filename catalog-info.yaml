@@ -9,6 +9,7 @@ metadata:
       icon: "Web"
   annotations:
     openedx.org/arch-interest-groups: "feanil"
+    openedx.org/release: "main"
 spec:
   owner: group:docs-openedx-org-maintainers
   type: 'website'

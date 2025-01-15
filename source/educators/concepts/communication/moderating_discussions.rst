@@ -1,6 +1,5 @@
 .. _Moderating_discussions:
 
-#######################
 Moderating Discussions
 #######################
 
@@ -25,8 +24,8 @@ relay it back to the course team.
    about discussion roles, see :ref:`About_discussion_roles`.
 
 .. note:: Not all options for moderating discussions are available when
-   discussions are accessed using the edX mobile apps. For information about
-   the differences between discussions on the edx.org site and in the mobile
+   discussions are accessed using the Open edX mobile app. For information about
+   the differences between discussions on the desktop site and in the mobile
    apps, see :ref:`Discussions on Mobile Apps`.
 
 .. contents::
@@ -34,14 +33,12 @@ relay it back to the course team.
  :depth: 1
 
 For information about best practices for moderating discussions, see
-:ref:`Guidance for Discussion Moderators`. If you are using :ref:`divided
-discussions`<About Divided Discussions>`, see :ref:`Managing Divided Discussion
+:ref:`Guidance for Discussion Moderators`. If you are using `divided discussions <https://docs.openedx.org/en/latest/educators/concepts/communication/about_divided_discussions.html#about-divided-discussions>`_, see :ref:`Managing Divided Discussion
 Topics`.
 
 
 .. _About_discussion_roles:
 
-*********************************
 About Discussion Moderation Roles
 *********************************
 
@@ -59,7 +56,6 @@ moderate discussions and work with posts, responses, and comments.
    Admin role can grant discussion roles.
 
 
-============================
 The Discussion Roles
 ============================
 
@@ -68,9 +64,9 @@ the following roles.
 
 .. note:: The options for moderating discussions described below are only
    available when members of the discussion administration team work in a web
-   browser. The edX mobile apps do not currently offer moderation options.
+   browser. The Open edX mobile apps do not currently offer moderation options.
 
-   For more information about differences between discussions on the edx.org
+   For more information about differences between discussions on the desktop
    site and on the mobile apps, see :ref:`Discussions on Mobile Apps`.
 
 * Course team members with the Discussion Moderator role can edit and delete
@@ -114,16 +110,12 @@ Provide Guidelines for Learners
 You can develop a set of best practices for discussion participation and make
 them available to learners as a course handout file or on a defined page in
 your course. These guidelines can define your expectations and optionally
-introduce features of edX discussions.
+introduce features of Open edX discussions.
 
 You can also refer learners to the `course discussions index`_ section in the *Open EdX Learner's Guide*. Consider referring learners
 in your courses to that section, which describes the structure and features of
-edX course discussions, and provides useful information to help learners make
+Open edX course discussions, and provides useful information to help learners make
 the most of their participation in course discussions.
-
-.. For a template that you can use to develop your own guidelines, see
-.. :ref:`Discussion Forum Guidelines`.
-
 
 .. _Develop a Positive Discussion Culture:
 

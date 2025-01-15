@@ -6,6 +6,10 @@ Configure Timed Exams
 
 .. tags:: educator, how-to
 
+.. contents::
+  :local:
+  :depth: 1
+
 .. _Enable Timed Exams:
 
 *******************
@@ -20,7 +24,7 @@ is set to be a "timed" exam, and set it to "none".
 
    The **Enable Timed Exams** field is now deprecated in the
    **Advanced Settings** page. If you want to access the field, you'll need
-   to click on the "Show Deprecated Settings" button on the **Advanced Settings**
+   to click on the **Show Deprecated Settings** button on the **Advanced Settings**
    page.
 
 
@@ -28,7 +32,7 @@ is set to be a "timed" exam, and set it to "none".
 Set a Subsection to be Timed
 *****************************
 
-Ensure that you have enabled timed exams in the course. Then follow these
+Ensure you have enabled timed exams in the course. Then follow these
 steps.
 
 #. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
@@ -47,23 +51,18 @@ steps.
 
 #. Select the **Advanced** tab.
 
-   .. only:: Open_edX
-
-    If the **Settings** dialog box does not contain the **Advanced** tab, timed
-    exams might not be enabled for your Open edX site. Enabling timed exams for
-    an Open edX site is a task that is usually performed by a system
-    administrator. For more information, see :ref:`Enable Timed
-    Exams` in *Installing, Configuring, and Running the Open edX Platform*.
+   If the **Settings** dialog box does not contain the **Advanced** tab, timed
+   exams might not be enabled for your Open edX site. Enabling timed exams for
+   an Open edX site is a task that a system administrator usually performs.
 
 #. In the **Set as a Special Exam** section, select **Timed**.
 
-   .. only:: Partners
+   If your course has the proctored exam feature enabled, the
+   **Advanced** tab also shows options for :ref:`proctored and practice
+   proctored exams<Preparing Learners for Proctored Exams>`.
 
-     If your course has the proctored exam feature enabled, the
-     **Advanced** tab also shows options for :ref:`proctored and practice
-     proctored exams<ProctoredExams_Overview>`.
 
-#. In the **Time Allotted** field, enter the length of time that you want
+#. In the **Time Allotted** field, enter the length of time  you want
    learners to have to complete the problems in the subsection. Enter the time
    as HH:MM, where HH is hours and MM is minutes.
 
@@ -93,7 +92,7 @@ extra time to complete a timed or proctored exam.
 
    The **Add a New Allowance** dialog box opens.
 
-#. For **Username** or **Email**, enter all the learners' emails/usernames seperated by a comma that you wish to add an exception for.
+#. For **Username** or **Email**, enter all the learners' emails/usernames you wish to add an exception for seperated by a comma .
 
 #. For **Select Exam Type**, select the type of exams you want to add extra time for, either proctored or timed exams.
 
@@ -101,13 +100,12 @@ extra time to complete a timed or proctored exam.
 
 #. For **Allowance Type**, select either **Additional Time** or **Time Multiplier**
 
-#. If you selected **Additional Time**, enter the number of extra minutes that you
+#. If you selected **Additional Time**, enter the number of extra minutes you
    want to grant to the learner.
 
    .. note:: You must enter a whole number greater than 0.
 
-#. Otherwise if you selected **Time Multiplier**, enter the multiplier for how much total time you want the learners to have.
-For example for an exam of 30 minutes, a multiplier of 1.5 will give 15 extra minutes to each learner.
+#. Otherwise if you selected **Time Multiplier**, enter the multiplier for how much total time you want the learners to have. For example for an exam of 30 minutes, a multiplier of 1.5 will give 15 extra minutes to each learner.
 
    .. note:: You must enter a number greater than 1.
 
@@ -130,11 +128,6 @@ can allow them to resume the exam with their answers and time remaining saved.
    This option is only available if a learner's exam attempt is in an **Error**
    state. This can be seen by following the directions below.
 
-.. note::
-   Onboarding and practice exams can be self-service reset by the learner. See
-   `Checking Your Onboarding Status and Resetting Your Onboarding Exam`_ in the
-   edX Help Center.
-
 To allow a learner to resume a timed or proctored exam attempt, follow these
 steps.
 
@@ -146,7 +139,7 @@ steps.
 #. In the **Exam Name** column, locate the name of the specific exam for which
    you are resuming the learner's exam attempt.
 #. In the **Actions** column, click the gear icon (⚙) and select **Resume**.
-   A message displays asking you to confirm that you want to resume the learner's
+   A message displays asking you to confirm you want to resume the learner's
    exam attempt.
 #. Select **OK**. The learner's exam attempt status will change from **Error**
    to **Ready to Resume**, and they will be able to access the exam again.
@@ -176,7 +169,7 @@ To clear a timed or proctored exam attempt, follow these steps.
 #. In the **Exam Name** column, locate the name of the specific exam for which
    you are cleaning the learner's exam attempt.
 #. In the **Actions** column, select **Reset**. A message displays asking you
-   to confirm that you want to remove the learner's exam attempt.
+   to confirm you want to remove the learner's exam attempt.
 
    .. note::
       If the learner's exam attempt is in an error state, there will be a gear
@@ -204,7 +197,7 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 
 
 #. In Studio, select the **Configure** icon for the timed exam (subsection)
-   that you want to configure.
+   you want to configure.
 
    The **Settings** dialog box opens to the **Basic** tab.
 
@@ -213,4 +206,10 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 #. In the **Subsection Visibility** section, select **Hide content after due date**.
 
 #. Select **Save**.
+
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Timed Exams` (concept)
 

@@ -1,8 +1,8 @@
 .. _Annotation:
 
-###################
+##################
 Annotation Problem
-###################
+##################
 
 .. tags:: educator, how-to
 
@@ -19,9 +19,9 @@ responses.
   :local:
   :depth: 1
 
-*****************************
+**************************
 Enable Annotation Problems
-*****************************
+**************************
 
 Before you can add annotation problems to your course, you must enable
 annotation problems in Studio.
@@ -39,9 +39,9 @@ To create an annotation problem, you add the **Instructions** and **Guided
 Discussion** segments of the problem, and then the **Annotation problem**
 segment of the problem.
 
-============================================
+======================================
 Add Instructions and Guided Discussion
-============================================
+======================================
 
 To add the **Instructions** and **Guided Discussion** segments of the problem,
 follow these steps.
@@ -92,3 +92,11 @@ To add the **Annotation problem** segment of the problem, follow these steps.
          </problem>
 
 #. Select **Save**.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Calculator` (how-to)
+
+ :ref:`Chemical Equation` (how-to)
+ 

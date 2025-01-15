@@ -120,7 +120,7 @@ Fore more detailed use cases, please visit :doc:`openedx-events:reference/real-l
 
 In summary, events can be used to integrate application components with each other or with external services, allowing them to communicate, synchronize, and perform additional actions when specific triggers occur.
 
-You can review the :doc:`Open edX Events <openedx-events:index>` documentation for more information on :doc:`openedx-events:how-tos/using-events` in your project. This documentation includes a list of :doc:`openedx-events:reference/events` and much more.
+You can review the :doc:`Open edX Events <openedx-events:index>` documentation for more information on :doc:`creating events <openedx-events:how-tos/create-a-new-event>` and :doc:`consuming them <openedx-events:how-tos/consume-an-event>` in your project. This documentation includes a list of :doc:`openedx-events:reference/events` and much more.
 
 When to Use an Open edX Filter?
 -------------------------------
@@ -135,7 +135,7 @@ Fore more detailed use cases, please visit :doc:`openedx-filters:reference/real-
 
 In summary, filters can be used when implementing application flow control that modifies the application's behavior, navigation, or user interaction flow during runtime.
 
-You can review the :doc:`Open edX Filters <openedx-filters:index>` documentation for more information on :doc:`openedx-filters:how-tos/using-filters` in your project. This documentation includes a list of :doc:`openedx-filters:reference/filters` and much more.
+You can review the :doc:`Open edX Filters <openedx-filters:index>` documentation for more information on :doc:`creating filters <openedx-filters:how-tos/create-new-filter>` and :doc:`using them <openedx-filters:how-tos/using-filters>` in your project. This documentation includes a list of :doc:`openedx-filters:reference/filters` and much more.
 
 Still Deciding Which to Use?
 ----------------------------
@@ -217,8 +217,8 @@ Here's an overview of the steps that usually take place when contributing to the
 .. TODO: Reference new documentation for creating long-term Open edX Events and Filters contributions, but for the time being reference what's available in the openedx-events and openedx-filters repositories.
 
 #. When contributing a hook, either an event or filter, you will need to interact with at least two repositories during the implementation: the hook repository (openedx-events or openedx-filters) and the service repository (edx-platform (LMS/CMS), credentials, etc.) where the hook will be used. This is done this way due to the design of the framework, implemented across two lightweight libraries that can be installed independently (see ADR: :doc:`openedx-events:decisions/0001-purpose-of-this-repo` for more details) in the service repositories where definitions are used.
-#. For implementing the hook, follow the instructions in the guide specific to each repository for :doc:`openedx-events:how-tos/creating-new-events` and :doc:`openedx-filters:how-tos/create-new-filter`.
-#. For integrating the hook into a service, follow the instructions in the relevant repository for :doc:`openedx-events:how-tos/using-events` and :doc:`openedx-filters:how-tos/using-filters`.
+#. For implementing the hook, follow the instructions in the guide specific to each repository for :doc:`creating events <openedx-events:how-tos/create-a-new-event>` and :doc:`filters <openedx-filters:how-tos/create-new-filter>`.
+#. For integrating the hook into a service, follow the instructions in the relevant repository for :doc:`using events <openedx-events:how-tos/consume-an-event>` and :doc:`filters <openedx-filters:how-tos/using-filters>`.
 #. We recommend validating the previous steps simultaneously to ensure the implementations in both the hooks repository and the service align properly. The validation process might also include the implementation of an extension, e.g., a plugin, that uses the new hook to ensure it works as expected.
 #. Once you've validated both implementations, you can open the Pull Requests for review. Typically, the Pull Request for the hook definition (in `openedx-events`_ or `openedx-filters`_) is opened first, along with a simultaneous PR in the service. While managing two Pull Requests at the same time might be challenging, it's recommended to avoid rework by validating definitions early, like ensuring the filter arguments are objects available during execution, verifying the event payload can be populated with the available information, that the hook name fits the context where it will be used, etc.
 #. At this point you can actively involve the maintainers of the respective repositories. The framework maintainers would help you verify that the definitions are accurate and follow the repository guidelines, they should also take a look at the service repository Pull Request to ensure the hook is consistent with the service's context and the intended use case.

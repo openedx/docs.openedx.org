@@ -1,13 +1,11 @@
 .. _Create a Duplicate Course for LTI use:
 
-######################################
 Create a Duplicate Course for LTI use
 ######################################
 
 .. tags:: educator, how-to
 
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
+.. warning:: This feature was a closed pilot experiment. This feature is poorly documented and may not work properly.
 
 Before you create a duplicate course, be sure to check with your DevOps team
 to determine the website that hosts your organization's courses for LTI use.
@@ -24,22 +22,22 @@ To create the duplicate course, follow these steps.
     original course and for LTI courses, be sure to give the duplicate course a
     different name or run.
 
-#. In the duplicate course, import the tar.gz file that you exported in step 1.
+#. In the duplicate course, import the tar.gz file you exported in step 1.
    For more information, see :ref:`Import a Course`.
 
 .. future: add re-run as an option for sites that host courses for LTI on the same instance (edit from Mark, Phil says re-run should work). - Alison 1 Sep 2015
 
-*******************************
+
 Verify Content Status
 *******************************
 
-Only edX course content that is published appears in an external LMS.
+Only the published course content from your Open edX instance appears in an external LMS.
 
 .. note:: The **Hide from students** setting for sections, subsections,
  and units does not affect the visibility of content in an external LMS. Only
  the publication status of a unit can prevent content from being included.
 
-To verify that all of the content in your edX course is published, follow these
+To verify that all of the content in your course is published, follow these
 steps.
 
 #. In Studio, from the **Content** menu select **Outline**. The **Course
@@ -47,8 +45,8 @@ steps.
 
 #. Expand each section and subsection.
 
-#. Locate units with "Unpublished units will not be released" or "Unpublished
-   changes to live content" below the unit name.
+#. Locate units with *Unpublished units will not be released* or *Unpublished
+   changes to live content* below the unit name.
 
 #. For each unpublished unit, make any changes that are necessary to prepare
    the content for publication. Alternatively, delete the unit.
@@ -64,6 +62,8 @@ steps.
 
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
- :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
+ :ref:`Open edX as an LTI Provider to Canvas` (how-to)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
+
+
