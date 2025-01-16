@@ -39,10 +39,9 @@ This video explains how to add a multiple choice (also known as "single-select")
 .. seealso::
  :class: dropdown
 
- :ref: `The Advanced Editor` (reference)
+ :ref:`The Advanced Editor` (reference)
 
- :ref: `A New Problem Editor Experience (Palm)` (reference)
-
+ :ref:`A New Problem Editor Experience (Palm)` (reference)
 
 
 
