@@ -1,3 +1,5 @@
+.. _Add and delete tags on course content:
+
 Add and delete tags on course content
 #####################################
 

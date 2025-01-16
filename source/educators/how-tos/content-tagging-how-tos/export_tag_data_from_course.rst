@@ -1,4 +1,5 @@
-#############################
+.. _Export tag data from a course:
+
 Export tag data from a course
 #############################
 
