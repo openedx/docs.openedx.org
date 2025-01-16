@@ -62,14 +62,13 @@ The site saves your changes automatically.
 
 
 .. seealso::
-  :class: dropdown
+ :class: dropdown
 
-  :ref:`What is the User Profile Page?` (concept)
+ :ref:`What is the User Profile Page?` (concept)
 
-  :ref:`Add or Update a Limited Profile` (how-to)
+ :ref:`Add or Update a Limited Profile` (how-to)
 
-  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
+ :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
 
-  :ref:`View Another Learner’s Profile` (how-to)
-
+ :ref:`View Another Learner’s Profile` (how-to)
 
