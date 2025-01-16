@@ -36,9 +36,9 @@
 .. seealso::
  :class: dropdown
 
- :ref:`The Advanced Editor` (reference)
+ :ref: `The Advanced Editor` (reference)
 
- :ref:`A New Problem Editor Experience (Palm)` (reference)
+ :ref: `A New Problem Editor Experience (Palm)` (reference)
 
 
 
