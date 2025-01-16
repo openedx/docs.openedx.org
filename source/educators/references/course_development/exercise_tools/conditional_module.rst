@@ -11,7 +11,7 @@ that they make meets a certain condition. For example, learners who answer
 answered "No" to the same question.
 
 ******************
-Format description
+Format Description
 ******************
 
 The main tag of conditional module input is ``conditional``.
@@ -59,7 +59,7 @@ Examples
 ********
 
 ====================================
-Example: conditional depends on poll
+Example: Conditional Depends on Poll
 ====================================
 
 .. code-block:: xml
@@ -72,7 +72,7 @@ Example: conditional depends on poll
     </conditional>
 
 =====================================================
-Example: conditional depends on poll (use <show> tag)
+Example: Conditional Depends on Poll (Use <show> Tag)
 =====================================================
 
 .. code-block:: xml
@@ -85,7 +85,7 @@ Example: conditional depends on poll (use <show> tag)
     </conditional>
 
 ==========================================
-Examples of conditional depends on problem
+Examples of Conditional Depends on Problem
 ==========================================
 
 .. code-block:: xml
@@ -100,4 +100,4 @@ Examples of conditional depends on problem
 .. seealso::
  :class:dropdown
 
- :ref: `add_delete_course_tags` (how-to)
+ :ref:`add_delete_course_tags` (how-to)
