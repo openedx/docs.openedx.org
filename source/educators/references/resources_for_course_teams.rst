@@ -14,14 +14,10 @@ on an Open edX site.
  :local:
  :depth: 1
 
-Open edX Demo Course
-====================
 
-The `Open edX Demo Course <https://sandbox.openedx.org/courses/course-v1:OpenedX+01-2024+2024-1/about>`_ course is designed to discuss the tools and features that you can leverage in your learning program. After providing details about the platform, the course shows the different types of content that can be created, showcase the variety of assessment tools, and explore the different ways that you can engage your learners with social interactions.
-
-*************
+#############
 Documentation
-*************
+#############
 
 Documentation for course teams is available from the docs.openedx.org web page.
 
