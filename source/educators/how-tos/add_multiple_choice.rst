@@ -35,14 +35,23 @@ This video explains how to add a multiple choice (also known as "single-select")
 
 #. Click :guilabel:`Save` to save the problem in the unit.
 
+ 
 .. seealso::
  :class: dropdown
  
- :ref:`The Advanced Editor` (reference)
- 
- :ref:`A New Problem Editor Experience (Palm)` (reference)
-  
- 
+ :ref:`Overview` (concept)
+
+ :ref:`Multiple-Choice Problem Type` (how-to)
+
+ :ref:`Add a Single Select Problem` (how-to)
+
+ :ref:`Award Partial Credit in a Multiple Choice Problem` (how-to)
+
+ :ref:`Edit Single Select Problems using the Advanced Editor` (how-to)
+
+ :ref:`Add a Dropdown Problem` (how-to)
+
+
 
 
  
