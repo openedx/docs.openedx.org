@@ -98,6 +98,5 @@ Examples of Conditional Depends on Problem
     </conditional>
 
 .. seealso::
- :class:dropdown
 
- :ref:`add_delete_course_tags` (how-to)
+ :ref:`add-tags-to-a-course` (how-to)
