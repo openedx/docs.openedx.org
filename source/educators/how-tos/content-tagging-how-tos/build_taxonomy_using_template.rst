@@ -63,7 +63,9 @@ create a taxonomy of cities, like this:
 
   For a tag like “United States” which is a “root” tag in the taxonomy, we leave “parent_id” empty. We can also leave “comments” empty.
 
-  **Choosing an ID:** The “id” column is required, but its exact value is not particularly important at this stage. The main requirement is that each row (each tag) has a unique ID. (Though remember that the “values” of each row also must be unique.) For learning purposes, feel free to use numbers like 1, 2, 3, 4 as the IDs. You could also just make the “id” the same as the “value” (i.e. put “United States” as both the ID and the value), or make up a short ID like “USA”. To understand more, and learn how IDs play an important role when updating the taxonomy, please read `Concept: Why does each tag need an ID when importing a taxonomy? <https://openedx.atlassian.net/l/cp/U1i001z1>`_.
+  **Choosing an ID:** The “id” column is required, but its exact value is not particularly important at this stage. The main requirement is that each row (each tag) has a unique ID. (Though remember that the “values” of each row also must be unique.) For learning purposes, feel free to use numbers like 1, 2, 3, 4 as the IDs. You could also just make the “id” the same as the “value” (i.e. put “United States” as both the ID and the value), or make up a short ID like “USA”. To understand more, and learn how IDs play an important role when updating the taxonomy, please read :ref:`tag-ids-for-taxonomy-import`
+
+  
 
 3. Creating "child" tags
 ************************
@@ -104,18 +106,18 @@ create a taxonomy of cities, like this:
 .. seealso::
  :class: dropdown
 
- :ref: `Add and delete tags on courses` (how-to)
+ :ref:`Add and delete tags on course content` (how-to)
 
- :ref: `Create a flat taxonomy by uploading a CSV` (how-to) 
+ :ref:`add-tags-to-a-course` (how-to)
 
- :ref: `Import and export a taxonomy` (how-to)
+ :ref:`create-flat-taxonomy` (how-to) 
 
- :ref: `Update/Re-import a taxonomy` (how-to)
+ :ref:`import-export-taxonomy` (how-to)
 
- :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ :ref:`Update/Re-import a taxonomy` (how-to)
+
+ :ref:`tag-ids-for-taxonomy-import` (concept)
  
- :ref: `Manage Permissions on a Taxonomy` (how-to)
+ :ref:`Manage Permissions on a Taxonomy` (how-to) 
 
- :ref: `Add and delete tags on courses` (how-to)
-
- :ref: `Export tag data from a course` (how-to)
+ :ref:`Export tag data from a course` (how-to)

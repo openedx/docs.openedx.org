@@ -1,3 +1,5 @@
+.. _Update/Re-import a taxonomy:
+
 Update/Re-import a taxonomy
 ###########################
 
