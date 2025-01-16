@@ -64,11 +64,10 @@ The site saves your changes automatically.
 .. seealso::
  :class: dropdown
 
- :ref:`What is the User Profile Page?` (concept)
+ :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
+ :doc:`add_update_limited_profile` (how-to)
+ :doc:`add_links_to_social_media_accounts` (how-to)
+ :doc:`view_another_learners_profile` (how-to)
 
- :ref:`Add or Update a Limited Profile` (how-to)
 
- :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
-
- :ref:`View Another Learner’s Profile` (how-to)
-
+ 
