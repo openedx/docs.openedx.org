@@ -45,4 +45,4 @@ either before or after the learners register their user accounts.
 .. seealso::
  :class: dropdown
 
- :ref:`Manage_Course_Enrollments` (how-to)
+ :ref:`Manage Course Enrollments` (how-to)
