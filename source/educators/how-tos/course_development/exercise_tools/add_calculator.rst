@@ -59,7 +59,7 @@ To enable the calculator tool, follow these steps.
 .. seealso::
  :class: dropdown
 
- :ref:`Add Annotation` (how-to)
+ :ref:`Annotation Problem` (how-to)
 
  :ref:`Chemical Equation` (how-to)
 
