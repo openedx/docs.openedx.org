@@ -37,7 +37,9 @@ Follow the steps below to build your first course. By the end, you will have a f
 4. Create a Subsection
 **********************
 
-.. include:: ../how-tos/reusable_content/create_subsection.txt
+.. include:: ../how-tos/course_development/create_edit_publish_subsections.rst
+  :start-after: .. START CREATE A SUBSECTION
+  :end-before: .. END CREATE A SUBSECTION
 
 5. Create a Unit
 ****************
