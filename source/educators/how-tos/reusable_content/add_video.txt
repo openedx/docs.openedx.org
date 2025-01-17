@@ -38,5 +38,3 @@
 
  :ref:`Course About Video Guidelines` (reference)
 
- :ref:`Troubleshooting Video Problems` (reference)
-
