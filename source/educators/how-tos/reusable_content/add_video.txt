@@ -36,6 +36,11 @@
 .. seealso::
  :class: dropdown
 
- :ref:`Course About Video Guidelines` (reference)
+ :ref: `Specifying Transcript Options` (how-to)
 
+ :ref: `Add a Transcript in Another Language` (how-to)
+
+ :ref: `Course About Video Guidelines` (reference)
+
+ 
 
