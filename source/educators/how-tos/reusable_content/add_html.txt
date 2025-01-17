@@ -25,14 +25,8 @@
 #. Click :guilabel:`Save` to save the text in the unit.
 
 
-.. seealso::
  :class: dropdown
 
- Add a Link in a Text Component (task)
+ :ref:`Embed an iframe in the Text Editor` (how-to)
 
- Add an Image in a Text Component (task)
-
- Import LaTeX Code into a Text Component (task)
-
- Text Editor Options (reference)
 
