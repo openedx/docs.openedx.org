@@ -38,13 +38,4 @@ This video explains how to add a multiple choice (also known as "single-select")
 .. seealso::
  :class: dropdown
 
- :ref:`Single Select Overview` (concept)
-
- :ref:`Single Select` (how-to)
-
- :ref:`Single Select Problem XML` (reference)
-
- :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
-
- 
-
+ :ref:`Single_Select_Overview` (concept)
