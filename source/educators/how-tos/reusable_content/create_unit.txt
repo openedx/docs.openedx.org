@@ -19,12 +19,11 @@ You can then create units within the subsection.
 .. seealso::
  :class: dropdown
 
- Add a Component (how-to)
-
  :ref:`Developing Course Units` (reference)
 
- Components (reference)
+ :ref:`Add a Component` (how-to) 
 
- Conditional Content (reference)
+ :ref:`About Text Components` (how-to)
+
 
 
