@@ -23,7 +23,7 @@ You can then create units within the subsection.
 
  :ref:`Add a Component` (how-to) 
 
- :ref:`About Text Components` (how-to)
+
 
 
 
