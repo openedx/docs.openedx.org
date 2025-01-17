@@ -31,7 +31,9 @@ Follow the steps below to build your first course. By the end, you will have a f
 3. Create a Section
 *******************
 
-.. include:: ../how-tos/reusable_content/create_section.txt
+.. include:: ../how-tos/reusable_content/create_hide_delete_section.rst
+  :start-after: .. START CREATE A SECTION VIDEO
+  :end-before: .. END CREATE A SECTION VIDEO
 
 
 4. Create a Subsection
