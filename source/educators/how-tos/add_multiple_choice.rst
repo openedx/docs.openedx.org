@@ -35,24 +35,16 @@ This video explains how to add a multiple choice (also known as "single-select")
 
 #. Click :guilabel:`Save` to save the problem in the unit.
 
- 
 .. seealso::
  :class: dropdown
- 
- :ref:`Overview` (concept)
 
- :ref:`Multiple-Choice Problem Type` (how-to)
+ :ref:`Single Select Overview` (concept)
 
- :ref:`Add a Single Select Problem` (how-to)
+ :ref:`Single Select` (how-to)
 
- :ref:`Award Partial Credit in a Multiple Choice Problem` (how-to)
+ :ref:`Single Select Problem XML` (reference)
 
- :ref:`Edit Single Select Problems using the Advanced Editor` (how-to)
-
- :ref:`Add a Dropdown Problem` (how-to)
-
-
-
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
 
  
 
