@@ -24,9 +24,9 @@
 
 #. Click :guilabel:`Save` to save the text in the unit.
 
-
+.. seealso::
  :class: dropdown
 
- :ref:`Embed an iframe in the Text Editor` (how-to)
+ :ref: `Embed an iframe in the Text Editor` (how-to)
 
 
