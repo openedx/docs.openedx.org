@@ -27,6 +27,8 @@
 .. seealso::
  :class: dropdown
 
- :ref: `Embed an iframe in the Text Editor` (how-to)
+ :ref: `Work with HTML Code in the Text Component` (how-to)
+
+ :ref: `About Text Components` (reference)
 
 
