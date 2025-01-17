@@ -31,4 +31,16 @@
 
  :ref: `About Text Components` (reference)
 
+ :ref: `Create a Text Component` (how-to)
+
+ :ref: `Add Link to Website, Course Unit, or a File` (how-to)
+
+ :ref: `Add an Image to a Text Component` (how-to)
+
+ :ref: `Full Screen Image Tool` (reference)
+
+ :ref: `Paste without Formatting in a Text Component` (how-to)
+
+
+
 
