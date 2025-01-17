@@ -59,5 +59,15 @@ To enable the calculator tool, follow these steps.
 .. seealso::
  :class: dropdown
 
- :ref:`Chemical Equation` (how-to)
+ :ref: `Chemical Equation` (how-to)
+
+ :ref: `Enable the Notes Tool` (how-to)
+
+ :ref: `Recommender Tool` (how-to)
+
+ :ref: `Annotation Problem` (how-to)
+
+ :ref: `Enable the Completion Tool` (how-to)
+
+
 
