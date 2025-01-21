@@ -63,7 +63,7 @@ create a taxonomy of cities, like this:
 
   For a tag like “United States” which is a “root” tag in the taxonomy, we leave “parent_id” empty. We can also leave “comments” empty.
 
-  **Choosing an ID:** The “id” column is required, but its exact value is not particularly important at this stage. The main requirement is that each row (each tag) has a unique ID. (Though remember that the “values” of each row also must be unique.) For learning purposes, feel free to use numbers like 1, 2, 3, 4 as the IDs. You could also just make the “id” the same as the “value” (i.e. put “United States” as both the ID and the value), or make up a short ID like “USA”. To understand more, and learn how IDs play an important role when updating the taxonomy, please read :ref:`Why does each tag need an ID when importing a taxonomy`
+  **Choosing an ID:** The “id” column is required, but its exact value is not particularly important at this stage. The main requirement is that each row (each tag) has a unique ID. (Though remember that the “values” of each row also must be unique.) For learning purposes, feel free to use numbers like 1, 2, 3, 4 as the IDs. You could also just make the “id” the same as the “value” (i.e. put “United States” as both the ID and the value), or make up a short ID like “USA”. To understand more, and learn how IDs play an important role when updating the taxonomy, please read :ref:`Why does each tag need an ID when importing a taxonomy?`
 
   
 
