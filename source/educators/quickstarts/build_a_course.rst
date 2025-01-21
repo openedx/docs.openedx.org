@@ -43,8 +43,8 @@ Follow the steps below to build your first course. By the end, you will have a f
 ****************
 
 .. include:: ../how-tos/course_development/create_edit_publish_unit.rst
-    :start-after: .. START HERE CREATE A UNIT
-    :end-before: .. END HERE CREATE A UNIT
+    :start-after: .. START HERE CREATE UNIT
+    :end-before: .. END HERE CREATE UNIT
 
 
 6. Add a Video to the Unit
