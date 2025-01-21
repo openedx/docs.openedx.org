@@ -241,10 +241,6 @@ tools that you can add to your course.
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
      - Full support
-   * - :ref:`Qualtrics Survey`
-     - You can import surveys that you have created in Qualtrics. The survey
-       appears inside an iframe in your course.
-     - Provisional support
    * - :ref:`Survey Tool`
      - You can include surveys in your course to collect learner responses to
        multiple questions.
