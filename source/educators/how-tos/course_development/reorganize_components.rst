@@ -75,7 +75,7 @@ Follow these steps to move components to another unit in the course outline.
        view of the course until you republish the affected units.
 
 .. seealso::
- :class:dropdown
+ :class: dropdown
 
  :ref:`Add a Component` (how-to)
 
@@ -83,4 +83,8 @@ Follow these steps to move components to another unit in the course outline.
 
  :ref:`Duplicate a Component` (how-to)
 
+ :ref:`What is a Component` (reference)
+
  :ref:`Delete a Component` (how-to)
+
+ :ref:`Set Access Restrictions For a Component` (how-to)

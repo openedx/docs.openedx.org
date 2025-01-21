@@ -154,7 +154,6 @@ Qualtrics Survey Tool
    :maxdepth: 2
    :glob:
 
-   ../how-tos/course_development/exercise_tools/add_qualtrics_survey.rst
    ../references/course_development/exercise_tools/view_qualtrics_responses.rst
 
 

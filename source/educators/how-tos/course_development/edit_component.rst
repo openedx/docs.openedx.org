@@ -64,3 +64,11 @@ box, but all of them have a **Display Name** field.
  :ref:`Duplicate a Component` (how-to)
 
  :ref:`Delete a Component` (how-to)
+
+ :ref:`What is a Component` (reference)
+
+ :ref:`Delete a Component` (how-to)
+
+ :ref:`Reorganizing Components` (how-to)
+
+ :ref:`Set Access Restrictions For a Component` (how-to)

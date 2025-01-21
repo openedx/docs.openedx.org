@@ -22,8 +22,16 @@ learners until you :ref:`publish the unit<Publish a Unit>`.
 .. seealso::
  :class: dropdown
 
+ :ref:`Add a Component` (how-to)
+
  :ref:`Edit a Component` (how-to)
 
  :ref:`Duplicate a Component` (how-to)
 
- :ref:`Add a Component` (how-to)
+ :ref:`What is a Component` (reference)
+
+ :ref:`Delete a Component` (how-to)
+
+ :ref:`Reorganizing Components` (how-to)
+
+ :ref:`Set Access Restrictions For a Component` (how-to)
