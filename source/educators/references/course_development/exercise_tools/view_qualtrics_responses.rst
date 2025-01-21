@@ -51,5 +51,3 @@ use functions such as VLOOKUP in Microsoft Excel.
  :ref:`Poll Tool for OLX` (reference)
 
  :ref:`Qualtrics Survey` (how to)
-
- :ref:`Download Data from the Instructor Dashboard` (how to)
