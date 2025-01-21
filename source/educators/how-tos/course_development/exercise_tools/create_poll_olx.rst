@@ -5,6 +5,12 @@ Create a Poll for OLX
 
 .. tags:: educator, how-to
 
+.. note:: Creating a poll requires you to export your course, edit some of
+ your course's XML files in a text editor, and then re-import your course. We
+ recommend that you create a backup copy of your course before you create the
+ poll. We also recommend that you only edit the files that will contain polls
+ in the text editor if you are very familiar with editing XML.
+
 #. In the unit where you want to create the poll, create components that
    contain all the content that you want *except* for the poll. Make a note of
    the 32-digit unit ID that appears in the **Unit Identifier** field under

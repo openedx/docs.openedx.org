@@ -5,8 +5,6 @@ Enable the Poll Tool in OLX
 
 .. tags:: educator, reference
 
-.. note:: Alternatively, you can use OLX to enable the poll tool.
-
 To enable polls in your course, you edit the XML file that defines
 the course structure.
 
