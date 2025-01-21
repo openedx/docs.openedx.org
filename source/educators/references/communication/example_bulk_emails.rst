@@ -1,8 +1,7 @@
 .. _Example Messages to Students:
 
-*********************************
 Example Messages to Learners
-*********************************
+#############################
 
 .. tags:: educator, reference
 
@@ -31,16 +30,15 @@ keywords are not supported in discussion topics.
 
 .. _Prelaunch Reminder:
 
-====================
 Pre-launch Reminder
-====================
+*********************
 
 Pre-launch reminders raise awareness of the course start date, publicize the
 course, and generate excitement. In addition to the course start date and time,
 the example that follows also lets learners know that:
 
-* UTC is used in edX courses. Alternatively, you could include information
-  about your course or the edX platform that will contribute to your learners'
+* UTC is used in Open edX courses. Alternatively, you could include information
+  about your course or the Open edX platform that will contribute to your learners'
   success.
 
 * The course has a companion social media site. Alternatively, you might
@@ -50,7 +48,7 @@ the example that follows also lets learners know that:
 You may want to send out more than one message before the course launches: use
 this template as a starting point for crafting the different messages you want
 to deliver. Replace values enclosed by {braces} with information that applies
-to your course. In addition, check that you are using :ref:`keywords <Use
+to your course. In addition, check you are using :ref:`keywords <Use
 Keywords in Messages>` appropriately.
 
 ::
@@ -59,10 +57,10 @@ Keywords in Messages>` appropriately.
 
   Hello %%USER_FULLNAME%%,
 
-  We are excited that you are joining us for {course number}
-  %%COURSE_DISPLAY_NAME%%, offered by {organization name} through edX. Class
+  We are excited you are joining us for {course number}
+  %%COURSE_DISPLAY_NAME%%, offered by {organization name}. Class
   begins on {day}, {date} at {time} UTC (which is {time} {local time zone}).
-  Note that many dates and times in edX courses appear in your local time zone,
+  Note that many dates and times in our courses appear in your local time zone,
   but some might appear in Coordinated Universal Time (UTC). Dates and times
   that use your local time zone are followed by an indication of the time
   zone: for example, 17:00 Sept. 5, 2016 IOT. UTC dates and times do not
@@ -73,8 +71,8 @@ Keywords in Messages>` appropriately.
   Facebook page {add link}. You can find videos and photos posted there before
   the course even begins.
 
-  If this is your first edX course, consider enrolling in the edX Demo course
-  {add link}. This course gives you an opportunity to explore the edX platform
+  If this is your first course, consider enrolling in the Demo course
+  {add link}. This course gives you an opportunity to explore the platform
   and learn how to answer problems and track your progress, before {course
   number} begins.
 
@@ -82,9 +80,8 @@ Keywords in Messages>` appropriately.
 
 .. _Launch Day Welcome:
 
-===================
 Launch Day Welcome
-===================
+*******************
 
 On your course start date, you can send an email message that both welcomes
 learners and gives them specific actions to accomplish. This example directs
@@ -98,7 +95,7 @@ personally introduces the course team leader. Search for the values enclosed by
 
   Hello everyone!
 
-  At this time, edX course {course number} is available from your Dashboard
+  At this time, the course {course number} is available from your Dashboard
   {add link}, and the staff would like to officially welcome you to the course!
   You'll find materials for the first week on the Course page,
   including both video lectures and problem sets.
@@ -116,31 +113,30 @@ personally introduces the course team leader. Search for the values enclosed by
 
 .. _Verified Registration Reminder:
 
-==============================================
 Reminder to Register for Verified Certificate
-==============================================
+**********************************************
 
 After your course has launched, you can send an email to remind learners that
 the last day to register for a verified certificate is approaching. You can use
 this template as a starting point for your own message; search for the values
 enclosed by {braces} and replace them with information for your course. In
-addition, check that you are using :ref:`keywords <Use Keywords in Messages>`
+addition, check you are using :ref:`keywords <Use Keywords in Messages>`
 appropriately.
 
 ::
 
-  Subject: Earn an edX verified certificate for {course name}!
+  Subject: Earn a verified certificate for {course name}!
 
   Dear %%USER_FULLNAME%%,
 
-  Interested in using an edX certificate to bolster a college application or to
-  advance your career? With an edX verified certificate, you can demonstrate to
+  Interested in using a certificate to bolster a college application or to
+  advance your career? With averified certificate, you can demonstrate to
   colleges, employers, and colleagues that you successfully completed a
-  challenging edX course, while helping to support the edX mission.
+  challenging course.
 
   We would like to remind you that {date} is the last day to register for a
   verified certificate in %%COURSE_DISPLAY_NAME%%. Registering for a
-  certificate is easy! Just go to this course on your edX dashboard and click
+  certificate is easy! Just go to this course on your dashboard and click
   "Challenge Yourself".
 
   Good luck!
@@ -149,9 +145,8 @@ appropriately.
 
 .. _Weekly Highlights:
 
-==================
 Weekly Highlights
-==================
+******************
 
 Sending a weekly email to learners can be a great way to keep them engaged and
 provide encouragement. At the end of each week you might send learners an email
@@ -196,9 +191,8 @@ using :ref:`keywords <Use Keywords in Messages>` appropriately.
 
 .. _Midcourse Encouragement:
 
-========================
 Mid-Course Encouragement
-========================
+*************************
 
 While your course is running, you can send messages to promote community,
 remind learners of upcoming due dates, and address any recurring issues.
@@ -217,7 +211,7 @@ appropriately.
 
   Dear students,
 
-  We hope that you are learning a lot in {course number}! Remember that problem
+  We hope you are learning a lot in {course number}! Remember that problem
   set {number} is due on {date} at {time} UTC. You can always check the
   schedule {add link} on the Home page to plan ahead.
 
@@ -242,9 +236,8 @@ appropriately.
 
 .. _Midcourse Events:
 
-========================
 Mid-Course Event
-========================
+******************
 
 Before an exam or other significant course event, messages can provide
 practical information about the exam, communicate expectations regarding
@@ -286,7 +279,7 @@ information for your course. In addition, check that you are using
   * The exam starts on {date} at {time} UTC and must be finished by {date} at
     {time} UTC. Plan your schedule accordingly.
 
-  * Be sure that you know what time the UTC deadline is in your time zone. See
+  * Be sure you know what time the UTC deadline is in your time zone. See
     the current UTC time {add link}. No extensions will be given.
 
   * The exam is not timed. You can start, stop, and come back to it until the
@@ -320,9 +313,8 @@ information for your course. In addition, check that you are using
 
 .. _Technical Issue:
 
-========================
 Technical Issue
-========================
+*****************
 
 In the event of an unanticipated system failure, a message can both alert
 learners to the problem and reassure them that the issue is either resolved or
@@ -330,7 +322,7 @@ being addressed. The message can also provide information about any changes
 made to the course as a result.
 
 Technical issues can arise during a course for many different reasons, so this
-example is likely to need revision to apply to an issue that you encounter.
+example is likely to need revision to apply to an issue you encounter.
 Keep in mind that to reassure the learners who are affected by the problem, the
 message should have a positive tone, and calmly and briefly identify the
 problem, the status of its solution, and any after effects.
@@ -352,9 +344,8 @@ problem, the status of its solution, and any after effects.
 
 .. _Course Farewell and Certificates:
 
-=================================
 Course Farewell and Certificates
-=================================
+*********************************
 
 In the last few days before your course ends, a message can direct learners to
 a course survey, answer questions about certificates, and provide information
@@ -369,8 +360,8 @@ about future access to course materials. Be sure to replace values enclosed by
 
   Thank you for making %%COURSE_DISPLAY_NAME%% so much fun these last few
   months! We had a great time getting to know you through the course
-  discussions. We appreciate the effort that you put into this course, and we
-  hope that you enjoyed learning {subject} through edX. With or without a
+  discussions. We appreciate the effort you put into this course, and we
+  hope you enjoyed learning {subject}. With or without a
   certificate, you should be proud of your accomplishments.
 
   * Please take a few minutes to answer the exit survey, now available on the
@@ -378,9 +369,9 @@ about future access to course materials. Be sure to replace values enclosed by
     future.
 
   * If you qualify for a certificate (overall score {number}% or higher), the
-    edX dashboard will include a link to your certificate in the near future.
+    dashboard will include a link to your certificate in the near future.
     While you may see the link in a few days, it can take up to two weeks for
-    edX to generate all of the course certificates.
+    all of the course certificates to be generated.
 
   * As an enrolled student, you will have access to the lecture videos even
     after the course ends. Assessments will remain, but you will no longer be
@@ -391,7 +382,7 @@ about future access to course materials. Be sure to replace values enclosed by
     continue viewing all of the conversations that took place during the
     course.
 
-  We hope that you share what you learned in {course number} with your
+  We hope you share what you learned in {course number} with your
   colleagues, friends, and family.
 
   Good luck on the final exam and beyond!
@@ -400,9 +391,8 @@ about future access to course materials. Be sure to replace values enclosed by
 
 .. _New Course Run Announcement:
 
-=================================
 New Course Run Announcement
-=================================
+*****************************
 
 When you prepare a course for a new run, you can use the bulk email feature in
 its previous run (or runs) to inform an engaged and knowledgeable audience:
@@ -438,7 +428,7 @@ When preparing a message from this template, search for values enclosed by
 
   Perhaps you want to share the {course name} experience with a friend or
   colleague, earn an ID-verified certificate of achievement, or work through
-  course content that you weren't able to complete before. When {course number}
+  course content you weren't able to complete before. When {course number}
   is offered in {time frame}, we welcome you to join the community of learners
   again.
 

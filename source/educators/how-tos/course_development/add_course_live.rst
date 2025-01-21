@@ -53,9 +53,9 @@ can be used to integrate Zoom video conferencing at the course level.
 Course authors will need to generate their own credentials for the Zoom LTI pro
 app and add those credentials in Live app configuration for Zoom.
 
-Instructors can use the the LTI Pro app to schedule and start Zoom meetings and
+Instructors can use the LTI Pro app to schedule and start Zoom meetings and
 students can see and join these meetings to attend classes, office hours, study
-groups etc. Learn more about the app
+groups, etc. Learn more about the app
 `here <https://marketplace.zoom.us/apps/f8JUB3eeQv2lXsjKq5B2FA>`_.
 
 To generate LTI credentials in LTI pro app:
@@ -114,7 +114,7 @@ Configuration options for BBB are presented below:
 
 #. **Commercial/self-hosted**: You can deploy BBB on your own server or use
    third-party hosting providers. Please find more information on features
-   available in commercial tier in this
+   available in the commercial tier in this
    `document <https://bigbluebutton.org/free-bigbluebutton-service-for-edx/>`_. You
    can use the services listed on this
    `link <https://bigbluebutton.org/commercial-support/>`_. These services provide
@@ -139,7 +139,6 @@ accessible in *Live* tab in course navigation.
    :alt: Screenshot of BBB rendered in Live tab in course navigation
 
 .. seealso::
- :class:dropdown
 
  :ref:`enable_lti_components` (how-to)
 
