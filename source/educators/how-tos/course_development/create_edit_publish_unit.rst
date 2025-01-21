@@ -1,25 +1,36 @@
 .. _Create a Unit:
 
-****************************
 Create a Unit
-****************************
+################
 
 .. tags:: educator, how-to
 
+.. sidebar:: Empty Unit
+
+   .. thumbnail:: /_images/Educators_blank_unit.png
+
 You can create a unit from the outline or create a unit in the same subsection
 from the unit page.
+
+.. START HERE CREATE UNIT
 
 To create a unit from the outline, follow these steps.
 
 #. In the outline, expand the subsection in which you want to create a new
    unit.
-#. Select **New Unit** at the bottom of the expanded subsection. A new
-   page opens for you to add components to the unit.
-#. On the unit page, the unit name is selected. Supply an identifying name. A
+
+#. Select **New Unit** at the bottom of the expanded subsection. A new unit is created at the end of the subsection and the blank unit editor opens.
+
+#. Click the pencil icon to edit and enter the name for the new unit.A
    descriptive name can help learners locate content in the course. It can
    also help you select content when you analyze performance in reporting and
    analytics systems.
+
+#. Click the Visibility tab to change the subsection visibility and assessment results visibility.
+
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
+
+.. END HERE CREATE UNIT
 
 To create a unit from a unit page, follow these steps.
 
