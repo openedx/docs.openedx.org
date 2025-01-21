@@ -134,6 +134,7 @@ Poll Tool
 
    ../references/course_development/exercise_tools/poll_olx.rst
    ../references/course_development/exercise_tools/enable_poll_OLX.rst
+   ../how-tos/course_development/exercise_tools/create_poll_olx.rst
 
 
 Survey Tool
