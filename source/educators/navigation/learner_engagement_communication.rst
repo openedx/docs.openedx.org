@@ -43,7 +43,9 @@ Bulk Emails
    ../references/communication/bulk_email.rst
    ../how-tos/communication/send_bulk_email.rst
    ../how-tos/communication/review_sent_messages.rst 
-   ../references/communication/example_bulk_emails.rst  
+   ../references/communication/example_bulk_emails.rst
+   ../references/communication/compose_email_message.rst 
+   ../how-tos/communication/email_task_history_report.rst 
 
 Automatic Emails
 *******************************************************

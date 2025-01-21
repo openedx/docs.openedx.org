@@ -1,23 +1,12 @@
 .. _Manage Proctored Exams:
 
-########################
 Manage Proctored Exams
-########################
+######################
 
 .. tags:: educator, how-to
 
-When you administer a proctored exam in your course, learners might have
-questions or concerns about the exam. Usually, you can direct learners to the
-FAQ section on edx.org or to `Taking Timed and Proctored Exams`_ in the edX
-Help Center to answer their questions.
-
-If learners need accommodations for disabilities, or have a technical problem
-with the exam, you work with edX support to determine a solution on a
-case by case basis.
-
 .. _Respond to Learner Concerns about Proctored Exams:
 
-**************************************
 Accommodate Learners with Disabilities
 **************************************
 
@@ -57,7 +46,6 @@ To make a special policy accommodation for learners, follow these steps.
 
    ``Learner has a disability. Allow one additional person in the room.``
 
-
 #. Select **Create Allowance**.
 
 When you have set up the allowance, let the learner know that their special
@@ -66,10 +54,8 @@ allowance has been granted.
 When the proctoring service reviews the learner’s proctored exam results, the
 reviewer takes the special allowance into account.
 
-
 .. _Resuming Proctored Exams in an Error State:
 
-******************************************
 Resuming Proctored Exams in an Error State
 ******************************************
 
@@ -81,10 +67,8 @@ The procedures for allowing learners to resume a proctored exam and a timed
 exam are the same. To allow learners to resume an exam, see :ref:`Resuming
 an Exam in an Error State`.
 
-
 .. _Requests for Retaking a Proctored Exam:
 
-******************************************
 Allow Learners to Retake a Proctored Exam
 ******************************************
 
@@ -95,21 +79,8 @@ The procedures for allowing learners to retake a proctored exam and a timed
 exam are the same. To allow learners to retake an exam, see :ref:`Allow
 Learners to Retake a Timed Exam`.
 
-
-.. _CA_Situations_Learners_Encounter_Proctored_Exams:
-
-*************************************************
-Manage Technical Problems During a Proctored Exam
-*************************************************
-
-For information about what learners should do if they experience technical
-problems during an exam, see `Technical problems during a proctored exam`_ in
-the edX Help Center.
-
-
 .. _View_Proctortrack_Onboarding_Status:
 
-***********************************
 View Proctortrack Onboarding Status
 ***********************************
 
@@ -156,10 +127,6 @@ To view learners' onboarding status for your course, follow these steps.
 
    #. **Error**: The learner encountered an error while taking the onboarding exam,
       and their attempt must be reset.
-
-      .. note::  Learners can self-service reset their onboarding exam. See
-         `Checking Your Onboarding Status and Resetting Your Onboarding Exam`_ in
-         the edX Help Center.
 
 .. seealso::
  :class: dropdown

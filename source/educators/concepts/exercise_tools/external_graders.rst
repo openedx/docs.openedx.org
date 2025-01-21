@@ -1,8 +1,7 @@
 .. _External Grader:
 
-###########################
 External Grader
-###########################
+###############
 
 .. tags:: educator, concept
 
@@ -22,9 +21,8 @@ For more information, see the following sections.
 
 .. _External Grader Workflow:
 
-**************************
 External Grader Workflow
-**************************
+************************
 
 XQueue uses the following workflow for external grader problems.
 
@@ -38,14 +36,13 @@ XQueue uses the following workflow for external grader problems.
 #. The XQueue delivers the results to the LMS.
 #. In the LMS, the learner sees the problem results and the grade.
 
-For the code for the XQueue interface, see the ``urls.py`` file in the `edX
-XQueue repository`_.
+For the code for the XQueue interface, see the ``urls.py`` file in the `Open
+edX XQueue repository`_.
 
 .. _External Grader Example:
 
-***************************
 External Grader Example
-***************************
+***********************
 
 An external grader is particularly useful for software programming courses
 where learners are asked to submit complex code. The grader can run tests that
@@ -61,15 +58,12 @@ full output**. A message can be useful when the learner's solution is not
 correct and you want to return information about the failed tests, as in the
 following example.
 
-
 .. image:: /_images/educator_concepts/external-grader.png
  :alt: A learner's view of a programming problem that uses an external grader,
      with an incorrect result.
 
-
 .. _External Grader Requirements:
 
-============================
 External Grader Requirements
 ============================
 

@@ -100,3 +100,22 @@ create a taxonomy of cities, like this:
   * In Numbers, use File > Export To > CSV… and use the default options.
 
 * Import your taxonomy following the How To :ref:`import-export-taxonomy`.
+
+.. seealso::
+ :class: dropdown
+
+ :ref: `Add and delete tags on courses` (how-to)
+
+ :ref: `Create a flat taxonomy by uploading a CSV` (how-to) 
+
+ :ref: `Import and export a taxonomy` (how-to)
+
+ :ref: `Update/Re-import a taxonomy` (how-to)
+
+ :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ 
+ :ref: `Manage Permissions on a Taxonomy` (how-to)
+
+ :ref: `Add and delete tags on courses` (how-to)
+
+ :ref: `Export tag data from a course` (how-to)

@@ -1,6 +1,5 @@
 .. _Paste without Formatting in a Text Component:
 
-#############################################
 Paste without Formatting in a Text Component
 #############################################
 
@@ -18,7 +17,7 @@ text will not be aligned in Studio or the LMS.
 
 
 .. image:: /_images/educator_how_tos/HTML_PowerPastePop.png
-  :alt: an image of the popup that you will receive after copying and
+  :alt: an image of the popup you will receive after copying and
    pasting content into the Text Editor. This popup allows you to select
    either keep or remove formatting.
   :width: 300

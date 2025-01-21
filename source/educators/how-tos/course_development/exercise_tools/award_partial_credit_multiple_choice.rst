@@ -1,14 +1,12 @@
 .. _Awarding Partial Credit in a Multiple Choice Problem:
 
-=======================
-Awarding Partial Credit
-=======================
+Award Partial Credit in a Multiple Choice Problem
+#################################################
 
 .. tags:: educator, how-to
 
 You can configure a single select problem so that specific incorrect answers
 award learners partial credit for the problem.
-
 
 In the following example, the learner selected a wrong answer and received
 partial credit.
@@ -59,9 +57,8 @@ provides partial credit of 25% for an answer option.
 
 .. _Shuffle Answers in a Single Select Problem:
 
-===============
 Shuffle Answers
-===============
+***************
 
 Optionally, you can configure a single select problem so that it shuffles
 the order of possible answers.
@@ -123,9 +120,8 @@ Then, you select **Settings** to specify an option other than **Never** for the
 
 .. _Answer Pools in a Single Select Problem:
 
-============
 Answer Pools
-============
+************
 
 You can configure a single select problem so that a random subset of choices
 are shown to each learner. For example, you can add 10 possible choices to the
@@ -202,8 +198,8 @@ explanation ID.
 
  :ref:`Single Select Overview` (concept)
 
- :ref:`Single Select` (how to)
+ :ref:`Single Select` (how-to)
 
  :ref:`Single Select Problem XML` (reference)
 
- :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)

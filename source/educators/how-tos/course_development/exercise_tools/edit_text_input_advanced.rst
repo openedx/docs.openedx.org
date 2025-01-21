@@ -1,17 +1,22 @@
 .. _Editing Text Input Problems using the Advanced Editor:
 
-*********************************************************************
-Editing Text Input Problems using the Advanced Editor
-*********************************************************************
+Edit Text Input Problems using the Advanced Editor
+#####################################################
 
 .. tags:: educator, how-to
 
+
+
 If the simple editor is not enough to meet your needs, you can switch over to the
-advanced editor. In the setting panels on the right of the editor, click
-**Show advanced settings**, then scroll down and click
+advanced editor. 
+
+#. In the setting panels on the right of the editor, click
+**Show advanced settings**.
+
+#. Then scroll down and click
 **Switch to advanced editor**.
 
-You can use the advanced editor to identify the elements of a text input problem
+#. You can use the advanced editor to identify the elements of a text input problem
 with OLX. For more information, see :ref:`Text Input Problem XML`. To format
 equations, you can use MathJax. For more information, see :ref:`MathJax in Studio`.
 
@@ -42,9 +47,9 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
-=============================
+
 Adding Feedback
-=============================
+*****************
 
 In the advanced editor, you configure answer feedback with the following syntax.
 
@@ -81,16 +86,16 @@ common incorrect answers.
   </problem>
 
 
-=============================
+
 Adding Hints
-=============================
+*************
 
 For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
-==========================================================
+
 Adding Text after the Response Field
-==========================================================
+**************************************
 
 You might want to include a word, phrase, or sentence after the response field
 in a text input problem to help guide your learners or resolve ambiguity.
@@ -102,11 +107,11 @@ in a text input problem to help guide your learners or resolve ambiguity.
 
 To do this, you use the advanced editor.
 
-In the problem, locate the ``textline`` element. This element creates the
+#. In the problem, locate the ``textline`` element. This element creates the
 response field for the problem and is a child of the ``stringresponse``
 element.
 
-To add text after the response field, add the ``trailing_text`` attribute
+#. To add text after the response field, add the ``trailing_text`` attribute
 together with the text that you want to use inside the ``textline`` element.  An example follows.
 
 .. code-block:: xml
@@ -119,33 +124,33 @@ together with the text that you want to use inside the ``textline`` element.  An
     </stringresponse>
   </problem>
 
-==========================================================
+
 Case Sensitivity and Text Input Problems
-==========================================================
+=========================================
 
 By default, text input problems do not require a case sensitive response. You
 can change this default to require a case sensitive answer.
 
 To make a text input response case sensitive, you use the advanced editor.
 
-In the advanced editor, the ``stringresponse`` element has a ``type``
+#. In the advanced editor, the ``stringresponse`` element has a ``type``
 attribute. By default, the value for this attribute is set to ``ci``, for "case
 insensitive". An example follows.
 
-.. code-block:: xml
+  .. code-block:: xml
 
-    <problem>
-      <stringresponse answer="Paris" type="ci">
-      .
-      .
-      .
-      </stringresponse>
-    </problem>
+      <problem>
+        <stringresponse answer="Paris" type="ci">
+        .
+        .
+        .
+        </stringresponse>
+      </problem>
 
-Learners who submit an answer of either "Paris" or "paris" are scored
-as correct.
+  Learners who submit an answer of either "Paris" or "paris" are scored
+  as correct.
 
-To make the response case sensitive, change the value of the ``type``
+#. To make the response case sensitive, change the value of the ``type``
 attribute to ``cs``.
 
 .. code-block:: xml
@@ -161,7 +166,7 @@ attribute to ``cs``.
 Learners who submit an answer of "Paris" are scored as correct, but
 learners who submit an answer of "PARIS" are scored as incorrect.
 
-==========================================================
+
 Response Field Length in Text Input Problems
 ==========================================================
 
@@ -172,33 +177,33 @@ incorrect answers.
 If the default response field is not long enough, you can change it
 using the advanced editor.
 
-In the advanced editor, the ``textline`` element has a ``size`` attribute. By
+#. In the advanced editor, the ``textline`` element has a ``size`` attribute. By
 default, the value for this attribute is set to ``20``. An example follows.
 
-.. code-block:: xml
+  .. code-block:: xml
 
-    <problem>
-      <stringresponse answer="Democratic Republic of the Congo" type="ci">
-        .
-        .
-        .
-        <textline size="20"/>
-      </stringresponse>
-    </problem>
+      <problem>
+        <stringresponse answer="Democratic Republic of the Congo" type="ci">
+          .
+          .
+          .
+          <textline size="20"/>
+        </stringresponse>
+      </problem>
 
-To change the response field length, change the value of the ``size``
+#. To change the response field length, change the value of the ``size``
 attribute.
 
-.. code-block:: xml
+  .. code-block:: xml
 
-    <problem>
-      <stringresponse answer="Democratic Republic of the Congo" type="ci">
-        .
-        .
-        .
-        <textline size="40" />
-      </stringresponse>
-    </problem>
+      <problem>
+        <stringresponse answer="Democratic Republic of the Congo" type="ci">
+          .
+          .
+          .
+          <textline size="40" />
+        </stringresponse>
+      </problem>
 
 ===============================================================
 Allowing Regular Expressions as Answers for Text Input Problems
@@ -213,22 +218,22 @@ answer is marked as correct.
 
 To do this, you use the advanced editor.
 
-In the advanced editor, the ``stringresponse`` element has a ``type``
+#. In the advanced editor, the ``stringresponse`` element has a ``type``
 attribute. You can set the value for this attribute to ``regexp``, with or
 without also including ``ci`` or ``cs`` for a case insensitive or case
 sensitive answer. An example follows.
 
-.. code-block:: xml
+  .. code-block:: xml
 
-    <problem>
-      <stringresponse answer="string pattern" type="regexp ci">
-        .
-        .
-        .
-      </stringresponse>
-    </problem>
+      <problem>
+        <stringresponse answer="string pattern" type="regexp ci">
+          .
+          .
+          .
+        </stringresponse>
+      </problem>
 
-The regular expression that the learner enters must contain, in whole or in
+#. The regular expression that the learner enters must contain, in whole or in
 part, the answer that you specify.
 
 In this example, learners who submit an answer of "string pattern", "String

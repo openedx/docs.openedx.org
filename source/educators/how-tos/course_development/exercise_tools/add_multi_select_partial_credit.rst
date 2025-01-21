@@ -1,8 +1,7 @@
 .. _Awarding Partial Credit in a Multi select Problem:
 
-=============================
-Awarding Partial Credit
-=============================
+Award Partial Credit
+####################
 
 .. tags:: educator, how-to
 
@@ -32,9 +31,8 @@ problem.
 
 .. _Every Decision Counts:
 
----------------------------------------
 Using the Every Decision Counts Method
----------------------------------------
+**************************************
 
 You can configure a multi-select problem so that every selection a learner makes for
 the multi-select problem is evaluated and scored. This method is known as every
@@ -79,9 +77,8 @@ would score for one EDC problem whose answers are as follows.
        - The learner matched 1 of the correct answers for 25%, but selected the
          incorrect answer.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Configure an EDC Multi-select Problem
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 To configure an EDC multi-select problem, you add the ``partial_credit="EDC"``
 attribute to the ``<choiceresponse>`` element in the problem OLX.
@@ -104,9 +101,8 @@ updated to provide partial credit.
     </choiceresponse>
   </problem>
 
---------------------------------------
 Using the By Halves Method
---------------------------------------
+**************************
 
 You can configure a multi-select problem so that for every answer that a learner
 gets wrong, either by not selecting a correct answer or by selecting an
@@ -252,9 +248,8 @@ for problems with an increasing number of total answer options.
        - 7
        - 0
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Configure a By Halves Multi-select Problem
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==========================================
 
 To configure a by halves multi-select problem, you add the
 ``partial_credit="halves"`` attribute to the ``<choiceresponse>`` element in
@@ -284,8 +279,8 @@ halves.
 
  :ref:`Multi select` (reference)
 
- :ref:`Adding a Multi Select Problem` (how to)
+ :ref:`Add a Multi Select Problem` (how-to)
 
- :ref:`Adding Feedback and Hints to a Problem` (how to)
+ :ref:`Adding Feedback and Hints to a Problem` (how-to)
 
  :ref:`Multi select Problem XML` (reference)

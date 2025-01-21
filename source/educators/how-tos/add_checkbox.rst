@@ -1,3 +1,5 @@
+.. _Add a Checkbox Problem:
+
 Add a Checkbox Problem
 ######################
 
@@ -6,3 +8,16 @@ Add a Checkbox Problem
 To create a checkbox (also known as "multi-select") problem, follow this video guide:
 
 .. youtube:: 6VYKcMeZrxg
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Multi select` (reference)
+
+ :ref:`Add a Multi Select Problem` (how-to)
+
+ :ref:`Adding Feedback and Hints to a Problem` (how-to)
+
+ :ref:`Multi select Problem XML` (reference)
+
+ :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)

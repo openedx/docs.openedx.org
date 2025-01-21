@@ -1,8 +1,7 @@
 .. _Problem Written in LaTeX:
 
-############################
 Problem Written in LaTeX
-############################
+########################
 
 .. tags:: educator, how-to
 
@@ -24,9 +23,8 @@ into the LaTeX editor, you make a few adjustments.
 .. image:: /_images/educator_how_tos/ProblemWrittenInLaTeX.png
  :alt: Image of a problem written in LaTeX
 
-************************************
 Create a Problem Written in LaTeX
-************************************
+*********************************
 
 To create a problem written in LaTeX, follow these steps.
 
@@ -47,4 +45,19 @@ To create a problem written in LaTeX, follow these steps.
    file into the editor from your computer by clicking **Upload** in the bottom
    right corner.
 #. In the lower left corner of the LaTeX source compiler, click **Save &
-   Compile to edX XML**.
+   Compile to Open edX XML**.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Numerical Input` (reference)
+
+ :ref:`Numerical Input Problem XML` (reference)
+
+ :ref:`Editing Numerical Input Problems using the Advanced Editor` (how-to)
+
+ :ref:`Awarding Partial Credit in a Numerical Input Problem` (how-to)
+
+ :ref:`Work with Latex Code` (how-to)
+
+ :ref:`Adding Numerical Input Problem` (how-to)
