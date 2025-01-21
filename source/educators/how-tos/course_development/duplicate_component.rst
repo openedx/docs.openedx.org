@@ -22,8 +22,6 @@ until you :ref:`publish the unit<Publish a Unit>`.
 .. note::  Duplicating content experiments after you have configured them is not
    supported.
 
-.. seealso::
- :class: dropdown
 
 .. seealso::
  :class: dropdown
