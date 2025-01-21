@@ -1,10 +1,7 @@
-Alternatively, you can use OLX to enable the poll tool.
-
 .. _Enable Poll in OLX:
 
-======================================
 Enable the Poll Tool in OLX
-======================================
+############################
 
 .. tags:: educator, reference
 
