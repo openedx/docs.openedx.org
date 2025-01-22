@@ -23,15 +23,11 @@ After you have added content, you must publish it to make it available to learne
 
  :ref:`Course Outline` (concept)
 
- :ref:`Creating a New Course in Studio` (how-to)
+ :ref:`Creating a New Course` (how-to)
 
- :ref:`Getting Started with Course Content Development` (reference)
- 
  :ref:`Create a Course` (quickstart)
 
- :ref:`Understanding a Course Outline` (how-to)
-
- :ref:`Getting Started with Course Content Development` (reference)
+ :ref:`Understanding Your Course Outline` (how-to)
 
  :ref:`Add Content in the Course Outline` (reference)
 
@@ -42,8 +38,6 @@ After you have added content, you must publish it to make it available to learne
  :ref:`Publish Content from the Course Outline` (reference)
 
  :ref:`Developing Course Sections` (reference)
-
- :ref:`Create a Subsection` (how-to)
 
  :ref:`Add Text` (how-to)
 
