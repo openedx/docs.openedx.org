@@ -915,8 +915,8 @@ viewer.
 .. seealso::
  :class: dropdown
 
- :ref: `Understanding the Progress Page` (reference)
+ :ref:`Understanding the Progress Page` (reference)
 
- :ref: `Interpreting the Grade Report` (reference)
+ :ref:`Interpreting the Grade Report` (reference)
 
- :ref: `Interpreting the Problem Grade Report` (reference)
+ :ref:`Interpreting the Problem Grade Report` (reference)

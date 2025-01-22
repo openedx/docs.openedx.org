@@ -15,5 +15,5 @@ After you have published content, you should view it in the LMS, as a learner wi
 .. seealso::
  :class: dropdown
 
- :ref: `Controlling Content Visibility and Access` (reference)
+ :ref:`Controlling Content Visibility and Access` (reference)
 

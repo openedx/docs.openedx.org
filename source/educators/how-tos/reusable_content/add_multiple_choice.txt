@@ -35,16 +35,16 @@
 .. seealso::
  :class: dropdown
  
- :ref: `Overview` (concept)
+ :ref:`Overview` (concept)
 
- :ref: `Multiple-Choice Problem Type` (how-to)
+ :ref:`Multiple-Choice Problem Type` (how-to)
 
- :ref: `Add a Single Select Problem` (how-to)
+ :ref:`Add a Single Select Problem` (how-to)
 
- :ref: `Award Partial Credit in a Multiple Choice Problem` (how-to)
+ :ref:`Award Partial Credit in a Multiple Choice Problem` (how-to)
 
- :ref: `Edit Single Select Problems using the Advanced Editor` (how-to)
+ :ref:`Edit Single Select Problems using the Advanced Editor` (how-to)
 
- :ref: `Add a Dropdown Problem` (how-to)
+ :ref:`Add a Dropdown Problem` (how-to)
 
 

@@ -11,4 +11,4 @@ It is possible to use LTI content in a course, too!  See this video for details:
 .. seealso::
  :class: dropdown
 
- :ref: `Juniper release notes: Educator Experiences` (reference)
+ :ref:`Juniper release notes: Educator Experiences` (reference)
