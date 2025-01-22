@@ -1,4 +1,4 @@
-.. _What is Course Dashboard:
+.. _What is the Course Dashboard:
 
 What is the Course Dashboard?
 #############################

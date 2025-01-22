@@ -1,4 +1,5 @@
-#########################################
+.. _Enable/Disable Anonymous Discussion Posts:
+
 Enable/Disable Anonymous Discussion Posts
 #########################################
 
@@ -70,15 +71,15 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 .. seealso::
  :class: dropdown
 
- :ref:`About Course Discussions` (concept)
+ :ref:`Discussions` (concept)
 
- :ref:`Running Course Discussions` (concept)
+ :ref:`Running_discussions` (concept)
 
- :ref:`Moderating Discussions` (concept)
+ :ref:`Moderating_discussions` (concept)
 
  :ref:`Guidance for Discussion Moderators` (concept)
 
- :ref:`Assigning Discussion Moderation Roles` (how-to)
+ :ref:`Assigning_discussion_roles` (how-to)
 
  :ref:`Configuring Open edX Discussions` (how-to)
 
@@ -90,9 +91,9 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 
  :ref:` Setting up Discussions in Courses with Cohorts` (how-to)
 
- :ref:`A Learner's View of the Discussion` (reference)
+ :ref:`A Students View of the Discussion` (reference)
 
- :ref:`About Divided Discussion Topics` (concept)
+ :ref:`About Divided Discussions` (concept)
 
  :ref:`Setting Up Divided Discussions` (how-to)
 
