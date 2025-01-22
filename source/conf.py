@@ -51,6 +51,7 @@ extensions = [
     "notfound.extension",
     "sphinx_tags",
     "sphinxemoji.sphinxemoji",
+    "myst_parser",
 ]
 
 # Extension Configuration
