@@ -12,11 +12,13 @@ The following diagram outlines the general process for adding videos to a course
   :alt: The process for adding videos to a course, as outlined in the following
       numbered steps.
 
-
 #. The course team :ref:`prepares to add videos to the course <Video Guidelines>`. These steps can happen simultaneously.
-   * The course team sets up a third party :ref:`hosting service <Set Up a Hosting Service>` to provide a location for course videos.
-   * The course team :ref:`creates videos <Create a Video>`.
-   * The course team obtains a video transcript.
+
+   * The course team determines a hosting service to host the course videos. A common choice is YouTube, but the Open edX video player can also play videos hosted from other services, as long as the file has a valid MIME type (.mp4, .mpeg, .webm). See :ref:`third party hosting <Set Up a Hosting Service>` for more details.
+
+   * The course team creates the videos. See :ref:`Video Guidelines` for common guidance.
+
+   * The course team obtains video transcripts.
 
 #. The course team uploads the videos to the third party hosting service.
 

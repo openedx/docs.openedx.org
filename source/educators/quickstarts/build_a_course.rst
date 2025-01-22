@@ -31,13 +31,17 @@ Follow the steps below to build your first course. By the end, you will have a f
 3. Create a Section
 *******************
 
-.. include:: ../how-tos/reusable_content/create_section.txt
+.. include:: ../how-tos/course_development/create_hide_delete_sections.rst
+  :start-after: .. START CREATE A SECTION VIDEO
+  :end-before: .. END CREATE A SECTION VIDEO
 
 
 4. Create a Subsection
 **********************
 
-.. include:: ../how-tos/reusable_content/create_subsection.txt
+.. include:: ../how-tos/course_development/create_edit_publish_subsections.rst
+  :start-after: .. START CREATE A SUBSECTION
+  :end-before: .. END CREATE A SUBSECTION
 
 5. Create a Unit
 ****************
@@ -78,7 +82,25 @@ Follow the steps below to build your first course. By the end, you will have a f
 .. seealso::
  :class: dropdown
 
- :ref: `Edit a Course` (how-to)
+ :ref:`Creating a New Course` (how-to)
+
+ :ref:`Edit your Course` (how-to)
+
+ :ref:`Create a Section` (how-to)
+
+ :ref:`Create a Subsection` (how-to)
+
+ :ref:`Create a Unit` (how-to)
+
+ :ref:`Add a Video` (how-to)
+
+ :ref:`Create a Text Component` (how-to)
+
+ :ref:`Add a Multiple Choice Problem` (how-to)
+
+ :ref:`Publish a Unit` (how-to)
+
+ :ref:`View As Learner` (how-to)
 
 
 

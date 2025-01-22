@@ -46,8 +46,13 @@ To entirely hide a subsection from learners, follow these steps.
 
    The subsection settings dialog box opens.
 
+   .. image:: /_images/Educators_subsection_settings_visibility.png
+      :alt: Subsection Settings Visibility tab with the Show entire subsection option selected.
+      :width: 500
+
 #. On the **Visibility** tab, locate **Subsection Visibility**, and then select
    **Hide entire subsection**.
+
 
 #. Select **Save**.
 

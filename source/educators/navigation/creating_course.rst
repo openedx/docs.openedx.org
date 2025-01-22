@@ -71,13 +71,11 @@ Create a New Course
    ../references/course_development/publish_from_outline.rst
    ../references/course_development/develop_course_sections.rst
    ../references/course_development/course_subsections.rst
-   ../how-tos/create_section.rst
    ../how-tos/course_development/create_edit_publish_subsections.rst
    ../how-tos/course_development/hide_subsections.rst
    ../how-tos/course_development/create_hide_delete_sections.rst
    ../how-tos/course_development/exercise_tools/adding_text.rst
    ../how-tos/publish_units.rst
-   ../how-tos/create_subsection.rst
    ../how-tos/view_as_learner.rst
    ../how-tos/set_up_course/add_metadata.rst
    ../how-tos/use_section_independently_of_course_outline.rst

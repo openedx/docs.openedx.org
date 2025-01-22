@@ -1,6 +1,5 @@
 .. _Copy and Paste Course Content:
 
-#############################
 Copy and Paste Course Content
 #############################
 
@@ -16,13 +15,13 @@ Copy and Paste Course Content
 
    For instructions on unit-level copy/paste, see :doc:`copy_paste_units`
 
-#. Choose a component that you would like to copy. This may be a text block, a video block or a problem block.
+#. Choose a component you would like to copy. This may be a text block, a video block or a problem block.
 
 #. In the “actions” hamburger in the upper right corner of the component block,
    click “Copy to Clipboard”.
 
    ..  image:: /_images/educator_how_tos/copy_paste_three_dot_menu.png
-	:alt: A screenshot of the actions hamburger expanded to show the "Copy to Clipboard" option
+	 :alt: A screenshot of the actions hamburger expanded to show the "Copy to Clipboard" option
 
 #. A notification will appear in the bottom right-hand side of the screen indicating the copy is complete. It should only take a few seconds.
 
@@ -31,7 +30,7 @@ Copy and Paste Course Content
 #. Click “paste component”.
 
    ..  image:: /_images/educator_how_tos/copy_paste_paste_component.png
-	:alt: A screenshot of the New Unit page showing the new Paste Component button at the bottom
+	 :alt: A screenshot of the New Unit page showing the new Paste Component button at the bottom
 
 .. note::
 
@@ -44,4 +43,5 @@ Copy and Paste Course Content
    :class: dropdown
 
    :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+   
    :ref:`Add Units to the Outline` (how-to)
