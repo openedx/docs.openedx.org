@@ -148,17 +148,6 @@ Survey Tool
    ../references/course_development/exercise_tools/enable_survey_olx.rst
 
 
-Qualtrics Survey Tool
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../how-tos/course_development/exercise_tools/add_qualtrics_survey.rst
-   ../references/course_development/exercise_tools/view_qualtrics_responses.rst
-
-
 
 Word Cloud Tool
 *******************************************************
