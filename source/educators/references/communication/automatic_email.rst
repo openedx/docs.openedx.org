@@ -1,8 +1,7 @@
-.. _Automatic Email:
+.. _Automatic Email Messages:
 
-#################################
-Automatic Email Messages from edX
-#################################
+Automatic Email Messages
+########################
 
 .. tags:: educator, reference
 
@@ -10,7 +9,7 @@ Automatic Email Messages from edX
 .. be made to the manage_live_course/automatic_email.rst file in the Open edX
 .. course authors guide.
 
-To help learners become and remain engaged in a course, edX sends several types
+To help learners become and remain engaged in a course, the Open edX instance sends several types
 of automatic email messages.
 
 .. list-table::
@@ -50,11 +49,10 @@ of automatic email messages.
      Course Highlight Messages`.
 
 
-*****************************
 Automatic Email Message Text
 *****************************
 
-The following example messages show the text of the email messages that edX
+The following example messages show the text of the email messages that an Open edX intance might
 sends to learners automatically.
 
 .. contents::
@@ -63,32 +61,29 @@ sends to learners automatically.
 
 .. _Day 3 Nudge Message:
 
-===================
 Day 3 Nudge Message
 ===================
 
-EdX sends the following message three days after a learner enrolls in a course.
+An Open edX intance might sends the following message three days after a learner enrolls in a course.
 ::
 
-  Subject: Keep learning in Creating a Course with edX Studio!
+  Subject: Keep learning in Creating a Course!
 
-  Remember when you enrolled in Creating a Course with edX Studio on edX.org?
+  Remember when you enrolled in Creating a Course?
   We do, and we’re glad to have you! Come see what everyone is learning.
 
-EdX sends the following message three days after a learner enrolls in more than
-one course.
+This another example.
 
 ::
 
-  Subject: Keep learning on edX!
+  Subject: Keep learning with us!
 
-  Remember when you enrolled in Creating a Course with edX Studio and other
-  courses on edX.org? We do, and we’re glad to have you! Come see what everyone
+  Remember when you enrolled in Creating a Course and other
+  courses with us? We do, and we’re glad to have you! Come see what everyone
   is learning.
 
 .. _Day 10 Nudge Message:
 
-====================
 Day 10 Nudge Message
 ====================
 
@@ -96,24 +91,23 @@ Day 10 Nudge Message
  If learners receive a :ref:`course highlight message <Course Highlight
  Message>` on day 7, they do not receive this day 10 nudge message.
 
-EdX sends the following message 10 days after a learner enrolls in a course.
+An Open edX intance might sends the following message 10 days after a learner enrolls in a course.
 
 ::
 
   Subject: Keep up the momentum!
 
-  Many edX learners in Creating a Course with edX Studio are completing more
+  Many learners in Creating a Course  are completing more
   problems every week, and participating in the discussion forums. What do you
   want to do to keep learning?
 
-EdX sends the following message 10 days after a learner enrolls in more than
-one course.
+Here is another example:
 
 ::
 
   Subject: Keep up the momentum!
 
-  Many edX learners are completing more problems every week, and participating
+  Many learners are completing more problems every week, and participating
   in the discussion forums. What do you want to do to keep learning?
 
 .. _Day 19 Upgrade Reminder:
@@ -126,30 +120,26 @@ Day 19 Upgrade Reminder
  If learners receive :ref:`course highlight messages <Course
  Highlight Message>`, they do not receive this upgrade reminder.
 
-EdX sends the following message 19 days after a learner enrolls in a course or
+An Open edX intance might sends the following message 19 days after a learner enrolls in a course or
 two days before the upgrade deadline for the course.
 
 ::
 
-  Subject: Upgrade to earn a verified certificate in Creating a Course with edX
-  Studio
+  Subject: Upgrade to earn a verified certificate in Creating a Course
 
-  We hope you’re enjoying learning with us so far in Creating a Course with edX
-  Studio! A verified certificate will allow to you highlight your new knowledge
-  and skills. An edX certificate is official and easily shareable.
+  We hope you’re enjoying learning with us so far in Creating a Course with us! A verified certificate will allow to you highlight your new knowledge
+  and skills. A certificate is official and easily shareable.
 
   Upgrade by November 25, 2017.
 
-EdX sends the following message 19 days after a learner enrolls in more than
-one course or two days before the upgrade deadline for one of the learner's
-courses.
+Another email example may be:
 
 ::
 
-  Subject: Upgrade to earn a verified certificate on edX
+  Subject: Upgrade to earn a verified certificate!
 
-  We hope you’re enjoying learning with us so far on edX! A verified
-  certificate allows to you highlight your new knowledge and skills. An edX
+  We hope you’re enjoying learning with us so far! A verified
+  certificate allows to you highlight your new knowledge and skills. A
   certificate is official and easily shareable.
 
   Upgrade by November 25, 2017.
@@ -160,7 +150,7 @@ courses.
 Course Highlight Email
 ================================
 
-EdX sends Course Highlight messages for both Instructor-paced and Self-paced
+An Open edX intance might sends Course Highlight messages for both Instructor-paced and Self-paced
 courses. The logic for when the message is sent depends on the Course pacing.
 
 * Instructor-paced:
@@ -178,21 +168,31 @@ Messages`.
 
 .. include:: ../reusable_references/course_highlight_message_text.rst
 
-
 .. _Discussion Notification:
 
 =======================
 Discussion Notification
 =======================
 
-After a learner or course team member creates a post in the course discussions, edX sends the following email message the first time a learner or course team member replies to the original post.
+After a learner or course team member creates a post in the course discussions, the Open edX intance might sends the following email message the first time a learner or course team member replies to the original post.
 
 ::
 
   Subject: Response to <title of post>
 
-  <edX username> replied to <title of post>:
+  <username> replied to <title of post>:
 
   <text of comment>
 
-The message also contains a View discussion option that takes the learner to the discussion post. EdX does not send individual messages for any additional replies on the post.
+The message also contains a View discussion option that takes the learner to the discussion post. An Open edX intance does not send individual messages for any additional replies on the post.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Bulk Email` (reference)
+
+ :ref:`Send_Bulk_Email` (how-to)
+
+ :ref:`Example Messages to Students` (reference)
+
+ :ref:`Review Sent Messages` (how-to)

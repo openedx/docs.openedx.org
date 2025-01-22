@@ -155,4 +155,4 @@ complete the following tasks.
 
   :ref:`Add Course Creators` (how-to)
 
-  :ref:`Add Beta Testers to a Course <Add_Beta_Testers>` (how-to)  
+  :ref:`Add Beta Testers to a Course` (how-to)  

@@ -38,10 +38,20 @@ This video explains how to add a multiple choice (also known as "single-select")
 
 .. seealso::
  :class: dropdown
+ 
+ :ref:`Overview` (concept)
 
- :ref: `The Advanced Editor` (reference)
+ :ref:`Multiple Choice` (how-to)
 
- :ref: `A New Problem Editor Experience (Palm)` (reference)
+ :ref:`Single Select` (how-to)
+
+ :ref:`Single Select and Numerical Input` (how-to)
+
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
+
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
+
+ :ref:`Add a Dropdown Problem` (how-to)
 
 
 

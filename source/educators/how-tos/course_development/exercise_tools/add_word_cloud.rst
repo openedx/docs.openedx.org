@@ -79,3 +79,8 @@ To create a word cloud, follow these steps.
      shown as a percentage of all words entered.
 
 #. Select **Save**.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`Create Exercises` (concepts)

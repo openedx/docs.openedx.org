@@ -70,9 +70,6 @@ who enroll in the new course run.
   input, or math expression input problems, review the
   :ref:`Markdown-style formatting <Simple Editor>` or :ref:`OLX markup
   <Advanced Editor>` of any problems created before September 2016.
-  For more information about the updates that you can make to improve the
-  accessibility of these problem types, see the `Release Notes
-  <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`_.
 
 * If your course uses prerequisite course subsections to hide course
   subsections until learners complete other, prerequisite subsections,
@@ -94,6 +91,6 @@ for launch, see :ref:`Launch`.
 .. seealso::
  :class: dropdown
 
- :ref: `Re-running a Course` (reference)
+ :ref:`Re-running a Course  <Rerun a Course>` (reference)
 
- :ref: `Re-Run a Course` (how-to)
+ :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)

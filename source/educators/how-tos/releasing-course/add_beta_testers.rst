@@ -1,4 +1,4 @@
-.. _Add_Beta_Testers:
+.. _Add Beta Testers to a Course:
 
 ############################
 Add Beta Testers to a Course

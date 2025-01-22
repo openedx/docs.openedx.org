@@ -32,26 +32,21 @@
 
 #. Click :guilabel:`Save` to save the problem in the unit.
 
-
 .. seealso::
  :class: dropdown
+ 
+ :ref:`Overview` (concept)
 
- Problem Home (home)
+ :ref:`Multiple Choice` (how-to)
 
- Add Problem Feedback (task)
+ :ref:`Single Select` (how-to)
 
- Add Problem Hints (task)
+ :ref:`Single Select and Numerical Input` (how-to)
 
- Award Partial Credit for a Problem (task)
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
 
- Shuffle Answers in a Problem
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
 
- Use Answer Pools in a Problem
-
- Problem Simple Editor (reference)
-
- Problem Advanced Editor (reference)
-
- Pedagogical Considerations for Multiple Choice Questions (concept)
+ :ref:`Add a Dropdown Problem` (how-to)
 
 

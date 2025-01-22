@@ -1,4 +1,5 @@
-############################
+.. _Add or Update a Full Profile:
+
 Add or Update a Full Profile
 ############################
 
@@ -6,7 +7,7 @@ Add or Update a Full Profile
 
 .. note:: You must specify your year of birth on the **Account Settings** page
    before you can share a full profile. If you are under 13 years of age, you
-   can share only a `Create or Edit a Limited Profile`_.
+   can share only a Limited Profile.
 
 If you create a full profile, you share the following information in
 addition to your username and profile image.
@@ -60,10 +61,14 @@ The site saves your changes automatically.
    saved, and becomes visible again to other learners and course teams if you
    change your profile back to **Full Profile**.
 
+
 .. seealso::
  :class: dropdown
 
  :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
+
  :doc:`add_update_limited_profile` (how-to)
+
  :doc:`add_links_to_social_media_accounts` (how-to)
+
  :doc:`view_another_learners_profile` (how-to)

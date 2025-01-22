@@ -46,8 +46,13 @@ To entirely hide a subsection from learners, follow these steps.
 
    The subsection settings dialog box opens.
 
+   .. image:: /_images/Educators_subsection_settings_visibility.png
+      :alt: Subsection Settings Visibility tab with the Show entire subsection option selected.
+      :width: 500
+
 #. On the **Visibility** tab, locate **Subsection Visibility**, and then select
    **Hide entire subsection**.
+
 
 #. Select **Save**.
 
@@ -112,39 +117,39 @@ end date" message under the subsection's display name.
 .. seealso::
  :class: dropdown
 
- :ref: `Course Outline` (concept)
+ :ref:`Course Outline` (concept)
 
- :ref: `Creating a New Course in Studio` (how-to)
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
 
- :ref: `Create a New Course Screen` (quick start)
+ :ref:`Quick Start Build a Course` (quick start)
 
- :ref: `Create the Course About Page` (how-to)
+ :ref:`Create the Course About Page` (how-to)
 
- :ref: `Understanding a Course Outline` (reference)
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 
- :ref: `Add Content in the Course Outline` (reference)
+ :ref:`Add Content in the Course Outline` (reference)
 
- :ref: `Developing Your Course Outline` (reference)
+ :ref:`Developing Your Course Outline` (reference)
 
- :ref: `Modify Settings for Objects in the Course Outline` (reference)
+ :ref:`Modify Settings for Objects in the Course Outline` (reference)
 
- :ref: `Publish Content from the Course Outline` (reference)
+ :ref:`Publish Content from the Course Outline` (reference)
 
- :ref: `Developing Course Sections` (reference)
+ :ref:`Developing Course Sections` (reference)
 
- :ref: `Developing Course Subsections` (reference)
+ :ref:`Developing Course Subsections` (reference)
 
- :ref: `Create a Section` (how-to)
+ :ref:`Create a Section` (how-to)
 
- :ref: `Create a Subsection` (how-to)
+ :ref:`Create a Subsection` (how-to)
 
- :ref: `Create a Section` (how-to)
+ :ref:`Create a Section` (how-to)
 
- :ref: `Add Course Metadata` (how-to)
+ :ref:`Add Course Metadata` (how-to)
 
- :ref: `Use a Section from a Course independently of the Course Outline` (how-to)
+ :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
 
- :ref: `Resources for Open edX Course Teams` (reference)
+ :ref:`Resources for Open edX Course Teams` (reference)
 
- :ref: `Resources for Open edX` (reference)
+ :ref:`Resources for Open edX` (reference)
 

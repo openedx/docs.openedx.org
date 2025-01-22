@@ -1,7 +1,6 @@
 .. _Additional Video Options:
 
-###################################
-Specifying Additional Video Options
+Specify Additional Video Options
 ###################################
 
 .. tags:: educator, how-to
@@ -16,11 +15,10 @@ and a start and stop time for the video.
 
 .. _Enable Video and Transcript Downloads:
 
-********************************************
 Enable Video and Transcript Downloads
 ********************************************
 
-You can allow learners to download videos and transcript files that you have
+You can allow learners to download videos and transcript files you have
 provided so that they can view them offline.
 
 To enable video and transcript downloads, follow these steps.
@@ -37,7 +35,6 @@ format or text (.txt) format.
 
 .. _Video Settings:
 
-**************************
 Set Video Settings
 **************************
 
@@ -51,12 +48,12 @@ The following options appear on the **Edit** page of the video component.
     :widths: 30 70
 
     * - **Component Display Name**
-      - The name that you want your learners to see. To edit the display name,
+      - The name you want your learners to see. To edit the display name,
         select the pencil icon inthe top left hand corner.
 
 .. _Video Source:
 
-===============
+
 Video Source
 ===============
 
@@ -65,8 +62,7 @@ Video Source
 
     * - **Video ID**
       - The Video IDis the source for your video. Video IDs are the
-        identifiers that the video process assigns to the video. Only courses on
-        edx.org use Video IDs.
+        identifiers that the video process assigns to the video.
 
     * - **Video URL**
       - The Video URL is the source for your video. Video URLS are for externally
@@ -90,11 +86,10 @@ Video Source
         the 360p version of the video is the first URL in the list.
 
         To help make sure all standard browsers can play your video, we
-        **strongly** recommend that you use the .mp4 format.
+        **strongly** recommend you use the .mp4 format.
 
 .. _Thumbnail:
 
-===============
 Thumbnail
 ===============
 
@@ -117,7 +112,6 @@ steps above for adding a thumbnail
 
 .. _Transcript:
 
-============
 Transcript
 ============
 
@@ -141,7 +135,7 @@ Transcript
         downloads**, a link to download the file appears below the video.
 
         If you want to provide a downloadable transcript in a different format
-        as well, such as .pdf, edX recommends that you upload a handout for learners by
+        as well, such as .pdf, the recommendation is to upload a handout for learners by
         using the **Upload Handout** field. For more information, see
         :ref:`Additional Transcripts`.
 
@@ -152,7 +146,6 @@ Transcript
 
 .. _Duration:
 
-===============
 Duration
 ===============
 
@@ -185,7 +178,6 @@ Duration
 
 .. _Handout:
 
-==============
 Handout
 ==============
 
@@ -204,7 +196,6 @@ Handout
 
 .. _License:
 
-===============
 License
 ===============
 
@@ -219,14 +210,14 @@ License
         release the video with a license different from the overall course
         license.
 
-        * Select **All Rights Reserved** to indicate to learners that you own
+        * Select **All Rights Reserved** to indicate to learners you own
           the copyright for the video.
 
         * Select **Creative Commons** to grant others the right to share and
           use the video. You must then select the Creative Commons license
-          options that you want.
+          options you want.
 
-          The license options that you select control the copyright notice that
+          The license options you select control the copyright notice that
           learners see for the video. For more information, see :ref:`Licensing
           a Course`.
 

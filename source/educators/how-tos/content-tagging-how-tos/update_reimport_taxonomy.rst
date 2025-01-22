@@ -1,3 +1,5 @@
+.. _Update/Re-import a taxonomy:
+
 Update/Re-import a taxonomy
 ###########################
 
@@ -59,3 +61,24 @@ do that.
 #. To view your newly imported taxonomy, find the taxonomy card in your taxonomy
    listing and click the title. You will see your taxonomy and all its
    associated tags in the taxonomy view page.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`build-taxonomy-using-template` (how-to)
+
+ :ref:`import-export-taxonomy` (how-to)
+
+ :ref:`Update/Re-import a taxonomy` (how-to)
+
+ :ref:`tag-ids-for-taxonomy-import` (concept)
+ 
+ :ref:`Manage Permissions on a Taxonomy` (how-to)
+
+ :ref:`add-tags-to-a-course` (how-to)
+
+ :ref:`Add and delete tags on course content` (how-to)
+
+ :ref:`create-flat-taxonomy` (how-to)
+
+ 

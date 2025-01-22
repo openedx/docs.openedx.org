@@ -6,6 +6,8 @@ Create a Subsection
 
 .. tags:: educator, how-to
 
+.. START CREATE A SUBSECTION
+
 To create a new subsection, follow these steps.
 
 #. In the outline, expand the section in which you want to create a new
@@ -17,6 +19,8 @@ To create a new subsection, follow these steps.
    locate content in the course. It can also help you select content when you
    analyze performance in reporting and analytics systems.
 #. :ref:`Add units<Create a Unit>` to the new subsection as needed.
+
+.. END CREATE A SUBSECTION
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` as you create new subsections.
@@ -35,7 +39,7 @@ click outside of the field to save the name.
 Set a Subsection Release Date
 ********************************
 
-To set the subsection release date, follow these steps.
+If the subsection should release at a later time than the containing section, set the release date. To set the subsection release date, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
@@ -60,10 +64,19 @@ To set the subsection release date, follow these steps.
       their **Progress** pages in the time zone that their browsers specify.
       Learners see other course dates and times in UTC.
 
+   .. image:: /_images/Educators_subsection_settings_basic.png
+    :alt: Subsection Settings Basics tab with the Release Date and Grade As fields
+    :width: 500
+
 #. Select **Save**.
 
 For more information, see :ref:`Release Dates`.
 
+********************************
+Set a Subsection Visibility
+********************************
+
+To change the visibility of a subsection, see :ref:`Hide a Subsection from Students`.
 
 
 .. _Publish all Units in a Subsection:

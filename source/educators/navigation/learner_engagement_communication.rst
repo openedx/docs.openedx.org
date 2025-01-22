@@ -43,7 +43,9 @@ Bulk Emails
    ../references/communication/bulk_email.rst
    ../how-tos/communication/send_bulk_email.rst
    ../how-tos/communication/review_sent_messages.rst 
-   ../references/communication/example_bulk_emails.rst  
+   ../references/communication/example_bulk_emails.rst
+   ../references/communication/compose_email_message.rst 
+   ../how-tos/communication/email_task_history_report.rst 
 
 Automatic Emails
 *******************************************************
@@ -132,6 +134,7 @@ Poll Tool
 
    ../references/course_development/exercise_tools/poll_olx.rst
    ../references/course_development/exercise_tools/enable_poll_OLX.rst
+   ../how-tos/course_development/exercise_tools/create_poll_olx.rst
 
 
 Survey Tool
@@ -143,17 +146,6 @@ Survey Tool
 
    ../how-tos/course_development/exercise_tools/add_survey.rst
    ../references/course_development/exercise_tools/enable_survey_olx.rst
-
-
-Qualtrics Survey Tool
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../how-tos/course_development/exercise_tools/add_qualtrics_survey.rst
-   ../references/course_development/exercise_tools/view_qualtrics_responses.rst
 
 
 

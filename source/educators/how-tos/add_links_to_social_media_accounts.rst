@@ -1,4 +1,5 @@
-################################################
+.. _Add Links to Your Personal Social Media Accounts:
+
 Add Links to Your Personal Social Media Accounts
 ################################################
 
