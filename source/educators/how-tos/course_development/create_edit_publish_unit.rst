@@ -36,9 +36,9 @@ To create a unit from a unit page, follow these steps.
 
 #. In the **Unit Navigation Bar** area, select **New Unit**.
 
-   ... image:: /_images/educator_how_tos/unit_location.png
-    :alt: The Unit Navigation Bar in the Unit page.
-    :width: 660
+   .. image:: /_images/educator_how_tos/unit_location.png
+     :alt: The Unit Navigation Bar on the Unit page.
+     :width: 660
 
    The unit page for the new unit opens automatically.
 
