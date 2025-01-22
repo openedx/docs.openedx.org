@@ -27,8 +27,8 @@ Export a CSV file that reports on which tags have been added to which parts of t
  
  :ref:`Manage Permissions on a Taxonomy` (how-to)
 
- :ref:`Add and delete tags on courses` (how-to)
-
- :ref:`Create a flat taxonomy by uploading a CSV` (how-to) 
+ :ref:`add-tags-to-a-course` (how-to)
 
  :ref:`Add and delete tags on course content` (how-to)
+
+ :ref:`Create a flat taxonomy by uploading a CSV` (how-to)

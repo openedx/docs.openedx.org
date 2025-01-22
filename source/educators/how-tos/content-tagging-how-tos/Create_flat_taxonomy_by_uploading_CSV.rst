@@ -59,7 +59,7 @@ taxonomy. Here's how to do that:
  
  :ref:`Manage Permissions on a Taxonomy` (how-to)
 
- :ref:`Add and delete tags on courses` (how-to)
+ :ref:`add-tags-to-a-course` (how-to)
 
  :ref:`Export tag data from a course` (how-to)
 

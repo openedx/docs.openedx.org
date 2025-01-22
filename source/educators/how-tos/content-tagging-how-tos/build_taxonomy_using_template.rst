@@ -110,6 +110,8 @@ create a taxonomy of cities, like this:
 
  :ref:`add-tags-to-a-course` (how-to)
 
+ :ref:`Add and delete tags on course content` (how-to)
+
  :ref:`create-flat-taxonomy` (how-to) 
 
  :ref:`import-export-taxonomy` (how-to)
