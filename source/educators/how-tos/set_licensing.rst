@@ -63,5 +63,5 @@ need to set the license for the video.
 .. seealso::
  :class: dropdown
 
- :ref: `Course Licensing` (reference)
+ :ref:`Course Licensing` (reference)
 

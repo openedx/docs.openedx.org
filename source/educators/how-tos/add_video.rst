@@ -25,9 +25,9 @@ This name appears as a heading above the video in the LMS, and it identifies the
 .. seealso::
  :class: dropdown
 
- :ref: `Course About Video Guidelines` (reference)
+ :ref:`Course About Video Guidelines` (reference)
 
- :ref: `Troubleshooting Video Problems` (reference)
+ :ref:`Troubleshooting Video Problems` (reference)
 
 
 

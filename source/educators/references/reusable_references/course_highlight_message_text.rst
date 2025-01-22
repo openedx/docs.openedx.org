@@ -37,4 +37,4 @@ verified enrollment track.
 .. seealso::
  :class: dropdown
 
- :ref: `Automatic Email Messages from edX` (reference)
+ :ref:`Automatic Email Messages from edX` (reference)

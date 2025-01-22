@@ -80,5 +80,5 @@ Enable Highlight Emails
 .. seealso::
  :class: dropdown
 
- :ref: `Juniper release notes: Educator Experiences` (reference)
+ :ref:`Juniper release notes: Educator Experiences` (reference)
 
