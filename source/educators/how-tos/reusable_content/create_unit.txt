@@ -19,12 +19,24 @@ You can then create units within the subsection.
 .. seealso::
  :class: dropdown
 
- Add a Component (how-to)
+ :ref:`Set Access Restrictions For a Unit` (how-to)
 
- :ref:`Developing Course Units` (reference)
+ :ref:`Copy and Paste Course Units` (how-to) 
 
- Components (reference)
+ :ref:`Hide a Unit from Students` (how-to) 
 
- Conditional Content (reference)
+ :ref:`Copy and Paste Course Content` (how-to) 
+ 
+ :ref:`Developing Course Units` (reference) 
+
+ :ref:`The Unit Workflow` (reference) 
+
+
+
+
+
+
+
+
 
 

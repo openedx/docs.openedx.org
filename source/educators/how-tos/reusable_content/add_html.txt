@@ -24,15 +24,23 @@
 
 #. Click :guilabel:`Save` to save the text in the unit.
 
-
 .. seealso::
  :class: dropdown
 
- Add a Link in a Text Component (task)
+ :ref:`Work with HTML code` (how-to)
 
- Add an Image in a Text Component (task)
+ :ref:`Working with Text Components` (reference)
 
- Import LaTeX Code into a Text Component (task)
+ :ref:`Create a Text Component` (how-to)
 
- Text Editor Options (reference)
+ :ref:`Add Link to Website Course Unit or File` (how-to)
+
+ :ref:`Add an Image to a Text Component` (how-to)
+
+ :ref:`Full Screen Image` (reference)
+
+ :ref:`Paste without Formatting in a Text Component` (how-to)
+
+
+
 

@@ -36,18 +36,11 @@
 .. seealso::
  :class: dropdown
 
- Preparing a video (task)
+ :ref:`Additional Transcript Options` (how-to)
 
- Add a video transcript (task)
+ :ref:`Add Transcript in Another Language` (how-to)
 
- Add a video with different encodings (task)
+ :ref:`Course About Video Guidelines` (reference)
 
- Use Amazon S3 to serve a video (task)
-
- Video Guidelines (concept)
-
- Advanced video options (reference)
-
- Video troubleshooting (reference)
-
+ 
 

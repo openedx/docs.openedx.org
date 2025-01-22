@@ -1,4 +1,4 @@
-.. _Use a Section from a Course independently of the Course Outline:
+.. _Use a Section from a Course independently of the Course Outline: 
 
 Use a Section from a Course independently of the Course Outline
 ###############################################################
