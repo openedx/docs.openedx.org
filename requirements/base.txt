@@ -28,6 +28,7 @@ colorama==0.4.6
     # via sphinx-autobuild
 docutils==0.21.2
     # via
+    #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx
 h11==0.16.0
@@ -39,9 +40,21 @@ idna==3.10
 imagesize==1.4.1
     # via sphinx
 jinja2==3.1.6
-    # via sphinx
+    # via
+    #   myst-parser
+    #   sphinx
+markdown-it-py==3.0.0
+    # via
+    #   mdit-py-plugins
+    #   myst-parser
 markupsafe==3.0.2
     # via jinja2
+mdit-py-plugins==0.4.2
+    # via myst-parser
+mdurl==0.1.2
+    # via markdown-it-py
+myst-parser==4.0.1
+    # via -r requirements/base.in
 packaging==25.0
     # via
     #   pydata-sphinx-theme
@@ -54,7 +67,9 @@ pygments==2.19.1
     #   pydata-sphinx-theme
     #   sphinx
 pyyaml==6.0.2
-    # via sphinxcontrib-mermaid
+    # via
+    #   myst-parser
+    #   sphinxcontrib-mermaid
 requests==2.32.3
     # via
     #   sphinx
@@ -68,8 +83,9 @@ soupsieve==2.7
     # via beautifulsoup4
 sphinx==7.4.7
     # via
-    #   -c /home/runner/work/docs.openedx.org/docs.openedx.org/requirements/constraints.txt
+    #   -c /home/feanil/src/openedx/docs.openedx.org/requirements/constraints.txt
     #   -r requirements/base.in
+    #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx-autobuild
     #   sphinx-book-theme
