@@ -179,7 +179,7 @@ Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
 .. seealso::
  :class: dropdown
 
- :ref:`Create Cohort-Specific Course Content` (how-to)
+ :ref:`Create Cohort Specific Course Content` (how-to)
 
  :ref:`Testing Your Course Content` (reference)
  

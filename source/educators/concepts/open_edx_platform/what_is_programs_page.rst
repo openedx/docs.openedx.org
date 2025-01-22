@@ -34,7 +34,7 @@ On the **Programs** page, you can perform the following actions.
 .. seealso::
  :class: dropdown
 
- :ref:`What is Course Dashboard` (concept)
+ :ref:`What is the Course Dashboard` (concept)
 
  :ref:`What is LMS` (concept)
 

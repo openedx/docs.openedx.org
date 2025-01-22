@@ -91,6 +91,6 @@ for launch, see :ref:`Launch`.
 .. seealso::
  :class: dropdown
 
- :ref:`Re-running a Course` (reference)
+ :ref:`Re-running a Course  <Rerun a Course>` (reference)
 
- :ref:`Re-Run a Course` (how-to)
+ :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)

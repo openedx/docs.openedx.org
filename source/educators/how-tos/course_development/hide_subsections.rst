@@ -119,13 +119,13 @@ end date" message under the subsection's display name.
 
  :ref:`Course Outline` (concept)
 
- :ref:`Creating a New Course in Studio` (how-to)
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
 
- :ref:`Create a New Course Screen` (quick start)
+ :ref:`Quick Start Build a Course` (quick start)
 
  :ref:`Create the Course About Page` (how-to)
 
- :ref:`Understanding a Course Outline` (reference)
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 
  :ref:`Add Content in the Course Outline` (reference)
 

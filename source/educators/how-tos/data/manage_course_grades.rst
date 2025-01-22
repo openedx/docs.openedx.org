@@ -917,6 +917,6 @@ viewer.
 
  :ref:`Understanding the Progress Page` (reference)
 
- :ref:`Interpreting the Grade Report` (reference)
+ :ref:`Interpret the Grade Report` (reference)
 
- :ref:`Interpreting the Problem Grade Report` (reference)
+ :ref:`Interpret the Problem Grade Report` (reference)

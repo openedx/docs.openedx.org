@@ -1,4 +1,5 @@
-####################################
+.. _Sharing Your Courses on Social Media:
+
 Sharing Your Courses on Social Media
 ####################################
 
@@ -34,11 +35,11 @@ media sites such as Facebook and Twitter.
 .. seealso::
  :class: dropdown
 
- :ref:`What is the Course Dashboard?` (concept)
+ :ref:`What is the Course Dashboard` (concept)
 
  :ref:`View Another Learner's Profile` (how-to)
  
- :ref:`What is the User Profile Page?` (concept)
+ :ref:`What is the User Profile Page` (concept)
  
  :ref:`Add or Update a Limited Profile` (how-to)
  

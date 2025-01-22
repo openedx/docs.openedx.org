@@ -26,4 +26,4 @@ Studio.
 
  :ref:`What is Studio` (concept)
 
- :ref:`What is Course Dashboard` (concept)
+ :ref:`What is the Course Dashboard` (concept)

@@ -135,6 +135,6 @@ visible.
 
  :ref:`Course Dates` (reference)
 
- :ref:`Set the Course Run Schedule and Pacing in Studio` (how-to)
+ :ref:`Set Schedule and Pacing` (how-to)
 
  :ref:`Additional Course Run Information` (concept)

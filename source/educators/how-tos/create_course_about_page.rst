@@ -17,13 +17,13 @@ Watch this video to understand how to create a course description:
 
  :ref:`Course Outline` (concept)
 
- :ref:`Creating a New Course in Studio` (how-to)
+ :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
 
- :ref:`Create a New Course Screen` (quick start)
+ :ref:`Quick Start Build a Course` (quick start)
 
- :ref:`Hiding a Subsection from Learners` (how-to)
+ :ref:`hiding a subsection from learners <Hide a Subsection from Students>` (how-to)
 
- :ref:`Understanding a Course Outline` (reference)
+ :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 
  :ref:`Add Content in the Course Outline` (reference)
 

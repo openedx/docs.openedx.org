@@ -41,21 +41,19 @@ taxonomy. Here's how to do that:
    #. In Google Sheets, use File > Download > Comma Separated Values (.csv).
    #. In Numbers, use File > Export To > CSV… and use the default options.
 
-#. Import the taxonomy following `How-To: Import and export a taxonomy
-   <https://openedx.atlassian.net/wiki/spaces/OEPM/pages/4154490883/How-to+Import+and+export+a+taxonomy>`_
-   guide.
+#. Import the taxonomy following the :ref:`import-export-taxonomy`  guide.
 
 
 .. seealso::
  :class: dropdown
 
- :ref:`Build a taxonomy using a template` (how-to)
+ :ref:`build-taxonomy-using-template` (how-to)
 
- :ref:`Import and export a taxonomy` (how-to)
+ :ref:`import-export-taxonomy` (how-to)
 
  :ref:`Update/Re-import a taxonomy` (how-to)
 
- :ref:`Why does each tag need an ID when importing a taxonomy?` (concept)
+ :ref:`tag-ids-for-taxonomy-import` (concept)
  
  :ref:`Manage Permissions on a Taxonomy` (how-to)
 

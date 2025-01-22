@@ -1,3 +1,5 @@
+.. _Embed an iframe in the Text Editor:
+
 Embed an iframe in the Text Editor
 ##################################
 

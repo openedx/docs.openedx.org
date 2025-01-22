@@ -1,4 +1,5 @@
-#################################
+.. _Updating Course-Specific Settings:
+
 Updating Course-Specific Settings
 #################################
 
@@ -35,11 +36,11 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
 .. seealso::
  :class: dropdown
 
- :ref:`What is the Course Dashboard?` (concept)
+ :ref:`What is the Course Dashboard` (concept)
 
  :ref:`Sharing Your Courses on Social Media` (how-to)
  
- :ref:`What is the User Profile Page?` (concept)
+ :ref:`What is the User Profile Page` (concept)
  
  :ref:`Add or Update a Limited Profile` (how-to)
  
