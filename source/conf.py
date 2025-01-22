@@ -47,7 +47,8 @@ extensions = [
     "sphinxcontrib.mermaid",
     "sphinx.ext.intersphinx",
     "sphinxext.rediraffe",
-    "sphinx_tags"
+    "sphinx_tags",
+    "myst_parser",
 ]
 
 # Extension Configuration
