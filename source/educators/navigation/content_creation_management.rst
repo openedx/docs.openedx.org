@@ -131,15 +131,6 @@ Add Tags
 
    ../references/course_development/exercise_tools/conditional_module.rst
 
-   
-Add and Manage Course Tags
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../how-tos/add_delete_course_tags.rst
 
 Embed SCORM Content
 *******************************************************

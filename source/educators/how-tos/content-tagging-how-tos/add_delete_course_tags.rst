@@ -96,7 +96,7 @@ Deleting Tags from the Course Outline Page
  
  :ref:`Manage Permissions on a Taxonomy` (how-to)
 
- :ref:`Add and delete tags on courses` (how-to)
+ :ref:`Add and delete tags on course content` (how-to)
 
  :ref:`Export tag data from a course` (how-to)
 

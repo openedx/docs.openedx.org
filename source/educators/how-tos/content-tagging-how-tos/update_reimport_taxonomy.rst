@@ -61,3 +61,24 @@ do that.
 #. To view your newly imported taxonomy, find the taxonomy card in your taxonomy
    listing and click the title. You will see your taxonomy and all its
    associated tags in the taxonomy view page.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Build a taxonomy using a template` (how-to)
+
+ :ref:`Import and export a taxonomy` (how-to)
+
+ :ref:`Update/Re-import a taxonomy` (how-to)
+
+ :ref:`Why does each tag need an ID when importing a taxonomy?` (concept)
+ 
+ :ref:`Manage Permissions on a Taxonomy` (how-to)
+
+ :ref:`add-tags-to-a-course` (how-to)
+
+ :ref:`Add and delete tags on course content` (how-to)
+
+ :ref:`Create a flat taxonomy by uploading a CSV` (how-to)
+
+ 
