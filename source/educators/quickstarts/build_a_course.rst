@@ -80,7 +80,25 @@ Follow the steps below to build your first course. By the end, you will have a f
 .. seealso::
  :class: dropdown
 
+ :ref: `Creating a New Course` (how-to)
+
  :ref: `Edit a Course` (how-to)
+
+ :ref: `Create a Section` (how-to)
+
+ :ref: `Create a Subsection` (how-to)
+
+ :ref: `Create a Unit` (how-to)
+
+ :ref: `Add a Video` (how-to)
+
+ :ref: `Create a Text Component` (how-to)
+
+ :ref: `Add a Multiple Choice Problem` (how-to)
+
+ :ref: `Publish a Unit` (how-to)
+
+ :ref: `View As Learner` (how-to)
 
 
 
