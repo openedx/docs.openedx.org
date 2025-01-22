@@ -71,7 +71,6 @@ Create a New Course
    ../references/course_development/publish_from_outline.rst
    ../references/course_development/develop_course_sections.rst
    ../references/course_development/course_subsections.rst
-   ../how-tos/create_section.rst
    ../how-tos/course_development/create_edit_publish_subsections.rst
    ../how-tos/course_development/hide_subsections.rst
    ../how-tos/course_development/create_hide_delete_sections.rst
