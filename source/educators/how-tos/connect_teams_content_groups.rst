@@ -26,15 +26,15 @@ Connecting Teams to Content Groups
 .. seealso::
  :class: dropdown
 
- :ref: `Teams Overview` (concept)
+ :ref:`Teams Overview  <CA_Teams_Overview>` (concept)
 
- :ref: `Teams Configuration Options` (reference)
+ :ref:`Teams Configuration Options` (reference)
 
- :ref: `Managing Teams via CSV Upload` (reference)
+ :ref:`Managing Teams via CSV Upload` (reference)
  
- :ref: `Managing Team Discussions` (concept)
+ :ref:`Managing Team Discussions <Teams Discussions>` (concept)
 
- :ref: `The Learner's Experience of Teams` (concept)
+ :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
 
- :ref: `Enable and Configure Teams` (how-to)
+ :ref:`Enable and Configure Teams` (how-to)
 

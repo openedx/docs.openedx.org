@@ -1,4 +1,5 @@
-##############################
+.. _View Another Learner's Profile:
+
 View Another Learner's Profile
 ##############################
 
@@ -20,16 +21,16 @@ The learner's account profile page opens.
 .. seealso::
  :class: dropdown
 
- :ref: `What is the Course Dashboard?` (concept)
+ :ref:`What is the Course Dashboard` (concept)
 
- :ref: `Sharing Your Courses on Social Media` (how-to)
+ :ref:`Sharing Your Courses on Social Media` (how-to)
  
- :ref: `What is the User Profile Page?` (concept)
+ :ref:`What is the User Profile Page` (concept)
  
- :ref: `Add or Update a Limited Profile` (how-to)
+ :ref:`Add or Update a Limited Profile` (how-to)
  
- :ref: `Add or Update a Full Profile` (how-to)
+ :ref:`Add or Update a Full Profile` (how-to)
 
- :ref: `Updating Course-Specific Settings` (how-to)
+ :ref:`Updating Course-Specific Settings` (how-to)
  
- :ref: `Add Links to Your Personal Social Media Accounts` (how-to)
+ :ref:`Add Links to Your Personal Social Media Accounts` (how-to)

@@ -1,4 +1,5 @@
-###############################
+.. _Add or Update a Limited Profile:
+
 Add or Update a Limited Profile
 ###############################
 

@@ -142,7 +142,7 @@ Beware of commonly used constructions that introduce ambiguity.
 Use (and Add to) the Glossary
 *****************************
 
-Use and maintain our :ref: `glossary <Glossary>`. Be consistent in the terms used.
+Use and maintain our :ref:`glossary <Glossary>`. Be consistent in the terms used.
 
   Example:
 

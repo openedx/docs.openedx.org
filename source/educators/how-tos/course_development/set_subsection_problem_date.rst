@@ -119,5 +119,5 @@ To change the results visibility for your subsection, follow these steps.
 .. seealso::
  :class: dropdown
 
- :ref: `Create an Open Response Assessment Assignment` (how-to)
+ :ref:`Create an Open Response Assessment Assignment <PA Create an ORA Assignment>` (how-to)
 

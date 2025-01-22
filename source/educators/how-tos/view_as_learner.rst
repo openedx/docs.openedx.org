@@ -14,7 +14,7 @@ After you have published content, you should view it in the LMS, as a learner wi
 
 .. seealso::
  :class: dropdown
-
+ 
  :ref:`Getting Started with Course Content Development` (reference)
 
  :ref:`Course Outline` (concept)
@@ -46,4 +46,5 @@ After you have published content, you should view it in the LMS, as a learner wi
  :ref:`Resources for Open edX Course Teams` (reference)
 
  :ref:`Resources for Open edX` (reference)
+
 

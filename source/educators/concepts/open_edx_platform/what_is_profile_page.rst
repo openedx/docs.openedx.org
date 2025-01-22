@@ -44,10 +44,10 @@ You can share either a limited profile or a full profile.
 .. seealso::
  :class: dropdown
 
- :doc:`Add or Update a Limited Profile <../../how-tos/add_update_limited_profile>` (how-to)
+ :ref:`Add or Update a Limited Profile` (how-to)
 
- :doc:`Add or Update a Full Profile <../../how-tos/add_update_full_profile>` (how-to)
+ :ref:`Add or Update a Full Profile` (how-to)
  
- :doc:`Add Links to Your Personal Social Media Accounts <../../how-tos/add_links_to_social_media_accounts>` (how-to)
+ :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
  
- :doc:`View Another Learner’s Profile <../../how-tos/view_another_learners_profile>` (how-to)
+ :ref:`View Another Learner's Profile` (how-to)

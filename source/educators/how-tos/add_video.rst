@@ -25,11 +25,13 @@ This name appears as a heading above the video in the LMS, and it identifies the
 .. seealso::
  :class: dropdown
 
+
  :ref:`Additional Transcript Options` (how-to)
 
  :ref:`Add Transcript in Another Language` (how-to)
-
+ 
  :ref:`Course About Video Guidelines` (reference)
+
 
 
 

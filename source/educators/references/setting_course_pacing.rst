@@ -118,6 +118,6 @@ The relative due date you saved will now be published for all enrolled learners.
 .. seealso::
  :class: dropdown
 
- :ref: `Course Pacing` (how-to)
+ :ref:`Course Pacing` (how-to)
 
- :ref: `Beta Testing a Course` (concept)
+ :ref:`Beta_Testing` (concept)

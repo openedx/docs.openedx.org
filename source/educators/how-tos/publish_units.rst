@@ -16,5 +16,5 @@ After you have added content, you must publish it to make it available to learne
 .. seealso::
  :class: dropdown
 
- :ref: `Controlling Content Visibility and Access` (reference)
+ :ref:`Controlling Content Visibility` (reference)
 

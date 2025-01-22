@@ -1,7 +1,7 @@
-.. _Automatic Email:
+.. _Automatic Email Messages:
 
-Automatic Email Messages from Open edX Instance
-###############################################
+Automatic Email Messages
+########################
 
 .. tags:: educator, reference
 

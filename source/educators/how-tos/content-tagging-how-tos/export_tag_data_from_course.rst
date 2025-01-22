@@ -17,18 +17,18 @@ Export a CSV file that reports on which tags have been added to which parts of t
 .. seealso::
  :class: dropdown
 
- :ref: `Build a taxonomy using a template` (how-to)
+ :ref:`build-taxonomy-using-template` (how-to)
 
- :ref: `Import and export a taxonomy` (how-to)
+ :ref:`import-export-taxonomy` (how-to)
 
- :ref: `Update/Re-import a taxonomy` (how-to)
+ :ref:`Update/Re-import a taxonomy` (how-to)
 
- :ref: `Why does each tag need an ID when importing a taxonomy?` (concept)
+ :ref:`tag-ids-for-taxonomy-import` (concept)
  
- :ref: `Manage Permissions on a Taxonomy` (how-to)
+ :ref:`Manage Permissions on a Taxonomy` (how-to)
 
- :ref: `Add and delete tags on courses` (how-to)
+ :ref:`add-tags-to-a-course` (how-to)
 
- :ref: `Create a flat taxonomy by uploading a CSV` (how-to) 
+ :ref:`Add and delete tags on course content` (how-to)
 
- :ref: `Add and delete tags on course content` (how-to)
+ :ref:`create-flat-taxonomy` (how-to)

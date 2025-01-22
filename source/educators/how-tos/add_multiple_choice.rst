@@ -39,17 +39,19 @@ This video explains how to add a multiple choice (also known as "single-select")
 .. seealso::
  :class: dropdown
  
- :ref: `Overview` (concept)
+ :ref:`Overview` (concept)
 
- :ref: `Multiple-Choice Problem Type` (how-to)
+ :ref:`Multiple Choice` (how-to)
 
- :ref: `Add a Single Select Problem` (how-to)
+ :ref:`Single Select` (how-to)
 
- :ref: `Award Partial Credit in a Multiple Choice Problem` (how-to)
+ :ref:`Single Select and Numerical Input` (how-to)
 
- :ref: `Edit Single Select Problems using the Advanced Editor` (how-to)
+ :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
 
- :ref: `Add a Dropdown Problem` (how-to)
+ :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
+
+ :ref:`Add a Dropdown Problem` (how-to)
 
 
 

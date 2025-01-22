@@ -38,3 +38,6 @@ Add Text
  :ref:`Full Screen Image` (reference)
 
  :ref:`Paste without Formatting in a Text Component` (how-to)
+ 
+
+
