@@ -198,8 +198,6 @@ appear for units in self-paced courses.
 
 .. seealso::
  :class: dropdown
- 
- :ref:`Add Units to the Outline` (how-to)
 
  :ref:`Create a Unit` (how-to)
 

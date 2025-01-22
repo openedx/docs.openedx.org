@@ -44,4 +44,4 @@ Copy and Paste Course Content
    :class: dropdown
 
    :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
-   :ref:`Add Units to the Outline` (how-to)
+   :ref:`Create a Unit` (how-to)
