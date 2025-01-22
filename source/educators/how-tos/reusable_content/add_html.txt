@@ -27,19 +27,19 @@
 .. seealso::
  :class: dropdown
 
- :ref: `Work with HTML Code in the Text Component` (how-to)
+ :ref:`Work with HTML code` (how-to)
 
- :ref: `About Text Components` (reference)
+ :ref:`Working with Text Components` (reference)
 
- :ref: `Create a Text Component` (how-to)
+ :ref:`Create a Text Component` (how-to)
 
- :ref: `Add Link to Website, Course Unit, or a File` (how-to)
+ :ref:`Add Link to Website Course Unit or File` (how-to)
 
- :ref: `Add an Image to a Text Component` (how-to)
+ :ref:`Add an Image to a Text Component` (how-to)
 
- :ref: `Full Screen Image Tool` (reference)
+ :ref:`Full Screen Image` (reference)
 
- :ref: `Paste without Formatting in a Text Component` (how-to)
+ :ref:`Paste without Formatting in a Text Component` (how-to)
 
 
 
