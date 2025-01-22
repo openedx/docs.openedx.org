@@ -23,7 +23,7 @@ You can then create units within the subsection.
 
  :ref:`Copy and Paste Course Units` (how-to) 
 
- :ref:`Hide a Unit from Learners` (how-to) 
+ :ref:`Hide a Unit from Students` (how-to) 
 
  :ref:`Copy and Paste Course Content` (how-to) 
  
