@@ -34,6 +34,9 @@ Create and Manage Components
    ../how-tos/course_development/set_component_restrictions.rst
    ../how-tos/course_development/reorganize_components.rst
    ../references/course_development/parent_child_components.rst
+   ../how-tos/course_development/edit_component.rst
+   ../how-tos/course_development/duplicate_component.rst
+   ../how-tos/course_development/delete_component.rst
 
 .. _Add Text Components:
 

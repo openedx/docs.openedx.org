@@ -1,3 +1,5 @@
+.. _Manage Permissions on a Taxonomy:
+
 Manage Permissions on a Taxonomy
 ################################
 

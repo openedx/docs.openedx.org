@@ -1,6 +1,5 @@
 .. _SCORM XBlock:
 
-######
 SCORM
 ######
 
@@ -8,8 +7,6 @@ SCORM
 
 This section describes how to include `SCORM <https://en.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model>`_ content in your course.
 
-
-***********************
 Enable the SCORM XBlock
 ***********************
 
@@ -23,39 +20,38 @@ include the quotation marks around the key value.) For more information, see
 .. image:: /_images/educator_how_tos/AdvancedModuleListScorm.png
   :alt: Advanced Module List with "scorm" added.
 
-**********************************
 Adding a SCORM component to a Unit
 **********************************
 
-* In a unit where you want the SCORM content to display, click on the ``Advanced`` Icon.
+#. In a unit where you want the SCORM content to display, click on the ``Advanced`` Icon.
 
 
-.. image:: /_images/educator_how_tos/AddNewAdvancedComponent.png
-  :alt: Add New Advanced Component
+  .. image:: /_images/educator_how_tos/AddNewAdvancedComponent.png
+    :alt: Add New Advanced Component
 
 
 
-* Select ``Scorm module``
+#. Select ``Scorm module``
 
 
-.. image:: /_images/educator_how_tos/AddScormModule.png
-  :alt: Select Scorm module
+  .. image:: /_images/educator_how_tos/AddScormModule.png
+    :alt: Select Scorm module
 
 
-* ``Scorm module`` selected
+#. ``Scorm module`` selected
 
-.. image:: /_images/educator_how_tos/AddScormModuleSelected.png
-  :alt: Selected Scorm module
-
-
-* The SCORM module component will be added. Click on the **EDIT** button.
+  .. image:: /_images/educator_how_tos/AddScormModuleSelected.png
+    :alt: Selected Scorm module
 
 
-.. image:: /_images/educator_how_tos/ScormBlockStudio.png
-  :alt: New SCORM Component in Studio
+#. The SCORM module component will be added. Click on the **EDIT** button.
 
 
-***************************
+  .. image:: /_images/educator_how_tos/ScormBlockStudio.png
+    :alt: New SCORM Component in Studio
+
+
+
 Uploading the SCORM content
 ***************************
 
@@ -64,9 +60,9 @@ Uploading the SCORM content
 
 
 
-* Choose the SCORM .zip package you want to upload.
-* If the SCORM content does not have any quizzes, set “Scored” to False.
-* If the "Scored" parameter is True, you must specify the weight of the quizzes' points.
+#. Choose the SCORM .zip package you want to upload.
+#. If the SCORM content does not have any quizzes, set “Scored” to False.
+#. If the "Scored" parameter is True, you must specify the weight of the quizzes' points.
 
 
 .. note:: * Only 1 SCORM component per Unit may be used.

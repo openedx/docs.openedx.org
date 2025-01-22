@@ -1,9 +1,7 @@
-
 .. _Reorganizing Components:
 
-******************************************
 Reorganizing Components
-******************************************
+###########################
 
 .. tags:: educator, how-to
 
@@ -14,12 +12,11 @@ or you can move components from one unit to another unit.
   :local:
   :depth: 1
 
-======================================
 Reorganize Components Within a Unit
-======================================
+*****************************************
 
 To reorganize components within their current unit, you drag and drop
-components in the same way that you can drag and drop units, subsections, and
+components like you can drag and drop units, subsections, and
 sections on the **Course Outline** page. For more information, see
 :ref:`Reorganize the Course Outline`.
 
@@ -39,11 +36,11 @@ you are moving appears in the new location.
 You can also drag a child component outside of a parent, so that the child
 moves to the same level as the parent.
 
-================================
-Move Components to Other Units
-================================
 
-To move components to another unit in the course outline, follow these steps.
+Move Components to Other Units
+********************************
+
+Follow these steps to move components to another unit in the course outline.
 
 #. Select the **Move** icon for the component that you want to move.
 
@@ -58,7 +55,7 @@ To move components to another unit in the course outline, follow these steps.
 
    .. image:: /_images/educator_how_tos/component_move_navigation.png
       :alt: The Move dialog box displays your course outline tree for
-        navigating to the unit that you want to move your component to.
+        navigating to the unit you want to move your component to.
       :width: 380
 
    The **Move** button is enabled only when your selected location is a valid
@@ -73,6 +70,21 @@ To move components to another unit in the course outline, follow these steps.
 
    .. note::
 
-       If the old and new locations of the component that you moved were
+       If the old and new locations of the component you moved were
        previously published, your changes are not reflected in the learner's
        view of the course until you republish the affected units.
+
+.. seealso::
+ :class: dropdown
+
+ :ref:`Add a Component` (how-to)
+
+ :ref:`Edit a Component` (how-to)
+
+ :ref:`Duplicate a Component` (how-to)
+
+ :ref:`What is a Component` (reference)
+
+ :ref:`Delete a Component` (how-to)
+
+ :ref:`Set Access Restrictions For a Component` (how-to)

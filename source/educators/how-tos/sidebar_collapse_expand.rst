@@ -1,3 +1,5 @@
+.. _Collapse and expand the navigation sidebar:
+
 Collapse and expand the navigation sidebar
 ##########################################
 
@@ -16,3 +18,12 @@ of the page:
     
     As the learner advances through the course content, the expanded or collapsed
     state of the sidebar remains consistent.
+
+.. seealso::
+ :class:dropdown
+
+ :ref:`What is LMS` (concept)
+
+ :ref:`What is Studio` (concept)
+
+ :ref:`Course Outline` (concept)
