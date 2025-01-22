@@ -13,10 +13,10 @@ After you have added content, you must publish it to make it available to learne
 #. For the section, click the Publish icon (|Publish Icon|).
 
 
+
 .. seealso::
  :class: dropdown
 
-<<<<<<< HEAD
  :ref:`Getting Started with Course Content Development` (reference)
 
  :ref:`Course Outline` (concept)
@@ -48,7 +48,5 @@ After you have added content, you must publish it to make it available to learne
  :ref:`Resources for Open edX Course Teams` (reference)
 
  :ref:`Resources for Open edX` (reference)
-=======
- :ref:`Controlling Content Visibility` (reference)
->>>>>>> 08d0128132b53943259a9554ae6ecd6856d85579
+
 
