@@ -13,20 +13,29 @@ This document aims to establish a maintenance process for the community to keep 
 Purpose
 ********
 
-The purpose of this document is to provide a standardized process for contributors who maintain existing documentation. Maintenance involves reviewing and testing existing documents, fixing docs, or submitting issues when they are outdated or inaccurate.
+The purpose of this document is to provide a standardized process for contributors who maintain existing documentation. Maintenance involves reviewing and testing existing documents, fixing issues, or submitting reports when they are outdated or inaccurate.
 
-This process will actively collaborate to have the same standards among users and improve documentation QA.
+This process ensures consistent standards among contributors and improves documentation quality assurance (QA).
+
+Roles and Responsibilities
+****************************
+
+User: Even without the official role of contributor, any user of the Open edX documentation may text and report errors in the documentation.
+
+Contributors: Review and test documents, update the Maintenance Chart and submit pull requests or issues for fixes. 
+
+Working Groups: Collaborate on unresolved issues, oversee compliance with standards, and ensure documentation QA.
 
 Maintenance Procedure
 ***********************
 
 The maintenance process involves reviewing and, if applicable, following the steps in the document on a stable and current Open edX release and either:
 
-A. Marking the document as "passing" - that is, everything is accurate  
-B. Fixing an error  
-C. Submitting an issue for an error to be fixed  
+A. Mark the document as "passing" - that is, everything is accurate.  
+B. Mark the document as "failing" and submit an issue to fix an error.  
+C. Fixing an error and changing the document's status from "fail" to "pass". 
 
-During this process, the user should read the document carefully and pay attention to the following details:
+During this process, the user or contributor should read the document carefully and pay attention to the following details:
 
 - Images  
 - Links  
@@ -35,22 +44,22 @@ During this process, the user should read the document carefully and pay attenti
 - Correctness of information  
 - Open edX version  
 
-The user must also consider the standards previously defined in the `Diataxis Guide <https://docs.openedx.org/en/latest/documentors/concepts/content_types.html>`_ and `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_.
+The user must also consider the standards previously defined in the :doc:`../content_types` and :doc:`doc_style_guide`.
 
 Steps to follow to comply with the maintenance procedure
 *********************************************************
 
 1. Pick one document to be reviewed.  
-2. Confirm that the document meets the standards in the `Documentation Checklist <https://docs.openedx.org/en/latest/documentors/references/doc_checklist.html>`_:  
+2. Confirm that the document meets the standards in the :doc:`doc_checklist.html_:  
    a. Audience is defined  
    b. The Diataxis type is defined  
    c. RST standards are followed  
    d. Images are working and current  
    e. External links are working and accurate  
-   f. See Also table is included  
-3. While reading the document take into account standards defined in the Style Guide (be focused on Grammar, details, etc).  
+   f. ``See Also table`` is included  
+3. While reading the document, consider the standards defined in the :doc:`doc_style_guide` (be focused on Grammar, details, etc).  
 4. Based on the diataxis type, test or validate the document:  
-   a. If the document is a **how-to** or **quickstart**, complete the steps as instructed and confirm that the outcome you get in your Open edX instance is the same as what is expected by the doc.  
+   a. If the document is a **how-to** or **quickstart**, complete the steps as instructed and confirm that the outcome you get in your Open edX instance is the same as what the doc expects.  
    b. If the document is a **reference**, confirm that the reference is complete and matches what you observe in your current version of Open edX.  
    c. If the document is a **concept**, confirm that the information is accurate and up-to-date.  
 5. Complete the maintenance chart (following the instructions below).
@@ -68,15 +77,15 @@ It should be completed once the user completes the review process. All fields ar
      - Working Group Reviewer
      - Release
      - Test Situation
-   * - 01/2024
+   * - 2025-06-01
      - Documentation WG - Ana Gomez
      - Sumac
      - Pass
-   * - 06/2024
+   * - 2025-12-01
      - Documentation WG
      - Verawood
-     - `Fail <https://github.com/openedx/docs.openedx.org/issues>`_
-   * - 12/2024
+     - `Fail <https://github.com/openedx/docs.openedx.org/issues/776>`_
+   * - 2025-12-15
      - BTR WG
      - Verawood
      - Pass
@@ -91,15 +100,15 @@ To apply the maintenance chart on a new document, you can use the following code
      - Working Group Reviewer
      - Release
      - Test Situation
-   * - 01/2024
+   * - 2025-06-01
      - Documentation WG - Collaborator's name
      - Sumac
      - Pass
-   * - 06/2024
+   * - 2025-12-01
      - Documentation WG
      - Verawood
-     - `Fail <https://github.com/openedx/docs.openedx.org/issues>`_
-   * - 12/2024
+     - `Fail <<https://github.com/openedx/docs.openedx.org/issues/XXXX>`_ (replace XXXX with the issue number)
+   * - 2025-12-15
      - BTR WG
      - Verawood
      - Pass
@@ -107,17 +116,17 @@ To apply the maintenance chart on a new document, you can use the following code
 Review Date
 ===========
 
-The user should add the month and year of the review using the following format: mm/yyyy.
+The user should add the month and year of the review using the following format: YYYY-MM-DD.
 
 Working Group Reviewer
 ======================
 
-This field should contain the name of the Working Group to which the user belongs. It is not mandatory to include the name and surname of the user.
+This field should contain the name of the Working Group to which the user belongs. Including individual names is optional.
 
 Release
 ========
 
-This field indicates the version of Open edX on which the test was performed.
+This field indicates the Open edX version on which the test was performed.
 
 Test Situation
 ===============
@@ -126,9 +135,9 @@ In this column, the user should state if the review process (test) is passed or 
 
 If the test passes, the document does not need any change, which means that every link works, there is no need to add any new information, the diataxis criteria are good, etc. However, if the test fails, the contributor can take either of two actions:
 
-1. Submit a PR with a fix and link to the PR in the Failure flag.  
-   `https://docs.openedx.org/en/latest/documentors/how-tos/update_a_doc_via_github.html <https://docs.openedx.org/en/latest/documentors/how-tos/update_a_doc_via_github.html>`_  
-2. Create a GitHub issue so someone else is aware of the error and can fix it. Link to the issue in the Failure flag.  
-   `Check this how-to doc for creating GitHub issues <https://docs.openedx.org/en/latest/documentors/how-tos/update_a_doc_via_github.html>`_
+1. :doc:`Submit a PR with a fix<../update_a_doc_via_github>` and link to the PR in the Failure flag.  
+   
+2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
+   :doc:`Check this how-to doc for creating GitHub issues <../create_github_issue>`.
 
     
