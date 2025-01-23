@@ -1,4 +1,4 @@
-Open edX Documentation Maintenance Process
+Documentation Maintenance Process
 ############################################
 
 Introduction
@@ -76,6 +76,8 @@ It should be completed once the user completes the review process. All fields ar
      - BTR WG
      - Verawood
      - Pass
+
+To apply the maintenance chart on a new document, you can use the following code:
 .. code-block:: RST
 
    .. list-table::
