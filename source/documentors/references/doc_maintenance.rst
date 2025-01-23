@@ -50,7 +50,7 @@ Steps to follow to comply with the maintenance procedure
 *********************************************************
 
 1. Pick one document to be reviewed.  
-2. Confirm that the document meets the standards in the :doc:`doc_checklist.html_:  
+2. Confirm that the document meets the standards in the :doc:`doc_checklist`:  
    a. Audience is defined  
    b. The Diataxis type is defined  
    c. RST standards are followed  
@@ -59,7 +59,7 @@ Steps to follow to comply with the maintenance procedure
    f. ``See Also table`` is included  
 3. While reading the document, consider the standards defined in the :doc:`doc_style_guide` (be focused on Grammar, details, etc).  
 4. Based on the diataxis type, test or validate the document:  
-   a. If the document is a **how-to** or **quickstart**, complete the steps as instructed and confirm that the outcome you get in your Open edX instance is the same as what the doc expects.  
+   a. If the document is a **how-to** or **quickstart**, complete the steps as instructed and confirm that the outcome in your Open edX instance is the same as what the doc expects.  
    b. If the document is a **reference**, confirm that the reference is complete and matches what you observe in your current version of Open edX.  
    c. If the document is a **concept**, confirm that the information is accurate and up-to-date.  
 5. Complete the maintenance chart (following the instructions below).
@@ -135,9 +135,9 @@ In this column, the user should state if the review process (test) is passed or 
 
 If the test passes, the document does not need any change, which means that every link works, there is no need to add any new information, the diataxis criteria are good, etc. However, if the test fails, the contributor can take either of two actions:
 
-1. :doc:`Submit a PR with a fix<../update_a_doc_via_github>` and link to the PR in the Failure flag.  
+1. :doc:`Submit a PR with a fix <../update_a_doc_via_github>` and link to the PR in the Failure flag.  
    
 2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
-   :doc:`Check this how-to doc for creating GitHub issues <../create_github_issue>`.
+   :doc:`Check this how-to doc for creating GitHub issues <../update_a_doc_via_github>`.
 
     
