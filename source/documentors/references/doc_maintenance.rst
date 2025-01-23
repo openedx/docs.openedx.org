@@ -44,7 +44,7 @@ During this process, the user or contributor should read the document carefully 
 - Correctness of information  
 - Open edX version  
 
-The user must also consider the standards previously defined in the :doc:`../content_types` and :doc:`doc_style_guide`.
+The user must also consider the standards previously defined in the :doc:`/concepts/content_types` and :doc:`doc_style_guide`.
 
 Steps to follow to comply with the maintenance procedure
 *********************************************************
@@ -135,9 +135,9 @@ In this column, the user should state if the review process (test) is passed or 
 
 If the test passes, the document does not need any change, which means that every link works, there is no need to add any new information, the diataxis criteria are good, etc. However, if the test fails, the contributor can take either of two actions:
 
-1. :doc:`Submit a PR with a fix <../update_a_doc_via_github>` and link to the PR in the Failure flag.  
+1. :doc:`Submit a PR with a fix <../how-tos/update_a_doc_via_github>` and link to the PR in the Failure flag.  
    
 2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
-   :doc:`Check this how-to doc for creating GitHub issues <../update_a_doc_via_github>`.
+   :doc:`Check this how-to doc for creating GitHub issues <../how-tos/update_a_doc_via_github>`.
 
     
