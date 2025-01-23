@@ -41,6 +41,7 @@ Open edX Documentors
       * :doc:`how-tos/update_a_doc_via_github`
       * :doc:`how-tos/add_a_doc_via_github`
       * :doc:`how-tos/make_changes_to_your_pull_request`
+      * :doc:`how-tos/create_github_issue`
       +++
       .. button-ref:: how-tos/index
          :color: primary
