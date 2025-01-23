@@ -22,7 +22,7 @@ Maintenance Procedure
 
 The maintenance process involves reviewing and, if applicable, following the steps in the document on a stable and current Open edX release and either:
 
-A. Passing the document  
+A. Marking the document as "passing" - that is, everything is accurate  
 B. Fixing an error  
 C. Submitting an issue for an error to be fixed  
 
