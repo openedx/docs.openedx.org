@@ -10,20 +10,16 @@ This how-to will help you create a GitHub issue related to the Open edX document
 Prerequisites
 *************
 
-* You have access to the Open edX documentation repository: `docs.openedx.org <https://github.com/openedx/docs.openedx.org>`_.
-
 * You have a GitHub Account
 
   * If not `sign up here`_.
-
-* In the GitHub UI, make any edits you need to make.
 
 .. _sign up here: https://github.com/signup
 
 Creating an Issue from GitHub 
 *****************************
 
-#. Log in to your GitHub account and go under the repository docs.openedx.org.
+#. Log in to your GitHub account and go under the repository `docs.openedx.org <https://docs.openedx.org/>`_.
 
 #. On the Navigation Bar, click on **Issues**.
 
