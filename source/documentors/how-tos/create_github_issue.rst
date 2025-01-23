@@ -60,7 +60,7 @@ Creating an Issue from a Document
 
 This guide outlines the process for creating an issue to report a problem, suggest an improvement, or request updates in the Open edX documentation repository while you are consulting a particular document.
 
-#. In the file, scroll to the top of the page.
+#. When viewing a document on `docs.openedx.org`_, scroll to the top of the page.
 
 #. Click the GitHub icon at the right corner of the page.
 
