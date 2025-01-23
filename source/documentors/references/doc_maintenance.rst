@@ -32,7 +32,7 @@ During this process, the user should read the document carefully and pay attenti
 - Links  
 - Diataxis type (how-to, quickstart, concept, reference)  
 - Process  
-- Information veracity  
+- Correctness of information  
 - Open edX version  
 
 The user must also consider the standards previously defined in the `Diataxis Guide <https://docs.openedx.org/en/latest/documentors/concepts/content_types.html>`_ and `Style Guide <https://docs.openedx.org/en/latest/documentors/references/doc_style_guide.html>`_.
