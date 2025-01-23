@@ -12,7 +12,6 @@ Create and Manage Course Units
    :maxdepth: 2
    :glob:
 
-   ../how-tos/add_units.rst
    ../how-tos/course_development/create_edit_publish_unit.rst
    ../how-tos/course_development/set_restrictions_unit.rst
    ../how-tos/copy_paste_units.rst

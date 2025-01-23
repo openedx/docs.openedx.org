@@ -85,8 +85,6 @@ following actions.
 .. seealso::
  :class: dropdown
  
- :ref:`Add Units to the Outline` (how-to)
-
  :ref:`Create a Unit` (how-to)
 
  :ref:`Set Access Restrictions For a Unit` (how-to)

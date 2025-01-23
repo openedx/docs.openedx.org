@@ -29,6 +29,3 @@
 #. Click :guilabel:`Create`.
 
 You are then taken to the empty Outline page in Studio.
-
-
-
