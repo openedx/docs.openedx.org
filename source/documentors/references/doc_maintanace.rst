@@ -62,7 +62,7 @@ It should be completed once the user completes the review process. All fields ar
 +------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+ 
 | 01/2024          | Documentation WG - Ana Gómez        | Sumac                                  | Pass                                                          |
 +------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
-| 06/2024          | Educators WG                        | Verawood                               |`Fail<https://github.com/openedx/docs.openedx.org/issues>`_    |       
+| 06/2024          | Educators WG                        | Verawood                               |`Fail <https://github.com/openedx/docs.openedx.org/issues>`_   |       
 +------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+        
 | 12/2024          | BTR WG                              | Verawood                               | Pass                                                          |
 +------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
@@ -81,7 +81,7 @@ It should be completed once the user completes the review process. All fields ar
    * - 06/2024
      - Documentation WG
      - Verawood
-     - `Fail <https://github.com/openedx/docs.openedx.org/issues/688>`_
+     - `Fail <https://github.com/openedx/docs.openedx.org/issues>`_
    * - 12/2024
      - BTR WG
      - Verawood
