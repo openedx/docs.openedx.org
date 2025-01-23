@@ -20,7 +20,7 @@ This process will actively collaborate to have the same standards among users an
 Maintenance Procedure
 ***********************
 
-The maintenance process involves reviewing and, if applicable, completing the steps in the document on a stable and current version of Open edX and either:
+The maintenance process involves reviewing and, if applicable, following the steps in the document on a stable and current Open edX release and either:
 
 A. Passing the document  
 B. Fixing an error  
