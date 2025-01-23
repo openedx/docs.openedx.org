@@ -57,16 +57,6 @@ Maintenance Chart
 This chart will be included in every Open edX document so that each user can perform their test.  
 It should be completed once the user completes the review process. All fields are required except for the name of the user.
 
-+------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
-| Review Date      | Working Group reviewer              | Release                                | Test situation                                                |
-+------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+ 
-| 01/2024          | Documentation WG - Ana Gómez        | Sumac                                  | Pass                                                          |
-+------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
-| 06/2024          | Educators WG                        | Verawood                               |`Fail <https://github.com/openedx/docs.openedx.org/issues>`_   |       
-+------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+        
-| 12/2024          | BTR WG                              | Verawood                               | Pass                                                          |
-+------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
-
 .. list-table::
    :header-rows: 1
 
@@ -86,11 +76,27 @@ It should be completed once the user completes the review process. All fields ar
      - BTR WG
      - Verawood
      - Pass
+.. code-block:: RST
 
-Maintenance chart example within a document:  
-`https://docs.openedx.org/en/latest/educators/how-tos/advanced_features/configure_content_experiments.html#configure-your-course-for-content-experiments <https://docs.openedx.org/en/latest/educators/how-tos/advanced_features/configure_content_experiments.html#configure-your-course-for-content-experiments>`_
+   .. list-table::
+   :header-rows: 1
 
-`https://github.com/openedx/docs.openedx.org/edit/main/source/educators/how-tos/advanced_features/configure_content_experiments.rst <https://github.com/openedx/docs.openedx.org/edit/main/source/educators/how-tos/advanced_features/configure_content_experiments.rst>`_
+   * - Review Date
+     - Working Group Reviewer
+     - Release
+     - Test Situation
+   * - 01/2024
+     - Documentation WG - Sarina Canalake
+     - Sumac
+     - Pass
+   * - 06/2024
+     - Documentation WG
+     - Verawood
+     - `Fail <https://github.com/openedx/docs.openedx.org/issues>`_
+   * - 12/2024
+     - BTR WG
+     - Verawood
+     - Pass
 
 Review Date
 ===========
