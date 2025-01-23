@@ -44,7 +44,7 @@ During this process, the user or contributor should read the document carefully 
 - Correctness of information  
 - Open edX version  
 
-The user must also consider the standards previously defined in the :doc:`/concepts/content_types` and :doc:`doc_style_guide`.
+The user must also consider the standards previously defined in the :doc:`../concepts/content_types` and :doc:`doc_style_guide`.
 
 Steps to follow to comply with the maintenance procedure
 *********************************************************
