@@ -64,14 +64,14 @@ This guide outlines the process for creating an issue to report a problem, sugge
 
 #. Click the GitHub icon at the right corner of the page.
 
-#. A menu will scroll down where you will see three options. Click on **Open an Issue**.
+#. A menu will scroll down, and you will see three options. Click on **Open an Issue**.
 
    .. image:: /_images/documentors_howto/open_issue_repository.png
       :width: 500px
       :align: center
-      :alt: This image shows the Open an Issue Option in the Option menu of the Open edX documentation.
+      :alt: This image shows the Open an Issue Option in the Options menu of the Open edX documentation.
 
-#. #. Fill in all mandatory fields: "Issue Title", “Filename” and “What is broken about this file?”. A detailed description of the issue is highly recommended to enhance understanding of the requirements. Here, you can also assign the issue to a particular user, but it is preferable to wait for a volunteer.
+#. Fill in all mandatory fields: "Issue Title", “Filename” and “What is broken about this file?”. A detailed description of the issue is highly recommended to enhance understanding of the requirements. Here, you can also assign the issue to a particular user, but it is preferable to wait for a volunteer.
 
 #. Click the button **Create** to upload the issue.
 
