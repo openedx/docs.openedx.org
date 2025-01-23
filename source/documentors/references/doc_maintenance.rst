@@ -138,6 +138,6 @@ If the test passes, the document does not need any change, which means that ever
 1. :doc:`Submit a PR with a fix <../how-tos/update_a_doc_via_github>` and link to the PR in the Failure flag.  
    
 2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
-   :doc:`Check this how-to doc for creating GitHub issues <../how-tos/update_a_doc_via_github>`.
+   :doc:`Check this how-to doc for creating GitHub issues <../how-tos/create_github_issue>`.
 
     
