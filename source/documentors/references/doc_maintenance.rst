@@ -83,7 +83,8 @@ It should be completed once the user completes the review process. All fields ar
 
 To apply the maintenance chart on a new document, you can use the following code:
 
-.. code:: RST
+.. code-block:: RST
+
    .. list-table::
    :header-rows: 1
    * - Review Date
