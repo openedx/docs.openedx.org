@@ -54,18 +54,18 @@ Steps to follow to comply with the maintenance procedure
 Maintenance Chart
 *******************
 
-This chart will be included in every Open edX document so that each user can perform their own test.  
-It should be completed once the review process is done by the user. All fields are required, except for the name of the user.
+This chart will be included in every Open edX document so that each user can perform their test.  
+It should be completed once the user completes the review process. All fields are required except for the name of the user.
 
-+------------------+-------------------------------------+----------------------------------------+--------------+
-| Review Date      | Working Group reviewer              | Release                                |Test situation|
-+------------------+-------------------------------------+----------------------------------------+--------------+ 
-| 01/2024          | Documentation WG                    | Sumac                                  | Pass         |
-+------------------+-------------------------------------+----------------------------------------+--------------+
-| 06/2024          | Educators WG                        | Verawood                               |`Fail<https://github.com/openedx/docs.openedx.org/issues/688>`_|       
-+------------------+-------------------------------------+----------------------------------------+--------------+        
-| 12/2024          | BTR WG                              | Verawood                               | Pass         |
-+------------------+-------------------------------------+----------------------------------------+--------------+
++------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
+| Review Date      | Working Group reviewer              | Release                                | Test situation                                                |
++------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+ 
+| 01/2024          | Documentation WG - Ana Gómez        | Sumac                                  | Pass                                                          |
++------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
+| 06/2024          | Educators WG                        | Verawood                               |`Fail<https://github.com/openedx/docs.openedx.org/issues>`_    |       
++------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+        
+| 12/2024          | BTR WG                              | Verawood                               | Pass                                                          |
++------------------+-------------------------------------+----------------------------------------+---------------------------------------------------------------+
 
 .. list-table::
    :header-rows: 1
@@ -105,7 +105,7 @@ This field should contain the name of the Working Group to which the user belong
 Release
 ========
 
-This field indicates the version of Open edX that the test was performed on.
+This field indicates the version of Open edX on which the test was performed.
 
 Test Situation
 ===============
