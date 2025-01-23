@@ -65,7 +65,7 @@ It should be completed once the user completes the review process. All fields ar
      - Release
      - Test Situation
    * - 01/2024
-     - Documentation WG - Sarina Canalake
+     - Documentation WG - Ana Gomez
      - Sumac
      - Pass
    * - 06/2024
@@ -78,17 +78,16 @@ It should be completed once the user completes the review process. All fields ar
      - Pass
 
 To apply the maintenance chart on a new document, you can use the following code:
-.. code-block:: RST
 
+.. code-block:: RST
    .. list-table::
    :header-rows: 1
-
    * - Review Date
      - Working Group Reviewer
      - Release
      - Test Situation
    * - 01/2024
-     - Documentation WG - Sarina Canalake
+     - Documentation WG - Collaborator's name
      - Sumac
      - Pass
    * - 06/2024
