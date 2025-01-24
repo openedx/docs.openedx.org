@@ -50,18 +50,22 @@ Steps to follow to comply with the maintenance procedure
 *********************************************************
 
 1. Pick one document to be reviewed.  
-2. Confirm that the document meets the standards in the :doc:`doc_checklist`:  
+2. Confirm that the document meets the standards in the :doc:`doc_checklist`: 
+
    a. Audience is defined  
    b. The Diataxis type is defined  
    c. RST standards are followed  
    d. Images are working and current  
    e. External links are working and accurate  
    f. ``See Also table`` is included  
+
 3. While reading the document, consider the standards defined in the :doc:`doc_style_guide` (be focused on Grammar, details, etc).  
 4. Based on the diataxis type, test or validate the document:  
+
    a. If the document is a **how-to** or **quickstart**, complete the steps as instructed and confirm that the outcome in your Open edX instance is the same as what the doc expects.  
-   b. If the document is a **reference**, confirm that the reference is complete and matches what you observe in your current version of Open edX.  
+   b. If the document is a **reference**, confirm that the reference is complete and matches what you observe in your current Open edX version.  
    c. If the document is a **concept**, confirm that the information is accurate and up-to-date.  
+
 5. Complete the maintenance chart (following the instructions below).
 
 Maintenance Chart
