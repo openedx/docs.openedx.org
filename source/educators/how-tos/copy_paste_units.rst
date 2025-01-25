@@ -84,7 +84,7 @@ From the Unit Page
    Authors can also paste Units copied from the Unit Page into the Course Outline, and vice versa.
 
 .. seealso::
-   :class: dropdown
+   
 
    :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
    

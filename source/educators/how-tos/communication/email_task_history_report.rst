@@ -68,7 +68,7 @@ No **Task Progress** messages display for tasks that have a **State** of
 Failure.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Bulk Email` (reference)
 

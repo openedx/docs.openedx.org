@@ -52,7 +52,7 @@ learner, review the learner profile information for your course. See
    :ref:`Altering Cohort Configuration`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

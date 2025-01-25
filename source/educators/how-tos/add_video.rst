@@ -23,7 +23,7 @@ This name appears as a heading above the video in the LMS, and it identifies the
 #. Click :guilabel:`Save` to save the video in the unit.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course About Video Guidelines` (reference)
 

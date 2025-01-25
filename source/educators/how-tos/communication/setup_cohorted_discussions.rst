@@ -21,7 +21,7 @@ Divided Discussion Topics` and :ref:`Moderating_discussions`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Discussions` (concept)
 

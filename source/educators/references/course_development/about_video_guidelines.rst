@@ -39,7 +39,7 @@ For information about how to add an About video to your course About page, see
 :ref:`Add an About Video <Add an About Video>`.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Introduction to Video` (reference)
 

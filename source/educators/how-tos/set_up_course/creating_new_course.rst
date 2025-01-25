@@ -70,7 +70,7 @@ To create a course, follow these steps.
    :ref:`Getting Started with Course Content Development <Getting Started with Course Content Development>`.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
 

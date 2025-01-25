@@ -46,7 +46,7 @@ following message is visible.
 To add content, you :ref:`create a section<Create a Section>`.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

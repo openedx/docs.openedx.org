@@ -81,6 +81,6 @@ To create a word cloud, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Create Exercises` (concepts)

@@ -117,6 +117,6 @@ subsection, follow these steps.
      when you :ref:`re-run a course<Rerun a Course>`.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Controlling Content Visibility` (reference)     

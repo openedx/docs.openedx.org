@@ -91,7 +91,7 @@ To send a scheduled email message to course participants, follow these steps.
    processing.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Bulk Email` (reference)
 

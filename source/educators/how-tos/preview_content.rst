@@ -26,7 +26,7 @@ configured in Studio, and as a learner in the selected group would see it.
    live course, see :ref:`Specific Student View`.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Testing Your Course Content` (reference)
 

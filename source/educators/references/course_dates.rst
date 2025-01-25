@@ -47,7 +47,7 @@ Enrollment End Date and Time
 The enrollment end date and time specify when learners can no longer enroll in the course. Ensure that the enrollment end date is late enough to allow learners adequate time to enroll. The enrollment end date must be before the course end date.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Scheduling Your Course` (reference)
 

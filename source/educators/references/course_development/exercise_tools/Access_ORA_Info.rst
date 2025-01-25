@@ -22,7 +22,7 @@ learner's submission<Remove a learner response from peer grading>`, see
 :ref:`Managing ORA Assignments`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

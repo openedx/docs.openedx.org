@@ -119,7 +119,7 @@ If your team is involved in the delivery of a course, you may want to spend some
    :alt: Thumbnail of Downloadable Template for Support Calendar
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Instructional Design Overview` (concept)
 

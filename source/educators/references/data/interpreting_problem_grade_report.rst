@@ -45,7 +45,7 @@ provide the following information.
   this column is "Not Available".
 
 .. seealso::
- :class: dropdown
+ 
 
   :ref:`Learner Data` (concept)
 

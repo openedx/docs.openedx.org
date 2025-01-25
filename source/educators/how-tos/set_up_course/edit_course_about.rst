@@ -81,7 +81,7 @@ change.
 
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
 

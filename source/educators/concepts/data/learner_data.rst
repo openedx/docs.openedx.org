@@ -68,7 +68,7 @@ As a result, you might want to download learner data periodically to gain an
 understanding of how the learner population changes over time.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Columns in the Student Profile Report` (reference)
 

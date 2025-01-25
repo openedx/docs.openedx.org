@@ -47,7 +47,7 @@ proctoring provider, you can create a proctored exam or a practice
 proctored/onboarding exam.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

@@ -101,7 +101,7 @@ In this code:
        - V
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Chemical Equation` (how-to)
 

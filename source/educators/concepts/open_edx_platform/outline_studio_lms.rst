@@ -43,7 +43,7 @@ For information about more specific learner data, including the learner's
 grades or answers for individual problems, see :ref:`Nav Learner Data`.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 

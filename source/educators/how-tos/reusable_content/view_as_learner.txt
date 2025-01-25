@@ -16,7 +16,7 @@ After you have published content, you should view it in the LMS, as a learner wi
 #. Go through the content you created and check for accuracy.  You can edit the content in Studio, then publish your changes, to fix any issues.
 
 .. seealso::
- :class: dropdown
+ 
 
  Beta Test Your Course (task)
 

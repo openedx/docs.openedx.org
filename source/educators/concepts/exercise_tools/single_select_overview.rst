@@ -76,7 +76,7 @@ literature. A few guidelines for the creation of such questions follow.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Single Select` (how to)
 

@@ -20,7 +20,7 @@ To continue working on your course, return to the browser tab that shows
 Studio.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

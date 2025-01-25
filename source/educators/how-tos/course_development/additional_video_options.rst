@@ -222,7 +222,7 @@ License
           a Course`.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Video Process Overview` (how-to)
 

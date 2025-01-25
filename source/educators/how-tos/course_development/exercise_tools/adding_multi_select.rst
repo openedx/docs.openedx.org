@@ -120,7 +120,7 @@ You can add hints to a multi-select problem. For an overview of hints in problem
 :ref:`Adding Feedback and Hints to a Problem`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Multi select` (reference)
 

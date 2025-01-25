@@ -28,7 +28,7 @@ For more information, see the following topics.
 * :ref:`Publish a Unit`
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

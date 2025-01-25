@@ -108,7 +108,7 @@ On the page, the learner's status is visible as "Pending", "Satisfactory", or
 "Unsatisfactory".
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

@@ -34,7 +34,7 @@ For more information, see the following topics.
 * :ref:`Accessibility Best Practices for Course Content Development`
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
 

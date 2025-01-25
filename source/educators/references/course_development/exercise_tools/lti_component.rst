@@ -65,7 +65,7 @@ For more information about how to use Studio as an LTI tool provider, see
 .. note the slightly different destination links ^. Alison 23 Nov 2015
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable_LTI_Components` (how to)
 

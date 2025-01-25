@@ -253,7 +253,7 @@ can be most easily realized through Power Paste. To learn how to use Power
 Paste, see :ref:`Paste without Formatting in a Text Component`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Modifying a Released Problem` (reference)
 

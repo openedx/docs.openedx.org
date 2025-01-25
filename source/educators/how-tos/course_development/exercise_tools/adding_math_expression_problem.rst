@@ -29,7 +29,7 @@ To create a math expression input problem, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Math Expression Input` (reference)
 

@@ -93,7 +93,7 @@ message informs the learner that the problem is complete.
       and the final feedback message appears below the background image.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Creating a Drag and Drop Problem` (how-to)
 

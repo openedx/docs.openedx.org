@@ -33,7 +33,7 @@ When you use video, you might experience one of the following problems.
   settings.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Video Process Overview` (how-to)
 

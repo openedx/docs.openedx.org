@@ -79,7 +79,7 @@ Work with LaTeX Code
 ..    the tool, make sure you work with your partner manager.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Text Components` (reference)
 

@@ -9,7 +9,7 @@ Create a Course
 .. thumbnail:: /_images/Educators_create_course.png
 
 .. Note::
- :class: dropdown
+ 
 
   The Organization, Course Number, and Course run values you enter when creating a course are part of the learner-visible course URL and cannot be changed. The base URL for the new course is in the format:
 
@@ -37,7 +37,7 @@ You are then taken to the empty Outline page in Studio.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

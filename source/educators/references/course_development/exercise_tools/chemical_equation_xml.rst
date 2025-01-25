@@ -101,6 +101,6 @@ Contains the Python script that grades the problem.
   (none)
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Chemical Equation` (how to) 

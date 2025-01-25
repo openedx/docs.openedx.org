@@ -86,7 +86,7 @@ In this example:
 For information about the ``policy.json`` file, see :ref:`Set Up Group Configuration for OLX Courses`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

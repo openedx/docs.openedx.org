@@ -17,7 +17,7 @@ You use Studio directly through your browser. You do not need any additional
 software.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
 

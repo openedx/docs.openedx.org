@@ -23,7 +23,7 @@ information, see :ref:`Enable Additional Exercises and Tools`.
   ``lti`` module is no longer present in the **Advanced Module List**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`LTI Component` (reference)
 

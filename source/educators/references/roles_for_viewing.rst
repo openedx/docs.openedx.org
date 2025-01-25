@@ -177,7 +177,7 @@ previewing enrollment track based content, see :ref:`About Enrollment Track
 Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create Cohort Specific Course Content` (how-to)
 

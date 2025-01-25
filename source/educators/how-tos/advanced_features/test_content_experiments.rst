@@ -38,7 +38,7 @@ different experiment group of learners sees.
  make learners aware of the experiment.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

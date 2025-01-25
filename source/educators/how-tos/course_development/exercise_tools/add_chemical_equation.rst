@@ -79,6 +79,6 @@ Sample Chemical Equation Problem Code
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Chemical Equation Problem XML` (reference)

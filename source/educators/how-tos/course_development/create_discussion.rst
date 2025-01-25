@@ -70,7 +70,7 @@ Create a Discussion Component
    topics are visible, see :ref:`Visibility of Discussion Topics`.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Discussions` (concept)
  

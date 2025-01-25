@@ -129,7 +129,7 @@ To view learners' onboarding status for your course, follow these steps.
       and their attempt must be reset.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

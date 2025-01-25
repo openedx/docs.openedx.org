@@ -23,7 +23,7 @@ After you add a component, it is not visible to learners until you
 :ref:`publish the unit<Publish a Unit>`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add a Component` (how-to)
 

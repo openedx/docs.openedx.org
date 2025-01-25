@@ -113,7 +113,7 @@ To set the pacing for your course, follow these steps.
 
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Dates` (reference)
 

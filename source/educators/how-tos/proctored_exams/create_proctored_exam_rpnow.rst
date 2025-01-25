@@ -98,7 +98,7 @@ To specify custom proctored exam rules, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

@@ -43,6 +43,6 @@ Create a Custom JavaScript Display and Grading Problem
    or on `Wikipedia <https://en.wikipedia.org/wiki/Same_origin_policy>`_.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Custom JavaScript` (reference)

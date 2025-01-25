@@ -130,7 +130,7 @@ steps.
    to the exam reviewers along with the learner's attempt.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

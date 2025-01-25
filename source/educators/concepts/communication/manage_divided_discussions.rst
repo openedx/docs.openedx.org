@@ -224,7 +224,7 @@ For other options that you can use to view posts, see
 :ref:`Moderating_discussions`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Guidance for Discussion Moderators` (concept)
 

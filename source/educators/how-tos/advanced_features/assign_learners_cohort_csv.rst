@@ -176,7 +176,7 @@ Unicode characters are correctly saved and displayed.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

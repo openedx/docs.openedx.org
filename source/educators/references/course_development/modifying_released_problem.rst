@@ -55,7 +55,7 @@ For information about how to review and adjust learner grades in the LMS, see
 :ref:`Adjust_grades`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Problem Components` (reference)
 

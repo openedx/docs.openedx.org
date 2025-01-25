@@ -35,7 +35,7 @@ To use Open edX course content in the Canvas LMS, you add a new app to the cours
       Canvas system.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
 

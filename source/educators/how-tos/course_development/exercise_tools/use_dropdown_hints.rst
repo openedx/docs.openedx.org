@@ -22,7 +22,7 @@ you've added, click the trash can icon next to its respective hint field.
   and views the next one by selecting **Hint** again.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Feedback and Hints to a Problem` (reference)
 

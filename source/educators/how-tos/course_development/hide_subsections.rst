@@ -115,7 +115,7 @@ end date" message under the subsection's display name.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

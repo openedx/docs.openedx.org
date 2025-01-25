@@ -47,7 +47,7 @@ for each step in the assignment are shown.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
  

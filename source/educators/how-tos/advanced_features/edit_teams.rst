@@ -26,7 +26,7 @@ To edit a team's details, follow these steps.
    The team's details are updated.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

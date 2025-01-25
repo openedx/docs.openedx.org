@@ -21,6 +21,6 @@ To use the import and export options to re-run a course, follow these steps.
    and content <Update the New Course>` for the new course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Updating a New Course after an Import <Update the New Course>` (how-to)

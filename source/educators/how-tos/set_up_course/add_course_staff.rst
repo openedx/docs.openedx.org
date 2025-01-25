@@ -75,7 +75,7 @@ To remove an assigned role, view the list of users and then select **Revoke
 access**.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Planning Course Staff <Course_Staffing>` (reference)
 

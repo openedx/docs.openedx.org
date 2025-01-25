@@ -10,7 +10,7 @@ This video explains how to add a dropdown-type problem:
 .. youtube:: e6HxKo18_xE
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Dropdown` (reference)
 

@@ -83,7 +83,7 @@ following actions.
 * Viewed all HTML content for at least five seconds.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Create a Unit` (how-to)
 

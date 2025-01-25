@@ -24,7 +24,7 @@ To clear the existing search term, select the **X** next to the search field,
 or select all the text within the field and enter text to replace it.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

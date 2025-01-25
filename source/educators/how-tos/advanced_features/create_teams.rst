@@ -51,7 +51,7 @@ To create a team, follow these steps.
    Your new team is added to the list of teams under your selected team-set.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

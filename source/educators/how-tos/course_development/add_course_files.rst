@@ -151,7 +151,7 @@ download all files, select the very first checkbox, then select the Action
 button and then select Download.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`The Files Page` (reference)
 

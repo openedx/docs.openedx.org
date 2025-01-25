@@ -36,6 +36,6 @@ appears on its own line (display).
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`MathJax in Studio` (reference)

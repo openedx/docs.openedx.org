@@ -27,7 +27,7 @@ menu options.
   address and set your Time Zones.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

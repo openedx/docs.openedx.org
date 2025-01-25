@@ -10,7 +10,7 @@ Did you know you can add files to your course and make them available to learner
 .. youtube:: CaSbi09YpJU
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Add Files to a Course` (how-to)
 

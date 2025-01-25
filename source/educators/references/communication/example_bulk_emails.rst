@@ -439,7 +439,7 @@ When preparing a message from this template, search for values enclosed by
   The {course number} Staff
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Bulk Email` (reference)
 

@@ -134,7 +134,7 @@ visible. You can set these attributes in Studio.
   :ref:`Randomization`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Problem Components` (reference)
 

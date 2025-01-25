@@ -64,7 +64,7 @@ In this code:
 
 .. seealso::
 
- :class: dropdown
+ 
 
  :ref:`Create Custom Javascript` (how to) 
 

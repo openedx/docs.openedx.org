@@ -38,7 +38,7 @@ the same manner as :ref:`Access Information for a Specific Learner`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

@@ -131,7 +131,7 @@ visible.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Dates` (reference)
 

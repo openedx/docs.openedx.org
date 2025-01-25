@@ -78,7 +78,7 @@ Tp specify a unit's access settings, follow these steps.
     :width: 500
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Hide a Unit from Students` (how-to)
 

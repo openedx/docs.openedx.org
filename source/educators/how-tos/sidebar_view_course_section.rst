@@ -21,7 +21,7 @@ are in the course at the moment:
    .. image:: /_images/educator_how_tos/LSN_view_sections_step2b.png
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`What is LMS` (concept)
 

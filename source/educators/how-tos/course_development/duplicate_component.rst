@@ -24,7 +24,7 @@ until you :ref:`publish the unit<Publish a Unit>`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add a Component` (how-to)
 

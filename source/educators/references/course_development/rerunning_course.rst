@@ -69,7 +69,7 @@ other course. Therefore, you should ensure that the original course content is
 as complete as possible before you re-run the course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course re-runs <Course reruns>` (how-to)
 

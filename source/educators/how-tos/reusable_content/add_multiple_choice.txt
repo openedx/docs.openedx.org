@@ -33,7 +33,7 @@
 #. Click :guilabel:`Save` to save the problem in the unit.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Overview` (concept)
 

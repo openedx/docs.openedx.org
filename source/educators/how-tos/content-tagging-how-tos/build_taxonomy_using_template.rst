@@ -104,7 +104,7 @@ create a taxonomy of cities, like this:
 * Import your taxonomy following the How To :ref:`import-export-taxonomy`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add and delete tags on course content` (how-to)
 

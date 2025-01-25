@@ -103,7 +103,7 @@ For information about course discussions and managing discussions, see
 :ref:`Discussions` and :ref:`Guidance for Discussion Moderators`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

@@ -24,7 +24,7 @@ your course.
   course.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Add a Component` (how-to)
 

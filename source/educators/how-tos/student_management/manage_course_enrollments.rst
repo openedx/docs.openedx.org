@@ -165,6 +165,6 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enrollment_Requirements` (reference)

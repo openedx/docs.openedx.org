@@ -117,7 +117,7 @@ in this report) are configurable in the Open edX site configuration.
        value can be updated or set on the **Account Settings** page.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Learner Data` (concept)
 

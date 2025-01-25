@@ -41,7 +41,7 @@ To add or update a limited profile, follow these steps.
 The site saves your changes automatically.
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
  :doc:`add_update_full_profile` (how-to)

@@ -67,7 +67,7 @@ computer.
   edit them outside of Studio.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Import a Course` (how-to)
 

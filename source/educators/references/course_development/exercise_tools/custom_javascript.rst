@@ -273,6 +273,6 @@ Optional Attributes
   defaults to ``300`` and ``400`` for **height** and **width**, respectively.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create Custom Javascript` (how to)

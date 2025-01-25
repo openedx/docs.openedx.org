@@ -26,7 +26,7 @@ the course.
      - The date the report was created.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Access Certificate Data` (how-to)
 

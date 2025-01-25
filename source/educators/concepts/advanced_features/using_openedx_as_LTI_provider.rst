@@ -40,7 +40,7 @@ For more information about constructing an LTI URL for a course component, see
 :ref:`Determine Content Addresses`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create a Duplicate Course for LTI use` (how-to)
 

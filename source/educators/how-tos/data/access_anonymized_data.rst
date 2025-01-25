@@ -31,7 +31,7 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the
 ``{course_id}_grade_report_{date}.csv`` file of grades.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Learner Data` (concept)
 

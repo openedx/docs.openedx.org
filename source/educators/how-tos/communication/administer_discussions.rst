@@ -112,7 +112,7 @@ can unenroll that learner from the course. For more information, see
 enrollment period for the course is over.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Guidance for Discussion Moderators` (concept)
 

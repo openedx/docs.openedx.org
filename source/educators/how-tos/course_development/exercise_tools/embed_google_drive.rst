@@ -81,7 +81,7 @@ file to the web and obtain the embed code for the file.
    You use that string to configure the Google Drive file component.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Google Drive Files Tool` (reference)
 

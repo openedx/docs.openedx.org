@@ -333,7 +333,7 @@ correctness.
   line.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Multi select` (reference)
 

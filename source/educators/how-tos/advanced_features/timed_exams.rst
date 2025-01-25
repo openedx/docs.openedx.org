@@ -209,7 +209,7 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Timed Exams` (concept)
 

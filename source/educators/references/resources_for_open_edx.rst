@@ -13,7 +13,7 @@ page for a list of the documentation that is available.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

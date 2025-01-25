@@ -101,7 +101,7 @@ Create a Poll for OLX
     the problem.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Poll Tool for OLX` (reference)
  

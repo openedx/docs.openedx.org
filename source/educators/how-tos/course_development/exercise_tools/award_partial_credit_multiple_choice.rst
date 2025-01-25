@@ -194,7 +194,7 @@ explanation ID.
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Single Select Overview` (concept)
 

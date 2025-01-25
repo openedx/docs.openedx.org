@@ -120,7 +120,7 @@ sure to set **Show Answer** to **Never** in the problem component.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Write Your Own Grader` (reference)
 

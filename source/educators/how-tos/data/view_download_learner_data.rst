@@ -58,7 +58,7 @@ To view learner data, follow these steps.
    :ref:`Columns in the Student Profile Report`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Learner Data` (concept)
 

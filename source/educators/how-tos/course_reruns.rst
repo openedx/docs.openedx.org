@@ -11,7 +11,7 @@ It is possible to schedule a re-run of an existing course, as described in the f
 .. youtube:: jLa3DsHm_Vk
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Re-running a Course <Rerun a Course>` (reference)
 

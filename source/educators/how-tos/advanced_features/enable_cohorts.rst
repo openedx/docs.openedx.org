@@ -23,7 +23,7 @@ You can now :ref:`add cohorts<Add Cohorts>` to your course.
    see :ref:`Altering Cohort Configuration`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

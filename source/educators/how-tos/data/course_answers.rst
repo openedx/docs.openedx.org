@@ -496,7 +496,7 @@ learners in this example selected the correct answer, the number of incorrect
 answer(s) can guide future changes to the course content.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Answer_Report_FAQ` (reference)
 

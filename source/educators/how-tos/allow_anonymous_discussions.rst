@@ -69,7 +69,7 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Discussions` (concept)
 

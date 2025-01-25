@@ -57,7 +57,7 @@ Configuration>`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

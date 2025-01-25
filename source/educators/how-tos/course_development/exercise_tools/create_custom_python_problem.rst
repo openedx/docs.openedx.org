@@ -20,7 +20,7 @@ You can also use :ref:`Script Tag Format` or answer tag format to create these p
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Write Your Own Grader` (reference)
 

@@ -99,7 +99,7 @@ Select a Previously Uploaded Image
 #. Save the Text component and test the image.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Text Components` (reference)
 

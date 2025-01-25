@@ -36,7 +36,7 @@ can click those icons to visit your social media account page.
     :alt: A learner's full profile, with social media icons circled.
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
  :doc:`add_update_full_profile` (how-to)

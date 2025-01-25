@@ -20,7 +20,7 @@ After you delete a component in Studio, the component remains visible to
 learners until you :ref:`publish the unit<Publish a Unit>`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add a Component` (how-to)
 

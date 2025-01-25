@@ -176,6 +176,6 @@ For details see :ref:`Testing Your Course Content` and :ref:`Roles for Viewing
 Course Content`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)

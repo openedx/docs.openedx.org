@@ -32,7 +32,7 @@ Experiment group assignments have the following characteristics.
   content experiments you set up that use the same group configuration.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

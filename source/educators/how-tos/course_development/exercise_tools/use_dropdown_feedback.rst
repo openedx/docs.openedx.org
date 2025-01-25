@@ -113,7 +113,7 @@ a custom label.
   them to all learners. They are not translated into different languages.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Dropdown` (reference)
 

@@ -81,7 +81,7 @@ you will quickly see how important it is to address accessibility concerns
 when creating a course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
 

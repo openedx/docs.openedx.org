@@ -112,7 +112,7 @@ not required.
      - :ref:`AAC<AAC>` 44.1 / 192 kbps
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Video Process Overview` (how-to)
 

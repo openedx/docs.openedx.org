@@ -45,7 +45,7 @@ taxonomy. Here's how to do that:
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`build-taxonomy-using-template` (how-to)
 

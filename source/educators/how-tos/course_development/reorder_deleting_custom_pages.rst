@@ -22,7 +22,7 @@ You can also delete a custom page from your course using the delete icon shown o
 If you delete a page after the course start date, note that the visibility of the page in the learner experience changes immediately.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

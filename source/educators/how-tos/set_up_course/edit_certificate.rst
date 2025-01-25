@@ -126,7 +126,7 @@ To delete a certificate, follow these steps.
 #. In the confirmation dialog, confirm that you want to delete the certificate.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Setting Up Certificates` (reference)
 

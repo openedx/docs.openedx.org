@@ -63,7 +63,7 @@ include the original filename.
 Example: ``[1] - john_doe - prompt_0.txt``.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

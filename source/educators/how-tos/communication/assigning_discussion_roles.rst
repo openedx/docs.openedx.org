@@ -72,7 +72,7 @@ author or have the Admin role.
    The person who you removed no longer appears in the list.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Guidance for Discussion Moderators` (concept)
 

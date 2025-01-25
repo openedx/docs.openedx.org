@@ -28,7 +28,7 @@ You can specify the following types of regions.
  about alt text, see :ref:`Best Practices for Describing Images`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create Image Mapped Input Problem` (how to)
 

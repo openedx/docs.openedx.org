@@ -28,7 +28,7 @@ To create a code response problem in Studio, follow these steps.
    you receive an “Error: No grader has been set up for this problem” message.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`External Grader` (concept)
 

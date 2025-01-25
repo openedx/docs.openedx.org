@@ -30,7 +30,7 @@ the close icon to the right of each listed chapter.
 .. note:: After you delete your textbook on the Textbooks page, it is strongly recommended that you :ref:`lock <Lock a File>` or :ref:`delete <Delete a File>` the PDF files for the textbook on the Files & Uploads page to avoid copyright issues.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

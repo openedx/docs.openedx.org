@@ -63,7 +63,7 @@ check box.
 You are prompted to confirm that you want to make the unit visible to learners.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Set Access Restrictions For a Unit` (how-to)
 

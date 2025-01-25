@@ -52,7 +52,7 @@ Single Select and Numerical Input Problem Code
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Numerical Input` (reference)
 

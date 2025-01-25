@@ -87,7 +87,7 @@ contains the content experiment.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Guidelines for Modifying Group Configurations` (concept)
 

@@ -19,7 +19,7 @@ For information about how to develop your course content in the Studio course
 outline, see the section on :ref:`Creating a Course in Open edX® <Creating Course TOC>`.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Title Guidelines` (reference)
 

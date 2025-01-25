@@ -50,7 +50,7 @@ the three required answer options. This example also shows that the learner
 selected **Show Answer** to reveal the correct answer and an explanation.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add a Multi Select Problem` (how-to)
 

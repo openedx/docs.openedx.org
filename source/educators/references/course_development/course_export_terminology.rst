@@ -31,7 +31,7 @@ open the list of files that your course contains, look in the **Chapter**
 directory. To find a unit, look in the **Vertical** directory.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Export a Course` (how-to)
 

@@ -42,7 +42,7 @@ input problem. An example of a completed text input problem follows.
   which appear below the response along with the explanation.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Text Input Problem` (how to)
 

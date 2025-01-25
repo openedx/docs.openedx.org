@@ -62,7 +62,7 @@ numerical input problem. An example of a completed numerical input problem follo
  :alt: A problem with one question, answered correctly, in the LMS.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
 

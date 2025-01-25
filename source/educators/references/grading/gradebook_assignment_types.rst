@@ -83,7 +83,7 @@ You configure the following fields for each assignment type.
   :width: 600
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Graded Subsections` (concept)
 

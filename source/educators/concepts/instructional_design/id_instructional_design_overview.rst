@@ -353,7 +353,7 @@ As you get started building your online course on your platform, here are five i
 5.  Create a course outline before you start building.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Development Process` (concept)
 

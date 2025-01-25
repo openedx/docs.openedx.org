@@ -76,7 +76,7 @@ the permissions that you set for an article.
 * Search for Wiki Articles
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Wiki Tasks <Course Wiki Tasks>` (how to)
 

@@ -20,7 +20,7 @@ of the page:
     state of the sidebar remains consistent.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`What is LMS` (concept)
 

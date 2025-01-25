@@ -108,7 +108,7 @@ If your course is eligible, this feature will describe which of the following st
      :alt: Certificate Status feature describing the learner has passed and can view their certificate.
 
 .. seealso::
- :class: dropdown
+ 
 
   :ref:`Learner Data` (concept)
 

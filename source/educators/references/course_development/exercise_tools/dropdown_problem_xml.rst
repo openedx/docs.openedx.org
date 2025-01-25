@@ -216,7 +216,7 @@ None.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Dropdown` (reference)
 

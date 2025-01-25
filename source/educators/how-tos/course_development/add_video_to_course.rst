@@ -35,7 +35,7 @@ To add a video, follow these steps.
    see :ref:`Video Settings`.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Video Process Overview` (how-to)
 

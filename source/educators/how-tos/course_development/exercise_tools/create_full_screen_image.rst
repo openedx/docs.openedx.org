@@ -84,7 +84,7 @@ Create a Full Screen Image
 #. Select **Save**.
 
 .. seealso::
- :class:dropdown
+ 
  
  :ref:`Working with Text Components` (reference)
 

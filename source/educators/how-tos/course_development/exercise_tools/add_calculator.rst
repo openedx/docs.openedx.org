@@ -57,7 +57,7 @@ To enable the calculator tool, follow these steps.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Chemical Equation` (how-to)
 

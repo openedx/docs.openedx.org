@@ -192,7 +192,7 @@ that are anonymous to other learners, as seen below.
   :alt: Options for anonymous posting while creating a post.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Discussions` (concept)
 

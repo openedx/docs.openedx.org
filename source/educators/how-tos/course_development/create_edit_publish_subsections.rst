@@ -126,7 +126,7 @@ To delete a subsection, follow these steps.
    subsection**.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

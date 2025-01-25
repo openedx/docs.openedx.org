@@ -40,7 +40,7 @@ The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page.
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
 

@@ -10,12 +10,12 @@ Headings
 .. include:: ../references/rst_samples/headings.txt
 
 .. tip::
-   :class: dropdown
+   
 
    Here's a way to remember the symbols for heading levels: ``#`` has four lines, ``*`` has three lines, ``=`` has two lines, ``-`` has one line, and ``~`` has zero lines.
 
 .. note::
-   :class: dropdown
+   
 
    RST allows you to use almost any symbol to underline headings as long as you're consistent between heading levels. However, the abovementioned way is how headings should be defined in all Open edX documentation.
 

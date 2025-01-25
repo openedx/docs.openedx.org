@@ -32,6 +32,6 @@ For more information about iframes, see the `iframe: The Inline Frame element
 <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create IFrame` (how to)

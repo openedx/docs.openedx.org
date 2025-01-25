@@ -51,7 +51,7 @@ learners see the updates immediately. You make changes to files with the
 Google user interface. You do not need to edit the Google Document component.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Embed Google Drive Files` (how to)
 

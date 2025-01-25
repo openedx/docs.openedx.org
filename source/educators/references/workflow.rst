@@ -155,7 +155,7 @@ more information, see :ref:`Designing for Mobile`.
 
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Course Outline` (concept)
  

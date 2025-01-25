@@ -196,7 +196,7 @@ all** drop-down menu.
 * **Flagged**, to list only posts that learners have reported as inappropriate.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Guidance for Discussion Moderators` (concept)
 

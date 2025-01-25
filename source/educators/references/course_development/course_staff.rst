@@ -149,7 +149,7 @@ complete the following tasks.
 
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Add Course Staff` (how-to)
 

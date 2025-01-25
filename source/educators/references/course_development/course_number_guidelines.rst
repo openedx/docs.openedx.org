@@ -32,7 +32,7 @@ Example Course Numbers
 * 6.002.1x and 6.002.2x
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Title Guidelines` (reference)
 

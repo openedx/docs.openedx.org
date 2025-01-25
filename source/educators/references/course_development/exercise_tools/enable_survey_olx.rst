@@ -116,6 +116,6 @@ The following table describes the attribute of the ``survey`` element.
          change their responses after seeing others' responses.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Survey Tool` (how to)

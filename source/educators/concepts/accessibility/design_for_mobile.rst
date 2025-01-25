@@ -100,7 +100,7 @@ renders as you expect it to.
    published content can take up to an hour to update on the Android app.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
 

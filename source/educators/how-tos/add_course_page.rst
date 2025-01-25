@@ -10,7 +10,7 @@ You can create a custom course page as demonstrated in the following video:
 .. youtube:: vIR9auBmiFU
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Add Files to a Course` (how-to)
 

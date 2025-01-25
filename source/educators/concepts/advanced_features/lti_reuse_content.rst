@@ -79,7 +79,7 @@ To obtain learner engagement and performance data, you use the features
 available in the external LMS.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
 

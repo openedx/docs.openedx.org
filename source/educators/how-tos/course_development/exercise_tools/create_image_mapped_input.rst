@@ -211,7 +211,7 @@ For example, the following ``regions`` attribute creates a pentagon.
  </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Image Mapped Input` (reference)
 

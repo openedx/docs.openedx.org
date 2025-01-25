@@ -27,7 +27,7 @@ circled for a section, a subsection, and two units.
 For more information, see the links above.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

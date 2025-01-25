@@ -98,7 +98,7 @@ To add a recommender to a course, follow these steps.
 #. Optionally, open the unit in the LMS and suggest some resources.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Notes Tool` (how-to)
 

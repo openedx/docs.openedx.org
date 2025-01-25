@@ -25,7 +25,7 @@ To change access to the course team configuration options, follow these steps.
 #. Select **Apply** to save your configuration changes.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

@@ -24,7 +24,7 @@ Learn here how to :ref:`Create a Custom Python Evaluated Input Problem in Studio
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
 

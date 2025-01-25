@@ -45,7 +45,7 @@ in use in the course:
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Overview of Content Experiments` (concept)
 

@@ -16,6 +16,6 @@ While your course is running, after learners have had a chance to complete the o
 #. **Review result** File is uploaded, validated, scores are overwritten for non-blank rows. You’ll get a readout at the bottom of the screen.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`StaffGraded` (how to)

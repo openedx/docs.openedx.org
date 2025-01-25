@@ -22,7 +22,7 @@ When you disable the wiki application in your course, any existing articles rema
 Additional details for configuring the wiki application can be found at :ref:`Wiki Configuration`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

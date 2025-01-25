@@ -107,7 +107,7 @@ problem follows.
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Math Expression Problem` (how to)
 

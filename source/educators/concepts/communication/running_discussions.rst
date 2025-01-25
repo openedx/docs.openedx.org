@@ -187,7 +187,7 @@ units and all course-wide topics are affected.
   can continue to add to discussions.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Discussions` (concept)
 
