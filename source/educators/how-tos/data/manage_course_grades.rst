@@ -132,7 +132,7 @@ follow these steps.
    necessary, refresh the page to generate new links.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Interpret the Grade Report` (reference)
 
@@ -189,7 +189,7 @@ ever enrolled in your course, follow these steps.
    than 5 minutes. If necessary, refresh the page to generate new links.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Interpret the Problem Grade Report` (reference)
 
@@ -913,7 +913,7 @@ viewer.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Understanding the Progress Page` (reference)
 

@@ -38,7 +38,7 @@ to connect socially, consider using discussions within the course rather than te
 For more information about using discussions, see :ref:`Running_discussions`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Managing Team Discussions <Teams Discussions>` (concept)
 

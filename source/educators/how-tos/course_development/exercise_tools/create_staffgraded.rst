@@ -51,7 +51,7 @@ Staff Graded Assignment Settings
      - Enter the number of points possible for this component. The default value is 1.0.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`StaffGraded Grading` (concept)
 

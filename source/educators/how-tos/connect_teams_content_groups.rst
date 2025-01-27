@@ -24,7 +24,7 @@ Connecting Teams to Content Groups
      .. image:: /_images/educator_how_tos/teams_within_groups.png
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview  <CA_Teams_Overview>` (concept)
 

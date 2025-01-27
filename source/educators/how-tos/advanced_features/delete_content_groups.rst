@@ -24,7 +24,7 @@ Delete Content Groups
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

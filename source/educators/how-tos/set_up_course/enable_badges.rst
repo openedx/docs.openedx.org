@@ -32,7 +32,7 @@ To enable badging for your course if it was previously disabled, change the
 value of the key to ``True``.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Setting Up Certificates` (reference)
 

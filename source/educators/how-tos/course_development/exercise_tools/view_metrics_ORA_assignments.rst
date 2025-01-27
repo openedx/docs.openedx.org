@@ -27,7 +27,7 @@ assignments.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

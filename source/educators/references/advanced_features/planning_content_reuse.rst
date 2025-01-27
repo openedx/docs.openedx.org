@@ -105,7 +105,7 @@ policy key. For more information, see :ref:`Create CourseWide Discussion
 Topics`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
 

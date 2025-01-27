@@ -56,7 +56,7 @@ a record of all the operations that have run for the entrance exam, select
 **Show Background Task History for Student**.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Specify Prerequisite Courses and Exams` (how-to)
 

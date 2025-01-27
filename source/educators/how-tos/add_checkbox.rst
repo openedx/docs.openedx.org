@@ -10,7 +10,7 @@ To create a checkbox (also known as "multi-select") problem, follow this video g
 .. youtube:: 6VYKcMeZrxg
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Multi select` (reference)
 

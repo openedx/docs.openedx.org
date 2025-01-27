@@ -89,7 +89,7 @@ for launch, see :ref:`Launch`.
   Changes you make in the new course have no effect on the original course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Re-running a Course  <Rerun a Course>` (reference)
 

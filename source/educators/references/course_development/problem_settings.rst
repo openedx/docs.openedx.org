@@ -169,7 +169,7 @@ been used, the **Hint** or **Next Hint** option is no longer available.
  :width: 600
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Configure Hint` (how-to)
 
@@ -290,7 +290,7 @@ Problems** advanced setting.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Problem Components` (reference)
 

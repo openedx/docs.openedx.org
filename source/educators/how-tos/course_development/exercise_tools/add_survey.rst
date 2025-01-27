@@ -174,7 +174,7 @@ The results of the survey are then displayed.
     :width: 600
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable Survey OLX` (reference)
 

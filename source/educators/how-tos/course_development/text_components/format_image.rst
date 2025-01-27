@@ -49,7 +49,7 @@ If you want to change the image back to the original size, clear the values in
 the **Width** and **Height** fields.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add an Image to a Text Component` (how-to)
 

@@ -13,7 +13,7 @@ Watch this video to understand how to create a course description:
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

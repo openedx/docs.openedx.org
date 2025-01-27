@@ -77,7 +77,7 @@ that site. Keep the following guidelines in mind.
   than one hosting site, make sure you have the URL for each video location.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Video Process Overview` (how-to)
 

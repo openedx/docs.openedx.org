@@ -275,7 +275,7 @@ halves.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Multi select` (reference)
 

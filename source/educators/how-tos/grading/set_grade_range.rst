@@ -67,7 +67,7 @@ This is true regardless of how many grade levels you add in the grade range.
 For more information, see :ref:`Setting Up Certificates`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Graded Subsections` (concept)
 

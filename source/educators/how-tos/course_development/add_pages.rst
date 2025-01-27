@@ -63,7 +63,7 @@ Additional applications and resources can be enabled depending on your course ne
 * :ref:`Custom Pages<Add Custom Page>`
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable Notes` (how to)
 

@@ -86,7 +86,7 @@ For more information about the way that learners experience proctored exams,
 see `Taking Timed and Proctored Exams` in the edX Help Center.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable Proctored Exams` (how-to)
 

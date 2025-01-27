@@ -39,7 +39,7 @@ message text.
    review and test it thoroughly before you send it to all course participants.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Bulk Email` (reference)
 

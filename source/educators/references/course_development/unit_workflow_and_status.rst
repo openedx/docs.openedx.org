@@ -197,7 +197,7 @@ The **Release** section applies only to instructor-paced courses. It does not
 appear for units in self-paced courses.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create a Unit` (how-to)
 

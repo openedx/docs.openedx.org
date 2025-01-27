@@ -63,7 +63,7 @@ You can see the OLX for the example problem from the Overview section below.
   switch back to the simple editor.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Dropdown` (reference)
 

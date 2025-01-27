@@ -32,7 +32,7 @@ On the **Programs** page, you can perform the following actions.
   the program, or to view the certificate, select the name of the program.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`What is the Course Dashboard` (concept)
 

@@ -71,7 +71,7 @@ To import a course, follow these steps.
  :ref:`Scheduling Your Course`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Export a Course` (how-to)
 

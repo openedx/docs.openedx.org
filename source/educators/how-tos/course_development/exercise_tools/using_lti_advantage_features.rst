@@ -117,7 +117,7 @@ To set up LTI-NRPS services on a component, follow these steps.
           this limit using the `LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting`_.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`LTI Component` (reference)
 

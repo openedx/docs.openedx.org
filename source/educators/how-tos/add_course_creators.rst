@@ -36,7 +36,7 @@ For a step-by-step to grant staff permissions to courses, check out this video:
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Beta Testers to a Course` (how-to)
 

@@ -145,7 +145,7 @@ Course`.
 #. Save the Text component and test the link.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Text Components` (reference)
 

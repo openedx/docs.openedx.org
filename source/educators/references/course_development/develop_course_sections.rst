@@ -106,7 +106,7 @@ regardless of the release date of the section or subsection.
 
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

@@ -149,7 +149,7 @@ The following example shows the learner view of the unit described above.
  :width: 400
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Unit States and Visibility to Students` (reference)
 

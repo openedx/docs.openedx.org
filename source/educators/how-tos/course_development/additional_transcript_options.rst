@@ -103,7 +103,7 @@ To add another downloadable transcript, follow these steps.
    **Open**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Video Process Overview` (how-to)
 

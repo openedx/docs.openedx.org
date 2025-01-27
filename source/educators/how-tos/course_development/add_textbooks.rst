@@ -94,7 +94,7 @@ Delete a Chapter
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable Textbook` (how to)
 

@@ -134,7 +134,7 @@ problems, questions, and issues can occur while a course is running.
   in the course welcome message, or post it in a discussion.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Beta_Testing` (reference)
 

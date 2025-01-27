@@ -33,7 +33,7 @@ together, followed by labs, then exams.
  dropped when you :ref:`configure assignment types <Gradebook Assignment Types>`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Graded Subsections` (concept)
 

@@ -222,7 +222,7 @@ information, see :ref:`Add Course Metadata <Add Course Metadata>`.
 
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Title Guidelines` (reference)
 

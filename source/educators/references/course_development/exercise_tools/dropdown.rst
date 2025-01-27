@@ -43,7 +43,7 @@ problem. An example of a dropdown problem from the learner's perspective follows
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Dropdown` (how to)
 

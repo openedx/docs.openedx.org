@@ -49,7 +49,7 @@ Use a Section from a Course independently of the Course Outline
      .. image:: /_images/educator_how_tos/hide_in_outline_learner_view.png
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Content Experiments to Your Course` (how-to)
 

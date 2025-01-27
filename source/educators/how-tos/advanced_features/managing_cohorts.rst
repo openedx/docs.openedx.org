@@ -153,7 +153,7 @@ consequences of these actions.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

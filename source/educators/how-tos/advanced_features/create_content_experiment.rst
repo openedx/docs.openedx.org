@@ -53,7 +53,7 @@ You can now create content for the groups in the experiment.
    is not supported.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

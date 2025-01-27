@@ -29,7 +29,7 @@ discussion topics.
  :width: 400
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Discussions` (concept)
 

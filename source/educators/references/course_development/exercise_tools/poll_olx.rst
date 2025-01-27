@@ -113,7 +113,7 @@ Example of poll with unable reset functionality
     </poll_question>
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Create a Poll` (how to)
  

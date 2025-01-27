@@ -42,7 +42,7 @@ To delete a team, follow these steps.
    no longer belong to a team.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

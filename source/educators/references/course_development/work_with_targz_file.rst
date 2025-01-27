@@ -33,7 +33,7 @@ For more, see the following resources:
 .. _TarTool: https://github.com/senthilrajasek/tartool
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Export a Course` (how-to)
 

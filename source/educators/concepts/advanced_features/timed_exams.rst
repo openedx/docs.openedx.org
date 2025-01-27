@@ -23,7 +23,7 @@ the subsection, but only if learners request additional time **before**
 starting a timed exam.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Configure Timed Exams`
 

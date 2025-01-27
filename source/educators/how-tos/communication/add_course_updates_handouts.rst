@@ -90,7 +90,7 @@ To add a course handout, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Course Updates and Handouts` (reference)
 

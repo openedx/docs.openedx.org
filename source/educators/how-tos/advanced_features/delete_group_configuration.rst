@@ -21,7 +21,7 @@ Delete a Group Configuration
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

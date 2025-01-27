@@ -191,7 +191,7 @@ LTI Component Settings
         enable the setting in the Django administration console.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable_LTI_Components` (how to)
 

@@ -19,7 +19,7 @@ You add the contents of your course About page in Studio.
 
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
 

@@ -63,7 +63,7 @@ do that.
    associated tags in the taxonomy view page.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`build-taxonomy-using-template` (how-to)
 

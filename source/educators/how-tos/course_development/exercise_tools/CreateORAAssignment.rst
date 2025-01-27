@@ -630,7 +630,7 @@ understand or if they had any problems with the assignment.
 For more information about beta testing, see :ref:`Beta_Testing`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

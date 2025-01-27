@@ -132,7 +132,7 @@ To test an LTI component, use the **Preview** feature or view the live version
 in the LMS. For more information, see :ref:`Testing Your Course Content`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`LTI Component` (reference)
 

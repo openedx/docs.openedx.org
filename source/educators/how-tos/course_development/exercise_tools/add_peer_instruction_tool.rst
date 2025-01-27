@@ -166,7 +166,7 @@ The **Studio URL** for the image can then be added to the question or
 answer choice in the peer instruction component.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`UBC Peer Instruction` (concept)
 

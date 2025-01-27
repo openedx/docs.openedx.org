@@ -84,7 +84,7 @@ Then referenced in topics as:
   `Link Name_`
 
 .. note::
- :class: dropdown
+ 
 
  Each ``Link Name`` in the entire documentation project must be unique.
 
@@ -96,7 +96,7 @@ Then referenced in topics as:
 .. code-block:: RST
 
   .. seealso::
-  :class: dropdown
+  
 
     :ref:`Offering Differentiated Content` (concept)
     :ref:`Configure Your Course for Content Experiments` (how-to)

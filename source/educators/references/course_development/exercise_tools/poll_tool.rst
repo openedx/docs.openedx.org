@@ -47,7 +47,7 @@ quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Poll` (how to)
 

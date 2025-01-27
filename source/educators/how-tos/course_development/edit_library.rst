@@ -35,7 +35,7 @@ Other Users Access to Your Library`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
  

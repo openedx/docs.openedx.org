@@ -24,7 +24,7 @@ Add Text
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Embed an iframe in the Text Editor` (how-to)
 

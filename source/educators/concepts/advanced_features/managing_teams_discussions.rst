@@ -49,7 +49,7 @@ Responses and comments made by discussion moderators or discussion
 administrators have a **Staff** label.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

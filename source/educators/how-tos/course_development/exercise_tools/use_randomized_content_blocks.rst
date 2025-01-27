@@ -264,7 +264,7 @@ the learner's submission, reset attempts, or delete the learner's state for a
 problem.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Randomized Content Blocks` (reference)
 

@@ -187,7 +187,7 @@ After a learner or course team member creates a post in the course discussions, 
 The message also contains a View discussion option that takes the learner to the discussion post. An Open edX intance does not send individual messages for any additional replies on the post.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Bulk Email` (reference)
 

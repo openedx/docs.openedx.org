@@ -115,7 +115,7 @@ This example illustrates the following points.
 You can enhance and apply this example for your own partial credit problems.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Write Your Own Grader` (reference)
 

@@ -171,7 +171,7 @@ descriptions.
   Updates and Handouts>`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create a Text Component` (how-to)
 

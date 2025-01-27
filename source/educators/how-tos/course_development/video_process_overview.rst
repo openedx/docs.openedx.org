@@ -29,7 +29,7 @@ The following diagram outlines the general process for adding videos to a course
    the video component. 
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Introduction to Video` (reference)
 

@@ -39,7 +39,7 @@ you understand the consequences of these actions. For more details, see
 :ref:`Altering Cohort Configuration`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

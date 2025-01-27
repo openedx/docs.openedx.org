@@ -190,7 +190,7 @@ unit<Publish a Unit>`.
  attempt to access any other content in the course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Beta Testers to a Course` (how-to)
 

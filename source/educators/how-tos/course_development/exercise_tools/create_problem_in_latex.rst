@@ -48,7 +48,7 @@ To create a problem written in LaTeX, follow these steps.
    Compile to Open edX XML**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Numerical Input` (reference)
 

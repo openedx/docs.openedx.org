@@ -299,7 +299,7 @@ Children
 None.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Text Input` (reference)
 

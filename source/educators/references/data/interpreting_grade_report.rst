@@ -131,7 +131,7 @@ columns that provide the following information.
   enrolled or unenrolled in the course.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Learner Data` (concept)
   

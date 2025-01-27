@@ -254,7 +254,7 @@ Creating randomized problems by exporting your course and editing some of your
 course's XML files is no longer supported.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Problem Components` (reference)
 

@@ -173,7 +173,7 @@ by clicking the X at the top right of the application bar. **This will also rele
 grading claim on any submissions the staff member currently has open, but ungraded.**
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

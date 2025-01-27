@@ -49,7 +49,7 @@ The new page is immediately available to the specified audience if the course ha
 For details on reordering course pages, see additional detail in :ref:`Reordering and deleting custom pages`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

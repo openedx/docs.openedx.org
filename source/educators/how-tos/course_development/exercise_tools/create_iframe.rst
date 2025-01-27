@@ -120,7 +120,7 @@ For more information about iframe attributes, see
 `iframe: The Inline Frame element <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe>`_.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`IFrame` (reference)
 

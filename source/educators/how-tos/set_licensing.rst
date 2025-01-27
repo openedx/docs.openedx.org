@@ -61,7 +61,7 @@ If a video is to have the same license as the course as a whole, you do not
 need to set the license for the video.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Licensing a Course` (reference)
 

@@ -19,7 +19,7 @@ comments in course discussions.
 The learner's account profile page opens.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`What is the Course Dashboard` (concept)
 

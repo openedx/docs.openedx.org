@@ -10,7 +10,7 @@ To set up cohorts and content groups, see this video:
 .. youtube:: rp7st8yxC5E
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

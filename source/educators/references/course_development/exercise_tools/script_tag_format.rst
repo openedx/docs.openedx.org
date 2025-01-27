@@ -171,7 +171,7 @@ preceding example.
        attributes. The ``correct_answer`` attribute is optional.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Write Your Own Grader` (reference)
 

@@ -32,7 +32,7 @@ Self-Paced Courses
 Courses that allow learners to work at their own pace, as long as they are finished by the time the course ends, are known as self-paced courses. These courses offer learners flexibility to modify the assignment dates as needed. Select :guilabel:`Self-Paced` in the Course Schedule and Details screen.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Scheduling Your Course` (reference)
 

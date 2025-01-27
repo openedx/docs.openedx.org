@@ -137,7 +137,7 @@ hints for learners.
  :width: 300
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Hints via the Advanced Editor` (how-to)
  

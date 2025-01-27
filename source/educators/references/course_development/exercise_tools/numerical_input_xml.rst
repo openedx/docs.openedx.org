@@ -368,7 +368,7 @@ Children
 None.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Numerical Input` (reference)
 

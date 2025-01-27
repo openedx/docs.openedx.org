@@ -54,7 +54,7 @@ steps.
 #. Publish the unit. For more information, see :ref:`Publish a Unit`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
 

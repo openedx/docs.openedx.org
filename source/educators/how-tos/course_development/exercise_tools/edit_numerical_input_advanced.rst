@@ -160,7 +160,7 @@ attribute: ``<numericalresponse answer="[5,8)">`` or
 ``<numericalresponse answer="(5,8]">``.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Numerical Input` (reference)
 

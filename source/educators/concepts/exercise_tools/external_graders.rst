@@ -109,7 +109,7 @@ When you build your external grader, keep the following requirements in mind.
   responds with appropriate scores and messages.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`External Grader Problem Requirements` (reference)
 

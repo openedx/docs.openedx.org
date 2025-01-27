@@ -102,7 +102,7 @@ content:
 * Scopes
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Accessibility Guidelines` (concept)
 

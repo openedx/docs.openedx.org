@@ -108,7 +108,7 @@ Tags
          ``<hintgroup hintfn="hint_fn"/>``).
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Problem with Adaptive Hint` (how to)
 

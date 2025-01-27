@@ -63,7 +63,7 @@ The site saves your changes automatically.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
 

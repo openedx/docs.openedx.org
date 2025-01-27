@@ -29,7 +29,7 @@ location in the course outline. For information, see :ref:`Reorganizing
 Components`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

@@ -48,7 +48,7 @@ To remove a learner from a team, follow these steps.
    and the count of team members is updated wherever it appears on team pages.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

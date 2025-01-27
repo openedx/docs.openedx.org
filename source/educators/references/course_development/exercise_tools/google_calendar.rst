@@ -45,7 +45,7 @@ learners see the updates immediately. You make changes to calendars with the
 Google user interface. You do not need to edit the Google Calendar component.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Embed Google Calendar` (how to)
 

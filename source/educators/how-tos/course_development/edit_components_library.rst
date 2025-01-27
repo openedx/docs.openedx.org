@@ -24,7 +24,7 @@ refer to the following topics.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
  

@@ -27,7 +27,7 @@ cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`.
 
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Testing Your Course Content` (reference)
 

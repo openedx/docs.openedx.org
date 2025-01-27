@@ -48,7 +48,7 @@ The Open edX product team maintains public product roadmaps at this `public road
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Course Outline` (concept)
 

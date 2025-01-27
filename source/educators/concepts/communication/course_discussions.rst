@@ -101,7 +101,7 @@ topics, see :ref:`Visibility of Discussion Topics`.
    see :ref:`Divide All Content Specific Discussion Topics`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Configuring Open edX Discussions` (how-to)
 

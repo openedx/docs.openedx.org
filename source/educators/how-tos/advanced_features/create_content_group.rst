@@ -29,7 +29,7 @@ instructor dashboard. For details, see :ref:`Associate Cohorts with Content
 Groups`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

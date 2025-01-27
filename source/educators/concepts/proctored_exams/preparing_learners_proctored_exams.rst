@@ -56,7 +56,7 @@ practice proctored exam.
   actual proctored exam.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

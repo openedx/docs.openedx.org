@@ -33,7 +33,7 @@ media sites such as Facebook and Twitter.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`What is the Course Dashboard` (concept)
 

@@ -76,7 +76,7 @@ site. For more information, see :ref:`Styling Drag and Drop Problems`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
 

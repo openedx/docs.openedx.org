@@ -37,7 +37,7 @@ Removing an experiment group affects event data for the course. Ensure that rese
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

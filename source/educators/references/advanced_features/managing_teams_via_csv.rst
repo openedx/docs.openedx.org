@@ -223,7 +223,7 @@ Error Conditions
     Increase the team-set size or redistribute users to different/more teams and re-upload.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

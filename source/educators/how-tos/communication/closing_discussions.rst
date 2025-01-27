@@ -36,7 +36,7 @@ reopen, follow these steps.
 6. Select **Save Changes**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Discussions` (concept)
 

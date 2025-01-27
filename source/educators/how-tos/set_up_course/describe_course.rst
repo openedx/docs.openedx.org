@@ -140,7 +140,7 @@ To set the hours per week week estimate in Studio, follow these steps.
 
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Creating a Course About Page` (reference)
 

@@ -25,7 +25,7 @@ different types of problems. For this content experiment, you need a
 group configuration that assigns your learners to four experiment groups.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

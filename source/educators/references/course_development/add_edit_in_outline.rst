@@ -124,7 +124,7 @@ You are prompted to confirm the deletion.
  deleted.
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

@@ -65,7 +65,7 @@ the HTML content in your course.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Text Components` (reference)
 

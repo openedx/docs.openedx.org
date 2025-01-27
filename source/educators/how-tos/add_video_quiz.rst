@@ -11,7 +11,7 @@ It's possible to add quizzes directly to a video!  Watch this for a how-to:
 .. youtube:: 87WT3nGOHwc
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Video Process Overview` (how-to)
 

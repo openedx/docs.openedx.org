@@ -13,7 +13,7 @@ To learn more about the different types of Multiple-Choice Questions, please vis
 * :ref:`Multi select`
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Single Select` (reference)
 

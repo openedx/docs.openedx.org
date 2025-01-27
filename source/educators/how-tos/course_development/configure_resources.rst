@@ -111,7 +111,7 @@ to manually edit each individual problem.
 To learn about Flexible Peer Grading and the course override setting, see  :ref:`Flexible Peer Grade Averaging`
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

@@ -213,7 +213,7 @@ external grader.
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`External Grader` (concept)
 

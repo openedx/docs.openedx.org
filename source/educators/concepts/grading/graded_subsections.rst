@@ -50,7 +50,7 @@ For more information about how to designate a subsection as a timed exam, see
 :ref:`Timed Exams`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Gradebook Assignment Types` (reference)
 

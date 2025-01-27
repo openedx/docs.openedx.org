@@ -93,7 +93,7 @@ To allow learners to download early certificates, you modify the
 #. Select **Save Changes**.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Setting Up Certificates` (reference)
 

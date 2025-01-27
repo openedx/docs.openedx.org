@@ -20,7 +20,7 @@ To disable or enable the Notes application, follow these steps.
 #. Select **Apply** to save your configuration changes.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

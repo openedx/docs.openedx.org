@@ -101,7 +101,7 @@ poll inside the course.
     :width: 400
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Poll Tool` (reference)
 

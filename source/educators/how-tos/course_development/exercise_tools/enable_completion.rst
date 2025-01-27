@@ -32,7 +32,7 @@ component to a unit in a course, follow these steps.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Completion` (reference)
 

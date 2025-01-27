@@ -58,7 +58,7 @@ Additional data about the course and its learners is available from other pages
 in the instructor dashboard.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Manage_Course_Enrollments` (how-to)
 

@@ -76,7 +76,7 @@ Create a Zooming Image Tool
 #. Select **Save**.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Add Files to a Course` (how-to)
 

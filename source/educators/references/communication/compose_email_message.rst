@@ -110,7 +110,7 @@ tags in an email message. An example follows.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Bulk Email` (reference)
 

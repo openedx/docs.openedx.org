@@ -8,7 +8,7 @@ If you have externally hosted content, you can add it to a course via an iframe:
 .. youtube:: Fw5zb1WBD_o
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add a Course Update` (how-to)
 

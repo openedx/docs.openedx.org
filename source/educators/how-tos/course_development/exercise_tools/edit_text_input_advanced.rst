@@ -265,7 +265,7 @@ inside this tag will be ignored by MathJax processor. An example follows.
    </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Text Input` (reference)
 

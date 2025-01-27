@@ -430,7 +430,7 @@ correctness.
   line.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Single Select Overview` (concept)
 

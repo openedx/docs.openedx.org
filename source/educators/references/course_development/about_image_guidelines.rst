@@ -62,7 +62,7 @@ image that you upload maintains the aspect ratio of those dimensions so that
 the image appears correctly on the dashboard.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Title Guidelines` (reference)
 

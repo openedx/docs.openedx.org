@@ -22,7 +22,7 @@ the associated problems is lost each time a new ``url_name`` value is assigned.
     <done url_name="video_3_completion"/>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Enable Completion` (how to)
 

@@ -94,7 +94,7 @@ To add the **Annotation problem** segment of the problem, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Calculator` (how-to)
 

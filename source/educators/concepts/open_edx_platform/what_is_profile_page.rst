@@ -42,7 +42,7 @@ You can share either a limited profile or a full profile.
      linked social media icons, in addition to username and profile image.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add or Update a Limited Profile` (how-to)
 

@@ -207,7 +207,7 @@ column.
        credit.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

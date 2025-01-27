@@ -43,7 +43,7 @@ but for the sake of clarity, some of these fields are documented here.
   contains this problem.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Learner Data` (concept)  
 

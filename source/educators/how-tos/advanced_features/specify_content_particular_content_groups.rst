@@ -37,7 +37,7 @@ Group` and :ref:`Viewing Cohort Specific Courseware`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

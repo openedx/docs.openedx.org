@@ -136,7 +136,7 @@ To reset the list and view files of all types, clear all checkboxes.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Files to a Course` (how-to)
 

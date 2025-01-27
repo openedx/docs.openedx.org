@@ -43,7 +43,7 @@ For example, the following OLX for a single select problem shows two hints.
 
 
   .. seealso::
- :class: dropdown
+ 
 
  :ref:`Dropdown` (reference)
 

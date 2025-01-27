@@ -20,7 +20,7 @@ Add Course Metadata
   under ``FEATURES`` in ``/edx/etc/studio.yml`` and restart Studio...
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

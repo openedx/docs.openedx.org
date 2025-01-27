@@ -165,7 +165,7 @@ manually remove unused images. For information, see
 
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Setting Up Certificates` (reference)
 

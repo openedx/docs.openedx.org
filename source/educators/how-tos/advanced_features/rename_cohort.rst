@@ -26,7 +26,7 @@ To rename a cohort, follow these steps.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

@@ -67,7 +67,7 @@ steps.
   dashboard in Studio when configuration is complete.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Re-running a Course <Rerun a Course>` (reference)
 

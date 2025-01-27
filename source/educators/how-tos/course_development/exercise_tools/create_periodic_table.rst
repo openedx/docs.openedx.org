@@ -44,7 +44,7 @@ To create the periodic table, you need a Text component.
 #. Click **Save**.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Working with Problem Components`
 

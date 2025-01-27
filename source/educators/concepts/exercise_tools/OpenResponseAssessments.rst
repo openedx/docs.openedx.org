@@ -705,7 +705,7 @@ information, see `Configuring ora2 to prohibit submission of file types`_.
        .vbscript, .workflow .ws, .wsc, .wsf, .wsh
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`PA Create an ORA Assignment` (how-to)
 

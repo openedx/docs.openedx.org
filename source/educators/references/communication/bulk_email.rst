@@ -227,7 +227,7 @@ the Email Task History report. For more information, see :ref:`Email Task
 History Report`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Send_Bulk_Email` (how-to)
 

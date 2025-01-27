@@ -24,7 +24,7 @@ such as single select and dropdown problems, the feedback should provide a
 reason why the selection is correct.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Problem Components` (reference)
 

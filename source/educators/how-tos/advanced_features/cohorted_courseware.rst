@@ -122,7 +122,7 @@ For an example of using content groups to create cohort-specific course
 content, see :ref:`Cohorted Courseware Example`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

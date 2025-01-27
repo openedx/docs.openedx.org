@@ -72,7 +72,7 @@ logo, are configured on your instance. For more information, see
        Start and End Dates>`.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Enable a Certificate` (how-to)
 

@@ -75,7 +75,7 @@ You can add hints to a single select problem . For an overview of hints in
 problems, see :ref:`Adding Feedback and Hints to a Problem`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Single Select Overview` (concept)
 

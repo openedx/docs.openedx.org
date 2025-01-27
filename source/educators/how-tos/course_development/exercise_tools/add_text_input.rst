@@ -66,7 +66,7 @@ advanced editor. For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Text Input` (reference)
 

@@ -45,7 +45,7 @@ To download certificate data, follow these steps.
    Certificate Report`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Setting Up Certificates`
 

@@ -301,7 +301,7 @@ This directive is useful for referencing other documents related to the topic th
 Additionally, “See Also Tables” is an important way for users to find documents related to the topic they are exploring. Good docs will have thorough, accurate, and relevant links in the See Also section through this syntax.
 
 .. seealso::
-    :class: dropdown
+    
 
     :ref:`Offering Differentiated Content` (concept)
     

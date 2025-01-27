@@ -127,7 +127,7 @@ updated to provide partial credit for a different answer.
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Numerical Input` (reference)
 

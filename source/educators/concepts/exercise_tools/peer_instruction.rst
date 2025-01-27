@@ -105,7 +105,7 @@ include quotation marks around the key value. For more information, see
  University of British Columbia.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add Peer Instruction Assignment` (how to)
 

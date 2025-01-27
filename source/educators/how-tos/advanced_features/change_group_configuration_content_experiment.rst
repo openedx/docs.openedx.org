@@ -40,7 +40,7 @@ groups, as well as create new components.
    groups. You can also create new components in the new groups.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

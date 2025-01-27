@@ -40,7 +40,7 @@ Copy and Paste Course Content
     in the original.
 
 .. seealso::
-   :class: dropdown
+   
 
    :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
 

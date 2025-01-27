@@ -29,7 +29,7 @@ follow these steps.
 #. Select **Submit**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

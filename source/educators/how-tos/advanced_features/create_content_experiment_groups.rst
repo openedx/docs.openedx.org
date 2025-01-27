@@ -39,7 +39,7 @@ For example, you can add a Text component and a video to Group A.
    performance.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

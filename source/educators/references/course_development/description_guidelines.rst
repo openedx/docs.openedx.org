@@ -147,7 +147,7 @@ Use the following guidelines to select the level for your course.
   year university students or master's degree students.
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Course Title Guidelines` (reference)
 

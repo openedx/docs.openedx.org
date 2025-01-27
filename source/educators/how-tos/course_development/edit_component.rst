@@ -57,7 +57,7 @@ Different types of components have different fields in the **Settings** dialog
 box, but all of them have a **Display Name** field.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Add a Component` (how-to)
 

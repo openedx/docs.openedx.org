@@ -464,7 +464,7 @@ grading>`, locate the specific submission by following these steps.
    response from peer grading<Remove a learner response from peer grading>`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

@@ -57,7 +57,7 @@ Courseware`.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

@@ -49,7 +49,7 @@ as an XSeries.
 * Circuits and Electronics 3: Applications
 
 .. seealso::
-  :class: dropdown
+  
 
   :ref:`Creating Number Guidelines` (reference)
 

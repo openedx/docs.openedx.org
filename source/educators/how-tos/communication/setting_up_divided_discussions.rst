@@ -112,7 +112,7 @@ For information about managing discussions that are divided, see :ref:`Managing
 Divided Discussion Topics`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`About Divided Discussions` (concept)
 

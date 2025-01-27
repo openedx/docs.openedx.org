@@ -100,7 +100,7 @@ When you use **Staff** view in preview mode, you also see any content that is
 
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Roles for Viewing Course Content` (reference)
 

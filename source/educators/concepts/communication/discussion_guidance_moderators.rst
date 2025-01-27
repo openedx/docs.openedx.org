@@ -168,7 +168,7 @@ Feature Requests
   those as well.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Guidance for Discussion Moderators` (concept)
 

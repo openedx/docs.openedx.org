@@ -193,7 +193,7 @@ To restore a deleted article, select the link to the article and select
 **Restore**.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`About Course Wiki` (reference)
 

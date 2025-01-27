@@ -39,7 +39,7 @@ However, if you select “Remove formatting”, this is what Studio and LMS will
   :width: 600
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Text Components` (reference)
 

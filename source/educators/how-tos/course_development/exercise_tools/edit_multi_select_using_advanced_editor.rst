@@ -147,7 +147,7 @@ Adding Hints
 See :ref:`Adding Feedback and Hints to a Problem` for more information on adding hints to a problem.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Multi select` (reference)
 

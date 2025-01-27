@@ -22,7 +22,7 @@ Additional configuration for the Teams application can be found at :ref:`Teams C
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

@@ -38,7 +38,7 @@ tool, follow these steps.
 #. Select **Apply** to save your configuration changes.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`RecommenderXBlock` (how-to)
 

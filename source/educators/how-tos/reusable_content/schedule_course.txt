@@ -19,7 +19,7 @@
 #. At the bottom of the screen, click :guilabel:`Save Changes`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`/educators/references/course_pacing` (reference)
 

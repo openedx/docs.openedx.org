@@ -19,7 +19,7 @@ To disable or enable the Calculator resource, follow these steps.
 #. Select **Apply** to save your configuration changes.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding Pages to a Course` (how to)
 

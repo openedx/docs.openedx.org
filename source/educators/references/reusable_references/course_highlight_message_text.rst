@@ -35,7 +35,7 @@ verified enrollment track.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Automatic Email Messages` (reference)
 

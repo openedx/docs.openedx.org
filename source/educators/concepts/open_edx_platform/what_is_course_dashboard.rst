@@ -31,7 +31,7 @@ The dashboard has two main pages.
 *  The **Programs** page lists any programs offer by your Open edX instance for courses that you are enrolled in. Programs appear on this page if you are enrolled in any course that is part of that program. This page also shows how many courses in the program you have completed, how many are in progres, and the number of remaining courses you have left in the program.
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`Share Courses Social Media <../../how-tos/share_courses_social_media>` (how-to)
 

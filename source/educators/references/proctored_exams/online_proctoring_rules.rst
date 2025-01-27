@@ -125,7 +125,7 @@ team before you make any choices on the exam page. The course team must approve
 your request and make any adjustments before you start your exam.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

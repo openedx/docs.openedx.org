@@ -260,7 +260,7 @@ This element contains an HTML division ``<div>``. The division contains one or
 more paragraphs ``<p>`` of explanatory text.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Math Expression Input` (reference)
 

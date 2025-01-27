@@ -58,7 +58,7 @@ learner profile information for your course. See :ref:`View and download
 student data`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

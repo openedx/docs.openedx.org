@@ -42,7 +42,7 @@ For display equations, you can do either of the following.
     ``[mathjax] equation [/mathjax]``
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Adding MathJax` (reference)
 

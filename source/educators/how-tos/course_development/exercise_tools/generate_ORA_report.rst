@@ -105,7 +105,7 @@ The .csv file contains one row of data for each response from a learner.
   Assessments** column.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Open Response Assessments` (concept)
 

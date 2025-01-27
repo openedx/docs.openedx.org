@@ -193,7 +193,7 @@ You can then create Subsections within the section.
 .. END CREATE A SECTION VIDEO
 
 .. seealso::
- :class: dropdown
+ 
  
  :ref:`Getting Started with Course Content Development` (reference)
  

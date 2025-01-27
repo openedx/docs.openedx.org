@@ -98,7 +98,7 @@ experiment groups, and the second divides learners into three experiment groups.
   group configurations in your course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Offering Differentiated Content` (concept)
 

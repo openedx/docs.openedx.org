@@ -58,7 +58,7 @@ input problem.
   </problem>
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Write Your Own Grader` (reference)
 

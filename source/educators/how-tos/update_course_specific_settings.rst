@@ -34,7 +34,7 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
         learners in the course.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`What is the Course Dashboard` (concept)
 

@@ -61,7 +61,7 @@ Separate from the team maximum size setting, it is possible to override the spec
 a given team group, allowing you to adjust team sizes to fit your course needs.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 

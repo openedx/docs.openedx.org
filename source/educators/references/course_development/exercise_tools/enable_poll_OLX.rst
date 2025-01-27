@@ -114,7 +114,7 @@ The following table describes the attributes of the ``poll`` element.
          Each answer must have a value for ``img`` or ``label``, or both.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Poll Tool` (reference)
 

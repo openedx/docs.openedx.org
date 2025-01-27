@@ -20,7 +20,7 @@ tab on the Studio Home page. For details about content libraries, see
 :ref:`Content Libraries Overview`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Use Randomized Content Blocks` (how to)
 

@@ -29,7 +29,7 @@ different cohorts manually in the LMS by selecting **Instructor** and then
 Cohort Groups by uploading CSV>` in a .csv file.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

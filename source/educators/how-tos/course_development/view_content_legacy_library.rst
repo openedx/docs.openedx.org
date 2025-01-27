@@ -44,7 +44,7 @@ To view the randomized content that was assigned to a specific learner, see
 :ref:`Specific Student View`.
 
 .. seealso::
- :class: dropdown
+ 
 
  :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
  

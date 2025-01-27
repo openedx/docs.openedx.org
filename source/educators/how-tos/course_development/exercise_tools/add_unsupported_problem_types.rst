@@ -28,7 +28,7 @@ in Studio.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create Exercises` (concept)
 

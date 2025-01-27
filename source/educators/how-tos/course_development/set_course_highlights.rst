@@ -78,7 +78,7 @@ Enable Highlight Emails
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`juniper_educator` (reference)
 

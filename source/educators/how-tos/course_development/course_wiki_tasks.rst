@@ -151,7 +151,7 @@ Combine a Current Version with a Previous Version
    selected versions.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create Course Wiki` (how to)
 

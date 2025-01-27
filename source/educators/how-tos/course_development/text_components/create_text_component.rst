@@ -58,7 +58,7 @@ options use the visual editor by default. There is no way to switch between
 Visual and Raw editor types once selected.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Working with Text Components` (reference)
 

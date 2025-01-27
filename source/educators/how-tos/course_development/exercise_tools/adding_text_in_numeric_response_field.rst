@@ -51,7 +51,7 @@ questions that use this attribute.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Numerical Input` (reference)
 

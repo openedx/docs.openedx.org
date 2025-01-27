@@ -356,7 +356,7 @@ in a web browser.
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Create Exercises` (concept)
 

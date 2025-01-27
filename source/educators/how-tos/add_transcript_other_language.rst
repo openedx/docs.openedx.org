@@ -11,7 +11,7 @@ Watch this for an overview of how to add a transcript to a video, including diff
 .. youtube:: qABNazvnAE0
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Video Process Overview` (how-to)
 

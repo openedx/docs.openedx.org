@@ -45,7 +45,7 @@ To change the assignment method of a cohort, follow these steps.
    other cohorts.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Cohorts Overview` (concept)
 

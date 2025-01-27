@@ -66,7 +66,7 @@ To add an LTI 1.3 component to a course unit, follow these steps.
      is published before doing a launch.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`LTI Component` (reference)
 

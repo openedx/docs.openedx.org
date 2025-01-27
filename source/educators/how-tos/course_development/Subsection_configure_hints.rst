@@ -20,7 +20,7 @@ Configure a Hint in a Problem
   and views the next one by selecting **Hint** again.
 
 .. seealso::
- :class:dropdown
+ 
 
  :ref:`Adding Feedback and Hints to a Problem` (reference)
 

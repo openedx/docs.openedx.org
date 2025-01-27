@@ -29,7 +29,7 @@ the **Grace Period on Deadline** field. Enter the value in ``HH:MM`` format.
   :width: 600
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Graded Subsections` (concept)
 

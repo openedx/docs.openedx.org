@@ -208,7 +208,7 @@ LTI URLs for Text components include "html+block" or "html", as follows.
   ``https://openedx-lti.org/lti_provider/courses/course-v1:OpenedX+01-2024+2024-1/block-v1:OpenedX+01-2024+2024-1+type@html+block@f9f3a25e7bab46e583fd1fbbd7a2f6a0``
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
 

@@ -200,7 +200,7 @@ column.
        the learner is no longer eligible for academic credit.
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`ProctoredExams_Overview` (concept)
 

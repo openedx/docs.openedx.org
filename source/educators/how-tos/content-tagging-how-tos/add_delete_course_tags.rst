@@ -82,7 +82,7 @@ Deleting Tags from the Course Outline Page
 
 
 .. seealso::
- :class: dropdown
+ 
 
  :ref:`build-taxonomy-using-template` (how-to)
 
