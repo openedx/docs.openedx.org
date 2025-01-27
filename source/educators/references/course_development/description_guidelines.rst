@@ -29,11 +29,13 @@ An effective short description follows these guidelines.
 * Targets a global audience.
 
 
-========================
-Example Short Descripton
-========================
+=========================
+Example Short Description
+=========================
 
-The first MOOC to teach positive psychology. Learn science-based principles and
+**Course Name:** The Science of Happiness 
+
+**Course Description:** The first MOOC to teach positive psychology. Learn science-based principles and
 practices for a happy, meaningful life.
 
 .. _Course Long Description Guidelines:
@@ -55,10 +57,6 @@ An effective long description follows these guidelines.
 * Uses bullet points instead of dense text paragraphs.
 * Follows SEO guidelines.
 * Targets a global audience.
-
-.. note::
- The first four lines of the course long description are visible when the About
- page opens. Learners can select "See More" to view the full description.
 
 
 =========================
@@ -89,62 +87,25 @@ The following long description is a skills-based example.
   transitioned, or hope to transition, to M&A from other areas such as equities
   or fixed income can use this course to eliminate skill gaps.
 
-.. _What You Will Learn Guidelines:
+.. _Learning Outcome Guidelines:
 
 ************************************
-What You Will Learn Guidelines
+Learning Outcome Guidelines
 ************************************
 
-The "what you will learn" information describes the skills and knowledge
+It is good practice to include a list of learning outcomes describing the skills and knowledge
 learners will acquire in the course in an itemized list. It is recommended that
-you format each item as a bullet with four to ten words.
+you format each item as a short bullet item.
 
 
 ===========================
-Example What You Will Learn
+Example Learning Outcomes
 ===========================
 
-* Basic R Programming
-* An applied understanding of linear and logistic regression
-* Application of text analytics
-* Linear and integer optimization
-
-
-.. _Subject Guidelines:
-
-************************************
-Subject Guidelines
-************************************
-
-A primary subject is required. Optionally, you can select up to two subjects in
-addition to the primary subject. Only the primary subject appears on the About
-page.
-
-
-================
-Example Subjects
-================
-
-A particular course might specify the following subjects.
-
-* Primary subject: History
-* Additional subject: Architecture
-* Additional subject: Anthropology
-
-.. _Level Guidelines:
-
-************************************
-Level Guidelines
-************************************
-
-Use the following guidelines to select the level for your course.
-
-* Introductory - No prerequisites; a learner who has completed some or all
-  secondary school could complete the course.
-* Intermediate - Basic prerequisites; learners need to complete secondary
-  school or some university courses.
-* Advanced - Significant prerequisites; the course is geared to third or fourth
-  year university students or master's degree students.
+* Write basic R scripts to manipulate and visualize data.
+* Apply linear and logistic regression techniques to analyze real-world datasets and interpret the results.
+* Apply text analytics techniques to extract insights from a given dataset and present their findings.
+* Formulate and solve linear and integer optimization problems
 
 .. seealso::
   
