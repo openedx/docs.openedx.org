@@ -20,3 +20,11 @@ This video will take you through adding images (and text!) to your course:
   :ref:`Course About Video Guidelines` (reference)
 
   :ref:`Describe Your Course` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

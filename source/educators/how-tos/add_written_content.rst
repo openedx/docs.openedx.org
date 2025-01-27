@@ -14,3 +14,12 @@ This video will take you through adding text (and images!) to your course:
  :class: dropdown
 
  :ref:`Working with Text Components` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

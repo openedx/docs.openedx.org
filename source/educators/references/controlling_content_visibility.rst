@@ -201,3 +201,11 @@ track, see :ref:`Enrollment Track Specific Courseware Overview`.
   :class: dropdown
 
   :ref:`Prerequisite Course Subsections <configuring_prerequisite_content>` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -54,3 +54,11 @@ quotation marks around the key value.) For more information, see
  :ref:`Poll Tool for OLX` (reference)
 
  :ref:`Enable Poll in OLX` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -140,3 +140,12 @@ updated to provide partial credit for a different answer.
  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how-to)
 
  :ref:`Numerical Input Problem XML` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

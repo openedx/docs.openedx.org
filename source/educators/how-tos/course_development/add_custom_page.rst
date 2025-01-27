@@ -68,3 +68,12 @@ For details on reordering course pages, see additional detail in :ref:`Reorderin
  :ref:`Configure Resources` (how to)
 
  :ref:`Adding Textbooks` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

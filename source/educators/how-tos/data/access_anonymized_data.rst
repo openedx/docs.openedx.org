@@ -38,3 +38,12 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the
  :ref:`Columns in the Student Profile Report` (reference)
 
  :ref:`View and download student data` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

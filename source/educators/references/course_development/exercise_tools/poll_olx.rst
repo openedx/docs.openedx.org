@@ -122,3 +122,12 @@ Example of poll with unable reset functionality
  :ref:`Add Poll` (how to)
 
  :ref:`Enable Poll in OLX` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

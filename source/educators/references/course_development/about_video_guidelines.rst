@@ -48,3 +48,11 @@ For information about how to add an About video to your course About page, see
  :ref:`Course and Program Images and Videos` (reference)
 
  :ref:`Additional Video Options` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

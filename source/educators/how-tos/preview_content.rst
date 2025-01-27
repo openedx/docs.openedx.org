@@ -34,3 +34,12 @@ configured in Studio, and as a learner in the selected group would see it.
 
  :ref:`How to View Published and Released Content` (how-to)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

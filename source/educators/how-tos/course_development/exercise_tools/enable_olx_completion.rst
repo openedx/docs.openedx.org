@@ -27,3 +27,11 @@ the associated problems is lost each time a new ``url_name`` value is assigned.
  :ref:`Enable Completion` (how to)
 
  :ref:`Completion` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

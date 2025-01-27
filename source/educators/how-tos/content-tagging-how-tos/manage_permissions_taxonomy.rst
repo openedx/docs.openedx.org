@@ -32,3 +32,11 @@ Manage Permissions on a Taxonomy
 
    .. image:: /_images/educator_how_tos/taxonomy_tag_drawer.png
       :alt: A screenshot showing a taxonomy and its tag in the Tag Drawer.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

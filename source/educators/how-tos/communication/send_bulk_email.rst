@@ -98,3 +98,11 @@ To send a scheduled email message to course participants, follow these steps.
  :ref:`Review Sent Messages` (how-to)
 
  :ref:`Example Messages to Students` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -24,3 +24,11 @@ To use the import and export options to re-run a course, follow these steps.
  :class: dropdown
 
  :ref:`Updating a New Course after an Import <Update the New Course>` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

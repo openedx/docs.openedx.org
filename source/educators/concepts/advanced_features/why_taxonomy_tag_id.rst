@@ -89,3 +89,11 @@ you are creating a taxonomy related to learning outcomes, you can use these
 unique identifiers as the IDs.
 
 .. _Extend The Properties Of Exponents To Rational Exponents: https://tools.achievethecore.org/coherence-map/HS/N/118/633/632/
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -51,3 +51,11 @@ Publish all the content in a Library
     :ref:`Build a Collection in a Library`
 
     :ref:`Add and Delete tags in Library content`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

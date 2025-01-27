@@ -31,3 +31,11 @@ To set up cohorts and content groups, see this video:
  :ref:`Overview of Group Configurations` (concept)
 
  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -66,3 +66,11 @@ To specify a component's access settings, follow these steps.
     :alt: When any component in a unit has restricted access, a message
       appears in the unit's publishing status bar.
     :width: 250
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

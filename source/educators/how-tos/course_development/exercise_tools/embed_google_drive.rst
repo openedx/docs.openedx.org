@@ -87,3 +87,12 @@ file to the web and obtain the embed code for the file.
 
  :ref:`Add a Google Drive File to Your Course` (how to)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

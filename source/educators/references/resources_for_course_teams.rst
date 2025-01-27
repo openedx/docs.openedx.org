@@ -83,3 +83,12 @@ The Open edX product team maintains public product roadmaps at this `public road
  :ref:`Hiding a Subsection from Learners  <Hide a Subsection from Students>` (how-to)
 
  :ref:`Resources for Open edX` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

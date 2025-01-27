@@ -73,3 +73,11 @@ Delete tags from Library content
     :ref:`Navigate the Library Homepage`
 
     :ref:`Build a Collection in a Library`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

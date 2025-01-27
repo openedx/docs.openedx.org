@@ -34,3 +34,12 @@ cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`.
  :ref:`Roles for Viewing Course Content` (reference)
 
  :ref:`Preview Draft Content` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

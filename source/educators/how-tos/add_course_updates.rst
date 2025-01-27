@@ -13,3 +13,12 @@ Watch this video to understand how to add course updates and handouts:
  :ref:`Adding Course Updates and Handouts` (reference)
 
  :ref:`Add a Course Update` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

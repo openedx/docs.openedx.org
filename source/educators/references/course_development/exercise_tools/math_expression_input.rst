@@ -112,3 +112,11 @@ problem follows.
  :ref:`Adding Math Expression Problem` (how to)
 
  :ref:`Math Expression Input Problem XML` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

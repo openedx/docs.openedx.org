@@ -143,3 +143,12 @@ accessible in *Live* tab in course navigation.
  :ref:`enable_lti_components` (how-to)
 
  :ref:`Determine Content Addresses` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

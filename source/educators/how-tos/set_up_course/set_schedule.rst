@@ -124,3 +124,12 @@ To set the pacing for your course, follow these steps.
   :ref:`Course Pacing` (reference)
 
   :ref:`Additional Course Run Information` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

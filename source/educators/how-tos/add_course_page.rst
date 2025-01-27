@@ -25,3 +25,11 @@ You can create a custom course page as demonstrated in the following video:
  :ref:`The Files Page` (reference)
 
    
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

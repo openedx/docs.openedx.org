@@ -33,3 +33,12 @@ To create a code response problem in Studio, follow these steps.
  :ref:`External Grader` (concept)
 
  :ref:`External Grader Problem Requirements` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

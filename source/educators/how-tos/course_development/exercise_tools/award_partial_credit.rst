@@ -126,3 +126,11 @@ You can enhance and apply this example for your own partial credit problems.
  :ref:`Create a Randomized Custom Python Evaluated Input Problem` (how to)
 
  :ref:`Script Tag Format` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

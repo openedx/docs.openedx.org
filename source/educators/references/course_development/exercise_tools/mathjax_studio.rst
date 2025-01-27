@@ -51,3 +51,12 @@ For display equations, you can do either of the following.
  :ref:`Math Expression Input Problem XML` (reference)
 
  :ref:`Adding MathJax` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

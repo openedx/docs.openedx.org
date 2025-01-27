@@ -9,3 +9,11 @@ Set Up Course Prerequisites
 For help in setting up course requirements, watch this video:
 
 .. youtube:: f7jYFW-iHFw
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -72,3 +72,11 @@ For more information about how to use Studio as an LTI tool provider, see
  :ref:`LTI Component settings` (reference)
 
  :ref:`Accessibility Best Practices for Course Content Development`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

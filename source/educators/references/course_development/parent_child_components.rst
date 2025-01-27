@@ -160,3 +160,11 @@ The following example shows the learner view of the unit described above.
  :ref:`Working with Problem Components` (reference)
  
  :ref:`Working with Video Components` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

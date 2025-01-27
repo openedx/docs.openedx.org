@@ -203,3 +203,12 @@ explanation ID.
  :ref:`Single Select Problem XML` (reference)
 
  :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

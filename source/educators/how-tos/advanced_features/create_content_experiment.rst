@@ -68,3 +68,12 @@ You can now create content for the groups in the experiment.
  :ref:`Create Content for Content Experiment Groups` (how-to)
 
  :ref:`Add Content Experiments to Your Course` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

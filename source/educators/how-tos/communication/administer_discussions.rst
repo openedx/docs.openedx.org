@@ -119,3 +119,12 @@ enrollment period for the course is over.
  :ref:`Moderating_discussions` (concept)
 
  :ref:`Assigning_discussion_roles` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

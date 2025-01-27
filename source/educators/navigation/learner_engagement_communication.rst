@@ -157,3 +157,4 @@ Word Cloud Tool
    :glob:
 
    ../how-tos/course_development/exercise_tools/add_word_cloud.rst
+

@@ -171,3 +171,12 @@ attribute: ``<numericalresponse answer="[5,8)">`` or
  :ref:`Numerical Input Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

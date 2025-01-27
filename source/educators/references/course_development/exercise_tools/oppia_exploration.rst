@@ -48,3 +48,12 @@ Documentation`_.
  :ref:`Enable Additional Exercises and Tools` (how-to)
 
  :ref:`Enable the Oppia Exploration Tool` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

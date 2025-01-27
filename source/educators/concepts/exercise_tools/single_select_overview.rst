@@ -85,3 +85,11 @@ literature. A few guidelines for the creation of such questions follow.
  :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how to)
 
  :ref:`Editing Single Select Problems using the Advanced Editor` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

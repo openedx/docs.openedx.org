@@ -89,3 +89,11 @@ Microsoft Excel for Mac than in OpenOffice Calc.
 If you notice characters that do not display as expected in a spreadsheet, try
 a different spreadsheet application such as LibreOffice or Apache OpenOffice to
 open the .csv file.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

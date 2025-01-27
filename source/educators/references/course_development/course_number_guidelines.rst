@@ -43,3 +43,12 @@ Example Course Numbers
   :ref:`Additional Course Information` (reference)
 
   :ref:`Creating a New Course <Create a New Course>`
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -99,3 +99,12 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 
  :ref:`Managing Divided Discussion Topics` (concept)
  
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

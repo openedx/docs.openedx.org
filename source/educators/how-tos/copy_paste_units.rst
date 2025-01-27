@@ -89,3 +89,11 @@ From the Unit Page
    :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
    
    :ref:`Create a Unit` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

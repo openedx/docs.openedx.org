@@ -19,3 +19,11 @@ While your course is running, after learners have had a chance to complete the o
  :class: dropdown
 
  :ref:`StaffGraded` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

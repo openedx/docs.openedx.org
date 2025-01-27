@@ -71,3 +71,12 @@ Visual and Raw editor types once selected.
  :ref:`Work with HTML code` (how-to)
 
  :ref:`Work with Latex Code` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -43,3 +43,11 @@ For more information, see the following topics.
  :ref:`Supporting Learners with Diverse Needs` (concept)
 
  :ref:`Accessibility Checker` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

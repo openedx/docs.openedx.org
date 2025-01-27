@@ -49,3 +49,11 @@ For more information about using discussions, see :ref:`Running_discussions`.
  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
 
  :ref:`Managing Teams via CSV Upload` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

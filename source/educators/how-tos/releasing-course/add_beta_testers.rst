@@ -137,3 +137,12 @@ problems, questions, and issues can occur while a course is running.
  :class: dropdown
 
  :ref:`Beta_Testing` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -196,3 +196,12 @@ The message also contains a View discussion option that takes the learner to the
  :ref:`Example Messages to Students` (reference)
 
  :ref:`Review Sent Messages` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

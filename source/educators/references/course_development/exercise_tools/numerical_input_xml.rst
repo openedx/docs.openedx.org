@@ -377,3 +377,12 @@ None.
  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
 
  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

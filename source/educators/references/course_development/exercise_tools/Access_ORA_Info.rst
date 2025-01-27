@@ -42,3 +42,12 @@ learner's submission<Remove a learner response from peer grading>`, see
 
  :ref:`ORA Staff Grading` (reference)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

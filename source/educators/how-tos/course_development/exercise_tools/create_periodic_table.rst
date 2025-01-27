@@ -47,3 +47,12 @@ To create the periodic table, you need a Text component.
  :class:dropdown
 
  :ref:`Working with Problem Components`
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

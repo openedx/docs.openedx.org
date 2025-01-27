@@ -69,9 +69,3 @@ Certificate Data
    ../how-tos/data/certificate_data.rst
    ../references/data/certificate_report_columns.rst
    
-   
-   
-   
-   
-   
-   

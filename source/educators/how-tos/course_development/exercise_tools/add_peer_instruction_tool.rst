@@ -169,3 +169,12 @@ answer choice in the peer instruction component.
  :class: dropdown
 
  :ref:`UBC Peer Instruction` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

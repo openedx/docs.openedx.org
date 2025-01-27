@@ -92,3 +92,12 @@ You configure the following fields for each assignment type.
  :ref:`Set the Grade Range` (how-to)
 
  :ref:`Set the Grace Period` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

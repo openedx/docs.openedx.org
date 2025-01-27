@@ -44,3 +44,11 @@ Experiment group assignments have the following characteristics.
 
  :ref:`Set Up Group Configuration for OLX Courses` (how-to
  :ref:`Guidelines for Modifying Group Configurations` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

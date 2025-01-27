@@ -21,3 +21,12 @@ To create a checkbox (also known as "multi-select") problem, follow this video g
  :ref:`Multi select Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

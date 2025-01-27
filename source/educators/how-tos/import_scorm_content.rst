@@ -16,3 +16,11 @@ If you have the need to import SCORM content into your course, watch this video:
   :ref:`SCORM Overview` (reference)
 
   :ref:`SCORM XBlock` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

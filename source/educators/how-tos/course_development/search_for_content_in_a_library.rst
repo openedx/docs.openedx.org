@@ -37,3 +37,11 @@ across all of the content in a Library.
     :ref:`Navigate the Library Homepage`
 
     :ref:`Build a Collection in a Library`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

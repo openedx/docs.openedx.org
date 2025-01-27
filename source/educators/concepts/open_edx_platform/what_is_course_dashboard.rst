@@ -36,3 +36,11 @@ The dashboard has two main pages.
  :doc:`Share Courses Social Media <../../how-tos/share_courses_social_media>` (how-to)
 
  :ref:`What is the User Profile Page` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

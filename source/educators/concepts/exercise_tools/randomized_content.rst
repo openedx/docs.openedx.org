@@ -23,3 +23,11 @@ tab on the Studio Home page. For details about content libraries, see
  :class: dropdown
 
  :ref:`Use Randomized Content Blocks` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

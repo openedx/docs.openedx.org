@@ -19,3 +19,12 @@ This video explains how to add a dropdown-type problem:
   :ref:`Use Hints in a Dropdown Problem` (how-to)
 
   :ref:`Use Feedback in a Dropdown Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -43,3 +43,12 @@ or select all the text within the field and enter text to replace it.
  :ref:`Remove Learner from Team` (how-to)
 
  :ref:`Delete a Team` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

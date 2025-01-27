@@ -40,3 +40,12 @@ After you add a component, it is not visible to learners until you
   :ref:`Reorganizing Components` (how-to)
 
  :ref:`Set Access Restrictions For a Component` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

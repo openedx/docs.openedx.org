@@ -40,3 +40,11 @@ For more, see the following resources:
  :ref:`Import a Course` (how-to)
 
  :ref:`Course Export File Terminology` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

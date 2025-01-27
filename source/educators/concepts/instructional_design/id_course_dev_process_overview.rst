@@ -225,3 +225,11 @@ Remember: Course development is an iterative process. It is important to assume 
   :ref:`Instructional Design Overview` (concept)
 
   :ref:`Instructional Design Templates` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

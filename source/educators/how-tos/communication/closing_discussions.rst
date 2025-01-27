@@ -43,3 +43,11 @@ reopen, follow these steps.
  :ref:`Running_discussions` (concept)
 
  :ref:`Configuring Open edX Discussions` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

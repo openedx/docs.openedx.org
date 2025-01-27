@@ -39,3 +39,12 @@ To disable or enable the Notes application, follow these steps.
  :ref:`Configure Resources` (how to)
 
  :ref:`Adding Textbooks` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

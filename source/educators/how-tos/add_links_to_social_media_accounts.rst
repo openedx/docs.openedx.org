@@ -42,3 +42,11 @@ can click those icons to visit your social media account page.
  :doc:`add_update_full_profile` (how-to)
  :doc:`add_update_limited_profile` (how-to)
  :doc:`view_another_learners_profile` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

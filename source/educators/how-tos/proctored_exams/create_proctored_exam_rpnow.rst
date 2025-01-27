@@ -121,3 +121,12 @@ To specify custom proctored exam rules, follow these steps.
  :ref:`RPNow Proctored Session Results File` (reference)
 
  :ref:`Review RP Proctored Session Results` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

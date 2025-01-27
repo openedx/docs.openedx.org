@@ -55,3 +55,12 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
  :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

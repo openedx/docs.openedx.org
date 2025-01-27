@@ -108,3 +108,12 @@ include quotation marks around the key value. For more information, see
  :class: dropdown
 
  :ref:`Add Peer Instruction Assignment` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

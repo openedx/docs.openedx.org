@@ -51,3 +51,12 @@ For more information about constructing an LTI URL for a course component, see
  :ref:`Open edX as an LTI Provider to Canvas` (how-to)
 
  :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

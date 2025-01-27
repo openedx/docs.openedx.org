@@ -81,3 +81,12 @@ site. For more information, see :ref:`Styling Drag and Drop Problems`.
  :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
 
  :ref:`Drag and Drop` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

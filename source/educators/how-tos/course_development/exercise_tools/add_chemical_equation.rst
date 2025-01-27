@@ -82,3 +82,12 @@ Sample Chemical Equation Problem Code
  :class: dropdown
 
  :ref:`Chemical Equation Problem XML` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

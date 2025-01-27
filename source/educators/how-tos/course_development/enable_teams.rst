@@ -41,3 +41,12 @@ Additional configuration for the Teams application can be found at :ref:`Teams C
  :ref:`Configure Resources` (how to)
 
  :ref:`Adding Textbooks` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

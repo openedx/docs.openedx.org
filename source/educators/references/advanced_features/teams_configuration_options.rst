@@ -72,3 +72,11 @@ a given team group, allowing you to adjust team sizes to fit your course needs.
  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
 
  :ref:`Managing Teams via CSV Upload` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

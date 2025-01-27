@@ -50,3 +50,12 @@ grades or answers for individual problems, see :ref:`Nav Learner Data`.
  :ref:`Add Content in the Course Outline` (reference)
 
  :ref:`Developing Your Course Outline` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

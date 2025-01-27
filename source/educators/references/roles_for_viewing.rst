@@ -184,3 +184,12 @@ Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
  :ref:`Testing Your Course Content` (reference)
  
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

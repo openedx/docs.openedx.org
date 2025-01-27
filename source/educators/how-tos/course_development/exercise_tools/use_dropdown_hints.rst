@@ -27,3 +27,12 @@ you've added, click the trash can icon next to its respective hint field.
  :ref:`Adding Feedback and Hints to a Problem` (reference)
 
  :ref:`Adding Dropdown` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

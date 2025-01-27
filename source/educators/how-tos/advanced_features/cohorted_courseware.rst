@@ -145,3 +145,11 @@ content, see :ref:`Cohorted Courseware Example`.
  :ref:`Viewing Cohort Specific Courseware` (how-to)
  
  :ref:`Delete Content Groups` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

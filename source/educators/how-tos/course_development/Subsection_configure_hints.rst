@@ -29,3 +29,12 @@ Configure a Hint in a Problem
  :ref:`Use Hints in a Dropdown Problem` (how-to)
 
  :ref:`Problem Settings` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

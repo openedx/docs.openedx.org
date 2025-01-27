@@ -52,3 +52,11 @@ problem. An example of a dropdown problem from the learner's perspective follows
  :ref:`Use Hints in a Dropdown Problem` (how to)
 
  :ref:`Use Feedback in a Dropdown Problem` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

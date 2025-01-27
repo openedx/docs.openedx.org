@@ -72,3 +72,11 @@ The site saves your changes automatically.
  :doc:`add_links_to_social_media_accounts` (how-to)
 
  :doc:`view_another_learners_profile` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

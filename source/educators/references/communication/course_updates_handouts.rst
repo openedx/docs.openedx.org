@@ -33,3 +33,11 @@ Learners see the list of course handouts under **Handouts** in the sidebar.
  :class: dropdown
 
  :ref:`Add a Course Update` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

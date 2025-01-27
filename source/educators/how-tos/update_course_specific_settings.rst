@@ -49,3 +49,11 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
 
  :ref:`View Another Learner's Profile` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

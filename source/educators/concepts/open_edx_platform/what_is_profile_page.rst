@@ -51,3 +51,11 @@ You can share either a limited profile or a full profile.
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
  
  :ref:`View Another Learner's Profile` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

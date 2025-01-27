@@ -205,3 +205,11 @@ Unicode characters are correctly saved and displayed.
  :ref:`Moderating_discussions` (concept)
 
  :ref:`Setting Up Divided Discussions` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -118,3 +118,11 @@ your course starts follow.
 * Define methods for managing discussions and guidance for discussion
   moderators, and distribute to the discussion team. See
   :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

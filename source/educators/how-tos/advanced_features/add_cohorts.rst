@@ -81,3 +81,11 @@ learner, review the learner profile information for your course. See
  :ref:`Moderating_discussions` (concept)
 
  :ref:`Setting Up Divided Discussions` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

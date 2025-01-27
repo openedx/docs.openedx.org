@@ -64,3 +64,12 @@ questions that use this attribute.
  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how-to)
 
  :ref:`Numerical Input Problem XML` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

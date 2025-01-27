@@ -123,3 +123,11 @@ Remove content from your Collection
     :ref:`Use content sidebars to manage content`
 
     :ref:`Sync a Library update to your course`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -115,3 +115,11 @@ To import a library, follow these steps.
  :ref:`Create a New Library` (how to)
 
  :ref:`Give Other Users Access to Your Library` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

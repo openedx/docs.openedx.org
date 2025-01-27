@@ -82,3 +82,12 @@ Additional applications and resources can be enabled depending on your course ne
  :ref:`Configure Resources` (how to)
 
  :ref:`Adding Textbooks` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

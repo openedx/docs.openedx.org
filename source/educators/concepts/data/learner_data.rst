@@ -77,3 +77,11 @@ understanding of how the learner population changes over time.
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
 
  :ref:`Manage Learner Grades <Grades>` (how-to) 
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

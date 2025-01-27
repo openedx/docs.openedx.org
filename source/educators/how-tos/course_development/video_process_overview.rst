@@ -42,3 +42,11 @@ The following diagram outlines the general process for adding videos to a course
   :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
 
   :ref:`Add an In Video Quiz` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

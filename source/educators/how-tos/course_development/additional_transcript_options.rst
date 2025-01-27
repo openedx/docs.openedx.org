@@ -108,3 +108,11 @@ To add another downloadable transcript, follow these steps.
  :ref:`Video Process Overview` (how-to)
 
  :ref:`Add Transcript in Another Language` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

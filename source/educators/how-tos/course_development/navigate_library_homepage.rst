@@ -45,3 +45,11 @@ sidebars to manage content`.
     :ref:`Add a Problem Bank to your course for randomization`
 
     :ref:`Add users to Libraries`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

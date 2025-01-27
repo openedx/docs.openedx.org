@@ -108,3 +108,12 @@ When you use **Staff** view in preview mode, you also see any content that is
 
  :ref:`Preview Draft Content` (how-to)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

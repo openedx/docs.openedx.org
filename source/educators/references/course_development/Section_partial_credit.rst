@@ -70,3 +70,12 @@ the learner received out of the total available score and the value in the
  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how-to)
 
  :ref:`Award Partial Credit` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

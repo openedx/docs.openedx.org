@@ -62,3 +62,11 @@ Export a taxonomy
 #. Select the file format you wish to export in.
 
 #. Click :guilabel:`Export`. The file will export to your local machine.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

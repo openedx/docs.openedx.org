@@ -124,3 +124,12 @@ in this report) are configurable in the Open edX site configuration.
  :ref:`View and download student data` (how-to)
 
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

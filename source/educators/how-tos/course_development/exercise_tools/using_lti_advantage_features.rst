@@ -128,3 +128,12 @@ To set up LTI-NRPS services on a component, follow these steps.
  :ref:`Setting up a LTI 1.1 component` (how-to)
 
  :ref:`Setting up a LTI 1.3 component` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

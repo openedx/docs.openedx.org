@@ -61,3 +61,11 @@ a record of all the operations that have run for the entrance exam, select
   :ref:`Specify Prerequisite Courses and Exams` (how-to)
 
   :ref:`Set Up Course Prerequisites` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

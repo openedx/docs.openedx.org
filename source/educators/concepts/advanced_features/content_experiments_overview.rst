@@ -28,3 +28,12 @@ You can run multiple content experiments in your course. You can set up each exp
 To determine the available groupings of learners, you set up group configurations from :ref:`Set Up Group Configuration for OLX Courses`.
 
 You then select which group configuration to use when you add a content experiment :ref:`using Studio <Add a Content Experiment in Studio>` or :ref:`Add a Content Experiment in OLX`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
