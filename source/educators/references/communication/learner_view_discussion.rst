@@ -56,3 +56,12 @@ discussion topics.
  :ref:`Setting Up Divided Discussions` (how-to)
 
  :ref:`Working with Discussion Components` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

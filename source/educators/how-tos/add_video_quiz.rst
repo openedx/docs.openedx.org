@@ -26,3 +26,11 @@ It's possible to add quizzes directly to a video!  Watch this for a how-to:
   :ref:`Create a Video` (how-to)
 
   :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

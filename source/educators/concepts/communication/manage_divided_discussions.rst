@@ -231,3 +231,11 @@ For other options that you can use to view posts, see
  :ref:`Assigning_discussion_roles` (how-to)
 
  :ref:`Administer Discussions` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

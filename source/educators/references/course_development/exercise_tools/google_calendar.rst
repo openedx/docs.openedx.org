@@ -48,3 +48,11 @@ Google user interface. You do not need to edit the Google Calendar component.
  :class: dropdown
 
  :ref:`Embed Google Calendar` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

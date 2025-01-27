@@ -64,3 +64,12 @@ To create the problem illustrated above, follow these steps.
  :class: dropdown
 
  :ref:`Problem with Adaptive Hint XML` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

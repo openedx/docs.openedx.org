@@ -31,3 +31,12 @@ If you delete a page after the course start date, note that the visibility of th
  :ref:`Configure Resources` (how to)
 
  :ref:`Adding Textbooks` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

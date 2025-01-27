@@ -73,3 +73,12 @@ advanced editor. For an overview of hints in problems, see
  :ref:`Text Input Problem XML` (reference)
 
  :ref:`Editing Text Input Problems using the Advanced Editor` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

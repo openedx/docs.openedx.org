@@ -53,3 +53,12 @@ a Library` and :ref:`Get the Latest Version of Library Content <Get the Latest V
  :ref:`Give Other Users Access to Your Library` (how to)
 
  :ref:`Exporting and Importing a Library` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

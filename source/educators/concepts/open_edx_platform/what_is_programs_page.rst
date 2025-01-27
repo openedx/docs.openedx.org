@@ -43,3 +43,11 @@ On the **Programs** page, you can perform the following actions.
  :ref:`Course Outline` (concept)
 
  :ref:`What is the User Profile Page` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

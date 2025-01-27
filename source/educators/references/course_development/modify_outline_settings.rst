@@ -62,3 +62,12 @@ For more information, see the links above.
  :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
  
  :ref:`Resources for Open edX` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

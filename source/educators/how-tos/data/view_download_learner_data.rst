@@ -65,3 +65,11 @@ To view learner data, follow these steps.
  :ref:`Columns in the Student Profile Report` (reference)
 
  :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

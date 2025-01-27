@@ -119,3 +119,11 @@ The following table describes the attribute of the ``survey`` element.
  :class: dropdown
 
  :ref:`Survey Tool` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

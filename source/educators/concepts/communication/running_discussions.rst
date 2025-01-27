@@ -194,3 +194,12 @@ units and all course-wide topics are affected.
  :ref:`Configuring Open edX Discussions` (how-to)
 
  :ref:`Closing Discussions` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -639,3 +639,11 @@ For more information about beta testing, see :ref:`Beta_Testing`.
  :ref:`ORA Staff Grading` (reference)
 
  :ref:`Accessing ORA Assignment Information` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -714,3 +714,12 @@ information, see `Configuring ora2 to prohibit submission of file types`_.
  :ref:`ORA Staff Grading` (reference)
 
  :ref:`Accessing ORA Assignment Information` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

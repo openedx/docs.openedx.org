@@ -124,3 +124,11 @@ If your team is involved in the delivery of a course, you may want to spend some
   :ref:`Instructional Design Overview` (concept)
 
   :ref:`Course Development Process` (concept) 
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

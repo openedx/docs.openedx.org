@@ -156,3 +156,11 @@ Combine a Current Version with a Previous Version
  :ref:`Create Course Wiki` (how to)
 
  :ref:`About Course Wiki` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

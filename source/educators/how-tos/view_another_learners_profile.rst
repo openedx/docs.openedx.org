@@ -34,3 +34,11 @@ The learner's account profile page opens.
  :ref:`Updating Course-Specific Settings` (how-to)
  
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

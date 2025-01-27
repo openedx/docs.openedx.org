@@ -81,3 +81,12 @@ the permissions that you set for an article.
  :ref:`Course Wiki Tasks <Course Wiki Tasks>` (how to)
 
  :ref:`Using the Course Wiki <Create Course Wiki>` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

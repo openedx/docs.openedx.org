@@ -99,3 +99,12 @@ For information about the ``policy.json`` file, see :ref:`Set Up Group Configura
  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
  :ref:`Guidelines for Modifying Group Configurations` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

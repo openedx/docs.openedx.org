@@ -123,3 +123,12 @@ create a taxonomy of cities, like this:
  :ref:`Manage Permissions on a Taxonomy` (how-to) 
 
  :ref:`Export tag data from a course` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

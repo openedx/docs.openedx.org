@@ -35,3 +35,11 @@ learners until you :ref:`publish the unit<Publish a Unit>`.
  :ref:`Reorganizing Components` (how-to)
 
  :ref:`Set Access Restrictions For a Component` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

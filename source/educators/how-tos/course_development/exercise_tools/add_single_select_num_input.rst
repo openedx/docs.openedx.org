@@ -61,3 +61,12 @@ Single Select and Numerical Input Problem Code
  :ref:`Single Select Overview` (concept)
 
  :ref:`Single Select` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

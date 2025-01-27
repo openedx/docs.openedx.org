@@ -133,3 +133,12 @@ You can add hints to a multi-select problem. For an overview of hints in problem
  :ref:`Multi select Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

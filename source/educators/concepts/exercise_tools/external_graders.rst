@@ -114,3 +114,12 @@ When you build your external grader, keep the following requirements in mind.
  :ref:`External Grader Problem Requirements` (reference)
 
  :ref:`Create an External Grader Problem in Studio` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

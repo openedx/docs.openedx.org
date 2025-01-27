@@ -131,3 +131,12 @@ On the page, the learner's status is visible as "Pending", "Satisfactory", or
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
  :ref:`RPNow Proctored Session Results File` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

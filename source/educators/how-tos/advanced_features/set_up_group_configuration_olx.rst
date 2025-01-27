@@ -111,3 +111,12 @@ experiment groups, and the second divides learners into three experiment groups.
  :ref:`Add a Content Experiment in OLX` (how-to)
 
  :ref:`Guidelines for Modifying Group Configurations` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -55,3 +55,11 @@ of the website that hosts that exploration and its ID.
  :ref:`Enable Additional Exercises and Tools` (how-to)
 
  :ref:`Oppia Exploration Tool` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

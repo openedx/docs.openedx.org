@@ -124,3 +124,11 @@ Adding/deleting tags from a Component Block
    “Manage Tags”. The tag drawer will open.
 
 #. Continue steps 3-9 from above.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

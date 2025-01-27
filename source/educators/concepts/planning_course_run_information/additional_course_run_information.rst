@@ -46,3 +46,11 @@ your course, rounded to the nearest whole number.
   :ref:`Setting Course Pacing` (reference)
 
   :ref:`Course Pacing` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

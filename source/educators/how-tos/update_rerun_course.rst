@@ -94,3 +94,12 @@ for launch, see :ref:`Launch`.
  :ref:`Re-running a Course  <Rerun a Course>` (reference)
 
  :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

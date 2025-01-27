@@ -68,3 +68,11 @@ you understand the consequences of these actions. For more details, see
  :ref:`Moderating_discussions` (concept)
 
  :ref:`Setting Up Divided Discussions` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

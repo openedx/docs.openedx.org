@@ -54,3 +54,11 @@ You can now :ref:`add cohorts<Add Cohorts>` to your course.
  :ref:`Changing the Assignment Method of a Cohort` (how-to)
  
  :ref:`Disabling the Cohort Feature` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

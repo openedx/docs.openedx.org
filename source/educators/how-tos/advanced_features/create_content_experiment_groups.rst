@@ -54,3 +54,12 @@ For example, you can add a Text component and a video to Group A.
  :ref:`Create a Content Experiment` (how-to)
 
  :ref:`Add Content Experiments to Your Course` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

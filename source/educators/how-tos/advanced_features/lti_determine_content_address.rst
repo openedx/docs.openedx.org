@@ -221,3 +221,12 @@ LTI URLs for Text components include "html+block" or "html", as follows.
  :ref:`Example: edX as an LTI Provider to Blackboard Provider <Open edX as an LTI Provider to Blackboard>` (reference)
 
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -47,3 +47,11 @@ There are 2 events a SCORM package can emit in order to communicate with the Ope
  :class: dropdown
 
  :ref:`SCORM XBlock` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

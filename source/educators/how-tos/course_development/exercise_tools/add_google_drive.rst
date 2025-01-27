@@ -74,3 +74,11 @@ The value of the ``embed_code`` attribute is the embed code you copied in the
  :ref:`Google Drive Files Tool` (reference)
 
  :ref:`Embed Google Drive Files` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

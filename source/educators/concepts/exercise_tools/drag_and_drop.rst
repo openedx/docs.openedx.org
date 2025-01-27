@@ -98,3 +98,12 @@ message informs the learner that the problem is complete.
  :ref:`Creating a Drag and Drop Problem` (how-to)
 
  :ref:`Drag and Drop` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

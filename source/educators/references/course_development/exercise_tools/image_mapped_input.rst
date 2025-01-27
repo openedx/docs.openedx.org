@@ -33,3 +33,11 @@ You can specify the following types of regions.
  :ref:`Create Image Mapped Input Problem` (how to)
 
  :ref:`Image Mapped Input Problem XML` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -39,3 +39,11 @@ reused in as many courses as an author or course team wishes.
     :ref:`Sync a Library update to your course`
 
     :ref:`Add a Problem Bank to your course for randomization`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

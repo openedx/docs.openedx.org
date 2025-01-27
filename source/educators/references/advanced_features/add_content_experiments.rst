@@ -42,3 +42,12 @@ Components`.
  :ref:`Create Content for Content Experiment Groups` (how-to)
 
  :ref:`Create a Content Experiment` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -66,3 +66,11 @@ For information about how to review and adjust learner grades in the LMS, see
  :ref:`Feedback Best Practices` (concept)
 
  :ref:`Learner View of Problems` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

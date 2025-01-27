@@ -76,3 +76,12 @@ For more information, see :ref:`Setting Up Certificates`.
  :ref:`The Learner View of Grades` (reference)
 
  :ref:`Set the Grace Period` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

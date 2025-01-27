@@ -46,3 +46,12 @@ To change access to the course team configuration options, follow these steps.
  :ref:`Remove Learner from Team` (how-to)
 
  :ref:`Delete a Team` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

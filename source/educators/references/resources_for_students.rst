@@ -37,3 +37,11 @@ these options for getting an answer.
   which can be a good source of information. Outside of the course, a
   course-specific social media (ex: Facebook group) or messaging community (ex: Discord) might be available for
   learners to share information.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

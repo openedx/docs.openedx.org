@@ -272,3 +272,11 @@ inside this tag will be ignored by MathJax processor. An example follows.
  :ref:`Add Text Input Problem` (how to)
 
  :ref:`Text Input Problem XML` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

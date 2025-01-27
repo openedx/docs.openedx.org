@@ -72,3 +72,12 @@ To enable an advanced exercise or tool, follow these steps.
  :ref:`Core Problem Types` (reference)
 
  :ref:`Create Exercises` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

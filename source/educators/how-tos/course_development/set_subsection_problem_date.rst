@@ -121,3 +121,12 @@ To change the results visibility for your subsection, follow these steps.
 
  :ref:`Create an Open Response Assessment Assignment <PA Create an ORA Assignment>` (how-to)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

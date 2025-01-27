@@ -41,3 +41,11 @@ tooltips.
  :ref:`Adding Feedback and Hints to a Problem` (reference)
 
  :ref:`Accessibility Best Practices for Course Content Development` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

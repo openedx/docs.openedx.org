@@ -57,3 +57,12 @@ Google user interface. You do not need to edit the Google Document component.
 
  :ref:`Add a Google Drive File to Your Course` (how to)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -114,3 +114,12 @@ For information about course discussions and managing discussions, see
  :ref:`Teams Configuration Options` (reference)
 
  :ref:`Managing Teams via CSV Upload` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

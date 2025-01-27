@@ -41,3 +41,11 @@ Add a Problem Bank to your course for randomization
     :ref:`Create and edit content in a Library`
 
     :ref:`Build a Collection in a Library`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

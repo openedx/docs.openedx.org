@@ -59,3 +59,12 @@ selected **Show Answer** to reveal the correct answer and an explanation.
  :ref:`Multi select Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

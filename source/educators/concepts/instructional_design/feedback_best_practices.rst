@@ -35,3 +35,12 @@ reason why the selection is correct.
  :ref:`Problem Settings` (reference)
 
  :ref:`Learner View of Problems` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

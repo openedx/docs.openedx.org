@@ -33,3 +33,11 @@ your course.
  :ref:`Reorganizing Components` (how-to)
 
  :ref:`Components that Contain Other Components` (reference)  
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

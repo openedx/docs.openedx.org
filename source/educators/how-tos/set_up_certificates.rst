@@ -22,3 +22,11 @@ You can use the following video for help in setting up certificates:
   :ref:`Issuing Certificates` (how-to)
 
   :ref:`Enable Badges in Course` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

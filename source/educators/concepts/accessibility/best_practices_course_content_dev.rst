@@ -1051,3 +1051,12 @@ Universal Design for Learning Resources
  :ref:`Supporting Learners with Diverse Needs` (concept)
 
  :ref:`Accessibility Checker` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

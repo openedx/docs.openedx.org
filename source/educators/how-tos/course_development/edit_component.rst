@@ -72,3 +72,11 @@ box, but all of them have a **Display Name** field.
  :ref:`Reorganizing Components` (how-to)
 
  :ref:`Set Access Restrictions For a Component` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

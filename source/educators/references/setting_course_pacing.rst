@@ -121,3 +121,11 @@ The relative due date you saved will now be published for all enrolled learners.
  :ref:`Course Pacing` (how-to)
 
  :ref:`Beta_Testing` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

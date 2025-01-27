@@ -47,3 +47,11 @@ Delete Content Groups
  :ref:`Associate Cohorts with Content Groups` (how-to)
  
  :ref:`Viewing Cohort Specific Courseware` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

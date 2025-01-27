@@ -44,3 +44,12 @@ For a step-by-step to grant staff permissions to courses, check out this video:
 
  :ref:`Planning Course Staff  <Course_Staffing>` (reference)
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

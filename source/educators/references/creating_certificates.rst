@@ -83,3 +83,11 @@ logo, are configured on your instance. For more information, see
   :ref:`Issuing Certificates` (how-to)
 
   :ref:`Enable Badges in Course` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

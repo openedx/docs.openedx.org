@@ -52,3 +52,11 @@ For example, the following OLX for a single select problem shows two hints.
  :ref:`Adding Dropdown` (how to)
 
  :ref:`Use Feedback in a Dropdown Problem` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

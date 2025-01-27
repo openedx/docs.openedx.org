@@ -78,3 +78,12 @@ the HTML content in your course.
  :ref:`Add Link to Website Course Unit or File` (how-to)
 
  :ref:`Work with Latex Code` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

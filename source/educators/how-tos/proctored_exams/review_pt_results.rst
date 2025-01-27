@@ -156,3 +156,12 @@ On the page, the learner's status is visible as "Pending", "Satisfactory", or
  :ref:`RPNow Proctored Session Results File` (reference)
 
  :ref:`Review RP Proctored Session Results` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

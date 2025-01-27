@@ -106,3 +106,12 @@ To allow learners to download early certificates, you modify the
   :ref:`Enable Badges in Course` (how-to)
 
   :ref:`Access Certificate Data` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

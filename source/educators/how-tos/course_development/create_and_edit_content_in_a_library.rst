@@ -36,3 +36,11 @@ To create new content:
     :ref:`Use content sidebars to manage content`
 
     :ref:`Add Library content to a course`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

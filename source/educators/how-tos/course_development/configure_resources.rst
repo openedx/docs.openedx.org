@@ -122,3 +122,11 @@ To learn about Flexible Peer Grading and the course override setting, see  :ref:
  :ref:`Teams Overview <CA_Teams_Overview>` (concept)
 
  :ref:`Open Response Assessments` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

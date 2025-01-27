@@ -72,3 +72,12 @@ You can see the OLX for the example problem from the Overview section below.
  :ref:`Use Hints in a Dropdown Problem` (how-to)
 
  :ref:`Use Feedback in a Dropdown Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -188,3 +188,12 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
  :ref:`Single Select Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Multiple Choice Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

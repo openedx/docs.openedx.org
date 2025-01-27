@@ -234,3 +234,12 @@ Error Conditions
  :ref:`Teams Configuration Options` (reference)
 
  :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

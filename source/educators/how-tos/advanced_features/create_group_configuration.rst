@@ -57,8 +57,7 @@ in use in the course:
 
  :ref:`Edit a Group Configuration` (how-to)
 
-Maintenance chart
------------------
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |

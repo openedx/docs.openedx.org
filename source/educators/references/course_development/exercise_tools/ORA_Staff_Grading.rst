@@ -182,3 +182,12 @@ grading claim on any submissions the staff member currently has open, but ungrad
  :ref:`Managing ORA Assignments` (how to)
 
  :ref:`Accessing ORA Assignment Information` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

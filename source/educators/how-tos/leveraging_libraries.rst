@@ -15,3 +15,11 @@ Leveraging Legacy Libraries
 You can use legacy libraries to organize content into a set of reusable, randomizable components.  See the following for details:
 
 .. youtube:: dfqAQ1vSHvc
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

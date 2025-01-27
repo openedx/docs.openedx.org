@@ -46,3 +46,12 @@ Create a Custom JavaScript Display and Grading Problem
  :class: dropdown
 
  :ref:`Custom JavaScript` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -109,3 +109,12 @@ renders as you expect it to.
  :ref:`Supporting Learners with Diverse Needs` (concept)
 
  :ref:`Accessibility Checker` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

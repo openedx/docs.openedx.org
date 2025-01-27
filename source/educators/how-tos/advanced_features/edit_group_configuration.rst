@@ -103,8 +103,7 @@ contains the content experiment.
 
  :ref:`Delete a Group Configuration` (how to)
 
-Maintenance chart
------------------
+**Maintenance chart**
 
 +--------------+------------------------------+----------------+----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer       |   Release      |Test situation                                                  |

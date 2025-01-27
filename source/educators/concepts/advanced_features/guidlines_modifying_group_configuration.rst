@@ -50,3 +50,11 @@ Removing an experiment group affects event data for the course. Ensure that rese
  :ref:`Add a Content Experiment in OLX` (how-to)
 
  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

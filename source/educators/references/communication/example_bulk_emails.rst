@@ -446,3 +446,11 @@ When preparing a message from this template, search for values enclosed by
  :ref:`Send_Bulk_Email` (how-to)
 
  :ref:`Review Sent Messages` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

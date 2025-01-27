@@ -121,3 +121,11 @@ The following table describes the attributes of the ``poll`` element.
  :ref:`Add Poll` (how to)
 
  :ref:`Poll Tool for OLX` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

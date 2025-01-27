@@ -53,3 +53,11 @@ different experiment group of learners sees.
  :ref:`Create a Content Experiment` (how-to)
 
  :ref:`Add Content Experiments to Your Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

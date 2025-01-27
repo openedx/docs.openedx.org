@@ -35,3 +35,12 @@ Learn here how to :ref:`Create a Custom Python Evaluated Input Problem in Studio
  :ref:`Script Tag Format` (concept)
 
  :ref:`Award Partial Credit` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

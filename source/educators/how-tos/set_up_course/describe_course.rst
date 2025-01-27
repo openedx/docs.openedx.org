@@ -149,3 +149,12 @@ To set the hours per week week estimate in Studio, follow these steps.
   :ref:`Course About Video Guidelines` (reference)
 
   :ref:`Add an Image` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -184,5 +184,3 @@ Open edX Educators
          :expand:
 
          See All
-
-

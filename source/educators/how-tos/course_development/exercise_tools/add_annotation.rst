@@ -100,3 +100,11 @@ To add the **Annotation problem** segment of the problem, follow these steps.
 
  :ref:`Chemical Equation` (how-to)
  
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

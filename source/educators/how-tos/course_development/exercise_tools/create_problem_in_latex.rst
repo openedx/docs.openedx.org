@@ -61,3 +61,12 @@ To create a problem written in LaTeX, follow these steps.
  :ref:`Work with Latex Code` (how-to)
 
  :ref:`Adding Numerical Input Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

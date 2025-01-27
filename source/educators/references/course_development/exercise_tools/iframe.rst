@@ -35,3 +35,12 @@ For more information about iframes, see the `iframe: The Inline Frame element
  :class: dropdown
 
  :ref:`Create IFrame` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

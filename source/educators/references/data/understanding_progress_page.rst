@@ -117,3 +117,11 @@ If your course is eligible, this feature will describe which of the following st
   :ref:`Interpret the Problem Grade Report` (reference)
 
   :ref:`Manage Learner Grades <Grades>` (how-to)     
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -78,3 +78,11 @@ To import a course, follow these steps.
  :ref:`Course Export File Terminology` (reference)
 
  :ref:`Work with the targz File` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

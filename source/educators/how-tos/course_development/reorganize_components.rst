@@ -88,3 +88,12 @@ Follow these steps to move components to another unit in the course outline.
  :ref:`Delete a Component` (how-to)
 
  :ref:`Set Access Restrictions For a Component` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

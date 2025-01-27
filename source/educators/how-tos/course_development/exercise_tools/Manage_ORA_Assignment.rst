@@ -473,3 +473,12 @@ grading>`, locate the specific submission by following these steps.
  :ref:`ORA Staff Grading` (reference)
 
  :ref:`Accessing ORA Assignment Information` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

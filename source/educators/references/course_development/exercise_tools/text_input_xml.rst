@@ -306,3 +306,12 @@ None.
  :ref:`Add Text Input Problem` (how to)
 
  :ref:`Editing Text Input Problems using the Advanced Editor` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

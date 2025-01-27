@@ -46,3 +46,11 @@ but for the sake of clarity, some of these fields are documented here.
   :class: dropdown
 
   :ref:`Learner Data` (concept)  
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

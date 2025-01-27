@@ -58,3 +58,11 @@ Cohort Groups by uploading CSV>` in a .csv file.
  :ref:`Moderating_discussions` (concept)
 
  :ref:`Setting Up Divided Discussions` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

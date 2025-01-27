@@ -77,3 +77,12 @@ Create a Discussion Component
  :ref:`Guidance for Discussion Moderators` (concept)
  
  :ref:`Set up Discussions in Cohorted Courses` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

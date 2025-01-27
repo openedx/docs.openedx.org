@@ -93,3 +93,12 @@ To add a course handout, follow these steps.
  :class: dropdown
 
  :ref:`Adding Course Updates and Handouts` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

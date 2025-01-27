@@ -216,3 +216,12 @@ For example, the following ``regions`` attribute creates a pentagon.
  :ref:`Image Mapped Input` (reference)
 
  :ref:`Image Mapped Input Problem XML` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

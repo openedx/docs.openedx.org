@@ -168,3 +168,11 @@ To unenroll learners, you supply the email addresses of enrolled learners.
  :class: dropdown
 
  :ref:`Enrollment_Requirements` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

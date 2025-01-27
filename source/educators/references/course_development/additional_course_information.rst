@@ -233,3 +233,11 @@ information, see :ref:`Add Course Metadata <Add Course Metadata>`.
   :ref:`Course Description` (reference)
 
   :ref:`Creating a New Course <Create a New Course>`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

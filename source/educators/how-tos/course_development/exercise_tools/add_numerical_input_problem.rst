@@ -139,3 +139,11 @@ advanced editor. For an overview of hints in problems, see
  :ref:`Numerical Input Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

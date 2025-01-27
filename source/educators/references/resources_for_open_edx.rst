@@ -50,3 +50,11 @@ page for a list of the documentation that is available.
  :ref:`Resources for Open edX Course Teams` (reference)
 
  :ref:`hiding a subsection from learners <Hide a Subsection from Students>` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

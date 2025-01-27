@@ -140,3 +140,11 @@ columns that provide the following information.
   :ref:`Understanding the Progress Page` (reference
 
   :ref:`Manage Learner Grades <Grades>` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

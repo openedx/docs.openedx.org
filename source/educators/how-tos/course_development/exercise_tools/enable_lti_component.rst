@@ -34,3 +34,12 @@ information, see :ref:`Enable Additional Exercises and Tools`.
  :ref:`Setting up a LTI 1.3 component` (how-to)
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

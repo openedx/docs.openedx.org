@@ -160,3 +160,12 @@ See :ref:`Adding Feedback and Hints to a Problem` for more information on adding
  :ref:`Multi select Problem XML` (reference)
 
  :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

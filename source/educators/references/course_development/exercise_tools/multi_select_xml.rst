@@ -342,3 +342,11 @@ correctness.
  :ref:`Adding Feedback and Hints to a Problem` (how-to)
 
  :ref:`Awarding Partial Credit in a Multi select Problem` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

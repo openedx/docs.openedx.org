@@ -358,3 +358,11 @@ As you get started building your online course on your platform, here are five i
   :ref:`Course Development Process` (concept)
 
   :ref:`Instructional Design Templates` (concept)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

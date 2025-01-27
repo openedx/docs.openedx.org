@@ -145,3 +145,12 @@ visible. You can set these attributes in Studio.
  :ref:`Problem Settings` (reference)
 
  :ref:`Feedback Best Practices` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

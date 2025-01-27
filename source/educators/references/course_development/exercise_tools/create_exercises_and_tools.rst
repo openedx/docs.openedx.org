@@ -363,3 +363,11 @@ in a web browser.
  :ref:`Enable Additional Exercises and Tools` (how to)
 
  :ref:`Add Unsupported Exercises Problems` (how to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

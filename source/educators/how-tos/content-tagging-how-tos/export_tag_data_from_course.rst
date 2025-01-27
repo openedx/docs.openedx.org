@@ -32,3 +32,11 @@ Export a CSV file that reports on which tags have been added to which parts of t
  :ref:`Add and delete tags on course content` (how-to)
 
  :ref:`create-flat-taxonomy` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

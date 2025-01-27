@@ -59,3 +59,12 @@ For more information about how to designate a subsection as a timed exam, see
  :ref:`Set the Grade Range` (how-to)
 
  :ref:`Set the Grace Period` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

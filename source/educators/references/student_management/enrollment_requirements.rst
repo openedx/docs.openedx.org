@@ -46,3 +46,11 @@ either before or after the learners register their user accounts.
  :class: dropdown
 
  :ref:`Manage_Course_Enrollments` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

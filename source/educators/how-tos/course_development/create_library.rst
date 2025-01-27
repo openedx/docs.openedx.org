@@ -79,3 +79,12 @@ you create it, see :ref:`Give Other Users Access to Your Library`.
  :ref:`Give Other Users Access to Your Library` (how to)
 
  :ref:`Exporting and Importing a Library` (how to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

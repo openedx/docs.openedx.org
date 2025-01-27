@@ -38,3 +38,11 @@ the **Grace Period on Deadline** field. Enter the value in ``HH:MM`` format.
  :ref:`The Learner View of Grades` (reference)
 
  :ref:`Set the Grade Range` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

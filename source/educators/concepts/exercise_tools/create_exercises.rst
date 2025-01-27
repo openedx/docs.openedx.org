@@ -43,3 +43,12 @@ selection of other exercises and tools that you can add to your course.
  :ref:`Core Problem Types` (reference)
 
  :ref:`Enable Additional Exercises and Tools` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
