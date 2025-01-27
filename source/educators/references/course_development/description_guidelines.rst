@@ -29,9 +29,9 @@ An effective short description follows these guidelines.
 * Targets a global audience.
 
 
-========================
+=========================
 Example Short Description
-========================
+=========================
 
 **Course Name:** The Science of Happiness 
 
