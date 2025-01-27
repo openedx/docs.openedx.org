@@ -13,7 +13,7 @@ To enable cohorts in your course, follow these steps.
 
    .. image:: /_images/educator_how_tos/enable_cohorts_checkbox.png
       :alt: The Course Instructor page with Cohorts tab selected and Enable Cohorts checkbox selected.
-      :width: 500
+      :width: 800
 
 
 You can now :ref:`add cohorts<Add Cohorts>` to your course.
