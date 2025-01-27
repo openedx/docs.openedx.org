@@ -30,7 +30,7 @@ An effective short description follows these guidelines.
 
 
 ========================
-Example Short Descripton
+Example Short Description
 ========================
 
 **Course Name:** The Science of Happiness 
@@ -87,7 +87,7 @@ The following long description is a skills-based example.
   transitioned, or hope to transition, to M&A from other areas such as equities
   or fixed income can use this course to eliminate skill gaps.
 
-.. _Learning Objectives Guidelines:
+.. _Learning Outcome Guidelines:
 
 ************************************
 Learning Outcome Guidelines
