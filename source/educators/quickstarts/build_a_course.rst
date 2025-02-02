@@ -57,26 +57,26 @@ Follow the steps below to build your first course. By the end, you will have a f
 .. include:: ../how-tos/reusable_content/add_video.txt
 
 
-8. Add Written Content to the Unit
+7. Add Written Content to the Unit
 **********************************
 
 .. include:: ../how-tos/reusable_content/add_html.txt
 
 
-7. Add a Multiple Choice Question to the Unit
+8. Add a Multiple Choice Question to the Unit
 *********************************************
 
 .. include:: ../how-tos/reusable_content/add_multiple_choice.txt
 
 
-8. Publish the Course
+9. Publish the Course
 *********************
 
 .. include:: ../how-tos/reusable_content/publish_course.txt
 
 
-9. View as a Learner
-********************
+10. View as a Learner
+*********************
 
 .. include:: ../how-tos/reusable_content/view_as_learner.txt
 
