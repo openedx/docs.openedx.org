@@ -5,7 +5,7 @@ Specify Content as Available Only to Particular Content Groups
 
 .. tags:: educator, how-to
 
-In Studio, you can modify the settings of units or components to give access
+In Studio, you can modify the settings of **units** or **components** to give access
 only to learners who are in cohorts associated with particular content groups.
 You cannot specify entire subsections or sections for restricted access by
 particular content groups.
@@ -63,8 +63,8 @@ Group` and :ref:`Viewing Cohort Specific Courseware`.
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------+----------+-------------------------------------------------------------------+
+| Review Date  | Working Group Reviewer  | Release  | Test situation                                                    |
++--------------+-------------------------+----------+-------------------------------------------------------------------+
+| 2025-01      | Educators WG - J Swope  | Redwood  | `Fail <https://github.com/openedx/docs.openedx.org/issues/811>`_  |
++--------------+-------------------------+----------+-------------------------------------------------------------------+
