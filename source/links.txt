@@ -656,9 +656,6 @@
 
 .. _Installing, Configuring, and Running the Open edX Platform: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/index.html
 
-
-.. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
-
 .. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
 
 .. _taking_timed_exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/timed_exams.html

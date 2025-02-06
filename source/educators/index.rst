@@ -168,6 +168,27 @@ Open edX Educators
 
          See All
 
+   .. grid-item-card:: OLX
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/educators_homepage/advanced_features_undraw.png
+         :alt: A user with abstract icons around them
+         :height: 150px
+         :align: center
+         :target: navigation/olx.html
+
+      | :ref:`TBD`
+      | :ref:`TBD`
+      | :ref:`TBD`
+
+      .. button-ref:: navigation/olx
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
+
    .. grid-item-card:: Other
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0

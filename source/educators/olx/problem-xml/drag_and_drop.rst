@@ -1,0 +1,1 @@
+.. include:: /educators/concepts/exercise_tools/drag_and_drop.rst
