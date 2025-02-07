@@ -5,6 +5,8 @@ Awarding Partial Credit for a Problem
 
 .. tags:: educator, reference
 
+.. START PARTIAL CREDIT
+
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit a partially correct answer.
 
@@ -20,7 +22,7 @@ demonstrates their progress.
 For more information about configuring partial credit, see the topic for each
 problem type.
 
-
+************************************
 How Learners Receive Partial Credit
 ************************************
 
@@ -37,7 +39,7 @@ received 25% of the possible points.
  :width: 500
 
 
-
+***************************************************
 Partial Credit and Reporting on Learner Performance
 ***************************************************
 
@@ -60,6 +62,8 @@ the learner's submission history. The submission history shows the score that
 the learner received out of the total available score and the value in the
 ``correctness`` field is ``partially-correct``.  For more information, see
 :ref:`Student_Answer_Submission`.
+
+.. END PARTIAL CREDIT
 
 .. seealso::
 

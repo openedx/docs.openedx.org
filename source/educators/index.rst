@@ -178,10 +178,6 @@ Open edX Educators
          :align: center
          :target: navigation/olx.html
 
-      | :ref:`TBD`
-      | :ref:`TBD`
-      | :ref:`TBD`
-
       .. button-ref:: navigation/olx
          :color: primary
          :outline:

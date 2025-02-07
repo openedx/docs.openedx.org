@@ -1,1 +1,0 @@
-.. include:: /educators/how-tos/course_development/exercise_tools/add_single_select_num_input.rst

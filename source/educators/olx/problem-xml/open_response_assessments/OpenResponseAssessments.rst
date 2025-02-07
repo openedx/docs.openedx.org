@@ -1,1 +1,0 @@
-.. include:: /educators/concepts/exercise_tools/OpenResponseAssessments.rst

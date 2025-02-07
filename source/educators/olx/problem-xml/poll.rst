@@ -1,2 +1,0 @@
-.. include:: /educators/how-tos/course_development/exercise_tools/create_poll_olx.rst
-

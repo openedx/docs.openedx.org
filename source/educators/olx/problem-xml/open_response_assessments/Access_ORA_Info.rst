@@ -1,1 +1,0 @@
-.. include:: /educators/how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst

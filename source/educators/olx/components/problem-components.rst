@@ -67,6 +67,8 @@ For more information, see :ref:`Grading Policy`.
 .. _Problem Student View:
 
 .. include:: /educators/references/course_development/Section_learner_problem_view.rst
+  :start-after: .. START LEARNER VIEW OF PROBLEM
+  :end-before: .. END LEARNER VIEW OF PROBLEM
 
 ******************
 Problem Settings
@@ -119,7 +121,7 @@ element.
 
   <problem weight="2.0"></problem>
 
-.. _Randomization:
+.. _Randomization OLX:
 
 ===============
 Randomization
@@ -139,7 +141,7 @@ You can specify the following values for this attribute.
 * never
 * per_student
 
-.. _Show Answer:
+.. _Show Answer OLX:
 
 ===============
 Show Answer
@@ -163,7 +165,7 @@ You can specify the following values for this attribute.
 * past_due
 * never
 
-.. _Show Reset Button:
+.. _Show Reset Button OLX:
 
 =================
 Show Reset Button
@@ -176,7 +178,7 @@ Using OLX, you set the show reset button preference as an attribute of the
 
   <problem show_reset_button="true"></problem>
 
-.. _Modifying a Released Problem:
+.. _Modifying a Released Problem OLX:
 
 *********************************
 Modifying a Released Problem
@@ -228,7 +230,7 @@ ask your learners to go back and resubmit answers to a problem.
    problem.
 
 
-.. _Multiple Problems in One Component:
+.. _Multiple Problems in One Component OLX:
 
 ***********************************
 Multiple Problems in One Component
@@ -268,10 +270,14 @@ the answers for all the problems in the component appear.
   component.
 
 .. include:: /educators/references/course_development/exercise_tools/Section_adding_hints.rst
+  :start-after: .. START ADDING FEEDBACK AND HINTS
+  :end-before: .. END ADDING FEEDBACK AND HINTS
 
 .. include:: /educators/references/course_development/Section_partial_credit.rst
+  :start-after: .. START PARTIAL CREDIT
+  :end-before: .. END PARTIAL CREDIT
 
-.. _Problem Randomization:
+.. _Problem Randomization OLX:
 
 ***********************************
 Problem Randomization
@@ -292,7 +298,7 @@ content libraries. For more information, see :ref:`Randomized Content Blocks`.
    :ref:`Randomization`.
 
 
-.. _Create Randomized Problems:
+.. _Create Randomized Problems OLX:
 
 ====================================
 Create Randomized Problems
@@ -307,3 +313,5 @@ content libraries. For more information, see
 :ref:`Randomized Content Blocks`.
 
 .. include:: /educators/references/course_development/Section_adding_tooltip.rst
+  :start-after: .. START ADDING TOOLTIPS
+  :end-before: .. END ADDING TOOLTIPS
