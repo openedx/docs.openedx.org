@@ -5,11 +5,14 @@ Adding Feedback and Hints to a Problem
 
 .. tags:: educator, reference
 
+.. START ADDING FEEDBACK AND HINTS
+
 You can add feedback, hints, or both to the simple problem types.
 
 By using hints and feedback, you can provide learners with guidance and help as
 they work on problems.
 
+*****************************************
 Feedback in Response to Attempted Answers
 *****************************************
 
@@ -23,7 +26,7 @@ case, feedback is given for an incorrect answer.
  :alt: Image of a single select problem with feedback.
  :width: 600
 
-
+**************************************
 Best Practices for Providing Feedback
 **************************************
 
@@ -44,7 +47,7 @@ answer is correct. Especially in questions where learners are able to guess,
 such as single select and dropdown problems, the feedback should provide a
 reason why the selection is correct.
 
-
+*****************************
 Providing Hints for Problems
 *****************************
 
@@ -68,6 +71,7 @@ been used, the **Hint** or **Next Hint** option is no longer available.
  :alt: Image of a single select problem with the second hint.
  :width: 600
 
+**********************************
 Best Practices for Providing Hints
 **********************************
 
@@ -83,7 +87,7 @@ The second hint can then take the learner further towards the answer.
 In problems that are not graded, the third and final hint can explain the
 solution for learners who are still confused.
 
-
+***************************************
 Create Problems with Feedback and Hints
 ***************************************
 
@@ -93,7 +97,7 @@ for all problem types. **Group feedback** can only be applied to
 
 Any number of **hints** can be added for all simple problem types.
 
-
+*********************************
 Adding Answer-specific Feedback
 *********************************
 
@@ -110,7 +114,7 @@ learner does not select that answer.
    The “is not selected” feedback field shown above is only available
    for the **multi-select** problem type.
 
-
+************************************************
 Adding Group Feedback for Multi-Select Problems
 ************************************************
 
@@ -125,6 +129,7 @@ the **multi-select** problem type.
  :alt: Image of the group feedback settings.
  :width: 300
 
+**************
 Adding Hints
 **************
 
@@ -135,6 +140,8 @@ hints for learners.
 .. image:: /_images/educator_references/problem_editor_hints_box.png
  :alt: Image of the hints settings.
  :width: 300
+
+.. END ADDING FEEDBACK AND HINTS
 
 .. seealso::
  

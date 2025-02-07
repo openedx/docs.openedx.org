@@ -5,6 +5,8 @@ Adding Tooltips to a Problem
 
 .. tags:: educator, reference
 
+.. START ADDING TOOLTIPS
+
 You can add inline tooltips to help learners understand terminology or other aspects of a problem. Tooltips display text to learners when they move their
 cursors over a tooltip icon.
 
@@ -34,6 +36,8 @@ tooltips.
             Investment</clarification> over 20 years.
           </p>
        . . .
+
+.. END ADDING TOOLTIPS
 
 .. seealso::
  

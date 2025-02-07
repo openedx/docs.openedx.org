@@ -145,7 +145,7 @@ LTI Component Settings
        This setting is only applied if **Scored** is set to **True**.
 
        For more information about problem weights and computing point scores,
-       see `problem weight`_.
+       see :ref:`Problem Weight`.
 
    * - Hide External Tool
      - Controls whether the LTI component will display the remote LTI tool on
