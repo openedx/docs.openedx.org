@@ -1,6 +1,8 @@
 Hooks Extension Framework
 #########################
 
+.. tags:: developer, concept
+
 What is the Hooks Extension Framework?
 **************************************
 
@@ -230,9 +232,15 @@ By following these steps, you can start contributing to the Hooks Extension Fram
 
 For more specifics about Open edX Events and Filters, please visit the :doc:`openedx-events <openedx-events:index>` and :doc:`openedx-filters <openedx-filters:index>` documentation.
 
-.. _Open edX Django plugins: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/plugins/readme.html
+.. _Open edX Django plugins: https://docs.openedx.org/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
 .. _openedx-events: https://github.com/openedx/openedx-events
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/
 .. _Product Proposal: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
 .. _attrs: https://www.attrs.org/en/stable/
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2025-02-10    | María Grimaldi                |   Sumac        |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
