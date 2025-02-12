@@ -1,4 +1,4 @@
-.. _edX Developer's Guide:
+.. _Open edX Developer's Guide:
 
 ##########################
 Open edX Developer's Guide

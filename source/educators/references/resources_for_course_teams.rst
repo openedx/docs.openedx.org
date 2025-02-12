@@ -24,13 +24,6 @@ Documentation
 
 Documentation for course teams is available from the docs.openedx.org web page.
 
-* `Building and Running an Open edX Course`_ is a comprehensive guide with
-  concepts and procedures to help you build a course in Studio and then
-  use the Learning Management System (LMS) to run a course.
-
-  You can access this guide by selecting **Help** in Studio or from the
-  instructor dashboard in the LMS.
-
 These guides open in your web browser. The left side of each page includes a
 **Search docs** field and links to the contents of that guide. To open or save
 a PDF version, select **v: latest** at the lower right of the page, then select

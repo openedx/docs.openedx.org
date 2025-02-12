@@ -699,8 +699,6 @@
 
 .. _Mathematics meta: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
-.. _Building and Running an Open edX Course: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/
-
 
 .. ###### WIP MIGRATION LINKS ######
 .. _edX Partner Portal: https://partners.edx.org
