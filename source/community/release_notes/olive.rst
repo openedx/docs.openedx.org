@@ -204,29 +204,29 @@ Settings and Toggles
 
 New settings and toggles added since the Nutmeg release:
 
-* `CUSTOM_RESOURCE_TEMPLATES_DIRECTORY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-CUSTOM_RESOURCE_TEMPLATES_DIRECTORY>`_
-* `LEARNER_RECORD_MFE_URL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-LEARNER_RECORD_MFE_URL>`_
-* `MFE_CONFIG <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG>`_
-* `MFE_CONFIG_API_CACHE_TIMEOUT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG_API_CACHE_TIMEOUT>`_
-* `MFE_CONFIG_OVERRIDES <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-MFE_CONFIG_OVERRIDES>`_
-* `PREPEND_LOCALE_PATHS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-PREPEND_LOCALE_PATHS>`_
-* `DISABLE_JWT_FOR_MOBILE <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-DISABLE_JWT_FOR_MOBILE>`_
-* `DISABLE_UNENROLLMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['DISABLE_UNENROLLMENT']>`_
-* `ENABLE_DYNAMIC_REGISTRATION_FIELDS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_DYNAMIC_REGISTRATION_FIELDS>`_
-* `ENABLE_MFE_CONFIG_API <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_MFE_CONFIG_API>`_
-* `ENABLE_CERTIFICATES_IDV_REQUIREMENT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_CERTIFICATES_IDV_REQUIREMENT']>`_
-* `SEND_CATALOG_INFO_SIGNAL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-SEND_CATALOG_INFO_SIGNAL>`_
-* `contentstore.bypass_olx_failure <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.bypass_olx_failure>`_
-* `contentstore.individualize_anonymous_user_id <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.individualize_anonymous_user_id>`_
-* `contentstore.split_library_on_studio_dashboard <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-contentstore.split_library_on_studio_dashboard>`_
-* `course_apps.exams_ida <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-course_apps.exams_ida>`_
-* `course_live.enable_big_blue_button <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-course_live.enable_big_blue_button>`_
-* `credentials.use_learner_record_mfe <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-credentials.use_learner_record_mfe>`_
-* `discussions.enable_learners_stats <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_learners_stats>`_
-* `discussions.enable_reported_content_email_notifications <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_reported_content_email_notifications>`_
-* `student.enable_2u_recommendations <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-student.enable_2u_recommendations>`_
-* `student.enable_amplitude_recommendations <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-student.enable_amplitude_recommendations>`_
-* `student.enable_enrollment_confirmation_email <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-student.enable_enrollment_confirmation_email>`_
+* `CUSTOM_RESOURCE_TEMPLATES_DIRECTORY <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-CUSTOM_RESOURCE_TEMPLATES_DIRECTORY>`_
+* `LEARNER_RECORD_MFE_URL <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-LEARNER_RECORD_MFE_URL>`_
+* `MFE_CONFIG <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-MFE_CONFIG>`_
+* `MFE_CONFIG_API_CACHE_TIMEOUT <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-MFE_CONFIG_API_CACHE_TIMEOUT>`_
+* `MFE_CONFIG_OVERRIDES <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-MFE_CONFIG_OVERRIDES>`_
+* `PREPEND_LOCALE_PATHS <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-PREPEND_LOCALE_PATHS>`_
+* `DISABLE_JWT_FOR_MOBILE <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-DISABLE_JWT_FOR_MOBILE>`_
+* `DISABLE_UNENROLLMENT <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['DISABLE_UNENROLLMENT']>`_
+* `ENABLE_DYNAMIC_REGISTRATION_FIELDS <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENABLE_DYNAMIC_REGISTRATION_FIELDS>`_
+* `ENABLE_MFE_CONFIG_API <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENABLE_MFE_CONFIG_API>`_
+* `ENABLE_CERTIFICATES_IDV_REQUIREMENT <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_CERTIFICATES_IDV_REQUIREMENT']>`_
+* `SEND_CATALOG_INFO_SIGNAL <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-SEND_CATALOG_INFO_SIGNAL>`_
+* `contentstore.bypass_olx_failure <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-contentstore.bypass_olx_failure>`_
+* `contentstore.individualize_anonymous_user_id <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-contentstore.individualize_anonymous_user_id>`_
+* `contentstore.split_library_on_studio_dashboard <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-contentstore.split_library_on_studio_dashboard>`_
+* `course_apps.exams_ida <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-course_apps.exams_ida>`_
+* `course_live.enable_big_blue_button <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-course_live.enable_big_blue_button>`_
+* `credentials.use_learner_record_mfe <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-credentials.use_learner_record_mfe>`_
+* `discussions.enable_learners_stats <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_learners_stats>`_
+* `discussions.enable_reported_content_email_notifications <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_reported_content_email_notifications>`_
+* `student.enable_2u_recommendations <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-student.enable_2u_recommendations>`_
+* `student.enable_amplitude_recommendations <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-student.enable_amplitude_recommendations>`_
+* `student.enable_enrollment_confirmation_email <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-student.enable_enrollment_confirmation_email>`_
 
 The following settings were removed:
 

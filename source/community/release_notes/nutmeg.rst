@@ -135,7 +135,7 @@ Administrators & Operators
 
 * It's now possible to add optional fields to the registration form that are always visible and do not require the user to click the checkbox "Support education research by providing additional information." Use the new :code:`optional-exposed` setting in the `REGISTRATION_EXTRA_FIELDS`_ setting.
 
-.. _REGISTRATION_EXTRA_FIELDS: https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-REGISTRATION_EXTRA_FIELDS
+.. _REGISTRATION_EXTRA_FIELDS: https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-REGISTRATION_EXTRA_FIELDS
 
 * Added an activation opt in checkbox to the registration form (default checked) so user can agree to receive marketing messages. The field :code:`marketing_emails_opt_in` is now enabled by default in the `REGISTRATION_EXTRA_FIELDS`_ setting.
 
@@ -193,44 +193,44 @@ Settings and Toggles
 
 New settings and toggles added since the Maple release:
 
-* `CELERY_EXTRA_IMPORTS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-CELERY_EXTRA_IMPORTS>`_
-* `DISCUSSIONS_MFE_FEEDBACK_URL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-DISCUSSIONS_MFE_FEEDBACK_URL%20=%20None>`_
-* `ORA_GRADING_MICROFRONTEND_URL <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-ORA_GRADING_MICROFRONTEND_URL>`_
+* `CELERY_EXTRA_IMPORTS <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-CELERY_EXTRA_IMPORTS>`_
+* `DISCUSSIONS_MFE_FEEDBACK_URL <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-DISCUSSIONS_MFE_FEEDBACK_URL%20=%20None>`_
+* `ORA_GRADING_MICROFRONTEND_URL <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-ORA_GRADING_MICROFRONTEND_URL>`_
 
-* `RATELIMIT_RATE <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-RATELIMIT_RATE>`_
-* `REGISTRATION_RATELIMIT <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-REGISTRATION_RATELIMIT>`_
-* `COURSEGRAPH_CONNECTION <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-COURSEGRAPH_CONNECTION>`_
-* `COURSEGRAPH_JOB_QUEUE <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-COURSEGRAPH_JOB_QUEUE>`_
-* `PREPEND_LOCALE_PATHS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/settings.html#setting-PREPEND_LOCALE_PATHS>`_
-* `BULK_EMAIL_SEND_USING_EDX_ACE <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-BULK_EMAIL_SEND_USING_EDX_ACE>`_
-* `COURSEGRAPH_DUMP_COURSE_ON_PUBLISH <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-COURSEGRAPH_DUMP_COURSE_ON_PUBLISH>`_
-* `ENABLE_AUTHN_LOGIN_BLOCK_HIBP_POLICY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_AUTHN_LOGIN_BLOCK_HIBP_POLICY>`_
-* `ENABLE_AUTHN_LOGIN_NUDGE_HIBP_POLICY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_AUTHN_LOGIN_NUDGE_HIBP_POLICY>`_
-* `ENABLE_AUTHN_REGISTER_HIBP_POLICY <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_AUTHN_REGISTER_HIBP_POLICY>`_
-* `ENABLE_COPPA_COMPLIANCE <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENABLE_COPPA_COMPLIANCE>`_
-* `ENFORCE_SAFE_SESSIONS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-ENFORCE_SAFE_SESSIONS>`_
-* `FEATURES['ENABLE_AUTOMATED_SIGNUPS_EXTRA_FIELDS'] <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_AUTOMATED_SIGNUPS_EXTRA_FIELDS']>`_
-* `FEATURES['ENABLE_INTEGRITY_SIGNATURE'] <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_INTEGRITY_SIGNATURE']>`_
-* `FEATURES['ENABLE_NEW_BULK_EMAIL_EXPERIENCE'] <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_NEW_BULK_EMAIL_EXPERIENCE']>`_
-* `FEATURES['ENABLE_PASSWORD_RESET_FAILURE_EMAIL'] <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_PASSWORD_RESET_FAILURE_EMAIL']>`_
-* `FEATURES['SHOW_PROGRESS_BAR'] <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['SHOW_PROGRESS_BAR']>`_
-* `LOG_REQUEST_USER_CHANGE_HEADERS <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-LOG_REQUEST_USER_CHANGE_HEADERS>`_
-* `MARK_LIBRARY_CONTENT_BLOCK_COMPLETE_ON_VIEW <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-MARK_LIBRARY_CONTENT_BLOCK_COMPLETE_ON_VIEW>`_
-* `RATELIMIT_ENABLE <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-RATELIMIT_ENABLE>`_
-* `SEARCH_SKIP_SHOW_IN_CATALOG_FILTERING <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-SEARCH_SKIP_SHOW_IN_CATALOG_FILTERING>`_
-* `course_live.enable_course_live <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-course_live.enable_course_live>`_
-* `courseware.enable_new_financial_assistance_flow <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-courseware.enable_new_financial_assistance_flow>`_
-* `discussions.enable_discussions_mfe <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_discussions_mfe>`_
-* `discussions.enable_learners_tab_in_discussions_mfe <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_learners_tab_in_discussions_mfe>`_
-* `discussions.enable_moderation_reason_codes <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_moderation_reason_codes>`_
-* `discussions.enable_new_structure_discussions <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_new_structure_discussions>`_
-* `discussions.enable_reported_content_email_notifications <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-discussions.enable_reported_content_email_notifications>`_
-* `learner_dashboard.enable_masters_program_tab_view <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-learner_dashboard.enable_masters_program_tab_view>`_
-* `learner_dashboard.enable_program_tab_view <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-learner_dashboard.enable_program_tab_view>`_
-* `learner_dashboard.enable_program_tab_view <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-learner_dashboard.enable_program_tab_view>`_
-* `new_core_editors.use_new_problem_editor <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-new_core_editors.use_new_problem_editor>`_
-* `new_core_editors.use_new_text_editor <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-new_core_editors.use_new_text_editor>`_
-* `new_core_editors.use_new_video_editor <https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-new_core_editors.use_new_video_editor>`_
+* `RATELIMIT_RATE <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-RATELIMIT_RATE>`_
+* `REGISTRATION_RATELIMIT <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-REGISTRATION_RATELIMIT>`_
+* `COURSEGRAPH_CONNECTION <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-COURSEGRAPH_CONNECTION>`_
+* `COURSEGRAPH_JOB_QUEUE <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-COURSEGRAPH_JOB_QUEUE>`_
+* `PREPEND_LOCALE_PATHS <https://docs.openedx.org/projects/edx-platform/en/latest/settings.html#setting-PREPEND_LOCALE_PATHS>`_
+* `BULK_EMAIL_SEND_USING_EDX_ACE <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-BULK_EMAIL_SEND_USING_EDX_ACE>`_
+* `COURSEGRAPH_DUMP_COURSE_ON_PUBLISH <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-COURSEGRAPH_DUMP_COURSE_ON_PUBLISH>`_
+* `ENABLE_AUTHN_LOGIN_BLOCK_HIBP_POLICY <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENABLE_AUTHN_LOGIN_BLOCK_HIBP_POLICY>`_
+* `ENABLE_AUTHN_LOGIN_NUDGE_HIBP_POLICY <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENABLE_AUTHN_LOGIN_NUDGE_HIBP_POLICY>`_
+* `ENABLE_AUTHN_REGISTER_HIBP_POLICY <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENABLE_AUTHN_REGISTER_HIBP_POLICY>`_
+* `ENABLE_COPPA_COMPLIANCE <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENABLE_COPPA_COMPLIANCE>`_
+* `ENFORCE_SAFE_SESSIONS <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-ENFORCE_SAFE_SESSIONS>`_
+* `FEATURES['ENABLE_AUTOMATED_SIGNUPS_EXTRA_FIELDS'] <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_AUTOMATED_SIGNUPS_EXTRA_FIELDS']>`_
+* `FEATURES['ENABLE_INTEGRITY_SIGNATURE'] <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_INTEGRITY_SIGNATURE']>`_
+* `FEATURES['ENABLE_NEW_BULK_EMAIL_EXPERIENCE'] <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_NEW_BULK_EMAIL_EXPERIENCE']>`_
+* `FEATURES['ENABLE_PASSWORD_RESET_FAILURE_EMAIL'] <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_PASSWORD_RESET_FAILURE_EMAIL']>`_
+* `FEATURES['SHOW_PROGRESS_BAR'] <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['SHOW_PROGRESS_BAR']>`_
+* `LOG_REQUEST_USER_CHANGE_HEADERS <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-LOG_REQUEST_USER_CHANGE_HEADERS>`_
+* `MARK_LIBRARY_CONTENT_BLOCK_COMPLETE_ON_VIEW <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-MARK_LIBRARY_CONTENT_BLOCK_COMPLETE_ON_VIEW>`_
+* `RATELIMIT_ENABLE <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-RATELIMIT_ENABLE>`_
+* `SEARCH_SKIP_SHOW_IN_CATALOG_FILTERING <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-SEARCH_SKIP_SHOW_IN_CATALOG_FILTERING>`_
+* `course_live.enable_course_live <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-course_live.enable_course_live>`_
+* `courseware.enable_new_financial_assistance_flow <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-courseware.enable_new_financial_assistance_flow>`_
+* `discussions.enable_discussions_mfe <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_discussions_mfe>`_
+* `discussions.enable_learners_tab_in_discussions_mfe <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_learners_tab_in_discussions_mfe>`_
+* `discussions.enable_moderation_reason_codes <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_moderation_reason_codes>`_
+* `discussions.enable_new_structure_discussions <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_new_structure_discussions>`_
+* `discussions.enable_reported_content_email_notifications <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-discussions.enable_reported_content_email_notifications>`_
+* `learner_dashboard.enable_masters_program_tab_view <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-learner_dashboard.enable_masters_program_tab_view>`_
+* `learner_dashboard.enable_program_tab_view <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-learner_dashboard.enable_program_tab_view>`_
+* `learner_dashboard.enable_program_tab_view <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-learner_dashboard.enable_program_tab_view>`_
+* `new_core_editors.use_new_problem_editor <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-new_core_editors.use_new_problem_editor>`_
+* `new_core_editors.use_new_text_editor <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-new_core_editors.use_new_text_editor>`_
+* `new_core_editors.use_new_video_editor <https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-new_core_editors.use_new_video_editor>`_
 
 
 

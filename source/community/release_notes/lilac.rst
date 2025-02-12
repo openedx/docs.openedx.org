@@ -59,7 +59,7 @@ When a learner reaches the end of the course, they will see a new navigation but
 
 The 3-day Streak Milestone is live and celebrates learners who engage with their course on 3 consecutive days. It also provides normative insights into how learners’ behavior connects to successful course outcomes. (TBD Image)
 
-See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
+See https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
 
 Mobile Experience
 =================
@@ -154,7 +154,7 @@ Course Upsell Messaging and Payment
 Settings and Toggles Documentation
 ==================================
 
-Documentation for settings and toggles is much improved, but still incomplete. See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/index.html
+Documentation for settings and toggles is much improved, but still incomplete. See https://docs.openedx.org/projects/edx-platform/en/latest/index.html
 
 New settings introduced in Lilac include:
 
