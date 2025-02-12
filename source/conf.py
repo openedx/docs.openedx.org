@@ -54,7 +54,7 @@ extensions = [
 graphviz_output_format = "svg"
 
 rediraffe_redirects = {
-    "community/release_notes/latest.rst": "community/release_notes/redwood.rst",
+    "community/release_notes/latest.rst": "community/release_notes/index.rst",
 }
 
 tags_create_tags = True
