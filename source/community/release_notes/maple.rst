@@ -352,7 +352,7 @@ See the sections above on OAuth and Certificates.
 Settings and Toggles
 ====================
 
-Documentation for settings and toggles is much improved, but still incomplete. See https://edx.readthedocs.io/projects/edx-platform-technical/en/latest/index.html
+Documentation for settings and toggles is much improved, but still incomplete. See https://docs.openedx.org/projects/edx-platform/en/latest/index.html
 
 
 Dependency updates
