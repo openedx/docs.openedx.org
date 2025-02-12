@@ -16,7 +16,7 @@
 
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
-.. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
+.. _edX Enrollment API: https://docs.openedx.org/projects/edx-platform/en/latest/references/lms_apis.html
 
 .. _Course Navigation Changes: https://open.edx.org/announcements/update-course-navigation-changes
 
@@ -248,7 +248,7 @@
 .. _Testing in Django: https://docs.djangoproject.com/en/1.8/topics/testing/
 .. _Django sites framework: https://docs.djangoproject.com/en/1.8/ref/contrib/sites
 .. _Jasmine: http://jasmine.github.io/2.3/introduction.html
-.. _edX JavaScript Style Guide: https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/javascript-guidelines.html
+.. _edX JavaScript Style Guide: https://docs.openedx.org/en/latest/developers/references/developer_guide/style_guides/javascript-guidelines.html#javascript-style-guide
 .. _JSHint: http://www.jshint.com/
 .. _jscs: https://www.npmjs.org/package/jscs
 .. _Waffle: http://waffle.readthedocs.io/en/latest
