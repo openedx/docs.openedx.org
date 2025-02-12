@@ -10,7 +10,7 @@ Juniper spans January 2019 through May 2020. You can also review details about
 Open edX. Below is a summary of the changes for each of the main platform
 areas, along with a way to jump down to each section of the release notes.
 
-.. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
 .. _Open edX Platform: https://open.edx.org
 
 .. toctree::
