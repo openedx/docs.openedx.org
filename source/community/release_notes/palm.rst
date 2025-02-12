@@ -5,7 +5,7 @@ Open edX Palm Release - Developer & Operator Notes
 
 These are the release notes for the Palm release, the 16th community release of the Open edX Platform, spanning changes from October 11, 2022, to April 11, 2023.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
 .. _Open edX Platform: https://openedx.org
 
 .. contents::

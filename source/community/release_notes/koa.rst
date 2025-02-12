@@ -5,7 +5,7 @@ Open edX Koa Release
 
 These are the release notes for the Koa release, the 11th community release of the Open edX Platform, spanning changes from May 23 to November 12 2020.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_ if you are new to Open edX.
 
-.. _earlier releases: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
 .. _Open edX Platform: https://open.edx.org
 
 .. contents::

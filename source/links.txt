@@ -72,7 +72,7 @@
 
 .. _edX pattern library: http://ux.edx.org/design_elements/colors/
 
-.. _Open edX Named Releases page: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html
+.. _Open edX Named Releases page: https://docs.openedx.org/en/latest/community/release_notes/index.html
 
 .. _Open edX Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/
 
