@@ -9,7 +9,7 @@ To create a content group, follow these steps.
 
 #. In Studio, select **Settings**, then select **Group Configurations**.
 
-#. On the **Group Configurations** page, select **New content group**.
+#. On the **Group Configurations** page, select **Add your first content group**, or **New content group** if you have already created one.
 
    .. image:: /_images/educator_how_tos/Cohorts_AddContentGroup.png
     :width: 600
@@ -58,5 +58,5 @@ Groups`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-01      | Educators WG - J Swope        | Redwood        | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
