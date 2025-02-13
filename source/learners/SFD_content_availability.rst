@@ -138,4 +138,4 @@ option to access your web certificate.
   For information about how to access certificates, including how to view,
   print, and share certificates, see :ref:`openlearners:Certificates`.
 
-.. include:: ../../links/links.rst
+

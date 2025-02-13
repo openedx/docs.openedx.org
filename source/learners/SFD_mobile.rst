@@ -509,4 +509,4 @@ If problems persist, let us know. On the **My Courses** page, select the
 "menu" icon, and then select **Submit Feedback**.
 
 
-.. include:: ../../links/links.rst
+

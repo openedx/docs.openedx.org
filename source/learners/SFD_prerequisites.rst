@@ -90,4 +90,4 @@ navigation pane, and you can access all available course materials.
 
 
 
-.. include:: ../../links/links.rst
+

@@ -114,4 +114,4 @@ these options for getting an answer.
   learners to share information.
 
 
-.. include:: ../../links/links.rst
+

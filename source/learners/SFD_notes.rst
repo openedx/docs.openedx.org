@@ -263,4 +263,4 @@ To edit or delete a note, follow these steps.
 
 To close the note editor without making any changes, press **Esc**.
 
-.. include:: ../../links/links.rst
+

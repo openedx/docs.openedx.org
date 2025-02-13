@@ -88,4 +88,4 @@ corner of the course calendar.
 For more information about Google calendars, see the `Google Calendar
 website`_.
 
-.. include:: ../../links/links.rst
+

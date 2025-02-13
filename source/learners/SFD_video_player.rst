@@ -95,4 +95,4 @@ by an explanation of each option or control on the video player.
 For a demonstration of the edX video player, see `Videos on edX`_ in the edX
 DemoX course.
 
-.. include:: ../../links/links.rst
+

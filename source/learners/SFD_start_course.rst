@@ -164,4 +164,4 @@ When you select **Resume Course**, the course opens to the unit that you most
 recently completed.
 
 
-.. include:: ../../links/links.rst
+

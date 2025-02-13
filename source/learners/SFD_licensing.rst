@@ -86,4 +86,4 @@ the license at the bottom right of the video player.
 For a license that reserves some, but not all, rights, you can select the
 license to get see information about your rights.
 
-.. include:: ../../links/links.rst
+
