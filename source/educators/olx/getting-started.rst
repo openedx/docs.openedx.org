@@ -4,7 +4,7 @@
 Getting Started with OLX
 ###########################
 
-To develop your course in OLX (open learning XML), edX's XML markup format, you
+To develop your course in OLX (open learning XML), the XML markup format for the Open edX platform, you
 complete the following steps.
 
  #.  :ref:`Define course policies<Course Policies>`.
