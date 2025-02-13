@@ -28,23 +28,21 @@ purposes, among others.
 As a student, you can perform the following tasks, depending on the permissions
 that are set for the wiki.
 
-* :ref:`Add a wiki article<Adding a Wiki Article>`.
+* Add a wiki article.
 
-* :ref:`Edit a wiki article<Editing a Wiki Article>`. If you allow students to
-  edit an article, you see an **Edit** option for that article on the right
+* Edit a wiki article. If you allow students to edit an article, you see an **Edit** option for that article on the right
   side of the page. Note that only course team members can delete articles
   completely.
 
-* :ref:`Search for wiki articles<Searching for Wiki Articles>`.
+* Search for wiki articles.
 
-* :ref:`Manage versions of a wiki article<Managing Versions of a Wiki
-  Article>`.
+* Manage versions of a wiki article.
 
-.. include:: ../../shared/course_assets/wiki_tasks.rst
+.. include:: /educators/how-tos/course_development/course_wiki_tasks.rst
+  :start-after: .. START MANAGING WIKI ARTICLES
+  :end-before: .. END MANAGING WIKI ARTICLES
 
 The wiki for each course is a "child" wiki of the edX-wide wiki. From within
 any course wiki, selecting the top level **Wiki** link in the breadcrumb trail
 in the upper-left corner of the page takes you to the edX-wide wiki. To get
 back to your course wiki, select the **Wiki** tab at the top of the page.
-
-.. include:: ../../links/links.rst
