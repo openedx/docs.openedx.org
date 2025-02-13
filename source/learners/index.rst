@@ -29,4 +29,4 @@ Open edX Learner's Guide
    sfd_notifications/index
    SFD_wiki
    SFD_licensing
-   front_matter/index
+   front_matter/read_me

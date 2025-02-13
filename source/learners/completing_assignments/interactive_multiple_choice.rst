@@ -76,7 +76,6 @@ explanation are likely to be shown to other learners when they get to this part
 of the assignment.
 
 .. image:: /_images/learners/pi_review.png
-.. image:: /_images/learners/pi_review.png
   :width: 600
   :alt: The answers and explanations submitted by three other learners.
 
