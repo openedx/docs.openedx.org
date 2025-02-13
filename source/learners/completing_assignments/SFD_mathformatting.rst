@@ -440,4 +440,3 @@ use MathJax to format the text that you type.
 For detailed information about how to enter math expressions in course
 discussions, see `Math Formatting in Course Discussions`_.
 
-.. include:: ../../../links/links.rst

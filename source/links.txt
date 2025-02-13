@@ -662,11 +662,6 @@
 
 .. _course discussions index: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/index.html
 
-.. _sfd notes: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_notes.html
-
-.. _sfd check progress: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_check_progress.html
-
-.. _sfd wiki: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_wiki.html
 
 .. _pub creating a course run: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/index.html
 
@@ -679,10 +674,6 @@
 .. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
 
 .. _add a post: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/add_post.html#adding-a-post
-
-.. _video player: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_video_player.html
-
-.. _math formatting: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/SFD_mathformatting.html
 
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
 

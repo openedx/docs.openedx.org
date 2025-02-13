@@ -291,5 +291,3 @@ edit or delete contributions from other learners.
   * To delete the contribution, select **Delete**, and then select **Delete** in
     the confirmation box.
 
-.. include:: ../../../links/links.rst
-
