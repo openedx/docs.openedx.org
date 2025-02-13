@@ -66,19 +66,12 @@ about the first reply to the post.
 Receiving Email Notifications
 ==============================
 
-.. only:: Open_edX
-
-  If your course is set up to send email notifications for discussion posts,
-  the first time another learner or member of the course team responds to a
-  post that you have made, you receive an email notification.
+If your course is set up to send email notifications for discussion posts,
+the first time another learner or member of the course team responds to a
+post that you have made, you receive an email notification.
 
 .. Re: the above: It's technically the *platform* and not the course that would
 .. be set up to send email notifications, but that won't matter to Open edX
 .. learners and would be more complicated to explain.
-
-.. only:: Partners
-
-  By default, the first time another learner or member of the course team
-  responds to a post that you have made, you receive an email notification.
 
 You only receive an email notification for the first response.

@@ -4,40 +4,10 @@
 Welcome!
 #################
 
-.. only:: Partners
-
-  Welcome to online learning with edX! Founded by Harvard University and MIT in
-  2012, edX is an online learning destination and MOOC provider,
-  offering high-quality courses from the world’s best universities and
-  institutions to learners everywhere. We are a leading MOOC provider
-  that is both mission driven and open source. Our mission is to increase access to
-  high-quality education for everyone, everywhere.
-
-  At edX, we are glad to welcome new learners to the :ref:`edx.org or edX Edge
-  websites<Intro edxorg and Edge>`, or to the edX mobile app, as well as to all
-  of the other websites that use the Open edX platform to deliver courses
-  around the world. We hope that you are as excited about online learning as
-  we are.
-
-We hope that this guide helps you with your transition to online learning. The
+Welcome Learner!We hope that this guide helps you with your transition to online learning. The
 guide answers common questions about topics like getting started in an online
 course, earning certificates, participating in course discussions, and
 completing some of the exercises you may see in your course.
-
-.. only:: Partners
-
- This guide is continually being updated and expanded. If you have any comments
- or questions about this guide, select **Feedback** on any page.
-
- .. note::  If you have comments or :ref:`questions about a specific course<If
-    You Have Questions In Course>`, first check the discussions in your course
-    or information in updates on the **Course** page to see if your question has
-    been answered there. Join your course discussion and add a question post to
-    get answers from the course team or other learners.
-
-    To contact the edX Learner Support team, select **Contact Support** on any page
-    in this guide.
-
 
 .. contents::
   :local:

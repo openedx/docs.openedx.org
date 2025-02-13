@@ -8,17 +8,8 @@ As soon as you enroll in a course, you can access some information about the
 course. However, if the course start date has not passed, you cannot access
 course lessons or assignments.
 
-
-.. only:: Partners
-
-  For more information, see :ref:`Course Availability` and :ref:`Differences
-  Between Instructor- and Self-Paced Courses<SFD Course Pacing>`.
-
-
-.. only:: Open_edX
-
-  For information about availability of course content, see
-  :ref:`course_content_availability`.
+For information about availability of course content, see
+:ref:`course_content_availability`.
 
 .. contents::
   :local:
@@ -39,42 +30,14 @@ materials before the start date.
   date for a course, and then set a calendar reminder for that date. Some
   courses also publish a start time.
 
-.. only:: Partners
 
-  The course start date is available in several locations.
+After you enroll in a course, the course is visible on your dashboard. The
+course start date is located below the course title.
 
-  * The course card on edx.org. The course start date is located at the bottom
-    of the card.
-
-    .. image:: /_images/learners/CourseCard_StartDate.png
-     :alt: A course card, showing the course start date at the bottom of the
-         card.
-
-  * The course About page. The course start date is located above the **Enroll
-    Now** option.
-
-    .. image:: /_images/learners/SFD_StartDateOnCourseAbout.png
-     :width: 600
-     :alt: A course's About page with the start date above the Enroll Now
-         button.
-
-  * The course on your :ref:`dashboard<SFD Learner Dashboard>`. The course
-    start date is located below the course title.
-
-    .. image:: /_images/learners/SFD_StartDateOnDashboard.png
-     :width: 600
-     :alt: A course listing on a learner's dashboard, with the start date under
-       the name of the course.
-
-.. only:: Open_edX
-
-  After you enroll in a course, the course is visible on your dashboard. The
-  course start date is located below the course title.
-
-    .. image:: /_images/learners/SFD_StartDateOnDashboard.png
-     :width: 600
-     :alt: A course listing on a learner's dashboard, with the start date under
-       the name of the course.
+  .. image:: /_images/learners/SFD_StartDateOnDashboard.png
+    :width: 600
+    :alt: A course listing on a learner's dashboard, with the start date under
+      the name of the course.
 
 For more information about different course statuses, see :ref:`Course
 Availability`
@@ -90,12 +53,6 @@ Start or Resume a Course
 After you enroll in a course, the course is visible on your :ref:`dashboard
 <SFD Dashboard>` together with the course :ref:`start date <Start Date
 and Duration>`. After the course start date has passed, you can access course content.
-
-.. only:: Partners
-
- If a course is not visible on your dashboard, select the edX logo at the top
- of the page to view the `edX course catalog`_, and then select and
- :ref:`enroll <SFD Enrolling in a Course>` in the course that you want.
 
 After the course start date has passed, you can access course content.
 

@@ -20,16 +20,9 @@ menu options.
   information about yourself that other course participants can see, such as an
   image and biographical information.
 
-* :ref:`Account<SFD Update Account Settings>` gives you access to your account
+* The Account page gives you access to your account
   settings and preferences. For example, you can update your password or email
   address and set your :ref:`time zone<Time Zones>`.
-
-  .. only:: Partners
-
-    On the **Account Settings** page, you can also view your :ref:`edX order
-    history<View Order History>` and link your edX account to a social media or
-    organization account.
-
 
 .. _SFD Learner Dashboard:
 
@@ -52,17 +45,6 @@ You can find information about your courses and change course-specific email
 subscription settings on your dashboard. For more information, see :ref:`Find or
 Change Course Information`.
 
-.. only:: Partners
-
-The dashboard has three main pages.
-
-*   The **Courses** page provides information about your courses and allows you to change course settings. By
-    default, the dashboard opens to the **Courses** page. The **Courses** page on the dashboard now includes two main categories of filters with subcategories in each main category. **Course Status** includes 'In progress,' 'Not Started,' 'Done,' 'Not Enrolled,' and 'Upgraded.' These different filters allow you to filter all of the courses based on the course status. **Sort** includes 'Last enrolled' and 'Title (A-Z).' These filters allow you to filter the course alphabetically or when you were last enrolled in the course. 
-    
-*  The **Programs** page lists any programs, such as XSeries or MicroMasters programs, that edX offers for courses that you are enrolled in. Programs appear on this page if you are enrolled in any course that is part of that program. This page also shows how many courses in the program you have completed, how many are in progres, and the number of remaining courses you have left in the program. For more information, see :ref:`Programs Page`.
-    
-*  The **Discover New** page take you to `the edX website <https://www.edx.org/search>`_ and will allow you to search for any courses on the edX platform that interest you.
-
 .. _Social Sharing:
 
 ======================================
@@ -72,9 +54,7 @@ Sharing Your Courses on Social Media
 On your dashboard, you can share the courses you are enrolled in on social
 media sites such as Facebook and Twitter.
 
-.. only:: Open_edX
-
- This feature is available only if it has been enabled by your course provider.
+This feature is available only if it has been enabled by your course provider.
 
 #. Sign in to the social media site on which you want to share your course
    enrollment.
@@ -91,41 +71,37 @@ media sites such as Facebook and Twitter.
 #. Select the appropriate button to publish your message on the social media
    site.
 
-.. only:: Partners
+.. _Programs Page:
 
-  .. _Programs Page:
+=======================
+Explore edX Programs
+=======================
 
-  =======================
-  Explore edX Programs
-  =======================
+The **Programs** page lists the :ref:`programs<About Programs>` that you have
+enrolled in. You see a program on this page if you are enrolled in any courses
+that are part of that program.
 
-  The **Programs** page lists the :ref:`programs<About Programs>` that you have
-  enrolled in. You see a program on this page if you are enrolled in any courses
-  that are part of that program.
+On the **Programs** page, you can perform the following actions.
 
-  On the **Programs** page, you can perform the following actions.
+* Access information about a program and enroll in more of the program's
+   courses.
 
-  * Access information about a program and enroll in more of the program's
-    courses.
+   To access information about a program, select that program. A page opens
+   that provides details about the program, as well as links to enroll in or
+   upgrade to the verified track in all courses in that program.
 
-    To access information about a program, select that program. A page opens
-    that provides details about the program, as well as links to enroll in or
-    upgrade to the verified track in all courses in that program.
+* View your progress for each program.
 
-  * View your progress for each program.
+   Under the name of each program are indications of your progress through the
+   program. You see the number of courses in the program that you have
+   completed, the number of courses in the program that you are enrolled in,
+   and the number of courses in the program that you are not yet enrolled in.
 
-    Under the name of each program are indications of your progress through the
-    program. You see the number of courses in the program that you have
-    completed, the number of courses in the program that you are enrolled in,
-    and the number of courses in the program that you are not yet enrolled in.
+* Access any program certificates you have earned.
 
-  * Access any program certificates you have earned.
-
-    In the right pane, a **Program Certificates** list shows the names of
-    programs for which you have earned certificates. For more information about
-    the program, or to view the certificate, select the name of the program.
-
-
+   In the right pane, a **Program Certificates** list shows the names of
+   programs for which you have earned certificates. For more information about
+   the program, or to view the certificate, select the name of the program.
 
 .. _SFD Profile Page:
 

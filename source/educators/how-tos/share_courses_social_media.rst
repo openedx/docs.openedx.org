@@ -8,9 +8,7 @@ Sharing Your Courses on Social Media
 On your dashboard, you can share the courses you are enrolled in on social
 media sites such as Facebook and Twitter.
 
-.. only:: Open_edX
-
- This feature is available only if it has been enabled by your course provider.
+This feature is available only if it has been enabled by your course provider.
 
 #. Sign in to the social media site on which you want to share your course
    enrollment.
@@ -26,10 +24,6 @@ media sites such as Facebook and Twitter.
 
 #. Select the appropriate button to publish your message on the social media
    site.
-
-.. _Explore edX Programs:
-
-.. only:: Partners
 
 
 .. seealso::

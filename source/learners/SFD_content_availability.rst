@@ -127,15 +127,7 @@ option to access your web certificate.
    :width: 600
    :alt: Dashboard with course name, grade, and link to the certificate.
 
-
-.. only:: Partners
-
-  For information about how to access certificates, including how to view,
-  print, and share certificates, see :ref:`learners:Certificates`.
-
-.. only:: Open_edX
-
-  For information about how to access certificates, including how to view,
-  print, and share certificates, see :ref:`openlearners:Certificates`.
+For information about how to access certificates, including how to view,
+print, and share certificates, see :ref:`Certificates`.
 
 

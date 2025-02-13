@@ -15,10 +15,6 @@ smartphone or tablet to take edX courses.
 Overview of the edX Mobile App
 ********************************************************
 
-.. only:: Partners
-
-  The edX app is a companion to the `edx.org`_ website.
-
 You can use the app to do the following things.
 
 * Register and create an account
@@ -30,19 +26,10 @@ You can use the app to do the following things.
 * Download course videos for watching when you do not have an internet
   connection
 
+.. note:: Some assignments are not available on the mobile app. If your course includes timed exams or proctored
+   exams, you cannot take them using the app.
 
-.. only:: Partners
-
-  .. note:: EdX recommends that you complete all graded assignments in a web
-     browser on a computer. If your course includes timed exams or proctored
-     exams, you cannot take them using the app.
-
-
-.. The "General Questions" and "Getting Started" sections that follow apply only to edX partners/edx.org
-
-.. only:: Partners
-
- .. _General Questions:
+.. _General Questions:
 
  *************************
  General Questions
