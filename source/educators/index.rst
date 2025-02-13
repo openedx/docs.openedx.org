@@ -178,6 +178,9 @@ Open edX Educators
          :align: center
          :target: navigation/olx.html
 
+      | :ref:`What is Open Learning XML?`
+      | :ref:`Getting Started with OLX`
+
       .. button-ref:: navigation/olx
          :color: primary
          :outline:
