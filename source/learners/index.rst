@@ -15,8 +15,7 @@ Open edX Learner's Guide
    SFD_content_availability
    SFD_start_course
    SFD_check_progress
-   OpenSFD_certificates
-   SFD_mobile
+   OpenSFD_certificates 
    SFD_video_player
    sfd_discussions/index
    completing_assignments/index
