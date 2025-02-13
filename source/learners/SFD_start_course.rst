@@ -46,14 +46,14 @@ materials before the start date.
   * The course card on edx.org. The course start date is located at the bottom
     of the card.
 
-    .. image:: ../../shared/images/CourseCard_StartDate.png
+    .. image:: /_images/learners/CourseCard_StartDate.png
      :alt: A course card, showing the course start date at the bottom of the
          card.
 
   * The course About page. The course start date is located above the **Enroll
     Now** option.
 
-    .. image:: ../../shared/images/SFD_StartDateOnCourseAbout.png
+    .. image:: /_images/learners/SFD_StartDateOnCourseAbout.png
      :width: 600
      :alt: A course's About page with the start date above the Enroll Now
          button.
@@ -61,7 +61,7 @@ materials before the start date.
   * The course on your :ref:`dashboard<SFD Learner Dashboard>`. The course
     start date is located below the course title.
 
-    .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+    .. image:: /_images/learners/SFD_StartDateOnDashboard.png
      :width: 600
      :alt: A course listing on a learner's dashboard, with the start date under
        the name of the course.
@@ -71,7 +71,7 @@ materials before the start date.
   After you enroll in a course, the course is visible on your dashboard. The
   course start date is located below the course title.
 
-    .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+    .. image:: /_images/learners/SFD_StartDateOnDashboard.png
      :width: 600
      :alt: A course listing on a learner's dashboard, with the start date under
        the name of the course.
@@ -114,7 +114,7 @@ The course opens to the **Course** page. On this page, below any messages from
 the course team, the course outline is visible. Above the outline is a **Start
 Course** option.
 
-.. image:: ../../shared/images/course_nav_outline_startcourse.png
+.. image:: /_images/learners/course_nav_outline_startcourse.png
  :alt: The Course page, showing a welcome message and the course outline in
      the left pane.
 

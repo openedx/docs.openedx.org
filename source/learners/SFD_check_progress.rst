@@ -30,13 +30,13 @@ For example, in the following image, the learner has completed all of the
 content in the "Introduction" part of the course, as well as some of the
 content in the "Module 1: Experiencing Course Content" part.
 
-.. image:: ../../shared/images/course_nav_outline_startcourse.png
+.. image:: /_images/learners/course_nav_outline_startcourse.png
  :alt: The course outline, showing green check marks for completed content.
 
 In the following image, the learner has completed the first two units in the
 "Lesson 3: Exams, Grades, and Certificates" lesson.
 
-.. image:: ../../shared/images/LMS_Unit_Page.png
+.. image:: /_images/learners/LMS_Unit_Page.png
  :alt: The unit navigation bar on a unit page in the LMS.
 
 To complete content, you must complete all of the following actions.
@@ -64,7 +64,7 @@ assignment in the course.
 Assignments are listed along the horizontal axis, and the percentage score
 that you received in each lesson is read from the vertical axis.
 
-.. image:: ../../shared/images/Progress_Chart.png
+.. image:: /_images/learners/Progress_Chart.png
   :width: 500
   :alt: Bar chart on the Progress page showing graded assignments on the
     horizontal axis, and percentage scores on the vertical axis.
@@ -102,7 +102,7 @@ have the lowest scoring quiz excluded from all learners' final scores. A
 dropped assignment is indicated in the chart by an **x** above the horizontal
 axis.
 
-.. image:: ../../shared/images/Student_Progress_mouseover.png
+.. image:: /_images/learners/Student_Progress_mouseover.png
   :width: 500
   :alt: Bar chart on the Progress page showing an "x" above an assignment
    whose score has been dropped.
@@ -135,7 +135,7 @@ do not have any problems are labelled as having no problem scores.
 .. the results for the assignment are not visible in your progress chart or in
 .. the grading details for the assignment.
 
-.. image:: ../../shared/images/Progress_Details.png
+.. image:: /_images/learners/Progress_Details.png
   :width: 500
   :alt: List of graded sections in the order that they occur in the course,
    showing earned and possible points for each graded problem.

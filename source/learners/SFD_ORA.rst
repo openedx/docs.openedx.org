@@ -41,7 +41,7 @@ complete your current step. This topic describes all of the possible steps.
 The actual steps in your assignment depend on how your course team has
 designed the assignment.
 
-.. image:: ../../shared/images/ORA_Steps.png
+.. image:: /_images/learners/ORA_Steps.png
    :alt: An example open response assessment, showing a training step, peer
       assessment step and self assessment step.
    :width: 550
@@ -107,7 +107,7 @@ When you assess a response, you evaluate the response, and for each criterion,
 select the option that best describes how well the response met that
 criterion.
 
-.. image:: ../../shared/images/ORA_Rubric.png
+.. image:: /_images/learners/ORA_Rubric.png
    :alt: An example rubric showing criteria and options.
    :width: 550
 
@@ -181,7 +181,7 @@ steps.
    draft of your responses, and then come back and submit them later.
 
 
-.. image:: ../../shared/images/ORA_1YourResponse.png
+.. image:: /_images/learners/ORA_1YourResponse.png
    :alt: A response in progress in an ORA assignment.
    :width: 550
 
@@ -274,7 +274,7 @@ Complete the training step as follows.
    options you select for all criteria match options selected by the
    instructor.
 
-.. image:: ../../shared/images/ORA_2LearnToAssess.png
+.. image:: /_images/learners/ORA_2LearnToAssess.png
    :alt: Example training step with one grade that matched and another grade
     that did not match the grade that the course team gave.
    :width: 550
@@ -301,7 +301,7 @@ to start your first peer assessment, the count appears as "1 of 3". Within the
 **Assess Peers** step, you see each question, a learner's response, and the
 rubric that you will use to grade the response.
 
-.. image:: ../../shared/images/ORA_3PeerAssmt.png
+.. image:: /_images/learners/ORA_3PeerAssmt.png
    :alt: An in-progress peer assessment.
    :width: 550
 
@@ -432,7 +432,7 @@ staff assessment step, you can see the scores you received from all of the
 peers who scored your work, as well as your self assessment. You can also see
 any comments that your peers have provided.
 
-.. image:: ../../shared/images/ORA_ViewYourScore.png
+.. image:: /_images/learners/ORA_ViewYourScore.png
    :alt: The "Your Grade" section of an ORA assignment shows the total grade
      as well as a breakdown by criterion.
    :width: 550
@@ -453,7 +453,7 @@ Provide Feedback on Peer Assessments Received
 If you want to, you can provide feedback on the peer scores that you received,
 under **Provide Feedback on Peer Assessments**.
 
-.. image:: ../../shared/images/ORA_FeedbackOnPeerScores.png
+.. image:: /_images/learners/ORA_FeedbackOnPeerScores.png
    :alt: In the "Provide feedback on peer assessments" section, you can select
     statements or written comments as feedback on the peer scores that you
     received.
@@ -473,7 +473,7 @@ each question.
 If your course team included this section in your assignment, it appears only
 after you have completed all the steps of the assignment.
 
-.. image:: ../../shared/images/ORA_TopResponses.png
+.. image:: /_images/learners/ORA_TopResponses.png
    :alt: Section that shows the text and scores of the top three responses for
        the assignment.
    :width: 550

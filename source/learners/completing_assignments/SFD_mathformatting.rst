@@ -24,16 +24,16 @@ enter plain text, and the edX system then converts your text into numbers and
 symbols that appear below the response field. For more information, see
 :ref:`Math Expressions in Assignments`.
 
-.. image:: ../../../shared/students/Images/Math5.png
+.. image:: /_images/learners/Math5.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../../shared/students/Images/Math2.png
+.. image:: /_images/learners/Math2.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../../shared/students/Images/Math1.png
+.. image:: /_images/learners/Math1.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../../shared/students/Images/Math4.png
+.. image:: /_images/learners/Math4.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
 
@@ -88,7 +88,7 @@ system if you have used math programs before.
   the calculator icon. To close the calculator, select the X that appears when
   the calculator is open.
 
-  .. image:: ../../../shared/images/Calc_Closed.png
+  .. image:: /_images/learners/Calc_Closed.png
     :width: 600
     :alt: Course page with an arrow pointing to the calculator.
 
@@ -96,7 +96,7 @@ system if you have used math programs before.
   of the information in this topic. To see the information page, select the
   circled ``i`` icon next to the input field.
 
-  .. image:: ../../../shared/images/Calc_Open_InfoPage.png
+  .. image:: /_images/learners/Calc_Open_InfoPage.png
     :width: 600
     :alt: Course page with the calculator visible and showing the
      information page.

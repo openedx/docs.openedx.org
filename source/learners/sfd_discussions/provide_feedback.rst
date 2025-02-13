@@ -20,7 +20,7 @@ When you open a post, response, or comment, the **Like** and **Follow**
 feedback option icons appear at the top right. Move your cursor over these
 icons to show the full label.
 
-.. image:: ../../../shared/students/Images/discussion_feedback_options.png
+.. image:: /_images/learners/discussion_feedback_options.png
     :width: 300
     :align: center
     :alt: The "Like", "Follow", feedback icons in a post, response, or comment.
@@ -76,7 +76,7 @@ If you have received a helpful or correct response to a question that you
 yourself have asked, you can mark the response as the correct answer. To do
 this, open actions menu by clicking top right icon on the response and select **Mark as Answered**.
 
-.. image:: ../../../shared/students/Images/mark_as_answered_option.png
+.. image:: /_images/learners/mark_as_answered_option.png
     :width: 500
     :align: center
     :alt: the image showing mark as answered response options
@@ -87,7 +87,7 @@ this, open actions menu by clicking top right icon on the response and select **
 After at least one response to a question post is marked as answer, a
 label is added to the post summary card in the discussion navigation pane.
 
-.. image:: ../../../shared/students/Images/answer_label.png
+.. image:: /_images/learners/answer_label.png
     :width: 300
     :align: center
     :alt: the image showing mark as answered response options

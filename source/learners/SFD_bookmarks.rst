@@ -24,14 +24,14 @@ Add or Remove a Bookmark
 You can bookmark any page in the course. To bookmark a page, select
 **Bookmark this page** under the name of the page.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_UnitButton.png
+.. image:: /_images/learners/SFD_Bkmk_UnitButton.png
  :width: 600
  :alt: A course page showing the Bookmark control.
 
 After you add a bookmark, **Bookmark this page** changes to **Bookmarked**, and
 an indicator appears in the unit navigation bar.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_PgsBkmkd.png
+.. image:: /_images/learners/SFD_Bkmk_PgsBkmkd.png
  :width: 600
  :alt: A course page showing "Bookmarked" and a bookmark icon in the unit
      navigation bar.
@@ -52,7 +52,7 @@ your bookmarks on the **My Bookmarks** page.
 To access the **My Bookmarks** page, select **Bookmarks** on the course
 page.
 
-.. image:: ../../shared/images/SFD_BookmarksLink.png
+.. image:: /_images/learners/SFD_BookmarksLink.png
  :width: 800
  :alt: On the Course page, the Bookmarks link appears under the Course Tools
     heading in the sidebar.

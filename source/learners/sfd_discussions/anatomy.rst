@@ -116,7 +116,7 @@ your course. Discussions page is broadly divided into three areas, as seen below
 2. Content view area: To view posts, responses and comments
 3. Content list area: List of posts, learners, topics, search results etc.
 
-.. image:: ../../../shared/images/discussion_page.png
+.. image:: /_images/learners/discussion_page.png
    :width: 600
    :alt: Different elements of Discussion Experience.
 
@@ -165,7 +165,7 @@ Post summaries in the list show various icons and labels to provide you with inf
 
 A labeled screenshot of features described above, is presented below:
 
-.. image:: ../../../shared/images/post_summary_labelled.png
+.. image:: /_images/learners/post_summary_labelled.png
    :width: 300
    :alt: image to describe all the possible parts of side navigation bar of discussion experience.
 

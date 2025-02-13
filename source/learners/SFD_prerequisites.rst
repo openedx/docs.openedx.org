@@ -31,7 +31,7 @@ Prerequisite Course
 When a course has a prerequisite course, you can see information about the
 prerequisite course on the **About** page for the course that you want to take.
 
-.. image:: ../../shared/students/Images/PrereqAboutPage.png
+.. image:: /_images/learners/PrereqAboutPage.png
   :width: 500
   :alt: A course About page with prerequisite course information circled.
 
@@ -41,7 +41,7 @@ Student Dashboard. However, you cannot select the course to access the
 course content. Below the name of the course, you can see the name of the
 prerequisite course, as well as a link to that course.
 
-.. image:: ../../shared/students/Images/Prereq_StudentDashboard.png
+.. image:: /_images/learners/Prereq_StudentDashboard.png
   :width: 500
   :alt: The Student Dashboard with an available course and a course that is
       unavailable because it has a prerequisite.
@@ -72,7 +72,7 @@ the course, the course opens to the **Entrance Exam** page. At the top of the
 page, you can see a message that lists your current score and the minimum score
 that is required to pass the entrance exam. You can begin the exam immediately.
 
-.. image:: ../../shared/students/Images/EntEx_LandingPage.png
+.. image:: /_images/learners/EntEx_LandingPage.png
   :width: 500
   :alt: The Entrance Exam page with the first problem visible.
 

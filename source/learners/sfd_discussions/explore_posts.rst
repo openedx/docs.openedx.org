@@ -70,7 +70,7 @@ Note that course-wide topics do not have other topics indented below them,
 while content-specific topics are indented under a category name.
 You can also see the count of Discussion and Question type posts in each topic, in the topic list.
 
-.. image:: ../../../shared/students/Images/topic_summary_diagram.png
+.. image:: /_images/learners/topic_summary_diagram.png
   :width: 400
   :alt: Discussion topic list expanded, showing all course discussion
          topics.
@@ -83,7 +83,7 @@ Content-specific topics are located in specific units in the course. They
 typically appear below the content they apply to. To access a content-specific
 topic, view the unit that contains the topic.
 
-.. image:: ../../../shared/images/HTMLandDisc.png
+.. image:: /_images/learners/HTMLandDisc.png
    :alt: A discussion topic that appears below text inside the course.
 
 You can also use the **Discussion** page to access a discussion in the unit
@@ -111,7 +111,7 @@ You can filter or sort the posts in *All post*, *My post* and *Topics* tab in fo
 By default, both types of posts are displayed, having any status and sorted by *Recent activity*.
 In this context, activity means creation of the post itself or a response or comment on the post.
 
-.. image:: ../../../shared/students/Images/filter_menu.png
+.. image:: /_images/learners/filter_menu.png
    :width: 700
    :alt: Discussion filters and sorting menu.
 
@@ -126,7 +126,7 @@ course, including other learners or members of the discussion moderation team,
 but only members of the moderation team can pin a post.
 Look for the pin icon on top-right of the summary of a post to identify a pinned post.
 
-.. image:: ../../../shared/students/Images/pin_post_icon.png
+.. image:: /_images/learners/pin_post_icon.png
    :width: 400
    :height: 700
    :alt: Discussion filters and sorting menu.

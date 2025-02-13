@@ -51,7 +51,7 @@ course and need an answer from the course team, be sure to create your post as
 a question, so that the course team sees that a response is required and
 responds appropriately.
 
-.. image:: ../../../shared/students/Images/discussion_or_question.png
+.. image:: /_images/learners/discussion_or_question.png
     :width: 500
     :align: center
     :alt: post type card on the add post section.
@@ -59,7 +59,7 @@ responds appropriately.
 After you make your post, on the **Discussion** page for your course, a
 question mark next to the avatar identifies posts that ask questions.
 
-.. image:: ../../../shared/students/Images/post_type_identification.png
+.. image:: /_images/learners/post_type_identification.png
     :width: 700
     :align: center
     :alt: how to identify type of  past from summary list.
@@ -118,7 +118,7 @@ topics on the **Discussion** page.
 
 #. Click the **Submit** if you are satisfied with the appearance or click **Cancel**, if you want to discard the post.
 
-.. image:: ../../../shared/students/Images/add_post_sections_details.png
+.. image:: /_images/learners/add_post_sections_details.png
     :width: 700
     :align: center
     :alt: identify different elements of post creation section.
@@ -132,7 +132,7 @@ Add Image to a Post on the Discussion Page
 You can add an image while creating a post, click the **Insert image** button visible on top of the text editor to
 open a dialog box. Use this dialog box to upload and resize the image and add description and source of the image.
 
-.. image:: ../../../shared/students/Images/add_image_dialogue.png
+.. image:: /_images/learners/add_image_dialogue.png
     :width: 500
     :align: center
     :alt: dialogue box for adding images to post.
@@ -208,7 +208,7 @@ If the course staff has enabled the option to allow anonymous posts, a **Post an
 will be available under the field where you enter your text, when creating a post. When you post anonymously,
 the course team and discussion moderation team including community TAs can see your username, but other learners cannot.
 
-.. image:: ../../../shared/students/Images/anonymous_post_card.png
+.. image:: /_images/learners/anonymous_post_card.png
     :width: 500
     :align: center
     :alt: anonymous post summary card  view.
@@ -275,7 +275,7 @@ edit or delete contributions from other learners.
 
 #. In the top-right corner of the contribution, open the actions menu by clicking on the three dots (...)
 
-.. image:: ../../../shared/students/Images/post_actions_menu.png
+.. image:: /_images/learners/post_actions_menu.png
     :width: 500
     :align: center
     :alt: Response with the "More" menu expanded, showing Edit, Delete, and

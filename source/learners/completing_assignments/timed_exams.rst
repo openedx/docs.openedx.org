@@ -20,7 +20,7 @@ time. The score you receive becomes part of your course progress record.
 Timed exams are indicated on the **Course** page by a clock icon and the label
 **Timed Exam**.
 
-.. image:: ../../../shared/students/Images/timed-exam-icon.png
+.. image:: /_images/learners/timed-exam-icon.png
  :width: 252
  :alt: A Course page in the LMS showing an exam with a clock icon and
      the label "Timed Exam."
@@ -100,7 +100,7 @@ timer.
 
 To show the remaining time, select the "eye" icon again.
 
-.. image:: ../../../shared/images/ShowHideTimer.png
+.. image:: /_images/learners/ShowHideTimer.png
  :width: 232
  :alt: The End My Exam button next to an eye icon that shows and hides the exam
      timer.

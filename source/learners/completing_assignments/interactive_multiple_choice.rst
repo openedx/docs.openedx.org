@@ -55,7 +55,7 @@ Together, the answer that you chose and this explanation are your initial
 response. When you select **Next**, your initial response is added to the
 collection of initial responses by all of the other course participants.
 
-.. image:: ../../../shared/students/Images/pi_initial_response_obscured.png
+.. image:: /_images/learners/pi_initial_response_obscured.png
   :width: 600
   :alt: A question with a selected answer choice and a short description for
    that choice.
@@ -75,7 +75,8 @@ Because they are part of the collection of initial responses, your answer and
 explanation are likely to be shown to other learners when they get to this part
 of the assignment.
 
-.. image:: ../../../shared/students/Images/pi_review.png
+.. image:: /_images/learners/pi_review.png
+.. image:: /_images/learners/pi_review.png
   :width: 600
   :alt: The answers and explanations submitted by three other learners.
 
@@ -90,7 +91,7 @@ This step is optional. You can submit a final response that is the same as your
 initial response, or change it completely. When you select **Next Step**, you
 learn the correct answer.
 
-.. image:: ../../../shared/students/Images/pi_final_response.png
+.. image:: /_images/learners/pi_final_response.png
   :width: 600
   :alt: The same answer choice with an edited explanation.
 
@@ -101,7 +102,7 @@ Step 4. Review the Correct Answer
 Review the correct answer choice and the explanation provided by the course
 team.
 
-.. image:: ../../../shared/students/Images/pi_correct_answer.png
+.. image:: /_images/learners/pi_correct_answer.png
   :width: 600
   :alt: The correct answer choice and its explanation.
 
@@ -118,7 +119,7 @@ your peers'.
 
 This step might be just as thought provoking as the other steps.
 
-.. image:: ../../../shared/students/Images/pi_histogram.png
+.. image:: /_images/learners/pi_histogram.png
   :width: 600
   :alt: Histograms of percentage of learners that selected each answer choice
      for their initial response and their final response.

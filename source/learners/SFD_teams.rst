@@ -57,7 +57,7 @@ To browse topics and find a team to join, follow these steps.
 4. When you have found a topic you are interested in, select the arrow button
    to see the teams that exist in that topic.
 
-   .. image:: ../../shared/students/Images/Teams_TopicArrowButton.png
+   .. image:: /_images/learners/Teams_TopicArrowButton.png
      :width: 500
      :alt: The page showing available topics, with the arrow button for one of
            the topics highlighted.
@@ -71,7 +71,7 @@ To browse topics and find a team to join, follow these steps.
   Each team's name and description are shown, as well as the number of team
   members, letting you know whether there is space for you to join.
 
-  .. image:: ../../shared/students/Images/Teams_TopicViewButton.png
+  .. image:: /_images/learners/Teams_TopicViewButton.png
     :width: 500
     :alt: The View button on a team card within a topic.
 
@@ -82,7 +82,7 @@ To browse topics and find a team to join, follow these steps.
    On the **Team Details** page, you can browse the team's discussion posts,
    but you cannot participate unless you are a member of the team.
 
-   .. image:: ../../shared/students/Images/Teams_TeamsDetails.png
+   .. image:: /_images/learners/Teams_TeamsDetails.png
      :width: 500
      :alt: Detailed view of team, showing discussions.
 
@@ -115,7 +115,7 @@ To get a list of teams that match your search keywords, follow these steps.
    To clear the existing search term, select the **X** in the search field.
 
 
-.. image:: ../../shared/students/Images/Teams_SearchTeams.png
+.. image:: /_images/learners/Teams_SearchTeams.png
   :width: 500
   :alt: The search field on the topic page.
 
@@ -134,7 +134,7 @@ When you have found a team you want to join, select **Join Team**.
 .. note:: If a team is full, or if you already belong to a team, the
    **Join Team** button is not available.
 
-.. image:: ../../shared/students/Images/Teams_JoinTeamButton.png
+.. image:: /_images/learners/Teams_JoinTeamButton.png
   :width: 500
   :alt: The Join Team button on the **Team Details** page.
 
@@ -170,7 +170,7 @@ To leave a team that you belong to, follow these steps.
 
 #. On the **Team Details** page, select **Leave Team**.
 
-  .. image:: ../../shared/students/Images/Teams_Leave Team.png
+  .. image:: /_images/learners/Teams_Leave Team.png
     :width: 200
     :alt: The Leave Team link on the Team Details page.
 
@@ -204,7 +204,7 @@ To create a team, follow these steps.
 #. At the bottom of the list of teams within the topic, select the **create a
    new team in this topic** link.
 
-  .. image:: ../../shared/students/Images/Teams_CreateNewTeamLink.png
+  .. image:: /_images/learners/Teams_CreateNewTeamLink.png
     :width: 500
     :alt: The "create a new team in this topic" link at the bottom of the page
         showing all teams in a topic.
@@ -215,7 +215,7 @@ To create a team, follow these steps.
    help other learners to decide whether they want to join your team and work
    with you.
 
-   .. image:: ../../shared/students/Images/Teams_CreateNewTeamForm.png
+   .. image:: /_images/learners/Teams_CreateNewTeamForm.png
      :width: 500
      :alt: Empty form with fields to be completed when a learner creates a new team.
 

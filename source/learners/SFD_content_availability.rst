@@ -55,7 +55,7 @@ minimum score in another section. In the course outline, this content appears
 with a lock icon and the name of the section that you must complete, or
 *prerequisite*.
 
-.. image:: ../../shared/images/SFD_Prereq_Locked.png
+.. image:: /_images/learners/SFD_Prereq_Locked.png
  :alt: The course outline showing a lock icon next to the name of a section.
 
 .. note::
@@ -73,7 +73,7 @@ After you complete a section’s prerequisite, the section is visible in the
 course outline with an unlocked icon, and you can open and complete that
 section.
 
-.. image:: ../../shared/images/SFD_Prereq_Unlocked.png
+.. image:: /_images/learners/SFD_Prereq_Unlocked.png
  :alt: The course outline showing an unlocked icon next to the name of a
      section.
 
@@ -123,7 +123,7 @@ For example, if you have earned a certificate and the course team has
 generated certificates for the course, you can use the **View Certificate**
 option to access your web certificate.
 
-.. image:: ../../shared/students/Images/SFD_Cert_web.png
+.. image:: /_images/learners/SFD_Cert_web.png
    :width: 600
    :alt: Dashboard with course name, grade, and link to the certificate.
 

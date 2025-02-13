@@ -141,7 +141,7 @@ You can use the app to do the following things.
 
  #. From the main menu, select **Account**.
 
-    .. image:: ../../shared/images/SFD_Mobile_Menu.png
+    .. image:: /_images/learners/SFD_Mobile_Menu.png
        :width: 200
        :alt: The main menu of the edX mobile app, showing the My Courses,
          Discover, and Account options.
@@ -244,7 +244,7 @@ main menu.
 
 Open a course to access the main course screen.
 
-    .. image:: ../../shared/images/SFD_Mobile_Course_MainScreen.png
+    .. image:: /_images/learners/SFD_Mobile_Course_MainScreen.png
        :width: 200
        :alt: The main course menu on the mobile app, showing the Course, Videos,
          Discussions, Handouts, Announcement, and Important Dates sections.
@@ -333,11 +333,11 @@ you see lists of posts by learners. Each post has indicators to show the number
 of comments and responses the post has received. The number of unread comments
 for a post is shown until you have viewed a post.
 
-    .. image:: ../../shared/images/SFD_Mobile_DiscussionTopics.png
+    .. image:: /_images/learners/SFD_Mobile_DiscussionTopics.png
        :width: 200
        :alt: The Topics view in course discussions in the mobile app.
 
-    .. image:: ../../shared/images/SFD_Mobile_DiscussionPosts.png
+    .. image:: /_images/learners/SFD_Mobile_DiscussionPosts.png
        :width: 200
        :alt: The Posts view in course discussions in the mobile app.
 
@@ -359,7 +359,7 @@ message.
 From a course's main page, select the **Share** icon in the course's title
 display.
 
-    .. image:: ../../shared/images/SFD_Mobile_Course_Share.png
+    .. image:: /_images/learners/SFD_Mobile_Course_Share.png
        :width: 200
        :alt: A course page on the mobile app, showing the sharing options in a
           dropdown after the share icon is pressed.
@@ -404,12 +404,12 @@ a video, you can watch it at any time.
    In a subsection, the number to the right of a subsection name indicates the
    number of videos in that subsection.
 
-    .. image:: ../../shared/images/SFD_MobileVideoDownloadSubsection.png
+    .. image:: /_images/learners/SFD_MobileVideoDownloadSubsection.png
        :width: 200
        :alt: A list of subsections that contain videos, with one subsection
          selected and showing the number 4 next to the download icon.
 
-    .. image:: ../../shared/images/SFD_MobileVideoDownloadSingle.png
+    .. image:: /_images/learners/SFD_MobileVideoDownloadSingle.png
        :width: 200
        :alt: A list of videos in a subsection, showing the download icon for a
          single video.
@@ -428,7 +428,7 @@ exceed the data allowance for your cellular plan.
 
 #. From the main menu, select **Account**.
 
-    .. image:: ../../shared/images/SFD_Mobile_Menu.png
+    .. image:: /_images/learners/SFD_Mobile_Menu.png
        :width: 200
        :alt: The main menu of the edX mobile app, showing the My Courses,
          Discover, and Account options.
@@ -445,7 +445,7 @@ How can I make the video full screen?
 Rotate your phone until the video changes to landscape mode, or select "full
 screen" in the bottom right corner of the video player.
 
-    .. image:: ../../shared/students/Images/Mob_FullScreenIcon.png
+    .. image:: /_images/learners/Mob_FullScreenIcon.png
        :width: 300
        :alt: Video with "full screen" icon circled.
 
@@ -481,7 +481,7 @@ once.
    The screen title changes to **Delete Videos**, and a trash can icon appears
    in the header bar.
 
-    .. image:: ../../shared/images/SFD_Mobile_DeleteSubsectionVideos.png
+    .. image:: /_images/learners/SFD_Mobile_DeleteSubsectionVideos.png
      :width: 200
      :alt: On the Delete Videos page, a list of subsections that contain
        videos, with one subsection selected and showing the number 4 next to

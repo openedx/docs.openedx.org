@@ -17,7 +17,7 @@ by an explanation of each option or control on the video player.
    apply to a specific video will actually be present when you use the video
    player in a course.
 
-.. image:: ../../shared/students/Images/Video_Intro.png
+.. image:: /_images/learners/Video_Intro.png
   :width: 800
   :alt: The edX video player with numbered call-outs for every possible
       control.
@@ -67,7 +67,7 @@ by an explanation of each option or control on the video player.
     captions and the transcript with this control if translations are
     available.
 
-    .. image:: ../../shared/students/Images/Video_language_menu.png
+    .. image:: /_images/learners/Video_language_menu.png
       :alt: A language menu with choices for English or Chinese.
       :width: 150
 

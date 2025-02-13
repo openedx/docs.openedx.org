@@ -26,7 +26,7 @@ highlight passages and make notes right in the course.
 When a course includes the notes feature, every page has a **Notes** page at
 the top and a pencil icon in the lower right corner.
 
-.. image:: ../../shared/students/Images/SFD_SN_notesindicators.png
+.. image:: /_images/learners/SFD_SN_notesindicators.png
   :width: 500
   :alt: Page of course content that includes the Notes page at the top,
       highlighted text with an accompanying note, and the pencil icon in the
@@ -56,7 +56,7 @@ steps.
 #. When a pencil "edit" icon appears above the selected text, select
    the icon to open the note editor.
 
-   .. image:: ../../shared/students/Images/SFD_SN_Create-EditNoteIcon.png
+   .. image:: /_images/learners/SFD_SN_Create-EditNoteIcon.png
      :width: 400
      :alt: Paragraph with text selected and the pencil icon above the selected
          text.
@@ -79,7 +79,7 @@ steps.
     word, type multiple words as one word with no spaces, or use hyphens (-)
     or underscores (_) to separate words in the tag.
 
-     .. image:: ../../shared/students/Images/SFD_SN_NoteEditor.png
+     .. image:: /_images/learners/SFD_SN_NoteEditor.png
       :width: 400
       :alt: Note editor open with a learner's note.
 
@@ -113,7 +113,7 @@ On the **Notes** page, you can see a list of the notes you have made in your
 course. You can also search the text of your notes or the tags that you added
 to your notes.
 
-.. image:: ../../shared/students/Images/SFD_SN_NotesPage.png
+.. image:: /_images/learners/SFD_SN_NotesPage.png
   :width: 500
   :alt: Notes page showing a list of notes.
 
@@ -140,7 +140,7 @@ To edit a note, follow these steps.
 #. When the note appears, select the pencil icon in the upper right corner to
    open the note editor.
 
-   .. image:: ../../shared/students/Images/SFD_SN_EditDeleteNote.png
+   .. image:: /_images/learners/SFD_SN_EditDeleteNote.png
     :width: 175
     :alt: Note editor with the pencil and paper and X icons visible.
 
@@ -164,7 +164,7 @@ them again, by selecting the pencil icon in the lower right corner. When
 the pencil icon has a dark gray background, notes are visible. When the pencil
 icon has a light gray background, notes are hidden.
 
-.. image:: ../../shared/students/Images/SFD_SN_NotesShowHide.png
+.. image:: /_images/learners/SFD_SN_NotesShowHide.png
   :width: 400
   :alt: Two page excerpts side by side, the image on the right showing notes
        visible, and the image on the left showing notes hidden.
