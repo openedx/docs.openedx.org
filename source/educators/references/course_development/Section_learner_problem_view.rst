@@ -5,6 +5,8 @@ The Learner View of a Problem
 
 .. tags:: educator, reference
 
+.. START LEARNER VIEW OF PROBLEM
+
 All problems on the Open edX platform have these component parts, some of which can
 be configured. For configurable options, you can specify whether and when
 an option is available in problems.
@@ -132,6 +134,8 @@ visible. You can set these attributes in Studio.
   script to randomize the values that are presented to learners. You use this
   setting to define when values are randomized. For more information, see
   :ref:`Randomization`.
+
+.. END LEARNER VIEW OF PROBLEM
 
 .. seealso::
  

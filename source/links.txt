@@ -652,20 +652,13 @@
 
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 
-.. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
-
 .. _Installing, Configuring, and Running the Open edX Platform: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/index.html
-
-
-.. _edX Open Learning XML Guide: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html
 
 .. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
 
 .. _taking_timed_exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/timed_exams.html
 
 .. _oe sfd proctored exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/proctored_exams.html#oe-sfd-proctored-exams
-
-.. _olx course building blocks: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/organizing-course/course-structure-overview.html#olx-course-building-blocks
 
 .. _course discussions index: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/index.html
 
@@ -684,8 +677,6 @@
 .. _view order history: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#view-your-order-history
 
 .. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
-
-.. _problem weight: https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/components/problem-components.html#problem-weight
 
 .. _add a post: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/add_post.html#adding-a-post
 

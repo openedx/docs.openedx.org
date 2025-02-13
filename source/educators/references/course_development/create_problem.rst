@@ -66,7 +66,7 @@ types** or select Advanced problem types for a list of **advanced problem types*
   Options for scoring, hints, feedback, and more can be entered.
 
 * For advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
-  In this editor, you use `EdX Open Learning XML Guide`_.
+  In this editor, you use :ref:`EdX Open Learning XML Guide<OLX TOC>`.
   elements and attributes to identify the elements of the problem. Options for scoring,
   feedback and more can be entered.
 
