@@ -1,4 +1,4 @@
-.. _Search for a Team:
+.. _Educator Search for a Team:
 
 Search for a Team
 #################

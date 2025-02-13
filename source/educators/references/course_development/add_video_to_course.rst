@@ -16,7 +16,7 @@ specifications, how to add video content to your course, and how to specify
 options for your videos.
 
 For more information about how learners can interact with course videos, see
-`Video Player`_.
+:ref:`Video Player`.
 
 .. important::
 
@@ -35,7 +35,7 @@ components, you add the name and location of your video, as well as the video
 transcript. Learners view your videos in the LMS.
 
 For information about the way learners interact with videos, see
-`Video Player`_.
+:ref:`Video Player`.
 
 For more information about adding videos to your course, see :ref:`Add a Video`.
 

@@ -12,6 +12,7 @@ This section describes how you can contribute to the course wiki.
    :depth: 2
    :local:
 
+.. START MANAGING WIKI ARTICLES
 
 *********************
 Adding a Wiki Article
@@ -149,6 +150,8 @@ Combine a Current Version with a Previous Version
    that you want to merge with the current version.
 #. Select **Merge selected with current** to combine the current and the
    selected versions.
+
+.. END MANAGING WIKI ARTICLES
 
 .. seealso::
  
