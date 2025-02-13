@@ -126,7 +126,6 @@ This section describes the various exercises, tools, and problem types that you 
    :maxdepth: 1
    :glob:
 
-   ../olx/problem-xml/levels_of_support.rst
    /educators/how-tos/course_development/exercise_tools/add_annotation.rst
    /educators/references/course_development/exercise_tools/chemical_equation_xml.rst
    /educators/how-tos/course_development/exercise_tools/add_circuit_schematic_builder.rst
