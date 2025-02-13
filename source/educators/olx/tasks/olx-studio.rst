@@ -1,7 +1,7 @@
-.. _Use OLX with edX Studio:
+.. _Use OLX with the Open edX Studio:
 
 ###################################################
-Use OLX with edX Studio
+Use OLX with the Open edX Studio
 ###################################################
 
 TBD

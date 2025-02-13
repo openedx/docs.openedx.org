@@ -11,9 +11,9 @@ This topic describes the structure of a generic OLX (open learning XML) course.
   :depth: 1
 
 For more information about how a specific OLX course is structured, see
-:ref:`The Structure of edX-Insider`.
+:ref:`The Structure of a Sample Course`.
 
-For more information about how a course exported from edX Studio is structured,
+For more information about how a course exported from Open edX Studio is structured,
 see :ref:`Example of OLX for a Studio Course`.
 
 
@@ -42,7 +42,7 @@ assignments.
 Currently, when Studio exports a course, it places each component in its own
 file.
 
-For example, the edX Platform contains a directory called
+For example, the Open edX Platform contains a directory called
 `manual-testing-complete`_ that contains a course with all component
 types for testing purposes.
 
@@ -57,7 +57,7 @@ set up these directories in preparation for developing your course content.
 XBlock Directories
 *******************
 
-EdX course components can be broken out of the main ``course.xml`` file
+Open EdX course components can be broken out of the main ``course.xml`` file
 into individual files. Those files go into directories of the name of
 the component type (XML tag). For example, components of type ``html``
 can be placed as individual files in the ``html`` directory. If your
@@ -74,10 +74,10 @@ For information about several examples of these directories, see the following t
 As the set of XBlocks grows, so does the set of associated XML tags
 and directories.
 
-.. _edX Platform Directories:
+.. _Open edX Platform Directories:
 
 *************************
-edX Platform Directories
+Open edX Platform Directories
 *************************
 
 In addition to the course hierarchy, which is designed to be generic

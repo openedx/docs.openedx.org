@@ -4,6 +4,8 @@
 The edX-Insider ``course.xml`` File
 ###################################
 
+The `edX-Insider`_ course is a sample coursethat was originally developed for edX.org.
+
 The courseware for `edX-Insider`_ is defined in the `course.xml`_ file and
 follows the organization described in :ref:`The Courseware Structure`.
 

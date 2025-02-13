@@ -49,7 +49,7 @@ Asset Policy JSON Objects
          * ``org``: The organization that created the course.
          * ``revision``
      * - ``filename``
-       - The full path and name of the file in the edX Platform.
+       - The full path and name of the file in the Open edX Platform.
      * - ``import_path``
        - TBD
      * - ``thumbnail_location``

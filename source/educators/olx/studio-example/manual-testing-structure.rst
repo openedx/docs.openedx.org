@@ -4,7 +4,7 @@
 The Structure of the Manual Testing Course
 ############################################
 
-This section describes the structure of the `Manual Testing`_ course.
+This section describes the structure of a course that the edX.org team created for testing purposes, called the `Manual Testing`_ course.
 
 .. contents::
   :local:
@@ -15,7 +15,7 @@ structured, see
 :ref:`OLX Directory Structure`.
 
 For information about how a non-Studio OLX course can be structured, see
-:ref:`The Structure of edX-Insider`.
+:ref:`The Structure of a Sample Course`.
 
 .. note::
   The structure and content of the manual testing course can change without
@@ -39,7 +39,7 @@ Top-level Directory
 The `manual-testing-complete`_ directory in the edx-platform Git repository
 contains the ``course.xml`` file as well as XBlock and Platform directories.
 
-As a course exported for edX Studio, the ``course.xml`` file does not contain
+As a course exported for the Open edX Studio, the ``course.xml`` file does not contain
 the courseware content directly. All chapters, sequentials, verticals, and
 XBlocks are defined in separate files and referenced from their parent files.
 
@@ -230,4 +230,4 @@ Platform Directories
 
 The `Manual Testing`_ course includes platform directories to support
 non-courseware parts of the OLX course. For more information, see
-:ref:`edX Platform Directories`.
+:ref:`Open edX Platform Directories`.

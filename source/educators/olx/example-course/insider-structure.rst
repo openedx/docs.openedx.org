@@ -1,10 +1,10 @@
-.. _The Structure of edX-Insider:
+.. _The Structure of a Sample Course:
 
-#############################
-The Structure of edX-Insider
-#############################
+################################
+The Structure of a Sample Course
+################################
 
-This topic describes the structure of the `edX-Insider`_ course.
+This topic describes the structure of a sample course known as the `edX-Insider`_ course that was originally developed for edX.org.
 
 .. contents::
   :local:
@@ -13,7 +13,7 @@ This topic describes the structure of the `edX-Insider`_ course.
 For information about how a generic OLX (open learning XML) course is
 structured, see :ref:`OLX Directory Structure`.
 
-For information about how a course exported from edX Studio is structured, see
+For information about how a course exported from Open edX Studio is structured, see
 :ref:`Example of OLX for a Studio Course`.
 
 .. note::
@@ -106,7 +106,7 @@ exercise`` contains embedded HTML content.
           <p>In the on-line portion,
              we examined a way we used technology to allow efficient
              implementation of one theory from learning science – constructive
-             learning – in edX. In designing the edX platform, we applied many
+             learning – in Open edX. In designing the Open edX platform, we applied many
              such techniques. We took aspects of mastery learning, project-
              based learning, gamification and others. Other platforms have
              sophisticated techniques for targeting specific student

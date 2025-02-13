@@ -10,7 +10,7 @@ edX Platform.
 With OLX, you can:
 
 * Move content between instances of Open edX.
-* Create course content outside of edX Studio, including by conversion from
+* Create course content outside of Open edX Studio, including by conversion from
   other content formats.
 * Ensure content remains free of proprietary encoding and allow portability.
 

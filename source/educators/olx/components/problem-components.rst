@@ -17,8 +17,8 @@ you and your learners, and the options that every problem component has.
 Problem Component Overview
 *********************************************
 
-The format for edX problems is based on the `LON-CAPA XML format`_, although
-the two are not quite compatible. In the edX variant, problems are composed of
+The format for Open edX problems is based on the `LON-CAPA XML format`_, although
+the two are not quite compatible. In the Open edX variant, problems are composed of
 the following types of tags.
 
 * ``inputtypes`` are similar to XBlocks. They define ways for users to enter
@@ -44,7 +44,7 @@ evaluate the input. By design, this ought to work with any inputtype, although
 there are bugs mixing this with a small number of the newer inputtypes.
 
 Like LON-CAPA, OLX allows embedding of code to generate parameterized problems.
-Unlike LON-CAPA, edX supports Python (and not Perl). Otherwise, the syntax for
+Unlike LON-CAPA, Open edX supports Python (and not Perl). Otherwise, the syntax for
 parameterizing problems is approximately identical.
 
 
@@ -251,7 +251,7 @@ question.
 You can provide a different explanation for each question by using the
 ``<solution>`` element.
 
-As a best practice, edX recommends that you avoid including unformatted
+As a best practice, Open edX accessibility best practices recommend that you avoid including unformatted
 paragraph text between the questions. Screen readers can skip over text that is
 inserted among multiple questions.
 

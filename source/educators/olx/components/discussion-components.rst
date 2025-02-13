@@ -93,7 +93,7 @@ The ``discussion`` element contains no children.
    * - Optional. ``discussion_id``
      - The unique identifier that the discussion forum service uses to refer to
        this inline discussion component. This value must be unique across all
-       courses in the edX deployment. We recommend that you leave this value
+       courses in an Open edX deployment. We recommend that you leave this value
        blank so that a unique identifier is automatically generated.
    * - Obsolete. ``id``
      - Use ``discussion_id`` instead.

@@ -82,7 +82,7 @@ Course Chapters
 
 You create a course chapter with the ``chapter`` element, as a child of the
 root ``course`` element. Chapter elements are top-level pages in the course.
-The edX platform renders navigation chrome around them (tab-set on top and
+The Open edX platform renders navigation chrome around them (tab-set on top and
 accordion on the left). It is possible to disable chrome for specific chapters
 using the ``chrome`` option. It is possible to associate chapters with
 different elements of the tabset with the ``default_tab`` option. It is
@@ -263,7 +263,7 @@ in the vertical, or unit.
 A vertical element can also contain a vertical element. You can nest
 verticals, or units, recursively.
 
-Child elements of ``vertical`` refer to components in your course. The edX
+Child elements of ``vertical`` refer to components in your course. The Open edX
 Platform supports a wide range of components, including custom XBlocks.
 
 The following example shows a vertical with two components.
