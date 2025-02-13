@@ -168,7 +168,7 @@ Open edX Educators
 
          See All
 
-   .. grid-item-card:: OLX
+   .. grid-item-card:: OLX (Open Learning XML)
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
@@ -177,6 +177,8 @@ Open edX Educators
          :height: 150px
          :align: center
          :target: navigation/olx.html
+
+        :ref:`What is Open Learning XML?`
 
       .. button-ref:: navigation/olx
          :color: primary
