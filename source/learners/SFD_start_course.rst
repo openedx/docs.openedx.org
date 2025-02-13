@@ -39,8 +39,7 @@ course start date is located below the course title.
     :alt: A course listing on a learner's dashboard, with the start date under
       the name of the course.
 
-For more information about different course statuses, see :ref:`Course
-Availability`
+For more information about different course statuses, see :ref:`course_content_availability`
 
 .. Deliberate omission of period at end of above sentence because the title that is inserted ends with a question mark.
 

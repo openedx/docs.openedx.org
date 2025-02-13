@@ -175,7 +175,7 @@ The following steps apply only to content-specific discussions.
    information, see :ref:`Add a post on discussion page`.
 
    To respond to an existing post or comment on an existing response, follow
-   the steps described in :ref:`Add Response`.
+   the steps described in :ref:`Add response on discussion page`.
 
 
 .. _Add image in course unit:

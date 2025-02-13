@@ -22,7 +22,7 @@ menu options.
 
 * The Account page gives you access to your account
   settings and preferences. For example, you can update your password or email
-  address and set your :ref:`time zone<Time Zones>`.
+  address and set your Time Zones.
 
 .. _SFD Learner Dashboard:
 
@@ -70,38 +70,6 @@ This feature is available only if it has been enabled by your course provider.
 
 #. Select the appropriate button to publish your message on the social media
    site.
-
-.. _Programs Page:
-
-=======================
-Explore edX Programs
-=======================
-
-The **Programs** page lists the :ref:`programs<About Programs>` that you have
-enrolled in. You see a program on this page if you are enrolled in any courses
-that are part of that program.
-
-On the **Programs** page, you can perform the following actions.
-
-* Access information about a program and enroll in more of the program's
-   courses.
-
-   To access information about a program, select that program. A page opens
-   that provides details about the program, as well as links to enroll in or
-   upgrade to the verified track in all courses in that program.
-
-* View your progress for each program.
-
-   Under the name of each program are indications of your progress through the
-   program. You see the number of courses in the program that you have
-   completed, the number of courses in the program that you are enrolled in,
-   and the number of courses in the program that you are not yet enrolled in.
-
-* Access any program certificates you have earned.
-
-   In the right pane, a **Program Certificates** list shows the names of
-   programs for which you have earned certificates. For more information about
-   the program, or to view the certificate, select the name of the program.
 
 .. _SFD Profile Page:
 
@@ -312,8 +280,7 @@ Updating Course-Specific Settings
 *********************************
 
 From the dashboard, access the courses that you are enrolled in and change
-course-specific settings. You can also :ref:`unenroll from a course<Unenroll
-from a Course>` from the dashboard.
+course-specific settings. You can also unenroll from a course from the dashboard.
 
 .. _Change a Course Email Preference:
 
