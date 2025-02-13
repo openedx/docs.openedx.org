@@ -1,3 +1,5 @@
+.. _Documentor Guidelines:
+
 Getting Started
 ###############
 
