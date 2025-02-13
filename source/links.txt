@@ -656,24 +656,13 @@
 
 .. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
 
-.. _taking_timed_exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/timed_exams.html
-
-.. _oe sfd proctored exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/proctored_exams.html#oe-sfd-proctored-exams
-
-.. _course discussions index: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/index.html
-
-
 .. _pub creating a course run: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/index.html
 
 .. _Pub Creating and Announcing a Course: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/index.html
 
-.. _create or edit a limited profile: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#create-or-edit-a-limited-profile
-
 .. _view order history: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#view-your-order-history
 
 .. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
-
-.. _add a post: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/add_post.html#adding-a-post
 
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
 
