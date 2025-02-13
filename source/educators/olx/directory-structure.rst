@@ -76,9 +76,8 @@ and directories.
 
 .. _Open edX Platform Directories:
 
-*************************
 Open edX Platform Directories
-*************************
+*******************************
 
 In addition to the course hierarchy, which is designed to be generic
 and cross-platform, OLX courses contain a set of JSON and HTML
