@@ -68,7 +68,7 @@ directory.
 For information about several examples of these directories, see the following topics.
 
 * :ref:`HTML Components`
-* :ref:`Problems`
+* :ref:`Problems<Components and Activities TOC>`
 * :ref:`Video Components`
 
 As the set of XBlocks grows, so does the set of associated XML tags
@@ -96,7 +96,7 @@ The ``about`` directory contains the following files.
 * ``short_description.html``, which contains the content for the course in the
   course list.
 
-For more information, see :ref:`The Course About Pages`.
+For more information, see :ref:`Course Overview`.
 
 ====================
 ``info`` Directory

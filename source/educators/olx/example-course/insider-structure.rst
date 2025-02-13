@@ -144,7 +144,7 @@ The ``about`` directory contains the following files.
 * ``short_description.html``, which contains the content for the course in the
   course list.
 
-For more information, see :ref:`The Course About Pages`.
+For more information, see :ref:`Course Overview`.
 
 ====================
 ``info`` Directory

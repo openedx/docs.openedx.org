@@ -33,8 +33,8 @@ OLX.
   of ``sequential`` elements are ``vertical`` elements (called units),
   and children of ``vertical`` elements are leaf elements (called modules).
 
-  * :ref:`Course Components`
-  * :ref:`Problems`
+  * :ref:`Course Components<OLX Components>`
+  * :ref:`Problems<Components and Activities TOC>`
 
 For more information, see :ref:`The Courseware Structure`.
 
@@ -47,8 +47,7 @@ supplemental content, such as textbooks, custom pages, and files.  The
 following list describes the types of supported content.
 
 * Course about pages appear in the course list for prospective students and are
-  used to market your course. For more information, see :ref:`The Course About
-  Pages`.
+  used to market your course. For more information, see :ref:`Course Overview`.
 
 * Course assets are any supplemental files you use in your course, such as a
   syllabus as a PDF file or an image that appears in an HTML component. For
@@ -63,4 +62,4 @@ Course Policies
 
 Course policies determine how your course functions. For example, policies
 control grading and content experiments. For more information, see
-:ref:`Policies`.
+:ref:`Course Policies`.
