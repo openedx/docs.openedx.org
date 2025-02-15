@@ -11,6 +11,7 @@ Open edX Documentation
 
    Community <community/index>
    Educators <educators/index>
+   Learners <learners/index>
    Site Operators <site_ops/index>
    Developers <developers/index>
    Documentors <documentors/index>

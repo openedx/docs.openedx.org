@@ -38,7 +38,7 @@ learner and the numerical expression that results.
      the n minus 1 power.
 
 For more information about how learners enter expressions, see
-`Math Formatting`_ in the *Open edX Learner's Guide*.
+:ref:`Math Formatting` in the *Open edX Learner's Guide*.
 
 Some of the options for numerical input problems include the following.
 
