@@ -40,7 +40,7 @@ To edit a team's details, follow these steps.
 
  :ref:`Enable and Configure Teams` (how-to)
 
- :ref:`Create a Team` (how-to)
+ :ref:`Educator Create a Team` (how-to)
 
  :ref:`Remove Learner from Team` (how-to)
 

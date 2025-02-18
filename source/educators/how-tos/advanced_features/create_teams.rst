@@ -1,4 +1,4 @@
-.. _Create a Team:
+.. _Educator Create a Team:
 
 Create a Team
 #############
@@ -65,7 +65,7 @@ To create a team, follow these steps.
 
  :ref:`Enable and Configure Teams` (how-to)
 
- :ref:`Search for a Team` (how-to)
+ :ref:`Educator Search for a Team` (how-to)
 
  :ref:`Edit a Team` (how-to)
 
