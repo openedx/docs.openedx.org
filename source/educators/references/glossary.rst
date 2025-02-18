@@ -203,7 +203,7 @@ C
   Components`. For information about making content-specific discussion topics
   divided by cohort, see :ref:`Set up Discussions in
   Cohorted Courses`.
-
+  
 
 .. _Course Catalog:
 
@@ -256,7 +256,7 @@ C
   A version of the course that runs at a particular time. Information about a
   course run includes start and end dates, as well as staff and the languages
   the course is available in. You can create a course run when you create a
-  course.
+  course. Course run information changes every time the course runs.
 
 **Course Track**
 

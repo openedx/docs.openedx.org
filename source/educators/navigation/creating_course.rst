@@ -27,7 +27,6 @@ Plan Course Information
    :maxdepth: 1
    :glob:
 
-   ../concepts/planning_course_run_information/set_up_course.rst
    ../references/course_development/basic_course_details.rst
    ../references/course_development/about_page.rst
    
