@@ -21,7 +21,7 @@ Accessibility Best Practices
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../concepts/accessibility/accessibility_guidelines.rst
@@ -36,7 +36,7 @@ Accessibility for Video
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/additional_transcript_options.rst
