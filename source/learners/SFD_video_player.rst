@@ -1,8 +1,8 @@
 .. _Video Player:
 
-#######################################
+############################################
 Watching Videos on the Open edX Video Player
-#######################################
+############################################
 
 Most courses include videos, and the Open edX platform has its own video player. Most of the
 controls on the player will be familiar to you if you have watched online
@@ -92,7 +92,6 @@ by an explanation of each option or control on the video player.
 15. **Transcript**: You can scroll through the transcript and select any line
     to go to that point in the video.
 
-For a demonstration of the Open edX video player, see `Videos on Open edX`_ in the Open edX
-DemoX course.
+For a demonstration of the Open edX video player, see the `Open edX Demo course`_.
 
 
