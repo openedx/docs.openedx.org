@@ -29,9 +29,7 @@ Plan Course Information
 
    ../concepts/planning_course_run_information/set_up_course.rst
    ../references/course_development/basic_course_details.rst
-   ../references/course_development/about_image_guidelines.rst
-   ../references/course_development/description_guidelines.rst
-   ../references/course_development/additional_course_information.rst
+   ../references/course_development/about_page.rst
    
 .. _Plan Course Run Information:
 

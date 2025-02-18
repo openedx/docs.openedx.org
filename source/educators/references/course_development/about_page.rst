@@ -1,10 +1,182 @@
-.. _Additional Course Information:
+.. _Guide to Course About Page:
 
-#######################################
-Additional Course Information
-#######################################
+#########################################################   
+Guide to Course About Page (Schedule & Details)
+#########################################################
 
 .. tags:: educator, reference
+
+This section describes the Course About page, also known as the Schedule & Details page in Studio.
+
+.. contents::
+   :local:
+   :depth: 2
+
+.. _Course Description:
+
+********************************
+Course Description
+********************************
+
+Descriptive course information includes information such as the course short
+and long descriptions, as well as information about what learners will learn,
+the subject, and the difficulty level.
+
+.. _Course Short Description Guidelines:
+
+========================================
+Course Short Description Guidelines
+========================================
+
+An effective short description follows these guidelines.
+
+* Contains 25–50 words.
+* Functions as a tagline.
+* Conveys compelling reasons to take the course.
+* Follows search engine optimization (SEO) guidelines.
+* Targets a global audience.
+
+
+--------------------------------
+Example Short Description
+--------------------------------
+
+**Course Name:** The Science of Happiness 
+
+**Course Description:** The first MOOC to teach positive psychology. Learn science-based principles and
+practices for a happy, meaningful life.
+
+.. _Course Long Description Guidelines:
+
+========================================
+Course Long Description Guidelines
+========================================
+
+Given the diversity of online learners, be sure to review your course
+description to ensure that it clearly communicates the target audience, level,
+and prerequisites for your course. Use concrete, unambiguous phrasing, such as
+a prerequisite of "understand eigenvalue decomposition" rather than
+"intermediate linear algebra".
+
+An effective long description follows these guidelines.
+
+* Contains 150–300 words.
+* Is easy to skim.
+* Uses bullet points instead of dense text paragraphs.
+* Follows SEO guidelines.
+* Targets a global audience.
+
+
+--------------------------------
+Example Long Descriptions
+--------------------------------
+
+The following long description is a content-based example.
+
+  Want to learn computer programming, but unsure where to begin? This is the
+  course for you! Scratch is the computer programming language that makes it
+  easy and fun to create interactive stories, games and animations and share
+  them online.
+
+  This course is an introduction to computer science using the programming
+  language Scratch, developed by MIT. Starting with the basics of using
+  Scratch, the course will stretch your mind and challenge you. You will learn
+  how to create amazing games, animated images and songs in just minutes with a
+  simple “drag and drop” interface.
+
+  No previous programming knowledge needed. Join us as you start your computer
+  science journey.
+
+The following long description is a skills-based example.
+
+  Taught by instructors with decades of experience on Wall Street, this M&A
+  course will equip analysts and associates with the skills they need to rise
+  to employment in the M&A field. Additionally, directors and managers who have
+  transitioned, or hope to transition, to M&A from other areas such as equities
+  or fixed income can use this course to eliminate skill gaps.
+
+.. _Learning Outcome Guidelines:
+
+========================================
+Learning Outcome Guidelines
+========================================
+
+It is good practice to include a list of learning outcomes describing the skills and knowledge
+learners will acquire in the course in an itemized list. It is recommended that
+you format each item as a short bullet item.
+
+
+--------------------------------
+Example Learning Outcomes
+--------------------------------
+
+* Write basic R scripts to manipulate and visualize data.
+* Apply linear and logistic regression techniques to analyze real-world datasets and interpret the results.
+* Apply text analytics techniques to extract insights from a given dataset and present their findings.
+* Formulate and solve linear and integer optimization problems
+
+
+.. _Course and Program Images and Videos:
+
+************************************************
+Images and Videos for a Course or Program
+************************************************
+
+The About page for a course or program includes both a representative image and
+a short About video. The course or program image also appears in places such as
+learner dashboards and search engine results.
+
+For information about how to add your course title and number, see
+:ref:`Creating a New Course <Creating a New Course>`.
+
+.. _Course and Program Image Guidelines:
+
+========================================
+Representative Image Guidelines
+========================================
+
+A representative image is an eye-catching, colorful image that captures the
+essence of a course or program. These images are visible in the following
+locations.
+
+
+* The About page.
+* The learner dashboard.
+* Search engine results.
+
+When you create a course or program image, keep the following guidelines in
+mind.
+
+* The image must not include text or headlines.
+* You must have permission to use the image. Possible image sources include
+  Flickr Creative Commons, Stock Vault, Stock XCHNG, and iStock Photo.
+* Each course in a sequence or program must have a unique image.
+
+
+
+.. _Image Size Guidelines:
+
+--------------------------------
+Image Size Guidelines
+--------------------------------
+
+Images must follow specific size guidelines.
+
+--------------------------------
+Course Image Size
+--------------------------------
+
+The course image that you add in Studio appears on the About page for the
+course and on the learner dashboard. It must be a minimum of 378 pixels in
+width by 225 pixels in height, and in .jpg or .png format. Make sure the
+image that you upload maintains the aspect ratio of those dimensions so that
+the image appears correctly on the dashboard.
+
+.. _Additional Course Information:
+
+************************************************
+Additional Course Information
+************************************************
 
 Optionally, you can share additional information on your About page. This
 section describes this information.
@@ -18,9 +190,9 @@ information, see :ref:`Creating a Course About Page <Creating a Course About Pag
 
 .. _Set Course Prerequisites:
 
-*********************************
+========================================
 Skill and Knowledge Prerequisites
-*********************************
+========================================
 
 You might want to make sure your learners have a specific set of skills
 and knowledge before they take your course. This information appears on the
@@ -37,9 +209,9 @@ in Studio. For more information, see :ref:`Specify Prerequisite Courses <Specify
 You add skill and knowledge prerequisites in Studio. For more information,
 see :ref:`Creating a Course About Page <Creating a Course About Page>`.
 
-=========================================
+------------------------------------------
 Example Skill and Knowledge Prerequisites
-=========================================
+------------------------------------------
 
 * Secondary school (high school) algebra; basic mathematics concepts
 * Graduate-level understanding of Keynesian economics
@@ -50,9 +222,9 @@ Example Skill and Knowledge Prerequisites
 
 .. _Prerequisite Courses:
 
-****************************
+========================================
 Prerequisite Courses
-****************************
+========================================
 
 When you require your learners pass a particular course before they
 enroll in your course, learners see information about course prerequisites on
@@ -79,9 +251,9 @@ Prerequisite Courses <Specify Prerequisite Courses>`.
 
 .. _Entrance Exam Prerequisite:
 
-*************
+========================================
 Entrance Exam
-*************
+========================================
 
 You can require your learners to pass an entrance exam before they access
 your course materials. If you include an entrance exam, learners who enroll
@@ -92,9 +264,9 @@ your course.
 You enter this information in Studio. For more information, see :ref:`Require
 an Entrance Exam <Require an Entrance Exam>`.
 
-==================================
+---------------------------------
 Best Practices for Entrance Exams
-==================================
+---------------------------------
 
 We strongly recommend you follow several guidelines to help you and your
 learners have a positive experience with entrance exams.
@@ -121,9 +293,9 @@ learners have a positive experience with entrance exams.
 
 .. _Syllabus Guidelines:
 
-*******************
+========================================
 Syllabus Guidelines
-*******************
+========================================
 
 A syllabus is a review of content covered in your course, organized by week or
 module. To create an effective syllabus, keep the following guidelines in mind.
@@ -141,9 +313,9 @@ You can also add a syllabus to your course in Studio by creating a custom page
 or a handout. For more information, see :ref:`Add Page <Adding Pages to a Course>` and :ref:`Add Course
 Handouts <Add Course Handouts>`.
 
-================
+--------------------------------
 Example Syllabus
-================
+--------------------------------
 
 **Week 1: From Calculator to Computer**
 
@@ -157,9 +329,9 @@ programs as well as conditional repetition.
 
 .. _FAQ Guidelines:
 
-************************************
+========================================
 FAQ Guidelines
-************************************
+========================================
 
 To help prospective learners, you can add any frequently asked questions (FAQ)
 and the answers to those questions to your About page.
@@ -168,9 +340,9 @@ and the answers to those questions to your About page.
 You can add the FAQ to your course About page. For more information, see
 :ref:`Creating a Course About Page <Creating a Course About Page>`.
 
-================
+--------------------------------
 Example FAQ
-================
+--------------------------------
 
 **Q: Is the textbook required?**
 
@@ -185,9 +357,9 @@ information about the value of each assignment on your **Progress** page.
 
 .. _Learner Testimonial Guidelines:
 
-******************************
+========================================
 Learner Testimonial Guidelines
-******************************
+========================================
 
 A learner testimonial is a quote from a learner in the course, demonstrating
 the value of taking the course.
@@ -202,9 +374,9 @@ information, see :ref:`Creating a Course About Page <Creating a Course About Pag
 
 .. _Course Metadata:
 
-***************
+========================================
 Course Metadata
-***************
+========================================
 
 You may need to be able to make certain custom information about your course
 available to entities such as customer relationship management (CRM)
@@ -221,23 +393,4 @@ You add this information as a JSON dictionary in Studio. For more
 information, see :ref:`Add Course Metadata <Add Course Metadata>`.
 
 
-.. seealso::
-  
 
-  :ref:`Course Title Guidelines` (reference)
-
-  :ref:`Creating Number Guidelines` (reference)
-
-  :ref:`Course and Program Images and Videos` (reference)
-
-  :ref:`Course Description` (reference)
-
-  :ref:`Creating a New Course <Create a New Course>`
-
-**Maintenance chart**
-
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
