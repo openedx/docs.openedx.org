@@ -4,10 +4,6 @@
 Getting a Course Certificate or Badge
 ######################################
 
-.. The edX Learner's Guide also includes a Certificates topic, but it has no
-.. shared content with this topic and there is no "Certificates" file in the
-.. Shared folder.
-
 Your course might be set up to issue certificates as evidence that you
 successfully completed the course. Different types of certificates might be
 available for courses you take. For information about the certificates that

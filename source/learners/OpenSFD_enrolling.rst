@@ -1,5 +1,3 @@
-.. This topic is used only in the Open edX version of the Learner's Guide
-
 .. _Enrolling in a Course:
 
 ######################
