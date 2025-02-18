@@ -141,7 +141,7 @@ C
   icon. You can move closed captions to different areas on the video screen by
   dragging and dropping them.
 
-  For more information, see :ref:`Additional Transcript Options`.
+  For more information, see :ref:`Manage Video Transcripts`.
 
 .. _codec_g:
 
@@ -974,7 +974,7 @@ T
   A text version of the content of a video. You can make video transcripts
   available to learners.
 
-  For more information, see :ref:`Additional Transcript Options`.
+  For more information, see :ref:`Manage Video Transcripts`.
 
 .. _U:
 

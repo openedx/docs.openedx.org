@@ -15,7 +15,7 @@ Watch this for an overview of how to add a transcript to a video, including diff
 
  :ref:`Video Process Overview` (how-to)
 
- :ref:`Additional Transcript Options` (how-to)
+ :ref:`Manage Video Transcripts` (how-to)
 
 **Maintenance chart**
 

@@ -1,7 +1,7 @@
-.. _Additional Transcript Options:
+.. _Manage Video Transcripts:
 
 #############################
-Specifying Transcript Options
+Manage Video Transcripts
 #############################
 
 .. tags:: educator, how-to
