@@ -11,7 +11,7 @@ Instructional Design Concepts
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/instructional_design/id_instructional_design_overview.rst
@@ -24,12 +24,11 @@ Plan Course Information
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/planning_course_run_information/set_up_course.rst
-   ../references/course_development/course_title_guidelines.rst
-   ../references/course_development/course_number_guidelines.rst
+   ../references/course_development/basic_course_details.rst
    ../references/course_development/about_image_guidelines.rst
    ../references/course_development/description_guidelines.rst
    ../references/course_development/additional_course_information.rst

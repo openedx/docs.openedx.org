@@ -1,10 +1,23 @@
-.. _Course Title Guidelines: 
+.. _Guide to Basic Course Details: 
 
-#########################
-Course Title Guidelines
-#########################
+#############################
+Guide to Basic Course Details
+#############################
 
 .. tags:: educator, reference
+
+This section describes the basic course details that you can set when you
+create a course.
+
+.. contents::
+   :local:
+   :depth: 1
+
+.. _Course Title Guidelines: 
+
+********************************
+Course Title Guidelines
+********************************
 
 The course title (sometimes also called the course name) and number are
 important identifiers for your course. It is a good idea to use titles and
@@ -31,9 +44,9 @@ For information about how to add your course name, see
   the way that your course title appears in Studio and the LMS, see
   :ref:`Change the Course Title <Change the Course Title>`.
 
-*********************
+========================================
 Example Course Titles
-*********************
+========================================
 
 The following course titles are for stand-alone courses.
 
@@ -48,10 +61,38 @@ as an XSeries.
 * Circuits and Electronics 2: Amplification, Speed, and Delay
 * Circuits and Electronics 3: Applications
 
-.. seealso::
-  
+.. _Creating Number Guidelines: 
 
-  :ref:`Creating Number Guidelines` (reference)
+********************************
+Course Number Guidelines
+********************************
+
+The course title (sometimes also called the course name) and number are
+important identifiers for your course. It is a good idea to use titles and
+numbers that are easy to understand and remember.
+
+Course numbers have the following guidelines.
+
+* Course numbers can have a maximum of 10 characters.
+* Characters can be letters, numbers or periods.
+* If a course consists of several modules, the course number can have an ending
+  such as .1x or .2x.
+
+.. note::
+  The number that you specify when you create your course becomes part of the
+  course URL. The course URL cannot be changed. However, if you want to change
+  the way that your course number appears in Studio and the LMS, see
+  :ref:`Change the Course Number <Change the Course Number>`.
+
+========================================
+Example Course Numbers
+========================================
+
+* CS101
+* BI01.1 and BI01.2
+* 6.002.1x and 6.002.2x
+
+.. seealso::
 
   :ref:`Course and Program Images and Videos` (reference)
 
