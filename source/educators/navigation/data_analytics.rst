@@ -40,13 +40,14 @@ Grades Data
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/data/manage_course_grades.rst
-   ../references/data/understanding_progress_page.rst
-   ../references/data/interpreting_grade_report.rst
-   ../references/data/interpreting_problem_grade_report.rst
+   ../how-tos/data/view_learner_grades.rst
+   ../how-tos/data/manage_learner_grades.rst
+   ../references/data/progress_page.rst
+   ../references/data/grade_report.rst
+   ../references/data/problem_grade_report.rst
 
 Answer Data
 *******************************************************

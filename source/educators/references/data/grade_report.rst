@@ -1,7 +1,7 @@
-.. _Interpret the Grade Report:
+.. _Guide to the Grade Report:
 
 ########################################
-Interpreting the Grade Report
+Guide to the Grade Report
 ########################################
 
 .. tags:: educator, reference
@@ -134,12 +134,14 @@ columns that provide the following information.
   
 
   :ref:`Learner Data` (concept)
+
+  :ref:`View Learner Grades` (how-to)
+
+  :ref:`Manage Learner Grades <Grades>` (how-to)     
   
-  :ref:`Interpret the Problem Grade Report` (reference)
+  :ref:`Guide to the Problem Grade Report` (reference)
 
-  :ref:`Understanding the Progress Page` (reference
-
-  :ref:`Manage Learner Grades <Grades>` (how-to)
+  :ref:`Guide to the Progress Page` (reference)
 
 **Maintenance chart**
 

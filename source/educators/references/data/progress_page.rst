@@ -1,8 +1,8 @@
-.. _Understanding the Progress Page:
+.. _Guide to the Progress Page:
 
-================================
-Understanding the Progress Page
-================================
+########################################
+Guide to the Progress Page
+########################################
 
 .. tags:: educator, reference
 
@@ -112,11 +112,13 @@ If your course is eligible, this feature will describe which of the following st
 
   :ref:`Learner Data` (concept)
 
-  :ref:`Interpret the Grade Report` (reference)
-
-  :ref:`Interpret the Problem Grade Report` (reference)
+  :ref:`View Learner Grades` (how-to)
 
   :ref:`Manage Learner Grades <Grades>` (how-to)     
+
+  :ref:`Guide to the Grade Report` (reference)
+
+  :ref:`Guide to the Problem Grade Report` (reference)
 
 **Maintenance chart**
 

@@ -1045,7 +1045,7 @@ W
   In the grade report for a course, whitelisted learners have a value of "Yes"
   in the **Certificate Eligible** column, regardless of the grades they
   attained. For information about the grade report, see
-  :ref:`Interpret the Grade Report`.
+  :ref:`Guide to the Grade Report`.
 
 
 .. _Wiki:

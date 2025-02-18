@@ -1,7 +1,7 @@
-.. _Interpret the Problem Grade Report:
+.. _Guide to the Problem Grade Report:
 
 ########################################
-Interpreting the Problem Grade Report
+Guide to the Problem Grade Report
 ########################################
 
 .. tags:: educator, reference
@@ -49,11 +49,13 @@ provide the following information.
 
   :ref:`Learner Data` (concept)
 
-  :ref:`Interpret the Grade Report` (reference)
+  :ref:`View Learner Grades` (how-to)
 
-  :ref:`Understanding the Progress Page` (reference)
+  :ref:`Manage Learner Grades <Grades>` (how-to)     
 
-  :ref:`Manage Learner Grades <Grades>` (how-to)
+  :ref:`Guide to the Grade Report` (reference)
+
+  :ref:`Guide to the Progress Page` (reference)
 
 **Maintenance chart**
 

@@ -8,7 +8,7 @@ Overview of Content Experiments
 
 You use content experiments to show different course content to different groups of learners. Also known as "A/B tests" or "split tests", content experiments enable you to research and compare the performance of learners in different groups to gain insight into the relative effectiveness of your course content.
 
-If your course uses content experiments, the grade report that you generate from the instructor dashboard includes a column identifying the experiment group that each learner has been assigned to. For more information, see :ref:`Interpret the Grade Report`.
+If your course uses content experiments, the grade report that you generate from the instructor dashboard includes a column identifying the experiment group that each learner has been assigned to. For more information, see :ref:`Guide to the Grade Report`.
 
 .. important:: Content experiments do not display correctly in the mobile apps. Blocks created with Content Experiment components display in the mobile app with a "Group ID" label.
 
