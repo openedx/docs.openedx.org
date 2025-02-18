@@ -116,14 +116,14 @@ The Computer You Use to Take the Test
    * Programs such as Excel, Word, or PowerPoint.
    * Communication programs such as Skype.
    * Any website page other than the exam window in your course, including
-     other content on edX.org.
+     other content on your course site.
 
 =============
 Your Behavior
 =============
 
 #. You must establish your identity by using a government-issued photo ID with
-   a name that matches the full name you use in your edx.org account.
+   a name that matches the full name you use in your account on your course site.
 
 #. You must dress as though you were in a public setting.
 

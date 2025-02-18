@@ -28,8 +28,7 @@ exams. To help you share information, ask questions, and collaborate with other
 learners and the course team, course discussions are available.
 
 Videos and other types of course content, assessments, and discussions are used
-in virtually every MOOC on the edx.org website. These course components are
-also used to create the courses on websites that use the Open edX online
+to create the courses on websites that use the Open edX online
 learning platform. Everyone is welcome to review examples of these components,
 and practice using them, by enrolling in the `edX Demo course`_.
 
@@ -54,7 +53,7 @@ abbreviation means.
 If You Have Questions As You Take a Course
 ********************************************
 
-If you have a question about something you encounter in an edX course, try
+If you have a question about something you encounter in your course, try
 these options for getting an answer.
 
 .. note::

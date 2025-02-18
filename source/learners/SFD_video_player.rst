@@ -1,12 +1,12 @@
 .. _Video Player:
 
 #######################################
-Watching Videos on the edX Video Player
+Watching Videos on the Open edX Video Player
 #######################################
 
-All edX courses include videos, and edX has its own video player. Most of the
+Most courses include videos, and the Open edX platform has its own video player. Most of the
 controls on the player will be familiar to you if you have watched online
-videos before. However, the edX video player has some extra features you may
+videos before. However, the Open edX video player has some extra features you may
 not have seen.
 
 The following image shows the video player in the middle of a video, followed
@@ -19,7 +19,7 @@ by an explanation of each option or control on the video player.
 
 .. image:: /_images/learners/Video_Intro.png
   :width: 800
-  :alt: The edX video player with numbered call-outs for every possible
+  :alt: The Open edX video player with numbered call-outs for every possible
       control.
 
 1. **Play/pause**: You can play the video by selecting this control. Select
@@ -92,7 +92,7 @@ by an explanation of each option or control on the video player.
 15. **Transcript**: You can scroll through the transcript and select any line
     to go to that point in the video.
 
-For a demonstration of the edX video player, see `Videos on edX`_ in the edX
+For a demonstration of the Open edX video player, see `Videos on Open edX`_ in the Open edX
 DemoX course.
 
 

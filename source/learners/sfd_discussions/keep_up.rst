@@ -4,7 +4,7 @@
 Keeping Up with New Activity
 ################################
 
-This topic describes how to keep up with discussion activity in your edX
+This topic describes how to keep up with discussion activity in your Open edX
 course.
 
 .. contents::

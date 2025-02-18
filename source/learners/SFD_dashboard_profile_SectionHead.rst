@@ -99,7 +99,7 @@ You can share either a limited profile or a full profile.
   * Your full name
   * Your username
   * Your profile image (optional)
-  * The date that you joined edX
+  * The date that you joined the site
   * Your language (optional)
   * Your location (optional)
   * Information about you (optional)

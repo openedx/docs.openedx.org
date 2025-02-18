@@ -1,10 +1,10 @@
 .. _SFD Notes:
 
 #################################
-Taking Notes in an edX Course
+Taking Notes in an Open edX Course
 #################################
 
-This topic describes how to work with notes in your edX course.
+This topic describes how to work with notes in your course.
 
 .. contents::
   :local:
@@ -14,8 +14,8 @@ This topic describes how to work with notes in your edX course.
 Overview of Notes
 ******************
 
-As you work through an edX course, you may want to highlight a particular
-passage or make a note about what you have read. In some edX courses, you can
+As you work through a course, you may want to highlight a particular
+passage or make a note about what you have read. In some courses, you can
 highlight passages and make notes right in the course.
 
 .. note:: You can create notes for most text in the body of the course.

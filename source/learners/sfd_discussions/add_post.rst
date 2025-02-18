@@ -111,7 +111,7 @@ topics on the **Discussion** page.
    images, use the formatting options above the text box.
 
    Any text formatting or images that you add are only visible when others
-   read your post in a web browser. The edX mobile app currently does
+   read your post in a web browser. The mobile app currently does
    not display added formatting or images.
 
 #. Click the **Show preview** button to see how the post will look after submission.

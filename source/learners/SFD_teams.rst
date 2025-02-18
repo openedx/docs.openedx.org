@@ -157,7 +157,7 @@ joined appears on your **My Team** page.
 Leave a Team
 ******************
 
-.. note:: EdX recommends that you do not change teams after work in a course
+.. note:: it is recommended that you do not change teams after work in a course
    has started without carefully considering the impacts to your work and
    that of your fellow learners.
 
@@ -252,7 +252,7 @@ Although you can view discussions in any team, you must belong to a team to
 add new posts and responses to the team's discussion.
 
 Team discussions work in the same way as your course discussions. For
-information about course discussions, see :ref:`Anatomy of edX Course
+information about course discussions, see :ref:`Anatomy of Open edX Course
 Discussions`.
 
 If you leave a team, you can view posts that are made, but you can no longer

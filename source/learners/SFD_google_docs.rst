@@ -1,10 +1,10 @@
 .. _Google Drive:
 
 #####################################################
-Using Google Files and Calendars in an edX Course
+Using Google Files and Calendars in Your Course
 #####################################################
 
-This topic describes how to work with files and calendars in your edX
+This topic describes how to work with files and calendars in your
 course.
 
 .. contents::
@@ -74,7 +74,7 @@ Add the Course Calendar to Your Own Calendar
 
 If you have your own Google calendar, you can add the Google calendar from a
 course to it. After you add a calendar, you see that calendar whenever you
-view your personal calendar, even if you are not signed in to your edX
+view your personal calendar, even if you are not signed in to your
 account. The course information appears together with your own information.
 
 .. image:: /_images/learners/google_cal_integrated.png

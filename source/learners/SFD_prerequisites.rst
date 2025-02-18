@@ -22,7 +22,7 @@ general requirements on their **About** pages.
 In addition to requiring general skills and knowledge, some courses require
 learners to pass a specific prerequisite course or pass an entrance exam.
 
-.. _Prerequisite edX Course:
+.. _Prerequisite Open edX Course:
 
 **************************
 Prerequisite Course

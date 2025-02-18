@@ -59,7 +59,7 @@ with a lock icon and the name of the section that you must complete, or
  :alt: The course outline showing a lock icon next to the name of a section.
 
 .. note::
-  In the edX mobile app, sections that have prerequisites are not visible in
+  In your instance's mobile app, sections that have prerequisites are not visible in
   the course outline until after you complete the prerequisite.
 
 When you try to open a section before you complete the prerequisite for that

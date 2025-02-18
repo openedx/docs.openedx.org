@@ -1,4 +1,4 @@
-.. _Anatomy of edX Course Discussions:
+.. _Anatomy of Open edX Course Discussions:
 
 #######################################
 Anatomy of Course Discussions

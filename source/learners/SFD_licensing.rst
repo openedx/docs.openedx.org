@@ -49,7 +49,7 @@ A Creative Commons license has one or more of the following options.
    * - **Attribution**
      - This option allows you to copy, distribute, display, and perform
        copyrighted work but only if they give credit the way you request. This
-       option is always selected for edX courses and videos under a Creative
+       option is always selected for courses and videos under a Creative
        Commons license.
    * - **Noncommercial**
      - This option allows you to distribute, display, and perform work--and

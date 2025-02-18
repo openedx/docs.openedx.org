@@ -112,7 +112,7 @@ Return to the Most Recently Completed Unit in a Specific Course
 To return to the unit you completed most recently in a specific course, you
 have the following options.
 
-* On your edX dashboard, locate your course, and then select **Resume Course**
+* On your dashboard, locate your course, and then select **Resume Course**
   next to the social media sharing options.
 * Open the course, and then select **Resume Course** on the **Course** page.
 

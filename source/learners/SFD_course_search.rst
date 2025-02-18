@@ -4,7 +4,7 @@
 Searching the Course
 #####################
 
-This topic describes how to search for edX course content.
+This topic describes how to search for course content on your Open edX site.
 
 .. contents::
   :local:
@@ -14,7 +14,7 @@ This topic describes how to search for edX course content.
 Overview of Search
 *************************
 
-You can search much of the content of your edX courses, including the course
+You can search much of the content of your courses, including the course
 title, description, text, and video transcripts. You can search for a term in
 an individual course, or you can search for that term in all of the courses
 that you are enrolled in, whether the course is active or archived. When the
@@ -60,7 +60,7 @@ right of the search result.
 Search All Your Courses
 *************************
 
-You can search for a term across all your edX courses. To do this, go to your
+You can search for a term across all your courses. To do this, go to your
 dashboard, enter your search term in the **Search Your Courses** field in the
 upper right corner of the page, and then press Enter. Your search term can
 contain more than one word.

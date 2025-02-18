@@ -30,7 +30,7 @@ Accessing a Certificate
 Some courses issue certificates, which you can access from your dashboard.
 
 The following examples show the **View Certificate** option on a learner
-dashboard on the edx.org website and on the mobile app.
+dashboard on your course site's website and on the mobile app.
 
 .. image:: /_images/learners/SFD_Cert_web.png
    :width: 600
@@ -124,10 +124,10 @@ steps.
 
 #. On your profile, select **Accomplishments**.
 
-#. For the badge that you want to share, select **Share**, or on the edX mobile
+#. For the badge that you want to share, select **Share**, or on your instance's mobile
    apps, select the **Share** icon.
 
-   The following examples show the **Share** options for badges on the edx.org
+   The following examples show the **Share** options for badges on your instance's
    website and on the mobile app.
 
 .. image:: /_images/learners/ProfileBadgesShare.png
