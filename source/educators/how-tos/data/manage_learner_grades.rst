@@ -19,7 +19,7 @@ changes you can make, see the following topics.
 To review learner answers to course problems, you can check the answer
 submissions for a specific problem, either for a selected learner or for all
 learners. You can also review answer distribution data for all of the problems.
-See :ref:`Review_Answers`.
+See :ref:`View Answer Data`.
 
 For open response assessments, you can generate an ORA data report that
 provides details of each learner's response and of assessments that were

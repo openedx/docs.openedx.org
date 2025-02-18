@@ -53,10 +53,10 @@ Answer Data
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/data/course_answers.rst
+   ../how-tos/data/view_answer_data.rst
    ../references/data/answer_report_faq.rst   
 
 .. _Certificate Data:

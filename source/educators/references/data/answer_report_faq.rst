@@ -17,7 +17,7 @@ displays after all of the ``{course_id}_grade_report_{date}.csv`` files. Be
 sure to scroll to the end of the list of available reports.
 
 **Why are some problems missing from this report? The ones that are missing do
-have the problem types listed under** :ref:`Review_Answers`.
+have the problem types listed under** :ref:`View Answer Data`.
 
 This report includes only problems that at least one learner has answered since
 early March 2014. For those problems, this report only includes activity that
@@ -89,6 +89,10 @@ Microsoft Excel for Mac than in OpenOffice Calc.
 If you notice characters that do not display as expected in a spreadsheet, try
 a different spreadsheet application such as LibreOffice or Apache OpenOffice to
 open the .csv file.
+
+.. seealso::
+
+ :ref:`View Answer Data` (how-to)
 
 **Maintenance chart**
 

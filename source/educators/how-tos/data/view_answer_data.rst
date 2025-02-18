@@ -1,8 +1,8 @@
-.. _Review_Answers:
+.. _View Answer Data:
 
-###########
-Answer Data
-###########
+########################
+View Answer Data
+########################
 
 .. tags:: educator, how-to
 
@@ -496,10 +496,8 @@ learners in this example selected the correct answer, the number of incorrect
 answer(s) can guide future changes to the course content.
 
 .. seealso::
- 
 
  :ref:`Answer_Report_FAQ` (reference)
-
 
 
 **Maintenance chart**
