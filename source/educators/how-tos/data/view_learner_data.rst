@@ -1,4 +1,4 @@
-.. _View learner data:
+.. _View Learner Data:
 
 #############################
 View Learner Data

@@ -115,10 +115,11 @@ Open edX Educators
          :align: center
          :target: navigation/data_analytics.html
 
-      | :ref:`Nav Enrollment Data`
-      | :ref:`Nav Learner Data`
-      | :ref:`Grades Data`
-      | :ref:`Certificate Data`
+      | :ref:`View Course Enrollments`
+      | :ref:`View Learner Data`
+      | :ref:`View Learner Grades`
+      | :ref:`View Answer Data`
+      | :ref:`View Certificate Data`
 
       .. button-ref:: navigation/data_analytics
          :color: primary

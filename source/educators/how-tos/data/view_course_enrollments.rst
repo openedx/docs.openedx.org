@@ -1,4 +1,4 @@
-.. _View_Course_Enrollments:
+.. _View Course Enrollments:
 
 #########################
 View Course Enrollments

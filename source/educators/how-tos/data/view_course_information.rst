@@ -63,7 +63,7 @@ in the instructor dashboard.
 
  :ref:`Enrollment_Requirements` (reference)
  
- :ref:`View_Course_Enrollments` (how-to)
+ :ref:`View Course Enrollments` (how-to)
 
  :ref:`View Learners Not Yet Enrolled` (how-to)
 

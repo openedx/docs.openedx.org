@@ -37,7 +37,7 @@ To download this report, follow these steps.
  
  :ref:`View_Course_Information` (how-to)
 
- :ref:`View_Course_Enrollments` (how-to)
+ :ref:`View Course Enrollments` (how-to)
 
  :ref:`Manage_Course_Enrollments` (how-to)
 
