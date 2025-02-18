@@ -49,8 +49,7 @@ given resource on mouse-over event.
 
 Course team members should be sure to review all supplemental materials to
 assure that they are accessible before making them available through your
-course. For more information, see :ref:`Accessibility Best Practices for Course
-Content Development`.
+course. For more information, see :ref:`Accessibility Best Practices Checklist`.
 
 Enable the Recommender Tool
 ***************************
