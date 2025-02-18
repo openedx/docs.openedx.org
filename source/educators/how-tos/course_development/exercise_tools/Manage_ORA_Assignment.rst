@@ -67,7 +67,7 @@ Access a Specific Learner's Information
 
 In order to access information about a specific learner's assignment, you
 need that learner's username or email address. For more information, see
-:ref:`View and download student data`.
+:ref:`View learner data`.
 
 To access information about a specific learner, follow these steps.
 
@@ -201,7 +201,7 @@ Perform an Override Assessment
 
 In order to perform an override assessment for a learner, you need that
 learner's username or email address. For more information, see
-:ref:`View and download student data`.
+:ref:`View learner data`.
 
 To perform an override assessment, follow these steps.
 
@@ -254,7 +254,7 @@ or amending grades after-the-fact. For individual ORAs, see
 
 In order to perform an override assessment for a team, you need the edX username
 or edX email address of a learner on the team. For more information, see
-:ref:`Download or View Learner Data<View and download student data>`.
+:ref:`Download or View Learner Data<View Learner Data>`.
 
 To perform an override assessment, follow these steps:
 

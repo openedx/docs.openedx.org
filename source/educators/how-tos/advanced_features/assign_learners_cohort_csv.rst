@@ -155,8 +155,7 @@ The results file provides the following information:
 
 
 For a report that includes the cohort assignment for every enrolled learner,
-review the learner profile information for your course. See :ref:`View and
-download student data`.
+review the learner profile information for your course. See :ref:`View Learner Data`.
 
 
 .. _Creating a Unicode Encoded CSV File:

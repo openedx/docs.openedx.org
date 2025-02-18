@@ -1,14 +1,32 @@
-.. _View and download student data:
+.. _View learner data:
 
 #############################
-Download or View Learner Data
+View Learner Data
 #############################
 
 .. tags:: educator, how-to
 
-You can download a report of learner data to gain more information about the
-individuals who are enrolled in your course. You also have the option to view
-learner data on the instructor dashboard.
+You can view a report of learner data to gain more information about the
+individuals who are enrolled in your course. You also have the option to download
+learner data from the instructor dashboard.
+
+*****************
+View Learner Data
+*****************
+
+To view learner data, follow these steps.
+
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. To display data about enrolled learners, select **List enrolled students'
+   profile information**.
+
+   A table of profile data displays, with one row for each enrolled learner.
+   Longer values, such as goals, are truncated. For more information, see
+   :ref:`Guide to the Student Profile Report`.
 
 *********************
 Download Learner Data
@@ -37,34 +55,20 @@ To download learner data, follow these steps.
    the page.
 
    All learner-supplied data is included in this file without truncation. For
-   more information, see :ref:`Columns in the Student Profile Report`.
+   more information, see :ref:`Guide to the Student Profile Report`.
 
-*****************
-View Learner Data
-*****************
-
-To view learner data, follow these steps.
-
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Student Admin**.
-
-#. To display data about enrolled learners, select **List enrolled students'
-   profile information**.
-
-   A table of profile data displays, with one row for each enrolled learner.
-   Longer values, such as goals, are truncated. For more information, see
-   :ref:`Columns in the Student Profile Report`.
 
 .. seealso::
  
-
  :ref:`Learner Data` (concept)
 
- :ref:`Columns in the Student Profile Report` (reference)
+ :ref:`View Anonymized Learner IDs` (how-to)
 
- :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+ :ref:`Guide to Staff Debug Info` (reference)
+
+ :ref:`Guide to the Student Profile Report` (reference)
+
+ :ref:`Manage Learner Grades <Grades>` (how-to) 
 
 **Maintenance chart**
 

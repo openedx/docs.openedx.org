@@ -15,7 +15,7 @@ learners.
 
 Data about course enrollment is available in the LMS, by selecting
 **Instructor** to access the instructor dashboard. For more
-information, see :ref:`Report Learners Not Yet Enrolled`.
+information, see :ref:`View Learners Not Yet Enrolled`.
 
 .. _registration_enrollment:
 

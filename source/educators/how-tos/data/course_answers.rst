@@ -37,7 +37,7 @@ View One Learner's Submission History
 
 Before you can check the answer or answers submitted by a learner, you need the
 learner's username. For more information about how to obtain usernames, see
-:ref:`View and download student data`.
+:ref:`View learner data`.
 
 To review a response submitted by a learner, follow these steps.
 

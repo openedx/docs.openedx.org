@@ -22,7 +22,7 @@ if the cohort assignment of its author changes. To a learner, it can seem that
 posts have "disappeared".
 
 To verify the cohort assignments for your learners, download the :ref:`student
-profile report<View and download student data>` for your course. If changes are
+profile report<View Learner Data>` for your course. If changes are
 needed, you can :ref:`assign learners<Assign Learners to Cohorts Manually>` to
 different cohorts manually in the LMS by selecting **Instructor** and then
 **Cohorts**, or :ref:`upload cohort assignment changes<Assign Learners to

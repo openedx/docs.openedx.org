@@ -1,8 +1,8 @@
-.. _Staff Debug Info:
+.. _Guide to Staff Debug Info:
 
-################
-Staff Debug Info
-################
+#############################
+Guide to Staff Debug Info
+#############################
 
 .. tags:: educator, reference
 
@@ -43,9 +43,16 @@ but for the sake of clarity, some of these fields are documented here.
   contains this problem.
 
 .. seealso::
-  
+ 
+ :ref:`Learner Data` (concept)
 
-  :ref:`Learner Data` (concept)  
+ :ref:`View learner data` (how-to)
+
+ :ref:`View Anonymized Learner IDs` (how-to)
+
+ :ref:`Guide to the Student Profile Report` (reference)
+
+ :ref:`Manage Learner Grades <Grades>` (how-to) 
 
 **Maintenance chart**
 

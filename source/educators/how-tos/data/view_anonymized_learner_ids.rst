@@ -1,7 +1,7 @@
-.. _Access_anonymized:
+.. _View Anonymized Learner IDs:
 
 #############################
-Access Anonymized Learner IDs
+View Anonymized Learner IDs
 #############################
 
 .. tags:: educator, how-to
@@ -32,12 +32,15 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the
 
 .. seealso::
  
-
  :ref:`Learner Data` (concept)
 
- :ref:`Columns in the Student Profile Report` (reference)
+ :ref:`View learner data` (how-to)
 
- :ref:`View and download student data` (how-to)
+ :ref:`Guide to Staff Debug Info` (reference)
+
+ :ref:`Guide to the Student Profile Report` (reference)
+
+ :ref:`Manage Learner Grades <Grades>` (how-to) 
 
 
 **Maintenance chart**

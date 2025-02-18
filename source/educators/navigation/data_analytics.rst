@@ -24,13 +24,13 @@ Learner Data
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/data/learner_data.rst
+   ../how-tos/data/view_learner_data.rst
+   ../how-tos/data/view_anonymized_learner_ids.rst
    ../references/data/staff_debug_info.rst
-   ../how-tos/data/view_download_learner_data.rst
-   ../how-tos/data/access_anonymized_data.rst
    ../references/data/student_profile_report.rst
 
 

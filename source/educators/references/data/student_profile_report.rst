@@ -1,8 +1,8 @@
-.. _Columns in the Student Profile Report:
+.. _Guide to the Student Profile Report:
 
-===========================================
-Columns in the Student Profile Report
-===========================================
+#########################################
+Guide to the Student Profile Report
+#########################################
 
 .. tags:: educator, reference
 
@@ -118,12 +118,15 @@ in this report) are configurable in the Open edX site configuration.
 
 .. seealso::
  
-
  :ref:`Learner Data` (concept)
 
- :ref:`View and download student data` (how-to)
+ :ref:`View learner data` (how-to)
 
- :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+ :ref:`View Anonymized Learner IDs` (how-to)
+
+ :ref:`Guide to Staff Debug Info` (reference)
+
+ :ref:`Manage Learner Grades <Grades>` (how-to) 
 
 
 **Maintenance chart**
