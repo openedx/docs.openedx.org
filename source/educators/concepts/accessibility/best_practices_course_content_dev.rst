@@ -1,10 +1,10 @@
-.. _Accessibility Best Practices for Course Content Development:
+.. _Accessibility Best Practices Checklist:
 
 ##########################################################
-Accessibility Best Practices for Developing Course Content
+Accessibility Best Practices Checklist
 ##########################################################
 
-.. tags:: educator, concept
+.. tags:: educator, reference
 
 The Open edX project is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
@@ -1047,8 +1047,6 @@ Universal Design for Learning Resources
  :ref:`Accessibility Guidelines` (concept)
 
  :ref:`Designing for Mobile` (concept)
-
- :ref:`Supporting Learners with Diverse Needs` (concept)
 
  :ref:`Accessibility Checker` (reference)
 

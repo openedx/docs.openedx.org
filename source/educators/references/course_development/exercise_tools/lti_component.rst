@@ -54,7 +54,7 @@ LTI tool provider.
 
 Be sure to review all supplemental materials to ensure that they are accessible
 before making them available through your course. For more information, see
-:ref:`Accessibility Best Practices for Course Content Development`.
+:ref:`Accessibility Best Practices Checklist`.
 
 You can also integrate content from a course into a remote learning management
 system such as Canvas or Blackboard.
@@ -71,7 +71,7 @@ For more information about how to use Studio as an LTI tool provider, see
 
  :ref:`LTI Component settings` (reference)
 
- :ref:`Accessibility Best Practices for Course Content Development`
+ :ref:`Accessibility Best Practices Checklist`
 
 **Maintenance chart**
 

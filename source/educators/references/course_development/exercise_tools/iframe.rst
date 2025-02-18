@@ -21,7 +21,7 @@ to people with disabilities. For example, in addition to testing the iframe
 components that you add to your course, you can ask third party providers to
 confirm that a tool is accessible, and, if available, contact your on campus
 accessibility support services for additional guidance. For more information,
-see :ref:`Accessibility Best Practices for Course Content Development`.
+see :ref:`Accessibility Best Practices Checklist`.
 
 Iframes are well-suited for tools that demonstrate a concept, but that are not
 graded or used to store student data. If you want to add a graded tool or

@@ -44,7 +44,7 @@ tooltips.
 
  :ref:`Adding Feedback and Hints to a Problem` (reference)
 
- :ref:`Accessibility Best Practices for Course Content Development` (concept)
+ :ref:`Accessibility Best Practices Checklist` (reference)
 
 **Maintenance chart**
 

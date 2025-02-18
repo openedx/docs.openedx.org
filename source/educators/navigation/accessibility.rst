@@ -25,7 +25,6 @@ Accessibility Best Practices
    :glob:   
 
    ../concepts/accessibility/accessibility_guidelines.rst
-   ../concepts/accessibility/supporting_learners_diverse_needs.rst
    ../concepts/accessibility/best_practices_course_content_dev.rst
    ../concepts/accessibility/design_for_mobile.rst
    ../references/accessibility/accessibility_checker.rst
