@@ -16,6 +16,8 @@ Manage Video Transcripts
 Add a Transcript
 ****************
 
+.. youtube:: qABNazvnAE0
+
 .. note::
    This section is for videos that do not have integrated transcripts. Only use
    this option for transcripts in .srt format. If you want to provide a
@@ -104,10 +106,7 @@ To add another downloadable transcript, follow these steps.
 
 .. seealso::
  
-
  :ref:`Video Process Overview` (how-to)
-
- :ref:`Add Transcript in Another Language` (how-to)
 
 **Maintenance chart**
 
