@@ -28,14 +28,4 @@ Accessibility Best Practices
    ../concepts/accessibility/best_practices_course_content_dev.rst
    ../concepts/accessibility/design_for_mobile.rst
    ../references/accessibility/accessibility_checker.rst
-
-.. _Accessibility for Video:
-
-Accessibility for Video
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:   
-
    ../how-tos/course_development/manage_video_transcripts.rst
