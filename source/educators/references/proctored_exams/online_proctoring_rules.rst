@@ -16,10 +16,6 @@ of every proctored exam.
 For more information about specifying rules, see
 :ref:`specifying_exam_rules_and_exceptions`.
 
-.. This file contains the proctored exam rules. This section is included within
-.. topics in both the learner and course author documentation for partners and
-.. Open edX.
-
 
 .. _Educator Know Rules for Online Proctoring:
 

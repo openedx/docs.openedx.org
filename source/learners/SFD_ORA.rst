@@ -17,9 +17,9 @@ assessment, see :ref:`Submit a File with Your Response`.
 .. note::
 
    If you want to try an example open response assessment problem, check out
-   the edX demonstration course, `edX Demo course`_. In addition to giving you
-   a tour of a typical edX course, the edX Demo course contains `information
-   about open response assessments`_ and an `example peer assessment`_.
+   the edX demonstration course, `Open edX Demo course`_. In addition to giving you
+   a tour of a typical edX course, the Open edX Demo course contains information
+   about open response assessments and an example peer assessment.
 
 This section describes how to work with open response assessments in your edX
 course.

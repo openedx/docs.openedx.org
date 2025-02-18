@@ -30,7 +30,7 @@ learners and the course team, course discussions are available.
 Videos and other types of course content, assessments, and discussions are used
 to create the courses on websites that use the Open edX online
 learning platform. Everyone is welcome to review examples of these components,
-and practice using them, by enrolling in the `edX Demo course`_.
+and practice using them, by enrolling in the `Open edX Demo course`_.
 
 In some courses, enhanced components might also be included, from team
 problem-solving exercises and lab work to live demonstrations and ask me

@@ -32,11 +32,7 @@
 
 .. _test metadata file: https://courses.stage.edx.org/auth/saml/metadata.xml
 
-.. _edX Demo course: https://www.edx.org/course/demox-edx-demox-1-0
-
-.. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
-
-.. _example peer assessment: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/2
+.. _Open edX Demo course: https://www.edx.org/course/demox-edx-demox-1-0
 
 .. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec3364075f2845baa625bfecd5970410/2
 
@@ -208,7 +204,7 @@
 
 .. _course.xml: https://github.com/pmitros/edX-Insider/blob/master/Ongoing/course.xml
 
-.. _edX Demo Course GitHub: https://github.com/openedx/edx-demo-course
+.. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
 
 .. EDX WIKI LINKS
 
