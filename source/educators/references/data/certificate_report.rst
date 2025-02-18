@@ -1,7 +1,7 @@
-.. _Columns in the Certificate Report:
+.. _Guide to the Certificate Report:
 
 ####################################
-Columns in the Certificate Report
+Guide to the Certificate Report
 ####################################
 
 .. tags:: educator, reference
@@ -27,8 +27,7 @@ the course.
 
 .. seealso::
  
-
- :ref:`Access Certificate Data` (how-to)
+ :ref:`View Certificate Data` (how-to)
 
  :ref:`Setting Up Certificates` (reference)
 

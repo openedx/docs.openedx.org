@@ -65,9 +65,9 @@ Certificate Data
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/data/certificate_data.rst
-   ../references/data/certificate_report_columns.rst
+   ../how-tos/data/view_certificate_data.rst
+   ../references/data/certificate_report.rst
    

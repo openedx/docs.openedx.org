@@ -1,7 +1,7 @@
-.. _Access Certificate Data:
+.. _View Certificate Data:
 
 ##########################
-Obtaining Certificate Data
+View Certificate Data
 ##########################
 
 .. tags:: educator, how-to
@@ -25,7 +25,7 @@ To view certificate data, follow these steps.
 
    A table of certificate data is displayed, with one row for each type of
    certificate issued. For more information on the contents of this report, see
-   :ref:`Columns in the Certificate Report`.
+   :ref:`Guide to the Certificate Report`.
 
 *************************
 Download Certificate Data
@@ -41,17 +41,16 @@ To download certificate data, follow these steps.
 
    The CSV file is downloaded to your computer.
 
-   For more information on the contents of this file, see :ref:`Columns in the
+   For more information on the contents of this file, see :ref:`Guide to the
    Certificate Report`.
 
 .. seealso::
  
-
  :ref:`Setting Up Certificates`
 
  :ref:`Issuing Certificates`
 
- :ref:`Columns in the Certificate Report` (reference)
+ :ref:`Guide to the Certificate Report` (reference)
 
 
 

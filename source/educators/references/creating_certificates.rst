@@ -17,7 +17,7 @@ This section describes how to create and manage certificates for your course.
 
 For more information about certificates, see these additional topics.
 
-* :ref:`Access Certificate Data <Access Certificate Data>`
+* :ref:`View Certificate Data <View Certificate Data>`
 * :ref:`Issuing Certificates <Issuing Certificates>`
 
 
