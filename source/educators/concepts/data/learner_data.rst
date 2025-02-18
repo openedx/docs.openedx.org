@@ -1,7 +1,7 @@
 .. _Learner Data:
 
 ############################
-Learner Data
+About Learner Data
 ############################
 
 .. tags:: educator, concept
