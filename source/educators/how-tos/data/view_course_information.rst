@@ -1,4 +1,4 @@
-.. _Course Data:
+.. _View_Course_Information:
 
 #######################
 View Course Information
@@ -57,10 +57,18 @@ To view this course data, follow these steps.
 Additional data about the course and its learners is available from other pages
 in the instructor dashboard.
 
+
+
 .. seealso::
+
+ :ref:`Enrollment_Requirements` (reference)
  
+ :ref:`View_Course_Enrollments` (how-to)
+
+ :ref:`View Learners Not Yet Enrolled` (how-to)
 
  :ref:`Manage_Course_Enrollments` (how-to)
+
 
 **Maintenance chart**
 

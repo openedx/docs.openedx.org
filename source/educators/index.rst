@@ -115,7 +115,7 @@ Open edX Educators
          :align: center
          :target: navigation/data_analytics.html
 
-      | :ref:`Nav Course Data`
+      | :ref:`Nav Enrollment Data`
       | :ref:`Nav Learner Data`
       | :ref:`Grades Data`
       | :ref:`Certificate Data`

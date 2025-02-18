@@ -5,18 +5,18 @@
 Data & Analytics
 ##################
 
-.. _Nav Course Data:
+.. _Nav Enrollment Data:
 
-Course Data
+Enrollment Data
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/data/view_course_information.rst
-   ../how-tos/student_management/manage_course_enrollments.rst
-   ../references/data/staff_debug_info.rst
+   ../how-tos/data/view_course_enrollments.rst
+   ../how-tos/data/view_learners_not_yet_enrolled.rst
 
 .. _Nav Learner Data:
 
@@ -28,6 +28,7 @@ Learner Data
    :glob:
 
    ../concepts/data/learner_data.rst
+   ../references/data/staff_debug_info.rst
    ../how-tos/data/view_download_learner_data.rst
    ../how-tos/data/access_anonymized_data.rst
    ../references/data/student_profile_report.rst
