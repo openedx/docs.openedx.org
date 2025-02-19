@@ -48,19 +48,19 @@ Automatic Emails
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/communication/automatic_email.rst
 
-Course Highlights
+Course Highlight Emails
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/set_course_highlights.rst
+   ../how-tos/course_development/manage_course_highlight_emails.rst
 
 .. _Course Updates:
 
@@ -68,12 +68,11 @@ Course Updates
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/communication/course_updates_handouts.rst
+   ../concepts/communication/course_updates_handouts.rst
    ../how-tos/communication/add_course_updates_handouts.rst
-   ../how-tos/add_course_updates.rst
 
 Course Wiki
 *******************************************************

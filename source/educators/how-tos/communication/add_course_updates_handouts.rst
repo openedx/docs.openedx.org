@@ -1,10 +1,24 @@
-.. _Add a Course Update:
+.. _Add Course Updates and Handouts:
 
-###################
-Add a Course Update
-###################
+#########################################
+Add Course Updates and Handouts
+#########################################
 
 .. tags:: educator, how-to
+
+.. youtube:: 3rPeuFR6UDI
+
+Course updates are communications, especially a welcome message, that learners
+see at the top of the **Course** page when they enter the course.
+
+Handouts are links to files that you upload in Studio, for example, a PDF
+version of the course syllabus, or an article that you want learners to read.
+
+.. _Add a Course Update:
+
+********************
+Add a Course Update
+********************
 
 On the **Updates** page in Studio, you see the list of updates sorted in the
 order that they were created (most recent at the top of the list). You can
@@ -92,7 +106,7 @@ To add a course handout, follow these steps.
 .. seealso::
  
 
- :ref:`Adding Course Updates and Handouts` (reference)
+ :ref:`About Course Updates and Handouts` (concept)
 
 
 **Maintenance chart**
