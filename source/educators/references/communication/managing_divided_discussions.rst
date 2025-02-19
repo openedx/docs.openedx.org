@@ -1,7 +1,7 @@
 .. _Guide to Managing Divided Discussions:
 
 Guide to Managing Divided Discussions
-###################################
+#######################################
 
 .. tags:: educator, reference
 

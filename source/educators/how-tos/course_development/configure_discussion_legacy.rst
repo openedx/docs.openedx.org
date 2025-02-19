@@ -1,7 +1,7 @@
 .. _Configure Open edX Discussions Legacy:
 
 Configure Open edX Discussions - Legacy
-###################################
+########################################
 
 .. tags:: educator, how-to
 

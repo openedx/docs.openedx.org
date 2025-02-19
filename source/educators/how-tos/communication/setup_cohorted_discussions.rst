@@ -16,8 +16,7 @@ members of their cohort.
 For information about divided discussions, see :ref:`About Divided
 Discussions`.
 
-For information about managing and moderating discussions, see :ref:`Managing
-Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discussions`.
+For information about managing and moderating discussions, see :ref:`Guide to Managing Divided Discussions` and :ref:`Best Practices for Moderating Course Discussions`.
 
 
 .. seealso::
@@ -33,7 +32,7 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Configure Open edX Discussions - Legacy` (how-to)
+ :ref:`Configure Open edX Discussions Legacy` (how-to)
 
  :ref:`Closing Discussions` (how-to)
 

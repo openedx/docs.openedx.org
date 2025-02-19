@@ -83,7 +83,7 @@ Toggle "Allow Anonymous Discussion Posts to Peers"
 
  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Configure Open edX Discussions - Legacy` (how-to)
+ :ref:`Configure Open edX Discussions Legacy` (how-to)
 
  :ref:`Moderate Discussions` (how-to)
 

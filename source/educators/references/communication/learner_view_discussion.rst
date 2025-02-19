@@ -53,7 +53,7 @@ discussion topics.
 
  :ref:`Set Up Divided Discussions` (how-to)
 
- :ref:`Configure Open edX Discussions - Legacy` (how-to)
+ :ref:`Configure Open edX Discussions Legacy` (how-to)
 
 
 **Maintenance chart**

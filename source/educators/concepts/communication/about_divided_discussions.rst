@@ -49,8 +49,7 @@ learner groups (cohorts) that you use in your course. As discussion moderators, 
 only see and respond to posts by other members of their own group (cohort). For information,
 see :ref:`Assign discussion roles`.
 
-For more information about managing discussions, see :ref:`Managing Divided
-Discussion Topics` and :ref:`Best Practices for Configuring Course Discussions`.
+For more information about managing discussions, see :ref:`Guide to Managing Divided Discussions` and :ref:`Best Practices for Configuring Course Discussions`.
 
 .. note::
 

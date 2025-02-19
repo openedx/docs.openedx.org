@@ -83,8 +83,7 @@ Content-specific Discussion Topics (Legacy)
 
 To create a content-specific discussion topic, you add a discussion component
 to a unit. Typically, you do this while you are designing and creating your
-course in Studio. Follow the instructions in :ref:`Working with Discussion
-Components`. The result is a discussion topic associated with a unit and its
+course in Studio. Follow the instructions in :ref:`Configure Open edX Discussions Legacy`. The result is a discussion topic associated with a unit and its
 content. Learners can access content-specific topics both in the course unit
 and on the Discussion page.
 

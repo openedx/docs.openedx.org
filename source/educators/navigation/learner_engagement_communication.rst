@@ -26,7 +26,7 @@ Course Discussions
    ../concepts/communication/about_divided_discussions.rst
    ../how-tos/communication/setup_divided_discussions.rst
    ../how-tos/communication/setup_cohorted_discussions.rst
-   ../concepts/communication/managing_divided_discussions.rst
+   ../references/communication/managing_divided_discussions.rst
 
 .. _Bulk Emails:
 

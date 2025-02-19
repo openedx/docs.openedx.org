@@ -108,8 +108,7 @@ follow these steps.
 
 5. Click **Save** at the bottom-right of the configuration page.
 
-For information about managing discussions that are divided, see :ref:`Managing
-Divided Discussion Topics`.
+For information about managing discussions that are divided, see :ref:`Guide to Managing Divided Discussions`.
 
 .. seealso::
  

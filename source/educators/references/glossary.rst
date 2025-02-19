@@ -199,8 +199,7 @@ C
   respond to posts and responses by other members of the cohort that they are
   in.
 
-  For more information, see :ref:`Working with Discussion
-  Components`. For information about making content-specific discussion topics
+  For more information, see :ref:`Configure Open edX Discussions Legacy`. For information about making content-specific discussion topics
   divided by cohort, see :ref:`Set up Discussions in
   Cohorted Courses`.
   
@@ -334,8 +333,7 @@ D
   topic. See also :ref:`Content Specific Discussion Topic <Content Specific
   Discussion Topic_g>`.
 
-  For more information, see :ref:`Working with Discussion
-  Components`.
+  For more information, see :ref:`Configure Open edX Discussions Legacy`.
 
 **Discussion Thread List**
 
