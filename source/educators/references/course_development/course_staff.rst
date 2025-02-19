@@ -11,36 +11,6 @@ You can designate a team of people to help you run your course.
 You add staff members in Studio. For more information, see
 :ref:`Add Course Staff <Add Course Staff>`.
 
-
-.. _Staff Biography Guidelines:
-
-*******************************
-About Page Biography Guidelines
-*******************************
-
-Staff biographies for the course About page must include the following
-information.
-
-* Name
-* Title
-* Email address
-* Biography (1-2 paragraphs)
-* Image
-
-.. note::
-  The instructor's image must meet the following requirements.
-    * Resolution of 110 x 110 pixels
-    * Under 256 KB in size
-    * .gif, .jpg, or .png file type
-
-Additionally, biographies can optionally include the following information.
-
-* Facebook, Twitter, and blog URLs
-* List of major works
-
-For information about how to enter this information in your course About page,
-see :ref:`Creating a Course About Page <Creating a Course About Page>`.
-
 .. _About the Course Team Roles:
 
 *****************
