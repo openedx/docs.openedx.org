@@ -40,7 +40,7 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Enable/Disable Anonymous Discussion Posts` (how-to)
 
- :ref:`Administer Discussions` (how-to)
+ :ref:`Moderate Discussions` (how-to)
 
  :ref:`A Students View of the Discussion` (reference)
 

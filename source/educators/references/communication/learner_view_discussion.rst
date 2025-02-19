@@ -46,7 +46,7 @@ discussion topics.
 
  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Administer Discussions` (how-to)
+ :ref:`Moderate Discussions` (how-to)
 
  :ref:`Closing Discussions` (how-to)
 

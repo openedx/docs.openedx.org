@@ -75,7 +75,7 @@ author or have the Admin role.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Administer Discussions` (how-to)
+ :ref:`Moderate Discussions` (how-to)
 
 
 

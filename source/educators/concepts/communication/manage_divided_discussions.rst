@@ -230,7 +230,7 @@ For other options that you can use to view posts, see
 
  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Administer Discussions` (how-to)
+ :ref:`Moderate Discussions` (how-to)
 
 **Maintenance chart**
 

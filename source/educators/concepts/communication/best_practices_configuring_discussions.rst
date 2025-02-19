@@ -157,7 +157,7 @@ discussion.
   an existing post, or commenting on a response.
 
 
-.. _Close_discussions:
+.. _Closing discussions:
 
 ********************
 Closing Discussions

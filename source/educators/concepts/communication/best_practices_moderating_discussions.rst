@@ -368,7 +368,7 @@ Feature Requests
 
  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Administer Discussions` (how-to)
+ :ref:`Moderate Discussions` (how-to)
 
 
 **Maintenance chart**
