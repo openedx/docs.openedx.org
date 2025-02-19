@@ -85,15 +85,14 @@ Set Up Course Certificates
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/creating_certificates.rst
-   ../how-tos/set_up_course/create_certificates.rst
-   ../how-tos/set_up_course/enable_badges.rst
+   ../references/about_certificates.rst
+   ../how-tos/set_up_course/manage_certificates.rst
    ../how-tos/set_up_course/edit_certificate.rst
-   ../how-tos/set_up_certificates.rst
-   ../how-tos/issue_certificates.rst
+   ../how-tos/configure_certificate_timing.rst
+   ../how-tos/set_up_course/manage_badges.rst
 
 Set Up Course Pre-Requisites
 *******************************************************

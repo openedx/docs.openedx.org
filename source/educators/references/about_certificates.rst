@@ -1,10 +1,10 @@
-.. _Setting Up Certificates:
+.. _About Certificates:
 
 #################################
-Setting Up Certificates in Studio
+About Certificates
 #################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 This section describes how to create and manage certificates for your course.
 
@@ -72,17 +72,14 @@ logo, are configured on your instance. For more information, see
        Start and End Dates>`.
 
 .. seealso::
-  
 
-  :ref:`Enable a Certificate` (how-to)
+  :ref:`Manage Course Certificates` (how-to)
 
-  :ref:`Edit a Certificate` (how-to)
+  :ref:`Edit Course Certificates` (how-to)
 
-  :ref:`Set Up Certificates` (how-to)
+  :ref:`Configure Certificate Availability and Timing` (how-to)
 
-  :ref:`Issuing Certificates` (how-to)
-
-  :ref:`Enable Badges in Course` (how-to)
+  :ref:`Manage Course Badges` (how-to)
 
 **Maintenance chart**
 

@@ -1,11 +1,17 @@
 
-.. _Enable a Certificate:
+.. _Manage Course Certificates:
 
-********************
-Enable a Certificate
-********************
+##########################
+Manage Course Certificates
+##########################
 
 .. tags:: educator, how-to
+
+.. contents::
+ :local:
+ :depth: 1
+
+.. youtube:: 5Ys-E5K0_NY
 
 Before you can create certificates, you must ensure web certificates are enabled
 for your course. Web certificates are enabled by default for new courses, however
@@ -165,17 +171,14 @@ manually remove unused images. For information, see
 
 
 .. seealso::
-  
 
-  :ref:`Setting Up Certificates` (reference)
+  :ref:`About Certificates` (concept)
 
-  :ref:`Edit a Certificate` (how-to)
+  :ref:`Edit Course Certificates` (how-to)
 
-  :ref:`Set Up Certificates` (how-to)
+  :ref:`Configure Certificate Availability and Timing` (how-to)
 
-  :ref:`Issuing Certificates` (how-to)
-
-  :ref:`Enable Badges in Course` (how-to)
+  :ref:`Manage Course Badges` (how-to)
 
 **Maintenance chart**
 

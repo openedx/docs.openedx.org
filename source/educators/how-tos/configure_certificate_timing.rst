@@ -1,8 +1,8 @@
-.. _Issuing Certificates:
+.. _Configure Certificate Availability and Timing:
 
-####################
-Issuing Certificates
-####################
+###############################################
+Configure Certificate Availability and Timing
+###############################################
 
 .. tags:: educator, how-to
 
@@ -93,19 +93,14 @@ To allow learners to download early certificates, you modify the
 #. Select **Save Changes**.
 
 .. seealso::
-  
 
-  :ref:`Setting Up Certificates` (reference)
+  :ref:`About Certificates` (concept)
 
-  :ref:`Enable a Certificate` (how-to)
+  :ref:`Manage Course Certificates` (how-to)
 
-  :ref:`Edit a Certificate` (how-to)
+  :ref:`Edit Course Certificates` (how-to)
 
-  :ref:`Set Up Certificates` (how-to)
-
-  :ref:`Enable Badges in Course` (how-to)
-
-  :ref:`View Certificate Data` (how-to)
+  :ref:`Manage Course Badges` (how-to)
 
 
 **Maintenance chart**

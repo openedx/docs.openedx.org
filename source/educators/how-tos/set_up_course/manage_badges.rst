@@ -1,7 +1,7 @@
-.. _Enable Badges in Course:
+.. _Manage Course Badges:
 
 ########################################
-Enable or Disable Badges for Your Course
+Manage Course Badges
 ########################################
 
 .. tags:: educator, how-to
@@ -32,17 +32,14 @@ To enable badging for your course if it was previously disabled, change the
 value of the key to ``True``.
 
 .. seealso::
-  
 
-  :ref:`Setting Up Certificates` (reference)
+  :ref:`About Certificates` (concept)
 
-  :ref:`Enable a Certificate` (how-to)
+  :ref:`Manage Course Certificates` (how-to)
 
-  :ref:`Edit a Certificate` (how-to)
+  :ref:`Edit Course Certificates` (how-to)
 
-  :ref:`Set Up Certificates` (how-to)
-
-  :ref:`Issuing Certificates` (how-to)
+  :ref:`Configure Certificate Availability and Timing` (how-to)
 
 **Maintenance chart**
 
