@@ -112,7 +112,7 @@ them available to learners as a course handout file or on a defined page in
 your course. These guidelines can define your expectations and optionally
 introduce features of Open edX discussions.
 
-You can also refer learners to the `course discussions index`_ section in the *Open EdX Learner's Guide*. Consider referring learners
+You can also refer learners to the :ref:`course discussions index` section in the *Open EdX Learner's Guide*. Consider referring learners
 in your courses to that section, which describes the structure and features of
 Open edX course discussions, and provides useful information to help learners make
 the most of their participation in course discussions.

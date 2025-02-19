@@ -39,7 +39,7 @@ Proctortrack.
 
 To set up Proctortrack onboarding for your course, follow these steps.
 
-#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+#. Add and :ref:`develop a subsection <Manage Course Subsections>` as you
    would any other subsection.
 
    #. Change the name to something clear to learners, like “Proctortrack
@@ -72,7 +72,7 @@ To set up Proctortrack onboarding for your course, follow these steps.
 Creating a Proctored Exam
 *************************
 
-#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+#. Add and :ref:`develop a subsection <Manage Course Subsections>` as you
    would any other subsection. This subsection must come after the onboarding
    subsection.
 

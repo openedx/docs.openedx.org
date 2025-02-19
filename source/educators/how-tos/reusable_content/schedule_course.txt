@@ -20,7 +20,8 @@
 
 .. seealso::
  
+ :ref:`Guide to Course About Page` (reference)
 
- :doc:`/educators/references/course_pacing` (reference)
+ :ref:`Set Course Pacing` (how-to)
 
- :doc:`/educators/references/course_dates` (reference)
+ :ref:`Set Course Schedule` (how-to)

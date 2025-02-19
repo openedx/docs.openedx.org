@@ -40,7 +40,7 @@ On the **Programs** page, you can perform the following actions.
 
  :ref:`What is Studio` (concept)
 
- :ref:`Course Outline` (concept)
+ :ref:`About the Course Outline` (concept)
 
  :ref:`What is the User Profile Page` (concept)
 

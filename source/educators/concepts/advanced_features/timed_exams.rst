@@ -5,7 +5,7 @@ Timed Exams
 
 .. tags:: educator, concept
 
-You can configure a :ref:`subsection <Developing Course Subsections>`
+You can configure a :ref:`subsection <About Course Subsections>`
 in your course so that learners have a set amount of time to complete and
 submit all problems in that subsection.
 

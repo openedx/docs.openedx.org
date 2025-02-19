@@ -6,7 +6,7 @@ Manage Course Enrollments
 
 .. tags:: educator, how-to
 
-You can enroll and unenroll learners from the instructor dashboard.
+You can enroll and unenroll learners from the instructor dashboard. See :ref:`Enrollment_Requirements` for more information.
 
 ***************************
 Enroll Learners in a Course
@@ -64,7 +64,7 @@ Unenroll Learners from a Course
 You can remove learners from a course by unenrolling them. To prevent learners
 from re-enrolling, course enrollment must also be closed. You use Studio to set
 the **Enrollment End Date** for the course to a date in the past. For more
-information, see :ref:`Scheduling Your Course`.
+information, see :ref:`Course Schedule` and :ref:`Set Course Schedule`.
 
 .. note:: Unenrollment does not delete data for a learner. An unenrolled
    learner's state remains in the database and is reinstated if the learner
@@ -99,7 +99,9 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 
  :ref:`Enrollment_Requirements` (reference)
 
- :ref:`View_Course_Information` (how-to)
+ :ref:`View Course Enrollments` (how-to)
+
+ :ref:`View Learners Not Yet Enrolled` (how-to)
 
 **Maintenance chart**
 

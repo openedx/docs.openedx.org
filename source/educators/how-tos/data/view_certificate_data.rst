@@ -46,9 +46,11 @@ To download certificate data, follow these steps.
 
 .. seealso::
  
- :ref:`Setting Up Certificates`
+ :ref:`About Certificates` (concept)
+ 
+ :ref:`Manage Course Certificates` (how-to)
 
- :ref:`Issuing Certificates`
+ :ref:`Configure Certificate Availability and Timing` (how-to)
 
  :ref:`Guide to the Certificate Report` (reference)
 

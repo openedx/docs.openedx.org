@@ -5,6 +5,8 @@ Add an Image to a Text Component
 
 .. tags:: educator, how-to
 
+.. youtube:: -CQekI4-Hjw
+
 When you use the Visual Editor, you can add any image from your computer to
 a Text component. You can see a preview of the image before you add it to the
 component.

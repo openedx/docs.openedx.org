@@ -26,7 +26,7 @@ of the page:
 
  :ref:`What is Studio` (concept)
 
- :ref:`Course Outline` (concept)
+ :ref:`About the Course Outline` (concept)
 
 **Maintenance chart**
 

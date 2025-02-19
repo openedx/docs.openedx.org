@@ -17,7 +17,7 @@ The Open edX® Platform
 
    ../concepts/open_edx_platform/what_is_lms.rst
    ../concepts/open_edx_platform/what_is_studio.rst
-   ../concepts/open_edx_platform/outline_studio_lms.rst
+   ../concepts/open_edx_platform/about_course_outline.rst
    ../references/dashboard_profile.rst
    ../concepts/open_edx_platform/what_is_programs_page.rst
    ../how-tos/sidebar_view_course_section.rst

@@ -22,11 +22,11 @@ Tp specify a unit's access settings, follow these steps.
 
 #. In Studio, select **Content**, and then select **Outline**.
 
-#. For the unit that you want to restrict access to, select the **Configure**
-   icon in the unit's toolbar.
+#. For the unit that you want to restrict access to, select the **vertical dots**
+   icon, then select **Configure** to bring up the unit's configuration menu.
 
    .. image:: /_images/educator_how_tos/unit-configure-icon.png
-    :alt: The configure icon in a unit's toolbar in the Studio course outline.
+    :alt: The vertical dots icon and configure option highlightedin a unit's toolbar in the Studio course outline.
     :width: 500
 
    You can also access the **Restrict access to** option from the gear icon
@@ -63,7 +63,7 @@ Tp specify a unit's access settings, follow these steps.
     :alt: The visibility and access settings dialog for a unit, with
        enrollment track groups selected, and two enrollment tracks available for
        selecting.
-    :width: 200
+    :width: 500
 
 #. Select **Save**.
 
@@ -82,12 +82,12 @@ Tp specify a unit's access settings, follow these steps.
 
   :ref:`Hide a Unit from Students` (how-to)
 
-  :ref:`Create a Unit` (how-to)    
+  :ref:`Manage Course Units` (how-to)    
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------+----------+-------------------------------------------------------------------+
+| Review Date  | Working Group Reviewer  | Release  | Test situation                                                    |
++--------------+-------------------------+----------+-------------------------------------------------------------------+
+| 2025-01      | Educators WG - J Swope  | Redwood  | `Fail <https://github.com/openedx/docs.openedx.org/issues/812>`_  |
++--------------+-------------------------+----------+-------------------------------------------------------------------+

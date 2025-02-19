@@ -29,7 +29,7 @@ menu options.
 .. seealso::
  
 
- :ref:`Course Outline` (concept)
+ :ref:`About the Course Outline` (concept)
 
  :ref:`What is Studio` (concept)
 

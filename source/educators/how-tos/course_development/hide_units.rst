@@ -19,6 +19,10 @@ Use the Unit Page to Hide a Unit
 
 In the status panel, select **Hide from learners**.
 
+   .. image:: /_images/educator_how_tos/hide_unit_checkbox.png
+      :alt: The Course Unit settings with the Hide from Learners checkbox selected.
+      :width: 500
+
 The **Release** section applies only to instructor-paced courses. It does not
 appear for units in self-paced courses.
 
@@ -67,12 +71,12 @@ You are prompted to confirm that you want to make the unit visible to learners.
 
   :ref:`Set Access Restrictions For a Unit` (how-to)
 
-  :ref:`Create a Unit` (how-to) 
+  :ref:`Manage Course Units` (how-to) 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|2025/01       |Educators WG - J Swope         |Redwood         |Pass                            |
 +--------------+-------------------------------+----------------+--------------------------------+

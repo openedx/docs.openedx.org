@@ -32,13 +32,7 @@
 
 .. _test metadata file: https://courses.stage.edx.org/auth/saml/metadata.xml
 
-.. _edX Demo course: https://www.edx.org/course/demox-edx-demox-1-0
-
-.. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
-
-.. _example peer assessment: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/2
-
-.. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec3364075f2845baa625bfecd5970410/2
+.. _Open edX Demo course: https://www.edx.org/course/demox-edx-demox-1-0
 
 .. _AA Introduction to Music Theory: https://studio.edge.edx.org/course/sylviaX/TEST10/2014_T3
 
@@ -208,7 +202,7 @@
 
 .. _course.xml: https://github.com/pmitros/edX-Insider/blob/master/Ongoing/course.xml
 
-.. _edX Demo Course GitHub: https://github.com/openedx/edx-demo-course
+.. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
 
 .. EDX WIKI LINKS
 
@@ -656,39 +650,21 @@
 
 .. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
 
-.. _taking_timed_exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/timed_exams.html
-
-.. _oe sfd proctored exams: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/proctored_exams.html#oe-sfd-proctored-exams
-
-.. _course discussions index: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/index.html
-
-.. _sfd notes: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_notes.html
-
-.. _sfd check progress: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_check_progress.html
-
-.. _sfd wiki: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_wiki.html
-
 .. _pub creating a course run: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/index.html
 
 .. _Pub Creating and Announcing a Course: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/index.html
 
-.. _create or edit a limited profile: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#create-or-edit-a-limited-profile
-
 .. _view order history: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#view-your-order-history
 
 .. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
-
-.. _add a post: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/sfd_discussions/add_post.html#adding-a-post
-
-.. _video player: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_video_player.html
-
-.. _math formatting: https://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/completing_assignments/SFD_mathformatting.html
 
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
 
 .. _MathJax Documentation: http://docs.mathjax.org/en/latest/index.html
 
 .. _Mathematics meta: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+
+.. _Enabling Course Prerequisites: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_prerequisites.html#enable-course-prerequisites
 
 
 .. ###### WIP MIGRATION LINKS ######

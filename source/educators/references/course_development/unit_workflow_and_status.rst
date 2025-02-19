@@ -6,8 +6,8 @@ The Unit Workflow
 
 .. tags:: educator, reference
 
-When you have set up the :ref:`section<Developing Course Sections>` and
-:ref:`subsection<Developing Course Subsections>` in the course outline, you then work with units.
+When you have set up the :ref:`section<About Course Sections>` and
+:ref:`subsection<About Course Subsections>` in the course outline, you then work with units.
 
 The typical workflow includes these steps.
 
@@ -31,8 +31,7 @@ The publishing status controls the content available to learners, along with
 next section for more information.
 
 .. note:: Release dates apply only to instructor-paced courses. For more
-  information about instructor-paced and self-paced courses, see :ref:`Setting
-  Course Pacing`.
+  information about instructor-paced and self-paced courses, see :ref:`Course Pacing`.
 
 .. _Unit States and Visibility to Students:
 
@@ -99,7 +98,7 @@ status is **Draft (Never Published)**, as shown in the status panel.
 
 .. note:: The **Release** section applies only to instructor-paced courses. It
  does not appear for units in self-paced courses. For more information about
- instructor-paced and self-paced courses, see :ref:`Setting Course Pacing`.
+ instructor-paced and self-paced courses, see :ref:`Course Pacing`.
 
 In Studio, you see the draft content as you develop the unit. Though you do not
 see the unit in the LMS, you can :ref:`preview the unit<Preview Unpublished
@@ -125,8 +124,7 @@ enrolled learners, see the current version of the unit.
  :width: 200
 
 The **Release** section applies only to instructor-paced courses. It does not
-appear for units in self-paced courses. For more information, see :ref:`Setting
-Course Pacing`.
+appear for units in self-paced courses. For more information, see :ref:`Course Pacing`.
 
 .. _Published Not Yet Released:
 
@@ -209,7 +207,7 @@ appear for units in self-paced courses.
 
  :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
 
- :ref:`Developing Course Units` (reference)
+ :ref:`Manage Course Units` (how-to)
 
 
 

@@ -14,7 +14,7 @@ steps.
    Practice proctored exams are visible to all learners, regardless of
    enrollment track.
 
-#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+#. Add and :ref:`develop a subsection <Manage Course Subsections>` as you
    would any other subsection.
 
    For a practice proctored exam, it is recommended that you include only a few

@@ -16,12 +16,8 @@ of every proctored exam.
 For more information about specifying rules, see
 :ref:`specifying_exam_rules_and_exceptions`.
 
-.. This file contains the proctored exam rules. This section is included within
-.. topics in both the learner and course author documentation for partners and
-.. Open edX.
 
-
-.. _Know Rules for Online Proctoring:
+.. _Educator Know Rules for Online Proctoring:
 
 ****************************************
 Learner Rules for Online Proctored Exams
@@ -113,7 +109,7 @@ Your Behavior
 #. You must not leave the room during the exam for any reason, unless posted
    rules for the exam specifically permit you to do so.
 
-.. _Request Additional Time:
+.. _Educator Request Additional Time:
 
 =====================================
 Additional Time or Special Allowances
