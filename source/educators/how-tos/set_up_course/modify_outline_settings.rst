@@ -4,7 +4,7 @@
 Modify Settings for Objects in the Course Outline
 ***************************************************
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
 
 You modify settings for sections, subsections, and units in the course outline.
 Specifically, you can complete the following tasks.
@@ -31,7 +31,7 @@ For more information, see the links above.
  
  :ref:`Getting Started with Course Content Development` (reference)
  
-  :ref:`Course Outline` (concept)
+ :ref:`Course Outline` (concept)
   
  :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
  
