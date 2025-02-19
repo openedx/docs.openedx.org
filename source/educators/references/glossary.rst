@@ -199,8 +199,7 @@ C
   respond to posts and responses by other members of the cohort that they are
   in.
 
-  For more information, see :ref:`Working with Discussion
-  Components`. For information about making content-specific discussion topics
+  For more information, see :ref:`Configure Open edX Discussions Legacy`. For information about making content-specific discussion topics
   divided by cohort, see :ref:`Set up Discussions in
   Cohorted Courses`.
   
@@ -218,8 +217,7 @@ C
 **Course Handouts**
 
   Course handouts are files you make available to learners on the **Home**
-  page. For more information, see :ref:`Adding Course
-  Updates and Handouts`.
+  page. For more information, see :ref:`Add Course Updates and Handouts`.
 
 **Course Mode**
 
@@ -282,7 +280,7 @@ C
   topics are accessed from the **Discussion** page in your course. Examples of
   course-wide discussion topics include Announcements and Frequently Asked
   Questions. Learners can contribute to these topics as soon as your course
-  starts. For more information, see :ref:`Discussions` and
+  starts. For more information, see :ref:`About Course Discussions` and
   :ref:`Create CourseWide Discussion Topics`.
 
   If you use cohorts in your course, you can divide course-wide discussion
@@ -321,7 +319,7 @@ D
   The set of topics defined to promote course-wide or unit-specific dialog.
   Learners use the discussion topics to communicate with each other and the
   course team in threaded exchanges. For more information, see
-  :ref:`Discussions`.
+  :ref:`About Course Discussions`.
 
 .. _Discussion Component:
 
@@ -334,8 +332,7 @@ D
   topic. See also :ref:`Content Specific Discussion Topic <Content Specific
   Discussion Topic_g>`.
 
-  For more information, see :ref:`Working with Discussion
-  Components`.
+  For more information, see :ref:`Configure Open edX Discussions Legacy`.
 
 **Discussion Thread List**
 
@@ -809,7 +806,7 @@ Q
   discussion topic to bring attention to an issue that the discussion
   moderation team or learners can resolve.
 
-  For more information, see :ref:`Discussions`.
+  For more information, see :ref:`About Course Discussions`.
 
 .. _R:
 

@@ -286,6 +286,8 @@ Periodic Table Tool
 
    ../how-tos/course_development/exercise_tools/create_periodic_table.rst
 
+.. _Poll Tool:
+
 Poll Tool
 *******************************************************
 
@@ -293,8 +295,8 @@ Poll Tool
    :maxdepth: 2
    :glob:   
 
-   ../references/course_development/exercise_tools/poll_tool.rst
-   ../how-tos/course_development/exercise_tools/add_poll_question.rst
+   ../how-tos/course_development/exercise_tools/enable_poll_tool.rst
+   ../how-tos/course_development/exercise_tools/add_poll.rst
 
 Problem with Adaptive Hint
 *******************************************************

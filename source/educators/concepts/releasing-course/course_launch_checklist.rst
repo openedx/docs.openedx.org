@@ -37,7 +37,7 @@ Course Launch Checklist in Studio
 To help you communicate to the course team or to all course participants before
 the course launches and while it is running, you can send email messages from
 the LMS by selecting **Instructor** to access the instructor dashboard. For
-more information, see :ref:`Bulk Email`. The topic on bulk email also includes
+more information, see :ref:`Guide to Bulk Email Messages`. The topic on bulk email also includes
 a set of :ref:`example messages to learners<Example Messages to Students>` that
 you can use as guidelines when you write your own email messages.
 
@@ -77,7 +77,7 @@ your course starts follow.
 
 * Two months before the course start date, prepare and send a welcome email
   message to currently enrolled learners. See :ref:`Prelaunch Reminder` and
-  :ref:`Send_Bulk_Email`.
+  :ref:`Send an Email Message to Course Participants`.
 * Compose a welcome message and add it to the **Course** page. See
   :ref:`Add a Course Update`.
 * Verify that a syllabus and other references are available on the **Course
@@ -91,7 +91,7 @@ your course starts follow.
   across multiple threads. For example, you can start different threads for
   introductions based on geographical location, such as "Introduce Yourself:
   Europe", "Introduce Yourself: North America", etc. See
-  :ref:`Running_discussions`.
+  :ref:`Best Practices for Configuring Course Discussions`.
 * On the course start date, prepare and send a launch email message to
   currently enrolled learners. See :ref:`Launch Day Welcome`.
 
@@ -107,12 +107,12 @@ your course starts follow.
 * Verify that the people you have given the Discussion Admin, Discussion
   Moderator, and Discussion Community TA roles have registered and activated
   their user accounts and enrolled in the course. See
-  :ref:`Assigning_discussion_roles`. Note that team members with the Admin and
+  :ref:`Assign discussion roles`. Note that team members with the Admin and
   Staff roles must also be given one of these roles to have discussion
   moderation privileges.
 * Define methods for managing discussions and guidance for discussion
   moderators, and distribute to the discussion team. See
-  :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.
+  :ref:`Best Practices for Moderating Course Discussions` and .
 
 **Maintenance chart**
 

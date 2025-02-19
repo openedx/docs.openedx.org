@@ -1,10 +1,22 @@
-.. _Send_Bulk_Email:
+.. _Send an Email Message to Course Participants:
 
 ############################################
 Send an Email Message to Course Participants
 ############################################
 
 .. tags:: educator, how-to
+
+.. contents::
+ :local:
+ :depth: 1
+
+You can send an email message to course participants from the instructor dashboard immediately or schedule it to be sent at a later time.
+
+.. _Send Bulk Email Immediately:
+
+**********************************************************
+Send an Email Message to Course Participants Immediately
+**********************************************************
 
 .. Important:: You cannot cancel non-scheduled bulk email messages after you send them.
 
@@ -29,7 +41,7 @@ To send an email message to course participants, follow these steps.
 #. In the **Message** box, enter the text for the message.
 
    For details about options for composing your message, see
-   :ref:`Options for Email Message Text`.
+   :ref:`Guide to Composing Email Messages`.
 
 #. Select **Send Email**. A bulk email task is queued for processing.
 
@@ -75,7 +87,7 @@ To send a scheduled email message to course participants, follow these steps.
 #. In the **Message** box, enter the text for the message.
 
    For details about options for composing your message, including using keywords to make the message more personal, see
-   :ref:`Options for Email Message Text`.
+   :ref:`Guide to Composing Email Messages`.
 
 #. Check the **Schedule this email for a future date** checkbox. This also
    updates the **Send Email** button to a **Schedule Email** button.
@@ -93,7 +105,7 @@ To send a scheduled email message to course participants, follow these steps.
 .. seealso::
  
 
- :ref:`Bulk Email` (reference)
+ :ref:`Guide to Bulk Email Messages` (reference)
 
  :ref:`Review Sent Messages` (how-to)
 

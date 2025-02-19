@@ -1,9 +1,13 @@
-.. _Discussions:
+.. _About Course Discussions:
 
 About Course Discussions
 ###########################
 
 .. tags:: educator, concept
+
+.. contents::
+ :local:
+ :depth: 1
 
 Discussions in an Open edX course include both course-wide topics of interest to
 all learners (such as "Feedback", "Troubleshooting", or "Technical Help") as
@@ -17,7 +21,7 @@ only interact with posts from other learners in the same group,
 see :ref:`About Divided Discussions`.
 
 For information about running and moderating course discussions, see
-:ref:`Running_discussions` and :ref:`Moderating_discussions`.
+:ref:`Best Practices for Configuring Course Discussions` and :ref:`Best Practices for Moderating Course Discussions`.
 
 .. _Visibility of Discussion Topics:
 
@@ -79,8 +83,7 @@ Content-specific Discussion Topics (Legacy)
 
 To create a content-specific discussion topic, you add a discussion component
 to a unit. Typically, you do this while you are designing and creating your
-course in Studio. Follow the instructions in :ref:`Working with Discussion
-Components`. The result is a discussion topic associated with a unit and its
+course in Studio. Follow the instructions in :ref:`Configure Open edX Discussions Legacy`. The result is a discussion topic associated with a unit and its
 content. Learners can access content-specific topics both in the course unit
 and on the Discussion page.
 
@@ -101,9 +104,30 @@ topics, see :ref:`Visibility of Discussion Topics`.
    see :ref:`Divide All Content Specific Discussion Topics`.
 
 .. seealso::
- 
 
- :ref:`Configuring Open edX Discussions` (how-to)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
+
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`About Divided Discussions` (concept)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 
 **Maintenance chart**

@@ -14,8 +14,8 @@ roles for course discussions on the **Discussions** page can perform the same
 roles for discussions in teams.
 
 For information about discussion administration roles, see
-:ref:`Assigning_discussion_roles`. For information about managing discussions,
-see :ref:`Running_discussions`.
+:ref:`Assign discussion roles`. For information about managing discussions,
+see :ref:`Best Practices for Configuring Course Discussions`.
 
 .. contents::
   :local:

@@ -1,7 +1,7 @@
-.. _Options for Email Message Text:
+.. _Guide to Composing Email Messages:
 
-Composing Email Messages
-##########################
+Guide to Composing Email Messages
+###################################
 
 .. tags:: educator, reference
 
@@ -112,13 +112,13 @@ tags in an email message. An example follows.
 .. seealso::
  
 
- :ref:`Bulk Email` (reference)
+ :ref:`Guide to Bulk Email Messages` (reference)
 
- :ref:`Send_Bulk_Email` (how-to)
+ :ref:`Send an Email Message to Course Participants` (how-to)
 
  :ref:`Review Sent Messages` (how-to)
 
- :ref:`Email Task History Report` (how-to)
+ :ref:`View Email Task History Report` (how-to)
 
  :ref:`Example Messages to Students` (reference)
   

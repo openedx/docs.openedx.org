@@ -69,11 +69,11 @@ To change the assignment method of a cohort, follow these steps.
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
 **Maintenance chart**
 
