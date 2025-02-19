@@ -1,7 +1,7 @@
-.. _Launch:
+.. _Course Launch Checklist:
 
 ###########################
-Launching a Course
+Course Launch Checklist
 ###########################
 
 .. tags:: educator, concept
@@ -40,8 +40,6 @@ the LMS by selecting **Instructor** to access the instructor dashboard. For
 more information, see :ref:`Bulk Email`. The topic on bulk email also includes
 a set of :ref:`example messages to learners<Example Messages to Students>` that
 you can use as guidelines when you write your own email messages.
-
-.. _Course Launch Checklist:
 
 ********************************
 Course Launch Checklist Timeline

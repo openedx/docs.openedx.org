@@ -131,10 +131,10 @@ Launch a Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../concepts/releasing-course/course_launching.rst
+   ../concepts/releasing-course/course_launch_checklist.rst
 
 
 .. _Manage a Course Run:
