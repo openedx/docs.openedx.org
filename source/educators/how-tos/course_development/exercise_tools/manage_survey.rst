@@ -1,8 +1,8 @@
-.. _Survey Tool:
+.. _Manage Survey Tool:
 
-###########
-Survey Tool
-###########
+####################
+Manage Survey Tool
+####################
 
 .. tags:: educator, how-to
 

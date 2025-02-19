@@ -241,7 +241,7 @@ tools that you can add to your course.
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
      - Full support
-   * - :ref:`Survey Tool`
+   * - :ref:`Survey Tool <Manage Survey Tool>`
      - You can include surveys in your course to collect learner responses to
        multiple questions.
      - Full support

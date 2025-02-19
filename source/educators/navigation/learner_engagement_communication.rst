@@ -132,8 +132,8 @@ Survey Tool
    :maxdepth: 2
    :glob:
 
-   ../how-tos/course_development/exercise_tools/add_survey.rst
-   ../references/course_development/exercise_tools/enable_survey_olx.rst
+   ../how-tos/course_development/exercise_tools/manage_survey.rst
+   ../how-tos/course_development/exercise_tools/manage_survey_olx.rst
 
 
 

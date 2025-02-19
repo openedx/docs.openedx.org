@@ -19,7 +19,7 @@ You can include polls in your course to gather learners' opinions on various
 questions.
 
 For a poll, you configure one question and multiple possible
-answers. If you need to ask multiple questions, use the :ref:`Survey Tool`.
+answers. If you need to ask multiple questions, use the :ref:`Survey Tool <Manage Survey Tool>`.
 
 The following example poll has four possible answers to the question.
 
