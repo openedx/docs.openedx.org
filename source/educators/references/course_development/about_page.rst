@@ -6,7 +6,16 @@ Guide to Course About Page (Schedule & Details)
 
 .. tags:: educator, reference
 
-This section describes the Course About page, also known as the Schedule & Details page in Studio.
+The course About page, sometimes called the course summary page, provides
+information about your course to learners. Learners can see the About page
+before they enroll in the course.
+
+.. image:: /_images/educator_references/about_page.png
+ :alt: A course About page, showing the course image, video, description, and
+     additional information.
+ :width: 600
+
+You edit the contents of your course About page in Studio.
 
 .. contents::
    :local:
@@ -406,6 +415,45 @@ course and on the learner dashboard. It must be a minimum of 378 pixels in
 width by 225 pixels in height, and in .jpg or .png format. Make sure the
 image that you upload maintains the aspect ratio of those dimensions so that
 the image appears correctly on the dashboard.
+
+.. _Course About Video Guidelines:
+
+========================================
+Course About Video Guidelines
+========================================
+
+.. tags:: educator, reference
+
+The course About video should excite and entice potential learners to enroll,
+and reveal some of the personality that the course team brings to the course.
+
+This video should answer these key questions.
+
+* Who is teaching the course?
+* What university or institution is the course affiliated with?
+* What topics and concepts are covered in your course?
+* Why should a learner enroll in your course?
+
+This video should deliver your message as concisely as possible and have a run
+time of less than two minutes.
+
+Before you upload a course About video, make sure that it follows the
+same :ref:`video guidelines <Video Compression Specifications>`
+as your course content videos.
+
+.. note::
+
+  * If you upload both a course image and a course About video, the course
+    image appears on learner dashboards with a **play** icon superimposed on
+    it. If you upload only a course video, the first frame of the video
+    file appears with the **play** icon.
+
+  * The process for adding a course about video is different than the process
+    for including videos as part of the content of your course. For more
+    information about including video content, see :ref:`Introduction to Video`.
+
+For information about how to add an About video to your course About page, see
+:ref:`Add an About Video <Add an About Video>`.
 
 .. _Additional Course Information:
 
