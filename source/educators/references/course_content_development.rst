@@ -1,7 +1,7 @@
-.. _Getting Started with Course Content Development:
+.. _Guide to Course Content Development:
 
 ###############################################
-Getting Started with Course Content Development
+Guide to Course Content Development
 ###############################################
 
 .. tags:: educator, reference
