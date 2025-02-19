@@ -30,7 +30,7 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
 
- :ref:`Assigning_discussion_roles` (how-to)
+ :ref:`Assign discussion roles` (how-to)
 
  :ref:`Configuring Open edX Discussions` (how-to)
 

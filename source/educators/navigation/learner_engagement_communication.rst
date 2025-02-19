@@ -15,10 +15,10 @@ Course Discussions
    :glob:
 
    ../concepts/communication/course_discussions.rst
-   ../concepts/communication/running_discussions.rst
-   ../concepts/communication/moderating_discussions.rst
-   ../concepts/communication/discussion_guidance_moderators.rst
-   ../how-tos/communication/assigning_discussion_roles.rst
+   ../concepts/communication/best_practices_configuring_discussions.rst
+   ../concepts/communication/best_practices_moderating_discussions.rst
+
+   ../how-tos/communication/Assign discussion roles.rst
    ../how-tos/communication/configure-discussions.rst
    ../how-tos/course_development/create_discussion.rst
    ../how-tos/communication/administer_discussions.rst

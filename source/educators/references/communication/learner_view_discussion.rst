@@ -42,7 +42,7 @@ discussion topics.
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Assigning_discussion_roles` (how-to)
+ :ref:`Assign discussion roles` (how-to)
 
  :ref:`Configuring Open edX Discussions` (how-to)
 

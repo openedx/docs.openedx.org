@@ -1,7 +1,7 @@
-.. _Assigning_discussion_roles:
+.. _Assign discussion roles:
 
 #####################################
-Assigning Discussion Moderation Roles
+Assign Discussion Moderation Roles
 #####################################
 
 .. tags:: educator, how-to

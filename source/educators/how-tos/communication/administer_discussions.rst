@@ -115,7 +115,7 @@ enrollment period for the course is over.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Assigning_discussion_roles` (how-to)
+ :ref:`Assign discussion roles` (how-to)
 
 
 **Maintenance chart**

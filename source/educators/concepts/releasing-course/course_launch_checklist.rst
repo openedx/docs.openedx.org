@@ -107,7 +107,7 @@ your course starts follow.
 * Verify that the people you have given the Discussion Admin, Discussion
   Moderator, and Discussion Community TA roles have registered and activated
   their user accounts and enrolled in the course. See
-  :ref:`Assigning_discussion_roles`. Note that team members with the Admin and
+  :ref:`Assign discussion roles`. Note that team members with the Admin and
   Staff roles must also be given one of these roles to have discussion
   moderation privileges.
 * Define methods for managing discussions and guidance for discussion

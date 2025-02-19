@@ -41,7 +41,7 @@ contribute to all posts.
 .. note:: Course team members must have the Discussion Moderator or Discussion
  Admin role in addition to the Staff or Admin role to be able to view posts
  that are divided by group. For information about assigning discussion
- moderation roles, see :ref:`Assigning_discussion_roles`.
+ moderation roles, see :ref:`Assign discussion roles`.
 
 In courses where cohorts are enabled, course team members who have discussion
 moderation roles that are not restricted by group can also perform the
@@ -228,7 +228,7 @@ For other options that you can use to view posts, see
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Assigning_discussion_roles` (how-to)
+ :ref:`Assign discussion roles` (how-to)
 
  :ref:`Administer Discussions` (how-to)
 

@@ -366,7 +366,7 @@ Feature Requests
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Assigning_discussion_roles` (how-to)
+ :ref:`Assign discussion roles` (how-to)
 
  :ref:`Administer Discussions` (how-to)
 

@@ -7,7 +7,7 @@ Best Practices for Configuring Course Discussions
 .. tags:: educator, concept
 
 On an ongoing basis, the members of your :ref:`discussion
-team<Assigning_discussion_roles>` run the course discussion by adding posts
+team<Assign discussion roles>` run the course discussion by adding posts
 and responses, marking answers as correct, and guiding learner messages into
 pertinent threads. The information and suggested techniques in this section
 can help you to configure successful discussions in your course.

@@ -45,7 +45,7 @@ Community TAs if the content of discussion topics by one group (cohort) should n
 shared with another group. Group Community TAs are themselves members of
 learner groups (cohorts) that you use in your course. As discussion moderators, they can
 only see and respond to posts by other members of their own group (cohort). For information,
-see :ref:`Assigning_discussion_roles`.
+see :ref:`Assign discussion roles`.
 
 For more information about managing discussions, see :ref:`Managing Divided
 Discussion Topics` and :ref:`Best Practices for Configuring Course Discussions`.
