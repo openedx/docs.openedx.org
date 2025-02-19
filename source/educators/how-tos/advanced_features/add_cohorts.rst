@@ -44,7 +44,7 @@ For details about adding learners to a cohort by uploading a .csv file, see
 
 For a report that includes the cohort assignment for every enrolled
 learner, review the learner profile information for your course. See
-:ref:`View and download student data`.
+:ref:`View learner data`.
 
 .. note:: You cannot delete cohorts, but you can change their names or the way
    in which learners are assigned to them. If you need to make changes to the

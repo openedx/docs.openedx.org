@@ -1,10 +1,14 @@
-.. _Edit a Certificate:
+.. _Edit Course Certificates:
 
-##################
-Edit a Certificate
-##################
+#########################
+Edit Course Certificates
+#########################
 
 .. tags:: educator, how-to
+
+.. contents::
+ :local:
+ :depth: 1
 
 You can edit certificates before and after they are activated.
 
@@ -126,17 +130,14 @@ To delete a certificate, follow these steps.
 #. In the confirmation dialog, confirm that you want to delete the certificate.
 
 .. seealso::
-  
 
-  :ref:`Setting Up Certificates` (reference)
+  :ref:`About Certificates` (concept)
 
-  :ref:`Enable a Certificate` (how-to)
+  :ref:`Manage Course Certificates` (how-to)
 
-  :ref:`Set Up Certificates` (how-to)
+  :ref:`Configure Certificate Availability and Timing` (how-to)
 
-  :ref:`Issuing Certificates` (how-to)
-
-  :ref:`Enable Badges in Course` (how-to)
+  :ref:`Manage Course Badges` (how-to)
 
 **Maintenance chart**
 

@@ -28,12 +28,12 @@ For more information, see the following topics.
 
 Beta testing your course is another way to evaluate course content. For
 information about setting up a beta test for your course, see
-:ref:`Beta_Testing`.
+:ref:`About Course Beta Testing` and :ref:`Manage Course Beta Testing`.
 
 To test content before a course has started, you can add yourself as a beta
 tester on the instructor dashboard. Make sure to set the course start date and
 the appropriate **Days Early for Beta** value. For more information, see
-:ref:`Beta_Testing`.
+:ref:`Manage Course Beta Testing`.
 
 
 .. _View Published Content:

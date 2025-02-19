@@ -15,7 +15,7 @@ The following example shows the navigation bar for a course that has added a cus
 
 When you add a page, you can specify whether it and its content are visible only to course team
 members who have the Admin or Staff role, or to all enrolled learners as well as the course team.
-For more information about assigning course team roles, see :ref:`Course_Staffing`.
+For more information about assigning course team roles, see :ref:`Guide to Course Team Roles` and :ref:`Add Course Team Members`.
 
 If you add a custom page to a course after its start date, and have specified that the page should
 be visible to learners, the page is visible in the LMS as soon as you save your work.

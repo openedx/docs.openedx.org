@@ -15,7 +15,7 @@ When you import and export a course, you work with :ref:`.tar.gz files <Work
 with the targz file>`.
 
 To duplicate an existing course for a new run, course creators can use the
-course re-run option. See :ref:`Rerun a Course`.
+course re-run option. See :ref:`Re Run a Course`.
 
 .. caution::
   Before exporting and importing a course, ensure that links in the course to

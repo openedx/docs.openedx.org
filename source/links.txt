@@ -664,6 +664,8 @@
 
 .. _Mathematics meta: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
+.. _Enabling Course Prerequisites: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_prerequisites.html#enable-course-prerequisites
+
 
 .. ###### WIP MIGRATION LINKS ######
 .. _edX Partner Portal: https://partners.edx.org

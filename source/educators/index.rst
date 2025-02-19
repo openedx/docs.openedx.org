@@ -26,8 +26,8 @@ Open edX Educators
 
       | :ref:`Instructional Design Concepts`
       | :ref:`Nav Create a New Course`
-      | :ref:`Plan Course Run Information`
-      | :ref:`Launch a Course`
+      | :ref:`Plan a New Course`
+      | :ref:`Enroll Learners in a Course`
 
       .. button-ref:: navigation/creating_course
          :color: primary
@@ -115,10 +115,11 @@ Open edX Educators
          :align: center
          :target: navigation/data_analytics.html
 
-      | :ref:`Nav Course Data`
-      | :ref:`Nav Learner Data`
-      | :ref:`Grades Data`
-      | :ref:`Certificate Data`
+      | :ref:`View Course Enrollments`
+      | :ref:`View Learner Data`
+      | :ref:`View Learner Grades`
+      | :ref:`View Answer Data`
+      | :ref:`View Certificate Data`
 
       .. button-ref:: navigation/data_analytics
          :color: primary
@@ -137,8 +138,12 @@ Open edX Educators
          :align: center
          :target: navigation/accessibility.html
 
-      | :ref:`Accessibility Best Practices`
-      | :ref:`Accessibility for Video`
+      | :ref:`Accessibility Guidelines`
+      | :ref:`Designing for Mobile`
+      | :ref:`Accessibility Best Practices Checklist`
+      | :ref:`Accessibility Checker`
+      | :ref:`Manage Video Transcripts`
+      
 
       .. button-ref:: navigation/accessibility
          :color: primary
@@ -204,3 +209,16 @@ Open edX Educators
          :expand:
 
          See All
+
+.. toctree::
+   :maxdepth: 2
+
+   navigation/accessibility
+   navigation/advanced_features
+   navigation/components_activities
+   navigation/content_creation_management
+   navigation/creating_course
+   navigation/data_analytics
+   navigation/learner_engagement_communication
+   navigation/olx
+   navigation/other

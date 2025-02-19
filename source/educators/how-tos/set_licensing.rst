@@ -1,15 +1,15 @@
 .. _Set Course Content Licensing:
 
-======================================
+########################################
 Set Course Content Licensing in Studio
-======================================
+########################################
 
 .. tags:: educator, how-to
 
 When you have determined what licenses you want your course content to have,
 you set course content licensing in Studio.
 
-For more information about licensing options, see :ref:`Licensing a Course`.
+For more information about licensing options, see :ref:`Guide to Course Licenses`.
 
 When you create a new course, the license is set to **All Rights Reserved**.
 You can change the license for your course in the **Schedule & Details** page
@@ -63,7 +63,7 @@ need to set the license for the video.
 .. seealso::
  
 
- :ref:`Licensing a Course` (reference)
+ :ref:`Guide to Course Licenses` (reference)
 
 
 

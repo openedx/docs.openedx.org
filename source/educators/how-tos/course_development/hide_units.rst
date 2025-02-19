@@ -71,7 +71,7 @@ You are prompted to confirm that you want to make the unit visible to learners.
 
   :ref:`Set Access Restrictions For a Unit` (how-to)
 
-  :ref:`Create a Unit` (how-to) 
+  :ref:`Manage Course Units` (how-to) 
 
 **Maintenance chart**
 

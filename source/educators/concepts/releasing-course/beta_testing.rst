@@ -1,10 +1,14 @@
-.. _Beta_Testing:
+.. _About Course Beta Testing:
 
 #############################
-Beta Testing a Course
+About Course Beta Testing
 #############################
 
 .. tags:: educator, concept
+
+.. contents::
+ :local:
+ :depth: 1
 
 To gather information about the overall experience of taking a course, you can
 recruit beta testers to test your course before it is available to general learners.
@@ -62,9 +66,9 @@ testers do not receive certificates when they complete a course.
  enroll in the course and repeat the work, completing assignments and exams
  when they are available to all learners.
 
-==================================
+****************************************************
 Qualities of Good Beta Testers
-==================================
+****************************************************
 
 A beta test is valuable in part because it is unscripted. Your beta testers are
 not following a predetermined series of steps, or using a particular computer
@@ -91,9 +95,9 @@ consider recruiting testers who use assistive technologies, who have different
 native languages, or who have varying levels of familiarity with computer
 software.
 
-=========================================
+****************************************************
 Using Course Team Members as Beta Testers
-=========================================
+****************************************************
 
 The course team can provide valuable feedback about your course. However, they
 are typically stakeholders in the success of your course and have a significant
@@ -190,9 +194,10 @@ unit<Publish a Unit>`.
  attempt to access any other content in the course.
 
 .. seealso::
- 
 
- :ref:`Add Beta Testers to a Course` (how-to)
+ :ref:`Manage Course Beta Testing` (how-to)
+
+ :ref:`Guide to Course Team Roles` (reference)
 
 
 

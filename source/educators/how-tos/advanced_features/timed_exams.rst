@@ -35,7 +35,7 @@ Set a Subsection to be Timed
 Ensure you have enabled timed exams in the course. Then follow these
 steps.
 
-#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+#. Add and :ref:`develop a subsection <Manage Course Subsections>` as you
    would any other subsection.
 
 #. Select the **Configure** icon for the subsection.

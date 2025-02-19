@@ -38,7 +38,7 @@ manual intervention while the course is running.
 
 .. note:: Self-paced courses do not have release dates for sections and
   subsections. For more information about instructor-paced and self-paced
-  courses, see :ref:`Setting Course Pacing`.
+  courses, see :ref:`Course Pacing`.
 
 By default, a subsection inherits the release date and time of the section it
 is in. You can change the release date of the subsection to another date.

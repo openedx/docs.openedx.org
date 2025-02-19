@@ -44,7 +44,7 @@ Copy and Paste Course Content
 
    :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
 
-   :ref:`Create a Unit` (how-to)
+   :ref:`Manage Course Units` (how-to)
 
 
 

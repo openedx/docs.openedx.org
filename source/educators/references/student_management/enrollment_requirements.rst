@@ -15,7 +15,7 @@ learners.
 
 Data about course enrollment is available in the LMS, by selecting
 **Instructor** to access the instructor dashboard. For more
-information, see :ref:`Report Learners Not Yet Enrolled`.
+information, see :ref:`View Learners Not Yet Enrolled`.
 
 .. _registration_enrollment:
 
@@ -46,6 +46,10 @@ either before or after the learners register their user accounts.
  
 
  :ref:`Manage_Course_Enrollments` (how-to)
+
+ :ref:`View Course Enrollments` (how-to)
+
+ :ref:`View Learners Not Yet Enrolled` (how-to)
 
 **Maintenance chart**
 

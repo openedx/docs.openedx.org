@@ -56,7 +56,7 @@ The following preset recipient groups are available.
 
 * **Staff and Administrators**. Send an email message to members of the course
   team who have Staff or Admin privileges. For information about course
-  team member privileges, see :ref:`Course_Staffing`.
+  team member privileges, see :ref:`Guide to Course Team Roles`.
 
 * **All Learners**. Send an email message to all currently enrolled learners.
   This group does not include learners who have not activated their accounts,

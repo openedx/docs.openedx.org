@@ -34,6 +34,7 @@ Offer Different Content to Different Groups (Cohorts)
    ../concepts/advanced_features/group_configurations.rst
    ../how-tos/set_up_content_groups.rst
    ../how-tos/advanced_features/set_up_group_configuration_olx.rst
+   ../how-tos/use_section_independently_of_course_outline.rst
 
 .. _Run Content Experiments:
 

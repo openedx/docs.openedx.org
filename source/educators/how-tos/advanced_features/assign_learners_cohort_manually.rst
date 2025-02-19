@@ -54,8 +54,7 @@ To manually assign learners to cohorts in your course, follow these steps.
    current cohort.
 
 For a report that includes cohort assignments for your course, review the
-learner profile information for your course. See :ref:`View and download
-student data`.
+learner profile information for your course. See :ref:`View Learner Data`.
 
 .. seealso::
  

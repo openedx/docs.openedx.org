@@ -218,8 +218,7 @@ License
           options you want.
 
           The license options you select control the copyright notice that
-          learners see for the video. For more information, see :ref:`Licensing
-          a Course`.
+          learners see for the video. For more information, see :ref:`Guide to Course Licenses`.
 
 .. seealso::
   

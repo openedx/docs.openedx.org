@@ -12,12 +12,12 @@ Create and Manage Course Units
    :maxdepth: 2
    :glob:
 
-   ../how-tos/course_development/create_edit_publish_unit.rst
+   ../concepts/open_edx_platform/about_course_units.rst
+   ../how-tos/course_development/manage_units.rst
    ../how-tos/course_development/set_restrictions_unit.rst
    ../how-tos/copy_paste_units.rst
    ../how-tos/course_development/hide_units.rst
    ../how-tos/copy_paste_course_content.rst
-   ../references/course_development/course_units.rst
    ../references/course_development/unit_workflow_and_status.rst
 
 .. _Create and Manage Components:

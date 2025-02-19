@@ -103,14 +103,11 @@ content:
 
 .. seealso::
  
-
  :ref:`Accessibility Guidelines` (concept)
-
- :ref:`Accessibility Best Practices for Course Content Development` (concept)
 
  :ref:`Designing for Mobile` (concept)
 
- :ref:`Supporting Learners with Diverse Needs` (concept)
+ :ref:`Accessibility Best Practices Checklist` (reference)
 
 
 **Maintenance chart**

@@ -19,7 +19,9 @@ Follow the steps below to build your first course. By the end, you will have a f
 1. Create a Course in Studio
 ****************************
 
-.. include:: ../how-tos/reusable_content/create_course.txt
+.. include:: ../how-tos/set_up_course/create_new_course.rst
+  :start-after: .. START CREATE A NEW COURSE
+  :end-before: .. END CREATE A NEW COURSE
 
 
 2. Schedule a Course
@@ -31,24 +33,24 @@ Follow the steps below to build your first course. By the end, you will have a f
 3. Create a Section
 *******************
 
-.. include:: ../how-tos/course_development/create_hide_delete_sections.rst
-  :start-after: .. START CREATE A SECTION VIDEO
-  :end-before: .. END CREATE A SECTION VIDEO
+.. include:: ../how-tos/course_development/manage_sections.rst
+  :start-after: .. START CREATE A SECTION
+  :end-before: .. END CREATE A SECTION
 
 
 4. Create a Subsection
 **********************
 
-.. include:: ../how-tos/course_development/create_edit_publish_subsections.rst
+.. include:: ../how-tos/course_development/manage_subsections.rst
   :start-after: .. START CREATE A SUBSECTION
   :end-before: .. END CREATE A SUBSECTION
 
 5. Create a Unit
 ****************
 
-.. include:: ../how-tos/course_development/create_edit_publish_unit.rst
-    :start-after: .. START HERE CREATE UNIT
-    :end-before: .. END HERE CREATE UNIT
+.. include:: ../how-tos/course_development/manage_units.rst
+  :start-after: .. START CREATE A UNIT
+  :end-before: .. END CREATE A UNIT
 
 
 6. Add a Video to the Unit
@@ -84,15 +86,15 @@ Follow the steps below to build your first course. By the end, you will have a f
 .. seealso::
  
 
- :ref:`Creating a New Course` (how-to)
+ :ref:`Create a New Course` (how-to)
 
- :ref:`Edit your Course` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
 
- :ref:`Create a Section` (how-to)
+ :ref:`Manage Course Sections` (how-to)
 
- :ref:`Create a Subsection` (how-to)
+ :ref:`Manage Course Subsections` (how-to)
 
- :ref:`Create a Unit` (how-to)
+ :ref:`Manage Course Units` (how-to)
 
  :ref:`Add a Video` (how-to)
 

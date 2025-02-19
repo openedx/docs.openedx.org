@@ -56,11 +56,10 @@ a record of all the operations that have run for the entrance exam, select
 **Show Background Task History for Student**.
 
 .. seealso::
-  
 
-  :ref:`Specify Prerequisite Courses and Exams` (how-to)
+  :ref:`Set Course Prerequisites` (reference)
 
-  :ref:`Set Up Course Prerequisites` (how-to)
+  :ref:`Require a Prerequisite Course` (how-to)
 
 **Maintenance chart**
 

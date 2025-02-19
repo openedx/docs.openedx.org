@@ -1,7 +1,7 @@
 .. _Learner Data:
 
 ############################
-Learner Data
+About Learner Data
 ############################
 
 .. tags:: educator, concept
@@ -36,7 +36,7 @@ Accessing Learner Data
 In the LMS, you can download data about the individuals who are currently
 enrolled in your course in a .csv (comma-separated values) file. You can also
 view data for enrolled learners on the instructor dashboard. For more
-information, see :ref:`View and download student data`.
+information, see :ref:`View learner data`.
 
 For information about course enrollment, see :ref:`Enrollment`.
 
@@ -68,13 +68,14 @@ As a result, you might want to download learner data periodically to gain an
 understanding of how the learner population changes over time.
 
 .. seealso::
- 
 
- :ref:`Columns in the Student Profile Report` (reference)
+ :ref:`View learner data` (how-to)
 
- :ref:`View and download student data` (how-to)
+ :ref:`View Anonymized Learner IDs` (how-to)
 
- :ref:`Access Anonymized Learner IDs <Access_anonymized>` (how-to)
+ :ref:`Guide to Staff Debug Info` (reference)
+
+ :ref:`Guide to the Student Profile Report` (reference)
 
  :ref:`Manage Learner Grades <Grades>` (how-to) 
 

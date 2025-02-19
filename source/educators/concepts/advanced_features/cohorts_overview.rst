@@ -147,7 +147,7 @@ Learners who are in the default cohort see a cohort name of "Default Group" in d
   :align: center
   :alt: A discussion topic post with "This post is visible to Default Group" above the title.
 
-You can check the :ref:`learner profile information report<View and download student data>` for your course to see if any learners are assigned to the default cohort, and change their cohort assignments. Note, however, that in divided discussion topics learners can only see posts by members of their currently assigned cohort: when a learner is reassigned, posts that he previously saw will seem to have "disappeared". To avoid negatively affecting the learner experience, any cohort assignment changes should be done as early in the course run as possible, so that learners' views of discussion posts and contributions remain consistent over time.
+You can check the :ref:`learner profile information report<View Learner Data>` for your course to see if any learners are assigned to the default cohort, and change their cohort assignments. Note, however, that in divided discussion topics learners can only see posts by members of their currently assigned cohort: when a learner is reassigned, posts that he previously saw will seem to have "disappeared". To avoid negatively affecting the learner experience, any cohort assignment changes should be done as early in the course run as possible, so that learners' views of discussion posts and contributions remain consistent over time.
 
 .. seealso::
  

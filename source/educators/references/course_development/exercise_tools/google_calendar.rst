@@ -14,8 +14,7 @@ This topic describes how to embed Google Calendars in your course.
 
 Before you make content from an external site available through your course, be
 sure to review the content to ensure that it is accessible to people with
-disabilities. For more information, see :ref:`Accessibility Best Practices for
-Course Content Development`.
+disabilities. For more information, see :ref:`Accessibility Best Practices Checklist`.
 
 You can also add Google Drive files, such as documents, spreadsheets, and
 images, to your course. For more information, see :ref:`Google Drive Files

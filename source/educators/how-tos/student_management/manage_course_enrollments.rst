@@ -6,41 +6,7 @@ Manage Course Enrollments
 
 .. tags:: educator, how-to
 
-.. _view_enrollment_count:
-
-************************
-View an Enrollment Count
-************************
-
-After you create a course, you can access the total number of people who are
-enrolled in it. Note the following information about how this count is
-computed.
-
-* In addition to learners, the enrollment count includes all course team
-  members, including Admins and Staff. (To work with a course in Studio or the
-  LMS you must be enrolled in that course.)
-
-* The enrollment count displays the number of currently enrolled learners and
-  course team members. It is not a historical count of everyone who has ever
-  enrolled in the course.
-
-  .. note:: Learners can unenroll from courses, and course Admins and Staff
-   can unenroll learners when necessary.
-
-The total number of current enrollees is shown as the sum of the number of
-people who selected each of the certification tracks (verified, professional,
-or honor) that is available for your course.
-
-To view the enrollment count for a course, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Course Info** if necessary.
-
-   The **Enrollment Information** section of the page that opens shows the
-   number of people who are currently enrolled in your course and in each of
-   the certification tracks.
-
+You can enroll and unenroll learners from the instructor dashboard. See :ref:`Enrollment_Requirements` for more information.
 
 ***************************
 Enroll Learners in a Course
@@ -89,41 +55,6 @@ For more information, see :ref:`Learner Data`.
  in the audit enrollment track. For more information about course enrollment
  tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
-
-.. _Report Learners Not Yet Enrolled:
-
-********************************
-Report Learners Not Yet Enrolled
-********************************
-
-After you enroll learners in a course using the **Auto Enroll** option, any
-learner who does not yet have a user account must register and activate an
-account to complete the enrollment process. In addition, the learner must
-register the account using the same email address that was used for auto
-enrollment. You can download a report of auto enrolled email addresses that do
-not yet correspond to an enrolled learner.
-
-To download this report, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Data Download**.
-
-#. In the **Reports** section of the page, select **Download a CSV of learners
-   who can enroll**.
-
-  A status message indicates that report generation is in progress. This
-  process can take some time to complete, but you can navigate away from this
-  page and do other work while it runs.
-
-  To track the progress of the report process, reload the page in your browser
-  and scroll down to the **Pending Tasks** section.
-
-4. To open or save the report, select the
-   ``{org}_{course_id}_may_enroll_info_{date}.csv`` file name at the bottom of
-   the page.
-
-
 .. _unenroll_student:
 
 *******************************
@@ -133,7 +64,7 @@ Unenroll Learners from a Course
 You can remove learners from a course by unenrolling them. To prevent learners
 from re-enrolling, course enrollment must also be closed. You use Studio to set
 the **Enrollment End Date** for the course to a date in the past. For more
-information, see :ref:`Scheduling Your Course`.
+information, see :ref:`Course Schedule` and :ref:`Set Course Schedule`.
 
 .. note:: Unenrollment does not delete data for a learner. An unenrolled
    learner's state remains in the database and is reinstated if the learner
@@ -165,9 +96,12 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 
 
 .. seealso::
- 
 
  :ref:`Enrollment_Requirements` (reference)
+
+ :ref:`View Course Enrollments` (how-to)
+
+ :ref:`View Learners Not Yet Enrolled` (how-to)
 
 **Maintenance chart**
 

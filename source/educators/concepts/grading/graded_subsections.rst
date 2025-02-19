@@ -40,7 +40,7 @@ assignment type and the other as the Lab assignment type. Both subsections can
 contain other content as well as the actual homework or lab problems.
 
 For more information about creating problems and developing subsections, see
-:ref:`Working with Problem Components` and :ref:`Developing Course
+:ref:`Working with Problem Components` and :ref:`About Course
 Subsections`.
 
 For more information about designating a subsection as a graded assignment,
