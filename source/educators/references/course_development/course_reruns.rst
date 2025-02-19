@@ -1,8 +1,8 @@
-.. _Rerun a Course:
+.. _Guide to Course Reruns:
 
-###################
-Re-running a Course
-###################
+###########################
+Guide to Course Reruns
+###########################
 
 .. tags:: educator, reference
 
@@ -70,10 +70,7 @@ as complete as possible before you re-run the course.
 
 .. seealso::
  
-
- :ref:`Course re-runs <Course reruns>` (how-to)
-
- :ref:`Update the New Course after a Re-Run <Update the New Course>` (how-to)
+ :ref:`Re Run A Course` (how-to)
 
 
 **Maintenance chart**

@@ -156,10 +156,8 @@ Re-Run a Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/course_development/rerunning_course.rst
-   ../how-tos/course_reruns.rst
-   ../how-tos/course_rerun.rst
-   ../how-tos/update_rerun_course.rst
+   ../references/course_development/course_reruns.rst
+   ../how-tos/rerun_course.rst
