@@ -245,7 +245,7 @@ tools that you can add to your course.
      - You can include surveys in your course to collect learner responses to
        multiple questions.
      - Full support
-   * - :ref:`Word Cloud`
+   * - :ref:`Word Cloud <Manage Word Cloud Tool>`
      - Word clouds arrange text that learners enter in response to a question
        into a colorful graphic.
      - Provisional support

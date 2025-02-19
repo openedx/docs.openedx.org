@@ -98,7 +98,7 @@ Google Calendar Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/exercise_tools/google_calendar.rst
@@ -124,25 +124,21 @@ Poll Tool
    ../references/course_development/exercise_tools/poll_olx.rst
    ../how-tos/course_development/exercise_tools/create_poll_olx.rst
 
-
 Survey Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/manage_survey.rst
    ../how-tos/course_development/exercise_tools/manage_survey_olx.rst
 
-
-
 Word Cloud Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/exercise_tools/add_word_cloud.rst
-
+   ../how-tos/course_development/exercise_tools/manage_word_cloud.rst

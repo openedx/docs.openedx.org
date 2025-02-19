@@ -54,7 +54,7 @@ To enable the survey tool in Studio, you add the ``"survey"`` key to the
 include the quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.
 
-Alternatively, you can use OLX to enable the survey tool. See :ref:`Enable Survey OLX`.
+Alternatively, you can use OLX to enable the survey tool. See :ref:`Create a Poll via OLX`.
 
 
 *******************************
@@ -176,7 +176,7 @@ The results of the survey are then displayed.
 .. seealso::
  
 
- :ref:`Enable Survey OLX` (reference)
+ :ref:`Create a Poll via OLX` (reference)
 
 **Maintenance chart**
 
