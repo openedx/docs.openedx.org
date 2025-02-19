@@ -203,7 +203,7 @@ You can then create Subsections within the section.
  
  :ref:`Create a Course in Studio <Creating a New Course>` (how-to)
  
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
  
  :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
  

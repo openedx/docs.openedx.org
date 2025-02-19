@@ -48,7 +48,7 @@ Units>`.
  
  :ref:`Create a Course` (how-to)
  
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
  
  :ref:`Add Content in the Course Outline` (reference)
  

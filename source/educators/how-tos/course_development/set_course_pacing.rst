@@ -82,9 +82,13 @@ The relative due date you saved will now be published for all enrolled learners.
 
 .. seealso::
 
+  :ref:`Guide to Basic Course Details` (reference)
+
+  :ref:`Edit Basic Course Details` (how-to)
+
   :ref:`Guide to Course About Page` (reference)
 
-  :ref:`Guide to Basic Course Details` (reference)
+  :ref:`Edit the Course About Page` (how-to)
 
   :ref:`Set Course Schedule` (how-to)
 

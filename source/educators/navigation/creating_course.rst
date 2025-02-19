@@ -28,7 +28,9 @@ Plan a New Course
    :glob:
 
    ../references/course_development/basic_course_details.rst
+   ../how-tos/set_up_course/edit_course_details.rst
    ../references/course_development/about_page.rst
+   ../how-tos/set_up_course/edit_about_page.rst
    ../how-tos/course_development/set_course_pacing.rst
    ../how-tos/set_up_course/set_course_schedule.rst
    
@@ -45,7 +47,6 @@ Create a New Course
    ../concepts/open_edx_platform/outline_studio_lms.rst
    ../how-tos/set_up_course/creating_new_course.rst
    ../how-tos/create_course.rst
-   ../how-tos/create_course_about_page.rst
    ../references/course_development/understanding_course_outline.rst
    ../references/course_development/add_edit_in_outline.rst
    ../references/course_development/course_outline.rst
@@ -78,20 +79,6 @@ Add Course Team Members
    ../how-tos/set_up_course/add_course_team_members.rst
    ../how-tos/releasing-course/add_beta_testers.rst
    
-
-Create a Course About Page
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../references/course_development/course_about_page.rst
-   ../how-tos/create_course_about_page.rst
-   ../how-tos/set_up_course/describe_course.rst
-   ../how-tos/set_up_course/edit_course_about.rst
-   ../how-tos/add_image.rst
-   ../references/course_development/about_video_guidelines.rst
    
 
 Set Up Course Certificates

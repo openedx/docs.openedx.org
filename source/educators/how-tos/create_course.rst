@@ -45,7 +45,7 @@ You are then taken to the empty Outline page in Studio.
 
  :ref:`hiding a subsection from learners <Hide a Subsection from Students>` (how-to)
 
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
 
  :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 

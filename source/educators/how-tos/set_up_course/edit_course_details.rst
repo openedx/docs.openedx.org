@@ -81,19 +81,16 @@ change.
 
 
 .. seealso::
- 
- 
- :ref:`Getting Started with Course Content Development` (reference)
 
- :ref:`Course Outline` (concept)
+  :ref:`Guide to Basic Course Details` (reference)
 
- :ref:`Create a Course` (how-to)
+  :ref:`Guide to Course About Page` (reference)
 
- :ref:`Create the Course About Page` (how-to)
+  :ref:`Edit the Course About Page` (how-to)
 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+  :ref:`Set Course Pacing` (how-to)
 
- :ref:`Developing Your Course Outline` (reference)
+  :ref:`Set Course Schedule` (how-to)
 
 
 

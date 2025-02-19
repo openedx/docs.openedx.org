@@ -134,7 +134,7 @@ To delete a subsection, follow these steps.
  
  :ref:`Creating a New Course` (how-to)
  
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
  
  :ref:`Understanding Your Course Outline` (reference)
 

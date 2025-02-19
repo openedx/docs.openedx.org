@@ -117,7 +117,7 @@ Course Schedule
 
 After you determine scheduling for your course run, you enter this
 information in Studio before the course run begins. For more information,
-see :ref:`Creating a Course About Page <Creating a Course About Page>`.
+see :ref:`Edit the Course About Page`.
 
 .. _Guidelines for Start and End Dates:
 
@@ -462,7 +462,7 @@ Additional Course Information
 ************************************************
 
 You can add these optional items to your course About page. For more
-information, see :ref:`Creating a Course About Page <Creating a Course About Page>`.
+information, see :ref:`Edit the Course About Page`.
 
 .. _Effort Guidelines:
 
@@ -493,7 +493,7 @@ in Studio. For more information, see :ref:`Specify Prerequisite Courses <Specify
 :ref:`Require an Entrance Exam <Require an Entrance Exam>`.
 
 You add skill and knowledge prerequisites in Studio. For more information,
-see :ref:`Creating a Course About Page <Creating a Course About Page>`.
+see :ref:`Edit the Course About Page`.
 
 ------------------------------------------
 Example Skill and Knowledge Prerequisites
@@ -591,7 +591,7 @@ module. To create an effective syllabus, keep the following guidelines in mind.
 
 
 You can add the syllabus to your course About page. For more information, see
-:ref:`Creating a Course About Page <Creating a Course About Page>`.
+:ref:`Edit the Course About Page`.
 
 You can also add a syllabus to your course in Studio by creating a custom page
 or a handout. For more information, see :ref:`Add Page <Adding Pages to a Course>` and :ref:`Add Course
@@ -622,7 +622,7 @@ and the answers to those questions to your About page.
 
 
 You can add the FAQ to your course About page. For more information, see
-:ref:`Creating a Course About Page <Creating a Course About Page>`.
+:ref:`Edit the Course About Page`.
 
 --------------------------------
 Example FAQ
@@ -652,7 +652,7 @@ To be effective, a testimonial should contain no more than 25-50 words.
 
 
 You can add the learner testimonial to your course About page. For more
-information, see :ref:`Creating a Course About Page <Creating a Course About Page>`.
+information, see :ref:`Edit the Course About Page`.
 
 
 
@@ -679,6 +679,10 @@ information, see :ref:`Add Course Metadata <Add Course Metadata>`.
 .. seealso::
 
   :ref:`Guide to Basic Course Details` (reference)
+
+  :ref:`Edit Basic Course Details` (how-to)
+
+  :ref:`Edit the Course About Page` (how-to)
 
   :ref:`Set Course Pacing` (how-to)
 

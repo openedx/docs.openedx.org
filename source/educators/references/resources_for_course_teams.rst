@@ -49,7 +49,7 @@ The Open edX product team maintains public product roadmaps at this `public road
 
  :ref:`Quick Start Build a Course` (quick start)
 
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
 
  :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 

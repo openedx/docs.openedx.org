@@ -21,7 +21,7 @@ page for a list of the documentation that is available.
 
  :ref:`Quick Start Build a Course` (quick start)
 
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
 
  :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 

@@ -85,9 +85,13 @@ To set an advertised start date in Studio, follow these steps.
 
 .. seealso::
 
+  :ref:`Guide to Basic Course Details` (reference)
+
+  :ref:`Edit Basic Course Details` (how-to)
+
   :ref:`Guide to Course About Page` (reference)
 
-  :ref:`Guide to Basic Course Details` (reference)
+  :ref:`Edit the Course About Page` (how-to)
 
   :ref:`Set Course Pacing` (how-to)
 

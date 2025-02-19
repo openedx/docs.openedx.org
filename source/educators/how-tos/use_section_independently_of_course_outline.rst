@@ -59,7 +59,7 @@ Use a Section from a Course independently of the Course Outline
 
  :ref:`Create a Course` (how-to)
 
- :ref:`Create the Course About Page` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
 
  :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 

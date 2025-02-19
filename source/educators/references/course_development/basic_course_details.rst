@@ -94,7 +94,11 @@ Example Course Numbers
 
 .. seealso::
 
+  :ref:`Edit Basic Course Details` (how-to)
+
   :ref:`Guide to Course About Page` (reference)
+
+  :ref:`Edit the Course About Page` (how-to)
 
   :ref:`Set Course Pacing` (how-to)
 

@@ -86,7 +86,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 
  :ref:`Creating a New Course` (how-to)
 
- :ref:`Edit your Course` (how-to)
+ :ref:`Edit the Course About Page` (how-to)
 
  :ref:`Create a Section` (how-to)
 
