@@ -64,7 +64,7 @@ Unenroll Learners from a Course
 You can remove learners from a course by unenrolling them. To prevent learners
 from re-enrolling, course enrollment must also be closed. You use Studio to set
 the **Enrollment End Date** for the course to a date in the past. For more
-information, see :ref:`Scheduling Your Course`.
+information, see :ref:`Course Schedule` and :ref:`Set Course Schedule`.
 
 .. note:: Unenrollment does not delete data for a learner. An unenrolled
    learner's state remains in the database and is reinstated if the learner

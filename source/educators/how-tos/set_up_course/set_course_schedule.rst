@@ -1,7 +1,7 @@
-.. _Set Schedule and Pacing:
+.. _Set Course Schedule:
 
 #################################################
-Set the Course Run Schedule and Pacing in Studio
+Set the Course Run Schedule
 #################################################
 
 .. tags:: educator, how-to
@@ -11,7 +11,7 @@ want your course run to be self-paced or instructor-paced, you specify these
 settings on the **Schedule & Details** page in Studio.
 
 For more information about determining how to schedule your course, see
-:ref:`Scheduling Your Course <Scheduling Your Course>`.
+:ref:`Course Schedule <Course Schedule>`.
 
 .. _Set Start and End Dates:
 
@@ -83,47 +83,13 @@ To set an advertised start date in Studio, follow these steps.
  **Course Advertised Start Date** policy value is ``null``, no start date
  appears for the course. Learners just see that the course has not yet started.
 
-.. _Set Course Pacing:
-
-************************************
-Set Pacing for Your Course in Studio
-************************************
-
-Before you can use this feature to set up a self-paced course, it must be
-enabled using the Open edX Django admin panel. Follow these steps, or
-contact your Open edX site administrator for assistance.
-
-   #. Log in to your Open edX Django Admin panel.
-   #. In the **Self_Paced** section, locate **Self paced configurations**, and
-       then select **Add**.
-   #. Select the **Enabled** and **Enable course home page improvements**
-       checkboxes.
-   #. Select **Save**.
-
-To set the pacing for your course, follow these steps.
-
-.. note::
- You cannot change the course pacing after the course start date has passed.
-
-#. On the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Course Pacing** section.
-#. Under **Course Pacing**, select either **Instructor-Paced** or
-   **Self-Paced**.
-#. Select **Save Changes**.
-
-
 .. seealso::
-  
 
-  :ref:`Course Dates` (reference)
+  :ref:`Guide to Course About Page` (reference)
 
-  :ref:`Scheduling Your Course` (reference)
+  :ref:`Guide to Basic Course Details` (reference)
 
-  :ref:`Setting Course Pacing` (reference)
-
-  :ref:`Course Pacing` (reference)
-
-  :ref:`Additional Course Run Information` (concept)
+  :ref:`Set Course Pacing` (how-to)
 
 
 **Maintenance chart**

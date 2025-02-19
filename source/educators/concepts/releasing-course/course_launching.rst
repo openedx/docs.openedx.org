@@ -20,15 +20,14 @@ Course Launch Checklist in Studio
  You can access a course launch checklist from the **Course Outline** page and from the **Tools** menu. The checklist includes the following important items that you need to complete prior to launching your course.
 
 * **Add a Welcome Message**: Personally welcome learners into your course and
-  prepare learners for a positive course experience. See :ref:`Scheduling
-  Your Course`.
+  prepare learners for a positive course experience. See :ref:`Add Course Updates and Handouts`.
 * **Create Your Course Grading Policy**: Establish your grading policy,
   including assignment types and passing score. All assignments add up to
   100%. See :ref:`Manage Learner Grades <Grades>`.
 * **Enable Your Certificate**: Make sure that all text is correct, signatures
   have been uploaded, and the certificate has been activated. See :ref:`Setting Up Certificates`.
 * **Set Important Course Dates**: Establish your course schedule, including
-  when the course starts and ends. See :ref:`Scheduling Your Course`.
+  when the course starts and ends. See :ref:`Course Schedule`.
 * **Validate Assignment Deadlines**: Ensure all assignment deadlines are
   between course start and end dates.
 
@@ -55,8 +54,7 @@ your course starts follow.
 
 **Verify Course Settings**
 
-* Check the course start date and time in Studio. See :ref:`Scheduling Your
-  Course`.
+* Check the course start date and time in Studio. See :ref:`Course Schedule`.
 * Review the grading policy, and set a grace period for homework assignment
   due dates. See :ref:`Manage Learner Grades <Grades>`.
 * Confirm that any optional features that you want your course to include, such

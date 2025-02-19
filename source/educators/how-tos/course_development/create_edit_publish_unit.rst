@@ -188,7 +188,7 @@ Published and Live or Published Not Yet Released.
 You can publish a unit from the unit page or the course outline.
 
 For more information about instructor-paced and self-paced courses, see
-:ref:`Setting Course Pacing`.
+:ref:`Course Pacing`.
 
 =======================================
 Use the Unit Page to Publish a Unit

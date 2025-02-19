@@ -1,7 +1,7 @@
-.. _Course Pacing: 
+.. _Set Course Pacing: 
 
 ###########################
-Set Default Course Pacing
+Set Course Pacing
 ###########################
 
 .. tags:: educator, how-to
@@ -26,6 +26,32 @@ Self-Paced Courses
 ******************
 
 Courses that allow learners to work at their own pace, as long as they are finished by the time the course ends, are known as self-paced courses. These courses offer learners flexibility to modify the assignment dates as needed. Select :guilabel:`Self-Paced` in the Course Schedule and Details screen.
+
+************************************
+Set Course Pacing in Studio
+************************************
+
+Before you can use this feature to set up a self-paced course, it must be
+enabled using the Open edX Django admin panel. Follow these steps, or
+contact your Open edX site administrator for assistance.
+
+   #. Log in to your Open edX Django Admin panel.
+   #. In the **Self_Paced** section, locate **Self paced configurations**, and
+       then select **Add**.
+   #. Select the **Enabled** and **Enable course home page improvements**
+       checkboxes.
+   #. Select **Save**.
+
+To set the pacing for your course, follow these steps.
+
+.. note::
+ You cannot change the course pacing after the course start date has passed.
+
+#. On the **Settings** menu, select **Schedule & Details**.
+#. Scroll down to the **Course Pacing** section.
+#. Under **Course Pacing**, select either **Instructor-Paced** or
+   **Self-Paced**.
+#. Select **Save Changes**.
 
 ********************************************************
 Set Custom Pacing in Personalized Learning Schedules
@@ -55,21 +81,12 @@ Follow these steps to override the course’s default pacing, and enable custom 
 The relative due date you saved will now be published for all enrolled learners.
 
 .. seealso::
-  
 
-  :ref:`Scheduling Your Course` (reference)
+  :ref:`Guide to Course About Page` (reference)
 
-  :ref:`Set Schedule and Pacing` (how-to)
+  :ref:`Guide to Basic Course Details` (reference)
 
-  :ref:`Setting Course Pacing` (reference)
-
-  :ref:`Course Dates` (reference)
-
-  :ref:`Additional Course Run Information` (concept)
-
-
-
-
+  :ref:`Set Course Schedule` (how-to)
 
 
 

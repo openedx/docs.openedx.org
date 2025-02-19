@@ -94,13 +94,11 @@ Example Course Numbers
 
 .. seealso::
 
-  :ref:`Course and Program Images and Videos` (reference)
+  :ref:`Guide to Course About Page` (reference)
 
-  :ref:`Course Description` (reference)
+  :ref:`Set Course Pacing` (how-to)
 
-  :ref:`Additional Course Information` (reference)
-
-  :ref:`Creating a New Course <Create a New Course>`
+  :ref:`Set Course Schedule` (how-to)
 
 **Maintenance chart**
 

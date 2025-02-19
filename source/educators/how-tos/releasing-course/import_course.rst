@@ -68,7 +68,7 @@ To import a course, follow these steps.
  When you import a course, important dates, such as the course start date and
  time, are overwritten. After the import is complete, you should check dates to
  ensure they are set as intended. For more information, see
- :ref:`Scheduling Your Course`.
+ :ref:`Set Course Schedule`.
 
 .. seealso::
  

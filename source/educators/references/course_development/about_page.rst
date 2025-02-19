@@ -628,5 +628,18 @@ For example, you might want to make the following information available.
 You add this information as a JSON dictionary in Studio. For more
 information, see :ref:`Add Course Metadata <Add Course Metadata>`.
 
+.. seealso::
 
+  :ref:`Guide to Basic Course Details` (reference)
 
+  :ref:`Set Course Pacing` (how-to)
+
+  :ref:`Set Course Schedule` (how-to)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

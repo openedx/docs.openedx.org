@@ -18,9 +18,9 @@ Instructional Design Concepts
    ../concepts/instructional_design/id_templates.rst
    ../concepts/instructional_design/id_course_dev_process_overview.rst
 
-.. _Plan Course Information:
+.. _Planning a New Course:
 
-Plan Course Information
+Planning a New Course
 *******************************************************
 
 .. toctree::
@@ -29,22 +29,8 @@ Plan Course Information
 
    ../references/course_development/basic_course_details.rst
    ../references/course_development/about_page.rst
-   
-.. _Plan Course Run Information:
-
-Plan Course Run Information
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../references/course_dates.rst
-   ../references/scheduling_course.rst
-   ../how-tos/set_up_course/set_schedule.rst  
-   ../references/course_pacing.rst
-   ../references/setting_course_pacing.rst
-   ../concepts/planning_course_run_information/additional_course_run_information.rst
+   ../how-tos/course_development/set_course_pacing.rst
+   ../how-tos/set_up_course/set_course_schedule.rst
    
 .. _Nav Create a New Course:
 

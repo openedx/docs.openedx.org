@@ -19,7 +19,7 @@ course for release.
   community TAs. See :ref:`Add Course Staff` or :ref:`Course_Staffing`.
 
 * Update course-wide dates, including course and enrollment start and end
-  dates. See :ref:`Scheduling Your Course`.
+  dates. See :ref:`Set Course Schedule`.
 
 * Change the release dates of course sections, subsections, and units. See
   :ref:`Release Dates`.
@@ -58,8 +58,7 @@ who enroll in the new course run.
    or :ref:`Add a Link to a File`.
 
 * Review the staff biographies and other information on the course About page
-  and make needed updates. See :ref:`Plan Course Information` and
-  :ref:`Plan Course Run Information`.
+  and make needed updates. See :ref:`Guide to Course About Page`.
 
 * Create initial posts for discussion topics and an "introduce yourself"
   post. See :ref:`Discussions`.

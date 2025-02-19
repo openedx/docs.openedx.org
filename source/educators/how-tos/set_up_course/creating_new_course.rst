@@ -54,9 +54,7 @@ To create a course, follow these steps.
      characters.
 
      The value that you enter for the run does not affect the course start date
-     that you define for the course. For more information, see :ref:`Scheduling
-     Your Course <Scheduling
-     Your Course>`.
+     that you define for the course. For more information, see :ref:`Course Schedule`.
 
    The organization, course number, and course run values that you enter are
    used to create the URL for your course. Because URLs do not have an
