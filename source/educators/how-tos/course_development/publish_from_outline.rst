@@ -12,13 +12,23 @@ To publish new and changed units, select the **Publish** icon for a section,
 subsection, or unit. In the following example, the **Publish** icon is circled
 for a section, subsection, and unit.
 
+.. START PUBLISH COURSE
+
 .. image:: /_images/educator_how_tos/outline-publish-icons.png
  :alt: Publishing icons in the course outline.
  :width: 500
 
+#. Go back to the course outline.
+
+   You see the unit you created, within the subsection and section, in an unpublished state.
+
+#. For the section, click the Publish icon (|Publish Icon|).
+
 .. note::
  The **Publish** icon only appears when there is new or changed content within
  the object.
+
+.. END PUBLISH COURSE
 
 For more information, see the following topics.
 

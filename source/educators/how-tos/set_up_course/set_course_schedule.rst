@@ -26,15 +26,29 @@ follow these steps.
  It is recommended that you verify all important dates in Studio one week before
  you plan to start the course.
 
-#. On the **Settings** menu, select **Schedule & Details**.
+.. START SET COURSE SCHEDULE
 
-#. In the **Course Schedule** section, replace the placeholder dates and times
-   with your own information.
+.. sidebar:: Course Schedule and Details
 
-   When you make changes on this page, a panel with options to save or cancel
-   your work appears.
+  .. thumbnail:: /_images/Educators_course_schedule.png
 
-#. Select **Save Changes**.
+#. With the course open in Studio, from the :guilabel:`Settings` menu, select :guilabel:`Schedule and Details`.
+
+#. For course pacing, select :guilabel:`Instructor-Paced` or :guilabel:`Self-Paced`.
+
+#. Enter date and time information for the course:
+
+   * **Course Start Date** and **Course Start Time**: The date and time that learners can access and begin the course.
+
+   * **Course End Date** and **Course End Time**: The date and time that learners must end the course, and after which they no longer have access.
+
+   * **Enrollment Start Date** and **Enrollment Start Time**: The date and time that learners can begin to enroll in the course. This must be before or the same as the date and time you set the course to start.
+
+   * **Enrollment End Date** and **Enrollment End Time**: The date and time deadline for enrollment. This must be  before or the same as the date and time you set the course to end.
+
+#. At the bottom of the screen, click :guilabel:`Save Changes`.
+
+.. END SET COURSE SCHEDULE
 
 .. note::
   The times that you set are in Coordinated Universal Time (UTC). You might

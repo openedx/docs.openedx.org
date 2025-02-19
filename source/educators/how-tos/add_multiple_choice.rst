@@ -9,8 +9,17 @@ This video explains how to add a multiple choice (also known as "single-select")
 
 .. youtube:: ij5VHvY6jBk
 
+.. START ADD MULTIPLE CHOICE PROBLEM
 
-. In the unit where you want to place the text, select :guilabel:`Problem` at the bottom of the page.
+.. sidebar:: Add Multiple Choice Problem
+
+   .. thumbnail:: /_images/Educators_add_multiple_choice.png
+
+.. sidebar:: Edit Multiple Choice Problem
+
+   .. thumbnail:: /_images/Educators_edit_multiple_choice.png   
+
+#. In the unit where you want to place the text, select :guilabel:`Problem` at the bottom of the page.
 
 #. From the list of problem types, select :guilabel:`Multiple Choice`.
 
@@ -34,6 +43,8 @@ This video explains how to add a multiple choice (also known as "single-select")
 #. To enter a display name for the problem, select :guilabel:`Settings`, and then enter text in the :guilabel:`Display Name` field.
 
 #. Click :guilabel:`Save` to save the problem in the unit.
+
+.. END ADD MULTIPLE CHOICE PROBLEM
 
 
 .. seealso::
