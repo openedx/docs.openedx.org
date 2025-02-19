@@ -1,9 +1,13 @@
-.. _Enable/Disable Anonymous Discussion Posts:
+.. _Toggle Anonymous Discussion Posts:
 
-Enable/Disable Anonymous Discussion Posts
+Toggle Anonymous Discussion Posts
 #########################################
 
 .. tags:: educator, how-to
+
+.. contents::
+ :local:
+ :depth: 2
 
 There are two options for anonymous discussion posts.
 
@@ -16,7 +20,7 @@ Generally, you'll choose one or none of the options based on your course policie
 	Note that an admin must be a "Discussion Admin" in order to view anonymous posts. This role is separate from a course staff or course admin.
 
 ********************************
-Allow Anonymous Discussion Posts
+Anonymous Discussion Posts
 ********************************
 
 A student's view of posting anonymously:
@@ -35,8 +39,14 @@ A discussion staff's view of an anonymous post
 ..  image:: /_images/educator_how_tos/staff_view_anonymous.png
 	:alt: A screenshot of a staff member viewing an anonymous discussion forum message. They cannot see username.
 
+=================================================
+Toggle "Allow Anonymous Discussion Posts"
+=================================================
+1. From your course Studio, navigate to *Advanced Settings*
+2. Set "Allow Anonymous Discussion Posts" to true/false to enable/disable.
+
 *****************************************
-Allow Anonymous Discussion Posts to Peers
+Anonymous Discussion Posts to Peers
 *****************************************
 
 A student's view of posting anonymously to classmates:
@@ -54,50 +64,37 @@ A discussion staff's view of an anonymous post to classmates:
 ..  image:: /_images/educator_how_tos/staff_view_anonymous_class.png
 	:alt: A screenshot of a staff member viewing an anonymous discussion forum message. They can see username.
 
-=================================================
-Enable/Disable "Allow Anonymous Discussion Posts"
-=================================================
-1. From your course Studio, navigate to *Advanced Settings*
-2. Set "Allow Anonymous Discussion Posts" to true/false to enable/disable.
-
 ==========================================================
-Enable/Disable "Allow Anonymous Discussion Posts to Peers"
+Toggle "Allow Anonymous Discussion Posts to Peers"
 ==========================================================
 1. From your course Studio, navigate to *Advanced Settings*
 2. Set "Allow Anonymous Discussion Posts to Peers" to true/false to enable/disable.
 
-
-
 .. seealso::
- 
 
- :ref:`Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Running_discussions` (concept)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Moderating_discussions` (concept)
+  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Guidance for Discussion Moderators` (concept)
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
 
- :ref:`Assigning_discussion_roles` (how-to)
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Working with Discussion Components` (how-to)
+  :ref:`Moderate Discussions` (how-to)
 
- :ref:`Administer Discussions` (how-to)
+  :ref:`Learner View of the Discussion` (reference)
 
- :ref:`Closing Discussions` (how-to)
+  :ref:`About Divided Discussions` (concept)
 
- :ref:` Setting up Discussions in Courses with Cohorts` (how-to)
+  :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`A Students View of the Discussion` (reference)
+  :ref:`Set Up Divided Discussions` (how-to)
 
- :ref:`About Divided Discussions` (concept)
-
- :ref:`Setting Up Divided Discussions` (how-to)
-
- :ref:`Managing Divided Discussion Topics` (concept)
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
  
 
 

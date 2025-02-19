@@ -1,8 +1,8 @@
-.. _Course Wiki Tasks: 
+.. _Contribute to the Course Wiki: 
 
-#################
-Course Wiki Tasks
-#################
+##############################
+Contribute to the Course Wiki
+##############################
 
 .. tags:: educator, how-to
 
@@ -15,7 +15,7 @@ This section describes how you can contribute to the course wiki.
 .. START MANAGING WIKI ARTICLES
 
 *********************
-Adding a Wiki Article
+Add a Wiki Article
 *********************
 
 When you add an article to the wiki, be aware of what level you are currently
@@ -68,7 +68,7 @@ message indicates "Permission Denied" .
    **Create Article**.
 
 **********************
-Editing a Wiki Article
+Edit a Wiki Article
 **********************
 
 If you have permissions to edit an article, you see an **Edit** button and icon
@@ -88,7 +88,7 @@ To make changes to a wiki article, follow these steps.
 #. When you have finished making edits, select **Save changes**.
 
 ***************************
-Searching for Wiki Articles
+Search for Wiki Articles
 ***************************
 
 A **Filter** field is available only if any level of the wiki contains multiple
@@ -98,7 +98,7 @@ Enter a text string in the **Filter** field to find a list of all articles with
 that text string in their titles.
 
 **********************************
-Managing Versions of Wiki Articles
+Manage Versions of Wiki Articles
 **********************************
 
 The wiki includes a change history for each article. You can view each past
@@ -156,7 +156,7 @@ Combine a Current Version with a Previous Version
 .. seealso::
  
 
- :ref:`Create Course Wiki` (how to)
+ :ref:`Manage the Course Wiki` (how to)
 
  :ref:`About Course Wiki` (reference)
 

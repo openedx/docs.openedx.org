@@ -51,11 +51,11 @@ content, see :ref:`Cohorted Courseware Example`.
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
  :ref:`Create Cohort Specific Course Content` (how-to)
 

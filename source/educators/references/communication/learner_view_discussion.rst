@@ -1,4 +1,4 @@
-.. _A Students View of the Discussion:
+.. _Learner View of the Discussion:
 
 A Learner's View of the Discussion
 ###################################
@@ -29,33 +29,30 @@ discussion topics.
  :width: 400
 
 .. seealso::
- 
 
- :ref:`Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Running_discussions` (concept)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Moderating_discussions` (concept)
+  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Guidance for Discussion Moderators` (concept)
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`About Divided Discussions` (concept)
+  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Assigning_discussion_roles` (how-to)
+  :ref:`Moderate Discussions` (how-to)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
 
- :ref:`Administer Discussions` (how-to)
+  :ref:`About Divided Discussions` (concept)
 
- :ref:`Closing Discussions` (how-to)
+  :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`Set up Discussions in Cohorted Courses` (how-to)
+  :ref:`Set Up Divided Discussions` (how-to)
 
- :ref:`Setting Up Divided Discussions` (how-to)
-
- :ref:`Working with Discussion Components` (how-to)
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 
 **Maintenance chart**

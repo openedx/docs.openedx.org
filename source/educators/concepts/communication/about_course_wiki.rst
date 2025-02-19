@@ -3,7 +3,7 @@
 About the Course Wiki
 ######################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 Courses can optionally configure a wiki application and set it up for appropriate use in your course.
 If you have specific expectations for how the wiki should be
@@ -78,9 +78,9 @@ the permissions that you set for an article.
 .. seealso::
  
 
- :ref:`Course Wiki Tasks <Course Wiki Tasks>` (how to)
+ :ref:`Manage the Course Wiki` (how to)
 
- :ref:`Using the Course Wiki <Create Course Wiki>` (how to)
+ :ref:`Contribute to the Course Wiki` (how to)
 
 
 **Maintenance chart**

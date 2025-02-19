@@ -1,7 +1,8 @@
-.. _Bulk Email:
+.. _Guide to Bulk Email Messages:
 
-Bulk Email Messages from the Course Team
-########################################
+#############################
+Guide to Bulk Email Messages
+#############################
 
 .. tags:: educator, reference
 
@@ -29,10 +30,11 @@ This section contains the following topics.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 .. _bulk_email_message_addressing:
 
+*************************
 Message Addressing
 *************************
 
@@ -73,6 +75,7 @@ separate recipient group. For more information, see :ref:`Bulk Email Cohorts`.
 
 .. _Bulk Email Who Is Included or Excluded:
 
+=========================================
 Who Is Included in Each Recipient Group?
 =========================================
 
@@ -161,6 +164,8 @@ Default Group** is also available.
    cohort. You can manually reassign learners from the default cohort to
    another cohort. For more information, see :ref:`Default Cohort Group`.
 
+
+**********************************
 Managing Scheduled Email Messages
 **********************************
 
@@ -186,6 +191,7 @@ Each scheduled email entry in this table will support the following actions:
 
 .. _Email_queuing:
 
+****************************
 Message Workflow States
 ****************************
 
@@ -223,21 +229,21 @@ reached in the workflow by checking the **Pending Tasks** section on the
             and when, in tabular format
 
 When the bulk email task is complete, you can find its final state by checking
-the Email Task History report. For more information, see :ref:`Email Task
+the Email Task History report. For more information, see :ref:`View Email Task
 History Report`.
 
 .. seealso::
  
 
- :ref:`Send_Bulk_Email` (how-to)
+ :ref:`Send an Email Message to Course Participants` (how-to)
 
  :ref:`Review Sent Messages` (how-to)
 
- :ref:`Email Task History Report` (how-to)
+ :ref:`View Email Task History Report` (how-to)
 
  :ref:`Example Messages to Students` (reference)
 
- :ref:`Options for Email Message Text` (reference)
+ :ref:`Guide to Composing Email Messages` (reference)
 
   
   

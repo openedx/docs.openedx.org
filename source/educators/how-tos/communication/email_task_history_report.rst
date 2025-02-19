@@ -1,6 +1,6 @@
-.. _Email Task History Report:
+.. _View Email Task History Report:
 
-Use the Email Task History Report
+View Email Task History Report
 ###########################################
 
 .. tags:: educator, how-to
@@ -70,15 +70,15 @@ Failure.
 .. seealso::
  
 
- :ref:`Bulk Email` (reference)
+ :ref:`Guide to Bulk Email Messages` (reference)
 
- :ref:`Send_Bulk_Email` (how-to)
+ :ref:`Send an Email Message to Course Participants` (how-to)
 
  :ref:`Review Sent Messages` (how-to)
 
  :ref:`Example Messages to Students` (reference)
 
- :ref:`Options for Email Message Text` (reference)
+ :ref:`Guide to Composing Email Messages` (reference)
   
   
 

@@ -1,9 +1,9 @@
-.. _Poll Tool:
+.. _Enable the Poll Tool:
 
-Poll Tool
-###########
+Enable the Poll Tool
+########################
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
 
 This section describes how to include polls in your course.
 
@@ -19,7 +19,7 @@ You can include polls in your course to gather learners' opinions on various
 questions.
 
 For a poll, you configure one question and multiple possible
-answers. If you need to ask multiple questions, use the :ref:`Survey Tool`.
+answers. If you need to ask multiple questions, use the :ref:`Survey Tool <Manage Survey Tool>`.
 
 The following example poll has four possible answers to the question.
 
@@ -50,10 +50,6 @@ quotation marks around the key value.) For more information, see
  
 
  :ref:`Add Poll` (how to)
-
- :ref:`Poll Tool for OLX` (reference)
-
- :ref:`Enable Poll in OLX` (reference)
 
 **Maintenance chart**
 

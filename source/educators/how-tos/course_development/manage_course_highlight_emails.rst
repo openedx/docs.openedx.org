@@ -1,7 +1,7 @@
-.. _Set Section Highlights for Course Highlight Messages:
+.. _Manage Course Highlight Emails:
 
 ###########################################
-Set Section Highlights for Highlight Emails
+Manage Course Highlight Emails
 ###########################################
 
 .. tags:: educator, how-to

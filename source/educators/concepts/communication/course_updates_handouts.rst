@@ -1,9 +1,9 @@
-.. _Adding Course Updates and Handouts:
+.. _About Course Updates and Handouts:
 
-Adding Course Updates and Handouts
+About Course Updates and Handouts
 ##################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 You can create course updates and handouts in Studio.
 
@@ -31,8 +31,7 @@ Learners see the list of course handouts under **Handouts** in the sidebar.
 
 .. seealso::
  
-
- :ref:`Add a Course Update` (how-to)
+ :ref:`Add Course Updates and Handouts` (how-to)
 
 **Maintenance chart**
 

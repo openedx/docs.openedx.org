@@ -1,18 +1,19 @@
-.. _Running_discussions:
+.. _Best Practices for Configuring Course Discussions:
 
-Running Course Discussions
-############################
+########################################################
+Best Practices for Configuring Course Discussions
+########################################################
 
 .. tags:: educator, concept
 
 On an ongoing basis, the members of your :ref:`discussion
-team<Assigning_discussion_roles>` run the course discussion by adding posts
+team<Assign discussion roles>` run the course discussion by adding posts
 and responses, marking answers as correct, and guiding learner messages into
 pertinent threads. The information and suggested techniques in this section
-can help you to make discussions in your course successful.
+can help you to configure successful discussions in your course.
 
 For information about moderating discussions, see
-:ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.
+:ref:`Best Practices for Moderating Course Discussions`.
 
 .. contents::
  :local:
@@ -156,7 +157,7 @@ discussion.
   an existing post, or commenting on a response.
 
 
-.. _Close_discussions:
+.. _Closing discussions:
 
 ********************
 Closing Discussions
@@ -187,14 +188,30 @@ units and all course-wide topics are affected.
   can continue to add to discussions.
 
 .. seealso::
- 
 
- :ref:`Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Closing Discussions` (how-to)
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
 
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`About Divided Discussions` (concept)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 **Maintenance chart**
 

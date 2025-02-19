@@ -1,9 +1,11 @@
-.. _Working with Discussion Components:
+.. _Configure Open edX Discussions Legacy:
 
-Working with Discussion Components
-###################################
+Configure Open edX Discussions - Legacy
+########################################
 
 .. tags:: educator, how-to
+
+.. note:: This is the legacy way to create a discussion component. View the latest way to create a discussion component in :ref:`Configure Open edX Discussions`.
 
 You can add discussion components to a unit to pose questions about other
 components, such as videos or text, in the unit. A discussion component gives
@@ -15,8 +17,8 @@ course are known as content-specific discussion topics.
 
 For more information about discussions, see these topics.
 
-* :ref:`Discussions`
-* :ref:`Guidance for Discussion Moderators`
+* :ref:`About Course Discussions`
+* :ref:`Best Practices for Moderating Course Discussions`
 * :ref:`Set up Discussions in Cohorted Courses`
 
 .. _Create a Discussion Component:
@@ -70,13 +72,30 @@ Create a Discussion Component
    topics are visible, see :ref:`Visibility of Discussion Topics`.
 
 .. seealso::
- 
 
- :ref:`Discussions` (concept)
- 
- :ref:`Guidance for Discussion Moderators` (concept)
- 
- :ref:`Set up Discussions in Cohorted Courses` (how-to)
+  :ref:`About Course Discussions` (concept)
+
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
+
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`About Divided Discussions` (concept)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 
 **Maintenance chart**
