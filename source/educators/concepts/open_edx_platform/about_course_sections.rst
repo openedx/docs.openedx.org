@@ -1,10 +1,10 @@
-.. _Developing Course Sections:
+.. _About Course Sections:
 
 ###################################
-Developing Course Sections
+About Course Sections
 ###################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 To develop sections in your course, you must first understand the following topics.
 
