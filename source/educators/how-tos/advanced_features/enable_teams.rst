@@ -37,9 +37,9 @@ To change access to the course team configuration options, follow these steps.
 
  :ref:`Managing Teams via CSV Upload` (reference)
 
- :ref:`Create a Team` (how-to)
+ :ref:`Educator Create a Team` (how-to)
 
- :ref:`Search for a Team` (how-to)
+ :ref:`Educator Search for a Team` (how-to)
 
  :ref:`Edit a Team` (how-to)
 

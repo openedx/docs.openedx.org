@@ -98,7 +98,7 @@ To allow learners to download early certificates, you modify the
 
   :ref:`Manage Course Certificates` (how-to)
 
-  :ref:`Edit Course Certificates` (how-to)
+  :ref:`View Certificate Data` (how-to)
 
   :ref:`Manage Course Badges` (how-to)
 
