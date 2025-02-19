@@ -38,7 +38,7 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Closing Discussions` (how-to)
 
- :ref:`Enable/Disable Anonymous Discussion Posts` (how-to)
+ :ref:`Toggle Anonymous Discussion Posts` (how-to)
 
  :ref:`Moderate Discussions` (how-to)
 
