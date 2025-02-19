@@ -1,9 +1,9 @@
-.. _Managing Divided Discussion Topics:
+.. _Guide to Managing Divided Discussions:
 
-Managing Divided Discussion Topics
+Guide to Managing Divided Discussions
 ###################################
 
-.. tags:: educator, concept
+.. tags:: educator, reference
 
 This section provides information about managing :ref:`discussions<About Course Discussions>`
 that are divided based on learner groups (:ref:`cohorts<Cohort>`).

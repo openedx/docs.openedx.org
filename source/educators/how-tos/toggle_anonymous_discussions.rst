@@ -97,7 +97,7 @@ Toggle "Allow Anonymous Discussion Posts to Peers"
 
  :ref:`Set Up Divided Discussions` (how-to)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
  
 
 

@@ -11,7 +11,7 @@ Course Discussions
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/communication/course_discussions.rst
@@ -26,10 +26,7 @@ Course Discussions
    ../concepts/communication/about_divided_discussions.rst
    ../how-tos/communication/setup_divided_discussions.rst
    ../how-tos/communication/setup_cohorted_discussions.rst
-   
-   
-   ../concepts/communication/manage_divided_discussions.rst
-
+   ../concepts/communication/managing_divided_discussions.rst
 
 .. _Bulk Emails:
 

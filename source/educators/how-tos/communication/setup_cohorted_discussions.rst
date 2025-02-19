@@ -29,7 +29,6 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
-
  :ref:`Assign discussion roles` (how-to)
 
  :ref:`Configure Open edX Discussions` (how-to)
@@ -48,11 +47,7 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Set Up Divided Discussions` (how-to)
 
- :ref:`Managing Divided Discussion Topics` (concept)
- 
-
-
-
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
 
 

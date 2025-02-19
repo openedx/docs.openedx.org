@@ -64,7 +64,7 @@ All content-specific discussion topics in the course are now divided
 by cohort.
 
 For information about managing discussions that are divided, see
-:ref:`Managing Divided Discussion Topics`.
+:ref:`Guide to Managing Divided Discussions`.
 
 .. _Divide Course Wide Discussion Topics:
 

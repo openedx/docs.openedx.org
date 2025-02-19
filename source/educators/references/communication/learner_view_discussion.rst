@@ -37,7 +37,7 @@ discussion topics.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
  :ref:`About Divided Discussions` (concept)
 

@@ -17,7 +17,7 @@ For more information about setting up and managing cohorts, see the following to
 
 * :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in Cohorted Courses>`
 
-* :ref:`Managing Divided Discussion Topics`
+* :ref:`Guide to Managing Divided Discussions`
 
 For information about discussions in general, see :ref:`About Course Discussions`.
 
@@ -158,7 +158,7 @@ You can check the :ref:`learner profile information report<View Learner Data>` f
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 

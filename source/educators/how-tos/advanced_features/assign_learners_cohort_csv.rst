@@ -199,7 +199,7 @@ Unicode characters are correctly saved and displayed.
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
