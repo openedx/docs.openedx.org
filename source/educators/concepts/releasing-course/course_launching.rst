@@ -25,7 +25,7 @@ Course Launch Checklist in Studio
   including assignment types and passing score. All assignments add up to
   100%. See :ref:`Manage Learner Grades <Grades>`.
 * **Enable Your Certificate**: Make sure that all text is correct, signatures
-  have been uploaded, and the certificate has been activated. See :ref:`Setting Up Certificates`.
+  have been uploaded, and the certificate has been activated. See :ref:`Manage Course Certificates`.
 * **Set Important Course Dates**: Establish your course schedule, including
   when the course starts and ends. See :ref:`Course Schedule`.
 * **Validate Assignment Deadlines**: Ensure all assignment deadlines are
@@ -63,7 +63,7 @@ your course starts follow.
 **Verify Certificates**
 
 * Make sure that certificates are correctly configured and ready to be issued.
-  See :ref:`Setting Up Certificates`.
+  See :ref:`Manage Course Certificates`.
 
 **Review First Week Content**
 

@@ -26,10 +26,12 @@ the course.
      - The date the report was created.
 
 .. seealso::
+
+ :ref:`About Certificates` (concept)
  
  :ref:`View Certificate Data` (how-to)
 
- :ref:`Setting Up Certificates` (reference)
+ :ref:`Manage Course Certificates` (how-to)
 
  :ref:`Learner Data` (concept)
 

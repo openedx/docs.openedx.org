@@ -111,7 +111,7 @@ C
   not all learners enroll as certificate candidates.
 
   For information about setting up certificates for your course, see
-  :ref:`Setting Up Certificates`.
+  :ref:`Manage Course Certificates`.
 
 **Chapter**
 

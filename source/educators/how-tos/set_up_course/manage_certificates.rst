@@ -93,8 +93,8 @@ in the selected mode.
    You see the web view for the certificate, as a learner in the selected
    course mode would see it.
 
-After previewing the certificate, you can :ref:`edit the certificate<Edit a
-Certificate>` further or :ref:`activate your certificate<Activate a
+After previewing the certificate, you can :ref:`edit the certificate<Edit Course
+Certificates>` further or :ref:`activate your certificate<Activate a
 Certificate>`.
 
 
