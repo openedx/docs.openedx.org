@@ -12,7 +12,7 @@ in the course outline with a lock icon, and learners cannot view the subsection
 content until they have earned a minimum score in the prerequisite subsection.
 
 .. note::
-   You must first :ref:`Set up Course Prerequisites` before
+   You must first `<Enabling Course Prerequisites>`_ before
    prerequisite course subsections can be used.
 
 .. _enabling_subsection_gating:

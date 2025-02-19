@@ -489,8 +489,8 @@ Optionally, you can also require that learners complete a specific course
 before they enroll in your course, or that learners complete an entrance exam
 before they access course content. This information also appears on the About
 page, but you specify these prerequisites on the **Schedule & Details** page
-in Studio. For more information, see :ref:`Specify Prerequisite Courses <Specify Prerequisite Courses>` and
-:ref:`Require an Entrance Exam <Require an Entrance Exam>`.
+in Studio. For more information, see :ref:`Require a Prerequisite Course` and
+:ref:`Require an Entrance Exam`.
 
 You add skill and knowledge prerequisites in Studio. For more information,
 see :ref:`Edit the Course About Page`.
@@ -530,8 +530,7 @@ prerequisite course. Learners can enroll in the prerequisite course from the
   :alt: The learner dashboard with an available course and a course that is
       unavailable because it has a prerequisite.
 
-You enter this information in Studio. For more information, see :ref:`Specify
-Prerequisite Courses <Specify Prerequisite Courses>`.
+You enter this information in Studio. For more information, see :ref:`Require a Prerequisite Course`.
 
 .. _Entrance Exam Prerequisite:
 
