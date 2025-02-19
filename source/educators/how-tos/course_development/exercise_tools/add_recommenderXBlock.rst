@@ -36,7 +36,7 @@ recommender.
 Course team members can endorse useful resources or remove irrelevant entries.
 
 If you use the recommender, you should inform learners through course content
-or :ref:`course updates <Adding Course Updates and Handouts>` about the tool.
+or :ref:`course updates <Add a Course Update>` about the tool.
 
 An example of a recommender in a course follows. The upper part of the figure
 illustrates a question in a problem set where the recommender is attached. The

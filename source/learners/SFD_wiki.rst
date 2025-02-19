@@ -38,7 +38,7 @@ that are set for the wiki.
 
 * Manage versions of a wiki article.
 
-.. include:: /educators/how-tos/course_development/course_wiki_tasks.rst
+.. include:: /educators/how-tos/course_development/contribute_course_wiki.rst
   :start-after: .. START MANAGING WIKI ARTICLES
   :end-before: .. END MANAGING WIKI ARTICLES
 
