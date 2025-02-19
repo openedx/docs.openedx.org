@@ -1,21 +1,10 @@
-.. _Course_Staffing:
+.. _Guide to Course Team Roles:
 
-#####################
-Planning Course Staff
-#####################
+###########################
+Guide to Course Team Roles
+###########################
 
 .. tags:: educator, reference
-
-You can designate a team of people to help you run your course.
-
-You add staff members in Studio. For more information, see
-:ref:`Add Course Staff <Add Course Staff>`.
-
-.. _About the Course Team Roles:
-
-*****************
-Course Team Roles
-*****************
 
 To give team members access to Studio, and the instructor dashboard in the LMS
 you assign one of these course team roles to them.
@@ -29,7 +18,7 @@ you assign one of these course team roles to them.
 You can assign these privileged roles when you work in either the LMS or
 Studio. The people who have these roles can work on your course in Studio and
 the LMS. For more information about assigning roles to team members in Studio,
-see :ref:`Add Course Team Members <Add Course Staff>`.
+see :ref:`Add Course Team Members`.
 
 You can also designate teams of people to beta test your course or to moderate
 and manage its discussions by assigning other roles in the LMS. Beta testers
@@ -38,7 +27,7 @@ need to have the Staff or Admin role. For more information, see
 :ref:`Beta_Testing <Beta_Testing>` and :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
 
 For more information about how to add course team members, see
-:ref:`Add Course Staff <Add Course Staff>`.
+:ref:`Add Course Team Members`.
 
 .. _Administrative Team Roles:
 
@@ -51,7 +40,7 @@ can assign the Staff role or the Admin role to course team members.
 
 Team members who have either of these roles can work on your course in Studio
 immediately, and can also use the LMS. For more information about
-assigning roles while you run your course, see :ref:`Course_Staffing <Course_Staffing>`.
+assigning roles while you run your course, see :ref:`Add Course Team Members`.
 
 You can also designate teams of people to beta test your course and to
 moderate and manage its discussions by assigning other LMS roles. The beta
@@ -60,7 +49,7 @@ they do not need to have Staff or Admin access. For more information, see
 :ref:`Beta_Testing <Beta_Testing>` and :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
 
 For more information about how to add course team members, see
-:ref:`Add Course Staff <Add Course Staff>`.
+:ref:`Add Course Team Members`.
 
 
 ==================
@@ -118,12 +107,9 @@ complete the following tasks.
      :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
 
 
-.. seealso::
-  
+.. seealso::  
 
-  :ref:`Add Course Staff` (how-to)
-
-  :ref:`Add Course Creators` (how-to)
+  :ref:`Add Course Team Members` (how-to)
 
   :ref:`Add Beta Testers to a Course` (how-to)  
 
