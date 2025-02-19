@@ -1,7 +1,9 @@
+.. _View Course Sections from the Navigation Sidebar:
+
 View Course Sections from the Navigation Sidebar
 ################################################
 
-.. tags:: educator, how-to
+.. tags:: learner, how-to
 
 Clicking the back button in the upper corner of the sidebar:
 
