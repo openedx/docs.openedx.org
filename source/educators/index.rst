@@ -26,7 +26,7 @@ Open edX Educators
 
       | :ref:`Instructional Design Concepts`
       | :ref:`Nav Create a New Course`
-      | :ref:`Planning a New Course`
+      | :ref:`Plan a New Course`
       | :ref:`Launch a Course`
 
       .. button-ref:: navigation/creating_course

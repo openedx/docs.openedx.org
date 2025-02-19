@@ -18,9 +18,9 @@ Instructional Design Concepts
    ../concepts/instructional_design/id_templates.rst
    ../concepts/instructional_design/id_course_dev_process_overview.rst
 
-.. _Planning a New Course:
+.. _Plan a New Course:
 
-Planning a New Course
+Plan a New Course
 *******************************************************
 
 .. toctree::
