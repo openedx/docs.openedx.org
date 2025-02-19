@@ -1,10 +1,10 @@
-.. _Developing Course Units:
+.. _About Course Units:
 
 ###################################
-Developing Course Units
+About Course Units
 ###################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 To work with units in the course outline and develop your course, you need to
 understand the following concepts and complete the following tasks.

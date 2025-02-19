@@ -1,9 +1,18 @@
 .. _Create a Unit:
 
+################
 Create a Unit
 ################
 
 .. tags:: educator, how-to
+
+.. contents::
+  :local:
+  :depth: 1
+
+********************
+Create a Unit
+********************
 
 .. sidebar:: Empty Unit
 
