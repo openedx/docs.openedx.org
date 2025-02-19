@@ -1,9 +1,9 @@
-.. _Updating Course-Specific Settings:
+.. _Update Course-Specific Settings:
 
-Updating Course-Specific Settings
+Update Course-Specific Settings
 #################################
 
-.. tags:: educator, how-to
+.. tags:: learner, how-to
 
 From the dashboard, access the courses that you are enrolled in and change
 course-specific settings. You can also unenroll from a course from the dashboard.
@@ -36,11 +36,11 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
 .. seealso::
  
 
- :ref:`What is the Course Dashboard` (concept)
+ :ref:`About the Course Dashboard` (concept)
 
- :ref:`Sharing Your Courses on Social Media` (how-to)
+ :ref:`Share Your Courses on Social Media` (how-to)
  
- :ref:`What is the User Profile Page` (concept)
+ :ref:`About the User Profile Page` (concept)
  
  :ref:`Add or Update a Limited Profile` (how-to)
  
