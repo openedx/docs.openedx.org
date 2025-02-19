@@ -139,18 +139,17 @@ Launch a Course
 
 .. _Manage a Course Run:
 
-Manage a Course Run
+Enroll Learners in a Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/data/view_course_information.rst
-   ../how-tos/student_management/manage_course_enrollments.rst
    ../references/student_management/enrollment_requirements.rst
-   ../references/data/staff_debug_info.rst
-   ../how-tos/advanced_features/create_content_for_specific_enrollment_tracks.rst
+   ../how-tos/student_management/manage_course_enrollments.rst
+   ../how-tos/data/view_course_enrollments.rst
+   ../how-tos/data/view_learners_not_yet_enrolled.rst
 
 
 Re-Run a Course

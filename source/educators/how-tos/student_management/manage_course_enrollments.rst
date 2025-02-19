@@ -6,7 +6,7 @@ Manage Course Enrollments
 
 .. tags:: educator, how-to
 
-You can enroll and unenroll learners from the instructor dashboard.
+You can enroll and unenroll learners from the instructor dashboard. See :ref:`Enrollment_Requirements` for more information.
 
 ***************************
 Enroll Learners in a Course
@@ -99,7 +99,9 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 
  :ref:`Enrollment_Requirements` (reference)
 
- :ref:`View_Course_Information` (how-to)
+ :ref:`View Course Enrollments` (how-to)
+
+ :ref:`View Learners Not Yet Enrolled` (how-to)
 
 **Maintenance chart**
 

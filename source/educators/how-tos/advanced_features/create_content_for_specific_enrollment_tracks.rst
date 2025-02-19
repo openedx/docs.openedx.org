@@ -1,5 +1,3 @@
-:orphan:
-
 .. _Enrollment Track Specific Courseware Overview:
 
 ######################################################
@@ -176,7 +174,6 @@ For details see :ref:`Testing Your Course Content` and :ref:`Roles for Viewing
 Course Content`.
 
 .. seealso::
- 
 
  :ref:`Offering Differentiated Content` (concept)
 

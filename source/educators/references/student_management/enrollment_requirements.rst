@@ -47,6 +47,10 @@ either before or after the learners register their user accounts.
 
  :ref:`Manage_Course_Enrollments` (how-to)
 
+ :ref:`View Course Enrollments` (how-to)
+
+ :ref:`View Learners Not Yet Enrolled` (how-to)
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
