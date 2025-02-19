@@ -4,6 +4,8 @@
 View As Learner
 ###############
 
+.. tags:: educator, how-to
+
 After you have published content, you should view it in the LMS, as a learner will.
 
 #. In the course outline, click :guilabel:`View Live`.
