@@ -1,10 +1,10 @@
-.. _Developing Course Subsections:
+.. _About Course Subsections:
 
 ###################################
-Developing Course Subsections
+About Course Subsections
 ###################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 To develop subsections in your course, you must first understand the
 following topics.
