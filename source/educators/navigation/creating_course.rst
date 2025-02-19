@@ -98,12 +98,12 @@ Set Up Course Pre-Requisites
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/set_up_prerequisites.rst
-   ../how-tos/set_up_course/require_entrance_exam.rst
    ../how-tos/set_up_course/set_prerequisites.rst
+   ../how-tos/set_up_course/require_entrance_exam.rst
+   
 
 Set Course License
 *******************************************************

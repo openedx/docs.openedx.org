@@ -1,7 +1,7 @@
-.. _Specify Prerequisite Courses and Exams:
+.. _Require a Prerequisite Course:
 
 #########################################
-Specifying Prerequisite Courses and Exams
+Require a Prerequisite Course
 #########################################
 
 .. tags:: educator, how-to
@@ -13,11 +13,7 @@ complete an entrance exam before they can access your course content.
 For more information about course prerequisite options, see :ref:`Set Course
 Prerequisites`.
 
-.. _Specify Prerequisite Courses:
-
-****************************
-Prerequisite Courses
-****************************
+.. youtube:: f7jYFW-iHFw
 
 To define one course as the prerequisite for another, you must be the course
 creator in both the current course and in the prerequisite course.
@@ -36,11 +32,10 @@ For more information about prerequisite courses, see :ref:`Prerequisite
 Courses`.
 
 .. seealso::
-  
+
+  :ref:`Set Course Prerequisites` (reference)
 
   :ref:`Require an Entrance Exam` (how-to)
-
-  :ref:`Set Up Course Prerequisites` (how-to)
 
 **Maintenance chart**
 
