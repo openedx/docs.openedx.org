@@ -161,7 +161,7 @@ Although learners cannot access any part of your course before the course
 start date, course team members who are enrolled in the course and who have
 the staff, admin, or beta tester role can see published content in the course
 before the course start date. For information about testing your course
-content before the course start date, see :ref:`Beta_Testing`.
+content before the course start date, see :ref:`About Course Beta Testing`.
 
 .. note::
   You can set a different advertised start date for your course. You might do

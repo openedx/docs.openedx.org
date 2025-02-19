@@ -114,7 +114,7 @@ subsection, follow these steps.
 
   .. note:: Prerequisite course subsection settings are not retained when
      you :ref:`Export a Course` and :ref:`Import a Course`, or
-     when you :ref:`re-run a course<Rerun a Course>`.
+     when you :ref:`re-run a course<Re Run a Course>`.
 
 .. seealso::
   

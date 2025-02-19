@@ -87,7 +87,7 @@ access**.
   
   :ref:`Guide to Course Team Roles` (reference)
 
-  :ref:`Add Beta Testers to a Course` (how-to)  
+  :ref:`Manage Course Beta Testing` (how-to)  
 
 
 **Maintenance chart**

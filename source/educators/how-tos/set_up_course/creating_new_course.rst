@@ -10,7 +10,7 @@ This topic describes how to use Studio to create and set up a course.
 
 To create and run a course, you can either create an entirely new course in
 Studio, or you can re-run an existing course. For more information about re-
-running a course, see :ref:`Rerun a Course <Rerun a Course>`.
+running a course, see :ref:`Re-Run a Course <Re Run a Course>`.
 
 You can also :ref:`export<Export a Course>` and :ref:`import<Import a Course>`
 courses as XML files. You can do this when you need to back up a course or edit
