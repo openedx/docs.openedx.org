@@ -78,18 +78,18 @@ Course Wiki
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/course_development/about_course_wiki.rst
-   ../how-tos/course_development/create_course_wiki.rst
-   ../how-tos/course_development/course_wiki_tasks.rst
+   ../concepts/communication/about_course_wiki.rst
+   ../how-tos/course_development/manage_course_wiki.rst
+   ../how-tos/course_development/contribute_course_wiki.rst
 
 Adding Live Sessions
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/add_course_live.rst
@@ -107,29 +107,21 @@ Learner View
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/sidebar_collapse_expand.rst
-
-Manage a Course Run
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../references/student_management/enrollment_requirements.rst
 
 Poll Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
+   ../how-tos/course_development/exercise_tools/enable_poll_tool.rst
+   ../how-tos/course_development/exercise_tools/add_poll.rst
    ../references/course_development/exercise_tools/poll_olx.rst
-   ../references/course_development/exercise_tools/enable_poll_OLX.rst
    ../how-tos/course_development/exercise_tools/create_poll_olx.rst
 
 

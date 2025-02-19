@@ -167,7 +167,7 @@ descriptions.
 
 
 .. note::
-  The visual editor is not available for :ref:`course handouts <Adding Course
+  The visual editor is not available for :ref:`course handouts <Add Course
   Updates and Handouts>`.
 
 .. seealso::

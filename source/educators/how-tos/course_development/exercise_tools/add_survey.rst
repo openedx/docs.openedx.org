@@ -21,7 +21,7 @@ questions.
 
 For a survey, you configure multiple question and multiple possible answers.
 The set of answers is used for each question in the survey. If you need to ask
-only one question, use the :ref:`Poll Tool`.
+only one question, use the Poll Tool. See :ref:`Enable the Poll Tool` and :ref:`Add Poll` for more information.
 
 The following example survey has three questions, each with the same three
 possible answers.

@@ -152,8 +152,8 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/ORA_Staff_Grading.rst
    /educators/how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
    /educators/how-tos/course_development/exercise_tools/create_periodic_table.rst
-   /educators/how-tos/course_development/exercise_tools/create_poll_olx.rst
-   /educators/references/course_development/exercise_tools/poll_tool.rst
+   /educators/how-tos/course_development/exercise_tools/enable_poll_tool.rst
+   /educators/how-tos/course_development/exercise_tools/add_poll.rst
    /educators/how-tos/course_development/exercise_tools/create_problem_in_latex.rst
    /educators/how-tos/course_development/exercise_tools/create_problem_with_hint.rst
    /educators/how-tos/course_development/exercise_tools/create_protein_builder.rst

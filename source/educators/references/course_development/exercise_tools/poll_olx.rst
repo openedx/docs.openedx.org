@@ -1,12 +1,14 @@
-.. _Poll Tool for OLX:
+.. _Guide to the Poll Tool via OLX:
 
-Poll Tool for OLX
-##################
+Guide to the Poll Tool via OLX
+###############################
 
 .. tags:: educator, reference
 
 You can run polls in your course so that your students can share opinions on
 different questions.
+
+To work with polls without OLX, see :ref:`Enable the Poll Tool` and :ref:`Add Poll`.
 
 .. image:: /_images/educator_references/PollExample.png
 
@@ -115,13 +117,11 @@ Example of poll with unable reset functionality
 .. seealso::
  
  
- :ref:`Create a Poll` (how to)
+ :ref:`Create a Poll via OLX` (how to)
  
- :ref:`Poll Tool` (reference)
+ :ref:`Enable the Poll Tool` (how-to)
 
- :ref:`Add Poll` (how to)
-
- :ref:`Enable Poll in OLX` (reference)
+ :ref:`Add Poll` (how-to)
 
 
 **Maintenance chart**

@@ -1,9 +1,9 @@
-.. _Poll Tool:
+.. _Enable the Poll Tool:
 
-Poll Tool
-###########
+Enable the Poll Tool
+########################
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
 
 This section describes how to include polls in your course.
 
@@ -50,10 +50,6 @@ quotation marks around the key value.) For more information, see
  
 
  :ref:`Add Poll` (how to)
-
- :ref:`Poll Tool for OLX` (reference)
-
- :ref:`Enable Poll in OLX` (reference)
 
 **Maintenance chart**
 

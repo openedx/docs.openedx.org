@@ -303,7 +303,7 @@ tools available in Studio. For more information, see
        information about each element when learners move the pointer over each
        element.
      - Not supported
-   * - :ref:`Poll Tool for OLX`
+   * - :ref:`Poll Tool via OLX <Guide to the Poll Tool via OLX>`
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
        course by using OLX (open learning XML). Support for this tool in Studio

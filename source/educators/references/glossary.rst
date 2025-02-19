@@ -217,8 +217,7 @@ C
 **Course Handouts**
 
   Course handouts are files you make available to learners on the **Home**
-  page. For more information, see :ref:`Adding Course
-  Updates and Handouts`.
+  page. For more information, see :ref:`Add Course Updates and Handouts`.
 
 **Course Mode**
 
