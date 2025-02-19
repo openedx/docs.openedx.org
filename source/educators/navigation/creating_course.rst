@@ -77,7 +77,7 @@ Add Course Team Members
 
    ../references/course_development/course_team_roles.rst
    ../how-tos/set_up_course/add_course_team_members.rst
-   ../how-tos/releasing-course/add_beta_testers.rst
+   ../how-tos/releasing-course/manage_beta_testing.rst
    
    
 
@@ -119,11 +119,11 @@ Beta Test a Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/releasing-course/beta_testing.rst
-   ../how-tos/releasing-course/add_beta_testers.rst
+   ../how-tos/releasing-course/manage_beta_testing.rst
 
 .. _Launch a Course:
 

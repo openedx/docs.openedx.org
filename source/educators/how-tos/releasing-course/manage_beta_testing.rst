@@ -1,10 +1,14 @@
-.. _Add Beta Testers to a Course:
+.. _Manage Course Beta Testing:
 
 ############################
-Add Beta Testers to a Course
+Manage Course Beta Testing
 ############################
 
 .. tags:: educator, how-to
+
+.. contents::
+ :local:
+ :depth: 2
 
 ********************************
 Define When the Beta Test Starts
@@ -24,9 +28,9 @@ information, see :ref:`How_Testers_See_Course`.
 
 .. _Add_Testers:
 
-===================
-Adding Beta Testers
-===================
+****************************************************
+Add Beta Testers
+****************************************************
 
 Before you can add beta testers:
 
@@ -50,11 +54,38 @@ When you add beta testers, note the following.
   testers in the course yourself, and you may want to send an email message to
   remind them when the test begins.
 
+===============================================
+Add or Remove Individual Beta Testers
+===============================================
+
+
+#. View the live version of the course.
+
+#. Select **Instructor**, and then select **Membership**.
+
+#. In the **Course Team Management** section, select **Beta Testers**.
+
+#. Under the list of users who currently have that role, enter the email address
+   or username of the person you want to add.
+
+#. Select **Add Beta Tester**.
+
+   The person who you added appears in the list of beta testers.
+
+
+.. note::  If the beta test starts before the **Enrollment Start Date** of your
+   course, you can also enroll the beta tester. See :ref:`Enrollment`.
+
+
+To remove the Beta Tester role from users individually, find the user in the
+list of beta testers, and then select **Revoke access** to the right of that
+user's email address.
+
 .. _Add_Testers_Bulk:
 
-*************************
-Add Multiple Beta Testers
-*************************
+=======================================
+Add or Remove Multiple Beta Testers
+=======================================
 
 If you have a number of beta testers that you want to add, you can use the
 "batch add" option to add them all at once, rather than individually. With this
@@ -89,35 +120,6 @@ testers**.
    not affected. The user's role as a beta tester is removed, but they remain
    enrolled in the course.
 
-
-*****************************
-Add Beta Testers Individually
-*****************************
-
-
-#. View the live version of the course.
-
-#. Select **Instructor**, and then select **Membership**.
-
-#. In the **Course Team Management** section, select **Beta Testers**.
-
-#. Under the list of users who currently have that role, enter the email address
-   or username of the person you want to add.
-
-#. Select **Add Beta Tester**.
-
-   The person who you added appears in the list of beta testers.
-
-
-.. note::  If the beta test starts before the **Enrollment Start Date** of your
-   course, you can also enroll the beta tester. See :ref:`Enrollment`.
-
-
-To remove the Beta Tester role from users individually, find the user in the
-list of beta testers, and then select **Revoke access** to the right of that
-user's email address.
-
-
 .. _Issue_Reporting_During_Course:
 
 ********************************
@@ -135,11 +137,9 @@ problems, questions, and issues can occur while a course is running.
 
 .. seealso::
  
- :ref:`Beta_Testing` (reference)
+ :ref:`About Course Beta Testing` (concept)
 
  :ref:`Guide to Course Team Roles` (reference)
-
- :ref:`Add Course Team Members` (how-to)
 
 
 **Maintenance chart**
