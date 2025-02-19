@@ -34,7 +34,7 @@ Bulk Emails
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/communication/bulk_email.rst

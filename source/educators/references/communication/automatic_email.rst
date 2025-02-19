@@ -189,9 +189,9 @@ The message also contains a View discussion option that takes the learner to the
 .. seealso::
  
 
- :ref:`Bulk Email` (reference)
+ :ref:`Guide to Bulk Email Messages` (reference)
 
- :ref:`Send_Bulk_Email` (how-to)
+ :ref:`Send an Email Message to Course Participants` (how-to)
 
  :ref:`Example Messages to Students` (reference)
 

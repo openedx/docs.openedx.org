@@ -37,7 +37,7 @@ Course Launch Checklist in Studio
 To help you communicate to the course team or to all course participants before
 the course launches and while it is running, you can send email messages from
 the LMS by selecting **Instructor** to access the instructor dashboard. For
-more information, see :ref:`Bulk Email`. The topic on bulk email also includes
+more information, see :ref:`Guide to Bulk Email Messages`. The topic on bulk email also includes
 a set of :ref:`example messages to learners<Example Messages to Students>` that
 you can use as guidelines when you write your own email messages.
 
@@ -77,7 +77,7 @@ your course starts follow.
 
 * Two months before the course start date, prepare and send a welcome email
   message to currently enrolled learners. See :ref:`Prelaunch Reminder` and
-  :ref:`Send_Bulk_Email`.
+  :ref:`Send an Email Message to Course Participants`.
 * Compose a welcome message and add it to the **Course** page. See
   :ref:`Add a Course Update`.
 * Verify that a syllabus and other references are available on the **Course
