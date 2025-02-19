@@ -1,8 +1,8 @@
-.. _Edit Your Course:
+.. _Edit Basic Course Details:
 
-#############
-Edit a Course
-#############
+#########################
+Edit Basic Course Details
+#########################
 
 .. tags:: educator, how-to
 
