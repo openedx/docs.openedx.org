@@ -46,8 +46,8 @@ Create a New Course
    :glob:
 
    ../references/course_content_development.rst
-   ../concepts/open_edx_platform/outline_studio_lms.rst
    ../how-tos/set_up_course/create_new_course.rst
+   ../concepts/open_edx_platform/about_course_outline.rst
    ../how-tos/set_up_course/manage_course_outline.rst
    ../how-tos/set_up_course/modify_outline_settings.rst
    ../how-tos/course_development/publish_from_outline.rst
@@ -135,7 +135,7 @@ Launch a Course
    ../concepts/releasing-course/course_launch_checklist.rst
 
 
-.. _Manage a Course Run:
+.. _Enroll Learners in a Course:
 
 Enroll Learners in a Course
 *******************************************************

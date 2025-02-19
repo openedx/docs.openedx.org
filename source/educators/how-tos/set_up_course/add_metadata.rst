@@ -22,39 +22,37 @@ Add Course Metadata
 .. seealso::
  
  
- :ref:`Getting Started with Course Content Development` (reference)
+ :ref:`Guide to Course Content Development` (reference)
+
+ :ref:`Create a New Course` (how-to)
  
- :ref:`Course Outline` (concept)
- 
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
- 
- :ref:`Create a Course` (how-to)
+ :ref:`About the Course Outline` (concept)
  
  :ref:`Edit the Course About Page` (how-to)
  
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+ :ref:`About the Course Outline` (reference)
  
- :ref:`Add Content in the Course Outline` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
+ :ref:`Manage Course Outline`  (how-to)
  
  :ref:`Modify Settings for Objects in the Course Outline` (reference)
  
  :ref:`Publish Content from the Course Outline` (reference)
  
- :ref:`Developing Course Sections` (reference)
+ :ref:`About Course Sections` (concept)
+
+ :ref:`About Course Subsections` (concept)
+
+ :ref:`About Course Units` (concept)
+
+ :ref:`Manage Course Sections` (how-to)
+
+ :ref:`Manage Course Subsections` (how-to)
+
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`View as Learner` (how-to)
  
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Section` (how-to)
- 
- :ref:`Create a Subsection` (how-to)
- 
- :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
- 
- :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
- 
- :ref:`Resources for Open edX` (reference)
+ :ref:`Resources for Open edX Course Teams` (reference)
 
 
 **Maintenance chart**

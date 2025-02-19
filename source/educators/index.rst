@@ -27,7 +27,7 @@ Open edX Educators
       | :ref:`Instructional Design Concepts`
       | :ref:`Nav Create a New Course`
       | :ref:`Plan a New Course`
-      | :ref:`Launch a Course`
+      | :ref:`Enroll Learners in a Course`
 
       .. button-ref:: navigation/creating_course
          :color: primary

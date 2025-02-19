@@ -40,43 +40,6 @@ Wikis and Web Sites
 The Open edX product team maintains public product roadmaps at this `public roadmap <https://github.com/orgs/openedx/projects/4>`_ and you can get involved with defining the roadmap by joining the `Product Working Group <https://openedx.atlassian.net/wiki/spaces/OEPM/overview>`_.
 
 
-.. seealso::
- 
-
- :ref:`Course Outline` (concept)
-
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
-
- :ref:`Quick Start Build a Course` (quick start)
-
- :ref:`Edit the Course About Page` (how-to)
-
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
-
- :ref:`Add Content in the Course Outline` (reference)
-
- :ref:`Developing Your Course Outline` (reference)
-
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
-
- :ref:`Publish Content from the Course Outline` (reference)
-
- :ref:`Developing Course Sections` (reference)
-
- :ref:`Developing Course Subsections` (reference)
-
- :ref:`Create a Section` (how-to)
-
- :ref:`Create a Subsection` (how-to)
-
- :ref:`Add Course Metadata` (how-to)
-
- :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
-
- :ref:`Hiding a Subsection from Learners  <Hide a Subsection from Students>` (how-to)
-
- :ref:`Resources for Open edX` (reference)
-
 
 **Maintenance chart**
 

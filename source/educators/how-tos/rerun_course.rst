@@ -37,7 +37,7 @@ To use the import and export options to re-run a course, follow these steps.
 
 #. :ref:`Export your course <Export a Course>`.
 
-#. In Studio, :ref:`create a new course <Creating a New Course>`.
+#. In Studio, :ref:`create a new course <Create a New Course>`.
 
    .. note::
      You must have course creation privileges to create a new course. If you do

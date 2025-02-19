@@ -23,15 +23,15 @@ Understanding Course Building Blocks
 
 Before you begin, you should understand the building blocks of courses built on the Open edX® platform.
 
-* :ref:`The course outline<Developing Your Course Outline>` is the container
+* :ref:`The course outline<About the Course Outline>` is the container
   for all of your course content. The outline contains one or more sections.
-* :ref:`Course sections<Developing Course Sections>` are at the top level of
+* :ref:`Course sections<About Course Sections>` are at the top level of
   your course and typically represent a time period. A section contains one or
   more subsections.
-* :ref:`Course subsections<Developing Course Subsections>` are parts of a
+* :ref:`Course subsections<About Course Subsections>` are parts of a
   section, and usually represent a topic or other organizing principle. A
   subsection contains one or more units.
-* :ref:`Course units <Developing Course Units>` are lessons in a subsection
+* :ref:`Course units <About Course Units>` are lessons in a subsection
   that learners view as single pages. A unit contains one or more components.
 * :ref:`Course components<Add a Component>` are objects within
   units that contain your actual course content.
@@ -45,9 +45,8 @@ Creating New Course Content
 Once you understand the way courses are structured on the Open edX® platform, you can start
 organizing your content and entering it into Studio.
 
-You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a
-Subsection>`, and :ref:`units<Create a Unit>` in the :ref:`course
-outline<Developing Your Course Outline>`.
+You create :ref:`sections<Manage Course Sections>`, :ref:`subsections<Manage Course Subsections>`, and :ref:`units<Manage Course Units>` in the :ref:`course
+outline<Manage Course Outline>`.
 
 For graded subsections, you also
 :ref:`set the assignment type and due date<Set the Assignment Type and Due Date
@@ -155,41 +154,30 @@ more information, see :ref:`Designing for Mobile`.
 
 
 .. seealso::
- 
- 
- :ref:`Course Outline` (concept)
- 
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
-  
- :ref:`Create a Course` (how-to)
- 
- :ref:`Edit the Course About Page` (how-to)
- 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
- 
- :ref:`Add Content in the Course Outline` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
- 
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- 
- :ref:`Publish Content from the Course Outline` (reference)
- 
- :ref:`Developing Course Sections` (reference)
- 
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Section` (how-to)
- 
- :ref:`Create a Subsection` (how-to)
- 
- :ref:`Hiding a Subsection from Learners  <Hide a Subsection from Students>` (how-to)
- 
- :ref:`Add Course Metadata` (how-to)
- 
- :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
- 
- :ref:`Resources for Open edX` (reference)  
+
+  :ref:`About the Course Outline` (concept)
+
+  :ref:`Create a New Course` (how-to)
+
+  :ref:`Manage Course Outline` (how-to)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
  
 
 **Maintenance chart**

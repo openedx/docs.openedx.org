@@ -1,8 +1,8 @@
-.. _Manage Sections:
+.. _Manage Course Sections:
 
-################
-Manage Sections
-################
+#########################
+Manage Course Sections
+#########################
 
 .. tags:: educator, how-to
 
@@ -18,7 +18,7 @@ Create a Section
 
 To create a new section, follow these steps.
 
-.. START CREATE A SECTION VIDEO
+.. START CREATE A SECTION
 
 #. Open the course outline in Studio.
 
@@ -32,7 +32,7 @@ To create a new section, follow these steps.
 
 #. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
 
-.. END CREATE A SECTION VIDEO
+.. END CREATE A SECTION
 
 If you do not change the :ref:`course start date<Set Start and End Dates>`
 default value, ``1/1/2030``, when you create a new section, its release date
@@ -173,41 +173,30 @@ To delete a section, follow these steps.
 
 
 .. seealso::
- 
- 
- :ref:`Getting Started with Course Content Development` (reference)
- 
- :ref:`Course Outline` (concept)
-  
- :ref:`Creating a New Course` (how-to)
- 
- :ref:`Create a Course in Studio <Creating a New Course>` (how-to)
- 
- :ref:`Edit the Course About Page` (how-to)
- 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
- 
- :ref:`Add Content in the Course Outline` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
- 
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- 
- :ref:`Publish Content from the Course Outline` (reference)
- 
- :ref:`Developing Course Sections` (reference)
- 
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Subsection` (how-to)
- 
- :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
- 
- :ref:`Add Course Metadata` (how-to)
- 
- :ref:`Resources for Open edX Course Teams` (reference)
- 
- :ref:`Resources for Open edX` (reference)
+
+  :ref:`Guide to Course Content Development` (reference)
+
+  :ref:`Create a New Course` (how-to)
+
+  :ref:`About the Course Outline` (concept)
+
+  :ref:`Manage Course Outline` (how-to)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
  
 
 **Maintenance chart**

@@ -53,46 +53,6 @@ Use a Section from a Course independently of the Course Outline
 
  :ref:`Add Content Experiments to Your Course` (how-to)
 
- :ref:`Course Outline` (concept)
-
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
-
- :ref:`Create a Course` (how-to)
-
- :ref:`Edit the Course About Page` (how-to)
-
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
-
- :ref:`Add Content in the Course Outline` (reference)
-
- :ref:`Developing Your Course Outline` (reference)
-
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
-
- :ref:`Publish Content from the Course Outline` (reference)
-
- :ref:`Developing Course Sections` (reference)
-
- :ref:`Developing Course Subsections` (reference)
-
- :ref:`Create a Section` (how-to)
-
- :ref:`Create a Subsection` (how-to)
-
- :ref:`hiding a subsection from learners <Hide a Subsection from Students>` (how-to)
-
- :ref:`Create a Section` (how-to)
-
- :ref:`Add Course Metadata` (how-to)
-
- :ref:`Resources for Open edX Course Teams` (reference)
- 
- :ref:`Resources for Open edX` (reference)
-
-
-
-
-
 
 **Maintenance chart**
 

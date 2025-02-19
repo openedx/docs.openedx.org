@@ -19,19 +19,17 @@ software.
 .. seealso::
  
  
- :ref:`Getting Started with Course Content Development` (reference)
+ :ref:`Guide to Course Content Development` (reference)
 
- :ref:`Course Outline` (concept)
+ :ref:`About the Course Outline` (concept)
 
- :ref:`Create a Course` (how-to)
+ :ref:`Create a New Course` (how-to)
 
  :ref:`Edit the Course About Page` (how-to)
 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+ :ref:`About the Course Outline` (reference)
 
- :ref:`Add Content in the Course Outline` (reference)
-
- :ref:`Developing Your Course Outline` (reference)
+ :ref:`Manage Course Outline`  (how-to)
 
 
 **Maintenance chart**

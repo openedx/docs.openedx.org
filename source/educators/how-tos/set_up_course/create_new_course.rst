@@ -16,8 +16,6 @@ You can also :ref:`export<Export a Course>` and :ref:`import<Import a Course>`
 courses as XML files. You can do this when you need to back up a course or edit
 the course in XML.
 
-.. _Create a New Course:
-
 .. START CREATE A NEW COURSE
 
 ***************
@@ -55,20 +53,33 @@ Create a Course
 
 .. seealso::
  
- 
- :ref:`Getting Started with Course Content Development` (reference)
+  :ref:`Edit the Course About Page` (how-to)
 
- :ref:`Course Outline` (concept)
+  :ref:`Guide to Course Content Development` (reference)
 
- :ref:`Create a Course` (how-to)
+  :ref:`About the Course Outline` (concept)
 
- :ref:`Edit the Course About Page` (how-to)
+  :ref:`Create a New Course` (how-to)
 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
+  :ref:`Manage Course Outline` (how-to)
 
- :ref:`Add Content in the Course Outline` (reference)
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
 
- :ref:`Developing Your Course Outline` (reference)
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
  
 
 

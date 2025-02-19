@@ -82,7 +82,7 @@ Tp specify a unit's access settings, follow these steps.
 
   :ref:`Hide a Unit from Students` (how-to)
 
-  :ref:`Create a Unit` (how-to)    
+  :ref:`Manage Course Units` (how-to)    
 
 **Maintenance chart**
 

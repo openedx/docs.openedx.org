@@ -859,8 +859,7 @@ S
   period or another organizing principle for course content. A section
   contains one or more subsections.
 
-  For more information, see :ref:`Developing Course
-  Sections`.
+  For more information, see :ref:`About Course Sections`.
 
 
 **Sequential**
@@ -925,8 +924,7 @@ S
   such as a lesson or another organizing principle. Subsections are defined
   inside sections and contain units.
 
-  For more information, see :ref:`Developing Course
-  Subsections`.
+  For more information, see :ref:`About Course Subsections`.
 
 
 .. _T:
@@ -987,7 +985,7 @@ U
   A unit is a division in the course outline that represents a lesson.
   Learners view all of the content in a unit on a single page.
 
-  For more information, see :ref:`Developing Course Units`.
+  For more information, see :ref:`About Course Units`.
 
 **Unit Navigation Bar**
 

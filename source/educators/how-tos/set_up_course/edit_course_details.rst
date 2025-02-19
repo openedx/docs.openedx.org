@@ -10,7 +10,7 @@ After you create a course, the course opens in Studio automatically and you can
 begin editing. Your next steps might include adding other :ref:`course team
 members<Add Course Team Members>`, setting the course :ref:`start and end
 dates<Set Course Schedule>`, or developing the :ref:`course
-outline<Developing Your Course Outline>`.
+outline<Manage Course Outline>`.
 
 When you return to Studio later, your **My Courses** dashboard page lists
 the courses that you created as well as any courses for which you have course team privileges.

@@ -6,8 +6,8 @@ The Unit Workflow
 
 .. tags:: educator, reference
 
-When you have set up the :ref:`section<Developing Course Sections>` and
-:ref:`subsection<Developing Course Subsections>` in the course outline, you then work with units.
+When you have set up the :ref:`section<About Course Sections>` and
+:ref:`subsection<About Course Subsections>` in the course outline, you then work with units.
 
 The typical workflow includes these steps.
 
@@ -207,7 +207,7 @@ appear for units in self-paced courses.
 
  :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
 
- :ref:`Developing Course Units` (reference)
+ :ref:`Manage Course Units` (how-to)
 
 
 

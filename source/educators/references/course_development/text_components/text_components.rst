@@ -16,7 +16,7 @@ with your Text components in a "visual" or WYSIWYG editor that hides the HTML
 code details, or in a "raw" editor that requires you to mark up your content.
 
 .. note::
- Review :ref:`Developing Your Course Outline` and :ref:`Best Practices for HTML
+ Review :ref:`About the Course Outline` and :ref:`Best Practices for HTML
  Markup` before you start working with Text components.
 
 

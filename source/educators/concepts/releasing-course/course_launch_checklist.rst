@@ -65,8 +65,7 @@ your course starts follow.
 
 **Review First Week Content**
 
-* Verify that all units are present and published. See :ref:`Developing Course
-  Units`.
+* Verify that all units are present and published. See :ref:`Manage Course Units`.
 * Verify that videos, transcripts, and download links are in place and
   working. See :ref:`Working with Video Components`.
 * Check all assignments for completeness and verify their due dates. See

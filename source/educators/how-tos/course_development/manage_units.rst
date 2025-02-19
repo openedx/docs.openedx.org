@@ -1,14 +1,16 @@
-.. _Create a Unit:
+.. _Manage Course Units:
 
-################
-Create a Unit
-################
+#########################
+Manage Course Units
+#########################
 
 .. tags:: educator, how-to
 
 .. contents::
   :local:
   :depth: 1
+
+.. _Create a Unit:
 
 ********************
 Create a Unit
@@ -21,7 +23,7 @@ Create a Unit
 You can create a unit from the outline or create a unit in the same subsection
 from the unit page.
 
-.. START HERE CREATE UNIT
+.. START CREATE A UNIT
 
 To create a unit from the outline, follow these steps.
 
@@ -39,7 +41,7 @@ To create a unit from the outline, follow these steps.
 
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
-.. END HERE CREATE UNIT
+.. END CREATE A UNIT
 
 To create a unit from a unit page, follow these steps.
 
@@ -265,39 +267,29 @@ Course Content`.
 
 .. seealso::
 
- :ref:`Course Outline` (concept)
- 
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
-  
- :ref:`Create a Course` (how-to)
- 
- :ref:`Edit the Course About Page` (how-to)
- 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
- 
- :ref:`Add Content in the Course Outline` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
- 
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- 
- :ref:`Publish Content from the Course Outline` (reference)
- 
- :ref:`Developing Course Sections` (reference)
- 
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Section` (how-to)
- 
- :ref:`Create a Subsection` (how-to)
- 
- :ref:`Hiding a Subsection from Learners  <Hide a Subsection from Students>` (how-to)
- 
- :ref:`Add Course Metadata` (how-to)
- 
- :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
- 
- :ref:`Resources for Open edX` (reference)  
+  :ref:`Guide to Course Content Development` (reference)
+
+  :ref:`Create a New Course` (how-to)
+
+  :ref:`About the Course Outline` (concept)
+
+  :ref:`Manage Course Outline` (how-to)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`View as Learner` (how-to)
 
 
 **Maintenance chart**

@@ -1,8 +1,8 @@
-.. _Manage Subsections:
+.. _Manage Course Subsections:
 
-###################
-Manage Subsections
-###################
+###########################
+Manage Course Subsections
+###########################
 
 .. tags:: educator, how-to
 
@@ -28,7 +28,7 @@ To create a new subsection, follow these steps.
 #. Enter the name for the new subsection. A descriptive name can help learners
    locate content in the course. It can also help you select content when you
    analyze performance in reporting and analytics systems.
-#. :ref:`Add units<Create a Unit>` to the new subsection as needed.
+#. :ref:`Add units<Manage Course Units>` to the new subsection as needed.
 
 .. END CREATE A SUBSECTION
 
@@ -244,39 +244,30 @@ To delete a subsection, follow these steps.
    subsection**.
 
 .. seealso::
- 
- 
- :ref:`Getting Started with Course Content Development` (reference)
- 
- :ref:`Course Outline` (concept)
- 
- :ref:`Creating a New Course` (how-to)
- 
- :ref:`Edit the Course About Page` (how-to)
- 
- :ref:`Understanding Your Course Outline` (reference)
 
- :ref:`Add Content in the Course Outline` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
- 
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- 
- :ref:`Publish Content from the Course Outline` (reference)
- 
- :ref:`Developing Course Sections` (reference)
- 
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Section` (how-to)
- 
- :ref:`Hide a Subsection from Students` (how-to)
- 
- :ref:`Add Course Metadata` (how-to)
+  :ref:`Guide to Course Content Development` (reference)
 
- :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
+  :ref:`Create a New Course` (how-to)
 
- :ref:`Resources for Open edX` (reference)   
+  :ref:`About the Course Outline` (concept)
+
+  :ref:`Manage Course Outline` (how-to)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
 
 **Maintenance chart**
 

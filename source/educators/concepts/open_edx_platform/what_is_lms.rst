@@ -8,7 +8,7 @@ What Is the LMS?
 The LMS is the web-based tool where you view the courses you have created in
 Studio.
 
-If you have not created a course, see :ref:`Creating a New Course<Creating a New Course>`.
+If you have not created a course, see :ref:`Creating a New Course<Create a New Course>`.
 
 #. In Studio, locate your course on your dashboard and open your course.
 
@@ -22,7 +22,7 @@ Studio.
 .. seealso::
  
 
- :ref:`Course Outline` (concept)
+ :ref:`About the Course Outline` (concept)
 
  :ref:`What is Studio` (concept)
 

@@ -23,7 +23,7 @@ time period in your course, a chapter, or another organizing principle. A sectio
 Viewing Sections in the Outline
 ********************************
 
-For more information see :ref:`Course Outline`
+For more information see :ref:`About the Course Outline`
 
 .. _Sections and Visibility to Learners:
 
@@ -106,41 +106,30 @@ regardless of the release date of the section or subsection.
 
 
 .. seealso::
- 
- 
- :ref:`Getting Started with Course Content Development` (reference)
- 
- :ref:`Course Outline` (concept)
- 
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
- 
- :ref:`Create a Course` (how-to)
- 
- :ref:`Edit the Course About Page` (how-to)
- 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
- 
- :ref:`Add Content in the Course Outline` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
- 
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- 
- :ref:`Publish Content from the Course Outline` (reference)
- 
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Section` (how-to)
- 
- :ref:`Create a Subsection` (how-to)
- 
- :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
- 
- :ref:`Add Course Metadata` (how-to)
- 
- :ref:`Resources for Open edX Course Teams <Resources for Open edX Course Teams>` (reference)
- 
- :ref:`Resources for Open edX` (reference)
+
+  :ref:`Guide to Course Content Development` (reference)
+
+  :ref:`Create a New Course` (how-to)
+
+  :ref:`About the Course Outline` (concept)
+
+  :ref:`Manage Course Outline` (how-to)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
 
 **Maintenance chart**
 

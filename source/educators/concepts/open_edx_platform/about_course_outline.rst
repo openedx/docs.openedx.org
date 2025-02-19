@@ -1,4 +1,4 @@
-.. _Course Outline:
+.. _About the Course Outline:
 
 #########################
 About the Course Outline
@@ -16,9 +16,9 @@ On the right is the view of the course outline in the LMS.
 
 The numbers represent the following levels.
 
-#. :ref:`Sections<Developing Course Sections>`
-#. :ref:`Subsections<Developing Course Subsections>`
-#. :ref:`Units<Developing Course Units>`
+#. :ref:`Sections<About Course Sections>`
+#. :ref:`Subsections<About Course Subsections>`
+#. :ref:`Units<About Course Units>`
 
 .. note::
     The **Course Outline** page does not show :ref:`components<What is a Component>`. You add or access components by selecting the units
@@ -44,13 +44,30 @@ For information about more specific learner data, including the learner's
 grades or answers for individual problems, see :ref:`Nav Learner Data`.
 
 .. seealso::
- 
- 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
 
- :ref:`Add Content in the Course Outline` (reference)
+  :ref:`Guide to Course Content Development` (reference)
 
- :ref:`Developing Your Course Outline` (reference)
+  :ref:`Create a New Course` (how-to)
+
+  :ref:`Manage Course Outline` (how-to)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
 
 
 **Maintenance chart**

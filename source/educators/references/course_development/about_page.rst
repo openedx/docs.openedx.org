@@ -371,7 +371,7 @@ a short About video. The course or program image also appears in places such as
 learner dashboards and search engine results.
 
 For information about how to add your course title and number, see
-:ref:`Creating a New Course <Creating a New Course>`.
+:ref:`Creating a New Course <Create a New Course>`.
 
 .. _Course and Program Image Guidelines:
 

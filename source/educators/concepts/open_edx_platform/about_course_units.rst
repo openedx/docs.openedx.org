@@ -21,7 +21,7 @@ You add content to units with :ref:`course components<What is a Component>`.
 What is a Unit?
 ****************************
 
-A unit is a part of a :ref:`subsection<Developing Course Subsections>` that
+A unit is a part of a :ref:`subsection<About Course Subsections>` that
 learners view as a single page.
 
 A unit contains one or more :ref:`components<Add a Component>`,
@@ -34,7 +34,7 @@ with Discussion Components>`, or a
 Viewing Subsections in the Outline
 ***********************************
 
-For more information see :ref:`Course Outline`
+For more information see :ref:`About the Course Outline`
 
 
 ****************************
@@ -84,8 +84,7 @@ following actions.
 
 .. seealso::
  
- 
- :ref:`Create a Unit` (how-to)
+ :ref:`Manage Course Units` (how-to)
 
  :ref:`Set Access Restrictions For a Unit` (how-to)
 
@@ -96,6 +95,30 @@ following actions.
  :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
 
  :ref:`The Unit Workflow` (reference)
+
+ :ref:`Guide to Course Content Development` (reference)
+
+ :ref:`Create a New Course` (how-to)
+
+ :ref:`About the Course Outline` (concept)
+
+ :ref:`Manage Course Outline` (how-to)
+
+ :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+ :ref:`Publish Content from the Course Outline` (how-to)
+
+ :ref:`About Course Sections` (concept)
+
+ :ref:`About Course Subsections` (concept)
+
+ :ref:`Manage Course Sections` (how-to)
+
+ :ref:`Manage Course Subsections` (how-to)
+
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`View as Learner` (how-to)
 
 
 

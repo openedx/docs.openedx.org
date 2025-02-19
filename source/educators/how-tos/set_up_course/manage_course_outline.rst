@@ -63,8 +63,7 @@ When you expand a subsection, all units in the subsection are visible.
  :alt: The outline showing an expanded subsection.
  :width: 500
 
-Select the name of a unit to open the :ref:`unit page<Developing Course
-Units>`.
+Select the name of a unit to open the :ref:`unit page<About Course Units>`.
 
 
 ********************************************
@@ -79,7 +78,7 @@ Add New Sections, Subsections, or Units
    **New Subsection**.
 
 * To add a unit to the end of a subsection, expand the subsection and select
-  **New Unit**. The :ref:`unit<Developing Course Units>` page opens.
+  **New Unit**. The :ref:`unit<About Course Units>` page opens.
 
 
 ***********************************************************
@@ -173,41 +172,30 @@ You are prompted to confirm the deletion.
  deleted.
 
 .. seealso::
- 
- 
- :ref:`Getting Started with Course Content Development` (reference)
- 
- :ref:`Course Outline` (concept)
-  
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
- 
- :ref:`Create a Course` (how-to)
- 
- :ref:`Edit the Course About Page` (how-to)
- 
- :ref:`Understanding a Course Outline <Understanding Your Course Outline>` (reference)
- 
- :ref:`Developing Your Course Outline` (reference)
- 
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
- 
- :ref:`Publish Content from the Course Outline` (reference)
- 
- :ref:`Developing Course Sections` (reference)
- 
- :ref:`Developing Course Subsections` (reference)
- 
- :ref:`Create a Section` (how-to)
- 
- :ref:`Create a Subsection` (how-to)
- 
- :ref:`Hiding a Subsection from Learners <Hide a Subsection from Students>` (how-to)
- 
- :ref:`Add Course Metadata` (how-to)
- 
- :ref:`Resources for Open edX Course Teams` (reference)
- 
- :ref:`Resources for Open edX` (reference)
+
+  :ref:`Guide to Course Content Development` (reference)
+
+  :ref:`Create a New Course` (how-to)
+
+  :ref:`About the Course Outline` (concept)
+
+  :ref:`Modify Settings for Objects in the Course Outline` (how-to)
+
+  :ref:`Publish Content from the Course Outline` (how-to)
+
+  :ref:`About Course Sections` (concept)
+
+  :ref:`About Course Subsections` (concept)
+
+  :ref:`About Course Units` (concept)
+
+  :ref:`Manage Course Sections` (how-to)
+
+  :ref:`Manage Course Subsections` (how-to)
+
+  :ref:`Manage Course Units` (how-to)
+
+  :ref:`View as Learner` (how-to)
  
 
 
