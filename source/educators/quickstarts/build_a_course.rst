@@ -34,8 +34,8 @@ Follow the steps below to build your first course. By the end, you will have a f
 *******************
 
 .. include:: ../how-tos/course_development/create_hide_delete_sections.rst
-  :start-after: .. START CREATE A SECTION VIDEO
-  :end-before: .. END CREATE A SECTION VIDEO
+  :start-after: .. START CREATE A SECTION
+  :end-before: .. END CREATE A SECTION
 
 
 4. Create a Subsection

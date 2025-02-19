@@ -1,10 +1,38 @@
-.. _Create a Section:
+.. _Manage Sections:
 
 ################
-Create a Section
+Manage Sections
 ################
 
 .. tags:: educator, how-to
+
+.. contents::
+  :local:
+  :depth: 1
+
+.. _Create a Section:
+
+********************************
+Create a Section
+********************************
+
+To create a new section, follow these steps.
+
+.. START CREATE A SECTION VIDEO
+
+#. Open the course outline in Studio.
+
+#. Click :guilabel:`New Section`.
+
+   A new section is created at the end of the course content, with the section name selected.
+
+#. Enter the name for the new section. A descriptive name can help learners
+   locate content in the course. It can also help you select content when
+   you analyze performance in reporting or analytics systems.
+
+#. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
+
+.. END CREATE A SECTION VIDEO
 
 If you do not change the :ref:`course start date<Set Start and End Dates>`
 default value, ``1/1/2030``, when you create a new section, its release date
@@ -16,20 +44,6 @@ default release date is the course start date.
 .. caution::
  If the course start date is in the past, newly created sections are
  immediately visible to learners.
-
-To create a new section, follow these steps.
-
-#. On the **Course Outline** page, select **New Section**. This option appears
-   at both the top of the page and below the current sections in the outline.
-
-   A new section appears at the end of the course content, with the section
-   name selected.
-
-#. Enter the name for the new section. A descriptive name can help learners
-   locate content in the course. It can also help you select content when
-   you analyze performance in reporting or analytics systems.
-
-#. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` as you create new sections.
@@ -157,40 +171,6 @@ To delete a section, follow these steps.
 2. When you receive the confirmation prompt, select **Yes, delete this
    section**.
 
-
-.. _Create a Section Video:
-
-######################
-Create a Section Video
-######################
-
-.. tags:: educator, how-to
-
-.. START CREATE A SECTION VIDEO
-
-#. Open the course outline in Studio.
-
-#. Click :guilabel:`New Section`.
-
-   A new section is created at the end of the course content, with the section name selected.
-
-#. Enter the name for the new section.
-
-#. Set the section release date.
-
-   #. Select the Configure icon in the section box.
-
-      The Settings dialog box opens.
-
-   #. Enter the release date and time for the section.
-
-#. To hide the section from learners, click the :guilabel:`Visibility` tab and check :guilabel:`Hide from Learners`.
-
-#. Click :guilabel:`Save`.
-
-You can then create Subsections within the section.
-
-.. END CREATE A SECTION VIDEO
 
 .. seealso::
  
