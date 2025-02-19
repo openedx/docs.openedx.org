@@ -100,7 +100,7 @@ team.
    their team discusssions without regard to the cohort they belong to.
 
 For information about course discussions and managing discussions, see
-:ref:`About Course Discussions` and :ref:`Guidance for Discussion Moderators`.
+:ref:`About Course Discussions` and :ref:`Best Practices for Moderating Course Discussions`.
 
 .. seealso::
  

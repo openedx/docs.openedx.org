@@ -54,7 +54,7 @@ following actions.
   See :ref:`Viewing the Posts of a Group`.
 
 All of the other options and features described in the :ref:`About Course Discussions`,
-:ref:`Moderating_discussions`, and :ref:`Best Practices for Configuring Course Discussions` sections continue
+:ref:`Best Practices for Moderating Course Discussions`, and :ref:`Best Practices for Configuring Course Discussions` sections continue
 to be available to the discussion moderation team.
 
 
@@ -221,12 +221,12 @@ you filter the list by a specific group, you see the same, complete set of
 posts that the members of that group see.
 
 For other options that you can use to view posts, see
-:ref:`Moderating_discussions`.
+:ref:`Best Practices for Moderating Course Discussions`.
 
 .. seealso::
  
 
- :ref:`Guidance for Discussion Moderators` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
  :ref:`Assigning_discussion_roles` (how-to)
 

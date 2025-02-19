@@ -72,11 +72,8 @@ author or have the Admin role.
    The person who you removed no longer appears in the list.
 
 .. seealso::
- 
 
- :ref:`Guidance for Discussion Moderators` (concept)
-
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
  :ref:`Administer Discussions` (how-to)
 

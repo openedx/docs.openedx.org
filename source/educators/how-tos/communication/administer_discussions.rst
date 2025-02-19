@@ -112,11 +112,8 @@ can unenroll that learner from the course. For more information, see
 enrollment period for the course is over.
 
 .. seealso::
- 
 
- :ref:`Guidance for Discussion Moderators` (concept)
-
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
  :ref:`Assigning_discussion_roles` (how-to)
 

@@ -112,7 +112,7 @@ your course starts follow.
   moderation privileges.
 * Define methods for managing discussions and guidance for discussion
   moderators, and distribute to the discussion team. See
-  :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.
+  :ref:`Best Practices for Moderating Course Discussions` and .
 
 **Maintenance chart**
 

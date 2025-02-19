@@ -16,7 +16,7 @@ course are known as content-specific discussion topics.
 For more information about discussions, see these topics.
 
 * :ref:`About Course Discussions`
-* :ref:`Guidance for Discussion Moderators`
+* :ref:`Best Practices for Moderating Course Discussions`
 * :ref:`Set up Discussions in Cohorted Courses`
 
 .. _Create a Discussion Component:
@@ -74,7 +74,7 @@ Create a Discussion Component
 
  :ref:`About Course Discussions` (concept)
  
- :ref:`Guidance for Discussion Moderators` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
  
  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 

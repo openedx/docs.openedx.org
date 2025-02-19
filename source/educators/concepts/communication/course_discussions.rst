@@ -21,7 +21,7 @@ only interact with posts from other learners in the same group,
 see :ref:`About Divided Discussions`.
 
 For information about running and moderating course discussions, see
-:ref:`Best Practices for Configuring Course Discussions` and :ref:`Moderating_discussions`.
+:ref:`Best Practices for Configuring Course Discussions` and :ref:`Best Practices for Moderating Course Discussions`.
 
 .. _Visibility of Discussion Topics:
 

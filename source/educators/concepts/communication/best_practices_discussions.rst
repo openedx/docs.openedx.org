@@ -13,7 +13,7 @@ pertinent threads. The information and suggested techniques in this section
 can help you to configure successful discussions in your course.
 
 For information about moderating discussions, see
-:ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.
+:ref:`Best Practices for Moderating Course Discussions`.
 
 .. contents::
  :local:

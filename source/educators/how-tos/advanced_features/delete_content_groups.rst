@@ -34,7 +34,7 @@ Delete Content Groups
 
  :ref:`Managing Divided Discussion Topics` (concept)
 
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
  :ref:`Setting Up Divided Discussions` (how-to)
 

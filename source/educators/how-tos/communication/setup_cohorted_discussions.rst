@@ -17,7 +17,7 @@ For information about divided discussions, see :ref:`About Divided
 Discussions`.
 
 For information about managing and moderating discussions, see :ref:`Managing
-Divided Discussion Topics` and :ref:`Moderating_discussions`.
+Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discussions`.
 
 
 .. seealso::
@@ -27,9 +27,8 @@ Divided Discussion Topics` and :ref:`Moderating_discussions`.
 
  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Guidance for Discussion Moderators` (concept)
 
  :ref:`Assigning_discussion_roles` (how-to)
 

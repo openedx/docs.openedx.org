@@ -75,9 +75,7 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 
  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Moderating_discussions` (concept)
-
- :ref:`Guidance for Discussion Moderators` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
  :ref:`Assigning_discussion_roles` (how-to)
 
