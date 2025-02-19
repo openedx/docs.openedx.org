@@ -40,7 +40,7 @@ reopen, follow these steps.
 
  :ref:`About Course Discussions` (concept)
 
- :ref:`Running_discussions` (concept)
+ :ref:`Best Practices for Configuring Course Discussions` (concept)
 
  :ref:`Configuring Open edX Discussions` (how-to)
 

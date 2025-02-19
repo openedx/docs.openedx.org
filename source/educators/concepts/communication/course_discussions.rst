@@ -1,9 +1,13 @@
-.. _Discussions:
+.. _About Course Discussions:
 
 About Course Discussions
 ###########################
 
 .. tags:: educator, concept
+
+.. contents::
+ :local:
+ :depth: 1
 
 Discussions in an Open edX course include both course-wide topics of interest to
 all learners (such as "Feedback", "Troubleshooting", or "Technical Help") as
@@ -17,7 +21,7 @@ only interact with posts from other learners in the same group,
 see :ref:`About Divided Discussions`.
 
 For information about running and moderating course discussions, see
-:ref:`Running_discussions` and :ref:`Moderating_discussions`.
+:ref:`Best Practices for Configuring Course Discussions` and :ref:`Moderating_discussions`.
 
 .. _Visibility of Discussion Topics:
 

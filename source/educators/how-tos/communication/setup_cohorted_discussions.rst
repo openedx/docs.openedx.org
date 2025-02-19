@@ -25,7 +25,7 @@ Divided Discussion Topics` and :ref:`Moderating_discussions`.
 
  :ref:`About Course Discussions` (concept)
 
- :ref:`Running_discussions` (concept)
+ :ref:`Best Practices for Configuring Course Discussions` (concept)
 
  :ref:`Moderating_discussions` (concept)
 

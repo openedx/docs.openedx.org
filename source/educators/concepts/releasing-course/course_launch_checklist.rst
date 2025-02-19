@@ -91,7 +91,7 @@ your course starts follow.
   across multiple threads. For example, you can start different threads for
   introductions based on geographical location, such as "Introduce Yourself:
   Europe", "Introduce Yourself: North America", etc. See
-  :ref:`Running_discussions`.
+  :ref:`Best Practices for Configuring Course Discussions`.
 * On the course start date, prepare and send a launch email message to
   currently enrolled learners. See :ref:`Launch Day Welcome`.
 

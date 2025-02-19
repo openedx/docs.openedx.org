@@ -54,7 +54,7 @@ following actions.
   See :ref:`Viewing the Posts of a Group`.
 
 All of the other options and features described in the :ref:`About Course Discussions`,
-:ref:`Moderating_discussions`, and :ref:`Running_discussions` sections continue
+:ref:`Moderating_discussions`, and :ref:`Best Practices for Configuring Course Discussions` sections continue
 to be available to the discussion moderation team.
 
 

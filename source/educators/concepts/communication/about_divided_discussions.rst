@@ -48,7 +48,7 @@ only see and respond to posts by other members of their own group (cohort). For 
 see :ref:`Assigning_discussion_roles`.
 
 For more information about managing discussions, see :ref:`Managing Divided
-Discussion Topics` and :ref:`Running_discussions`.
+Discussion Topics` and :ref:`Best Practices for Configuring Course Discussions`.
 
 .. note::
 
