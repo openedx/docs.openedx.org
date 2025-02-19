@@ -1,26 +1,75 @@
-.. _Add Content in the Course Outline:
+.. _Manage Course Outline:
 
-************************************************
-Add Content in the Course Outline
-************************************************
+####################################
+Manage Course Outline
+####################################
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
+
+.. contents::
+  :local:
+  :depth: 1
+
+Course authors build a course outline on the **Course Outline** page in Studio.
+Learners see this course outline in the LMS.
 
 You can add content in the course outline by creating a new section,
 subsection, or unit, or by duplicating an existing unit, subsection, or section.
 
-For information about adding content to a unit, see :ref:`What is a Component`.
+To view the course outline in the LMS, go to the **Course Outline** page in
+Studio, and then select either **Preview** or **View Live**.
 
-  .. note::
-    If you want to require an entrance exam for your course, you also create
-    the exam in the course outline. Before you can create an exam, you must
-    set your course to require an entrance exam in Studio. For more
-    information, see :ref:`Require an Entrance Exam<require an entrance exam>`.
+****************************
+Open the Course Outline
+****************************
+
+To view the course outline, follow these steps.
+
+#. Sign in to Studio.
+#. On the **My Courses** page, select the course you want to develop.
+
+   The course outline opens by default when you open a course.
+
+To open the outline when you are working in a course, from the **Content**
+menu, select **Outline**.
+
+The first time you view an outline for a course, it contains no content. The
+following message is visible.
+
+::
+
+  You haven't added any content to this course yet.
+
+To add content, you :ref:`create a section<Create a Section>`.
+
+.. _Navigating the Course Outline:
+
+*******************************
+Navigate the Course Outline
+*******************************
+
+In Studio, you navigate the course outline by expanding and collapsing sections
+and subsections. Use the "drop-down" icon next to a section or subsection name
+to expand or collapse its contents.
+
+.. image:: /_images/educator_references/outline-expand-collapse.png
+ :alt: The outline showing an expanded section and a collapsed subsection, with
+     expand and collapse icons circled.
+ :width: 500
+
+When you expand a subsection, all units in the subsection are visible.
+
+.. image:: /_images/educator_references/outline-with-units.png
+ :alt: The outline showing an expanded subsection.
+ :width: 500
+
+Select the name of a unit to open the :ref:`unit page<Developing Course
+Units>`.
 
 
-==========================================
-Adding New Sections, Subsections, or Units
-==========================================
+********************************************
+Add New Sections, Subsections, or Units
+********************************************
 
 * To add a section to the outline, select **New Section**. This option appears
   at both the top of the page and below the current sections in the outline.
@@ -33,9 +82,9 @@ Adding New Sections, Subsections, or Units
   **New Unit**. The :ref:`unit<Developing Course Units>` page opens.
 
 
-======================================================
-Duplicating Existing Sections, Subsections, or Units
-======================================================
+***********************************************************
+Duplicate Existing Sections, Subsections, or Units
+***********************************************************
 
 To add a section, subsection, or unit by duplicating content that already
 exists in the course outline, select the **Duplicate** icon for the item that
