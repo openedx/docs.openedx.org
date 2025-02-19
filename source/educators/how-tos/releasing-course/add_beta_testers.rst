@@ -135,8 +135,11 @@ problems, questions, and issues can occur while a course is running.
 
 .. seealso::
  
-
  :ref:`Beta_Testing` (reference)
+
+ :ref:`Guide to Course Team Roles` (reference)
+
+ :ref:`Add Course Team Members` (how-to)
 
 
 **Maintenance chart**

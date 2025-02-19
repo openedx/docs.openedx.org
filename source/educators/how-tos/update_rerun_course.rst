@@ -16,7 +16,7 @@ At a minimum, you must make the following changes to prepare the new
 course for release.
 
 * Add course team members, including discussion admins, moderators, and
-  community TAs. See :ref:`Add Course Staff` or :ref:`Course_Staffing`.
+  community TAs. See :ref:`Add Course Team Members`.
 
 * Update course-wide dates, including course and enrollment start and end
   dates. See :ref:`Set Course Schedule`.

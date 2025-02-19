@@ -106,7 +106,7 @@ your course starts follow.
 * Verify that all course contributors know how to record their work, report
   issues, and collaborate on tasks.
 * Verify that the people who will be Admins or Staff for your course
-  have the correct role assignments in the LMS. See :ref:`Course_Staffing`.
+  have the correct role assignments in the LMS. See :ref:`Guide to Course Team Roles`.
 * Verify that the people you have given the Discussion Admin, Discussion
   Moderator, and Discussion Community TA roles have registered and activated
   their user accounts and enrolled in the course. See

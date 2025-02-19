@@ -67,16 +67,15 @@ Create a New Course
 
 .. _Nav Add Course Staff:
 
-Add Course Staff
+Add Course Team Members
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../references/course_development/course_staff.rst
-   ../how-tos/set_up_course/add_course_staff.rst
-   ../how-tos/add_course_creators.rst
+   ../references/course_development/course_team_roles.rst
+   ../how-tos/set_up_course/add_course_team_members.rst
    ../how-tos/releasing-course/add_beta_testers.rst
    
 

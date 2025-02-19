@@ -108,7 +108,7 @@ Staff role can activate the certificate.
 To activate a certificate, follow these steps.
 
 #. Make sure that you have the Admin or Staff role for the course. For more
-   information, see :ref:`Course_Staffing <Course_Staffing>`.
+   information, see :ref:`Guide to Course Team Roles`.
 
 #. In Studio, on the **Settings** menu, select **Certificates**.
 
@@ -137,7 +137,7 @@ To deactivate a certificate, follow these steps.
   certificate.
 
 #. Make sure that you have the Admin or Staff role for the course. For more
-   information, see :ref:`Course_Staffing <Course_Staffing>`.
+   information, see :ref:`Guide to Course Team Roles`.
 
 #. In Studio, on the **Settings** menu, select **Certificates**.
 
