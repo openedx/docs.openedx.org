@@ -16,10 +16,10 @@ Course Discussions
 
    ../concepts/communication/course_discussions.rst
    ../concepts/communication/best_practices_configuring_discussions.rst
-   ../concepts/communication/best_practices_moderating_discussions.rst
-   ../how-tos/communication/assign_discussion_roles.rst
    ../how-tos/communication/configure_discussions.rst
    ../how-tos/course_development/configure_discussion_legacy.rst
+   ../concepts/communication/best_practices_moderating_discussions.rst
+   ../how-tos/communication/assign_discussion_roles.rst
    ../how-tos/communication/moderate_discussions.rst
    ../how-tos/toggle_anonymous_discussions.rst
    ../references/communication/learner_view_discussion.rst

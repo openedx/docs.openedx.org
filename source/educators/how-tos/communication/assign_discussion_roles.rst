@@ -73,9 +73,29 @@ author or have the Admin role.
 
 .. seealso::
 
- :ref:`Best Practices for Moderating Course Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Moderate Discussions` (how-to)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
+
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`About Divided Discussions` (concept)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 
 

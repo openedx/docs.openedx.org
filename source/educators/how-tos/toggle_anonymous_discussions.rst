@@ -71,33 +71,30 @@ Toggle "Allow Anonymous Discussion Posts to Peers"
 2. Set "Allow Anonymous Discussion Posts to Peers" to true/false to enable/disable.
 
 .. seealso::
- 
 
- :ref:`About Course Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Best Practices for Configuring Course Discussions` (concept)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Best Practices for Moderating Course Discussions` (concept)
+  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Assign discussion roles` (how-to)
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
 
- :ref:`Configure Open edX Discussions` (how-to)
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Configure Open edX Discussions Legacy` (how-to)
+  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Moderate Discussions` (how-to)
+  :ref:`Moderate Discussions` (how-to)
 
- :ref:`Closing Discussions` (how-to)
+  :ref:`Learner View of the Discussion` (reference)
 
- :ref:` Setting up Discussions in Courses with Cohorts` (how-to)
+  :ref:`About Divided Discussions` (concept)
 
- :ref:`Learner View of the Discussion` (reference)
+  :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`About Divided Discussions` (concept)
+  :ref:`Set Up Divided Discussions` (how-to)
 
- :ref:`Set Up Divided Discussions` (how-to)
-
- :ref:`Guide to Managing Divided Discussions` (reference)
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
  
 
 

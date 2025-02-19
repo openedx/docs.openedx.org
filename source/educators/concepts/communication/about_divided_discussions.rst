@@ -62,9 +62,30 @@ For more information about managing discussions, see :ref:`Guide to Managing Div
   see :ref:`Set Up Divided Discussions`.
 
 .. seealso::
- 
 
- :ref:`Set Up Divided Discussions` (how-to)
+  :ref:`About Course Discussions` (concept)
+
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
+
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
   
 
