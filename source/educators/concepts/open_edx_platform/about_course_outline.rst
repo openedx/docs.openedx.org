@@ -1,7 +1,8 @@
 .. _Course Outline:
 
-Course Outline
-##############
+#########################
+About the Course Outline
+#########################
 
 .. tags:: educator, concept
 
