@@ -1,10 +1,24 @@
+.. _Edit the Course About Page:
+
+#############################
+Edit the Course About Page
+#############################
+
+.. tags:: educator, how-to 
+
+The course About page, sometimes called the course summary page, provides
+information about your course to learners. Learners can see the About page
+before they enroll in the course. For more information, see :ref:`Guide to Course About Page`.
+
 .. _Describe Your Course:
 
-####################
+**********************
 Describe Your Course
-####################
+**********************
 
 .. tags:: educator, how-to
+
+.. youtube:: ruXRjT176Cs
 
 Learners see a description of your course on the course About page, under the
 heading "About this course". The course description contains the following
