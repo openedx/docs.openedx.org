@@ -1,7 +1,7 @@
-.. _Setting Up Divided Discussions:
+.. _Set Up Divided Discussions:
 
 ##############################
-Setting Up Divided Discussions
+Set Up Divided Discussions
 ##############################
 
 .. tags:: educator, how-to

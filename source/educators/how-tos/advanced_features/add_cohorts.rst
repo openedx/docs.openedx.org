@@ -80,7 +80,7 @@ learner, review the learner profile information for your course. See
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
 **Maintenance chart**
 

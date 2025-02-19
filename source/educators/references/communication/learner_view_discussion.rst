@@ -1,4 +1,4 @@
-.. _A Students View of the Discussion:
+.. _Learner View of the Discussion:
 
 A Learner's View of the Discussion
 ###################################
@@ -37,7 +37,6 @@ discussion topics.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
-
  :ref:`Managing Divided Discussion Topics` (concept)
 
  :ref:`About Divided Discussions` (concept)
@@ -52,7 +51,7 @@ discussion topics.
 
  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
  :ref:`Configure Open edX Discussions - Legacy` (how-to)
 

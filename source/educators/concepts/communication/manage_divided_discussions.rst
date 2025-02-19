@@ -14,7 +14,7 @@ Discussions`.
 .. note::
   You must set up divided discussions before your course starts. You cannot
   divide discussions after the course start date. For more information, see
-  :ref:`Setting Up Divided Discussions`.
+  :ref:`Set Up Divided Discussions`.
 
 .. contents::
   :local:

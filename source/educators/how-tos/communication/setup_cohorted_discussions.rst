@@ -42,11 +42,11 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Moderate Discussions` (how-to)
 
- :ref:`A Students View of the Discussion` (reference)
+ :ref:`Learner View of the Discussion` (reference)
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
  :ref:`Managing Divided Discussion Topics` (concept)
  

@@ -181,7 +181,7 @@ consequences of these actions.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
 **Maintenance chart**
 

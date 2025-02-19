@@ -57,7 +57,7 @@ Cohort Groups by uploading CSV>` in a .csv file.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
 **Maintenance chart**
 

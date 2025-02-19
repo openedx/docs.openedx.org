@@ -91,11 +91,11 @@ Toggle "Allow Anonymous Discussion Posts to Peers"
 
  :ref:` Setting up Discussions in Courses with Cohorts` (how-to)
 
- :ref:`A Students View of the Discussion` (reference)
+ :ref:`Learner View of the Discussion` (reference)
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
  :ref:`Managing Divided Discussion Topics` (concept)
  

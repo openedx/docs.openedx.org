@@ -20,17 +20,14 @@ Course Discussions
    ../how-tos/communication/assign_discussion_roles.rst
    ../how-tos/communication/configure_discussions.rst
    ../how-tos/course_development/configure_discussion_legacy.rst
-
-   
-   
-   
-   ../how-tos/communication/administer_discussions.rst
-   ../how-tos/communication/closing_discussions.rst
-   ../how-tos/allow_anonymous_discussions.rst
+   ../how-tos/communication/moderate_discussions.rst
+   ../how-tos/toggle_anonymous_discussions.rst
    ../references/communication/learner_view_discussion.rst
    ../concepts/communication/about_divided_discussions.rst
-   ../how-tos/communication/setting_up_divided_discussions.rst
+   ../how-tos/communication/setup_divided_discussions.rst
    ../how-tos/communication/setup_cohorted_discussions.rst
+   
+   
    ../concepts/communication/manage_divided_discussions.rst
 
 

@@ -55,7 +55,7 @@ content, see :ref:`Cohorted Courseware Example`.
 
  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
  :ref:`Create Cohort Specific Course Content` (how-to)
 

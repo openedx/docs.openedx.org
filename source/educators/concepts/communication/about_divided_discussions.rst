@@ -1,6 +1,6 @@
 .. _About Divided Discussions:
 
-About Divided Discussion Topics
+About Divided Discussions
 ###################################
 
 .. tags:: educator, concept
@@ -16,6 +16,8 @@ For overview information about discussions in a course, see :ref:`About Course D
 
 For more information about creating differentiated course content for learners
 in different groups (cohorts), see :ref:`Offering Differentiated Content`.
+
+For information about Setting Up Divided Discussions, see :ref:`Set Up Divided Discussions`.
 
 
 What Are Divided Discussions?
@@ -58,12 +60,12 @@ Discussion Topics` and :ref:`Best Practices for Configuring Course Discussions`.
   each component's access settings to restrict access to each discussion
   component to a specific content group. You can then assign these content
   groups to learner groups (cohorts). For more information,
-  see :ref:`Setting Up Divided Discussions`.
+  see :ref:`Set Up Divided Discussions`.
 
 .. seealso::
  
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
   
 
