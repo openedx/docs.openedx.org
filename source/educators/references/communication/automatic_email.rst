@@ -1,13 +1,15 @@
-.. _Automatic Email Messages:
+.. _Guide to Automatic Email Messages:
 
-Automatic Email Messages
-########################
+Guide to Automatic Email Messages
+####################################
 
 .. tags:: educator, reference
 
 .. Note: Any update to the **discussion notification** information should also
 .. be made to the manage_live_course/automatic_email.rst file in the Open edX
 .. course authors guide.
+
+.. Note:: This functionality is only believed to apply to the edx.org platform. An `issue <https://github.com/openedx/docs.openedx.org/issues/835>`_ is being tracked to determine this. 
 
 To help learners become and remain engaged in a course, the Open edX instance sends several types
 of automatic email messages.
