@@ -49,7 +49,7 @@ the steps below.
    course, be aware that learners will be affected by your changes.
 
 1. Navigate to Open edX discussion provider configuration page
-(see :ref:`Configuring Open edX Discussions`).
+(see :ref:`Configure Open edX Discussions`).
 
 2. Turn on the toggle for **Divide discussions by cohort** to divide all
    content-specific discussion topics by cohort.
@@ -88,7 +88,7 @@ course can see and respond to posts from all other learners.
 To specify that one or more course-wide discussion topics are divided,
 follow these steps.
 
-1. Navigate to Open edx discussion provider configuration page (see :ref:`Configuring Open edX Discussions`).
+1. Navigate to Open edx discussion provider configuration page (see :ref:`Configure Open edX Discussions`).
 
 2. Turn on the toggle for **Divide discussions by cohort** to divide all
    content-specific discussion topics by cohort.

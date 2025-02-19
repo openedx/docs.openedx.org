@@ -192,7 +192,7 @@ units and all course-wide topics are affected.
 
  :ref:`About Course Discussions` (concept)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+ :ref:`Configure Open edX Discussions` (how-to)
 
  :ref:`Closing Discussions` (how-to)
 

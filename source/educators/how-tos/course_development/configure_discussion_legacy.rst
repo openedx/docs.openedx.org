@@ -1,9 +1,11 @@
-.. _Working with Discussion Components:
+.. _Configure Open edX Discussions Legacy:
 
-Working with Discussion Components
+Configure Open edX Discussions - Legacy
 ###################################
 
 .. tags:: educator, how-to
+
+.. note:: This is the legacy way to create a discussion component. View the latest way to create a discussion component in :ref:`Configure Open edX Discussions`.
 
 You can add discussion components to a unit to pose questions about other
 components, such as videos or text, in the unit. A discussion component gives

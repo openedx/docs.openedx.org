@@ -32,9 +32,9 @@ Divided Discussion Topics` and :ref:`Best Practices for Moderating Course Discus
 
  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+ :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Working with Discussion Components` (how-to)
+ :ref:`Configure Open edX Discussions - Legacy` (how-to)
 
  :ref:`Closing Discussions` (how-to)
 

@@ -72,7 +72,7 @@ component.
 For more information, see the section for the specific component type that you
 want.
 
-- :ref:`Working with Discussion Components`
+- :ref:`Configure Open edX Discussions - Legacy`
 - :ref:`Working with Text Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
@@ -153,7 +153,7 @@ The following example shows the learner view of the unit described above.
 
  :ref:`Unit States and Visibility to Students` (reference)
 
- :ref:`Working with Discussion Components` (reference)
+ :ref:`Configure Open edX Discussions - Legacy` (reference)
  
  :ref:`Working with Text Components` (reference)
  

@@ -42,7 +42,7 @@ reopen, follow these steps.
 
  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+ :ref:`Configure Open edX Discussions` (how-to)
 
 **Maintenance chart**
 

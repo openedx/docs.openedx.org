@@ -107,7 +107,7 @@ topics, see :ref:`Visibility of Discussion Topics`.
 .. seealso::
  
 
- :ref:`Configuring Open edX Discussions` (how-to)
+ :ref:`Configure Open edX Discussions` (how-to)
 
 
 **Maintenance chart**

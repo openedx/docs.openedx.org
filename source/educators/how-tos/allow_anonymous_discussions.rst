@@ -79,9 +79,9 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 
  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+ :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Working with Discussion Components` (how-to)
+ :ref:`Configure Open edX Discussions - Legacy` (how-to)
 
  :ref:`Administer Discussions` (how-to)
 

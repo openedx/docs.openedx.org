@@ -17,10 +17,13 @@ Course Discussions
    ../concepts/communication/course_discussions.rst
    ../concepts/communication/best_practices_configuring_discussions.rst
    ../concepts/communication/best_practices_moderating_discussions.rst
+   ../how-tos/communication/assign_discussion_roles.rst
+   ../how-tos/communication/configure_discussions.rst
+   ../how-tos/course_development/configure_discussion_legacy.rst
 
-   ../how-tos/communication/Assign discussion roles.rst
-   ../how-tos/communication/configure-discussions.rst
-   ../how-tos/course_development/create_discussion.rst
+   
+   
+   
    ../how-tos/communication/administer_discussions.rst
    ../how-tos/communication/closing_discussions.rst
    ../how-tos/allow_anonymous_discussions.rst
