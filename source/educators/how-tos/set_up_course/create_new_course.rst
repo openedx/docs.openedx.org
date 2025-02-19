@@ -1,10 +1,28 @@
-.. _Create a Course:
+.. _Create a New Course:
 
-###############
+###############################
+Create a New Course in Studio
+###############################
+
+.. tags:: educator, how-to
+
+This topic describes how to use Studio to create and set up a course.
+
+To create and run a course, you can either create an entirely new course in
+Studio, or you can re-run an existing course. For more information about re-
+running a course, see :ref:`Re-Run a Course <Re Run a Course>`.
+
+You can also :ref:`export<Export a Course>` and :ref:`import<Import a Course>`
+courses as XML files. You can do this when you need to back up a course or edit
+the course in XML.
+
+.. _Create a New Course:
+
+.. START CREATE A NEW COURSE
+
+***************
 Create a Course
-###############
-
-.. tags:: educator, quickstart
+***************
 
 .. thumbnail:: /_images/Educators_create_course.png
 
@@ -33,17 +51,16 @@ Create a Course
 
 #. Click :guilabel:`Create`.
 
-You are then taken to the empty Outline page in Studio.
-
+.. END CREATE A NEW COURSE
 
 .. seealso::
  
+ 
+ :ref:`Getting Started with Course Content Development` (reference)
 
  :ref:`Course Outline` (concept)
 
- :ref:`Creating a New Course in Studio <Creating a New Course>` (how-to)
-
- :ref:`hiding a subsection from learners <Hide a Subsection from Students>` (how-to)
+ :ref:`Create a Course` (how-to)
 
  :ref:`Edit the Course About Page` (how-to)
 
@@ -52,29 +69,7 @@ You are then taken to the empty Outline page in Studio.
  :ref:`Add Content in the Course Outline` (reference)
 
  :ref:`Developing Your Course Outline` (reference)
-
- :ref:`Modify Settings for Objects in the Course Outline` (reference)
-
- :ref:`Publish Content from the Course Outline` (reference)
-
- :ref:`Developing Course Sections` (reference)
-
- :ref:`Developing Course Subsections` (reference)
-
- :ref:`Create a Section` (how-to)
-
- :ref:`Create a Subsection` (how-to)
-
- :ref:`Create a Section` (how-to)
-
- :ref:`Add Course Metadata` (how-to)
-
- :ref:`Use a Section from a Course independently of the Course Outline` (how-to)
-
- :ref:`Resources for Open edX Course Teams` (reference)
-
- :ref:`Resources for Open edX` (reference)
-
+ 
 
 
 **Maintenance chart**

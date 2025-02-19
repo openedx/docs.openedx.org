@@ -19,7 +19,9 @@ Follow the steps below to build your first course. By the end, you will have a f
 1. Create a Course in Studio
 ****************************
 
-.. include:: ../how-tos/reusable_content/create_course.txt
+.. include:: ../how-tos/set_up_course/create_new_course.rst
+  :start-after: .. START CREATE A NEW COURSE
+  :end-before: .. END CREATE A NEW COURSE
 
 
 2. Schedule a Course
