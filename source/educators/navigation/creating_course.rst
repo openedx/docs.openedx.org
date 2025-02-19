@@ -28,11 +28,13 @@ Plan a New Course
    :glob:
 
    ../references/course_development/basic_course_details.rst
+   ../how-tos/set_up_course/create_new_course.rst
    ../how-tos/set_up_course/edit_course_details.rst
    ../references/course_development/about_page.rst
    ../how-tos/set_up_course/edit_about_page.rst
    ../how-tos/course_development/set_course_pacing.rst
    ../how-tos/set_up_course/set_course_schedule.rst
+   ../how-tos/set_up_course/add_metadata.rst
    
 .. _Nav Create a New Course:
 
@@ -40,31 +42,27 @@ Create a New Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/workflow.rst
+   ../references/course_content_development.rst
    ../concepts/open_edx_platform/outline_studio_lms.rst
-   ../how-tos/set_up_course/creating_new_course.rst
-   ../how-tos/create_course.rst
-   ../references/course_development/understanding_course_outline.rst
-   ../references/course_development/add_edit_in_outline.rst
-   ../references/course_development/course_outline.rst
-   ../references/course_development/modify_outline_settings.rst
-   ../references/course_development/publish_from_outline.rst
-   ../references/course_development/develop_course_sections.rst
-   ../references/course_development/course_subsections.rst
-   ../how-tos/course_development/create_edit_publish_subsections.rst
-   ../how-tos/course_development/hide_subsections.rst
-   ../how-tos/course_development/create_hide_delete_sections.rst
-   ../how-tos/course_development/exercise_tools/adding_text.rst
-   ../how-tos/publish_units.rst
+   ../how-tos/set_up_course/create_new_course.rst
+   ../how-tos/set_up_course/manage_course_outline.rst
+   ../how-tos/set_up_course/modify_outline_settings.rst
+   ../how-tos/course_development/publish_from_outline.rst
+   ../concepts/open_edx_platform/about_course_sections.rst
+   ../concepts/open_edx_platform/about_course_subsections.rst
+   ../concepts/open_edx_platform/about_course_units.rst
+   ../how-tos/course_development/manage_sections.rst
+   ../how-tos/course_development/manage_subsections.rst
+   ../how-tos/course_development/manage_units.rst
    ../how-tos/view_as_learner.rst
-   ../how-tos/set_up_course/add_metadata.rst
-   ../how-tos/use_section_independently_of_course_outline.rst
+   ../how-tos/course_development/exercise_tools/add_text.rst
+   ../how-tos/course_development/add_video_to_course.rst
    ../how-tos/add_multiple_choice.rst
    ../references/resources_for_course_teams.rst
-   ../references/resources_for_open_edx.rst
+   
 
 .. _Nav Add Course Staff:
 
