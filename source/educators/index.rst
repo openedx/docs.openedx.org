@@ -193,23 +193,6 @@ Open edX Educators
 
          See All
 
-   .. grid-item-card:: Other
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-      :columns: 12
-
-      | :ref:`The Open edX Platform`
-      | :ref:`Export Import Courses`
-      | :ref:`Explore Your Dashboard and Profile`
-      | :ref:`Educators Glossary`
-
-      .. button-ref:: navigation/other
-         :color: primary
-         :outline:
-         :expand:
-
-         See All
-
 .. toctree::
    :maxdepth: 2
 
@@ -221,4 +204,3 @@ Open edX Educators
    navigation/data_analytics
    navigation/learner_engagement_communication
    navigation/olx
-   navigation/other
