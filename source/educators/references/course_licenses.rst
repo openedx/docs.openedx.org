@@ -1,8 +1,8 @@
-.. _Licensing a Course:
+.. _Guide to Course Licenses:
 
-################
-Course Licensing
-################
+#########################
+Guide to Course Licenses
+#########################
 
 .. tags:: educator, reference
 
@@ -15,7 +15,7 @@ Course Content Licensing`.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 .. _License Options:
 
@@ -31,9 +31,9 @@ of the following license options.
 
 .. _All Rights Reserved License:
 
-*******************
-All Rights Reserved
-*******************
+========================================
+All Rights Reserved License
+========================================
 
 All Rights Reserved indicates to learners that you own the copyright but
 reserve all rights for sharing copies of course content or videos. Learners
@@ -42,9 +42,9 @@ Reserved licenses.
 
 .. _Creative Commons License:
 
-************************
+========================================
 Creative Commons License
-************************
+========================================
 
 The Creative Commons license indicates to learners that you own the copyright
 but are granting certain permissions for reuse, depending on the license

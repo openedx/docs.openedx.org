@@ -109,10 +109,10 @@ Set Course License
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/licensing_course.rst
+   ../references/course_licenses.rst
    ../how-tos/set_licensing.rst
 
 Beta Test a Course
