@@ -10,6 +10,7 @@ Open edX Learner's Guide
 
    SFD_introduction
    SFD_dashboard_profile_SectionHead
+   sidebar_view_course_section
    OpenSFD_enrolling
    SFD_prerequisites
    SFD_content_availability
