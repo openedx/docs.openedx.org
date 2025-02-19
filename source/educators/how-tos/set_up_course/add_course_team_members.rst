@@ -1,15 +1,22 @@
-.. _Add Course Staff:
+.. _Add Course Team Members:
 
-************************
+###########################
 Add Course Team Members
-************************
+###########################
 
+You can add course staff members from Studio. You can add course staff members, limited staff, admins, beta testers, and discussion moderators from the LMS Instructor Dashboard.
+
+*****************************
+Add Course Staff from Studio
+*****************************
 .. tags:: educator, how-to
+
+.. youtube:: IwuGccK49m8
 
 Course team members are users who help you build your course. To add someone
 to the course team, you must meet these prerequisites.
 
-* You must have the Admin role in the course.
+* You must have the Admin role in the course. When you create a new course in Studio, you are automatically an Admin in the course, meaning you can create and add course creators, in addition to being able to create and manage course content.
 
 * The team member that you want to add must register a user account and
   activate the account.
@@ -29,6 +36,7 @@ To add a course team member, follow these steps.
 #. In Studio, from the **Settings** menu, select **Course Team**.
 #. Select **Add a New Team Member**.
 #. Enter the new team member's email address, then select **ADD USER**.
+#. You can optionally upgrade the user to an Admin role. Admins can add other users to the course team.
 
 The new team member can now work on the course in Studio.
 
@@ -38,15 +46,16 @@ The new team member can now work on the course in Studio.
   discussion roles. For more information, see
   :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
 
-You can also assign privileged roles to users when you work in the LMS by
-selecting **Instructor** and then **Membership**.
 
 
 .. _Assign Course Team Roles:
 
-*************************
-Assign Course Team Roles
-*************************
+***********************************************************
+Assign Course Team Roles from the LMS Instructor Dashboard
+***********************************************************
+
+You can also assign privileged roles to users when you work in the LMS by
+selecting **Instructor** and then **Membership**.
 
 Assigning a course team role to a user both adds the user to the course team
 and assigns the role to that user.
@@ -76,13 +85,9 @@ access**.
 
 .. seealso::
   
-
-  :ref:`Planning Course Staff <Course_Staffing>` (reference)
-
-  :ref:`Add Course Creators` (how-to)
+  :ref:`Guide to Course Team Roles` (reference)
 
   :ref:`Add Beta Testers to a Course` (how-to)  
-
 
 
 **Maintenance chart**
