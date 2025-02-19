@@ -19,7 +19,7 @@ For more information about setting up and managing cohorts, see the following to
 
 * :ref:`Managing Divided Discussion Topics`
 
-For information about discussions in general, see :ref:`Discussions`.
+For information about discussions in general, see :ref:`About Course Discussions`.
 
 For information about offering different content to different cohorts of learners, see :ref:`Offering Different Content Based on Cohort`.
 

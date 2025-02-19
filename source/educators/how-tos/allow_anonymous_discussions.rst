@@ -71,7 +71,7 @@ Enable/Disable "Allow Anonymous Discussion Posts to Peers"
 .. seealso::
  
 
- :ref:`Discussions` (concept)
+ :ref:`About Course Discussions` (concept)
 
  :ref:`Running_discussions` (concept)
 

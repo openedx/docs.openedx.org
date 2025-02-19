@@ -282,7 +282,7 @@ C
   topics are accessed from the **Discussion** page in your course. Examples of
   course-wide discussion topics include Announcements and Frequently Asked
   Questions. Learners can contribute to these topics as soon as your course
-  starts. For more information, see :ref:`Discussions` and
+  starts. For more information, see :ref:`About Course Discussions` and
   :ref:`Create CourseWide Discussion Topics`.
 
   If you use cohorts in your course, you can divide course-wide discussion
@@ -321,7 +321,7 @@ D
   The set of topics defined to promote course-wide or unit-specific dialog.
   Learners use the discussion topics to communicate with each other and the
   course team in threaded exchanges. For more information, see
-  :ref:`Discussions`.
+  :ref:`About Course Discussions`.
 
 .. _Discussion Component:
 
@@ -809,7 +809,7 @@ Q
   discussion topic to bring attention to an issue that the discussion
   moderation team or learners can resolve.
 
-  For more information, see :ref:`Discussions`.
+  For more information, see :ref:`About Course Discussions`.
 
 .. _R:
 

@@ -194,7 +194,7 @@ that are anonymous to other learners, as seen below.
 .. seealso::
  
 
- :ref:`Discussions` (concept)
+ :ref:`About Course Discussions` (concept)
 
   
 

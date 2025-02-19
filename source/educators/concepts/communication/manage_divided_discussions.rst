@@ -5,7 +5,7 @@ Managing Divided Discussion Topics
 
 .. tags:: educator, concept
 
-This section provides information about managing :ref:`discussions<Discussions>`
+This section provides information about managing :ref:`discussions<About Course Discussions>`
 that are divided based on learner groups (:ref:`cohorts<Cohort>`).
 
 For more information about divided discussions, see :ref:`About Divided
@@ -23,7 +23,7 @@ Discussions`.
 Overview
 *********
 
-In :ref:`discussion topics<Discussions>` in your course, every post has an
+In :ref:`discussion topics<About Course Discussions>` in your course, every post has an
 indicator of who can read it: either all learners, or only the members of a
 particular group. For learners, this is the only noticeable difference between
 discussions in courses that use divided discussions, and courses that do not
@@ -53,7 +53,7 @@ following actions.
 * Filter the posts that are listed on the **Discussion** page by group.
   See :ref:`Viewing the Posts of a Group`.
 
-All of the other options and features described in the :ref:`Discussions`,
+All of the other options and features described in the :ref:`About Course Discussions`,
 :ref:`Moderating_discussions`, and :ref:`Running_discussions` sections continue
 to be available to the discussion moderation team.
 

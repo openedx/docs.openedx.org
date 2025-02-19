@@ -9,7 +9,7 @@ Setting up Discussions in Courses with Cohorts
 .. tags:: educator, how-to
 
 In courses that use cohorts, in addition to :ref:`discussion
-topics<Discussions>` that are by default shared by all learners, you can create
+topics<About Course Discussions>` that are by default shared by all learners, you can create
 divided discussion topics, within which learners interact only with other
 members of their cohort.
 
@@ -23,7 +23,7 @@ Divided Discussion Topics` and :ref:`Moderating_discussions`.
 .. seealso::
  
 
- :ref:`Discussions` (concept)
+ :ref:`About Course Discussions` (concept)
 
  :ref:`Running_discussions` (concept)
 

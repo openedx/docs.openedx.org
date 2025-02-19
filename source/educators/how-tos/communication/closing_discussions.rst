@@ -38,7 +38,7 @@ reopen, follow these steps.
 .. seealso::
  
 
- :ref:`Discussions` (concept)
+ :ref:`About Course Discussions` (concept)
 
  :ref:`Running_discussions` (concept)
 

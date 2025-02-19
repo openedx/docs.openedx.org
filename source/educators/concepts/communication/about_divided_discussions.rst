@@ -12,7 +12,7 @@ divided by learner groups (cohorts) within your course.
   :local:
   :depth: 1
 
-For overview information about discussions in a course, see :ref:`Discussions`.
+For overview information about discussions in a course, see :ref:`About Course Discussions`.
 
 For more information about creating differentiated course content for learners
 in different groups (cohorts), see :ref:`Offering Differentiated Content`.
