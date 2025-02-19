@@ -152,18 +152,18 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/ORA_Staff_Grading.rst
    /educators/how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
    /educators/how-tos/course_development/exercise_tools/create_periodic_table.rst
+   /educators/references/course_development/exercise_tools/poll_olx.rst
    /educators/how-tos/course_development/exercise_tools/create_poll_olx.rst
-   /educators/references/course_development/exercise_tools/poll_tool.rst
    /educators/how-tos/course_development/exercise_tools/create_problem_in_latex.rst
    /educators/how-tos/course_development/exercise_tools/create_problem_with_hint.rst
    /educators/how-tos/course_development/exercise_tools/create_protein_builder.rst
    /educators/how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
    /educators/concepts/exercise_tools/single_select_overview.rst
    /educators/how-tos/course_development/exercise_tools/add_single_select_num_input.rst
-   /educators/how-tos/course_development/exercise_tools/add_survey.rst
+   /educators/how-tos/course_development/exercise_tools/manage_survey_olx.rst
    ../olx/problem-xml/symbolic_response.rst
    /educators/references/course_development/exercise_tools/text_input.rst
-   /educators/how-tos/course_development/exercise_tools/add_word_cloud.rst
+   /educators/how-tos/course_development/exercise_tools/manage_word_cloud.rst
    /educators/how-tos/course_development/exercise_tools/create_zooming_image.rst
 
 .. _OLX Content Experiments:

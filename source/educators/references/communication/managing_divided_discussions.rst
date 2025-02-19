@@ -1,11 +1,11 @@
-.. _Managing Divided Discussion Topics:
+.. _Guide to Managing Divided Discussions:
 
-Managing Divided Discussion Topics
-###################################
+Guide to Managing Divided Discussions
+#######################################
 
-.. tags:: educator, concept
+.. tags:: educator, reference
 
-This section provides information about managing :ref:`discussions<Discussions>`
+This section provides information about managing :ref:`discussions<About Course Discussions>`
 that are divided based on learner groups (:ref:`cohorts<Cohort>`).
 
 For more information about divided discussions, see :ref:`About Divided
@@ -14,7 +14,7 @@ Discussions`.
 .. note::
   You must set up divided discussions before your course starts. You cannot
   divide discussions after the course start date. For more information, see
-  :ref:`Setting Up Divided Discussions`.
+  :ref:`Set Up Divided Discussions`.
 
 .. contents::
   :local:
@@ -23,7 +23,7 @@ Discussions`.
 Overview
 *********
 
-In :ref:`discussion topics<Discussions>` in your course, every post has an
+In :ref:`discussion topics<About Course Discussions>` in your course, every post has an
 indicator of who can read it: either all learners, or only the members of a
 particular group. For learners, this is the only noticeable difference between
 discussions in courses that use divided discussions, and courses that do not
@@ -41,7 +41,7 @@ contribute to all posts.
 .. note:: Course team members must have the Discussion Moderator or Discussion
  Admin role in addition to the Staff or Admin role to be able to view posts
  that are divided by group. For information about assigning discussion
- moderation roles, see :ref:`Assigning_discussion_roles`.
+ moderation roles, see :ref:`Assign discussion roles`.
 
 In courses where cohorts are enabled, course team members who have discussion
 moderation roles that are not restricted by group can also perform the
@@ -53,8 +53,8 @@ following actions.
 * Filter the posts that are listed on the **Discussion** page by group.
   See :ref:`Viewing the Posts of a Group`.
 
-All of the other options and features described in the :ref:`Discussions`,
-:ref:`Moderating_discussions`, and :ref:`Running_discussions` sections continue
+All of the other options and features described in the :ref:`About Course Discussions`,
+:ref:`Best Practices for Moderating Course Discussions`, and :ref:`Best Practices for Configuring Course Discussions` sections continue
 to be available to the discussion moderation team.
 
 
@@ -221,16 +221,33 @@ you filter the list by a specific group, you see the same, complete set of
 posts that the members of that group see.
 
 For other options that you can use to view posts, see
-:ref:`Moderating_discussions`.
+:ref:`Best Practices for Moderating Course Discussions`.
 
 .. seealso::
- 
 
- :ref:`Guidance for Discussion Moderators` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Assigning_discussion_roles` (how-to)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Administer Discussions` (how-to)
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`About Divided Discussions` (concept)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 **Maintenance chart**
 

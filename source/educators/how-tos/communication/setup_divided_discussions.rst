@@ -1,7 +1,7 @@
-.. _Setting Up Divided Discussions:
+.. _Set Up Divided Discussions:
 
 ##############################
-Setting Up Divided Discussions
+Set Up Divided Discussions
 ##############################
 
 .. tags:: educator, how-to
@@ -49,7 +49,7 @@ the steps below.
    course, be aware that learners will be affected by your changes.
 
 1. Navigate to Open edX discussion provider configuration page
-(see :ref:`Configuring Open edX Discussions`).
+(see :ref:`Configure Open edX Discussions`).
 
 2. Turn on the toggle for **Divide discussions by cohort** to divide all
    content-specific discussion topics by cohort.
@@ -64,7 +64,7 @@ All content-specific discussion topics in the course are now divided
 by cohort.
 
 For information about managing discussions that are divided, see
-:ref:`Managing Divided Discussion Topics`.
+:ref:`Guide to Managing Divided Discussions`.
 
 .. _Divide Course Wide Discussion Topics:
 
@@ -88,7 +88,7 @@ course can see and respond to posts from all other learners.
 To specify that one or more course-wide discussion topics are divided,
 follow these steps.
 
-1. Navigate to Open edx discussion provider configuration page (see :ref:`Configuring Open edX Discussions`).
+1. Navigate to Open edx discussion provider configuration page (see :ref:`Configure Open edX Discussions`).
 
 2. Turn on the toggle for **Divide discussions by cohort** to divide all
    content-specific discussion topics by cohort.
@@ -108,13 +108,33 @@ follow these steps.
 
 5. Click **Save** at the bottom-right of the configuration page.
 
-For information about managing discussions that are divided, see :ref:`Managing
-Divided Discussion Topics`.
+For information about managing discussions that are divided, see :ref:`Guide to Managing Divided Discussions`.
 
 .. seealso::
- 
 
- :ref:`About Divided Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
+
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
+
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`About Divided Discussions` (concept)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
 
 **Maintenance chart**

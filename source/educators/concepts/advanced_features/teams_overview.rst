@@ -35,7 +35,7 @@ and ask learners to join teams of their choice within a specific team-set to com
 the assignment. Team members can use discussions within the team to communicate
 and collaborate on the assignment. If you want only to  provide a way for learners
 to connect socially, consider using discussions within the course rather than teams.
-For more information about using discussions, see :ref:`Running_discussions`.
+For more information about using discussions, see :ref:`Best Practices for Configuring Course Discussions`.
 
 .. seealso::
  

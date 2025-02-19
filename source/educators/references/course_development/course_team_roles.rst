@@ -24,7 +24,7 @@ You can also designate teams of people to beta test your course or to moderate
 and manage its discussions by assigning other roles in the LMS. Beta testers
 and discussion team members must be enrolled in your course, but they do not
 need to have the Staff or Admin role. For more information, see
-:ref:`Manage Course Beta Testing` and :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
+:ref:`Manage Course Beta Testing` and :ref:`Assign discussion roles <Assign discussion roles>`.
 
 For more information about how to add course team members, see
 :ref:`Add Course Team Members`.
@@ -46,7 +46,7 @@ You can also designate teams of people to beta test your course and to
 moderate and manage its discussions by assigning other LMS roles. The beta
 testers and discussion administrators must be enrolled in your course, but
 they do not need to have Staff or Admin access. For more information, see
-:ref:`Manage Course Beta Testing` and :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
+:ref:`Manage Course Beta Testing` and :ref:`Assign discussion roles <Assign discussion roles>`.
 
 For more information about how to add course team members, see
 :ref:`Add Course Team Members`.
@@ -104,7 +104,7 @@ complete the following tasks.
   .. note:: To moderate course discussions, team members must explicitly be
      added to a discussion moderation role in addition to having the course
      team Staff or Admin role. For more information, see
-     :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
+     :ref:`Assign discussion roles <Assign discussion roles>`.
 
 
 .. seealso::  

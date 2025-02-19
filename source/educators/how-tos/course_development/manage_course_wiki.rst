@@ -1,6 +1,6 @@
-.. _Create Course Wiki:
+.. _Manage the Course Wiki:
 
-Using the Course Wiki
+Manage the Course Wiki
 ########################
 
 .. tags:: educator, how-to
@@ -120,7 +120,7 @@ articles for each section. In the child articles for each section, you could
 provide information specific to the units and components in that section, and a
 page for learners to share their feedback and experiences.
 
-Read more about tasks :ref:`Course Wiki Tasks`
+Read more about creating wiki articles at :ref:`Contribute to the Course Wiki`
 
 .. _Locking a Wiki Article:
 
@@ -197,7 +197,7 @@ To restore a deleted article, select the link to the article and select
 
  :ref:`About Course Wiki` (reference)
 
- :ref:`Course Wiki Tasks` (how to)
+ :ref:`Contribute to the Course Wiki` (how to)
 
 
 **Maintenance chart**

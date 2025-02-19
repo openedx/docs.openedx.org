@@ -1,15 +1,45 @@
-.. _Create a Poll:
+.. _Create a Poll via OLX:
 
-Create a Poll for OLX
+Create a Poll (via OLX)
 ########################
 
 .. tags:: educator, how-to
 
-.. note:: Creating a poll requires you to export your course, edit some of
- your course's XML files in a text editor, and then re-import your course. We
+.. note:: If you choose to edit polls via OLX, we
  recommend that you create a backup copy of your course before you create the
  poll. We also recommend that you only edit the files that will contain polls
  in the text editor if you are very familiar with editing XML.
+
+To work with polls without OLX, see :ref:`Enable the Poll Tool` and :ref:`Add Poll`.
+
+**********************************
+Enable the Poll Tool (via OLX)
+**********************************
+
+To enable polls in your course, you edit the XML file that defines
+the course structure.
+
+Open the XML file for the course in the ``course`` directory. In the ``course``
+element's ``advanced-modules`` attribute, add the string ``poll``.
+
+For example, the following XML code enables polls in a course.
+
+.. code-block:: xml
+
+  <course advanced_modules="[&quot;survey&quot;,
+      &quot;poll&quot;]" display_name="Sample Course"
+      start="2015-01-01T00:00:00Z">
+      ...
+  </course>
+
+
+*******************************************
+Add the Poll Component to a Unit (via OLX)
+*******************************************
+
+#. In Studio, navigate to the unit where you want to create the poll.
+
+#. Click the **Edit** button.
 
 #. In the unit where you want to create the poll, create components that
    contain all the content that you want *except* for the poll. Make a note of
@@ -100,16 +130,102 @@ Create a Poll for OLX
     available for polls. However, you can obtain the aggregate data directly in
     the problem.
 
+******************************
+OLX Poll Element Attributes
+******************************
+
+The following table describes the attributes of the ``poll`` element.
+
+.. list-table::
+     :widths: 20 80
+
+     * - Attribute
+       - Description
+     * - ``url_name``
+       - The unique identifier of the poll.
+     * - ``xblock-family``
+       - The XBlock version used. Must be ``xblock.v1``.
+     * - ``private_results``
+       - Whether the poll results are shown to learners (``true``) or not
+         (``false``).
+     * - ``display_name``
+       - The display name for the poll.
+     * - ``question``
+       - The prompt for the poll.
+     * - ``feedback``
+       - The text shown to learners after they submit a response.
+     * - ``max_submissions``
+       - The number of times a learner can submit poll answers.  Use ``0`` to
+         allow unlimited submissions. If you use a value other than ``1``, set
+         ``private_results`` to ``true``. Otherwise, learners will be able to
+         change their responses after seeing others' responses.
+     * - ``answers``
+       - An array of answers in the poll. Each answer has a unique
+         identifier, and a dictionary that defines values for the following
+         names.
+
+         * ``img``, the static URL of the answer image.
+         * ``img_alt``, the alternative text for the image.
+         * ``label``, the answer text.
+
+         Each answer must have a value for ``img`` or ``label``, or both.
+
+**************************************
+Example Poll OLX with Four Questions
+**************************************
+
+The following example shows the OLX definition for a poll with four answers.
+
+.. code-block:: xml
+
+  <poll url_name="f4ae7de0006f426aa4eed4b0b8112da5" xblock-family="xblock.v1"
+    feedback="Feedback"
+    display_name="Poll"
+    private_results="false"
+    question="What is your favorite color?"
+    max_submissions="1"
+    answers="[
+               [&quot;R&quot;,
+                 {
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt 1&quot;,
+                   &quot;label&quot;: &quot;Red&quot;
+                 }
+               ],
+               [&quot;B&quot;,
+                 {
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt 2&quot;,
+                   &quot;label&quot;: &quot;Blue&quot;
+                 }
+               ],
+               [&quot;G&quot;,
+                 {
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt3&quot;,
+                   &quot;label&quot;: &quot;Green&quot;
+                 }
+               ],
+               [&quot;O&quot;,
+                 {
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt 4&quot;,
+                   &quot;label&quot;: &quot;Other&quot;
+                 }
+               ]
+             ]
+  "/>
+
+
+
 .. seealso::
  
 
- :ref:`Poll Tool for OLX` (reference)
+ :ref:`Guide to the Poll Tool via OLX` (reference)
  
- :ref:`Poll Tool` (reference)
+ :ref:`Enable the Poll Tool` (how-to)
 
- :ref:`Add Poll` (how to)
-
- :ref:`Enable Poll in OLX` (reference)
+ :ref:`Add Poll` (how-to)
 
 
 **Maintenance chart**

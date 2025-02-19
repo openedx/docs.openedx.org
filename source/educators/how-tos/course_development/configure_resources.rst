@@ -115,7 +115,7 @@ To learn about Flexible Peer Grading and the course override setting, see  :ref:
 
  :ref:`Adding Pages to a Course` (how to)
 
- :ref:`Discussions` (concept)
+ :ref:`About Course Discussions` (concept)
 
  :ref:`About Course Wiki` (reference)
 

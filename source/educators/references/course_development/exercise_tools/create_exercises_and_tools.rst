@@ -241,11 +241,11 @@ tools that you can add to your course.
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
      - Full support
-   * - :ref:`Survey Tool`
+   * - :ref:`Survey Tool <Manage Survey Tool>`
      - You can include surveys in your course to collect learner responses to
        multiple questions.
      - Full support
-   * - :ref:`Word Cloud`
+   * - :ref:`Word Cloud <Manage Word Cloud Tool>`
      - Word clouds arrange text that learners enter in response to a question
        into a colorful graphic.
      - Provisional support
@@ -303,7 +303,7 @@ tools available in Studio. For more information, see
        information about each element when learners move the pointer over each
        element.
      - Not supported
-   * - :ref:`Poll Tool for OLX`
+   * - :ref:`Poll Tool via OLX <Guide to the Poll Tool via OLX>`
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
        course by using OLX (open learning XML). Support for this tool in Studio

@@ -44,7 +44,7 @@ The new team member can now work on the course in Studio.
 
 * To moderate course discussions, the team member must also have one of the
   discussion roles. For more information, see
-  :ref:`Assigning_discussion_roles <Assigning_discussion_roles>`.
+  :ref:`Assign discussion roles <Assign discussion roles>`.
 
 
 

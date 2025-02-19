@@ -441,9 +441,9 @@ When preparing a message from this template, search for values enclosed by
 .. seealso::
  
 
- :ref:`Bulk Email` (reference)
+ :ref:`Guide to Bulk Email Messages` (reference)
 
- :ref:`Send_Bulk_Email` (how-to)
+ :ref:`Send an Email Message to Course Participants` (how-to)
 
  :ref:`Review Sent Messages` (how-to)
 
