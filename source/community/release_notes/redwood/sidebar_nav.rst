@@ -111,7 +111,7 @@ still able to view its contents.
       :align: center
       :height: 350
 
-See :doc:`/educators/how-tos/sidebar_view_course_section` for details.
+See :ref:`View Course Sections from the Navigation Sidebar` for details.
 
 Collapsing and expanding the sidebar navigation
 ***********************************************
@@ -131,7 +131,7 @@ expand button in the upper corner of the page.
 
 As the learner advances through the course, the expanded or collapsed state of
 the sidebar remains the same until the learner changes it. See
-:doc:`/educators/how-tos/sidebar_collapse_expand`.
+:ref:`View Course Sections from the Navigation Sidebar` for details.
 
 Viewing completed and in-progress items
 ***************************************
