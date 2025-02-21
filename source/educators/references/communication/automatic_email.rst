@@ -1,13 +1,15 @@
-.. _Automatic Email Messages:
+.. _Guide to Automatic Email Messages:
 
-Automatic Email Messages
-########################
+Guide to Automatic Email Messages
+####################################
 
 .. tags:: educator, reference
 
 .. Note: Any update to the **discussion notification** information should also
 .. be made to the manage_live_course/automatic_email.rst file in the Open edX
 .. course authors guide.
+
+.. Note:: This functionality is only believed to apply to the edx.org platform. An `issue <https://github.com/openedx/docs.openedx.org/issues/835>`_ is being tracked to determine this. 
 
 To help learners become and remain engaged in a course, the Open edX instance sends several types
 of automatic email messages.
@@ -45,8 +47,7 @@ of automatic email messages.
    - See :ref:`Course Highlight Message` for message send dates.
    - Message that lists 3-5 highlights for the next course "week", or section.
      Is not sent if the course team has not added highlights for the section
-     in Studio. For more information, see :ref:`Set Section Highlights for
-     Course Highlight Messages`.
+     in Studio. For more information, see :ref:`Manage Course Highlight Emails`.
 
 
 Automatic Email Message Text
@@ -163,8 +164,7 @@ courses. The logic for when the message is sent depends on the Course pacing.
   * Example: Section 2 ends on December 3, 2020 for a specific learner based on their Schedule. Section 3 highlights will be sent out on December 4, 2020 for that learner.
   * **Note**: This could result in highlights being sent out every few days (3/4 days) in shorter expected duration courses with many sections or longer than a week (10+ days) in longer expected duration courses with few sections.
 
-For more information, see :ref:`Set Section Highlights for Course Highlight
-Messages`.
+For more information, see :ref:`Manage Course Highlight Emails`.
 
 .. include:: ../reusable_references/course_highlight_message_text.rst
 
@@ -189,9 +189,9 @@ The message also contains a View discussion option that takes the learner to the
 .. seealso::
  
 
- :ref:`Bulk Email` (reference)
+ :ref:`Guide to Bulk Email Messages` (reference)
 
- :ref:`Send_Bulk_Email` (how-to)
+ :ref:`Send an Email Message to Course Participants` (how-to)
 
  :ref:`Example Messages to Students` (reference)
 

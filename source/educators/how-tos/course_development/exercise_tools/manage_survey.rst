@@ -1,8 +1,8 @@
-.. _Survey Tool:
+.. _Manage Survey Tool:
 
-###########
-Survey Tool
-###########
+####################
+Manage Survey Tool
+####################
 
 .. tags:: educator, how-to
 
@@ -21,7 +21,7 @@ questions.
 
 For a survey, you configure multiple question and multiple possible answers.
 The set of answers is used for each question in the survey. If you need to ask
-only one question, use the :ref:`Poll Tool`.
+only one question, use the Poll Tool. See :ref:`Enable the Poll Tool` and :ref:`Add Poll` for more information.
 
 The following example survey has three questions, each with the same three
 possible answers.
@@ -54,7 +54,7 @@ To enable the survey tool in Studio, you add the ``"survey"`` key to the
 include the quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.
 
-Alternatively, you can use OLX to enable the survey tool. See :ref:`Enable Survey OLX`.
+Alternatively, you can use OLX to enable the survey tool. See :ref:`Create a Poll via OLX`.
 
 
 *******************************
@@ -176,7 +176,7 @@ The results of the survey are then displayed.
 .. seealso::
  
 
- :ref:`Enable Survey OLX` (reference)
+ :ref:`Create a Poll via OLX` (reference)
 
 **Maintenance chart**
 

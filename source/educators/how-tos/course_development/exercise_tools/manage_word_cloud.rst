@@ -1,8 +1,8 @@
-.. _Word Cloud:
+.. _Manage Word Cloud Tool:
 
-##################
-Word Cloud Tool
-##################
+###########################
+Manage the Word Cloud Tool
+###########################
 
 .. tags:: educator, how-to
 
@@ -81,7 +81,6 @@ To create a word cloud, follow these steps.
 #. Select **Save**.
 
 .. seealso::
- 
 
  :ref:`Create Exercises` (concepts)
 

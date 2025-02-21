@@ -9,51 +9,41 @@ Setting up Discussions in Courses with Cohorts
 .. tags:: educator, how-to
 
 In courses that use cohorts, in addition to :ref:`discussion
-topics<Discussions>` that are by default shared by all learners, you can create
+topics<About Course Discussions>` that are by default shared by all learners, you can create
 divided discussion topics, within which learners interact only with other
 members of their cohort.
 
 For information about divided discussions, see :ref:`About Divided
 Discussions`.
 
-For information about managing and moderating discussions, see :ref:`Managing
-Divided Discussion Topics` and :ref:`Moderating_discussions`.
+For information about managing and moderating discussions, see :ref:`Guide to Managing Divided Discussions` and :ref:`Best Practices for Moderating Course Discussions`.
 
 
 .. seealso::
- 
 
- :ref:`Discussions` (concept)
+  :ref:`About Course Discussions` (concept)
 
- :ref:`Running_discussions` (concept)
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
 
- :ref:`Moderating_discussions` (concept)
+  :ref:`Configure Open edX Discussions` (how-to)
 
- :ref:`Guidance for Discussion Moderators` (concept)
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
 
- :ref:`Assigning_discussion_roles` (how-to)
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Configuring Open edX Discussions` (how-to)
+  :ref:`Assign discussion roles` (how-to)
 
- :ref:`Working with Discussion Components` (how-to)
+  :ref:`Moderate Discussions` (how-to)
 
- :ref:`Closing Discussions` (how-to)
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
 
- :ref:`Enable/Disable Anonymous Discussion Posts` (how-to)
+  :ref:`Learner View of the Discussion` (reference)
 
- :ref:`Administer Discussions` (how-to)
+  :ref:`About Divided Discussions` (concept)
 
- :ref:`A Students View of the Discussion` (reference)
+  :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`About Divided Discussions` (concept)
-
- :ref:`Setting Up Divided Discussions` (how-to)
-
- :ref:`Managing Divided Discussion Topics` (concept)
- 
-
-
-
+  :ref:`Set Up Divided Discussions` (how-to)
 
 
 

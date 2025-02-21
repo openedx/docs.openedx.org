@@ -1,6 +1,6 @@
 .. _About Divided Discussions:
 
-About Divided Discussion Topics
+About Divided Discussions
 ###################################
 
 .. tags:: educator, concept
@@ -12,10 +12,12 @@ divided by learner groups (cohorts) within your course.
   :local:
   :depth: 1
 
-For overview information about discussions in a course, see :ref:`Discussions`.
+For overview information about discussions in a course, see :ref:`About Course Discussions`.
 
 For more information about creating differentiated course content for learners
 in different groups (cohorts), see :ref:`Offering Differentiated Content`.
+
+For information about Setting Up Divided Discussions, see :ref:`Set Up Divided Discussions`.
 
 
 What Are Divided Discussions?
@@ -45,10 +47,9 @@ Community TAs if the content of discussion topics by one group (cohort) should n
 shared with another group. Group Community TAs are themselves members of
 learner groups (cohorts) that you use in your course. As discussion moderators, they can
 only see and respond to posts by other members of their own group (cohort). For information,
-see :ref:`Assigning_discussion_roles`.
+see :ref:`Assign discussion roles`.
 
-For more information about managing discussions, see :ref:`Managing Divided
-Discussion Topics` and :ref:`Running_discussions`.
+For more information about managing discussions, see :ref:`Guide to Managing Divided Discussions` and :ref:`Best Practices for Configuring Course Discussions`.
 
 .. note::
 
@@ -58,12 +59,33 @@ Discussion Topics` and :ref:`Running_discussions`.
   each component's access settings to restrict access to each discussion
   component to a specific content group. You can then assign these content
   groups to learner groups (cohorts). For more information,
-  see :ref:`Setting Up Divided Discussions`.
+  see :ref:`Set Up Divided Discussions`.
 
 .. seealso::
- 
 
- :ref:`Setting Up Divided Discussions` (how-to)
+  :ref:`About Course Discussions` (concept)
+
+  :ref:`Best Practices for Configuring Course Discussions` (concept)
+
+  :ref:`Configure Open edX Discussions` (how-to)
+
+  :ref:`Configure Open edX Discussions Legacy` (how-to)
+
+  :ref:`Best Practices for Moderating Course Discussions` (concept)
+
+  :ref:`Assign discussion roles` (how-to)
+
+  :ref:`Moderate Discussions` (how-to)
+
+  :ref:`Toggle Anonymous Discussion Posts` (how-to)
+
+  :ref:`Learner View of the Discussion` (reference)
+
+  :ref:`Guide to Managing Divided Discussions` (reference)
+
+  :ref:`Set Up Divided Discussions` (how-to)
+
+  :ref:`Set up Discussions in Cohorted Courses` (how-to)
 
   
 

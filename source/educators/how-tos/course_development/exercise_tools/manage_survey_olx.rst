@@ -1,9 +1,11 @@
-.. _Enable Survey OLX:
+.. _Manage Survey Tool via OLX:
 
-Enable the Survey Tool in OLX
+Manage the Survey Tool via OLX
 ################################
 
-.. tags:: educator, reference
+.. tags:: educator, how-to
+
+To manage the survey tool without OLX, see :ref:`Manage Survey Tool`.
 
 To enable the survey tool, you edit the XML file that defines the course
 structure.
@@ -118,7 +120,7 @@ The following table describes the attribute of the ``survey`` element.
 .. seealso::
  
 
- :ref:`Survey Tool` (how to)
+ :ref:`Manage Survey Tool` (how to)
 
 **Maintenance chart**
 

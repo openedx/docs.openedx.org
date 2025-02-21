@@ -11,25 +11,22 @@ Course Discussions
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/communication/course_discussions.rst
-   ../concepts/communication/running_discussions.rst
-   ../concepts/communication/moderating_discussions.rst
-   ../concepts/communication/discussion_guidance_moderators.rst
-   ../how-tos/communication/assigning_discussion_roles.rst
-   ../how-tos/communication/configure-discussions.rst
-   ../how-tos/course_development/create_discussion.rst
-   ../how-tos/communication/administer_discussions.rst
-   ../how-tos/communication/closing_discussions.rst
-   ../how-tos/allow_anonymous_discussions.rst
+   ../concepts/communication/best_practices_configuring_discussions.rst
+   ../how-tos/communication/configure_discussions.rst
+   ../how-tos/course_development/configure_discussion_legacy.rst
+   ../concepts/communication/best_practices_moderating_discussions.rst
+   ../how-tos/communication/assign_discussion_roles.rst
+   ../how-tos/communication/moderate_discussions.rst
+   ../how-tos/toggle_anonymous_discussions.rst
    ../references/communication/learner_view_discussion.rst
    ../concepts/communication/about_divided_discussions.rst
-   ../how-tos/communication/setting_up_divided_discussions.rst
+   ../how-tos/communication/setup_divided_discussions.rst
    ../how-tos/communication/setup_cohorted_discussions.rst
-   ../concepts/communication/manage_divided_discussions.rst
-
+   ../references/communication/managing_divided_discussions.rst
 
 .. _Bulk Emails:
 
@@ -37,7 +34,7 @@ Bulk Emails
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/communication/bulk_email.rst
@@ -51,19 +48,19 @@ Automatic Emails
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/communication/automatic_email.rst
 
-Course Highlights
+Course Highlight Emails
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/set_course_highlights.rst
+   ../how-tos/course_development/manage_course_highlight_emails.rst
 
 .. _Course Updates:
 
@@ -71,29 +68,28 @@ Course Updates
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/communication/course_updates_handouts.rst
+   ../concepts/communication/course_updates_handouts.rst
    ../how-tos/communication/add_course_updates_handouts.rst
-   ../how-tos/add_course_updates.rst
 
 Course Wiki
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/course_development/about_course_wiki.rst
-   ../how-tos/course_development/create_course_wiki.rst
-   ../how-tos/course_development/course_wiki_tasks.rst
+   ../concepts/communication/about_course_wiki.rst
+   ../how-tos/course_development/manage_course_wiki.rst
+   ../how-tos/course_development/contribute_course_wiki.rst
 
 Adding Live Sessions
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/add_course_live.rst
@@ -102,7 +98,7 @@ Google Calendar Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/exercise_tools/google_calendar.rst
@@ -111,50 +107,38 @@ Learner View
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/sidebar_collapse_expand.rst
-
-Manage a Course Run
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   ../references/student_management/enrollment_requirements.rst
 
 Poll Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
+   ../how-tos/course_development/exercise_tools/enable_poll_tool.rst
+   ../how-tos/course_development/exercise_tools/add_poll.rst
    ../references/course_development/exercise_tools/poll_olx.rst
-   ../references/course_development/exercise_tools/enable_poll_OLX.rst
    ../how-tos/course_development/exercise_tools/create_poll_olx.rst
-
 
 Survey Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/exercise_tools/add_survey.rst
-   ../references/course_development/exercise_tools/enable_survey_olx.rst
-
-
+   ../how-tos/course_development/exercise_tools/manage_survey.rst
+   ../how-tos/course_development/exercise_tools/manage_survey_olx.rst
 
 Word Cloud Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/exercise_tools/add_word_cloud.rst
-
+   ../how-tos/course_development/exercise_tools/manage_word_cloud.rst

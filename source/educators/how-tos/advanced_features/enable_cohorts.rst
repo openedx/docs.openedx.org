@@ -36,11 +36,11 @@ You can now :ref:`add cohorts<Add Cohorts>` to your course.
 
  :ref:`About Divided Discussions` (concept)
 
- :ref:`Managing Divided Discussion Topics` (concept)
+ :ref:`Guide to Managing Divided Discussions` (reference)
 
- :ref:`Moderating_discussions` (concept)
+ :ref:`Best Practices for Moderating Course Discussions` (concept)
 
- :ref:`Setting Up Divided Discussions` (how-to)
+ :ref:`Set Up Divided Discussions` (how-to)
 
  :ref:`Manage Course Cohorts` (how-to)
 

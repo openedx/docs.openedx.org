@@ -103,11 +103,7 @@ poll inside the course.
 .. seealso::
  
 
- :ref:`Poll Tool` (reference)
-
- :ref:`Poll Tool for OLX` (reference)
-
- :ref:`Enable Poll in OLX` (reference)
+ :ref:`Enable the Poll Tool` (how-to)
 
 
 **Maintenance chart**

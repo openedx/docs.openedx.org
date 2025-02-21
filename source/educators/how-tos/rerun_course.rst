@@ -152,7 +152,7 @@ who enroll in the new course run.
   and make needed updates. See :ref:`Guide to Course About Page`.
 
 * Create initial posts for discussion topics and an "introduce yourself"
-  post. See :ref:`Discussions`.
+  post. See :ref:`About Course Discussions`.
 
 * Add initial wiki articles.
 

@@ -14,7 +14,7 @@ To add a component to the unit, follow these steps.
 For more information, see the documentation for the specific component type
 that you want to work with.
 
-- :ref:`Working with Discussion Components`
+- :ref:`Configure Open edX Discussions Legacy`
 - :ref:`Working with Text Components <working with text components>`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`

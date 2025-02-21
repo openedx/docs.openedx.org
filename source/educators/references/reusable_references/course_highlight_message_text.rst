@@ -37,7 +37,7 @@ verified enrollment track.
 .. seealso::
  
 
- :ref:`Automatic Email Messages` (reference)
+ :ref:`Guide to Automatic Email Messages` (reference)
 
 
 **Maintenance chart**
