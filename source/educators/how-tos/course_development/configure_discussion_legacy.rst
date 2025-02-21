@@ -5,7 +5,7 @@ Configure Open edX Discussions - Legacy
 
 .. tags:: educator, how-to
 
-.. note:: This is the legacy way to create a discussion component. View the latest way to create a discussion component in :ref:`Configure Open edX Discussions`.
+.. note:: This is the legacy way to create a discussion component (for installations running the Palm or earlier releases; the new method was released in Quince, December 2023). View the latest way to create a discussion component in :ref:`Configure Open edX Discussions`.
 
 You can add discussion components to a unit to pose questions about other
 components, such as videos or text, in the unit. A discussion component gives
