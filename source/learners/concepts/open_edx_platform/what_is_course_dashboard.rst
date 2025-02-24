@@ -1,6 +1,6 @@
 .. _About the Course Dashboard:
 
-About the Course Dashboard?
+About the Course Dashboard
 #############################
 
 .. tags:: learner, concept
