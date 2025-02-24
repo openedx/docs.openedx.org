@@ -1,9 +1,9 @@
-.. _What is the User Profile Page:
+.. _About the User Profile Page:
 
-What is the User Profile Page?
+About the User Profile Page
 ##############################
 
-.. tags:: educator, concept
+.. tags:: learner, concept
 
 Your personal profile allows you to optionally share information about yourself
 with other participants in the courses that you take. If you choose to add

@@ -1,9 +1,9 @@
-.. _What is the Course Dashboard:
+.. _About the Course Dashboard:
 
-What is the Course Dashboard?
+About the Course Dashboard?
 #############################
 
-.. tags:: educator, concept
+.. tags:: learner, concept
 
 Your dashboard lists all of the courses that you are enrolled in. When you
 create an account or enroll in a course, you automatically go to your
@@ -35,7 +35,7 @@ The dashboard has two main pages.
 
  :doc:`Share Courses Social Media <../../how-tos/share_courses_social_media>` (how-to)
 
- :ref:`What is the User Profile Page` (concept)
+ :ref:`About the User Profile Page` (concept)
 
 **Maintenance chart**
 

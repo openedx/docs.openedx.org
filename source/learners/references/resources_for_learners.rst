@@ -4,8 +4,7 @@
 Resources for Open edX Learners
 ###############################
 
-
-.. tags:: educator, reference
+.. tags:: learner, reference
 
 ***********
 In a Course

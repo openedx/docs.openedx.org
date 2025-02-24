@@ -3,7 +3,7 @@
 Add or Update a Limited Profile
 ###############################
 
-.. tags:: educator, how-to
+.. tags:: learner, how-to
 
 A limited profile includes only your username and, optionally, an image.
 
