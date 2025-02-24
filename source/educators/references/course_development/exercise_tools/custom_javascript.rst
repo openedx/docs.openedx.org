@@ -40,10 +40,10 @@ JavaScript Input Example Problem Code
 The following code recreates the JavaScript Input problem example shown in the
 overview. The example problem uses these files.
 
-* https://files.edx.org/custom-js-example/jsinput_example.html
-* https://files.edx.org/custom-js-example/jsinput_example.js
-* https://files.edx.org/custom-js-example/jsinput_example.css
-* https://files.edx.org/custom-js-example/jschannel.js (This file is used only
+* ./custom-js-example/jsinput_example.html
+* ./custom-js-example/jsinput_example.js
+* ./custom-js-example/jsinput_example.css
+* ./custom-js-example/jschannel.js (This file is used only
   because this example bypasses the SOP, as indicated by the line
   ``sop="false"``)
 
