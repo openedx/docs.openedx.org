@@ -26,7 +26,7 @@ Studio.
 
  :ref:`What is Studio` (concept)
 
- :ref:`What is the Course Dashboard` (concept)
+ :ref:`About the Course Dashboard` (concept)
 
 **Maintenance chart**
 

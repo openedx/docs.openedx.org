@@ -41,7 +41,7 @@ relay it back to the course team.
  :local:
  :depth: 1
 
-If you are using `divided discussions <https://docs.openedx.org/en/latest/educators/concepts/communication/about_divided_discussions.html#about-divided-discussions>`_, see :ref:`Guide to Managing Divided Discussions`.
+If you are using :ref:`divided discussions<About Divided Discussions>`, see :ref:`Guide to Managing Divided Discussions`.
 
 ********************************************
 Discussion Moderators

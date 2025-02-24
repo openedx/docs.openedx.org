@@ -1,9 +1,9 @@
-.. _Sharing Your Courses on Social Media:
+.. _Share Your Courses on Social Media:
 
-Sharing Your Courses on Social Media
+Share Your Courses on Social Media
 ####################################
 
-.. tags:: educator, how-to
+.. tags:: learner, how-to
 
 On your dashboard, you can share the courses you are enrolled in on social
 media sites such as Facebook and Twitter.
@@ -29,17 +29,17 @@ This feature is available only if it has been enabled on your Open edX instance.
 .. seealso::
  
 
- :ref:`What is the Course Dashboard` (concept)
+ :ref:`About the Course Dashboard` (concept)
 
  :ref:`View Another Learner's Profile` (how-to)
  
- :ref:`What is the User Profile Page` (concept)
+ :ref:`About the User Profile Page` (concept)
  
  :ref:`Add or Update a Limited Profile` (how-to)
  
  :ref:`Add or Update a Full Profile` (how-to)
 
- :ref:`Updating Course-Specific Settings` (how-to)
+ :ref:`Update Course-Specific Settings` (how-to)
  
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
 

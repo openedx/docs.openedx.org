@@ -4,8 +4,7 @@
 Resources for Open edX Learners
 ###############################
 
-
-.. tags:: educator, reference
+.. tags:: learner, reference
 
 ***********
 In a Course
@@ -35,7 +34,7 @@ these options for getting an answer.
   **Discussion** page, or post a question about it yourself. Your comments and
   questions give the course team useful feedback for improving the course.
 
-* Investigate other resources. Some courses have a :ref:`SFD Wiki`,
+* Investigate other resources. Some courses have a :ref:`wiki<SFD Wiki>`,
   which can be a good source of information. Outside of the course, a
   course-specific social media (ex: Facebook group) or messaging community (ex: Discord) might be available for
   learners to share information.

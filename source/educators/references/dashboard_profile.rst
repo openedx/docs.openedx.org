@@ -14,15 +14,15 @@ website, whether you are in a course or browsing the course catalog. Select the
 dropdown menu icon next to your username, and then choose one of the following
 menu options.
 
-* :doc:`Dashboard<../concepts/open_edx_platform/what_is_course_dashboard>` gives you access to the courses and
+* :ref:`Dashboard<About the Course Dashboard>` gives you access to the courses and
   programs that you have enrolled in, and to information such as course start
   and end dates, certificates, and email settings.
 
-* :doc:`Profile <../concepts/open_edx_platform/what_is_profile_page>` gives you the option to provide personal
+* :ref:`Profile <About the User Profile Page>` gives you the option to provide personal
   information about yourself that other course participants can see, such as an
   image and biographical information.
 
-* :doc:`Account<../how-tos/update_course_specific_settings>` gives you access to your account
+* :ref:`Account<Update Course-Specific Settings>` gives you access to your account
   settings and preferences. For example, you can update your password or email
   address and set your Time Zones.
 
