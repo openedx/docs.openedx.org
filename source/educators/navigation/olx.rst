@@ -5,7 +5,7 @@
 OLX
 ###################
 
-This guide is intended for those interested in using OLX (open learning XML) to develop edX courses. Readers of this guide should be familiar with XML.
+This guide is intended for those interested in using OLX (open learning XML) to develop Open edX courses. Readers of this guide should be familiar with XML.
 
 .. _OLX General Information:
 
