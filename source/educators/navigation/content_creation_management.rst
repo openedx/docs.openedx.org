@@ -9,7 +9,7 @@ Create and Manage Course Units
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/open_edx_platform/about_course_units.rst

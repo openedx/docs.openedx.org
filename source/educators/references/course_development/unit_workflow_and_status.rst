@@ -196,8 +196,9 @@ appear for units in self-paced courses.
 
 .. seealso::
  
+ :ref:`About Course Units` (concept)
 
- :ref:`Create a Unit` (how-to)
+ :ref:`Manage Course Units` (how-to)
 
  :ref:`Set Access Restrictions For a Unit` (how-to)
 
@@ -205,7 +206,7 @@ appear for units in self-paced courses.
 
  :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
 
- :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+ :ref:`Copy and Paste Course Components <Copy and Paste Course Components>` (how-to)
 
  :ref:`Manage Course Units` (how-to)
 

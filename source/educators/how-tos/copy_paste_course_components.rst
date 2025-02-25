@@ -1,7 +1,7 @@
-.. _Copy and Paste Course Content:
+.. _Copy and Paste Course Components:
 
-Copy and Paste Course Content
-#############################
+Copy and Paste Course Components
+#################################
 
 .. tags:: educator, how-to
 
@@ -40,11 +40,20 @@ Copy and Paste Course Content
     in the original.
 
 .. seealso::
-   
+ 
+ :ref:`About Course Units` (concept)
 
-   :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+ :ref:`Manage Course Units` (how-to)
 
-   :ref:`Manage Course Units` (how-to)
+ :ref:`Set Access Restrictions For a Unit` (how-to)
+
+ :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+
+ :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
+
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`The Unit Workflow` (reference)
 
 
 

@@ -91,7 +91,7 @@ following actions.
 
  :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
 
- :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+ :ref:`Copy and Paste Course Components <Copy and Paste Course Components>` (how-to)
 
  :ref:`The Unit Workflow` (reference)
 
