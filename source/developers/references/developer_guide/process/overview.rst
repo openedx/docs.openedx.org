@@ -30,10 +30,9 @@ questions or concerns.
 
 * For new features, or any changes affecting user behavior, please follow the
   `Product Review Process`_
-* `Internationalization Coding Guidelines`_
+* :ref:`i18n`
 * `RTL UI Best Practices`_
 * :ref:`Accessibility Guidelines`
-* `Analytics Guidelines`_
-* `Eventing Design and Review Process`_
+* :ref:`analytics`
 
 .. include:: ../links.rst

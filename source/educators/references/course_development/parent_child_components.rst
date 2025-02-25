@@ -86,7 +86,7 @@ You develop parent and child components in XML, then import the XML course into
 Studio to verify that the structure is as you intended.
 
 For more information about working with your course's XML files, including
-information about terminology, see the `EdX Open Learning XML Guide <https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/index.html>`.
+information about terminology, see :ref:`OLX TOC`.
 
 The following examples show the XML used to create the unit and components
 shown in Studio above.

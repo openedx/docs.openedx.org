@@ -101,7 +101,7 @@ OLX XML.
 
 The Open edX wiki page `[2U] New Visual Problem Editor <https://openedx.atlassian.net/wiki/spaces/OEPM/blog/2023/04/07/3724312593/2U+New+Visual+Problem+Editor>`_
 provides a brief explanation of what has changed in the problem editor. Updated detailed instructions on writing
-problems can be found in section `8.4. Working with Problem Components <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_components/create_problem.html#working-with-problem-components>`_ of the Building and Running an edX Course documentation.
+problems can be found in section :ref:`Working with Problem Components` of the Building and Running an Open edX Course documentation.
 
 The Visual Problem Editor is hosted in the existing Course Authoring Micro-frontend. To enable the Visual Problem Editor, add the waffle flag
 :code:`new_core_editors.use_new_problem_editor` and set the value to “Yes” for all users.
@@ -110,9 +110,7 @@ New ORA Grading Experience
 ==========================
 
 In this new on-platform grading experience one can easily preview common file types, assign rubric values, provide
-comments, and coordinate grading with all members of the course teams. Complete documentation is in section
-`10.26.4. Staff Grading for Open Response Assignments
-<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#staff-grading-for-open-response-assignments>`_  of the Building and Running an edX Course documentation.
+comments, and coordinate grading with all members of the course teams. Complete documentation is at :ref:`ORA Staff Grading`  of the Building and Running an Open edX Course documentation.
 
 The new ORA grading experience depends on the ORA Grading Micro-frontend, which was included as an experimental
 feature in Olive. To turn on the feature, add the feature flag :code:`openresponseassessment.enhanced_staff_grader`.

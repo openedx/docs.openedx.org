@@ -57,9 +57,7 @@ to make sure that is understood.
 Where can I go for more information?
 ************************************
 
-For more information about how this feature works, see the `Staff Grading for
-Open Response Assignments documentation
-<https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/ORA_Staff_Grading.html#ora-staff-grading>`_.
+For more information about how this feature works, see :ref:`ORA Staff Grading`.
 
 How can I get this?
 *******************

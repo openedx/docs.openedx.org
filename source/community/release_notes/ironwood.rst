@@ -53,10 +53,7 @@ Video Status Indicators
 For Open edX instances using the video uploads page, this view now conveys the
 status of each video as it relates to its transcoding (through edx-VEDA) and
 transcription (3rd party configuration). The status column is listed in the
-Previous Uploads table. More details around the status messages are `available
-in our documentation`__.
-
-.. __: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/video/upload_video.html#video-processing-statuses
+Previous Uploads table.
 
 Gradebook Application
 =====================
@@ -65,10 +62,6 @@ The gradebook will give you a central location where you can view and manage
 grades for all learners in a course. It will provide you with improved search
 which you can use to find specific learners and override assignment-specific
 grades. In addition, you can filter by cohort, track, or assignment type.
-
-You can read more about this in the documentation for the `Gradebook Application`__.
-
-.. __: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/student_progress/course_grades.html#review-learner-grades-on-the-instructor-dashboard
 
 .. note:: This application is available in devstack, but is not yet supported
           in production installations.

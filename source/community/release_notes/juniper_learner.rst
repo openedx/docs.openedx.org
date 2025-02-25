@@ -29,12 +29,10 @@ Learning Sequence Experience
 ----------------------------
 
 **New Course MFE:** A major platform change for the learner experiences comes
-in the form of a new `micro-frontend application`__ to modernize the course
+in the form of a new micro-frontend application to modernize the course
 learning experience. The primary Juniper focus of this application is an
 overhaul of the learning sequence experience, though we anticipate other views
 like Course Home will eventually also make their way into this new application.
-
-.. __: https://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/juniper.html
 
 **Content iFrames & Security:** This new micro-frontend is easier to update
 and configure than our previous experience, helping support lower development
