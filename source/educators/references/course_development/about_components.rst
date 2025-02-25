@@ -1,10 +1,10 @@
-.. _What is a Component:
+.. _About Course Components:
 
-********************
-What is a Component?
-********************
+########################
+About Course Components
+########################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 A component is the part of a unit that contains your actual course content. A
 unit can contain one or more components.
@@ -25,12 +25,9 @@ your course.
 
 .. seealso::
  
- 
- :ref:`Add a Component` (how-to)
+ :ref:`Manage Components` (how-to)
 
- :ref:`Set Access Restrictions for a Component` (how-to)
-
- :ref:`Reorganizing Components` (how-to)
+ :ref:`Restrict Access to a Component` (how-to)
 
  :ref:`Components that Contain Other Components` (reference)  
 

@@ -149,17 +149,12 @@ The following example shows the learner view of the unit described above.
  :width: 400
 
 .. seealso::
- 
 
- :ref:`Unit States and Visibility to Students` (reference)
+ :ref:`About Course Components` (concept)
+ 
+ :ref:`Manage Components` (how-to)
 
- :ref:`Configure Open edX Discussions Legacy` (reference)
- 
- :ref:`Working with Text Components` (reference)
- 
- :ref:`Working with Problem Components` (reference)
- 
- :ref:`Working with Video Components` (reference)
+ :ref:`Restrict Access to a Component` (how-to)
 
 **Maintenance chart**
 
