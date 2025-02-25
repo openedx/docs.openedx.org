@@ -26,17 +26,13 @@ Create and Manage Components
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../references/course_development/what_is_a_component.rst
-   ../how-tos/course_development/add_edit_components.rst
+   ../references/course_development/about_components.rst
+   ../how-tos/course_development/manage_components.rst
    ../how-tos/course_development/set_component_restrictions.rst
-   ../how-tos/course_development/reorganize_components.rst
    ../references/course_development/parent_child_components.rst
-   ../how-tos/course_development/edit_component.rst
-   ../how-tos/course_development/duplicate_component.rst
-   ../how-tos/course_development/delete_component.rst
 
 .. _Add Text Components:
 

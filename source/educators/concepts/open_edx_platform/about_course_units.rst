@@ -13,7 +13,7 @@ understand the following concepts and complete the following tasks.
    :depth: 1
    :local:
 
-You add content to units with :ref:`course components<What is a Component>`.
+You add content to units with :ref:`course components<About Course Components>`.
 
 .. _What is a Unit:
 

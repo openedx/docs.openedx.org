@@ -1,7 +1,7 @@
-.. _Set Access Restrictions For a Component:
+.. _Restrict Access to a Component:
 
 #######################################
-Set Access Restrictions for a Component
+Restrict Access to a Component
 #######################################
 
 .. tags:: educator, how-to
@@ -66,6 +66,14 @@ To specify a component's access settings, follow these steps.
     :alt: When any component in a unit has restricted access, a message
       appears in the unit's publishing status bar.
     :width: 250
+
+.. seealso::
+
+ :ref:`About Course Components` (concept)
+ 
+ :ref:`Manage Components` (how-to)
+
+ :ref:`Components that Contain Other Components` (reference)  
 
 **Maintenance chart**
 
