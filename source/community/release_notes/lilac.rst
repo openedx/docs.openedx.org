@@ -126,7 +126,7 @@ Special Exams Experience
 Credentials (for Programs)
 ==========================
 
-Program Completion Emails: Added `ProgramCompletionEmailConfiguration`_ that enables an email to be customized and sent to learners when triggered by the generation of a program certificate. These email messages are especially useful to remind a learner of their accomplishment at the appropriate time if a course in the program has a `certificate availability date`_ set in the future. These messages can be customized on a per program basis.
+Program Completion Emails: Added `ProgramCompletionEmailConfiguration`_ that enables an email to be customized and sent to learners when triggered by the generation of a program certificate. These email messages are especially useful to remind a learner of their accomplishment at the appropriate time if a course in the program has a certificate availability date set in the future. These messages can be customized on a per program basis.
 
 Administrator Experiences
 *************************
@@ -254,8 +254,6 @@ Developer Experiences
 
 
 .. _ProgramCompletionEmailConfiguration: https://github.com/openedx/credentials/blob/27fbfe88a91e5111595655f3dfab3ce493958a4f/credentials/apps/credentials/models.py#L306-L322
-
-.. _certificate availability date: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/studio_add_course_information/studio_creating_certificates.html#specify-a-different-certificates-available-date
 
 .. _fake the migration: https://docs.djangoproject.com/en/2.2/ref/django-admin/#cmdoption-migrate-fake
 

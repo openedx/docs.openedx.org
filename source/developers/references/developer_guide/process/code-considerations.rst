@@ -17,11 +17,10 @@ As described in :doc:`overview`, your code should meet basic Open edX project
 standards: it should be accessible, internationalized, and meet the concerns of
 analytics.
 
-* `Internationalization Coding Guidelines`_
+* :ref:`i18n`
 * `RTL UI Best Practices`_
 * :ref:`Accessibility Guidelines`
-* `Analytics Guidelines`_
-* `Eventing Design and Review Process`_
+* :ref:`analytics`
 
 .. _Contributing to the Documentation for your Open Source Feature:
 

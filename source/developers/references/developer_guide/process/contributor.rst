@@ -59,6 +59,7 @@ Progress), and start the pull request as a draft on GitHub.
 Please include a link to your roadmap ticket in the PR description, and add a
 link to a WIP pull request in any discussion threads you start.
 
-.. _Product Review Process: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/DRAFT+How+to+submit+an+open+source+contribution+for+Product+Review
 .. _Open edX Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3449028609/Product+Working+Group
 .. _Product Roadmap: https://github.com/orgs/openedx/projects/4
+
+.. include:: ../links.rst

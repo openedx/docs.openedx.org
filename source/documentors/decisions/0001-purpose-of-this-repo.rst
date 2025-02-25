@@ -43,8 +43,7 @@ definition of users’ end goals, a number of problems have arisen:
 
 #. Documentation is less developed, or not organized in the most appropriate
    way, for certain types of users, for example faculty/course authors. One
-   Instance administrator noted that some `Open edX Documentation
-   <https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/index.html>`__
+   Instance administrator noted that some Open edX documentation
    is actually a barrier of entry for faculty, rather than a facilitator to
    entry, because 1) the documentation is too dense; 2) there's not a clear path
    through the documentation to connect the faculty with their need; 3) it's
