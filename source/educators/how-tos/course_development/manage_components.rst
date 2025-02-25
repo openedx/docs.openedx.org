@@ -26,7 +26,7 @@ For more information, see the documentation for the specific component type
 that you want to work with.
 
 - :ref:`Configure Open edX Discussions Legacy`
-- :ref:`Working with Text Components <working with text components>`
+- :ref:`About Text Components <About Text Components>`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 

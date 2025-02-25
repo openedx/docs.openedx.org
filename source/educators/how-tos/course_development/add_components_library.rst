@@ -19,7 +19,7 @@ follow these steps.
 For more information about the types of components you can add to a library,
 see these topics.
 
-* :ref:`Working with Text Components<working with text components>`
+* :ref:`About Text Components<About Text Components>`
 * :ref:`Working with Problem Components`
 * :ref:`Working with Video Components`
 

@@ -36,27 +36,22 @@ Create and Manage Components
 
 .. _Add Text Components:
 
-Add Text Components
+Manage Text Components
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/text_components/text_components.rst
-   ../how-tos/course_development/text_components/work_with_html.rst
-   ../how-tos/course_development/text_components/create_text_component.rst
-   ../how-tos/course_development/text_components/add_link_website_unit_file.rst
-   ../how-tos/course_development/text_components/add_image.rst
-   ../how-tos/course_development/text_components/format_image.rst
-   ../how-tos/course_development/exercise_tools/create_full_screen_image.rst
-   ../how-tos/course_development/text_components/paste_without_formatting.rst
-   ../how-tos/add_written_content.rst
-   ../how-tos/course_development/text_components/work_with_latex.rst
+   ../how-tos/course_development/text_components/manage_text.rst
+   ../how-tos/course_development/text_components/manage_html.rst
+   ../how-tos/course_development/text_components/manage_latex.rst
+   ../how-tos/course_development/text_components/manage_full_screen_image.rst
    
 .. _Add Video Components:
 
-Add Video Components
+Manage Video Components
 *******************************************************
 
 .. toctree::

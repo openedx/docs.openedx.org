@@ -98,7 +98,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 
  :ref:`Add a Video` (how-to)
 
- :ref:`Create a Text Component` (how-to)
+ :ref:`Work with the Text Editor` (how-to)
 
  :ref:`Add a Multiple Choice Problem` (how-to)
 
