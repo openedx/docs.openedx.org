@@ -4,11 +4,13 @@
 
 .. _Working with Text Components:
 
+.. _About Text Components:
+
 ############################
 About Text Components
 ############################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 Text components are the basic building blocks of your course content. You use
 Text components to add and format text, links, images, and more. You can work
@@ -170,18 +172,13 @@ descriptions.
   The visual editor is not available for :ref:`course handouts <Add Course
   Updates and Handouts>`.
 
-.. seealso::
- 
+.. seealso:: 
 
- :ref:`Create a Text Component` (how-to)
-
- :ref:`Paste without Formatting in a Text Component` (how-to)
-
- :ref:`Add an Image to a Text Component` (how-to)
-
- :ref:`Add Link to Website Course Unit or File` (how-to)
+ :ref:`Work with the Text Editor` (how-to)
 
  :ref:`Work with HTML code` (how-to)
+
+ :ref:`Work with the Full Screen Image Tool` (how-to)
 
  :ref:`Work with Latex Code` (how-to)
 

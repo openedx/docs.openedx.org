@@ -25,7 +25,7 @@ A unit is a part of a :ref:`subsection<About Course Subsections>` that
 learners view as a single page.
 
 A unit contains one or more :ref:`components<Add a Component>`,
-such as text with :ref:`HTML<Working with Text Components>` markup,
+such as text with :ref:`HTML<About Text Components>` markup,
 :ref:`problems<Working with Problem Components>`, or a
 :ref:`video<Working with Video Components>`.
 

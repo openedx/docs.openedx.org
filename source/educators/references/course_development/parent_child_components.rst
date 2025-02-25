@@ -73,7 +73,7 @@ For more information, see the section for the specific component type that you
 want.
 
 - :ref:`Configure Open edX Discussions Legacy`
-- :ref:`Working with Text Components`
+- :ref:`About Text Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 

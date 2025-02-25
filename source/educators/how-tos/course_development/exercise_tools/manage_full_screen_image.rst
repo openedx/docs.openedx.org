@@ -1,7 +1,7 @@
 .. _Full Screen Image:
 
-Full Screen Image Tool
-######################
+Work with the Full Screen Image Tool
+####################################
 
 .. tags:: educator, how-to
 
@@ -83,24 +83,15 @@ Create a Full Screen Image
 
 #. Select **Save**.
 
-.. seealso::
- 
- 
- :ref:`Working with Text Components` (reference)
+.. seealso:: 
+
+ :ref:`About Text Components` (concept)
+
+ :ref:`Work with the Text Editor` (how-to)
 
  :ref:`Work with HTML code` (how-to)
 
- :ref:`Create a Text Component` (how-to)
-
- :ref:`Add Link to Website Course Unit or File` (how-to)
-
- :ref:`Add an Image to a Text Component` (how-to)
-
- :ref:`Paste without Formatting in a Text Component` (how-to)
-
  :ref:`Work with Latex Code` (how-to)
-
- :ref:`Add Written Content` (how-to)
 
 
 **Maintenance chart**

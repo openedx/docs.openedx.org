@@ -78,20 +78,15 @@ Work with LaTeX Code
 ..    party tool. We recommend  you use this feature with caution. If you use
 ..    the tool, make sure you work with your partner manager.
 
-.. seealso::
- 
+.. seealso:: 
 
- :ref:`Working with Text Components` (reference)
+ :ref:`About Text Components` (concept)
 
- :ref:`Create a Text Component` (how-to)
-
- :ref:`Paste without Formatting in a Text Component` (how-to)
-
- :ref:`Add an Image to a Text Component` (how-to)
-
- :ref:`Add Link to Website Course Unit or File` (how-to)
+ :ref:`Work with the Text Editor` (how-to)
 
  :ref:`Work with HTML code` (how-to)
+
+ :ref:`Work with the Full Screen Image Tool` (how-to)
 
 
 
