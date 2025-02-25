@@ -84,11 +84,20 @@ From the Unit Page
    Authors can also paste Units copied from the Unit Page into the Course Outline, and vice versa.
 
 .. seealso::
-   
+ 
+ :ref:`About Course Units` (concept)
 
-   :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
-   
-   :ref:`Manage Course Units` (how-to)
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`Set Access Restrictions For a Unit` (how-to)
+
+ :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
+
+ :ref:`Copy and Paste Course Components <Copy and Paste Course Components>` (how-to)
+
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`The Unit Workflow` (reference)
 
 **Maintenance chart**
 
