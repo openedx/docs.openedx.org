@@ -152,7 +152,7 @@ The following example shows the learner view of the unit described above.
 
  :ref:`About Course Components` (concept)
  
- :ref:`Manage Components` (how-to)
+ :ref:`Manage Course Components` (how-to)
 
  :ref:`Restrict Access to a Component` (how-to)
 

@@ -1,8 +1,10 @@
-.. _Video Guidelines:
+.. _Video Technical Specifications:
 
-################
-Video Guidelines
-################
+###############################
+Video Technical Specifications
+###############################
+
+.. tags:: educator, reference
 
 Your videos can contain whatever content you want to include in the course. The
 following resources can help you to create good video content that is based on
@@ -112,20 +114,16 @@ not required.
      - :ref:`AAC<AAC>` 44.1 / 192 kbps
 
 .. seealso::
-  
 
-  :ref:`Video Process Overview` (how-to)
+  :ref:`Guide to Course Video` (how-to)
 
-  :ref:`Add a Video` (how-to)
+  :ref:`Manage Video Components` (how-to)
+
+  :ref:`Video Process Overview` (reference)
 
   :ref:`Troubleshoot Videos` (reference)
 
-  :ref:`Create a Video` (how-to)
-
-  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
-
   :ref:`Add an In Video Quiz` (how-to)
-
 
 
 **Maintenance chart**

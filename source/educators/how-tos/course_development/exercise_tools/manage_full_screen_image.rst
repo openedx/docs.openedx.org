@@ -1,6 +1,6 @@
-.. _Full Screen Image:
+.. _Manage the Full Screen Image Tool:
 
-Work with the Full Screen Image Tool
+Manage the Full Screen Image Tool
 ####################################
 
 .. tags:: educator, how-to

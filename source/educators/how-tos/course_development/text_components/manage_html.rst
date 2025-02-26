@@ -70,7 +70,7 @@ the HTML content in your course.
 
  :ref:`Work with the Text Editor` (how-to)
 
- :ref:`Work with the Full Screen Image Tool` (how-to)
+ :ref:`Manage the Full Screen Image Tool` (how-to)
 
  :ref:`Work with Latex Code` (how-to)
 

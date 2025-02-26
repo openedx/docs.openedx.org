@@ -59,7 +59,7 @@ Create a New Course
    ../how-tos/course_development/manage_units.rst
    ../how-tos/view_as_learner.rst
    ../how-tos/course_development/exercise_tools/add_text.rst
-   ../how-tos/course_development/add_video_to_course.rst
+   ../how-tos/course_development/manage_videos.rst
    ../how-tos/add_multiple_choice.rst
    ../references/resources_for_course_teams.rst
    

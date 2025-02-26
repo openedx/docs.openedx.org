@@ -135,7 +135,7 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/custom_python.rst
    /educators/concepts/exercise_tools/drag_and_drop.rst
    /educators/references/course_development/exercise_tools/dropdown_problem_xml.rst
-   /educators/how-tos/course_development/exercise_tools/create_full_screen_image.rst
+   /educators/how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    /educators/references/course_development/exercise_tools/gene_explorer.rst
    /educators/how-tos/course_development/exercise_tools/embed_google_calendar.rst
    /educators/references/course_development/exercise_tools/google_docs.rst

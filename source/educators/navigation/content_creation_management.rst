@@ -17,7 +17,7 @@ Create and Manage Course Units
    ../how-tos/course_development/set_restrictions_unit.rst
    ../how-tos/copy_paste_units.rst
    ../how-tos/course_development/hide_units.rst
-   ../how-tos/copy_paste_course_content.rst
+   ../how-tos/copy_paste_course_components.rst
    ../references/course_development/unit_workflow_and_status.rst
 
 .. _Create and Manage Components:
@@ -47,7 +47,7 @@ Manage Text Components
    ../how-tos/course_development/text_components/manage_text.rst
    ../how-tos/course_development/text_components/manage_html.rst
    ../how-tos/course_development/text_components/manage_latex.rst
-   ../how-tos/course_development/text_components/manage_full_screen_image.rst
+   ../how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    
 .. _Add Video Components:
 
@@ -58,13 +58,11 @@ Manage Video Components
    :maxdepth: 2
    :glob:
 
-   ../how-tos/course_development/video_process_overview.rst
-   ../references/course_development/add_video_to_course.rst
-   ../how-tos/course_development/add_video_to_course.rst
+   ../references/course_development/guide_to_video.rst
+   ../how-tos/course_development/manage_videos.rst
+   ../references/course_development/video_process_overview.rst
    ../references/course_development/troubleshoot_video.rst
-   ../references/course_development/video_guidelines.rst
-   ../how-tos/create_video.rst
-   ../how-tos/course_development/additional_video_options.rst
+   ../references/course_development/video_specifications.rst
    ../how-tos/add_video_quiz.rst
 
 .. _Control Visibility and Access:

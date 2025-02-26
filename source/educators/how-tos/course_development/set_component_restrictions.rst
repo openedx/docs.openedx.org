@@ -71,7 +71,7 @@ To specify a component's access settings, follow these steps.
 
  :ref:`About Course Components` (concept)
  
- :ref:`Manage Components` (how-to)
+ :ref:`Manage Course Components` (how-to)
 
  :ref:`Components that Contain Other Components` (reference)  
 

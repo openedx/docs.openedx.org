@@ -25,7 +25,7 @@ your course.
 
 .. seealso::
  
- :ref:`Manage Components` (how-to)
+ :ref:`Manage Course Components` (how-to)
 
  :ref:`Restrict Access to a Component` (how-to)
 
