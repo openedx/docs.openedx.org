@@ -50,7 +50,7 @@ Create an Image Mapped Input Problem in Studio
 
 #. In Studio, upload your image to the **Files & Uploads** page, and make a
    note of the file path for the image. For more information, see :ref:`Add
-   Files to a Course`.
+   Course Files`.
 #. In the unit where you want to create the problem, click **Problem**
    under **Add New Component**.
 #. In the problem editor, select **Advanced problem types**. Then select

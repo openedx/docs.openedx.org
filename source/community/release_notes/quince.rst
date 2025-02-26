@@ -36,7 +36,7 @@ To learn more about this upgrade, visit the `wiki page <https://openedx.atlassia
 Instructor Experiences
 **********************
 
-* `Copy and Paste For Course Content <https://docs.openedx.org/en/open-release-quince.master/educators/how-tos/copy_paste_course_content.html>`__
+* `Copy and Paste For Course Content <https://docs.openedx.org/en/open-release-quince.master/educators/how-tos/copy_paste_course_components.html>`__
 
 Administrators & Operators
 **************************

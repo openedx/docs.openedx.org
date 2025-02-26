@@ -25,8 +25,7 @@ configuration. For more information, see :ref:`Change Group Configuration for
 a Content Experiment`.
 
 You can move a content experiment from its current location to a different
-location in the course outline. For information, see :ref:`Reorganizing
-Components`.
+location in the course outline. For information, see :ref:`Reorganize a Component`.
 
 .. seealso::
  

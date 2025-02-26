@@ -40,7 +40,7 @@ Create a Full Screen Image
 ******************************
 
 #. Upload your image file to the **Files & Uploads** page. For more
-   information, see :ref:`Add Files to a Course`.
+   information, see :ref:`Add Course Files`.
 
 #. Under **Add New Component**, select **Text**, and then select **Full Screen
    Image Tool**.

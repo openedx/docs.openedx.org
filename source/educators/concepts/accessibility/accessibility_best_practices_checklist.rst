@@ -797,7 +797,7 @@ If you include links to third-party content in your course, be mindful of the
 accessibility of such resources. It is recommended that you evaluate third-party
 content prior to sharing it with learners.
 
-You can use the eReader tool or :ref:`Add Files to a Course <Add Files to a Course>` to incorporate
+You can use the eReader tool or :ref:`Add Course Files <Add Course Files>` to incorporate
 third-party textbooks and other publications in PDF format into your course.
 You can also incorporate such materials into your course in HTML format. See
 :ref:`Creating Accessible PDFs` for guidance on working with third-party

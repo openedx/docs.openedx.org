@@ -122,7 +122,7 @@ Leveraging Course Search with Tagging and Copy/Paste
 ****************************************************
 
 When used in tandem with :doc:`content_tagging` and
-:doc:`/educators/how-tos/copy_paste_course_content`, the search feature is a
+:doc:`/educators/how-tos/copy_paste_course_components`, the search feature is a
 powerful tool for course teams to easily find content, manage content, and reuse
 content, all contributing to authoring efficiency and velocity.
 

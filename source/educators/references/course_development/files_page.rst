@@ -138,8 +138,7 @@ To reset the list and view files of all types, clear all checkboxes.
 
 .. seealso::
  
-
- :ref:`Add Files to a Course` (how-to)
+ :ref:`Add Course Files` (how-to)
 
  `Manage Course Files <https://docs.openedx.org/en/latest/educators/how-tos/manage_files.html>`_ (how-to)
 

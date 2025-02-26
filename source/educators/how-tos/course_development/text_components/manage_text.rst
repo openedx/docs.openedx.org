@@ -306,8 +306,7 @@ Add a Link to a File
  file URLs.
 
 You can add a link in a Text component to any file that is uploaded for the
-course. For more information about uploading files, see :ref:`Add Files to a
-Course`.
+course. For more information about uploading files, see :ref:`Add Course Files`.
 
 .. note::
  Do not use this method to add images to Text components. Instead, use the
@@ -319,7 +318,7 @@ Course`.
 
   .. note::
    You must use the **Studio** URL to link to the file, not the **Web** URL.
-   For more information, see :ref:`Add Files to a Course`.
+   For more information, see :ref:`Add Course Files`.
 
 #. In the Text component where you want to add the link, select the text that
    you want to make into the link.

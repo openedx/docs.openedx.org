@@ -88,7 +88,6 @@ Add Course Assets
    ../how-tos/course_development/manage_custom_page.rst
    ../how-tos/course_development/manage_textbooks.rst
    ../how-tos/course_development/configure_resources.rst
-   ../how-tos/add_course_page.rst
    ../references/course_development/exercise_tools/google_docs.rst
    ../references/course_development/files_page.rst
    ../how-tos/course_development/enable_notes.rst
@@ -175,7 +174,7 @@ Test Your Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/testing_course_content.rst
@@ -187,18 +186,17 @@ Embed IFrames
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/exercise_tools/iframe.rst
    ../how-tos/embed_iframe_text_editor.rst
-   ../how-tos/add_content_iframe.rst
 
 Work with Content Libraries
 ***************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/navigate_library_homepage.rst
@@ -221,7 +219,7 @@ unsupported in Ulmo. Teak will include a one-click migration feature that will
 make it easy to convert a Legacy Library into the new Library interface.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
    
    ../concepts/instructional_design/libraries.rst
