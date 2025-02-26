@@ -78,7 +78,7 @@ To add a course update, follow these steps.
 Add a Course Handout
 ********************
 
-To add a course handout, you :ref:`upload a file in Studio<Add Files to a
+To add a course handout, you :ref:`upload a file in Studio<Add Course Files>`, then add an entry to a list of handouts, specifying
 Course>`, then add an entry to a list of handouts, specifying
 the URL to your uploaded file and providing a handout title.
 

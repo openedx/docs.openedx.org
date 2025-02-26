@@ -98,7 +98,7 @@ Delete a Chapter
 .. seealso::
  
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
 **Maintenance chart**
 

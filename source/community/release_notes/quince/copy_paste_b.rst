@@ -45,6 +45,6 @@ Units copied from the Unit Page into the Course Outline, and vice versa.
 
    .. image:: /_images/release_notes/quince/copy_paste_b4.png
 
-Be sure to see the How-To guide on :doc:`/educators/how-tos/copy_paste_course_content`.
+Be sure to see the How-To guide on :doc:`/educators/how-tos/copy_paste_course_components`.
 
 Copy & Paste for both components and units are available in the Open edX Quince Release.

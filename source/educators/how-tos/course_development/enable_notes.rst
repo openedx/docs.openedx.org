@@ -30,7 +30,7 @@ To disable or enable the Notes application, follow these steps.
  
  :ref:`Enable Calculator` (how to)
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
  :ref:`Add Custom Page` (how to)
 

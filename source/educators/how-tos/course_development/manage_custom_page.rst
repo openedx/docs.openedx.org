@@ -95,7 +95,7 @@ If you delete a page after the course start date, note that the visibility of th
  
  :ref:`Enable Calculator` (how to)
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
  :ref:`Reordering and deleting custom pages` (how to)
  

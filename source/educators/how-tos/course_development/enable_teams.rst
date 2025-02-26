@@ -32,7 +32,7 @@ Additional configuration for the Teams application can be found at :ref:`Teams C
  
  :ref:`Enable Calculator` (how to)
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
  :ref:`Add Custom Page` (how to)
 

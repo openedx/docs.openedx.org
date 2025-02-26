@@ -22,8 +22,7 @@ cohort that they belong to.
 For details about how to modify unit access settings, see :ref:`Set Access
 Restrictions For a Unit`.
 
-For details about how to modify component access settings, see :ref:`Set Access
-Restrictions For a Component`.
+For details about how to modify component access settings, see :ref:`Restrict Access to a Component`.
 
 For details about previewing your course to ensure that learners in a cohort
 correctly see the content intended for them, see :ref:`View Usage of a Content

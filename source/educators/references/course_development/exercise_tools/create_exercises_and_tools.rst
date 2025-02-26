@@ -287,7 +287,7 @@ tools available in Studio. For more information, see
        participating in course discussions), and gives them a way to indicate
        to both themselves and course staff that they completed an activity.
      - Not supported
-   * - :ref:`Full Screen Image`
+   * - :ref:`Full Screen Image<Manage the Full Screen Image Tool>`
      - Learners can enlarge an image in the entire browser window. This tool is
        useful for detailed images that are easier to view when enlarged.
      - Not supported

@@ -32,8 +32,8 @@ To create a drag and drop problem, follow these steps.
 
    * Specify a background image in the **Background URL** field. Enter the URL
      of a file you have added to your course or the URL of an image on the web.
-     For more information about working with course files, see :ref:`Add Files
-     to a Course`.  For more information about background images, see
+     For more information about working with course files, see :ref:`Add Course
+     Files`.  For more information about background images, see
      :ref:`drag_and_drop_background_images`.
 
      Select **Change background** after you enter the URL for your background

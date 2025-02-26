@@ -34,8 +34,8 @@ Create a Zooming Image Tool
 
 #. In Studio, select **Content** and then select **Files & Uploads** to upload
    your regular-sized image file and, optionally, your large image file. For
-   more information about uploading files for your course, see :ref:`Add Files
-   to a Course`.
+   more information about uploading files for your course, see :ref:`Add Course
+   Files`.
 
 #. Add a zooming image tool to your course. In the course outline in Studio,
    select **Add New Component**, select **Text**, and then select **Zooming
@@ -78,7 +78,7 @@ Create a Zooming Image Tool
 .. seealso::
  
 
- :ref:`Add Files to a Course` (how-to)
+ :ref:`Add Course Files` (how-to)
 
  :ref:`Image Mapped Input` (reference)
 

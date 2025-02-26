@@ -1,10 +1,10 @@
 .. _IFrame:
 
-###########
-Iframe Tool
-###########
+########################
+About the Iframe Tool
+########################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 The iframe tool allows you to integrate ungraded exercises and tools from any
 Internet site into the body of your course. It places an iframe inside an HTML
