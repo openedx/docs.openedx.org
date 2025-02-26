@@ -1,8 +1,8 @@
 .. _Testing Your Course Content:
 
-###########################
-Testing Your Course Content
-###########################
+#########################################
+Guide to Testing Your Course Content
+#########################################
 
 .. tags:: educator, reference
 
@@ -101,10 +101,9 @@ When you use **Staff** view in preview mode, you also see any content that is
 
 .. seealso::
  
-
  :ref:`Roles for Viewing Course Content` (reference)
 
- :ref:`How to View Published and Released Content` (how-to)
+ :ref:`View Published and Released Content` (how-to)
 
  :ref:`Preview Draft Content` (how-to)
 

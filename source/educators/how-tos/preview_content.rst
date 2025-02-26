@@ -1,5 +1,6 @@
 .. _Preview Draft Content:
 
+########################
 Preview Draft Content
 #######################
 
@@ -26,13 +27,12 @@ configured in Studio, and as a learner in the selected group would see it.
    live course, see :ref:`Specific Student View`.
 
 .. seealso::
- 
 
  :ref:`Testing Your Course Content` (reference)
-
+ 
  :ref:`Roles for Viewing Course Content` (reference)
 
- :ref:`How to View Published and Released Content` (how-to)
+ :ref:`View Published and Released Content` (how-to)
 
 
 
