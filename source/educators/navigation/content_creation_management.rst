@@ -55,7 +55,7 @@ Manage Video Components
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/guide_to_video.rst
@@ -71,7 +71,7 @@ Control Content Visibility & Access
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/controlling_content_visibility.rst
