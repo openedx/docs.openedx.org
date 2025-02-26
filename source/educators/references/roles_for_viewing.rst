@@ -1,7 +1,7 @@
 .. _Roles for Viewing Course Content:
 
 #####################################
-Viewing Course Content Based on Roles
+Guide to Role-Specific Course Views
 #####################################
 
 .. tags:: educator, reference
@@ -177,11 +177,12 @@ previewing enrollment track based content, see :ref:`About Enrollment Track
 Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
 
 .. seealso::
- 
-
- :ref:`Create Cohort Specific Course Content` (how-to)
 
  :ref:`Testing Your Course Content` (reference)
+
+ :ref:`View Published and Released Content` (how-to)
+
+ :ref:`Preview Draft Content` (how-to)
  
 
 

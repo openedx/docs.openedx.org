@@ -142,7 +142,7 @@ Google Drive Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/embed_google_drive.rst
@@ -153,7 +153,7 @@ iFrame Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/create_iframe.rst
@@ -163,7 +163,7 @@ Re-run a Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/course_export_terminology.rst
