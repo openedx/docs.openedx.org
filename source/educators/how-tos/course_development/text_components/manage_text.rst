@@ -409,7 +409,7 @@ Visual and Raw editor types once selected.
 
  :ref:`Work with HTML code` (how-to)
 
- :ref:`Work with the Full Screen Image Tool` (how-to)
+ :ref:`Manage the Full Screen Image Tool` (how-to)
 
  :ref:`Work with Latex Code` (how-to)
 

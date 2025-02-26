@@ -234,7 +234,7 @@ Numerical Input Problem
    ../how-tos/course_development/exercise_tools/award_partial_credit_numerical_input.rst
    ../how-tos/course_development/exercise_tools/adding_text_in_numeric_response_field.rst
    ../how-tos/course_development/exercise_tools/create_problem_in_latex.rst
-   ../how-tos/course_development/text_components/work_with_latex.rst
+   ../how-tos/course_development/text_components/manage_latex.rst
 
 .. _Nav Open Response Assessments:
 

@@ -4,7 +4,7 @@
 Video Process Overview
 ####################################
 
-.. tags:: educator, how-to
+.. tags:: educator, reference
 
 The following diagram outlines the general process for adding videos to a course.
 
@@ -12,11 +12,11 @@ The following diagram outlines the general process for adding videos to a course
   :alt: The process for adding videos to a course, as outlined in the following
       numbered steps.
 
-#. The course team :ref:`prepares to add videos to the course <Video Guidelines>`. These steps can happen simultaneously.
+#. The course team :ref:`prepares to add videos to the course <Video Technical Specifications>`. These steps can happen simultaneously.
 
    * The course team determines a hosting service to host the course videos. A common choice is YouTube, but the Open edX video player can also play videos hosted from other services, as long as the file has a valid MIME type (.mp4, .mpeg, .webm). See :ref:`third party hosting <Set Up a Hosting Service>` for more details.
 
-   * The course team creates the videos. See :ref:`Video Guidelines` for common guidance.
+   * The course team creates the videos. See :ref:`Video Technical Specifications` for common guidance.
 
    * The course team obtains video transcripts.
 
@@ -29,17 +29,14 @@ The following diagram outlines the general process for adding videos to a course
    the video component. 
 
 .. seealso::
-  
 
-  :ref:`Introduction to Video` (reference)
+  :ref:`Guide to Course Video` (how-to)
 
-  :ref:`Add a Video` (how-to)
+  :ref:`Manage Video Components` (how-to)
 
   :ref:`Troubleshoot Videos` (reference)
 
-  :ref:`Create a Video` (how-to)
-
-  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+  :ref:`Video Technical Specifications` (how-to)
 
   :ref:`Add an In Video Quiz` (how-to)
 

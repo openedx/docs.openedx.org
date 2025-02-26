@@ -33,17 +33,14 @@ When you use video, you might experience one of the following problems.
   settings.
 
 .. seealso::
-  
 
-  :ref:`Video Process Overview` (how-to)
+  :ref:`Guide to Course Video` (how-to)
 
-  :ref:`Introduction to Video` (reference)
+  :ref:`Manage Video Components` (how-to)
 
-  :ref:`Add a Video` (how-to)
+  :ref:`Video Process Overview` (reference)
 
-  :ref:`Create a Video` (how-to)
-
-  :ref:`Specifying Additional Video Options <Additional Video Options>` (how-to)
+  :ref:`Video Technical Specifications` (how-to)
 
   :ref:`Add an In Video Quiz` (how-to)
 
