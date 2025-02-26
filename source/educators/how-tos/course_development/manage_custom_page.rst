@@ -1,9 +1,22 @@
-.. _Add Custom Page:
+.. _Manage Custom Pages:
 
-Add Custom Page Resources
+#############################
+Manage Custom Pages
 #############################
 
 .. tags:: educator, how-to
+
+.. contents::
+  :local:
+  :depth: 1
+
+.. _Add Custom Page:
+
+************************************
+Add Custom Page Resources
+************************************
+
+.. youtube:: vIR9auBmiFU
 
 You can customize your course by adding pages. Each page that you add appears in the navigation
 bar for your course. When you add a page, you add its content using an HTML editor.
@@ -46,7 +59,28 @@ To add a custom page and its content to your course, follow these steps.
 
 The new page is immediately available to the specified audience if the course has started.
 
-For details on reordering course pages, see additional detail in :ref:`Reordering and deleting custom pages`.
+.. _Reordering and deleting custom pages:
+
+************************************
+Reorder and Delete Custom Pages
+************************************
+
+You can reorder the custom pages in your course in the same way that you :ref:`reorganize the course outline<Reorganize the Course Outline>`:
+you drag a page to a different location in the list of pages and drop it there.
+
+.. note:: All default course pages (Course, Progress, Dates, Discussion) and optional course applications (Notes, Teams, Wiki) appear in the navigation before any configured custom page resources. If you have configured any textbook resources, these are listed after custom pages.
+
+To reorder the pages, follow these steps.
+
+#. In Studio, from the **Content** menu select **Pages & Resources**.
+#. Select the **Custom Pages** card on this page.
+#. On the list of pages, each page that you can move includes a Drag to reorder icon.
+#. Move your pointer over the Drag to reorder icon for the page. Your pointer changes to a four-headed arrow.
+#. Click and drag the page to the new location, and then release.
+
+You can also delete a custom page from your course using the delete icon shown on each custom page from the **Custom Pages** Studio page.
+If you delete a page after the course start date, note that the visibility of the page in the learner experience changes immediately.
+
 
 .. seealso::
  
@@ -67,7 +101,7 @@ For details on reordering course pages, see additional detail in :ref:`Reorderin
  
  :ref:`Configure Resources` (how to)
 
- :ref:`Adding Textbooks` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
 
 **Maintenance chart**

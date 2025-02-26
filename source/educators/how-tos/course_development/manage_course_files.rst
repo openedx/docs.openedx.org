@@ -1,10 +1,21 @@
-.. _Add Files to a Course:
 
-########################
-Adding Files to a Course
-########################
+##############################
+Manage Course Files
+##############################
 
 .. tags:: educator, how-to
+
+.. contents::
+  :local:
+  :depth: 1
+
+.. _Add Course Files:
+
+**********************
+Add Course Files
+**********************
+
+.. youtube:: CaSbi09YpJU
 
 Adding files, such as images, that you can use in your course has the following
 steps.
@@ -23,16 +34,12 @@ steps.
 
 For more information, see the following topics.
 
-.. contents::
-  :local:
-  :depth: 1
-
 
 .. _Upload a File:
 
-************
+**********************
 Upload Files
-************
+**********************
 
 .. note::
   Ensure that you obtain copyright permissions for files and images you upload
@@ -62,9 +69,9 @@ The **Files** page refreshes to show the uploaded file or files.
 
 .. _File URLs:
 
-*************************************************
+******************************************************************
 Use an Uploaded File Inside or Outside the Course
-*************************************************
+******************************************************************
 
 When you upload a file, Studio assigns a Studio URL and a web URL to the file.
 These URLs are found within the three dot menu or the info modal. To use an
@@ -78,9 +85,9 @@ uploaded file, you add a link to the Studio URL or the web URL in your content.
 
 .. _Add a File or Image Inside the Course:
 
-=====================================
+********************************************
 Add a File or Image Inside the Course
-=====================================
+********************************************
 
 To add a file or image inside the course, such as to a component, a course
 update, or a course handout, follow these steps:
@@ -93,9 +100,9 @@ For more information, see :ref:`Add an Image to a Text Component`.
 
 .. _Add a File or Image Outside the Course:
 
-======================================
+********************************************
 Add a File or Image Outside the Course
-======================================
+********************************************
 
 To add a file or image outside the course, such as to a bulk email message that
 you send from the LMS, follow these steps.

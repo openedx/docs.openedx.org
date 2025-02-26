@@ -1,7 +1,7 @@
-.. _Adding Textbooks:
+.. _Add Course Textbooks:
 
-Textbooks
-#############
+Add Course Textbooks
+######################
 
 .. tags:: educator, how-to
 
@@ -30,7 +30,9 @@ Add a Textbook
 
 #. Prepare PDFs of your textbook on your computer.
 
-#. On the **Content** menu, select **Textbooks**.
+#. On the **Content** menu, select **Pages & Resources**.
+
+#. Select the **Textbooks** card on this page.
 
 #. Select either **Add your first textbook** or **New Textbook**.
 

@@ -1,7 +1,8 @@
 .. _The Files Page:
 
-The Files Page
-################
+#########################
+Guide to the Files Page
+#########################
 
 .. tags:: educator, reference
 
