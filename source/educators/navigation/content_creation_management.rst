@@ -81,30 +81,26 @@ Add Course Assets
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/add_course_files.rst
-   ../how-tos/course_development/add_pages.rst
-   ../how-tos/course_development/add_textbooks.rst
+   ../how-tos/course_development/manage_course_files.rst
+   ../how-tos/course_development/manage_custom_page.rst
+   ../how-tos/course_development/manage_textbooks.rst
    ../how-tos/course_development/configure_resources.rst
    ../how-tos/add_course_page.rst
    ../references/course_development/exercise_tools/google_docs.rst
    ../references/course_development/files_page.rst
-   ../how-tos/manage_files.rst
    ../how-tos/course_development/enable_notes.rst
    ../how-tos/course_development/enable_teams.rst
    ../how-tos/course_development/enable_wiki.rst
    ../how-tos/course_development/enable_calculator.rst
-   ../how-tos/course_development/add_custom_page.rst
-   ../how-tos/course_development/enable_textbook.rst
-   ../how-tos/course_development/reorder_deleting_custom_pages.rst
 
 Add Mathjax
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/exercise_tools/mathjax_studio.rst
@@ -114,7 +110,7 @@ Add Tags
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/exercise_tools/conditional_module.rst
@@ -124,7 +120,7 @@ Embed SCORM Content
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../references/course_development/exercise_tools/SCORM_overview.rst
@@ -136,7 +132,7 @@ Google Calendar Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/embed_google_calendar.rst

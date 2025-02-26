@@ -40,7 +40,7 @@ Additional configuration for the Teams application can be found at :ref:`Teams C
  
  :ref:`Configure Resources` (how to)
 
- :ref:`Adding Textbooks` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
 
 **Maintenance chart**
