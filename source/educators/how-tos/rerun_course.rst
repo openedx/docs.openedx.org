@@ -164,7 +164,7 @@ who enroll in the new course run.
 * If your course uses prerequisite course subsections to hide course
   subsections until learners complete other, prerequisite subsections,
   configure the prerequisite course subsections. See
-  :ref:`configuring_prerequisite_content`.
+  :ref:`Manage Subsection Prerequisites`.
 
 * If your course includes instructions for learners, verify that the
   instructions reflect the current user interface of the LMS.

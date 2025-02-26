@@ -85,7 +85,7 @@ Course content visibility depends on the following factors.
 * The :ref:`course start date <Set Start and End Dates>`.
 * The release dates of the :ref:`section<Set a Section Release Date>` and
   :ref:`subsection<Set a Subsection Release Date>`.
-* The :ref:`prerequisite subsections<configuring_prerequisite_content>` that
+* The :ref:`prerequisite subsections<Manage Subsection Prerequisites>` that
   you configure.
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit.
 * The :ref:`Hide content from learners<Hide a Unit from Students>` setting.

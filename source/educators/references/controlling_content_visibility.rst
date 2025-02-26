@@ -1,8 +1,8 @@
 .. _Controlling Content Visibility:
 
-#########################################
-Controlling Content Visibility and Access
-#########################################
+#########################################################
+Guide to Controlling Content Visibility and Access
+#########################################################
 
 .. tags:: educator, reference
 
@@ -200,7 +200,7 @@ track, see :ref:`Enrollment Track Specific Courseware Overview`.
 .. seealso::
   
 
-  :ref:`Prerequisite Course Subsections <configuring_prerequisite_content>` (how-to)
+  :ref:`Prerequisite Course Subsections <Manage Subsection Prerequisites>` (how-to)
 
 **Maintenance chart**
 

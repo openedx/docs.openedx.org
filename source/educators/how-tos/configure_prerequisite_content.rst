@@ -1,7 +1,7 @@
-.. _configuring_prerequisite_content:
+.. _Manage Subsection Prerequisites:
 
 ################################
-Prerequisite Course Subsections
+Manage Subsection Prerequisites
 ################################
 
 .. tags:: educator, how-to
