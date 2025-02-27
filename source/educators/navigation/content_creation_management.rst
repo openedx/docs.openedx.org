@@ -137,31 +137,6 @@ Google Drive Tool
    ../how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
    ../how-tos/course_development/exercise_tools/add_google_drive.rst
 
-
-Re-run a Course
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../references/course_development/course_export_terminology.rst
-   ../references/course_development/work_with_targz_file.rst
-
-
-
-Test Your Course
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../references/testing_course_content.rst
-   ../references/roles_for_viewing.rst
-   ../how-tos/view_published_released_content.rst
-   ../how-tos/preview_content.rst
-
 Embed IFrames
 *******************************************************
 
@@ -213,3 +188,27 @@ make it easy to convert a Legacy Library into the new Library interface.
    ../how-tos/course_development/library_access.rst
    ../how-tos/course_development/export_import_library.rst
    ../how-tos/leveraging_libraries.rst
+
+Re-run a Course
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../references/course_development/course_export_terminology.rst
+   ../references/course_development/work_with_targz_file.rst
+
+
+
+Test Your Course
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../references/testing_course_content.rst
+   ../references/roles_for_viewing.rst
+   ../how-tos/view_published_released_content.rst
+   ../how-tos/preview_content.rst
