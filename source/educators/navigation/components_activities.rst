@@ -11,24 +11,24 @@ The Open edX® Problem Component
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/create_exercises.rst
-   ../references/course_development/exercise_tools/create_exercises_and_tools.rst
-   ../references/course_development/create_problem.rst
+   ../concepts/exercise_tools/about_problems_exercises_tools.rst
+   ../references/course_development/exercise_tools/guide_problem_types.rst
+   ../references/course_development/working_with_problem_components.rst
    ../references/course_development/problem_settings.rst
    ../references/grading/gradebook_assignment_types.rst
    ../concepts/instructional_design/feedback_best_practices.rst
-   ../references/course_development/exercise_tools/Section_adding_hints.rst
-   ../how-tos/course_development/Subsection_configure_hints.rst
+   ../references/course_development/exercise_tools/adding_hints
+   ../how-tos/course_development/configure_hints.rst
    ../references/course_development/Section_partial_credit.rst
    ../how-tos/course_development/set_subsection_problem_date.rst
-   ../references/course_development/Section_adding_tooltip.rst
+   ../references/course_development/adding_tooltips.rst
    ../references/course_development/advanced_problem_editor.rst
    ../how-tos/course_development/exercise_tools/add_hints_advanced_editor.rst
    ../references/course_development/modifying_released_problem.rst
-   ../references/course_development/Section_learner_problem_view.rst
+   ../references/course_development/learner_problem_view.rst
    ../how-tos/course_development/exercise_tools/add_unsupported_problem_types.rst
 
 Chemical Equation Problem

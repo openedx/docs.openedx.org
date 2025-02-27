@@ -41,10 +41,35 @@ tooltips.
 
 .. seealso::
  
+:ref:`About Problems Exercises and Tools` (concept)
 
- :ref:`Adding Feedback and Hints to a Problem` (reference)
+:ref:`Core Problem Types` (reference)
 
- :ref:`Accessibility Best Practices Checklist` (reference)
+:ref:`Working with Problem Components` (reference)
+
+:ref:`Guide to Problem Settings` (reference)
+
+:ref:`Gradebook Assignment Types` (reference)
+
+:ref:`Feedback Best Practices` (concept)
+
+:ref:`Adding Feedback and Hints to a Problem` (reference)
+
+:ref:`Configure Hint` (how-to)
+
+:ref:`Partial Credit` (reference)
+
+:ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+
+:ref:`Learner View of Problems` (reference)
+
+:ref:`Advanced Editor` (reference)
+
+:ref:`Add Hints via the Advanced Editor` (how-to)
+
+:ref:`Modifying a Released Problem:` (reference)
+
+:ref:`Add Unsupported Exercises Problems` (how-to)
 
 **Maintenance chart**
 

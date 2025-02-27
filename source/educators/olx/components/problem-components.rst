@@ -66,7 +66,7 @@ For more information, see :ref:`Grading Policy`.
 
 .. _Problem Student View:
 
-.. include:: /educators/references/course_development/Section_learner_problem_view.rst
+.. include:: /educators/references/course_development/learner_problem_view.rst
   :start-after: .. START LEARNER VIEW OF PROBLEM
   :end-before: .. END LEARNER VIEW OF PROBLEM
 
@@ -269,7 +269,7 @@ the answers for all the problems in the component appear.
   than one problem. Each custom JavaScript problem must be in its own
   component.
 
-.. include:: /educators/references/course_development/exercise_tools/Section_adding_hints.rst
+.. include:: /educators/references/course_development/exercise_tools/adding_hints
   :start-after: .. START ADDING FEEDBACK AND HINTS
   :end-before: .. END ADDING FEEDBACK AND HINTS
 
@@ -312,6 +312,6 @@ content blocks, which randomly draw problems from pools of problems stored in
 content libraries. For more information, see
 :ref:`Randomized Content Blocks`.
 
-.. include:: /educators/references/course_development/Section_adding_tooltip.rst
+.. include:: /educators/references/course_development/adding_tooltips.rst
   :start-after: .. START ADDING TOOLTIPS
   :end-before: .. END ADDING TOOLTIPS

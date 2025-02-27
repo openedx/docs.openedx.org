@@ -415,7 +415,7 @@ E
   Practice or practical problems that are interspersed in edX course content
   to keep learners engaged. Exercises are also an important measure of
   teaching effectiveness and learner comprehension. For more information, see
-  :ref:`Create Exercises`.
+  :ref:`About Problems Exercises and Tools`.
 
 
 .. _Export:

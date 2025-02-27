@@ -1,7 +1,7 @@
-.. _Create Exercises:
+.. _About Problems Exercises and Tools:
 
-Problems, Exercises, and Tools
-##############################
+About Problems, Exercises, and Tools
+####################################
 
 .. tags:: educator, concept
 
@@ -38,11 +38,36 @@ The topics in this section introduce the core set of problem types and a
 selection of other exercises and tools that you can add to your course.
 
 .. seealso::
- 
 
- :ref:`Core Problem Types` (reference)
+:ref:`Core Problem Types` (reference)
 
- :ref:`Enable Additional Exercises and Tools` (how-to)
+:ref:`Working with Problem Components` (reference)
+
+:ref:`Guide to Problem Settings` (reference)
+
+:ref:`Gradebook Assignment Types` (reference)
+
+:ref:`Feedback Best Practices` (concept)
+
+:ref:`Adding Feedback and Hints to a Problem` (reference)
+
+:ref:`Configure Hint` (how-to)
+
+:ref:`Partial Credit` (reference)
+
+:ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+
+:ref:`Adding Tooltips` (reference)
+
+:ref:`Learner View of Problems` (reference)
+
+:ref:`Advanced Editor` (reference)
+
+:ref:`Add Hints via the Advanced Editor` (how-to)
+
+:ref:`Modifying a Released Problem:` (reference)
+
+:ref:`Add Unsupported Exercises Problems` (how-to)
 
 
 **Maintenance chart**

@@ -71,7 +71,7 @@ To enable an advanced exercise or tool, follow these steps.
 
  :ref:`Core Problem Types` (reference)
 
- :ref:`Create Exercises` (concept)
+ :ref:`About Problems Exercises and Tools` (concept)
 
 
 **Maintenance chart**

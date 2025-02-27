@@ -84,14 +84,35 @@ You configure the following fields for each assignment type.
 
 .. seealso::
  
+:ref:`About Problems Exercises and Tools` (concept)
 
- :ref:`Graded Subsections` (concept)
+:ref:`Core Problem Types` (reference)
 
- :ref:`The Learner View of Grades` (reference)
+:ref:`Working with Problem Components` (reference)
 
- :ref:`Set the Grade Range` (how-to)
+:ref:`Guide to Problem Settings` (reference)
 
- :ref:`Set the Grace Period` (how-to)
+:ref:`Feedback Best Practices` (concept)
+
+:ref:`Adding Feedback and Hints to a Problem` (reference)
+
+:ref:`Configure Hint` (how-to)
+
+:ref:`Partial Credit` (reference)
+
+:ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+
+:ref:`Adding Tooltips` (reference)
+
+:ref:`Learner View of Problems` (reference)
+
+:ref:`Advanced Editor` (reference)
+
+:ref:`Add Hints via the Advanced Editor` (how-to)
+
+:ref:`Modifying a Released Problem:` (reference)
+
+:ref:`Add Unsupported Exercises Problems` (how-to)
 
 
 **Maintenance chart**

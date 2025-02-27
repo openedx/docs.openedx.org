@@ -145,13 +145,35 @@ hints for learners.
 
 .. seealso::
  
+:ref:`About Problems Exercises and Tools` (concept)
 
- :ref:`Adding Hints via the Advanced Editor` (how-to)
- 
- :ref:`Use Hints in a Dropdown Problem` (how-to)
+:ref:`Core Problem Types` (reference)
 
- :ref:`Problem Settings` (reference)
+:ref:`Working with Problem Components` (reference)
 
+:ref:`Guide to Problem Settings` (reference)
+
+:ref:`Gradebook Assignment Types` (reference)
+
+:ref:`Feedback Best Practices` (concept)
+
+:ref:`Adding Feedback and Hints to a Problem` (reference)
+
+:ref:`Partial Credit` (reference)
+
+:ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+
+:ref:`Adding Tooltips` (reference)
+
+:ref:`Learner View of Problems` (reference)
+
+:ref:`Advanced Editor` (reference)
+
+:ref:`Add Hints via the Advanced Editor` (how-to)
+
+:ref:`Modifying a Released Problem:` (reference)
+
+:ref:`Add Unsupported Exercises Problems` (how-to)
 
 **Maintenance chart**
 
