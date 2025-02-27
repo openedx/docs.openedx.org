@@ -1,7 +1,7 @@
-.. _SCORM XBlock:
+.. _Manage SCORM Content:
 
-SCORM
-######
+Manage SCORM Content
+####################
 
 .. tags:: educator, how-to
 
@@ -20,8 +20,10 @@ include the quotation marks around the key value.) For more information, see
 .. image:: /_images/educator_how_tos/AdvancedModuleListScorm.png
   :alt: Advanced Module List with "scorm" added.
 
-Adding a SCORM component to a Unit
+Add a SCORM component to a Unit
 **********************************
+
+.. youtube:: 32LgmaDhu6o
 
 #. In a unit where you want the SCORM content to display, click on the ``Advanced`` Icon.
 
