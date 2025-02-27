@@ -34,7 +34,7 @@ On the **Programs** page, you can perform the following actions.
 .. seealso::
  
 
- :ref:`What is the Course Dashboard` (concept)
+ :ref:`About the Course Dashboard` (concept)
 
  :ref:`What is LMS` (concept)
 
@@ -42,7 +42,7 @@ On the **Programs** page, you can perform the following actions.
 
  :ref:`About the Course Outline` (concept)
 
- :ref:`What is the User Profile Page` (concept)
+ :ref:`About the User Profile Page` (concept)
 
 **Maintenance chart**
 

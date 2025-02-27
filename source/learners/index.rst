@@ -30,3 +30,33 @@ Open edX Learner's Guide
    SFD_wiki
    SFD_licensing
    front_matter/read_me
+
+.. _Explore Your Dashboard and Profile:
+
+Explore Your Dashboard and Profile
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   concepts/open_edx_platform/what_is_course_dashboard.rst
+   how-tos/share_courses_social_media.rst
+   concepts/open_edx_platform/what_is_profile_page.rst
+   how-tos/add_update_limited_profile.rst
+   how-tos/add_update_full_profile.rst
+   how-tos/add_links_to_social_media_accounts.rst
+   how-tos/view_another_learners_profile.rst
+   how-tos/update_course_specific_settings.rst
+
+
+.. _Resources for Students:
+
+Resources for Students 
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   references/resources_for_learners.rst

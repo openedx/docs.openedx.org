@@ -3,7 +3,7 @@
 View Another Learner's Profile
 ##############################
 
-.. tags:: educator, how-to
+.. tags:: learner, how-to
 
 You can view other learners' profiles through their posts, responses, or
 comments in course discussions.
@@ -21,17 +21,17 @@ The learner's account profile page opens.
 .. seealso::
  
 
- :ref:`What is the Course Dashboard` (concept)
+ :ref:`About the Course Dashboard` (concept)
 
- :ref:`Sharing Your Courses on Social Media` (how-to)
+ :ref:`Share Your Courses on Social Media` (how-to)
  
- :ref:`What is the User Profile Page` (concept)
+ :ref:`About the User Profile Page` (concept)
  
  :ref:`Add or Update a Limited Profile` (how-to)
  
  :ref:`Add or Update a Full Profile` (how-to)
 
- :ref:`Updating Course-Specific Settings` (how-to)
+ :ref:`Update Course-Specific Settings` (how-to)
  
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
 
