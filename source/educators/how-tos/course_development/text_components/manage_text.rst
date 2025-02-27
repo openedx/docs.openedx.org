@@ -1,5 +1,6 @@
 .. _Work with the Text Editor:
 
+#########################
 Work with the Text Editor
 #########################
 
@@ -205,9 +206,9 @@ the **Width** and **Height** fields.
 
 .. _Add a Link in a Text Component:
 
-#############################################
+**************************************
 Add a Link in a Text Component
-#############################################
+**************************************
 
 When you use the visual editor, to add a link to a website, course unit, or
 file in a Text component, you work with the **Insert link** dialog box.
@@ -381,6 +382,7 @@ However, if you select “Remove formatting”, this is what Studio and LMS will
 
 .. _Text Component Templates:
 
+**************************
 Text Component Templates
 **************************
 

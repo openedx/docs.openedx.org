@@ -94,7 +94,7 @@ Adding Live Sessions
 
    ../how-tos/course_development/add_course_live.rst
 
-Google Calendar Tool
+Embed a Google Calendar
 *******************************************************
 
 .. toctree::
@@ -102,6 +102,7 @@ Google Calendar Tool
    :glob:
 
    ../references/course_development/exercise_tools/google_calendar.rst
+   ../how-tos/course_development/exercise_tools/embed_google_calendar.rst
 
 Learner View
 *******************************************************

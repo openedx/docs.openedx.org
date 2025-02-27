@@ -1,10 +1,10 @@
 .. _Google Drive Files Tool:
 
-########################
-Google Drive Files Tool
-########################
+##################################
+About the Google Drive Files Tool
+##################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 This topic describes how to embed Google Drive files, such as documents,
 spreadsheets, and images, in your course.
@@ -50,9 +50,8 @@ learners see the updates immediately. You make changes to files with the
 Google user interface. You do not need to edit the Google Document component.
 
 .. seealso::
- 
 
- :ref:`Embed Google Drive Files` (how to)
+ :ref:`Enable the Google Drive Files Tool` (how to)
 
  :ref:`Add a Google Drive File to Your Course` (how to)
 

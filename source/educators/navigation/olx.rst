@@ -137,8 +137,8 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/dropdown_problem_xml.rst
    /educators/how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    /educators/references/course_development/exercise_tools/gene_explorer.rst
-   /educators/how-tos/course_development/exercise_tools/embed_google_calendar.rst
-   /educators/references/course_development/exercise_tools/google_docs.rst
+   /educators/how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
+   /educators/how-tos/course_development/exercise_tools/add_google_drive.rst
    /educators/how-tos/course_development/exercise_tools/create_iframe.rst
    /educators/references/course_development/exercise_tools/image_mapped_input_xml.rst
    /educators/references/course_development/exercise_tools/lti_component.rst
