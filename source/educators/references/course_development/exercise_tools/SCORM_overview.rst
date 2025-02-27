@@ -9,7 +9,7 @@ Overview
 
 .. tags:: educator, reference
 
-The :ref:`SCORM XBlock` provides the ability to display SCORM content within the Open edX LMS and Studio.
+The :ref:`SCORM XBlock<Manage SCORM Content>` provides the ability to display SCORM content within the Open edX LMS and Studio.
 It can save a learners state and report scores to the progress tab of the course.
 It currently supports SCORM 1.2 and SCORM 2004 standard.
 
@@ -45,8 +45,7 @@ There are 2 events a SCORM package can emit in order to communicate with the Ope
 
 .. seealso::
  
-
- :ref:`SCORM XBlock` (how to)
+ :ref:`Manage SCORM Content` (how to)
 
 **Maintenance chart**
 

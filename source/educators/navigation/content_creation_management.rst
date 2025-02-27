@@ -115,7 +115,7 @@ Add Tags
    ../references/course_development/exercise_tools/conditional_module.rst
 
 
-Embed SCORM Content
+Manage SCORM Content
 *******************************************************
 
 .. toctree::
@@ -124,10 +124,9 @@ Embed SCORM Content
 
    ../references/course_development/exercise_tools/SCORM_overview.rst
    ../how-tos/course_development/exercise_tools/add_scorm_xblock.rst
-   ../how-tos/import_scorm_content.rst
 
 
-Google Calendar Tool
+Embed a Google Calendar
 *******************************************************
 
 .. toctree::
