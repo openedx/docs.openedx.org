@@ -88,7 +88,6 @@ Add Course Assets
    ../how-tos/course_development/manage_custom_page.rst
    ../how-tos/course_development/manage_textbooks.rst
    ../how-tos/course_development/configure_resources.rst
-   ../references/course_development/exercise_tools/google_docs.rst
    ../references/course_development/files_page.rst
    ../how-tos/course_development/enable_notes.rst
    ../how-tos/course_development/enable_teams.rst
@@ -123,17 +122,7 @@ Manage SCORM Content
    :glob:
 
    ../references/course_development/exercise_tools/SCORM_overview.rst
-   ../how-tos/course_development/exercise_tools/add_scorm_xblock.rst
-
-
-Embed a Google Calendar
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../how-tos/course_development/exercise_tools/embed_google_calendar.rst
+   ../how-tos/course_development/exercise_tools/manage_scorm_content.rst
 
 
 Google Drive Tool
@@ -143,18 +132,10 @@ Google Drive Tool
    :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/exercise_tools/embed_google_drive.rst
+
+   ../concepts/exercise_tools/about_google_drive.rst
+   ../how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
    ../how-tos/course_development/exercise_tools/add_google_drive.rst
-
-
-iFrame Tool
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../how-tos/course_development/exercise_tools/create_iframe.rst
 
 
 Re-run a Course
@@ -189,6 +170,7 @@ Embed IFrames
    :glob:
 
    ../references/course_development/exercise_tools/iframe.rst
+   ../how-tos/course_development/exercise_tools/create_iframe.rst
    ../how-tos/embed_iframe_text_editor.rst
 
 Work with Content Libraries

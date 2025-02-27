@@ -130,7 +130,7 @@ Google Drive Tool
    :maxdepth: 2
    :glob:
 
-   ../how-tos/course_development/exercise_tools/embed_google_drive.rst
+   ../how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
    ../how-tos/course_development/exercise_tools/add_google_drive.rst
 
 
