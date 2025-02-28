@@ -188,16 +188,16 @@ tools that you can add to your course.
        question then see a different block of text from the learners who answer
        "No" to that question.
      - Provisional support
-   * - :ref:`drag_and_drop_problem`
+   * - :ref:`Drag and Drop Problem<About the Drag and Drop Problem>`
      - Learners respond to a question by dragging text or objects to a specific
        location on an image.
      - Full support; mobile-ready
-   * - :ref:`Drag and Drop`
+   * - :ref:`Guide to the Drag and Drop Problem`
      - Learners respond to a question by dragging text or objects to a specific
        location on an image. This version of the drag and drop problem type is
        deprecated and should not be added to a course. For more information
        about the fully supported drag and drop problem type, see
-       :ref:`drag_and_drop_problem`.
+       :ref:`About the Drag and Drop Problem`.
      - Not supported
    * - :ref:`External Grader`
      - An external grader is a service that receives learner responses to a
@@ -342,7 +342,7 @@ Mobile-Ready Problem Types
 Learners can read and submit answers for the following types of problems while
 they use the Open edX mobile app.
 
-* :ref:`drag_and_drop_problem`
+* :ref:`Drag and Drop Problem<About the Drag and Drop Problem>`
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
 * :ref:`Multi select`

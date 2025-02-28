@@ -1,9 +1,7 @@
-.. _Drag and Drop:
+.. _Guide to the Drag and Drop Problem:
 
-.. _drag_and_drop_background_images:
-
-Understanding Background Images
-###############################
+Guide to the Drag and Drop Problem
+##################################
 
 .. tags:: educator, reference
 
@@ -32,7 +30,7 @@ between the top of the background image and the top of the target zone.
 
 The following image shows a background image and target zones in the drag and
 drop problem editing dialog box. For more information about editing drag and
-drop problems, see :ref:`Creating a Drag and Drop Problem`.
+drop problems, see :ref:`Create a Drag and Drop Problem`.
 
 .. image:: /_images/educator_references/dnd-zone-borders.png
   :width: 600
@@ -213,7 +211,7 @@ The following table explains the controls in the **Editing** dialog box.
    * - **Background URL**
      - The URL of the image that contains target zones for the problem. The URL
        can be relative to a file you add to your course or to a file on the
-       web. For more information, see :ref:`drag_and_drop_background_images`.
+       web. For more information, see :ref:`Guide to the Drag and Drop Problem`.
 
        You must select **Change background** when you enter a new URL in this
        field. If you do not select **Change background**, the new value will
@@ -328,7 +326,7 @@ The following table explains the controls in the **Editing** dialog box.
 
  :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
 
- :ref:`Drag and Drop` (reference)
+ :ref:`Guide to the Drag and Drop Problem` (reference)
 
   
 

@@ -87,15 +87,12 @@ Drag and Drop Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/drag_and_drop.rst
-   ../references/course_development/exercise_tools/drag_and_drop.rst
-   ../how-tos/course_development/exercise_tools/creating_a_drag_and_drop_problem.rst
-   ../how-tos/course_development/exercise_tools/adding_dropdown.rst
-   ../how-tos/course_development/exercise_tools/use_dropdown_feedback.rst
-   ../how-tos/course_development/exercise_tools/use_dropdown_hints.rst
+   ../concepts/exercise_tools/about_drag_and_drop.rst
+   ../references/course_development/exercise_tools/guide_drag_and_drop.rst
+   ../how-tos/course_development/exercise_tools/create_drag_and_drop_problem.rst
 
 .. _Dropdown Problem:
 
@@ -103,23 +100,21 @@ Dropdown Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/dropdown.rst
+   ../how-tos/course_development/exercise_tools/add_dropdown.rst
+   ../how-tos/course_development/exercise_tools/use_dropdown_feedback.rst
+   ../how-tos/course_development/exercise_tools/use_dropdown_hints.rst
    ../references/course_development/exercise_tools/dropdown_problem_xml.rst
 
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:   
 
 Enable Advanced Problem Types
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/enable_exercises_tools.rst

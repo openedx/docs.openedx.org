@@ -1,7 +1,7 @@
-.. _drag_and_drop_problem:
+.. _About the Drag and Drop Problem:
 
-Drag and Drop Problem
-#####################
+About the Drag and Drop Problem
+###############################
 
 .. tags:: educator, concept
 
@@ -18,7 +18,7 @@ to use drag and drop problems in your course.
     drag and drop problem type. This drag and drop problem type includes
     significant improvements and you should use it for any new course
     development. For more information about the previous, deprecated drag and
-    drop problem type, see :ref:`Drag and Drop`.
+    drop problem type, see :ref:`Guide to the Drag and Drop Problem`.
 
 .. _overview_of_drag_and_drop_problems:
 
@@ -95,9 +95,9 @@ message informs the learner that the problem is complete.
 .. seealso::
  
 
- :ref:`Creating a Drag and Drop Problem` (how-to)
+ :ref:`Create a Drag and Drop Problem` (how-to)
 
- :ref:`Drag and Drop` (reference)
+ :ref:`Guide to the Drag and Drop Problem` (reference)
 
 
 **Maintenance chart**

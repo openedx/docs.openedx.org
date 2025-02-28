@@ -1,4 +1,4 @@
-.. _Creating a Drag and Drop Problem:
+.. _Create a Drag and Drop Problem:
 
 Create a Drag and Drop Problem
 ##############################
@@ -34,7 +34,7 @@ To create a drag and drop problem, follow these steps.
      of a file you have added to your course or the URL of an image on the web.
      For more information about working with course files, see :ref:`Add Course
      Files`.  For more information about background images, see
-     :ref:`drag_and_drop_background_images`.
+     :ref:`Guide to the Drag and Drop Problem`.
 
      Select **Change background** after you enter the URL for your background
      image.
@@ -46,7 +46,7 @@ To create a drag and drop problem, follow these steps.
    * Remove the target zones for the example drag and drop problem. Select
      **Add a zone** to add each target zone for your problem. For more
      information about target zones, see
-     :ref:`drag_and_drop_background_images`.
+     :ref:`Guide to the Drag and Drop Problem`.
 
    * Remove the draggable items for the example drag and drop problem. Select
      **Add an item** to add draggable items for your problem. Select a matching
@@ -78,9 +78,9 @@ site. For more information, see :ref:`Styling Drag and Drop Problems`.
 .. seealso::
  
 
- :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
+ :ref:`Drag and Drop Problem <About the Drag and Drop Problem>` (concept)
 
- :ref:`Drag and Drop` (reference)
+ :ref:`Guide to the Drag and Drop Problem` (reference)
 
 
 **Maintenance chart**

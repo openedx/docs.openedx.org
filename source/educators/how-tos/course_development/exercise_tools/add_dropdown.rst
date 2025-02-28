@@ -1,4 +1,4 @@
-.. _Adding Dropdown:
+.. _Add Dropdown:
 
 Add a Dropdown Problem
 ######################

@@ -77,7 +77,7 @@ types** or select Advanced problem types for a list of **advanced problem types*
 * For drag-and-drop problem types, you build an interactive assessment in a
   customized interface in which you define areas that learners can drag into target
   zones on a background image. For more information, see
-  :ref:`Creating a Drag and Drop Problem`.
+  :ref:`Create a Drag and Drop Problem`.
 
 You can switch from the simple editor to the advanced editor at any time by
 selecting the **Switch to advanced editor** from the simple editor's settings.
