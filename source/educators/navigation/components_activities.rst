@@ -35,7 +35,7 @@ Chemical Equation Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/add_chemical_equation.rst

@@ -81,7 +81,7 @@ Sample Chemical Equation Problem Code
 .. seealso::
  
 
- :ref:`Chemical Equation Problem XML` (reference)
+ :ref:`Guide to Chemical Equation Problem XML` (reference)
 
 
 **Maintenance chart**
