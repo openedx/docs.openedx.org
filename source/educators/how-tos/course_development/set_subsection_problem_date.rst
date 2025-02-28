@@ -82,7 +82,7 @@ advanced problem types.
 * :ref:`Circuit Schematic Builder`
 * :ref:`Custom JavaScript Display and Grading<Guide to Custom JavaScript Display and Grading Problem>`
 * :ref:`Custom Python-Evaluated Input<About Custom Python-Evaluated Input Problem>`
-* :ref:`Image Mapped Input`
+* :ref:`Image Mapped Input<About Image Mapped Input Problem>`
 * :ref:`Math Expression Input`
 * :ref:`Problem Written in LaTeX`
 * :ref:`Problem with Adaptive Hint`

@@ -150,29 +150,19 @@ Image Mapped Input Problem
    ../how-tos/course_development/exercise_tools/create_image_mapped_input.rst
    ../references/course_development/exercise_tools/image_mapped_input_xml.rst
 
-Learner View
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:   
-
-   ../references/grading/learner_view_of_grades.rst
-
 LTI Component
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
+   ../concepts/exercise_tools/about_lti_component.rst
    ../references/course_development/exercise_tools/lti_component_settings.rst
-   ../references/course_development/exercise_tools/lti_component.rst
    ../how-tos/course_development/exercise_tools/enable_lti_component.rst
-   ../how-tos/course_development/exercise_tools/setting_up_lti_1_1_component.rst
-   ../how-tos/course_development/exercise_tools/setting_up_lti_1_3_component.rst
+   ../how-tos/course_development/exercise_tools/set_up_lti_1_1_component.rst
+   ../how-tos/course_development/exercise_tools/set_up_lti_1_3_component.rst
    ../how-tos/course_development/exercise_tools/using_lti_advantage_features.rst
-   ../how-tos/using_lti.rst
 
 Math Expression Input Problem
 *******************************************************

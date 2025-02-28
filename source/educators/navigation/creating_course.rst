@@ -102,6 +102,7 @@ Configure Grades
    ../concepts/grading/graded_subsections.rst
    ../how-tos/grading/set_grace_period.rst
    ../how-tos/grading/set_grade_range.rst
+   ../references/grading/learner_view_of_grades.rst
    
 
 Set Up Course Certificates

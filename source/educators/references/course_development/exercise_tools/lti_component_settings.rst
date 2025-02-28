@@ -192,10 +192,15 @@ LTI Component Settings
 
 .. seealso::
  
+ :ref:`About the LTI Component` (concept)
 
- :ref:`Enable_LTI_Components` (how to)
+ :ref:`Enable_LTI_Components` (how-to)
 
- :ref:`LTI Component` (reference)
+ :ref:`Set up an LTI 1_1 component` (how-to)
+
+ :ref:`Set up an LTI 1_3 component` (how-to)
+
+ :ref:`Enabling and using LTI Advantage features` (how-to)
 
 
 **Maintenance chart**

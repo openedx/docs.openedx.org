@@ -220,7 +220,7 @@ tools that you can add to your course.
      - With the iframe tool, you can integrate ungraded exercises and tools
        from any Internet site into a Text component in your course.
      - Provisional support
-   * - :ref:`LTI Component`
+   * - :ref:`LTI Component<About the LTI Component>`
      - LTI components allow you to add an external learning application or non-
        PDF textbook to Studio.
      - Full support

@@ -1,9 +1,11 @@
-.. _Setting up a LTI 1.1 component:
+.. _Set up an LTI 1_1 component:
 
 Set Up an LTI 1.1 Component
 ###########################
 
 .. tags:: educator, how-to
+
+.. youtube:: dJuEGsZM4gw
 
 Some LTI 1.1 tools require users to provide authentication credentials. If the
 LTI tool you are including in your course requires authentication, you must add
@@ -81,8 +83,7 @@ follow these steps.
 
    ``"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"``
 
-   For more information about creating your key, see :ref:`Setting up a LTI 1.1
-   component`.
+   For more information about creating your key, see :ref:`Set up an LTI 1_1 component`.
 
 #. If you use more than one LTI provider in your course, separate each LTI
    passport string with commas. Make sure to surround each entry with quotation
@@ -110,7 +111,7 @@ To add an LTI 1.1 component to a course unit, follow these steps.
 #. If the LTI tool requires authentication, register the key and shared secret
    for the LTI tool in the configuration for your course. For more information
    about registering authentication credentials, see
-   :ref:`Setting up a LTI 1.1 component`.
+   :ref:`Set up an LTI 1_1 component`.
 
 #. Edit the unit in which you want to add the remote LTI tool and select
    **Advanced** from the **Add New Component** section. Select **LTI
@@ -133,14 +134,13 @@ in the LMS. For more information, see :ref:`Testing Your Course Content`.
 
 .. seealso::
  
+ :ref:`About the LTI Component` (concept)
 
- :ref:`LTI Component` (reference)
-
- :ref:`LTI Component settings` (reference)
+ :ref:`LTI Component Settings` (reference)
 
  :ref:`Enable_LTI_Components` (how-to)
 
- :ref:`Setting up a LTI 1.3 component` (how-to)
+ :ref:`Set up an LTI 1_3 component` (how-to)
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
 

@@ -1,10 +1,10 @@
-.. _LTI Component:
+.. _About the LTI Component:
 
-###############
-LTI Component
-###############
+###########################
+About the LTI Component
+###########################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The
@@ -65,13 +65,16 @@ For more information about how to use Studio as an LTI tool provider, see
 .. note the slightly different destination links ^. Alison 23 Nov 2015
 
 .. seealso::
- 
 
- :ref:`Enable_LTI_Components` (how to)
+ :ref:`LTI Component Settings` (reference)
 
- :ref:`LTI Component settings` (reference)
+ :ref:`Enable_LTI_Components` (how-to)
 
- :ref:`Accessibility Best Practices Checklist`
+ :ref:`Set up an LTI 1_1 component` (how-to)
+
+ :ref:`Set up an LTI 1_3 component` (how-to)
+
+ :ref:`Enabling and using LTI Advantage features` (how-to)
 
 **Maintenance chart**
 

@@ -508,8 +508,7 @@ I
 **Image Mapped Input Problem**
 
   A problem that presents an image and accepts clicks on the image as an
-  answer. For more information, see :ref:`Image Mapped
-  Input`.
+  answer. For more information, see :ref:`About Image Mapped Input Problem`.
 
 
 .. _Import:

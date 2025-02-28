@@ -80,7 +80,7 @@ Create a Zooming Image Tool
 
  :ref:`Add Course Files` (how-to)
 
- :ref:`Image Mapped Input` (reference)
+ :ref:`About Image Mapped Input Problem` (concept)
 
 
 

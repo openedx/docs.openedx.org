@@ -213,7 +213,7 @@ For example, the following ``regions`` attribute creates a pentagon.
 .. seealso::
  
 
- :ref:`Image Mapped Input` (reference)
+ :ref:`About Image Mapped Input Problem` (reference)
 
  :ref:`Image Mapped Input Problem XML` (reference)
 

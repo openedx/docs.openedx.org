@@ -141,7 +141,7 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/add_google_drive.rst
    /educators/how-tos/course_development/exercise_tools/create_iframe.rst
    /educators/references/course_development/exercise_tools/image_mapped_input_xml.rst
-   /educators/references/course_development/exercise_tools/lti_component.rst
+   /educators/concepts/exercise_tools/about_lti_component.rst
    /educators/references/course_development/exercise_tools/math_expression_input_xml.rst
    /educators/how-tos/course_development/exercise_tools/adding_mathjax.rst
    /educators/references/course_development/exercise_tools/multi_select_xml.rst
