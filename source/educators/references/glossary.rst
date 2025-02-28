@@ -298,7 +298,7 @@ C
   A custom response problem evaluates text responses from learners using an
   embedded Python script. These problems are also called
   "write-your-own-grader" problems. For more information, see
-  :ref:`Write Your Own Grader`.
+  :ref:`About Custom Python-Evaluated Input Problem`.
 
 .. _D:
 

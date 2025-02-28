@@ -100,7 +100,7 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
        problem or tool that uses JavaScript and then add the problem or tool
        directly into Studio.
      - Full support
-   * - :ref:`Custom Python-evaluated Input (Write Your Own Grader)<Write Your Own Grader>`
+   * - :ref:`Custom Python-evaluated Input <About Custom Python-Evaluated Input Problem>`
      - In custom Python-evaluated input (also called "write-your-own-grader")
        problems, the grader uses a Python script that you create and embed in
        the problem to evaluate a learner's response or provide hints. These

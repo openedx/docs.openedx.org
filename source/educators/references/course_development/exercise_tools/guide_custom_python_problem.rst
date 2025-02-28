@@ -1,7 +1,7 @@
-.. _Script Tag Format:
+.. _Guide to the Custom Python-Evaluated Input Problem:
 
-Script Tag Format
-#################
+Guide to the Custom Python-Evaluated Input Problem
+####################################################
 
 .. tags:: educator, reference
 
@@ -173,15 +173,9 @@ preceding example.
 .. seealso::
  
 
- :ref:`Write Your Own Grader` (reference)
+ :ref:`About Custom Python-Evaluated Input Problem` (reference)
 
- :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
-
- :ref:`Create a Custom Python Evaluated Input Problem in Script Tag Format` (how to)
-
- :ref:`Create a Randomized Custom Python Evaluated Input Problem` (how to)
-
- :ref:`Award Partial Credit` (concept)
+ :ref:`Create a Custom Python Evaluated Input Problem` (how to)
 
 
 

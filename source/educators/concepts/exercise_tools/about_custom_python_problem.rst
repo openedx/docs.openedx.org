@@ -1,9 +1,9 @@
-.. _Write Your Own Grader:
+.. _About Custom Python-Evaluated Input Problem:
 
-Custom Python-evaluated Input Problem (Write Your Own Grader)
+About Custom Python-evaluated Input Problem
 #############################################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 In custom Python-evaluated input (also called "write-your-own-grader"
 problems), the grader uses a Python script that you create and embed in the
@@ -15,26 +15,20 @@ Custom Python-evaluated input problems can include the following advanced
 problem types.
 
 * :ref:`Chemical Equation`
-* :ref:`Custom JavaScript`
+* :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>`
 * :ref:`Gene Explorer`
 * :ref:`Protein Builder`
 
 
-Learn here how to :ref:`Create a Custom Python Evaluated Input Problem in Studio`, and visit :ref:`Award Partial Credit` to learn how to configurate the credits in this type of exercise.
+Learn here how to :ref:`Create a Custom Python Evaluated Input Problem`, and visit :ref:`Award Partial Credit` to learn how to configurate the credits in this type of exercise.
 
 
 .. seealso::
  
 
- :ref:`Create a Custom Python Evaluated Input Problem in Studio` (how to)
+ :ref:`Create a Custom Python Evaluated Input Problem` (how to)
 
- :ref:`Create a Custom Python Evaluated Input Problem in Script Tag Format` (how to)
-
- :ref:`Create a Randomized Custom Python Evaluated Input Problem` (how to)
-
- :ref:`Script Tag Format` (concept)
-
- :ref:`Award Partial Credit` (concept)
+ :ref:`Guide to the Custom Python-Evaluated Input Problem` (concept)
 
 
 **Maintenance chart**
