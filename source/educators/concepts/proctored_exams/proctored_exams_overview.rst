@@ -1,7 +1,7 @@
-.. _ProctoredExams_Overview:
+.. _About Proctored Exams:
 
 #######################
-Proctored Exam Overview
+About Proctored Exams
 #######################
 
 .. tags:: educator, concept

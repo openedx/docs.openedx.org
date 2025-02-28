@@ -132,7 +132,7 @@ steps.
 .. seealso::
  
 
- :ref:`ProctoredExams_Overview` (concept)
+ :ref:`About Proctored Exams` (concept)
 
  :ref:`Enable Proctored Exams` (how-to)
 

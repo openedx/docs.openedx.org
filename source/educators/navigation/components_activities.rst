@@ -277,21 +277,21 @@ Proctored Exams
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../concepts/proctored_exams/proctored_exams_overview.rst
    ../concepts/proctored_exams/preparing_learners_proctored_exams.rst
    ../how-tos/proctored_exams/enable_proctored_exams.rst
-   ../how-tos/proctored_exams/create_proctored_exam_pt.rst
-   ../references/proctored_exams/online_proctoring_rules.rst
    ../how-tos/proctored_exams/manage_proctored_exams.rst
+   ../references/proctored_exams/online_proctoring_rules.rst
+   ../how-tos/proctored_exams/allow_opt_out_proctored_exam.rst
+   ../how-tos/proctored_exams/create_proctored_exam_pt.rst
    ../how-tos/proctored_exams/create_proctored_exam_rpnow.rst
-   ../references/proctored_exams/rpnow_proctored_exam_report.rst
+   ../how-tos/proctored_exams/review_pt_results.rst
    ../how-tos/proctored_exams/review_rpnow_results.rst
    ../references/proctored_exams/pt_proctored_exam_report.rst
-   ../how-tos/proctored_exams/review_pt_results.rst
-   ../how-tos/proctored_exams/allow_opt_out_proctored_exam.rst
+   ../references/proctored_exams/rpnow_proctored_exam_report.rst
 
 
 Protex Protein Builder
@@ -307,7 +307,7 @@ Randomized Content Block
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../concepts/exercise_tools/randomized_content.rst
