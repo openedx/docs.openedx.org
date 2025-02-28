@@ -324,7 +324,7 @@ The following table explains the controls in the **Editing** dialog box.
 .. seealso::
  
 
- :ref:`Drag and Drop Problem <drag_and_drop_problem>` (concept)
+ :ref:`About the Drag and Drop Problem` (concept)
 
  :ref:`Guide to the Drag and Drop Problem` (reference)
 

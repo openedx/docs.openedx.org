@@ -136,7 +136,7 @@ available in Studio. For more information, see
        resistors, and MOSFETs on an interactive grid. They then submit a DC,
        AC, or transient analysis of their circuits to the system for grading.
      - Not supported
-   * - :ref:`Image Mapped Input`
+   * - :ref:`Image Mapped Input<About Image Mapped Input Problem>`
      - Learners answer prompts by selecting a defined area in an image. You
        define the area by including coordinates in the body of the problem.
      - Not supported

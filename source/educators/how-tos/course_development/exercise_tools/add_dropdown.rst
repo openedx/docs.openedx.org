@@ -28,7 +28,7 @@ Creating a dropdown problem is as simple as:
 #. Selecting and filling in any desired settings on the right.
 
 If you have any questions on the specifics of using the simple editor, please
-check out :ref:`Simple Editor` and :ref:`Problem Settings`.
+check out :ref:`Simple Editor` and :ref:`Guide toProblem Settings`.
 
 .. _Editing Dropdown Problems using the Advanced Editor:
 
