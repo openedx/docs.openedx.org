@@ -168,13 +168,12 @@ Math Expression Input Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/math_expression_input.rst
-   ../references/course_development/exercise_tools/math_expression_input_xml.rst
-   ../how-tos/course_development/exercise_tools/adding_mathjax.rst
    ../how-tos/course_development/exercise_tools/adding_math_expression_problem.rst
+   ../references/course_development/exercise_tools/math_expression_input_xml.rst
 
 .. _Multi Select Problem:
 
