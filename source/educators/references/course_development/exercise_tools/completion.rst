@@ -1,8 +1,8 @@
-.. _Completion:
+.. _About the Completion Tool:
 
-###############
-Completion Tool
-###############
+#########################
+About the Completion Tool
+#########################
 
 .. tags:: educator, reference
 

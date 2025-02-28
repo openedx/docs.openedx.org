@@ -145,5 +145,5 @@ Advanced Components
    ../how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
    ../how-tos/course_development/exercise_tools/add_annotation.rst
    ../how-tos/course_development/exercise_tools/add_calculator.rst
-   ../how-tos/course_development/exercise_tools/enable_completion.rst
+   
 

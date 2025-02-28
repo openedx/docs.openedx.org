@@ -45,7 +45,7 @@ Circuit Schematic Builder Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/add_circuit_schematic_builder.rst
@@ -58,6 +58,7 @@ Completion Tool
    :glob:   
 
    ../references/course_development/exercise_tools/completion.rst
+   ../how-tos/course_development/exercise_tools/enable_completion.rst
    ../how-tos/course_development/exercise_tools/enable_olx_completion.rst
 
 Configure Grades
