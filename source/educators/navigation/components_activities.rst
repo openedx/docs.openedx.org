@@ -212,26 +212,21 @@ Open Response Assessments
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../concepts/exercise_tools/OpenResponseAssessments.rst
    ../how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    ../how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
-   ../how-tos/course_development/exercise_tools/list_manage_students_waiting_peer_step.rst
-   ../how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
-   ../how-tos/course_development/exercise_tools/view_statistics_single_ORA_assignment
-   ../how-tos/course_development/exercise_tools/generate_ORA_report.rst
-   ../how-tos/course_development/exercise_tools/generate_report_ORA_submissions_attachments.rst
+   ../how-tos/course_development/exercise_tools/access_ORA_metrics.rst
    ../references/course_development/exercise_tools/ORA_Staff_Grading.rst
-   ../references/course_development/exercise_tools/Access_ORA_Info.rst
    
 
 Oppia Exploration Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/oppia_exploration.rst
@@ -241,7 +236,7 @@ Peer Instruction Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../concepts/exercise_tools/peer_instruction.rst
@@ -251,7 +246,7 @@ Periodic Table Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_periodic_table.rst
@@ -262,7 +257,7 @@ Poll Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/enable_poll_tool.rst
@@ -272,7 +267,7 @@ Problem with Adaptive Hint
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_problem_with_hint.rst
@@ -303,7 +298,7 @@ Protex Protein Builder
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_protein_builder.rst

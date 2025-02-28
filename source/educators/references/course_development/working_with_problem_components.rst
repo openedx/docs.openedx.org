@@ -72,7 +72,7 @@ types** or select Advanced problem types for a list of **advanced problem types*
 
 * For open response assessment problem types, you define the problem elements and
   options by using a graphical user interface. For more information, see
-  :ref:`PA Create an ORA Assignment`.
+  :ref:`Create an ORA Assignment`.
 
 * For drag-and-drop problem types, you build an interactive assessment in a
   customized interface in which you define areas that learners can drag into target
@@ -101,7 +101,7 @@ the simple editor.
 
 *  :ref:`Dropdown<Dropdown>`
 
-*  :ref:`Numerical Input<Numerical Input>`
+*  :ref:`Numerical Input<About Numerical Input>`
 
 *  :ref:`Text Input<Text Input>`
 

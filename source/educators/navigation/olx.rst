@@ -145,12 +145,12 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/math_expression_input_xml.rst
    /educators/how-tos/course_development/exercise_tools/adding_mathjax.rst
    /educators/references/course_development/exercise_tools/multi_select_xml.rst
-   /educators/how-tos/course_development/exercise_tools/edit_numerical_input_advanced.rst
+   /educators/how-tos/course_development/exercise_tools/manage_numerical_input_problem.rst
    /educators/concepts/exercise_tools/OpenResponseAssessments.rst
    /educators/how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    /educators/how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
    /educators/references/course_development/exercise_tools/ORA_Staff_Grading.rst
-   /educators/how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
+   /educators/how-tos/course_development/exercise_tools/access_ORA_metrics.rst
    /educators/how-tos/course_development/exercise_tools/create_periodic_table.rst
    /educators/references/course_development/exercise_tools/poll_olx.rst
    /educators/how-tos/course_development/exercise_tools/create_poll_olx.rst

@@ -1,7 +1,7 @@
 .. _ORA Staff Grading:
 
 ###########################################
-Staff Grading for Open Response Assignments
+Staff Grading for Open Response Assessments
 ###########################################
 
 .. tags:: educator, reference
@@ -177,11 +177,11 @@ grading claim on any submissions the staff member currently has open, but ungrad
 
  :ref:`Open Response Assessments` (concept)
 
- :ref:`PA Create an ORA Assignment` (how to)
+ :ref:`Create an ORA Assignment` (how to)
 
  :ref:`Managing ORA Assignments` (how to)
 
- :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`Access ORA Assignment Information` (reference)
 
 
 **Maintenance chart**

@@ -831,7 +831,7 @@ R
 
   A list of the items that a learner's response should cover in an open
   response assessment. For more information, see the
-  :ref:`PA Rubric` topic in :ref:`Open
+  :ref:`ORA Rubrics` topic in :ref:`Open
   Response Assessments`.
 
   See also :ref:`Open Response Assessment<Open Response Assessment_g>`.

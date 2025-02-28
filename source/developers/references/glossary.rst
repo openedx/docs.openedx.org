@@ -519,7 +519,7 @@ Glossary
 
       A list of the items that a learner's response should cover in an open
       response assessment. For more information, see the
-      `partnercoursestaff:PA Rubric` topic in `partnercoursestaff:Open
+      `partnercoursestaff:ORA Rubrics` topic in `partnercoursestaff:Open
       Response Assessments Two`.
 
       See also :ref:`Open Response Assessment<Open Response Assessment_g>`.

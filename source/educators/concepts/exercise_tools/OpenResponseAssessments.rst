@@ -1,9 +1,13 @@
 .. _Open Response Assessments:
 
-Introduction to Open Response Assessments
+About Open Response Assessments (ORA)
 #########################################
 
 .. tags:: educator, concept
+
+.. contents::
+  :local:
+  :depth: 2
 
 In open response assessments (ORA), learners submit essay responses and then go
 through a series of assessment steps (such as peer assessment and self
@@ -23,19 +27,19 @@ assessment) to complete the assignment.
 The following topics provide conceptual information about open response
 assessments.
 
-* :ref:`PA Elements`
+* :ref:`Elements of an Open Response Assessment`
 * :ref:`PA Scoring`
 * :ref:`Best Practices for ORA`
 
 For information about creating and managing open response assessments,
 including step by step instructions, see the following sections.
 
-* :ref:`PA Create an ORA Assignment`
+* :ref:`Create an ORA Assignment`
 * :ref:`Managing ORA Assignments`
-* :ref:`Accessing ORA Assignment Information`
+* :ref:`Access ORA Assignment Information`
 
 
-.. _PA Elements:
+.. _Elements of an Open Response Assessment:
 
 Elements of an Open Response Assessment
 ***************************************
@@ -43,9 +47,9 @@ Elements of an Open Response Assessment
 When you create an open response assessment assignment, you include several
 elements.
 
-* One or more :ref:`prompts <PA Prompts>`, or questions, that learners answer.
+* One or more :ref:`prompts <ORA Prompts>`, or questions, that learners answer.
 
-* A :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in
+* A :ref:`rubric <ORA Rubrics>`. One rubric is used to grade all the prompts in
   the assessment.
 
 * One or more :ref:`assessment steps <PA Assessment Steps>`. Assignments can
@@ -58,9 +62,9 @@ elements.
    be the final step in the assignment.
 
 For step-by-step instructions for creating an open response assessment, see
-:ref:`PA Create an ORA Assignment`.
+:ref:`Create an ORA Assignment`.
 
-.. _PA Prompts:
+.. _ORA Prompts:
 
 Prompts
 =======
@@ -73,15 +77,14 @@ other type of file to accompany their written response.
 Within each prompt, you can include helpful information for your learners,
 such as the approximate number of words or sentences that their responses
 should have, the types of files that they can upload, or what they can expect
-after they submit their responses. For more information, see :ref:`PA Add
-Prompt`.
+after they submit their responses. For more information, see :ref:`Add ORA Prompt`.
 
 In the learner view of the assignment, each prompt appears above the field
 where learners enter their responses. For more information, see
 :ref:`PA Assessment Steps`.
 
 
-.. _PA Rubric:
+.. _ORA Rubrics:
 
 Rubric
 =======
@@ -131,7 +134,7 @@ A rubric consists of several criteria and a set of options for each criterion.
 
    You can also include criteria that do not have options, but that do include
    a field where learners or staff can enter feedback. For more information,
-   see  :ref:`PA Criteria Comment Field Only`.
+   see  :ref:`ORA Criteria Comment Field Only`.
 
 
 In a rubric as it appears to a learner, the following elements are visible.
@@ -151,11 +154,11 @@ Criterion names do not display in the rubric that learners use to perform
 their assessments, but do appear on the page that shows the learner's final
 ORA assignment grade.
 
-For information about creating a rubric, see :ref:`PA Add Rubric`.
+For information about creating a rubric, see :ref:`Add ORA Rubric`.
 
 
 An Example Criterion
-********************
+------------------------
 
 In a rubric, one criterion and its set of options might resemble the
 following.
@@ -228,7 +231,7 @@ a self assessment ("Assess Your Response").
 .. _PA Student Training Step:
 
 Learner Training Step
-*********************
+----------------------
 
 Learner training steps teach learners to perform their own assessments. A
 learner training assessment contains one or more sample responses that you
@@ -268,7 +271,7 @@ For more information, see :ref:`PA Student Training`.
 .. _Peer Assessment Step:
 
 Peer Assessment Step
-********************
+--------------------
 
 In the peer assessment step, learners review the responses of other learners
 in the course. For each response, they select an option for each criterion in
@@ -282,7 +285,7 @@ For information about how peer assessments affect a learner's assignment grade,
 see :ref:`PA Scoring`.
 
 Number of Responses and Assessments
-===================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you include a peer assessment step, you specify the number of responses
 that each learner must assess (**Must Grade**) and the number of peer
@@ -307,7 +310,7 @@ do not count toward the score that the response receives.
 .. _Feedback Options:
 
 Feedback Options
-================
+-----------------
 
 By default, in peer assessment steps, learners can provide text feedback for
 the entire response, using a single comment field below the entire rubric. You
@@ -317,12 +320,12 @@ individual criteria. This comment field can contain up to 1000 characters.
 Comment fields for individual criterion appear below the options for the
 criterion.
 
-For more information, see :ref:`PA Add Rubric` and :ref:`PA Criteria Comment
+For more information, see :ref:`Add ORA Rubric` and :ref:`ORA Criteria Comment
 Field Only`.
 
 
 Assessing Additional Responses
-==============================
+-------------------------------
 
 Learners can assess more than the required number of responses. After a
 learner completes the peer assessment step, the step "collapses" so that only
@@ -335,7 +338,7 @@ peer assessments.
 .. _Self Assessment Step:
 
 Self Assessment Step
-********************
+---------------------
 
 In self assessment steps, the learner sees her own response followed by the rubric.
 As with peer assessments, the learner evaluates the response using the rubric,
@@ -347,7 +350,7 @@ include the peer assessment before the self assessment.
 .. _Staff Assessment Step:
 
 Staff Assessment Step
-*********************
+---------------------
 
 In staff assessment steps, a member of the course team performs an evaluation
 of the learner's response. Course team members grade the response using the
@@ -500,6 +503,9 @@ Then set the toggle for this feature on or off
      :alt: Image highlighting the toggle for flexible peer grading on the course level
      :width: 600
 
+Scoring Calculation
+********************
+
 Self Assessment Scoring
 =======================
 
@@ -550,7 +556,7 @@ prevent the page from becoming too long.
    learner response from peer grading>` it is also removed from the **Top
    Responses** list.
 
-For more information, see :ref:`PA Show Top Responses`.
+For more information, see :ref:`ORA Show Top Responses`.
 
 .. _Best Practices for ORA:
 
@@ -592,7 +598,7 @@ Designing the Assignment
 Grading and Rubrics
 ===================
 
-* Make sure you have a well designed and clear :ref:`rubric <PA Rubric>` for
+* Make sure you have a well designed and clear :ref:`rubric <ORA Rubrics>` for
   the assignment. A good rubric is very important in helping to eliminate
   ambiguity in the peer grading process.
 
@@ -673,7 +679,7 @@ responses, however, be aware of the following limitations and best practices.
 
 * Image files must be in .jpg, .gif, or .png format.
 
-For more information, see :ref:`PA Allow Images`.
+For more information, see :ref:`Allow ORA Images`.
 
 .. _Prohibited File Extensions:
 
@@ -705,15 +711,14 @@ information, see `Configuring ora2 to prohibit submission of file types`_.
        .vbscript, .workflow .ws, .wsc, .wsf, .wsh
 
 .. seealso::
- 
 
- :ref:`PA Create an ORA Assignment` (how-to)
+ :ref:`Create an ORA Assignment` (how-to)
 
  :ref:`Managing ORA Assignments` (how-to)
 
  :ref:`ORA Staff Grading` (reference)
 
- :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`Access ORA Assignment Information` (reference)
 
 
 **Maintenance chart**

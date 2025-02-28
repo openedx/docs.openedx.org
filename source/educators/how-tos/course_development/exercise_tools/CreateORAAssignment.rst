@@ -1,4 +1,4 @@
-.. _PA Create an ORA Assignment:
+.. _Create an ORA Assignment:
 
 #############################################
 Create an Open Response Assessment Assignment
@@ -18,7 +18,7 @@ In addition, you can also review other topics about different aspects of Open Re
 * Components of an :ref:`Open Response Assessments`
 
 * Viewing metrics and learner responses for released open response assessments:
-  :ref:`Accessing ORA Assignment Information`
+  :ref:`Access ORA Assignment Information`
 
 * Actions you can take for an active ORA assignment: :ref:`Managing ORA
   Assignments`
@@ -38,7 +38,7 @@ your course's Team Configuration to define the desired team sets in the
 for help setting up team sets.
 
 
-.. _PA Create Component:
+.. _Create ORA Copmonent:
 
 ******************************
 Step 1. Add the Component
@@ -72,7 +72,7 @@ steps.
    corrections. However, you can modify the due dates and the weight of the ORA assignment after you have published it.
 
 
-.. _PA Add Prompt:
+.. _Add ORA Prompt:
 
 ******************************
 Step 2. Add Prompts
@@ -82,7 +82,7 @@ You can format text and add images inside an open response assessment prompt
 the same way you would for a Text component. For more information, see
 :ref:`The Visual Editor`.
 
-To add :ref:`prompts<PA Prompts>` or questions to your ORA assignment,
+To add :ref:`prompts<ORA Prompts>` or questions to your ORA assignment,
 complete these steps.
 
 #. In the open response assessment component editor, select a **Prompt**.
@@ -91,13 +91,13 @@ complete these steps.
    repeat step 2.
 
 
-.. _PA Add Rubric:
+.. _Add ORA Rubric:
 
 ******************************
 Step 3. Add the Rubric
 ******************************
 
-In this step, you add your :ref:`rubric<PA Rubric>` to provide guidance for
+In this step, you add your :ref:`rubric<ORA Rubrics>` to provide guidance for
 assessing responses within the assignment. You add one rubric for each
 problem, regardless of the number of prompts in the problem.
 
@@ -155,9 +155,9 @@ To add the rubric, follow these steps.
    corrections. However, you can modify the ORA assignments' due dates and weight after publishing them.
 
 .. note:: If you wish to allow learners to view the rubric as they work on their
-   response, see  :ref:`Show Rubric During Response<PA Show Rubric During Response>`
+   response, see  :ref:`Show Rubric During Response<Show ORA Rubric During Response>`
 
-.. _PA Criteria Comment Field Only:
+.. _ORA Criteria Comment Field Only:
 
 ==========================================================
 Provide Only Comment Fields for Individual Criteria
@@ -210,7 +210,7 @@ To reuse a rubric, complete the following steps:
    currently *saved* version, not the currently *published* version. This is done to support
    the ability to clone from ORAs that have not yet been published.
 
-.. _PA Specify Additional Settings:
+.. _Specify Additional ORA Settings:
 
 ***********************************
 Step 4. Specify Additional Settings
@@ -220,7 +220,7 @@ After you have added a prompt and rubric, you must specify additional settings
 for the assignment. These settings include the type of response that learners
 must submit, assignment dates, and whether learners will see a list of top-scoring responses.
 
-.. _PA Team vs Individual ORA:
+.. _Team vs Individual ORA:
 
 ========================
 Team vs. Individual ORA
@@ -248,7 +248,7 @@ member of the team.
 
 .. note:: Team Open Response Assessments are designed to only be assessed by staff.
 
-.. _PA Allow Images:
+.. _Allow ORA Images:
 
 =========================
 Specify the Response Type
@@ -313,7 +313,7 @@ these steps.
 
 #. For **Allow LaTeX Responses**, select **True** or **False**.
 
-.. _PA Show Rubric During Response:
+.. _Show ORA Rubric During Response:
 
 ===================================================
 Allow Learners to View the Rubric While Responding
@@ -332,10 +332,10 @@ When this setting is enabled, a collapsable section will appear in the Response 
 above the first prompt, that shows learners a detailed breakdown of how their response
 will be graded.
 
-.. note:: This is the rubric you set up in :ref:`Add Rubric<PA Add Rubric>`. For each Criterion, learners
+.. note:: This is the rubric you set up in :ref:`Add Rubric<Add ORA Rubric>`. For each Criterion, learners
    will see all Option names, descriptions, and point values.
 
-.. _PA Show Top Responses:
+.. _ORA Show Top Responses:
 
 =====================
 Include Top Responses
@@ -357,7 +357,7 @@ the assignment. If offered, this section will be displayed after each learner ha
    If you do not want this section to appear, set the number to 0. The
    maximum number is 100.
 
-.. _PA Select Assignment Steps:
+.. _ORA Select Assignment Steps:
 
 ****************************************
 Step 5. Select Assignment Steps
@@ -638,7 +638,7 @@ For more information about beta testing, see :ref:`About Course Beta Testing`.
 
  :ref:`ORA Staff Grading` (reference)
 
- :ref:`Accessing ORA Assignment Information` (reference)
+ :ref:`Access ORA Assignment Information` (reference)
 
 **Maintenance chart**
 

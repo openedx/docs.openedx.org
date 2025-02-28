@@ -8,7 +8,7 @@ About Custom Python-evaluated Input Problem
 In custom Python-evaluated input (also called "write-your-own-grader"
 problems), the grader uses a Python script that you create and embed in the
 problem to evaluate a learner's response or provide hints. These problems can
-be any type. :ref:`Numerical input<Numerical Input>` and :ref:`text input<Text
+be any type. :ref:`Numerical input<About Numerical Input>` and :ref:`text input<Text
 Input>` problems are the most common write-your-own-grader problems.
 
 Custom Python-evaluated input problems can include the following advanced
