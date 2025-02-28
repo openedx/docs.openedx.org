@@ -1,7 +1,7 @@
-.. _External Grader:
+.. _About External Grader Problems:
 
-External Grader
-###############
+About External Grader Problems
+##############################
 
 .. tags:: educator, concept
 
@@ -113,7 +113,7 @@ When you build your external grader, keep the following requirements in mind.
 
  :ref:`External Grader Problem Requirements` (reference)
 
- :ref:`Create an External Grader Problem in Studio` (how-to)
+ :ref:`Add an External Grader Problem` (how-to)
 
 
 **Maintenance chart**

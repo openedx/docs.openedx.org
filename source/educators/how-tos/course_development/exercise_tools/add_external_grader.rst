@@ -1,6 +1,6 @@
-.. _Create an External Grader Problem in Studio:
+.. _Add an External Grader Problem:
 
-Create an External Grader Problem in Studio
+Add an External Grader Problem in Studio
 ###########################################
 
 .. tags:: educator, how-to
@@ -30,7 +30,7 @@ To create a code response problem in Studio, follow these steps.
 .. seealso::
  
 
- :ref:`External Grader` (concept)
+ :ref:`About External Grader Problems` (concept)
 
  :ref:`External Grader Problem Requirements` (reference)
 

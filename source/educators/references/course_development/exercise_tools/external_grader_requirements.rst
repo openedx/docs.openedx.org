@@ -215,9 +215,9 @@ external grader.
 .. seealso::
  
 
- :ref:`External Grader` (concept)
+ :ref:`About External Grader Problems` (concept)
 
- :ref:`Create an External Grader Problem in Studio` (how-to)
+ :ref:`Add an External Grader Problem` (how-to)
 
 
 

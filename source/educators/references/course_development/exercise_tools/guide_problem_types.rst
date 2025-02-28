@@ -199,7 +199,7 @@ tools that you can add to your course.
        about the fully supported drag and drop problem type, see
        :ref:`About the Drag and Drop Problem`.
      - Not supported
-   * - :ref:`External Grader`
+   * - :ref:`External Grader<About External Grader Problems>`
      - An external grader is a service that receives learner responses to a
        problem, processes those responses, and returns feedback and a problem
        grade to the Open edX platform. You build and deploy an external grader

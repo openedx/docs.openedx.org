@@ -123,18 +123,18 @@ External Grader
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/external_graders.rst
+   ../concepts/exercise_tools/about_external_graders.rst
    ../references/course_development/exercise_tools/external_grader_requirements.rst
-   ../how-tos/course_development/exercise_tools/create_external_grader.rst
+   ../how-tos/course_development/exercise_tools/add_external_grader.rst
 
 Gene Explorer Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/gene_explorer.rst
@@ -143,10 +143,10 @@ Image Mapped Input Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../references/course_development/exercise_tools/image_mapped_input.rst
+   ../concepts/exercise_tools/about_image_mapped_input.rst
    ../how-tos/course_development/exercise_tools/create_image_mapped_input.rst
    ../references/course_development/exercise_tools/image_mapped_input_xml.rst
 

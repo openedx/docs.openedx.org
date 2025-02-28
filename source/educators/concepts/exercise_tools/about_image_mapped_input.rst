@@ -1,10 +1,10 @@
-.. _Image Mapped Input:
+.. _About Image Mapped Input Problem:
 
-###########################
-Image Mapped Input Problem
-###########################
+#################################
+About Image Mapped Input Problem
+#################################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 In an image mapped input problem, also known as a "pointing on a picture"
 problem, students click inside a defined region in an image. You define this
