@@ -75,6 +75,7 @@ sphinx==7.4.7
     #   sphinx-book-theme
     #   sphinx-copybutton
     #   sphinx-design
+    #   sphinx-notfound-page
     #   sphinx-tags
     #   sphinxcontrib-contentui
     #   sphinxcontrib-images
@@ -88,6 +89,8 @@ sphinx-book-theme==1.1.4
 sphinx-copybutton==0.5.2
     # via -r requirements/base.in
 sphinx-design==0.6.1
+    # via -r requirements/base.in
+sphinx-notfound-page==1.1.0
     # via -r requirements/base.in
 sphinx-tags==0.4
     # via -r requirements/base.in
