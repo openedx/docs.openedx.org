@@ -69,7 +69,7 @@ For more information, see :ref:`Manage Course Certificates`.
 .. seealso::
  
 
- :ref:`Graded Subsections` (concept)
+ :ref:`About Graded Subsections` (concept)
 
  :ref:`Gradebook Assignment Types` (reference)
 

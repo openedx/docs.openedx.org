@@ -1,8 +1,8 @@
-.. _Graded Subsections:
+.. _About Graded Subsections:
 
-##################
-Graded Subsections
-##################
+#########################
+About Graded Subsections
+#########################
 
 .. tags:: educator, concept
 

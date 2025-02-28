@@ -54,23 +54,13 @@ Completion Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/completion.rst
    ../how-tos/course_development/exercise_tools/enable_completion.rst
    ../how-tos/course_development/exercise_tools/enable_olx_completion.rst
 
-Configure Grades
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:   
-
-   ../concepts/grading/graded_subsections.rst
-   ../how-tos/grading/set_grace_period.rst
-   ../how-tos/grading/set_grade_range.rst
 
 Custom Javascript Display and Grading Problem
 *******************************************************

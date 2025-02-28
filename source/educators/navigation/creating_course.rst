@@ -91,7 +91,17 @@ Add Course Team Members
    ../references/course_development/course_team_roles.rst
    ../how-tos/set_up_course/add_course_team_members.rst
    ../how-tos/releasing-course/manage_beta_testing.rst
-   
+
+Configure Grades
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:   
+
+   ../concepts/grading/graded_subsections.rst
+   ../how-tos/grading/set_grace_period.rst
+   ../how-tos/grading/set_grade_range.rst
    
 
 Set Up Course Certificates
