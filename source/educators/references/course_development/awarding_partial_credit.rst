@@ -12,7 +12,7 @@ partial credit for a problem if they submit a partially correct answer.
 
 * :ref:`Single Select <Awarding Partial Credit in a Multiple Choice Problem>`
 * :ref:`Multi-select <Awarding Partial Credit in a Multi select Problem>`
-* :ref:`Numerical Input <Awarding Partial Credit in a Numerical Input Problem>`
+* :ref:`Numerical Input <Award Partial Credit in a Numerical Input Problem>`
 * :ref:`Custom Python-evaluated Input Problem (Write-Your-Own Grader) <Award Half Credit>`
 
 By awarding partial credit for problems, you can motivate learners who have

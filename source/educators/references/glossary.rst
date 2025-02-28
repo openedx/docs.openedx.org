@@ -677,7 +677,7 @@ N
 
   A problem that asks learners to enter numbers or specific and relatively
   simple mathematical expressions. For more information, see
-  :ref:`Numerical Input`.
+  :ref:`About Numerical Input`.
 
 
 .. _O:

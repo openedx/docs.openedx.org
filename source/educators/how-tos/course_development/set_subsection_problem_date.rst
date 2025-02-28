@@ -71,7 +71,7 @@ common problem types.
 
 * :ref:`Dropdown`
 * :ref:`Multi select`
-* :ref:`Numerical Input`
+* :ref:`About Numerical Input`
 * :ref:`Single Select`
 * :ref:`Text Input`
 

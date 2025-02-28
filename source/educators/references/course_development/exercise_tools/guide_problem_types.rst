@@ -44,7 +44,7 @@ following problem types. When you select any of the simple problem types, the
        answers, which are presented in a dropdown list after the learner
        selects the dropdown arrow.
      - Full support; mobile-ready
-   * - :ref:`Numerical Input`
+   * - :ref:`Numerical Input<About Numerical Input>`
      - In numerical input problems, learners enter numbers or specific and
        relatively simple mathematical expressions to answer a question. These
        problems allow only integers and a few select constants. You can specify
@@ -346,7 +346,7 @@ they use the Open edX mobile app.
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
 * :ref:`Multi select`
-* :ref:`Numerical Input`
+* :ref:`Numerical Input<About Numerical Input>`
 * :ref:`Single Select`
 * :ref:`Text Input`
 

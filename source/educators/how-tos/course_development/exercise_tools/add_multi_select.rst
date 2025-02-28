@@ -1,9 +1,11 @@
 .. _Add a Multi Select Problem:
 
-Add a Multi-select Problem
-##########################
+Add a Multi-select (Checkbox) Problem
+######################################
 
 .. tags:: educator, how-to
+
+.. youtube:: 6VYKcMeZrxg
 
 You add multi-select problems in Studio by selecting the **Problem** component.
 In the problem editor, select **the Multi-select** option. Fill in the fields

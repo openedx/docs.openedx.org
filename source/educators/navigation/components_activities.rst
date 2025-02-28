@@ -181,12 +181,11 @@ Multi-Select Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../references/course_development/exercise_tools/multi_select.rst
-   ../how-tos/add_checkbox.rst
-   ../how-tos/course_development/exercise_tools/adding_multi_select.rst
+   ../concepts/exercise_tools/about_multi_select.rst
+   ../how-tos/course_development/exercise_tools/add_multi_select.rst
    ../how-tos/course_development/exercise_tools/edit_multi_select_using_advanced_editor.rst
    ../how-tos/course_development/exercise_tools/add_multi_select_partial_credit.rst
    ../references/course_development/exercise_tools/multi_select_xml.rst
@@ -196,17 +195,16 @@ Numerical Input Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/numerical_input.rst
-   ../how-tos/course_development/exercise_tools/add_numerical_input_problem.rst
-   ../references/course_development/exercise_tools/numerical_input_xml.rst
-   ../how-tos/course_development/exercise_tools/edit_numerical_input_advanced.rst
+   ../how-tos/course_development/exercise_tools/manage_numerical_input_problem.rst
    ../how-tos/course_development/exercise_tools/award_partial_credit_numerical_input.rst
-   ../how-tos/course_development/exercise_tools/adding_text_in_numeric_response_field.rst
+   ../references/course_development/exercise_tools/numerical_input_xml.rst
    ../how-tos/course_development/exercise_tools/create_problem_in_latex.rst
    ../how-tos/course_development/text_components/manage_latex.rst
+   
 
 .. _Nav Open Response Assessments:
 
