@@ -95,8 +95,6 @@ steps.
 Update the New Course after a Re-Run
 *************************************
 
-.. tags:: educator, how-to
-
 When you create a course by re-running another course, you must carefully
 review the settings and content of the new course. To assure a quality
 experience for learners, be sure to test the course thoroughly before the

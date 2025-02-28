@@ -141,8 +141,6 @@ sure to set **Show Answer** to **Never** in the problem component.
 Create a Randomized Custom Python-Evaluated Input Problem
 ************************************************************
 
-.. tags:: educator, how-to
-
 You can create a custom Python-evaluated input problem that randomizes
 variables in the Python code.
 

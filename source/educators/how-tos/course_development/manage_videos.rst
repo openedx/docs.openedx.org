@@ -57,8 +57,6 @@ This name appears as a heading above the video in the LMS, and it identifies the
 Specify Additional Video Options
 **********************************
 
-.. tags:: educator, how-to
-
 When you create a video component, you can customize additonal settings such as
 specifying download options for the video and transcript, video license options,
 and a start and stop time for the video.

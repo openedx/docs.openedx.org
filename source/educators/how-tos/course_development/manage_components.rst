@@ -99,8 +99,6 @@ box, but all of them have a **Display Name** field.
 Reorganize a Component
 **********************************
 
-.. tags:: educator, how-to
-
 You can drag and drop components to a new position within their current unit,
 or you can move components from one unit to another unit.
 

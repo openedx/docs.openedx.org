@@ -119,8 +119,6 @@ enrollment period for the course is over.
 Close Discussions
 ******************
 
-.. tags:: educator, how-to
-
 .. note:: You can only close discussions when you work in a web browser. You
    cannot close discussions when you work in an Open edX mobile app.
 
