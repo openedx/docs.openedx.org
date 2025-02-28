@@ -24,7 +24,7 @@ To create a math expression input problem, follow these steps.
    problem.
 
 #. Provide an identifying **Display Name** and define
-   settings for the problem. For more information, see :ref:`Problem Settings`.
+   settings for the problem. For more information, see :ref:`Guide to Problem Settings`.
 
 #. Select **Save**.
 

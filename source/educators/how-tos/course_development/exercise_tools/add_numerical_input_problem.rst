@@ -33,7 +33,7 @@ Creating a numerical input problem is as simple as:
 .. note:: Only correct answers can be added to a numerical input problem.
 
 If you have any questions on the specifics of using the simple editor, please check
-out :ref:`Simple Editor` and :ref:`Problem Settings`.
+out :ref:`Simple Editor` and :ref:`Guide to Problem Settings`.
 
 *****************************
 Adding a Tolerance or a Range

@@ -83,7 +83,7 @@ following settings.
 
 This section describes the OLX elements and attributes that you define for the
 problem settings. For a detailed description of each setting, see
-:ref:`Problem Settings`.
+:ref:`Guide to Problem Settings`.
 
 ===============
 Display Name
@@ -269,11 +269,11 @@ the answers for all the problems in the component appear.
   than one problem. Each custom JavaScript problem must be in its own
   component.
 
-.. include:: /educators/references/course_development/exercise_tools/adding_hints
+.. include:: /educators/references/course_development/exercise_tools/adding_hints.rst
   :start-after: .. START ADDING FEEDBACK AND HINTS
   :end-before: .. END ADDING FEEDBACK AND HINTS
 
-.. include:: /educators/references/course_development/Section_partial_credit.rst
+.. include:: /educators/references/course_development/awarding_partial_credit.rst
   :start-after: .. START PARTIAL CREDIT
   :end-before: .. END PARTIAL CREDIT
 

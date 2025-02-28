@@ -28,7 +28,7 @@ Creating a multi-select problem is as simple as:
 #. Selecting and filling in any desired settings on the right.
 
 If you have any questions on the specifics of using the simple editor, please check
-out :ref:`Simple Editor` and :ref:`Problem Settings`.
+out :ref:`Simple Editor` and :ref:`Guide to Problem Settings`.
 
 .. _Adding Feedback for Multi select Problems:
 

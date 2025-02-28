@@ -118,35 +118,35 @@ To change the results visibility for your subsection, follow these steps.
 
 .. seealso::
  
-:ref:`About Problems Exercises and Tools` (concept)
+   :ref:`About Problems Exercises and Tools` (concept)
 
-:ref:`Core Problem Types` (reference)
+   :ref:`Core Problem Types` (reference)
 
-:ref:`Working with Problem Components` (reference)
+   :ref:`Working with Problem Components` (reference)
 
-:ref:`Guide to Problem Settings` (reference)
+   :ref:`Guide to Problem Settings` (reference)
 
-:ref:`Gradebook Assignment Types` (reference)
+   :ref:`Gradebook Assignment Types` (reference)
 
-:ref:`Feedback Best Practices` (concept)
+   :ref:`Feedback Best Practices` (concept)
 
-:ref:`Adding Feedback and Hints to a Problem` (reference)
+   :ref:`Adding Feedback and Hints to a Problem` (reference)
 
-:ref:`Configure Hint` (how-to)
+   :ref:`Configure Hint` (how-to)
 
-:ref:`Partial Credit` (reference)
+   :ref:`Partial Credit` (reference)
 
-:ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+   :ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
 
-:ref:`Adding Tooltips` (reference)
+   :ref:`Adding Tooltips` (reference)
 
-:ref:`Learner View of Problems` (reference)
+   :ref:`Learner View of Problems` (reference)
 
-:ref:`Advanced Editor` (reference)
+   :ref:`Advanced Editor` (reference)
 
-:ref:`Add Hints via the Advanced Editor` (how-to)
+   :ref:`Add Hints via the Advanced Editor` (how-to)
 
-:ref:`Modifying a Released Problem:` (reference)
+   :ref:`Modifying a Released Problem` (reference)
 
 :ref:`Add Unsupported Exercises Problems` (how-to)
 

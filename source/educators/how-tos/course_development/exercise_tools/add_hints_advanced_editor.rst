@@ -70,7 +70,7 @@ For example, the following OLX for a single select problem shows two hints.
 
 :ref:`Advanced Editor` (reference)
 
-:ref:`Modifying a Released Problem:` (reference)
+:ref:`Modifying a Released Problem` (reference)
 
 :ref:`Add Unsupported Exercises Problems` (how-to)
 

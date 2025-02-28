@@ -365,8 +365,7 @@ learners. For example, for a problem that has a total of five possible answers
 the file includes up to five rows, one for each answer selected by at least one
 learner. For problems with **Randomization** enabled in Studio (sometimes
 called rerandomization), there is one row for each problem-variant-answer
-combination selected by your learners. For more information, see :ref:`Problem
-Settings`.
+combination selected by your learners. For more information, see :ref:`Guide to Problem Settings`.
 
 .. note:: Certain types of problems can be set up to :ref:`award partial credit <Partial Credit>`. When a learner receives either the full or a partial score for a problem, this report includes that answer as correct.
 

@@ -22,7 +22,7 @@ The Open edX® Problem Component
    ../concepts/instructional_design/feedback_best_practices.rst
    ../references/course_development/exercise_tools/adding_hints
    ../how-tos/course_development/configure_hints.rst
-   ../references/course_development/Section_partial_credit.rst
+   ../references/course_development/awarding_partial_credit.rst
    ../how-tos/course_development/set_subsection_problem_date.rst
    ../references/course_development/adding_tooltips.rst
    ../references/course_development/advanced_problem_editor.rst
