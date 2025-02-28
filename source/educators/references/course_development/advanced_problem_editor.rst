@@ -189,7 +189,7 @@ series of text input questions, or you can include questions that use different
 problem types, such as both numerical input and math expression input.
 
 .. note::
-  You cannot use a :ref:`Custom JavaScript` in a problem component that
+  You cannot use a :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>` in a problem component that
   contains more than one question. Each custom JavaScript problem must be in
   its own component.
 

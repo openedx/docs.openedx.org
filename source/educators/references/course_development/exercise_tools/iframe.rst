@@ -25,7 +25,7 @@ see :ref:`Accessibility Best Practices Checklist`.
 
 Iframes are well-suited for tools that demonstrate a concept, but that are not
 graded or used to store student data. If you want to add a graded tool or
-exercise, add the tool as a :ref:`custom JavaScript problem<Custom JavaScript>`
+exercise, add the tool as a :ref:`custom JavaScript problem<Guide to Custom JavaScript Display and Grading Problem>`
 or an :ref:`LTI component<LTI Component>`.
 
 For more information about iframes, see the `iframe: The Inline Frame element

@@ -66,7 +66,7 @@ Custom Javascript Display and Grading Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../references/course_development/exercise_tools/custom_javascript.rst

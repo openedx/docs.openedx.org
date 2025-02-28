@@ -265,7 +265,7 @@ the problems in the component at once. If a learner selects **Show Answer**,
 the answers for all the problems in the component appear.
 
 .. note::
-  You cannot use a :ref:`Custom JavaScript` in a component that contains more
+  You cannot use a :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>` in a component that contains more
   than one problem. Each custom JavaScript problem must be in its own
   component.
 

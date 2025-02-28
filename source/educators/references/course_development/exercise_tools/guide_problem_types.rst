@@ -94,7 +94,7 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
      - Description
      - Support
 
-   * - :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+   * - :ref:`Custom JavaScript Display and Grading<Guide to Custom JavaScript Display and Grading Problem>`
      - Custom JavaScript display and grading problems (also called custom
        JavaScript problems or JS input problems) allow you to create a custom
        problem or tool that uses JavaScript and then add the problem or tool
@@ -280,7 +280,7 @@ tools available in Studio. For more information, see
        box. The grader uses Python script that you create and embed in the
        problem to evaluate learner responses.
      - Not supported
-   * - :ref:`completion`
+   * - :ref:`Completion Tool<About the Completion Tool>`
      - Learners mark sections of course content as completed. This tool helps
        learners track their progress through sections of the course (including
        ungraded activities such as reading text, watching videos, or

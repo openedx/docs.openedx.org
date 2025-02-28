@@ -1,7 +1,7 @@
-.. _Custom JavaScript:
+.. _Guide to Custom JavaScript Display and Grading Problem:
 
-Custom JavaScript Display and Grading Problem
-#############################################
+Guide to Custom JavaScript Display and Grading Problem
+######################################################
 
 .. tags:: educator, reference
 

@@ -80,7 +80,7 @@ advanced problem types.
 
 * :ref:`Annotation`
 * :ref:`Circuit Schematic Builder`
-* :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+* :ref:`Custom JavaScript Display and Grading<Guide to Custom JavaScript Display and Grading Problem>`
 * :ref:`Custom Python-Evaluated Input<Write Your Own Grader>`
 * :ref:`Image Mapped Input`
 * :ref:`Math Expression Input`
