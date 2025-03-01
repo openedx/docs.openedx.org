@@ -177,7 +177,7 @@ Open edX Educators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      .. image:: /_images/educators_homepage/advanced_features_undraw.png
+      .. image:: /_images/educators_homepage/olx_undraw.png
          :alt: A user with abstract icons around them
          :height: 150px
          :align: center
