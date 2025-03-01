@@ -1,7 +1,7 @@
 .. _Open edX as an LTI Provider to Blackboard:
 
-Example: Open edX Platform as an LTI Provider to Blackboard
-###########################################################
+Use Open edX Platform as an LTI Provider to Blackboard (Example)
+####################################################################
 
 .. tags:: educator, how-to
 

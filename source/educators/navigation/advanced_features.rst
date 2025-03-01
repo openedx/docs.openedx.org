@@ -76,7 +76,7 @@ Use Open edX as an LTI Tool Provider
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/advanced_features/using_openedx_as_LTI_provider.rst
@@ -91,7 +91,7 @@ Course Tags and Taxonomies
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/content-tagging-how-tos/build_taxonomy_using_template.rst
