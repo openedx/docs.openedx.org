@@ -104,7 +104,7 @@ experiment groups, and the second divides learners into three experiment groups.
 
  :ref:`Overview of Content Experiments` (concept)
 
- :ref:`Configure Your Course for Content Experiments` (how-to)
+ :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Experiment Group Configurations` (reference)
 

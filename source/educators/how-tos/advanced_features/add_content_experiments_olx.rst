@@ -7,6 +7,10 @@ Add a Content Experiment in OLX
 
 .. tags:: educator, how-to
 
+.. contents::
+  :local:
+  :depth: 2
+
 You work with multiple XML files to configure a content experiment. This
 section steps through the files involved in a content experiment that shows
 different content to two different groups of learners.
@@ -87,18 +91,15 @@ For information about the ``policy.json`` file, see :ref:`Set Up Group Configura
 
 .. seealso::
  
+ :ref:`About Content Experiments` (concept)
 
- :ref:`Offering Differentiated Content` (concept)
+ :ref:`Guidelines for Modifying Group Configurations` (reference)
 
- :ref:`Overview of Content Experiments` (concept)
+ :ref:`Manage Content Experiments` (how-to)
 
- :ref:`Configure Your Course for Content Experiments` (how-to)
+ :ref:`Test Content Experiments` (how-to)
 
  :ref:`Experiment Group Configurations` (reference)
-
- :ref:`Set Up Group Configuration for OLX Courses` (how-to)
-
- :ref:`Guidelines for Modifying Group Configurations` (concept)
 
 
 **Maintenance chart**

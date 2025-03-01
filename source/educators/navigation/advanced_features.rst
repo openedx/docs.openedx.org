@@ -44,22 +44,15 @@ Run Content Experiments
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../concepts/advanced_features/content_experiments_overview.rst
-   ../concepts/advanced_features/guidlines_modifying_group_configuration.rst
-   ../how-tos/advanced_features/configure_content_experiments.rst
-   ../how-tos/advanced_features/create_group_configuration.rst
-   ../how-tos/advanced_features/edit_group_configuration.rst
-   ../how-tos/advanced_features/delete_group_configuration.rst
-   ../how-tos/advanced_features/create_content_experiment.rst
-   ../how-tos/advanced_features/create_content_experiment_groups.rst
-   ../how-tos/advanced_features/change_group_configuration_content_experiment.rst
+   ../concepts/advanced_features/about_content_experiments.rst
+   ../concepts/advanced_features/guidelines_modifying_group_configuration.rst
+   ../how-tos/advanced_features/manage_content_experiments.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/test_content_experiments.rst
    ../references/advanced_features/experiment_group_configurations.rst
-   ../references/advanced_features/add_content_experiments.rst
 
 .. _Use Teams in Your Course:
 

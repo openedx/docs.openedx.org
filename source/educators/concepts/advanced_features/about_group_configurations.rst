@@ -29,7 +29,7 @@ group configuration that assigns your learners to four experiment groups.
 
  :ref:`Offering Differentiated Content` (concept)
 
- :ref:`Configure Your Course for Content Experiments` (how-to)
+ :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Experiment Group Configurations` (reference)
 

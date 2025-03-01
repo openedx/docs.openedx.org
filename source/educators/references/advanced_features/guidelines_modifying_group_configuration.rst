@@ -5,7 +5,7 @@
 Guidelines for Modifying Group Configurations
 #############################################
 
-.. tags:: educator, concept
+.. tags:: educator, reference
 
 Review these guidelines if you must modify a group configuration after a course starts. These guidelines apply for courses built in Studio or using OLX (Open Learning XML).
 
@@ -38,18 +38,15 @@ Removing an experiment group affects event data for the course. Ensure that rese
 
 .. seealso::
  
+ :ref:`About Content Experiments` (concept)
 
- :ref:`Offering Differentiated Content` (concept)
-
- :ref:`Overview of Content Experiments` (concept)
-
- :ref:`Configure Your Course for Content Experiments` (how-to)
-
- :ref:`Experiment Group Configurations` (reference)
+ :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
 
- :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+ :ref:`Test Content Experiments` (how-to)
+
+ :ref:`Experiment Group Configurations` (reference)
 
 **Maintenance chart**
 
