@@ -15,7 +15,7 @@ and logging in.
 To receive and share product and release announcements by email, you can
 subscribe to announcements on one of the edX portal sites.
 
-#. Create an account on the `Open edX Portal`_ or the  `edX Partner Portal`_ as
+#. Create an account on the `Open edX Portal`_ as
    described above.
 #. Select **Community** and then **Announcements**.
 #. Under **Subscriptions**, select the different types of announcements that
