@@ -1,7 +1,7 @@
-.. _Single Select Overview:
+.. _About Single Select:
 
-Overview
-#########
+About Single Select Problems
+#############################
 
 .. tags:: educator, concept
 

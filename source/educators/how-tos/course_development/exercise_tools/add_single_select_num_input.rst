@@ -58,7 +58,7 @@ Single Select and Numerical Input Problem Code
 
  :ref:`Manage Numerical Input Problem` (how-to)
 
- :ref:`Single Select Overview` (concept)
+ :ref:`About Single Select` (concept)
 
  :ref:`Single Select` (how-to)
 

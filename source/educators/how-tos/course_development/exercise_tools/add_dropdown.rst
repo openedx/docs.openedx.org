@@ -5,6 +5,8 @@ Add a Dropdown Problem
 
 .. tags:: educator, how-to
 
+.. youtube:: e6HxKo18_xE
+
 You add dropdown problems in Studio by selecting the **Problem** component.
 In the problem editor, select the **Dropdown** option. Fill in the fields on
 this screen to create your problem.

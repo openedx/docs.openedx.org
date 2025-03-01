@@ -175,6 +175,16 @@ Math Expression Input Problem
    ../how-tos/course_development/exercise_tools/adding_math_expression_problem.rst
    ../references/course_development/exercise_tools/math_expression_input_xml.rst
 
+
+Multiple Choice Problem
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:   
+
+   ../references/course_development/exercise_tools/multiple_choice.rst
+
 .. _Multi Select Problem:
 
 Multi-Select Problem
@@ -201,6 +211,7 @@ Numerical Input Problem
    ../references/course_development/exercise_tools/numerical_input.rst
    ../how-tos/course_development/exercise_tools/manage_numerical_input_problem.rst
    ../how-tos/course_development/exercise_tools/award_partial_credit_numerical_input.rst
+   ../how-tos/course_development/exercise_tools/add_single_select_num_input.rst
    ../references/course_development/exercise_tools/numerical_input_xml.rst
    ../how-tos/course_development/exercise_tools/create_problem_in_latex.rst
    ../how-tos/course_development/text_components/manage_latex.rst
@@ -313,43 +324,31 @@ Randomized Content Block
    ../concepts/exercise_tools/randomized_content.rst
    ../how-tos/course_development/exercise_tools/use_randomized_content_blocks.rst
 
-Single Select and Numerical Input Problem
-*******************************************************
-
-.. toctree::
-   :maxdepth: 2
-   :glob:   
-
-   ../how-tos/course_development/exercise_tools/add_single_select_num_input.rst
-
 .. _Single Select Problem:
 
 Single Select Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../concepts/exercise_tools/single_select_overview.rst
-   ../references/course_development/exercise_tools/multiple_choice.rst
    ../how-tos/course_development/exercise_tools/add_single_select.rst
    ../how-tos/course_development/exercise_tools/award_partial_credit_multiple_choice.rst
+   ../how-tos/course_development/exercise_tools/add_single_select_num_input.rst
    ../how-tos/course_development/exercise_tools/edit_single_select_advanced.rst
    ../references/course_development/exercise_tools/single_select_xml.rst
-   ../how-tos/add_multiple_choice.rst
-   ../how-tos/add_dropdown.rst
 
 
 Staff Graded Assignment
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/staff_graded.rst
-   ../how-tos/course_development/exercise_tools/create_staffgraded.rst
+   ../how-tos/course_development/exercise_tools/manage_staffgraded.rst
 
 .. _Text Input Problem:
 
@@ -357,12 +356,11 @@ Text Input Problem
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../references/course_development/exercise_tools/text_input.rst
+   ../concepts/exercise_tools/about_text_input.rst
    ../how-tos/course_development/exercise_tools/add_text_input.rst
-   ../how-tos/add_text_input.rst
    ../how-tos/course_development/exercise_tools/edit_text_input_advanced.rst
    ../references/course_development/exercise_tools/text_input_xml.rst
    
@@ -373,17 +371,17 @@ Timed Exams
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
-   ../concepts/advanced_features/timed_exams.rst
-   ../how-tos/advanced_features/timed_exams.rst
+   ../concepts/advanced_features/about_timed_exams.rst
+   ../how-tos/advanced_features/manage_timed_exams.rst
 
 Zooming Image Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:   
 
    ../how-tos/course_development/exercise_tools/create_zooming_image.rst

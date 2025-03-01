@@ -1,7 +1,7 @@
 .. _Timed Exams:
 
-Timed Exams
-#############
+About Timed Exams
+#################
 
 .. tags:: educator, concept
 
@@ -25,7 +25,7 @@ starting a timed exam.
 .. seealso::
  
 
- :ref:`Configure Timed Exams`
+ :ref:`Manage Timed Exams`
 
 
 

@@ -1,7 +1,7 @@
-.. _Configure Timed Exams:
+.. _Manage Timed Exams:
 
 ######################
-Configure Timed Exams
+Manage Timed Exams
 ######################
 
 .. tags:: educator, how-to

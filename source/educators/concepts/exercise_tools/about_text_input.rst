@@ -1,10 +1,10 @@
 .. _Text Input:
 
 ########################
-Text Input Problem
+About Text Input Problem
 ########################
 
-.. tags:: educator, reference
+.. tags:: educator, concept
 
 The text input problem type is a simple problem type that can be added to any
 course. At a minimum, text input problems include a question or prompt and a

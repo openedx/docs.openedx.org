@@ -162,7 +162,7 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/add_single_select_num_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_survey_olx.rst
    ../olx/problem-xml/symbolic_response.rst
-   /educators/references/course_development/exercise_tools/text_input.rst
+   /educators/concepts/exercise_tools/about_text_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_word_cloud.rst
    /educators/how-tos/course_development/exercise_tools/create_zooming_image.rst
 
