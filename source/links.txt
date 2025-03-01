@@ -58,25 +58,11 @@
 
 .. _Open edX Portal: http://open.edx.org/
 
-.. _Partner Portal: http://partners.edx.org/
-
-.. _Announcements: https://open.edx.org/announcements
-
-.. _edX Partner Support: https://partners.edx.org/edx_zendesk
-
-.. _edX pattern library: http://ux.edx.org/design_elements/colors/
-
 .. _Open edX Named Releases page: https://docs.openedx.org/en/latest/community/release_notes/index.html
-
-.. _Open edX Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/
-
-.. _Open edX Native Installation: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/native_installation.html
 
 .. GitHub Links
 
 .. _GitHub: http://github.com
-
-.. _Contribute to edX Documentation: https://github.com/openedx/edx-documentation#contribute-to-edx-documentation
 
 .. _edx-documentation/shared: https://github.com/openedx/edx-documentation/blob/master/shared/conf.py
 
@@ -650,12 +636,6 @@
 
 .. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
 
-.. _pub creating a course run: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/pub_create_edit_course_run/index.html
-
-.. _Pub Creating and Announcing a Course: https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/set_up_course/pub_create_ann_course/index.html
-
-.. _view order history: https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master/getting_started/dashboard_acctsettings_profile.html#view-your-order-history
-
 .. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
 
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
@@ -664,8 +644,3 @@
 
 .. _Mathematics meta: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
-.. _Enabling Course Prerequisites: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_prerequisites.html#enable-course-prerequisites
-
-
-.. ###### WIP MIGRATION LINKS ######
-.. _edX Partner Portal: https://partners.edx.org
