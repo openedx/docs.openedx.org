@@ -1,6 +1,6 @@
-.. _Cohorts Overview:
+.. _About Learner Cohorts:
 
-Using Cohorts in Your Courses
+About Learner Cohorts
 #############################
 
 .. tags:: educator, concept

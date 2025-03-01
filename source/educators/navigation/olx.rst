@@ -143,10 +143,10 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/image_mapped_input_xml.rst
    /educators/concepts/exercise_tools/about_lti_component.rst
    /educators/references/course_development/exercise_tools/math_expression_input_xml.rst
-   /educators/how-tos/course_development/exercise_tools/adding_mathjax.rst
+   /educators/how-tos/course_development/exercise_tools/add_mathjax.rst
    /educators/references/course_development/exercise_tools/multi_select_xml.rst
    /educators/how-tos/course_development/exercise_tools/manage_numerical_input_problem.rst
-   /educators/concepts/exercise_tools/OpenResponseAssessments.rst
+   /educators/concepts/exercise_tools/about_OpenResponseAssessments.rst
    /educators/how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    /educators/how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
    /educators/references/course_development/exercise_tools/ORA_Staff_Grading.rst
@@ -158,7 +158,7 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/create_problem_with_hint.rst
    /educators/how-tos/course_development/exercise_tools/create_protein_builder.rst
    /educators/how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
-   /educators/concepts/exercise_tools/single_select_overview.rst
+   /educators/concepts/exercise_tools/about_single_select.rst
    /educators/how-tos/course_development/exercise_tools/add_single_select_num_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_survey_olx.rst
    ../olx/problem-xml/symbolic_response.rst

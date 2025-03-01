@@ -194,7 +194,7 @@ Open edX Educators
          See All
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    navigation/accessibility
    navigation/advanced_features

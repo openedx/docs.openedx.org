@@ -56,7 +56,7 @@ your course starts follow.
 * Review the grading policy, and set a grace period for homework assignment
   due dates. See :ref:`Manage Learner Grades <Grades>`.
 * Confirm that any optional features that you want your course to include, such
-  as learner cohorts, are enabled and configured. See :ref:`Cohorts Overview`.
+  as learner cohorts, are enabled and configured. See :ref:`About Learner Cohorts`.
 
 **Verify Certificates**
 

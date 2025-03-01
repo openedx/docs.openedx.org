@@ -1,8 +1,8 @@
 .. _UBC Peer Instruction:
 
-##########################
-Peer Instruction Tool
-##########################
+################################
+About the Peer Instruction Tool
+################################
 
 .. tags:: educator, concept
 

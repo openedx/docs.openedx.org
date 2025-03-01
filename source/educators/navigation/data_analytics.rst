@@ -27,7 +27,7 @@ Learner Data
    :maxdepth: 1
    :glob:
 
-   ../concepts/data/learner_data.rst
+   ../concepts/data/about_learner_data.rst
    ../how-tos/data/view_learner_data.rst
    ../how-tos/data/view_anonymized_learner_ids.rst
    ../references/data/staff_debug_info.rst

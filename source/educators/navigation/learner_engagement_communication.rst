@@ -14,7 +14,7 @@ Course Discussions
    :maxdepth: 1
    :glob:
 
-   ../concepts/communication/course_discussions.rst
+   ../concepts/communication/about_course_discussions.rst
    ../concepts/communication/best_practices_configuring_discussions.rst
    ../how-tos/communication/configure_discussions.rst
    ../how-tos/course_development/configure_discussion_legacy.rst
@@ -71,7 +71,7 @@ Course Updates
    :maxdepth: 1
    :glob:
 
-   ../concepts/communication/course_updates_handouts.rst
+   ../concepts/communication/about_course_updates_handouts.rst
    ../how-tos/communication/add_course_updates_handouts.rst
 
 Course Wiki
@@ -111,7 +111,7 @@ Learner View
    :maxdepth: 1
    :glob:
 
-   ../how-tos/sidebar_collapse_expand.rst
+   ../how-tos/collapse_expand_sidebar.rst
 
 Poll Tool
 *******************************************************

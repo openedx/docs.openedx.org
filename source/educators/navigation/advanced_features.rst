@@ -14,7 +14,7 @@ Cohorts are groups of learners in your course. You can use cohorts to divide the
    :maxdepth: 1
    :glob:
 
-   ../concepts/advanced_features/cohorts_overview.rst
+   ../concepts/advanced_features/about_cohorts.rst
    ../how-tos/advanced_features/manage_cohorts.rst
    ../references/advanced_features/managing_cohort_assignment.rst
 
@@ -65,7 +65,7 @@ Use Teams in Your Course
    :maxdepth: 1
    :glob:
 
-   ../concepts/advanced_features/teams_overview.rst
+   ../concepts/advanced_features/about_teams.rst
    ../references/advanced_features/teams_configuration_options.rst
    ../how-tos/advanced_features/manage_teams.rst
    ../references/advanced_features/managing_teams_via_csv.rst
