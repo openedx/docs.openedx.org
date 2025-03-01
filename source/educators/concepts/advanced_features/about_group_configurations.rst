@@ -5,8 +5,7 @@ About Group Configurations
 
 .. tags:: educator, concept
 
-Before you can create :ref:`content experiments<Overview of Content
-Experiments>`, you must specify at least one group configuration for your
+Before you can create :ref:`content experiments<About Content Experiments>`, you must specify at least one group configuration for your
 course.
 
 A group configuration defines how many groups of learners are in an experiment.

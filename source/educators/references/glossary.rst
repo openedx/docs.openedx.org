@@ -30,7 +30,7 @@ A
 
 **A/B test**
 
-  See :ref:`Add Content Experiments to Your Course`.
+  See :ref:`Manage Content Experiments`.
 
 
 .. _About Page:
@@ -178,7 +178,7 @@ C
   randomly assigned groups of learners. Also known as A/B or split testing,
   you use content experiments to compare the performance of learners who have
   been exposed to different versions of the content. For more information, see
-  :ref:`Overview of Content Experiments`.
+  :ref:`About Content Experiments`.
 
 
 **Content Library**

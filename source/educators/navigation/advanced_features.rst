@@ -48,10 +48,10 @@ Run Content Experiments
    :glob:
 
    ../concepts/advanced_features/about_content_experiments.rst
-   ../concepts/advanced_features/guidelines_modifying_group_configuration.rst
    ../how-tos/advanced_features/manage_content_experiments.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/test_content_experiments.rst
+   ../references/advanced_features/guidelines_modifying_group_configuration.rst
    ../references/advanced_features/experiment_group_configurations.rst
 
 .. _Use Teams in Your Course:
@@ -60,21 +60,17 @@ Use Teams in Your Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/advanced_features/teams_overview.rst
    ../references/advanced_features/teams_configuration_options.rst
+   ../how-tos/advanced_features/manage_teams.rst
    ../references/advanced_features/managing_teams_via_csv.rst
+   ../how-tos/connect_teams_content_groups.rst
    ../concepts/advanced_features/managing_teams_discussions.rst
    ../concepts/advanced_features/teams_learner_experience.rst
-   ../how-tos/advanced_features/enable_teams.rst
-   ../how-tos/advanced_features/create_teams.rst
-   ../how-tos/advanced_features/search_teams.rst
-   ../how-tos/advanced_features/edit_teams.rst
-   ../how-tos/advanced_features/remove_learner_from_team.rst
-   ../how-tos/advanced_features/delete_teams.rst
-   ../how-tos/connect_teams_content_groups.rst
+   
 
 Use Open edX as an LTI Tool Provider
 *******************************************************

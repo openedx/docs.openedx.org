@@ -51,7 +51,7 @@ Use a Section from a Course independently of the Course Outline
 .. seealso::
  
 
- :ref:`Add Content Experiments to Your Course` (how-to)
+ :ref:`Manage Content Experiments` (how-to)
 
 
 **Maintenance chart**

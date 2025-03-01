@@ -102,7 +102,7 @@ experiment groups, and the second divides learners into three experiment groups.
 
  :ref:`Offering Differentiated Content` (concept)
 
- :ref:`Overview of Content Experiments` (concept)
+ :ref:`About Content Experiments` (concept)
 
  :ref:`Manage Content Experiments` (how-to)
 

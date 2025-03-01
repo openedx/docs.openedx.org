@@ -61,17 +61,18 @@ Separate from the team maximum size setting, it is possible to override the spec
 a given team group, allowing you to adjust team sizes to fit your course needs.
 
 .. seealso::
- 
 
- :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+ :ref:`About Teams` (concept)
 
- :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+ :ref:`Manage Teams` (how-to)
 
- :ref:`Enable and Configure Teams` (how-to)
+ :ref:`Manage Teams Membership via CSV Upload` (how-to)
 
- :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+ :ref:`Connect Teams to Content Groups` (how-to)
 
- :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Teams Discussions` (concept)
+
+ :ref:`Learner Experience of Teams` (concept)
 
 **Maintenance chart**
 

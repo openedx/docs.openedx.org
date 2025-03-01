@@ -16,7 +16,7 @@ This section provides information about offering differentiated content in your 
 
 For information about dividing discussion topics in your course so that only learners in the same groups interact with each other, see :ref:`About Divided Discussions`.
 
-.. note:: You can also use experiment groups to compare the performance of groups of learners who are offered different content. For details, see :ref:`Overview of Content Experiments`.
+.. note:: You can also use experiment groups to compare the performance of groups of learners who are offered different content. For details, see :ref:`About Content Experiments`.
 
 
 .. _Offering Different Content Based on Enrollment Track:

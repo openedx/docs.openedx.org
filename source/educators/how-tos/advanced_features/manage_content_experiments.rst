@@ -10,7 +10,7 @@ Manage Content Experiments
   :depth: 2  
 
 This how-to provides instructions for configuring your course to enable
-:ref:`content experiments<Overview of Content Experiments>`. 
+:ref:`content experiments<About Content Experiments>`. 
 
 .. _Enable Content Experiments:
 

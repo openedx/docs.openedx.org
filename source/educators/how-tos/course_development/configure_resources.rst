@@ -91,7 +91,7 @@ Configuring the Teams application
 **********************************
 
 Additional management and configuration of the teams application can be done through the main Team application tab
-in the learner experience, and is detailed in :ref:`Using the Teams application<CA_Teams_Overview>`.
+in the learner experience, and is detailed in :ref:`Using the Teams application<About Teams>`.
 
 .. _ORA Coursewide Settings:
 
@@ -119,7 +119,7 @@ To learn about Flexible Peer Grading and the course override setting, see  :ref:
 
  :ref:`About Course Wiki` (reference)
 
- :ref:`Teams Overview <CA_Teams_Overview>` (concept)
+ :ref:`About Teams` (concept)
 
  :ref:`Open Response Assessments` (concept)
 

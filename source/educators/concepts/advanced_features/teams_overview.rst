@@ -1,6 +1,6 @@
-.. _CA_Teams_Overview:
+.. _About Teams:
 
-Teams Overview
+About Teams
 ##############
 
 .. tags:: educator, concept
@@ -19,7 +19,7 @@ instructor-managed team-sets and instructions on how to set them up are containe
 in this document. To make controlling course team
 memberships across teams and team-sets easier, there is a CSV upload tool that allows
 course staff to add and remove learners from teams across team-sets in bulk. More
-information on this tool can be found in the section :ref:`Managing Teams via CSV Upload`
+information on this tool can be found in the section :ref:`Manage Teams Membership via CSV Upload`
 
 When a team is created, it is given an name and description to identify it.
 A primary communication language can optionally be specified
@@ -38,17 +38,18 @@ to connect socially, consider using discussions within the course rather than te
 For more information about using discussions, see :ref:`Best Practices for Configuring Course Discussions`.
 
 .. seealso::
- 
-
- :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-
- :ref:`Enable and Configure Teams` (how-to)
 
  :ref:`Teams Configuration Options` (reference)
 
- :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+ :ref:`Manage Teams` (how-to)
 
- :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Manage Teams Membership via CSV Upload` (how-to)
+
+ :ref:`Connect Teams to Content Groups` (how-to)
+
+ :ref:`Teams Discussions` (concept)
+
+ :ref:`Learner Experience of Teams` (concept)
 
 **Maintenance chart**
 

@@ -1,11 +1,11 @@
-.. _CA Learner Experience of Teams:
+.. _Learner Experience of Teams:
 
 The Learner's Experience of Teams
 #################################
 
 .. tags:: educator, concept
 
-After you have :ref:`enabled teams <Enable and Configure Teams>` and created topics in your
+After you have :ref:`enabled teams <Manage Teams>` and created topics in your
 course, learners can begin browsing topics and joining teams. Teams are formed
 within topics. Each learner can belong to only one team.
 
@@ -104,17 +104,17 @@ For information about course discussions and managing discussions, see
 
 .. seealso::
  
-
- :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-
- :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-
- :ref:`Enable and Configure Teams` (how-to)
+ :ref:`About Teams` (concept)
 
  :ref:`Teams Configuration Options` (reference)
 
- :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Manage Teams` (how-to)
 
+ :ref:`Manage Teams Membership via CSV Upload` (how-to)
+
+ :ref:`Connect Teams to Content Groups` (how-to)
+
+ :ref:`Teams Discussions` (concept)
 
 **Maintenance chart**
 
