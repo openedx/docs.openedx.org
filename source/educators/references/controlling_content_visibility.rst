@@ -191,7 +191,7 @@ provide learners in the certificate track with different exams from non-certific
 * :ref:`Modify access settings for a component<Restrict Access to a Component>`
 
 For information about creating differentiated content based on cohorts, see
-:ref:`Create Cohort Specific Course Content`.
+:ref:`Guide to Creating Cohort Specific Course Content`.
 
 For information about creating differentiated content based on enrollment
 track, see :ref:`Enrollment Track Specific Courseware Overview`.

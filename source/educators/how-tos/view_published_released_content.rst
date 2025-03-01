@@ -24,7 +24,7 @@ the selected group would see it.
 
 For more information about each view, see :ref:`Staff View`, :ref:`Student
 View`, or :ref:`Specific Student View`. For more information about viewing
-cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`.
+cohort-specific course content, see :ref:`View Cohort Specific Courseware`.
 
 
 .. seealso::

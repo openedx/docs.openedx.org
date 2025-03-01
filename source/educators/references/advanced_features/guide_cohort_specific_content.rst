@@ -1,10 +1,10 @@
-.. _Create Cohort Specific Course Content:
+.. _Guide to Creating Cohort Specific Course Content:
 
-###########################################
-Create Cohort-Specific Course Content
-###########################################
+##################################################
+Guide to Creating Cohort-Specific Course Content
+##################################################
 
-.. tags:: educator, how-to
+.. tags:: educator, reference
 
 This section provides information about setting up content for specific
 cohorts.
@@ -37,7 +37,7 @@ Complete these steps to create cohort-specific content in your course.
 In Studio
 
 #. :ref:`Enable cohorts in your course<Manage Course Cohorts>`.
-#. :ref:`Create content groups<Creating Content Groups>`.
+#. :ref:`Create content groups<Create Content Group>`.
 #. :ref:`Specify components or units as available only to particular content
    groups<Specify Content as Available Only to Certain Content Groups>`.
 
@@ -47,7 +47,7 @@ In the LMS
    Cohorts>`.
 #. :ref:`Associate one or more cohorts with a content group<Associate Cohorts
    with Content Groups>`.
-#. :ref:`Preview cohort-specific course content<Viewing Cohort Specific
+#. :ref:`Preview cohort-specific course content<View Cohort Specific
    Courseware>`.
 
 .. _Cohorted Courseware Example:
@@ -96,55 +96,54 @@ university-related videos. When you view the course as a learner in the
 "University-Specific Content" group, you see a university-related video as well
 as the quiz at the end of each section.
 
-.. _About Content Groups:
+.. _Specify Content as Available Only to Certain Content Groups:
 
-**************
-Content Groups
-**************
+************************************************************************
+Specify Content as Available Only to Particular Content Groups
+************************************************************************
 
-Content groups are virtual groupings of learners who will see a particular set
-of course content. You can use content groups to designate specific course
-content as available to particular :ref:`cohorts<Cohorts Overview>` of learners.
+.. tags:: educator, how-to
 
-You create content groups in Studio, and in your course outline you use the
-**Access Settings** to designate whether a component is selectively available
-only to one or more content groups. Any course components that do not have an
-explicit restricted access setting are available to all learners, regardless of
-their cohort.
+In Studio, you can modify the settings of **units** or **components** to give access
+only to learners who are in cohorts associated with particular content groups.
+You cannot specify entire subsections or sections for restricted access by
+particular content groups.
 
-Content groups do not have an actual impact on the availability of a course
-component until you associate them with one or more cohorts. If you have
-designated certain course content as restricted to a content group, and in
-addition have associated that content group with one or more cohorts, then
-only learners in those cohorts will see the designated content.
+You do not need to edit the access settings of units or components that are
+intended for all learners. Units or components that you do not restrict access
+to are available to all learners enrolled in your course, regardless of the
+cohort that they belong to.
 
-For an example of using content groups to create cohort-specific course
-content, see :ref:`Cohorted Courseware Example`.
+.. note:: If a unit has group access restrictions set, all of its child
+   components inherit these group access restrictions unless you explicitly
+   set different group access restrictions for individual child components.
+
+For details about how to modify unit access settings, see :ref:`Set Access
+Restrictions For a Unit`.
+
+For details about how to modify component access settings, see :ref:`Restrict Access to a Component`.
+
+For details about previewing your course to ensure that learners in a cohort
+correctly see the content intended for them, see :ref:`View Usage of a Content
+Group` and :ref:`View Cohort Specific Courseware`.
+
+.. note:: In addition to access settings for content groups, a learner's
+   ability to see a course component also depends on whether it is marked as
+   visible to staff only, whether the unit is published, and the course's
+   release date. For details about testing course content in general, see
+   :ref:`Testing Your Course Content`.
 
 .. seealso::
  
+ :ref:`Offering Differentiated Content` (concept)
 
- :ref:`Cohorts Overview` (concept)
+ :ref:`About Content Groups` (concept)
 
- :ref:`Manage Course Cohorts` (how-to)
+ :ref:`Manage Content Groups` (how-to)
 
- :ref:`About Divided Discussions` (concept)
-
- :ref:`Guide to Managing Divided Discussions` (reference)
-
- :ref:`Best Practices for Moderating Course Discussions` (concept)
-
- :ref:`Set Up Divided Discussions` (how-to)
-
- :ref:`Creating Content Groups` (how-to)
- 
- :ref:`Specify Content as Available Only to Certain Content Groups` (how-to)
- 
  :ref:`Associate Cohorts with Content Groups` (how-to)
- 
- :ref:`Viewing Cohort Specific Courseware` (how-to)
- 
- :ref:`Delete Content Groups` (how-to)
+
+ :ref:`View Cohort Specific Courseware` (how-to)
 
 **Maintenance chart**
 

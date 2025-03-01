@@ -5,36 +5,38 @@
 Advanced Features
 ###################
 
-.. _Offer Different Content to Different Groups:
+Manage Course Cohorts
+**********************
 
-Offer Different Content to Different Groups (Cohorts)
-*******************************************************
+Cohorts are groups of learners in your course. You can use cohorts to divide the learners in your course into smaller groups.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :glob:
+
+   ../concepts/advanced_features/cohorts_overview.rst
+   ../how-tos/advanced_features/manage_cohorts.rst
+   ../references/advanced_features/managing_cohort_assignment.rst
+
+.. _Offer Different Content to Different Groups:
+
+Offer Different Content to Different Groups
+*******************************************************
+
+You can offer different content to learners in your if your course includes cohorts or multiple enrollment tracks.
+
+.. toctree::
+   :maxdepth: 1
    :glob:
 
    ../concepts/advanced_features/offering_differentiated_content.rst
-   ../concepts/advanced_features/cohorts_overview.rst
-   ../how-tos/advanced_features/managing_cohorts.rst
-   ../how-tos/advanced_features/cohorted_courseware.rst
-   ../how-tos/advanced_features/create_content_group.rst
-   ../how-tos/advanced_features/specify_content_particular_content_groups.rst
+   ../references/advanced_features/guide_cohort_specific_content.rst
+   ../concepts/advanced_features/about_content_groups.rst
+   ../how-tos/advanced_features/manage_content_groups.rst
    ../how-tos/advanced_features/associate_cohort_with_groups.rst
    ../how-tos/advanced_features/view_cohort_specific_courseware.rst
-   ../how-tos/advanced_features/delete_content_groups.rst
-   ../how-tos/advanced_features/enable_cohorts.rst
-   ../how-tos/advanced_features/add_cohorts.rst
-   ../how-tos/advanced_features/assign_learners_cohort_manually.rst
-   ../how-tos/advanced_features/assign_learners_cohort_csv.rst
-   ../how-tos/advanced_features/chage_learner_cohort_assignment.rst
-   ../how-tos/advanced_features/rename_cohort.rst
-   ../how-tos/advanced_features/change_assignment_method_cohort.rst
-   ../how-tos/advanced_features/disable_cohorts.rst
-   ../concepts/advanced_features/group_configurations.rst
-   ../how-tos/set_up_content_groups.rst
-   ../how-tos/advanced_features/set_up_group_configuration_olx.rst
-   ../how-tos/use_section_independently_of_course_outline.rst
+
+
 
 .. _Run Content Experiments:
 
@@ -147,3 +149,13 @@ Advanced Components
    ../how-tos/course_development/exercise_tools/add_calculator.rst
    
 
+Thunderbolt
+*******************************************************
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   ../concepts/advanced_features/about_group_configurations.rst
+   ../how-tos/advanced_features/set_up_group_configuration_olx.rst
+   ../how-tos/use_section_independently_of_course_outline.rst

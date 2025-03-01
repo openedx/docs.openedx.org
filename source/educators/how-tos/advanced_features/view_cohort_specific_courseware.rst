@@ -1,6 +1,6 @@
-.. _Viewing Cohort Specific Courseware:
+.. _View Cohort Specific Courseware:
 
-Viewing Cohort-Specific Course Content
+View Cohort-Specific Course Content
 ########################################
 
 .. tags:: educator, how-to
@@ -51,35 +51,23 @@ each of the content groups in your course, follow these steps.
    you can change the group access settings for the unit or component.
 
 For details about previewing your course to ensure that learners in a cohort
-correctly see the content intended for them, see :ref:`Viewing Cohort Specific
+correctly see the content intended for them, see :ref:`View Cohort Specific
 Courseware`.
 
 
 
 .. seealso::
  
+ :ref:`Offering Differentiated Content` (concept)
 
- :ref:`Cohorts Overview` (concept)
+ :ref:`Guide to Creating Cohort Specific Course Content` (reference)
 
- :ref:`Manage Course Cohorts` (how-to)
+ :ref:`About Content Groups` (concept)
 
- :ref:`About Divided Discussions` (concept)
+ :ref:`Manage Content Groups` (how-to)
 
- :ref:`Guide to Managing Divided Discussions` (reference)
-
- :ref:`Best Practices for Moderating Course Discussions` (concept)
-
- :ref:`Set Up Divided Discussions` (how-to)
-
- :ref:`Create Cohort Specific Course Content` (how-to)
-
- :ref:`Creating Content Groups` (how-to)
- 
- :ref:`Specify Content as Available Only to Certain Content Groups` (how-to)
- 
  :ref:`Associate Cohorts with Content Groups` (how-to)
  
- :ref:`Delete Content Groups` (how-to)
 
 **Maintenance chart**
 

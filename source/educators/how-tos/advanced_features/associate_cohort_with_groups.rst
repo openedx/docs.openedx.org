@@ -5,7 +5,9 @@ Associate Cohorts with Content Groups
 
 .. tags:: educator, how-to
 
-After you :ref:`create a content group<Creating Content Groups>`, you can associate it with one or more cohorts
+.. youtube:: rp7st8yxC5E
+
+After you :ref:`create a content group<Create Content Group>`, you can associate it with one or more cohorts
 with which you want to share the same special content.
 
 .. note:: A content group can be associated with more than one cohort; a cohort
@@ -44,28 +46,15 @@ content, see :ref:`Cohorted Courseware Example`.
 
 .. seealso::
  
+ :ref:`Offering Differentiated Content` (concept)
 
- :ref:`Cohorts Overview` (concept)
+ :ref:`Guide to Creating Cohort Specific Course Content` (reference)
 
- :ref:`Manage Course Cohorts` (how-to)
+ :ref:`About Content Groups` (concept)
 
- :ref:`About Divided Discussions` (concept)
+ :ref:`Manage Content Groups` (how-to)
 
- :ref:`Guide to Managing Divided Discussions` (reference)
-
- :ref:`Best Practices for Moderating Course Discussions` (concept)
-
- :ref:`Set Up Divided Discussions` (how-to)
-
- :ref:`Create Cohort Specific Course Content` (how-to)
-
- :ref:`Creating Content Groups` (how-to)
- 
- :ref:`Specify Content as Available Only to Certain Content Groups` (how-to)
- 
- :ref:`Viewing Cohort Specific Courseware` (how-to)
- 
- :ref:`Delete Content Groups` (how-to)
+ :ref:`View Cohort Specific Courseware` (how-to)
 
 **Maintenance chart**
 
