@@ -16,8 +16,6 @@ before they enroll in the course. For more information, see :ref:`Guide to Cours
 Describe Your Course
 **********************
 
-.. tags:: educator, how-to
-
 .. youtube:: ruXRjT176Cs
 
 Learners see a description of your course on the course About page, under the

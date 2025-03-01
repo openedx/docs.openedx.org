@@ -1,4 +1,4 @@
-.. _Awarding Partial Credit in a Numerical Input Problem:
+.. _Award Partial Credit in a Numerical Input Problem:
 
 Award Partial Credit in a Numerical Input Problem
 #################################################
@@ -129,9 +129,9 @@ updated to provide partial credit for a different answer.
 .. seealso::
  
 
- :ref:`Numerical Input` (reference)
+ :ref:`About Numerical Input` (reference)
 
- :ref:`Adding Numerical Input Problem` (how-to)
+ :ref:`Manage Numerical Input Problem` (how-to)
 
  :ref:`Add Text After the Numeric Response Field` (how-to)
 

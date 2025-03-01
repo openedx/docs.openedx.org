@@ -181,7 +181,7 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
 .. seealso::
  
 
- :ref:`Single Select Overview` (concept)
+ :ref:`About Single Select` (concept)
 
  :ref:`Single Select` (how-to)
 

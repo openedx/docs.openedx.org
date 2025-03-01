@@ -95,8 +95,6 @@ steps.
 Update the New Course after a Re-Run
 *************************************
 
-.. tags:: educator, how-to
-
 When you create a course by re-running another course, you must carefully
 review the settings and content of the new course. To assure a quality
 experience for learners, be sure to test the course thoroughly before the
@@ -129,7 +127,7 @@ course for release.
   created prior to April 2016 with the newer drag and drop problem component,
   which is accessible and mobile ready. For more information about enabling the
   new drag and drop problem type and adding these problems to your course, see
-  :ref:`drag_and_drop_problem`.
+  :ref:`About the Drag and Drop Problem`.
 
 The following additional changes can also improve the experience of learners
 who enroll in the new course run.

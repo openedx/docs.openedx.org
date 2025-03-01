@@ -47,6 +47,6 @@
 
  :ref:`Editing Single Select Problems using the Advanced Editor` (how-to)
 
- :ref:`Add a Dropdown Problem` (how-to)
+ :ref:`Add Dropdown` (how-to)
 
 

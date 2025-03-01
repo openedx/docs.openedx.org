@@ -75,7 +75,7 @@ Create a New Course
    ../how-tos/view_as_learner.rst
    ../how-tos/course_development/exercise_tools/add_text.rst
    ../how-tos/course_development/manage_videos.rst
-   ../how-tos/add_multiple_choice.rst
+   ../how-tos/course_development/exercise_tools/add_single_select.rst
    ../references/resources_for_course_teams.rst
    
 
@@ -91,7 +91,18 @@ Add Course Team Members
    ../references/course_development/course_team_roles.rst
    ../how-tos/set_up_course/add_course_team_members.rst
    ../how-tos/releasing-course/manage_beta_testing.rst
-   
+
+Configure Grades
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:   
+
+   ../concepts/grading/graded_subsections.rst
+   ../how-tos/grading/set_grace_period.rst
+   ../how-tos/grading/set_grade_range.rst
+   ../references/grading/learner_view_of_grades.rst
    
 
 Set Up Course Certificates

@@ -5,6 +5,8 @@ Add a Single Select Problem
 
 .. tags:: educator, how-to
 
+.. youtube:: ij5VHvY6jBk
+
 You add single select problems in Studio by selecting the **Problem**
 component. In the problem editor, select the **Single select** option.
 Fill in the fields on this screen to create your problem.
@@ -28,7 +30,7 @@ Creating a single select problem is as simple as:
 #. Selecting and filling in any desired settings on the right.
 
 If you have any questions on the specifics of using the simple editor, please check
-out :ref:`Simple Editor` and :ref:`Problem Settings`.
+out :ref:`Simple Editor` and :ref:`Guide to Problem Settings`.
 
 .. note:: With the single select problem type, although the learner only selects
   one answer, you can set more than one correct answer. You can do this by ticking
@@ -36,7 +38,7 @@ out :ref:`Simple Editor` and :ref:`Problem Settings`.
 
 .. _Use Feedback in a Single Select Problem:
 
-Adding Feedback
+Add Feedback
 ***************
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
@@ -68,7 +70,7 @@ learner submits this answer.
 
 .. _Use Hints in a Single Select Problem:
 
-Adding Hints
+Add Hints
 ************
 
 You can add hints to a single select problem . For an overview of hints in
@@ -77,7 +79,7 @@ problems, see :ref:`Adding Feedback and Hints to a Problem`.
 .. seealso::
  
 
- :ref:`Single Select Overview` (concept)
+ :ref:`About Single Select` (concept)
 
  :ref:`Single Select Problem XML` (reference)
 

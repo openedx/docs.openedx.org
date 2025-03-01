@@ -24,17 +24,15 @@ information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. seealso::
  
+ :ref:`About the LTI Component` (concept)
 
- :ref:`LTI Component` (reference)
+ :ref:`LTI Component Settings` (reference)
 
- :ref:`LTI Component settings` (reference)
+ :ref:`Set up an LTI 1_1 component` (how-to)
 
- :ref:`Setting up a LTI 1.1 component` (how-to)
-
- :ref:`Setting up a LTI 1.3 component` (how-to)
+ :ref:`Set up an LTI 1_3 component` (how-to)
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
-
 
 **Maintenance chart**
 

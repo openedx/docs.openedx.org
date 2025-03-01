@@ -132,8 +132,8 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/completion.rst
    /educators/references/course_development/exercise_tools/conditional_module.rst
    /educators/references/course_development/exercise_tools/custom_javascript.rst
-   /educators/references/course_development/exercise_tools/custom_python.rst
-   /educators/concepts/exercise_tools/drag_and_drop.rst
+   /educators/concepts/exercise_tools/about_custom_python_problem.rst
+   /educators/concepts/exercise_tools/about_drag_and_drop.rst
    /educators/references/course_development/exercise_tools/dropdown_problem_xml.rst
    /educators/how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    /educators/references/course_development/exercise_tools/gene_explorer.rst
@@ -141,16 +141,16 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/add_google_drive.rst
    /educators/how-tos/course_development/exercise_tools/create_iframe.rst
    /educators/references/course_development/exercise_tools/image_mapped_input_xml.rst
-   /educators/references/course_development/exercise_tools/lti_component.rst
+   /educators/concepts/exercise_tools/about_lti_component.rst
    /educators/references/course_development/exercise_tools/math_expression_input_xml.rst
    /educators/how-tos/course_development/exercise_tools/adding_mathjax.rst
    /educators/references/course_development/exercise_tools/multi_select_xml.rst
-   /educators/how-tos/course_development/exercise_tools/edit_numerical_input_advanced.rst
+   /educators/how-tos/course_development/exercise_tools/manage_numerical_input_problem.rst
    /educators/concepts/exercise_tools/OpenResponseAssessments.rst
    /educators/how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    /educators/how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
    /educators/references/course_development/exercise_tools/ORA_Staff_Grading.rst
-   /educators/how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
+   /educators/how-tos/course_development/exercise_tools/access_ORA_metrics.rst
    /educators/how-tos/course_development/exercise_tools/create_periodic_table.rst
    /educators/references/course_development/exercise_tools/poll_olx.rst
    /educators/how-tos/course_development/exercise_tools/create_poll_olx.rst
@@ -162,7 +162,7 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/add_single_select_num_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_survey_olx.rst
    ../olx/problem-xml/symbolic_response.rst
-   /educators/references/course_development/exercise_tools/text_input.rst
+   /educators/concepts/exercise_tools/about_text_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_word_cloud.rst
    /educators/how-tos/course_development/exercise_tools/create_zooming_image.rst
 

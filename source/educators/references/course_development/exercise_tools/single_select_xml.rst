@@ -432,7 +432,7 @@ correctness.
 .. seealso::
  
 
- :ref:`Single Select Overview` (concept)
+ :ref:`About Single Select` (concept)
 
  :ref:`Single Select` (how to)
 

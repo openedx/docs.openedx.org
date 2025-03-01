@@ -1,8 +1,8 @@
 .. _Math Expression Input:
 
-##############################
-Math Expression Input Problems
-##############################
+##########################################
+About the Math Expression Input Problem
+##########################################
 
 .. tags:: educator, reference
 

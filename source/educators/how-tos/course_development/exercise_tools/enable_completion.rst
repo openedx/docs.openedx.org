@@ -34,7 +34,7 @@ component to a unit in a course, follow these steps.
 .. seealso::
  
 
- :ref:`Completion` (reference)
+ :ref:`About the Completion Tool` (reference)
 
  :ref:`OLX Completion` (how to)
 

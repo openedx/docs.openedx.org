@@ -47,6 +47,7 @@ Manage Text Components
    ../how-tos/course_development/text_components/manage_text.rst
    ../how-tos/course_development/text_components/manage_html.rst
    ../how-tos/course_development/text_components/manage_latex.rst
+   ../how-tos/course_development/exercise_tools/adding_mathjax.rst
    ../how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    
 .. _Add Video Components:

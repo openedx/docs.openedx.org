@@ -1,7 +1,7 @@
 .. _Add Text Input Problem:
 
 ###########################
-Adding a Text Input Problem
+Add a Text Input Problem
 ###########################
 
 .. tags:: educator, how-to
@@ -29,10 +29,10 @@ Creating a text input problem is as simple as:
 #. Selecting and filling in any desired settings on the right.
 
 If you have any questions on the specifics of using the simple editor, please check
-out :ref:`Simple Editor` and :ref:`Problem Settings`.
+out :ref:`Simple Editor` and :ref:`Guide to Problem Settings`.
 
 ***************
-Adding Feedback
+Add Feedback
 ***************
 
 For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
@@ -58,7 +58,7 @@ Simply enter your feedback message in this text field. It will display when the
 learner submits this answer.
 
 ************
-Adding Hints
+Add Hints
 ************
 
 You can add hints to a text input problem using the simple editor or the

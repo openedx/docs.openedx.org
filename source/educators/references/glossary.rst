@@ -298,7 +298,7 @@ C
   A custom response problem evaluates text responses from learners using an
   embedded Python script. These problems are also called
   "write-your-own-grader" problems. For more information, see
-  :ref:`Write Your Own Grader`.
+  :ref:`About Custom Python-Evaluated Input Problem`.
 
 .. _D:
 
@@ -415,7 +415,7 @@ E
   Practice or practical problems that are interspersed in edX course content
   to keep learners engaged. Exercises are also an important measure of
   teaching effectiveness and learner comprehension. For more information, see
-  :ref:`Create Exercises`.
+  :ref:`About Problems Exercises and Tools`.
 
 
 .. _Export:
@@ -508,8 +508,7 @@ I
 **Image Mapped Input Problem**
 
   A problem that presents an image and accepts clicks on the image as an
-  answer. For more information, see :ref:`Image Mapped
-  Input`.
+  answer. For more information, see :ref:`About Image Mapped Input Problem`.
 
 
 .. _Import:
@@ -678,7 +677,7 @@ N
 
   A problem that asks learners to enter numbers or specific and relatively
   simple mathematical expressions. For more information, see
-  :ref:`Numerical Input`.
+  :ref:`About Numerical Input`.
 
 
 .. _O:
@@ -832,7 +831,7 @@ R
 
   A list of the items that a learner's response should cover in an open
   response assessment. For more information, see the
-  :ref:`PA Rubric` topic in :ref:`Open
+  :ref:`ORA Rubrics` topic in :ref:`Open
   Response Assessments`.
 
   See also :ref:`Open Response Assessment<Open Response Assessment_g>`.

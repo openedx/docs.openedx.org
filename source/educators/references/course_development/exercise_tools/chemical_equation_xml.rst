@@ -1,7 +1,7 @@
-.. _Chemical Equation Problem XML:
+.. _Guide to Chemical Equation Problem XML:
 
-Chemical Equation Problem XML
-#############################
+Guide to Chemical Equation Problem XML
+#########################################
 
 .. tags:: educator, reference
 

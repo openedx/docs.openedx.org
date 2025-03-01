@@ -20,7 +20,7 @@ Android and iPhone apps, although we still recommend that learners complete
 graded assignments on a desktop computer, depending on the type of assessments
 that their courses include. For information on which exercises and tools are
 mobile-ready, see the table in the :ref:`Introduction to Exercises and
-Tools<Create Exercises>` section.
+Tools<About Problems Exercises and Tools>` section.
 
 To make the course experience for mobile learners as rewarding as it is for
 learners using desktop computers, keep the following best practices in mind as

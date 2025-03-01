@@ -100,7 +100,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 
  :ref:`Work with the Text Editor` (how-to)
 
- :ref:`Add a Multiple Choice Problem` (how-to)
+ :ref:`Add a Multi Select Problem` (how-to)
 
  :ref:`Publish a Unit` (how-to)
 

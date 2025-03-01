@@ -131,7 +131,7 @@ To view learners' onboarding status for your course, follow these steps.
 .. seealso::
  
 
- :ref:`ProctoredExams_Overview` (concept)
+ :ref:`About Proctored Exams` (concept)
 
  :ref:`Enable Proctored Exams` (how-to)
 

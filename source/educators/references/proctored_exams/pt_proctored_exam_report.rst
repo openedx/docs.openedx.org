@@ -1,8 +1,8 @@
 .. _PT Proctored Session Results File:
 
-###########################################
-Interpret the Proctored Exam Results Report
-###########################################
+########################################################
+Guide to Interpreting the Proctored Exam Results Report
+########################################################
 
 .. tags:: educator, reference
 
@@ -209,7 +209,7 @@ column.
 .. seealso::
  
 
- :ref:`ProctoredExams_Overview` (concept)
+ :ref:`About Proctored Exams` (concept)
 
  :ref:`Enable Proctored Exams` (how-to)
 

@@ -49,7 +49,7 @@ proctored/onboarding exam.
 .. seealso::
  
 
- :ref:`ProctoredExams_Overview` (concept)
+ :ref:`About Proctored Exams` (concept)
 
  :ref:`Preparing Learners for Proctored Exams` (concept)
 

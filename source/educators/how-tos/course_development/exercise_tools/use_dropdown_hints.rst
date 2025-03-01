@@ -26,7 +26,7 @@ you've added, click the trash can icon next to its respective hint field.
 
  :ref:`Adding Feedback and Hints to a Problem` (reference)
 
- :ref:`Adding Dropdown` (how-to)
+ :ref:`Add Dropdown` (how-to)
 
 
 **Maintenance chart**

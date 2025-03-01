@@ -105,7 +105,7 @@ In this code:
 
  :ref:`Chemical Equation` (how-to)
 
- :ref:`Custom JavaScript` (reference)
+ :ref:`Guide to Custom JavaScript Display and Grading Problem` (reference)
 
  :ref:`Gene Explorer` (reference)
 

@@ -48,7 +48,7 @@ You can see the OLX for the example problem from the Overview section below.
   switch back to the simple editor.
 
 
-Adding Feedback
+Add Feedback
 *****************
 
 In the advanced editor, you configure answer feedback with the following syntax.
@@ -87,14 +87,14 @@ common incorrect answers.
 
 
 
-Adding Hints
+Add Hints
 *************
 
 For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
 
-Adding Text after the Response Field
+Add Text after the Response Field
 **************************************
 
 You might want to include a word, phrase, or sentence after the response field
@@ -206,7 +206,7 @@ attribute.
       </problem>
 
 ===============================================================
-Allowing Regular Expressions as Answers for Text Input Problems
+Allow Regular Expressions as Answers for Text Input Problems
 ===============================================================
 
 You can configure a text input problem to allow a regular expression as an
