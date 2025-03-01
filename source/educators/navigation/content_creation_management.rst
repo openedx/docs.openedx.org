@@ -29,7 +29,7 @@ Create and Manage Components
    :maxdepth: 1
    :glob:
 
-   ../concepts/course_development/about_components.rst
+   ../concepts/open_edx_platform/about_components.rst
    ../how-tos/course_development/manage_components.rst
    ../how-tos/course_development/set_component_restrictions.rst
    ../references/course_development/parent_child_components.rst

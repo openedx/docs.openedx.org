@@ -112,7 +112,7 @@ Set Up Course Certificates
    :maxdepth: 1
    :glob:
 
-   ../concepts/about_certificates.rst
+   ../concepts/open_edx_platform/about_certificates.rst
    ../how-tos/set_up_course/manage_certificates.rst
    ../how-tos/set_up_course/edit_certificate.rst
    ../how-tos/configure_certificate_timing.rst
