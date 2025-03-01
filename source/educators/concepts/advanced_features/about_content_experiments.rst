@@ -40,11 +40,15 @@ You then select which group configuration to use when you add a content experime
 
 .. seealso::
 
+ :ref:`About Group Configurations` (concept)
+
  :ref:`Guidelines for Modifying Group Configurations` (reference)
 
  :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
  :ref:`Test Content Experiments` (how-to)
 

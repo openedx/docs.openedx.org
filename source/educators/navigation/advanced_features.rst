@@ -48,11 +48,13 @@ Run Content Experiments
    :glob:
 
    ../concepts/advanced_features/about_content_experiments.rst
+   ../concepts/advanced_features/about_group_configurations.rst
    ../how-tos/advanced_features/manage_content_experiments.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
-   ../how-tos/advanced_features/test_content_experiments.rst
+   ../how-tos/advanced_features/set_up_group_configuration_olx.rst
    ../references/advanced_features/guidelines_modifying_group_configuration.rst
    ../references/advanced_features/experiment_group_configurations.rst
+   ../how-tos/advanced_features/test_content_experiments.rst
 
 .. _Use Teams in Your Course:
 
@@ -104,11 +106,30 @@ Course Tags and Taxonomies
    ../how-tos/content-tagging-how-tos/add_delete_tags_course_content.rst
    ../how-tos/content-tagging-how-tos/export_tag_data_from_course.rst
 
+Annotations
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../how-tos/course_development/exercise_tools/add_annotation.rst
+
+
+Calculator
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../how-tos/course_development/exercise_tools/add_calculator.rst
+
 Google Calendar Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/embed_google_calendar.rst
@@ -118,33 +139,38 @@ Google Drive Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
    ../how-tos/course_development/exercise_tools/add_google_drive.rst
 
 
-Advanced Components
+Notes
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/enable_notes.rst
-   ../how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
-   ../how-tos/course_development/exercise_tools/add_annotation.rst
-   ../how-tos/course_development/exercise_tools/add_calculator.rst
-   
 
-Thunderbolt
+Recommender
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../concepts/advanced_features/about_group_configurations.rst
-   ../how-tos/advanced_features/set_up_group_configuration_olx.rst
+   ../how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
+   
+
+Use a Section from a Course independently of the Course Outline
+******************************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+
    ../how-tos/use_section_independently_of_course_outline.rst

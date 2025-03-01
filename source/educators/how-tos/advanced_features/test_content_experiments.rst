@@ -41,11 +41,15 @@ different experiment group of learners sees.
  
  :ref:`About Content Experiments` (concept)
 
+ :ref:`About Group Configurations` (concept)
+
  :ref:`Guidelines for Modifying Group Configurations` (reference)
 
  :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
  :ref:`Experiment Group Configurations` (reference)
 

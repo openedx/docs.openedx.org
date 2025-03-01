@@ -93,9 +93,15 @@ For information about the ``policy.json`` file, see :ref:`Set Up Group Configura
  
  :ref:`About Content Experiments` (concept)
 
+ :ref:`About Group Configurations` (concept)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
  :ref:`Guidelines for Modifying Group Configurations` (reference)
 
  :ref:`Manage Content Experiments` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
  :ref:`Test Content Experiments` (how-to)
 

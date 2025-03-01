@@ -36,6 +36,8 @@ group configuration that assigns your learners to four experiment groups.
 
  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
+
  :ref:`Guidelines for Modifying Group Configurations` (concept)
 
 **Maintenance chart**
