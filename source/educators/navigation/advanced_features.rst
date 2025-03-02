@@ -5,36 +5,38 @@
 Advanced Features
 ###################
 
-.. _Offer Different Content to Different Groups:
+Manage Course Cohorts
+**********************
 
-Offer Different Content to Different Groups (Cohorts)
-*******************************************************
+Cohorts are groups of learners in your course. You can use cohorts to divide the learners in your course into smaller groups.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :glob:
+
+   ../concepts/advanced_features/cohorts_overview.rst
+   ../how-tos/advanced_features/manage_cohorts.rst
+   ../references/advanced_features/managing_cohort_assignment.rst
+
+.. _Offer Different Content to Different Groups:
+
+Offer Different Content to Different Groups
+*******************************************************
+
+You can offer different content to learners in your if your course includes cohorts or multiple enrollment tracks.
+
+.. toctree::
+   :maxdepth: 1
    :glob:
 
    ../concepts/advanced_features/offering_differentiated_content.rst
-   ../concepts/advanced_features/cohorts_overview.rst
-   ../how-tos/advanced_features/managing_cohorts.rst
-   ../how-tos/advanced_features/cohorted_courseware.rst
-   ../how-tos/advanced_features/create_content_group.rst
-   ../how-tos/advanced_features/specify_content_particular_content_groups.rst
+   ../references/advanced_features/guide_cohort_specific_content.rst
+   ../concepts/advanced_features/about_content_groups.rst
+   ../how-tos/advanced_features/manage_content_groups.rst
    ../how-tos/advanced_features/associate_cohort_with_groups.rst
    ../how-tos/advanced_features/view_cohort_specific_courseware.rst
-   ../how-tos/advanced_features/delete_content_groups.rst
-   ../how-tos/advanced_features/enable_cohorts.rst
-   ../how-tos/advanced_features/add_cohorts.rst
-   ../how-tos/advanced_features/assign_learners_cohort_manually.rst
-   ../how-tos/advanced_features/assign_learners_cohort_csv.rst
-   ../how-tos/advanced_features/chage_learner_cohort_assignment.rst
-   ../how-tos/advanced_features/rename_cohort.rst
-   ../how-tos/advanced_features/change_assignment_method_cohort.rst
-   ../how-tos/advanced_features/disable_cohorts.rst
-   ../concepts/advanced_features/group_configurations.rst
-   ../how-tos/set_up_content_groups.rst
-   ../how-tos/advanced_features/set_up_group_configuration_olx.rst
-   ../how-tos/use_section_independently_of_course_outline.rst
+
+
 
 .. _Run Content Experiments:
 
@@ -42,22 +44,17 @@ Run Content Experiments
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ../concepts/advanced_features/content_experiments_overview.rst
-   ../concepts/advanced_features/guidlines_modifying_group_configuration.rst
-   ../how-tos/advanced_features/configure_content_experiments.rst
-   ../how-tos/advanced_features/create_group_configuration.rst
-   ../how-tos/advanced_features/edit_group_configuration.rst
-   ../how-tos/advanced_features/delete_group_configuration.rst
-   ../how-tos/advanced_features/create_content_experiment.rst
-   ../how-tos/advanced_features/create_content_experiment_groups.rst
-   ../how-tos/advanced_features/change_group_configuration_content_experiment.rst
+   ../concepts/advanced_features/about_content_experiments.rst
+   ../concepts/advanced_features/about_group_configurations.rst
+   ../how-tos/advanced_features/manage_content_experiments.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
-   ../how-tos/advanced_features/test_content_experiments.rst
+   ../how-tos/advanced_features/set_up_group_configuration_olx.rst
+   ../references/advanced_features/guidelines_modifying_group_configuration.rst
    ../references/advanced_features/experiment_group_configurations.rst
-   ../references/advanced_features/add_content_experiments.rst
+   ../how-tos/advanced_features/test_content_experiments.rst
 
 .. _Use Teams in Your Course:
 
@@ -65,27 +62,23 @@ Use Teams in Your Course
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/advanced_features/teams_overview.rst
    ../references/advanced_features/teams_configuration_options.rst
+   ../how-tos/advanced_features/manage_teams.rst
    ../references/advanced_features/managing_teams_via_csv.rst
+   ../how-tos/connect_teams_content_groups.rst
    ../concepts/advanced_features/managing_teams_discussions.rst
    ../concepts/advanced_features/teams_learner_experience.rst
-   ../how-tos/advanced_features/enable_teams.rst
-   ../how-tos/advanced_features/create_teams.rst
-   ../how-tos/advanced_features/search_teams.rst
-   ../how-tos/advanced_features/edit_teams.rst
-   ../how-tos/advanced_features/remove_learner_from_team.rst
-   ../how-tos/advanced_features/delete_teams.rst
-   ../how-tos/connect_teams_content_groups.rst
+   
 
 Use Open edX as an LTI Tool Provider
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../concepts/advanced_features/using_openedx_as_LTI_provider.rst
@@ -100,7 +93,7 @@ Course Tags and Taxonomies
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/content-tagging-how-tos/build_taxonomy_using_template.rst
@@ -113,11 +106,30 @@ Course Tags and Taxonomies
    ../how-tos/content-tagging-how-tos/add_delete_tags_course_content.rst
    ../how-tos/content-tagging-how-tos/export_tag_data_from_course.rst
 
+Annotations
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../how-tos/course_development/exercise_tools/add_annotation.rst
+
+
+Calculator
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../how-tos/course_development/exercise_tools/add_calculator.rst
+
 Google Calendar Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/embed_google_calendar.rst
@@ -127,23 +139,38 @@ Google Drive Tool
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
    ../how-tos/course_development/exercise_tools/add_google_drive.rst
 
 
-Advanced Components
+Notes
 *******************************************************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    ../how-tos/course_development/exercise_tools/enable_notes.rst
+
+Recommender
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
    ../how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
-   ../how-tos/course_development/exercise_tools/add_annotation.rst
-   ../how-tos/course_development/exercise_tools/add_calculator.rst
    
 
+Use a Section from a Course independently of the Course Outline
+******************************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+
+   ../how-tos/use_section_independently_of_course_outline.rst

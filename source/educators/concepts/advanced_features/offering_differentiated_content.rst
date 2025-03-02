@@ -16,7 +16,7 @@ This section provides information about offering differentiated content in your 
 
 For information about dividing discussion topics in your course so that only learners in the same groups interact with each other, see :ref:`About Divided Discussions`.
 
-.. note:: You can also use experiment groups to compare the performance of groups of learners who are offered different content. For details, see :ref:`Overview of Content Experiments`.
+.. note:: You can also use experiment groups to compare the performance of groups of learners who are offered different content. For details, see :ref:`About Content Experiments`.
 
 
 .. _Offering Different Content Based on Enrollment Track:
@@ -45,15 +45,15 @@ For information about creating differentiated content using cohorts, see :ref:`C
 
 .. seealso::
 
- :ref:`Enrollment Track Specific Courseware Overview` (how-to)
-
- :ref:`Cohorts Overview` (concept)
+ :ref:`Guide to Creating Cohort Specific Course Content` (reference)
 
  :ref:`About Content Groups` (concept)
 
- :ref:`Overview of Content Experiments` (concept)
+ :ref:`Manage Content Groups` (how-to)
 
- :ref:`About Divided Discussions` (concept)
+ :ref:`Associate Cohorts with Content Groups` (how-to)
+
+ :ref:`View Cohort Specific Courseware` (how-to)
 
 
 

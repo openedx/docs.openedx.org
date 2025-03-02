@@ -1,7 +1,7 @@
 .. _Open edX as an LTI Provider to Canvas:
 
-Example: Open edX Platform as an LTI Provider to Canvas
-#######################################################
+Use Open edX Platform as an LTI Provider to Canvas (Example)
+#############################################################
 
 .. tags:: educator, how-to
 

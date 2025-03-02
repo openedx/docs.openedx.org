@@ -1,9 +1,9 @@
-.. _Manage Course Cohorts:
+.. _Best Practices for Cohort Assignment Strategies:
 
-Manage Course Cohorts
-#######################
+Best Practices for Cohort Assignment Strategies
+#################################################
 
-.. tags:: educator, how-to
+.. tags:: educator, reference
 
 To use cohorts in your course, you must select a strategy for assigning
 your learners to cohorts: automated assignment, manual assignment, or a hybrid
@@ -157,31 +157,7 @@ consequences of these actions.
 
  :ref:`Cohorts Overview` (concept)
 
- :ref:`Enable Cohorts` (how-to)
-
- :ref:`Add Cohorts` (how-to)
- 
- :ref:`Assign Learners to Cohorts Manually` (how-to)
- 
- :ref:`Assign Learners to Cohort Groups by uploading CSV` (how-to)
- 
- :ref:`Changing Student Cohort Assignments` (how-to)
- 
- :ref:`Renaming a Cohort` (how-to)
- 
- :ref:`Changing the Assignment Method of a Cohort` (how-to)
- 
- :ref:`Disabling the Cohort Feature` (how-to)
-
- :ref:`Create Cohort Specific Course Content` (how-to)
-
- :ref:`About Divided Discussions` (concept)
-
- :ref:`Guide to Managing Divided Discussions` (reference)
-
- :ref:`Best Practices for Moderating Course Discussions` (concept)
-
- :ref:`Set Up Divided Discussions` (how-to)
+ :ref:`Manage Course Cohorts` (how-to)
 
 **Maintenance chart**
 

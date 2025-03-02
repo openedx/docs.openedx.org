@@ -154,15 +154,7 @@ You can check the :ref:`learner profile information report<View Learner Data>` f
 
  :ref:`Manage Course Cohorts` (how-to)
 
- :ref:`Create Cohort Specific Course Content` (how-to)
-
- :ref:`About Divided Discussions` (concept)
-
- :ref:`Guide to Managing Divided Discussions` (reference)
-
- :ref:`Best Practices for Moderating Course Discussions` (concept)
-
- :ref:`Set Up Divided Discussions` (how-to)
+ :ref:`Best Practices for Cohort Assignment Strategies` (reference)
 
 
 **Maintenance chart**

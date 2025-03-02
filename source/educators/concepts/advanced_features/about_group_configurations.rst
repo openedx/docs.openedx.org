@@ -1,12 +1,11 @@
-.. _Overview of Group Configurations:
+.. _About Group Configurations:
 
-Overview of Group Configurations
-********************************
+About Group Configurations
+**************************
 
 .. tags:: educator, concept
 
-Before you can create :ref:`content experiments<Overview of Content
-Experiments>`, you must specify at least one group configuration for your
+Before you can create :ref:`content experiments<About Content Experiments>`, you must specify at least one group configuration for your
 course.
 
 A group configuration defines how many groups of learners are in an experiment.
@@ -29,11 +28,13 @@ group configuration that assigns your learners to four experiment groups.
 
  :ref:`Offering Differentiated Content` (concept)
 
- :ref:`Configure Your Course for Content Experiments` (how-to)
+ :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Experiment Group Configurations` (reference)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
  :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 

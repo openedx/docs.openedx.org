@@ -1,7 +1,7 @@
 .. _Teams Discussions:
 
-Managing Teams Discussions
-##########################
+About Managing Teams Discussions
+#################################
 
 .. tags:: educator, concept
 
@@ -50,16 +50,17 @@ administrators have a **Staff** label.
 
 .. seealso::
  
-
- :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-
- :ref:`Enable and Configure Teams` (how-to)
+ :ref:`About Teams` (concept)
 
  :ref:`Teams Configuration Options` (reference)
 
- :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+ :ref:`Manage Teams` (how-to)
 
- :ref:`Managing Teams via CSV Upload` (reference)
+ :ref:`Manage Teams Membership via CSV Upload` (how-to)
+
+ :ref:`Connect Teams to Content Groups` (how-to)
+
+ :ref:`Learner Experience of Teams` (concept)
 
 
 **Maintenance chart**

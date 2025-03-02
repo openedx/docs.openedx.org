@@ -1,3 +1,5 @@
+.. _Connect Teams to Content Groups:
+
 Connect Teams to Content Groups
 ###############################
 
@@ -7,9 +9,9 @@ Setup
 *****
 
 Turn on the Teams feature for your course and configure your Teams. See the
-:ref:`Teams documentation <Enable and Configure Teams>` for more information.
+:ref:`Teams documentation <Manage Teams>` for more information.
 
-Connecting Teams to Content Groups
+Connect Teams to Content Groups
 **********************************
 
 #. In Studio, open the modal to select the access restriction in a unit:
@@ -25,18 +27,17 @@ Connecting Teams to Content Groups
 
 .. seealso::
  
-
- :ref:`Teams Overview  <CA_Teams_Overview>` (concept)
+ :ref:`About Teams` (concept)
 
  :ref:`Teams Configuration Options` (reference)
 
- :ref:`Managing Teams via CSV Upload` (reference)
- 
- :ref:`Managing Team Discussions <Teams Discussions>` (concept)
+ :ref:`Manage Teams` (how-to)
 
- :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+ :ref:`Manage Teams Membership via CSV Upload` (how-to)
 
- :ref:`Enable and Configure Teams` (how-to)
+ :ref:`Teams Discussions` (concept)
+
+ :ref:`Learner Experience of Teams` (concept)
 
 
 

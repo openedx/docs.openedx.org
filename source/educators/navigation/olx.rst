@@ -177,10 +177,10 @@ The topics in this section describe how to use OLX (open learning XML) to create
    :maxdepth: 1
    :glob:
 
-   /educators/concepts/advanced_features/content_experiments_overview.rst
-   /educators/concepts/advanced_features/guidlines_modifying_group_configuration.rst
-   /educators/how-tos/advanced_features/configure_content_experiments.rst
-   /educators/references/advanced_features/add_content_experiments.rst
+   /educators/concepts/advanced_features/about_content_experiments.rst
+   /educators/references/advanced_features/guidelines_modifying_group_configuration.rst
+   /educators/how-tos/advanced_features/manage_content_experiments.rst
+   /educators/how-tos/advanced_features/add_content_experiments_olx.rst
    ../olx/content-experiments/content_experiments_test_olx.rst
    
    

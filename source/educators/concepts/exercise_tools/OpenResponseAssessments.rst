@@ -370,7 +370,7 @@ steps, and make it available only to the members of one or more specific
 cohorts. For the members of the remaining cohorts, you create an ORA assignment
 that has only the peer assessment step. For details about creating different
 course experiences for learners in different cohorts, see
-:ref:`Create Cohort Specific Course Content`.
+:ref:`Guide to Creating Cohort Specific Course Content`.
 
 For details about performing grading in staff assessment steps, see
 :ref:`Perform a Staff Assessment`.

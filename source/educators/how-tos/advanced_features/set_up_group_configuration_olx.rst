@@ -99,18 +99,19 @@ experiment groups, and the second divides learners into three experiment groups.
 
 .. seealso::
  
+ :ref:`About Content Experiments` (concept)
 
- :ref:`Offering Differentiated Content` (concept)
-
- :ref:`Overview of Content Experiments` (concept)
-
- :ref:`Configure Your Course for Content Experiments` (how-to)
-
- :ref:`Experiment Group Configurations` (reference)
+ :ref:`About Group Configurations` (concept)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
 
- :ref:`Guidelines for Modifying Group Configurations` (concept)
+ :ref:`Guidelines for Modifying Group Configurations` (reference)
+
+ :ref:`Manage Content Experiments` (how-to)
+
+ :ref:`Test Content Experiments` (how-to)
+
+ :ref:`Experiment Group Configurations` (reference)
 
 
 **Maintenance chart**
