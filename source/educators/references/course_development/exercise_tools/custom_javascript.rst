@@ -40,13 +40,12 @@ JavaScript Input Example Problem Code
 The following code recreates the JavaScript Input problem example shown in the
 overview. The example problem uses these files.
 
-* https://files.edx.org/custom-js-example/jsinput_example.html
-* https://files.edx.org/custom-js-example/jsinput_example.js
-* https://files.edx.org/custom-js-example/jsinput_example.css
-* https://files.edx.org/custom-js-example/jschannel.js (This file is used only
+* :download:`jsinput_example.html </_static/custom_js_example_code/jsinput_example.html>` (HTML file)
+* :download:`jsinput_example.js </_static/custom_js_example_code/jsinput_example.js>` (JavaScript file)
+* :download:`jsinput_example.css </_static/custom_js_example_code/jsinput_example.css>` (CSS file)
+* :download:`jschannel.js </_static/custom_js_example_code/jschannel.js>` (JavaScript file) (This file is used only
   because this example bypasses the SOP, as indicated by the line
   ``sop="false"``)
-
 
 .. code-block:: xml
 
@@ -95,7 +94,7 @@ overview. The example problem uses these files.
 
 .. note:: Keep the following points in mind about this example problem.
 
- - The jsinput_example.js file defines three JavaScript functions
+ - The ``jsinput_example.js`` file defines three JavaScript functions
    (**JSInputDemo.getGrade**, **JSInputDemo.getState**, and
    **JSInputDemo.setState**).
 
