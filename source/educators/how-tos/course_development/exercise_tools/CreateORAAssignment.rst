@@ -239,7 +239,7 @@ allows you to create groups for different assignments. You could, for example,
 create separate team-sets for Homework, Midterms, and the Final Project,
 each selected for the relevant Team ORAs to allow students to collaborate with
 different classmates for each assignment type. For more on how to configure
-team sets for your course, see :ref:`Manage Teams <Manage Teams>`\.
+team sets for your course, see :ref:`Manage Teams <Manage Teams>`.
 
 For Team ORAs, File Upload is the main intended form of response. Learners on a
 team can collaboratively upload and review files as part of a team response.
