@@ -119,7 +119,7 @@ course for release.
 * Delete or edit posts on the **Course Updates** page in Studio. See :ref:`Add
   a Course Update`.
 
-* For a course that includes :ref:`learner cohorts<Cohorts Overview>`, 
+* For a course that includes :ref:`learner cohorts<About Learner Cohorts>`, 
   set up the cohorts and select a strategy for assigning learners to
   the cohorts.
 

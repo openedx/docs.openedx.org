@@ -56,7 +56,7 @@ In the LMS
 Example: Cohort-Specific Course Content
 *****************************************
 
-Suppose that you create two :ref:`cohorts<Cohorts Overview>` in your course:
+Suppose that you create two :ref:`cohorts<About Learner Cohorts>` in your course:
 University Alumni and Current University Students. Learners who are not in
 either of these cohorts are automatically placed into a third cohort, the
 default cohort, when they access the **Course** or **Discussion** tabs in the

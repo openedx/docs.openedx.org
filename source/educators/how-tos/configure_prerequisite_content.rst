@@ -12,7 +12,7 @@ in the course outline with a lock icon, and learners cannot view the subsection
 content until they have earned a minimum score in the prerequisite subsection.
 
 .. note::
-   You must first `<Enabling Course Prerequisites>`_ before
+   You must first enable course prerequisites before
    prerequisite course subsections can be used.
 
 .. _enabling_subsection_gating:

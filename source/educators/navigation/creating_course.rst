@@ -99,7 +99,7 @@ Configure Grades
    :maxdepth: 1
    :glob:   
 
-   ../concepts/grading/graded_subsections.rst
+   ../concepts/grading/about_graded_subsections.rst
    ../how-tos/grading/set_grace_period.rst
    ../how-tos/grading/set_grade_range.rst
    ../references/grading/learner_view_of_grades.rst
@@ -112,7 +112,7 @@ Set Up Course Certificates
    :maxdepth: 1
    :glob:
 
-   ../references/about_certificates.rst
+   ../concepts/open_edx_platform/about_certificates.rst
    ../how-tos/set_up_course/manage_certificates.rst
    ../how-tos/set_up_course/edit_certificate.rst
    ../how-tos/configure_certificate_timing.rst
@@ -146,7 +146,7 @@ Beta Test a Course
    :maxdepth: 1
    :glob:
 
-   ../concepts/releasing-course/beta_testing.rst
+   ../concepts/releasing-course/about_beta_testing.rst
    ../how-tos/releasing-course/manage_beta_testing.rst
 
 .. _Launch a Course:

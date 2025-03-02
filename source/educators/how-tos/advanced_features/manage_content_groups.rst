@@ -7,7 +7,7 @@ Manage Content Groups
 
 Content groups are virtual groupings of learners who will see a particular set
 of course content. You can use content groups to designate specific course
-content as available to particular :ref:`cohorts<Cohorts Overview>` of learners.
+content as available to particular :ref:`cohorts<About Learner Cohorts>` of learners.
 
 .. _Create Content Group:
 

@@ -41,7 +41,7 @@ If you have enabled cohorts in your course, you can associate one or more cohort
 For example, you might intend all learners in your course to have substantially the same course experience, except that you want to show learners who are either current students or alumni of your institution a special video in several sections. You already have your institution's current students in one cohort and alumni in another cohort. By associating both of
 these cohorts with the same content group, and restricting access to the special institutional-related video to only this content group, you can provide a customized course experience.
 
-For information about creating differentiated content using cohorts, see :ref:`Cohorts Overview`.
+For information about creating differentiated content using cohorts, see :ref:`About Learner Cohorts`.
 
 .. seealso::
 

@@ -29,7 +29,7 @@ Create and Manage Components
    :maxdepth: 1
    :glob:
 
-   ../references/course_development/about_components.rst
+   ../concepts/open_edx_platform/about_components.rst
    ../how-tos/course_development/manage_components.rst
    ../how-tos/course_development/set_component_restrictions.rst
    ../references/course_development/parent_child_components.rst
@@ -47,7 +47,7 @@ Manage Text Components
    ../how-tos/course_development/text_components/manage_text.rst
    ../how-tos/course_development/text_components/manage_html.rst
    ../how-tos/course_development/text_components/manage_latex.rst
-   ../how-tos/course_development/exercise_tools/adding_mathjax.rst
+   ../how-tos/course_development/exercise_tools/add_mathjax.rst
    ../how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    
 .. _Add Video Components:
@@ -198,7 +198,7 @@ Re-run a Course
    :glob:
 
    ../references/course_development/course_export_terminology.rst
-   ../references/course_development/work_with_targz_file.rst
+   ../references/course_development/working_with_targz_file.rst
 
 
 

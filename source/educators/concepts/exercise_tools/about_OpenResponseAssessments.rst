@@ -21,7 +21,7 @@ assessment) to complete the assignment.
    an open response assessment divided by cohort, you must create that
    assessment in a course component that is defined as cohort-specific. For  more
    information about cohorts and creating cohort-specific course content, see
-   :ref:`Cohorts Overview <cohorts overview>` and :ref:`Offering Differentiated
+   :ref:`About Learner Cohorts` and :ref:`Offering Differentiated
    Content`.
 
 The following topics provide conceptual information about open response

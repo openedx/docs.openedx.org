@@ -162,7 +162,7 @@ LTI Component
    ../how-tos/course_development/exercise_tools/enable_lti_component.rst
    ../how-tos/course_development/exercise_tools/set_up_lti_1_1_component.rst
    ../how-tos/course_development/exercise_tools/set_up_lti_1_3_component.rst
-   ../how-tos/course_development/exercise_tools/using_lti_advantage_features.rst
+   ../how-tos/course_development/exercise_tools/use_lti_advantage_features.rst
 
 Math Expression Input Problem
 *******************************************************
@@ -172,7 +172,7 @@ Math Expression Input Problem
    :glob:   
 
    ../references/course_development/exercise_tools/math_expression_input.rst
-   ../how-tos/course_development/exercise_tools/adding_math_expression_problem.rst
+   ../how-tos/course_development/exercise_tools/add_math_expression_problem.rst
    ../references/course_development/exercise_tools/math_expression_input_xml.rst
 
 
@@ -226,7 +226,7 @@ Open Response Assessments
    :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/OpenResponseAssessments.rst
+   ../concepts/exercise_tools/about_OpenResponseAssessments.rst
    ../how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    ../how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
    ../how-tos/course_development/exercise_tools/access_ORA_metrics.rst
@@ -250,7 +250,7 @@ Peer Instruction Tool
    :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/peer_instruction.rst
+   ../concepts/exercise_tools/about_peer_instruction.rst
    ../how-tos/course_development/exercise_tools/add_peer_instruction_tool.rst
 
 Periodic Table Tool
@@ -291,7 +291,7 @@ Proctored Exams
    :maxdepth: 1
    :glob:   
 
-   ../concepts/proctored_exams/proctored_exams_overview.rst
+   ../concepts/proctored_exams/about_proctored_exams.rst
    ../concepts/proctored_exams/preparing_learners_proctored_exams.rst
    ../how-tos/proctored_exams/enable_proctored_exams.rst
    ../how-tos/proctored_exams/manage_proctored_exams.rst
@@ -333,7 +333,7 @@ Single Select Problem
    :maxdepth: 1
    :glob:   
 
-   ../concepts/exercise_tools/single_select_overview.rst
+   ../concepts/exercise_tools/about_single_select.rst
    ../how-tos/course_development/exercise_tools/add_single_select.rst
    ../how-tos/course_development/exercise_tools/award_partial_credit_multiple_choice.rst
    ../how-tos/course_development/exercise_tools/add_single_select_num_input.rst

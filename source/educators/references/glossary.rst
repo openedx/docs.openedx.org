@@ -160,7 +160,7 @@ C
 
   Cohorts are an optional feature of courses on the edX platform. For
   information about how you enable the cohort feature, set up cohorts, and
-  assign learners to them, see :ref:`Cohorts Overview`.
+  assign learners to them, see :ref:`About Learner Cohorts`.
 
 .. _Component_g:
 

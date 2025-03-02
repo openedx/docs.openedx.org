@@ -26,7 +26,7 @@ certificate (determined by whether he has earned a passing grade at the time
 the report was requested), whether a certificate has been generated, and the
 type of certificate earned.
 
-If your course includes :ref:`cohorts<Cohorts Overview>`, :ref:`content
+If your course includes :ref:`cohorts<About Learner Cohorts>`, :ref:`content
 experiments<About Content Experiments>`, or
 :ref:`teams<About Teams>`, the grade report includes additional columns
 indicating the name of the cohort, experiment group, or team that each learner
@@ -66,7 +66,7 @@ columns that provide the following information.
   rather than five. This average is then multiplied by the assignment weight to
   calculate the assignment type average.
 
-* If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
+* If :ref:`cohorts<About Learner Cohorts>` are used in the course, a **Cohort Name**
   column indicates the name of the cohort that each learner belongs to,
   including the default cohort. The column is empty for learners who are not
   yet assigned to a cohort.

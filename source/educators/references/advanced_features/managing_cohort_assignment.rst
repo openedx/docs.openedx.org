@@ -155,7 +155,7 @@ consequences of these actions.
 .. seealso::
  
 
- :ref:`Cohorts Overview` (concept)
+ :ref:`About Learner Cohorts` (concept)
 
  :ref:`Manage Course Cohorts` (how-to)
 
