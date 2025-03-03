@@ -26,8 +26,8 @@ To create a periodic table, you need the following files:
 * Periodic-Table-Colors.css
 * PeriodicTableHTML.txt
 
-To download all of these files in a .zip archive, go to
-http://files.edx.org/PeriodicTableFiles.zip.
+To download all of these files in a .zip archive, download:
+:download:`PeriodicTableFiles.zip </_static/PeriodicTableFiles.zip>`.
 
 To create the periodic table, you need a Text component.
 
@@ -37,9 +37,9 @@ To create the periodic table, you need a Text component.
    New Component**, and then click **Text**.
 #. In the component that appears, click **Edit**.
 #. In the component editor, switch to the **HTML** tab.
-#. Open the PeriodicTable.txt file in any text editor.
-#. Copy all of the text in the PeriodicTable.txt file, and paste it into the
-   Text component editor. (Note that the PeriodicTableHTML.txt file contains
+#. Open the ``PeriodicTable.txt`` file in any text editor.
+#. Copy all of the text in the ``PeriodicTable.txt`` file, and paste it into the
+   Text component editor. (Note that the ``PeriodicTableHTML.txt`` file contains
    over 6000 lines of code. Paste all of this code into the component editor.)
 #. Click **Save**.
 
