@@ -85,7 +85,7 @@ overview. The example problem uses these files.
              ["incorrect1", "correct", "incorrect2"]}'
              width="600"
              height="100"
-             html_file="https://files.edx.org/custom-js-example/jsinput_example.html"
+             html_file="https://raw.githubusercontent.com/openedx/docs.openedx.org/refs/heads/main/source/_static/custom_js_example_code/jsinput_example.html"
              title="Dropdown with Dynamic Text"
              sop="false"/>
      </customresponse>
