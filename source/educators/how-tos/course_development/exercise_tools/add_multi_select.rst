@@ -7,6 +7,8 @@ Add a Multi-select (Checkbox) Problem
 
 .. youtube:: 6VYKcMeZrxg
 
+.. START ADD MULTIPLE CHOICE PROBLEM
+
 You add multi-select problems in Studio by selecting the **Problem** component.
 In the problem editor, select **the Multi-select** option. Fill in the fields
 on this screen to create your problem.
@@ -28,6 +30,8 @@ Creating a multi-select problem is as simple as:
    icon. Feedback can be provided for each answer. More information on feedback
    can be found in the following section.
 #. Selecting and filling in any desired settings on the right.
+
+.. END ADD MULTIPLE CHOICE PROBLEM
 
 If you have any questions on the specifics of using the simple editor, please check
 out :ref:`Simple Editor` and :ref:`Guide to Problem Settings`.

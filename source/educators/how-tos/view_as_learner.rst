@@ -8,21 +8,21 @@ View As Learner
 
 .. START VIEW AS LEARNER
 
-.. sidebar:: View Live
 
-   .. thumbnail:: /_images/Educators_outline_view_live.png
 
-.. sidebar:: LMS View
 
-   .. thumbnail:: /_images/Educators_LMS_view.png
 
 After you have published content, you should view it in the LMS, as a learner will.
 
 #. In the course outline, click :guilabel:`View Live`.
 
+   .. image:: /_images/Educators_outline_view_live.png
+
    The course opens in the LMS, in a new tab.
 
 #. Go through the content you created and check for accuracy.  You can edit the content in Studio, then publish your changes, to fix any issues.
+
+   .. image:: /_images/Educators_LMS_view.png
 
 .. END VIEW AS LEARNER
 

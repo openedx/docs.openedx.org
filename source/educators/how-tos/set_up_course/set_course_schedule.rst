@@ -28,9 +28,7 @@ follow these steps.
 
 .. START SET COURSE SCHEDULE
 
-.. sidebar:: Course Schedule and Details
-
-  .. thumbnail:: /_images/Educators_course_schedule.png
+.. image:: /_images/Educators_course_schedule.png
 
 #. With the course open in Studio, from the :guilabel:`Settings` menu, select :guilabel:`Schedule and Details`.
 

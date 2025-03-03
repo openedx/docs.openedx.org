@@ -22,7 +22,11 @@ This is how you can add a video to a course:
 
 To add a video, follow these steps.
 
+.. START ADD A VIDEO
+
 #. From Studio, in the unit where you want to place the video, under **Add New Component** select :guilabel:`Video`.
+
+   .. image:: /_images/Educators_add_video.png
 
    A video with default settings is added to the unit.
 
@@ -30,9 +34,11 @@ To add a video, follow these steps.
 
 #. In the **Component Display Name** field, enter the name that you want learners to see for this video.
 
-This name appears as a heading above the video in the LMS, and it identifies the video for you in reports and analytics. If you do not enter a display name, the platform specifies “video” for you.
+   This name appears as a heading above the video in the LMS, and it identifies the video for you in reports and analytics. If you do not enter a display name, the platform specifies “video” for you.
 
 #. Paste the video URL in the default Video URL field, and then enter the location of your video. This is the URL that was created when you uploaded the video to the hosting site.
+
+   .. image:: /_images/Educators_video_edit.png
 
    .. note::
       Youtube videos can be added by pasting the Youtube URL into the Video URL field.
@@ -50,6 +56,8 @@ This name appears as a heading above the video in the LMS, and it identifies the
    see :ref:`Video Settings`.
 
 #. Click :guilabel:`Save` to save the video in the unit.
+
+.. END ADD A VIDEO
 
 .. _Additional Video Options:
 

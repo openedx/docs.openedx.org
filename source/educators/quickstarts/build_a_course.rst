@@ -58,7 +58,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 6. Add a Video to the Unit
 **************************
 
-.. include:: ../how-tos/course_development/add_video_to_course.rst
+.. include:: ../how-tos/course_development/manage_videos.rst
   :start-after: .. START ADD A VIDEO
   :end-before: .. END ADD A VIDEO
 
@@ -74,7 +74,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 8. Add a Multiple Choice Question to the Unit
 *********************************************
 
-.. include:: ../how-tos/add_multiple_choice.rst
+.. include:: ../how-tos/course_development/exercise_tools/add_multi_select.rst
   :start-after: .. START ADD MULTIPLE CHOICE PROBLEM
   :end-before: .. END ADD MULTIPLE CHOICE PROBLEM
 

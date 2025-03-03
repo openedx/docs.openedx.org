@@ -6,15 +6,9 @@ Add Text
 
 .. START ADD TEXT
 
-.. sidebar:: Add Text
-
-   .. thumbnail:: /_images/Educators_add_text.png
-
-.. sidebar:: Edit Text
-
-   .. thumbnail:: /_images/Educators_edit_text.png
-
 #. In the unit where you want to place the text, select :guilabel:`Text` at the bottom of the page.
+
+   .. image:: /_images/Educators_add_text.png
 
 #. Select the **Text** template to add a blank component.
 
@@ -23,6 +17,8 @@ Add Text
 #. In the component, select :guilabel:`Edit`.
 
    The empty component opens in the visual editor.
+
+   .. image:: /_images/Educators_edit_text.png
 
 #. Enter and format your content.
 
@@ -39,13 +35,13 @@ Add Text
 
  :ref:`Working with Text Components` (reference)
 
- :ref:`Create a Text Component` (how-to)
+ :ref:`Work with the Text Editor` (how-to)
 
  :ref:`Add Link to Website Course Unit or File` (how-to)
 
  :ref:`Add an Image to a Text Component` (how-to)
 
- :ref:`Full Screen Image` (reference)
+ :ref:`Manage the Full Screen Image Tool` (reference)
 
  :ref:`Paste without Formatting in a Text Component` (how-to)
 
