@@ -39,20 +39,19 @@ different experiment group of learners sees.
 
 .. seealso::
  
+ :ref:`About Content Experiments` (concept)
 
- :ref:`Offering Differentiated Content` (concept)
+ :ref:`About Group Configurations` (concept)
 
- :ref:`Overview of Content Experiments` (concept)
+ :ref:`Guidelines for Modifying Group Configurations` (reference)
 
- :ref:`Configure Your Course for Content Experiments` (how-to)
+ :ref:`Manage Content Experiments` (how-to)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
 
- :ref:`Create Content for Content Experiment Groups` (how-to)
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
- :ref:`Create a Content Experiment` (how-to)
-
- :ref:`Add Content Experiments to Your Course` (reference)
+ :ref:`Experiment Group Configurations` (reference)
 
 **Maintenance chart**
 

@@ -29,7 +29,7 @@ To disable or enable the Calculator resource, follow these steps.
 
  :ref:`Enable Wiki` (how to)
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
  :ref:`Add Custom Page` (how to)
 
@@ -37,7 +37,7 @@ To disable or enable the Calculator resource, follow these steps.
  
  :ref:`Configure Resources` (how to)
 
- :ref:`Adding Textbooks` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
 **Maintenance chart**
 

@@ -110,7 +110,7 @@ On the page, the learner's status is visible as "Pending", "Satisfactory", or
 .. seealso::
  
 
- :ref:`ProctoredExams_Overview` (concept)
+ :ref:`About Proctored Exams` (concept)
 
  :ref:`Enable Proctored Exams` (how-to)
 

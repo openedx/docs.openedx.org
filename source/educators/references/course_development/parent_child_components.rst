@@ -8,7 +8,7 @@ Components that Contain Other Components
 For specific use cases, you configure course content so that components contain
 other components. For example, if you want to include conditional components or
 content experiments, you have to create components inside components. See
-:ref:`Add Content Experiments to Your Course` for more information.
+:ref:`Manage Content Experiments` for more information.
 
 The component that contains other components is referred to as the *parent*;
 the contained components are referred to as child components, or children.
@@ -73,7 +73,7 @@ For more information, see the section for the specific component type that you
 want.
 
 - :ref:`Configure Open edX Discussions Legacy`
-- :ref:`Working with Text Components`
+- :ref:`About Text Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 
@@ -149,17 +149,12 @@ The following example shows the learner view of the unit described above.
  :width: 400
 
 .. seealso::
- 
 
- :ref:`Unit States and Visibility to Students` (reference)
+ :ref:`About Course Components` (concept)
+ 
+ :ref:`Manage Course Components` (how-to)
 
- :ref:`Configure Open edX Discussions Legacy` (reference)
- 
- :ref:`Working with Text Components` (reference)
- 
- :ref:`Working with Problem Components` (reference)
- 
- :ref:`Working with Video Components` (reference)
+ :ref:`Restrict Access to a Component` (how-to)
 
 **Maintenance chart**
 

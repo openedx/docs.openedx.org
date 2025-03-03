@@ -32,7 +32,7 @@ Additional details for configuring the wiki application can be found at :ref:`Wi
  
  :ref:`Enable Calculator` (how to)
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
  :ref:`Add Custom Page` (how to)
 
@@ -40,7 +40,7 @@ Additional details for configuring the wiki application can be found at :ref:`Wi
  
  :ref:`Configure Resources` (how to)
 
- :ref:`Adding Textbooks` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
 
 **Maintenance chart**

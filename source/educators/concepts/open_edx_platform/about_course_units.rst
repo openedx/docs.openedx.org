@@ -13,7 +13,7 @@ understand the following concepts and complete the following tasks.
    :depth: 1
    :local:
 
-You add content to units with :ref:`course components<What is a Component>`.
+You add content to units with :ref:`course components<About Course Components>`.
 
 .. _What is a Unit:
 
@@ -25,7 +25,7 @@ A unit is a part of a :ref:`subsection<About Course Subsections>` that
 learners view as a single page.
 
 A unit contains one or more :ref:`components<Add a Component>`,
-such as text with :ref:`HTML<Working with Text Components>` markup,
+such as text with :ref:`HTML<About Text Components>` markup,
 :ref:`problems<Working with Problem Components>`, or a
 :ref:`video<Working with Video Components>`.
 
@@ -91,7 +91,7 @@ following actions.
 
  :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
 
- :ref:`Copy and Paste Course Content <Copy and Paste Course Content>` (how-to)
+ :ref:`Copy and Paste Course Components <Copy and Paste Course Components>` (how-to)
 
  :ref:`The Unit Workflow` (reference)
 

@@ -6,7 +6,7 @@ Using Open edX as an LTI Tool Provider
 .. tags:: educator, concept
 
 You can also include content from an LTI provider in your courses. For more
-information, see :ref:`LTI Component`.
+information, see :ref:`About the LTI Component`.
 
 .. _Grading Remote Content:
 

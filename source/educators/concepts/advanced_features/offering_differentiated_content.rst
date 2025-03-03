@@ -16,7 +16,7 @@ This section provides information about offering differentiated content in your 
 
 For information about dividing discussion topics in your course so that only learners in the same groups interact with each other, see :ref:`About Divided Discussions`.
 
-.. note:: You can also use experiment groups to compare the performance of groups of learners who are offered different content. For details, see :ref:`Overview of Content Experiments`.
+.. note:: You can also use experiment groups to compare the performance of groups of learners who are offered different content. For details, see :ref:`About Content Experiments`.
 
 
 .. _Offering Different Content Based on Enrollment Track:
@@ -41,19 +41,19 @@ If you have enabled cohorts in your course, you can associate one or more cohort
 For example, you might intend all learners in your course to have substantially the same course experience, except that you want to show learners who are either current students or alumni of your institution a special video in several sections. You already have your institution's current students in one cohort and alumni in another cohort. By associating both of
 these cohorts with the same content group, and restricting access to the special institutional-related video to only this content group, you can provide a customized course experience.
 
-For information about creating differentiated content using cohorts, see :ref:`Cohorts Overview`.
+For information about creating differentiated content using cohorts, see :ref:`About Learner Cohorts`.
 
 .. seealso::
 
- :ref:`Enrollment Track Specific Courseware Overview` (how-to)
-
- :ref:`Cohorts Overview` (concept)
+ :ref:`Guide to Creating Cohort Specific Course Content` (reference)
 
  :ref:`About Content Groups` (concept)
 
- :ref:`Overview of Content Experiments` (concept)
+ :ref:`Manage Content Groups` (how-to)
 
- :ref:`About Divided Discussions` (concept)
+ :ref:`Associate Cohorts with Content Groups` (how-to)
+
+ :ref:`View Cohort Specific Courseware` (how-to)
 
 
 

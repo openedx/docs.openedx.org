@@ -1,7 +1,7 @@
-.. _Adding Hints via the Advanced Editor:
+.. _Add Hints via the Advanced Editor:
 
 
-Adding Hints via the Advanced Editor
+Add Hints via the Advanced Editor
 #####################################
 
 .. tags:: educator, how-to
@@ -44,14 +44,35 @@ For example, the following OLX for a single select problem shows two hints.
 
   .. seealso::
  
+:ref:`About Problems Exercises and Tools` (concept)
 
- :ref:`Dropdown` (reference)
+:ref:`Core Problem Types` (reference)
 
- :ref:`Dropdown Problem XML` (reference)
+:ref:`Working with Problem Components` (reference)
 
- :ref:`Adding Dropdown` (how to)
+:ref:`Guide to Problem Settings` (reference)
 
- :ref:`Use Feedback in a Dropdown Problem` (how to)
+:ref:`Gradebook Assignment Types` (reference)
+
+:ref:`Feedback Best Practices` (concept)
+
+:ref:`Adding Feedback and Hints to a Problem` (reference)
+
+:ref:`Configure Hint` (how-to)
+
+:ref:`Partial Credit` (reference)
+
+:ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+
+:ref:`Adding Tooltips` (reference)
+
+:ref:`Learner View of Problems` (reference)
+
+:ref:`Advanced Editor` (reference)
+
+:ref:`Modifying a Released Problem` (reference)
+
+:ref:`Add Unsupported Exercises Problems` (how-to)
 
 **Maintenance chart**
 

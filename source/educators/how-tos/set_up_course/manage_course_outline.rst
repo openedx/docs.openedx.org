@@ -109,7 +109,7 @@ subsections, and units to new locations in the outline.
 
 You can reorganize components by dragging and dropping them within the same
 unit, or by moving them from one unit to another unit. For more information,
-see :ref:`Reorganizing Components`.
+see :ref:`Reorganize a Component`.
 
 To drag a section, subsection, or unit to another position in the course
 outline, move your cursor over the handle on the right of the object's box

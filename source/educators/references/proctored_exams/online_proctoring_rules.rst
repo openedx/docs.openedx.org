@@ -123,7 +123,7 @@ your request and make any adjustments before you start your exam.
 .. seealso::
  
 
- :ref:`ProctoredExams_Overview` (concept)
+ :ref:`About Proctored Exams` (concept)
 
  :ref:`Enable Proctored Exams` (how-to)
 

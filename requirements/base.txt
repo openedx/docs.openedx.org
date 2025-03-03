@@ -43,8 +43,10 @@ jinja2==3.1.5
 markupsafe==3.0.2
     # via jinja2
 packaging==24.2
-    # via sphinx
-pydata-sphinx-theme==0.16.1
+    # via
+    #   pydata-sphinx-theme
+    #   sphinx
+pydata-sphinx-theme==0.15.4
     # via sphinx-book-theme
 pygments==2.19.1
     # via
@@ -73,6 +75,7 @@ sphinx==7.4.7
     #   sphinx-book-theme
     #   sphinx-copybutton
     #   sphinx-design
+    #   sphinx-notfound-page
     #   sphinx-tags
     #   sphinxcontrib-contentui
     #   sphinxcontrib-images
@@ -81,11 +84,13 @@ sphinx==7.4.7
     #   sphinxext-rediraffe
 sphinx-autobuild==2024.10.3
     # via -r requirements/base.in
-sphinx-book-theme==1.1.3
+sphinx-book-theme==1.1.4
     # via -r requirements/base.in
 sphinx-copybutton==0.5.2
     # via -r requirements/base.in
 sphinx-design==0.6.1
+    # via -r requirements/base.in
+sphinx-notfound-page==1.1.0
     # via -r requirements/base.in
 sphinx-tags==0.4
     # via -r requirements/base.in
@@ -111,7 +116,7 @@ sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-starlette==0.45.3
+starlette==0.46.0
     # via sphinx-autobuild
 typing-extensions==4.12.2
     # via
@@ -126,5 +131,5 @@ uvicorn==0.34.0
     # via sphinx-autobuild
 watchfiles==1.0.4
     # via sphinx-autobuild
-websockets==14.2
+websockets==15.0
     # via sphinx-autobuild

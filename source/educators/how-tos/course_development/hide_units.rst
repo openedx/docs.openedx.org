@@ -67,11 +67,20 @@ check box.
 You are prompted to confirm that you want to make the unit visible to learners.
 
 .. seealso::
-  
+ 
+ :ref:`About Course Units` (concept)
 
-  :ref:`Set Access Restrictions For a Unit` (how-to)
+ :ref:`Manage Course Units` (how-to)
 
-  :ref:`Manage Course Units` (how-to) 
+ :ref:`Set Access Restrictions For a Unit` (how-to)
+
+ :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+
+ :ref:`Copy and Paste Course Components <Copy and Paste Course Components>` (how-to)
+
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`The Unit Workflow` (reference)
 
 **Maintenance chart**
 

@@ -24,9 +24,9 @@ the associated problems is lost each time a new ``url_name`` value is assigned.
 .. seealso::
  
 
- :ref:`Enable Completion` (how to)
+ :ref:`About the Completion Tool` (reference)
 
- :ref:`Completion` (reference)
+ :ref:`Enable Completion` (how to)
 
 **Maintenance chart**
 

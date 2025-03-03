@@ -1,6 +1,6 @@
-.. _How to View Published and Released Content:
+.. _View Published and Released Content:
 
-How to View Published and Released Content
+View Published and Released Content
 ###########################################
 
 .. tags:: educator, how-to
@@ -21,16 +21,16 @@ different groups, follow these steps.
 The course view refreshes to present published course content as a learner in
 the selected group would see it.
 
+
 For more information about each view, see :ref:`Staff View`, :ref:`Student
 View`, or :ref:`Specific Student View`. For more information about viewing
-cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`.
+cohort-specific course content, see :ref:`View Cohort Specific Courseware`.
 
 
 .. seealso::
- 
 
  :ref:`Testing Your Course Content` (reference)
-
+ 
  :ref:`Roles for Viewing Course Content` (reference)
 
  :ref:`Preview Draft Content` (how-to)

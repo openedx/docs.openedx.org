@@ -61,7 +61,7 @@ ways to extend the platform, starting with the following table.
      - Yes
    * - Clean UI Integration
      - Yes
-     - No (see :ref:`LTI Component`)
+     - No (see :ref:`About the LTI Component`)
      - Yes
      - Yes
      - Yes
@@ -72,13 +72,13 @@ ways to extend the platform, starting with the following table.
      - Yes
      - Yes
    * - Server Side Grading
-     - Possibly (See :ref:`Custom JavaScript`)
+     - Possibly (See :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>`)
      - Yes
      - Yes
      - Yes
      - Yes
    * - Usage Data
-     - No (See :ref:`Custom JavaScript`)
+     - No (See :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>`)
      - No
      - Limited
      - Yes

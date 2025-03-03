@@ -16,8 +16,6 @@ before they enroll in the course. For more information, see :ref:`Guide to Cours
 Describe Your Course
 **********************
 
-.. tags:: educator, how-to
-
 .. youtube:: ruXRjT176Cs
 
 Learners see a description of your course on the course About page, under the
@@ -76,12 +74,10 @@ To add a course image in Studio, follow these steps.
 
 #. In the **Course Card Image** section, complete one of the following steps.
 
-   * If you have not yet :ref:`added the image to the course<Add Files to a
-     Course>`, select **Upload Course Card Image**, and then follow the prompts
+   * If you have not yet :ref:`added the image to the course<Add Course Files>`, select **Upload Course Card Image**, and then follow the prompts
      to find and upload your image.
 
-   * If you have already :ref:`added the image to the course<Add Files to a
-     Course>`, locate the text under the **Course Card Image** field, and then
+   * If you have already :ref:`added the image to the course<Add Course Files>`, locate the text under the **Course Card Image** field, and then
      select **files & uploads**.
 
 #. In the panel at the bottom of the screen, select **Save Changes**.

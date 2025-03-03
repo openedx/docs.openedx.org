@@ -17,7 +17,7 @@ Styling
 
 Messages can include HTML styling, including text formatting and links.
 
-For more information, see :ref:`Working with Text Components<working with text components>`.
+For more information, see :ref:`About Text Components<About Text Components>`.
 
 Restricted HTML Content
 ========================
@@ -56,7 +56,7 @@ To ensure your course assets are transmitted securely, add the
 
     https://courses.myinstance.com/asset-v1:{course}.x+{run}+type@asset+block@{image}.jpg
 
-For more information, see :ref:`Add Files to a Course`.
+For more information, see :ref:`Add Course Files`.
 
 
 Keywords

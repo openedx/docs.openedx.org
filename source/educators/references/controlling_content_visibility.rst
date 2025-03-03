@@ -1,8 +1,8 @@
 .. _Controlling Content Visibility:
 
-#########################################
-Controlling Content Visibility and Access
-#########################################
+#########################################################
+Guide to Controlling Content Visibility and Access
+#########################################################
 
 .. tags:: educator, reference
 
@@ -188,11 +188,10 @@ provide learners in the certificate track with different exams from non-certific
 
 * :ref:`Modify access settings for a unit<Set Access Restrictions For a Unit>`
 
-* :ref:`Modify access settings for a component<Set Access Restrictions For a
-  Component>`
+* :ref:`Modify access settings for a component<Restrict Access to a Component>`
 
 For information about creating differentiated content based on cohorts, see
-:ref:`Create Cohort Specific Course Content`.
+:ref:`Guide to Creating Cohort Specific Course Content`.
 
 For information about creating differentiated content based on enrollment
 track, see :ref:`Enrollment Track Specific Courseware Overview`.
@@ -200,7 +199,7 @@ track, see :ref:`Enrollment Track Specific Courseware Overview`.
 .. seealso::
   
 
-  :ref:`Prerequisite Course Subsections <configuring_prerequisite_content>` (how-to)
+  :ref:`Prerequisite Course Subsections <Manage Subsection Prerequisites>` (how-to)
 
 **Maintenance chart**
 

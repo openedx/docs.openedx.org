@@ -1,7 +1,7 @@
 .. _Roles for Viewing Course Content:
 
 #####################################
-Viewing Course Content Based on Roles
+Guide to Role-Specific Course Views
 #####################################
 
 .. tags:: educator, reference
@@ -120,7 +120,7 @@ course would experience it.
    groups are shown different content, you can select an option from the **View
    Course As** dropdown list to see the content that a specific learner sees, or
    that a learner in a specific group sees. For more information, see
-   :ref:`Specific Student View` or :ref:`Viewing Cohort Specific Courseware`.
+   :ref:`Specific Student View` or :ref:`View Cohort Specific Courseware`.
 
 
 .. _Specific Student View:
@@ -159,8 +159,8 @@ group would experience it. You can use this view to verify that content
 designed for learners in a specific content group is displaying as intended.
 
 For details about content groups, and about creating and previewing cohort-specific
-content, see :ref:`About Content Groups`, :ref:`Create Cohort Specific Course Content`,
-and :ref:`Viewing Cohort Specific Courseware`.
+content, see :ref:`About Content Groups`, :ref:`Guide to Creating Cohort Specific Course Content`,
+and :ref:`View Cohort Specific Courseware`.
 
 .. _Learner in Enrollment Track Group View:
 
@@ -177,11 +177,12 @@ previewing enrollment track based content, see :ref:`About Enrollment Track
 Groups and Access` and :ref:`Enrollment Track Specific Courseware Overview`.
 
 .. seealso::
- 
-
- :ref:`Create Cohort Specific Course Content` (how-to)
 
  :ref:`Testing Your Course Content` (reference)
+
+ :ref:`View Published and Released Content` (how-to)
+
+ :ref:`Preview Draft Content` (how-to)
  
 
 

@@ -47,6 +47,7 @@ extensions = [
     "sphinxcontrib.mermaid",
     "sphinx.ext.intersphinx",
     "sphinxext.rediraffe",
+    "notfound.extension",
     "sphinx_tags"
 ]
 

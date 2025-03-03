@@ -78,11 +78,20 @@ Tp specify a unit's access settings, follow these steps.
     :width: 500
 
 .. seealso::
-  
+ 
+ :ref:`About Course Units` (concept)
 
-  :ref:`Hide a Unit from Students` (how-to)
+ :ref:`Manage Course Units` (how-to)
 
-  :ref:`Manage Course Units` (how-to)    
+ :ref:`Copy and Paste Course Units <Copy and Paste Course Units>` (how-to)
+
+ :ref:`Hide a Unit from Learners <Hide a Unit from Students>` (how-to)
+
+ :ref:`Copy and Paste Course Components <Copy and Paste Course Components>` (how-to)
+
+ :ref:`Manage Course Units` (how-to)
+
+ :ref:`The Unit Workflow` (reference)   
 
 **Maintenance chart**
 

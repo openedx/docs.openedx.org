@@ -110,7 +110,7 @@ uploads, the following options are available.
 
 * A custom set of one or more file formats, specified by the course team.
 
-For more information, see PA Allow Images.
+For more information, see Allow ORA Images.
 
 To protect learners from the transmission of potentially harmful files, this
 enhancement also gives system administrators the ability to configure a list of

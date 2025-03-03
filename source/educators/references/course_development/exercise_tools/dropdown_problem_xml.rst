@@ -220,7 +220,7 @@ None.
 
  :ref:`Dropdown` (reference)
 
- :ref:`Adding Dropdown` (how to)
+ :ref:`Add Dropdown` (how to)
 
  :ref:`Use Hints in a Dropdown Problem` (how to)
 

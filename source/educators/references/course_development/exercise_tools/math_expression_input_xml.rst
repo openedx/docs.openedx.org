@@ -67,7 +67,7 @@ In addition, standard HTML tags can be used to format text.
 Required. Indicates that the problem is a math expression input problem.
 
 The ``<formularesponse>`` tag is similar to the ``<numericalresponse>`` tag
-used  by :ref:`numerical input<Numerical Input>` problem types, but
+used  by :ref:`numerical input<About Numerical Input>` problem types, but
 ``<formularesponse>`` allows unknown variables.
 
 Attributes

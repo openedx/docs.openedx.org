@@ -32,18 +32,20 @@ Experiment group assignments have the following characteristics.
   content experiments you set up that use the same group configuration.
 
 .. seealso::
- 
 
- :ref:`Offering Differentiated Content` (concept)
+ :ref:`About Content Experiments` (concept)
 
- :ref:`Overview of Content Experiments` (concept)
+ :ref:`About Group Configurations` (concept)
 
- :ref:`Configure Your Course for Content Experiments` (how-to)
+ :ref:`Guidelines for Modifying Group Configurations` (reference)
+
+ :ref:`Manage Content Experiments` (how-to)
+
+ :ref:`Set Up Group Configuration for OLX Courses` (how-to)
 
  :ref:`Add a Content Experiment in OLX` (how-to)
 
- :ref:`Set Up Group Configuration for OLX Courses` (how-to
- :ref:`Guidelines for Modifying Group Configurations` (concept)
+ :ref:`Test Content Experiments` (how-to)
 
 **Maintenance chart**
 

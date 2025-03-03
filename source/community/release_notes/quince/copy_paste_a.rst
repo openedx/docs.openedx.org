@@ -30,7 +30,7 @@ Here's a video demo that illustrates how the new feature can be used.
 
 .. youtube:: pJ_uJ4WF_wY
 
-And see the How-To guide on :doc:`/educators/how-tos/copy_paste_course_content`.
+And see the How-To guide on :doc:`/educators/how-tos/copy_paste_course_components`.
 
 Copy & Paste has been added to the current working version of the platform (the
 “master branch”), and will be available in the Quince Community Release in

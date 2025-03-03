@@ -35,7 +35,7 @@ together, followed by labs, then exams.
 .. seealso::
  
 
- :ref:`Graded Subsections` (concept)
+ :ref:`About Graded Subsections` (concept)
 
  :ref:`Gradebook Assignment Types` (reference)
 

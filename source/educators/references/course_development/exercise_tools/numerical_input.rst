@@ -1,7 +1,7 @@
-.. _Numerical Input:
+.. _About Numerical Input:
 
-Numerical Input Problem
-########################
+About Numerical Input Problem
+################################
 
 .. tags:: educator, reference
 
@@ -62,17 +62,12 @@ numerical input problem. An example of a completed numerical input problem follo
  :alt: A problem with one question, answered correctly, in the LMS.
 
 .. seealso::
- 
 
- :ref:`Editing Numerical Input Problems using the Advanced Editor` (how to)
-
- :ref:`Use Feedback in a Numerical Input Problems` (how to)
-
- :ref:`Adding Numerical Input Problem` (how to)
+ :ref:`Manage Numerical Input Problem` (how to)
 
  :ref:`Numerical Input Problem XML` (reference)
 
- :ref:`Awarding Partial Credit in a Numerical Input Problem` (how to)
+ :ref:`Award Partial Credit in a Numerical Input Problem` (how to)
 
 **Maintenance chart**
 

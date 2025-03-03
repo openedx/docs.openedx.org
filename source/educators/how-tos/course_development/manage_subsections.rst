@@ -88,8 +88,6 @@ For more information, see :ref:`Release Dates`.
 Hide a Subsection from Learners
 ********************************************
 
-.. tags:: educator, how-to
-
 You can hide a subsection from learners in the following ways.
 
 * :ref:`Entirely hide the subsection <Entirely Hide a Subsection>` so that it

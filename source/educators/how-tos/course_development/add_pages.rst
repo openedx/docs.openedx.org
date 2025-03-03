@@ -59,7 +59,7 @@ Additional applications and resources can be enabled depending on your course ne
 * :ref:`Teams<Enable Teams>`
 * :ref:`Wiki<Enable Wiki>`
 * :ref:`Calculator<Enable Calculator>`
-* :ref:`Textbooks<Enable Textbook>`
+* :ref:`Textbooks<Add Course Textbooks>`
 * :ref:`Custom Pages<Add Custom Page>`
 
 .. seealso::
@@ -73,7 +73,7 @@ Additional applications and resources can be enabled depending on your course ne
  
  :ref:`Enable Calculator` (how to)
 
- :ref:`Enable Textbook` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
  :ref:`Add Custom Page` (how to)
 
@@ -81,7 +81,7 @@ Additional applications and resources can be enabled depending on your course ne
  
  :ref:`Configure Resources` (how to)
 
- :ref:`Adding Textbooks` (how to)
+ :ref:`Add Course Textbooks` (how to)
 
 
 **Maintenance chart**

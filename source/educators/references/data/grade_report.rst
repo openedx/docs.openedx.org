@@ -26,9 +26,9 @@ certificate (determined by whether he has earned a passing grade at the time
 the report was requested), whether a certificate has been generated, and the
 type of certificate earned.
 
-If your course includes :ref:`cohorts<Cohorts Overview>`, :ref:`content
-experiments<Overview of Content Experiments>`, or
-:ref:`teams<CA_Teams_Overview>`, the grade report includes additional columns
+If your course includes :ref:`cohorts<About Learner Cohorts>`, :ref:`content
+experiments<About Content Experiments>`, or
+:ref:`teams<About Teams>`, the grade report includes additional columns
 indicating the name of the cohort, experiment group, or team that each learner
 belongs to.
 
@@ -66,12 +66,12 @@ columns that provide the following information.
   rather than five. This average is then multiplied by the assignment weight to
   calculate the assignment type average.
 
-* If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
+* If :ref:`cohorts<About Learner Cohorts>` are used in the course, a **Cohort Name**
   column indicates the name of the cohort that each learner belongs to,
   including the default cohort. The column is empty for learners who are not
   yet assigned to a cohort.
 
-* If :ref:`content experiments<Overview of Content Experiments>` are used in
+* If :ref:`content experiments<About Content Experiments>` are used in
   the course, an **Experiment Group** column indicates the name of the
   experiment group that each learner belongs to within a group configuration.
   The column heading includes the name of the group configuration. The column
@@ -79,7 +79,7 @@ columns that provide the following information.
   have more than one experiment group configuration in your course, you see one
   column for each group configuration.
 
-* If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team Name**
+* If :ref:`teams<About Teams>` are enabled in the course, a **Team Name**
   column indicates the name of the team that each learner belongs to. The
   column is empty for learners who have not joined a team.
 

@@ -1,7 +1,7 @@
 .. _Embed Google Calendar:
 
 ##########################################
-Embedding a Google Calendar in Your Course
+Embed a Google Calendar in Your Course
 ##########################################
 
 .. tags:: educator, how-to

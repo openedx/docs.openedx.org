@@ -45,7 +45,7 @@ Create a Custom JavaScript Display and Grading Problem
 .. seealso::
  
 
- :ref:`Custom JavaScript` (reference)
+ :ref:`Guide to Custom JavaScript Display and Grading Problem` (reference)
 
 
 **Maintenance chart**

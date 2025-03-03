@@ -1,7 +1,7 @@
-.. _Managing Teams via CSV Upload:
+.. _Manage Teams Membership via CSV Upload:
 
 ##########################################
-Managing Teams via CSV Upload
+Manage Team Memberships via CSV Upload
 ##########################################
 
 .. tags:: educator, reference
@@ -87,7 +87,7 @@ A **user can be removed** from a team by removing the ``team-name`` from the app
 leaving the entry empty.
 
 .. note:: team-sets cannot be created from within the **Manage** tab. They must be created by following the
-   :ref:`Enable and Configure Teams`.
+   :ref:`Manage Teams`.
 
 Users and team-sets that are **not included** in the uploaded CSV are **not altered**.
 
@@ -224,16 +224,17 @@ Error Conditions
 
 .. seealso::
  
-
- :ref:`Teams Overview <CA_Teams_Overview>` (concept)
-
- :ref:`Managing Team Discussions <Teams Discussions>` (concept)
-
- :ref:`Enable and Configure Teams` (how-to)
+ :ref:`About Teams` (concept)
 
  :ref:`Teams Configuration Options` (reference)
 
- :ref:`The Learner's Experience of Teams <CA Learner Experience of Teams>` (concept)
+ :ref:`Manage Teams` (how-to)
+
+ :ref:`Connect Teams to Content Groups` (how-to)
+
+ :ref:`Teams Discussions` (concept)
+
+ :ref:`Learner Experience of Teams` (concept)
 
 
 **Maintenance chart**

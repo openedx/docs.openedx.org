@@ -103,8 +103,7 @@ has the following keys.
     file. XQueue stores files that learners upload in ``xqueue_files``.
 
   * ``grader_payload``: An optional string that you can specify when you create
-    the problem. For more information, see :ref:`Create an External Grader
-    Problem in Studio`.
+    the problem. For more information, see :ref:`Add an External Grader Problem`.
 
 An example JSON object for a learner submission follows.
 
@@ -215,9 +214,9 @@ external grader.
 .. seealso::
  
 
- :ref:`External Grader` (concept)
+ :ref:`About External Grader Problems` (concept)
 
- :ref:`Create an External Grader Problem in Studio` (how-to)
+ :ref:`Add an External Grader Problem` (how-to)
 
 
 

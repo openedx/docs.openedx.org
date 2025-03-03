@@ -82,7 +82,7 @@ To create a word cloud, follow these steps.
 
 .. seealso::
 
- :ref:`Create Exercises` (concepts)
+ :ref:`About Problems Exercises and Tools` (concepts)
 
 **Maintenance chart**
 

@@ -5,7 +5,7 @@
 OLX
 ###################
 
-This guide is intended for those interested in using OLX (open learning XML) to develop edX courses. Readers of this guide should be familiar with XML.
+This guide is intended for those interested in using OLX (open learning XML) to develop Open edX courses. Readers of this guide should be familiar with XML.
 
 .. _OLX General Information:
 
@@ -132,25 +132,25 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/references/course_development/exercise_tools/completion.rst
    /educators/references/course_development/exercise_tools/conditional_module.rst
    /educators/references/course_development/exercise_tools/custom_javascript.rst
-   /educators/references/course_development/exercise_tools/custom_python.rst
-   /educators/concepts/exercise_tools/drag_and_drop.rst
+   /educators/concepts/exercise_tools/about_custom_python_problem.rst
+   /educators/concepts/exercise_tools/about_drag_and_drop.rst
    /educators/references/course_development/exercise_tools/dropdown_problem_xml.rst
-   /educators/how-tos/course_development/exercise_tools/create_full_screen_image.rst
+   /educators/how-tos/course_development/exercise_tools/manage_full_screen_image.rst
    /educators/references/course_development/exercise_tools/gene_explorer.rst
-   /educators/how-tos/course_development/exercise_tools/embed_google_calendar.rst
-   /educators/references/course_development/exercise_tools/google_docs.rst
+   /educators/how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
+   /educators/how-tos/course_development/exercise_tools/add_google_drive.rst
    /educators/how-tos/course_development/exercise_tools/create_iframe.rst
    /educators/references/course_development/exercise_tools/image_mapped_input_xml.rst
-   /educators/references/course_development/exercise_tools/lti_component.rst
+   /educators/concepts/exercise_tools/about_lti_component.rst
    /educators/references/course_development/exercise_tools/math_expression_input_xml.rst
-   /educators/how-tos/course_development/exercise_tools/adding_mathjax.rst
+   /educators/how-tos/course_development/exercise_tools/add_mathjax.rst
    /educators/references/course_development/exercise_tools/multi_select_xml.rst
-   /educators/how-tos/course_development/exercise_tools/edit_numerical_input_advanced.rst
-   /educators/concepts/exercise_tools/OpenResponseAssessments.rst
+   /educators/how-tos/course_development/exercise_tools/manage_numerical_input_problem.rst
+   /educators/concepts/exercise_tools/about_OpenResponseAssessments.rst
    /educators/how-tos/course_development/exercise_tools/CreateORAAssignment.rst
    /educators/how-tos/course_development/exercise_tools/Manage_ORA_Assignment.rst
    /educators/references/course_development/exercise_tools/ORA_Staff_Grading.rst
-   /educators/how-tos/course_development/exercise_tools/view_metrics_ORA_assignments.rst
+   /educators/how-tos/course_development/exercise_tools/access_ORA_metrics.rst
    /educators/how-tos/course_development/exercise_tools/create_periodic_table.rst
    /educators/references/course_development/exercise_tools/poll_olx.rst
    /educators/how-tos/course_development/exercise_tools/create_poll_olx.rst
@@ -158,11 +158,11 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/create_problem_with_hint.rst
    /educators/how-tos/course_development/exercise_tools/create_protein_builder.rst
    /educators/how-tos/course_development/exercise_tools/add_recommenderXBlock.rst
-   /educators/concepts/exercise_tools/single_select_overview.rst
+   /educators/concepts/exercise_tools/about_single_select.rst
    /educators/how-tos/course_development/exercise_tools/add_single_select_num_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_survey_olx.rst
    ../olx/problem-xml/symbolic_response.rst
-   /educators/references/course_development/exercise_tools/text_input.rst
+   /educators/concepts/exercise_tools/about_text_input.rst
    /educators/how-tos/course_development/exercise_tools/manage_word_cloud.rst
    /educators/how-tos/course_development/exercise_tools/create_zooming_image.rst
 
@@ -177,10 +177,10 @@ The topics in this section describe how to use OLX (open learning XML) to create
    :maxdepth: 1
    :glob:
 
-   /educators/concepts/advanced_features/content_experiments_overview.rst
-   /educators/concepts/advanced_features/guidlines_modifying_group_configuration.rst
-   /educators/how-tos/advanced_features/configure_content_experiments.rst
-   /educators/references/advanced_features/add_content_experiments.rst
+   /educators/concepts/advanced_features/about_content_experiments.rst
+   /educators/references/advanced_features/guidelines_modifying_group_configuration.rst
+   /educators/how-tos/advanced_features/manage_content_experiments.rst
+   /educators/how-tos/advanced_features/add_content_experiments_olx.rst
    ../olx/content-experiments/content_experiments_test_olx.rst
    
    

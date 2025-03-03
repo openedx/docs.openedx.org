@@ -74,8 +74,8 @@ Create a New Course
    ../how-tos/course_development/manage_units.rst
    ../how-tos/view_as_learner.rst
    ../how-tos/course_development/exercise_tools/add_text.rst
-   ../how-tos/course_development/add_video_to_course.rst
-   ../how-tos/add_multiple_choice.rst
+   ../how-tos/course_development/manage_videos.rst
+   ../how-tos/course_development/exercise_tools/add_single_select.rst
    ../references/resources_for_course_teams.rst
    
 
@@ -91,7 +91,18 @@ Add Course Team Members
    ../references/course_development/course_team_roles.rst
    ../how-tos/set_up_course/add_course_team_members.rst
    ../how-tos/releasing-course/manage_beta_testing.rst
-   
+
+Configure Grades
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:   
+
+   ../concepts/grading/about_graded_subsections.rst
+   ../how-tos/grading/set_grace_period.rst
+   ../how-tos/grading/set_grade_range.rst
+   ../references/grading/learner_view_of_grades.rst
    
 
 Set Up Course Certificates
@@ -101,7 +112,7 @@ Set Up Course Certificates
    :maxdepth: 1
    :glob:
 
-   ../references/about_certificates.rst
+   ../concepts/open_edx_platform/about_certificates.rst
    ../how-tos/set_up_course/manage_certificates.rst
    ../how-tos/set_up_course/edit_certificate.rst
    ../how-tos/configure_certificate_timing.rst
@@ -135,7 +146,7 @@ Beta Test a Course
    :maxdepth: 1
    :glob:
 
-   ../concepts/releasing-course/beta_testing.rst
+   ../concepts/releasing-course/about_beta_testing.rst
    ../how-tos/releasing-course/manage_beta_testing.rst
 
 .. _Launch a Course:

@@ -50,17 +50,17 @@ To create a problem written in LaTeX, follow these steps.
 .. seealso::
  
 
- :ref:`Numerical Input` (reference)
+ :ref:`About Numerical Input` (reference)
 
  :ref:`Numerical Input Problem XML` (reference)
 
  :ref:`Editing Numerical Input Problems using the Advanced Editor` (how-to)
 
- :ref:`Awarding Partial Credit in a Numerical Input Problem` (how-to)
+ :ref:`Award Partial Credit in a Numerical Input Problem` (how-to)
 
  :ref:`Work with Latex Code` (how-to)
 
- :ref:`Adding Numerical Input Problem` (how-to)
+ :ref:`Manage Numerical Input Problem` (how-to)
 
 
 **Maintenance chart**

@@ -56,16 +56,35 @@ For information about how to review and adjust learner grades in the LMS, see
 
 .. seealso::
  
+   :ref:`About Problems Exercises and Tools` (concept)
 
- :ref:`Working with Problem Components` (reference)
+   :ref:`Core Problem Types` (reference)
 
- :ref:`Advanced Editor` (reference)
+   :ref:`Working with Problem Components` (reference)
 
- :ref:`Problem Settings` (reference)
+   :ref:`Guide to Problem Settings` (reference)
 
- :ref:`Feedback Best Practices` (concept)
+   :ref:`Gradebook Assignment Types` (reference)
 
- :ref:`Learner View of Problems` (reference)
+   :ref:`Feedback Best Practices` (concept)
+
+   :ref:`Adding Feedback and Hints to a Problem` (reference)
+
+   :ref:`Configure Hint` (how-to)
+
+   :ref:`Partial Credit` (reference)
+
+   :ref:`Set the Assignment Type and Due Date for a Subsection` (how-to)
+
+   :ref:`Adding Tooltips` (reference)
+
+   :ref:`Learner View of Problems` (reference)
+
+   :ref:`Advanced Editor` (reference)
+
+   :ref:`Add Hints via the Advanced Editor` (how-to)
+
+   :ref:`Add Unsupported Exercises Problems` (how-to)
 
 **Maintenance chart**
 
