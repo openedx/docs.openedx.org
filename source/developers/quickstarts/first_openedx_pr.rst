@@ -230,6 +230,7 @@ repository locally.
 Add a tutor mount for your cloned directory.
 
 .. code-block:: bash
+
    (tutor-main) $ tutor mounts add /home/git/frontend-app-learner-dashboard
 
 Next, ensure that the learner-dashboard MFE is stopped
