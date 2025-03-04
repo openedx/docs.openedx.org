@@ -5,7 +5,6 @@ Open edX Learner's Guide
 ########################
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    SFD_introduction
