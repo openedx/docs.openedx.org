@@ -93,9 +93,9 @@ code.
 Follow the official instructions for installing Tutor Main.
 
 .. admonition:: The Tutor documents will recommend this as well, but
-                please do yourself the favor of using python virtual
-                enviroments.  Doing so will make managing multiple
-                repositories and dependency versions much easier.
+   please do yourself the favor of using python virtual
+   enviroments.  Doing so will make managing multiple
+   repositories and dependency versions much easier.
 
 `Official Tutor tutorial <https://docs.tutor.edly.io/tutorials/main.html#running-open-edx-on-the-master-branch-tutor-main>`_
 
@@ -282,7 +282,7 @@ is not a change that will be merged upstream, but it will demonstrate the
 steps you will have to go through to make a real change.
 
 Edit the Template
-~~~~~~~~~~~~~~~~~
+-----------------
 
 The template file for this page is at ``lms/templates/dashboard.html``. We're
 going to add a simple welcome message to the ``dashboard-notifications`` div::
