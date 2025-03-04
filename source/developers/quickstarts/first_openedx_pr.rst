@@ -52,7 +52,7 @@ the basics of using them, before proceeding:
 
   * Additionally, we strongly recommend setting up 2-factor authentication.
 
-* `Python 3.8 <https://www.python.org/downloads/>`_
+* `Python 3.11 <https://www.python.org/downloads/>`_
 
 * Your favorite code editor (our team uses
   `VSCode <https://code.visualstudio.com/download>`_,
