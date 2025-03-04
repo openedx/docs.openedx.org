@@ -156,7 +156,9 @@ To have Tutor run your local fork of edx-platform, you have to tell it to do so
 on start up.  It is a simple CLI parameter that points Tutor to the directory where
 the code lives.
 
-To set up your local enviroment to update edx-platform, follow the `official instructions <https://docs.tutor.edly.io/tutorials/edx-platform.html>`_
+To set up your local enviroment to update edx-platform, follow the
+`official instructions
+<https://docs.tutor.edly.io/tutorials/edx-platform.html>`_
 
 From this point on, whatever changes you make to the code in your clone should
 be visible in your local LMS instance immediately.
@@ -164,7 +166,8 @@ be visible in your local LMS instance immediately.
 Working with an MFE
 ===================
 
-If you are only interested in updating frontend code, using and MFE in development mode is the right approach.
+If you are interested in updating frontend code, using an MFE in
+development mode is the right approach.
 
 To run MFEs in Tutor requires enabling a plugin, Tutor MFE.
 
