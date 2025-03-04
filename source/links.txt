@@ -204,6 +204,8 @@
 
 .. _Submit a Docs Issue: https://github.com/openedx/docs.openedx.org/issues/new/choose
 
+.. _Open edX Forums: https://discuss.openedx.org
+
 .. _Open edX Doc Migration Tracking: https://docs.google.com/spreadsheets/d/1r0mbC1Ay-6vGVzGvHKRq9VHyowT7j-lm-4-8z38c5mM/edit
 
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
