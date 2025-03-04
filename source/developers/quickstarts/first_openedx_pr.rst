@@ -95,7 +95,7 @@ Follow the official instructions for installing Tutor Main.
 .. admonition:: The Tutor documents will recommend this as well, but
                 please do yourself the favor or using python virtual
                 enviroments.  Doing so will make managing multiple
-                repositories and dependency versions much easier.		
+                repositories and dependency versions much easier.
 
 `Official Tutor tutorial <https://docs.tutor.edly.io/tutorials/main.html#running-open-edx-on-the-master-branch-tutor-main>`_
 
