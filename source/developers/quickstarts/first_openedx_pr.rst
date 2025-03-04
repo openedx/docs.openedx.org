@@ -231,8 +231,18 @@ Next, ensure that the learner-dashboard MFE is stopped
 
    (tutor-main) $ tutor dev stop learner-dashboard
 
-From the local copy of the learner-dashboard repository start the npm
-dev server.
+Reloading the profile should now yield an error.
+
+Now its time to replace the default Tutor-hosted learner-dashboard with a
+local version.  That version will use a dev config file to connect to
+the Tutor-hosted backend and to bind to the expected port.
+
+.. admonition:: Not every MFE currently has a dev profile that will
+   work with Tutor, though it is possible to create one if that is the
+   case for the MFE you are developing.
+
+From the directory containing the local copy of the learner-dashboard
+repository start the npm dev server.
 
 .. code-block:: bash
 
