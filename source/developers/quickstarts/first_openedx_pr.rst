@@ -174,12 +174,12 @@ Start by verifying that the mfe plugin is installed and enabled
 
    (tutor-main) $ tutor plugins list
    
-   NAME       	STATUS   	VERSION
-   discovery  	installed	19.0.0
-   forum      	installed	19.0.0
-   indigo     	✅ enabled	19.0.1
-   jupyter    	installed	19.0.0
-   mfe        	✅ enabled	19.0.0
+   NAME         STATUS          VERSION
+   discovery    installed       19.0.0
+   forum        installed       19.0.0
+   indigo       ✅ enabled      19.0.1
+   jupyter      installed       19.0.0
+   mfe          ✅ enabled      19.0.0
 
 If mfe isn't enabled run the following command to do so
 
