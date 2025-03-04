@@ -207,9 +207,9 @@ Once Tutor has restarted with MFE enabled you will see a few more URLs listed.
    http://apps.local.openedx.io:1994/gradebook
    http://apps.local.openedx.io:1995/profile
    http://apps.local.openedx.io:1996/learner-dashboard
+   http://apps.local.openedx.io:1997/account
    http://apps.local.openedx.io:2000/learning
    http://apps.local.openedx.io:2002/discussions
-   http://apps.local.openedx.io:1997/account
 
 These ports and paths are to specific MFEs made available via the MFE plugin.
 
