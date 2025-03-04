@@ -141,7 +141,6 @@ Open edX Educators
       | :ref:`Accessibility Guidelines`
       | :ref:`Designing for Mobile`
       | :ref:`Accessibility Best Practices Checklist`
-      | :ref:`Accessibility Checker`
       | :ref:`Manage Video Transcripts`
       
 

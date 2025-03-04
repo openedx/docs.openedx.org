@@ -108,8 +108,6 @@ available in the app.
 
  :ref:`Accessibility Best Practices Checklist` (reference)
 
- :ref:`Accessibility Checker` (reference)
-
 
 **Maintenance chart**
 

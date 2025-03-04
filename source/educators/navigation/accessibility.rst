@@ -27,5 +27,4 @@ Accessibility Best Practices
    ../concepts/accessibility/accessibility_guidelines.rst
    ../references/accessibility/accessibility_best_practices_checklist.rst
    ../concepts/accessibility/design_for_mobile.rst
-   ../references/accessibility/accessibility_checker.rst
    ../how-tos/course_development/manage_video_transcripts.rst
