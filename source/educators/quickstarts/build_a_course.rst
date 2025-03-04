@@ -27,7 +27,9 @@ Follow the steps below to build your first course. By the end, you will have a f
 2. Schedule a Course
 ********************
 
-.. include:: ../how-tos/reusable_content/schedule_course.txt
+.. include:: ../how-tos/set_up_course/set_course_schedule.rst
+  :start-after: .. START SET COURSE SCHEDULE
+  :end-before: .. END SET COURSE SCHEDULE
 
 
 3. Create a Section
@@ -56,31 +58,41 @@ Follow the steps below to build your first course. By the end, you will have a f
 6. Add a Video to the Unit
 **************************
 
-.. include:: ../how-tos/reusable_content/add_video.txt
+.. include:: ../how-tos/course_development/manage_videos.rst
+  :start-after: .. START ADD A VIDEO
+  :end-before: .. END ADD A VIDEO
 
 
 7. Add Written Content to the Unit
 **********************************
 
-.. include:: ../how-tos/reusable_content/add_html.txt
+.. include:: ../how-tos/course_development/exercise_tools/add_text.rst
+  :start-after: .. START ADD TEXT
+  :end-before: .. END ADD TEXT
 
 
 8. Add a Multiple Choice Question to the Unit
 *********************************************
 
-.. include:: ../how-tos/reusable_content/add_multiple_choice.txt
+.. include:: ../how-tos/course_development/exercise_tools/add_multi_select.rst
+  :start-after: .. START ADD MULTIPLE CHOICE PROBLEM
+  :end-before: .. END ADD MULTIPLE CHOICE PROBLEM
 
 
 9. Publish the Course
 *********************
 
-.. include:: ../how-tos/reusable_content/publish_course.txt
+.. include:: ../how-tos/course_development/publish_from_outline.rst
+  :start-after: .. START PUBLISH COURSE
+  :end-before: .. END PUBLISH COURSE
 
 
 10. View as a Learner
 *********************
 
-.. include:: ../how-tos/reusable_content/view_as_learner.txt
+.. include:: ../how-tos/view_as_learner.rst
+  :start-after: .. START VIEW AS LEARNER
+  :end-before: .. END VIEW AS LEARNER
 
 
 .. seealso::
@@ -105,15 +117,6 @@ Follow the steps below to build your first course. By the end, you will have a f
  :ref:`Publish a Unit` (how-to)
 
  :ref:`View As Learner` (how-to)
-
-
-
-
-
-
-
-
-
 
 
 

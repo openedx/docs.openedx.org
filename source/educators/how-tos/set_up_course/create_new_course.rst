@@ -16,11 +16,11 @@ You can also :ref:`export<Export a Course>` and :ref:`import<Import a Course>`
 courses as XML files. You can do this when you need to back up a course or edit
 the course in XML.
 
-.. START CREATE A NEW COURSE
-
 ***************
 Create a Course
 ***************
+
+.. START CREATE A NEW COURSE
 
 .. thumbnail:: /_images/Educators_create_course.png
 
