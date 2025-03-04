@@ -215,9 +215,12 @@ correctly after you have installed the MFE plugin.  Assuming
 everything is configured in the standard way, your URL should be
 ``http://apps.local.openedx.io:1996/learner-dashboard/``
 
-Follow the same, fork, clone workflow described above and clone the learner-dashboard ``https://github.com/openedx/frontend-app-learner-dashboard`` repository locally.
+Follow the same, fork, clone workflow described above and clone the
+learner-dashboard
+``https://github.com/openedx/frontend-app-learner-dashboard``
+repository locally.
 
-Add a tutor mount to for your cloned directory.
+Add a tutor mount for your cloned directory.
 
 .. code-block:: bash
    (tutor-main) $ tutor mounts add /home/git/frontend-app-learner-dashboard
