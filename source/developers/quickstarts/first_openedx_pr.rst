@@ -92,7 +92,7 @@ code.
 
 Follow the official instructions for installing Tutor Main.
 
-`Official Tutor tutorial <https://docs.tutor.edly.io/tutorials/main.html#running-open-edx-on-the-master-branch-tutor-main>` _
+`Official Tutor tutorial <https://docs.tutor.edly.io/tutorials/main.html#running-open-edx-on-the-master-branch-tutor-main>`_
 
 
 Working with a fork
@@ -150,6 +150,8 @@ Mounting edx-platform
 To have Tutor run your local fork of edx-platform, you have to tell it to do so
 on start up.  It is a simple CLI parameter that points Tutor to the directory where
 the code lives.
+
+To set up your local enviroment to update edx-platform, follow the `official instructions <https://docs.tutor.edly.io/tutorials/edx-platform.html>`_
 
 As a first step, fire up a one-off LMS container while mounting your local
 checkout:
