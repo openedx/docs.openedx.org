@@ -192,6 +192,7 @@ Start by verifying that the mfe plugin is installed and enabled
 If mfe isn't enabled run the following command to do so
 
 .. code-block:: bash
+
    (tutor-main) $ tutor plugins enable mfe
    (tutor-main) $ tutor dev launch
 
