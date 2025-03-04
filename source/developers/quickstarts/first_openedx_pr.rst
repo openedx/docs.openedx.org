@@ -166,8 +166,13 @@ be visible in your local LMS instance immediately.
 Working with an MFE
 ===================
 
-If you are interested in updating frontend code, using an MFE in
-development mode is the right approach.
+Most of the Open edX platform's frontends have migrated from backend
+Django templates to microfrontends based on the React framework
+(MFEs).  If you are interested in updating frontend code, MFEs are
+probably where you want to focus.  There are different ways of
+configuring your development environment, but a common one is to use
+Tutor to serve the backend services and run your MFE locally using npm
+dev start.
 
 To run MFEs in Tutor requires enabling a plugin, Tutor MFE.
 
