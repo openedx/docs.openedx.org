@@ -161,6 +161,32 @@ To set up your local enviroment to update edx-platform, follow the `official ins
 From this point on, whatever changes you make to the code in your clone should
 be visible in your local LMS instance immediately.
 
+Working with an MFE
+===================
+
+If you are only interested in updating frontend code, using and MFE in development mode is the right approach.
+
+To run MFEs in Tutor requires enabling a plugin, Tutor MFE.
+
+Start by verifying that the mfe plugin is installed and enabled
+
+.. code-block:: bash
+
+   (tutor-main) $ tutor plugins list
+   
+   NAME       	STATUS   	VERSION
+   discovery  	installed	19.0.0
+   forum      	installed	19.0.0
+   indigo     	✅ enabled	19.0.1
+   jupyter    	installed	19.0.0
+   mfe        	✅ enabled	19.0.0
+
+If mfe isn't enabled run the following command to do so
+
+.. code-block:: bash
+   (tutor-main) $ tutor plugins enable mfe
+
+
 Exercise: Update the Learner Dashboard
 **************************************
 
