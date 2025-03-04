@@ -206,9 +206,34 @@ Once Tutor has restarted with MFE enabled you will see a few more URLs listed.
 
 These ports and paths are to specific MFEs made available via the MFE plugin.
 
-In order to develop locally, you will need to forks and close the MFE
+In order to develop locally, you will need to fork and clone the MFE
 repoistory as you did for edx-platform, bind mount the directory, stop
-the MFE and start a local dev server.
+the Tutor-hosted MFE and start a local npm dev server.
+
+First, you should verify that the learner dashboard is working
+correctly after you have installed the MFE plugin.  Assuming
+everything is configured in the standard way, your URL should be
+``http://apps.local.openedx.io:1996/learner-dashboard/``
+
+Follow the same, fork, clone workflow described above and clone the learner-dashboard ``https://github.com/openedx/frontend-app-learner-dashboard`` repository locally.
+
+Add a tutor mount to for your cloned directory.
+
+.. code-block:: bash
+   (tutor-main) $ tutor mounts add /home/git/frontend-app-learner-dashboard
+
+Next, ensure that the learner-dashboard MFE is stopped
+
+.. code-block:: bash
+
+   (tutor-main) $ tutor dev stop learner-dashboard
+
+From the local copy of the learner-dashboard repository start the npm
+dev server.
+
+.. code-block:: bash
+
+   (tutor-main) $ npm run dev
 
 Exercise: Update the Learner Dashboard
 **************************************
