@@ -153,30 +153,6 @@ the code lives.
 
 To set up your local enviroment to update edx-platform, follow the `official instructions <https://docs.tutor.edly.io/tutorials/edx-platform.html>`_
 
-As a first step, fire up a one-off LMS container while mounting your local
-checkout:
-
-.. code-block:: bash
-
-   tutor dev run --mount=./edx-platform lms bash
-
-Now within the container, install python requirements and rebuild static assets
-for your local checkout:
-
-.. code-block:: bash
-
-   pip install -e .
-   npm install
-   openedx-assets build --env=dev
-   exit
-
-After exiting the one-off container, restart the LMS with the local checkout
-mounted:
-
-.. code-block:: bash
-
-   tutor dev start --mount=./edx-platform lms
-
 From this point on, whatever changes you make to the code in your clone should
 be visible in your local LMS instance immediately.
 
