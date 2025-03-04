@@ -912,6 +912,8 @@ to include a handout alongside a video.
 .. image:: /_images/educator_references/video_player_add_handout.png
   :alt: A screenshot of the video editor's "Upload Handout" option.
 
+.. _Downloadable Transcripts:
+
 ========================
 Downloadable Transcripts
 ========================
