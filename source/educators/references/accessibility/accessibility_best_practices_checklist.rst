@@ -9,7 +9,8 @@ Accessibility Best Practices Checklist
 The Open edX project is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to provide
-accessible course content, please `submit a Github issue <.. _Submit an Open edX Issue>`_ to the Open edX project. 
+accessible course content, please post on the `Open edX Forums`_
+for advice.  
 
 .. contents::
    :local:
@@ -24,10 +25,10 @@ Make Sure Your Course Content is Perceivable
 The `WCAG <http://www.w3.org/TR/WCAG>`_ guidelines are organized
 around several principles, one of which is that web content must be
 perceivable. That is, information and user interface components must be
-presentable to users in ways they can perceive; it cannot be invisible to all
+presentable to users in ways they can interpret and understand; it cannot be invisible to all
 of their senses. In almost all cases, this means that the information should be
 available as text, which can be rendered or transformed into a format that can
-be perceived.
+be perceived via assistive technologies such as screen readers or screen magnification.
 
 To produce content that is perceivable by all learners, follow these
 guidelines.
@@ -61,10 +62,11 @@ Make Sure Your Content is Adaptable
 
 Design your course content so that it can be presented in different ways
 without losing information or structure. If your content includes specific
-information, structure, and relationships (such as sequence) that is conveyed
+information, structure, and relationships (such as sequences) that are conveyed
 through presentation, make sure the same information, structure, and
-relationships can be programmatically determined or are available in text. HTML
-is an ideal format in which to publish course content, because it provides
+relationships can be programmatically determined or are available in text.
+
+HTML is an ideal format in which to publish course content, because it provides
 semantic elements with standardized roles, states, and properties. Users of
 assistive technologies rely on such semantic elements to effectively and
 efficiently consume and navigate content. Publish your content in HTML whenever
@@ -102,7 +104,7 @@ Make Sure Your Course Content is Understandable
 
 Make sure your course content is readable and understandable. Online courses often have
 a global and diverse audience, including learners whose native language is not
-the language in which you created your course, as well as learners who have a
+the language in which you created your course. There may also be learners who have a
 disability that affects reading, such as dyslexia or a visual impairment.
 
 Learners will be better positioned to access concepts in your content if you
@@ -118,10 +120,10 @@ materials. When you use an abbreviation or acronym, provide the full phrase the
 first time it appears. For example, "World Health Organization (WHO)."
 
 The Center for Plain Language provides `detailed resources on writing clearly
-and concisely <http://centerforplainlanguage.org/5-steps-to-plain-language/>`_,
+and concisely <https://centerforplainlanguage.org/learning-training/five-steps-plain-language/>`_,
 in language appropriate for your content and target audience.
 
-See also the W3C's new Working Group Note on `Making Content Usable for People with Cognitive and Learning Disabilities <https://www.w3.org/TR/coga-usable/>`_.
+See also the W3C's Working Group Note on `Making Content Usable for People with Cognitive and Learning Disabilities <https://www.w3.org/TR/coga-usable/>`_.
 
 =================================
 Make Your Course Easy to Navigate
@@ -145,11 +147,11 @@ easier to navigate and search. See :ref:`Best Practices for HTML Markup` for
 guidance on creating accessible HTML.
 
 When you provide links to external materials, use link text that clearly
-explains the link destination (for example, "Review the Course Syllabus").
-Avoid using constructs such as "Review the Course Syllabus here", with only
-the word "here" serving as link text. For links that point to documents rather
-than web pages, include the document type in the link. For example,
-"Supplemental Reading for Week 1 (EPUB)". Screen reader users frequently
+explains the link destination (for example, "**Review the Course Syllabus**").
+Avoid using constructs such as "Review the Course Syllabus **here**", with only
+the word "**here**" serving as link text. For links that point to documents rather
+than web pages, include the document type within the link text. For example,
+"**Supplemental Reading for Week 1 (EPUB)**". Screen reader users frequently
 browse lists of links, or navigate web pages by moving from one link to the
 next. Ensuring that link text is understandable without surrounding context is
 important.
@@ -173,11 +175,18 @@ would obtain from viewing the image. If the image contains words that are
 important for understanding the content, include the words in the text
 alternative. If the image itself is being used as a link, the text
 alternative should describe the destination or action that will be performed
-when the link is activated.
+when the link is activated. The following sections describe in greater detail
+the best ways to provide alternative text for various types of images.
 
 The primary mechanism for providing a text alternative for an image in HTML is
 the ``alt`` attribute. The text value of this attribute is what screen reader
 users hear when they encounter the image in your content.
+
+The revamped HTML editor that was implemented as part of the Redwood release
+includes a native field allowing authors to specify alt text when inserting an image:
+
+.. image:: /_images/educator_references/alt_text_image_editor.png
+  :alt: A screenshot of the image editor with the alt-text form field. There is also a checkbox, "This image is decorative (no alt text required)."
 
 .. note:: All images *must* include an ``alt`` attribute. There are some
    cases, noted below, when an empty ``alt`` attribute (``alt=""``) is
@@ -185,9 +194,9 @@ users hear when they encounter the image in your content.
 
 .. note:: For SVG elements, use ``aria-label`` instead of ``alt`` attributes.  Non-interactive SVGs should also have ``role="img"`` and  ``focusable="false"``.
 
-If an image description that captures the essential information in an image does not fit in 200 characters, you can instead add a
-Create useful and meaningful text alternatives for images in your course by
-following these guidelines for particular situations.
+If an image description that captures the essential information in an image does not fit in 200 characters, you can instead
+create useful and meaningful text alternatives for images in your course by
+leveraging the following guidelines for particular situations.
 
 .. contents::
    :local:
@@ -218,7 +227,7 @@ otherwise accessible text, including it in the ``alt`` attribute would be
 redundant. In this case, setting an empty ``alt`` attribute (``alt=""``) is
 acceptable.  Doing so effectively "hides" the image from screen reader users.
 
-.. note:: All images *must* include an ``alt`` attribute so do not omit
+.. warning:: All images *must* include an ``alt`` attribute so do not omit
    the ``alt`` attribute entirely. If the ``alt`` attribute is omitted
    entirely, screen readers will read the value of the ``src`` attribute (the
    path to the image on a web server) as a fallback. This is rarely helpful to
@@ -289,7 +298,7 @@ Images With Unknown Descriptions at The Time of Publication
 If a suitable text alternative is unknown at the time of publication (for
 example, a webcam image that updates every 10 minutes) provide an ``alt``
 attribute that includes as much useful information as possible. For example,
-"Traffic on Interstate 90 at 5:45 PM June 26, 2015."
+"Live view of traffic on Interstate 90; refreshes every 10 minutes"
 
 ======================
 Non-Informative Images
@@ -297,13 +306,17 @@ Non-Informative Images
 
 Images that do not provide information, including purely decorative images, do
 not need text descriptions. For example, an icon that is followed by link text
-that reads "Course Syllabus (EPUB)" does not need alternative text.
+that reads "**Course Syllabus (EPUB)**" does not need alternative text.
 
 For non-informative images that should be skipped by screen reading software,
 include an ``alt`` attribute but leave it with an empty value (also known as a
 NULL ``alt`` attribute).
 
    ``<img src="image.jpg" alt="">``
+
+The visual HTML editor, new as of the Redwood release, provides a checkbox in the
+image settings modal that allows you to provide an empty ``alt`` attribute. This
+option reads, "This image is decorative (no alt text required)."
 
 .. note:: While it is appropriate to have an empty ``alt`` attribute, it is
   never acceptable to omit the ``alt`` attribute entirely. If image elements do
@@ -331,7 +344,9 @@ graphics accessible to visually impaired learners.
   example, on a line graph, use a different symbol or line style as well as
   color to distinguish the data elements.
 
-* Use colors that have a minimum 3:1 luminance contrast vs. the background color.
+* Use colors that have a minimum 3:1 contrast vs. the background color.
+  See this `contrast checker <https://webaim.org/resources/contrastchecker/>`_
+  for more detail.
 
 * Whenever possible, use an image format that supports scaling, such as .svg,
   so that learners can employ zooming or view the image larger. Consider
@@ -427,7 +442,7 @@ Accessible Course Materials Resources
 
 * `The EPUB 3 format <https://w3c.github.io/publishing/>`_, widely adopted as the premier format for accessible digital books, is now managed by the W3C.
 
-* The EPUB 3 working group has an `automated EPUB 3 accessibility checker <https://github.com/w3c/epubcheck/>`_.
+* The EPUB 3 working group has an `automated EPUB 3 accessibility checker <https://github.com/w3c/epubcheck/?tab=readme-ov-file#epubcheck>`_.
 
 
 .. _Creating Accessible PDFs:
@@ -442,13 +457,15 @@ supplied by publishers. However, converting materials to PDF documents can
 create accessibility barriers, particularly for learners with visual
 impairments. Such learners rely on the semantic document structure inherently
 available in HTML, DAISY, or EPUB 3 to understand and effectively navigate PDF
-documents. For more information, see :ref:`HTML Markup Resources`).
+documents. For more information, see :ref:`HTML Markup Resources`.
 
 Accessibility issues are very common in PDF files that were scanned from
 printed sources or exported from a non-PDF document format. Scanned documents
 are simply images of text. To make scanned documents accessible, you must
 perform Optical Character Recognition (OCR) on these documents, and proofread
-the resulting text for accuracy before embedding it within the PDF file. You
+the resulting text for accuracy before embedding it within the PDF file. Note
+that OCR is often particularly inaccurate when it comes to transcribing mathematical
+formulas, such as those authored in LaTeX. You
 must also add semantic structure and other metadata (headings, links,
 alternative content for images, and so on) to the embedded text.
 
@@ -507,8 +524,8 @@ Accessible PDF Resources
 ************************
 
 * Microsoft provides detailed `guidance on generating accessible PDFs from
-  Microsoft Office applications <http://office.microsoft.com/en-gb/word-help/create-accessible-pdfs-HA102478227.aspx>`_, including Word, Excel, and
-  PowerPoint.
+  Microsoft Office applications <https://support.microsoft.com/en-us/office/create-accessible-office-documents-868ecfcd-4f00-4224-b881-a65537a7c155>`_,
+  including Word, Excel, and PowerPoint.
 
 * Adobe provides documentation on how to `create and verify PDF accessibility
   <https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html>`_.
@@ -530,13 +547,10 @@ Creating Accessible Word Documents
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating Word documents.
 
-* Images must have `descriptive text <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414986>`_ associated with them.
-
-* Documents should be `well structured <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414990>`_.
-
-* `Hyperlinks should be meaningful <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414991>`_ and describe the destination.
-
-* Tables should include `properly defined column and row headers <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
+* `Microsoft's resources on making Word documents accessible <https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d#__toc275414991>`_
+  includes resources on providing descriptive text to images, structuring documents
+  correctly, providing meaningful hyperlinks, and properly defining column and row
+  headers within tables.
 
 * Color combinations should be sufficiently high contrast.
 
@@ -550,12 +564,14 @@ authoring web content also apply to creating Word documents.
   appearance allows users of assistive technology to consume and navigate
   documents effectively and efficiently.
 
-Accessible Microsoft Word Resources
-***********************************
+Accessible Microsoft Word and Google Docs Resources
+***************************************************
 
 * Microsoft guide to `creating accessible Word documents <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D>`_.
 
 * Microsoft tool that allows you to `check Word documents for accessibility issues <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
+
+* `Creating Accessible Documents in Google Docs <https://www.boia.org/blog/creating-accessible-documents-in-google-docs>`_
 
 ===================================
 Creating Accessible Excel Documents
@@ -564,14 +580,8 @@ Creating Accessible Excel Documents
 Many of the same accessibility techniques and principles that apply to
 authoring data tables in HTML also apply to creating Excel spreadsheets.
 
-* Images must have descriptive text associated with them. For more information,
-  see `Add alternative text to images and objects in Excel documents
-  <https://support.office.com/en-us/article/Creating-accessible-Excel-
-  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205010>`_.
-
-* `Column and row headings should be programmatically identified <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_.
-
-* `Hyperlinks in spreadsheets should be meaningful <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271197281>`_ and describe the destination.
+* `Microsoft's resources on making Excel documents accessible <https://support.microsoft.com/en-us/office/accessibility-best-practices-with-excel-spreadsheets-6cc05fc5-1314-48b5-8eb3-683e49b3e593#__toc271205010>`_
+  provide guidance on image descriptive text, as well as column headings, row headings, and hyperlink accessibility.
 
 * Use a unique and informative title for each worksheet tab.
 
@@ -583,8 +593,8 @@ authoring data tables in HTML also apply to creating Excel spreadsheets.
   Checker <https://support.office.com/en-us/article/Check-for-accessibility-
   issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
-Accessible Microsoft Excel Resources
-************************************
+Accessible Microsoft Excel and Google Sheets Resources
+******************************************************
 
 * Microsoft guide to `creating accessible Excel workbooks
   <https://support.office.com/en-us/article/Creating-accessible-Excel-
@@ -594,6 +604,9 @@ Accessible Microsoft Excel Resources
   issues <https://support.office.com/en-us/article/Check-for-accessibility-
   issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
+* `Creating Accessible Documents in Google Sheets <https://silktide.com/accessibility-guide/accessible-documents/how-to-make-an-accessible-google-sheet/>`_
+
+
 ========================================
 Creating Accessible PowerPoint Documents
 ========================================
@@ -601,24 +614,12 @@ Creating Accessible PowerPoint Documents
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating PowerPoint presentations.
 
-* Images must have descriptive text associated with them. For more information,
-  see `Add alternative text to images and objects in PowerPoint documents
-  <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
-  presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131977>`_.
-
-* Column and row headings should be programmatically identified. For more
-  information, see `Specify column header information in tables in PowerPoint
-  documents <https://support.office.com/en-us/article/Creating-accessible-
-  PowerPoint-presentations-
-  6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131978>`_.
-
-* `Hyperlinks in presentations should be meaningful <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131980>`_ and describe the destination.
+* `Microsoft's resources on making Powerpoint documents accessible <https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25#__toc286131977>`_
+  provide guidance on image descriptive text, as well as column headings, row headings, and hyperlink accessibility.
 
 * Use a unique and informative title for each slide.
 
-* Ensure that information is `presented in a logical order
-  <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
-  presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131984>`_
+* Ensure that information is presented in a logical order
 
 * Color combinations should be sufficiently high contrast.
 
@@ -637,8 +638,8 @@ to view the reading order of objects on each slide. If the reading order is
 not logical, change the order of the objects.
 
 
-Accessible PowerPoint Resources
-*******************************
+Accessible PowerPoint and Google Slides Resources
+*************************************************
 
 * Microsoft guide to `creating accessible PowerPoint presentations
   <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
@@ -651,6 +652,8 @@ Accessible PowerPoint Resources
   accessibility issues <https://support.office.com/en-us/article/Check-for-
   accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-
   US&ad=US>`_.
+
+* `Creating Accessible Documents in Google Slides <https://silktide.com/accessibility-guide/accessible-documents/how-to-make-accessible-google-slides/>`_
 
 .. _Best Practices for Math Content:
 
@@ -671,8 +674,8 @@ you use MathML to author your math content. MathJax renders MathML in a variety
 of formats on the client side, offering the end user the ability to consume
 math content in their preferred format.
 
-Studio also supports authoring math directly in LaTeX using the :ref:`LaTeX Source Compiler
-<import latex code>` to transform LaTeX into MathML.
+As of the Redwood release, Studio no longer supports authoring math directly in LaTeX
+using the :ref:`LaTeX Source Compiler<import latex code>`.
 
 
 =========================================
@@ -797,7 +800,7 @@ If you include links to third-party content in your course, be mindful of the
 accessibility of such resources. It is recommended that you evaluate third-party
 content prior to sharing it with learners.
 
-You can use the eReader tool or :ref:`Add Course Files <Add Course Files>` to incorporate
+You can :ref:`add course files <Add Course Files>` to incorporate
 third-party textbooks and other publications in PDF format into your course.
 You can also incorporate such materials into your course in HTML format. See
 :ref:`Creating Accessible PDFs` for guidance on working with third-party
@@ -811,13 +814,14 @@ creating accessible HTML.
 Accessible Custom Content Resources
 ===================================
 
-* `Provide access to digital publications <http://ncamftp.wgbh.org/ncam-old-site/invent_build/web_multimedia/accessible-digital-media-guide/guideline-d-digital-publicatio.html>`_, from the National Center for Accessible Media, provides best practices for describing graphs, charts, diagrams, and illustrations.
+* `Guidelines on providing digital publications <http://ncamftp.wgbh.org/ncam-old-site/invent_build/web_multimedia/accessible-digital-media-guide/guideline-d-digital-publicatio.html>`_, from the National Center for Accessible Media, provides best practices for describing graphs, charts, diagrams, and illustrations.
 
 * `AccessSTEM <https://www.washington.edu/doit/programs/accessstem/overview>`_
   provides guidance on creating accessible science, technology, engineering
   and math educational content.
 
-* The National Center on Educational Outcomes (NCEO) provides `Principles and Characteristics of Inclusive Assessment and Accountability Systems <https://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html>`_.
+* The National Center on Educational Outcomes (NCEO) provides
+  `Principles and Characteristics of Inclusive Assessment and Accountability Systems <https://nceo.info/Resources/publications/OnlinePubs/Synthesis40.html>`_.
 
 .. _Creating Accessible Media:
 
@@ -845,7 +849,7 @@ loss affects about 10% of the population to some degree. It causes disability
 in 5% (360 to 538 million) and moderate to severe disability in 124 million
 people.  Timed text captions also be helpful for learners whose native
 languages are languages other than the primary language of the media or who
-have cognitive conditions that benefit from visual. The media player
+have cognitive conditions that benefit from visual text. The media player
 displays timed text captions as links in an interactive area adjacent to the
 video, which allows all learners to navigate to a specific section of the video
 by selecting some location within the caption text.
@@ -857,8 +861,6 @@ using a script, you have a great start on creating the text caption file.
 Simply review the recorded video and update the script as needed. Proper
 editing should maintain both the original meaning, content, and essential
 vocabulary.
-
-For situations where the video content includes a lot of information that cannot be easily described in audio, you can include references to an annotations file in the SRT file.  Example: [See Note 5a].
 
 Text captions can be uploaded to YouTube along with the video to
 create a timed text file in `SubRip (SRT) format
@@ -874,8 +876,8 @@ captions with videos.
 If you choose to create your own timed text caption files yourself, you must
 follow these guidelines.
 
-* Each caption frame should not be on screen for less than three seconds.
-* Each caption frame must not be on screen for less than two seconds.
+* Each caption frame should be on screen for three seconds or longer.
+* Each caption frame must be on screen for more than two seconds.
 * Each caption frame should not exceed more than 2 lines.
 * Each caption frame must not exceed more than 3 lines.
 * Each line should not exceed more than 32 characters
@@ -902,6 +904,14 @@ you perform them. Ask yourself if your video would make sense if the learner
 were only listening to the audio content, for example while they were driving a
 car.
 
+For situations where the video content includes a lot of information that cannot
+be easily described in audio, it is recommended to include a handout file that details
+the learning objectives. As of Redwood, the Open edX video editor includes an option
+to include a handout alongside a video.
+
+.. image:: /_images/educator_references/video_player_add_handout.png
+  :alt: A screenshot of the video editor's "Upload Handout" option.
+
 ========================
 Downloadable Transcripts
 ========================
@@ -915,7 +925,7 @@ learning materials for study and review.
 Accessible Media Resources
 ==========================
 
-* `Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
+* `Accessible Digital Media Guidelines <https://www.wgbh.org/foundation/services/ncam/tools-resources/accessible-digital-media-guidelines>`_ provides detailed advice on creating online video and audio with accessibility in mind.
 * `Captioning Key <http://captioningkey.org/quality_captioning.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
 * `Closed Captioning & Subtitling Standards in IP Video Programming <https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
 
@@ -934,8 +944,8 @@ Most of the problem type templates in Studio conform to our recommended
 best practices in terms of good HTML markup. You can manually add appropriate
 HTML tagging even if it does not exist in the component template. Depending on
 the type of component you are adding to your course in Studio, the raw
-HTML data is available either automatically or by selecting the "Advanced
-Editor" or "HTML" views.
+HTML data is available either automatically or by selecting **Show Advanced
+Settings > Switch to advanced editor**.
 
 Keep the following guidelines in mind when you create HTML content.
 
@@ -954,9 +964,9 @@ Keep the following guidelines in mind when you create HTML content.
 
   In your :ref:`HTML<About Text Components>` and
   :ref:`problem<Working with Problem Components>` components, be sure to apply
-  only heading levels 2 through 6 to your content. Because the components
-  that you add are part of a complete page, and heading level 1 is
-  already in use by other elements on the page, any text with a heading 1
+  only heading levels 3 through 6 to your content. Because the components
+  that you add are part of a complete page, and heading levels 1 and 2 are
+  already in use by other elements on the page, any text with a heading 1 or 2
   style within an HTML or problem component can interfere with the
   functionality of tools such as screen readers.
 
@@ -969,7 +979,7 @@ Keep the following guidelines in mind when you create HTML content.
   *  Ordered lists, where the order of items is important. Each item is listed
      with a number.
 
-  *  Definition lists, where each item is represented using term and
+  *  `Definition lists <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl>`_, where each item is represented using term and
      description pairs (like a dictionary).
 
 * Use table elements to format information that works best in a grid format,
@@ -1056,5 +1066,5 @@ Universal Design for Learning Resources
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-03   | Sarina Canelake               | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

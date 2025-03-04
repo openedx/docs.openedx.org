@@ -97,5 +97,6 @@ PRs, and follow them to be notified of when the fix has been applied (and then
 do the rebase). You could even try submitting a PR yourself to fix the failing
 tests!
 
-.. _Open edX Forums: https://discuss.openedx.org/
 .. _openedx.org/cla: http://openedx.org/cla
+
+.. include:: /links.txt

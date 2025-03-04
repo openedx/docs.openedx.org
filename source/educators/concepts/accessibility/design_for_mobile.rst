@@ -14,13 +14,14 @@ mobile apps.
 
 For information about accessibility best practices, see :ref:`Accessibility Best Practices Checklist`.
 
-The percentage of learners who access MOOCs using smartphones is increasing
+The percentage of learners who access online courses using smartphones is increasing
 every day. Courses on your instance may be viewed on smartphones using the
-Android and iPhone apps, although we still recommend that learners complete
+`Android app <https://github.com/openedx/openedx-app-android?tab=readme-ov-file#open-edx-android>`_
+and `iPhone app <https://github.com/openedx/openedx-app-ios?tab=readme-ov-file#open-edx-ios>`_,
+although we still recommend that learners complete
 graded assignments on a desktop computer, depending on the type of assessments
 that their courses include. For information on which exercises and tools are
-mobile-ready, see the table in the :ref:`Introduction to Exercises and
-Tools<About Problems Exercises and Tools>` section.
+mobile-ready, see the table in the :ref:`Mobile Ready Problem Types` section.
 
 To make the course experience for mobile learners as rewarding as it is for
 learners using desktop computers, keep the following best practices in mind as
@@ -53,7 +54,7 @@ you design, test, and run your course.
   displays of different sizes.
 
 * Learners might be viewing your course materials on screens as large as a
-  high-resolution Mac Thunderbolt display, or as small as a 5 inch smartphone
+  high-resolution 4k display, or as small as a 5 inch smartphone
   screen, so it is difficult to size an image so that it displays well at all
   resolutions. In general, it is recommended to keep most images under 0.5MB in
   size so that learners who have low Internet bandwidth will not have trouble
@@ -64,8 +65,8 @@ you design, test, and run your course.
 
 * When you make choices about the problem types to use for graded and ungraded
   assignments in your course, or which problem types to present in a single
-  unit, keep the mobile experience in mind. Whenever possible, use mobile-
-  ready assessment types. If you use assessment types that are not supported on
+  unit, keep the mobile experience in mind. Whenever possible, use mobile-ready
+  assessment types. If you use assessment types that are not supported on
   smartphones, notify learners in the body of your course that they will not be
   able to complete assignments that contain unsupported assessment types using
   the iPhone and Android mobile apps.
@@ -93,7 +94,9 @@ course for multiple devices and displays.
 
 To test the mobile experience of your course, sign in to your course using the
 Android or iPhone app, and view each course unit to make sure that it
-renders as you expect it to.
+renders as you expect it to. Unfortunately the mobile app is currently
+designed for learners, so only learner-visible published content will be
+available in the app.
 
 .. note:: Keep in mind that course updates that you make might not be
    immediately reflected in the mobile apps. In particular, newly
@@ -113,5 +116,5 @@ renders as you expect it to.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-03   | Sarina Canelake               | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
