@@ -21,7 +21,7 @@ These include:
 * `Signing your Contributor License Agreement (CLA).`_
 
 We assume you are comfortable with the command line, and understand the basics
-of using Git, GitHub, and python basics.
+of using Git, GitHub, Docker, and python basics.
 
 .. This Quickstart is written for first-time contributors to the Open edX project.
    If you are a plug-in developer or a frontend developer, please see our
