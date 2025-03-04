@@ -1,10 +1,12 @@
 .. _Accessibility Checker:
 
-#####################
-Accessibility Checker
-#####################
+############################################################
+Accessibility Checker (Requires paid TinyMCE subscription)
+############################################################
 
 .. tags:: educator, reference
+
+.. note:: This feature requires a paid TinyMCE subscription. It is currently unknown how to do this; `this issue ticket <https://github.com/openedx/frontend-components-tinymce-advanced-plugins/issues/27>`_ has up-to-date tracking on this issue.
 
 * This feature allows you to check HTML in the editor for various
   WCAG and Section 508 accessibility problems.
@@ -115,5 +117,8 @@ content:
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-03   |  Sarina Canelake              |  Sumac         | Fail, `unknown how to get a    |
+|              |                               |                | subscription`_.                |
 +--------------+-------------------------------+----------------+--------------------------------+
+
+.. _unknown how to get a subscription: https://github.com/openedx/frontend-components-tinymce-advanced-plugins/issues/27
