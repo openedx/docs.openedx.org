@@ -164,10 +164,6 @@ descriptions.
 
 #. Review the HTML markup.
 
-#. Accessibility Checker, which allows you to check HTML in the editor for various
-   accessibility problems. For more information, see :ref:`Accessibility Checker`.
-
-
 .. note::
   The visual editor is not available for :ref:`course handouts <Add Course
   Updates and Handouts>`.

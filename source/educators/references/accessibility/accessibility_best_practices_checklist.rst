@@ -1060,8 +1060,6 @@ Universal Design for Learning Resources
 
  :ref:`Designing for Mobile` (concept)
 
- :ref:`Accessibility Checker` (reference)
-
 
 **Maintenance chart**
 

@@ -112,8 +112,6 @@ when creating a course.
 
  :ref:`Accessibility Best Practices Checklist` (reference)
 
- :ref:`Accessibility Checker` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
