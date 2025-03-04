@@ -259,8 +259,19 @@ repository start the npm dev server.
 Exercise: Update the Learner Dashboard
 **************************************
 
-The Learner Dashboard is the first page that students will see when they log
-into Open edX. On our Tutor dev environment, it is located at
+The Learner Dashboard is the first page that students will see after they log
+into Open edX.
+
+The dashboard page will either be provided by a legacy server side template or by the learner-dashboard MFE.  Working with the MFE is usually the best choice.  Note that this tutorial is simplistic and appropriate to get started.  However, we don't recommend forking an MFE to customize it.  For extensive modifications, that might be necessary, but for simple things using design tokens and frontend plugin slots will be a much better alternative.
+
+Working with the Learner Dashboard MFE
+======================================
+
+
+
+Working with the Legacy Learner Dashboard
+=========================================
+On our Tutor dev environment, it is located at
 ``http://local.overhang.io:8000/dashboard``
 
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_before.png
@@ -271,7 +282,7 @@ is not a change that will be merged upstream, but it will demonstrate the
 steps you will have to go through to make a real change.
 
 Edit the Template
-=================
+~~~~~~~~~~~~~~~~~
 
 The template file for this page is at ``lms/templates/dashboard.html``. We're
 going to add a simple welcome message to the ``dashboard-notifications`` div::
@@ -289,8 +300,11 @@ file. When you reload it in your browser, you should see something like this:
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_after.png
    :alt: Learner Dashboard page after we add the welcome message.
 
+Standard Operating Procedure For Backend or Frontend Changes
+============================================================
+
 Make a Commit
-=============
+-------------
 
 Now that you've saved your changes, you can make a commit. First make a new
 branch with the name ``developer_quickstart``::
@@ -305,7 +319,7 @@ be prefixed with "feat:" like so::
     commit -a -m "feat: add welcome message to learner dashboard"
 
 Push the Commit to Your Fork
-============================
+----------------------------
 
 Now push your changes to a new branch in your fork::
 
@@ -319,7 +333,7 @@ Learn more about authentication `here <https://docs.github.com/en/authentication
 
 
 Create A Pull Request
-*********************
+---------------------
 
 Go to your fork.
 
