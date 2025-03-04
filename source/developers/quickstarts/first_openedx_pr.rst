@@ -93,7 +93,7 @@ code.
 Follow the official instructions for installing Tutor Main.
 
 .. admonition:: The Tutor documents will recommend this as well, but
-                please do yourself the favor or using python virtual
+                please do yourself the favor of using python virtual
                 enviroments.  Doing so will make managing multiple
                 repositories and dependency versions much easier.
 
