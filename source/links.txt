@@ -36,26 +36,6 @@
 
 .. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
 
-.. EDX WIKI LINKS
-
-.. _Open edX Releases Wiki page: https://docs.openedx.org/en/latest/community/release_notes/index.html
-
-.. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
-
-.. _Open edX Installation options: https://openedx.atlassian.net/wiki/x/wwCXAw
-
-.. _Open edX Native 12.04 Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
-
-.. _Legacy Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
-
-.. _Koa Open edX Native Installation: https://openedx.atlassian.net/wiki/x/lIJjdQ
-
-.. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
-
-.. _Managing Open edX Tips and Tricks:  https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/60227913/Managing+Open+edX+Tips+and+Tricks
-
-.. _How to Override Default Configuration Passwords and Verify Exposed Services: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/153813109/How+to+Override+Default+Configuration+Passwords+and+Verify+Exposed+Services
-
 .. THIRD PARTY LINKS
 
 .. _Oscar: https://github.com/django-oscar/django-oscar
@@ -233,8 +213,6 @@
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 
 .. _Installing, Configuring, and Running the Open edX Platform: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/index.html
-
-.. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
 
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
 
