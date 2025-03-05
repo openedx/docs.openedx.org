@@ -241,7 +241,7 @@ Next, ensure that the learner-dashboard MFE is stopped
 
    (tutor-main) $ tutor dev stop learner-dashboard
 
-Reloading the profile should now yield an error.
+Reloading the learner dashboard page in the browser should now yield an error.
 
 Now its time to replace the default Tutor-hosted learner-dashboard with a
 local version.  That version will use a dev config file to connect to
