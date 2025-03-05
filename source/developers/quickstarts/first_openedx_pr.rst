@@ -247,7 +247,9 @@ Now its time to replace the default Tutor-hosted learner-dashboard with a
 local version.  That version will use a dev config file to connect to
 the Tutor-hosted backend and to bind to the expected port.
 
-.. admonition:: Not every MFE currently has a dev profile that will
+.. admonition:: Local MFE Support and npm dev Profiles
+
+   Not every MFE currently has a dev profile that will
    work with Tutor, though it is possible to create one if that is the
    case for the MFE you are developing.
 
