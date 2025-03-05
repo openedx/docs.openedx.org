@@ -199,7 +199,7 @@ If mfe isn't enabled run the following command to do so
    (tutor-main) $ tutor dev stop
    (tutor-main) $ tutor dev launch
 
-Once Tutor has restarted with MFE enabled you will see a few more URLs listed.
+Once Tutor has restarted with the ``mfe`` plugin enabled you will see a few more URLs listed.
 
 .. code-block:: bash
 
