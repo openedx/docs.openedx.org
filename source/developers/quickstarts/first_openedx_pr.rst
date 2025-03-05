@@ -252,7 +252,9 @@ the Tutor-hosted backend and to bind to the expected port.
 
    Not every MFE currently has an ``npm run dev`` command that will
    work with Tutor, though it is possible to create one if that is the
-   case for the MFE you are developing.
+   case for the MFE you are developing, , using `an existing one
+   <https://github.com/openedx/frontend-app-learner-dashboard/pull/530/files>`_
+   as a template.
 
 From the directory containing the local copy of the learner-dashboard
 repository start the npm dev server.
