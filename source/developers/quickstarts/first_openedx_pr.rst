@@ -216,7 +216,7 @@ Once Tutor has restarted with the ``mfe`` plugin enabled you will see a few more
 These ports and paths are to specific MFEs made available via the MFE plugin.
 
 In order to develop locally, you will need to fork and clone the MFE
-repoistory as you did for edx-platform, bind mount the directory, stop
+repository as you did for edx-platform, bind mount the directory, stop
 the Tutor-hosted MFE and start a local npm dev server.
 
 First, you should verify that the learner dashboard is working
