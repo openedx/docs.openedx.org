@@ -249,7 +249,7 @@ the Tutor-hosted backend and to bind to the expected port.
 
 .. admonition:: Local MFE Support and npm dev Profiles
 
-   Not every MFE currently has a dev profile that will
+   Not every MFE currently has an ``npm run dev`` command that will
    work with Tutor, though it is possible to create one if that is the
    case for the MFE you are developing.
 
