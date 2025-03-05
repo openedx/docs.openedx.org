@@ -7,7 +7,7 @@ Quick Start: First Open edX Pull Request
 
 Welcome to the Quickstart guide for new Open edX contributors. 
 
-This tutorial is focused on teaching you how to make a noticiable
+This tutorial is focused on teaching you how to make a noticeable
 change to the platform equivalent to a "hello world" exercise.
 
 By the end of this tutorial, you will have completed all the steps
