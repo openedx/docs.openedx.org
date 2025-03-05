@@ -28,8 +28,7 @@ learners using desktop computers, keep the following best practices in mind as
 you design, test, and run your course.
 
 * Course updates that you make might take longer to appear in the mobile
-  apps than on your course site. In particular, newly published content can take up
-  to an hour to update on the Android app.
+  apps than on your course site.
 
 * Display names are critical for navigating through courses on smartphones. As
   you create course content, make sure you replace the default display names
@@ -94,13 +93,9 @@ course for multiple devices and displays.
 
 To test the mobile experience of your course, sign in to your course using the
 Android or iPhone app, and view each course unit to make sure that it
-renders as you expect it to. Unfortunately the mobile app is currently
-designed for learners, so only learner-visible published content will be
-available in the app.
-
-.. note:: Keep in mind that course updates that you make might not be
-   immediately reflected in the mobile apps. In particular, newly
-   published content can take up to an hour to update on the Android app.
+renders as you expect it to. You can preview content that is not yet available
+to learners by publishing units that are within sections that are not yet
+released.
 
 .. seealso::
  
