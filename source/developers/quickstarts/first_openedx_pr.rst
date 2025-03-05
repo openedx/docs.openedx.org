@@ -191,7 +191,7 @@ Start by verifying that the mfe plugin is installed and enabled
    jupyter      installed       19.0.0
    mfe          ✅ enabled      19.0.0
 
-If mfe isn't enabled run the following command to do so
+If ``mfe`` isn't enabled run the following command to do so
 
 .. code-block:: bash
 
