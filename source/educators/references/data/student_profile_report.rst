@@ -56,9 +56,7 @@ in this report) are configurable in the Open edX site configuration.
      - This value can be updated on the **Account Settings** page.
    * - level_of_education
      - No
-     - This value can be updated on the **Account Settings** page. For a list
-       of the possible values, see the description of the `auth_userprofile`_
-       table's level_of_education column in the *EdX Research Guide*.
+     - This value can be updated on the **Account Settings** page.
    * - mailing_address
      - No
      - This column is included for backward compatibility only. It is no

@@ -52,7 +52,7 @@ the following ways.
   problem indicate that the answer was correct. Specifically, the
   ``correctness`` field has a value of ``correct``.
 
-  For more information about events, see :ref:`problem` in the *EdX Research Guide*.
+  For more information about events, see :ref:`problem`.
 
 * The **AnswerValue** in the :ref:`Student_Answer_Distribution` report is
   **1**, for correct.

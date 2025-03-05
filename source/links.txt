@@ -40,8 +40,6 @@
 
 .. _Open edX Releases Wiki page: https://docs.openedx.org/en/latest/community/release_notes/index.html
 
-.. _edX Research Guide: http://edx.readthedocs.io/projects/devdata/en/latest/
-
 .. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
 .. _Open edX Installation options: https://openedx.atlassian.net/wiki/x/wwCXAw
@@ -237,8 +235,6 @@
 .. _Installing, Configuring, and Running the Open edX Platform: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/index.html
 
 .. _openedx-studio: http://groups.google.com/forum/#!forum/openedx-studio
-
-.. _auth_userprofile: https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/sql_schema.html#auth-userprofile
 
 .. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
 
