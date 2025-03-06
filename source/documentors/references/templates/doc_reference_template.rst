@@ -1,5 +1,9 @@
+.. _Reference Document Template:
+
 Reference Document Template
 ###########################
+
+.. tags:: documentor, reference
 
 Reference material is information-oriented. Regarding software, reference guides describe the software - APIs, classes, functions, etc. In the context of the Open edX® Docs, reference docs are often in the form of informational lists (e.g., Resources for Students) and tables (e.g., Course Access Roles and Privileges).
 
@@ -139,3 +143,21 @@ RST Template
 
 	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 
+.. seealso::
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Concept Document Template` (reference)
+   
+   :ref:`Quickstart Document Template` (reference)
+
+   :ref:`How To Document Template` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

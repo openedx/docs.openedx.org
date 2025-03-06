@@ -1,5 +1,9 @@
+.. _How To Document Template:
+
 How-To Document Template
 ########################
+
+.. tags:: documentor, reference
 
 A How-To guide document guides the reader through the steps to solve a real-world problem. This documentation is goal-oriented and similar to recipes, with directions that guide the reader through the steps to achieve a specific end.
 
@@ -84,4 +88,21 @@ RST Template
 
 	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 		
+.. seealso::
 
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Concept Document Template` (reference)
+
+   :ref:`Reference Document Template` (reference)
+
+   :ref:`Quickstart Document Template` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

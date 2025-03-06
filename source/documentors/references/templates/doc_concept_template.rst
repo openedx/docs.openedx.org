@@ -1,5 +1,9 @@
+.. _Concept Document Template:
+
 Concept Document Template
 #########################
+
+.. tags:: documentor, reference
 
 A concept is a document that clarifies and illuminates a particular topic. It is understanding-oriented. It could be considered a conceptual guide. This type of document answers a why question. It could be descriptive, historical, or even propose different alternatives to explain the bigger picture and give context. 
 
@@ -68,3 +72,21 @@ RST Template
 	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 			
 
+.. seealso::
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Reference Document Template` (reference)
+
+   :ref:`Quickstart Document Template` (reference)
+
+   :ref:`How To Document Template` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

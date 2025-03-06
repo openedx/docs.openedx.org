@@ -1,7 +1,7 @@
 .. _About Open edX Documentation Standards:
 
 About Open edX® Documentation Standards
-######################################
+#########################################
 
 .. tags:: documentor, concept
 
@@ -344,3 +344,33 @@ Criteria of a Concept Document:
 
 .. Note:: To learn more about the Diataxis framework, visit `the Diataxis homepage <https://diataxis.fr/>`_. The Open edX community adapted the framework according to the platform's needs.
 
+.. seealso::
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Create a GitHub Issue` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

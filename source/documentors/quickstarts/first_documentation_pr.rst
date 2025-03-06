@@ -208,3 +208,10 @@ page(s) you've changed to double-check your changes look right.
 If you need more help or run into issues, check out the :doc:`/other/getting_help`
 section of the documentation for links to some places where you could get help.
 
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
