@@ -1,5 +1,9 @@
+.. _Documentation Audiences:
+
 Documentation Audiences
 #######################
+
+.. tags:: documentor, concept
 
 Open edX documentation is organized by the following audiences:
 

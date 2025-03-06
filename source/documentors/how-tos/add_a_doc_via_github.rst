@@ -1,5 +1,9 @@
+.. _Add New Documentation via GitHub:
+
 Add New Documentation via GitHub
 ################################
+
+.. tags:: documentor, how-to
 
 .. sidebar:: Add Documentation Video Demo
 

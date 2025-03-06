@@ -1,5 +1,9 @@
+.. _Writing RST:
+
 Quick Reference: Writing RST
 ############################
+
+.. tags:: documentor, reference
 
 RST is very powerful and flexible.  Below, we provide a quick guide for how you
 can use it to write Open edX documentation.

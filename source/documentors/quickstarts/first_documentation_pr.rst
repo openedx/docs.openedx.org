@@ -1,5 +1,9 @@
+.. _First Documentation PR:
+
 Quick Start: First Documentation PR
 ###################################
+
+.. tags:: documentor, quickstart
 
 .. sidebar:: First Docs PR Walkthrough
 

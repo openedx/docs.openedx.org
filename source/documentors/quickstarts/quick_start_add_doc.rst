@@ -1,5 +1,9 @@
+.. _Add New Documentation Through GitHub:
+
 Quick Start: Add New Documentation Through GitHub
 #################################################
+
+.. tags:: documentor, quickstart
 
 .. sidebar:: Add Documentation Video Demo
 

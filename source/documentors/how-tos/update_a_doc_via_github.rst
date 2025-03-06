@@ -1,5 +1,9 @@
+.. _Update an Existing Doc via GitHub:
+
 Update An Existing Doc via GitHub
 #################################
+
+.. tags:: documentor, how-to
 
 This how-to will take you through the process of submitting an update to a page
 that you are looking at within the Open edX documentation.

@@ -1,5 +1,9 @@
+.. _Documentation Maintenance Process:
+
 Documentation Maintenance Process
 ############################################
+
+.. tags:: documentor, reference
 
 .. contents:: Contents
   :local:

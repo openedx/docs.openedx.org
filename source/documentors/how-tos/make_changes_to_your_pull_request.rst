@@ -1,5 +1,9 @@
+.. _Make Changes to your Pull Request:
+
 Make Changes to your Pull Request
 #################################
+
+.. tags:: documentor, how-to
 
 Have you made a pull request, just to find that reviewers want you
 to make some changes? Or realized you've missed something? This how-to

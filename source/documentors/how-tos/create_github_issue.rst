@@ -1,5 +1,9 @@
-How to Create a GitHub Issue
+.. _Create a GitHub Issue:
+
+Create a GitHub Issue
 #################################
+
+.. tags:: documentor, how-to
 
 This how-to will help you create a GitHub issue related to the Open edX documentation.
 

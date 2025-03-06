@@ -3,6 +3,8 @@
 Getting Started
 ###############
 
+.. tags:: documentor, guide
+
 If you have developed a new feature, created an XBlock, or otherwise see that a topic is missing in this documentation, you can create one or more new pages in this document and submit a pull request to have the content added.  Follow the guidelines below.
 
 When you are ready to update documentation, see :doc:`../quickstarts/quick_start_add_doc`.

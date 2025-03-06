@@ -1,6 +1,9 @@
+.. _Guidelines for Writing Global English:
+
 Guidelines for Writing Global English
 #####################################
 
+.. tags:: documentor, reference
 
 .. contents::
   :local:

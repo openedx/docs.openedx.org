@@ -1,5 +1,9 @@
+.. _Update Existing Docs Through GitHub:
+
 Quick Start: Update Existing Docs Through GitHub
 ################################################
+
+.. tags:: documentor, quickstart
 
 .. sidebar:: Edit Documentation Video Demo
 

@@ -1,5 +1,9 @@
+.. _Open edX Documentation Writing Style Guide:
+
 Open edX Documentation Writing Style Guide
 ##########################################
+
+.. tags:: documentor, reference
 
 .. contents:: Contents
   :local:
