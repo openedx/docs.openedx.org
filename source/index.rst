@@ -116,11 +116,6 @@ Open edX Documentation
          :maxdepth: 1
          :caption: Documentors: Document the Open edX Platform
 
-         Quickstarts <documentors/quickstarts/index>
-         How-tos <documentors/how-tos/index>
-         Concepts <documentors/concepts/index>
-         References <documentors/references/index>
-
       +++
       .. button-ref:: documentors/index
          :color: primary

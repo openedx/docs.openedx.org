@@ -42,9 +42,8 @@ Open edX Documentors
          :align: center
          :target: navigation/understand_openedx_docs.html
 
-      | :ref:`Update Existing Docs Through GitHub`
-      | :ref:`Make Changes to your Pull Request`
       | :ref:`Update An Existing Doc via GitHub`
+      | :ref:`Make Changes to your Pull Request`
       | :ref:`Guidelines for Writing Global English`
       | :ref:`Open edX Documentation Writing Style Guide`
       | :ref:`Documentation Templates`
