@@ -66,18 +66,45 @@ Open edX Documentation
 
          Educators' Home
 
-   .. grid-item-card::
+   .. grid-item-card:: Learners
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
+      .. image:: /_images/learner_undraw.png
+         :alt: Learner Persona learning
+         :height: 150px
+         :align: center
+
+      Learn and engage with Open edX® courses.
+
+      +++
+      .. button-ref:: learners/index
+         :color: primary
+         :outline:
+         :expand:
+
+         Learners' Home
+
+   .. grid-item-card:: Site Operators
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/site_operators_undraw.png
+         :alt: Site Operator Persona operating a site
+         :height: 150px
+         :align: center
+
+      Deploy and run an Open edX® site.
+
       .. toctree::
          :maxdepth: 1
-         :caption: Site Operators: Deploy And Run An Open edX Site
+         :hidden:
 
-         Quickstarts <site_ops/quickstarts/index>
-         How-tos <site_ops/how-tos/index>
-         Concepts <site_ops/concepts/index>
-         Reference <site_ops/references/index>
+         site_ops/index
+         site_ops/quickstarts/index
+         site_ops/concepts/index
+         site_ops/references/index
+         site_ops/how-tos/index
 
       +++
       .. button-ref:: site_ops/index
@@ -87,18 +114,26 @@ Open edX Documentation
 
          Site Operators' Home
 
-   .. grid-item-card::
+   .. grid-item-card:: Software Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
+      .. image:: /_images/developers_undraw.png
+         :alt: Developer Persona enhancing the platform
+         :height: 150px
+         :align: center
+
+      Enhance and extend the Open edX® Platform.
+
       .. toctree::
          :maxdepth: 1
-         :caption: Software Developers: Enhance the Open edX Platform
+         :hidden:
 
-         Quickstarts <developers/quickstarts/index>
-         How-tos <developers/how-tos/index>
-         Concepts <developers/concepts/index>
-         Reference <developers/references/index>
+         developers/index
+         developers/quickstarts/index
+         developers/concepts/index
+         developers/references/index
+         developers/how-tos/index
 
       +++
       .. button-ref:: developers/index
@@ -108,13 +143,20 @@ Open edX Documentation
 
          Developers' Home
 
-   .. grid-item-card::
+   .. grid-item-card:: Documentors
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
+      .. image:: /_images/documentors_undraw.png
+         :alt: Documentor Persona documenting the platform
+         :height: 150px
+         :align: center
+
+      Document the Open edX® Platform.
+
       .. toctree::
          :maxdepth: 1
-         :caption: Documentors: Document the Open edX Platform
+         :hidden:
 
       +++
       .. button-ref:: documentors/index
@@ -124,18 +166,26 @@ Open edX Documentation
 
          Documentors' Home
 
-   .. grid-item-card::
+   .. grid-item-card:: Translators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
+      .. image:: /_images/translators_undraw.png
+         :alt: Translator Persona translating the platform
+         :height: 150px
+         :align: center
+
+      Translate the Open edX® Platform.
+
       .. toctree::
          :maxdepth: 1
-         :caption: Translators: Translate the Open edX Platform
+         :hidden:
 
-         Quickstarts <translators/quickstarts/index>
-         How-tos <translators/how-tos/index>
-         Concepts <translators/concepts/index>
-         References <translators/references/index>
+         translators/index
+         translators/quickstarts/index
+         translators/concepts/index
+         translators/references/index
+         translators/how-tos/index
 
       +++
       .. button-ref:: translators/index
