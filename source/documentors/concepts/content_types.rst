@@ -1,7 +1,7 @@
-.. _Open edX Diataxis Guide:
+.. _About Open edX Documentation Standards:
 
-Open edX Diataxis Guide
-#######################
+About Open edX Documentation Standards
+######################################
 
 .. tags:: documentor, concept
 
@@ -12,7 +12,7 @@ Open edX Diataxis Guide
 Diataxis Definition
 *******************
 
-The `Diataxis framework <https://diataxis.fr/>`_ is an approach to quality in technical documentation and creates a systematic organization. Diataxis identifies four modes of documentation:
+The Open edX® docs are written using the Diataxis framework. The `Diataxis framework <https://diataxis.fr/>`_ is an approach to quality in technical documentation and creates a systematic organization. Diataxis identifies four modes of documentation:
 
 * `Quickstart`_
 * `How-to`_

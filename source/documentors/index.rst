@@ -8,68 +8,82 @@ Open edX Documentors
    .. grid-item-card:: Quick Starts
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :columns: 12
 
-      * :doc:`quickstarts/first_documentation_pr`
-      * :doc:`quickstarts/quick_start_add_doc`
-      * :doc:`quickstarts/update_doc_via_github`
-      +++
-      .. button-ref:: quickstarts/index
-         :color: primary
-         :outline:
-         :expand:
+      | :ref:`First Documentation PR`
+      | :ref:`Add New Documentation Through GitHub`
+      | :ref:`Update Existing Docs Through GitHub`
 
-         All Quick Starts
-
-   .. grid-item-card:: Concepts
+   .. grid-item-card:: Understand the Open edX® Documentation
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`concepts/doc_audiences`
-      * :doc:`concepts/content_types`
-      +++
-      .. button-ref:: concepts/index
-         :color: primary
-         :outline:
-         :expand:
+      .. image:: /_images/documentors_homepage/understand_docs_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
+         :target: navigation/understand_openedx_docs.html
 
-         All Concepts
+      | :ref:`About Open edX Documentation Standards`
+      | :ref:`Documentor Guidelines`
+      | :ref:`Documentation Maintenance Process`
+      | :ref:`Open edX Documentation Writing Style Guide`
+      | :ref:`Documentation Templates`
+      | :ref:`Writing RST`
+      | :ref:`Documentation Audiences`
 
-   .. grid-item-card:: How-tos
+   .. grid-item-card:: Edit an Existing Document
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`how-tos/update_a_doc_via_github`
-      * :doc:`how-tos/add_a_doc_via_github`
-      * :doc:`how-tos/make_changes_to_your_pull_request`
-      * :doc:`how-tos/create_github_issue`
-      +++
-      .. button-ref:: how-tos/index
-         :color: primary
-         :outline:
-         :expand:
+      .. image:: /_images/documentors_homepage/edit_doc_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
+         :target: navigation/understand_openedx_docs.html
 
-         All How-tos
+      | :ref:`Update Existing Docs Through GitHub`
+      | :ref:`Make Changes to your Pull Request`
+      | :ref:`Update An Existing Doc via GitHub`
+      | :ref:`Guidelines for Writing Global English`
+      | :ref:`Open edX Documentation Writing Style Guide`
+      | :ref:`Documentation Templates`
+      | :ref:`Writing RST`
 
-   .. grid-item-card:: References
+   .. grid-item-card:: Add a New Document
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/doc_guidelines`
-      * :doc:`references/quick_reference_rst`
-      * :doc:`references/templates/index`
-      * :doc:`references/doc_templates`
-      * :doc:`references/doc_checklist`
-      +++
-      .. button-ref:: references/index
-         :color: primary
-         :outline:
-         :expand:
+      .. image:: /_images/documentors_homepage/add_doc_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
+         :target: navigation/understand_openedx_docs.html
 
-         All References
+      | :ref:`Add New Documentation via GitHub`
+      | :ref:`Documentation Checklist`
+      | :ref:`Make Changes to your Pull Request`
+      | :ref:`Guidelines for Writing Global English`
+      | :ref:`Open edX Documentation Writing Style Guide`
+      | :ref:`Documentation Templates`
+      | :ref:`Writing RST`
+
+   .. grid-item-card:: Create an Issue
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/documentors_homepage/raise_issue_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
+         :target: navigation/understand_openedx_docs.html
+
+      | :ref:`Create a GitHub Issue`
 
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :columns: 12
 
       A record of all documentation related decisions we've made.
       +++

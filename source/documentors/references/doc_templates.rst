@@ -6,9 +6,12 @@ Documentation Templates
 .. tags:: documentor, reference
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :glob:
 
-    Templates <templates/index>
+    templates/doc_concept_template
+    templates/doc_reference_template
+    templates/doc_how_to_template
+    templates/doc_quickstart_template
    
     
