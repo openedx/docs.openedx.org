@@ -180,7 +180,7 @@ If there is a task that should be done on a document, but for whatever reason yo
 
    :ref:`Add New Documentation via GitHub` (how-to)
 
-   :ref:`Create a GitHub Issue` (how-to)
+   :ref:`Report a problem with the docs` (how-to)
 
    :ref:`About Open edX Documentation Standards` (concept)
 

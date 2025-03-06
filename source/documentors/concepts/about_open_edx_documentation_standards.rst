@@ -364,7 +364,7 @@ Criteria of a Concept Document:
 
    :ref:`Add New Documentation via GitHub` (how-to)
 
-   :ref:`Create a GitHub Issue` (how-to)
+   :ref:`Report a problem with the docs` (how-to)
 
 
 **Maintenance chart**

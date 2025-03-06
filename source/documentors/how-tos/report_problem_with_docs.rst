@@ -1,6 +1,6 @@
-.. _Create a GitHub Issue:
+.. _Report a problem with the docs:
 
-Create a GitHub Issue
+Report a problem with the docs
 #################################
 
 .. tags:: documentor, how-to

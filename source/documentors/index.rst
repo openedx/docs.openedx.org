@@ -37,6 +37,20 @@ Open edX Documentors
          references/quick_reference_rst.rst
          concepts/about_doc_audiences.rst
 
+   .. grid-item-card:: Report an Issue with the Documentation
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/documentors_homepage/raise_issue_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
+
+      .. toctree::
+         :maxdepth: 1
+
+         how-tos/report_problem_with_docs.rst
+
    .. grid-item-card:: Edit an Existing Document
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
@@ -76,19 +90,7 @@ Open edX Documentors
          references/doc_templates.rst
          references/quick_reference_rst.rst
 
-   .. grid-item-card:: Create an Issue
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
 
-      .. image:: /_images/documentors_homepage/raise_issue_undraw.png
-         :alt: Documentors
-         :height: 150px
-         :align: center
-
-      .. toctree::
-         :maxdepth: 1
-
-         how-tos/create_github_issue.rst
 
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2

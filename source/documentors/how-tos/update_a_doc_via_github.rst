@@ -63,7 +63,7 @@ The Open edX team will then review your changes. If they approve, they will merg
 
    :ref:`Add New Documentation via GitHub` (how-to)
 
-   :ref:`Create a GitHub Issue` (how-to)
+   :ref:`Report a problem with the docs` (how-to)
 
    :ref:`About Open edX Documentation Standards` (concept)
 

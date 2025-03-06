@@ -59,7 +59,7 @@ If you have questions as you go, we recommend asking the Open edX Documentation 
 
    :ref:`Add New Documentation via GitHub` (how-to)
 
-   :ref:`Create a GitHub Issue` (how-to)
+   :ref:`Report a problem with the docs` (how-to)
 
 
 **Maintenance chart**

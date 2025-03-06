@@ -90,7 +90,7 @@ With your new branch active:
 
    :ref:`Update An Existing Doc via GitHub` (how-to)
 
-   :ref:`Create a GitHub Issue` (how-to)
+   :ref:`Report a problem with the docs` (how-to)
 
    :ref:`About Open edX Documentation Standards` (concept)
 

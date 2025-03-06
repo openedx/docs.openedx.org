@@ -146,7 +146,7 @@ If the test passes, the document does not need any change, which means that ever
 1. :doc:`Submit a PR with a fix <../how-tos/update_a_doc_via_github>` and link to the PR in the Failure flag.  
    
 2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
-   :doc:`Check this how-to doc for creating GitHub issues <../how-tos/create_github_issue>`.
+   :ref:`Check this how-to doc for creating GitHub issues <Report a problem with the docs>`.
 
 .. seealso::
 
@@ -168,7 +168,7 @@ If the test passes, the document does not need any change, which means that ever
 
    :ref:`Add New Documentation via GitHub` (how-to)
 
-   :ref:`Create a GitHub Issue` (how-to)
+   :ref:`Report a problem with the docs` (how-to)
 
 
 **Maintenance chart**
