@@ -66,6 +66,25 @@ Open edX Documentation
 
          Educators' Home
 
+   .. grid-item-card:: Learners
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/learner_undraw.png
+         :alt: Learner Persona learning
+         :height: 150px
+         :align: center
+
+      Learn and engage with Open edX® courses.
+
+      +++
+      .. button-ref:: learners/index
+         :color: primary
+         :outline:
+         :expand:
+
+         Learners' Home
+
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
