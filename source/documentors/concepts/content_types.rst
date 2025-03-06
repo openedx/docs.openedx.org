@@ -1,5 +1,9 @@
+.. _Open edX Diataxis Guide:
+
 Open edX Diataxis Guide
 #######################
+
+.. tags:: documentor, concept
 
 .. contents:: 
   :local:
