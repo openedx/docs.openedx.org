@@ -1,6 +1,8 @@
-################################
-Open edX Accessibility Reference
-################################
+.. _Dev Accessibility Reference:
+
+###############################################
+Open edX Accessibility Reference for Developers
+###############################################
 
 This reference guide showcases the many ways to make your Open edX features
 meet our accessibility guidelines. See :doc:`../concepts/accessibility`
@@ -560,3 +562,11 @@ options.
   reader for Windows.
 
 .. note:: VoiceOver, NVDA, and Narrator can be configured to speak any text on screen on mouse hover.
+
+.. seealso::
+
+ :ref:`Dev Accessibility Concepts` (concept)
+
+ :ref:`Accessibility Guidelines` (concept)
+
+ :ref:`Accessibility Best Practices Checklist` (reference)

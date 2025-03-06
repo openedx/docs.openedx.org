@@ -340,8 +340,11 @@ Mobile-Ready Problem Types
 **************************
 
 Learners can read and submit answers for the following types of problems while
-they use the Open edX mobile app.
+they use the Open edX v2 `Android`_ and `iOS`_ mobile apps.
 
+* :ref:`HTML blocks<About Text Components>`
+* :ref:`Video blocks<Manage Video Components>`
+* :ref:`Course discussions<About Course Discussions>`
 * :ref:`Drag and Drop Problem<About the Drag and Drop Problem>`
 * :ref:`Dropdown`
 * :ref:`Math Expression Input`
@@ -349,6 +352,8 @@ they use the Open edX mobile app.
 * :ref:`Numerical Input<About Numerical Input>`
 * :ref:`Single Select`
 * :ref:`Text Input`
+* :ref:`Open Response Assessments (ORA)<Open Response Assessments>`
+* :ref:`Surveys<Manage Survey Tool>`
 
 Questions that have other problem types do not appear in the Open edX mobile app.
 Instead, a message appears with a link to open the applicable problem component
@@ -387,10 +392,12 @@ in a web browser.
 
   :ref:`Add Unsupported Exercises Problems` (how-to)
 
+  :ref:`Designing for Mobile` (concept)
+
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+-----------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                     |
++--------------+-------------------------------+----------------+-----------------------------------+
+| 2025-03-05   |  Sarina Canelake              | Sumac          | Pass - "mobile-ready" section only|
++--------------+-------------------------------+----------------+-----------------------------------+
