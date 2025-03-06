@@ -30,7 +30,7 @@ Add New Documentation via GitHub
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
-Review the :doc:`../concepts/doc_audiences` and :doc:`../concepts/content_types` sections to determine where you addition should be located.
+Review the :ref:`Documentation Audiences` and :ref:`About Open edX Documentation Standards` sections to determine where you addition should be located.
 
 #. Navigate to the folder where you want to create the new document.
 

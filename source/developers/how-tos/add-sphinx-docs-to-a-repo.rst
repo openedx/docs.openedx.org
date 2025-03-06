@@ -163,7 +163,7 @@ Steps
    `Diataxis`_
       The conceptual documentation system we're trying to follow.
 
-   :doc:`/documentors/concepts/content_types`
+   :ref:`About Open edX Documentation Standards`
       A quick summary on the different types of documents.
 
    :doc:`/developers/how-tos/get-your-project-docs-on-rtd`

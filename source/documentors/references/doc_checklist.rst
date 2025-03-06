@@ -25,7 +25,7 @@ Make sure your documentation is targeted to the right audience and organized und
 
 Ensure that new topics are stored in the directory for the appropriate audience, under the ``source`` directory.
 
-For more information, see :doc:`../concepts/doc_audiences`.
+For more information, see :ref:`Documentation Audiences`.
 
 Topic Types
 ===========
@@ -42,7 +42,7 @@ Each topic in the documentation is one of four types:
 
 Ensure that you have clearly identified the types of new topics you have created, and have stored new files in the directory for that topic type.
 
-For more information, see :doc:`../concepts/content_types`.
+For more information, see :ref:`About Open edX Documentation Standards`.
 
 
 New Topics in TOCs

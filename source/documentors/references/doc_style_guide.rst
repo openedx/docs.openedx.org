@@ -101,7 +101,7 @@ Make sure your documentation is targeted to the right audience and organized und
 - Site Operators
 - Developers
 
-Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see `Documentation Audiences <https://docs.openedx.org/en/latest/documentors/concepts/doc_audiences.html>`_
+Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see :ref:`Documentation Audiences <Documentation Audiences>`
 
 Languages
 *********

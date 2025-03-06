@@ -10,9 +10,12 @@ Open edX Documentors
       :class-footer: sd-border-0
       :columns: 12
 
-      | :ref:`First Documentation PR`
-      | :ref:`Add New Documentation Through GitHub`
-      | :ref:`Update Existing Docs Through GitHub`
+      .. toctree::
+         :maxdepth: 1
+
+         quickstarts/first_documentation_pr.rst
+         quickstarts/quick_start_add_doc.rst
+         quickstarts/update_doc_via_github.rst
 
    .. grid-item-card:: Understand the Open edX® Documentation
       :class-card: sd-shadow-md sd-p-2
@@ -22,15 +25,17 @@ Open edX Documentors
          :alt: Documentors
          :height: 150px
          :align: center
-         :target: navigation/understand_openedx_docs.html
 
-      | :ref:`About Open edX Documentation Standards`
-      | :ref:`Documentor Guidelines`
-      | :ref:`Documentation Maintenance Process`
-      | :ref:`Open edX Documentation Writing Style Guide`
-      | :ref:`Documentation Templates`
-      | :ref:`Writing RST`
-      | :ref:`Documentation Audiences`
+      .. toctree::
+         :maxdepth: 1
+
+         concepts/about_open_edx_documentation_standards.rst
+         references/doc_guidelines.rst
+         references/doc_maintenance.rst
+         references/doc_style_guide.rst
+         references/doc_templates.rst
+         references/quick_reference_rst.rst
+         concepts/about_doc_audiences.rst
 
    .. grid-item-card:: Edit an Existing Document
       :class-card: sd-shadow-md sd-p-2
@@ -40,14 +45,16 @@ Open edX Documentors
          :alt: Documentors
          :height: 150px
          :align: center
-         :target: navigation/understand_openedx_docs.html
 
-      | :ref:`Update An Existing Doc via GitHub`
-      | :ref:`Make Changes to your Pull Request`
-      | :ref:`Guidelines for Writing Global English`
-      | :ref:`Open edX Documentation Writing Style Guide`
-      | :ref:`Documentation Templates`
-      | :ref:`Writing RST`
+      .. toctree::
+         :maxdepth: 1
+
+         how-tos/update_a_doc_via_github.rst
+         how-tos/make_changes_to_your_pull_request.rst
+         references/doc_english_writing.rst
+         references/doc_style_guide.rst
+         references/doc_templates.rst
+         references/quick_reference_rst.rst
 
    .. grid-item-card:: Add a New Document
       :class-card: sd-shadow-md sd-p-2
@@ -57,15 +64,17 @@ Open edX Documentors
          :alt: Documentors
          :height: 150px
          :align: center
-         :target: navigation/understand_openedx_docs.html
 
-      | :ref:`Add New Documentation via GitHub`
-      | :ref:`Documentation Checklist`
-      | :ref:`Make Changes to your Pull Request`
-      | :ref:`Guidelines for Writing Global English`
-      | :ref:`Open edX Documentation Writing Style Guide`
-      | :ref:`Documentation Templates`
-      | :ref:`Writing RST`
+      .. toctree::
+         :maxdepth: 1
+
+         how-tos/add_a_doc_via_github.rst
+         references/doc_checklist.rst
+         how-tos/make_changes_to_your_pull_request.rst
+         references/doc_english_writing.rst
+         references/doc_style_guide.rst
+         references/doc_templates.rst
+         references/quick_reference_rst.rst
 
    .. grid-item-card:: Create an Issue
       :class-card: sd-shadow-md sd-p-2
@@ -75,9 +84,11 @@ Open edX Documentors
          :alt: Documentors
          :height: 150px
          :align: center
-         :target: navigation/understand_openedx_docs.html
 
-      | :ref:`Create a GitHub Issue`
+      .. toctree::
+         :maxdepth: 1
+
+         how-tos/create_github_issue.rst
 
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2

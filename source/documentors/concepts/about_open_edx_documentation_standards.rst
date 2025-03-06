@@ -1,6 +1,6 @@
 .. _About Open edX Documentation Standards:
 
-About Open edX Documentation Standards
+About Open edX® Documentation Standards
 ######################################
 
 .. tags:: documentor, concept

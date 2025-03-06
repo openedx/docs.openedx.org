@@ -31,8 +31,8 @@ Decision
 
     * Software Developers -> developers
 
-* Each persona folder MUST contain a folder for each :doc:`documentation
-  type<../concepts/content_types>` (``concepts``, ``how-tos``, ``quickstarts``
+* Each persona folder MUST contain a folder for each :ref:`documentation
+  type<About Open edX Documentation Standards>` (``concepts``, ``how-tos``, ``quickstarts``
   and ``references``).
 
 * Each folder MUST have an ``index.rst`` file that is the root document for that
