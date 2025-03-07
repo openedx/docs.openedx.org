@@ -74,28 +74,36 @@ Maintenance Chart
 This chart will be included in every Open edX document so that each user can perform their test.  
 It should be completed once the user completes the review process. All fields are required except for the name of the user.
 
-.. list-table::
-   :header-rows: 1
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  | 
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| 2025-06-01   | Documentation WG              | Sumac          |     Pass                                                                                                           |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| 2025-12-01   | Ana Gomez                     | Verawood       |`Fail <https://github.com/openedx/docs.openedx.org/issues/776>`_                                                    |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| 2025-12-15   | BTR WG                        | Verawood       | Pass                                                                                                               |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
 
-   * - Review Date
-     - Working Group Reviewer
-     - Release
-     - Test Situation
-   * - 2025-06-01
-     - Documentation WG - Ana Gomez
-     - Sumac
-     - Pass
-   * - 2025-12-01
-     - Documentation WG
-     - Verawood
-     - `Fail <https://github.com/openedx/docs.openedx.org/issues/776>`_
-   * - 2025-12-15
-     - BTR WG
-     - Verawood
-     - Pass
 
-To apply the maintenance chart on a new document, you can use the following code:
 
+To apply the maintenance chart on a new document, you can use any of the following codes:
+
+Table
+=======
+.. code-block:: RST
+
+  +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+  | Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  | 
+  +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+  | 2025-06-01   | Documentation WG              | Sumac          |     Pass                                                                                                           |
+  +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+  | 2025-12-01   | Ana Gomez                     | Verawood       |`Fail <<https://github.com/openedx/docs.openedx.org/issues/XXXX>`_ (replace XXXX with the issue number)             |
+  +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+  | 2025-12-15   | BTR WG                        | Verawood       | Pass                                                                                                               |
+  +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+
+List Table
+===========
 .. code-block:: RST
 
    .. list-table::
@@ -122,10 +130,10 @@ Review Date
 
 The user should add the month and year of the review using the following format: YYYY-MM-DD.
 
-Working Group Reviewer
+Reviewer
 ======================
 
-This field should contain the name of the Working Group to which the user belongs. Including individual names is optional.
+This field should contain the name of the reviewer who can be a contributor or a working group.
 
 Release
 ========
