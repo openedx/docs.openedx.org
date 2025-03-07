@@ -30,6 +30,7 @@ html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
 project = ""
 current_year = datetime.utcnow().year
 copyright = f"{current_year}, Axim Collaborative"
+author = "Open edX Documentation Working Group"
 
 
 # -- General configuration ---------------------------------------------------
