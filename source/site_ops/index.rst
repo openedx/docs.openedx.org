@@ -12,6 +12,7 @@ Open edX Site Operators
 .. toctree::
    :glob:
 
+   install_configure_run_guide/index
    quickstarts/index
    how-tos/index
    concepts/index
