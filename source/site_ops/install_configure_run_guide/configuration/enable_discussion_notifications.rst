@@ -8,8 +8,8 @@ You can set up notifications that learners receive the first time that anyone
 adds a response to a discussion post that they have made.
 
 For more information, including the text of the discussion notification
-message, see :ref:`Automatic Emails` and
-:ref:`Receiving Discussion Notifications`.
+message, see :ref:`Automatic Email` and
+:ref:`openlearners:Receiving Discussion Notifications`.
 
 .. contents::
    :depth: 1
@@ -60,4 +60,4 @@ of Open edX.
 
 
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

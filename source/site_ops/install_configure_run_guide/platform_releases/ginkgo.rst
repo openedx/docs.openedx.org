@@ -1,3 +1,5 @@
+.. _Open edX Ginkgo Release:
+
 ########################
 Open edX Ginkgo Release
 ########################
@@ -6,7 +8,7 @@ Open edX Ginkgo Release
 
     This release is unsupported.
 
-    The :ref:`Open edX Release Notes` and the :ref:`Open edX Release Notes` are the
+    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
     authoratative sources of information on all Open edX releases. It is *strongly*
     recommended to operate off the latest Open edX release at all points in time, as
     only the most recent release is community-supported.
@@ -34,7 +36,7 @@ What Is the Ginkgo Git Tag?
 
 A git tag identifies the version of Open edX code that is the Ginkgo release.
 You can find the most up-to-date git tag for the current Open edX release on
-:ref:`Open edX Release Notes`.
+the `Open edX Releases Wiki page`_.
 
 The following Open edX git repositories have the Ginkgo git tag:
 
@@ -191,4 +193,4 @@ upgrade from one Ginkgo release to another by re-running those steps using your
 desired Ginkgo tag as the new value for ``OPENEDX_RELEASE``.
 
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

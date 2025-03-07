@@ -15,4 +15,4 @@ If you need to change settings on a running server, take the following steps.
 #. Reroute traffic from the old server to the new server.
 #. Decommission the old server.
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

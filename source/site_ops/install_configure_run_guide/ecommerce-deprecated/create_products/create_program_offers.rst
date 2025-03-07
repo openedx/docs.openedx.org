@@ -47,4 +47,4 @@ To create a program offer, follow these steps.
 
 #. Select **Create Program Offer**.
 
-.. include:: /links.txt
+.. include:: ../../../../links/links.rst

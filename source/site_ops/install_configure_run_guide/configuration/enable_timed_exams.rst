@@ -1,3 +1,5 @@
+.. _Enable Timed Exams:
+
 #############################
 Enabling Timed Exams
 #############################
@@ -22,7 +24,7 @@ exams feature in Studio and the Learning Management System.
 For information about how course teams set up timed exams, see the
 :ref:`Timed Exams` topic in *Building and Running an Open edX
 Course*. For information about the learner experience, see
-:ref:`taking_timed_exams` in the  *Open edX Learner's Guide*.
+:ref:`openlearners:taking_timed_exams` in the  *Open edX Learner's Guide*.
 
 .. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
@@ -49,4 +51,4 @@ directory.
 #. Restart the Studio (CMS) and Learning Management System (LMS) processes so
    that your updates are loaded.
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

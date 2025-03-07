@@ -25,4 +25,4 @@ Mobile Documentation
 
 * `Manage iOS Configuration <https://github.com/openedx/openedx-app-ios/blob/main/Documentation/CONFIGURATION_MANAGEMENT.md>`_
 
-.. include:: /links.txt
+.. include:: ../../links/links.rst

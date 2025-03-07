@@ -36,7 +36,7 @@ Analytics Data API and presents the data to course team members.
 Architecture Diagram
 ========================
 
-.. image:: ../Images/Analytics_Pipeline.png
+.. image:: /Images/Analytics_Pipeline.png
  :alt: Image showing the relationships between various components of the edX
        analytics data pipeline.
  :width: 800
@@ -216,7 +216,7 @@ Large Scale Using Elastic MapReduce
 A large scale deployment consists of a single master node, several core nodes,
 and many task nodes deployed into a public subnet of a Virtual Private Cloud.
 
-.. image:: ../Images/Analytics_AWS_Deployment.png
+.. image:: /Images/Analytics_AWS_Deployment.png
  :alt: Image showing all of the AWS components needed to run a large scale
        deployment of the edX analytics data pipeline.
 
@@ -244,4 +244,4 @@ services are each deployed to at least one server. The Scheduler is deployed to
 another server. A MySQL database is deployed to a server that is configured to
 host a relational database.
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

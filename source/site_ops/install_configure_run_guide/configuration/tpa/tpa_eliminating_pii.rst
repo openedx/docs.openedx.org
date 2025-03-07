@@ -52,7 +52,7 @@ profiles. For more information, see
 The following diagram shows how an IdP can direct a learner to an Open edX site to
 create a learner account, without transmitting any PII.
 
-.. image:: ../../Images/tpa-idp-create-non-personal-account.png
+.. image:: ../../../../shared/images/tpa-idp-create-non-personal-account.png
   :width: 900
   :alt: A diagram showing how an identity provider (IdP) service can create a
       learner account on an Open edX site without transmitting any personally
@@ -75,7 +75,7 @@ The following diagram shows how an organization that uses third-party
 authentication can match non-personally identifying Open edX learner usernames
 with the records that the organization holds for those learners.
 
-.. image:: ../../Images/tpa-institution-associate-edx-id-with-personal-id.png
+.. image:: ../../../../shared/images/tpa-institution-associate-edx-id-with-personal-id.png
   :width: 900
   :alt: A diagram showing how an organization that uses third-party
       authentication can match non-personally identifying Open edX learner
@@ -229,4 +229,4 @@ edX user IDs found in reports or analytics back to these opaque organization
 user identifiers. Organization partners can then convert each opaque user
 identifier back to the official learner ID.
 
-.. include:: /links.txt
+.. include:: ../../../../links/links.rst

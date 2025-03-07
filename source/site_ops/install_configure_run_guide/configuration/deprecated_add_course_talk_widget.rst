@@ -25,7 +25,7 @@ course **Course** page, and the reviews are visible both in the course, and on
 the course **About** page. Only learners who are enrolled in the course can
 leave reviews of a course.
 
-.. image:: ../Images/course_reviews.png
+.. image:: ../../../shared/images/course_reviews.png
  :width: 250
  :alt: Examples of course reviews on a course's About page.
 
@@ -55,4 +55,4 @@ To add the CourseTalk widget, follow these steps.
 #. In the right pane, verify that the CourseTalk widget appears below the
    course information panel.
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

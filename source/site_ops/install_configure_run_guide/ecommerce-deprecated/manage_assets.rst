@@ -45,4 +45,4 @@ If you create new pages that have RequireJS dependencies, remember to add your
 new JavaScript modules to the RequireJS build file for the project. This is the
 ``build.js`` file.
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

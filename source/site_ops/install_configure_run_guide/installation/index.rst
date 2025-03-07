@@ -15,7 +15,7 @@ two decisions to make:
 * **Method**: How do you want to install it?
 
 *******************
-Choose a version
+1. Choose a version
 *******************
 
 There are two possibilities for the version to install:
@@ -30,10 +30,10 @@ You should choose master only if you will be modifying the code and
 contributing it back, or if you need a feature or fix that is newer than the
 latest Open edX release.  If you aren't planning to contribute changes, and you
 don't need the absolute latest code, use the latest official Open edX release.
-Details of the releases are on the :ref:`Open edX Release Notes`.
+Details of the releases are on the `Open edX Named Releases page`_.
 
 ********************************
-Choose an installation method
+2. Choose an installation method
 ********************************
 
 **`Tutor`_**: is the community-supported Docker-based environment
@@ -53,4 +53,4 @@ You can find more details on each of the methods below:
 
    tutor
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

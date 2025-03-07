@@ -69,4 +69,4 @@ After you configure your CDN, follow these steps.
 
 #. Select **Save**.
 
-.. include:: /links.txt
+.. include:: ../../../../links/links.rst

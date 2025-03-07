@@ -101,4 +101,4 @@ follow these steps.
 
 #. Select **Save** at the bottom of the page.
 
-.. include:: /links.txt
+.. include:: ../../../../links/links.rst

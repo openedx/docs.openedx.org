@@ -15,9 +15,9 @@ the default set of files that learners are prohibited from submitting.
    ora2_blacklist
 
 For more information and examples of how course teams might set up an open
-response assessment, see :ref:`Open Response Assessments`
+response assessment, see :ref:`Open Response Assessments Two`
 in the *Building and Running an Open edX Course* guide.
 
 
-.. include:: /links.txt
+.. include:: ../../../../links/links.rst
 
