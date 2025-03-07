@@ -38,7 +38,7 @@ idna==3.10
     #   requests
 imagesize==1.4.1
     # via sphinx
-jinja2==3.1.5
+jinja2==3.1.6
     # via sphinx
 markupsafe==3.0.2
     # via jinja2
@@ -131,5 +131,5 @@ uvicorn==0.34.0
     # via sphinx-autobuild
 watchfiles==1.0.4
     # via sphinx-autobuild
-websockets==15.0
+websockets==15.0.1
     # via sphinx-autobuild
