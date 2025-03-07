@@ -73,4 +73,4 @@ Linking Accounts
 
     * Create a new account.
 
-.. include:: /links.txt
+.. include:: ../../../../links/links.rst

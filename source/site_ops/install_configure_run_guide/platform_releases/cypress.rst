@@ -1,3 +1,5 @@
+.. _Open edX Cypress Release:
+
 ########################################
 Open edX Cypress Release
 ########################################
@@ -6,7 +8,7 @@ Open edX Cypress Release
 
     This release is unsupported.
 
-    The :ref:`Open edX Release Notes` and the :ref:`Open edX Release Notes` are the
+    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
     authoratative sources of information on all Open edX releases. It is *strongly*
     recommended to operate off the latest Open edX release at all points in time, as
     only the most recent release is community-supported.
@@ -97,4 +99,4 @@ After upgrading Open edX to the Cypress release, start the LMS and Studio and
 verify that course content and data was migrated correctly.
 
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

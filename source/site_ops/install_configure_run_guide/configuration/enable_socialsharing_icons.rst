@@ -140,4 +140,4 @@ This URL is provided to the social sharing site for linking back to a course
 location. This URL is used only if you have enabled custom URLs in your
 instance of Open edX.
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

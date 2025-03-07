@@ -1,3 +1,5 @@
+.. _Open edX Olive Release:
+
 ######################
 Open edX Olive Release
 ######################
@@ -6,7 +8,7 @@ Open edX Olive Release
 
     This release is unsupported.
 
-    The :ref:`Open edX Release Notes` and the :ref:`Open edX Release Notes` are the
+    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
     authoratative sources of information on all Open edX releases. It is *strongly*
     recommended to operate off the latest Open edX release at all points in time, as
     only the most recent release is community-supported.
@@ -38,7 +40,7 @@ A git tag identifies the version of Open edX code that is the Olive release.
 Over fourty repositories are tagged as part of an Open edX release. Many
 other repositories are installed as dependencies of those repositories. You can
 find the most up-to-date git tag for Olive on the
-:ref:`Open edX Release Notes`.
+`Open edX Named Releases page`_.
 
 ****************************
 Installing the Olive Release
@@ -51,7 +53,7 @@ Installing the Olive Release
 See `Tutor installation instructions <https://docs.tutor.edly.io/gettingstarted.html>`_.
 
 Olive releases have git tag names like ``open-release/olive.1``.
-The available names are detailed on the :ref:`Open edX Release Notes`.
+The available names are detailed on the `Open edX Named Releases page`_.
 
 *********************************
 Upgrading from the Nutmeg Release
@@ -83,4 +85,4 @@ migrate to Tutor. This `Native Installation to Tutor forum post`_ may be helpful
 as may be `this second Native to Tutor post`_. If not, post on the `Open edX Forums`_.
 
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst

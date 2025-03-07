@@ -7,5 +7,6 @@ General Information
 
    read_me
    getting_help
+   preface
    browsers
 

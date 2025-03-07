@@ -40,7 +40,7 @@ information, see :ref:`Additional Ecommerce Features`.
 
 
 
-.. include:: /links.txt
+.. include:: ../../../links/links.rst
 
 .. TODO
 ..   - Oscar Dashboard
