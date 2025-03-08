@@ -177,7 +177,7 @@ Access Settings
 In the course outline in Studio, you can use access settings to specify which
 learner groups can access particular components or units. You can restrict
 access based on one group type, such as :ref:`content group<About Content
-Groups>` or :ref:`enrollment track<enrollment_track_g>`.
+Groups>` or :term:`Enrollment Track`.
 
 For example, if you have cohorts enabled in your course, you can use content
 groups to give access to particular components or units in your course only to

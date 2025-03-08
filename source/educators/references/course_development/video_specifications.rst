@@ -91,7 +91,7 @@ not required.
    :widths: 10 20
    :stub-columns: 1
 
-   * - :ref:`Codec<codec_g>`
+   * - :term:`Codec`
      - H.264 .mp4
    * - Resolution & Frame Rate
      - 1920x1080, progressive, 29.97 fps
@@ -99,19 +99,19 @@ not required.
        .. note::
          Typically, you export at the same frame rate that was used when you
          created the media file. For example, if you create the file in a
-         country that uses the :ref:`PAL<PAL>` system, you export at 25 fps
-         instead of the :ref:`NTSC<NTSC>` standard of 29.97 fps.
+         country that uses the :term:`PAL` system, you export at 25 fps
+         instead of the :term:`NTSC` standard of 29.97 fps.
 
    * - Aspect
      - 1.0
    * - Bit Rate
      - VBR, 2 pass
-   * - Target :ref:`VBR<VBR>`
+   * - Target :term:`VBR`
      - 5 mbps
-   * - Max :ref:`VBR<VBR>`
+   * - Max :term:`VBR`
      - 6 mbps
    * - Audio
-     - :ref:`AAC<AAC>` 44.1 / 192 kbps
+     - :term:`AAC` 44.1 / 192 kbps
 
 .. seealso::
 

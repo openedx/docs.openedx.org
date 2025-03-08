@@ -43,7 +43,7 @@ Tp specify a unit's access settings, follow these steps.
    option, select the group type by which you want to restrict access.
 
    The **Enrollment Track Groups** option is available only if your course has
-   more than one :ref:`enrollment track<enrollment_track_g>`. The **Content
+   more than one :term:`Enrollment Track`. The **Content
    Groups** option is available only if you have created :ref:`content
    groups<About Content Groups>` for use with cohorts.
 

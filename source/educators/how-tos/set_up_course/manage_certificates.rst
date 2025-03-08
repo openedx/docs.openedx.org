@@ -39,7 +39,7 @@ a course mode for the course you wish to create a certificate for.
 .. note:: Different certificate types are available with the different
    course modes.
 
-   See :ref:`enrollment track<enrollment_track_g>` for more information
+   See :term:`Enrollment Track` for more information
    about different course modes or certificate types.
 
 
