@@ -68,4 +68,4 @@ If you want to make a feature permanent, remove its feature gate from relevant
 code and tests, and delete the gate from the database.
 
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst

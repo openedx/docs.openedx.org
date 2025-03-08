@@ -24,5 +24,5 @@ progress. This section presents the introductory, overview material that is
 available now.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
 

@@ -49,4 +49,4 @@ directory.
 
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

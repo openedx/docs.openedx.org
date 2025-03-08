@@ -85,4 +85,4 @@ Python module, follow these steps.
 
 #. Restart the LMS.
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst

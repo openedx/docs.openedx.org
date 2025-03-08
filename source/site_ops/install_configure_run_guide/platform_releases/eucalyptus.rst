@@ -137,5 +137,5 @@ those steps using your desired Eucalyptus tag as the new value for
 ``OPENEDX_RELEASE``.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
 

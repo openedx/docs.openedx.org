@@ -174,4 +174,4 @@ upgrade from one Hawthorn release to another by re-running those steps using
 your desired Hawthorn tag as the new value for ``OPENEDX_RELEASE``.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

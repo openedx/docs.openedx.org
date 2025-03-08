@@ -12,4 +12,4 @@ only the most recent release is community-supported.
 See the `Open edX Release Schedule`_ for information on release dates and end-of-life
 support.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

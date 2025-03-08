@@ -104,4 +104,4 @@ to the ``lms.yml`` configuration file.
   AUTH_PASSWORD_VALIDATORS:
   -   NAME: path.to.module.MyPasswordValidatorClass
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
