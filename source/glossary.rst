@@ -1,6 +1,6 @@
 :orphan:
 
-.. _Educators Glossary:
+..  _Glossary:
 
 ########
 Glossary
@@ -634,6 +634,12 @@ M
 
   For more information, see :ref:`MathJax in Studio`.
 
+
+.. _MFE:
+
+**MFE**
+
+  Micro-frontends are how we refer to the user facing Single Page Apps that make up the user experience of the Open edX Platform.
 
 .. _Module_g:
 

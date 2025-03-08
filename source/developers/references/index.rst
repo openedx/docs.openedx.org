@@ -25,7 +25,7 @@ Other References
    a11y-ref
    internal_data_formats/index
    developer_guide/index
-   glossary
+   /glossary
 
 .. toctree::
    :hidden:
