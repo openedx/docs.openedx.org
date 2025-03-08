@@ -1,5 +1,3 @@
-.. _Open edX Eucalyptus Release:
-
 ########################################
 Open edX Eucalyptus Release
 ########################################
@@ -8,7 +6,7 @@ Open edX Eucalyptus Release
 
     This release is unsupported.
 
-    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
+    The :ref:`Open edX Release Notes` and the :ref:`Open edX Release Notes` are the
     authoratative sources of information on all Open edX releases. It is *strongly*
     recommended to operate off the latest Open edX release at all points in time, as
     only the most recent release is community-supported.
@@ -37,7 +35,7 @@ What Is the Eucalyptus Git Tag?
 
 A Git tag identifies the version of Open edX code that is the Eucalyptus release.
 You can find the most up-to-date Git tag for the current Open edX release on
-the `Open edX Releases Wiki page`_.
+:ref:`Open edX Release Notes`.
 
 The following Open edX Git repositories have the Eucalyptus Git tag.
 
@@ -96,7 +94,7 @@ edX, run the upgrade script for your type of installation.
     * For fullstack, run ``bash upgrade.sh -c fullstack``.
 
 You can find the most up-to-date Git tag for the current Open edX release on
-the `Open edX Releases Wiki page`_.
+:ref:`Open edX Release Notes`.
 
 You can also run ``bash upgrade.sh -h`` to see which other options the script
 accepts.
@@ -137,5 +135,5 @@ those steps using your desired Eucalyptus tag as the new value for
 ``OPENEDX_RELEASE``.
 
 
-.. include:: /links.rst
+.. include:: /links.txt
 

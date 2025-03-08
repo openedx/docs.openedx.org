@@ -471,4 +471,4 @@ Users can now sign in using this OAuth2 provider.
 
 
 
-.. include:: /links.rst
+.. include:: /links.txt

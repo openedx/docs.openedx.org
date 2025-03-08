@@ -117,7 +117,7 @@ enhancement also gives system administrators the ability to configure a list of
 file types that learners cannot upload.
 
 For more information, see
-Configuring ORA2 to Prohibit Submission of File Types.
+:ref:`Configuring ORA2 to Prohibit Submission of File Types`.
 
 Certificates
 ============

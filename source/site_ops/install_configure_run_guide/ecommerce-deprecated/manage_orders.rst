@@ -79,5 +79,5 @@ status indicating the reason for the failure. If you have enabled asynchronous
 order fulfillment, the service tries again to fulfill the order. You can also
 manually retry fulfillment of a failed order from the `Oscar`_ order dashboard.
 
-.. include:: /links.rst
+.. include:: /links.txt
 

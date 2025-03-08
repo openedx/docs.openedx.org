@@ -101,4 +101,4 @@ back to you with questions.
 .. _Open edX Release Planning: https://openedx.atlassian.net/wiki/spaces/COMM/pages/13205845/Open+edX+Release+Planning
 
 
-.. include:: ../links.rst
+.. include:: /links.txt

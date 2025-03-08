@@ -48,4 +48,4 @@ best what information they need to solve the problem.
 .. _Getting Help page: https://open.edx.org/getting-help
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 
-.. include:: /links.rst
+.. include:: /links.txt

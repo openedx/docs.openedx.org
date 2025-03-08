@@ -58,4 +58,4 @@ context)`` method. This method is implemented in
 
 
 
-.. include:: /links.rst
+.. include:: /links.txt

@@ -646,5 +646,5 @@ the invoice status.
 For more information about the way that the E-Commerce service manages orders,
 see :ref:`Manage Orders`.
 
-.. include:: /links.rst
+.. include:: /links.txt
 

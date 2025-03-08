@@ -50,4 +50,4 @@ files, which are located one level above the ``edx-platform`` directory.
 
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
-.. include:: /links.rst
+.. include:: /links.txt

@@ -1,3 +1,5 @@
+.. _Documentor's Home:
+
 Open edX Documentors
 ####################
 

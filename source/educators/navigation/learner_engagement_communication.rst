@@ -44,6 +44,8 @@ Bulk Emails
    ../references/communication/compose_email_message.rst 
    ../how-tos/communication/email_task_history_report.rst 
 
+.. _Automatic Emails:
+
 Automatic Emails
 *******************************************************
 
