@@ -1,5 +1,9 @@
+.. _Add New Documentation via GitHub:
+
 Add New Documentation via GitHub
 ################################
+
+.. tags:: documentor, how-to
 
 .. sidebar:: Add Documentation Video Demo
 
@@ -26,7 +30,7 @@ Add New Documentation via GitHub
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
-Review the :doc:`../concepts/doc_audiences` and :doc:`../concepts/content_types` sections to determine where you addition should be located.
+Review the :ref:`Documentation Audiences` and :ref:`About Open edX Documentation Standards` sections to determine where you addition should be located.
 
 #. Navigate to the folder where you want to create the new document.
 
@@ -80,3 +84,35 @@ With your new branch active:
 ************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
+
+
+.. seealso::
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

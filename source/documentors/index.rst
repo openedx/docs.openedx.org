@@ -8,68 +8,94 @@ Open edX Documentors
    .. grid-item-card:: Quick Starts
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :columns: 12
 
-      * :doc:`quickstarts/first_documentation_pr`
-      * :doc:`quickstarts/quick_start_add_doc`
-      * :doc:`quickstarts/update_doc_via_github`
-      +++
-      .. button-ref:: quickstarts/index
-         :color: primary
-         :outline:
-         :expand:
+      .. toctree::
+         :maxdepth: 1
 
-         All Quick Starts
+         quickstarts/first_documentation_pr.rst
+         quickstarts/quick_start_add_doc.rst
+         quickstarts/update_doc_via_github.rst
 
-   .. grid-item-card:: Concepts
+   .. grid-item-card:: Understand the Open edX® Documentation
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`concepts/doc_audiences`
-      * :doc:`concepts/content_types`
-      +++
-      .. button-ref:: concepts/index
-         :color: primary
-         :outline:
-         :expand:
+      .. image:: /_images/documentors_homepage/understand_docs_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
 
-         All Concepts
+      .. toctree::
+         :maxdepth: 1
 
-   .. grid-item-card:: How-tos
+         concepts/about_open_edx_documentation_standards.rst
+         references/doc_guidelines.rst
+         references/doc_maintenance.rst
+         references/doc_style_guide.rst
+         references/doc_templates.rst
+         references/quick_reference_rst.rst
+         concepts/about_doc_audiences.rst
+
+   .. grid-item-card:: Report an Issue with the Documentation
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`how-tos/update_a_doc_via_github`
-      * :doc:`how-tos/add_a_doc_via_github`
-      * :doc:`how-tos/make_changes_to_your_pull_request`
-      * :doc:`how-tos/create_github_issue`
-      +++
-      .. button-ref:: how-tos/index
-         :color: primary
-         :outline:
-         :expand:
+      .. image:: /_images/documentors_homepage/raise_issue_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
 
-         All How-tos
+      .. toctree::
+         :maxdepth: 1
 
-   .. grid-item-card:: References
+         how-tos/report_problem_with_docs.rst
+
+   .. grid-item-card:: Edit an Existing Document
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/doc_guidelines`
-      * :doc:`references/quick_reference_rst`
-      * :doc:`references/templates/index`
-      * :doc:`references/doc_templates`
-      * :doc:`references/doc_checklist`
-      +++
-      .. button-ref:: references/index
-         :color: primary
-         :outline:
-         :expand:
+      .. image:: /_images/documentors_homepage/edit_doc_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
 
-         All References
+      .. toctree::
+         :maxdepth: 1
+
+         how-tos/update_a_doc_via_github.rst
+         how-tos/make_changes_to_your_pull_request.rst
+         references/doc_english_writing.rst
+         references/doc_style_guide.rst
+         references/doc_templates.rst
+         references/quick_reference_rst.rst
+
+   .. grid-item-card:: Add a New Document
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/documentors_homepage/add_doc_undraw.png
+         :alt: Documentors
+         :height: 150px
+         :align: center
+
+      .. toctree::
+         :maxdepth: 1
+
+         how-tos/add_a_doc_via_github.rst
+         references/doc_checklist.rst
+         how-tos/make_changes_to_your_pull_request.rst
+         references/doc_english_writing.rst
+         references/doc_style_guide.rst
+         references/doc_templates.rst
+         references/quick_reference_rst.rst
+
+
 
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :columns: 12
 
       A record of all documentation related decisions we've made.
       +++

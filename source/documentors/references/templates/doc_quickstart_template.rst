@@ -1,5 +1,9 @@
+.. _Quickstart Document Template:	
+
 Quickstart Document Template
 ############################
+
+.. tags:: documentor, reference
 
 What Is a Quickstart
 ********************
@@ -236,3 +240,21 @@ RST Template
 
 	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 
+.. seealso::
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Concept Document Template` (reference)
+
+   :ref:`Reference Document Template` (reference)
+
+   :ref:`How To Document Template` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

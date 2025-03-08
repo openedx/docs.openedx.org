@@ -158,12 +158,6 @@ Open edX Documentation
          :maxdepth: 1
          :hidden:
 
-         documentors/index
-         documentors/quickstarts/index
-         documentors/concepts/index
-         documentors/references/index
-         documentors/how-tos/index
-
       +++
       .. button-ref:: documentors/index
          :color: primary

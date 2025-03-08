@@ -1,5 +1,9 @@
+.. _Open edX Documentation Writing Style Guide:
+
 Open edX Documentation Writing Style Guide
 ##########################################
+
+.. tags:: documentor, reference
 
 .. contents:: Contents
   :local:
@@ -97,7 +101,7 @@ Make sure your documentation is targeted to the right audience and organized und
 - Site Operators
 - Developers
 
-Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see `Documentation Audiences <https://docs.openedx.org/en/latest/documentors/concepts/doc_audiences.html>`_
+Ensure that new topics are stored in the directory for the appropriate audience, under the source directory. For more information, see :ref:`Documentation Audiences <Documentation Audiences>`
 
 Languages
 *********
@@ -407,3 +411,33 @@ Bolded Text
 
 Using **bold type** for emphasis serves to draw the reader's attention to specific words or phrases that are particularly important or impactful.
 
+.. seealso::
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

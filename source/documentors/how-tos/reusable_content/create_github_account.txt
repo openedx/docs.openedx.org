@@ -1,5 +1,5 @@
 
 
-You need a GitHub account to create or edit documentation. You can `create a Github account here`_.
+You need a GitHub account to create or edit documentation. You can `create a free Github account here`_.
 
-.. _create a Github account here: https://github.com/signup
+.. _create a free Github account here: https://github.com/signup

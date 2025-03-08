@@ -1,5 +1,9 @@
+.. _Media Accessibility:
+
 Media Accessibility
 ###################
+
+.. tags:: documentor, reference
 
 This information is relevant for writers developing instructional videos and technical documentation to make their content accessible to a broader population.
 

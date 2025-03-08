@@ -1,5 +1,9 @@
+.. _Make Changes to your Pull Request:
+
 Make Changes to your Pull Request
 #################################
+
+.. tags:: documentor, how-to
 
 Have you made a pull request, just to find that reviewers want you
 to make some changes? Or realized you've missed something? This how-to
@@ -89,3 +93,37 @@ Also, congratulate yourself for learning so much! You're now a certified GitHub 
    :alt: Cute image of a gnu wearing a wizard's suit.
 
 * `Image retrieved 25 March 2023 <https://publicdomainvectors.org/en/free-clipart/Illustratino-of-a-gnu/37568.html>`_ *
+
+
+.. seealso::
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -1,5 +1,9 @@
+.. _Documentation Maintenance Process:
+
 Documentation Maintenance Process
 ############################################
+
+.. tags:: documentor, reference
 
 .. contents:: Contents
   :local:
@@ -44,7 +48,7 @@ During this process, the user or contributor should read the document carefully 
 - Correctness of information  
 - Open edX version  
 
-The user must also consider the standards previously defined in the :doc:`../concepts/content_types` and :doc:`doc_style_guide`.
+The user must also consider the standards previously defined in the :ref:`About Open edX Documentation Standards` and :doc:`doc_style_guide`.
 
 Steps to follow to comply with the maintenance procedure
 *********************************************************
@@ -150,6 +154,35 @@ If the test passes, the document does not need any change, which means that ever
 1. :doc:`Submit a PR with a fix <../how-tos/update_a_doc_via_github>` and link to the PR in the Failure flag.  
    
 2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
-   :doc:`Check this how-to doc for creating GitHub issues <../how-tos/create_github_issue>`.
+   :ref:`Check this how-to doc for creating GitHub issues <Report a problem with the docs>`.
 
-    
+.. seealso::
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

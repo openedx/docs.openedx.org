@@ -1,5 +1,9 @@
+.. _Add Links in a Topic:
+
 Add Links in a Topic
 ####################
+
+.. tags:: documentor, reference
 
 You can include links to other locations in the same document, to locations in other documents and to external websites.
 

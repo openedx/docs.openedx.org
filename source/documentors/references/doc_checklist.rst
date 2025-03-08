@@ -1,5 +1,9 @@
+.. _Documentation Checklist:  
+
 Documentation Checklist
 #######################
+
+.. tags:: documentor, reference
 
 This page lists items you should check when you are creating new documentation. We recommend reviewing this list before you create a pull request.
 
@@ -21,7 +25,7 @@ Make sure your documentation is targeted to the right audience and organized und
 
 Ensure that new topics are stored in the directory for the appropriate audience, under the ``source`` directory.
 
-For more information, see :doc:`../concepts/doc_audiences`.
+For more information, see :ref:`Documentation Audiences`.
 
 Topic Types
 ===========
@@ -38,7 +42,7 @@ Each topic in the documentation is one of four types:
 
 Ensure that you have clearly identified the types of new topics you have created, and have stored new files in the directory for that topic type.
 
-For more information, see :doc:`../concepts/content_types`.
+For more information, see :ref:`About Open edX Documentation Standards`.
 
 
 New Topics in TOCs
@@ -168,4 +172,40 @@ Submit a Github Issue
 If there is a task that should be done on a document, but for whatever reason you are unable to do it, you can `Submit a Docs Issue`_ with a description of the issue. Tickets are open to be reviewed and fixed by members of the community. 
 
 `Submit a Docs Issue`_
+
+
+.. seealso::
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
+
 

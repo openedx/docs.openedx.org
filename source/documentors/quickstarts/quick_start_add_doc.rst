@@ -1,5 +1,9 @@
+.. _Add New Documentation Through GitHub:
+
 Quick Start: Add New Documentation Through GitHub
 #################################################
+
+.. tags:: documentor, quickstart
 
 .. sidebar:: Add Documentation Video Demo
 
@@ -24,7 +28,7 @@ Find Where to Add a New Topic
 
 The latest documentation is in the **main** branch of the `Open edX Documentation GitHub repository`_.
 
-Review the :doc:`../concepts/doc_audiences` and :doc:`../concepts/content_types` sections to determine where your addition should be located.
+Review the :ref:`Documentation Audiences` and :ref:`About Open edX Documentation Standards` sections to determine where your addition should be located.
 
 #. Navigate to the folder where you want to create the new topic.
 
@@ -71,3 +75,11 @@ Create a Pull Request for the New Topic
 ***************************************
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

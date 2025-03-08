@@ -1,5 +1,9 @@
-Open edX Diataxis Guide
-#######################
+.. _About Open edX Documentation Standards:
+
+About Open edX® Documentation Standards
+#########################################
+
+.. tags:: documentor, concept
 
 .. contents:: 
   :local:
@@ -8,7 +12,7 @@ Open edX Diataxis Guide
 Diataxis Definition
 *******************
 
-The `Diataxis framework <https://diataxis.fr/>`_ is an approach to quality in technical documentation and creates a systematic organization. Diataxis identifies four modes of documentation:
+The Open edX® docs are written using the Diataxis framework. The `Diataxis framework <https://diataxis.fr/>`_ is an approach to quality in technical documentation and creates a systematic organization. Diataxis identifies four modes of documentation:
 
 * `Quickstart`_
 * `How-to`_
@@ -340,3 +344,33 @@ Criteria of a Concept Document:
 
 .. Note:: To learn more about the Diataxis framework, visit `the Diataxis homepage <https://diataxis.fr/>`_. The Open edX community adapted the framework according to the platform's needs.
 
+.. seealso::
+
+   :ref:`Documentor Guidelines` (reference)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

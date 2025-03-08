@@ -1,6 +1,9 @@
+.. _Sample Document with Errors:
+
 Sample Document with Errors
 ###########################
 
+.. tags:: documentor, reference
 
 .. note::
 

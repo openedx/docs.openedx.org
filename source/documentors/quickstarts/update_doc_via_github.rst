@@ -1,5 +1,9 @@
+.. _Update Existing Docs Through GitHub:
+
 Quick Start: Update Existing Docs Through GitHub
 ################################################
+
+.. tags:: documentor, quickstart
 
 .. sidebar:: Edit Documentation Video Demo
 
@@ -47,3 +51,10 @@ Create a Pull Request for Your Change
 
 .. include:: ../how-tos/reusable_content/create_pull_request.txt
 
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

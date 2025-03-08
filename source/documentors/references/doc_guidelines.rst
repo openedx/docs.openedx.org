@@ -1,7 +1,9 @@
 .. _Documentor Guidelines:
 
-Getting Started
-###############
+Documentor Guidelines
+######################
+
+.. tags:: documentor, reference
 
 If you have developed a new feature, created an XBlock, or otherwise see that a topic is missing in this documentation, you can create one or more new pages in this document and submit a pull request to have the content added.  Follow the guidelines below.
 
@@ -36,3 +38,34 @@ Get Started
 When you have identified the audience(s) and content type(s) you need to address, we recommend that you follow the steps in :doc:`../quickstarts/quick_start_add_doc`.
 
 If you have questions as you go, we recommend asking the Open edX Documentation Slack channel.
+
+.. seealso::
+
+   :ref:`About Open edX Documentation Standards` (concept)
+
+   :ref:`Documentation Maintenance Process` (reference)
+
+   :ref:`Guidelines for Writing Global English` (reference)
+
+   :ref:`Open edX Documentation Writing Style Guide` (reference)
+
+   :ref:`Documentation Templates` (reference)
+   
+   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Audiences` (concept)
+
+   :ref:`Update An Existing Doc via GitHub` (how-to)
+
+   :ref:`Add New Documentation via GitHub` (how-to)
+
+   :ref:`Report a problem with the docs` (how-to)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
