@@ -6,7 +6,7 @@
 Glossary
 ########
 
-.. tags:: educator, reference
+.. tags:: educator, developer, operator, reference
 
 
 .. glossary::
@@ -379,7 +379,7 @@ Glossary
 
       See also :term:`CAPA Problem`.
 
-      Math Expression Input Problem
+   Math Expression Input Problem
       A problem that requires learners to enter a mathematical expression as text,
       such as e=m*c^2.
 
