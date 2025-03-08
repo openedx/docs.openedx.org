@@ -85,4 +85,4 @@ migrate to Tutor. This `Native Installation to Tutor forum post`_ may be helpful
 as may be `this second Native to Tutor post`_. If not, post on the `Open edX Forums`_.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

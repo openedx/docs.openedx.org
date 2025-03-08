@@ -193,4 +193,4 @@ upgrade from one Ginkgo release to another by re-running those steps using your
 desired Ginkgo tag as the new value for ``OPENEDX_RELEASE``.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

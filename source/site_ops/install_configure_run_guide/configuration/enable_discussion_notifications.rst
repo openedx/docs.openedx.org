@@ -60,4 +60,4 @@ of Open edX.
 
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

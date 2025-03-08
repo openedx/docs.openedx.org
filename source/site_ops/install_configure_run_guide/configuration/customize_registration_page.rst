@@ -64,4 +64,4 @@ To add custom fields to the registration page, follow these steps.
   page in `GitHub`_.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

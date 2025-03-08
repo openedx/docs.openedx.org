@@ -1,5 +1,5 @@
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst
 
 .. _Configuring ORA2 to Prohibit Submission of File Types:
 

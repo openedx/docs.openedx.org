@@ -87,4 +87,4 @@ To add a program, follow these steps.
 
 
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst

@@ -255,4 +255,4 @@ directories and files, see the GitHub repositories for `iOS`_ and `Android`_.
 
 #. Save the file.
 
-.. include:: ../../links/links.rst
+.. include:: /links.rst

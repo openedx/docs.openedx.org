@@ -399,6 +399,6 @@ will have been generated for eligible learners.
 #. You can then view the certificates in the ``certificates_generatedcertificate`` database table.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
 
 .. _edx/credentials: https://github.com/openedx/credentials

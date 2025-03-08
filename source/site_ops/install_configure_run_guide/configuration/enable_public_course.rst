@@ -121,4 +121,4 @@ including the following.
 
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
