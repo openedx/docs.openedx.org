@@ -6,7 +6,7 @@ Offering Different Content to Different Learner Groups
 
 .. tags:: educator, concept
 
-You can design your course so that some learners are given different content than others, based on the group that they belong to. Learners can be grouped either by :ref:`cohort<Cohort>`, or by the :ref:`enrollment track<enrollment_track_g>` that learners join for your course.
+You can design your course so that some learners are given different content than others, based on the group that they belong to. Learners can be grouped either by :term:`Cohort`, or by the :term:`Enrollment Track` that learners join for your course.
 
 This section provides information about offering differentiated content in your course.
 

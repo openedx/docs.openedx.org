@@ -6,7 +6,7 @@ Guide to Managing Divided Discussions
 .. tags:: educator, reference
 
 This section provides information about managing :ref:`discussions<About Course Discussions>`
-that are divided based on learner groups (:ref:`cohorts<Cohort>`).
+that are divided based on learner groups (:term:`Cohort`).
 
 For more information about divided discussions, see :ref:`About Divided
 Discussions`.

@@ -14,8 +14,8 @@ Assumptions
    how-tos if possible.
 
 * You know how to use Git
-* You have the Open edX Legacy Devstack_ setup and the LMS is running.
-* You are running Node 16.x.x
+* You have the `Tutor`_ setup and the LMS is running.
+* You are running Node 18.x.x
 
 Steps
 *****

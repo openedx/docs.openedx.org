@@ -53,7 +53,7 @@ For more information, see :ref:`Learner Data`.
 .. note::
  When you enroll learners in a course, all learners are automatically enrolled
  in the audit enrollment track. For more information about course enrollment
- tracks, see :ref:`enrollment track<enrollment_track_g>`.
+ tracks, see :term:`Enrollment Track`.
 
 .. _unenroll_student:
 
