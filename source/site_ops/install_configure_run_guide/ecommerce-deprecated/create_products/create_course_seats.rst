@@ -73,4 +73,4 @@ To create a course seat, follow these steps.
 
 #. Select **Create Course**.
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst

@@ -19,5 +19,5 @@ response assessment, see :ref:`Open Response Assessments Two`
 in the *Building and Running an Open edX Course* guide.
 
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst
 

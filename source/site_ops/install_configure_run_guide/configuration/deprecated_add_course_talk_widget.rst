@@ -55,4 +55,4 @@ To add the CourseTalk widget, follow these steps.
 #. In the right pane, verify that the CourseTalk widget appears below the
    course information panel.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

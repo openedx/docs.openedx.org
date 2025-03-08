@@ -229,4 +229,4 @@ edX user IDs found in reports or analytics back to these opaque organization
 user identifiers. Organization partners can then convert each opaque user
 identifier back to the official learner ID.
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst

@@ -54,4 +54,4 @@ site. Follow these steps to start the E-Commerce service.
    on port 8000.
 
 
-.. include:: ../../../../links/links.rst
+.. include:: /links.rst

@@ -158,4 +158,4 @@ upgrade from one Lilac release to another by re-running those steps using
 your desired Lilac tag as the new value for ``OPENEDX_RELEASE``.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

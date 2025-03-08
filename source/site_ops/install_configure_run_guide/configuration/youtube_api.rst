@@ -122,4 +122,4 @@ steps.
 
 #. Save and close the file.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

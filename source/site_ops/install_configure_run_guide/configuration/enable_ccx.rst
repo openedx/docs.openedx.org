@@ -29,4 +29,4 @@ Open edX, you must configure the ``server-vars.yml`` file in the edX platform.
 
 #. Restart the LMS server.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

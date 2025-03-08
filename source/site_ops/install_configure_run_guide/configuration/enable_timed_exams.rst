@@ -51,4 +51,4 @@ directory.
 #. Restart the Studio (CMS) and Learning Management System (LMS) processes so
    that your updates are loaded.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

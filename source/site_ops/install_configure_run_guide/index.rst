@@ -43,4 +43,4 @@ release.
    insights/index
    mobile-deprecated
 
-.. include:: ../../links/links.rst
+.. include:: /links.rst

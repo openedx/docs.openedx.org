@@ -49,4 +49,4 @@ using the Django administration console for your Open edX LMS.
        checkboxes.
     #. Select **Save**.
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

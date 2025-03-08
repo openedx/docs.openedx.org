@@ -99,4 +99,4 @@ After upgrading Open edX to the Cypress release, start the LMS and Studio and
 verify that course content and data was migrated correctly.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst

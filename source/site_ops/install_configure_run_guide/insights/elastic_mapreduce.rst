@@ -398,5 +398,5 @@ duplication. For more information, see the `edX Analytics Installation`_ wiki
 page.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
 

@@ -53,4 +53,4 @@ You can find more details on each of the methods below:
 
    tutor
 
-.. include:: ../../../links/links.rst
+.. include:: /links.rst
