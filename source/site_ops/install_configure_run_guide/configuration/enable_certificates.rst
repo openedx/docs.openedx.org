@@ -22,8 +22,8 @@ Organizations and course teams can choose to generate certificates for learners
 who pass a course. Learners can view, print, or share their certificates.
 
 For additional information about certificates, see
-:ref:`Setting Up Certificates` in the *Building and Running an
-Open edX Course* guide or :ref:`openlearners:Print a Web Certificate` in the
+:ref:`Manage Course Certificates` in the *Building and Running an
+Open edX Course* guide or :ref:`Print a Web Certificate` in the
 *Open edX Learner's Guide*.
 
 To enable course certificates on your instance of Open edX, you must enable a
@@ -69,7 +69,7 @@ Configuring Course Certificates in Studio
 Within Studio, course team members with the Admin role can create and edit a
 certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
-signature images for signatories. For details, :ref:`Setting Up
+signature images for signatories. For details, :ref:`Manage Course
 Certificates` in *Building and Running an Open edX Course*.
 
 
@@ -106,7 +106,7 @@ Configure Course Certificates for Your Open edX Instance
    follows.
 
    For more information about course modes, also called enrollment modes
-   or enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
+   or enrollment tracks, see :term:`Enrollment track`.
 
    .. code-block:: none
 
@@ -155,7 +155,7 @@ no longer be able to grant certificates to these learners. Learners can
 continue to audit courses, but they will not be able to earn a certificate.
 
 For more information about course tracks, also called enrollment modes or
-enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
+enrollment tracks, see :term:`Enrollment track`.
 
 
 *****************************************************
@@ -186,7 +186,7 @@ Assets for HTML certificates exist in the following locations.
   in creating certificates, such as images, fonts, and sass/css files.
 
   .. note:: The organization logo on a certificate is uploaded in Studio. For
-     details, see :ref:`Setting Up Certificates` in *Building
+     details, see :ref:`Manage Course Certificates` in *Building
      and Running an Open edX Course*.
 
 
@@ -323,7 +323,6 @@ these steps.
 
 #. Save your edits to the certificate template.
 
-
 .. _Enable Automatic Certificate Generation:
 
 ***************************************
@@ -399,6 +398,6 @@ will have been generated for eligible learners.
 #. You can then view the certificates in the ``certificates_generatedcertificate`` database table.
 
 
-.. include:: /links.rst
+.. include:: /links.txt
 
 .. _edx/credentials: https://github.com/openedx/credentials

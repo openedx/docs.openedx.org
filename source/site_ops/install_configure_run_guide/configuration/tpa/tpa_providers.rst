@@ -80,4 +80,4 @@ edX site and the system that is the LTI tool consumer. For more information,
 see :ref:`Options for LTI Authentication and User Provisioning` and
 :ref:`Configuring Open edX for LTI Authentication`.
 
-.. include:: /links.rst
+.. include:: /links.txt

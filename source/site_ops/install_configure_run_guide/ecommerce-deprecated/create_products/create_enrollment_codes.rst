@@ -61,4 +61,4 @@ link to a .csv file. The .csv file lists the enrollment codes.
 
 
 
-.. include:: /links.rst
+.. include:: /links.txt

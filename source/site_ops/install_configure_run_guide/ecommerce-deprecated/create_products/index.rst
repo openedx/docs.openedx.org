@@ -22,4 +22,4 @@ information, see the following topics.
    create_programs
    create_program_offers
 
-.. include:: /links.rst
+.. include:: /links.txt

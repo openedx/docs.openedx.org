@@ -132,4 +132,4 @@ steps.
    **Unlink** next to the LTI provider configuration name.
 
 
-.. include:: /links.rst
+.. include:: /links.txt

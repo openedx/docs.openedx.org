@@ -7,7 +7,7 @@ Creating Products Overview
 The edX platform offers several types of products. You create these products in
 E-Commerce web pages.
 
-* Course seats represent an :ref:`enrollment track<enrollment_track_g>`. Each
+* Course seats represent an :term:`Enrollment track`. Each
   course seat has an associated set of attributes, such as price and
   certificate availability. The edX code uses course seats to determine how a
   given enrollment should be handled. For more information, see :ref:`Create
@@ -54,4 +54,4 @@ site. Follow these steps to start the E-Commerce service.
    on port 8000.
 
 
-.. include:: /links.rst
+.. include:: /links.txt
