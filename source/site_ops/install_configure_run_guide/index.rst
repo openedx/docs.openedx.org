@@ -21,7 +21,6 @@ and documentation on docs.openedx.org will always reflect the latest release.
 release.
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    front_matter/index
@@ -32,7 +31,7 @@ release.
    ecommerce-solutions
    mobile
    feature_flags/feature_flag_index
-   glossary
+   /glossary
 
 .. hide outdated materials, but don't remove so links still work
 
