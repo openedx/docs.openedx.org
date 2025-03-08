@@ -1,4 +1,4 @@
-.. include:: /links.rst
+.. include:: /links.txt
 
 .. _Configuring ORA2 to Upload Files to Alternative Storage Systems:
 

@@ -28,7 +28,7 @@ teams are able to set up a course as either instructor-paced or self-paced in
 Studio.
 
 For information about how course teams set course pacing, see the
-:ref:`Set Schedule and Pacing` topic in the
+:ref:`Set Course Schedule` topic in the
 *Building and Running an Open edX Course* guide.
 
 .. Note::
@@ -49,4 +49,4 @@ using the Django administration console for your Open edX LMS.
        checkboxes.
     #. Select **Save**.
 
-.. include:: /links.rst
+.. include:: /links.txt

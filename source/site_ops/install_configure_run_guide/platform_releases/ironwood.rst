@@ -1,5 +1,3 @@
-.. _Open edX Ironwood Release:
-
 #########################
 Open edX Ironwood Release
 #########################
@@ -8,7 +6,7 @@ Open edX Ironwood Release
 
     This release is unsupported.
 
-    The `Open edX Named Releases page`_ and the `Open edX Releases Homepage`_ are the
+    The :ref:`Open edX Release Notes` and the :ref:`Open edX Release Notes` are the
     authoratative sources of information on all Open edX releases. It is *strongly*
     recommended to operate off the latest Open edX release at all points in time, as
     only the most recent release is community-supported.
@@ -41,7 +39,7 @@ A git tag identifies the version of Open edX code that is the Ironwood release.
 About two dozen repositories are tagged as part of an Open edX release. Many 
 other repositories are installed as dependencies of those repositories. You can 
 find the most up-to-date git tag for Ironwood on the
-`Open edX Named Releases page`_.
+:ref:`Open edX Release Notes`.
 
 *******************************
 Installing the Ironwood Release
@@ -52,7 +50,7 @@ You can install the Open edX Ironwood release using either
 Native Installation`_ instructions.
 
 Ironwood releases have git tag names like ``open-release/ironwood.1``.
-The available names are detailed on the `Open edX Named Releases page`_.
+The available names are detailed on the :ref:`Open edX Release Notes`.
 
 .. _upgrade_hawthorn:
 
@@ -161,4 +159,4 @@ upgrade from one Ironwood release to another by re-running those steps using
 your desired Ironwood tag as the new value for ``OPENEDX_RELEASE``.
 
 
-.. include:: /links.rst
+.. include:: /links.txt

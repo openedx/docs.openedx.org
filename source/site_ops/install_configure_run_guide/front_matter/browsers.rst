@@ -1,1 +1,5 @@
-.. include:: ../../../shared/browsers.rst
+########################
+Open edX Browser Support
+########################
+
+See :ref:`Browsers`

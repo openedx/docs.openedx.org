@@ -190,4 +190,4 @@ LMS
   * LMS implementation:
     ``lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator``
 
-.. include:: /links.rst
+.. include:: /links.txt

@@ -43,4 +43,4 @@ enable the XBlock for their courses. To do so, they add the name specified in
 the XBlock’s ``setup.py`` file to each course's advanced module list. For more
 information, see :ref:`Enable Additional Exercises and Tools`.
 
-.. include:: /links.rst
+.. include:: /links.txt

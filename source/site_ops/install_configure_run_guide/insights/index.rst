@@ -11,7 +11,7 @@ Adding edX Insights (Deprecated)
    of running analytics on your Open edX instance.
 
 The following topics provide information about installing, configuring, and
-running `edX Insights`_ and its dependencies in a production environment.
+running edX Insights and its dependencies in a production environment.
 
 .. toctree::
    :maxdepth: 1
@@ -24,5 +24,5 @@ progress. This section presents the introductory, overview material that is
 available now.
 
 
-.. include:: /links.rst
+.. include:: /links.txt
 

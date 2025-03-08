@@ -44,4 +44,4 @@ steps.
 
 
 
-.. include:: /links.rst
+.. include:: /links.txt

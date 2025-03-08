@@ -7,7 +7,7 @@ Installing, Configuring, and Running the Open edX Platform
 This guide provides instructions for using your own instance of the Open edX
 platform and associated applications.
 
-The most recent Open edX release will be found on the `Open edX Named Releases page`_.
+The most recent Open edX release will be found on the :ref:`Open edX Release Notes`.
 It is strongly recommended to use `Tutor`_ for both development and installation.
 It is also recommended to stay up-to-date with the latest Open edX release, as
 previous releases are unsupported by the community. See the `Open edX Release Schedule`_
@@ -42,4 +42,4 @@ release.
    insights/index
    mobile-deprecated
 
-.. include:: /links.rst
+.. include:: /links.txt

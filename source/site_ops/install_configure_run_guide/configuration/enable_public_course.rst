@@ -1,5 +1,3 @@
-.. _Enable Public Course Content:
-
 ####################################
 Enabling Public Course Content
 ####################################
@@ -121,4 +119,4 @@ including the following.
 
 
 
-.. include:: /links.rst
+.. include:: /links.txt
