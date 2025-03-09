@@ -7,7 +7,7 @@ Internationalization
    This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
 
 
-Follow the `internationalization coding guidelines`_ in the edX Developer's Guide when developing new features.
+Follow the :ref:`i18n` in the Open edX Developer's Guide when developing new features.
 
 Languages are enabled in the settings file, for example in ``ecommerce/settings/base.py``
 
@@ -76,7 +76,6 @@ look up `PayPal's country to language mapping`_ and add it to PAYPAL_LOCALES in 
 
 If a language fetched from the cookie cannot be found in PAYPAL_LOCALES, the LANGUAGE_CODE is used. If the LANGUAGE_CODE does not exist in PAYPAL_LOCALES, PayPal will use its own language negotiation.
 
-.. _internationalization coding guidelines: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/conventions/internationalization/i18n.html
 .. _Django's Locale Middleware: https://docs.djangoproject.com/en/2.0/topics/i18n/translation/#how-django-discovers-language-preference
 .. _PayPal's country to language mapping: https://developer.paypal.com/docs/classic/api/locale_codes/
 .. _Django documentation for Languages: https://docs.djangoproject.com/en/2.0/ref/settings/#languages
