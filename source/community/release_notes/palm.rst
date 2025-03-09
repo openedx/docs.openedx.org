@@ -3,9 +3,9 @@
 Open edX Palm Release - Developer & Operator Notes
 ##################################################
 
-These are the release notes for the Palm release, the 16th community release of the Open edX Platform, spanning changes from October 11, 2022, to April 11, 2023.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Palm release, the 16th community release of the Open edX Platform, spanning changes from October 11, 2022, to April 11, 2023.  You can also review details about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
+
 .. _Open edX Platform: https://openedx.org
 
 .. contents::
@@ -42,8 +42,7 @@ Ecommerce is still officially deprecated and we continue to work on the `Ecommer
 Developer changes
 =================
 
-The old developer documentation site has been deprecated and removed. Please use `Open edX Developers - Latest
-Documentation <https://docs.openedx.org/en/latest/developers/index.html>`_  instead.
+The old developer documentation site has been deprecated and removed. Please use :ref:`Developer's Home`  instead.
 
 The modules :code:`tutor.hooks.actions`, :code:`tutor.hooks.filters`, and :code:`tutor.hooks.contexts` are no longer
 part of the Tutor API. This change should not affect most developers, who only use the :code:`Actions` and

@@ -126,6 +126,10 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/openedx-filters/{rtd_language}/latest",
         None,
     ),
+    "edx-django-utils": (
+        f"https://docs.openedx.org/projects/edx-django-utils/{rtd_language}/latest",
+        None,
+    ),
 }
 
 # Add any paths that contain templates here, relative to this directory.

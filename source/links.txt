@@ -74,8 +74,6 @@
 
 .. _Jasmine: http://jasmine.github.io/2.3/introduction.html
 
-.. _edX JavaScript Style Guide: https://docs.openedx.org/en/latest/developers/references/developer_guide/style_guides/javascript-guidelines.html#javascript-style-guide
-
 .. _JSHint: http://www.jshint.com/
 
 .. _jscs: https://www.npmjs.org/package/jscs
@@ -83,12 +81,6 @@
 .. _Waffle: http://waffle.readthedocs.io/en/latest
 
 .. _Waffle documentation: http://waffle.readthedocs.io/en/latest
-
-.. _OEP-17 Feature Toggles: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0017-bp-feature-toggles.html
-
-.. _OEP-19 Developer Documentation: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0019-bp-developer-documentation.html
-
-.. _Conventional Commits: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0051-bp-conventional-commits.html
 
 .. _Open edX CLA: https://openedx.org/cla
 
@@ -335,8 +327,6 @@
 .. _spot pricing market: http://aws.amazon.com/ec2/purchasing-options/spot-instances/
 
 .. _edX Managing the Full Stack: https://github.com/openedx/configuration/wiki/edX-Managing-the-Full-Stack
-
-.. _edX Enrollment API: https://docs.openedx.org/projects/edx-platform/en/latest/references/lms_apis.html#get--enrollment-v1-course-course_id
 
 .. _edx-analytics-configuration: https://github.com/openedx/edx-analytics-configuration
 

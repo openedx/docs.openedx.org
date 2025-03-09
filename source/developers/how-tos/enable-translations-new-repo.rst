@@ -8,7 +8,7 @@ Enabling Translations on a New Repo
 Quickstart
 **********
 
-To enable translations on a new repository according to the `OEP-58 - Translations Management`_ proposal
+To enable translations on a new repository according to the :doc:`openedx-proposals:architectural-decisions/oep-0058-arch-translations-management`
 
 - Start from an up-to-date cookiecutter (`frontend-template-application`_ for Micro-frontends, `edx-cookiecutters`_
   for Python)
@@ -249,7 +249,6 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 .. _edx-cookiecutters:  https://github.com/openedx/edx-cookiecutters
 .. _frontend-template-application: https://github.com/openedx/frontend-template-application
 .. _frontend-template-application Makefile: https://github.com/openedx/frontend-template-application/blob/master/Makefile
-.. _OEP-58 - Translations Management: https://docs.openedx.org/projects/openedx-proposals/en/latest/architectural-decisions/oep-0058-arch-translations-management.html
 .. _extract-translation-source-files.yml: https://github.com/openedx/openedx-translations/blob/2566e0c9a30d033e5dd8d05d4c12601c8e37b4ef/.github/workflows/extract-translation-source-files.yml#L36-L43
 .. _Transifex GitHub App sync logs: https://github.apps.transifex.com/projects/o:open-edx:p:openedx-translations/openedx/openedx-translations
 .. _cookiecutter-django-ida: https://github.com/openedx/edx-cookiecutters/tree/master/cookiecutter-django-ida

@@ -1,3 +1,5 @@
+.. _Developer's Home:
+
 Open edX Developers
 ###################
 
