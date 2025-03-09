@@ -4,6 +4,8 @@
 Enable and Create Enrollment Codes
 #####################################
 
+.. tags:: site operator
+
 Enrollment codes allow users to purchase bulk enrollments for a course.
 
 .. note::

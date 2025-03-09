@@ -4,6 +4,8 @@
 Open edX Tutor Installation
 ###########################
 
+.. tags:: site operator
+
 Tutor is the community-supported installation method as of Lilac.
 
 In order to avoid unnecessary duplication of information, please refer to the

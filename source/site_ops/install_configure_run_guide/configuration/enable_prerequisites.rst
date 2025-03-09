@@ -4,6 +4,8 @@
 Enabling Course Prerequisites
 #############################
 
+.. tags:: site operator
+
 This topic describes how to enable course prerequisites in your instance of
 Open edX.
 

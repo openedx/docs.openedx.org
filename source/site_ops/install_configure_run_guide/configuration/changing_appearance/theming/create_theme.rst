@@ -4,6 +4,8 @@
 Creating a Theme
 ################
 
+.. tags:: site operator
+
 To create a theme, you add a theme directory to the installation-wide themes
 directory that you added when you enabled theming for your Open edX
 installation. Then, you copy default UI files into your theme directory and

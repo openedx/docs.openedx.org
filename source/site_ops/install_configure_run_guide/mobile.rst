@@ -4,6 +4,8 @@
 Setting Up the Open edX Mobile Applications
 ############################################
 
+.. tags:: site operator
+
 This section is intended for those are who are building Open edX mobile
 applications and customizing an Open edX installation to support their use.
 

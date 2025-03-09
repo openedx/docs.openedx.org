@@ -4,6 +4,8 @@
 Gating E-Commerce Service Features
 ####################################
 
+.. tags:: site operator
+
 You can release new E-Commerce service features and functionality behind a
 feature gate. This project uses the `Waffle`_ library for feature gating.
 

@@ -4,6 +4,8 @@
 Integrating Third Party Authentication in Open edX
 ##################################################
 
+.. tags:: site operator
+
 For the Open edX platform, you complete two steps to integrate third party
 authentication.
 

@@ -4,6 +4,8 @@
 Root Directories for Theme Files
 #################################
 
+.. tags:: site operator
+
 Themes are located outside of the Open edX source directories, in any location
 you like. For example, you might make a directory called
 ``/my-open-edx-themes``.

@@ -4,6 +4,8 @@
 Configuring the Open edX Platform
 ######################################################
 
+.. tags:: site operator
+
 The following sections provide information about Open edX Platform
 configuration options.
 

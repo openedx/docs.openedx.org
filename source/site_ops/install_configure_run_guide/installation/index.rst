@@ -4,6 +4,8 @@
 Installing and Starting the Open edX Platform
 #############################################
 
+.. tags:: site operator
+
 This section provides information about options for installing and
 starting the Open edX platform.
 

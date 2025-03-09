@@ -4,6 +4,8 @@
 Tracking Data
 ###################
 
+.. tags:: site operator
+
 The E-Commerce service uses `Segment`_ to collect business intelligence data.
 
 To emit events to your Segment project, specify your Segment project's API key

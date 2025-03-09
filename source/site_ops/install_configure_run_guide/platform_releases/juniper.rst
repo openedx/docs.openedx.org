@@ -2,6 +2,8 @@
 Open edX Juniper Release
 #########################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.

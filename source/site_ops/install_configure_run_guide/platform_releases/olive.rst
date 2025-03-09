@@ -2,6 +2,8 @@
 Open edX Olive Release
 ######################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.

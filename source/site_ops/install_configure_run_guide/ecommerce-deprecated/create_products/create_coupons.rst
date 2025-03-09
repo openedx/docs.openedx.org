@@ -4,6 +4,8 @@
 Create and Manage Coupons
 ##################################
 
+.. tags:: site operator
+
 This topic covers how to create and distribute coupons and their associated
 coupon codes. You can use coupons to provide discounted or free course
 enrollments, also called "course seats", to your learners.

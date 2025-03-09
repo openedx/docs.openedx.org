@@ -4,6 +4,8 @@
 About Programs
 ################
 
+.. tags:: site operator
+
 Programs are collections of related courses that you make available on your
 marketing site. Each program is of a particular type.
 

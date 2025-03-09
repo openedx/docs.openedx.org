@@ -4,6 +4,8 @@
 Compiling a Theme
 #######################
 
+.. tags:: site operator
+
 To update a theme, you compile the Sass files to create the CSS files that
 style your UI when you apply the theme.
 

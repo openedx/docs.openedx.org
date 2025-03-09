@@ -4,6 +4,8 @@
 Third Party Auth ID Mapping API
 ###############################
 
+.. tags:: site operator
+
 Open edX has an API that can be used to retrieve the association between Open
 edX user IDs and the unique user identifiers sent by the external platform.
 

@@ -4,6 +4,8 @@
 Enabling Entrance Exams
 ########################
 
+.. tags:: site operator
+
 This topic describes how to enable entrance exams in your instance of Open
 edX.
 

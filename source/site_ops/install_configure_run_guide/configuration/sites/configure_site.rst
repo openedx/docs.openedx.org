@@ -4,6 +4,8 @@
 Configuring Sites Independently
 #################################
 
+.. tags:: site operator
+
 You can set configuration properties independently for individual sites. The
 values that you define for individual sites override the default values that
 are present in the ``studio.yml`` or ``lms.yml`` files. For example, you
