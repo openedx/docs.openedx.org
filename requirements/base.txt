@@ -116,7 +116,7 @@ sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-starlette==0.46.0
+starlette==0.46.1
     # via sphinx-autobuild
 typing-extensions==4.12.2
     # via
