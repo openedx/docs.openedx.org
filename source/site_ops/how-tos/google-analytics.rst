@@ -1,6 +1,8 @@
 Configuring Google Analytics
 ############################
 
+.. tags:: site operator, how-to
+
 As of May 2023 edx-platform supports Google Analytics 4 and the deprecated Google Universal Analytics.
 Google Universal Analytics is being turned off for all customer who don't have the paid service "Google
 Analytics 360" on July 1, 2023.

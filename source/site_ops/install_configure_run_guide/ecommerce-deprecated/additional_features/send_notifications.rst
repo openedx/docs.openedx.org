@@ -6,6 +6,9 @@ Sending Notifications
 
 .. tags:: site operator
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 The edX E-Commerce service uses the `Communications API`_ that is part of
 `Oscar`_ to create and send notifications in the form of email messages. To
 send notifications, you must set up notifications, create one or more email

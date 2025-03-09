@@ -3,6 +3,8 @@
 Open edX Analytics Options
 ##########################
 
+.. tags:: site operator
+
 As of the Sumac release, the Open edX community supports the
 following Analytics solutions:
 

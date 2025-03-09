@@ -1,6 +1,8 @@
 How to Enable a Waffle Flag for a User
 #######################################
 
+.. tags:: site operator, how-to
+
 Follow these steps to enable a waffle flag for a single user. This may be useful in certain situations, such as internal testing or limited releases:
 
 #. Get the LMS User ID, via a database query or other methods if you have them.

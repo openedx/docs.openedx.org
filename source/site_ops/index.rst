@@ -1,6 +1,8 @@
 Open edX Site Operators
 #######################
 
+.. tags:: site operator
+
 .. note::
 
    This area is still under active development.

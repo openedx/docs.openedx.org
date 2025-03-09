@@ -1,6 +1,7 @@
 Site Operators: Concepts
 ########################
 
+.. tags:: site operator, concept
 
 Maintenance Chart
 

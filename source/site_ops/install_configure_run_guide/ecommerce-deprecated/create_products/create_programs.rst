@@ -6,6 +6,9 @@ About Programs
 
 .. tags:: site operator
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 Programs are collections of related courses that you make available on your
 marketing site. Each program is of a particular type.
 
