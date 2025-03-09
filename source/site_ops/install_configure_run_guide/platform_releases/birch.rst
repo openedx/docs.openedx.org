@@ -92,3 +92,12 @@ After upgrading Open edX to the Birch release, run the edX Platform and verify
 that course content and data was migrated correctly.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

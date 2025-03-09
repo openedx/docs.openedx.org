@@ -69,3 +69,12 @@ To specify the email patterns that are allowed for registration, follow these st
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
 #. Restart your ``edxapp`` instances.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

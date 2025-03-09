@@ -29,3 +29,12 @@ data if one of your usual processors is unavailable.
 .. Moved globalization.rst to desktop/Works In Progress folder, pending
 .. possible move to ICRV.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

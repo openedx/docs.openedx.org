@@ -403,3 +403,12 @@ will have been generated for eligible learners.
 .. include:: /links.txt
 
 .. _edx/credentials: https://github.com/openedx/credentials
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

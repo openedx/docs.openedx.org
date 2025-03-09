@@ -43,3 +43,11 @@ for more about Frontend Plugin Slots and their usage.
    :doc:`/community/release_notes/sumac/customizing_header`
 
    :doc:`/community/release_notes/sumac/customizing_learner_dashboard`
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

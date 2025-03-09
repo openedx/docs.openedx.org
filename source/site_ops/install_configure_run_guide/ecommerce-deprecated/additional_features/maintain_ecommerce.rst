@@ -35,3 +35,12 @@ To delete one or more baskets, follow these steps.
    .. code-block:: bash
 
      $ ./manage.py delete_ordered_baskets --commit
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

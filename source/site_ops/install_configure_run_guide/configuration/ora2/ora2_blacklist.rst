@@ -46,3 +46,12 @@ To add or remove file types from the blacklist, follow these steps.
 #. Restart the Studio (CMS) and Learning Management System (LMS) processes so
    that your updates are loaded.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

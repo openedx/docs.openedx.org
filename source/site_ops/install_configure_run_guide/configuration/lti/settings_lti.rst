@@ -35,3 +35,12 @@ To change the interval for returning aggregated grades, follow these steps.
 
 #. Restart the Learning Management System processes so that the
    updated environment configurations are loaded.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

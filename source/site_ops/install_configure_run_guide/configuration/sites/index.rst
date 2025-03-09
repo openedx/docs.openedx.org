@@ -30,3 +30,12 @@ name ``arts.myuniversity.edu`` and another site with the domain name
 
 For more information about themes, see :ref:`Theming Open edX`.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -80,3 +80,12 @@ If a language fetched from the cookie cannot be found in PAYPAL_LOCALES, the LAN
 .. _Django documentation for Languages: https://docs.djangoproject.com/en/2.0/ref/settings/#languages
 
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

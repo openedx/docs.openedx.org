@@ -37,3 +37,12 @@ site looks, without changing how it works.
 
 In addition, an `example theme <https://github.com/openedx/sample-themes>`_ is
 available for review.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

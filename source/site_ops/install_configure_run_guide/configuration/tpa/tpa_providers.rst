@@ -83,3 +83,12 @@ see :ref:`Options for LTI Authentication and User Provisioning` and
 :ref:`Configuring Open edX for LTI Authentication`.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

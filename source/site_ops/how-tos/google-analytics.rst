@@ -95,3 +95,12 @@ MFE pages
 
 .. image:: /_images/site_ops_how_tos/ga4_mfe_snippet_2.png
   :alt: A screenshot of the source code showing where to locate the GA4 snippet.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

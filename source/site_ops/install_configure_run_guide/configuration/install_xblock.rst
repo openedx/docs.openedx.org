@@ -46,3 +46,12 @@ the XBlock’s ``setup.py`` file to each course's advanced module list. For more
 information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

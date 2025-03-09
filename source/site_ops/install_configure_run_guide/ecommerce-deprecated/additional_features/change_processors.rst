@@ -33,3 +33,12 @@ payment processors they control.
 In the unlikely event that all payment processors are disabled, the LMS will
 display an informative error message explaining why payment is not currently
 possible.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

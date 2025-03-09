@@ -59,3 +59,12 @@ also satisfy legal requirements or privacy concerns.
 After you configure your edX instance as an LTI tool provider, you can
 :ref:`configure Open edX user authentication<Configuring Open edX for LTI
 Authentication>` between your Open edX system and the tool consumer.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

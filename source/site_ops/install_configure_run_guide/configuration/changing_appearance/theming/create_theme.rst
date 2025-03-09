@@ -113,3 +113,12 @@ subdirectories, you can apply the theme to both the LMS and Studio.
     After you create or make changes to a theme, you must update the theme.
     Updating a theme compiles Sass files to create the CSS files that style
     your UI. For more information, see :ref:`Compiling a Theme`.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
