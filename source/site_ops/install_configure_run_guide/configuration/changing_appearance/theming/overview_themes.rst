@@ -4,6 +4,8 @@
 Themes Overview
 ###################
 
+.. tags:: site operator
+
 After you configure one or more sites for your Open edX installation, including
 their domain and platform names, you can set up a theme to use for each site.
 

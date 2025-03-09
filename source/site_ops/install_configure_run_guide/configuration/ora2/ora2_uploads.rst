@@ -6,6 +6,8 @@
 Configuring ORA2 to Upload Files to Alternative Storage Systems
 ###############################################################
 
+.. tags:: site operator
+
 By default, the Open Response Assessment (ORA2) application stores files that
 learners upload in an Amazon S3 bucket.
 

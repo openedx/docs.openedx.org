@@ -4,6 +4,8 @@
 Maintaining the E-Commerce Service
 ####################################
 
+.. tags:: site operator
+
 Most of the time, you do not have to perform maintenance on the E-Commerce
 service. However, E-Commerce creates **basket** objects to track products that
 users want to purchase before users place an order. As more baskets and orders

@@ -4,6 +4,8 @@
 Adding Custom Fields to the Registration Page
 #############################################
 
+.. tags:: site operator
+
 This topic describes how to add custom fields to the registration page for your
 instance of Open edX.
 

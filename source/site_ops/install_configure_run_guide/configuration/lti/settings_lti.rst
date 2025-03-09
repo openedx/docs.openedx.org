@@ -4,6 +4,8 @@
 Define an Interval for Grade Aggregation (Optional)
 ####################################################
 
+.. tags:: site operator
+
 When an external LMS links to problem components in a graded edX subsection,
 the edX system grades the answers to those problems, and then transfers the
 grades back to the external LMS.

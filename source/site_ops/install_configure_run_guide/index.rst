@@ -4,6 +4,8 @@
 Installing, Configuring, and Running the Open edX Platform
 ###########################################################
 
+.. tags:: site operator
+
 This guide provides instructions for using your own instance of the Open edX
 platform and associated applications.
 

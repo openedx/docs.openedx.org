@@ -4,6 +4,8 @@
 Adding edX Insights (Deprecated)
 #####################################
 
+.. tags:: site operator
+
 .. note::
 
    The edX Insights service is deprecated and no longer supported by the Open

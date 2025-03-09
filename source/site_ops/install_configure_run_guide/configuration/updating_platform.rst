@@ -4,6 +4,8 @@
 Guidelines for Updating the Open edX Platform
 ######################################################
 
+.. tags:: site operator
+
 When you update the Open edX Platform, you should not change configuration
 files on a running server. Doing so can result in unpredictable problems.
 

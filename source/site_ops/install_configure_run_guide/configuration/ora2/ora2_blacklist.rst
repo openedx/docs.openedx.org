@@ -7,6 +7,8 @@
 Prohibiting Submission of Specified File Types
 ###############################################################
 
+.. tags:: site operator
+
 Course teams can configure open response assessments so that learners can
 upload files along with their text responses. During the peer review stage of
 the assessment, other learners download the submitted file and read the

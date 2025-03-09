@@ -4,6 +4,8 @@
 Deprecated Open edX Mobile Applications
 ############################################
 
+.. tags:: site operator
+
 .. warning::
    The following instructions refer to the older, now unsupported,
    mobile applications. They were last supported in the Quince release.

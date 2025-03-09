@@ -4,6 +4,8 @@
 Configuring Transcript Behavior
 ####################################
 
+.. tags:: site operator
+
 As a best practice, transcripts should always be provided, so that course
 videos meet accessibility requirements. Video transcripts are displayed in the
 language selected by the learner in the video player if they are available in

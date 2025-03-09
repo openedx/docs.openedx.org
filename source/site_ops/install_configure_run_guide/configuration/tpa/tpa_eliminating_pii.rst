@@ -4,6 +4,8 @@
 Eliminating PII From Third-Party Authentication
 ###############################################
 
+.. tags:: site operator
+
 Open edX sites and Open edX Edge do not require any personally identifiable
 information (PII) about learners during third-party authentication. PII is
 information that can be used to reveal an individual's identity, such as a

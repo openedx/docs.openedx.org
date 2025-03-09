@@ -4,6 +4,8 @@
 Enabling and Applying Themes
 ##############################
 
+.. tags:: site operator
+
 You must enable the use of themes for your Open edX installation before you can
 apply themes to your Open edX sites. If your installation has only one site,
 you apply a theme to that default site.

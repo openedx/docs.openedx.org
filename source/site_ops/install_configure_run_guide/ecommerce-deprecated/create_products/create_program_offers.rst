@@ -4,6 +4,8 @@
 Create Program Offers
 #####################
 
+.. tags:: site operator
+
 Program offers are discounts, either percentage or fixed amount discounts, that
 apply to a specific program. When a program offer is active for a program, the
 program's price appears discounted both on the program's purchase button and on

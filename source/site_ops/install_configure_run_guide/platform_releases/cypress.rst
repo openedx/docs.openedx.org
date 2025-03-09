@@ -2,6 +2,8 @@
 Open edX Cypress Release
 ########################################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.

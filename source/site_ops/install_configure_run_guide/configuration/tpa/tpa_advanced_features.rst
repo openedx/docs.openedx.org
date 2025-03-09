@@ -4,6 +4,8 @@
 Advanced Third Party Authentication Features
 ############################################
 
+.. tags:: site operator
+
 The Open edX Third Party Authentication feature offers many advanced
 configuration options and integration points that can be used to customize the
 sign in experience for learners using specific third party providers. None of

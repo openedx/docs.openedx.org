@@ -4,6 +4,8 @@
 Sending Notifications
 #######################
 
+.. tags:: site operator
+
 The edX E-Commerce service uses the `Communications API`_ that is part of
 `Oscar`_ to create and send notifications in the form of email messages. To
 send notifications, you must set up notifications, create one or more email

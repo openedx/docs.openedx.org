@@ -2,6 +2,8 @@
 Open edX Dogwood Release
 ########################################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.

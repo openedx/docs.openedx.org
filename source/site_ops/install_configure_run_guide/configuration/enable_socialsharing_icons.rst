@@ -4,6 +4,8 @@
 Enabling Social Sharing of Courses and Certificates
 #######################################################
 
+.. tags:: site operator
+
 This section describes how to configure Open edX so that learners can share
 their certificates, and so course teams can enable learners to share their
 courses on social media.

@@ -4,6 +4,8 @@
 Options for LTI Authentication and User Provisioning
 ########################################################
 
+.. tags:: site operator
+
 When you use your Open edX system as an LTI tool provider, data is collected by
 the Open edX system for all learner activity. Each learner has a user account
 on the Open edX system that is linked to the user account on the tool consumer

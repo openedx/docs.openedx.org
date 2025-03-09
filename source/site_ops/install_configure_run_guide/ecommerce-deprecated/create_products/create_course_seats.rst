@@ -4,6 +4,8 @@
 Create Course Seats
 ####################
 
+.. tags:: site operator
+
 A course seat represents an enrollment track, sometimes called an enrollment
 mode. For information about the enrollment tracks that edX offers, see
 :term:`Enrollment track`.

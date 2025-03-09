@@ -4,6 +4,8 @@
 Integrating with an OAuth2 Identity Provider
 ###############################################
 
+.. tags:: site operator
+
 Open edX has specific instructions for Google, Facebook, LinkedIn, and Azure
 Active Directory. For more information about how to set up one or more of these
 integrations, see :ref:`Common OAuth2 Providers`.

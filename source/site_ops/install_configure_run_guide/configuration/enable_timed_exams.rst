@@ -2,6 +2,8 @@
 Enabling Timed Exams
 #############################
 
+.. tags:: site operator
+
 This topic describes how to enable the timed exams feature in your instance of
 Open edX.
 

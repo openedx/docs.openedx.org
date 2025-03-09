@@ -4,6 +4,8 @@
 Configuring an edX Instance as an LTI Tool Provider
 ########################################################
 
+.. tags:: site operator
+
 You can configure your edX instance to be a learning tool interoperability
 (LTI) provider to other systems and applications. You can use this LTI
 capability to present content from an edX course in any application that is

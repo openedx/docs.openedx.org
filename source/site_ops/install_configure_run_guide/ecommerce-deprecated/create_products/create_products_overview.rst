@@ -4,6 +4,8 @@
 Creating Products Overview
 ###########################
 
+.. tags:: site operator
+
 The edX platform offers several types of products. You create these products in
 E-Commerce web pages.
 

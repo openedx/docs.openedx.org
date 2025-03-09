@@ -4,6 +4,8 @@
 Configuring your Open edX Site as a SAML Service Provider
 ###############################################################
 
+.. tags:: site operator
+
 The first step in configuring your Open edX site to act as a SAML SP is
 to create a credential key pair to ensure secure data transfers with identity
 providers. To complete the configuration procedure, you configure your Open edX
