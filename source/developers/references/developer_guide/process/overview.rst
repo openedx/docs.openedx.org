@@ -35,4 +35,4 @@ questions or concerns.
 * :ref:`Accessibility Guidelines`
 * :ref:`analytics`
 
-.. include:: ../links.rst
+.. include:: /links.txt
