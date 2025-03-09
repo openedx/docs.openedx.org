@@ -3,9 +3,9 @@
 Open edX Lilac Release
 ######################
 
-These are the release notes for the Lilac release, the 12th community release of the Open edX Platform, spanning changes from November 12 2020 to April 9 2021.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Lilac release, the 12th community release of the Open edX Platform, spanning changes from November 12 2020 to April 9 2021.  You can also review details about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
+
 .. _Open edX Platform: https://open.edx.org
 
 .. contents::
@@ -59,7 +59,7 @@ When a learner reaches the end of the course, they will see a new navigation but
 
 The 3-day Streak Milestone is live and celebrates learners who engage with their course on 3 consecutive days. It also provides normative insights into how learners’ behavior connects to successful course outcomes. (TBD Image)
 
-See https://docs.openedx.org/projects/edx-platform/en/latest/featuretoggles.html#featuretoggle-FEATURES['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
+See :ref:`edx-platform:featuretoggles` ['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
 
 Mobile Experience
 =================
@@ -154,7 +154,7 @@ Course Upsell Messaging and Payment
 Settings and Toggles Documentation
 ==================================
 
-Documentation for settings and toggles is much improved, but still incomplete. See https://docs.openedx.org/projects/edx-platform/en/latest/index.html
+Documentation for settings and toggles is much improved, but still incomplete. See :ref:`edx-platform:featuretoggles`.
 
 New settings introduced in Lilac include:
 

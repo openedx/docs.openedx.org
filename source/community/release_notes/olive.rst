@@ -3,9 +3,9 @@
 Open edX Olive Release
 ######################
 
-These are the release notes for the Olive release, the 15th community release of the Open edX Platform, spanning changes from April 11 2022 to October 11 2022.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Olive release, the 15th community release of the Open edX Platform, spanning changes from April 11 2022 to October 11 2022.  You can also review details about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
+
 .. _Open edX Platform: https://openedx.org
 
 .. contents::
