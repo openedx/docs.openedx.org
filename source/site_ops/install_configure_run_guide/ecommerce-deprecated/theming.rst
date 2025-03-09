@@ -312,3 +312,12 @@ overrides, check the following areas.
 
 * The theme dir name is the name of the directory of your theme. For example,
   for our ongoing example, ``my-theme`` is the correct theme dir name.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

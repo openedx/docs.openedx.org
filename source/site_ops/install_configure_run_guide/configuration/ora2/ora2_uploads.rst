@@ -31,3 +31,12 @@ files stored in a system other than Amazon S3, follow these steps.
 #. Configure ORA2 to use the alternative storage system by modifying the value
    of ``ORA2_FILEUPLOAD_BACKEND`` in the Django settings to point to your
    implementation of ``BaseBackend``.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

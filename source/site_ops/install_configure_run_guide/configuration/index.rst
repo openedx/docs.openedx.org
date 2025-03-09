@@ -40,3 +40,12 @@ configuration options.
    static_replace/cdn
    enable_weekly_learning_goals
    retrieve_extended_profile_metadata
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

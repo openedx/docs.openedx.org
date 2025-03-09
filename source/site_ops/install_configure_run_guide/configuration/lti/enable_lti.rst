@@ -39,3 +39,12 @@ presence of the following database tables.
   lti_provider_outcomeservice
 
 If these tables are not present, check that the migrations have run properly.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

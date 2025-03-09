@@ -21,3 +21,12 @@ files are not found, then Open edX looks in the default location.
 
 For more information about Open edX sites, see :ref:`Configuring Open edX
 Sites`.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

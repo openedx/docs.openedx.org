@@ -18,3 +18,12 @@ If you need to change settings on a running server, take the following steps.
 #. Decommission the old server.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

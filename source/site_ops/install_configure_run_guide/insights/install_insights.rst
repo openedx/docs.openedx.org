@@ -247,3 +247,12 @@ another server. A MySQL database is deployed to a server that is configured to
 host a relational database.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

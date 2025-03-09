@@ -232,3 +232,12 @@ user identifiers. Organization partners can then convert each opaque user
 identifier back to the official learner ID.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -15,3 +15,11 @@ See the `Open edX Release Schedule`_ for information on release dates and end-of
 support.
 
 .. include:: /links.txt
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

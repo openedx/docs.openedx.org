@@ -168,3 +168,12 @@ To verify that the SAML authentication backend is loaded on a devstack or
 fullstack installation, review the ``/edx/app/edxapp/lms.yml`` file.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

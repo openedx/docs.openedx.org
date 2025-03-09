@@ -93,3 +93,12 @@ To update a theme for the E-commerce service, follow these steps.
         CSS files.  Enabling this argument can be useful when you are testing a
         theme.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
