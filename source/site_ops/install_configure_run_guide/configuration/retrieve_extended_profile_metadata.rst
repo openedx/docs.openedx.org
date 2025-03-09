@@ -4,6 +4,8 @@
 Retrieving Extended Profile Metadata
 #####################################
 
+.. tags:: site operator
+
 This topic describes how an Open edX Administrator can configure their system to
 retrieve extended profile metadata stored as part of a user's profile.
 

@@ -4,6 +4,8 @@
 Styling Drag and Drop Problems (deprecated)
 ############################################
 
+.. tags:: site operator
+
 You can customize the appearance of drag and drop problems in your Open edX
 site using custom Cascading Style Sheet (CSS) files. The style that you
 configure applies to all drag and drop problems in all courses.

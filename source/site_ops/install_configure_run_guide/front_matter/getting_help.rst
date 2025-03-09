@@ -4,6 +4,8 @@
 Getting Help
 ############
 
+.. tags:: site operator
+
 This section describes resources for getting help if you need technical
 assistance during the installation process or after your site is running.
 

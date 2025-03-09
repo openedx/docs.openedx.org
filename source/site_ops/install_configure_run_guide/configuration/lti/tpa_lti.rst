@@ -4,6 +4,8 @@
 Configuring Open edX User Authentication for LTI
 ###############################################################
 
+.. tags:: site operator
+
 Every learner who accesses content on an Open edX system must have a user
 account. The Open edX system uses the accounts to collect data for learner
 interactions with course content.

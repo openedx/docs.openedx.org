@@ -2,6 +2,8 @@
 Read Me
 #########
 
+.. tags:: site operator
+
 The *Installing and Configuring the Open edX Platform* documentation is created
 using RST_ files and Sphinx_. As a member of the community, you can help update
 and revise this documentation project on GitHub.

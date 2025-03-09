@@ -2,6 +2,8 @@
 General Information
 #############################
 
+.. tags:: site operator
+
 .. toctree::
    :maxdepth: 2
 

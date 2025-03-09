@@ -4,6 +4,8 @@
 Enabling the Weekly Learning Goals Feature
 ##########################################
 
+.. tags:: site operator
+
 .. contents::
    :local:
    :depth: 1

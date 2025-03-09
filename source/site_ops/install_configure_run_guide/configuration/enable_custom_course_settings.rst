@@ -4,6 +4,8 @@
 Enabling Custom Course Settings
 ####################################
 
+.. tags:: site operator
+
 To enable course developers to add custom fields to a course on your instance 
 of Open edX, you must configure the ``studio.yml`` file in the edX platform.
 

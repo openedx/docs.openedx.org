@@ -4,6 +4,8 @@
 Enabling Course and Video Licensing
 ####################################
 
+.. tags:: site operator
+
 This topic describes how to enable licensing in your instance of Open edX.
 
 .. contents::

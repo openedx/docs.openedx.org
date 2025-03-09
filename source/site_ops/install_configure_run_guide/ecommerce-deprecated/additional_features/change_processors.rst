@@ -4,6 +4,8 @@
 Changing Payment Processors
 #############################
 
+.. tags:: site operator
+
 
 Payment processors sometimes experience temporary outages. When these outages
 occur, you can use Waffle switches to disable the faulty payment processor or

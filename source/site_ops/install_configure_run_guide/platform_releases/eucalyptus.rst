@@ -2,6 +2,8 @@
 Open edX Eucalyptus Release
 ########################################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.

@@ -4,6 +4,8 @@
 Enabling Course Certificates
 ############################
 
+.. tags:: site operator
+
 This topic describes how to enable and configure course certificates in your
 instance of Open edX.
 

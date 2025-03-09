@@ -4,6 +4,8 @@
 Changing the Appearance of Open edX Sites
 ######################################################
 
+.. tags:: site operator
+
 This section describes how you can customize your Open edX sites to change the
 way they look.
 

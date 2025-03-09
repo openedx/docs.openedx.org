@@ -4,6 +4,8 @@
 Enabling Open edX Search
 #########################
 
+.. tags:: site operator
+
 You can add a search feature to your Open edX site so that prospective learners
 can find courses more easily. When a learner searches for a key word or words,
 the search feature returns a list of the courses that are currently open for

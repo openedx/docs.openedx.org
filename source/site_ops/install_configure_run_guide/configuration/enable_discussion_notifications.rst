@@ -4,6 +4,8 @@
 Enabling Discussion Notifications
 ##########################################
 
+.. tags:: site operator
+
 You can set up notifications that learners receive the first time that anyone
 adds a response to a discussion post that they have made.
 

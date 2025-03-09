@@ -4,6 +4,8 @@
 Enabling Self-Paced Courses
 #############################
 
+.. tags:: site operator
+
 This topic describes how to enable the self-paced courses feature in your
 instance of Open edX.
 

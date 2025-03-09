@@ -4,6 +4,8 @@
 Open edX Platform Releases
 ##########################
 
+.. tags:: site operator
+
 The following sections provide information about releases of the Open edX
 platform:
 

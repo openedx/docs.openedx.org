@@ -4,6 +4,8 @@
 Specifying Allowed Registration Email Patterns
 ################################################
 
+.. tags:: site operator
+
 This topic describes how to restrict registration on your site by specifying
 which email address patterns are allowed in registration emails.
 
