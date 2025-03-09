@@ -4,6 +4,8 @@
 Configuring Credentials for a Tool Consumer
 ###############################################################
 
+.. tags:: site operator
+
 For each external learning management system or application (external LMS) that
 you want to allow access to your edX instances as an LTI tool consumer, you
 create OAuth1 credentials, and then configure your edX instance to allow
@@ -102,3 +104,12 @@ follow these steps.
 #. Select **Save** at the bottom of the page.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -4,6 +4,8 @@
 Compiling a Theme
 #######################
 
+.. tags:: site operator
+
 To update a theme, you compile the Sass files to create the CSS files that
 style your UI when you apply the theme.
 
@@ -91,3 +93,12 @@ To update a theme for the E-commerce service, follow these steps.
         CSS files.  Enabling this argument can be useful when you are testing a
         theme.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

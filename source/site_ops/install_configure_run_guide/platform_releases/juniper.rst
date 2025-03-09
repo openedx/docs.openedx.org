@@ -2,6 +2,8 @@
 Open edX Juniper Release
 #########################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.
@@ -144,3 +146,12 @@ your desired Juniper tag as the new value for ``OPENEDX_RELEASE``.
 
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this release is unsupported |
++--------------+-------------------------------+----------------+------------------------------------+

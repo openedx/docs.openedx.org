@@ -4,6 +4,8 @@
 Options for Installing edX Insights (Deprecated)
 #################################################
 
+.. tags:: site operator
+
 .. note::
 
    The edX Insights service is deprecated and no longer supported by the Open
@@ -245,3 +247,12 @@ another server. A MySQL database is deployed to a server that is configured to
 host a relational database.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this component is deprecated|
++--------------+-------------------------------+----------------+------------------------------------+

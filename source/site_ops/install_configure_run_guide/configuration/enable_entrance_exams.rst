@@ -4,6 +4,8 @@
 Enabling Entrance Exams
 ########################
 
+.. tags:: site operator
+
 This topic describes how to enable entrance exams in your instance of Open
 edX.
 
@@ -48,3 +50,12 @@ files, which are located one level above the ``edx-platform`` directory.
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

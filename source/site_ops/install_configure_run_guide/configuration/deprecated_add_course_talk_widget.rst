@@ -4,6 +4,8 @@
 Adding the CourseTalk Widget
 #############################################
 
+.. tags:: site operator
+
 This topic describes how to add `CourseTalk`_ widgets to your instance of Open
 edX. When you add the CourseTalk widget, it is visible for all courses.
 
@@ -56,3 +58,12 @@ To add the CourseTalk widget, follow these steps.
    course information panel.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

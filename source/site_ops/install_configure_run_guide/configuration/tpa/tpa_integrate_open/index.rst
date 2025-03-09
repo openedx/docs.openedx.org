@@ -4,6 +4,8 @@
 Integrating Third Party Authentication in Open edX
 ##################################################
 
+.. tags:: site operator
+
 For the Open edX platform, you complete two steps to integrate third party
 authentication.
 
@@ -45,3 +47,12 @@ between the two providers, see :ref:`Supported Identity Providers`.
    tpa_oauth
    tpa_SAML_IdP
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

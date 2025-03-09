@@ -1,6 +1,8 @@
 Open edX Site Operators
 #######################
 
+.. tags:: site operator
+
 .. note::
 
    This area is still under active development.
@@ -17,3 +19,12 @@ Open edX Site Operators
    concepts/index
    references/index
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -4,6 +4,8 @@
 Root Directories for Theme Files
 #################################
 
+.. tags:: site operator
+
 Themes are located outside of the Open edX source directories, in any location
 you like. For example, you might make a directory called
 ``/my-open-edx-themes``.
@@ -58,3 +60,12 @@ The following subdirectories hold the UI files that you can override.
 
 * ``templates`` holds Python web application page templates that produce the
   HTML for UI pages.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

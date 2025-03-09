@@ -2,6 +2,8 @@
 Enabling Timed Exams
 #############################
 
+.. tags:: site operator
+
 This topic describes how to enable the timed exams feature in your instance of
 Open edX.
 
@@ -50,3 +52,12 @@ directory.
    that your updates are loaded.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

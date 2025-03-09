@@ -4,6 +4,8 @@
 SSO Behavior
 ############
 
+.. tags:: site operator
+
 The following behavior applies to all three types of provider (OAuth, SAML, and LTI).
 
 ************************
@@ -74,3 +76,12 @@ Linking Accounts
     * Create a new account.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

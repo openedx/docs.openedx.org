@@ -16,3 +16,12 @@ Configure the Milestones Application
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
 #. Run database migrations.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -2,6 +2,8 @@
 Open edX Birch Release
 ########################################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.
@@ -90,3 +92,12 @@ After upgrading Open edX to the Birch release, run the edX Platform and verify
 that course content and data was migrated correctly.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this release is unsupported |
++--------------+-------------------------------+----------------+------------------------------------+

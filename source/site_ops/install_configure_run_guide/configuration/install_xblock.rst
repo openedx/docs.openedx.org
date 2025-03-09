@@ -4,6 +4,8 @@
 Installing an XBlock
 ##########################
 
+.. tags:: site operator
+
 The XBlock framework allows developers to expand the Open edX platform by
 building different learning experiences and deploying them as XBlocks. Before
 course teams can use an XBlock in courses running on an instance of the
@@ -44,3 +46,12 @@ the XBlock’s ``setup.py`` file to each course's advanced module list. For more
 information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

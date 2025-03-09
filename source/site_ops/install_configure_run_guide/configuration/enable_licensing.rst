@@ -4,6 +4,8 @@
 Enabling Course and Video Licensing
 ####################################
 
+.. tags:: site operator
+
 This topic describes how to enable licensing in your instance of Open edX.
 
 .. contents::
@@ -51,3 +53,12 @@ files, which are located one level above the ``edx-platform`` directory.
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

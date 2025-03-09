@@ -1,6 +1,8 @@
 Available Frontend Plugin Slots
 ###############################
 
+.. tags:: site operator, developer, reference
+
 This is a list of all known plugin slots as of the *Sumac* release. More slots
 may be available, and are discoverable by visiting the ``src/plugin-slots``
 directory of any given MFE.
@@ -51,3 +53,11 @@ Slots only available in the Learning MFE:
    * :doc:`/community/release_notes/sumac/customizing_header`
 
    * :doc:`/community/release_notes/sumac/customizing_learner_dashboard`
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -4,6 +4,8 @@
 Enabling Social Sharing of Courses and Certificates
 #######################################################
 
+.. tags:: site operator
+
 This section describes how to configure Open edX so that learners can share
 their certificates, and so course teams can enable learners to share their
 courses on social media.
@@ -141,3 +143,12 @@ location. This URL is used only if you have enabled custom URLs in your
 instance of Open edX.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

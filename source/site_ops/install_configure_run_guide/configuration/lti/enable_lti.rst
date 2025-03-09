@@ -4,6 +4,8 @@
 Enable LTI Provider Functionality
 #################################################
 
+.. tags:: site operator
+
 LTI provider functionality is provided in the ``lti_provider`` app, located in
 ``edx-platform/lms/djangoapps/lti_provider``.
 
@@ -37,3 +39,12 @@ presence of the following database tables.
   lti_provider_outcomeservice
 
 If these tables are not present, check that the migrations have run properly.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

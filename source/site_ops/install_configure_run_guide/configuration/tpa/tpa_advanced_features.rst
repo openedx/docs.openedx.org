@@ -4,6 +4,8 @@
 Advanced Third Party Authentication Features
 ############################################
 
+.. tags:: site operator
+
 The Open edX Third Party Authentication feature offers many advanced
 configuration options and integration points that can be used to customize the
 sign in experience for learners using specific third party providers. None of
@@ -174,3 +176,12 @@ Users can be filtered based on ``eduPersonEntitlement`` attributes (supported
 out of the box), or other attributes (requires custom code). For details on how
 this can be set up, refer to `this edx-code mailing list post
 <https://groups.google.com/forum/m/#!topic/edx-code/VW-wP1dhTTk>`_.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

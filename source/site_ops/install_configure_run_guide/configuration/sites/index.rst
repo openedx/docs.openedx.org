@@ -4,6 +4,8 @@
 Configuring Open edX Sites
 #############################
 
+.. tags:: site operator
+
 By default, an Open edX installation has one site for users to interact with.
 You can configure multiple sites within your Open edX installation. A site
 presents Open edX courses and content in an individual way. If you set up
@@ -28,3 +30,12 @@ name ``arts.myuniversity.edu`` and another site with the domain name
 
 For more information about themes, see :ref:`Theming Open edX`.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

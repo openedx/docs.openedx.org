@@ -4,6 +4,8 @@
 Setting Up the Open edX Mobile Applications
 ############################################
 
+.. tags:: site operator
+
 This section is intended for those are who are building Open edX mobile
 applications and customizing an Open edX installation to support their use.
 
@@ -26,3 +28,12 @@ Mobile Documentation
 * `Manage iOS Configuration <https://github.com/openedx/openedx-app-ios/blob/main/Documentation/CONFIGURATION_MANAGEMENT.md>`_
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-03-09   |  Sarina Canelake - Mobile WG  |  Sumac         | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+

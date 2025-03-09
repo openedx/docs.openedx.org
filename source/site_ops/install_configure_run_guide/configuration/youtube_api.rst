@@ -4,6 +4,8 @@
 Setting Up the YouTube API Key
 ###############################
 
+.. tags:: site operator
+
 This topic describes how to set the YouTube API key for your instance of
 Open edX.
 
@@ -123,3 +125,12 @@ steps.
 #. Save and close the file.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

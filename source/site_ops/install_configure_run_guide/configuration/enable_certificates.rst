@@ -4,6 +4,8 @@
 Enabling Course Certificates
 ############################
 
+.. tags:: site operator
+
 This topic describes how to enable and configure course certificates in your
 instance of Open edX.
 
@@ -401,3 +403,12 @@ will have been generated for eligible learners.
 .. include:: /links.txt
 
 .. _edx/credentials: https://github.com/openedx/credentials
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

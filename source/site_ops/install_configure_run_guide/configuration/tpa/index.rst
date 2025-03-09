@@ -4,6 +4,8 @@
 Enabling Third Party Authentication
 #######################################
 
+.. tags:: site operator
+
 To enhance sign in options for your users, you can enable third party
 authentication, sometimes also called "third party auth", "single sign on", or
 "SSO", between organizational authentication systems and the sites you define
@@ -29,3 +31,12 @@ information technology (IT).
 
 
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -4,6 +4,8 @@
 Configuring a Password Policy
 #############################
 
+.. tags:: site operator
+
 This topic describes how to configure a password policy in your
 instance of Open edX.
 
@@ -105,3 +107,12 @@ to the ``lms.yml`` configuration file.
   -   NAME: path.to.module.MyPasswordValidatorClass
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

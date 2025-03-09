@@ -4,6 +4,8 @@
 Supported Identity Providers
 #######################################
 
+.. tags:: site operator
+
 In an exchange of authentication and authorization data, an identity provider
 securely asserts the identity and access rights of a set of users. Your Open
 edX site is the service provider that allows the users access on the basis of credentials sent by an identity provider.
@@ -81,3 +83,12 @@ see :ref:`Options for LTI Authentication and User Provisioning` and
 :ref:`Configuring Open edX for LTI Authentication`.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
