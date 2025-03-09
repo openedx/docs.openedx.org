@@ -6,9 +6,9 @@ Hooks Extension Framework
 What is the Hooks Extension Framework?
 **************************************
 
-Based on the :doc:`edx-platform:concepts/extension_points`, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the `Open edX Django plugins`_ architecture, allowing developers to implement new features while reducing the need for core modifications and minimizing maintenance efforts.
+Based on the :doc:`edx-platform:concepts/extension_points`, this framework aims to extend the Open edX platform in a maintainable way without modifying its core. The main goal is to leverage the existing extension capabilities provided by the :doc:`edx-django-utils:plugins/readme` architecture, allowing developers to implement new features while reducing the need for core modifications and minimizing maintenance efforts.
 
-Hooks are places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they are informative only. All hooks are designed to be used along with `Open edX Django plugins`_.
+Hooks are places in the Open edX platform where externally defined functions can take place. These functions may alter what the user sees or experiences on the platform, while in other cases, they are informative only. All hooks are designed to be used along with :doc:`edx-django-utils:plugins/readme`.
 
 Hooks can be of two types: events and filters. Events are signals sent in specific places whose receivers can extend functionality, while filters are functions that can modify the application's behavior. To allow extension developers to use these definitions in their implementations, both kinds of hooks are defined in lightweight external libraries:
 
@@ -232,7 +232,6 @@ By following these steps, you can start contributing to the Hooks Extension Fram
 
 For more specifics about Open edX Events and Filters, please visit the :doc:`openedx-events <openedx-events:index>` and :doc:`openedx-filters <openedx-filters:index>` documentation.
 
-.. _Open edX Django plugins: https://docs.openedx.org/projects/edx-django-utils/en/latest/plugins/readme.html
 .. _openedx-filters: https://github.com/openedx/openedx-filters
 .. _openedx-events: https://github.com/openedx/openedx-events
 .. _Django signals: https://docs.djangoproject.com/en/4.2/topics/signals/

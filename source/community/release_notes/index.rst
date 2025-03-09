@@ -25,7 +25,7 @@ migrations, and other changes and updates to the Open edX platform.
 Release Version Info
 ====================
 
-The :doc:`named_release_branches_and_tags` page is a quick reference for site
+The :ref:`Named Release Branches and Tags` page is a quick reference for site
 operators that details installation information for the current and previous
 releases. Note that the latest release is the only supported release. We
 currently do not have the ability to support more than one release at a time.

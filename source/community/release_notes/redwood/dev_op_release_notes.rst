@@ -3,10 +3,10 @@ Open edX Redwood Release - Developer and Operator Release Notes
 
 These are the Developer and Operator release notes for the Redwood release, the
 18th community release of the Open edX Platform, spanning changes from October
-10 2023 to May 09 2024. You can also review details about `earlier releases`_ or
+10 2023 to May 09 2024. You can also review details about :ref:`Open edX Release Notes` or
 learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
+
 .. _Open edX Platform: https://openedx.org
 
 .. contents::
@@ -352,14 +352,14 @@ Developer Experience
 Researcher & Data Experiences
 *****************************
 
-`Aspects <https://docs.openedx.org/projects/openedx-aspects/en/latest/index.html>`_ 
+:doc:`openedx-aspects:index` 
 is an analytics system for the Open edX platform, bringing actionable data
 about course and learner performance to instructors and site operators. It is primarily
 a Tutor plugin that ties together data from the Open edX learning management system
 and Studio using open source tools to aggregate and transform learning traces into data
 visualizations.
 
-See the `Aspects configuration documentation <https://docs.openedx.org/projects/openedx-aspects/en/latest/technical_documentation/how-tos/production_configuration.html>`_
+See the :doc:`openedx-aspects:technical_documentation/how-tos/production_configuration`
 to learn about setting up Aspects for your production environment.
 
 Known Issues

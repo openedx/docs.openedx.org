@@ -1,3 +1,5 @@
+.. _Content Libraries Redesign Beta:
+
 Content Libraries Redesign - Beta
 #################################
 

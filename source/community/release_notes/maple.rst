@@ -3,9 +3,9 @@
 Open edX Maple Release
 ######################
 
-These are the release notes for the Maple release, the 13th community release of the Open edX Platform, spanning changes from April 9 2021 to October 15 2021.  You can also review details about `earlier releases`_ or learn more about the `Open edX Platform`_.
+These are the release notes for the Maple release, the 13th community release of the Open edX Platform, spanning changes from April 9 2021 to October 15 2021.  You can also review details about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
-.. _earlier releases: https://docs.openedx.org/en/latest/community/release_notes/index.html
+
 .. _Open edX Platform: https://open.edx.org
 
 .. contents::
@@ -36,13 +36,12 @@ Studio login changed to OAuth
 
 In versions prior to Maple, Studio (CMS) shared a session cookie with the LMS, and redirected to the LMS for login.
 Studio is changing to become an OAuth client of the LMS, using the same SSO configuration that other IDAs use. (See
-`ARCHBOM-1860`_; `OEP-42`_) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
+`ARCHBOM-1860`_; :doc:`openedx-proposals:best-practices/oep-0042-bp-authentication`) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
 upgrading to Maple. For devstack, run::
 
     ./provision-ida-user.sh studio studio 18010
 
 .. _ARCHBOM-1860: https://openedx.atlassian.net/browse/ARCHBOM-1860
-.. _OEP-42: https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0042-bp-authentication.html
 .. _Studio OAuth migration runbook: https://github.com/openedx/edx-platform/blob/open-release/maple.master/docs/guides/studio_oauth.rst
 
 django-cors-headers version updgraded
@@ -352,7 +351,7 @@ See the sections above on OAuth and Certificates.
 Settings and Toggles
 ====================
 
-Documentation for settings and toggles is much improved, but still incomplete. See https://docs.openedx.org/projects/edx-platform/en/latest/index.html
+Documentation for settings and toggles is much improved, but still incomplete. See :ref:`edx-platform:featuretoggles`.
 
 
 Dependency updates
