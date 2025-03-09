@@ -1,6 +1,8 @@
 Site Operators: References
 ##########################
 
+.. tags:: site operator, reference
+
 .. toctree::
    :glob:
 

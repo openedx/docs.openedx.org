@@ -6,6 +6,9 @@ Maintaining the E-Commerce Service
 
 .. tags:: site operator
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 Most of the time, you do not have to perform maintenance on the E-Commerce
 service. However, E-Commerce creates **basket** objects to track products that
 users want to purchase before users place an order. As more baskets and orders

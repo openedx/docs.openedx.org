@@ -3,6 +3,8 @@
 Adding ECommerce to Open edX
 #############################
 
+.. tags:: site operator
+
 This section is intended for those are who are building Open edX ecommerce
 solutions and customizing an Open edX installation to support their use.
 

@@ -6,6 +6,9 @@ Enable and Create Enrollment Codes
 
 .. tags:: site operator
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 Enrollment codes allow users to purchase bulk enrollments for a course.
 
 .. note::

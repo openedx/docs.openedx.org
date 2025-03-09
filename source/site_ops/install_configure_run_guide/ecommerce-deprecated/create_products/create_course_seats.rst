@@ -6,6 +6,9 @@ Create Course Seats
 
 .. tags:: site operator
 
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 A course seat represents an enrollment track, sometimes called an enrollment
 mode. For information about the enrollment tracks that edX offers, see
 :term:`Enrollment track`.

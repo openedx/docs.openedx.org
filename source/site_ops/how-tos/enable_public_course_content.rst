@@ -4,7 +4,7 @@
 Enabling Public Course Content
 ####################################
 
-.. tags:: site operator
+.. tags:: site operator, how-to
 
 By default, learners must create an account on your Open edX instance, be signed in to the LMS, 
 and enroll in a course before they can see the course content. The *Public 
