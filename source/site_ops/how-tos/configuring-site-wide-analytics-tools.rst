@@ -1,6 +1,8 @@
 Configuring Site-Wide Analytics Tools
 #####################################
 
+.. tags:: site operator, how-to
+
 In addition to Google Analytics, the Open edX platform is flexible enough to support different analytics tools.
 
 To inject various analytics, there is a provision to add them to the head or body using head-extra.html, body-initial.html, or body-extra.html.

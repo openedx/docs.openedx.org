@@ -1,6 +1,8 @@
 Site Operators: How-tos
 #######################
 
+.. tags:: site operator, how-to
+
 .. toctree::
    :glob:
 
