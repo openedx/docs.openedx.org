@@ -58,9 +58,7 @@ The Dates Tab has also been removed from the legacy learner experience. It is on
 Weekly Course Goals
 ===================
 
-The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See `Enabling the Weekly Learning Goals Feature`_ for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
-
-.. _Enabling the Weekly Learning Goals Feature: https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_weekly_learning_goals.html
+The old course goals feature has been replaced with a new weekly learning goals feature. Users set a goal for how frequently they want to learn per course and get reminder emails about their goals. See :ref:`Enabling the Weekly Learning Goals Feature` for instructions on how to configure this feature and more details on how the feature works. The new weekly learning goals feature is controlled with the same flag as the previous course goals feature.
 
 Learning Micro-Frontend (MFE)
 =============================
