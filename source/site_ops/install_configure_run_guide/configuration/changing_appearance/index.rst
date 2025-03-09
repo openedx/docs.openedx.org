@@ -16,3 +16,12 @@ way they look.
    drag_and_drop_problem_styling
 
 .. For more information about how you set up sites, see :ref:`Configuring Open edX Sites`.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

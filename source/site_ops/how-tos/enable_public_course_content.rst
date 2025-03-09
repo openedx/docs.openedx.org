@@ -120,3 +120,11 @@ including the following.
   left off if they leave the course and come back.
 
 * The Open edX mobile apps do not support public course content.
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

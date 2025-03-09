@@ -51,3 +51,11 @@ Slots only available in the Learning MFE:
    * :doc:`/community/release_notes/sumac/customizing_header`
 
    * :doc:`/community/release_notes/sumac/customizing_learner_dashboard`
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

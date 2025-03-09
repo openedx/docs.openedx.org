@@ -51,3 +51,12 @@ best what information they need to solve the problem.
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

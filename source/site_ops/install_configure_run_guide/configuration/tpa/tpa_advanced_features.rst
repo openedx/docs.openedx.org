@@ -176,3 +176,12 @@ Users can be filtered based on ``eduPersonEntitlement`` attributes (supported
 out of the box), or other attributes (requires custom code). For details on how
 this can be set up, refer to `this edx-code mailing list post
 <https://groups.google.com/forum/m/#!topic/edx-code/VW-wP1dhTTk>`_.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -47,3 +47,12 @@ Just like how Matamo is integrated we can use other analytics tools as well.
 .. note::
 
   This will only be applied to the pages served by LMS and would not be supported by different MFEs used by the platform. Hence, to introduce the same, you need to create a custom component and put it in a slot. You can have a look at the `frontend-footer-component <https://github.com/openedx/frontend-component-footer>`_.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

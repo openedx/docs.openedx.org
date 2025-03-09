@@ -49,3 +49,12 @@ information, see :ref:`Additional Ecommerce Features`.
 ..   - Payment processors
 ..   - API
 ..   - Course Administration Tool
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

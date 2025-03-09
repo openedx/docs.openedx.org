@@ -45,3 +45,12 @@ Apple Pay is configured via the ``PAYMENT_PROCESSOR_CONFIG`` dictionary in setti
         service user.
 
 .. _Apple Developer portal: https://developer.apple.com/account/ios/identifier/merchant
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

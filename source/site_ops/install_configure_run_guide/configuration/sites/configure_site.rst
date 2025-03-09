@@ -95,3 +95,12 @@ An example of the properties that you define to configure a site follows.
     "homepage_overlay_html":"<img src='/static/my-site/images/400x103.png' width='400' height='103' />",
     "payment_email_signature":"Education Programs<br>The Digital Programs Team<br>my-site@example.com<br>101 Example Street<br>Example State"
   }
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -26,3 +26,11 @@ extension  is a small Django app that listens for incoming webhooks, and then
 translates those into calls against the Open edX REST APIs.
 
 As of Sumac it supports WooCommerce and Shopify endpoints.
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

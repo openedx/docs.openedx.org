@@ -37,3 +37,12 @@ Figures
 `Figures <https://github.com/appsembler/figures>`_ is no longer under active development and
 is not recommended for use.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

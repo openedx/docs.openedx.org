@@ -60,3 +60,12 @@ The following subdirectories hold the UI files that you can override.
 
 * ``templates`` holds Python web application page templates that produce the
   HTML for UI pages.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

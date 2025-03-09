@@ -53,3 +53,12 @@ files, which are located one level above the ``edx-platform`` directory.
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
