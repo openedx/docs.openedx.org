@@ -1,3 +1,5 @@
+.. _Named Release Branches and Tags:
+
 Site Operators: Named Release Branches and Tags
 ###############################################
 

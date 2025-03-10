@@ -31,7 +31,7 @@ Feature Documentation
 Documentation can occur in multiple places - in code, in decision records, or in
 formal feature documentation.
 
-`OEP-19 Developer Documentation`_ describes the various ways to provide
+:doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation` describes the various ways to provide
 documentation of your code and features to a developer audience. This includes
 API documentation, decision records (ADRs and OEPs), and README files. Of
 course, you should always provide detailed, informative comments within your
@@ -50,7 +50,7 @@ Feature Rollout Concerns
 ========================
 
 When writing your feature, consider the ways in which your code might be rolled
-out on various Open edX instances. `OEP-17 Feature Toggles`_ describes the many
+out on various Open edX instances. :doc:`openedx-proposals:best-practices/oep-0017-bp-feature-toggles` describes the many
 reasons why you might use a feature toggle, including releasing incrementally,
 beta testing, and providing one Open edX release where the feature is optional
 before making it the default. Utilizing various `Waffle`_ flags, you can gate
@@ -61,7 +61,7 @@ per-course.
 Waffle flags should be well-documented when they are used. Some of the Waffle
 flags used in ``edx-platform``, as well as how they are documented, can be seen
 in the `lms/djangoapps/courseware/toggles.py`_ file. (As a note, you can view
-all Waffle flags in edx-platform here: :doc:`edx-platform:references/featuretoggles`,
+all Waffle flags in edx-platform here: :ref:`edx-platform:featuretoggles`,
 and please be sure to document any Django settings you define as well - those
 are documented here: :doc:`edx-platform:references/settings`.)
 

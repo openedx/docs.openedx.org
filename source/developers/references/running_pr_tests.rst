@@ -39,7 +39,7 @@ team in a comment on your PR for further assistance.
 The “Lint Commit Messages/commitlint” Test Is Failing
 *****************************************************
 
-The Open edX project follows a rule known as `Conventional Commits`_. This is a
+The Open edX project follows a rule known as Conventional Commits (see :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`). This is a
 way of labeling your commit messages so they are extra informative. Please see
 the linked document to learn more about what Conventional Commits are and how we
 use them. If you just need a brief refresher, the types of conventional commits

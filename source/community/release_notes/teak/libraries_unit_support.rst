@@ -1,7 +1,7 @@
 Content Libraries - Unit Support
 ################################
 
-Phase 2 of the :doc:`Content Libraries project<../sumac/content_libraries_redesign_beta>`
+Phase 2 of the :ref:`Content Libraries project<Content Libraries Redesign Beta>`
 will see the addition of Unit Support, that is, the ability to hold full
 learning units within a Library. he ability to create and reuse units,
 subsections, and sections will enable use cases such as having a library of

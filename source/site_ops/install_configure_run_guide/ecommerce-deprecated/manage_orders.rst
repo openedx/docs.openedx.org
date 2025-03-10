@@ -15,7 +15,7 @@ digital products. Most of the products that edX supports involve modifications
 to enrollments.
 
 The edX framework allows modules that fulfill enrollment-related products to
-interact with the `edX Enrollment API`_, which is a part of the LMS. This
+interact with the :doc:`edx-platform:references/lms_apis`, which is a part of the LMS. This
 process can be either synchronous or asynchronous.
 
 

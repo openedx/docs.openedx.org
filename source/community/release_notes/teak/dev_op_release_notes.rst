@@ -1,3 +1,5 @@
+.. _Teak Dev Notes:
+
 Open edX Teak Developer & Operator Release Notes
 ################################################
 
@@ -5,10 +7,10 @@ Open edX Teak Developer & Operator Release Notes
 
 These are the developer & operator release notes for the Teak release, the 20th
 community release of the Open edX Platform, spanning changes from October 24,
-2024 to April 9, 2025. You can also review details about :doc:`../index` or
+2024 to April 9, 2025. You can also review details about :ref:`Open edX Release Notes` or
 learn more about the `Open edX Platform`_.
 
-To view the end-user facing docs, see the :doc:`feature_release_notes`.
+To view the end-user facing docs, see the :ref:`Teak Product Notes`.
 
 .. _Open edX Platform: https://openedx.org
 

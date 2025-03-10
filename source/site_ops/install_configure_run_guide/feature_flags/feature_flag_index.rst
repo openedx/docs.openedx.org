@@ -6,7 +6,7 @@ Index of Open edX Feature Flags
 
 .. tags:: site operator
 
-For more information abut feature flags, see :doc:`edx-platform:references/featuretoggles`.
+For more information abut feature flags, see :ref:`edx-platform:featuretoggles`.
 
 .. include:: /links.txt
 
