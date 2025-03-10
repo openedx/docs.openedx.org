@@ -174,3 +174,14 @@ Use a Section from a Course independently of the Course Outline
 
 
    ../how-tos/use_section_independently_of_course_outline.rst
+
+
+Add Custom CSS or JavaScript Code to a Course
+******************************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+
+   ../how-tos/add_custom_css_or_javascript_code_to_a_course.rst
