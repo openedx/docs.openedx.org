@@ -71,11 +71,9 @@ disabilities, learners whose native language is not English, and learners with
 technical issues such as low bandwidth internet or no access to audio.
 
 To supplement the
-accessibility of the materials you can create within the platform, it is recommended that
-you engage any available resources at your institution to support learners
-with disabilities. Many institutions offer disability support services and
-information technology resources that provide accessibility advice and
-support. These trained professionals typically provide the following services, which may be equally applicable to courses that are taught online:
+accessibility of the materials you can create within the platform, engage with any available
+resources at your institution to support learners with disabilities.
+These trained professionals typically provide the following services, which may be equally applicable to courses that are taught online:
 
 * Help with making disability accommodation decisions and advise you on what accommodations may be appropriate in light of the goals of the course and the instructional methodologies employed.
 
