@@ -36,3 +36,5 @@ recommend checking out
    * :ref:`HTML Reference <translators reference html>`
 
    * :doc:`working-with-placeholders`
+
+   * `Basic HTML Concepts (Mozilla Development Network) <https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content>`_
