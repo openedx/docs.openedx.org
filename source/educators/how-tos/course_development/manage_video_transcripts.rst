@@ -49,18 +49,18 @@ To add a transcript to a video component, follow these steps.
    transcript**.
 
    .. image:: /_images/educator_how_tos/add_a_transcript.png
-    :alt: A screenshot of the video editor with the Add a Transcript section highlighted.
+    :alt: The video editor with the Add a Transcript section highlighted.
 
 
 #. Select the language for the transcript that you want to add.
 
    .. image:: /_images/educator_how_tos/add_a_transcript_2.png
-    :alt: A screenshot of the video editor with the Add a Transcript language picker shown.
+    :alt: The video editor with the Add a Transcript language picker shown.
 
 #. In the dialog box, browse to the ``.srt`` file for the transcript in that
    language, and then select **Open**.
 
-#. It is recommended to allow transcript downloads by checking the "Allow transcript downloads" button.
+#. Best practice is to allow transcript downloads by checking the "Allow transcript downloads" button.
    This option improves accessibility by allowing learners to manipulate the
    transcripts as needed, for example magnifying the text for those with vision impairments.
    See :ref:`Downloadable Transcripts`.
@@ -87,7 +87,7 @@ these steps.
    the **menu icon (•••)** for the desired language and select **Download**.
 
    .. image:: /_images/educator_how_tos/add_a_transcript_3.png
-    :alt: A screenshot of the video editor with the Add a Transcript three-dot menu shown. The options are Replace, Download, and Delete.
+    :alt: The video editor with the Add a Transcript menu shown. The options are Replace, Download, and Delete.
 
 #. After the file downloads, open a text editor and make any changes that you
    want.
