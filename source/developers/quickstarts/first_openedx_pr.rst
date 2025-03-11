@@ -279,7 +279,7 @@ Working with the Learner Dashboard MFE
 Working with the Legacy Learner Dashboard
 =========================================
 On our Tutor dev environment, it is located at
-``http://local.overhang.io:8000/dashboard``
+``http://local.openedx.io:8000/dashboard``
 
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_before.png
    :alt: Learner Dashboard page without any of our changes.
