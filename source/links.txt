@@ -294,8 +294,6 @@
 
 .. _example configuration scenario: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario2.html
 
-.. _Open edX Forums: https://discuss.openedx.org/
-
 .. _submission_mixin.py: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/xblock/submission_mixin.py
 
 .. _official Google instructions: https://developers.google.com/identity/protocols/oauth2

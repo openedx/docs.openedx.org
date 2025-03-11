@@ -186,7 +186,7 @@ The revamped HTML editor that was implemented as part of the Redwood release
 includes a native field allowing authors to specify alt text when inserting an image:
 
 .. image:: /_images/educator_references/alt_text_image_editor.png
-  :alt: A screenshot of the image editor with the alt-text form field. There is also a checkbox, "This image is decorative (no alt text required)."
+  :alt: The image editor with the alt-text form field. There is also a checkbox, "This image is decorative (no alt text required)."
 
 .. note:: All images *must* include an ``alt`` attribute. There are some
    cases, noted below, when an empty ``alt`` attribute (``alt=""``) is
@@ -910,7 +910,7 @@ the learning objectives. As of Redwood, the Open edX video editor includes an op
 to include a handout alongside a video.
 
 .. image:: /_images/educator_references/video_player_add_handout.png
-  :alt: A screenshot of the video editor's "Upload Handout" option.
+  :alt: The video editor's "Upload Handout" option.
 
 .. _Downloadable Transcripts:
 
