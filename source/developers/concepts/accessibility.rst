@@ -1,6 +1,8 @@
-###############################
-Open edX Accessibility Concepts
-###############################
+.. _Dev Accessibility Concepts:
+
+##############################################
+Open edX Accessibility Concepts for Developers
+##############################################
 
 The Open edX project measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.2 <https://www.w3.org/TR/WCAG22/>`_
@@ -89,3 +91,11 @@ develop user interfaces that are WCAG 2.0 compliant.
 * Test your code for accessibility
 
 For more on how to code for accessibility, see :doc:`../references/a11y-ref`.
+
+.. seealso::
+
+ :ref:`Dev Accessibility Reference` (reference)
+
+ :ref:`Accessibility Guidelines` (concept)
+
+ :ref:`Accessibility Best Practices Checklist` (reference)
