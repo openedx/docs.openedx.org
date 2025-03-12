@@ -34,7 +34,17 @@
 
 .. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
 
+.. _Open edX Product Roadmap: https://github.com/orgs/openedx/projects/4 
+
 .. THIRD PARTY LINKS
+
+.. _Axim Collaborative: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3554082883/Axim+Collaborative
+
+.. _Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3449028609/Product+Working+Group
+
+.. _Open edX Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/46793351/Working+Groups
+
+.. _Open edX Meeting Calendar: https://calendar.google.com/calendar/u/0/embed?src=c_v86shrnegshsqgp4fj2k94u7bc@group.calendar.google.com
 
 .. _Oscar: https://github.com/django-oscar/django-oscar
 
