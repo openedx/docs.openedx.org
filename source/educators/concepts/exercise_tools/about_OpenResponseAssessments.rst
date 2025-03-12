@@ -693,7 +693,7 @@ you cannot specify these file types.
 
 This set of file name extensions is provided as the default for Open edX
 installations. Open edX system administrators can update this list. For more
-information, see `Configuring ora2 to prohibit submission of file types`_.
+information, see :ref:`Configuring ora2 to prohibit submission of file types`.
 
 .. list-table::
    :widths: 15 75

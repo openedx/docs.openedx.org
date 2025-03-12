@@ -98,4 +98,4 @@ changes.
 .. _.github repo: https://github.com/openedx/.github/tree/master/.github/workflows
 .. _fix Transifex resource names: https://github.com/openedx/openedx-translations/blob/main/.github/workflows/fix-transifex-resource-names.yml
 .. _workflow dispatch: https://github.com/openedx/openedx-translations/blob/cf313a06ebf8c3a792e67174dfcba7607da2d61f/.github/workflows/fix-transifex-resource-names.yml#L5-L13
-.. include:: ../links.rst
+.. include:: /links.txt
