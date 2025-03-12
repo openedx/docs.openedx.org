@@ -37,4 +37,4 @@ recommend checking out
 
    * :doc:`working-with-placeholders`
 
-   * `Basic HTML Concepts (Mozilla Development Network) <https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content>`_
+   * `Basic HTML Concepts (Mozilla Development Network) <https://web.archive.org/web/20250202183033/https://www.websiteplanet.com/blog/html-guide-beginners/>`_
