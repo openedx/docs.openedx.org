@@ -4,6 +4,8 @@
 Enabling a CDN for Course Assets
 ######################################
 
+.. tags:: site operator
+
 By default, all course assets are served directly from your Open edX instance.
 For courses with large enrollments, or courses with large assets, such as high-
 quality images, PDFs, or video files, this can increase not only the load on
@@ -70,3 +72,12 @@ After you configure your CDN, follow these steps.
 #. Select **Save**.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

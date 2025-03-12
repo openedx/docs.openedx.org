@@ -4,6 +4,8 @@
 Getting Help
 ############
 
+.. tags:: site operator
+
 This section describes resources for getting help if you need technical
 assistance during the installation process or after your site is running.
 
@@ -49,3 +51,12 @@ best what information they need to solve the problem.
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

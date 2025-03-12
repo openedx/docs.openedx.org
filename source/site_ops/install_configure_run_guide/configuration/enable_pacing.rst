@@ -4,6 +4,8 @@
 Enabling Self-Paced Courses
 #############################
 
+.. tags:: site operator
+
 This topic describes how to enable the self-paced courses feature in your
 instance of Open edX.
 
@@ -50,3 +52,12 @@ using the Django administration console for your Open edX LMS.
     #. Select **Save**.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

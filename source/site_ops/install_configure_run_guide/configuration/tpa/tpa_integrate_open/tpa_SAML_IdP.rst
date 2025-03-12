@@ -4,6 +4,8 @@
 Integrating with a SAML Identity Provider
 ##########################################
 
+.. tags:: site operator
+
 You can integrate your Open edX site with federated identity solutions
 that use the Security Assertion Markup Language, version 2.0 (SAML 2.0)
 standard. An example is Shibboleth, a single sign on system that is used by
@@ -178,3 +180,12 @@ steps.
          the sign in page for the corresponding authentication system.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

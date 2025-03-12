@@ -4,6 +4,8 @@
 Enabling Course Prerequisites
 #############################
 
+.. tags:: site operator
+
 This topic describes how to enable course prerequisites in your instance of
 Open edX.
 
@@ -50,3 +52,12 @@ directory.
 #. Save the ``lms.yml`` and ``studio.yml`` files.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

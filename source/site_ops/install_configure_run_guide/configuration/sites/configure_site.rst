@@ -4,6 +4,8 @@
 Configuring Sites Independently
 #################################
 
+.. tags:: site operator
+
 You can set configuration properties independently for individual sites. The
 values that you define for individual sites override the default values that
 are present in the ``studio.yml`` or ``lms.yml`` files. For example, you
@@ -93,3 +95,12 @@ An example of the properties that you define to configure a site follows.
     "homepage_overlay_html":"<img src='/static/my-site/images/400x103.png' width='400' height='103' />",
     "payment_email_signature":"Education Programs<br>The Digital Programs Team<br>my-site@example.com<br>101 Example Street<br>Example State"
   }
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

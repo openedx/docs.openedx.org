@@ -4,6 +4,8 @@
 Deprecated Open edX Mobile Applications
 ############################################
 
+.. tags:: site operator
+
 .. warning::
    The following instructions refer to the older, now unsupported,
    mobile applications. They were last supported in the Quince release.
@@ -256,3 +258,12 @@ directories and files, see the GitHub repositories for `iOS`_ and `Android`_.
 #. Save the file.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this component is deprecated|
++--------------+-------------------------------+----------------+------------------------------------+

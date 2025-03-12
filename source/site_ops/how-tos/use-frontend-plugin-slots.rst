@@ -1,6 +1,8 @@
 Use A Frontend Plugin Framework Slot
 ####################################
 
+.. tags:: site operator, how-to
+
 Utilizing *frontend plugin framework slots*, site operators now have the ability
 to customize various portions of Open edX MFEs. A “frontend plugin framework
 slot” refers to an area of a web page - comprising one or more visual elements -
@@ -43,3 +45,11 @@ for more about Frontend Plugin Slots and their usage.
    :doc:`/community/release_notes/sumac/customizing_header`
 
    :doc:`/community/release_notes/sumac/customizing_learner_dashboard`
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

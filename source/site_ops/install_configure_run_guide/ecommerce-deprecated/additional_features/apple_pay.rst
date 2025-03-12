@@ -1,6 +1,11 @@
 Apple Pay
 #########
 
+.. tags:: site operator
+
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 Apple Pay support is available when you use the CyberSource processor. Apple Pay
 allows learners to check out quickly without having to manually fill out the
 payment form. If you are not familiar with Apple Pay, take a moment to read the
@@ -45,3 +50,12 @@ Apple Pay is configured via the ``PAYMENT_PROCESSOR_CONFIG`` dictionary in setti
         service user.
 
 .. _Apple Developer portal: https://developer.apple.com/account/ios/identifier/merchant
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this component is deprecated|
++--------------+-------------------------------+----------------+------------------------------------+

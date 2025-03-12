@@ -4,6 +4,8 @@
 Changing the Appearance of Open edX Sites
 ######################################################
 
+.. tags:: site operator
+
 This section describes how you can customize your Open edX sites to change the
 way they look.
 
@@ -14,3 +16,12 @@ way they look.
    drag_and_drop_problem_styling
 
 .. For more information about how you set up sites, see :ref:`Configuring Open edX Sites`.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -4,6 +4,8 @@
 Creating a Theme
 ################
 
+.. tags:: site operator
+
 To create a theme, you add a theme directory to the installation-wide themes
 directory that you added when you enabled theming for your Open edX
 installation. Then, you copy default UI files into your theme directory and
@@ -111,3 +113,12 @@ subdirectories, you can apply the theme to both the LMS and Studio.
     After you create or make changes to a theme, you must update the theme.
     Updating a theme compiles Sass files to create the CSS files that style
     your UI. For more information, see :ref:`Compiling a Theme`.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

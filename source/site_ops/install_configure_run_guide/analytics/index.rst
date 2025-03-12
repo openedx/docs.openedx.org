@@ -3,6 +3,8 @@
 Open edX Analytics Options
 ##########################
 
+.. tags:: site operator
+
 As of the Sumac release, the Open edX community supports the
 following Analytics solutions:
 
@@ -37,3 +39,12 @@ Figures
 `Figures <https://github.com/appsembler/figures>`_ is no longer under active development and
 is not recommended for use.
 
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-03-07   | Sarina Canelake - Data WG     | Sumac          |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+

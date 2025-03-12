@@ -4,6 +4,8 @@
 Create an Open edX Site
 #############################
 
+.. tags:: site operator
+
 To create an Open edX site, follow these steps.
 
 #. Sign in to the Django administration console for your base URL. For example,
@@ -20,3 +22,12 @@ To create an Open edX site, follow these steps.
    the site must be ``my-site.localhost:8000``.
 
 #. Select **Save**.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

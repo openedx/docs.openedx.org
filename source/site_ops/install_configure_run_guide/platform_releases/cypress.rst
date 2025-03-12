@@ -2,6 +2,8 @@
 Open edX Cypress Release
 ########################################
 
+.. tags:: site operator
+
 .. warning::
 
     This release is unsupported.
@@ -98,3 +100,12 @@ verify that course content and data was migrated correctly.
 
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

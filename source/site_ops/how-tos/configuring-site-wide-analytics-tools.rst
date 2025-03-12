@@ -1,6 +1,8 @@
 Configuring Site-Wide Analytics Tools
 #####################################
 
+.. tags:: site operator, how-to
+
 In addition to Google Analytics, the Open edX platform is flexible enough to support different analytics tools.
 
 To inject various analytics, there is a provision to add them to the head or body using head-extra.html, body-initial.html, or body-extra.html.
@@ -47,3 +49,12 @@ Just like how Matamo is integrated we can use other analytics tools as well.
 .. note::
 
   This will only be applied to the pages served by LMS and would not be supported by different MFEs used by the platform. Hence, to introduce the same, you need to create a custom component and put it in a slot. You can have a look at the `frontend-footer-component <https://github.com/openedx/frontend-component-footer>`_.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

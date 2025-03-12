@@ -4,6 +4,8 @@
 Enabling Public Course Content
 ####################################
 
+.. tags:: site operator, how-to
+
 By default, learners must create an account on your Open edX instance, be signed in to the LMS, 
 and enroll in a course before they can see the course content. The *Public 
 Course Content* feature gives you the option to make either a course outline 
@@ -118,3 +120,11 @@ including the following.
   left off if they leave the course and come back.
 
 * The Open edX mobile apps do not support public course content.
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

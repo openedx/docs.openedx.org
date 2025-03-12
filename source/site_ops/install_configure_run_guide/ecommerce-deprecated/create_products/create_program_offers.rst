@@ -4,6 +4,11 @@
 Create Program Offers
 #####################
 
+.. tags:: site operator
+
+.. warning::
+   This service is deprecated and was last tagged for the Redwood release. We are not fixing bugs or developing new features for it. For updates, `follow along on the DEPR ticket <https://github.com/openedx/public-engineering/issues/22>`_
+
 Program offers are discounts, either percentage or fixed amount discounts, that
 apply to a specific program. When a program offer is active for a program, the
 program's price appears discounted both on the program's purchase button and on
@@ -48,3 +53,12 @@ To create a program offer, follow these steps.
 #. Select **Create Program Offer**.
 
 .. include:: /links.txt
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this component is deprecated|
++--------------+-------------------------------+----------------+------------------------------------+

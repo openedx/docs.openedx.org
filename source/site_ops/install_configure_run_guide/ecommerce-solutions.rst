@@ -3,6 +3,8 @@
 Adding ECommerce to Open edX
 #############################
 
+.. tags:: site operator
+
 This section is intended for those are who are building Open edX ecommerce
 solutions and customizing an Open edX installation to support their use.
 
@@ -26,3 +28,11 @@ extension  is a small Django app that listens for incoming webhooks, and then
 translates those into calls against the Open edX REST APIs.
 
 As of Sumac it supports WooCommerce and Shopify endpoints.
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

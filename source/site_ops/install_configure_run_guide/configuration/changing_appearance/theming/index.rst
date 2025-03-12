@@ -4,6 +4,8 @@
 Changing Themes for an Open edX Site
 #####################################
 
+.. tags:: site operator
+
 The theme for a website defines the appearance of its user interface (UI): the
 logo, the color scheme, and the links in the page headers and footers are
 examples of different aspects of an Open edX site that are defined by its
@@ -35,3 +37,12 @@ site looks, without changing how it works.
 
 In addition, an `example theme <https://github.com/openedx/sample-themes>`_ is
 available for review.
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

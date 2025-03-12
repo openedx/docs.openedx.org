@@ -4,6 +4,8 @@
 Enabling the Weekly Learning Goals Feature
 ##########################################
 
+.. tags:: site operator
+
 .. contents::
    :local:
    :depth: 1
@@ -42,3 +44,12 @@ The script does a number of checks before sending emails. There are five main co
 5. We want to email users during the morning of their timezone
 
 .. note:: For the emails to work you will need to have at least one email channel configured within https://github.com/openedx/edx-ace
+
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
