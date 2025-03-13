@@ -12,6 +12,7 @@ may be falling behind, and prevent duplicative work - which streamlines efforts
 and reduces redundancy.
 
 The Named Release Planning meeting occurs biweekly on Thursdays starting January
-9th 2025, and can be found on the `Open edX Meeting Calendar
-<https://calendar.google.com/calendar/u/0?cid=Y192ODZzaHJuZWdzaHNxZ3A0Zmoyazk0dTdiY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t>`_.
+9th 2025, and can be found on the `Open edX Meeting Calendar`_.
 Join asynchronously in the `#release-planning room in Slack <openedx.org/slack>`_.
+
+.. include:: /links.txt

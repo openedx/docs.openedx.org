@@ -37,7 +37,7 @@ a PDF version, select **v: latest** at the lower right of the page, then select
 Wikis and Web Sites
 *******************
 
-The Open edX product team maintains public product roadmaps at this `public roadmap <https://github.com/orgs/openedx/projects/4>`_ and you can get involved with defining the roadmap by joining the `Product Working Group <https://openedx.atlassian.net/wiki/spaces/OEPM/overview>`_.
+The Open edX product team maintains public product roadmaps at this `public roadmap <https://github.com/orgs/openedx/projects/4>`_ and you can get involved with defining the roadmap by joining the `Product Working Group`_.
 
 
 
