@@ -5,9 +5,13 @@ Quick Start: First Open edX Pull Request
    :local:
    :class: no-bullets
 
-Welcome to the Quickstart guide for new Open edX contributors. By the end of
-this tutorial, you will have completed all the steps necessary to begin
-contributing to the Open edX project.
+Welcome to the Quickstart guide for new Open edX contributors. 
+
+This tutorial is focused on teaching you how to make a noticeable
+change to the platform equivalent to a "hello world" exercise.
+
+By the end of this tutorial, you will have completed all the steps
+necessary to begin contributing to the Open edX project.
 
 These include:
 
@@ -17,7 +21,7 @@ These include:
 * `Signing your Contributor License Agreement (CLA).`_
 
 We assume you are comfortable with the command line, and understand the basics
-of using Git, GitHub, and python basics.
+of using Git, GitHub, Docker, and python basics.
 
 .. This Quickstart is written for first-time contributors to the Open edX project.
    If you are a plug-in developer or a frontend developer, please see our
@@ -48,7 +52,7 @@ the basics of using them, before proceeding:
 
   * Additionally, we strongly recommend setting up 2-factor authentication.
 
-* `Python 3.8 <https://www.python.org/downloads/>`_
+* `Python 3.11 <https://www.python.org/downloads/>`_
 
 * Your favorite code editor (our team uses
   `VSCode <https://code.visualstudio.com/download>`_,
@@ -79,44 +83,23 @@ from the `official Docker documentation
 to the Docker daemon.
 
 
-Installing Tutor Nightly
+Installing Tutor Main
 ************************
 
-Navigate into a folder to hold your Open edX repositories.
-We will assume you're using ``~/openedx``, but you can choose any folder.
+Tutor main is the best solution for using Tutor as your development
+environment and tracking the bleeding edge of the Open edX platform
+code.
 
-.. code-block:: bash
+Follow the official instructions for installing Tutor Main.
 
-  mkdir -p ~/openedx
-  cd ~/openedx
+.. admonition:: Use Virtual Environments
 
-Create a Python 3.8 virtual environment (we'll call it ``tutor-venv``) and activate it:
+   The Tutor documents will recommend this as well, but please do
+   yourself the favor of using python virtual enviroments.  Doing so
+   will make managing multiple repositories and dependency versions
+   much easier.
 
-.. code-block:: bash
-
-  python3.8 -m venv tutor-venv
-  . tutor-venv/bin/activate
-
-Install Tutor. This is a tool that helps you run the Open edX project.
-We will install the "Nightly" version of Tutor, which means it will run the latest
-version of the code (as opposed to the most recent named release):
-
-.. code-block:: bash
-
-  git clone --branch=nightly https://github.com/overhangio/tutor.git
-  pip install -e "./tutor[full]"
-
-Finally, let's configure and provision your Open edX instance!
-You will be asked a couple questions.
-Answer them however you like, although the default answers will work fine.
-
-.. code-block:: bash
-
-  tutor dev launch
-
-Depending on your system and your Internet connection speed,
-this could take anywhere from five minutes to over an hour,
-so go get a coffee and come back for the next part.
+`Official Tutor tutorial <https://docs.tutor.edly.io/tutorials/main.html#running-open-edx-on-the-master-branch-tutor-main>`_
 
 
 Working with a fork
@@ -175,39 +158,128 @@ To have Tutor run your local fork of edx-platform, you have to tell it to do so
 on start up.  It is a simple CLI parameter that points Tutor to the directory where
 the code lives.
 
-As a first step, fire up a one-off LMS container while mounting your local
-checkout:
-
-.. code-block:: bash
-
-   tutor dev run --mount=./edx-platform lms bash
-
-Now within the container, install python requirements and rebuild static assets
-for your local checkout:
-
-.. code-block:: bash
-
-   pip install -e .
-   npm install
-   openedx-assets build --env=dev
-   exit
-
-After exiting the one-off container, restart the LMS with the local checkout
-mounted:
-
-.. code-block:: bash
-
-   tutor dev start --mount=./edx-platform lms
+To set up your local enviroment to update edx-platform, follow the
+`official instructions
+<https://docs.tutor.edly.io/tutorials/edx-platform.html>`_
 
 From this point on, whatever changes you make to the code in your clone should
 be visible in your local LMS instance immediately.
 
+Working with an MFE
+===================
+
+Most of the Open edX platform's frontends have migrated from backend
+Django templates to microfrontends based on the React framework
+(MFEs).  If you are interested in updating frontend code, MFEs are
+probably where you want to focus.  There are different ways of
+configuring your development environment, but a common one is to use
+Tutor to serve the backend services and run your MFE locally using npm
+dev start.
+
+To run MFEs in Tutor requires enabling a plugin, Tutor MFE.
+
+Start by verifying that the mfe plugin is installed and enabled
+
+.. code-block:: bash
+
+   (tutor-main) $ tutor plugins list
+   
+   NAME         STATUS          VERSION
+   discovery    installed       19.0.0
+   forum        installed       19.0.0
+   indigo       ✅ enabled      19.0.1
+   jupyter      installed       19.0.0
+   mfe          ✅ enabled      19.0.0
+
+If ``mfe`` isn't enabled run the following command to do so
+
+.. code-block:: bash
+
+   (tutor-main) $ tutor plugins enable mfe
+   (tutor-main) $ tutor dev stop
+   (tutor-main) $ tutor dev launch
+
+Once Tutor has restarted with the ``mfe`` plugin enabled you will see a few more URLs listed.
+
+.. code-block:: bash
+
+   http://apps.local.openedx.io:1984/communications
+   http://apps.local.openedx.io:1990/learner-record
+   http://apps.local.openedx.io:1993/ora-grading
+   http://apps.local.openedx.io:1994/gradebook
+   http://apps.local.openedx.io:1995/profile
+   http://apps.local.openedx.io:1996/learner-dashboard
+   http://apps.local.openedx.io:1997/account
+   http://apps.local.openedx.io:2000/learning
+   http://apps.local.openedx.io:2002/discussions
+
+These ports and paths are to specific MFEs made available via the MFE plugin.
+
+In order to develop locally, you will need to fork and clone the MFE
+repository as you did for edx-platform, bind mount the directory, stop
+the Tutor-hosted MFE and start a local npm dev server.  Let's do so
+with the Learner Dashboard MFE.
+
+First, you should verify that the learner dashboard is working
+correctly after you have installed the MFE plugin.  Assuming
+everything is configured in the standard way, your URL should be
+``http://apps.local.openedx.io:1996/learner-dashboard/``
+
+Follow the same, fork, clone workflow described above and clone the
+learner-dashboard
+``https://github.com/openedx/frontend-app-learner-dashboard``
+repository locally.
+
+Add a tutor mount for your cloned directory.
+
+.. code-block:: bash
+
+   (tutor-main) $ tutor mounts add /home/git/frontend-app-learner-dashboard
+
+Next, ensure that the learner-dashboard MFE is stopped
+
+.. code-block:: bash
+
+   (tutor-main) $ tutor dev stop learner-dashboard
+
+Reloading the learner dashboard page in the browser should now yield an error.
+
+Now its time to replace the default Tutor-hosted learner-dashboard with a
+local version.  That version will use a dev config file to connect to
+the Tutor-hosted backend and to bind to the expected port.
+
+.. admonition:: Local MFE Support and npm dev Profiles
+
+   Not every MFE currently has an ``npm run dev`` command that will
+   work with Tutor, though it is possible to create one if that is the
+   case for the MFE you are developing, , using `an existing one
+   <https://github.com/openedx/frontend-app-learner-dashboard/pull/530/files>`_
+   as a template.
+
+From the directory containing the local copy of the learner-dashboard
+repository start the npm dev server.
+
+.. code-block:: bash
+
+   (tutor-main) $ npm run dev
+
 Exercise: Update the Learner Dashboard
 **************************************
 
-The Learner Dashboard is the first page that students will see when they log
-into Open edX. On our Tutor dev environment, it is located at
-``http://local.overhang.io:8000/dashboard``
+The Learner Dashboard is the first page that students will see after they log
+into Open edX.
+
+The dashboard page will either be provided by a legacy server side template or by the learner-dashboard MFE.  Working with the MFE is usually the best choice.  Note that this tutorial is simplistic and appropriate to get started.  However, we don't recommend forking an MFE to customize it.  For extensive modifications, that might be necessary, but for simple things using design tokens and frontend plugin slots will be a much better alternative.
+
+Working with the Learner Dashboard MFE
+======================================
+
+
+
+Working with the Legacy Learner Dashboard
+=========================================
+On our Tutor dev environment, it is located at
+``http://local.openedx.io:8000/dashboard``
 
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_before.png
    :alt: Learner Dashboard page without any of our changes.
@@ -217,7 +289,7 @@ is not a change that will be merged upstream, but it will demonstrate the
 steps you will have to go through to make a real change.
 
 Edit the Template
-=================
+-----------------
 
 The template file for this page is at ``lms/templates/dashboard.html``. We're
 going to add a simple welcome message to the ``dashboard-notifications`` div::
@@ -235,8 +307,11 @@ file. When you reload it in your browser, you should see something like this:
 .. image:: /_images/developers_quickstart_first_pr/learner_dashboard_after.png
    :alt: Learner Dashboard page after we add the welcome message.
 
+Standard Operating Procedure For Backend or Frontend Changes
+============================================================
+
 Make a Commit
-=============
+-------------
 
 Now that you've saved your changes, you can make a commit. First make a new
 branch with the name ``developer_quickstart``::
@@ -251,7 +326,7 @@ be prefixed with "feat:" like so::
     commit -a -m "feat: add welcome message to learner dashboard"
 
 Push the Commit to Your Fork
-============================
+----------------------------
 
 Now push your changes to a new branch in your fork::
 
@@ -265,7 +340,7 @@ Learn more about authentication `here <https://docs.github.com/en/authentication
 
 
 Create A Pull Request
-*********************
+---------------------
 
 Go to your fork.
 
@@ -305,3 +380,11 @@ If you are now looking for something to work on, please see `How to start contri
 
 If you need more help or run into issues, check out the :doc:`/other/getting_help`
 section of the documentation for links to some places where you could get help.
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-03-19   | e0d (Ed Zarecor)              |                | Tutor dev locally              |
++--------------+-------------------------------+----------------+--------------------------------+
