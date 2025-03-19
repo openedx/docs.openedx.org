@@ -16,10 +16,6 @@ Manage Course Units
 Create a Unit
 ********************
 
-.. sidebar:: Empty Unit
-
-   .. thumbnail:: /_images/Educators_blank_unit.png
-
 You can create a unit from the outline or create a unit in the same subsection
 from the unit page.
 
@@ -32,12 +28,13 @@ To create a unit from the outline, follow these steps.
 
 #. Select **New Unit** at the bottom of the expanded subsection. A new unit is created at the end of the subsection and the blank unit editor opens.
 
+   .. image:: /_images/Educators_blank_unit.png
+     :alt: A new, blank unit.
+
 #. Click the pencil icon to edit and enter the name for the new unit.A
    descriptive name can help learners locate content in the course. It can
    also help you select content when you analyze performance in reporting and
    analytics systems.
-
-#. Click the Visibility tab to change the subsection visibility and assessment results visibility.
 
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
@@ -90,7 +87,7 @@ Unit>` to specify which learner groups a unit is available to.
 Edit the Unit Name
 ==============================
 
-To edit a unit name, on the unit page in Studio, select **Edit** next to the
+To edit a unit name, on the unit page in Studio, select **Pencil Icon** next to the
 name.
 
 .. image:: /_images/educator_how_tos/unit-edit-icon.png
@@ -112,19 +109,17 @@ To change the location of a component, move your mouse pointer over the **Drag
 to reorder** handle on the component toolbar. The pointer changes to a four-
 headed arrow. You can then drag the component to the location that you want.
 
-In the image that follows, the handle for the discussion component is selected.
+In the image that follows, two handle icons are highlighted.
 
 .. image:: /_images/educator_how_tos/unit-drag-selected.png
-  :alt: A discussion component selected so that it can be dragged.
-  :width: 600
+  :alt: A unit page with two components with the drag handle highlighted.
 
-A blue outline indicates where the component will land when you release the
-mouse button. For example, in the image below, the discussion component is
+A gray outline indicates where the component will land when you release the
+mouse button. For example, in the image below, the text component is
 being moved to the top of the unit.
 
 .. image:: /_images/educator_how_tos/unit-drag-moved.png
  :alt: A component being dragged to a new location.
-  :width: 600
 
 
 .. _Delete a Unit:
@@ -144,16 +139,13 @@ When you delete a unit, you delete all components within the unit.
 
 To delete a unit, follow these steps.
 
-#. On the course outline page in Studio, select the **Delete** icon in the box
-   for the unit you want to delete.
+#. On the course outline page in Studio, select the **Delete** option from the kebab menu
+   of the unit you want to delete.
 
    .. image:: /_images/educator_how_tos/unit-delete.png
-    :alt: The Course Outline page with the Delete icons for several units
-        circled.
-    :width: 300
+    :alt: The Course Outline page with the Delete option for a unit highlighted.
 
-#. When you receive the confirmation prompt, select **Yes, delete this
-   unit**.
+#. When you receive the confirmation prompt, select **delete** to confirm.
 
 .. _Preview a Unit:
 
@@ -213,17 +205,11 @@ To publish the unit, select **Publish** in the status panel.
 Use the Outline to Publish a Unit
 =======================================
 
-To publish a unit from the outline, select the **Publish** icon in the box for
-the unit.
+To publish a unit from the outline, select the **Publish** option from the kebab menu
+of the unit.
 
 .. image:: /_images/educator_how_tos/outline-publish-icon-unit.png
- :alt: The Course Outline page with an arrow pointing to the Publish icon for a
-     unit.
- :width: 500
-
-.. note::
- The **Publish** icon only appears when there is new or changed content in the
- unit.
+ :alt: The Course Outline page the publish option highlighted for a unit.
 
 .. _Discard Changes to a Unit:
 
@@ -297,5 +283,5 @@ Course Content`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
