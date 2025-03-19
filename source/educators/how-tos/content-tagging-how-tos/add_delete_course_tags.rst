@@ -62,7 +62,7 @@ Adding Tags from the Course Outline Page
 Deleting Tags from the Course Outline Page
 ******************************************
 
-#. Click on “Manage Tags” in the course header section. The tag drawer will open. The tag drawer will open.
+#. Click on “Manage Tags” in the course header section. The tag drawer will open. 
    
    .. image:: /_images/educator_how_tos/ctag_course_tag_del_step1.png
       :alt: Screenshot of clicking Manage tags.
@@ -107,5 +107,5 @@ Deleting Tags from the Course Outline Page
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-19   | UX/UI WG                      | Sumac          | Small grammar error - fixed    |
 +--------------+-------------------------------+----------------+--------------------------------+
