@@ -52,6 +52,7 @@ Run Content Experiments
    ../how-tos/advanced_features/manage_content_experiments.rst
    ../how-tos/advanced_features/add_content_experiments_olx.rst
    ../how-tos/advanced_features/set_up_group_configuration_olx.rst
+   ../how-tos/advanced_features/randomize_units_for_assessment_exams.rst
    ../references/advanced_features/guidelines_modifying_group_configuration.rst
    ../references/advanced_features/experiment_group_configurations.rst
    ../how-tos/advanced_features/test_content_experiments.rst
