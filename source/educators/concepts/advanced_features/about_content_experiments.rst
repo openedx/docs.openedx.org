@@ -6,7 +6,7 @@ About Content Experiments
 .. tags:: educator, concept
 
 
-You use content experiments to show different course content to different groups of learners. Also known as "A/B tests" or "split tests", content experiments enable you to research and compare the performance of learners in different groups to gain insight into the relative effectiveness of your course content.
+Content experiments enable showing different course content to different groups of learners. Also known as “A/B tests” or “split tests”, content experiments allow an instructor or researcher to compare the performance or engagement of learners in different groups. This function also enables per-unit randomization for other purposes such as the assessment of learning. See :ref:`Randomize Units for Assessment (Exams)`.
 
 If your course uses content experiments, the grade report that you generate from the instructor dashboard includes a column identifying the experiment group that each learner has been assigned to. For more information, see :ref:`Guide to the Grade Report`.
 
@@ -38,6 +38,11 @@ To determine the available groupings of learners, you set up group configuration
 
 You then select which group configuration to use when you add a content experiment :ref:`using Studio <Create a Content Experiment>` or :ref:`Add a Content Experiment in OLX`.
 
+.. note::
+
+  To see a research use case of the content experiment, view `The Effect of Course Content Position on Student Attempts of Practice Problems in Introductory Biology <https://ieeexplore.ieee.org/document/8534635>`_.
+
+
 .. seealso::
 
  :ref:`About Group Configurations` (concept)
@@ -54,10 +59,12 @@ You then select which group configuration to use when you add a content experime
 
  :ref:`Experiment Group Configurations` (reference)
 
+ :ref:`Randomize Units for Assessment (Exams)` (how-to)
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-19   | Docs WG                       | Sumac          |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
