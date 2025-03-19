@@ -1,36 +1,37 @@
 .. _Zooming Image:
 
-##################
-Zooming Image Tool
-##################
+Zooming Image (Dual Image) Tool
+###############################
 
 .. tags:: educator, how-to
 
-If you present information to your learners using very large or very detailed
-images, learners might not be able to clearly see all the information in the
-image. Use the zooming image tool to provide learners with the ability to zoom
-in to and enlarge selected areas of your image.
+This tool allows the instructor to overlay a subsection of one image over a
+second image. These two files can be any two image files.
+
+In the particular use case shown, the team presented two views of a biochemical
+pathway. One shows the names of molecules, and the second shows their chemical
+structure when the learner clicks on that original image. That is why the
+feature originally had the name “Zooming Image Tool”.  You could imagine other
+use cases such as a map of a region and a second image that shows data or names
+from each subsection from the first map.
 
 
 .. image:: /_images/educator_how_tos/Zooming_Image.png
-  :alt: Example zooming image tool showing a chemistry exercise.
+  :alt: Example zooming image (dual image) tool showing a chemistry exercise.
 
-***********************************
-Components of a Zooming Image Tool
-***********************************
+Components of a Zooming Image (Dual Image) Tool
+***********************************************
 
-To create a zooming image tool, you need the following files.
+To create a zooming image (dual image) tool, you need the following files.
 
-* The image that you want learners to see when they access the unit.
+* The primary image that you want learners to see when they access the unit.
 
-* Optionally, an image that appears in the magnified area when a learner
-  selects the regular image. This image should be larger than the regular
-  image.
+* Secondly, an image that appears in the selected area when a learner
+  selects a point in the primary image.
 
 
-****************************
-Create a Zooming Image Tool
-****************************
+Create a Zooming Image (Dual Image) Tool
+****************************************
 
 #. In Studio, select **Content** and then select **Files & Uploads** to upload
    your regular-sized image file and, optionally, your large image file. For
@@ -90,5 +91,7 @@ Create a Zooming Image Tool
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-19   | Docs WG                       | Sumac          | Pass. Propose changing name to |
+|              |                               |                | "Dual Image Tool" to better    |
+|              |                               |                | reflect its actual capabilities|
 +--------------+-------------------------------+----------------+--------------------------------+
