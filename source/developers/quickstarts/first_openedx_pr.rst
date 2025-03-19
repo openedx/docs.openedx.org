@@ -380,3 +380,11 @@ If you are now looking for something to work on, please see `How to start contri
 
 If you need more help or run into issues, check out the :doc:`/other/getting_help`
 section of the documentation for links to some places where you could get help.
+
+Maintenance Chart
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-03-19   | e0d (Ed Zarecor)              |                | Tutor dev locally              |
++--------------+-------------------------------+----------------+--------------------------------+
