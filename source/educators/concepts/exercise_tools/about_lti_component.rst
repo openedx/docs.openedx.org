@@ -6,40 +6,31 @@ About the LTI Component
 
 .. tags:: educator, concept
 
-You can integrate remote learning tools, such as applications and textbooks,
-into your course with the learning tools interoperability (LTI) component. The
-LTI component supports tools with the `LTI 1.1`_ and `LTI 1.3`_ specifications.
+The Learning Tools Interoperability (LTI) component allows you to integrate
+remote learning tools into your course, such as applications and textbooks.
+This component supports tools that comply with the `LTI 1.1`_ and `LTI 1.3`_ specifications.
 Additionally, the LTI 1.3 tools can use the following LTI Advantage extensions:
 `Deep Linking`_, `Assignments and Grades services`_ and
 `Names and Roles Provisioning Service`_.
 
-.. contents::
+.. contents:: Contents
    :local:
    :depth: 2
 
-Before you make tools from an external site available through your course, be
-sure to review the tools to ensure that they are accessible to people with
-disabilities. For example, in addition to testing the LTI components that you
-add to your course, you can ask third party providers to confirm that a tool is
-accessible, and, if available, contact your on campus accessibility support
-services for additional guidance. For more information, see :ref:`Accessibility
-Best Practices Checklist`.
 
 *********************
 Overview
 *********************
 
-You can use an LTI component in several ways.
+The LTI component enhances the learning experience by enabling integration between the LMS and external tools. It can be used in several ways.
 
-* You can add remote LTI tools that display content only, and that do
-  not require a learner response. An example is a digital copy of a textbook in
-  a format other than PDF.
+* **Embed External Learning Tools:** Integrate third-party tools, such as coding platforms, simulations, and adaptive learning systems, directly into your LMS.
 
-* You can add remote LTI tools that do require a learner response. A remote
-  LTI tool provider grades the responses.
+* **Facilitate Interactive Learning & Assessments:** Allow students to engage with external quizzes, assignments, and interactive exercises, with grading handled by the tool provider.
 
-* You can use the LTI component as a placeholder for synchronizing with a
-  remote grading system.
+* **Synchronize Grades with External Systems:** Ensure automatic grade synchronization between an LTI tool and the LMS gradebook.
+
+* **Support Video Conferencing & Collaboration:** Integrate virtual classrooms and peer review tools to foster engagement and collaboration.
 
 For example, the following LTI component integrates a Cerego tool that learners
 interact with into the LMS for a course.
@@ -48,21 +39,15 @@ interact with into the LMS for a course.
    :alt: A page in the LMS showing the Cerego music player and a question for
     learners to answer about it.
 
-When you add an LTI component to your course, the edX Learning Management
-System (LMS) is the LTI tool consumer, and the external tool or content is the
-LTI tool provider.
 
-Be sure to review all supplemental materials to ensure that they are accessible
-before making them available through your course. For more information, see
-:ref:`Accessibility Best Practices Checklist`.
+.. note::
+  Be sure to review all supplemental materials to ensure that they are accessible
+  before making them available through your course. For more information, see
+  :ref:`Accessibility Best Practices Checklist`.
 
-You can also integrate content from a course into a remote learning management
-system such as Canvas or Blackboard.
+.. note::
+  You can also integrate content from a course into a remote learning management system such as Canvas or Blackboard.
 
-For more information about how to use Studio as an LTI tool provider, see
-:ref:`Using Open edX as an LTI Tool Provider<using open edx as an lti tool provider>`.
-
-.. note the slightly different destination links ^. Alison 23 Nov 2015
 
 .. seealso::
 
@@ -76,10 +61,13 @@ For more information about how to use Studio as an LTI tool provider, see
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
 
+ :ref:`Using Open edX as an LTI Tool Provider` (concept)
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-19   |   Documentation WG            |     Sumac      |      Pass                      |
 +--------------+-------------------------------+----------------+--------------------------------+
