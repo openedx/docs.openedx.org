@@ -51,12 +51,10 @@ Set a Subsection Release Date
 
 If the subsection should release at a later time than the containing section, set the release date. To set the subsection release date, follow these steps.
 
-#. Select the **Configure** icon in the subsection box.
+#. Select the **Configure** option from the kebab menu in the subsection box.
 
    .. image:: /_images/educator_how_tos/subsections-settings-icon.png
-    :alt: A subsection in the course outline with an arrow pointing to the
-        configure icon.
-    :width: 500
+    :alt: A subsection in the course outline with the configure option highlighted.
 
    The subsection settings dialog box opens.
 
@@ -76,7 +74,6 @@ If the subsection should release at a later time than the containing section, se
 
    .. image:: /_images/Educators_subsection_settings_basic.png
     :alt: Subsection Settings Basics tab with the Release Date and Grade As fields
-    :width: 500
 
 #. Select **Save**.
 
@@ -119,12 +116,10 @@ calculated.
 
 To entirely hide a subsection from learners, follow these steps.
 
-#. Select the **Configure** icon in the subsection box.
+#. Select the **Configure** option from the kebab menu in the subsection box.
 
    .. image:: /_images/educator_how_tos/subsections-settings-icon.png
-     :alt: A subsection in the course outline with an arrow pointing to the
-        configure icon.
-     :width: 500
+     :alt: A subsection in the course outline with the configure option highlighted.
 
    The subsection settings dialog box opens.
 
@@ -173,7 +168,7 @@ date.
 
 To hide a subsection based on date, follow these steps.
 
-#. Select the **Configure** icon in the subsection box.
+#. Select the **Configure** option from the kebab menu in the subsection box.
 
    The subsection settings dialog box opens.
 
@@ -207,11 +202,7 @@ icon in the box for the subsection.
 .. image:: /_images/educator_how_tos/outline-publish-icon-subsection.png
  :alt: Part of a course outline with the publishing icon for a subsection
      circled.
- :width: 500
-
-.. note::
- The **Publish** icon only appears when there is new or changed content within
- the subsection.
+ 
 
 See :ref:`Unit Publishing Status` for information about statuses and visibility
 to learners.
@@ -232,14 +223,13 @@ When you delete a subsection, you delete all units within the subsection.
 
 To delete a subsection, follow these steps.
 
-#. In the subsection that you want to delete, select the **Delete** icon.
+#. In the subsection that you want to delete, select the **Delete** option from the kebab menu.
 
   .. image:: /_images/educator_how_tos/subsection-delete.png
    :alt: Part of a course outline showing a subsection with the Delete icon
        circled.
 
-#. When the confirmation prompt appears, select **Yes, delete this
-   subsection**.
+#. When the confirmation prompt appears, select **delete** to confirm.
 
 .. seealso::
 
@@ -271,6 +261,8 @@ To delete a subsection, follow these steps.
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 03/19/2025   | John (Curricu.me)            | Sumac           |Pass                                                           |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/05/2025   | Leira (Curricu.me)            | Sumac          |Fail (https://github.com/openedx/docs.openedx.org/issues/863   |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
