@@ -71,20 +71,20 @@ Set a Section Release Date
 
 To set the section release date, follow these steps.
 
-#. Select the **Configure** icon in the section box.
+#. Select the **Configure** option from the kebab menu in the section box.
 
    .. image:: /_images/educator_how_tos/section-settings-box.png
     :alt: The section settings icon circled.
-    :width: 500
+    
 
    The **Settings** dialog box opens.
 
 #. Enter the release date and time for the section.
 
-  .. note::
-   The time that you set is in Coordinated Universal Time (UTC). You might want
-   to verify that you have specified the time that you intend by using a time
-   zone converter such as `Time and Date Time Zone Converter`_.
+   .. note::
+      The time that you set is in Coordinated Universal Time (UTC). You might want
+      to verify that you have specified the time that you intend by using a time
+      zone converter such as `Time and Date Time Zone Converter`_.
 
 #. Select **Save**.
 
@@ -97,12 +97,11 @@ For more information, see :ref:`Release Dates`.
 Publish All Units in a Section
 ********************************
 
-To publish all new and changed units in a section, select the **Publish** icon
-in the box for the section.
+To publish all new and changed units in a section, select the **Publish** option
+in the kebab menu for the section.
 
 .. image:: /_images/educator_how_tos/outline-publish-icon-section.png
  :alt: Publishing icon for a section.
- :width: 500
 
 .. note::
  The **Publish** icon only appears when there is new or changed content within
