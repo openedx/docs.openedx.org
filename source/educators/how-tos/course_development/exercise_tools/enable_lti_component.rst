@@ -34,6 +34,10 @@ information, see :ref:`Enable Additional Exercises and Tools`.
   the previous LTI component will continue to work correctly, even if the
   ``lti`` module is no longer present in the **Advanced Module List**.
 
+  Additionally, ``lti_consumer`` supports `LTI 1.3`_ and `LTI Advantage`_,
+  providing enhanced security and interoperability features for integrating
+  external tools with Open edX.
+
 .. seealso::
  
  :ref:`About the LTI Component` (concept)
