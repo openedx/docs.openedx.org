@@ -5,9 +5,19 @@ Add a Dropdown Problem
 
 .. tags:: educator, how-to
 
+.. contents::
+  :local:
+  :depth: 2
+
+Overview
+********
+
 .. youtube:: e6HxKo18_xE
 
-You add dropdown problems in Studio by selecting the **Problem** component.
+Adding a Basic Dropdown Problem
+*******************************
+
+To add dropdown problems in Studio, select the **Problem** component.
 In the problem editor, select the **Dropdown** option. Fill in the fields on
 this screen to create your problem.
 
@@ -64,6 +74,40 @@ You can see the OLX for the example problem from the Overview section below.
   changes you make in the advanced editor, you may not be able to cannot
   switch back to the simple editor.
 
+.. _Creating In-Line Dropdown:
+
+Creating an In-Line Dropdown Problem using the Advanced Editor
+**************************************************************
+
+To revise the previous example to an in-line question, first rewrite the
+sentence for completion. Age is a type of _ data. For inline, the OLX looks like
+the following.
+
+.. code-block:: xml
+
+  <problem>
+  Age is a type of
+    <optionresponse inline="1">
+      <optioninput inline="1" options="('Nominal','Discrete','Continuous')"
+       correct="Continuous"></optioninput>
+    </optionresponse> data.
+  </problem>
+
+.. admonition:: Tip
+
+  Do not include ``<p>`` tags to keep the in-line look of the dropdown box. The
+  resulting in-line dropdown problem is shown.
+
+  .. image:: /_images/educator_how_tos/DropdownInline4.png
+    :alt: The above sentence with an in-line dropdown box with the options "Nominal", "Discrete", and "Continuous"
+    :width: 400
+
+  And what it looks like after being graded:
+
+  .. image:: /_images/educator_how_tos/DropdownInline5.png
+    :alt: The in-line sentence being marked as correct. Visually, the "green check" for correctness shows up directly after the dropdown box, before the completion of the sentence.
+    :width: 400
+
 .. seealso::
  
 
@@ -81,5 +125,5 @@ You can see the OLX for the example problem from the Overview section below.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-19   |  Docs WG                      |  Sumac         |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
