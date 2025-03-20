@@ -62,7 +62,7 @@ Sphinx should build the HTML files locally. To serve the docs locally, run
 
     make serve_docs
 
-This is a background process, and it will continue updating the docs as you edit them. However if you make substantive changes, you may need to kill the process and run ``make clean``/``make html`` again. Unfortuantely this is a big project and ``make html`` can take 3-4 minutes to run.
+This is a background process, and it will continue updating the docs as you edit them. However if you make substantive changes, you may need to kill the process and run ``make clean``/``make html`` again. We're fortunate to have a lot of docs - but this means that ``make html`` can take 3-4 minutes to run.
 
 You should ensure the documentation builds with no errors or warnings when submitting a pull request.
 
