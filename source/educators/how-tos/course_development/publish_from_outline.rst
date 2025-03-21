@@ -8,25 +8,19 @@ Publish Content from the Course Outline
 
 You can publish new and changed units for an entire section or subsection. You can also publish individual units.
 
-To publish new and changed units, select the **Publish** icon for a section,
-subsection, or unit. In the following example, the **Publish** icon is circled
-for a section, subsection, and unit.
+To publish new and changed units, select the **Publish** option from the kebab menu for a section,
+subsection, or unit. In the following example, the **Publish** option is highlighted. 
 
 .. START PUBLISH COURSE
 
 .. image:: /_images/educator_how_tos/outline-publish-icons.png
  :alt: Publishing icons in the course outline.
- :width: 500
 
 #. Go back to the course outline.
 
    You see the unit you created, within the subsection and section, in an unpublished state.
 
-#. For the section, click the Publish icon (|Publish Icon|).
-
-.. note::
- The **Publish** icon only appears when there is new or changed content within
- the object.
+#. For the section, select the **Publish** option from the kebab menu.
 
 .. END PUBLISH COURSE
 
@@ -67,6 +61,8 @@ For more information, see the following topics.
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                         |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/866)|
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+

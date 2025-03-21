@@ -30,9 +30,9 @@ To add a video, follow these steps.
 
    A video with default settings is added to the unit.
 
-#. In the video block, click Edit.
+#. The video component opens in the visual editor.
 
-#. In the **Component Display Name** field, enter the name that you want learners to see for this video.
+#. In the **Component Display Name** field, click the pencil icon and enter the name that you want learners to see for this video.
 
    This name appears as a heading above the video in the LMS, and it identifies the video for you in reports and analytics. If you do not enter a display name, the platform specifies “video” for you.
 
@@ -111,7 +111,7 @@ The following options appear on the **Edit** page of the video component.
 
     * - **Component Display Name**
       - The name you want your learners to see. To edit the display name,
-        select the pencil icon inthe top left hand corner.
+        select the pencil icon in the top left hand corner.
 
 .. _Video Source:
 
@@ -124,8 +124,11 @@ Video Source
     :widths: 30 70
 
     * - **Video ID**
-      - The Video IDis the source for your video. Video IDs are the
+      - The Video ID is the source for your video. Video IDs are the
         identifiers that the video process assigns to the video.
+
+        .. note::
+           The Video ID is an Edx.org-specific identifier, and typically not used for Open edX deployments.
 
     * - **Video URL**
       - The Video URL is the source for your video. Video URLS are for externally
@@ -156,6 +159,9 @@ Video Source
 ----------------------
 Thumbnail
 ----------------------
+
+.. note::
+  The thumbnail is not available for videos hosted on Youtube. You can set your thumbnail for Youtube videos from Youtube if you are the owner of the video. 
 
 .. note::
    **This feature is not available for Video components in Libraries.**
@@ -193,7 +199,7 @@ Transcript
       - The transcript files for any additional languages. For more
         information, see :ref:`Transcripts in Additional Languages<Add a Transcript>`.
 
-    * - **Download Transcript Allowed**
+    * - **Allow Transcript Downloads**
       - Specifies whether you want to allow learners to download the .srt or
         .txt transcript. (By default, Studio creates a .txt transcript when you
         upload an .srt transcript.) If you select **Allow transcript
@@ -204,7 +210,7 @@ Transcript
         using the **Upload Handout** field. For more information, see
         :ref:`Additional Transcripts`.
 
-    * - **Show Transcript by Default**
+    * - **Show Transcript in the video player by default**
       - Specifies whether the transcript appears next to the video by default.
         If this is set to **unchecked**, learners can still view transcripts by
         selecting the **Show Transcript** (”) icon.
@@ -306,5 +312,5 @@ License
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
