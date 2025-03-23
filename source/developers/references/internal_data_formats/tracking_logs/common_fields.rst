@@ -257,3 +257,12 @@ include a session value.
  while a browser window remains open. Subsequent actions are logged, but the
  system cannot supply the user identifier. EdX recommends that you ignore these
  events during analysis.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

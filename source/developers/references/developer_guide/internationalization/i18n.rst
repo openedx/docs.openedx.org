@@ -815,3 +815,12 @@ The following links provide other resources related to internationalization.
 * `Django: Internationalizing Python code <https://docs.djangoproject.com/en/dev/topics/i18n/translation/#internationalization-in-python-code>`_
 * `Django Translation guidelines <https://docs.djangoproject.com/en/dev/topics/i18n/translation/>`_
 * `Django Format localization <https://docs.djangoproject.com/en/dev/topics/i18n/formatting/>`_
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

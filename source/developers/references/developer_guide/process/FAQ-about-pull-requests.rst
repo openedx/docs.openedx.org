@@ -177,3 +177,12 @@ pull request can help you get that information.
 
 .. _Community Contribution Project Managers: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3548807177/Community+Contributions+Project+Manager
 .. _maintainers: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3426844690/Maintainership+Pilot
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -94,3 +94,12 @@ For more information about fields that are included in every event, see
 :ref:`common`. For more information about this ``problem_check`` event and
 other types of events, see :ref:`Student_Event_Types` or
 :ref:`Instructor_Event_Types`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

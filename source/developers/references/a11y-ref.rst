@@ -570,3 +570,11 @@ options.
  :ref:`Accessibility Guidelines` (concept)
 
  :ref:`Accessibility Best Practices Checklist` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

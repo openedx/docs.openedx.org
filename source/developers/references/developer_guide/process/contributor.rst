@@ -63,3 +63,11 @@ link to a WIP pull request in any discussion threads you start.
 .. _Product Roadmap: https://github.com/orgs/openedx/projects/4
 
 .. include:: /links.txt
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

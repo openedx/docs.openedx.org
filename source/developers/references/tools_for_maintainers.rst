@@ -31,3 +31,12 @@ Tools for Maintainers
 .. _Grimoire: https://openedx.biterg.io/
 .. _Discourse: https://discuss.openedx.org
 .. _Open edX Slack: https://openedx.org/slack
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

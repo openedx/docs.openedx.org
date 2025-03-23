@@ -310,3 +310,12 @@ continue to be supported.
 
 .. _event-tracking: https://github.com/openedx/event-tracking
 .. _event-tracking documentation: http://event-tracking.readthedocs.io/en/latest/overview.html#event-tracking
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

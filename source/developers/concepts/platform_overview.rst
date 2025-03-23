@@ -129,3 +129,12 @@ This can be complex and we encourage you to `reach out to us`_ to talk about the
 
    - `Open edX Platform Architecture Introduction <https://www.youtube.com/watch?v=LlpdOUnymAQ&list=PL87xhvJSz2W4Pn4dpmxT9goqhGicqg2-5&index=4>`_
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
