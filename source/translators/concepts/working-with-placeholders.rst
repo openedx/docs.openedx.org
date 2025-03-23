@@ -53,3 +53,12 @@ Reference <translators reference placeholders>`
    * :ref:`Placeholders Reference <translators reference placeholders>`
 
    * :doc:`working-with-html`
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

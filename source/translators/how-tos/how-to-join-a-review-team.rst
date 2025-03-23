@@ -32,3 +32,12 @@ To join a review team, request permission from the project coordinator(s):
 
    You can also obtain reviewer and coordinator access by contacting the
    Translation Working Group’s Organizer via ``ehuthmacher at axim dot org``.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
