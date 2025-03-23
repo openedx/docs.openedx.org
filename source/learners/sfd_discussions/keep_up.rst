@@ -75,3 +75,12 @@ post that you have made, you receive an email notification.
 .. learners and would be more complicated to explain.
 
 You only receive an email notification for the first response.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

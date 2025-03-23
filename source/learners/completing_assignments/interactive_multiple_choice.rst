@@ -126,3 +126,12 @@ This step might be just as thought provoking as the other steps.
 .. note:: The graphs appear after 10 learners submit their final responses.
  If the graphs do not appear, give the others taking the course some time, and
  then refresh your browser page.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

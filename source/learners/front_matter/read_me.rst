@@ -8,3 +8,12 @@ This documentation is created using RST_ files and Sphinx_. The Open edX communi
 members. You can find guidelines for how to :ref:`contribute to Open edX Documentation<Documentor Guidelines>`.
 
 You can also find additional resources for learners in the :ref:`Resources for Open edX Learners` section.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

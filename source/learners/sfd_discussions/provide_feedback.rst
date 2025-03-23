@@ -109,3 +109,12 @@ or comments and take the appropriate action.
 
 
 .. Future: DOC-121 As a course author, I need a template of discussion guidelines to give to students
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

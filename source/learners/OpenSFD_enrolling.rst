@@ -47,3 +47,12 @@ To open the course, locate the course listing on your dashboard and select
 For more information, see :ref:`SFD Starting a Course` and :ref:`SFD
 Prerequisites`.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

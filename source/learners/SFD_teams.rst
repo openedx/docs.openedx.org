@@ -257,3 +257,12 @@ Discussions`.
 
 If you leave a team, you can view posts that are made, but you can no longer
 participate in that team's discussions.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
