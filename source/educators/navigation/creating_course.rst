@@ -159,6 +159,7 @@ Launch a Course
    :glob:
 
    ../concepts/releasing-course/course_launch_checklist.rst
+   ../how-tos/course_development/social_sharing.rst
 
 
 .. _Enroll Learners in a Course:
