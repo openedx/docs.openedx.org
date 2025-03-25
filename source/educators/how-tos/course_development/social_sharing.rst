@@ -87,9 +87,17 @@ the course.  On this page one can:
 
 * Play the video, with all Open edX specific controls, as in a course.
 * Learn more about the course.
-* Directly enroll or if already enrolled, retun to the course.
+* Directly enroll or if already enrolled, return to the course.
 
 .. image:: /_images/educator_how_tos/lms-public-video-view.png
  :alt: A public video being displayed on the Open edX platform
  :width: 500
  
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2023-06-12   |  First authored               | Quince         | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+
