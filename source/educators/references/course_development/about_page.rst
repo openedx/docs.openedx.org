@@ -651,7 +651,66 @@ To be effective, a testimonial should contain no more than 25-50 words.
 You can add the learner testimonial to your course About page. For more
 information, see :ref:`Edit the Course About Page`.
 
+.. _What You Will Learn Guidelines:
 
+========================================
+What You Will Learn Guidelines
+========================================
+
+The “what you will learn” information describes the skills and knowledge
+learners will acquire in the course in an itemized list. Best practice is to
+format each item as a bullet with four to ten words.
+
+---------------------------------
+Example "What You Will Learn"
+---------------------------------
+
+* Basic R Programming
+
+* An applied understanding of linear and logistic regression
+
+* Application of text analytics
+
+* Linear and integer optimization
+
+.. _Subject Guidelines:
+
+========================================
+Subject Guidelines
+========================================
+
+A primary subject is required. Optionally, you can select up to two subjects in
+addition to the primary subject. Only the primary subject appears on the About
+page.
+
+---------------
+Example Subject
+---------------
+
+A particular course might specify the following subjects.
+
+* Primary subject: History
+
+* Additional subject: Architecture
+
+* Additional subject: Anthropology
+
+.. _Level Guidelines:
+
+========================================
+Level Guidelines
+========================================
+
+Use the following guidelines to select the level for your course.
+
+* Introductory - No prerequisites; a learner who has completed some or all
+  secondary school could complete the course.
+
+* Intermediate - Basic prerequisites; learners need to complete secondary school
+  or some university courses.
+
+* Advanced - Significant prerequisites; the course is geared to third or fourth
+  year university students or master's degree students.
 
 .. _Course Metadata:
 
