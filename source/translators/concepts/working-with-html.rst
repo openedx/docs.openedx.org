@@ -38,3 +38,12 @@ recommend checking out
    * :doc:`working-with-placeholders`
 
    * `Basic HTML Concepts (Mozilla Development Network) <https://web.archive.org/web/20250202183033/https://www.websiteplanet.com/blog/html-guide-beginners/>`_
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

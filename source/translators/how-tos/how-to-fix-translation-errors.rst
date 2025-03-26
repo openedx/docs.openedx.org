@@ -22,3 +22,12 @@ Steps
 .. _validation scripts and GitHub Actions: https://github.com/openedx/openedx-translations/blob/main/.github/workflows/validate-translation-files.yml
 .. _invalid translations reports: https://github.com/openedx/openedx-translations/pulls?q=is%3Apr+is%3Aopen+%22Some+translations+are+invalid.%22
 .. _openedx-translations repository: https://github.com/openedx/openedx-translations
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
