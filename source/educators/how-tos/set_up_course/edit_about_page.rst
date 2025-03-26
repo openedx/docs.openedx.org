@@ -50,11 +50,11 @@ To provide a description for your course, follow these steps.
    the template, such as languages, you can add this information in the "About
    This Course" section.
 
+#. Select **Save Changes**.
+
 #. To test how the description will appear to learners, locate the text that
    follows the **Course Overview** field, and then select **your course summary
    page**.
-
-#. Select **Save Changes**.
 
 
 .. _Add a Course Image:
@@ -166,6 +166,8 @@ To set the hours per week week estimate in Studio, follow these steps.
 
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                               |
++--------------+-------------------------------+----------------+-------------------------------------------------------------+
+| 03/19/2025   | John (Curricu.me)             | Sumac          |Pass                                                         |
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | 03/05/2025   | Leira (Curricu.me)            | Sumac          |Fail (https://github.com/openedx/docs.openedx.org/issues/859)|
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+

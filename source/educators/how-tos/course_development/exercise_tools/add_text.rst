@@ -14,15 +14,11 @@ Add Text
 
    The component is added at the end of the unit.
 
-#. In the component, select :guilabel:`Edit`.
-
-   The empty component opens in the visual editor.
-
-   .. image:: /_images/Educators_edit_text.png
+#. The empty component opens in the visual editor.
 
 #. Enter and format your content.
 
-#. To enter a display name for the component, select :guilabel:`Settings`, and then enter text in the :guilabel:`Display Name` field.
+#. To enter a display name for the component, select the :guilabel:`pencil icon` next to the component name, and then enter text in the :guilabel:`Display Name` field.
 
 #. Click :guilabel:`Save` to save the text in the unit.
 
@@ -50,6 +46,8 @@ Add Text
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/880) |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
