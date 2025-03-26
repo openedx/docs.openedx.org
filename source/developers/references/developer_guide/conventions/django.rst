@@ -30,3 +30,12 @@ The second form (relative import) only works correctly if the importing module i
         'lms.djangoapps.hologram',    # GOOD
         'hologram',                   # BAD!
     ]
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

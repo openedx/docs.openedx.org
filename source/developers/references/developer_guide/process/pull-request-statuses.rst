@@ -127,3 +127,11 @@ the author needs to take actions related to feedback.
 
    * - .. image:: /_images/pr_label_duplicate.png
      - This issue or pull request already exists elsewhere.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
