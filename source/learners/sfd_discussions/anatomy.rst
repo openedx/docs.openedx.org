@@ -180,3 +180,12 @@ Topics tab
 The **Topics** tab lists all the discussion topics in your course.
 Course-wide discussion topics appear on top of the list followed by content specific discussion topics.You can click on each topic to see the posts in that topic.
 To learn more about exploring content in topics, see :ref:`Discussion Topics`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

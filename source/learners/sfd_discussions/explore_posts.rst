@@ -138,3 +138,12 @@ View Followed Posts
 
 In the discussion navigation pane select *All posts* tab and then select *Following* filter from the
 filter menu. The content list area refreshes to show only posts that you are following.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -95,3 +95,12 @@ by an explanation of each option or control on the video player.
 For a demonstration of the Open edX video player, see the `Open edX Demo course`_.
 
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
