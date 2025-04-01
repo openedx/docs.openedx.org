@@ -17,12 +17,10 @@ Specifically, you can complete the following tasks.
 * :ref:`Hide a Unit from Students`
 
 To modify settings for a section, subsection, or unit, select the **Configure**
-icon for that object. In the following example, the **Configure** icon is
-circled for a section, a subsection, and two units.
+option within the kebab menu for a section, a subsection, and two units.
 
 .. image:: /_images/educator_how_tos/settings-icons.png
  :alt: Configure icons in the course outline.
- :width: 500
 
 For more information, see the links above.
 
@@ -57,6 +55,8 @@ For more information, see the links above.
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                         |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.ne)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/867)|
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
