@@ -34,3 +34,12 @@ Steps
 
 .. _the one in frontend-template-application: https://github.com/openedx/frontend-template-application/blob/master/renovate.json
 .. _a new [GH Request] issue: https://github.com/openedx/axim-engineering/issues/new?assignees=&labels=github-request&template=04-systems-request---uncategorized.yml&title=[GH+Request]+Enable+Renovate+for+my+repo
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

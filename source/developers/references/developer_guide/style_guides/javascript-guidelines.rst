@@ -29,3 +29,12 @@ multiple codebases, we utilize a shared `ESLint Config`_.
 
 .. _babel-preset-env: https://babeljs.io/docs/babel-preset-env
 .. _ESLint Config: https://github.com/openedx/eslint-config
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

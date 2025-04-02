@@ -26,3 +26,12 @@ Resources
 * `Open edX Proposal 54 <https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0054-core-contributors.html>`_, which defines the Core Contributor Program
 * `So You Want To Become a Core Contributor <https://www.youtube.com/watch?v=pfiDncYRIUU>`_, a talk from the 2022 Open edX conference
 * `Current Contributors to the Open edX project <https://openedx.atlassian.net/wiki/spaces/COMM/pages/3156344833/Core+Contributors+to+the+Open+edX+Project>`_
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -62,3 +62,12 @@ In addition to adding in the HTML to your data, you will probably need to turn o
 
     # Title was cleaned with bleach and is safe.
     ${title | n, decode.utf8}
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

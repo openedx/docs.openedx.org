@@ -139,3 +139,12 @@ do not have any problems are labelled as having no problem scores.
   :width: 500
   :alt: List of graded sections in the order that they occur in the course,
    showing earned and possible points for each graded problem.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

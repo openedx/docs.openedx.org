@@ -37,3 +37,12 @@ For most cases simply wrapping the ``trans`` or ``blocktrans`` in a ``force_esca
     {% endfilter %}
 
 .. note:: Translator notes must be in the line immediately preceding the translated string, so the force_escape filter should be declared around the translator's note as well.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

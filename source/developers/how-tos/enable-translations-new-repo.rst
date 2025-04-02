@@ -272,3 +272,12 @@ After adding a repository to the `openedx-translations repo`_ verify the followi
 
 .. _Tutor: https://docs.tutor.overhang.io/
 .. _Tutor MFE Docker build: https://github.com/overhangio/tutor-mfe/blob/master/tutormfe/templates/mfe/build/mfe/Dockerfile
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

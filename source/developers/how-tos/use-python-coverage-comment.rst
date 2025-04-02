@@ -32,3 +32,12 @@ To enable this action you will need to do a few steps:
 More information and details can be found in `the GitHub action's README`_.
 
 .. _the GitHub action's README: https://github.com/py-cov-action/python-coverage-comment-action/blob/v3/README.md
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

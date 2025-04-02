@@ -176,3 +176,12 @@ Backpack before you can share your badge.
    :width: 500
    :alt: Dialog with instructions that opens when you select the Mozilla
     Backpack share icon.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

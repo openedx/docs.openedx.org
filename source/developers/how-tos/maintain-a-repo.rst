@@ -151,3 +151,12 @@ Congratulations!
 Your repository is now up to Maintainers standards! Now you're ready to begin your
 journey as a maintainer of your repo. Visit the :doc:`ongoing-maintainers-tasks`
 page to learn more about what's expected of you (and your team, if applicable).
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
