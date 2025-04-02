@@ -48,3 +48,12 @@ Steps
    additional coordinators, reviewers, and translators as you wish.
 
 .. _openedx-translations Transifex project: https://explore.transifex.com/open-edx/openedx-translations/
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

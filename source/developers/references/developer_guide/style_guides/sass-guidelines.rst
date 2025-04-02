@@ -70,3 +70,12 @@ This should instead be written as::
 .. _Open edX Stylelint Config README: https://github.com/openedx/stylelint-config-edx#sass-style-guide
 .. _SCSS-Specific Rules: https://www.npmjs.com/package/stylelint-scss#list-of-rules
 .. _Stylelint: https://stylelint.io/
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

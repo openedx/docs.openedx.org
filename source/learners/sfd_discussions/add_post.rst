@@ -291,3 +291,12 @@ edit or delete contributions from other learners.
   * To delete the contribution, select **Delete**, and then select **Delete** in
     the confirmation box.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

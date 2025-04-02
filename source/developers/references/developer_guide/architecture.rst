@@ -122,3 +122,12 @@ like order work flows and coupons.
 .. _Celery: http://www.celeryproject.org/
 .. _Redis: https://redis.io/
 .. _Elasticsearch: https://www.elastic.co/
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -49,3 +49,12 @@ Steps
 
    .. image:: /_images/developer_how_tos/edx-requirements-bot-write.png
       :alt: What the edx-requirements-bot team looks like once you've added it.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

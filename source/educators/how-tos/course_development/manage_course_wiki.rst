@@ -202,6 +202,7 @@ To restore a deleted article, select the link to the article and select
 
 **Maintenance chart**
 
+
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+

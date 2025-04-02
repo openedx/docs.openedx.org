@@ -95,3 +95,12 @@ ways to extend the platform, starting with the following table.
      - Possibly (Depends on external grader implementation)
      - No
      - No
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

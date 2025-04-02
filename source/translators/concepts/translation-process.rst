@@ -94,3 +94,12 @@ translations will be available to the user based on their profile settings.
 .. _openedx-translations repository: https://github.com/openedx/openedx-translations
 .. _extraction process: https://github.com/openedx/openedx-translations/actions/workflows/extract-translation-source-files.yml
 .. _Tutor Dockerfile: https://docs.tutor.edly.io/configuration.html#getting-and-customizing-translations
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

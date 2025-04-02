@@ -32,3 +32,12 @@ To join a translation team you must complete these steps:
 .. _openedx-translations project: https://explore.transifex.com/open-edx/openedx-translations/
 .. _Open edX Community: https://openedx.org/community/connect/
 .. _Understanding User Roles: https://docs.transifex.com/teams/understanding-user-roles
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

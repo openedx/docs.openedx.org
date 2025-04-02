@@ -80,3 +80,12 @@ Working on a Repo
 #. Run ``make test`` one more time and commit your changes with ``git add`` and ``git commit``. Follow :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits` documentation. Make sure your commit message is informative and describes why the change is being made. While the first line of the message should be terse, the body of the message has plenty of room for details.
 #. Push your changes to GitHub with ``git push``.
 #. In GitHub, open a pull request (PR). In the PR description, include anything that could help reviewers understand and test your change.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

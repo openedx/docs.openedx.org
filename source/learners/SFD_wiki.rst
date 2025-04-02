@@ -46,3 +46,12 @@ The wiki for each course is a "child" wiki of the site-wide wiki. From within
 any course wiki, selecting the top level **Wiki** link in the breadcrumb trail
 in the upper-left corner of the page takes you to the site-wide wiki. To get
 back to your course wiki, select the **Wiki** tab at the top of the page.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

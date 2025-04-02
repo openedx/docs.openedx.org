@@ -42,3 +42,12 @@ Steps
 6. After the PR has merged, it can take up to 90 minutes for backstage to pick
    up the changes.  But after that time you should see a catalog entry in
    backstage for your repository.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

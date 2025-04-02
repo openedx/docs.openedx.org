@@ -65,3 +65,12 @@ Steps
 
   :doc:`/developers/how-tos/add-sphinx-docs-to-a-repo`
         Add sphinx to a repository that doesn't already have it.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

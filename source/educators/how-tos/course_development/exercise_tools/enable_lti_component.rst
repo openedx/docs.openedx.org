@@ -5,11 +5,23 @@ Enable LTI Components for a Course
 
 .. tags:: educator, how-to
 
-Before you can add LTI components to your course, you must enable the LTI tool
-in Studio.
+Studio includes a default set of core problem types that can be added to
+any course. You can expand the types of content you include by enabling
+additional exercises and tools, such as the LTI tool, which allows integration
+with external learning applications.
 
-To enable the LTI tool in Studio, add ``"lti_consumer"`` to the
-**Advanced Module List** on the **Advanced Settings** page. For more
+Enable the LTI Tool
+====================
+
+To enable the LTI tool for your course, follow these steps:
+
+#. In Studio, select **Settings**, and then **Advanced Settings**.
+#. Locate the **Advanced Module List** field. This field lists any advanced exercises and tools added to your course.
+#. Enter ``"lti_consumer"``, ensuring it is enclosed in double quotes. If adding multiple tools, separate them with commas.
+#. Select **Save Changes**.
+
+
+For more
 information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. note::
@@ -21,6 +33,10 @@ information, see :ref:`Enable Additional Exercises and Tools`.
   LTI component and it should be used for all new courses. Courses that include
   the previous LTI component will continue to work correctly, even if the
   ``lti`` module is no longer present in the **Advanced Module List**.
+
+  Additionally, ``lti_consumer`` supports `LTI 1.3`_ and `LTI Advantage`_,
+  providing enhanced security and interoperability features for integrating
+  external tools with Open edX.
 
 .. seealso::
  
@@ -39,5 +55,5 @@ information, see :ref:`Enable Additional Exercises and Tools`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-03-19   |   Documentation WG            |     Sumac      |      Pass                      |
 +--------------+-------------------------------+----------------+--------------------------------+

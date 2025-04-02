@@ -90,3 +90,12 @@ command.
 
 For more options for running the XSS Linter, or instructions for
 fixing violations, see :ref:`XSS Linter`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

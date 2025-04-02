@@ -259,3 +259,12 @@ References
 .. _PEP 257: http://www.python.org/dev/peps/pep-0257/
 .. _Pythonic Sensibilities: http://www.nilunder.com/blog/2013/08/03/pythonic-sensibilities/
 .. _The Hitchhiker’s Guide to Python: https://python-guide.readthedocs.io/
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

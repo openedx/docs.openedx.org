@@ -73,3 +73,12 @@ Transifex as described in the :doc:`enable-translations-new-repo` document.
 .. _edx-platform: https://github.com/openedx/edx-platform
 .. _openedx-translations: https://github.com/openedx/openedx-translations/tree/main/translations
 .. _Makefile via intl-imports.js in the frontend-template-app: https://github.com/openedx/frontend-template-application/blob/d4c053a9987d4fc3195a525bdcd14bf9421ca41a/Makefile#L43
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

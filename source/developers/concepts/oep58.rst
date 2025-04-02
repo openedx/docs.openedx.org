@@ -77,3 +77,11 @@ Additional reading
 .. _openedx-translations repository: https://github.com/openedx/openedx-translations
 .. _Transifex Integration GitHub App: https://github.com/apps/transifex-integration
 .. _openedx-atlas: https://github.com/openedx/openedx-atlas
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

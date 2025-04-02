@@ -148,3 +148,12 @@ take the exam, consult your organization\'s disability resources or the course
 team before you make any choices on the exam page. The course team must approve
 your request and make any adjustments before you start your exam.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

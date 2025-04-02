@@ -123,3 +123,12 @@ accommodate specific needs.
 Course teams decide whether or not to grant additional time
 based on the criteria that they choose. You can get information about the
 availability of additional time from your course team.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

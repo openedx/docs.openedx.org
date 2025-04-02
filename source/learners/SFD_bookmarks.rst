@@ -62,3 +62,12 @@ course, with the most recently created ones at the top. This page includes the
 location of the bookmarked material and the date that you added the bookmark.
 
 To go to any bookmarked page, click anywhere in the box for that bookmark.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
