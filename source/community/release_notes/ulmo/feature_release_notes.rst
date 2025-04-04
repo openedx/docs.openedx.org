@@ -8,6 +8,8 @@ Open edX Ulmo Release - Product Release Notes
 .. toctree::
    :maxdepth: 1
 
+   design_tokens
+
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
