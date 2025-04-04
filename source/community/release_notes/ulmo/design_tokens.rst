@@ -1,4 +1,4 @@
-.. _Teak Design Tokens:
+.. _Ulmo Design Tokens:
 
 Design Tokens (New Theming System)
 ##################################
@@ -9,7 +9,7 @@ edX mobile applications.
 
 .. warning::
 
-    Open edX site operators should be sure to follow the :ref:`Ulmo Design Tokens` page for updates on the upcoming changes. There will be no overlap between the old theming system and Design Tokens, so site operators will need to prepare for the changes in advance of the Ulmo release.
+    Open edX site operators should be sure to follow this page for updates on the upcoming changes. There will be no overlap between the old theming system and Design Tokens, so site operators will need to prepare for the changes in advance of the Ulmo release.
 
 See this presentation from the November 2024 Open edX meetup for more detail.
 
@@ -20,4 +20,4 @@ See this presentation from the November 2024 Open edX meetup for more detail.
 
 See also the `presentation slides here <https://docs.google.com/presentation/d/1FOSbTUTbbzaBoIDYMa5s32in1uFoYWdoQ-GjKk5IRBo/edit?usp=sharing>`_.
 
-The Open edX Teak release comes out in June 2025, and Ulmo will follow in December of 2025.
+The Open edX Ulmo release comes out in December 2025.
