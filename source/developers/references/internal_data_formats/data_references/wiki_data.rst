@@ -4,6 +4,8 @@
 Wiki Data
 ##############################
 
+.. warning:: This page was last updated in 2015; refer to the Open edX codebase for the latest information on this database schema.
+
 The following topics describe how Open edX stores wiki data internally, and is
 useful for developers and researchers who are examining database exports.
 

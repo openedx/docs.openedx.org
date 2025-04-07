@@ -4,6 +4,8 @@
 Open Response Assessment Data
 ##############################
 
+.. warning:: This page was last updated in 2020; refer to the Open edX codebase for the latest information on this database schema.
+
 This section describes the data schema for the Open edX open response assessment
 (ORA) system.
 
@@ -26,12 +28,6 @@ possible learner interactions.
   `Installing the Open edX Developer Stack`__.
 
 __ devstack_
-
-**History**:  These tables were added to the ``ora`` subdirectory of the
-``{org}-{date}.zip`` database data file in data packages beginning with the 13
-Dec 2015 export. The data in these tables is for the current, fully supported
-version of the open response assessment feature. Data for the initial
-version (which was deprecated in May 2014) is not included.
 
 ********************
 Workflow Tables
@@ -133,9 +129,7 @@ Notes
 
 * The ERD includes several tables that include ``AI`` in the name. These tables
   were used for an edX prototype of an example based assessment system. That
-  prototype system is not yet in general use, so the edX data packages do not
-  include these tables.
-
+  prototype system is not yet in general use.
 
 .. include:: /links.txt
 

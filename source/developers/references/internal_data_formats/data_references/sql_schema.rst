@@ -4,6 +4,8 @@
 User Info and Learner Progress Data
 ###################################
 
+.. warning:: This page was last updated in 2021; refer to the Open edX codebase for the latest information on this database schema.
+
 The following sections detail how Open edX stores stateful data for users
 internally. This information can be useful for developers and researchers who
 are examining database exports.
@@ -1051,8 +1053,6 @@ identifies the learner's assignment to a partition and group.
 
 **History**: Added 7 Mar 2014.
 
-.. need a sample header and row from a data package when available
-
 The ``user_api_usercoursetag`` table has the following columns.
 
 .. list-table::
@@ -1193,9 +1193,6 @@ see the :ref:`user_id_map` table.
 Course team members can download the course specific anonymized user IDs for
 learners in a course run. For more information, see
 :ref:`View Anonymized Learner IDs`.
-
-**History**: This table was added to the database data file in data packages
-beginning with the 13 Dec 2015 export.
 
 A sample of the heading row and a data row in the ``student_anonymoususerid``
 table follows.
@@ -1672,8 +1669,7 @@ table follows.
     2013-03-19 17:21:07 2014-01-07 20:18:54 NULL  na  edX/DemoX/Demo_course
 
 The table has a separate row for every piece of content that a learner
-accesses, or that is created to hold state data. As a result, this is the
-largest table in the data package.
+accesses, or that is created to hold state data.
 
 The ``courseware_studentmodule`` table has the following columns.
 
@@ -1702,11 +1698,6 @@ The ``courseware_studentmodule`` table has the following columns.
 +-------------+--------------+------+-----+---------+----------------+
 | course_id   | varchar(255) | NO   | MUL | NULL    |                |
 +-------------+--------------+------+-----+---------+----------------+
-
-.. note:: The output in the ``courseware_studentmodule`` table is the result
- of a different process than the other SQL tables in the edX data packages. As
- a result, not all of the data :ref:`conventions<Conventions>` apply to this
- table.
 
 ----
 id
