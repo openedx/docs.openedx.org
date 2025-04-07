@@ -18,4 +18,5 @@ documented here.
    xapi_events
    caliper_events
    tracking_log_event_list
+   data_references/index
 
