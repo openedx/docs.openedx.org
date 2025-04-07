@@ -4,7 +4,7 @@
 User Info and Learner Progress Data
 ###################################
 
-The following sections detail how edX stores stateful data for users
+The following sections detail how Open edX stores stateful data for users
 internally. This information can be useful for developers and researchers who
 are examining database exports.
 
@@ -12,7 +12,7 @@ are examining database exports.
   :local:
   :depth: 1
 
-EdX also uses the Django® Python Web framework. Tables that are built into the
+Open edX also uses the Django® Python Web framework. Tables that are built into the
 Django Web framework are documented here only if they are used in
 unconventional ways.
 
@@ -22,11 +22,11 @@ unconventional ways.
 Conventions
 ***************
 
-EdX uses MySQL™ 5.1 relational database system with InnoDb storage engine.
+Open edX uses MySQL™ 5.1 relational database system with InnoDb storage engine.
 
 The following conventions apply to most of the .sql output files. The exception
 is the ``courseware_studentmodule`` table, which is created by a different
-process than the other edX SQL tables.
+process than the other Open edX SQL tables.
 
 * Output files are stored as UTF-8.
 
@@ -158,7 +158,7 @@ joining a team, take place.
 Columns in the ``auth_user`` Table
 ==================================
 
-The ``auth_user`` table is built into the edX Django Web framework. It holds
+The ``auth_user`` table is built into the Open edX Django Web framework. It holds
 generic information necessary for user login and permissions.
 
 A sample of the heading row and a data row in the ``auth_user`` table follows.
@@ -235,10 +235,10 @@ id
 ----------
 username
 ----------
-  The unique username for a user in the edX system. It can contain
+  The unique username for a user in the Open edX system. It can contain
   alphanumerics and the special characters shown within the brackets:
   ``[ _ @ + - . ]``. The username is the only user-provided information that
-  other users can currently see. EdX has never allowed users to change
+  other users can currently see. Open edX has never allowed users to change
   usernames, but might do so in the future.
 
 ------------
@@ -255,7 +255,7 @@ last_name
 email
 -------
   The user's email address, which is the primary mechanism users use to log
-  in. This value is optional by default in Django, but is required by edX.
+  in. This value is optional by default in Django, but is required by Open edX.
   This value must be unique to each user and is never shown to other users.
 
 ----------
@@ -269,12 +269,11 @@ password
 is_staff
 ----------
   Most users have a 0 for this field. Set to 1 if the user is a staff member
-  of **edX**, with corresponding elevated privileges that cut across courses.
+  on your instance, with corresponding elevated privileges that cut across courses.
   It does not indicate that the person is a member of the course team for any
   given course.
 
-  Generally, users with this flag set to 1 are either edX partner managers
-  responsible for course delivery, or edX developers who need access for
+  Generally, users with this flag set to 1 are developers who need access for
   testing and debugging purposes. Users who have ``is_staff`` = 1 have
   Admin privileges on all courses and can access additional
   information in the LMS by selecting **Instructor**.
@@ -298,7 +297,7 @@ is_active
   experience the site immediately without having to check their email. A
   message displays on the dashboard to remind users to check their email and
   activate their accounts when they have time. When they log out, they cannot
-  log back in again until activation is complete. However, because edX
+  log back in again until activation is complete. However, because Open edX
   sessions last a long time, it is possible for someone to use the site as a
   learner for days without being "active".
 
@@ -353,7 +352,7 @@ Obsolete columns
   automatically generated have any values in them, such as the tag-related
   columns.
 
-  These columns are unrelated to the discussion forums that edX currently
+  These columns are unrelated to the discussion forums that Open edX currently
   uses, and will eventually be dropped from this table.
 
 .. _auth_userprofile:
@@ -496,15 +495,15 @@ user_id
 ------
 name
 ------
-  String for a user's full name. EdX makes no constraints on language or
+  String for a user's full name. Open edX makes no constraints on language or
   breakdown into first/last name. The names are never shown to other learners.
   International learners usually enter a romanized version of their names, but
   not always. Name changes are permitted, and the previous name is logged in
   the ``meta`` field.
 
-  **History**: A former edX policy required manual approval of name changes to
+  **History**: A former Open edX policy required manual approval of name changes to
   guard the integrity of the certificates. Learners submitted a name change
-  request, and an edX team member would approve or reject the request.
+  request, and an Open edX team member would approve or reject the request.
 
 ----------
 language
@@ -513,8 +512,8 @@ language
 
   **History**: User's preferred language, asked during the sign up process for
   the 6.002x prototype course given in Spring 2012. Sometimes written
-  in those languages. EdX stopped collecting this data after MITx transitioned
-  to edX, but never removed the values for the first group of learners.
+  in those languages. edx.org stopped collecting this data after MITx transitioned
+  to edx.org, but never removed the values for the first group of learners.
 
 ----------
 location
@@ -526,8 +525,8 @@ location
   specific, so people tended to put the city they were in, though some just
   supplied a country and some got as specific as their street address. Again,
   sometimes romanized and sometimes written in their native language. Like
-  ``language``, edX stopped collecting this column after MITx transitioned to
-  edX, so it is only available for the first batch of learners.
+  ``language``, edx.org stopped collecting this column after MITx transitioned to
+  edx.org, so it is only available for the first batch of learners.
 
 ------
 meta
@@ -609,7 +608,7 @@ here are found as JSON attributes *inside* a given ``meta`` field, and are
     the time for certificate generation approached, to replace nicknames with
     their actual names or correct spelling/punctuation errors.
 
-    The timestamps are UTC, like all datetimes stored in the edX database.
+    The timestamps are UTC, like all datetimes stored in the Open edX database.
 
   ``old_emails``
 
@@ -617,7 +616,7 @@ here are found as JSON attributes *inside* a given ``meta`` field, and are
     changed them, in a format similar to `old_names`. There was never an
     approval process for this.
 
-    The timestamps are UTC, like all datetimes stored in the edX database.
+    The timestamps are UTC, like all datetimes stored in the Open edX database.
 
   ``6002x_exit_response``
 
@@ -667,7 +666,7 @@ mailing_address
   No longer used.
 
   **History**: This column replaced the ``location`` column when MITx
-  transitioned to edX in 2013, and was used until 17 May 2016. When this column
+  transitioned to edx.org in 2013, and was used until 17 May 2016. When this column
   was in use, it was populated during account registration when users entered
   free text in an optional text field. This column contains a blank string for
   learners who did not enter anything in this field. If multiple lines were
@@ -683,7 +682,7 @@ year_of_birth
   for those who did not respond.
 
   **History**: This information began to be collected after the transition
-  from MITx to edX; learners in the prototype course have NULL for this field.
+  from MITx to edx.org; learners in the prototype course have NULL for this field.
 
 --------------------
 level_of_education
@@ -964,8 +963,8 @@ role
       **Admin**.
 
   For more information about the roles that you can assign in the LMS, see
-  :ref:`partnercoursestaff:Add Course Team Members` and
-  :ref:`partnercoursestaff:Give Other Users Access to Your Library`.
+  :ref:`Add Course Team Members` and
+  :ref:`Give Other Users Access to Your Library`.
 
 .. _django_comment_client_role_users:
 
@@ -1037,7 +1036,7 @@ name
   * Student
 
   For more information about the discussion roles that you can assign in the
-  LMS, see :ref:`partnercoursestaff:Assigning_discussion_roles`.
+  LMS, see :ref:`Assign discussion roles`.
 
 .. _user_api_usercoursetag:
 
@@ -1130,7 +1129,7 @@ For more information about course specific user IDs, see the
 :ref:`student_anonymoususerid` table.
 
 Course team members can download the anonymized user IDs for the learners in a
-course. For more information, see :ref:`partnercoursestaff:Access_anonymized`.
+course. For more information, see :ref:`View Anonymized Learner IDs`.
 
 A sample of the heading row and a data row in the ``user_id_map`` table
 follows.
@@ -1193,7 +1192,7 @@ see the :ref:`user_id_map` table.
 
 Course team members can download the course specific anonymized user IDs for
 learners in a course run. For more information, see
-:ref:`partnercoursestaff:Access_anonymized`.
+:ref:`View Anonymized Learner IDs`.
 
 **History**: This table was added to the database data file in data packages
 beginning with the 13 Dec 2015 export.
@@ -1266,7 +1265,7 @@ Columns in the ``student_languageproficiency`` Table
 The ``student_languageproficiency`` table stores information about learners'
 self-reported language preferences. Learners have the option to indicate a
 preferred language on their dashboards. Learners can select only one
-value. For more information, see :ref:`partnercoursestaff:SFD Profile Page`.
+value. For more information, see :ref:`SFD Profile Page`.
 
 **History**: Added 22 Apr 2015.
 
@@ -1307,7 +1306,7 @@ Columns in the ``teams_courseteam`` Table
 ==============================================
 
 This table stores information about the teams in a course. For more information
-about the teams feature, see :ref:`partnercoursestaff:Teams Setup`.
+about the teams feature, see :ref:`About Teams`.
 
 **History**: Added 15 Sep 2015.
 
@@ -1469,7 +1468,7 @@ Columns in the ``teams_courseteammembership`` Table
 ===================================================
 
 This table stores information about the learners who are members of a team. For
-more information about the teams feature, see :ref:`partnercoursestaff:Teams
+more information about the teams feature, see :ref:`About Teams`.
 Setup`.
 
 **History**: Added 15 Sep 2015.
@@ -1757,7 +1756,7 @@ module_type
          a single course on a test basis and then deprecated.
 
      * - problem
-       - A problem that the user can submit solutions for. EdX offers many
+       - A problem that the user can submit solutions for. Open edX offers many
          different varieties.
      * - problemset
        - A collection of problems and supplementary materials, typically used
@@ -2053,7 +2052,7 @@ course_edited_timestamp
 -------------------
 grading_policy_hash
 -------------------
-  A SHA-1 digest of the course grading policy that allows edX to detect and
+  A SHA-1 digest of the course grading policy that allows Open edX to detect and
   update grades whenever the policy changes. For example,
   ``NiGhcAFSrpyijXbow/XKE1Cp1GA=``.
 
@@ -2204,7 +2203,7 @@ modified
   Time the subsection grade was last updated for this user for this
   subsection.
 
-.. _Certificates:
+.. _Course Certificate Data:
 
 ***********************
 Course Certificate Data
@@ -2473,10 +2472,10 @@ id
 ---------
 username
 ---------
-  The unique username for a user in the edX system. It can contain
+  The unique username for a user in the Open edX system. It can contain
   alphanumerics and the special characters shown within the brackets: ``[ _ @ +
   - . ]``. The username is the only user-provided information that other users
-  can currently see. EdX has never allowed users to change usernames, but might
+  can currently see. Open edX has never allowed users to change usernames, but might
   do so in the future.
 
 ---------
@@ -2495,8 +2494,7 @@ modified
 ---------
   Date and time this row in the database was modified. Set to be equal to
   ``created`` at first. A change in ``modified`` indicates a state change,
-  usually as a result of action by the course staff or the edX learner support
-  team.
+  usually as a result of action by the course staff.
 
 ----------
 course_id
@@ -2519,8 +2517,8 @@ Columns in the cohort membership data output
 ==========================================================
 
 Cohort membership data presents information about groups of users enrolled in a course.
-For more information about cohorts, see :ref:`partnercoursestaff:Cohorts Overview` in
-the Building and Running an edX Course guide.
+For more information about cohorts, see :ref:`About Learner Cohorts` in
+the Building and Running an Open edX course guide.
 
 A sample of the output follows.
 

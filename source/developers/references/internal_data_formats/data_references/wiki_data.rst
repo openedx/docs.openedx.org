@@ -4,26 +4,15 @@
 Wiki Data
 ##############################
 
-The following topics describe how edX stores wiki data internally, and is
+The following topics describe how Open edX stores wiki data internally, and is
 useful for developers and researchers who are examining database exports.
 
 .. contents::
   :local:
   :depth: 1
 
-EdX currently uses an external application called django-wiki for wiki
+Open edX currently uses an external application called django-wiki for wiki
 functionality within courses.
-
-In the data package, wiki data is delivered in two .sql files.
-
-* The wiki_article file is a container for each article that is added to the
-  wiki. The full name of this file also includes the organization and course,
-  and indicates a source of either prod (edX) or edge, in this format:
-  ``{org}-{course}-{date}-wiki_article-{site}-analytics.sql``.
-
-* The wiki_articlerevision file stores data about the articles, including data
-  about changes and deletions. The full name of this file is in this format:
-  ``{org}-{course}-{date}-wiki_articlerevision-{site}-analytics.sql``.
 
 The same :ref:`conventions<Conventions>` apply to wiki data as to student data.
 

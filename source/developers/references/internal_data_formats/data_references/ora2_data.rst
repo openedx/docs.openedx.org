@@ -4,7 +4,7 @@
 Open Response Assessment Data
 ##############################
 
-This section describes the data schema for the edX open response assessment
+This section describes the data schema for the Open edX open response assessment
 (ORA) system.
 
 .. contents::
@@ -12,15 +12,15 @@ This section describes the data schema for the edX open response assessment
   :depth: 1
 
 The schema includes a number of tables, and the ORA system offers a range of
-uses. As a result, the data can be complex. EdX recommends that you set up a
+uses. As a result, the data can be complex. It is recommended that you set up a
 course on a devstack instance so that you can create assessments and test the
 possible learner interactions.
 
 * For more information about how course teams can set up open response
-  assessments, see :ref:`partnercoursestaff:PA Create an ORA Assignment`.
+  assessments, see :ref:`Create an ORA Assignment`.
 
 * For more information about how learners respond to these assessments, see
-  :ref:`learners:SFD_ORA`.
+  :ref:`SFD_ORA`.
 
 * For more information about setting up an Open edX devstack instance, see
   `Installing the Open edX Developer Stack`__.
@@ -43,7 +43,7 @@ submitted as it goes through each of the steps defined for the ORA component.
 The top level table is ``AssessmentWorkflow``, which specifies the steps that a
 learner must complete for the ORA component.
 
- .. image:: ../Images/ora2-tables-erd_AssessmentWorkflow.png
+ .. image:: /_images/developers_references/ora2-tables-erd_AssessmentWorkflow.png
   :alt: Diagram of the assessment workflow and assessment workflow step tables.
 
 .. V is this accurate?
@@ -99,7 +99,7 @@ The ``StudentItem`` table identifies a learner and the ORA component in the
 course. Rows in this table are linked to all submissions made by that learner
 for that component, as well as to each ``Score`` for that component.
 
- .. image:: ../Images/ora2-tables-erd_SubmissionStudentItemScore.png
+ .. image:: /_images/developers_references/ora2-tables-erd_SubmissionStudentItemScore.png
   :alt: Diagram of the tables used for tracking submissions, student items,
       scores, and the related score summary table.
 
@@ -117,14 +117,11 @@ relationships. An example is the
 between the ``CriterionOption`` and ``TrainingExample`` tables, identified on
 the diagram by ``options_selected (trainingexample)``.
 
- .. image:: ../Images/ora2-tables-erd.png
+ .. image:: /_images/developers_references/ora2-tables-erd.png
   :alt: Diagram of the primary tables used for ORA2 to track submissions,
       assessments, and rubrics.
 
-You might need to download this image to view it in sufficient detail. To
-ensure that this diagram can be viewed at full size, a duplicate of this image
-file is also available on the `Entity Relationship Diagram for ORA Data`_ page
-of the Open edX Analytics wiki.
+You might need to download this image to view it in sufficient detail.
 
 ======
 Notes
@@ -140,7 +137,7 @@ Notes
   include these tables.
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.txt
 
 **Maintenance chart**
 

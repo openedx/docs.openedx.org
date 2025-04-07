@@ -110,9 +110,7 @@ course, including dates, pages, textbooks, and advanced setting values. In the
 sample that follows, note that the edX DemoX course includes a course-specific
 page, or tab, named "edX Community".
 
-A partial list of the ``metadata`` member fields for a course follows. For
-information about the settings that course teams define for a course in
-Studio, see :ref:`partnercoursestaff:document index`.
+A partial list of the ``metadata`` member fields for a course follows.
 
 .. list-table::
    :widths: 25 60
@@ -147,7 +145,7 @@ Studio, see :ref:`partnercoursestaff:document index`.
        as well as the updates that are defined on the Studio **Course Updates**
        page.
 
-       For more information, see :ref:`partnercoursestaff:Adding Pages to a
+       For more information, see :ref:`Adding Pages to a
        Course`.
 
 ===================
@@ -245,8 +243,8 @@ The ``metadata`` field provides information about parameters set for the
 section, subsection, or unit. A partial list of the ``metadata`` member fields
 for a section, subsection, or unit follows. For information about the structure
 that course teams can define for a course, see
-:ref:`partnercoursestaff:Developing Your Course Index` in the *Building and
-Running an edX Course* guide.
+:ref:`About the Course Outline` in the *Building and
+Running an Open edX course* guide.
 
 
 .. list-table::
@@ -299,7 +297,7 @@ Course Building Block Data Sample
       "i4x://edX/DemoX/vertical/7405431e9fe14354a39ac52a2973bc1c"
     ],
     "metadata": {
-      "display_name": "What Does an edX Course Look Like?"
+      "display_name": "What Does an Open edX course Look Like?"
     }
   },
   .
@@ -353,8 +351,8 @@ component.
 
 * The other ``metadata`` member fields reflect settings specific to each
   component type. For information about the settings that course teams can
-  define for components, see :ref:`partnercoursestaff:Course Components Index`
-  in the *Building and Running an edX Course* guide.
+  define for components, see :ref:`Components and Activities TOC`
+  in the *Building and Running an Open edX course* guide.
 
 ======================================
 Course Component Data Sample
@@ -417,7 +415,7 @@ Course Component Data Sample
   },
 
 
-.. include:: ../../../links/links.rst
+.. include:: /links.txt
 
 **Maintenance chart**
 
