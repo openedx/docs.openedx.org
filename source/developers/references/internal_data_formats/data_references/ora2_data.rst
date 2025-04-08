@@ -15,7 +15,7 @@ This section describes the data schema for the Open edX open response assessment
 
 The schema includes a number of tables, and the ORA system offers a range of
 uses. As a result, the data can be complex. It is recommended that you set up a
-course on a devstack instance so that you can create assessments and test the
+course on a Tutor instance so that you can create assessments and test the
 possible learner interactions.
 
 * For more information about how course teams can set up open response
@@ -24,10 +24,7 @@ possible learner interactions.
 * For more information about how learners respond to these assessments, see
   :ref:`SFD_ORA`.
 
-* For more information about setting up an Open edX devstack instance, see
-  `Installing the Open edX Developer Stack`__.
-
-__ devstack_
+* For more information about setting up Tutor, see the `Tutor documentation <https://docs.tutor.edly.io/>`_.
 
 ********************
 Workflow Tables
