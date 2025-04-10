@@ -13,6 +13,8 @@ Additionally, the LTI 1.3 tools can use the following LTI Advantage extensions:
 `Deep Linking`_, `Assignments and Grades services`_ and
 `Names and Roles Provisioning Service`_.
 
+As of the Sumac release, the Open edX platform has achieved :ref:`LTI Advantage Complete certification <Sumac LTI Certification>`.
+
 .. contents:: Contents
    :local:
    :depth: 2
