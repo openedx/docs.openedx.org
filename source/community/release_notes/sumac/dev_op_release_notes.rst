@@ -19,8 +19,6 @@ Breaking Changes
 
 No breaking changes in Sumac.
 
-No breaking changes in Sumac.
-
 
 User Facing Experiences
 *************************
@@ -75,26 +73,27 @@ New And Updated Settings and Toggles
 
 Removed Settings and Toggles
 ============================
-COURSEGRAPH_DUMP_COURSE_ON_PUBLISH
-FEATURESENABLE_LIBRARY_AUTHORING_MICROFRONTEND
-FEATURESENABLE_V2_CERT_DISPLAY_SETTINGS
-commerce.transition_to_coordinator.checkout
-commerce.transition_to_coordinator.refund
-contentstore.library_authoring_mfe
-discussions.enable_reported_content_notifications
-learner_dashboard.enable_b2c_subscriptions
-notifications.enable_coursewide_notifications
-notifications.enable_notifications_filters
-notifications.enable_ora_staff_notifications
-notifications.show_notifications_tray
-studio.enable_course_update_notifications
-BLOCKSTORE_BUNDLE_CACHE_TIMEOUT
-BUNDLE_ASSET_STORAGE_SETTINGS
-BUNDLE_ASSET_URL_STORAGE_KEY
-BUNDLE_ASSET_URL_STORAGE_SECRET
-BLOCKSTORE_BUNDLE_CACHE_TIMEOUT
-COURSEGRAPH_CONNECTION
-COURSEGRAPH_JOB_QUEUE
+
+- COURSEGRAPH_DUMP_COURSE_ON_PUBLISH
+- FEATURESENABLE_LIBRARY_AUTHORING_MICROFRONTEND
+- FEATURESENABLE_V2_CERT_DISPLAY_SETTINGS
+- commerce.transition_to_coordinator.checkout
+- commerce.transition_to_coordinator.refund
+- contentstore.library_authoring_mfe
+- discussions.enable_reported_content_notifications
+- learner_dashboard.enable_b2c_subscriptions
+- notifications.enable_coursewide_notifications
+- notifications.enable_notifications_filters
+- notifications.enable_ora_staff_notifications
+- notifications.show_notifications_tray
+- studio.enable_course_update_notifications
+- BLOCKSTORE_BUNDLE_CACHE_TIMEOUT
+- BUNDLE_ASSET_STORAGE_SETTINGS
+- BUNDLE_ASSET_URL_STORAGE_KEY
+- BUNDLE_ASSET_URL_STORAGE_SECRET
+- BLOCKSTORE_BUNDLE_CACHE_TIMEOUT
+- COURSEGRAPH_CONNECTION
+- COURSEGRAPH_JOB_QUEUE
 
 
 Other Operator Changes
