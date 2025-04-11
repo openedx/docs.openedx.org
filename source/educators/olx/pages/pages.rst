@@ -21,6 +21,19 @@ other types of content. One design pattern is to link a tab to a chromeless
 XBlock in the courseware, which allows for top-level interactive course
 content.
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Course Policies` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

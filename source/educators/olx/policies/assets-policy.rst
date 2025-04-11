@@ -101,6 +101,23 @@ The following example shows the JSON policy for one image file.
     }
 
 
+.. seealso::
+
+  :ref:`Add Course Assets` (reference)
+
+  :ref:`Course Assets in OLX <Course Assets>` (how-to) 
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

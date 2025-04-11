@@ -76,6 +76,21 @@ Example Grading Policy File
     }
 
 
+.. seealso::
+
+  :ref:`About Graded Subsections` (concept)
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

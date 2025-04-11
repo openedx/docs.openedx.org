@@ -46,6 +46,22 @@ This is a partial list of features, to be revised over time.
       something, you would need to include that part.
 
 
+.. seealso::
+
+  :ref:`Math Expression Input` (reference)
+  
+  :ref:`Math Expression Input Problem XML` (reference)
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

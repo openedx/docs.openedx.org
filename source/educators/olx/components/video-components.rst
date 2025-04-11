@@ -135,6 +135,21 @@ The following example shows an XML file for a video component.
   </video>
 
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Add Video Components` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -159,6 +159,20 @@ follows.
         ]
     }
 
+.. seealso::
+
+  :ref:`Course Asset Policy` (reference) 
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
 
 **Maintenance chart**
 

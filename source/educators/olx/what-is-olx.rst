@@ -30,6 +30,18 @@ files.
 
 For a primer on XML, see the `Wikipedia XML entry`_ .
 
+.. seealso::
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`The Courseware Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
 
 **Maintenance chart**
 
