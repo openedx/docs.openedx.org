@@ -133,3 +133,12 @@ The following example shows an XML file for a video component.
 
     <source src="https://s3.amazonaws.com/edx-course-videos/mit-6002x/6002-Tutorial-00010_100.mov"/>
   </video>
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

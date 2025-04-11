@@ -84,3 +84,11 @@ The learner sees this sequential as follows.
 
 .. Image:: ../Images/Insider-first-sequential.png
  :alt: The sequential as a learner sees it.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -12,3 +12,12 @@ JavaScript files.
 
 You must also define the asset in the assets policy file. For more information,
 see :ref:`Course Asset Policy`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

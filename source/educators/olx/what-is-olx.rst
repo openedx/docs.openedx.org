@@ -29,3 +29,12 @@ document presumes you understand XML and can use tools to create and edit XML
 files.
 
 For a primer on XML, see the `Wikipedia XML entry`_ .
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

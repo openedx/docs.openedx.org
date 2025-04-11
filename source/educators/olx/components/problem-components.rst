@@ -317,3 +317,12 @@ content libraries. For more information, see
 .. include:: /educators/references/course_development/adding_tooltips.rst
   :start-after: .. START ADDING TOOLTIPS
   :end-before: .. END ADDING TOOLTIPS
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

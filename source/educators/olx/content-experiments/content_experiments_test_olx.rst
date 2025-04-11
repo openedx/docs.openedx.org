@@ -12,3 +12,12 @@ You should test content experiments in your course before the course starts, to
 ensure that content is delivered to experiment groups as you intended.
 
 For more information, see :ref:`Test Content Experiments`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

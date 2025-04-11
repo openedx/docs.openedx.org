@@ -17,3 +17,12 @@ complete the following steps.
  #.  :ref:`Create course components<OLX Components>`.
  #.  :ref:`Create problems and tools<Components and Activities TOC>`.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

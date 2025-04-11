@@ -117,3 +117,12 @@ file for the edX Demo course:
     &nbsp;They&rsquo;re fun to play with. &nbsp;Many courses will have tools
     and labs that you need to use to complete homework assignments.</p>
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

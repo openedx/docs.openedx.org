@@ -65,3 +65,12 @@ Course Policies
 Course policies determine how your course functions. For example, policies
 control grading and content experiments. For more information, see
 :ref:`Course Policies`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

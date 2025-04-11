@@ -117,3 +117,12 @@ The following example shows an XML file for a discussion component.
       discussion_target="Peer Grading"
       display_name="Peer Grading"
    />
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -44,3 +44,12 @@ This is a partial list of features, to be revised over time.
 
       There is no fancy preprocessing needed, but if you had superscripts or
       something, you would need to include that part.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

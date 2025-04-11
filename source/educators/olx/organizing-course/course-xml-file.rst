@@ -276,3 +276,12 @@ The following example shows a vertical with two components.
       <html url_name="Introduction"/>
       <video url_name="Unit_1_Video"/>
   </vertical>
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -8,3 +8,12 @@ Studio.
 
 This documentation is created using RST_ files and Sphinx_. The Open edX community welcomes contributions from Open edX community
 members. You can find guidelines for how to :ref:`contribute to Open edX Documentation<Documentor Guidelines>`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -142,3 +142,12 @@ The ``tabs`` directory contains an HTML file for each page you add to your
 course.
 
 For more information, see :ref:`Course Tabs`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

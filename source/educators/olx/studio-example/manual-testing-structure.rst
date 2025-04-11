@@ -233,3 +233,12 @@ Platform Directories
 The `Manual Testing`_ course includes platform directories to support
 non-courseware parts of the OLX course. For more information, see
 :ref:`Open edX Platform Directories`.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
