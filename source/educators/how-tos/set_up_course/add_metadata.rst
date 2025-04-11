@@ -17,8 +17,8 @@ external systems, follow these steps.
 #. Select **Save Changes**.
 
 In case you can't find the **Other Course Settings** field in
-the **Advanced Settings**, set ``ENABLE_OTHER_COURSE_SETTINGS`` to ``true``
-under ``FEATURES`` in ``/edx/etc/studio.yml`` and restart Studio...
+the **Advanced Settings**, ask your site operator to set ``ENABLE_OTHER_COURSE_SETTINGS`` to ``true``
+under ``FEATURES`` in ``/edx/etc/studio.yml`` and restart Studio. More information can be found in :ref`Enable Custom Course Settings`.
 
 
 .. seealso::
