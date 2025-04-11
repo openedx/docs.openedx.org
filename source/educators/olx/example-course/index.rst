@@ -4,7 +4,9 @@
 Example of an OLX Course
 ########################
 
-OLX (open learning XML) is a flexible system that you can use to create edX
+.. tags:: educator, reference
+
+OLX (open learning XML) is a flexible system that you can use to create Open edX
 courses in many ways. While there is no best way to structure courses in all
 situations, there are best practices that help make an OLX course easier to
 create and maintain.

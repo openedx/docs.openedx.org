@@ -1,8 +1,10 @@
 .. _Course Assets:
 
 #################################
-Course Assets
+Create Course Assets in OLX
 #################################
+
+.. tags:: educator, how-to
 
 You must put all assets, or files that support your course, in the ``static``
 directory. Assets include any image files, textbooks, handouts, and supporting

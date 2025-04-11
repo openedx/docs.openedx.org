@@ -4,6 +4,8 @@
 Example of OLX for a Studio Course
 ##################################
 
+.. tags:: educator, reference
+
 You can export a course from the Open edX Studio. When you export the course, you
 download a .tar.gz file with the OLX (open learning XML) course content. You
 can then extract the course OLX files for use with local tools or a source

@@ -1,8 +1,10 @@
 .. _HTML Components:
 
 #################################
-HTML Components
+HTML Components in OLX
 #################################
+
+.. tags:: educator, reference
 
 .. contents::
    :local:

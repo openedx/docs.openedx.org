@@ -1,8 +1,10 @@
 .. _Course Overview:
 
 #################################
-Course Overview
+Create Course Overview in OLX
 #################################
+
+.. tags:: educator, how-to
 
 Each course must have an overview page. Learners see the overview page when
 searching and registering for the course.

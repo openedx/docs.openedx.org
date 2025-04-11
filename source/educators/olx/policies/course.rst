@@ -1,8 +1,10 @@
 .. _Course Policies:
 
 #################################
-Course Policies
+Create OLX Course Policies
 #################################
+
+.. tags:: educator, how-to
 
 You create a course policy file to specify metadata about your course.
 

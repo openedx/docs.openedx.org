@@ -1,8 +1,10 @@
 .. _Grading Policy:
 
 #################################
-Grading Policy
+Create OLX Grading Policy
 #################################
+
+.. tags:: educator, how-to
 
 You create a grading policy file to specify how problems are graded in your
 course.

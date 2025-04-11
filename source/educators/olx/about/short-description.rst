@@ -1,8 +1,10 @@
 .. _Short Description:
 
 #################################
-Short Description
+Create Short Description in OLX
 #################################
+
+.. tags:: educator, how-to
 
 Optionally, you can define a short description for your course.
 

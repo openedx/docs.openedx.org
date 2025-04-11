@@ -1,8 +1,10 @@
 .. _Course Asset Policy:
 
-#################################
-Course Asset Policy
-#################################
+#####################################
+Create the Course Asset Policy in OLX
+#####################################
+
+.. tags:: educator, how-to
 
 You create an asset policy file to provide details of the assets used in your
 course. Assets can include image files, textbooks, handouts, and supporting

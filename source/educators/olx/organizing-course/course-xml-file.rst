@@ -1,8 +1,10 @@
 .. _The Courseware Structure:
 
-##########################
-The Courseware Structure
-##########################
+##############################
+The OLX Courseware Structure
+##############################
+
+.. tags:: educator, reference
 
 You develop the courseware structure in the ``course.xml`` file, in the top-
 level directory.

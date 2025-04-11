@@ -1,8 +1,12 @@
 .. _Discussion Components:
 
 #################################
-Discussion Components
+Discussion Components in OLX
 #################################
+
+.. tags:: educator, reference
+
+.. warning:: This page refers to the older discussion forums (pre-Olive release) and may be out of date.
 
 You can add inline discussion components to any container in your
 course.

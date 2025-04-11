@@ -1,8 +1,10 @@
 .. _The Structure of a Sample Course:
 
-################################
-The Structure of a Sample Course
-################################
+####################################
+The OLX Structure of a Sample Course
+####################################
+
+.. tags:: educator, reference
 
 This topic describes the structure of a sample course known as the `edX-Insider`_ course that was originally developed for edX.org.
 

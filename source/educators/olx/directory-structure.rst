@@ -1,8 +1,10 @@
 .. _OLX Directory Structure:
 
 ###############################################
-OLX Course Structure
+What is the OLX Course Structure?
 ###############################################
+
+.. tags:: educator, concept
 
 This topic describes the structure of a generic OLX (open learning XML) course.
 

@@ -4,6 +4,8 @@
 What is Open Learning XML?
 ###########################
 
+.. tags:: educator, concept
+
 OLX (open learning XML) is the XML-based standard used to build courses for the
 edX Platform.
 

@@ -1,8 +1,10 @@
 .. _Video Components:
 
 #################################
-Video Components
+Video Components in OLX
 #################################
+
+.. tags:: educator, reference
 
 You can add video components to any container in your course (such as
 a vertical or sequential). Studio places all video components inside

@@ -1,8 +1,10 @@
 .. _Problem Components:
 
 #################################
-Problem Components
+Problem Components in OLX
 #################################
+
+.. tags:: educator, reference
 
 The problem component allows you to add interactive exercises to the verticals
 in your course. You can add many different types of exercises and problems.

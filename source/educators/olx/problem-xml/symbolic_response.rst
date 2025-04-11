@@ -4,6 +4,8 @@
 Symbolic Response
 #################
 
+.. tags:: educator, reference
+
 This topic is planned to document features that the current symbolic response
 supports. In general, it allows the input and validation of math expressions,
 up to commutativity and some identities.

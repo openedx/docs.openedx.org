@@ -4,6 +4,8 @@
 OLX Course Building Blocks
 ###############################
 
+.. tags:: educator, concept
+
 Before you begin using OLX (open learning XML) to set up a course, you should
 understand the building blocks of an Open edX course.
 

@@ -4,6 +4,8 @@
 Getting Started with OLX
 ###########################
 
+.. tags:: educator, quickstart
+
 To develop your course in OLX (open learning XML), the XML markup format for the Open edX platform, you
 complete the following steps.
 

@@ -1,8 +1,10 @@
 .. _Course Tabs:
 
 #################################
-Course Tabs
+Create Course Tabs in OLX
 #################################
+
+.. tags:: educator, how-to
 
 You can add tabs, or pages, to your course. Each page appears in your course's
 navigation bar.
