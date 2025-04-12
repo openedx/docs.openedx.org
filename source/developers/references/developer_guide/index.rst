@@ -1,8 +1,8 @@
 .. _Open edX Developer's Guide:
 
-##########################
-Open edX Developer's Guide
-##########################
+##############################
+Developer's Guide for Open edX
+##############################
 
 Welcome to the Open edX Developer's Guide. This guide should be
 used as a reference manual; it covers everything from high level
