@@ -220,6 +220,6 @@ And:
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
 | Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
-| 2025-03-19   | Peter Pinch                   | Sumac          |`Fail <https://github.com/openedx/docs.openedx.org/issues/949>`_                                                    |
-|              | Sarina Canelake               |                |`Fail <https://github.com/openedx/docs.openedx.org/issues/998>`_                                                    |
+| 2025-03-19   | Peter Pinch                   | Sumac          |`Fail content <https://github.com/openedx/docs.openedx.org/issues/949>`_                                            |
+|              | Sarina Canelake               |                |`Fail insider course hosting <https://github.com/openedx/docs.openedx.org/issues/998>`_                             |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
