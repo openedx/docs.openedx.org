@@ -59,9 +59,14 @@ search:
     # Match all files under the api/v1 directory
     #api/v1/*: -5
     developers/references/developer_guide/*: 5
+    developers/quickstarts/*: 10
+    educators/quickstarts/*: 10
+    site_ops/quickstarts/*: 10
+    documentors/quickstarts/*: 10
+    translators/quickstarts/*: 10
+
 
     # Match all files named guides.html,
     # two patterns are needed to match both the root and nested files.
     #'guides.html': 3
     #'*/guides.html': 3
-    '*/quickstarts/*': 10
