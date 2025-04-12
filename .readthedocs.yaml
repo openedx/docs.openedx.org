@@ -55,6 +55,7 @@ search:
     maple.html: -7
     nutmeg.html: -5
     palm.html: -5
+    glossary.html: -5
 
     # Match all files under the api/v1 directory
     #api/v1/*: -5
