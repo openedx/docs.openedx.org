@@ -205,7 +205,7 @@ To publish the unit, select **Publish** in the status panel.
 Use the Outline to Publish a Unit
 =======================================
 
-To publish a unit from the outline, select the **Publish** option from the kebab menu
+To publish a unit from the outline, select the **Publish** option from the kebab (3-dot) menu
 of the unit.
 
 .. image:: /_images/educator_how_tos/outline-publish-icon-unit.png
@@ -225,6 +225,10 @@ changes so that Studio reverts to the last published version of the unit.
 
 To discard changes and revert the Studio version of the unit to the last
 published version, select **Discard Changes** in the status panel.
+
+.. image:: /_images/educator_how_tos/discard_draft_changes.png
+   :width: 300
+   :alt: The Course Outline page the publish option highlighted for a unit.
 
 .. caution::
  When you discard changes to a unit, the changes are permanently deleted. You
@@ -283,5 +287,5 @@ Course Content`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                           |
+| 2025-03-19   | John (Curricu.me)             | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
