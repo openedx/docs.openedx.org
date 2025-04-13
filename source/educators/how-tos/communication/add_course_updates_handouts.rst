@@ -35,7 +35,7 @@ unless it has the latest chronological date of all existing updates.
 
 To add a course update, follow these steps.
 
-#. In Studio, select **Updates** from the **Content** menu.
+#. In Studio, select **Updates** from the **Content** menu in the header bar.
 #. Create your update in the text editor that opens.
 
      .. note::
@@ -54,17 +54,12 @@ To add a course update, follow these steps.
    has the latest chronological date, it is shown to learners on the
    **Course** page, otherwise the update appears on the **Updates** page.
 
-.. image:: /_images/educator_how_tos/course_updates_page_editor.png
- :alt: If you select “+ New update”, you see an editor that has many options
-  for styling in the toolbar.
-
-.. The following step allows installations that use the Open edX mobile apps to send
-.. a push notification to the app when an update is added. Alison, DOC-1814,
-.. June 2015
+   .. image:: /_images/educator_how_tos/course_updates_page_editor.png
+    :alt: If you select “+ New update”, you see an editor that has many options
+     for styling in the toolbar.
 
 
-#. Optionally, choose whether to send a notification about your update to
-       the Open edX mobile app.
+#. Optionally, choose whether to send a notification about your update to the Open edX mobile app.
 
       * Learners can choose to turn off notifications for individual courses or
         for all courses. The **Course** page continues to show updates.
@@ -78,9 +73,8 @@ To add a course update, follow these steps.
 Add a Course Handout
 ********************
 
-To add a course handout, you :ref:`upload a file in Studio<Add Course Files>`, then add an entry to a list of handouts, specifying
-Course>`, then add an entry to a list of handouts, specifying
-the URL to your uploaded file and providing a handout title.
+To add a course handout, you first must :ref:`upload a file in Studio<Add Course Files>`, then add an entry to a list of handouts,
+specifying the URL to your uploaded file and providing a handout title.
 
 You can open the Studio **Files** page in another browser window to make
 this process easier.
@@ -97,14 +91,20 @@ To add a course handout, follow these steps.
     :alt: The **Course Updates** page in Studio, showing the Course Handouts
        panel.
 
-#. In the **Course Handouts** panel, select **Edit**.
+#. In the **Course Handouts** panel, select the pencil icon in the top right.
 
-#. In the editor that opens, add the link to your new course handout.
+#. In the text editor that opens, add the link to your new course handout. Use the link editor to provide
+   human-readable text to the link.
+
+   .. image:: /_images/educator_how_tos/link_editor.png
+    :width: 500
+    :alt: The **Course Updates** page in Studio, showing the Course Handouts
+       panel.
+
 
 #. Select **Save**.
 
 .. seealso::
- 
 
  :ref:`About Course Updates and Handouts` (concept)
 
@@ -114,5 +114,7 @@ To add a course handout, follow these steps.
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                               |
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
-| 03/17/2025   | Leira (Curricu.me)            |   Sumac        |Fail (https://github.com/openedx/docs.openedx.org/issues/939)|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                        |
++--------------+-------------------------------+----------------+-------------------------------------------------------------+
+| 2025-03-17   | Leira (Curricu.me)            |   Sumac        |Fail (https://github.com/openedx/docs.openedx.org/issues/939)|
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
