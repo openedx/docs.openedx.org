@@ -675,7 +675,7 @@ of formats on the client side, offering the end user the ability to consume
 math content in their preferred format.
 
 As of the Redwood release, Studio no longer supports authoring math directly in LaTeX
-using the :ref:`LaTeX Source Compiler<import latex code>`.
+using the :ref:`LaTeX Source Compiler<Work with Latex Code>`.
 
 
 =========================================

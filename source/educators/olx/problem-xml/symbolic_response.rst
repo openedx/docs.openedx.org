@@ -31,7 +31,7 @@ This is a partial list of features, to be revised over time.
 
       It's a bit of a pain to enter that.
 
-    * The script-style math variant. What would be outputted in latex if you
+    * The script-style math variant. What would be outputted in LaTeX if you
       entered ``\mathcal{N}``. This is used in some variables.
 
       An example::

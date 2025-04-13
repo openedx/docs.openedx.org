@@ -91,8 +91,6 @@ Create a Full Screen Image
 
  :ref:`Work with HTML code` (how-to)
 
- :ref:`Work with Latex Code` (how-to)
-
 
 **Maintenance chart**
 

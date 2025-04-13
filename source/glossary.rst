@@ -343,7 +343,7 @@ Glossary
 
    LaTeX
       A document markup language and document preparation system for the TeX
-      typesetting program. In Open edX Studio, you can :ref:`Import LaTeX Code<import latex code>`.
+      typesetting program. In Open edX Studio, you can :ref:`Import LaTeX Code<Work With Latex Code>`.
 
    Learning Management System (LMS)
       The platform that learners use to view courses, and that course team members
