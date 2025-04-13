@@ -6,6 +6,10 @@ View Anonymized Learner IDs
 
 .. tags:: educator, how-to
 
+.. admonition:: Course Data Researcher role required
+
+   Be sure your account has the :ref:`Course Data Researcher Role` applied in order to complete this how-to.
+
 Some of the tools that are available for use with the Open edX platform, including
 external graders and surveys, work with anonymized learner data. If it becomes
 necessary for you to deanonymize previously anonymized data, you can download a
@@ -42,11 +46,15 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the
 
  :ref:`Manage Learner Grades <Grades>` (how-to) 
 
+ :ref:`Add Course Team Members` (how-to)
+
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
-| 03/07/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/979>`_|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/979>`_|
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+

@@ -4,12 +4,13 @@
 Add Course Team Members
 ###########################
 
+.. tags:: educator, how-to
+
 You can add course staff members from Studio. You can add course staff members, limited staff, admins, beta testers, and discussion moderators from the LMS Instructor Dashboard.
 
 *****************************
 Add Course Staff from Studio
 *****************************
-.. tags:: educator, how-to
 
 .. youtube:: IwuGccK49m8
 

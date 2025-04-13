@@ -15,6 +15,8 @@ you assign one of these course team roles to them.
 
 * Admin
 
+* Course Data Researcher
+
 You can assign these privileged roles when you work in either the LMS or
 Studio. The people who have these roles can work on your course in Studio and
 the LMS. For more information about assigning roles to team members in Studio,
@@ -107,6 +109,21 @@ complete the following tasks.
      :ref:`Assign discussion roles <Assign discussion roles>`.
 
 
+.. _Course Data Researcher Role:
+
+The Course Data Researcher Role
+================================
+
+Course data researchers can access the Data Download tab on the instructor dashboard.
+
+Course data researchers can:
+
+* :ref:`View and dowload learner data <View Learner Data>`
+* :ref:`View Anonymized Learner IDs`
+* :ref:`View Certificate Data`
+* :ref:`View Learners Not Yet Enrolled`
+
+
 .. seealso::  
 
   :ref:`Add Course Team Members` (how-to)
@@ -115,8 +132,10 @@ complete the following tasks.
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                    |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                             |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       |  Sumac         | `Fail <https://github.com/openedx/docs.openedx.org/issues/958>`_ |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
