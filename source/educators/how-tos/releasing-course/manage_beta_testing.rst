@@ -43,7 +43,7 @@ When you add beta testers, note the following.
 
 * If the beta test starts before the course **Enrollment Start Date**, testers
   cannot enroll themselves in your course. However, you can enroll the beta
-  testers prior to the **Enrollment Start Date**.
+  testers prior to the **Enrollment Start Date**. See :ref:`Enroll Learners in a Course`.
 
 * If you add the beta testers after the defined start of the beta test, and
   they are enrolled in the course, they see your course on their **Current
@@ -58,12 +58,16 @@ When you add beta testers, note the following.
 Add or Remove Individual Beta Testers
 ===============================================
 
+.. note::  If the beta test starts before the **Enrollment Start Date** of your
+   course, you must also :ref:`manually enroll the beta tester<Enroll Learners in a Course>`.
 
-#. View the live version of the course.
+#. :ref:`View the live version of your course<View Published Content>`.
 
 #. Select **Instructor**, and then select **Membership**.
 
 #. In the **Course Team Management** section, select **Beta Testers**.
+
+   .. image:: /_images/educator_how_tos/individual_beta_enrollment.png
 
 #. Under the list of users who currently have that role, enter the email address
    or username of the person you want to add.
@@ -73,13 +77,12 @@ Add or Remove Individual Beta Testers
    The person who you added appears in the list of beta testers.
 
 
-.. note::  If the beta test starts before the **Enrollment Start Date** of your
-   course, you can also enroll the beta tester. See :ref:`Enrollment`.
-
-
 To remove the Beta Tester role from users individually, find the user in the
 list of beta testers, and then select **Revoke access** to the right of that
 user's email address.
+
+.. image:: /_images/educator_how_tos/individual_beta_unenrollment.png
+
 
 .. _Add_Testers_Bulk:
 
@@ -95,13 +98,15 @@ beta testers that they have been added.
 
 To add multiple beta testers:
 
-#. View the live version of your course.
+#. :ref:`View the live version of your course<View Published Content>`.
 
 #. Select **Instructor**, and then select **Membership**.
 
 #. In the **Batch Beta Tester Addition** section of the page, enter one or more
    addresses or usernames separated by commas or line feeds (the Enter key).
    You can also copy data from a CSV file of email addresses and paste it here.
+
+   .. image:: /_images/educator_how_tos/batch_beta_enrollment_instructor_dash.png
 
 #. To enroll the beta testers in your course, leave **Auto Enroll** selected.
    If the beta test starts before the course **Enrollment Start Date**, testers
@@ -147,5 +152,5 @@ problems, questions, and issues can occur while a course is running.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-04-13   | sarina                        | Sumac          |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
