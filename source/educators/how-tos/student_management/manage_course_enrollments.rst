@@ -12,9 +12,10 @@ You can enroll and unenroll learners from the instructor dashboard. See :ref:`En
 Enroll Learners in a Course
 ***************************
 
-To enroll learners or course team members, follow these steps.
+To enroll learners or course team members, follow these steps. Note that this will
+enroll learners/team members even if the **Enrollment Start Date** has not yet passed.
 
-#. View the live version of your course.
+#. :ref:`View the live version of your course<View Published Content>`
 
 #. Select **Instructor**, and then select **Membership**.
 
@@ -22,23 +23,12 @@ To enroll learners or course team members, follow these steps.
    address of the learner, or enter multiple names or addresses separated by
    commas or new lines.
 
+    .. image:: /_images/educator_how_tos/batch_enrollment_instructor_dash.png
+     :width: 500
+
    You can copy and paste data from a CSV file of email addresses. However,
    note that this feature is better suited to courses with smaller enrollments,
    rather than courses with massive enrollments.
-
-#. For **Role of the users being enrolled**, select the role of the learner.
-
-   * If the learner is a member of the course staff, select **Partner**.
-   * If the learner is not a member of the course staff, select **Learner**.
-
-   .. note::
-    All of the users that you enroll at one time must have the same role. If
-    you have some users who are partners and others who are learners, you must
-    complete two batch enrollments.
-
-#. In the **Enter the reason why the students are to be manually enrolled or
-   unenrolled** field, enter a specific, detailed reason why you want to
-   enroll these learners.
 
 #. To streamline the course enrollment process, leave **Auto Enroll** selected.
 
@@ -54,6 +44,15 @@ For more information, see :ref:`Learner Data`.
  When you enroll learners in a course, all learners are automatically enrolled
  in the audit enrollment track. For more information about course enrollment
  tracks, see :term:`Enrollment Track`.
+
+Enroll Beta Testers in a Course
+*******************************
+
+To enroll :ref:`beta testers <About Course Beta Testing>` in the course, follow
+the above instructions, but utilize the **Batch Beta Tester Addition** box below
+the **Batch Enrollment** box on the Membership page of the instructor dashboard.
+
+.. image:: /_images/educator_how_tos/batch_beta_enrollment_instructor_dash.png
 
 .. _unenroll_student:
 
@@ -108,5 +107,7 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
-| 03/07/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/957>`_|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/957>`_|
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
