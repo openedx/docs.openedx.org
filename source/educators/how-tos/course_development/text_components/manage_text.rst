@@ -45,7 +45,6 @@ When you use the visual editor, you can also perform the following tasks.
 
 * :ref:`Add a Link in a Text Component`
 * :ref:`Add an Image to a Text Component`
-* :ref:`Import LaTeX Code<import latex code>`
 
 .. _Add an Image to a Text Component:
 
@@ -411,8 +410,6 @@ Visual and Raw editor types once selected.
  :ref:`Work with HTML code` (how-to)
 
  :ref:`Manage the Full Screen Image Tool` (how-to)
-
- :ref:`Work with Latex Code` (how-to)
 
 
 **Maintenance chart**

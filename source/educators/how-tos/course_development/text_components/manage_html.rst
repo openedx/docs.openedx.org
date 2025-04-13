@@ -72,8 +72,6 @@ the HTML content in your course.
 
  :ref:`Manage the Full Screen Image Tool` (how-to)
 
- :ref:`Work with Latex Code` (how-to)
-
 
 **Maintenance chart**
 
