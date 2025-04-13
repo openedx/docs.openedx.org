@@ -9,6 +9,12 @@ Set Course Content Licensing in Studio
 When you have determined what licenses you want your course content to have,
 you set course content licensing in Studio.
 
+.. note::
+
+  In order for Course Licenses to be viewable in Studio, the ``FEATURES[‘LICENSING’]`` flag must
+  be set to True (it defaults to False). Ask your site administration team to set this
+  flag for you if you wish to use this feature.
+
 For more information about licensing options, see :ref:`Guide to Course Licenses`.
 
 When you create a new course, the license is set to **All Rights Reserved**.
@@ -72,5 +78,5 @@ need to set the license for the video.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-04-13   | sarina                        |  Sumac         |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -13,6 +13,12 @@ whether and how they can reuse your course content.
 You specify licensing options in Studio. For more information, see :ref:`Set
 Course Content Licensing`.
 
+.. note::
+
+  In order for Course Licenses to be viewable in Studio, the ``FEATURES[‘LICENSING’]`` flag must
+  be set to True (it defaults to False). Ask your site administration team to set this
+  flag for you if you wish to use this feature.
+
 .. contents::
   :local:
   :depth: 2
@@ -115,5 +121,5 @@ select the link to see details.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-04-13   | sarina                        |  Sumac         |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
