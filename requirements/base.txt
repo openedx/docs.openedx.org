@@ -85,6 +85,7 @@ sphinx==7.4.7
     #   sphinxcontrib-images
     #   sphinxcontrib-mermaid
     #   sphinxcontrib-youtube
+    #   sphinxemoji
     #   sphinxext-rediraffe
 sphinx-autobuild==2024.10.3
     # via -r requirements/base.in
@@ -117,6 +118,8 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sphinxcontrib-youtube==1.4.1
+    # via -r requirements/base.in
+sphinxemoji==0.3.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
