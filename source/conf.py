@@ -49,8 +49,12 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxext.rediraffe",
     "notfound.extension",
-    "sphinx_tags"
+    "sphinx_tags",
+    "sphinxemoji.sphinxemoji",
 ]
+
+# Set the emoji rendering style (used by sphinxemoji extension)
+sphinxemoji_style = 'twemoji'
 
 # Extension Configuration
 graphviz_output_format = "svg"

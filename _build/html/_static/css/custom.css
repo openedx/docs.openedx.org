@@ -1,0 +1,162 @@
+/*
+ * We need to override the color in the footer specifically because setting
+ * the color in the :root element doesn't work.  This custom.css is loaded befor
+ * the sphinx-design css file that it is meant to override.
+ *
+ * We shouldn't need this if https://github.com/executablebooks/sphinx-design/pull/124/files
+ * gets accepted upstream.
+ *
+ */
+.sd-card-footer {
+    --sd-color-primary: #0071bc;
+}
+
+
+div.toctree-wrapper p.caption {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+a.reference[href="#"]{
+  font-weight: 700;
+}
+a.reference[href="../index.html"]{
+  font-weight: 700;
+}
+a.reference[href="../../index.html"]{
+  font-weight: 700;
+}
+
+.sidebar p {
+  text-align: center;
+}
+
+p.sidebar-title {
+  font-size: 1em !important;
+}
+
+.sidebar a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+div.sidebar:not(.margin) {
+    width: 35%;
+    margin-left: 1.5em;
+    margin-right: -38%;
+    border-top-color: rgb(164, 166, 167);
+}
+
+
+
+.section .arabic li {
+
+  margin-bottom: 1.2em;
+}
+
+
+.section .arabic li p {
+
+  margin-top: 1.2em;
+}
+
+
+a.external:after{
+
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
+
+li ol.arabic {
+  list-style-type: lower-alpha;
+}
+
+
+.sidebar a:after{
+
+    font-family: 'FontAwesome';
+    content: " \f002";
+    text-align: right;
+}
+
+
+#site-navigation div.navbar_extra_footer {
+    text-align: left;
+}
+
+div.contents p.topic-title {
+
+    margin-bottom: 20px;
+}
+
+
+div.contents ul li p a {
+  font-size: 1em;
+}
+
+div.contents ul li p a:after {
+
+  font-weight: 200;
+
+  font-size: 0.8em;
+
+  font-family: 'FontAwesome';
+  content: " \f061";
+
+}
+
+div.contents ul li {
+  margin-bottom: 0.6em;
+}
+
+
+
+.contents {
+  width: 100%;
+}
+
+.no-bullets ul {
+  list-style-type: none;
+}
+
+
+#site-navigation .bd-sidebar__bottom {
+    margin-bottom: 1em;
+}
+
+
+p.feedback a.reference .std-ref{
+  border: 1px solid #7fbbe3;
+    background: #e7f2fa;
+    font-size: 80%;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2.4px 6px;
+    margin: auto 2px;
+}
+
+details summary {
+  font-weight: 700;
+  margin-bottom: 0.6em;
+}
+/* This fixes the text alignment style, only for the Arabic language*/
+html[lang="ar"] body, html[lang="ar"] #site-navigation div.navbar_extra_footer {
+  text-align: inherit;
+}
+
+@media (min-width: 992px){
+html[lang="ar"] aside.sidebar{
+  width: 50%;
+  margin: 0% 0% 0% 3%;
+ }
+}
+
+html[lang="ar"] div.contents ul li p a:after {
+  content: " \f060";
+}
+html[lang="ar"] pre{
+  text-align: left;
+}
