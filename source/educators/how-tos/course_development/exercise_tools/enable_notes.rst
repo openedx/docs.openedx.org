@@ -1,6 +1,6 @@
 .. _Notes Tool:
 
-Enable the Notes Tool
+About the Notes Tool
 #####################
 
 .. tags:: educator, how-to
@@ -29,16 +29,27 @@ of the notes in the course body.
 You must enable the Notes tool before learners can use it. To enable the Notes
 tool, follow these steps.
 
+.. admonition:: Install the Notes Application
+
+   In order for the Notes Application to work, it must be installed on your Open edX instance.
+   Please contact your site administrator to enable the `Notes Tutor Plugin <https://github.com/overhangio/tutor-notes>`_.
+   See :ref:`Enable Notes` for more details.
+
 #. In Studio, from the **Content** menu select **Pages & Resources**.
 
 #. Click the gear icon on the **Notes** card shown on this page.
 
 #. From the **Configure notes** modal, select the toggle to enable or disable the notes application.
 
-#. Select **Apply** to save your configuration changes.
+   .. image:: /_images/educator_how_tos/enable_notes.png
+     :width: 500
+     :alt: The Configure Notes modal
+
+#. Select **Save** to save your configuration changes.
 
 .. seealso::
- 
+
+ :ref:`Enable Notes` (how-to)
 
  :ref:`RecommenderXBlock` (how-to)
 
@@ -54,5 +65,5 @@ tool, follow these steps.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2024-04-14   | sarina                        | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
