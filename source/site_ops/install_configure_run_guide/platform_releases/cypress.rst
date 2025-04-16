@@ -102,7 +102,7 @@ verify that course content and data was migrated correctly.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

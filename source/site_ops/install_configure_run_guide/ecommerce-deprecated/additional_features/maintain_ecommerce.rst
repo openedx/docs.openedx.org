@@ -40,7 +40,7 @@ To delete one or more baskets, follow these steps.
      $ ./manage.py delete_ordered_baskets --commit
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

@@ -121,7 +121,7 @@ including the following.
 
 * The Open edX mobile apps do not support public course content.
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

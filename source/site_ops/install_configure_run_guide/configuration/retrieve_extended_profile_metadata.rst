@@ -80,7 +80,7 @@ User REST API, we should see the ``occupation`` field returned in our requests:
     }
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

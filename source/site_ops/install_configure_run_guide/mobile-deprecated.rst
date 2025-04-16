@@ -260,7 +260,7 @@ directories and files, see the GitHub repositories for `iOS`_ and `Android`_.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

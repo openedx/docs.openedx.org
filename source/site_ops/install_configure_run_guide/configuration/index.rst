@@ -42,7 +42,7 @@ configuration options.
    retrieve_extended_profile_metadata
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

@@ -404,7 +404,7 @@ page.
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

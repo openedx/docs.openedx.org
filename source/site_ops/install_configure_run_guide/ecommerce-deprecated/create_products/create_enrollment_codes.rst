@@ -69,7 +69,7 @@ link to a .csv file. The .csv file lists the enrollment codes.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

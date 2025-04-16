@@ -76,7 +76,7 @@ code and tests, and delete the gate from the database.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

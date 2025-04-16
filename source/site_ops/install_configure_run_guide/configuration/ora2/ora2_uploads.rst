@@ -33,7 +33,7 @@ files stored in a system other than Amazon S3, follow these steps.
    implementation of ``BaseBackend``.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

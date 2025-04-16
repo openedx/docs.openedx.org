@@ -51,7 +51,7 @@ information, see :ref:`Additional Ecommerce Features`.
 ..   - Course Administration Tool
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

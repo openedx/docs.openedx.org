@@ -71,7 +71,7 @@ To specify the email patterns that are allowed for registration, follow these st
 #. Restart your ``edxapp`` instances.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

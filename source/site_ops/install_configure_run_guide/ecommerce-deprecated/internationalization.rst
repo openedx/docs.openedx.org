@@ -83,7 +83,7 @@ If a language fetched from the cookie cannot be found in PAYPAL_LOCALES, the LAN
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

@@ -85,7 +85,7 @@ manually retry fulfillment of a failed order from the `Oscar`_ order dashboard.
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

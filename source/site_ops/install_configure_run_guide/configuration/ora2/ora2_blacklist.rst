@@ -48,7 +48,7 @@ To add or remove file types from the blacklist, follow these steps.
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

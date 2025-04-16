@@ -62,7 +62,7 @@ site. Follow these steps to start the E-Commerce service.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

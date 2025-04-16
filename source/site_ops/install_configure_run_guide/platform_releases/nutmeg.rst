@@ -89,7 +89,7 @@ as may be `this second Native to Tutor post`_. If not, post on the `Open edX For
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

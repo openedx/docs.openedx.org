@@ -46,7 +46,7 @@ The script does a number of checks before sending emails. There are five main co
 .. note:: For the emails to work you will need to have at least one email channel configured within https://github.com/openedx/edx-ace
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

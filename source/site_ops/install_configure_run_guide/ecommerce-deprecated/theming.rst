@@ -314,7 +314,7 @@ overrides, check the following areas.
   for our ongoing example, ``my-theme`` is the correct theme dir name.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |

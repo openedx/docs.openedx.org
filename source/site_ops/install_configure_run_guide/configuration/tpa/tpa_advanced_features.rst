@@ -178,7 +178,7 @@ this can be set up, refer to `this edx-code mailing list post
 <https://groups.google.com/forum/m/#!topic/edx-code/VW-wP1dhTTk>`_.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

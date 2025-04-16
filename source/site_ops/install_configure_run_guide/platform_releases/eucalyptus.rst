@@ -141,7 +141,7 @@ those steps using your desired Eucalyptus tag as the new value for
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
