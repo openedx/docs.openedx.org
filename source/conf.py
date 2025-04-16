@@ -53,8 +53,6 @@ extensions = [
     "sphinxemoji.sphinxemoji",
 ]
 
-]
-
 # Extension Configuration
 graphviz_output_format = "svg"
 
