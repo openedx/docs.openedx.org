@@ -41,9 +41,15 @@ Once successfully enabled, the LTI provider will be accessible in
 Provider specific configuration
 ********************************
 
-At present, the Open edX platform supports following video conferencing LTI provider:
-1.  Zoom
-2.  Big Blue button
+At present, the Open edX platform supports following video conferencing LTI providers:
+
+#.  Zoom
+#.  Big Blue button
+
+LTI setup
+=========
+
+For enabling LTI components, see :ref:`enable_lti_components`.
 
 Zoom setup
 ==========
@@ -150,5 +156,7 @@ accessible in *Live* tab in course navigation.
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
-| 03/07/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/956>`_|
+| 2025-04-13   | Docs WG                       | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 07/03/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/956>`_|
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+

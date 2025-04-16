@@ -14,6 +14,11 @@ This section describes how you can contribute to the course wiki.
 
 .. START MANAGING WIKI ARTICLES
 
+View Live Course
+*****************
+
+To begin, :ref:`view the live version of your course <View Published Content>`.
+
 *********************
 Add a Wiki Article
 *********************
@@ -165,5 +170,7 @@ Combine a Current Version with a Previous Version
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
-| 03/20/2025   | Leira (Curricu.me)            |  Sumac         | Fail (https://github.com/openedx/docs.openedx.org/issues/967)|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                         |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| 2025-03-20   | Leira (Curricu.me)            |  Sumac         | Fail (https://github.com/openedx/docs.openedx.org/issues/967)|
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+

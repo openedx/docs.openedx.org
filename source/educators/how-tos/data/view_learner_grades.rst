@@ -6,6 +6,10 @@ View Learner Grades
 
 .. tags:: educator, how-to
 
+.. admonition:: Course Data Researcher role required
+
+   Be sure your account has the :ref:`Course Data Researcher Role` applied in order to complete this how-to.
+
 You can access learner grades at any time after you create the course. 
 
 .. contents::
@@ -303,11 +307,15 @@ these settings will be discussed in the following section.
 
  :ref:`Guide to the Problem Grade Report` (reference)
 
+ :ref:`Add Course Team Members` (how-to)
+
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| 2025-04-13   | Docs WG                       | Sumac          | Pass                                                         |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| 2025-03-12   | Leira (curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/902)|
++--------------+-------------------------------+----------------+--------------------------------------------------------------+

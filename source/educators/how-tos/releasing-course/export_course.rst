@@ -55,16 +55,26 @@ The following data is not exported with your course.
 
 To export your course, follow these steps.
 
-#. From the **Tools** menu, select **Export**.
+#. From the **Tools** menu in the header, select **Export**.
+
+   .. image:: /_images/educator_how_tos/tools_menu_export_course.png
+    :width: 600
+    :alt: Selecting the "Export Course" option from the Tools menu in the page header.
+
 #. Select **Export Course Content**.
 
-When the export completes you can then access the ``.tar.gz`` file on your
-computer.
+   .. image:: /_images/educator_how_tos/course_export_page.png
+    :width: 600
+    :alt: an image of the Export page in which you can export courses and edit them outside of Studio.
 
-.. image:: /_images/educator_how_tos/course_export_page.png
- :width: 600
- :alt: an image of the Export page in which you can export courses and
-  edit them outside of Studio.
+#. When the export is complete, click **Download Exported Course**.
+
+   .. image:: /_images/educator_how_tos/download_exported_course.png
+    :width: 600
+    :alt: an image of the Export page when the export is complete, showing the Download Exported Course button
+
+When the export completes and is downloaded, you can then access the ``.tar.gz`` file on your
+computer.
 
 .. seealso::
  
@@ -80,5 +90,7 @@ computer.
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
-| 03/07/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/954>`_|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/954>`_|
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+

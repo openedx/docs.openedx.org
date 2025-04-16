@@ -6,6 +6,10 @@ View Learner Data
 
 .. tags:: educator, how-to
 
+.. admonition:: Course Data Researcher role required
+
+   Be sure your account has the :ref:`Course Data Researcher Role` applied in order to complete this how-to.
+
 You can view a report of learner data to gain more information about the
 individuals who are enrolled in your course. You also have the option to download
 learner data from the instructor dashboard.
@@ -68,12 +72,16 @@ To download learner data, follow these steps.
 
  :ref:`Guide to the Student Profile Report` (reference)
 
- :ref:`Manage Learner Grades <Grades>` (how-to) 
+ :ref:`Manage Learner Grades <Grades>` (how-to)
+
+ :ref:`Add Course Team Members` (how-to)
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/958>`_|
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+

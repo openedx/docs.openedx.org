@@ -6,6 +6,10 @@ View Answer Data
 
 .. tags:: educator, how-to
 
+.. admonition:: Course Data Researcher role required
+
+   Be sure your account has the :ref:`Course Data Researcher Role` applied in order to complete this how-to.
+
 To review learner answers to the problems in your course, you can review the
 answer submitted by a selected learner for a specific problem or download a
 course-wide report of any learner answers to a specific problem. You can also
@@ -498,11 +502,14 @@ answer(s) can guide future changes to the course content.
 
  :ref:`Answer_Report_FAQ` (reference)
 
+ :ref:`Add Course Team Members` (how-to)
+
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| 2025-04-13   |  sarina                       | Sumac          |Added note about needing the Data Researcher role. |
+|              |                               |                |This page still needs to be tested.                |
++--------------+-------------------------------+----------------+---------------------------------------------------+

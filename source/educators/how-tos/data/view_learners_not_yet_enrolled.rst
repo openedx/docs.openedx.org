@@ -4,6 +4,12 @@
 View Learners Not Yet Enrolled
 #################################
 
+.. tags:: educator, how-to
+
+.. admonition:: Course Data Researcher role required
+
+   Be sure your account has the :ref:`Course Data Researcher Role` applied in order to complete this how-to.
+
 After you enroll learners in a course using the **Auto Enroll** option, any
 learner who does not yet have a user account must register and activate an
 account to complete the enrollment process. In addition, the learner must
@@ -41,11 +47,15 @@ To download this report, follow these steps.
 
  :ref:`Manage_Course_Enrollments` (how-to)
 
+ :ref:`Add Course Team Members` (how-to)
+
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
-| 03/07/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/977>`_|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/977>`_|
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+

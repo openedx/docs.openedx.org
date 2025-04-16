@@ -6,6 +6,10 @@ View Certificate Data
 
 .. tags:: educator, how-to
 
+.. admonition:: Course Data Researcher role required
+
+   Be sure your account has the :ref:`Course Data Researcher Role` applied in order to complete this how-to.
+
 You can view data about the certificates that have been issued for your course
 in the LMS by selecting **Instructor** to access the instructor dashboard. You
 can also download a .csv (comma-separated values) file with the certificate
@@ -54,6 +58,8 @@ To download certificate data, follow these steps.
 
  :ref:`Guide to the Certificate Report` (reference)
 
+ :ref:`Add Course Team Members` (how-to)
+
 
 
 **Maintenance chart**
@@ -61,5 +67,7 @@ To download certificate data, follow these steps.
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                   |
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+
-| 03/07/2025   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/978>`_|
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                            |
++--------------+-------------------------------+----------------+-----------------------------------------------------------------+
+| 2025-03-07   | Docs WG                       | Sumac          | `Fail <https://github.com/openedx/docs.openedx.org/issues/978>`_|
 +--------------+-------------------------------+----------------+-----------------------------------------------------------------+

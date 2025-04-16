@@ -6,7 +6,8 @@ Manage the Course Wiki
 .. tags:: educator, how-to
 
 Wikis provide a way for the course team and learners to access, share, and
-collaboratively edit information both about, and for, your course.
+collaboratively edit information both about, and for, your course. In order
+to access the course wiki, :ref:`view the live version of your course<View Published Content>`.
 
 .. contents::
    :depth: 1
@@ -23,12 +24,17 @@ To disable or enable the Wiki application, follow these steps.
 #. In Studio, from the **Content** menu select **Pages & Resources**.
 #. Click the gear icon on the **Wiki** card shown on this page.
 #. From the **Configure wiki** modal, select the toggle to enable or disable the **wiki**.
-#. Select **Apply** to save your configuration changes.
+#. Select **Save** to save your configuration changes.
+
+   .. image:: /_images/educator_how_tos/configure_wiki.png
+    :width: 600
+    :alt: The modal shown where you can toggle the wiki and press the "Save" button.
+
 
 When you hide the wiki in your course, any existing articles remain in the wide wiki,
 but the Wiki page is removed from your course pages.
 
-.. In XML authoring, remove the `{"type": "wiki"}` entry in your `/policies/TERM/policy.json` file.
+When authoring in :ref:`OLX TOC`, remove the ``{"type": "wiki"}`` entry in your ``/policies/TERM/policy.json`` file.
 
 .. _Controlling Wiki Access:
 
@@ -72,7 +78,7 @@ the wide wiki, and cannot be found within the course wiki).
 
 To modify the permissions for wiki articles, follow these steps.
 
-#. View the live version of your course.
+#. :ref:`View the live version of your course<View Published Content>`.
 #. Select **Wiki**.
 #. Navigate to the article whose permissions you are modifying, and then select
    **Settings**.
@@ -131,12 +137,14 @@ Locking a wiki article prevents further changes from being made to it. To lock
 a wiki article either after you create it, or after you make specific edits,
 follow these steps.
 
-.. If you only lock an article without modifying the read/write permissions,
-.. other users can still create wiki articles at the top level. They also appear
-.. still to have an Edit button at the top level, but they get Permission Denied
-.. when they click Edit.
+.. note::
 
-#. View the live version of your course.
+   If you only lock an article without modifying the read/write permissions,
+   other users can still create wiki articles at the top level. They also appear
+   still to have an Edit button at the top level, but they get Permission Denied
+   when they click Edit.
+
+#. :ref:`View the live version of your course<View Published Content>`.
 #. Select **Wiki**.
 #. Navigate to the article you want to lock, and then select **Settings**.
 #. In the **Permissions** section of the **Settings** page, select the **Lock
@@ -156,10 +164,10 @@ required permissions, you see a **Delete article** button at the bottom of the
 
 To delete an article, follow these steps.
 
-#. View the live version of your course.
+#. :ref:`View the live version of your course<View Published Content>`.
 #. Select **Wiki**.
 #. Navigate to the article you want to delete, and then select **Edit**.
-#. Select **Delete article**.
+#. Select **Delete article** at the very bottom of the page.
 #. On the deletion confirmation page, select **Yes, I am sure**.
 #. Optionally, also select the **Purge** checkbox. For details, see
    :ref:`Purging a Wiki Article`.
@@ -205,6 +213,8 @@ To restore a deleted article, select the link to the article and select
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+| 2025-04-13   | sarina                        | Sumac          | Pass                                                         |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | 03/20/2025   | Leira (Curricu.me)            |   Sumac        | Fail (https://github.com/openedx/docs.openedx.org/issues/963)|
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
