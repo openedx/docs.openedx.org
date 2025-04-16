@@ -308,3 +308,12 @@ Select one of the available MySQL techniques for slowly draining the
 .. _edxapp.yml playbook: https://github.com/openedx/configuration/blob/master/playbooks/edx-east/edxapp.yml
 
 .. _create_db_and_users.yml playbook:   https://github.com/openedx/configuration/blob/master/playbooks/edx-east/create_db_and_users.yml
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

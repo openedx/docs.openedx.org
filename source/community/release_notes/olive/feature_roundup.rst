@@ -139,3 +139,12 @@ Other Small/Operational Changes
   of the ``edx-android-app`` codebase. The only noticeable impact here is that
   there may be new features in the iOS app that are not in the older version of
   the Android release.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+

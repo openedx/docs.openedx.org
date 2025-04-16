@@ -205,3 +205,13 @@ These components have been removed:
 .. _DEPR-106: https://openedx.atlassian.net/browse/DEPR-106
 .. _DEPR-62: https://openedx.atlassian.net/browse/DEPR-62
 .. _DEPR-89: https://openedx.atlassian.net/browse/DEPR-89
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

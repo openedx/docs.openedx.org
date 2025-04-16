@@ -48,3 +48,12 @@ Units copied from the Unit Page into the Course Outline, and vice versa.
 Be sure to see the How-To guide on :doc:`/educators/how-tos/copy_paste_course_components`.
 
 Copy & Paste for both components and units are available in the Open edX Quince Release.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
