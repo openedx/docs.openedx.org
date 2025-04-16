@@ -26,7 +26,7 @@ build:
 # Optionally set the requirements required to build your docs
 python:
   install:
-    - requirements: requirements/base.txt
+    - requirements: requirements/base.in
 
 # Optimize search results https://docs.readthedocs.com/platform/stable/config-file/v2.html#search-ranking
 
