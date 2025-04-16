@@ -117,3 +117,12 @@ Migration of Legacy Libraries
 The Legacy Libraries feature will be supported through Teak, moving to
 unsupported in Ulmo. Teak will include a one-click migration feature that will
 make it easy to convert a Legacy Library into the new Library interface.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

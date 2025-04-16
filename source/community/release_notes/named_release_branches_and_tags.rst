@@ -631,3 +631,12 @@ If you find a problem in the release candidate, please report them to the Build-
 do so by `creating a new issue`_.
 
 .. _creating a new issue: https://github.com/openedx/build-test-release-wg/issues/new/choose
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

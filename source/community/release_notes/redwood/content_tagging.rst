@@ -288,3 +288,12 @@ On the horizon for Sumac and beyond include:
 * Ability to bulk add tags to content
 * Reports and analytics on content by tags
 * In-platform taxonomy editing functionality
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

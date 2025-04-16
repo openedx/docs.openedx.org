@@ -279,3 +279,12 @@ Additional details to follow about improvements to this platform area.
     Program Data Downloads
     Internal Notes on v1.1 Content:
     Deen - Program Analytics*
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

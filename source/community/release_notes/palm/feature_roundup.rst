@@ -85,3 +85,12 @@ These improvements are available as of the Open edX Palm release. `Upgrading you
 local installation to Palm <https://docs.tutor.edly.io/install.html#upgrading>`_
 will guarantee that your system is up-to-date with the latest features,
 including everything listed in this post.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

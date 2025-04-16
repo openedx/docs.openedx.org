@@ -70,3 +70,12 @@ system is up-to-datewith the latest features, including the ORA Grading MFE
 ``openresponseassessment.enhanced_staff_grader``.
 
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

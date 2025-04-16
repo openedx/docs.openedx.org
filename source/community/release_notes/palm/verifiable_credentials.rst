@@ -60,3 +60,11 @@ edX instance, `start here`_.
 .. _frontend-app-learner-record: https://github.com/openedx/frontend-app-learner-record
 .. _Open edX Slack: https://openedx.slack.com/
 .. _start here: https://edx-credentials.readthedocs.io/en/latest/verifiable_credentials/overview.html
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -478,3 +478,12 @@ Patch Releases
 * Links to vertical blocks have been fixed.
 
 * The install_stack.sh file now creates directories differently.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

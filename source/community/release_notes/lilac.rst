@@ -257,3 +257,12 @@ Developer Experiences
 
 .. _fake the migration: https://docs.djangoproject.com/en/2.2/ref/django-admin/#cmdoption-migrate-fake
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
