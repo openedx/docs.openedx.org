@@ -49,7 +49,10 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxext.rediraffe",
     "notfound.extension",
-    "sphinx_tags"
+    "sphinx_tags",
+    "sphinxemoji.sphinxemoji",
+]
+
 ]
 
 # Extension Configuration
