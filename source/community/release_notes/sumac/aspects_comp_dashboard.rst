@@ -37,3 +37,12 @@ We’ve tried to make it easy for course delivery teams to spot courses with pro
 
 
 We’ve made it easy for users who want to easily drill further into a course’s problem attempts and results data by providing links to the individual course dashboard for each course directly in the Course Comparison Dashboard.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | Data WG                       | Sumac          |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -191,3 +191,13 @@ Several features are deprecated or deleted in the Open edX Ginkgo release.
   sidebar navigation and this waffle flag will be fully removed in the next
   release.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
