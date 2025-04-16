@@ -22,10 +22,7 @@ build:
     python: "3.12"
   apt_packages:
     - graphviz
-  commands:
-    - python -m pip install --upgrade pip setuptools
-    - python -m pip install -r requirements/base.txt
-    - python -m sphinx -b html source $READTHEDOCS_OUTPUT/html
+
 
 
 
