@@ -22,6 +22,9 @@ build:
     python: "3.12"
   apt_packages:
     - graphviz
+  commands:
+    - sphinx-build -b html source $READTHEDOCS_OUTPUT/html
+
 
 # Optionally set the requirements required to build your docs
 python:
