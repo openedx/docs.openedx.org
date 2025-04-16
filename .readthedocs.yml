@@ -21,7 +21,7 @@ build:
   tools:
     python: "3.12"
   commands:
-    - make html SPHINXOPTS="-D language=en" BUILDDIR=$READTHEDOCS_OUTPUT
+    - make html SPHINXOPTS="-D language=en"
 
     
 
