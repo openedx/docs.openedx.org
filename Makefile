@@ -9,9 +9,8 @@ SOURCEDIR     = source
 BUILDDIR      = build
 
 ifeq ($(READTHEDOCS),True)
-BUILDDIR = $(READTHEDOCS_OUTPUT)
+BUILDDIR := $(READTHEDOCS_OUTPUT)
 endif
-
 
 # Put it first so that "make" without argument is like "make help".
 help:
