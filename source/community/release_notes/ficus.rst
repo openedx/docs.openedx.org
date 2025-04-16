@@ -234,3 +234,13 @@ Patch Releases
 * A security fix was applied to prevent an attacker from poisoning a header and
   causing Open edX installations to send password reset emails where the reset
   link had been modified to a domain the attacker controls.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

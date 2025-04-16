@@ -80,3 +80,11 @@ release note!
    * :doc:`customizing_learner_dashboard`
 
    * :doc:`/site_ops/references/frontend-plugin-slots`
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | FWG                           | Sumac          |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

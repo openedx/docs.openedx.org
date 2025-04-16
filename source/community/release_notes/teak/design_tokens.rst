@@ -21,3 +21,11 @@ See this presentation from the November 2024 Open edX meetup for more detail.
 See also the `presentation slides here <https://docs.google.com/presentation/d/1FOSbTUTbbzaBoIDYMa5s32in1uFoYWdoQ-GjKk5IRBo/edit?usp=sharing>`_.
 
 The Open edX Teak release comes out in June 2025, and Ulmo will follow in December of 2025.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | sarina                        | Teak           |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

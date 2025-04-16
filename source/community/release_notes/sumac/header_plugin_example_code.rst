@@ -116,3 +116,12 @@ Sample ``env.config.jsx`` code
 .. include:: customizing_header.rst
     :start-after: advanced-example-start
     :end-before: advanced-example-end
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | FWG                           | Sumac          |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

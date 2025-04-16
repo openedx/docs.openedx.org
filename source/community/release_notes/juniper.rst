@@ -57,3 +57,13 @@ visibility and transparency, we have many new architecture decision records
 that locate platform decisions in context within the code. These serve as
 single repository versions of OEPs, and are also a key highlight for Juniper.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
