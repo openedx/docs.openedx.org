@@ -1,0 +1,75 @@
+# .readthedocs.yml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required: the version of this file's schema.
+version: 2
+
+# Build documentation in the docs/ directory with Sphinx
+sphinx:
+  configuration: source/conf.py
+  fail_on_warning: true
+
+# Optionally build your docs in additional formats such as PDF
+# formats:
+#   - pdf
+#   - epub
+
+# Set the version of python needed to build these docs.
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.12"
+  commands:
+    - make html SPHINXOPTS="-D language=en" BUILDDIR=$READTHEDOCS_OUTPUT
+
+    
+
+# Optionally set the requirements required to build your docs
+python:
+  install:
+    - requirements: requirements/base.txt
+
+# Optimize search results https://docs.readthedocs.com/platform/stable/config-file/v2.html#search-ranking
+
+search:
+  ranking:
+    # The rank can be an integer number between -10 and 10 (inclusive). Pages
+    # with a rank closer to -10 will appear further down the list of results,
+    # and pages with a rank closer to 10 will appear higher in the list of
+    # results. Note that 0 means normal rank, not no rank.
+    
+    # Deprioritize old release pages
+    birch.html: -10
+    cypress.html: -10
+    dogwood.html: -10
+    eucalyptus.html: -10
+    ficus.html: -10
+    ginkgo.html: -10
+    hawthorn.html: -10
+    ironwood.html: -10
+    juniper.html: -10
+    juniper_developer.html: -10
+    juniper_learner.html: -10
+    juniper_educator.html: -10
+    koa.html: -8
+    lilac.html: -8
+    maple.html: -7
+    nutmeg.html: -5
+    palm.html: -5
+    glossary.html: -5
+
+    # Match all files under the api/v1 directory
+    #api/v1/*: -5
+    developers/references/developer_guide/*.html: 10
+    developers/quickstarts/*.html: 10
+    educators/quickstarts/*.html: 10
+    site_ops/quickstarts/*.html: 10
+    documentors/quickstarts/*.html: 10
+    translators/quickstarts/*.html: 10
+
+
+    # Match all files named guides.html,
+    # two patterns are needed to match both the root and nested files.
+    #'guides.html': 3
+    #'*/guides.html': 3
