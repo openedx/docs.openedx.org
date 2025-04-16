@@ -23,7 +23,10 @@ build:
   apt_packages:
     - graphviz
   commands:
+    - python -m pip install -r requirements/base.txt
+    - python -m pip install sphinx
     - python -m sphinx -b html source $READTHEDOCS_OUTPUT/html
+
 
 # Optionally set the requirements required to build your docs
 python:
