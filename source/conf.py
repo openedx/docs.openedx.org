@@ -19,6 +19,14 @@ import re
 import sys
 import urllib
 from datetime import datetime
+import shutil
+
+# Ensure Graphviz 'dot' is available to Sphinx
+graphviz_dot = shutil.which('dot')
+if graphviz_dot:
+    os.environ["PATH"] += os.pathsep + os.path.dirname(graphviz_dot)
+    graphviz_dot = graphviz_dot  # Optional: explicitly set if needed
+
 
 # -- Project Base URL --------------------------------------------------------
 
