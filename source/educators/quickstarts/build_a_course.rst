@@ -118,7 +118,7 @@ Follow the steps below to build your first course. By the end, you will have a f
 
  :ref:`View As Learner` (how-to)
 
-
+Congrats – you have built your first course 🎉
 
 **Maintenance chart**
 
@@ -127,5 +127,3 @@ Follow the steps below to build your first course. By the end, you will have a f
 +--------------+-------------------------------+----------------+--------------------------------+
 |              |                               |                |                                |
 +--------------+-------------------------------+----------------+--------------------------------+
-
-Congrats – you have built your first course 🎉
