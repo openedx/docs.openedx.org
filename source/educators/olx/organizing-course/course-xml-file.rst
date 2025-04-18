@@ -277,6 +277,17 @@ The following example shows a vertical with two components.
       <video url_name="Unit_1_Video"/>
   </vertical>
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

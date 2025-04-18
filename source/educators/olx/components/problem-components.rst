@@ -318,6 +318,19 @@ content libraries. For more information, see
   :start-after: .. START ADDING TOOLTIPS
   :end-before: .. END ADDING TOOLTIPS
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Components and Activities TOC` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

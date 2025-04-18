@@ -18,6 +18,19 @@ complete the following steps.
  #.  :ref:`Create problems and tools<Components and Activities TOC>`.
 
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`The Courseware Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

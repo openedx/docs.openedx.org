@@ -143,6 +143,17 @@ course.
 
 For more information, see :ref:`Course Tabs`.
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`The Courseware Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

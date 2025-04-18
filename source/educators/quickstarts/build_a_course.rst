@@ -94,6 +94,7 @@ Follow the steps below to build your first course. By the end, you will have a f
   :start-after: .. START VIEW AS LEARNER
   :end-before: .. END VIEW AS LEARNER
 
+Congrats! You have built your first course 🎉!
 
 .. seealso::
  
@@ -118,7 +119,6 @@ Follow the steps below to build your first course. By the end, you will have a f
 
  :ref:`View As Learner` (how-to)
 
-Congrats – you have built your first course 🎉
 
 **Maintenance chart**
 

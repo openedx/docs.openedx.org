@@ -215,6 +215,25 @@ And:
 
   <vertical url_name="in_class_ora"></vertical>
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`OLX Components` (reference)
+
+  :ref:`OLX Exercises, Tools, and Problem Types` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+  :ref:`The Courseware Structure` (reference)
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+

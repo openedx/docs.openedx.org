@@ -66,6 +66,23 @@ Course policies determine how your course functions. For example, policies
 control grading and content experiments. For more information, see
 :ref:`Course Policies`.
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`OLX Components` (reference)
+
+  :ref:`Components and Activities TOC` (reference)
+
+  :ref:`The Courseware Structure` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

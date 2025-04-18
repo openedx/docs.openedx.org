@@ -13,6 +13,23 @@ JavaScript files.
 You must also define the asset in the assets policy file. For more information,
 see :ref:`Course Asset Policy`.
 
+.. seealso::
+
+  :ref:`Add Course Assets` (reference)
+
+  :ref:`Course Asset Policy` (reference) 
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
 
 **Maintenance chart**
 
