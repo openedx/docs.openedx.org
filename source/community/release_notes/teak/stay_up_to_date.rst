@@ -16,3 +16,11 @@ The Named Release Planning meeting occurs biweekly on Thursdays starting January
 Join asynchronously in the `#release-planning room in Slack <openedx.org/slack>`_.
 
 .. include:: /links.txt
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | sarina                        | Sumac          |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

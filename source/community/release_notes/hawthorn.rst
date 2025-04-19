@@ -146,3 +146,12 @@ Several features are deprecated or deleted in the Open edX Hawthorn release.
   permanently enabled. This means that logging out of the LMS or an IDA logs
   you out of all systems.
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

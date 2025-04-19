@@ -171,3 +171,11 @@ Raw OLX Editor
 * It uses xml syntax highlighting (not HTML)
 
 *Note: the Raw Text Editor still works for HTML editing*
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

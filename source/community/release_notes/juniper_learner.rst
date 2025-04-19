@@ -412,3 +412,12 @@ devices.
 improve xBlock caching and preloading for the mobile web views rendered in the
 application. For Android this also includes hardware acceleration for Mobile
 App web views.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
