@@ -8,7 +8,7 @@ Watch the following video on how to set up Open edX quickly using Tutor:
 .. youtube:: QngJaemFLms
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

@@ -37,7 +37,7 @@ To change the interval for returning aggregated grades, follow these steps.
    updated environment configurations are loaded.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

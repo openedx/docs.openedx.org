@@ -405,7 +405,7 @@ will have been generated for eligible learners.
 .. _edx/credentials: https://github.com/openedx/credentials
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

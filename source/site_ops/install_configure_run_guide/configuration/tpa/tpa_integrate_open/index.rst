@@ -49,7 +49,7 @@ between the two providers, see :ref:`Supported Identity Providers`.
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

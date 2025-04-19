@@ -97,7 +97,7 @@ An example of the properties that you define to configure a site follows.
   }
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

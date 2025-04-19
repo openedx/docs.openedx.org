@@ -24,7 +24,7 @@ To create an Open edX site, follow these steps.
 #. Select **Save**.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

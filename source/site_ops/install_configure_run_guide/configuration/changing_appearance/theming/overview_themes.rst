@@ -23,7 +23,7 @@ For more information about Open edX sites, see :ref:`Configuring Open edX
 Sites`.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

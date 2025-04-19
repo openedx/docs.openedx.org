@@ -15,7 +15,7 @@ Follow these steps to enable a waffle flag for a single user. This may be useful
 #. Refresh the page and see that the entered LMS User ID(s) now correspond to their LMS Usernames.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

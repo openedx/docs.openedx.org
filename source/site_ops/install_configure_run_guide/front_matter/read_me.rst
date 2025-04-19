@@ -13,7 +13,7 @@ See the :ref:`Documentor's Home` for more information on how to contribute to th
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

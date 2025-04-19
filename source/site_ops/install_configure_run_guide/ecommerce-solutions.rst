@@ -29,7 +29,7 @@ translates those into calls against the Open edX REST APIs.
 
 As of Sumac it supports WooCommerce and Shopify endpoints.
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

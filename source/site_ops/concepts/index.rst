@@ -3,7 +3,7 @@ Site Operators: Concepts
 
 .. tags:: site operator, concept
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

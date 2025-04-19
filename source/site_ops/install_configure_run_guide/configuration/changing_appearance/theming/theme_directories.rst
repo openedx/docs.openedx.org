@@ -62,7 +62,7 @@ The following subdirectories hold the UI files that you can override.
   HTML for UI pages.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

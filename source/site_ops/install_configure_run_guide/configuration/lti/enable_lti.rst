@@ -41,7 +41,7 @@ presence of the following database tables.
 If these tables are not present, check that the migrations have run properly.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

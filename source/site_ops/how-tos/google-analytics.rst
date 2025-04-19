@@ -99,7 +99,7 @@ MFE pages
   :alt: A screenshot of the source code showing where to locate the GA4 snippet.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

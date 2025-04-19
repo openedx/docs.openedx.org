@@ -11,7 +11,7 @@ For more information abut feature flags, see :ref:`edx-platform:featuretoggles`.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

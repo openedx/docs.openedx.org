@@ -170,7 +170,7 @@ fullstack installation, review the ``/edx/app/edxapp/lms.yml`` file.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

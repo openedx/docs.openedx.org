@@ -61,7 +61,7 @@ After you configure your edX instance as an LTI tool provider, you can
 Authentication>` between your Open edX system and the tool consumer.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
