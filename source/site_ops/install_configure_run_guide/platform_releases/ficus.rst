@@ -99,5 +99,5 @@ desired Ficus tag as the new value for ``OPENEDX_RELEASE``.
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
 +--------------+-------------------------------+----------------+------------------------------------+
-| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this release is unsupported |
+| 2025-03-09   | Sarina Canelake               | Sumac          | Deprecated                         |
 +--------------+-------------------------------+----------------+------------------------------------+
