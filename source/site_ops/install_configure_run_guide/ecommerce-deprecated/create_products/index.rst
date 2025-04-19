@@ -32,5 +32,5 @@ information, see the following topics.
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
 +--------------+-------------------------------+----------------+------------------------------------+
-| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this component is deprecated|
+| 2025-03-09   | Sarina Canelake               | Sumac          | Deprecated                         |
 +--------------+-------------------------------+----------------+------------------------------------+
