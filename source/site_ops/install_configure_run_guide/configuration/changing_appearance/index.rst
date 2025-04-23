@@ -18,7 +18,7 @@ way they look.
 .. For more information about how you set up sites, see :ref:`Configuring Open edX Sites`.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

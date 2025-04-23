@@ -8,7 +8,7 @@ through directories looking for .rst files containing maintenance charts in the 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2025-04-13   | reviewer                      | Release        | Pass/Fail                      |
+| 2025-04-13   | reviewer                      | Release        | Pass/Fail/Deprecated           |
 +--------------+-------------------------------+----------------+--------------------------------+
 
 The script generates a summary report showing:
@@ -57,6 +57,7 @@ class MaintenanceStatus(NamedTuple):
     is_empty: bool
     has_fail: bool
     has_pass: bool
+    has_deprecated: bool
     file_path: str
 
 def parse_maintenance_chart(content: str) -> MaintenanceStatus | None:
@@ -94,14 +95,15 @@ def parse_maintenance_chart(content: str) -> MaintenanceStatus | None:
     # Look for pass/fail in test situation column (last column)
     columns = [col.strip().lower() for col in first_data_row.split('|') if col.strip()]
     if not columns:  # Empty row
-        return MaintenanceStatus(True, False, False, "")
+        return MaintenanceStatus(True, False, False, False, "")
         
     # The test situation is in the last column
     test_situation = columns[-1] if len(columns) >= 4 else ""
     has_fail = 'fail' in test_situation.lower()
     has_pass = 'pass' in test_situation.lower()
-    
-    return MaintenanceStatus(is_empty, has_fail, has_pass, "")
+    has_deprecated = 'deprecated' in test_situation.lower()
+
+    return MaintenanceStatus(is_empty, has_fail, has_pass, has_deprecated, "")
 
 def get_folder_path(path: str, start_path: str, depth: int) -> str:
     """Get the directory path at specified depth relative to start_path."""
@@ -132,8 +134,10 @@ def scan_directory(start_path: str, depth: int) -> Dict[str, List[MaintenanceSta
                         status.is_empty,
                         status.has_fail,
                         status.has_pass,
+                        status.has_deprecated,
                         file_path
                     ))
+
             except Exception as e:
                 print(f"Error processing {file_path}: {e}")
                 
@@ -145,8 +149,8 @@ def print_report(results: Dict[str, List[MaintenanceStatus]]):
     print("================================\n")
     
     # Print table header
-    header = "| {:<30} | {:>8} | {:>8} | {:>8} | {:>8} |".format(
-        "Folder", "Total", "Empty", "Passed", "Failed"
+    header = "| {:<30} | {:>8} | {:>8} | {:>8} | {:>8} | {:>10} |".format(
+        "Folder", "Total", "Empty", "Passed", "Failed", "Deprecated"
     )
     separator = "-" * len(header)
     
@@ -160,9 +164,10 @@ def print_report(results: Dict[str, List[MaintenanceStatus]]):
         empty = sum(1 for s in statuses if s.is_empty)
         passed = sum(1 for s in statuses if s.has_pass)
         failed = sum(1 for s in statuses if s.has_fail)
+        deprecated = sum(1 for s in statuses if s.has_deprecated)
         
-        row = "| {:<30} | {:>8} | {:>8} | {:>8} | {:>8} |".format(
-            folder, total, empty, passed, failed
+        row = "| {:<30} | {:>8} | {:>8} | {:>8} | {:>8} | {:>10} |".format(
+            folder, total, empty, passed, failed, deprecated
         )
         print(row)
     

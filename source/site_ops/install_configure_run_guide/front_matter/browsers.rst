@@ -6,7 +6,7 @@ Open edX Browser Support
 
 See :ref:`Browsers`
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

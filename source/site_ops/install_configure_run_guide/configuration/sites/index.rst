@@ -32,7 +32,7 @@ For more information about themes, see :ref:`Theming Open edX`.
 
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

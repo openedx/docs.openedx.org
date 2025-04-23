@@ -115,7 +115,7 @@ subdirectories, you can apply the theme to both the LMS and Studio.
     your UI. For more information, see :ref:`Compiling a Theme`.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

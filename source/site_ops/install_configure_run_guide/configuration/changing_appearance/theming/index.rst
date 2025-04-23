@@ -39,7 +39,7 @@ In addition, an `example theme <https://github.com/openedx/sample-themes>`_ is
 available for review.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

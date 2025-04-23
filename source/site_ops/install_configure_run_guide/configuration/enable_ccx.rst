@@ -34,7 +34,7 @@ Open edX, you must configure the ``server-vars.yml`` file in the edX platform.
 .. include:: /links.txt
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |

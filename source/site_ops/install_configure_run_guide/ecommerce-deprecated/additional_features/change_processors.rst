@@ -37,10 +37,10 @@ display an informative error message explaining why payment is not currently
 possible.
 
 
-Maintenance Chart
+**Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
 +--------------+-------------------------------+----------------+------------------------------------+
-| 2025-03-09   | Sarina Canelake               | Sumac          | Fail - this component is deprecated|
+| 2025-03-09   | Sarina Canelake               | Sumac          | Deprecated                         |
 +--------------+-------------------------------+----------------+------------------------------------+
