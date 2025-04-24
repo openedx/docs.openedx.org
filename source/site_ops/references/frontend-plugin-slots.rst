@@ -8,43 +8,83 @@ may be available, and are discoverable by visiting the ``src/plugin-slots``
 directory of any given MFE.
 
 Header slots, available in MFEs that use ``frontend-component-header``:
+***********************************************************************
 
-- `course_info_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/CourseInfoSlot#course-info-slot>`_
-- `desktop_header_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/DesktopHeaderSlot#desktop-header-slot>`_
-- `desktop_logged_out_items_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/DesktopLoggedOutItemsSlot#desktop-logged-out-items-slot>`_
-- `desktop_main_menu_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/DesktopMainMenuSlot#desktop-main-menu-slot>`_
-- `desktop_secondary_menu_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/DesktopSecondaryMenuSlot#desktop-secondary-menu-slot>`_
-- `desktop_user_menu_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/DesktopUserMenuSlot#desktop-user-menu-slot>`_
-- `learning_help_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/LearningHelpSlot#learning-help-slot>`_
-- `learning_logged_out_items_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/LearningLoggedOutItemsSlot#learning-logged-out-items-slot>`_
-- `learning_user_menu_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/LearningUserMenuSlot#learning-user-menu-slot>`_
-- `logo_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/LogoSlot#logo-slot>`_
-- `mobile_header_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/MobileHeaderSlot#mobile-header-slot>`_
-- `mobile_logged_out_items_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/MobileLoggedOutItemsSlot#mobile-logged-out-items-slot>`_
-- `mobile_main_menu_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/MobileMainMenuSlot#slot-id-mobile_main_menu_slot>`_
-- `mobile_user_menu_slot <https://github.com/openedx/frontend-component-header/tree/v5.7.1/src/plugin-slots/MobileUserMenuSlot#mobile-user-menu-slot>`_
+- `org.openedx.frontend.layout.header_logo.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/LogoSlot>`_
+- `org.openedx.frontend.layout.header_desktop.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/DesktopHeaderSlot>`_
+- `org.openedx.frontend.layout.header_desktop_logged_out_items.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/DesktopLoggedOutItemsSlot>`_
+- `org.openedx.frontend.layout.header_desktop_main_menu.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/DesktopMainMenuSlot>`_
+- `org.openedx.frontend.layout.header_desktop_secondary_menu.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/DesktopSecondaryMenuSlot>`_
+- `org.openedx.frontend.layout.header_desktop_user_menu.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/DesktopUserMenuSlot>`_
+- `org.openedx.frontend.layout.header_learning_course_info.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/CourseInfoSlot>`_
+- `org.openedx.frontend.layout.header_learning_help.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/LearningHelpSlot>`_
+- `org.openedx.frontend.layout.header_learning_logged_out_items.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/LearningLoggedOutItemsSlot>`_
+- `org.openedx.frontend.layout.header_learning_user_menu.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/LearningUserMenuSlot>`_
+- `org.openedx.frontend.layout.header_mobile.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/MobileHeaderSlot>`_
+- `org.openedx.frontend.layout.header_mobile_logged_out_items.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/MobileLoggedOutItemsSlot>`_
+- `org.openedx.frontend.layout.header_mobile_main_menu.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/MobileMainMenuSlot>`_
+- `org.openedx.frontend.layout.header_mobile_user_menu.v1 <https://github.com/openedx/frontend-component-header/tree/v6.4.0/src/plugin-slots/MobileUserMenuSlot>`_
 
-The footer slot, available in MFEs that use ``frontend-slot-footer``:
+Footer slots, available in MFEs that use ``frontend-component-footer``:
+***********************************************************************
 
-- `footer_slot <https://github.com/openedx/frontend-slot-footer/tree/v1.0.6?tab=readme-ov-file#frontend-slot-footer>`_
+- `org.openedx.frontend.layout.footer.v1 <https://github.com/openedx/frontend-component-footer/tree/v14.7.0/src/plugin-slots/FooterSlot>`_
+- `org.openedx.frontend.layout.studio_footer.v1 <https://github.com/openedx/frontend-component-footer/tree/v14.7.0/src/plugin-slots/StudioFooterSlot>`_
+- `org.openedx.frontend.layout.studio_footer_logo.v1 <https://github.com/openedx/frontend-component-footer/tree/v14.7.0/src/plugin-slots/StudioFooterLogoSlot>`_
 
 A slot only available in the Account MFE:
+*****************************************
 
-- `id_verification_page_plugin <https://github.com/openedx/frontend-app-account/tree/open-release/sumac.master/src/plugin-slots/IdVerificationPageSlot#slot-id-id_verification_page_plugin>`_
+- `org.openedx.frontend.account.id_verification_page.v1 <https://github.com/openedx/frontend-app-account/tree/release/teak.master/src/plugin-slots/IdVerificationPageSlot>`_
+
+Slots only available in the Authoring MFE:
+******************************************
+
+- `org.openedx.frontend.authoring.course_outline_header_actions.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/CourseOutlineHeaderActionsSlot>`_
+- `org.openedx.frontend.authoring.course_outline_sidebar.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/CourseAuthoringOutlineSidebarSlot>`_
+- `org.openedx.frontend.authoring.course_outline_subsection_card_extra_actions.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/CourseOutlineSubsectionCardExtraActionsSlot>`_
+- `org.openedx.frontend.authoring.course_outline_unit_card_extra_actions.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/CourseOutlineUnitCardExtraActionsSlot>`_
+- `org.openedx.frontend.authoring.course_unit_header_actions.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/CourseUnitHeaderActionsSlot>`_
+- `org.openedx.frontend.authoring.course_unit_sidebar.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/CourseAuthoringUnitSidebarSlot>`_
+- `org.openedx.frontend.authoring.additional_course_content_plugin.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/AdditionalCourseContentPluginSlot>`_
+- `org.openedx.frontend.authoring.additional_course_plugin.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/AdditionalCoursePluginSlot>`_
+- `org.openedx.frontend.authoring.video_transcript_additional_translations_component.v1 <https://github.com/openedx/frontend-app-authoring/tree/release/teak.master/src/plugin-slots/AdditionalTranslationsComponentSlot>`_
 
 Slots only available in the Learner Dashboard MFE:
+**************************************************
 
-- `course_card_action_slot <https://github.com/openedx/frontend-app-learner-dashboard/tree/open-release/sumac.master/src/plugin-slots/CourseCardActionSlot#course-card-action-slot>`_
-- `course_list_slot <https://github.com/openedx/frontend-app-learner-dashboard/tree/open-release/sumac.master/src/plugin-slots/CourseListSlot#course-list-slot>`_
-- `no_courses_view_slot <https://github.com/openedx/frontend-app-learner-dashboard/tree/open-release/sumac.master/src/plugin-slots/NoCoursesViewSlot#no-courses-view-slot>`_
-- `widget_sidebar_slot <https://github.com/openedx/frontend-app-learner-dashboard/tree/open-release/sumac.master/src/plugin-slots/WidgetSidebarSlot#widget-sidebar-slot>`_
+- `org.openedx.frontend.learner_dashboard.course_card_action.v1 <https://github.com/openedx/frontend-app-learner-dashboard/tree/release/teak.master/src/plugin-slots/CourseCardActionSlot>`_
+- `org.openedx.frontend.learner_dashboard.widget_sidebar.v1 <https://github.com/openedx/frontend-app-learner-dashboard/tree/release/teak.master/src/plugin-slots/WidgetSidebarSlot>`_
+- `org.openedx.frontend.learner_dashboard.course_list.v1 <https://github.com/openedx/frontend-app-learner-dashboard/tree/release/teak.master/src/plugin-slots/CourseListSlot>`_
+- `org.openedx.frontend.learner_dashboard.no_courses_view.v1 <https://github.com/openedx/frontend-app-learner-dashboard/tree/release/teak.master/src/plugin-slots/NoCoursesViewSlot>`_
+- `org.openedx.frontend.learner_dashboard.dashboard_modal.v1 <https://github.com/openedx/frontend-app-learner-dashboard/tree/release/teak.master/src/plugin-slots/DashboardModalSlot>`_
 
 Slots only available in the Learning MFE:
+*****************************************
 
-- `header_slot <https://github.com/openedx/frontend-app-learning/tree/open-release/sumac.master/src/plugin-slots/HeaderSlot#header-slot>`_
-- `sequence_container_slot <https://github.com/openedx/frontend-app-learning/tree/open-release/sumac.master/src/plugin-slots/SequenceContainerSlot#sequence-container-slot>`_
-- `unit_title_slot <https://github.com/openedx/frontend-app-learning/tree/open-release/sumac.master/src/plugin-slots/UnitTitleSlot#slot-id-unit_title_slot>`_
-
+- `org.openedx.frontend.layout.header_learning.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/HeaderSlot>`_
+- `org.openedx.frontend.learning.content_iframe_loader.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ContentIFrameLoaderSlot>`_
+- `org.openedx.frontend.learning.course_breadcrumbs.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseBreadcrumbsSlot>`_
+- `org.openedx.frontend.learning.course_home_section_outline.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseHomeSectionOutlineSlot>`_
+- `org.openedx.frontend.learning.course_outline_mobile_sidebar_trigger.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseOutlineMobileSidebarTriggerSlot>`_
+- `org.openedx.frontend.learning.course_outline_sidebar_trigger.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseOutlineSidebarTriggerSlot>`_
+- `org.openedx.frontend.learning.course_outline_sidebar.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseOutlineSidebarSlot>`_
+- `org.openedx.frontend.learning.course_outline_tab_notifications.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseOutlineTabNotificationsSlot>`_
+- `org.openedx.frontend.learning.course_recommendations.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/CourseRecommendationsSlot>`_
+- `org.openedx.frontend.learning.gated_unit_content_message.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/GatedUnitContentMessageSlot>`_
+- `org.openedx.frontend.learning.next_unit_top_nav_trigger.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/NextUnitTopNavTriggerSlot>`_
+- `org.openedx.frontend.learning.notification_tray.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/NotificationTraySlot>`_
+- `org.openedx.frontend.learning.notification_widget.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/NotificationWidgetSlot>`_
+- `org.openedx.frontend.learning.notifications_discussions_sidebar_trigger.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/NotificationsDiscussionsSidebarTriggerSlot>`_
+- `org.openedx.frontend.learning.notifications_discussions_sidebar.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/NotificationsDiscussionsSidebarSlot>`_
+- `org.openedx.frontend.learning.progress_certificate_status.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ProgressCertificateStatusSlot>`_
+- `org.openedx.frontend.learning.progress_tab_certificate_status_main_body.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ProgressTabCertificateStatusMainBodySlot>`_
+- `org.openedx.frontend.learning.progress_tab_certificate_status_side_panel.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ProgressTabCertificateStatusSidePanelSlot>`_
+- `org.openedx.frontend.learning.progress_tab_course_grade.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ProgressTabCourseGradeSlot>`_
+- `org.openedx.frontend.learning.progress_tab_grade_breakdown.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ProgressTabGradeBreakdownSlot>`_
+- `org.openedx.frontend.learning.progress_tab_related_links.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/ProgressTabRelatedLinksSlot>`_
+- `org.openedx.frontend.learning.sequence_container.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/SequenceContainerSlot>`_
+- `org.openedx.frontend.learning.unit_title.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak.master/src/plugin-slots/UnitTitleSlot>`_
 
 .. seealso::
 
