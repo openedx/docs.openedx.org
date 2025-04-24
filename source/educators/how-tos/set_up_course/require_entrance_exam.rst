@@ -6,6 +6,11 @@ Require an Entrance Exam
 
 .. tags:: educator, how-to
 
+.. admonition:: Turn on the Entrance Exam feature
+
+   In order for the Entrance Exam feature to work, it must be enabled on your Open edX instance.
+   Please contact your site administrator to enable the `FEATURES['ENTRANCE_EXAMS'] <https://docs.openedx.org/projects/edx-platform/en/latest/references/featuretoggles.html#featuretoggle-FEATURES['ENTRANCE_EXAMS']>`_ flag.
+
 To require an entrance exam, follow these steps.
 
 #. In Studio, open your course.
@@ -67,4 +72,5 @@ a record of all the operations that have run for the entrance exam, select
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/11/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/891) |
+|              |                               |                | (this simply hasn't been tested with the flag on)             |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
