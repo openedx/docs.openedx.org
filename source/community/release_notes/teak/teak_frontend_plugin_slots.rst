@@ -1,5 +1,5 @@
-Customizing Your Site Using Frontend "Slots"
-##############################################
+New Frontend Plugin Slots for the Teak Release
+###############################################
 
 Utilizing *frontend plugin slots*, site operators now have the ability to
 customize various portions of the site.
@@ -167,7 +167,7 @@ Learning MFE
 
    * :doc:`../sumac/customizing_learner_dashboard`
 
-   * :doc:`../sumac/customizing_header``
+   * :doc:`../sumac/customizing_header`
 
 **Maintenance chart**
 
