@@ -1,8 +1,10 @@
 .. _HTML Components:
 
 #################################
-HTML Components
+HTML Components in OLX
 #################################
+
+.. tags:: educator, reference
 
 .. contents::
    :local:
@@ -115,3 +117,25 @@ file for the edX Demo course:
     &nbsp;They&rsquo;re fun to play with. &nbsp;Many courses will have tools
     and labs that you need to use to complete homework assignments.</p>
 
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`About Text Components` (concept)
+  
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

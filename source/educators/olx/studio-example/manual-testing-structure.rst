@@ -4,6 +4,8 @@
 The Structure of the Manual Testing Course
 ############################################
 
+.. tags:: educator, reference
+
 This section describes the structure of a course that the edX.org team created for testing purposes, called the `Manual Testing`_ course.
 
 .. contents::
@@ -231,3 +233,26 @@ Platform Directories
 The `Manual Testing`_ course includes platform directories to support
 non-courseware parts of the OLX course. For more information, see
 :ref:`Open edX Platform Directories`.
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`The Courseware Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+
