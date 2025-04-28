@@ -1,8 +1,10 @@
 .. _Video Components:
 
 #################################
-Video Components
+Video Components in OLX
 #################################
+
+.. tags:: educator, reference
 
 You can add video components to any container in your course (such as
 a vertical or sequential). Studio places all video components inside
@@ -131,3 +133,27 @@ The following example shows an XML file for a video component.
 
     <source src="https://s3.amazonaws.com/edx-course-videos/mit-6002x/6002-Tutorial-00010_100.mov"/>
   </video>
+
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Add Video Components` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

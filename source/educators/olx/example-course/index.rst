@@ -4,7 +4,9 @@
 Example of an OLX Course
 ########################
 
-OLX (open learning XML) is a flexible system that you can use to create edX
+.. tags:: educator, reference
+
+OLX (open learning XML) is a flexible system that you can use to create Open edX
 courses in many ways. While there is no best way to structure courses in all
 situations, there are best practices that help make an OLX course easier to
 create and maintain.
@@ -22,3 +24,12 @@ courseware is defined.
 
    insider-structure
    insider-course-xml
+
+**Maintenance Chart**
+
+
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| 2025-04-11   | Sarina Canelake               |    Sumac       |`Fail <https://github.com/openedx/docs.openedx.org/issues/998>`_                                                    |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
