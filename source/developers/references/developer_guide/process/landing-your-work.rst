@@ -1,9 +1,12 @@
+.. _Landing Your Work:
+
 #################
 Landing Your Work
 #################
 
 Once you're ready to submit your code changes in a pull request, check the following
-requirements to be sure that your pull request is ready to be reviewed:
+requirements to be sure that your pull request is ready to be reviewed. Be sure you
+are following the :ref:`Git workflow`.
 
 *********************
 Describe your changes
@@ -19,7 +22,7 @@ The code should be clear and understandable. Comments in code, detailed
 docstrings, and good variable naming conventions are expected. See the
 :doc:`../style_guides/index` for more details.
 
-Commit messages should conform to `OEP-51: Conventional Commits`_.
+Commit messages should conform to :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`.
 This style categorizes commits to make them easier to understand.
 
 ****************
@@ -84,6 +87,16 @@ screenshots of what you changed. GitHub will allow you to upload images
 directly from your computer. Changes should only use elements from the
 `Paragon pattern library`_.
 
+****************************
+Commit Messages and Rebasing
+****************************
+
+Be sure your commit messages follow
+:doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`.
+
+Before requesting review, please :ref:`rebase your changes <Rebasing>` atop the latest version of
+the ``master`` or ``main`` branch.
+
 ***********
 Code Review
 ***********
@@ -132,7 +145,6 @@ following links:
 
 .. _contributor's agreement: http://openedx.org/cla
 .. _compatible licenses: https://openedx.org/open-edx-licensing
-.. _OEP-51\: Conventional Commits: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html
 .. _Paragon pattern library: https://paragon-openedx.netlify.app/
 .. _forums: https://discuss.openedx.org/
 
