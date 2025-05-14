@@ -116,7 +116,6 @@ A developer might use an Open edX Event in order to perform the following action
 - Communicate, synchronize, or coordinate with other components or services based on specific events or actions, e.g., send certificate data from LMS to credentials service to keep models up to date.
 - Integrate with external systems or services based on specific events or actions, e.g., send user data to third-party services upon registration for marketing purposes.
 
-Fore more detailed use cases, please visit :doc:`openedx-events:reference/real-life-use-cases`.
 
 In summary, events can be used to integrate application components with each other or with external services, allowing them to communicate, synchronize, and perform additional actions when specific triggers occur.
 
@@ -159,7 +158,6 @@ Filters are useful when you need an immediate response that directly modifies th
 **If the answer is no, should it be an event?**
 
 - Consider if your use case involves communication, synchronization, or integration between services or components.
-- Next, review existing :doc:`openedx-events:reference/real-life-use-cases` to find similar implementations.
 
 We encourage you to review the list of use cases for events and filters to draw inspiration from real-life scenarios and see if your use case aligns with any of them. Also, maybe your feature can be implementing using the framework but there's not an available event or filter for it yet. In that case, consider proposing a new event or filter to the community!
 
