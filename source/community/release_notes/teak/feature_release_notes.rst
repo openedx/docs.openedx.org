@@ -10,6 +10,7 @@ Open edX Teak Release - Product Release Notes
 
    stay_up_to_date
    libraries_unit_support
+   credentials
    design_tokens
    aspects_updates
 
