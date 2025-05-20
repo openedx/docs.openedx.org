@@ -12,46 +12,6 @@ To embed a Google Calendar in your course, follow these steps.
    :local:
    :depth: 1
 
-.. _Enable the Google Calendars Tool:
-
-********************************
-Enable the Google Calendars Tool
-********************************
-
-Before you can add Google Calendars to your course, you must enable the Google
-Calendars tool in Studio or OLX (open learning XML).
-
-To enable the Google Calendars tool in Studio, you add the
-``"google-calendar"`` key to the **Advanced Module List** on the **Advanced
-Settings** page. (Be sure to include the quotation marks around the key
-value.) For more information, see :ref:`Enable Additional Exercises and Tools`.
-
-Alternatively, you can use OLX to enable the Google Calendars tool.
-
-.. _Enable Google Calendars in OLX:
-
-******************************
-Enable Google Calendars in OLX
-******************************
-
-To enable Google Calendars in your course, you edit the XML file that defines
-the course structure. You locate the ``course`` element's ``advanced-modules``
-attribute, and add the string ``google-calendar`` to it.
-
-For example, the following XML code enables Google Calendars in a course. It
-also enables Google Drive files.
-
-.. code-block:: xml
-
-  <course advanced_modules="[&quot;google-document&quot;,
-      &quot;google-calendar&quot;]" display_name="Sample Course"
-      start="2014-01-01T00:00:00Z">
-      ...
-  </course>
-
-For more information, see :ref:`OLX Course Building Blocks` in the
-*EdX Open Learning XML Guide*.
-
 .. _Make the Google Calendar Public and Obtain Its ID:
 
 *************************************************
