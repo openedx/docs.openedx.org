@@ -3,6 +3,8 @@
 Update/Re-import a taxonomy
 ###########################
 
+.. tags:: educator, how-to
+
 In order to update taxonomies, they must be updated locally and re-imported.
 This document walks through that process.
 
