@@ -12,6 +12,14 @@ To embed a Google Calendar in your course, follow these steps.
    :local:
    :depth: 1
 
+.. _Enable the Google Calendars Tool:
+
+********************************
+Enable the Google Calendars Tool
+********************************
+
+This block is enabled by default and can be found using the dropdown menu under the “Advanced” section on the unit page in Studio when creating a new component.
+
 .. _Make the Google Calendar Public and Obtain Its ID:
 
 *************************************************
