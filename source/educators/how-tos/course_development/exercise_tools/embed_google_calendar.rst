@@ -17,6 +17,7 @@ To embed a Google Calendar in your course, follow these steps.
 ********************************
 Enable the Google Calendars Tool
 ********************************
+**This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.**
 
 Before you can add Google Calendars to your course, you must enable the Google
 Calendars tool in Studio or OLX (open learning XML).
