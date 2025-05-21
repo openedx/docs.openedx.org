@@ -3,6 +3,8 @@
 Add and delete tags on course content
 #####################################
 
+.. tags:: educator, how-to
+
 .. note::
 
      Tags can be added to course content from three places in Studio: From the
