@@ -5,6 +5,11 @@ Add and Delete tags in Library content
 
 .. tags:: educator, how-to
 
+.. note::
+
+   Users must have "Author" or "Admin" permissions on a library to manage tags.
+   See :ref:`Add users to Libraries` for more detail.
+
 With the Content Tagging feature, authors and instructional designers are able
 to add tags to their Library content. This includes the ability to tag any
 individual blocks like problems and videos.
