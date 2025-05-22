@@ -26,6 +26,12 @@ Sync a Library update to your course
 
     :ref:`Navigate the Library Homepage`
 
+    :ref:`Create and edit content in a Library`
+
+    :ref:`Add Library content to a course`
+
+    :ref:`Add a Problem Bank to your course for randomization`
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

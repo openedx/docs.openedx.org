@@ -3,6 +3,13 @@
 Update/Re-import a taxonomy
 ###########################
 
+.. tags:: educator, how-to
+
+.. note::
+
+    Users must be organization or instance level administrators in order to
+    import taxonomies.
+
 In order to update taxonomies, they must be updated locally and re-imported.
 This document walks through that process.
 
