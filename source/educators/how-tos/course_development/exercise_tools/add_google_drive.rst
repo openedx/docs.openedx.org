@@ -51,6 +51,9 @@ file to the web and obtain the embed code for the file.
 
 Add a Google Drive File Component in Open edX Studio
 ******************************************************
+.. note::
+
+    This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
 
 Ensure you :ref:`enable Google Drive files<Enable the Google Drive Files Tool>`
 before you add the component.
