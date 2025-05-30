@@ -13,7 +13,7 @@ level directory.
   :local:
   :depth: 1
 
-For an example of a ``course.xml`` file, see :ref:`The edX-Insider course.xml
+For an example of a ``course.xml`` file, see :ref:`The olx-example course.xml
 File`.
 
 *************************************
