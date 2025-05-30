@@ -17,7 +17,9 @@ might be listed as one of the **Advanced**, **Text**, or **Problem** options
 
 Enable an Exercise or Tool for Your Course
 ******************************************
+.. note::
 
+    This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
 To enable an advanced exercise or tool, follow these steps.
 
 #. In Studio, select **Settings**, and then **Advanced Settings**.
