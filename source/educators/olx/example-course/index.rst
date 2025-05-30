@@ -11,11 +11,11 @@ courses in many ways. While there is no best way to structure courses in all
 situations, there are best practices that help make an OLX course easier to
 create and maintain.
 
-This section uses the `edX-Insider`_ course as an example of how to create an
-OLX course.  The files for `edX-Insider`_ are stored in GitHub, so you can
+This section uses the `olx-example`_ course as an example of how to create an
+OLX course.  The files for `olx-example`_ are stored in GitHub, so you can
 explore how the course is made for yourself.
 
-These topics examine the overall structure of edX-Insider and how the
+These topics examine the overall structure of the olx-example course and how the
 courseware is defined.
 
 

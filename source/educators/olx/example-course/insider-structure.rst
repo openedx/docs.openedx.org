@@ -6,7 +6,7 @@ The OLX Structure of a Sample Course
 
 .. tags:: educator, reference
 
-This topic describes the structure of a sample course known as the `edX-Insider`_ course that was originally developed for edX.org.
+This topic describes the structure of a sample course known as the `olx-example`_ course that was originally developed for edX.org.
 
 .. contents::
   :local:
@@ -19,24 +19,24 @@ For information about how a course exported from Open edX Studio is structured, 
 :ref:`Example of OLX for a Studio Course`.
 
 .. note::
-  The structure and content of edX-Insider can change without corresponding
+  The structure and content of olx-example can change without corresponding
   updates being made to this reference guide.
 
 ******************************************
-edX-Insider and Directory File Structures
+olx-example and Directory File Structures
 ******************************************
 
-All files and subdirectories that comprise edX-Insider are stored in the
-`Ongoing`_ directory in the edX-Insider Git repository.
+All files and subdirectories that comprise olx-example are stored in the
+`olx-example course`_ directory in the olx-example Git repository.
 
-.. Image:: ../Images/edx-insider-github.png
- :alt: The edX-Insider course in GitHub.
+.. Image:: /_images/olx-example-images/olx-example-github.png
+ :alt: The olx-example course in GitHub.
 
 ********************
 Top-level Directory
 ********************
 
-The `Ongoing`_ directory in the edX-Insider Git repository contains the
+The `olx-example course`_ directory in the olx-example Git repository contains the
 ``course.xml`` file as well as XBlock and Platform directories.
 
 * The `course.xml`_ file contains the XML for the courseware. All chapters and
@@ -50,7 +50,7 @@ The `Ongoing`_ directory in the edX-Insider Git repository contains the
 
 * Problems are referenced in other files.
 
-For more information, see :ref:`The edX-Insider course.xml File`.
+For more information, see :ref:`The olx-example course.xml File`.
 
 ******************************
 The HTML XBlock Directory
@@ -86,7 +86,7 @@ contains the content for that HTML component. For detailed information, see the
 
 For a learner, that HTML component appears as the first unit of the course.
 
-.. Image:: ../Images/Insider-first-image.png
+.. Image:: /_images/olx-example-images/Insider-first-image.png
  :alt: The HTML component as a learner sees it.
 
 
@@ -123,7 +123,7 @@ exercise`` contains embedded HTML content.
 For a student, that HTML component appears as a unit of the course in the same
 way as a referenced HTML component does.
 
-.. Image:: ../Images/Insider-first-exercise.png
+.. Image:: /_images/olx-example-images/Insider-first-exercise.png
  :alt: The HTML component as a student sees it.
 
 
@@ -131,7 +131,7 @@ way as a referenced HTML component does.
 Platform Directories
 ********************
 
-The edX-Insider course contains information in the course subdirectories as
+The olx-example course contains information in the course subdirectories as
 described below.
 
 ====================
@@ -168,7 +168,7 @@ The ``policies`` directory contains the following files.
 
 * ``assets.json``, which defines all files used in the course, such as images.
 
-* A course directory named ``Ongoing``, which contains:
+* A course directory named ``course``, which contains:
 
   * ``grading_policy.json``, which defines how student work is graded in the
     course.
