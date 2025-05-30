@@ -29,7 +29,7 @@ olx-example and Directory File Structures
 All files and subdirectories that comprise olx-example are stored in the
 `olx-example course`_ directory in the olx-example Git repository.
 
-.. Image:: ../Images/olx-example-github.png
+.. Image:: /_images/olx-example-images/olx-example-github.png
  :alt: The olx-example course in GitHub.
 
 ********************
@@ -86,7 +86,7 @@ contains the content for that HTML component. For detailed information, see the
 
 For a learner, that HTML component appears as the first unit of the course.
 
-.. Image:: ../Images/Insider-first-image.png
+.. Image:: /_images/olx-example-images/Insider-first-image.png
  :alt: The HTML component as a learner sees it.
 
 
@@ -123,7 +123,7 @@ exercise`` contains embedded HTML content.
 For a student, that HTML component appears as a unit of the course in the same
 way as a referenced HTML component does.
 
-.. Image:: ../Images/Insider-first-exercise.png
+.. Image:: /_images/olx-example-images/Insider-first-exercise.png
  :alt: The HTML component as a student sees it.
 
 

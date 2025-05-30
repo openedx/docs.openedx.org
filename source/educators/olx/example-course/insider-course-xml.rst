@@ -44,7 +44,7 @@ file ``Week_overview`` in the ``HTML`` directory.
 
 Learners see this content in the Learning Management System as follows.
 
-.. Image:: ../Images/Insider-first-image.png
+.. Image:: /_images/olx-example-images/Insider-first-image.png
  :alt: The HTML component as a learner sees it.
 
 
@@ -82,7 +82,7 @@ reference to a problem defined in another file.
 
 The learner sees this sequential as follows.
 
-.. Image:: ../Images/Insider-first-sequential.png
+.. Image:: /_images/olx-example-images/Insider-first-sequential.png
  :alt: The sequential as a learner sees it.
 
 .. seealso::
