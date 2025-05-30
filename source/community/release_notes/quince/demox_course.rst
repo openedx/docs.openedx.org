@@ -106,3 +106,12 @@ contributions from the Open edX® community that made this course possible.
 
 .. _DemoX github repository: https://github.com/openedx/openedx-demo-course
 .. _Creative Commons BY-NC-SA 3.0 US License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

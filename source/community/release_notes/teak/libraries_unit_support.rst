@@ -9,3 +9,12 @@ course sections that can be reused in other courses, offered as stand-alone
 credits, and creating modularized content at scale.
 
 Stay tuned for the Open edX Teak release, coming out in June, 2025.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| TBD          |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -10,3 +10,11 @@ give users the ability to define groups of learners, so that they can view what
 and how these learners are doing.
 
 The Open edX Teak release comes out in June 2025.
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| TBD          |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

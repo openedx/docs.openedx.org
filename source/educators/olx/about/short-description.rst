@@ -1,8 +1,10 @@
 .. _Short Description:
 
 #################################
-Short Description
+Create Short Description in OLX
 #################################
+
+.. tags:: educator, how-to
 
 Optionally, you can define a short description for your course.
 
@@ -20,3 +22,23 @@ The short description is limited to 150 characters.
 
 Within that limit, you can add any text and HTML markup to the short
 description file.
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

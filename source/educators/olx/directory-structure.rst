@@ -1,8 +1,10 @@
 .. _OLX Directory Structure:
 
 ###############################################
-OLX Course Structure
+What is the OLX Course Structure?
 ###############################################
+
+.. tags:: educator, concept
 
 This topic describes the structure of a generic OLX (open learning XML) course.
 
@@ -140,3 +142,23 @@ The ``tabs`` directory contains an HTML file for each page you add to your
 course.
 
 For more information, see :ref:`Course Tabs`.
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`The Courseware Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

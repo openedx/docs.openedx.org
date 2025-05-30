@@ -78,6 +78,8 @@ Control Content Visibility & Access
    ../references/controlling_content_visibility.rst
    ../how-tos/configure_prerequisite_content.rst
 
+.. _Add Course Assets:
+
 Add Course Assets
 *******************************************************
 

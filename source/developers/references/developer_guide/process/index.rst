@@ -9,6 +9,7 @@ Contributing to the Open edX Project
 
     overview
     contributor
+    using-git
     landing-your-work
     code-considerations
     FAQ-about-pull-requests

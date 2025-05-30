@@ -1,10 +1,14 @@
 .. _Discussion Components:
 
 #################################
-Discussion Components
+Discussion Components in OLX
 #################################
 
-You can add inline discussion components to any container in your
+.. tags:: educator, reference
+
+.. warning:: This page refers to the older discussion forums (pre-Olive release) and may be out of date.
+
+You can add inline :term:`Discussion` components to any container in your
 course.
 
 .. contents::
@@ -113,3 +117,25 @@ The following example shows an XML file for a discussion component.
       discussion_target="Peer Grading"
       display_name="Peer Grading"
    />
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`About Course Discussions` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -30,6 +30,7 @@ questions or concerns.
 
 * For new features, or any changes affecting user behavior, please follow the
   `Product Review Process`_
+* Follow the :ref:`Git workflow`, and contributions should be made off of a :ref:`personal fork <Using A Personal Fork>`.
 * :ref:`i18n`
 * `RTL UI Best Practices`_
 * :ref:`Accessibility Guidelines`

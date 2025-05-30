@@ -66,3 +66,12 @@ system is up-to-date with the latest features, including the Discussions MFE
 (Micro-Front End).
 
 .. _This video: https://user-images.githubusercontent.com/73840786/222527569-2b7da65a-8e98-4358-92d7-63b571ebcbfe.webm
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
