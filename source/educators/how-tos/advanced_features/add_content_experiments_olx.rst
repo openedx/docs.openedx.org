@@ -11,6 +11,9 @@ Add a Content Experiment in OLX
   :local:
   :depth: 2
 
+.. note::
+
+    This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
 You work with multiple XML files to configure a content experiment. This
 section steps through the files involved in a content experiment that shows
 different content to two different groups of learners.
