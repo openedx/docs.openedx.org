@@ -8,6 +8,7 @@ Manage the Survey Tool via OLX
 .. note::
 
     This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
+
 To manage the survey tool without OLX, see :ref:`Manage Survey Tool`.
 
 To enable the survey tool, you edit the XML file that defines the course
