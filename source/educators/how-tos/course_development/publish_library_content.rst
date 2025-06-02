@@ -5,6 +5,10 @@ Publish Library content
 
 .. tags:: educator, how-to
 
+.. note::
+
+   Users must have "Author" or "Admin" permissions on a library to publish content.
+   See :ref:`Add users to Libraries` for more detail.
 
 Libraries now support the ability to edit in draft mode, enabling more flexible
 content creation workflows.
@@ -51,6 +55,8 @@ Publish all the content in a Library
     :ref:`Build a Collection in a Library`
 
     :ref:`Add and Delete tags in Library content`
+
+    :ref:`Add users to Libraries`
 
 **Maintenance chart**
 

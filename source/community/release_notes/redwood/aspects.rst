@@ -169,3 +169,12 @@ documents, presentations, or reports:
 
    .. image:: /_images/release_notes/redwood/aspects_screenshot14.png
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2024-06-01    |Docs WG                        | Redwood        |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+

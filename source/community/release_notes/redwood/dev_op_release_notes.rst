@@ -366,3 +366,12 @@ Known Issues
 ************
 
 Please refer to `this board <https://github.com/orgs/openedx/projects/28/views/16>`_ for known issues with Redwood.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2024-06-01    |Docs WG                        | Redwood        |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+

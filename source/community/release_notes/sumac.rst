@@ -27,3 +27,12 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
 
 .. _Open edX Platform: https://openedx.org
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2024-12-01    | Docs WG                       |  Sumac         | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+

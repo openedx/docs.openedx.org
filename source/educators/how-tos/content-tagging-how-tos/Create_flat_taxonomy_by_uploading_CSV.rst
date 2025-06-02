@@ -6,6 +6,11 @@ Create a flat taxonomy by uploading a CSV
 
 .. tags:: educator, how-to
 
+.. note::
+
+    Users must be organization or instance level administrators in order to
+    import taxonomies.
+
 Tags that can be applied to content are organized into hierarchical taxonomies.
 Currently, the only way to create or modify a taxonomy is by uploading a CSV or
 JSON file.

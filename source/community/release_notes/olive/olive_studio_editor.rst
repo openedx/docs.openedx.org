@@ -96,3 +96,12 @@ you may adjust the HTML directly, if you wish.
 
 We hope this improved editor will speed up the content authoring process and
 enable you to create richer experiences for your learners!
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+

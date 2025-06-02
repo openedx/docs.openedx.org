@@ -1,8 +1,10 @@
 .. _The Structure of a Sample Course:
 
-################################
-The Structure of a Sample Course
-################################
+####################################
+The OLX Structure of a Sample Course
+####################################
+
+.. tags:: educator, reference
 
 This topic describes the structure of a sample course known as the `edX-Insider`_ course that was originally developed for edX.org.
 
@@ -213,10 +215,30 @@ And:
 
   <vertical url_name="in_class_ora"></vertical>
 
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`OLX Components` (reference)
+
+  :ref:`OLX Exercises, Tools, and Problem Types` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+  :ref:`The Courseware Structure` (reference)
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
 | Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
-| 2025-03-19   | Peter Pinch                   | Sumac          |`Fail <https://github.com/openedx/docs.openedx.org/issues/949>`_                                                    |
+| 2025-03-19   | Peter Pinch                   | Sumac          |`Fail content <https://github.com/openedx/docs.openedx.org/issues/949>`_                                            |
+|              | Sarina Canelake               |                |`Fail insider course hosting <https://github.com/openedx/docs.openedx.org/issues/998>`_                             |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+

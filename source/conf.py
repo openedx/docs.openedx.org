@@ -120,15 +120,15 @@ intersphinx_mapping = {
         None,
     ),
     "openedx-events": (
-        f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/latest",
+        f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/{rtd_version}",
         None,
     ),
     "openedx-filters": (
-        f"https://docs.openedx.org/projects/openedx-filters/{rtd_language}/latest",
+        f"https://docs.openedx.org/projects/openedx-filters/{rtd_language}/{rtd_version}",
         None,
     ),
     "edx-django-utils": (
-        f"https://docs.openedx.org/projects/edx-django-utils/{rtd_language}/latest",
+        f"https://docs.openedx.org/projects/edx-django-utils/{rtd_language}/{rtd_version}",
         None,
     ),
 }

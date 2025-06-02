@@ -5,8 +5,9 @@ Add a Poll in Open edX Studio
 
 .. tags:: educator, how-to
 
-You must :ref:`enable the poll <Enable Additional Exercises and Tools>` tool
-before you add the component.
+.. note::
+
+    This tool is enabled by default in Teak. For earlier releases, please refer to this guide to enable it manually: :ref:`enable the poll <Enable Additional Exercises and Tools>`
 
 #. On the Course Outline page, open the unit where you want to add the poll.
 

@@ -282,3 +282,13 @@ areas marked for deprecation during Juniper’s time frame can be seen in
 
 .. _Open edX Proposal 21: https://open-edx-proposals.readthedocs.io/en/latest/oep-0021-proc-deprecation.html
 .. __: https://openedx.atlassian.net/wiki/spaces/COMM/pages/940048716/Juniper#Juniper-DeprecationsandRemovals
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

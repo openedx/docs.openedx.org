@@ -4,7 +4,9 @@
 The edX-Insider ``course.xml`` File
 ###################################
 
-The `edX-Insider`_ course is a sample coursethat was originally developed for edX.org.
+.. tags:: educator, reference
+
+The `edX-Insider`_ course is a sample course that was originally developed for edX.org.
 
 The courseware for `edX-Insider`_ is defined in the `course.xml`_ file and
 follows the organization described in :ref:`The Courseware Structure`.
@@ -82,3 +84,31 @@ The learner sees this sequential as follows.
 
 .. Image:: ../Images/Insider-first-sequential.png
  :alt: The sequential as a learner sees it.
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`OLX Components` (reference)
+
+  :ref:`OLX Exercises, Tools, and Problem Types` (reference)
+  
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+  :ref:`The Courseware Structure` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| 2025-04-11   | Sarina Canelake               | Sumac          |`Fail <https://github.com/openedx/docs.openedx.org/issues/998>`_                                                    |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+

@@ -93,3 +93,12 @@ release notes.
 *Thank you to `Kshitij Sobti
 <https://opencraft.com/a-look-at-the-recent-enhancements-to-discussions-in-open-edx/>`_
 and the team at OpenCraft for the gif shown in this post.*
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+

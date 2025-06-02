@@ -11,6 +11,11 @@ To add an LTI 1.3 component to a course unit, follow these steps.
    **Advanced** from the **Add New Component** section. Select **LTI
    Consumer**.
 
+    .. note::
+
+       This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
+    
+    
    If the **Advanced** component type is not available, make sure you have
    enabled LTI components. To do this, see :ref:`enable_lti_components`.
 

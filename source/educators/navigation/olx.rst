@@ -209,15 +209,3 @@ Example of OLX for a Studio Course
    ../olx/studio-example/index.rst
    ../olx/studio-example/manual-testing-structure.rst
 
-.. _OLX Open Learning XML Uses:
-
-Open Learning XML Uses
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   ../olx/tasks/olx-studio.rst
-   ../olx/tasks/deploy-lms.rst
-   ../olx/tasks/convert-to-olx.rst
