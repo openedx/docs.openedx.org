@@ -31,6 +31,7 @@ Enable the Word Cloud Tool
 .. note::
 
     This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
+    
 Before you can add a word cloud to your course, you must enable the word cloud
 tool.
 
