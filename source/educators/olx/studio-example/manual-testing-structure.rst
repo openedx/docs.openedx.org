@@ -31,7 +31,7 @@ All files and subdirectories that comprise the Manual Testing course are
 stored in the `manual-testing-complete`_ directory in the edx-platform Git
 repository.
 
-.. Image:: ../Images/manual-testing-course-github.png
+.. Image:: /_images/olx-example-images/manual-testing-course-github.png
  :alt: The manual testing course in GitHub.
 
 ********************
@@ -99,7 +99,7 @@ the name of the XML file in the ``chapter`` directory.  For example, the first
 Learners see the chapters that the ``course.xml`` file defines in the LMS on
 the **Course** page in the course navigation pane.
 
-.. Image:: ../Images/courseware-chapters.png
+.. Image:: /_images/olx-example-images/courseware-chapters.png
  :alt: Chapters in the learner's courseware.
 
 **************
@@ -132,7 +132,7 @@ the first ``sequential`` element's ``url_name`` attribute,
 Learners see the sequentials that the chapter file defines in the LMS on the
 **Course** page in the course navigation pane.
 
-.. Image:: ../Images/courseware-sequentials.png
+.. Image:: /_images/olx-example-images/courseware-sequentials.png
  :alt: Sequentials in the learner's courseware.
 
 *****************
@@ -161,7 +161,7 @@ Learners see the verticals that the sequential file defines in the LMS on the
 **Course** page in the unit navigation bar. The following example shows a
 sequential with one vertical, which has one XBlock.
 
-.. Image:: ../Images/courseware-vertical.png
+.. Image:: /_images/olx-example-images/courseware-vertical.png
  :alt: A vertical in the learner's courseware.
 
 *****************
@@ -223,7 +223,7 @@ An example of a problem XBlock follows.
 
 Learners see the problem in the vertical (or unit) page as follows.
 
-.. Image:: ../Images/courseware-blank-problem.png
+.. Image:: /_images/olx-example-images/courseware-blank-problem.png
  :alt: A vertical in the learner's courseware.
 
 ********************
