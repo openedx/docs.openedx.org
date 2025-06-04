@@ -1,3 +1,5 @@
+.. _Process for Contributing Code:
+
 #############################
 Process for Contributing Code
 #############################
@@ -35,6 +37,11 @@ questions or concerns.
 * `RTL UI Best Practices`_
 * :ref:`Accessibility Guidelines`
 * :ref:`analytics`
+
+See also the :ref:`FAQ PR Process` for many common questions about the PR
+process, and  the :ref:`Pull Request Status Guide` if you're looking for more
+information about what the various statuses and labels of your pull request (PR)
+mean.
 
 .. include:: /links.txt
 
