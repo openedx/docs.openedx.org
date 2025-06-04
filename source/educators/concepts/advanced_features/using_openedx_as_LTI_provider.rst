@@ -13,9 +13,6 @@ information, see :ref:`About the LTI Component`.
 Grading Remote Content
 **********************
 
-.. warning:: This feature was a closed pilot experiment. This feature is poorly
-  documented and may not work properly.
-
 When you include problem components from a graded subsection in your Open edX
 instance in an external LMS, your Open edX instance will grade the learner
 responses to those problems. Your instance then transfers the learner scores
@@ -52,11 +49,15 @@ For more information about constructing an LTI URL for a course component, see
 
  :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
 
+ :ref:`Configuring an edX Instance as an LTI Tool Provider` (site operators)
+
+ :ref:`Configuring Credentials for a Tool Consumer` (site operators)
+
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

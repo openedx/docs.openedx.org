@@ -5,10 +5,6 @@ Planning for Content Reuse (LTI)
 
 .. tags:: educator, reference
 
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
-
-
 Before you begin work to reuse the content in an Open edX course, check with
 your development operations (DevOps) team for information about the
 website to use. At some sites, a completely separate Open edX instance, with
@@ -50,7 +46,6 @@ editing its XML before you import.
 
 .. _Select Content in the Duplicate Course:
 
-***************************************
 Select Content in the Duplicate Course
 ***************************************
 
@@ -120,5 +115,5 @@ Topics`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
