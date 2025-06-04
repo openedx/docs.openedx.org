@@ -5,8 +5,6 @@ Use Open edX Platform as an LTI Provider to Canvas (Example)
 
 .. tags:: educator, how-to
 
-.. warning:: This feature was a closed pilot experiment. This feature is poorly documented and may not work properly.
-
 To use Open edX course content in the Canvas LMS, you add a new app to the course and then add external tool module items.
 
 .. note:: This example relies on the use of a third-party tool. Because this
@@ -45,12 +43,12 @@ To use Open edX course content in the Canvas LMS, you add a new app to the cours
 
  :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (how-to)
+ :ref:`Example - edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (how-to)
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

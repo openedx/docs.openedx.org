@@ -599,7 +599,7 @@ If Learners Enter a Coupon Code on the Checkout Page
  Dear learner,
 
  This message includes a discount <or an enrollment> code for edX101: Overview
- of Creating an edX Course. For more information about the course, see
+ of Creating an Open edX course. For more information about the course, see
  https://www.edx.org/course/overview-creating-edx-course-edx-edx101.
 
  To redeem this code, sign up for a verified <or professional> certificate, and
@@ -621,7 +621,7 @@ If Learners Visit an Offer Landing Page
  Dear learner,
 
  This message includes a discount <or an enrollment> code for edX101: Overview
- of Creating an edX Course. To redeem this code and enroll in the course, visit
+ of Creating an Open edX course. To redeem this code and enroll in the course, visit
  the following URL:
 
  http://localhost:8002/coupons/offer/?code=ZDPC3AQV3732RQT5
