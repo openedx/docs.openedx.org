@@ -16,10 +16,12 @@ Context
 
 Now that we agree on the doc:`general goal <0001-purpose-of-this-repo>` of a
 root documentation site, we need to figure out how we will write the words for
-the site.  Per `OEP-19`_ developer documentation is written in RST.  However
-since the audience for all documentation is not developers it is worth
-re-considering and reviewing the alternatives and actively make a decision here
-rather than passively choose what already exists.
+the site.  Per
+:doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation`,
+developer documentation is written in RST.  However since the audience for all
+documentation is not developers it is worth re-considering and reviewing the
+alternatives and actively make a decision here rather than passively choose what
+already exists.
 
 
 Decision
@@ -74,10 +76,8 @@ We choose Sphinx RST as our tooling of choice because:
   to do the same initial steps to setup a course.  Making this re-usable allows
   us reduce boilerplate in our documentation and ease updates.
 
-* `Developer documentation`_ is in RST already, choosing a different technology
+* :doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation` is in RST already, choosing a different technology
   requires us to revisit that decision as well which may be more costly.
-
-.. _Developer documentation: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0019-bp-developer-documentation.html#decisions
 
 Concerns Considered
 ===================
@@ -233,5 +233,4 @@ We rejected this option for the following reasons:
 
 * There is no workflow for maintaining translations of documentation.
 
-.. _OEP-19: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0019-bp-developer-documentation.html
 .. _docs.openedx.org: https://docs.openedx.org
