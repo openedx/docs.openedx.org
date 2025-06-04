@@ -14,7 +14,7 @@ achievement, some organizations prefer this type of digital credential due to
 its increased 'shareability', with badges having the ability to be embedded
 easily in more places, such as on social media profiles and email signatures.
 
-Currently, the Open edX Badges service is highly integrated with the `Credly`_ and `Accredible`_ services.
+Currently, the Open edX Credentials service is highly integrated with the `Credly`_ and `Accredible`_ services.
 
 What is Credly?
 ***************
@@ -29,7 +29,7 @@ search and apply for job opportunities right through Credly.
 What is Accredible?
 ********************
 
-***Accredible** allows for the design and issue of verifiable digital badges and
+***Accredible** allows for the design and issuance of verifiable digital badges and
 certificates that showcase acquired skills, earning criteria, and evidence of
 learning. Learn more about Accredible on the `Accredible features page`_.
 

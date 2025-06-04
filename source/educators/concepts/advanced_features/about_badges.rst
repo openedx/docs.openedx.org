@@ -7,15 +7,16 @@ About Badges
 
 The Badges feature allows learners to earn achievements (badges) for their learning activities.
 
-Badges provide employers and peers concrete evidence of what you had to do to
-earn your credential and what you're now capable of. Digital badges are a
-great way to motivate learning, and display a learner's subsequent achievements.
-Although digital certificates may display more comprehensive details of an
-achievement, some organizations prefer this type of digital credential due to
-its increased 'shareability', with badges having the ability to be embedded
-easily in more places, such as on social media profiles and email signatures.
+Badges provide employers and peers concrete evidence of what learners have
+accomplished in order to earn their credential and what they are now capable of.
+Digital badges are a great way to motivate learning and display a learner's
+subsequent achievements.
 
-Currently, the Open edX Badges service is highly integrated with the `Credly (by
+Badges are typically finer-grained than a traditional course certificate. They
+are meant to introduce game mechanics to have more frequent sources of
+motivation athan one would get from a cumulative certificate.
+
+Currently, the Open edX Credentials service is highly integrated with the `Credly (by
 Pearson)`_ and `Accredible`_ services.
 
 What is Credly?
@@ -31,7 +32,7 @@ search and apply for job opportunities right through Credly.
 What is Accredible?
 ********************
 
-**Accredible** allows for the design and issue of verifiable digital badges and
+**Accredible** allows for the design and issuance of verifiable digital badges and
 certificates that showcase acquired skills, earning criteria, and evidence of
 learning. Learn more about Accredible on the `Accredible features page`_.
 
