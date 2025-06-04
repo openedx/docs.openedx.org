@@ -18,9 +18,21 @@ standards: it should be accessible, internationalized, and meet the concerns of
 analytics.
 
 * :ref:`i18n`
-* `RTL UI Best Practices`_
+* `RTL UI Best Practices`_ (Here, RTL stands for "Right To Left", for languages
+  like Arabic who read from the right side of the page to the left)
 * :ref:`Accessibility Guidelines`
 * :ref:`analytics`
+* Use :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`
+* Basic security best practices. The Open Web Application Security Project
+  provides a great set of `security-related cheatsheets
+  <https://cheatsheetseries.owasp.org/>`_ to help address common software
+  security issues.
+* Basic performance concerns. The Open edX project currently does not run a
+  performance sandbox, but attention should be paid to basic performance issues
+  that may hurt large instances, such as expensive database queries and database
+  migrations. See the `Django documentation on performance
+  <https://docs.djangoproject.com/en/4.2/topics/performance/>`_ for some tips
+  around creating performant Django sites.
 
 .. _Contributing to the Documentation for your Open Source Feature:
 
@@ -40,7 +52,7 @@ code and excellent docstrings for your functions and classes!
 If you have developed a new feature, created an XBlock, or otherwise see that a
 topic is missing in this documentation, you can create one or more new pages in
 this document and submit a pull request to have the content added. Follow the
-guidelines in :doc:`../../../../documentors/references/doc_guidelines`.
+guidelines in :ref:`Documentor Guidelines`.
 
 Additionally, please see the section on :ref:`Named Release documentation` -
 consider documenting your change for the upcoming Named Release.
@@ -67,12 +79,12 @@ are documented here: :doc:`edx-platform:references/settings`.)
 
 .. _lms/djangoapps/courseware/toggles.py: https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/courseware/toggles.py
 
-=============================
-Operational Impact on edx.org
-=============================
+=====================================
+Operational Impact on Early Deployers
+=====================================
 
-The edx.org website continuously deploys the latest version of the Open edX code
-directly onto its site. This means that, for most repos, once your code is
+Some sites (like edx.org) continuously deploy the latest version of the Open edX code
+directly onto their site. This means that, for most repos, once your code is
 merged to master/main it will be deployed live on edx.org within a few hours.
 This is very cool - your changes are live, immediately! - and it also means that
 edx.org does the community a large service of testing our code in advanced of
