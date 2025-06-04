@@ -16,8 +16,9 @@ How To Maintain a Repository
    of the specifics of the codebase you maintain.
 
 Congratulations on becoming the maintainer of a repository in the Open edX
-Platform! As outlined in `OEP-55`_ this is a big responsibility and we're
-excited to help you fulfill it.
+Platform! As outlined in
+:doc:`openedx-proposals:processes/oep-0055-proc-project-maintainers`, this is a
+big responsibility and we're excited to help you fulfill it.
 
 Your repository may be brand new or it may have been around for a while.  In
 either case, this document will help you review the repository and help you make
@@ -98,18 +99,13 @@ A Well-Formed README Exists
 
 **Test**
 
-Check that your README.rst exists and has all the sections defined in the `README
-specification`_.
+Check that your README.rst exists and has all the sections defined in :doc:`openedx-proposals:processes/oep-0055/decisions/0003-readme-specification`.
 
 **Fix**
 
 Update your readme until it meets the above specification.
 
-.. _OEP-55: https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055-proc-project-maintainers.html
-
 .. _backstage: https://backstage.openedx.org
-
-.. _readme specification: https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055/decisions/0003-readme-specification.html
 
 Your CCs are Aligned With Your Expectations as Maintainer
 *********************************************************

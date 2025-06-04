@@ -40,6 +40,8 @@
 
 .. _Axim Collaborative: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3554082883/Axim+Collaborative
 
+.. _Axim request: https://github.com/openedx/axim-engineering/issues/new/choose
+
 .. _Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3449028609/Product+Working+Group
 
 .. _Open edX Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/46793351/Working+Groups

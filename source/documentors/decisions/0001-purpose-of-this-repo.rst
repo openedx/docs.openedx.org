@@ -117,7 +117,6 @@ Consequences
      doesn't necessarily delete the old docs but routes people to the relevant
      new docs where it makes sense.
 
-#. `OEP-19`_ will need to be updated to align developer documentation with the
-   high level documentation with the decisions made here.
-
-.. _OEP-19: https://open-edx-proposals--340.org.readthedocs.build/en/340/best-practices/oep-0019-bp-developer-documentation.html
+#. :doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation`
+   will need to be updated to align developer documentation with the high level
+   documentation with the decisions made here.

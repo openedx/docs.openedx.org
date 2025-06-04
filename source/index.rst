@@ -31,7 +31,7 @@ Open edX Documentation
 
          Educators: Build a Course <educators/quickstarts/build_a_course>
          Site Operators: Set up Open edX <site_ops/quickstarts/index>
-         Developers: Contribute to Open edX <developers/quickstarts/index>
+         Developers: Contribute to Open edX <developers/quickstarts/first_openedx_pr>
          Documentors: First Documentation PR <documentors/quickstarts/first_documentation_pr>
 
    .. grid-item-card::

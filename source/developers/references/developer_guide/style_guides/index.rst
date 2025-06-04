@@ -1,4 +1,4 @@
-.. _edX Style Guidelines:
+.. _Open edX Style Guidelines:
 
 #########################
 Language Style Guidelines
