@@ -97,7 +97,6 @@ See :doc:`credentials:badges/examples` for some example configurations.
 
     :doc:`credentials:badges/configuration/index`
 
-.. _event-bus-redis: https://github.com/openedx/event-bus-redis
 
 **Maintenance chart**
 

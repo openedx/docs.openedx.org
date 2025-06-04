@@ -21,7 +21,7 @@ What is Credly?
 
 **Credly** is a end-to-end solution for creating, issuing, and managing digital
 Credentials. Organizations use **Credly** to recognize their learners'
-achievements. Users use Credly as a professional board to store badges to
+achievements. Learners can store badges in their Credly profile to
 visualize their professional success - which courses were completed and when.
 Credly also offers labor market insights based on users' skills. Users can
 search and apply for job opportunities right through Credly.
@@ -29,7 +29,7 @@ search and apply for job opportunities right through Credly.
 What is Accredible?
 ********************
 
-***Accredible** allows for the design and issuance of verifiable digital badges and
+**Accredible** allows for the design and issuance of verifiable digital badges and
 certificates that showcase acquired skills, earning criteria, and evidence of
 learning. Learn more about Accredible on the `Accredible features page`_.
 

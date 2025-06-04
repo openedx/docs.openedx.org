@@ -26,8 +26,9 @@ What is Credly?
 Credentials. Organizations use **Credly** to recognize their learners'
 achievements. Users use Credly as a professional board to store badges to
 visualize their professional success - which courses were completed and when.
-Credly also offers labor market insights based on users' skills. Users can
-search and apply for job opportunities right through Credly.
+Credly also offers labor market insights based on users' skills. Learners can
+store badges in their Credly profile to visualize their professional success -
+which courses were completed and when.
 
 What is Accredible?
 ********************
