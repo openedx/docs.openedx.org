@@ -37,6 +37,7 @@ Open edX Documentors
          references/doc_style_guide.rst
          references/doc_templates.rst
          references/quick_reference_rst.rst
+         references/markdown_syntax_sample.md
          concepts/about_doc_audiences.rst
 
    .. grid-item-card:: Report an Issue with the Documentation
