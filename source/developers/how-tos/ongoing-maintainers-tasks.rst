@@ -15,9 +15,7 @@ Additionally, maintainers have a responsibility to the community to develop
 transparently, respond to requests for help, and respond to proposals/PRs for
 changes to the codebase.
 
-To learn more about the Maintainer's Program, see `OEP-55`_.
-
-.. _OEP-55: https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055-proc-project-maintainers.html
+To learn more about the Maintainer's Program, see :doc:`openedx-proposals:processes/oep-0055-proc-project-maintainers`
 
 
 Assumptions

@@ -22,7 +22,7 @@ analytics.
   like Arabic who read from the right side of the page to the left)
 * :ref:`Accessibility Guidelines`
 * :ref:`analytics`
-* Use :doc:`open-edx-proposals:best-practices/oep-0051-bp-conventional-commits`
+* Use :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`
 * Basic security best practices. The Open Web Application Security Project
   provides a great set of `security-related cheatsheets
   <https://cheatsheetseries.owasp.org/>`_ to help address common software

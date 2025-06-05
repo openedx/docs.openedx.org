@@ -3,6 +3,8 @@
 Quick Start: So You Want to Contribute to Open edX
 ##################################################
 
+.. tags:: developer, quickstart
+
 So you've gone through :ref:`qs Dev First PR`, and you're ready to make a
 substantive contribution to Open edX. What's next?
 

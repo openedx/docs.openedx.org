@@ -3,6 +3,8 @@
 Quick Start: First Open edX Pull Request
 ########################################
 
+.. tags:: developer, quickstart
+
 .. contents:: Steps to Making your First Pull Request
    :local:
    :class: no-bullets
@@ -323,7 +325,7 @@ branch with the name ``developer_quickstart``::
     git checkout -b developer_quickstart
 
 Then we can create the actual commit. Note that Open edX commit messages should
-follow our `conventional commit <https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html>`_
+follow :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`
 practices. In our case, we're making a new feature, so our commit message must
 be prefixed with "feat:" like so::
 
@@ -340,7 +342,7 @@ If you get a ``fatal: Authentication failed`` error, authenticate Git Hub by run
 
    gh auth login
 
-Learn more about authentication `here <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>`_.
+`Learn more about authentication <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>`_.
 
 
 Create A Pull Request
