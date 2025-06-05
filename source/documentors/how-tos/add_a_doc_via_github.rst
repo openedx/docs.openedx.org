@@ -104,7 +104,7 @@ With your new branch active:
 
    :ref:`Documentation Templates` (reference)
    
-   :ref:`Writing RST` (reference)
+   :ref:`Documentation Syntax Reference` (reference)
 
    :ref:`Documentation Audiences` (concept)
 

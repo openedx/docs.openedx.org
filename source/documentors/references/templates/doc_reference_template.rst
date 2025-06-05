@@ -7,7 +7,7 @@ Reference Document Template
 
 Reference material is information-oriented. Regarding software, reference guides describe the software - APIs, classes, functions, etc. In the context of the Open edX® Docs, reference docs are often in the form of informational lists (e.g., Resources for Students) and tables (e.g., Course Access Roles and Privileges).
 
-Reference material is like a map. A map tells you what you need to know about the territory without having to go out and check it for yourself; a reference guide serves the same purpose for the product and its internal machinery. For example, this part works as the introduction to the article and as a description of the product of what this document is about. 
+Reference material is like a map. A map tells you what you need to know about the territory without having to go out and check it for yourself; a reference guide serves the same purpose for the product and its internal machinery. For example, this part works as the introduction to the article and as a description of the product of what this document is about.
 
 The purpose of this document is to be as straightforward as possible. In addition to an accurate and precise description of the product you’re referencing, use examples of the uses and functions of the product to make it more comprehensive.
 For example, list details or a product glossary that the reader could need to use.
@@ -58,14 +58,14 @@ In this type of document, links are usually added to refer to other sources that
 External Links
 --------------
 
-You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
+You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
 
-.. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking
+.. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference.html#linking
 
 Internal Links
 --------------
 
-Link to :doc:`doc_how_to_template` in the same folder or :doc:`../quick_reference_rst` in a different
+Link to :doc:`doc_how_to_template` in the same folder or :ref:`Documentation Syntax Reference` in a different
 folder.
 
 By default, it will use the title of the doc as the link text but you can override that with :doc:`other text <doc_how_to_template>` if you want.
@@ -80,9 +80,9 @@ RST Template
 
 	Reference material is information-oriented. Regarding software, reference guides describe the software - APIs, classes, functions, etc. In the context of the Open edX® Docs, reference docs are often in the form of informational lists (e.g., Resources for Students) and tables (e.g., Course Access Roles and Privileges).
 
-	Reference material is like a map. A map tells you what you need to know about the territory without having to go out and check it for yourself; a reference guide serves the same purpose for the product and its internal machinery. For example, this part works as the introduction to the article and as a description of the product of what this document is about. 
+	Reference material is like a map. A map tells you what you need to know about the territory without having to go out and check it for yourself; a reference guide serves the same purpose for the product and its internal machinery. For example, this part works as the introduction to the article and as a description of the product of what this document is about.
 	The purpose of this document is to be as straightforward as possible. In addition to an accurate and precise description of the product you’re referencing, use examples of the uses and functions of the product to make it more comprehensive.
-	For example, list details or a product glossary that the reader could need to use. 
+	For example, list details or a product glossary that the reader could need to use.
 
 	Example Lists
 	=============
@@ -94,7 +94,7 @@ RST Template
 	#. Reference A
 
 	#. Reference B
-	
+
 	#. Reference C
 
 	Or
@@ -130,14 +130,14 @@ RST Template
 	External Links
 	--------------
 
-	You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
+	You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
 
-	.. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html#linking
+	.. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference.html#linking
 
 	Internal Links
 	--------------
 
-	Link to :doc:`doc_how_to_template` in the same folder or :doc:`../quick_reference_rst` in a different folder.
+	Link to :doc:`doc_how_to_template` in the same folder or :ref:`Documentation Syntax Reference` in a different folder.
 
 	By default, it will use the title of the doc as the link text but you can override that with :doc:`other text </doc_how_to_template>` if you want.
 
@@ -148,7 +148,7 @@ RST Template
    :ref:`About Open edX Documentation Standards` (concept)
 
    :ref:`Concept Document Template` (reference)
-   
+
    :ref:`Quickstart Document Template` (reference)
 
    :ref:`How To Document Template` (reference)

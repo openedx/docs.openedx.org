@@ -157,7 +157,7 @@ Steps
 
 .. seealso::
 
-   :doc:`/documentors/references/quick_reference_rst`
+   :ref:`Documentation Syntax Reference`
       Basic syntax guidance for RST.
 
    `Diataxis`_

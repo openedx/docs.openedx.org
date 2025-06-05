@@ -29,7 +29,7 @@ When you develop new documentation, you should identify the audience(s) who need
 
    :ref:`Documentation Templates` (reference)
    
-   :ref:`Writing RST` (reference)
+   :ref:`Documentation Syntax Reference` (reference)
 
    :ref:`Update An Existing Doc via GitHub` (how-to)
 

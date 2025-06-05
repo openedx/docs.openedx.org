@@ -32,7 +32,7 @@ Use the following instructions when you are viewing the published documentation 
 
 #. Make the necessary changes.
 
-   Ensure you keep to RST standards in file.  See the :doc:`../references/quick_reference_rst` a quick reference to RST.
+   Ensure you keep to RST standards in file.  See the :ref:`Documentation Syntax Reference` a quick reference to RST.
 
 #. In the Commit Changes section at the bottom of the edit window:
 
