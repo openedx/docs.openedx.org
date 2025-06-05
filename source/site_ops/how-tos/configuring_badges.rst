@@ -12,6 +12,7 @@ Badges feature settings allow configuration:
 1. feature availability;
 2. event bus public signals subset for badges;
 3. the Credly service integration details (URLs, sandbox usage, etc.);
+4. the Accredible service integration details (URLs, sandbox usage, etc.);
 
 You can use tutor plugin to setup all needed configurations:
 
@@ -79,6 +80,7 @@ The feature has its configuration:
 
 - ``events`` - explicit event bus signals list (only events with PII user data in payload are applicable).
 - ``credly`` - Credly integration details.
+- ``accredible`` - Accredible integration details.
 - ``rules.ignored_keypaths`` - event payload paths to exclude from data rule options (see: :doc:`credentials:badges/configuration/index`).
 
 For more details on configuring badges, see :doc:`credentials:badges/quickstart`.
