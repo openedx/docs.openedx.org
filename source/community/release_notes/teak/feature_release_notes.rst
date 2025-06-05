@@ -10,6 +10,7 @@ The Open edX Teak Release was released on June 9, 2025.
 
    stay_up_to_date
    libraries_unit_support
+   credentials
    design_tokens
    aspects_updates
    default_content_blocks
