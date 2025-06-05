@@ -12,6 +12,7 @@ Open edX Developers
       :class-footer: sd-border-0
 
       * :doc:`/developers/quickstarts/first_openedx_pr`
+      * :doc:`/developers/quickstarts/so_you_want_to_contribute`
       +++
       .. button-ref:: quickstarts/index
          :color: primary
@@ -94,4 +95,8 @@ Open edX Developers
 .. toctree::
    :hidden:
 
+   quickstarts/index
+   how-tos/index
+   concepts/index
+   references/index
    maintainers_home

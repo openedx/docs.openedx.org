@@ -1,6 +1,8 @@
-############
-Contributing
-############
+.. _Contributing Code:
+
+##########################################
+Contributing Code to the Open edX Project
+##########################################
 
 Contributing your custom code to the Open edX project is a two-step process:
 review of your idea by the product team (the Product Review Process),
@@ -10,9 +12,10 @@ We describe this process on the `Product Review Process`_ wiki page.
 .. note::
 
    By and large, bug fixes do not require the Product Review Process.
-   However, if your bug fix will change user facing behavior, you should
-   check with the Product Working Group on the best way to land your fix
-   before beginning to write code.
+   However, if your bug fix will change user facing behavior, you should check
+   with the Product Working Group (you can use `#wg-product-core on Slack
+   <https://openedx.slack.com/archives/C057J2D1WU9>`_) on the best way to land
+   your fix before beginning to write code.
 
 ****************************************
 Product Review Process & Product Roadmap
