@@ -97,7 +97,7 @@ decision.  For each concern, we provide some notes on how we will address them.
 
    * While RST can become very complicated, the basics of it are not much
      different from Markdown and other simple markup languages.  A small
-     opinionated :doc:`quickreference <../references/quick_reference_rst>`
+     opinionated :ref:`quickreference <Documentation Syntax Reference>`
      should help mitigate the major issues.
 
 * Translating RST docs is difficult.

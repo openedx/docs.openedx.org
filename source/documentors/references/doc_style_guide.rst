@@ -111,7 +111,7 @@ Open edX documentation is written in American English. See `Guidelines for Writi
 Documentation Language
 ======================
 
-The Open edX docs.openedx.org repository is using a documentation markup language called reStructured Text language (RST) which is very similar to Markdown. You can check this guide which is helpful to learn how to implement such language: https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html
+The Open edX docs.openedx.org repository is using a documentation markup language called reStructured Text language (RST) which is very similar to Markdown. You can check this guide which is helpful to learn how to implement such language: https://docs.openedx.org/en/latest/documentors/references/quick_reference.html
 
 Migrating Docs Checklist
 ************************
@@ -159,7 +159,7 @@ Code
 Occasionally you will need to post snippets of code in your documents. Since code regularly uses the same symbols as our documentation language reStructuredText (RST), you will need to mark it properly so that RST does not confuse your code with the RST language surrounding it.
 
 
-**Code Samples** 
+**Code Samples**
 
 You can use ``backticks`` for showing ``highlighted`` code.
 If you want to make sure that text is shown in monospaced fonts for code examples or concepts, use double backticks (``) around it. (``)
@@ -191,7 +191,7 @@ Images
 
 Images should be used to explain complex processes. They are a quick solution to explain the location of an object on a page or to demonstrate the flow of information. However, be judicious and avoid using numerous large screenshots when a sentence can provide the user with sufficient guidance.
 
-To add an image to an Open edX document, you can check the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+To add an image to an Open edX document, you can check the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 You can modify the width if the image size needs to be adjusted to be more apparent or visible to the reader.
 
@@ -240,12 +240,12 @@ Bulleted, or Unordered lists display information in a compact and highly visible
 * No
 * Punctuation
 
-For information on entering unordered lists in RST, see the list-table section on the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+For information on entering unordered lists in RST, see the list-table section on the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 Links
 =====
 
-To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 
 Types of Call-Out Boxes
@@ -258,8 +258,8 @@ Notes (using the ``note`` directive) should be used to highlight the most valuab
 
 Example:
 
-    .. note:: 
-     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+    .. note::
+     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 
 Tip
@@ -269,8 +269,8 @@ Tips are another specialized block quote that will appear in a special way on th
 
 Example:
 
-    .. tip:: 
-     Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+    .. tip::
+     Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 Important
 ---------
@@ -279,7 +279,7 @@ Important blocks are specialized block quotes that will appear in a special way 
 
 Example:
 
-    .. important:: 
+    .. important::
      Vital information that should not be ignored. Highlights critical information that the reader should pay special attention to, but may not necessarily indicate a risk. Important notes can be entered in RST.
 
 Warning
@@ -292,8 +292,8 @@ Warning blocks are specialized block quotes that will appear in a special way on
 
 Example:
 
-    .. warning:: 
-     Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_ to know how to include them.
+    .. warning::
+     Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_ to know how to include them.
 
 See also
 --------
@@ -305,10 +305,10 @@ This directive is useful for referencing other documents related to the topic th
 Additionally, “See Also Tables” is an important way for users to find documents related to the topic they are exploring. Good docs will have thorough, accurate, and relevant links in the See Also section through this syntax.
 
 .. seealso::
-    
+
 
     :ref:`Offering Differentiated Content` (concept)
-    
+
     :ref:`Manage Content Experiments` (how-to)
 
 Table of contents
@@ -316,7 +316,7 @@ Table of contents
 
 The table of contents is the navigation section to the left of your document. Clicking entries on the table of contents will open that document. The table of contents is consistent across all documents on docs.openedx.org. Every document must belong to at least one table of contents. In other words, you cannot create “orphan” documents that are not reachable to users via standard navigation.
 
-As an example, if a new file ``build_a_course.rst`` is created, then it would need to be appended to an existing table of contents, as shown in the example below. 
+As an example, if a new file ``build_a_course.rst`` is created, then it would need to be appended to an existing table of contents, as shown in the example below.
 
 Also, you can do a :glob: `*` on an index page, meaning in some cases, documents in a page tree are automatically added to the ToC. In the following example, any file contained in the same folder will automatically be added to the table of contents. It is a quick way to set up a table of contents so that new documents are automatically picked up, but it reduces the control you have on the order of your documents in the TOC:
 
@@ -360,7 +360,7 @@ When not to use a table:
 - If that information could be better written in a sentence.
 - The information is important but not sufficiently complicated.
 
-For information on entering tables in RST, see the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+For information on entering tables in RST, see the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 Tags
 ====
@@ -382,7 +382,7 @@ Use of Abbreviations
 
 The first time you want to use an abbreviation, spell it out. For example:
 
-The `Open edX repository <https://github.com/openedx/docs.openedx.org/tree/main>`_ is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference_rst.html>`_
+The `Open edX repository <https://github.com/openedx/docs.openedx.org/tree/main>`_ is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
 
 Punctuation
 ===========
@@ -404,9 +404,9 @@ Quotation marks are commonly used incorrectly by newer documentation writers. Fo
 Italic Text
 ===========
 
-*Italic* text can be used to add emphasis to a word, phrase or sentence. As italic text is slightly more difficult to read, it should be used sparingly. Instead, we recommend using bolded text. 
+*Italic* text can be used to add emphasis to a word, phrase or sentence. As italic text is slightly more difficult to read, it should be used sparingly. Instead, we recommend using bolded text.
 
-Bolded Text 
+Bolded Text
 ===========
 
 Using **bold type** for emphasis serves to draw the reader's attention to specific words or phrases that are particularly important or impactful.
@@ -422,8 +422,8 @@ Using **bold type** for emphasis serves to draw the reader's attention to specif
    :ref:`Guidelines for Writing Global English` (reference)
 
    :ref:`Documentation Templates` (reference)
-   
-   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Syntax Reference` (reference)
 
    :ref:`Documentation Audiences` (concept)
 

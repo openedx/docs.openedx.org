@@ -1,4 +1,4 @@
-.. _Writing RST:
+.. _Documentation Syntax Reference:
 
 Quick Reference: Writing RST and Markdown
 ##########################################

@@ -94,7 +94,7 @@ This guide outlines the process for creating an issue to report a problem, sugge
 
    :ref:`Documentation Templates` (reference)
    
-   :ref:`Writing RST` (reference)
+   :ref:`Documentation Syntax Reference` (reference)
 
    :ref:`Documentation Audiences` (concept)
 

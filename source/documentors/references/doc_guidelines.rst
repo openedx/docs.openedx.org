@@ -19,14 +19,14 @@ Anyone can propose updates to the documentation, following a process known as th
 The Open edX team will review the proposed changes, collaborate with the author, and merge the documentation when it is ready. You will then see it on the `Open edX Documentation`_ site.
 
 .. note:: Create a GitHub Account
-   
+
 
     .. include:: ../how-tos/reusable_content/create_github_account.txt
 
 RST
 ***
 
-Open edX documentation is written in RST. If you are not familiar with RST, we recommend going through :doc:`quick_reference_rst`.
+Open edX documentation is written in RST. If you are not familiar with RST, we recommend going through :ref:`Documentation Syntax Reference`.
 
 We also provide :doc:`doc_templates` you can copy from as you create a new documentation.
 
@@ -50,8 +50,8 @@ If you have questions as you go, we recommend asking the Open edX Documentation 
    :ref:`Open edX Documentation Writing Style Guide` (reference)
 
    :ref:`Documentation Templates` (reference)
-   
-   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Syntax Reference` (reference)
 
    :ref:`Documentation Audiences` (concept)
 

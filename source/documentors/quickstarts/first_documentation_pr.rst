@@ -91,7 +91,7 @@ It should end up looking something like::
 
 The format that the documentation is using is called reStructuredText or RST for
 short.  If you want to learn more about what RST can do, check out the RST Quick
-Reference :doc:`../references/quick_reference_rst`
+Reference :ref:`Documentation Syntax Reference`
 
 
 Preview your changes

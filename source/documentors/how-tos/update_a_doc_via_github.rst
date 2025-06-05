@@ -30,7 +30,7 @@ Prerequisites
 
 #. Make the necessary changes.
 
-   Ensure you adhere to RST standards in the file.  See the :doc:`../references/quick_reference_rst` for a quick RST reference.
+   Ensure you adhere to RST standards in the file.  See the :ref:`Documentation Syntax Reference` for a quick RST reference.
 
 #. In the Commit Changes section at the bottom of the edit window:
 
@@ -76,8 +76,8 @@ The Open edX team will then review your changes. If they approve, they will merg
    :ref:`Open edX Documentation Writing Style Guide` (reference)
 
    :ref:`Documentation Templates` (reference)
-   
-   :ref:`Writing RST` (reference)
+
+   :ref:`Documentation Syntax Reference` (reference)
 
    :ref:`Documentation Audiences` (concept)
 

@@ -62,7 +62,7 @@ You can link back to {ref}`sample_location` from anywhere in the document.
 
 ### Cross-Document Links
 
-Link to {doc}`quick_reference_rst` or other documentation files using the doc role.
+Link to {doc}`quick_reference` or other documentation files using the doc role.
 
 ## Directives and Admonitions
 
