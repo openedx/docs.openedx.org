@@ -59,6 +59,7 @@ graphviz_output_format = "svg"
 
 rediraffe_redirects = {
     "community/release_notes/latest.rst": "community/release_notes/index.rst",
+    "documentors/references/quick_reference_rst.rst": "documentors/references/quick_reference.rst",
 }
 
 tags_create_tags = True

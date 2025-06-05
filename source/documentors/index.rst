@@ -36,7 +36,7 @@ Open edX Documentors
          references/doc_maintenance.rst
          references/doc_style_guide.rst
          references/doc_templates.rst
-         references/quick_reference_rst.rst
+         references/quick_reference.rst
          references/markdown_syntax_sample.md
          concepts/about_doc_audiences.rst
 
@@ -71,7 +71,7 @@ Open edX Documentors
          references/doc_english_writing.rst
          references/doc_style_guide.rst
          references/doc_templates.rst
-         references/quick_reference_rst.rst
+         references/quick_reference.rst
 
    .. grid-item-card:: Add a New Document
       :class-card: sd-shadow-md sd-p-2
@@ -91,7 +91,7 @@ Open edX Documentors
          references/doc_english_writing.rst
          references/doc_style_guide.rst
          references/doc_templates.rst
-         references/quick_reference_rst.rst
+         references/quick_reference.rst
 
 
 
