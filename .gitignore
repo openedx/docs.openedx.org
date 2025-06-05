@@ -5,3 +5,5 @@ source/.DS_Store
 .idea/
 sphinx-env/
 venv/
+
+**/CLAUDE.local.md

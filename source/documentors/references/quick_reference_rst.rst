@@ -1,27 +1,85 @@
 .. _Writing RST:
 
-Quick Reference: Writing RST
-############################
+Quick Reference: Writing RST and Markdown
+##########################################
 
 .. tags:: documentor, reference
 
-RST is very powerful and flexible.  Below, we provide a quick guide for how you
-can use it to write Open edX documentation.
+RST and MyST Markdown are both powerful and flexible. Below, we provide a quick guide for how you
+can use them to write Open edX documentation.
 
 Headings
 ********
 
-.. include:: ../references/rst_samples/headings.txt
+.. tab-set::
+
+   .. tab-item:: RST
+
+      .. code-block:: RST
+
+         Heading 1
+         #########
+
+         There should be only 1 Heading 1 per topic, as the topic title.
+         The underline must match the length of the text above it.
+
+         Heading 2
+         *********
+
+         Heading 2s denote the main sections of a topic.
+
+         Heading 3
+         =========
+
+         Heading 3s denote subsections under Heading 2s.
+
+         Heading 4
+         ---------
+
+         Heading 4s denote subsections under Heading 3s.
+
+         Heading 5
+         ~~~~~~~~~
+
+         Heading 5s denote subsections under Heading 4s.
+         If you are this deep, consider splitting your document into multiple topics.
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         # Heading 1
+
+         There should be only 1 Heading 1 per topic, as the topic title.
+
+         ## Heading 2
+
+         Heading 2s denote the main sections of a topic.
+
+         ### Heading 3
+
+         Heading 3s denote subsections under Heading 2s.
+
+         #### Heading 4
+
+         Heading 4s denote subsections under Heading 3s.
+
+         ##### Heading 5
+
+         Heading 5s denote subsections under Heading 4s.
+         If you are this deep, consider splitting your document into multiple topics.
 
 .. tip::
    
 
-   Here's a way to remember the symbols for heading levels: ``#`` has four lines, ``*`` has three lines, ``=`` has two lines, ``-`` has one line, and ``~`` has zero lines.
+   **RST**: Here's a way to remember the symbols for heading levels: ``#`` has four lines, ``*`` has three lines, ``=`` has two lines, ``-`` has one line, and ``~`` has zero lines.
 
 .. note::
    
 
-   RST allows you to use almost any symbol to underline headings as long as you're consistent between heading levels. However, the abovementioned way is how headings should be defined in all Open edX documentation.
+   **RST**: RST allows you to use almost any symbol to underline headings as long as you're consistent between heading levels. However, the abovementioned way is how headings should be defined in all Open edX documentation.
+   
+   **Markdown**: Markdown uses 1-6 ``#`` symbols for heading levels 1-6.
 
 How To Use Sections Effectively
 *******************************
@@ -30,67 +88,168 @@ You can nest sections in the topic as needed to structure it and break it into d
 
 Copy the Topic and Section Structure below as needed.
 
-.. code-block:: RST
+.. tab-set::
 
-   Topic Title
-   ###########
+   .. tab-item:: RST
 
-   Introduce the topic
+      .. code-block:: RST
 
-   If this is a long topic with multiple sections, use the **contents** directive below:
+         Topic Title
+         ###########
 
-   .. contents:: Contents
-      :depth: 1
-      :local:
+         Introduce the topic
 
-   Section 1
-   *********
+         If this is a long topic with multiple sections, use the **contents** directive below:
 
-   Introduce Section One
+         .. contents:: Contents
+            :depth: 1
+            :local:
 
-   Subsection 1
-   ++++++++++++
+         Section 1
+         *********
 
-   Content for Section 1/Subsection 1
+         Introduce Section One
 
-   Subsection 2
-   ++++++++++++
+         Subsection 1
+         ++++++++++++
 
-   Content for Section 1/Subsection 2
+         Content for Section 1/Subsection 1
 
-   Section 2
-   *********
+         Subsection 2
+         ++++++++++++
 
-   Introduce Section Two
+         Content for Section 1/Subsection 2
 
-   Subsection 1
-   ++++++++++++
+         Section 2
+         *********
 
-   Content for Section 2/Subsection 1
+         Introduce Section Two
 
-   Subsection 2
-   ++++++++++++
+         Subsection 1
+         ++++++++++++
 
-   Content for Section 2/Subsection 2
+         Content for Section 2/Subsection 1
+
+         Subsection 2
+         ++++++++++++
+
+         Content for Section 2/Subsection 2
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         # Topic Title
+
+         Introduce the topic
+
+         If this is a long topic with multiple sections, use the **contents** directive below:
+
+         ```{contents} Contents
+         :depth: 1
+         :local:
+         ```
+
+         ## Section 1
+
+         Introduce Section One
+
+         ### Subsection 1
+
+         Content for Section 1/Subsection 1
+
+         ### Subsection 2
+
+         Content for Section 1/Subsection 2
+
+         ## Section 2
+
+         Introduce Section Two
+
+         ### Subsection 1
+
+         Content for Section 2/Subsection 1
+
+         ### Subsection 2
+
+         Content for Section 2/Subsection 2
 
 
 Inline Markup
 *************
 
-RST supports **bold**, *italic*, and ``mono-spaced`` characters. You can also make GUI elements appear as :guilabel:`GUI elements`.
+Both RST and MyST Markdown support **bold**, *italic*, and ``mono-spaced`` characters.
 
-.. include:: ../references/rst_samples/inline.txt
+.. tab-set::
+
+   .. tab-item:: RST
+
+      .. code-block:: RST
+
+         Use double asterisks for **bold** text.
+
+         Use single asterisks for *italic* text.
+
+         Use double backticks for ``mono-spaced`` text.
+
+         Use the guilabel role for :guilabel:`GUI elements`
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         Use double asterisks for **bold** text.
+
+         Use single asterisks for *italic* text.
+
+         Use single backticks for `mono-spaced` text.
+
+         Use the guilabel role for {guilabel}`GUI elements`
 
 Lists
 *****
 
-You can make numbered, and bulleted lists that can nest arbitrarily, using the **#** symbol for ordered lists and **\*** for unordered lists.
+You can make numbered and bulleted lists that can nest arbitrarily.
 
+.. tab-set::
 
-.. include:: ../references/rst_samples/nested_lists.txt
+   .. tab-item:: RST
 
+      .. code-block:: RST
 
-This codeblock is used for the following published list:
+         #. Item 1
+                                 # Need this blank line between items and sub-items
+            * Sub-item 1         # Sub-items of ordered lists need to be indented by
+            * Sub-item 2         # 3 spaces
+
+         #. Item 2
+
+         * Item 1
+
+           #. Sub-item 1         # Sub-items of unordered lists need to be indented
+           #. Sub-item 2         # by exactly 2 spaces
+
+         * Item 2
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         1. Item 1
+
+            * Sub-item 1
+            * Sub-item 2
+
+         2. Item 2
+
+         * Item 1
+
+           1. Sub-item 1
+           2. Sub-item 2
+
+         * Item 2
+
+Both examples above produce the following published list:
 
 #. Item 1
 
@@ -114,43 +273,88 @@ Linking
 Links off-site
 ==============
 
-.. code-block:: RST
+.. tab-set::
 
-   You can have `inline links <https://example.com>`_
+   .. tab-item:: RST
 
-   `Indirect links`_ can be useful if you want to link to the same thing
-   multiple times, or if the url is really long and you want things to read more
-   cleanly.
+      .. code-block:: RST
 
-   .. _Indirect links: http://example.com/?lorem=Lorem%20ipsum%20dolor%20sit
+         You can have `inline links <https://example.com>`_
+
+         `Indirect links`_ can be useful if you want to link to the same thing
+         multiple times, or if the url is really long and you want things to read more
+         cleanly.
+
+         .. _Indirect links: http://example.com/?lorem=Lorem%20ipsum%20dolor%20sit
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         You can have [inline links](https://example.com)
+
+         [Indirect links] can be useful if you want to link to the same thing
+         multiple times, or if the url is really long and you want things to read more
+         cleanly.
+
+         [Indirect links]: http://example.com/?lorem=Lorem%20ipsum%20dolor%20sit
 
 
 Links within a document
 =======================
 
-.. code-block:: RST
+.. tab-set::
 
-   .. _some_location:
+   .. tab-item:: RST
 
-   New Subsection Title
-   --------------------
+      .. code-block:: RST
 
-   Some text at this location.
+         .. _some_location:
+
+         New Subsection Title
+         --------------------
+
+         Some text at this location.
 
 
-   Some other stuff that links back to :ref:`some_location`.
+         Some other stuff that links back to :ref:`some_location`.
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         (some_location)=
+         ## New Subsection Title
+
+         Some text at this location.
+
+         Some other stuff that links back to {ref}`some_location`.
 
 
-Links between rst documents
-===========================
+Links between documents
+=======================
 
-.. code-block:: RST
+.. tab-set::
 
-   Link to :doc:`file_b` in the same folder or :doc:`../file_c` in a different
-   folder or doc:`/file_d` relative to the root of the project.
+   .. tab-item:: RST
 
-   By default it will use the title of the doc as the link text but you can
-   override that with doc:`other text </file_d>` if you want.
+      .. code-block:: RST
+
+         Link to :doc:`file_b` in the same folder or :doc:`../file_c` in a different
+         folder or doc:`/file_d` relative to the root of the project.
+
+         By default it will use the title of the doc as the link text but you can
+         override that with doc:`other text </file_d>` if you want.
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         Link to {doc}`file_b` in the same folder or {doc}`../file_c` in a different
+         folder or {doc}`/file_d` relative to the root of the project.
+
+         By default it will use the title of the doc as the link text but you can
+         override that with {doc}`other text </file_d>` if you want.
 
 
 .. _RST Directives:
@@ -158,39 +362,89 @@ Links between rst documents
 Directives
 **********
 
-RST can do a lot of things via `directives`_. Here are some common ones:
+Both RST and MyST Markdown can do a lot of things via `directives`_. Here are some common ones:
 
 .. _directives: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#directives
 
-.. code-block:: RST
+.. tab-set::
 
-   .. warning::  This is a warning.
+   .. tab-item:: RST
 
-      It will be styled to stand-out in the documentation.
+      .. code-block:: RST
 
-   .. note:: This is a note.
+         .. warning::  This is a warning.
 
-      It will stand-out but not as much as a warning.
+            It will be styled to stand-out in the documentation.
 
-   .. image:: path/to/image.png
-      :alt: Alternative text for accessibility.
+         .. note:: This is a note.
 
-   .. code-block:: python
+            It will stand-out but not as much as a warning.
 
-      Some python code.
+         .. image:: path/to/image.png
+            :alt: Alternative text for accessibility.
 
-   .. seealso::
+         .. code-block:: python
 
-      `Link to a thing <https://example.com>`_
-         A brief description of the thing
+            Some python code.
 
-      `Link to another thing <https://example.com/other>`_
-         A brief description of another thing.
+         .. seealso::
+
+            `Link to a thing <https://example.com>`_
+               A brief description of the thing
+
+            `Link to another thing <https://example.com/other>`_
+               A brief description of another thing.
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         ```{warning}
+         This is a warning.
+
+         It will be styled to stand-out in the documentation.
+         ```
+
+         ```{note}
+         This is a note.
+
+         It will stand-out but not as much as a warning.
+         ```
+
+         ```{image} path/to/image.png
+         :alt: Alternative text for accessibility.
+         ```
+
+         ```python
+         Some python code.
+         ```
+
+         ```{seealso}
+         [Link to a thing](https://example.com)
+         : A brief description of the thing
+
+         [Link to another thing](https://example.com/other)
+         : A brief description of another thing.
+         ```
+
+      .. tip::
+      
+         **MyST Nesting**: When nesting directives in MyST Markdown, use more backticks for outer directives than inner ones:
+         
+         .. code-block:: markdown
+         
+            ````{note}
+            This is an outer note.
+            
+            ```{warning}
+            This warning is nested inside the note.
+            ```
+            ````
 
 Tables
 ******
 
-To add a table in RST like the following example:
+To add a table like the following example:
 
 +---------------+--------------------------------------------------------------+
 | Code Number   | #1                                                           |
@@ -208,46 +462,78 @@ To add a table in RST like the following example:
 
 Use the following code:
 
-.. code-block::
+.. tab-set::
 
-   +---------------+--------------------------------------------------------------+
-   | Code Number   | #1                                                           |
-   +---------------+--------------------------------------------------------------+
-   | Title         | Table Example                                                |
-   +---------------+--------------------------------------------------------------+
-   | Last-Modified | 2024-11-08                                                   |
-   +---------------+--------------------------------------------------------------+
-   | Documents     | - Open edX Documentors Style Guide                           |
-   |               | - Open edX Diataxis Criteria                                 |
-   |               | - Example 3                                                  |
-   |               | - Example 4                                                  |
-   |               | - Example 5                                                  |
-   +---------------+--------------------------------------------------------------+
+   .. tab-item:: RST
+
+      .. code-block:: RST
+
+         +---------------+--------------------------------------------------------------+
+         | Code Number   | #1                                                           |
+         +---------------+--------------------------------------------------------------+
+         | Title         | Table Example                                                |
+         +---------------+--------------------------------------------------------------+
+         | Last-Modified | 2024-11-08                                                   |
+         +---------------+--------------------------------------------------------------+
+         | Documents     | - Open edX Documentors Style Guide                           |
+         |               | - Open edX Diataxis Criteria                                 |
+         |               | - Example 3                                                  |
+         |               | - Example 4                                                  |
+         |               | - Example 5                                                  |
+         +---------------+--------------------------------------------------------------+
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+         | Code Number   | #1                                                           |
+         |---------------|--------------------------------------------------------------|
+         | Title         | Table Example                                                |
+         | Last-Modified | 2024-11-08                                                   |
+         | Documents     | - Open edX Documentors Style Guide<br>- Open edX Diataxis Criteria<br>- Example 3<br>- Example 4<br>- Example 5 |
 
 .. seealso:: To see alternative ways of defining tables, visit the `RST documentation about this topic <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#tables>`_.
 
 Add a Substitution
 ******************
 
-In RST, a *substitution* serves as a variable which you can set a value for once, then use repeatedly. This is useful for words or phrases that are used often, as it enables you to edit the value once and change it everywhere.
-
-You also need to use substitutions for inline images, as explained below.
+A *substitution* serves as a variable which you can set a value for once, then use repeatedly. This is useful for words or phrases that are used often, as it enables you to edit the value once and change it everywhere.
 
 Substitutions are all kept in the source/substitutions.txt file in the documentation project on GitHub.
 
 Copy the format for the substitution as needed.
 
-.. code-block:: RST
+.. tab-set::
 
-  .. |variable name| replace:: value
+   .. tab-item:: RST
 
-  .. |Platform name| replace:: Open edX
+      .. code-block:: RST
 
-You then add the *variable name* inline in the topic.
+        .. |variable name| replace:: value
 
-.. code-block:: RST
+        .. |Platform name| replace:: Open edX
 
-  A line of text with an |variable name| inserted.
+      You then add the *variable name* inline in the topic.
+
+      .. code-block:: RST
+
+        A line of text with an |variable name| inserted.
+
+   .. tab-item:: Markdown
+
+      MyST Markdown substitutions work the same way as RST:
+
+      .. code-block:: markdown
+
+        .. |variable name| replace:: value
+
+        .. |Platform name| replace:: Open edX
+
+      You then add the *variable name* inline in the topic.
+
+      .. code-block:: markdown
+
+        A line of text with an |variable name| inserted.
 
 
 Add a Sidebar
@@ -259,11 +545,23 @@ The sidebar must come directly after a heading.
 
 Copy this codeblock to add a new sidebar topic.
 
-.. code-block:: RST
+.. tab-set::
 
-  .. sidebar:: Sample Sidebar
+   .. tab-item:: RST
 
-    Any content, typically an image, video, or note.
+      .. code-block:: RST
+
+        .. sidebar:: Sample Sidebar
+
+          Any content, typically an image, video, or note.
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+        ```{sidebar} Sample Sidebar
+        Any content, typically an image, video, or note.
+        ```
 
 Add an Image to a Topic
 ***********************
@@ -279,15 +577,33 @@ Add an Image on its Own Line
 
 Copy this codeblock to an image on its own line.
 
-.. code-block:: RST
+.. tab-set::
 
-  Line of content, followed by a line with an image.
+   .. tab-item:: RST
 
-  .. image:: /_images/image-file-name
+      .. code-block:: RST
 
-  Or, a line of content, followed by a clickable thumbnail of a large image.
+        Line of content, followed by a line with an image.
 
-  .. thumbnail:: /_images/image-file-name
+        .. image:: /_images/image-file-name
+
+        Or, a line of content, followed by a clickable thumbnail of a large image.
+
+        .. thumbnail:: /_images/image-file-name
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+        Line of content, followed by a line with an image.
+
+        ```{image} /_images/image-file-name
+        ```
+
+        Or, a line of content, followed by a clickable thumbnail of a large image.
+
+        ```{thumbnail} /_images/image-file-name
+        ```
 
 Add an Image Inline
 ===================
@@ -296,15 +612,31 @@ To add an image inline, you must first create a substitution for the image in th
 
 Copy the format for the substitution as needed.
 
-.. code-block:: RST
+.. tab-set::
 
-  .. |variable name| image:: /_images/image-file-name
+   .. tab-item:: RST
 
-You then add the *variable name* inline in the topic.
+      .. code-block:: RST
 
-.. code-block:: RST
+        .. |variable name| image:: /_images/image-file-name
 
-  A line of text with an |variable name| inserted.
+      You then add the *variable name* inline in the topic.
+
+      .. code-block:: RST
+
+        A line of text with an |variable name| inserted.
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+        .. |variable name| image:: /_images/image-file-name
+
+      You then add the *variable name* inline in the topic.
+
+      .. code-block:: markdown
+
+        A line of text with an |variable name| inserted.
 
 Add a Thumbnail in a Sidebar
 ============================
@@ -315,29 +647,56 @@ The sidebar must come directly after a heading.
 
 Copy this codeblock to add a new sidebar with a thumbnail.
 
-.. code-block:: RST
+.. tab-set::
 
-  .. sidebar:: Sample Sidebar with a thumbnail
+   .. tab-item:: RST
 
-    .. thumbnail:: _images/image-file-name
+      .. code-block:: RST
+
+        .. sidebar:: Sample Sidebar with a thumbnail
+
+          .. thumbnail:: _images/image-file-name
+
+   .. tab-item:: Markdown
+
+      .. code-block:: markdown
+
+        ```{sidebar} Sample Sidebar with a thumbnail
+        ```{thumbnail} _images/image-file-name
+        ```
 
 Learn More
 **********
 
 .. seealso::
 
-   :download:`A one-page reference document <RST_quick_reference.pdf>` (PDF)
-      This reference document summarizes the above rules in an easy-to-print reference guide.
+   **RST Resources:**
+
+   :download:`A one-page RST reference document <RST_quick_reference.pdf>` (PDF)
+      This reference document summarizes the RST rules in an easy-to-print reference guide.
 
    `RST Primer`_
-      The primer has a lot more detail about the concepts behind the markup.
+      The primer has a lot more detail about the concepts behind RST markup.
 
    `RST Docs`_
-      If you want even more details, check out full `RST Docs`_.
+      If you want even more details about RST, check out the full RST documentation.
+
+   **MyST Markdown Resources:**
+
+   :doc:`markdown_syntax_sample`
+      A complete sample page written in MyST Markdown demonstrating all the syntax examples.
+
+   `MyST Parser Documentation`_
+      Complete documentation for MyST Markdown syntax and features.
+
+   `MyST Syntax Guide`_
+      A comprehensive guide to MyST Markdown syntax.
 
 
 .. _RST Primer: https://docutils.sourceforge.io/docs/user/rst/quickstart.html
 .. _RST Docs: https://docutils.sourceforge.io/rst.html
+.. _MyST Parser Documentation: https://myst-parser.readthedocs.io/
+.. _MyST Syntax Guide: https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html
 
 
 .. seealso::
