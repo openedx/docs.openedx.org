@@ -113,6 +113,22 @@ The Legacy Libraries feature will be supported through Ulmo, moving to
 unsupported in Verawood. Ulmo will include a migration feature that will make it
 easy to convert a Legacy Library into the new Library interface.
 
+.. seealso::
+
+    :ref:`Navigate the Library Homepage`
+
+    :ref:`Build a Collection in a Library`
+
+    :ref:`Create and edit content in a Library`
+
+    :ref:`Create and edit units in a Library`
+
+    :ref:`Use content sidebars to manage content`
+
+    :ref:`Add Library content to a course`
+
+    :ref:`Add users to Libraries`
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

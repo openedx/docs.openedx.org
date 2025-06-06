@@ -62,8 +62,6 @@ To add existing content to a unit
 
     :ref:`Create and edit content in a Library`
 
-    :ref:`Create and edit units in a Library`
-
     :ref:`Use content sidebars to manage content`
 
     :ref:`Add Library content to a course`
