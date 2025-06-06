@@ -39,6 +39,8 @@ reused in as many courses as an author or course team wishes.
 
     :ref:`Create and edit content in a Library`
 
+    :ref:`Create and edit units in a Library`
+
     :ref:`Sync a Library update to your course`
 
     :ref:`Add a Problem Bank to your course for randomization`

@@ -38,6 +38,8 @@ To create new content:
 
     :ref:`Build a Collection in a Library`
 
+    :ref:`Create and edit units in a Library`
+
     :ref:`Use content sidebars to manage content`
 
     :ref:`Add Library content to a course`

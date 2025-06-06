@@ -48,6 +48,8 @@ Add a Problem Bank to your course for randomization
 
     :ref:`Create and edit content in a Library`
 
+    :ref:`Create and edit units in a Library`
+
     :ref:`Build a Collection in a Library`
 
     :ref:`Add users to Libraries`

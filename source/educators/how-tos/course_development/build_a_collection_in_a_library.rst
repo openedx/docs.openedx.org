@@ -124,6 +124,10 @@ Remove content from your Collection
 
     :ref:`Search for content in a Library`
 
+    :ref:`Create and edit content in a Library`
+
+    :ref:`Create and edit units in a Library`
+
     :ref:`Use content sidebars to manage content`
 
     :ref:`Sync a Library update to your course`

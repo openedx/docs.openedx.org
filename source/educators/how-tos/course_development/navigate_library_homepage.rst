@@ -28,6 +28,8 @@ sidebars to manage content`.
 
     :ref:`Create and edit content in a Library`
 
+    :ref:`Create and edit units in a Library`
+
     :ref:`Build a Collection in a Library`
 
     :ref:`Publish Library content`
