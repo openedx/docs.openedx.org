@@ -1,3 +1,5 @@
+.. _Content Libraries Redesign Teak:
+
 The Content Libraries Redesign Initiative
 #############################################
 

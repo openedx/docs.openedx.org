@@ -5,6 +5,11 @@ Create and edit units in a Library
 
 .. tags:: educator, how-to
 
+.. note::
+
+   Users must have "Author" or "Admin" permissions on a library to edit content.
+   See :ref:`Add users to Libraries` for more detail.
+
 Libraries contain the same rich editing interfaces that are available in
 courses. Units can be edited and updated at any time.
 
