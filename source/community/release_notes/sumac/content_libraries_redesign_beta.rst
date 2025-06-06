@@ -36,6 +36,8 @@ releases will include the ability to create and reuse units, subsections and
 sections, and to import content or courses into Libraries.
 
 
+.. _Difference between legacy and new libraries:
+
 Key changes: What's the difference between the legacy Libraries and the new Libraries?
 **************************************************************************************
 

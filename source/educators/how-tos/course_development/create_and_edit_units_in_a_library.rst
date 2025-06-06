@@ -43,7 +43,7 @@ To add existing content to a unit
 
 #. Click on the :guilabel:`Existing Library Content` button. The library search modal will open.
 
-   ..  image:: /_images/educator_how_tos/ibraries_existing_content_sidebar.png
+   ..  image:: /_images/educator_how_tos/libraries_existing_content_sidebar.png
     :alt: A screenshot highlighting the sidebar where the component type can be selected
 
 #. Search for the content you'd like to add and click “Add to Unit”. The content
