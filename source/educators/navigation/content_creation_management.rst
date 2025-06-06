@@ -66,6 +66,28 @@ Manage Video Components
    ../references/course_development/video_specifications.rst
    ../how-tos/add_video_quiz.rst
 
+.. _Work with Content Libraries:
+
+Work with Content Libraries
+***************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../how-tos/course_development/navigate_library_homepage.rst
+   ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
+   ../how-tos/course_development/create_and_edit_content_in_a_library.rst
+   ../how-tos/course_development/create_and_edit_units_in_a_library.rst
+   ../how-tos/course_development/publish_library_content.rst
+   ../how-tos/course_development/add_delete_tags_in_library_content.rst
+   ../how-tos/course_development/build_a_collection_in_a_library.rst
+   ../how-tos/course_development/search_for_content_in_a_library.rst
+   ../how-tos/course_development/add_users_to_libraries.rst
+   ../how-tos/course_development/add_library_content_to_a_course.rst
+   ../how-tos/course_development/add_a_problem_bank_to_your_course.rst
+   ../how-tos/course_development/sync_a_library_update_to_your_course.rst
+
 .. _Control Visibility and Access:
 
 Control Content Visibility & Access
@@ -151,31 +173,38 @@ Embed IFrames
    ../how-tos/course_development/exercise_tools/create_iframe.rst
    ../how-tos/embed_iframe_text_editor.rst
 
-Work with Content Libraries
-***************************
+Re-run a Course
+*******************************************************
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   ../how-tos/course_development/navigate_library_homepage.rst
-   ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
-   ../how-tos/course_development/create_and_edit_content_in_a_library.rst
-   ../how-tos/course_development/publish_library_content.rst
-   ../how-tos/course_development/add_delete_tags_in_library_content.rst
-   ../how-tos/course_development/build_a_collection_in_a_library.rst
-   ../how-tos/course_development/search_for_content_in_a_library.rst
-   ../how-tos/course_development/add_users_to_libraries.rst
-   ../how-tos/course_development/add_library_content_to_a_course.rst
-   ../how-tos/course_development/add_a_problem_bank_to_your_course.rst
-   ../how-tos/course_development/sync_a_library_update_to_your_course.rst
+   ../references/course_development/course_export_terminology.rst
+   ../references/course_development/working_with_targz_file.rst
+
+
+Test Your Course
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../references/testing_course_content.rst
+   ../references/roles_for_viewing.rst
+   ../how-tos/view_published_released_content.rst
+   ../how-tos/preview_content.rst
 
 Work with Legacy Content Libraries
 **********************************
 
-The Legacy Libraries feature will be supported through Teak, moving to
-unsupported in Ulmo. Teak will include a one-click migration feature that will
-make it easy to convert a Legacy Library into the new Library interface.
+The Legacy Libraries feature will be supported through Ulmo, moving to
+unsupported in Verawood. Ulmo will include a one-click migration feature that
+will make it easy to convert a Legacy Library into the new Library interface.
+
+See :ref:`Content Libraries Redesign Teak` for more on the new Libraries
+initiative.
 
 .. toctree::
    :maxdepth: 1
@@ -191,27 +220,3 @@ make it easy to convert a Legacy Library into the new Library interface.
    ../how-tos/course_development/library_access.rst
    ../how-tos/course_development/export_import_library.rst
    ../how-tos/leveraging_libraries.rst
-
-Re-run a Course
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../references/course_development/course_export_terminology.rst
-   ../references/course_development/working_with_targz_file.rst
-
-
-
-Test Your Course
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../references/testing_course_content.rst
-   ../references/roles_for_viewing.rst
-   ../how-tos/view_published_released_content.rst
-   ../how-tos/preview_content.rst

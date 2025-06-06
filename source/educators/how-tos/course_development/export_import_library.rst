@@ -11,12 +11,11 @@ Exporting and Importing a Legacy Library
 
 .. warning::
 
-   The Legacy Libraries feature will be supported through Teak, moving to
-   unsupported in Ulmo. Teak will include a one-click migration feature that
+   The Legacy Libraries feature will be supported through Ulmo, moving to
+   unsupported in Verawood. Ulmo will include a one-click migration feature that
    will make it easy to convert a Legacy Library into the new Library interface.
 
-   See :doc:`/community/release_notes/sumac/content_libraries_redesign_beta` for
-   more information.
+   See :ref:`Content Libraries Redesign Teak` for more information.
 
 You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
 content library in Studio.
@@ -108,7 +107,7 @@ To import a library, follow these steps.
 .. seealso::
  
 
- :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
+ :ref:`Content Libraries Redesign Teak`
 
  :ref:`Content Libraries Overview` (concept)
 
