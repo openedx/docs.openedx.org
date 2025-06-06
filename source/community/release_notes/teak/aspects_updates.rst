@@ -3,7 +3,7 @@ Introducing In-Context Analytics in Studio
 
 The Design, Product, and Engineering Teams from Schema Education, OpenCraft, and Axim Collaborative are excited to introduce In-Context Analytics to Open edX Studio.The primary goal of this feature is to equip busy course delivery teams with the data they need to make informed revisions to courses right where they edit course content.
 
-In-Context Analytics introduces a new frontend plugin slot that can be used with Aspects,  customized to display metrics from other systems, or disabled (the default). Instance Operators wanting to learn more about how to set up In-Context Analytics for their instance should see Configure Aspects for Production.
+In-Context Analytics introduces a new frontend plugin slot that can be used with Aspects,  customized to display metrics from other systems, or disabled (the default). Instance Operators wanting to learn more about how to set up In-Context Analytics for their instance should see Configure Aspects for Production :doc:`openedx-aspects:technical_documentation/how-tos/production_configuration`.
 
 When enabled, users will see a new Analytics button at the top of the page on Course Outline and Unit pages. 
 
@@ -47,7 +47,7 @@ Video Analytics
 
 For video components, the In-Context Analytics sidebar displays the number of unique and repeat views for a single video by timestamp across the duration of the video. Timestamp ranges with a large number of repeat views should be reviewed as this might be an indicator that this particular section of video is unclear to learners.
 
-For more detailed information about each of the charts and tables provided out-of-the-box, please visit the In-Context Analytics documentation.
+For more detailed information about each of the charts and tables provided out-of-the-box, please visit :ref:`openedx-aspects:reference/in_context_dashboards`.
 
 
 **Maintenance chart**
