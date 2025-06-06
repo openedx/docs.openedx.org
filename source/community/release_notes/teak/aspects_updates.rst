@@ -7,34 +7,34 @@ In-Context Analytics introduces a new frontend plugin slot that can be used with
 
 When enabled, users will see a new Analytics button at the top of the page on Course Outline and Unit pages. 
 
-INSERT In-Context-AnalyticsButton IMAGE
+.. image:: /_images/release_notes/teak/in-context-analyticsbutton.png
 
 Clicking the Analytics button opens an easy-to-access, easy-to-collapse sidebar in Studio that displays content engagement and performance data alongside the course outline, problem, and video components.
 
-INSERT In-Context-Sidebar IMAGE
+.. image:: /_images/release_notes/teak/in-context-sidebar.png
 
 High-level Course Engagement Analytics
 **************************************
 
 The In-Context Analytics sidebar on the Course Outline page provides high-level insight into how learners are engaging with graded subsections, problems, and videos throughout the course.
 
-INSERT In-Context-HighLevelEngagementCharts IMAGE
+.. image:: /_images/release_notes/teak/in-context-highlevelengagementcharts.png
 
 Course delivery teams can easily drill in to view more detailed data about a single graded subsection, problem, or video by selecting the subsection or component of interest from the menu beneath the engagement charts.
 
-INSERT In-Context-SubProbVid IMAGE
+.. image:: /_images/release_notes/teak/in-context-subprobvid.png
 
 Component Engagement and Performance Analytics
 **********************************************
 
 In comparison to the analytics provided on the Course Outline page, the In-Context Analytics sidebar on the Unit page provides more granular insight into how learners are engaging with a single course component at a time. From the sidebar, users simply click on the component they want to view more information about to see more detailed data for that component.
 
-INSERT In-Context-UnitSidebar IMAGE
+.. image:: /_images/release_notes/teak/in-context-unitsidebar.png
 
 Problem Analytics
 =================
 
-INSERT In-Context-VideoComponent IMAGE
+.. image:: /_images/release_notes/teak/in-context-problemcomponent.png
 
 For problem components, the In-Context Analytics sidebar shows the percentage of correct responses on the first problem attempt and on all problem attempts. The percentage of correct problem responses on the first attempt is a good indicator of how difficult the problem is for the learners that submitted a response for the problem. It is a good indicator of whether or not a learner immediately understands the question being asked and can identify the correct answer to the question. The percentage correct on all problem attempts is an indicator of how well learners were able to recover from earlier incorrect responses. A higher percentage correct out of all problem attempts indicates that the learner is able to figure out the right answer with additional effort or hints. If this percentage is still low, the problem may be too difficult or confusing for learners.
 
@@ -43,7 +43,7 @@ The second table provides a breakdown of initial responses for each individual p
 Video Analytics
 ===============
 
-INSERT In-Context-VideoComponent IMAGE
+.. image:: /_images/release_notes/teak/in-context-videocomponent.png
 
 For video components, the In-Context Analytics sidebar displays the number of unique and repeat views for a single video by timestamp across the duration of the video. Timestamp ranges with a large number of repeat views should be reviewed as this might be an indicator that this particular section of video is unclear to learners.
 
