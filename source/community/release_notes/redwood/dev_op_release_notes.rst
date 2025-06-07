@@ -352,14 +352,14 @@ Developer Experience
 Researcher & Data Experiences
 *****************************
 
-:doc:`openedx-aspects:index` 
+:ref:`openedx-aspects:Aspects Home` 
 is an analytics system for the Open edX platform, bringing actionable data
 about course and learner performance to instructors and site operators. It is primarily
 a Tutor plugin that ties together data from the Open edX learning management system
 and Studio using open source tools to aggregate and transform learning traces into data
 visualizations.
 
-See the :doc:`openedx-aspects:technical_documentation/how-tos/production_configuration`
+See the :ref:`openedx-aspects:production_configuration`
 to learn about setting up Aspects for your production environment.
 
 Known Issues
