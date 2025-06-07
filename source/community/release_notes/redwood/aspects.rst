@@ -24,7 +24,7 @@ How can I find Aspects Reports?
 Accessing course-level dashboards from the LMS
 ==============================================
 
-Once Aspects has been installed, users can easily :doc:`openedx-aspects:course_team/how-tos/access_aspects` for a
+Once Aspects has been installed, users can easily :ref:`openedx-aspects:Course Team Access Aspects` for a
 course directly from the Open edX LMS by clicking on a new Reports link on the
 Instructor Dashboard. There's no need to navigate elsewhere to gain valuable
 insight into exactly what's going on in a course:
@@ -32,7 +32,8 @@ insight into exactly what's going on in a course:
    .. image:: /_images/release_notes/redwood/aspects_screenshot2.png
 
 On the Reports tab in the LMS, users can navigate between three new dashboards:
-a :doc:`openedx-aspects:reference/course_overview_dashboard`, :doc:`openedx-aspects:reference/learner_groups_dashboard`, and :doc:`openedx-aspects:reference/individual_learner_dashboard`. These dashboards were
+a :ref:`openedx-aspects:Course Dashboard Reports`, :ref:`openedx-aspects:At-Risk Learner Dashboard Reports`,
+and :ref:`openedx-aspects:Individual Learner Dashboard Reports`. These dashboards were
 designed specifically for course authors and course teams looking to access
 quick and easy-to-glean engagement, enrollment, and performance data from their
 courses:
@@ -43,7 +44,7 @@ Accessing all Aspects has to offer from Superset
 ================================================
 
 Course delivery team members who plan to view information for one course and
-then another may chose to :doc:`openedx-aspects:course_team/how-tos/access_aspects`, a third-party data
+then another may chose to :ref:`openedx-aspects:Course Team Access Aspects`, a third-party data
 visualization tool used to create and display Aspects dashboards and charts.
 This will allow these users to easily view the three out-of-the-box course-level
 dashboards for one of their courses and followed by another and another.
@@ -51,7 +52,7 @@ dashboards for one of their courses and followed by another and another.
 Site operators and superusers can view data about any course on their Open edX
 instance or their whole Open edX instance in Superset. 
 Users can access Superset directly via a link from the Aspects Reports in the LMS 
-(:doc:`openedx-aspects:course_team/how-tos/access_aspects`) using single sign-on authorization via their LMS account credentials:
+(:ref:`openedx-aspects:Course Team Access Aspects`) using single sign-on authorization via their LMS account credentials:
 
    .. image:: /_images/release_notes/redwood/aspects_screenshot4.png
 
@@ -94,7 +95,7 @@ course where learner engagement drops off:
 
    .. image:: /_images/release_notes/redwood/aspects_screenshot8.png
 
-When cross filtered (:doc:`openedx-aspects:course_team/how-tos/cross_filter`) by a single
+When cross filtered (:ref:`openedx-aspects:Cross-filters`) by a single
 course video, the Watched Video Segment graphs can help course authors and teams
 pinpoint potentially unclear video timestamp ranges:
 
@@ -111,9 +112,9 @@ Individual and At-Risk Learner Dashboards
 =========================================
 
 In addition to course-wide data, Aspects Reports surface course activity data
-for individual learners (:doc:`openedx-aspects:reference/individual_learner_dashboard`) and
+for individual learners (:ref:`openedx-aspects:Individual Learner Dashboard Reports`) and
 learners that may be at risk of not completing the course 
-(:doc:`openedx-aspects:reference/learner_groups_dashboard`) based on a set of predefined
+(:ref:`openedx-aspects:At-Risk Learner Dashboard Reports`) based on a set of predefined
 risk factors. The at-risk learner group is made up of learners that have
 enrolled in the course, done something in the course other than visit the course
 outline page, have not yet passed the course, and have not visited the course in
@@ -122,7 +123,7 @@ seven or more days.
 When installing the plugin, site operators can choose whether or not to show
 limited personally identifiable information (PII) to course delivery teams. On
 Open edX instances that show limited PII to course delivery teams, staff and
-admin users can see and :doc:`openedx-aspects:course_team/how-tos/download_reports` the names, usernames, and email
+admin users can see and :ref:`openedx-aspects:Downloading Reports` the names, usernames, and email
 addresses of individual and at-risk learners making targeted communication and
 learner intervention possible.
 
@@ -140,7 +141,7 @@ view detailed information:
 Add filters to a dashboard
 ==========================
 
-Users can :doc:`openedx-aspects:course_team/how-tos/apply_filters_lms` to an
+Users can :ref:`openedx-aspects:Apply Filters LMS` to an
 Aspects dashboard using the filters panel on the side of each dashboard. Hover
 over the filter icon on the upper corner of a table or chart to view what
 filters were applied to create the data visualization on any dashboard:
@@ -151,7 +152,7 @@ Dive deeper into the data with interactive charts that can be cross-filtered
 ============================================================================
 
 All Aspects Dashboards allow users to dig deeper into their data through
-:doc:`openedx-aspects:course_team/how-tos/cross_filter`. With
+:ref:`openedx-aspects:Cross-filters`. With
 cross-filters, a user can apply the same filter to multiple charts and tables in
 a dashboard at once. For example, if a user adds a cross-filter for a single
 video on the Video Engagement tab of the Course Dashboard, all applicable video
@@ -163,8 +164,8 @@ Download tables and images from Aspects dashboards
 ==================================================
 
 Users can easily download the data used to create any chart or table in an Aspects dashboard in tabular format as a
-CSV or Excel file (:doc:`openedx-aspects:administrator/how_to/export_tabular_data`) or download the table or chart as
-an image (:doc:`openedx-aspects:course_team/how-tos/download_reports`) for use in their own
+CSV or Excel file (:ref:`openedx-aspects:Export Tabular Data`) or download the table or chart as
+an image (:ref:`openedx-aspects:Downloading Reports`) for use in their own
 documents, presentations, or reports:
 
    .. image:: /_images/release_notes/redwood/aspects_screenshot14.png
