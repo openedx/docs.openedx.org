@@ -3,7 +3,7 @@ Aspects: Learner analytics for the Open edX Platform
 ####################################################
 
 Aspects Homepage
-    :doc:`openedx-aspects:index`
+    :ref:`openedx-aspects:Aspects Home`
 
 LMS Events
     :doc:`event-routing-backends:index`

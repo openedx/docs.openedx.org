@@ -52,7 +52,7 @@ Platform Core roadmap items relate to enhancements and improvements within core 
 Data and Analytics
 ===================
 
-Roadmap items relating to advancing the state of data analytics within the platform. These items generally focus on efforts within the :doc:`openedx-aspects:index` project.
+Roadmap items relating to advancing the state of data analytics within the platform. These items generally focus on efforts within the :ref:`openedx-aspects:Aspects Home` project.
 
 Maintenance
 ============

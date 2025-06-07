@@ -138,7 +138,7 @@ Developer Experience
 Researcher & Data Experiences
 *****************************
 
-Upgrading Aspects to v1.3.1 will get you the latest Aspects functionality with Sumac. See the upgrade instructions here: :doc:`openedx-aspects:technical_documentation/how-tos/upgrade`.
+Upgrading Aspects to v1.3.1 will get you the latest Aspects functionality with Sumac. See the upgrade instructions here: :ref:`openedx-aspects:upgrade-aspects`.
 
 Known Issues
 ************
