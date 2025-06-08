@@ -103,7 +103,7 @@ sphinxcontrib-devhelp==2.0.0
     # via sphinx
 sphinxcontrib-htmlhelp==2.1.0
     # via sphinx
-sphinxcontrib-images==0.9.4
+sphinxcontrib-images==1.0.1
     # via -r requirements/base.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
@@ -121,7 +121,7 @@ sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
 starlette==0.47.0
     # via sphinx-autobuild
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   anyio
     #   beautifulsoup4
@@ -130,7 +130,7 @@ urllib3==2.2.3
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   requests
-uvicorn==0.34.2
+uvicorn==0.34.3
     # via sphinx-autobuild
 watchfiles==1.0.5
     # via sphinx-autobuild
