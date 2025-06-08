@@ -19,7 +19,7 @@ Hooks can be of two types: events and filters. Events are signals sent in specif
 
 The framework's main goal is to empower developers to change the platform's functionality as needed while allowing them to migrate to newer Open edX releases with little to no development effort. The framework is designed with stability in mind, meaning it is versioned and backward compatible as much as possible.
 
-A longer description of the framework and its history can be found in :doc:`openedx-proposals:architectural-decisions/oep-0050-hooks-extension-framework`.
+A longer description of the framework and its history can be found in :ref:`openedx-proposals:OEP-50 Hooks extension framework`.
 
 Why Adopt the Hooks Extension Framework?
 ****************************************

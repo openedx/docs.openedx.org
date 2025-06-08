@@ -59,7 +59,7 @@ or have your employer add you to their entity CLA agreement. Please talk to your
 employer for guidance if you're unsure.
 
 If the "Lint Commit Messages" check fails, you need to rewrite your commit
-message using Conventional Commits (see :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`).
+message using Conventional Commits (see :ref:`openedx-proposals:OEP-51 Conventional Commits`).
 
 Failed Builds
 =============
