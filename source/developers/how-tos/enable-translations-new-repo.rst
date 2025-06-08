@@ -8,7 +8,7 @@ Enabling Translations on a New Repo
 Quickstart
 **********
 
-To enable translations on a new repository according to the :doc:`openedx-proposals:architectural-decisions/oep-0058-arch-translations-management`
+To enable translations on a new repository according to the :ref:`openedx-proposals:OEP-58 Translations Management`:
 
 - Start from an up-to-date cookiecutter (`frontend-template-application`_ for Micro-frontends, `edx-cookiecutters`_
   for Python)
