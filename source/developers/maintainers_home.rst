@@ -30,7 +30,7 @@ Maintainers Home
 Concepts Documentation
 **********************
 
-* :doc:`openedx-proposals:processes/oep-0055-proc-project-maintainers` - The
+* :ref:`openedx-proposals:OEP-55 Project Maintainers` - The
   OEP that kicked off the maintainership program.
 
 * `Community Contributions Project Manager`_ - The role definition for the

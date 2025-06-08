@@ -31,7 +31,7 @@ Feature Documentation
 Documentation can occur in multiple places - in code, in decision records, or in
 formal feature documentation.
 
-:doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation` describes the various ways to provide
+:ref:`openedx-proposals:OEP-19 Developer Documentation` describes the various ways to provide
 documentation of your code and features to a developer audience. This includes
 API documentation, decision records (ADRs and OEPs), and README files. Of
 course, you should always provide detailed, informative comments within your
@@ -40,7 +40,7 @@ code and excellent docstrings for your functions and classes!
 If you have developed a new feature, created an XBlock, or otherwise see that a
 topic is missing in this documentation, you can create one or more new pages in
 this document and submit a pull request to have the content added. Follow the
-guidelines in :doc:`../../../../documentors/references/doc_guidelines`.
+guidelines in :ref:`Documentor Guidelines`.
 
 Additionally, please see the section on :ref:`Named Release documentation` -
 consider documenting your change for the upcoming Named Release.
@@ -50,7 +50,7 @@ Feature Rollout Concerns
 ========================
 
 When writing your feature, consider the ways in which your code might be rolled
-out on various Open edX instances. :doc:`openedx-proposals:best-practices/oep-0017-bp-feature-toggles` describes the many
+out on various Open edX instances. :ref:`openedx-proposals:OEP-17` describes the many
 reasons why you might use a feature toggle, including releasing incrementally,
 beta testing, and providing one Open edX release where the feature is optional
 before making it the default. Utilizing various `Waffle`_ flags, you can gate

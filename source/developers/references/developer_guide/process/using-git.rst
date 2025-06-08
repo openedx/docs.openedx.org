@@ -7,7 +7,7 @@ The Open edX project is available on GitHub, which uses the Git system for versi
 
 When contributing to a new repo, contributors should use a `personal fork <Using
 A Personal Fork>`_, follow
-:doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`, squash
+:ref:`openedx-proposals:OEP-51 Conventional Commits`, squash
 changes into logical commits, and rebase branches before requesting reviews.
 This page will describe how to do all of these things!
 
