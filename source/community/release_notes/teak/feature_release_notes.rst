@@ -8,7 +8,6 @@ The Open edX Teak Release was released on June 9, 2025.
 .. toctree::
    :maxdepth: 1
 
-   stay_up_to_date
    libraries_unit_support
    credentials
    design_tokens
