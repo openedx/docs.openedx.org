@@ -90,6 +90,17 @@ Use Open edX as an LTI Tool Provider
    ../how-tos/advanced_features/lti_canvas_example.rst
    ../how-tos/advanced_features/lti_blackboard_example.rst  
 
+
+Offering Badges
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../concepts/advanced_features/about_badges.rst
+   ../how-tos/advanced_features/setting_up_badges.rst
+
 Course Tags and Taxonomies
 *******************************************************
 
