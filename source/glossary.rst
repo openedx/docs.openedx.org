@@ -52,6 +52,12 @@ Glossary
       The category of graded student work, such as homework, exams, and exercises.
       For more information, see :ref:`Grades`.
 
+   Authorization token
+      It's a temporary key that verifies identity and authorizes resource access. A token can be computer-generated or hardware-based. A valid token allows a user to retain access to an online service or web application until the token expires.
+
+   Badge Template
+      A template of a badge (with design, name, and description) that will be used in settings to set up special rules to create a badge for users to receive on the platform.
+
    CAPA Problem
       A CAPA (computer assisted personalized approach) problem refers to any of
       the problem types that are implemented in the edX platform by the
@@ -583,6 +589,9 @@ Glossary
       available to learners.
 
       For more information, see :ref:`Manage Video Transcripts`.
+
+   UUID
+      Universally Unique Identifier – is a value used to identify an object or entity on the internet uniquely. Depending on the specific mechanisms used, a UUID is either guaranteed to be different or is, at least, extremely likely to be different from any other UUID generated.
 
    Unit
       A unit is a division in the course outline that represents a lesson.
