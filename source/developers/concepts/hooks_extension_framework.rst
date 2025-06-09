@@ -1,3 +1,5 @@
+.. _Hooks Extension Framework:
+
 Hooks Extension Framework
 #########################
 
