@@ -57,6 +57,11 @@ RST Template
 	External Links
 	--------------
 
+   .. warning::
+      Usage of ``:doc:`` is an antipattern. It is fragile and prone to breaking cross references when docs are moved or renamed.
+
+      Adding in ``.. _reference:`` syntax to files and headings means cross-references can instead be made with the ``:ref:`` directive, which will be more robust to docs refactorings.
+	
 	You can use `inline links <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html#linking>`_ or `indirect links`_. Indirect links are useful if you want to link to the same thing multiple times, or if the URL is really long and you want the raw RST to read more cleanly.
 
 	.. _Indirect links: https://docs.openedx.org/en/latest/documentors/references/quick_reference.html#linking
@@ -67,7 +72,7 @@ RST Template
 	Link to :doc:`doc_how_to_template` in the same folder or :ref:`Documentation Syntax Reference` in a different
 	folder.
 
-	By default, it will use the title of the doc as the link text but you can override that with :doc:`other text </doc_how_to_template>` if you want.
+	By default, it will use the title of the doc as the link text but you can override that with :doc:`other text <doc_how_to_template>` if you want.
 
 	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
 

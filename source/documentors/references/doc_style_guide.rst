@@ -111,7 +111,7 @@ Open edX documentation is written in American English. See `Guidelines for Writi
 Documentation Language
 ======================
 
-The Open edX docs.openedx.org repository is using a documentation markup language called reStructured Text language (RST) which is very similar to Markdown. You can check this guide which is helpful to learn how to implement such language: https://docs.openedx.org/en/latest/documentors/references/quick_reference.html
+The Open edX docs.openedx.org repository is using a documentation markup language called reStructured Text language (RST) which is very similar to Markdown. You can check this guide which is helpful to learn how to implement such language: :ref:`Documentation Syntax Reference`
 
 Migrating Docs Checklist
 ************************
@@ -240,12 +240,12 @@ Bulleted, or Unordered lists display information in a compact and highly visible
 * No
 * Punctuation
 
-For information on entering unordered lists in RST, see the list-table section on the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
+For information on entering unordered lists in RST, see the list-table section on the :ref:`Documentation Syntax Reference`
 
 Links
 =====
 
-To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
+To have more interactive documents, always try to include hyperlinks to help readers quickly access relevant additional documentation and resources. Open edX documentation should not include full URLs written out. For information on entering links in RST, review the hyperlinks (internal or external) section from the :ref:`Documentation Syntax Reference`.
 
 
 Types of Call-Out Boxes
@@ -259,7 +259,7 @@ Notes (using the ``note`` directive) should be used to highlight the most valuab
 Example:
 
     .. note::
-     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
+     Notes stand out from other texts. They allow you to insert information that is directly relevant to the last paragraph, but may not fit with the tone of that section. To enter Notes using RST, please, check this section of the :ref:`Documentation Syntax Reference`.
 
 
 Tip
@@ -270,7 +270,7 @@ Tips are another specialized block quote that will appear in a special way on th
 Example:
 
     .. tip::
-     Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
+     Tips allow you to provide useful information for procedures. Tips can be entered in RST, so check this section of the :ref:`Documentation Syntax Reference`.
 
 Important
 ---------
@@ -293,7 +293,7 @@ Warning blocks are specialized block quotes that will appear in a special way on
 Example:
 
     .. warning::
-     Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_ to know how to include them.
+     Vital information that should not be ignored. The user incurs risk if this information is not followed. Please, check this section of the :ref:`Documentation Syntax Reference` to know how to include them.
 
 See also
 --------
@@ -360,7 +360,7 @@ When not to use a table:
 - If that information could be better written in a sentence.
 - The information is important but not sufficiently complicated.
 
-For information on entering tables in RST, see the `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
+For information on entering tables in RST, see the :ref:`Documentation Syntax Reference`.
 
 Tags
 ====
@@ -382,7 +382,7 @@ Use of Abbreviations
 
 The first time you want to use an abbreviation, spell it out. For example:
 
-The `Open edX repository <https://github.com/openedx/docs.openedx.org/tree/main>`_ is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: `RST guide <https://docs.openedx.org/en/latest/documentors/references/quick_reference.html>`_
+The `Open edX repository <https://github.com/openedx/docs.openedx.org/tree/main>`_ is using a documentation markup language called reStructuredText (RST) which is very similar to Markdown. The following guide is helpful to refer to as you produce RST documentation: :ref:`Documentation Syntax Reference`
 
 Punctuation
 ===========
