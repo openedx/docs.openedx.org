@@ -9,7 +9,15 @@ edX mobile applications.
 
 .. warning::
 
-    Open edX site operators should be sure to follow the :ref:`Ulmo Design Tokens` page for updates on the upcoming changes. There will be no overlap between the old theming system and Design Tokens, so site operators will need to prepare for the changes in advance of the Ulmo release.
+    Open edX site operators should be sure to follow the :ref:`Ulmo Design
+    Tokens` page for updates on the upcoming changes. There will be no overlap
+    between the old theming system and Design Tokens, so site operators will
+    need to prepare for the changes in advance of the Ulmo release.
+
+    Operators *will* be able to test their implementation of Design Tokens using
+    the `teak-design-tokens` branches in the Tutor-supported MFE repos. For more
+    information, see the `Teak design tokens wiki page
+    <https://openedx.atlassian.net/wiki/spaces/BPL/pages/5050499077/Using+Teak+Design+Tokens+branches>`_.
 
 See this presentation from the November 2024 Open edX meetup for more detail.
 

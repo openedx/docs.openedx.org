@@ -8,6 +8,7 @@ Open edX Ulmo Release - Product Release Notes
 .. toctree::
    :maxdepth: 1
 
+   ulmo_mobile_updates
    design_tokens
 
 
