@@ -1,3 +1,5 @@
+.. _Content Blocks (Teak):
+
 More Content Blocks On By Default
 ##################################
 
