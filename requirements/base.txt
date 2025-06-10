@@ -70,7 +70,7 @@ pyyaml==6.0.2
     # via
     #   myst-parser
     #   sphinxcontrib-mermaid
-requests==2.32.3
+requests==2.32.4
     # via
     #   sphinx
     #   sphinxcontrib-images
@@ -83,7 +83,7 @@ soupsieve==2.7
     # via beautifulsoup4
 sphinx==7.4.7
     # via
-    #   -c /home/feanil/src/openedx/docs.openedx.org/requirements/constraints.txt
+    #   -c /home/runner/work/docs.openedx.org/docs.openedx.org/requirements/constraints.txt
     #   -r requirements/base.in
     #   myst-parser
     #   pydata-sphinx-theme
