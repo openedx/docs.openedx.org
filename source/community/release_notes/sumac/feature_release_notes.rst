@@ -9,6 +9,7 @@ Open edX Sumac Release - Product Release Notes
    customizing_learner_dashboard
    aspects_comp_dashboard
    default_sidebar_nav
+   sumac_mobile_updates
    sumac_lti_cert
 
 Information for site operators and developers, including information on how to

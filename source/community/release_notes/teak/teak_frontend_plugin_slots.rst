@@ -1,3 +1,5 @@
+.. _Teak Frontend Plugin Slots:
+
 New Frontend Plugin Slots for the Teak Release
 ###############################################
 

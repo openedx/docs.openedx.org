@@ -1,3 +1,5 @@
+.. _Badging (Teak):
+
 Credentials (Badging)
 ######################
 

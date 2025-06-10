@@ -1,3 +1,5 @@
+.. _In-Context Analytics (Teak):
+
 Introducing In-Context Analytics in Studio
 ##########################################
 
