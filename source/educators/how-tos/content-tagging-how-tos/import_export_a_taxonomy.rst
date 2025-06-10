@@ -3,6 +3,8 @@
 Import and Export A Taxonomy
 ############################
 
+.. tags:: educator, how-to
+
 Taxonomies can be imported via the Taxonomies Dashboard, accessible via Studio
 Home.
 
@@ -14,6 +16,9 @@ Home.
     Taxonomies can be imported as either CSV or JSON files. For instructions on
     how to build a taxonomy by using a taxonomy template, see
     :ref:`build-taxonomy-using-template`.
+
+    Users must be organization or instance level administrators in order to
+    import taxonomies.
     
 Import a new taxonomy
 *********************

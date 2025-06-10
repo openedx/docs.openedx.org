@@ -3,10 +3,15 @@
 Manage Permissions on a Taxonomy
 ################################
 
+.. tags:: educator, how-to
+
 .. note::
     On import, new taxonomies are not enabled by default.
     
     Once a taxonomy is enabled for an organization, it will appear in all courses in that organization.
+
+    Users must be organization or instance level administrators in order to
+    manage taxonomies.
 
 #. Find the taxonomy you wish to enable from the Taxonomy Listing page, click
    the 3-dot menu and choose :guilabel:`Manage Organizations`.

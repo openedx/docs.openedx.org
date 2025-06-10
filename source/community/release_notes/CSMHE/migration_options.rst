@@ -150,3 +150,12 @@ For more information, see :ref:`CSMHE Procedures`.
 .. _edxapp/defaults/main.yml: https://github.com/openedx/configuration/blob/master/playbooks/roles/edxapp/defaults/main.yml#L635
 
 .. _wiki: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack#RunningDevstack-InstallingtheOpenedXDeveloperStack
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -1,10 +1,12 @@
+.. _Process for Contributing Code:
+
 #############################
 Process for Contributing Code
 #############################
 
 .. tip::
 
-   Looking for fewer words? Check out the `concise contributing guide <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+Start+Contributing+Code>`_.
+   Looking for fewer words? Check out the :ref:`contributing Quickstart <qs Dev Contributing>`!
 
 The Open edX project is massive, and we would love you to help us build
 the best online education system in the world -- we can't do it alone!
@@ -30,10 +32,16 @@ questions or concerns.
 
 * For new features, or any changes affecting user behavior, please follow the
   `Product Review Process`_
+* Follow the :ref:`Git workflow`, and contributions should be made off of a :ref:`personal fork <Using A Personal Fork>`.
 * :ref:`i18n`
 * `RTL UI Best Practices`_
 * :ref:`Accessibility Guidelines`
 * :ref:`analytics`
+
+See also the :ref:`FAQ PR Process` for many common questions about the PR
+process, and  the :ref:`Pull Request Status Guide` if you're looking for more
+information about what the various statuses and labels of your pull request (PR)
+mean.
 
 .. include:: /links.txt
 

@@ -327,3 +327,13 @@ Open edX Filters: through configuration only, extension developers can set a lis
 
 .. _Open edX Events & Filters: https://github.com/openedx/edx-platform/blob/master/docs/guides/hooks/index.rst#openedx-hooks-extension-framework
 .. _OEP-50\: Hooks Extension Framework: https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

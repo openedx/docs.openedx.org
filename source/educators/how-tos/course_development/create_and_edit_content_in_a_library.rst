@@ -5,6 +5,11 @@ Create and edit content in a Library
 
 .. tags:: educator, how-to
 
+.. note::
+
+   Users must have "Author" or "Admin" permissions on a library to edit content.
+   See :ref:`Add users to Libraries` for more detail.
+
 Libraries contain the same rich editing interfaces that are available in
 courses. Content can be edited and updated at any time.
 
@@ -33,9 +38,13 @@ To create new content:
 
     :ref:`Build a Collection in a Library`
 
+    :ref:`Create and edit units in a Library`
+
     :ref:`Use content sidebars to manage content`
 
     :ref:`Add Library content to a course`
+
+    :ref:`Add users to Libraries`
 
 **Maintenance chart**
 

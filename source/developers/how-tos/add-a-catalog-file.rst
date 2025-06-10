@@ -6,10 +6,7 @@ This How-to will walk you through the process of adding a ``catalog-info.yaml``
 file to your repository so that it is properly cataloged in the Open edX instance
 of `Backstage`_.
 
-To learn more about why we use ``catalog-info.yaml`` and backstage, see `OEP-55
-Decision 1`_.
-
-.. _OEP-55 Decision 1: https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055/decisions/0001-use-backstage-to-support-maintainers.html
+To learn more about why we use ``catalog-info.yaml`` and backstage, see :doc:`openedx-proposals:processes/oep-0055/decisions/0001-use-backstage-to-support-maintainers`.
 
 .. _Backstage: https://backstage.openedx.org
 
@@ -33,7 +30,7 @@ Steps
 
 2. Create a ``catalog-info.yaml`` file at the root of the repository.
 
-3. Add the content from sample file from `OEP-55 Decision 1`_
+3. Add the content from sample file from :doc:`openedx-proposals:processes/oep-0055/decisions/0001-use-backstage-to-support-maintainers`
 
 4. Update the content using the comments as a guide.
 

@@ -162,3 +162,11 @@ use this slot.
    * :doc:`/site_ops/references/frontend-plugin-slots`
 
 .. _Learner Dashboard plugin slot documentation: https://github.com/openedx/frontend-app-learner-dashboard/tree/master/src/plugin-slots
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | sarina                        | Sumac          |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+
