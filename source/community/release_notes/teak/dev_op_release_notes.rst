@@ -305,19 +305,16 @@ Other Operator Changes
         This change is the long-delayed unpinning of the protocol version so that Celery can use its default version.
       - Operators can still override the protocol version using the Django setting ``CELERY_TASK_PROTOCOL`` although there is no guarantee that protocol 1 compatibility
         will be preserved in the future.
-- When codejail is used by LMS and CMS, it no longer requires write access to the sandbox virtualenv `.config` or `.cache` directories.
-   - *Action*: If you run codejail, it is recommended that you remove write permissions to `<SANDENV>/.config` and `<SANDENV>/.cache` from your AppArmor profile,
+- When codejail is used by LMS and CMS, it no longer requires write access to the sandbox virtualenv ``.config`` or ``.cache`` directories.
+   - *Action*: If you run codejail, it is recommended that you remove write permissions to ``<SANDENV>/.config`` and ``<SANDENV>/.cache`` from your AppArmor profile,
      if possible.
-   - *Background*: Running `import matplotlib` in a custom Python-evaluated XBlock in Sumac and earlier required the AppArmor profile to allow write access to one of 
+   - *Background*: Running ``import matplotlib`` in a custom Python-evaluated XBlock in Sumac and earlier required the AppArmor profile to allow write access to one of 
      these directories. In Teak, `edxapp now sets <https://github.com/openedx/edx-platform/pull/36456>`_ the `MPLCONFIGDIR` environment variable for inputs sent to
-     codejail, so matplotlib will now write to the `./tmp/` subdirectory inside the codejail-created sandbox.
-
-      - You should be able to identify these exclusions by looking for lines like `/home/sandbox/.config/ wrix`, 
-        although the exact parent directory may vary. Other
-        temporary directories may have been allowed instead, such as `/tmp`. Any such write permission to a global 
-        directory is inadvisable, since it reduces the 
-        ability of codejail to perform effective sandboxing. Removing these lines in Teak will (appropriately) reduce 
-        the permissions of sandboxed code. They should 
+     codejail, so matplotlib will now write to the ``./tmp/`` subdirectory inside the codejail-created sandbox.
+      - You should be able to identify these exclusions by looking for lines like ``/home/sandbox/.config/ wrix``, although the exact parent directory may vary. Other
+        temporary directories may have been allowed instead, such as ``/tmp``. Any such write permission to a global directory is inadvisable, since it reduces the 
+        ability of codejail to perform effective sandboxing. Removing these lines in Teak will (appropriately) reduce the permissions of sandboxed code. They should 
+>>>>>>> bd7a36f4 (fix: Use double backticks for all code references)
         not be removed before Teak, however, as this will cause matplotlib to fail to load.
       - Operators who have not previously needed to support matplotlib in instructor or learner code may not have these 
         exclusions in their AppArmor configurations.
@@ -342,36 +339,28 @@ Other Operator Changes
      conditions.
    - *Usage:* To use darklaunch to switch from local to remote:
       - Create a codejail-service cluster
-      - Configure LMS and CMS to call it by configuring `CODE_JAIL_REST_SERVICE_HOST` but not 
-        `ENABLE_CODEJAIL_REST_SERVICE` (which must remain disabled for the moment).
-      - Begin the dark launch by setting `ENABLE_CODEJAIL_DARKLAUNCH` to true. Traffic will begin flowing to the new
-        service, but the results will be ignored.
-
-         - The only user-visible impact should be that codejail executions take twice as long, as the local and remote 
-           executions are performed serially.
+      - Configure LMS and CMS to call it by configuring ``CODE_JAIL_REST_SERVICE_HOST`` but not ``ENABLE_CODEJAIL_REST_SERVICE`` (which must remain disabled for 
+        the moment).
+      - Begin the dark launch by setting ``ENABLE_CODEJAIL_DARKLAUNCH`` to true. Traffic will begin flowing to the new service, but the results will be ignored.
+         - The only user-visible impact should be that codejail executions take twice as long, as the local and remote executions are performed serially.
       - Observe telemetry to discover errors and behavior mismatches.
          - Mismatches can include:
             - One side failed to execute entirely (“unexpected error”) while the other did not. This might include 
               network issues.
             - One side returned an error from the submitted code, while the other did not, or produced a different error.
             - Both sides succeeded, but the returned globals dictionaries differed.
-         - Error and warning logs from `safe_exec.py` in edxapp containing `codejail darklaunch` will tell you about 
-           configuration problems, unexpected errors, and
+         - Error and warning logs from ``safe_exec.py`` in edxapp containing ``codejail darklaunch`` will tell you about configuration problems, unexpected errors, and
            mismatches in behavior between the two environments.
-         - Span-based telemetry (New Relic, Datadog, etc.) can be used to track rates of mismatches and break them down 
-           by course ID and type. See 
-           `set_custom_attribute` calls starting with `codejail`. in 
+         - Span-based telemetry (New Relic, Datadog, etc.) can be used to track rates of mismatches and break them down by course ID and type. See 
+           ``set_custom_attribute`` calls starting with ``codejail``. in 
            `safe_exec.py <https://github.com/openedx/edx-platform/blob/release/teak.master/xmodule/capa/safe_exec/safe_exec.py>`_  
-           for available attributes. The local-only, remote-only and local/remote darklaunch calls all have different 
-           span names as well, e.g. 
-           `safe_exec.remote_exec_darklaunch`.
-         - Use `CODEJAIL_DARKLAUNCH_EMSG_NORMALIZERS` to normalize away spurious mismatches between the environments.
-           (Not all mismatches can be readily ignored, such 
+           for available attributes. The local-only, remote-only and local/remote darklaunch calls all have different span names as well, e.g. 
+           ``safe_exec.remote_exec_darklaunch``.
+         - Use ``CODEJAIL_DARKLAUNCH_EMSG_NORMALIZERS`` to normalize away spurious mismatches between the environments. (Not all mismatches can be readily ignored, such 
            as ordering differences in sets.)
-      - Once behavior and performance differences are resolved, remove `ENABLE_CODEJAIL_DARKLAUNCH` and set
-        `ENABLE_CODEJAIL_REST_SERVICE` to true. This will complete the migration, and codejail executions will only 
-        be performed on the remote service.
-
+      - Once behavior and performance differences are resolved, remove ``ENABLE_CODEJAIL_DARKLAUNCH`` and set ``ENABLE_CODEJAIL_REST_SERVICE`` to true. This will complete 
+        the migration, and codejail executions will only be performed on the remote service.
+         
 
 Deprecations & Removals
 ***********************
@@ -383,11 +372,9 @@ Deprecations & Removals
   defined by the theme author. See `the associated DEPR ticket for details
   <https://github.com/openedx/brand-openedx/issues/23>`_, and follow the
   :ref:`Ulmo Design Tokens` page for more detail. Operators will be able to try
-  out Design Tokens using the Teak Design Tokens branches. See the `Teak Design Tokens wiki page <https://openedx.atlassian.net/wiki/spaces/BPL/pages/5050499077/Using+Teak+Design+Tokens+branches>`_ for more details.
-- `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_ 
-  This is a simplification to how course content is cached. It should be invisible to all end users.
-- The flag ENABLE_BLAKE2B_HASHING was removed. blake2b hashing is now used for caching instead of the deprecated md4 
-  hashing. After upgrading, it’s possible that performance could be degraded as the cache rebuilds. 
+  out Design Tokens using the Teak Design Tokens branches (link TBD)
+- `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_ This is a simplification to how course content is cached. It should be invisible to all end users.
+- The flag ``ENABLE_BLAKE2B_HASHING`` was removed. blake2b hashing is now used for caching instead of the deprecated md4 hashing. After upgrading, it’s possible that performance could be degraded as the cache rebuilds. 
 - `[DEPR]: django-oauth2-provider (DOP) related tables <https://github.com/openedx/public-engineering/issues/82>`_
    - For LMS and CMS, there is a new script to 
      `clean up old DOP-related authentication tables. <https://github.com/edx/configuration/blob/master/util/drop_dop_tables/drop_dop_tables.py>`_
@@ -395,8 +382,8 @@ Deprecations & Removals
      authentication-related tables that can lead to confusion when looking at the database.
    - The script is not related to Teak other than it now being available, and should be ok to run on any installation using Palm, Redwood, or Sumac.
 - `[DEPR]: Support for footer replacement via npm installing forked footers <https://github.com/openedx/frontend-component-footer/issues/459>`_
-   - It is possible to work around this breaking change by also exporting your forked `Footer` component as
-     `FooterSlot` and your forked `StudioFooter` component as `StudioFooterSlot`
+   - It is possible to work around this breaking change by also exporting your forked ``Footer`` component as ``FooterSlot`` and your forked ``StudioFooter`` component as ``StudioFooterSlot``
+
 
 
 Developer Experience
