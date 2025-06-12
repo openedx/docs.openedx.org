@@ -311,6 +311,7 @@ Other Operator Changes
    - *Background*: Running ``import matplotlib`` in a custom Python-evaluated XBlock in Sumac and earlier required the AppArmor profile to allow write access to one of 
      these directories. In Teak, `edxapp now sets <https://github.com/openedx/edx-platform/pull/36456>`_ the `MPLCONFIGDIR` environment variable for inputs sent to
      codejail, so matplotlib will now write to the ``./tmp/`` subdirectory inside the codejail-created sandbox.
+
       - You should be able to identify these exclusions by looking for lines like ``/home/sandbox/.config/ wrix``, although the exact parent directory may vary. Other
         temporary directories may have been allowed instead, such as ``/tmp``. Any such write permission to a global directory is inadvisable, since it reduces the 
         ability of codejail to perform effective sandboxing. Removing these lines in Teak will (appropriately) reduce the permissions of sandboxed code. They should 
@@ -320,7 +321,9 @@ Other Operator Changes
         If this is your situation, no action is required.
       - Removing these lines may cause other, unanticipated failures in sandboxed code. Monitor your codejail logs and 
         failure rates when deploying this change.
+
 - New feature: Codejail local/remote darklaunch 
+
    - *Audience:* Deployers who support codejail (e.g. custom Python-graded problem blocks) and are not already using a 
      remote codejail service.
 
@@ -336,18 +339,23 @@ Other Operator Changes
      suppressing all errors from the remote side. 
      This allows operators to discover issues in the remote service’s configuration under real production traffic
      conditions.
+
    - *Usage:* To use darklaunch to switch from local to remote:
+
       - Create a codejail-service cluster
       - Configure LMS and CMS to call it by configuring ``CODE_JAIL_REST_SERVICE_HOST`` but not ``ENABLE_CODEJAIL_REST_SERVICE`` (which must remain disabled for 
         the moment).
       - Begin the dark launch by setting ``ENABLE_CODEJAIL_DARKLAUNCH`` to true. Traffic will begin flowing to the new service, but the results will be ignored.
          - The only user-visible impact should be that codejail executions take twice as long, as the local and remote executions are performed serially.
       - Observe telemetry to discover errors and behavior mismatches.
+
          - Mismatches can include:
+
             - One side failed to execute entirely (“unexpected error”) while the other did not. This might include 
               network issues.
             - One side returned an error from the submitted code, while the other did not, or produced a different error.
             - Both sides succeeded, but the returned globals dictionaries differed.
+
          - Error and warning logs from ``safe_exec.py`` in edxapp containing ``codejail darklaunch`` will tell you about configuration problems, unexpected errors, and
            mismatches in behavior between the two environments.
          - Span-based telemetry (New Relic, Datadog, etc.) can be used to track rates of mismatches and break them down by course ID and type. See 
@@ -357,6 +365,7 @@ Other Operator Changes
            ``safe_exec.remote_exec_darklaunch``.
          - Use ``CODEJAIL_DARKLAUNCH_EMSG_NORMALIZERS`` to normalize away spurious mismatches between the environments. (Not all mismatches can be readily ignored, such 
            as ordering differences in sets.)
+
       - Once behavior and performance differences are resolved, remove ``ENABLE_CODEJAIL_DARKLAUNCH`` and set ``ENABLE_CODEJAIL_REST_SERVICE`` to true. This will complete 
         the migration, and codejail executions will only be performed on the remote service.
          
@@ -375,6 +384,7 @@ Deprecations & Removals
 - `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_ This is a simplification to how course content is cached. It should be invisible to all end users.
 - The flag ``ENABLE_BLAKE2B_HASHING`` was removed. blake2b hashing is now used for caching instead of the deprecated md4 hashing. After upgrading, it’s possible that performance could be degraded as the cache rebuilds. 
 - `[DEPR]: django-oauth2-provider (DOP) related tables <https://github.com/openedx/public-engineering/issues/82>`_
+
    - For LMS and CMS, there is a new script to 
      `clean up old DOP-related authentication tables. <https://github.com/edx/configuration/blob/master/util/drop_dop_tables/drop_dop_tables.py>`_
    - If you have an old installation of the Open edX platform (Palm or later), you may have many outdated/unused 
