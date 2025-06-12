@@ -303,7 +303,7 @@ Other Operator Changes
       - By default, Celery 4.0 and higher produce messages in this format, and Celery 3.1.25 and higher can read messages in this format.
       - edx-platform was pinned to protocol 1 `during the upgrade <https://github.com/openedx/edx-platform/pull/24916>`_ to Celery 4, presumably as a precaution. 
         This change is the long-delayed unpinning of the protocol version so that Celery can use its default version.
-      - Operators can still override the protocol version using the Django setting `CELERY_TASK_PROTOCOL` although there is no guarantee that protocol 1 compatibility
+      - Operators can still override the protocol version using the Django setting ``CELERY_TASK_PROTOCOL`` although there is no guarantee that protocol 1 compatibility
         will be preserved in the future.
 - When codejail is used by LMS and CMS, it no longer requires write access to the sandbox virtualenv `.config` or `.cache` directories.
    - *Action*: If you run codejail, it is recommended that you remove write permissions to `<SANDENV>/.config` and `<SANDENV>/.cache` from your AppArmor profile,
