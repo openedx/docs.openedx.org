@@ -383,7 +383,7 @@ Deprecations & Removals
   defined by the theme author. See `the associated DEPR ticket for details
   <https://github.com/openedx/brand-openedx/issues/23>`_, and follow the
   :ref:`Ulmo Design Tokens` page for more detail. Operators will be able to try
-  out Design Tokens using the Teak Design Tokens branches (link TBD)
+  out Design Tokens using the Teak Design Tokens branches. See the `Teak Design Tokens wiki page <https://openedx.atlassian.net/wiki/spaces/BPL/pages/5050499077/Using+Teak+Design+Tokens+branches>`_ for more details.
 - `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_ 
   This is a simplification to how course content is cached. It should be invisible to all end users.
 - The flag ENABLE_BLAKE2B_HASHING was removed. blake2b hashing is now used for caching instead of the deprecated md4 
