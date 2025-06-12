@@ -314,7 +314,6 @@ Other Operator Changes
       - You should be able to identify these exclusions by looking for lines like ``/home/sandbox/.config/ wrix``, although the exact parent directory may vary. Other
         temporary directories may have been allowed instead, such as ``/tmp``. Any such write permission to a global directory is inadvisable, since it reduces the 
         ability of codejail to perform effective sandboxing. Removing these lines in Teak will (appropriately) reduce the permissions of sandboxed code. They should 
->>>>>>> bd7a36f4 (fix: Use double backticks for all code references)
         not be removed before Teak, however, as this will cause matplotlib to fail to load.
       - Operators who have not previously needed to support matplotlib in instructor or learner code may not have these 
         exclusions in their AppArmor configurations.
