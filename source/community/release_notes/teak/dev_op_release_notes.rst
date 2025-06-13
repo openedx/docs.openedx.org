@@ -323,6 +323,11 @@ Other Operator Changes
         failure rates when deploying this change.
 - **All MFEs have been upgraded to React 18**.  If you have forked an MFE and want to pull in the upstream changes from Teak, you will need to ensure all dependencies work with React 18.
 
+- MFE slots now follow a versioned naming convention, for example, ``footer_slot`` is now ``org.openedx.frontend.layout.footer.v1``.
+
+  - Aliases are present for existing slots, and will be throughout the lifecycle of the available slot. Any version bump to a slot will have an associated DEPR ticket.
+  - See the `slot renaming ADR <https://github.com/openedx/frontend-plugin-framework/blob/master/docs/decisions/0003-slot-naming-and-life-cycle.rst>`_ for more details on the new naming scheme. All new slots will use this naming scheme, and developers making new slots should pay attention to the ADR.
+
 - New feature: Codejail local/remote darklaunch 
 
    - *Audience:* Deployers who support codejail (e.g. custom Python-graded problem blocks) and are not already using a 
