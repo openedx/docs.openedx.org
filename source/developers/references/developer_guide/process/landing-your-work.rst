@@ -22,7 +22,7 @@ The code should be clear and understandable. Comments in code, detailed
 docstrings, and good variable naming conventions are expected. See the
 :doc:`../style_guides/index` for more details.
 
-Commit messages should conform to :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`.
+Commit messages should conform to :ref:`openedx-proposals:OEP-51 Conventional Commits`.
 This style categorizes commits to make them easier to understand.
 
 ****************
@@ -92,7 +92,7 @@ Commit Messages and Rebasing
 ****************************
 
 Be sure your commit messages follow
-:doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`.
+:ref:`openedx-proposals:OEP-51 Conventional Commits`.
 
 Before requesting review, please :ref:`rebase your changes <Rebasing>` atop the latest version of
 the ``master`` or ``main`` branch.

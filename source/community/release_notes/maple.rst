@@ -36,7 +36,7 @@ Studio login changed to OAuth
 
 In versions prior to Maple, Studio (CMS) shared a session cookie with the LMS, and redirected to the LMS for login.
 Studio is changing to become an OAuth client of the LMS, using the same SSO configuration that other IDAs use. (See
-`ARCHBOM-1860`_; :doc:`openedx-proposals:best-practices/oep-0042-bp-authentication`) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
+`ARCHBOM-1860`_; :ref:`openedx-proposals:OEP-42 Authentication`) This is a breaking change. Follow the `Studio OAuth migration runbook`_ as part of
 upgrading to Maple. For devstack, run::
 
     ./provision-ida-user.sh studio studio 18010
