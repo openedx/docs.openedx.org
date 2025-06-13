@@ -1,14 +1,14 @@
-.. _The edX-Insider course.xml File:
+.. _The olx-example course.xml File:
 
 ###################################
-The edX-Insider ``course.xml`` File
+The olx-example ``course.xml`` File
 ###################################
 
 .. tags:: educator, reference
 
-The `edX-Insider`_ course is a sample course that was originally developed for edX.org.
+The `olx-example`_ course is a sample course that was originally developed for edX.org.
 
-The courseware for `edX-Insider`_ is defined in the `course.xml`_ file and
+The courseware for `olx-example`_ is defined in the `course.xml`_ file and
 follows the organization described in :ref:`The Courseware Structure`.
 
 .. contents::
@@ -16,10 +16,10 @@ follows the organization described in :ref:`The Courseware Structure`.
   :depth: 1
 
 *****************************
-edX-Insider Course Hierarchy
+olx-example Course Hierarchy
 *****************************
 
-The edX-Insider courseware is organized into chapters, sequentials, and
+The olx-example courseware is organized into chapters, sequentials, and
 verticals.
 
 For example, the following XML defines the first chapter, sequential, and
@@ -44,7 +44,7 @@ file ``Week_overview`` in the ``HTML`` directory.
 
 Learners see this content in the Learning Management System as follows.
 
-.. Image:: ../Images/Insider-first-image.png
+.. Image:: /_images/olx-example-images/Insider-first-image.png
  :alt: The HTML component as a learner sees it.
 
 
@@ -53,7 +53,7 @@ Sequentials that Contain XBlocks
 *********************************
 
 One advantage of OLX (open learning XML) is the flexibility it allows in how
-you organize your course. For example, edX-Insider demonstrates that you can
+you organize your course. For example, olx-example demonstrates that you can
 nest XBlocks and problems directly in a sequential, without the need for a
 vertical. This streamlines the course creation process while maintaining
 consistency in how students interact with courseware.
@@ -82,7 +82,7 @@ reference to a problem defined in another file.
 
 The learner sees this sequential as follows.
 
-.. Image:: ../Images/Insider-first-sequential.png
+.. Image:: /_images/olx-example-images/Insider-first-sequential.png
  :alt: The sequential as a learner sees it.
 
 .. seealso::
