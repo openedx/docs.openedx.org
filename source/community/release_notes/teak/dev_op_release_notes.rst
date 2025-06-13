@@ -3,11 +3,9 @@
 Open edX Teak Developer & Operator Release Notes
 ################################################
 
-*Releasing June, 2025!*
-
 These are the developer & operator release notes for the Teak release, the 20th
 community release of the Open edX Platform, spanning changes from October 24,
-2024 to April 9, 2025. You can also review details about :ref:`Open edX Release Notes` or
+2024 to April 25, 2025. You can also review details about :ref:`Open edX Release Notes` or
 learn more about the `Open edX Platform`_.
 
 To view the end-user facing docs, see the :ref:`Teak Product Notes`.
@@ -28,6 +26,270 @@ Administrators & Operators
 Settings and Toggles
 ====================
 
+Added Feature Toggles
+---------------------
+
+* +ENABLE_CODEJAIL_DARKLAUNCH: `xmodule/capa/safe_exec/remote_exec.py (line 32) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/xmodule/capa/safe_exec/remote_exec.py#L32>`_
+   * Default value = False
+   * Description: Turn on to send requests to both the codejail service and the installed codejail library for [output truncated, see link for full description]
+
+* +FEATURES['IN_CONTEXT_DISCUSSION_ENABLED_DEFAULT']: `cms/envs/common.py (line 567) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/envs/common.py#L567>`_
+   * Default value = True
+   * Description: Set to False to disable in-context discussion for units by default.
+
+* +USE_EXTRACTED_ANNOTATABLE_BLOCK: `lms/envs/common.py (line 5555) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5555>`_
+   * Default value = False
+   * Description: Enables the use of the extracted annotatable XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_DISCUSSION_BLOCK: `lms/envs/common.py (line 5595) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5595>`_
+   * Default value = False
+   * Description: Enables the use of the extracted Discussion XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_HTML_BLOCK: `lms/envs/common.py (line 5585) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5585>`_
+   * Default value = False
+   * Description: Enables the use of the extracted HTML XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_LTI_BLOCK: `lms/envs/common.py (line 5575) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5575>`_
+   * Default value = False
+   * Description: Enables the use of the extracted LTI XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_POLL_QUESTION_BLOCK: `lms/envs/common.py (line 5565) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5565>`_
+   * Default value = False
+   * Description: Enables the use of the extracted poll question XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_PROBLEM_BLOCK: `lms/envs/common.py (line 5605) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5605>`_
+   * Default value = False
+   * Description: Enables the use of the extracted Problem XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_VIDEO_BLOCK: `lms/envs/common.py (line 5615) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5615>`_
+   * Default value = False
+   * Description: Enables the use of the extracted Video XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +USE_EXTRACTED_WORD_CLOUD_BLOCK: `lms/envs/common.py (line 5545) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5545>`_
+   * Default value = False
+   * Description: Enables the use of the extracted Word Cloud XBlock, which has been shifted to the ``openedx/xblocks-contrib`` repo.
+
+* +contentstore.enable_course_optimizer: `cms/djangoapps/contentstore/toggles.py (line 622) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L622>`_
+   * Default value = False
+   * Description: This flag enables the course optimizer tool in the authoring MFE.
+
+* +contentstore.use_react_markdown_editor: `cms/djangoapps/contentstore/toggles.py (line 222) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L222>`_
+   * Default value = False
+   * Description: This flag enables the use of the Markdown editor when creating or editing problems in the authoring MFE
+
+* +legacy_studio.advanced_settings: `cms/djangoapps/contentstore/toggles.py (line 259) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L259>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Advanced Settings page.
+
+* +legacy_studio.certificates: `cms/djangoapps/contentstore/toggles.py (line 450) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L450>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Course Certificates page.
+
+* +legacy_studio.configurations: `cms/djangoapps/contentstore/toggles.py (line 488) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L488>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Configurations page.
+
+* +legacy_studio.course_outline: `cms/djangoapps/contentstore/toggles.py (line 393) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L393>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Course Outline editor.
+
+* +legacy_studio.course_team: `cms/djangoapps/contentstore/toggles.py (line 431) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L431>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Course Team page.
+
+* +legacy_studio.custom_pages: `cms/djangoapps/contentstore/toggles.py (line 203) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L203>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio custom pages tab.
+
+* +legacy_studio.exam_settings: `cms/djangoapps/contentstore/toggles.py (line 70) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L70>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old proctored exam settings view.
+
+* +legacy_studio.export: `cms/djangoapps/contentstore/toggles.py (line 335) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L335>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Course Export page.
+
+* +legacy_studio.files_uploads: `cms/djangoapps/contentstore/toggles.py (line 354) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L354>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Files &amp; Uploads page.
+
+* +legacy_studio.grading: `cms/djangoapps/contentstore/toggles.py (line 278) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L278>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Course Grading page.
+
+* +legacy_studio.home: `cms/djangoapps/contentstore/toggles.py (line 184) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L184>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio logged-in landing page.
+
+* +legacy_studio.import: `cms/djangoapps/contentstore/toggles.py (line 316) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L316>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Course Import page.
+
+* +legacy_studio.logged_out_home: `cms/djangoapps/contentstore/toggles.py (line 642) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L642>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio “How it Works” page when unauthenticated
+
+* +legacy_studio.problem_editor: `cms/djangoapps/contentstore/toggles.py (line 145) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L145>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Problem component (a.k.a. CAPA/problem block) editor.
+
+* +legacy_studio.schedule_details: `cms/djangoapps/contentstore/toggles.py (line 240) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L240>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Schedule &amp; Details page.
+
+* +legacy_studio.text_editor: `cms/djangoapps/contentstore/toggles.py (line 89) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L89>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Text component (a.k.a. html block) editor.
+
+* +legacy_studio.textbooks: `cms/djangoapps/contentstore/toggles.py (line 469) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L469>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Textbooks page.
+
+* +legacy_studio.unit_editor: `cms/djangoapps/contentstore/toggles.py (line 412) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L412>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio unit editing page.
+
+* +legacy_studio.updates: `cms/djangoapps/contentstore/toggles.py (line 297) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L297>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Studio Course Updates page.
+
+* +legacy_studio.video_editor: `cms/djangoapps/contentstore/toggles.py (line 108) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/djangoapps/contentstore/toggles.py#L108>`_
+   * Default value = False
+   * Description: Temporarily fall back to the old Video component (a.k.a. video block) editor.
+
+* +send_to_submission_course.enable: `xmodule/capa/xqueue_interface.py (line 31) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/xmodule/capa/xqueue_interface.py#L31>`_
+   * Default value = False
+   * Description: Enables use of the submissions service instead of legacy xqueue for course problem submissions.
+
+Removed Feature Toggles
+-------------------------
+
+* -FEATURES['ENABLE_BLAKE2B_HASHING']: `lms/envs/common.py (line 1060) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/lms/envs/common.py#L1060>`_
+   * Description: Enables the memcache to use the blake2b hash algorithm instead of depreciated md4 for keys [output truncated, see link for full description]
+
+* -FEATURES['ENABLE_EXAM_SETTINGS_HTML_VIEW']: `cms/djangoapps/contentstore/toggles.py (line 69) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L69>`_
+   * Description: When enabled, users can access the new course authoring view for proctoring exams
+
+* -FEATURES['ENABLE_HOME_PAGE_COURSE_API_V2']: `cms/envs/common.py (line 540) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/envs/common.py#L540>`_
+   * Description: Enables the new home page course v2 API, which is a new version of the home page course [output truncated, see link for full description]
+
+* -account.redirect_to_microfrontend: `openedx/core/djangoapps/user_api/accounts/toggles.py (line 29) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/openedx/core/djangoapps/user_api/accounts/toggles.py#L29>`_
+   * Description: Supports staged rollout of a new micro-frontend-based implementation of the account page. [output truncated, see link for full description]
+
+* -block_structure.storage_backing_for_cache: `openedx/core/djangoapps/content/block_structure/config/__init__.py (line 12) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/openedx/core/djangoapps/content/block_structure/config/__init__.py#L12>`_
+   * Description: When enabled, block structures are stored in a more permanent storage, [output truncated, see link for full description]
+
+* -contentstore.enable_studio_content_api: `cms/djangoapps/contentstore/toggles.py (line 214) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L214>`_
+   * Description: Enables the new (experimental and unsafe!) Studio Content REST API for course authors,
+
+* -contentstore.new_studio_mfe.use_new_advanced_settings_page: `cms/djangoapps/contentstore/toggles.py (line 297-2) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L297>`_
+   * Description: This flag enables the use of the new studio advanced settings page mfe
+
+* -contentstore.new_studio_mfe.use_new_certificates_page: `cms/djangoapps/contentstore/toggles.py (line 497) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L497>`_
+   * Description: This flag enables the use of the new studio course certificates page mfe
+
+* -contentstore.new_studio_mfe.use_new_course_outline_page: `cms/djangoapps/contentstore/toggles.py (line 437) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L437>`_
+   * Description: This flag enables the use of the new studio course outline page mfe
+
+* -contentstore.new_studio_mfe.use_new_course_team_page: `cms/djangoapps/contentstore/toggles.py (line 477) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L477>`_
+   * Description: This flag enables the use of the new studio course team page mfe
+
+* -contentstore.new_studio_mfe.use_new_custom_pages: `cms/djangoapps/contentstore/toggles.py (line 257) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L257>`_
+   * Description: This flag enables the use of the new studio custom pages mfe
+
+* -contentstore.new_studio_mfe.use_new_export_page: `cms/djangoapps/contentstore/toggles.py (line 377) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L377>`_
+   * Description: This flag enables the use of the new studio export page mfe
+
+* -contentstore.new_studio_mfe.use_new_grading_page: `cms/djangoapps/contentstore/toggles.py (line 317) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L317>`_
+   * Description: This flag enables the use of the new studio grading page mfe
+
+* -contentstore.new_studio_mfe.use_new_group_configurations_page: `cms/djangoapps/contentstore/toggles.py (line 537) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L537>`_
+   * Description: This flag enables the use of the new studio course group configurations page mfe
+
+* -contentstore.new_studio_mfe.use_new_import_page: `cms/djangoapps/contentstore/toggles.py (line 357) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L357>`_
+   * Description: This flag enables the use of the new studio import page mfe
+
+* -contentstore.new_studio_mfe.use_new_schedule_details_page: `cms/djangoapps/contentstore/toggles.py (line 277) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L277>`_
+   * Description: This flag enables the use of the new studio schedule and details mfe
+
+* -contentstore.new_studio_mfe.use_new_textbooks_page: `cms/djangoapps/contentstore/toggles.py (line 517) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L517>`_
+   * Description: This flag enables the use of the new studio course textbooks page mfe
+
+* -contentstore.new_studio_mfe.use_new_unit_page: `cms/djangoapps/contentstore/toggles.py (line 457) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L457>`_
+   * Description: This flag enables the use of the new studio course outline page mfe
+
+* -contentstore.new_studio_mfe.use_new_updates_page: `cms/djangoapps/contentstore/toggles.py (line 337) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L337>`_
+   * Description: This flag enables the use of the new studio updates page mfe
+
+* -contentstore.new_studio_mfe.use_new_video_uploads_page: `cms/djangoapps/contentstore/toggles.py (line 417) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L417>`_
+   * Description: This flag enables the use of the new video uploads page mfe
+
+* -course_modes.use_new_track_selection: `common/djangoapps/course_modes/views.py (line 50) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/common/djangoapps/course_modes/views.py#L50>`_
+   * Description: This flag enables the use of the new track selection template for testing purposes before full rollout
+
+* -learner_profile.redirect_to_microfrontend: `openedx/features/learner_profile/toggles.py (line 12) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/openedx/features/learner_profile/toggles.py#L12>`_
+   * Description: Supports staged rollout of a new micro-frontend-based implementation of the profile page.
+
+* -new_core_editors.use_advanced_problem_editor: `cms/djangoapps/contentstore/toggles.py (line 163) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L163>`_
+   * Description: This flag enables the use of the new core problem xblock advanced editor as the default
+
+* -new_core_editors.use_new_problem_editor: `cms/djangoapps/contentstore/toggles.py (line 144) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L144>`_
+   * Description: This flag enables the use of the new core problem xblock editor
+
+* -new_core_editors.use_new_text_editor: `cms/djangoapps/contentstore/toggles.py (line 88) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L88>`_
+   * Description: This flag enables the use of the new core text xblock editor
+
+* -new_core_editors.use_new_video_editor: `cms/djangoapps/contentstore/toggles.py (line 107) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L107>`_
+   * Description: This flag enables the use of the new core video xblock editor
+
+* -new_editors.add_game_block_button: `cms/djangoapps/contentstore/toggles.py (line 175) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L175>`_
+   * Description: This flag enables the creation of the new games block
+
+* -new_studio_mfe.use_new_home_page: `cms/djangoapps/contentstore/toggles.py (line 238) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/djangoapps/contentstore/toggles.py#L238>`_
+   * Description: This flag enables the use of the new studio home page mfe
+
+* -notifications.enable_new_notification_view: `openedx/core/djangoapps/notifications/config/waffle.py (line 53) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/openedx/core/djangoapps/notifications/config/waffle.py#L53>`_
+   * Description: Waffle flag to enable new notification view
+
+* -order_history.redirect_to_microfrontend: `openedx/core/djangoapps/user_api/accounts/toggles.py (line 9) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/openedx/core/djangoapps/user_api/accounts/toggles.py#L9>`_
+   * Description: Supports staged rollout of a new micro-frontend-based implementation of the order history page.
+
+Added Settings
+---------------------
+
+* +DISABLED_ORGS_FOR_PROGRAM_NUDGE: `lms/envs/common.py (line 5390) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L5390>`_
+   * Default value = "[]"
+   * Description: List of organization codes that should be disabled
+
+* +ORA_PEER_LEASE_EXPIRATION_HOURS: `lms/envs/common.py (line 3821) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L3821>`_
+   * Default value = 8
+   * Description: Amount of time before a lease on a peer submission expires
+
+* +ORA_STAFF_LEASE_EXPIRATION_HOURS: `lms/envs/common.py (line 3826) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/lms/envs/common.py#L3826>`_
+   * Default value = 8
+   * Description: Amount of time before a lease on a staff submission expires
+
+* +LIBRARY_ENABLED_BLOCKS: `cms/envs/common.py (line 2904) <https://github.com/openedx/edx-platform/blob/b0588452088a6dd48e865f51d27e8d0e6f609bdc/cms/envs/common.py#L2904>`_
+   * Default value = "['problem', 'video', 'html', 'drag-and-drop-v2']"
+   * Description: List of block types that are ready/enabled to be created/used
+
+Removed Settings
+---------------------
+
+* -DISABLED_COUNTRIES: `lms/envs/common.py (line 5535) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/lms/envs/common.py#L5535>`_
+   * Description: List of country codes that should be disabled
+
+* -WEBPACK_CONFIG_PATH: `lms/envs/common.py (line 2827) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/lms/envs/common.py#L2827>`_
+   * Description: Path to the Webpack configuration file. Used by Paver scripts.
+
+* -DISABLED_COUNTRIES: `cms/envs/common.py (line 2940) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/envs/common.py#L2940>`_
+   * Description: List of country codes that should be disabled
+
+* -JS_ENV_EXTRA_CONFIG: `cms/envs/common.py (line 1318) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/envs/common.py#L1318>`_
+   * Description: JavaScript code can access this dictionary using ``process.env.JS_ENV_EXTRA_CONFIG`` [output truncated, see link for full description]
+
+* -WEBPACK_CONFIG_PATH: `cms/envs/common.py (line 1509) <https://github.com/openedx/edx-platform/blob/a63a6a6fbaec6bf1c234b9b26b66c7b50c00e336/cms/envs/common.py#L1509>`_
+   * Description: Path to the Webpack configuration file. Used by Paver scripts.
 
 Other Operator Changes
 ======================
@@ -36,7 +298,14 @@ Other Operator Changes
 Deprecations & Removals
 ***********************
 
-- [UPCOMING] In Ulmo, pre-design-tokens brand packages will no longer be supported. With design tokens, theme authors will instead override core Paragon tokens by defining their own JSON tokens that get deep merged alongside the core Paragon tokens, thus overriding any tokens that were defined by the theme author. See `the associated DEPR ticket for details <https://github.com/openedx/brand-openedx/issues/23>`_, and follow the :ref:`Ulmo Design Tokens` page for more detail.
+- [UPCOMING] In Ulmo, pre-design-tokens brand packages will no longer be
+  supported. With design tokens, theme authors will instead override core
+  Paragon tokens by defining their own JSON tokens that get deep merged
+  alongside the core Paragon tokens, thus overriding any tokens that were
+  defined by the theme author. See `the associated DEPR ticket for details
+  <https://github.com/openedx/brand-openedx/issues/23>`_, and follow the
+  :ref:`Ulmo Design Tokens` page for more detail. Operators will be able to try
+  out Design Tokens using the Teak Design Tokens branches (link TBD)
 
 
 Developer Experience
@@ -55,5 +324,5 @@ Known Issues
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|  TBD         |                               |                |                                |
+|  June 2025   |  BTR                          |  Teak          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
