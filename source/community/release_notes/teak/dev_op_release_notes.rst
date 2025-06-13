@@ -321,6 +321,7 @@ Other Operator Changes
         If this is your situation, no action is required.
       - Removing these lines may cause other, unanticipated failures in sandboxed code. Monitor your codejail logs and 
         failure rates when deploying this change.
+- **All MFEs have been upgraded to React 18**.  If you have forked an MFE and want to pull in the upstream changes from Teak, you will need to ensure all dependencies work with React 18.
 
 - New feature: Codejail local/remote darklaunch 
 
