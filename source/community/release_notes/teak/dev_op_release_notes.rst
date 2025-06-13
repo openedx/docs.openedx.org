@@ -407,6 +407,15 @@ Developer Experience
 Researcher & Data Experiences
 *****************************
 
+Upgrading to `Aspects v2.3.1 <https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.3.1>`_
+will give you the latest Aspects functionality with Teak. See the upgrade instructions here:
+:ref:`openedx-aspects:upgrade-aspects`.
+
+To ensure in-context analytics are enabled, be sure to rebuild your MFE image:
+
+``tutor images build mfe --no-cache``
+
+
 
 Known Issues
 ************
