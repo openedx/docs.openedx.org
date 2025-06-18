@@ -374,6 +374,50 @@ Other Operator Changes
 
       - Once behavior and performance differences are resolved, remove ``ENABLE_CODEJAIL_DARKLAUNCH`` and set ``ENABLE_CODEJAIL_REST_SERVICE`` to true. This will complete 
         the migration, and codejail executions will only be performed on the remote service.
+
+- New feature: Accredible Integration for OpenedX Credentials Badges.  Badges provide employers and peers concrete evidence of what
+  learners have accomplished in order to earn their credential and what they are now capable of. Digital badges are a great
+  way to motivate learning and display a learner's subsequent achievements.
+
+      - *Audience:* Operators and deployers who wish to issue digital badges from Accredible.
+
+      - *History:* previously Verifiable Credentials sharing and Credly integration were implemented to provide a new credentials sharing 
+        capabilities to the OpenedX ecosystem. Now we provide another integration option for Providers.
+
+      - *Purpose:* Add another badging backend to OeX Credentials.
+
+      - *Usage:* 
+
+      - For tutor based deployments, install and enable the `tutor-contrib-badges <https://github.com/raccoongang/tutor-contrib-badges/tree/teak>`_ plugin. See that plugin’s README
+        for details.
+
+      - Besides the Accredible integration, the Tutor plugin that adds and configuring features for sharing to different "providers":
+
+         - `Verifiable Credentials <https://edx-credentials.readthedocs.io/en/latest/verifiable_credentials/overview.html#>`_ with different credential stores that support standards like VC1.1, OBv3 such as `LCWallet <https://lcw.app/>`_ for example.
+
+            - program certificate
+
+            - course certificate
+
+         - Badges:
+
+            - `Credly <https://info.credly.com/>`_
+            - `Accredible <https://www.accredible.com/>`_
+
+      - To start using this feature an Accredible account is necessary.
+
+         - Register on Accredible and create your account.
+         - Create at least 1 group.
+
+      - Badges feature is optional and it is disabled by default. So, it must be enabled to be accessible.
+
+        ..code block:: python
+        :linenos:
+        # LMS service:
+        FEATURES["BADGES_ENABLED"] = True
+
+        # Credentials service:
+        BADGES_ENABLED = True
          
 
 Deprecations & Removals
