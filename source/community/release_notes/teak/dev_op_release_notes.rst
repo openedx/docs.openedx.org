@@ -443,6 +443,11 @@ Deprecations & Removals
 - `[DEPR]: Support for footer replacement via npm installing forked footers <https://github.com/openedx/frontend-component-footer/issues/459>`_
    - It is possible to work around this breaking change by also exporting your forked ``Footer`` component as ``FooterSlot`` and your forked ``StudioFooter`` component as ``StudioFooterSlot``
 
+- `[DEPR]: DISPLAY_COURSE_SOCK_FLAG <https://github.com/openedx/edx-platform/issues/36429>`_
+
+   - The DISPLAY_COURSE_SOCK_FLAG is a waffle flag that was used to determine whether verification related upsell messaging
+     should be displayed in the courseware. This data is used to determine whether the sock should be displayed in the legacy
+     courseware which is itself `deprecated <https://github.com/openedx/edx-platform/issues/35803>`_.
 
 
 Developer Experience
