@@ -64,3 +64,12 @@ Full Release Notes
 See `iOS v2.1 release notes
 <https://github.com/openedx/openedx-app-ios/releases>`_ and `Android v2.1
 release notes <https://github.com/openedx/openedx-app-android/releases>`_.
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Mobile WG                     | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    |Mobile WG                      | Sumac          |  Pass                                             |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
