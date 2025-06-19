@@ -294,6 +294,131 @@ Removed Settings
 Other Operator Changes
 ======================
 
+- In LMS and CMS, Celery now uses task protocol 2.
+   - *Action*: Any operator using custom Celery tooling should ensure it is compatible with protocol 2. For other operators, no action is required.
+   - *Background*: Celery 4.0 `switched how task messages are structured <https://docs.celeryq.dev/en/stable/history/whatsnew-4.0.html#new-protocol-highlights>`_ and
+     the new message format is called protocol 2. The version of Celery we currently use (anything >=4.0) can create and consume both protocol versions and it should
+     be safe to switch between them with zero downtime.
+
+      - By default, Celery 4.0 and higher produce messages in this format, and Celery 3.1.25 and higher can read messages in this format.
+      - edx-platform was pinned to protocol 1 `during the upgrade <https://github.com/openedx/edx-platform/pull/24916>`_ to Celery 4, presumably as a precaution. 
+        This change is the long-delayed unpinning of the protocol version so that Celery can use its default version.
+      - Operators can still override the protocol version using the Django setting ``CELERY_TASK_PROTOCOL`` although there is no guarantee that protocol 1 compatibility
+        will be preserved in the future.
+- When codejail is used by LMS and CMS, it no longer requires write access to the sandbox virtualenv ``.config`` or ``.cache`` directories.
+   - *Action*: If you run codejail, it is recommended that you remove write permissions to ``<SANDENV>/.config`` and ``<SANDENV>/.cache`` from your AppArmor profile,
+     if possible.
+   - *Background*: Running ``import matplotlib`` in a custom Python-evaluated XBlock in Sumac and earlier required the AppArmor profile to allow write access to one of 
+     these directories. In Teak, `edxapp now sets <https://github.com/openedx/edx-platform/pull/36456>`_ the `MPLCONFIGDIR` environment variable for inputs sent to
+     codejail, so matplotlib will now write to the ``./tmp/`` subdirectory inside the codejail-created sandbox.
+
+      - You should be able to identify these exclusions by looking for lines like ``/home/sandbox/.config/ wrix``, although the exact parent directory may vary. Other
+        temporary directories may have been allowed instead, such as ``/tmp``. Any such write permission to a global directory is inadvisable, since it reduces the 
+        ability of codejail to perform effective sandboxing. Removing these lines in Teak will (appropriately) reduce the permissions of sandboxed code. They should 
+        not be removed before Teak, however, as this will cause matplotlib to fail to load.
+      - Operators who have not previously needed to support matplotlib in instructor or learner code may not have these 
+        exclusions in their AppArmor configurations.
+        If this is your situation, no action is required.
+      - Removing these lines may cause other, unanticipated failures in sandboxed code. Monitor your codejail logs and 
+        failure rates when deploying this change.
+- **All MFEs have been upgraded to React 18**.  If you have forked an MFE and want to pull in the upstream changes from Teak, you will need to ensure all dependencies work with React 18.
+
+- MFE slots now follow a versioned naming convention, for example, ``footer_slot`` is now ``org.openedx.frontend.layout.footer.v1``.
+
+  - Aliases are present for existing slots, and will be throughout the lifecycle of the available slot. Any version bump to a slot will have an associated DEPR ticket.
+  - See the `slot renaming ADR <https://github.com/openedx/frontend-plugin-framework/blob/master/docs/decisions/0003-slot-naming-and-life-cycle.rst>`_ for more details on the new naming scheme. All new slots will use this naming scheme, and developers making new slots should pay attention to the ADR.
+
+- New feature: Codejail local/remote darklaunch 
+
+   - *Audience:* Deployers who support codejail (e.g. custom Python-graded problem blocks) and are not already using a 
+     remote codejail service.
+
+      - This is not relevant to Tutor, which does not support local codejail.
+   - *Background:* Historically, codejail execution has been performed on the same hosts as LMS and CMS, aka “local 
+     codejail”. There is a new 
+     `codejail-service <https://github.com/openedx/codejail-service>`_ that allows performing this code execution 
+     remotely. This allows for additional security
+     restrictions, and the new code includes several security enhancements.
+   - *Purpose:* The darklaunch feature allows operators to gain confidence in preparing for a switch from local to remote 
+     codejail. When enabled, it can send all 
+     codejail executions to both local and remote codejail, while only using the results of the local execution and 
+     suppressing all errors from the remote side. 
+     This allows operators to discover issues in the remote service’s configuration under real production traffic
+     conditions.
+
+   - *Usage:* To use darklaunch to switch from local to remote:
+
+      - Create a codejail-service cluster
+      - Configure LMS and CMS to call it by configuring ``CODE_JAIL_REST_SERVICE_HOST`` but not ``ENABLE_CODEJAIL_REST_SERVICE`` (which must remain disabled for 
+        the moment).
+      - Begin the dark launch by setting ``ENABLE_CODEJAIL_DARKLAUNCH`` to true. Traffic will begin flowing to the new service, but the results will be ignored.
+         - The only user-visible impact should be that codejail executions take twice as long, as the local and remote executions are performed serially.
+      - Observe telemetry to discover errors and behavior mismatches.
+
+         - Mismatches can include:
+
+            - One side failed to execute entirely (“unexpected error”) while the other did not. This might include 
+              network issues.
+            - One side returned an error from the submitted code, while the other did not, or produced a different error.
+            - Both sides succeeded, but the returned globals dictionaries differed.
+
+         - Error and warning logs from ``safe_exec.py`` in edxapp containing ``codejail darklaunch`` will tell you about configuration problems, unexpected errors, and
+           mismatches in behavior between the two environments.
+         - Span-based telemetry (New Relic, Datadog, etc.) can be used to track rates of mismatches and break them down by course ID and type. See 
+           ``set_custom_attribute`` calls starting with ``codejail``. in 
+           `safe_exec.py <https://github.com/openedx/edx-platform/blob/release/teak.master/xmodule/capa/safe_exec/safe_exec.py>`_  
+           for available attributes. The local-only, remote-only and local/remote darklaunch calls all have different span names as well, e.g. 
+           ``safe_exec.remote_exec_darklaunch``.
+         - Use ``CODEJAIL_DARKLAUNCH_EMSG_NORMALIZERS`` to normalize away spurious mismatches between the environments. (Not all mismatches can be readily ignored, such 
+           as ordering differences in sets.)
+
+      - Once behavior and performance differences are resolved, remove ``ENABLE_CODEJAIL_DARKLAUNCH`` and set ``ENABLE_CODEJAIL_REST_SERVICE`` to true. This will complete 
+        the migration, and codejail executions will only be performed on the remote service.
+
+- New feature: Accredible Integration for OpenedX Credentials Badges.  Badges provide employers and peers concrete evidence of what
+  learners have accomplished in order to earn their credential and what they are now capable of. Digital badges are a great
+  way to motivate learning and display a learner's subsequent achievements.
+
+      - *Audience:* Operators and deployers who wish to issue digital badges from Accredible.
+
+      - *History:* previously Verifiable Credentials sharing and Credly integration were implemented to provide a new credentials sharing 
+        capabilities to the OpenedX ecosystem. Now we provide another integration option for Providers.
+
+      - *Purpose:* Add another badging backend to OeX Credentials.
+
+      - *Usage:* 
+
+      - For tutor based deployments, install and enable the `tutor-contrib-badges <https://github.com/raccoongang/tutor-contrib-badges/tree/teak>`_ plugin. See that plugin’s README
+        for details.
+
+      - Besides the Accredible integration, the Tutor plugin that adds and configuring features for sharing to different "providers":
+
+         - `Verifiable Credentials <https://edx-credentials.readthedocs.io/en/latest/verifiable_credentials/overview.html#>`_ with different credential stores that support standards like VC1.1, OBv3 such as `LCWallet <https://lcw.app/>`_ for example.
+
+            - program certificate
+
+            - course certificate
+
+         - Badges:
+
+            - `Credly <https://info.credly.com/>`_
+            - `Accredible <https://www.accredible.com/>`_
+
+      - To start using this feature an Accredible account is necessary.
+
+         - Register on Accredible and create your account.
+         - Create at least 1 group.
+
+      - Badges feature is optional and it is disabled by default. So, it must be enabled to be accessible.
+
+        ..code block:: python
+        :linenos:
+        # LMS service:
+        FEATURES["BADGES_ENABLED"] = True
+
+        # Credentials service:
+        BADGES_ENABLED = True
+         
 
 Deprecations & Removals
 ***********************
@@ -306,6 +431,23 @@ Deprecations & Removals
   <https://github.com/openedx/brand-openedx/issues/23>`_, and follow the
   :ref:`Ulmo Design Tokens` page for more detail. Operators will be able to try
   out Design Tokens using the Teak Design Tokens branches (link TBD)
+- `[DEPR]: block_structure.storage_backing_for_cache in edx-platform <https://github.com/openedx/public-engineering/issues/32>`_ This is a simplification to how course content is cached. It should be invisible to all end users.
+- The flag ``ENABLE_BLAKE2B_HASHING`` was removed. blake2b hashing is now used for caching instead of the deprecated md4 hashing. After upgrading, it’s possible that performance could be degraded as the cache rebuilds. 
+- `[DEPR]: django-oauth2-provider (DOP) related tables <https://github.com/openedx/public-engineering/issues/82>`_
+
+   - For LMS and CMS, there is a new script to 
+     `clean up old DOP-related authentication tables. <https://github.com/edx/configuration/blob/master/util/drop_dop_tables/drop_dop_tables.py>`_
+   - If you have an old installation of the Open edX platform (Palm or later), you may have many outdated/unused 
+     authentication-related tables that can lead to confusion when looking at the database.
+   - The script is not related to Teak other than it now being available, and should be ok to run on any installation using Palm, Redwood, or Sumac.
+- `[DEPR]: Support for footer replacement via npm installing forked footers <https://github.com/openedx/frontend-component-footer/issues/459>`_
+   - It is possible to work around this breaking change by also exporting your forked ``Footer`` component as ``FooterSlot`` and your forked ``StudioFooter`` component as ``StudioFooterSlot``
+
+- `[DEPR]: DISPLAY_COURSE_SOCK_FLAG <https://github.com/openedx/edx-platform/issues/36429>`_
+
+   - The DISPLAY_COURSE_SOCK_FLAG is a waffle flag that was used to determine whether verification related upsell messaging
+     should be displayed in the courseware. This data is used to determine whether the sock should be displayed in the legacy
+     courseware which is itself `deprecated <https://github.com/openedx/edx-platform/issues/35803>`_.
 
 
 Developer Experience
@@ -313,6 +455,15 @@ Developer Experience
 
 Researcher & Data Experiences
 *****************************
+
+Upgrading to `Aspects v2.3.1 <https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.3.1>`_
+will give you the latest Aspects functionality with Teak. See the upgrade instructions here:
+:ref:`openedx-aspects:upgrade-aspects`.
+
+To ensure in-context analytics are enabled, be sure to rebuild your MFE image:
+
+``tutor images build mfe --no-cache``
+
 
 
 Known Issues
