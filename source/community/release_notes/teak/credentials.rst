@@ -38,7 +38,7 @@ learning. Learn more about Accredible on the `Accredible features page`_.
 Enabling Badges
 ****************
 
-See :ref:`Setting Up Badges` for instructions on how to set up Credly and
+See :ref:`Setting Up Badges` and :ref:`Accredible Badging Configuration <Accredible Badging Configuration>` for instructions on how to set up Credly and
 Accredible accounts.
 
 Site operators will need to integrate the badging service with their Open edX
