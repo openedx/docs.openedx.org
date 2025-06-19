@@ -477,9 +477,20 @@ Upgrading to `Aspects v2.3.1 <https://github.com/openedx/tutor-contrib-aspects/r
 will give you the latest Aspects functionality with Teak, including :ref:`In-Context Analytics (Teak)`. See the upgrade instructions here:
 :ref:`openedx-aspects:upgrade-aspects`.
 
-To ensure in-context analytics are enabled, be sure to rebuild your MFE image:
+Next, be sure to:
 
-``tutor images build mfe --no-cache``
+* Enable the ``ASPECTS_ENABLE_STUDIO_IN_CONTEXT_METRICS`` toggle - Enables or
+  disables in-context metrics.
+
+* Ensure this setting: ``ASPECTS_IN_CONTEXT_DASHBOARDS`` is populated - A
+  dictionary mapping block types to in-context dashboards. You can use this
+  option to remove or replace the in-context dashboard for a block type. The key
+  course defines the in-context dashboard for course overview.
+
+* And finally, to ensure in-context analytics are enabled, be sure to rebuild
+  your MFE image::
+
+   tutor images build mfe --no-cache
 
 Mobile Updates
 ***************
