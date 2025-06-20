@@ -1,8 +1,10 @@
 .. _Course Policies:
 
 #################################
-Course Policies
+Create OLX Course Policies
 #################################
+
+.. tags:: educator, how-to
 
 You create a course policy file to specify metadata about your course.
 
@@ -156,3 +158,26 @@ follows.
             }
         ]
     }
+
+.. seealso::
+
+  :ref:`Course Asset Policy` (reference) 
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

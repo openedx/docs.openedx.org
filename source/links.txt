@@ -24,13 +24,13 @@
 
 .. _2014.xml: https://github.com/openedx/edx-platform/blob/master/common/test/data/manual-testing-complete/course/2014.xml
 
-.. _edX-Insider: https://github.com/pmitros/edX-Insider
+.. _olx-example: https://github.com/openedx/training-courses/tree/main/olx-example
 
-.. _Ongoing: https://github.com/pmitros/edX-Insider/tree/master/Ongoing
+.. _olx-example course: https://github.com/openedx/training-courses/tree/main/olx-example/course
 
-.. _Week_overview.html: https://github.com/pmitros/edX-Insider/blob/master/Ongoing/html/Week_overview.html
+.. _Week_overview.html: https://github.com/openedx/training-courses/blob/main/olx-example/course/html/Week_overview.html
 
-.. _course.xml: https://github.com/pmitros/edX-Insider/blob/master/Ongoing/course.xml
+.. _course.xml: https://github.com/openedx/training-courses/blob/main/olx-example/course/course.xml
 
 .. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
 
@@ -39,6 +39,8 @@
 .. THIRD PARTY LINKS
 
 .. _Axim Collaborative: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3554082883/Axim+Collaborative
+
+.. _Axim request: https://github.com/openedx/axim-engineering/issues/new/choose
 
 .. _Product Working Group: https://openedx.atlassian.net/wiki/spaces/COMM/pages/3449028609/Product+Working+Group
 

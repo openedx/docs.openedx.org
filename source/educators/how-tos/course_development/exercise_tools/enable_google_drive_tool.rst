@@ -10,6 +10,9 @@ Google Drive tool in Studio or OLX (open learning XML).
 
 Enable the Google Drive Files Tool in Studio
 *************************************************
+.. note::
+
+    This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
 
 To enable the Google Drive tool in Studio, you add the ``"google-document"``
 key to the **Advanced Module List** on the **Advanced Settings** page. For

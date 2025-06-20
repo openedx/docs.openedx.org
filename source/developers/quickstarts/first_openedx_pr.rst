@@ -1,5 +1,9 @@
+.. _qs Dev First PR:
+
 Quick Start: First Open edX Pull Request
 ########################################
+
+.. tags:: developer, quickstart
 
 .. contents:: Steps to Making your First Pull Request
    :local:
@@ -18,7 +22,7 @@ These include:
 * Setting up your development environment;
 * Making your first commit;
 * Submitting your first pull request (PR);
-* `Signing your Contributor License Agreement (CLA).`_
+* :ref:`Signing your Contributor License Agreement (CLA) <Signing CLA>`
 
 We assume you are comfortable with the command line, and understand the basics
 of using Git, GitHub, Docker, and python basics.
@@ -28,7 +32,9 @@ of using Git, GitHub, Docker, and python basics.
    :doc:`Quickstart guide for plug-in developers <setup_a_plugin_dev_environment>`
    or our :doc:`Quickstart for frontend developers <setup_an_mfe_dev_environment>`.
 
-.. _Signing your Contributor License Agreement (CLA).: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
+.. contents::
+ :local:
+ :depth: 1
 
 Before you start
 ****************
@@ -281,7 +287,7 @@ Working with the Legacy Learner Dashboard
 On our Tutor dev environment, it is located at
 ``http://local.openedx.io:8000/dashboard``
 
-.. image:: /_images/developers_quickstart_first_pr/learner_dashboard_before.png
+.. image:: /_images/developers_quickstarts/learner_dashboard_before.png
    :alt: Learner Dashboard page without any of our changes.
 
 As an exercise, you're going to make a small edit to the top of this page. This
@@ -304,7 +310,7 @@ going to add a simple welcome message to the ``dashboard-notifications`` div::
 Feel free to replace the welcome text with any message you'd like and save the
 file. When you reload it in your browser, you should see something like this:
 
-.. image:: /_images/developers_quickstart_first_pr/learner_dashboard_after.png
+.. image:: /_images/developers_quickstarts/learner_dashboard_after.png
    :alt: Learner Dashboard page after we add the welcome message.
 
 Standard Operating Procedure For Backend or Frontend Changes
@@ -319,7 +325,7 @@ branch with the name ``developer_quickstart``::
     git checkout -b developer_quickstart
 
 Then we can create the actual commit. Note that Open edX commit messages should
-follow our `conventional commit <https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0051-bp-conventional-commits.html>`_
+follow :doc:`openedx-proposals:best-practices/oep-0051-bp-conventional-commits`
 practices. In our case, we're making a new feature, so our commit message must
 be prefixed with "feat:" like so::
 
@@ -336,7 +342,7 @@ If you get a ``fatal: Authentication failed`` error, authenticate Git Hub by run
 
    gh auth login
 
-Learn more about authentication `here <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>`_.
+`Learn more about authentication <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>`_.
 
 
 Create A Pull Request
@@ -344,18 +350,18 @@ Create A Pull Request
 
 Go to your fork.
 
-https://github.com/<your_github_username>/edx-platform
+``https://github.com/<your_github_username>/edx-platform``
 
 At the top of the page you'll see a section that will suggest that you make a
 new pull request.  Go ahead and click the big green button.
 
-.. image:: /_images/developers_quickstart_first_pr/new_pull_request_suggestion.png
+.. image:: /_images/developers_quickstarts/new_pull_request_suggestion.png
    :alt: Screenshot of the Review and Create Pull Request button.
 
 This will bring up a form which you don't need to make any changes in for now.
 Go ahead hit "Create Pull Request" again.
 
-.. image:: /_images/developers_quickstart_first_pr/pull_request_form.png
+.. image:: /_images/developers_quickstarts/pull_request_form.png
    :alt: Screenshot of the Pull Request Form with "Create Pull Request" highlighted.
 
 Congratulations, you have made a new pull request for a change against the
@@ -376,15 +382,15 @@ changes as is and merge them.
 .. note::
    .. include:: /documentors/how-tos/reusable_content/sign_agreement.txt
 
-If you are now looking for something to work on, please see `How to start contributing to the Open edX code base`_.
+If you are now looking for something to work on, please see :ref:`qs Dev Contributing`.
 
-If you need more help or run into issues, check out the :doc:`/other/getting_help`
+If you need more help or run into issues, check out the :ref:`Getting Help with Open edX`
 section of the documentation for links to some places where you could get help.
 
 Maintenance Chart
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2025-03-19   | e0d (Ed Zarecor)              |                | Tutor dev locally              |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+-----------------------------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release                         |Test situation                  |
++--------------+-------------------------------+-----------------------------------+--------------------------------+
+| 2025-03-19   | e0d (Ed Zarecor)              | master/main, on Tutor dev locally | Pass                           |
++--------------+-------------------------------+-----------------------------------+--------------------------------+

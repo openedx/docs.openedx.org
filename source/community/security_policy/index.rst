@@ -28,3 +28,10 @@ Out of Scope
 ============
 
 There are many sites powered by the Open edX platform. If you have found a vulnerability that is specific to an Open edX deployment please contact the operators of that site directly.
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|              |                               |                |                                                   |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

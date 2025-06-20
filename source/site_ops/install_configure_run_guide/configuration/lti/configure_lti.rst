@@ -12,17 +12,12 @@ create OAuth1 credentials, and then configure your edX instance to allow
 access. Each external LMS that you :ref:`configure as a tool consumer
 <Configure the Tool Consumer>` must have separate credentials.
 
-.. Commenting out the following option until we understand it better, per Dave Ormsbee - Alison 8 Sep 15
-
-.. While each external LMS that you configure as a tool consumer must have separate credentials, you can also choose to create and configure more than one set of credentials for each system.
-
-.. For example, you can configure a single set of credentials for your campus LMS, or you can configure unique credentials for every course that embeds edX content on that remote LMS. The first approach results in faster configuration time. However, the second approach can lessen the disruption and reconfiguration that might result if you have to revoke access for a single course at a later time.
 
 After you complete the configuration of a tool consumer on your edX system, you
 can add the consumer credentials to your external LMS. For examples of how
 course teams might set up a course on an external LMS as a consumer of edX
 course content, see :ref:`Using Open edX as an LTI Tool
-Provider` in the *Building and Running an edX Course* guide.
+Provider` in the *Building and Running an Open edX Course* guide.
 
 .. _Configure the Tool Consumer:
 
@@ -103,7 +98,10 @@ follow these steps.
 
 #. Select **Save** at the bottom of the page.
 
-.. include:: /links.txt
+.. seealso::
+
+  :ref:`Configuring an edX Instance as an LTI Tool Provider`
+
 
 
 **Maintenance chart**
@@ -111,5 +109,7 @@ follow these steps.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-06-04   | OpenCraft                     | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
+
+.. include:: /links.txt

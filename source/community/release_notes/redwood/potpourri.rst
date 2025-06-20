@@ -78,3 +78,12 @@ running/delivering a course, but restricts access to the course content itself.
 
 
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2024-06-01    |Docs WG                        | Redwood        |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+

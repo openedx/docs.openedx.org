@@ -15,3 +15,11 @@ for more detail.
 .. include:: ../redwood/sidebar_nav.rst
     :start-after: sidebar_nav_issues_marker
     :end-before: sidebar_nav_content_marker
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|  2025-04-15  | sarina                        | Sumac          |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -1,13 +1,9 @@
 .. _Determine Content Addresses:
 
-#######################################################################
 Determine Content Addresses when using Open edX as an LTI Provider
 #######################################################################
 
 .. tags:: educator, how-to
-
-.. note:: This feature was a closed pilot experiment. This feature is not
- supported for new users.
 
 To include the content of an existing course in another system, you use the Open edX
 LMS to find the location identifiers for the content you want to include. You
@@ -21,9 +17,11 @@ You might find using a tool like a spreadsheet helpful as a way to organize the
 course ID and each of the usage IDs that correspond to the course content you
 want to include in an external LMS.
 
+See the :ref:`MITx LTI Converter Tool` section below for a handy way of
+generating these LTI URLs.
+
 .. _Find the Course ID:
 
-********************
 Find the Course ID
 ********************
 
@@ -52,7 +50,6 @@ The same course ID applies to every item of content in the course.
 
 .. _Finding the Usage ID for Course Content:
 
-****************************************
 Finding the Usage ID for Course Content
 ****************************************
 
@@ -107,7 +104,6 @@ To find the usage ID for a subsection, you
 
 .. _View Staff Debug Info for the Usage ID:
 
-==========================================
 View Staff Debug Info for the Usage ID
 ==========================================
 
@@ -140,7 +136,6 @@ For more information, see :ref:`Guide to Staff Debug Info`.
 
 .. _View the Page Source for the Usage ID:
 
-==========================================
 View the Page Source for the Usage ID
 ==========================================
 
@@ -182,7 +177,7 @@ If you are using a spreadsheet to organize your location identifiers, you can
 select the usage ID value within the quotation marks or ``&#34;`` ISO codes,
 and then copy and paste it into the spreadsheet.
 
-************************
+
 Constructing the LTI URL
 ************************
 
@@ -207,6 +202,33 @@ LTI URLs for Text components include "html+block" or "html", as follows.
 
   ``https://openedx-lti.org/lti_provider/courses/course-v1:OpenedX+01-2024+2024-1/block-v1:OpenedX+01-2024+2024-1+type@html+block@f9f3a25e7bab46e583fd1fbbd7a2f6a0``
 
+
+.. _MITx LTI Converter Tool:
+
+MITx LTI Converter Tool
+************************
+
+Kaleb Abebe at MITx has created a useful online tool for generating LTI URLs.
+This will work for any site, not just MITx, and has been provided by Kaleb for
+community usage.
+
+#. Visit the `MITx-Canvas URL Converter
+   <https://kalebabebe.github.io/mitx-canvas/>`_ (`source code here
+   <https://github.com/kalebabebe/mitx-canvas>`_)
+
+#. Copy the full site URL for the content you want to use for LTI reuse, for
+   example,
+   ``https://apps.teak.demo.edly.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@a3ada3c77ab74014aa620f3c494e5558``
+
+#. Paste these URLs into the tool, one per line.
+
+#. Click :guilabel:`Convert` to generate the new URLs for use in Canvas or
+   another LTI provider. You will get a result such as
+   ``https://apps.teak.demo.edly.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@a3ada3c77ab74014aa620f3c494e5558``.
+
+#. Copy the converted URLs and use them in :ref:`Canvas <Open edX as an LTI
+   Provider to Canvas>` or another LTI consumer.
+
 .. seealso::
  
 
@@ -214,11 +236,11 @@ LTI URLs for Text components include "html+block" or "html", as follows.
 
  :ref:`Create a Duplicate Course for LTI use` (how-to)
 
- :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
+ :ref:`Planning for Content Reuse (LTI) <Planning for Content Reuse>` (reference)
 
- :ref:`Example: Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
+ :ref:`Example - Open edX as an LTI Provider to Canvas <Open edX as an LTI Provider to Canvas>` (reference)
 
- :ref:`Example: edX as an LTI Provider to Blackboard Provider <Open edX as an LTI Provider to Blackboard>` (reference)
+ :ref:`Example - edX as an LTI Provider to Blackboard Provider <Open edX as an LTI Provider to Blackboard>` (reference)
 
 
 
@@ -228,5 +250,5 @@ LTI URLs for Text components include "html+block" or "html", as follows.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

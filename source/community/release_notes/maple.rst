@@ -403,3 +403,13 @@ After a year of diligently working to overhaul the learning sequence experience 
 Using the React MFE allows for a richer learner experience by reducing course load-time and vastly improving the mobile-web experience. Additionally, the new experience supports learners by increasing internal development speeds which allows for greater feature development. By breaking down the courseware and reducing dependency, developers can more easily iterate in this area of the platform. Today, we see the benefits of this infrastructure change to the learning sequence experience contribute to the release of several projects and experiments.
 
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

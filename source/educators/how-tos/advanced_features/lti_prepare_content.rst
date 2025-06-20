@@ -5,8 +5,6 @@ Create a Duplicate Course for LTI use
 
 .. tags:: educator, how-to
 
-.. warning:: This feature was a closed pilot experiment. This feature is poorly documented and may not work properly.
-
 Before you create a duplicate course, be sure to check with your DevOps team
 to determine the website that hosts your organization's courses for LTI use.
 
@@ -24,8 +22,6 @@ To create the duplicate course, follow these steps.
 
 #. In the duplicate course, import the tar.gz file you exported in step 1.
    For more information, see :ref:`Import a Course`.
-
-.. future: add re-run as an option for sites that host courses for LTI on the same instance (edit from Mark, Phil says re-run should work). - Alison 1 Sep 2015
 
 
 Verify Content Status
@@ -74,5 +70,5 @@ steps.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

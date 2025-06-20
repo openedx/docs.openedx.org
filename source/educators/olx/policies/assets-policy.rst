@@ -1,8 +1,10 @@
 .. _Course Asset Policy:
 
-#################################
-Course Asset Policy
-#################################
+#####################################
+Create the Course Asset Policy in OLX
+#####################################
+
+.. tags:: educator, how-to
 
 You create an asset policy file to provide details of the assets used in your
 course. Assets can include image files, textbooks, handouts, and supporting
@@ -97,3 +99,29 @@ The following example shows the JSON policy for one image file.
                         ]
             }
     }
+
+
+.. seealso::
+
+  :ref:`Add Course Assets` (reference)
+
+  :ref:`Course Assets in OLX <Course Assets>` (how-to) 
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

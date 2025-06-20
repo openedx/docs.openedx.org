@@ -1,5 +1,7 @@
-Getting Help
-############
+.. _Getting Help with Open edX:
+
+Getting Help with Open edX
+###########################
 
 .. note::
 
