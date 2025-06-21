@@ -12,9 +12,9 @@ migrations, and other changes and updates to the Open edX platform.
 .. toctree::
     :maxdepth: 2
 
-    Sumac: The Current Release <sumac>
-    Teak: June 2025 Release <teak>
+    Teak: The Current Release <teak>
     Ulmo: December 2025 Release <ulmo>
+    Verawood: June 2026 Release <verawood>
 
 .. toctree::
     :maxdepth: 1
