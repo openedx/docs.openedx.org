@@ -334,27 +334,42 @@ Links within a document
 Links between documents
 =======================
 
+.. warning::
+
+   Previously, we recommended using the ``:doc:`` directive to link between
+   documents. However, ``:doc:`` is fragile, and can break when files are
+   reorganized and renamed, whereas references generally follow the text to
+   other files as reorganization happens. Thus it is strongly recommended to use
+   ``:ref:`` only to cross-link between documents, even those in other docs
+   projects.
+
 .. tab-set::
 
    .. tab-item:: RST
 
       .. code-block:: RST
 
-         Link to :doc:`file_b` in the same folder or :doc:`../file_c` in a different
-         folder or doc:`/file_d` relative to the root of the project.
+         Link to :ref:`reference in another file`, where another file has a location marked as such:
 
-         By default it will use the title of the doc as the link text but you can
-         override that with doc:`other text </file_d>` if you want.
+         .. _reference to another file:
+
+         Link to :ref:`openedx-proposals:OEP-51 Conventional Commits` to link to
+         a reference in another "book" (Open edX documentation project). The
+         full list of available books can be found in the root file conf.py, in
+         the "intersphinx_mapping" section, for example, "openedx-events" or "openedx-aspects".
 
    .. tab-item:: Markdown
 
       .. code-block:: markdown
 
-         Link to {doc}`file_b` in the same folder or {doc}`../file_c` in a different
-         folder or {doc}`/file_d` relative to the root of the project.
+         Link to {ref}`reference in another file`, where another file has a location marked as such:
 
-         By default it will use the title of the doc as the link text but you can
-         override that with {doc}`other text </file_d>` if you want.
+         .. _reference to another file:
+
+         Link to {ref}`openedx-proposals:OEP-51 Conventional Commits` to link to
+         a reference in another "book" (Open edX documentation project). The
+         full list of available books can be found in the root file conf.py, in
+         the "intersphinx_mapping" section, for example, "openedx-events" or "openedx-aspects".
 
 
 .. _RST Directives:
