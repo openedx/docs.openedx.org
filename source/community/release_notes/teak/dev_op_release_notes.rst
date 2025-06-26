@@ -475,7 +475,7 @@ Researcher & Data Experiences
 
 Upgrading to `Aspects v2.3.1 <https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.3.1>`_
 will give you the latest Aspects functionality with Teak, including :ref:`In-Context Analytics (Teak)`. See the upgrade instructions here:
-:ref:`openedx-aspects:upgrade-aspects`.
+:doc:`openedx-aspects:technical_documentation/how-tos/upgrade`.
 
 Next, be sure to:
 
