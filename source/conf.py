@@ -128,7 +128,7 @@ intersphinx_mapping = {
         None,
     ),
     "edx-django-utils": (
-        f"https://docs.openedx.org/projects/edx-django-utils/{rtd_language}/{rtd_version}",
+        f"https://docs.openedx.org/projects/edx-django-utils/{rtd_language}/latest",
         None,
     ),
     "credentials": (
