@@ -120,7 +120,7 @@ intersphinx_mapping = {
         None,
     ),
     "openedx-events": (
-        f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/latest",
+        f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/{rtd_version}",
         None,
     ),
     "openedx-filters": (
