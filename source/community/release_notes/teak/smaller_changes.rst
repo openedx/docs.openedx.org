@@ -14,6 +14,8 @@ The “Preview” button in Studio now uses the Learning MFE rather than the leg
 experience. This will improve your ability to understand how the content you
 author will be seen by learners in your course.
 
+.. _Studio Changes (Teak):
+
 Studio UI Modernization
 ************************
 
