@@ -95,7 +95,7 @@ unclear to learners.
 
 For more detailed information about each of the charts and tables provided
 out-of-the-box, please visit
-LINK TBD.
+:doc:`openedx-aspects:reference/in_context_dashboards`.
 
 
 **Maintenance chart**
