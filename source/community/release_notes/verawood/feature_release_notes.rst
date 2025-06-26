@@ -1,21 +1,18 @@
-.. _Ulmo Product Notes:
+.. _Verawood Product Notes:
 
-Open edX Ulmo Release - Product Release Notes
-#############################################
+Open edX Verawood Release - Product Release Notes
+##################################################
 
-*Releasing December, 2025!*
+*Releasing June, 2026!*
 
 .. toctree::
    :maxdepth: 1
 
-   ulmo_mobile_updates
-   design_tokens
    stay_up_to_date
-
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
-in the :ref:`Ulmo Dev Notes`.
+in the :ref:`Verawood Dev Notes`.
 
 
 **Maintenance chart**
