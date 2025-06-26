@@ -36,6 +36,8 @@ releases will include the ability to create and reuse units, subsections and
 sections, and to import content or courses into Libraries.
 
 
+.. _Difference between legacy and new libraries:
+
 Key changes: What's the difference between the legacy Libraries and the new Libraries?
 **************************************************************************************
 
@@ -117,3 +119,15 @@ Migration of Legacy Libraries
 The Legacy Libraries feature will be supported through Teak, moving to
 unsupported in Ulmo. Teak will include a one-click migration feature that will
 make it easy to convert a Legacy Library into the new Library interface.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Data WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-15    |Libraries Team                 | Sumac          |  Pass                                             |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

@@ -140,3 +140,15 @@ subject of “factoring binomial equations”. When all of the relevant videos a
 tagged for “factoring binomial equations”, authors can conduct a search and
 easily find this content. If they wish to reuse a particular video, they can
 then copy it and paste it into any other course.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2024-06-01    |Docs WG                        | Redwood        |  Pass                                             |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

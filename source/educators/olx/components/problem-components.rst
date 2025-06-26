@@ -1,8 +1,10 @@
 .. _Problem Components:
 
 #################################
-Problem Components
+Problem Components in OLX
 #################################
+
+.. tags:: educator, reference
 
 The problem component allows you to add interactive exercises to the verticals
 in your course. You can add many different types of exercises and problems.
@@ -315,3 +317,25 @@ content libraries. For more information, see
 .. include:: /educators/references/course_development/adding_tooltips.rst
   :start-after: .. START ADDING TOOLTIPS
   :end-before: .. END ADDING TOOLTIPS
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Components and Activities TOC` (reference)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

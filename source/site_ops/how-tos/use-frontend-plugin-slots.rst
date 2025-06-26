@@ -13,13 +13,13 @@ empty, existing solely to be a placeholder for optional elements.
 The basic procedure for replacing a slot in a production Tutor deployment is as follows:
 
 #. Find the slot(s) you wish to customize by visiting the relevant
-   `/src/plugin-slots` page of the MFE you wish to customize (for example, see
+   ``/src/plugin-slots`` page of the MFE you wish to customize (for example, see
    the `Learner Dashboard MFE slots documentation
    <https://github.com/openedx/frontend-app-learner-dashboard/tree/master/src/plugin-slots>`_)
 
-#. Follow the `Tutor MFE instructions <https://github.com/overhangio/tutor-mfe/tree/v19.0.0?tab=readme-ov-file#using-frontend-plugin-slots>`_ to `create a Tutor plugin <https://docs.tutor.edly.io/tutorials/plugin.html>`_ that configures `env.config.jsx` to use the slot you selected above.
+#. Follow the `Tutor MFE instructions <https://github.com/overhangio/tutor-mfe/tree/v19.0.0?tab=readme-ov-file#using-frontend-plugin-slots>`_ to `create a Tutor plugin <https://docs.tutor.edly.io/tutorials/plugin.html>`_ that configures ``env.config.jsx`` to use the slot you selected above.
 
-#. After enabling your Tutor plugin, rebuild the MFE image via the `tutor images build mfe` command.  Then restart the MFE container with `tutor local stop mfe && tutor local start -d mfe`. 
+#. After enabling your Tutor plugin, rebuild the MFE image via the ``tutor images build mfe`` command.  Then restart the MFE container with ``tutor local stop mfe && tutor local start -d mfe``. 
 
 #. After restarting, navigate to the page where the plugin slot is exposed, where you should be able to see the custom content your plugin provides.
 

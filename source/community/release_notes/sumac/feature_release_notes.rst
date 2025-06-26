@@ -9,6 +9,7 @@ Open edX Sumac Release - Product Release Notes
    customizing_learner_dashboard
    aspects_comp_dashboard
    default_sidebar_nav
+   sumac_mobile_updates
    sumac_lti_cert
 
 Information for site operators and developers, including information on how to
@@ -19,3 +20,15 @@ in the :doc:`dev_op_release_notes`.
    :hidden:
 
    header_plugin_example_code
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | BTR                           | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-15    | sarina                        | Sumac          |  Pass                                             |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
+

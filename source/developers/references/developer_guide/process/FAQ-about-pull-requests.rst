@@ -1,3 +1,5 @@
+.. _FAQ PR Process:
+
 ######################################################
 Overview of Review Process for Community Contributions
 ######################################################
@@ -6,7 +8,7 @@ Community contributions, in the form of pull requests, go through a process
 shepherded by the `Community Contribution Project Managers`_. These
 contributions are sometimes referred to as "OSPRs" (open source pull requests).
 
-See the :doc:`pull-request-statuses` if you're looking for more information about
+See the :ref:`Pull Request Status Guide` if you're looking for more information about
 what the various statuses and labels of your pull request (PR) mean.
 
 .. contents::

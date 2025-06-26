@@ -26,3 +26,12 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
     Redwood Developer & Operator Release Notes <redwood/dev_op_release_notes>
 
 .. _Open edX Platform: https://openedx.org
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2024-06-01    |Docs WG                        | Redwood        |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+

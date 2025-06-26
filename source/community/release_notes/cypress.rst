@@ -140,11 +140,11 @@ in this release.
 
 Previously, course teams could use Studio as a tool consumer: course teams
 could set up an LTI component to embed external tools, such as learning
-applications and textbooks, into an edX course.
+applications and textbooks, into an Open edX course.
 
 Now, course teams can identify content from their edX courses to embed with
 other content on their campus systems. Teams can specify the course units,
-videos, and graded and ungraded problems that already exist in an edX course
+videos, and graded and ungraded problems that already exist in an Open edX course
 for launch within a campus LMS such as Blackboard or Canvas. Student scores for
 graded content are transferred to the campus system.
 
@@ -388,3 +388,13 @@ Supported Browser Changes
 
 Note that in this release the edX platform no longer supports Internet Explorer
 9.x.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

@@ -36,6 +36,11 @@ a course mode for the course you wish to create a certificate for.
 #. Under **Course Modes** > **Course modes**, add a new course mode for
    course you want to create a certificate for.
 
+   - e.g. Add course mode 'honor' to the course you want to enable certificates for
+   - .. image:: /_images/educator_how_tos/change_course_mode.png
+        :alt: The change course mode selection screen, highlighting the dropdown menu for "Mode:"
+
+
 .. note:: Different certificate types are available with the different
    course modes.
 

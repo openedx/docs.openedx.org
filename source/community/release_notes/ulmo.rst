@@ -27,3 +27,12 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 
 .. _Open edX Platform: https://openedx.org
 
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-04-28   | BTR WG                        | Teak           | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+

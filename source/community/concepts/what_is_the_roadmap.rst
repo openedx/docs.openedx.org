@@ -67,3 +67,12 @@ Yes! We need your participation in order to make the Roadmap a successful and me
 
 
 .. include:: /links.txt
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-04-01   | Sarina Canelake               | Sumac          | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+

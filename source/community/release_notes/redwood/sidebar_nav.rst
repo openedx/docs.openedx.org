@@ -170,3 +170,15 @@ updated to reflect the rough amount completed.
 These in-progress icons serve to convey to the learner what sections or
 subsections they have in-progress as well as how much content they've completed
 for each section or subsection at a glance.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2024-06-01    |Docs WG                        | Redwood        |  Pass                                             |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+

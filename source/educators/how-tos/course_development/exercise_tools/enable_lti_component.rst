@@ -13,7 +13,9 @@ with external learning applications.
 Enable the LTI Tool
 ====================
 
-To enable the LTI tool for your course, follow these steps:
+.. note::
+
+    This tool is enabled by default in Teak. For earlier releases, follow the steps below to enable it manually.
 
 #. In Studio, select **Settings**, and then **Advanced Settings**.
 #. Locate the **Advanced Module List** field. This field lists any advanced exercises and tools added to your course.

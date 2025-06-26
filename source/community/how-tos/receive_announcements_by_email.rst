@@ -25,3 +25,12 @@ subscribe to announcements on one of the edX portal sites.
 
 You will now receive email messages when new announcements of the types you
 selected are posted.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-04-01   | Sarina Canelake               |  Sumac         |   Pass                         |
++--------------+-------------------------------+----------------+--------------------------------+

@@ -1,8 +1,10 @@
 .. _The Courseware Structure:
 
-##########################
-The Courseware Structure
-##########################
+##############################
+The OLX Courseware Structure
+##############################
+
+.. tags:: educator, reference
 
 You develop the courseware structure in the ``course.xml`` file, in the top-
 level directory.
@@ -11,7 +13,7 @@ level directory.
   :local:
   :depth: 1
 
-For an example of a ``course.xml`` file, see :ref:`The edX-Insider course.xml
+For an example of a ``course.xml`` file, see :ref:`The olx-example course.xml
 File`.
 
 *************************************
@@ -274,3 +276,23 @@ The following example shows a vertical with two components.
       <html url_name="Introduction"/>
       <video url_name="Unit_1_Video"/>
   </vertical>
+
+.. seealso::
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

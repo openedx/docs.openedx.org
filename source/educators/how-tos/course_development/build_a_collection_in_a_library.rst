@@ -5,6 +5,10 @@ Build a Collection in a Library
 
 .. tags:: educator, how-to
 
+.. note::
+
+   Users must have "Author" or "Admin" permissions on a library to build collections.
+   See :ref:`Add users to Libraries` for more detail.
 
 Collections function as subsets of content within a Library, and are one of the
 primary ways to manage and organize large sets of content. For example, a
@@ -120,9 +124,15 @@ Remove content from your Collection
 
     :ref:`Search for content in a Library`
 
+    :ref:`Create and edit content in a Library`
+
+    :ref:`Create and edit units in a Library`
+
     :ref:`Use content sidebars to manage content`
 
     :ref:`Sync a Library update to your course`
+
+    :ref:`Add users to Libraries`
 
 **Maintenance chart**
 

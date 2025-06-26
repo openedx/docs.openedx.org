@@ -4,6 +4,8 @@
 Symbolic Response
 #################
 
+.. tags:: educator, reference
+
 This topic is planned to document features that the current symbolic response
 supports. In general, it allows the input and validation of math expressions,
 up to commutativity and some identities.
@@ -42,3 +44,28 @@ This is a partial list of features, to be revised over time.
 
       There is no fancy preprocessing needed, but if you had superscripts or
       something, you would need to include that part.
+
+
+.. seealso::
+
+  :ref:`Math Expression Input` (reference)
+  
+  :ref:`Math Expression Input Problem XML` (reference)
+
+  :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Example of an OLX Course` (reference)
+
+  :ref:`Getting Started with OLX` (quickstart)
+
+  :ref:`OLX Directory Structure` (reference)
+
+  :ref:`Example of OLX for a Studio Course` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

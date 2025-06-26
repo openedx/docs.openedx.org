@@ -5,8 +5,8 @@ Open edX Ulmo Developer & Operator Release Notes
 
 *Releasing December, 2025!*
 
-These are the developer & operator release notes for the Teak release, the 21st
-community release of the Open edX Platform, spanning changes from April 10,
+These are the developer & operator release notes for the Ulmo release, the 21st
+community release of the Open edX Platform, spanning changes from April 25,
 2025 to December 9, 2025. You can also review details about :ref:`Open edX Release Notes` or
 learn more about the `Open edX Platform`_.
 
@@ -46,3 +46,12 @@ Researcher & Data Experiences
 
 Known Issues
 ************
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

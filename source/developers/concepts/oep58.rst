@@ -68,7 +68,7 @@ What needs to happen for a repository to make the switch
 
 Additional reading
 ==================
-* `OEP-58: Translations Management — Open edX Proposals 1.0 documentation <https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0058-arch-translations-management.html>`_
+* :doc:`openedx-proposals:architectural-decisions/oep-0058-arch-translations-management`
 * `openedx-atlas README <https://github.com/openedx/openedx-atlas/blob/main/README.rst>`_
 * `openedx-translations README <https://github.com/openedx/openedx-translations/blob/main/README.rst>`_
 

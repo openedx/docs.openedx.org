@@ -31,7 +31,7 @@ Open edX Documentation
 
          Educators: Build a Course <educators/quickstarts/build_a_course>
          Site Operators: Set up Open edX <site_ops/quickstarts/index>
-         Developers: Contribute to Open edX <developers/quickstarts/index>
+         Developers: Contribute to Open edX <developers/quickstarts/first_openedx_pr>
          Documentors: First Documentation PR <documentors/quickstarts/first_documentation_pr>
 
    .. grid-item-card::
@@ -42,7 +42,7 @@ Open edX Documentation
          :maxdepth: 1
          :caption: Open Source Community
 
-         Current Release: Sumac <community/release_notes/sumac>
+         Current Release: Teak <community/release_notes/teak>
          All Release Notes <community/release_notes/index>
          How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
          OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>

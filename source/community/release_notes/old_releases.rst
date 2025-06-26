@@ -11,6 +11,7 @@ fixes and features. These older releases will not receive any of those.
 .. toctree::
    :maxdepth: 2
 
+   sumac
    redwood
    quince-landing
    palm-landing
@@ -28,3 +29,13 @@ fixes and features. These older releases will not receive any of those.
    dogwood
    cypress
    birch
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+---------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                     |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+|2025-04-28    | Docs WG                       | Teak           | Pass: This page is evergreen                      |
++--------------+-------------------------------+----------------+---------------------------------------------------+
+
