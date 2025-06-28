@@ -1,3 +1,5 @@
+.. _ADR-2 Choosing RST:
+
 Choosing RST
 ############
 
@@ -17,7 +19,7 @@ Context
 Now that we agree on the doc:`general goal <0001-purpose-of-this-repo>` of a
 root documentation site, we need to figure out how we will write the words for
 the site.  Per
-:doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation`,
+:ref:`openedx-proposals:OEP-19 Developer Documentation`,
 developer documentation is written in RST.  However since the audience for all
 documentation is not developers it is worth re-considering and reviewing the
 alternatives and actively make a decision here rather than passively choose what
@@ -76,7 +78,7 @@ We choose Sphinx RST as our tooling of choice because:
   to do the same initial steps to setup a course.  Making this re-usable allows
   us reduce boilerplate in our documentation and ease updates.
 
-* :doc:`openedx-proposals:best-practices/oep-0019-bp-developer-documentation` is in RST already, choosing a different technology
+* :ref:`openedx-proposals:OEP-19 Developer Documentation` is in RST already, choosing a different technology
   requires us to revisit that decision as well which may be more costly.
 
 Concerns Considered

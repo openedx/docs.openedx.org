@@ -1,3 +1,5 @@
+(MyST Markdown Syntax Sample)=
+
 # MyST Markdown Syntax Sample
 
 This page demonstrates MyST Markdown syntax using examples that correspond to the RST quick reference guide. This serves as a practical example of how to write Open edX documentation using MyST Markdown.

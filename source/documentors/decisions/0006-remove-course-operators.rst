@@ -9,7 +9,7 @@ Status
 Context
 *******
 
-As documented in :doc:`0001-purpose-of-this-repo`, we list out a number of
+As documented in :ref:`ADR-1 Purpose of This Repo`, we list out a number of
 target personas for whom to create documentation; one of these is the "course
 operator" persona, defined as those who run an Open edX course.
 

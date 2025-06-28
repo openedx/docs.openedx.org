@@ -55,7 +55,7 @@ When you are ready to have the Open edX team review your proposed documentation 
 
    .. image:: /_images/documentors_howto_update_a_doc/create_pr_screen2.png
 
-The Open edX team will then review your changes. If they approve, they will merge the pull request, and you will see your changes in the latest documentation. The Open edX team may ask you to make further changes, to clarify the documentation or fix issues. See :doc:`make_changes_to_your_pull_request` if you'd like a refresher on how to make changes to your existing pull request.
+The Open edX team will then review your changes. If they approve, they will merge the pull request, and you will see your changes in the latest documentation. The Open edX team may ask you to make further changes, to clarify the documentation or fix issues. See :ref:`Make Changes to your Pull Request` if you'd like a refresher on how to make changes to your existing pull request.
 
 .. seealso::
 

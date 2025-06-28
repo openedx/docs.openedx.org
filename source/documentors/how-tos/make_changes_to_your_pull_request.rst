@@ -13,8 +13,8 @@ already made.
 Prerequisites
 *************
 
-* You've already made a pull request. See :doc:`update_a_doc_via_github`
-  or :doc:`add_a_doc_via_github` for instructions on making a pull request
+* You've already made a pull request. See :ref:`Update an Existing Doc via GitHub`
+  or :ref:`Add New Documentation via GitHub` for instructions on making a pull request
   that either updates existing documentation or creates new documentation,
   respectfully.
 
@@ -64,7 +64,7 @@ where I was able to find my file:
    :alt: A screenshot of the GitHub UI,	highlighting the file tree which can be used to find files
 
 If you click on the file, you'll see an edit button on the file. From here, you can follow
-the instructions in :doc:`update_a_doc_via_github` to edit the file and make a commit. One
+the instructions in :ref:`Update an Existing Doc via GitHub` to edit the file and make a commit. One
 note: if you want to make the commit show up on your pull request, you must pick the ``Commit
 directly to <branch-name> branch`` option. If you choose ``Create a new branch``, you will end
 up making a new pull request.

@@ -41,7 +41,7 @@ Find a Page to Update
 
 First let's find a page in the documentation that needs to be updated.
 
-Go to the :doc:`../references/doc_with_errors`
+Go to the :ref:`Sample Document with Errors`
 
 This page has a spelling error that we want to fix, let's go to the source and
 make a change.
@@ -106,7 +106,7 @@ you want to take a look at your work.
 .. note::
 
    The GitHub "Preview" tab will not always show, or *render*, everything perfectly.
-   As you can see, both the "Note" box and the part that starts with ``:doc:``, which
+   As you can see, both the "Note" box and the part that starts with ``:ref:``, which
    display correctly on docs.openedx.org, do not render correctly in the GitHub preview.
 
    Solutions to this problem are to install a local development environment (How-To
@@ -205,7 +205,7 @@ page(s) you've changed to double-check your changes look right.
 .. note::
    .. include:: ../how-tos/reusable_content/sign_agreement.txt
 
-If you need more help or run into issues, check out the :doc:`/other/getting_help`
+If you need more help or run into issues, check out the :ref:`Getting Help with Open edX`
 section of the documentation for links to some places where you could get help.
 
 **Maintenance chart**

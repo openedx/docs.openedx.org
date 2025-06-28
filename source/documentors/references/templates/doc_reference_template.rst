@@ -65,13 +65,17 @@ You can use `inline links <https://docs.openedx.org/en/latest/documentors/refere
 Internal Links
 --------------
 
-Link to :doc:`doc_how_to_template` in the same folder or :ref:`Documentation Syntax Reference` in a different
-folder.
+.. warning::
 
-By default, it will use the title of the doc as the link text but you can override that with :doc:`other text <doc_how_to_template>` if you want.
+	Usage of ``:doc:`` is an antipattern. It is fragile and prone to breaking cross references when docs are moved or renamed.
 
-..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
+	Adding in ``.. _reference:`` syntax to files and headings means cross-references can instead be made with the ``:ref:`` directive, which will be more robust to docs refactorings.
 
+Link to :ref:`Documentation Syntax Reference` to reference a doc, or a place within a doc.
+
+By default, it will use the title of the doc as the link text but you can override that with :ref:`other text <Documentation Syntax Reference>` if you want.
+
+..  seealso:: Review the :ref:`Open edX Documentation Writing Style Guide` to learn more about directives and other resources for creating your documentation.
 
 RST Template
 ************
@@ -137,11 +141,18 @@ RST Template
 	Internal Links
 	--------------
 
-	Link to :doc:`doc_how_to_template` in the same folder or :ref:`Documentation Syntax Reference` in a different folder.
+   .. warning::
 
-	By default, it will use the title of the doc as the link text but you can override that with :doc:`other text </doc_how_to_template>` if you want.
+      Usage of ``:doc:`` is an antipattern. It is fragile and prone to breaking cross references when docs are moved or renamed.
 
-	..  see also:: Review the Open edX Documentation Writing Style Guide to learn more about directives and other resources for creating your documentation.
+      Adding in ``.. _reference:`` syntax to files and headings means cross-references can instead be made with the ``:ref:`` directive, which will be more robust to docs refactorings.
+
+
+	Link to :ref:`Documentation Syntax Reference` to reference a doc, or a place within a doc.
+
+	By default, it will use the title of the doc as the link text but you can override that with :ref:`other text <Documentation Syntax Reference>` if you want.
+
+	..  seealso:: Review the :ref:`Open edX Documentation Writing Style Guide` to learn more about directives and other resources for creating your documentation.
 
 .. seealso::
 

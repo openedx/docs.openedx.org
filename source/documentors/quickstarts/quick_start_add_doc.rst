@@ -55,7 +55,7 @@ In the location where you should create the new topic:, with the **main** branch
 
 #. Add content to the topic as needed.
 
-   Ensure you keep to RST standards in file.  See the :doc:`../references/doc_checklist` for guidelines, and copy RST code as needed from :doc:`../references/doc_templates`.
+   Ensure you keep to RST standards in file.  See the :ref:`Documentation Checklist` for guidelines, and copy RST code as needed from :ref:`Documentation Templates`.
 
 #. In the **Propose New File** section at the bottom of the edit window:
 
