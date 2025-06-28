@@ -72,6 +72,7 @@ Open edX Documentors
          references/doc_style_guide.rst
          references/doc_templates.rst
          references/quick_reference.rst
+         how-tos/develop_docs_locally.rst
 
    .. grid-item-card:: Add a New Document
       :class-card: sd-shadow-md sd-p-2
