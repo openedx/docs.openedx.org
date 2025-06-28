@@ -108,6 +108,8 @@ With your new branch active:
 
    :ref:`Documentation Audiences` (concept)
 
+   :ref:`FAQ PR Process` (reference)   
+
 
 **Maintenance chart**
 
