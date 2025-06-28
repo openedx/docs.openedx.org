@@ -109,8 +109,9 @@ you want to take a look at your work.
    As you can see, both the "Note" box and the part that starts with ``:ref:``, which
    display correctly on docs.openedx.org, do not render correctly in the GitHub preview.
 
-   Solutions to this problem are to install a local development environment (How-To
-   article TBD), or rely on the "pull request build", discussed below.
+   Solutions to this problem are to :ref:`install a local development
+   environment <Develop Docs Locally>`, or rely on the "pull request build",
+   discussed below.
 
 
 Save your changes
