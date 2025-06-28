@@ -3,7 +3,7 @@
 Concept Document Template
 #########################
 
-.. tags:: documentor, reference
+.. tags:: documentor, concept
 
 A concept is a document that clarifies and illuminates a particular topic. It is understanding-oriented. It could be considered a conceptual guide. This type of document answers a why question. It could be descriptive, historical, or even propose different alternatives to explain the bigger picture and give context.
 
