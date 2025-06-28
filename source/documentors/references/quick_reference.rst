@@ -698,7 +698,7 @@ Learn More
 
    **MyST Markdown Resources:**
 
-   :doc:`markdown_syntax_sample`
+   :ref:`MyST Markdown Syntax Sample`
       A complete sample page written in MyST Markdown demonstrating all the syntax examples.
 
    `MyST Parser Documentation`_

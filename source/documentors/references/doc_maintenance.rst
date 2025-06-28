@@ -48,13 +48,13 @@ During this process, the user or contributor should read the document carefully 
 - Correctness of information  
 - Open edX version  
 
-The user must also consider the standards previously defined in the :ref:`About Open edX Documentation Standards` and :doc:`doc_style_guide`.
+The user must also consider the standards previously defined in the :ref:`About Open edX Documentation Standards` and :ref:`Open edX Documentation Writing Style Guide`.
 
 Steps to follow to comply with the maintenance procedure
 *********************************************************
 
 1. Pick one document to be reviewed.  
-2. Confirm that the document meets the standards in the :doc:`doc_checklist`: 
+2. Confirm that the document meets the standards in the :ref:`Documentation Checklist`: 
 
    a. Audience is defined  
    b. The Diataxis type is defined  
@@ -63,7 +63,7 @@ Steps to follow to comply with the maintenance procedure
    e. External links are working and accurate  
    f. ``See Also table`` is included  
 
-3. While reading the document, consider the standards defined in the :doc:`doc_style_guide` (be focused on Grammar, details, etc).  
+3. While reading the document, consider the standards defined in the :ref:`Open edX Documentation Writing Style Guide` (be focused on Grammar, details, etc).  
 4. Based on the diataxis type, test or validate the document:  
 
    a. If the document is a **how-to** or **quickstart**, complete the steps as instructed and confirm that the outcome in your Open edX instance is the same as what the doc expects.  
@@ -151,7 +151,7 @@ In this column, the user should state if the review process (test) is passed or 
 
 If the test passes, the document does not need any change, which means that every link works, there is no need to add any new information, the diataxis criteria are good, etc. However, if the test fails, the contributor can take either of two actions:
 
-1. :doc:`Submit a PR with a fix <../how-tos/update_a_doc_via_github>` and link to the PR in the Failure flag.  
+1. :ref:`Submit a PR with a fix <Update an Existing Doc via GitHub>` and link to the PR in the Failure flag.  
    
 2. Create a GitHub issue and link it to the issue in the Failure flag so someone else is aware of the error and can fix it.  
    :ref:`Check this how-to doc for creating GitHub issues <Report a problem with the docs>`.

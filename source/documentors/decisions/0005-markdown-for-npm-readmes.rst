@@ -9,7 +9,7 @@ Status
 Context
 *******
 
-As documented in :doc:`0002-choosing-rst`, we use RST for the majority of Open edX documentation.
+As documented in :ref:`ADR-2 Choosing RST`, we use RST for the majority of Open edX documentation.
 This includes README files in Open edX project repositories.
 
 When browsing packages on https://www.npmjs.com/, however, RST READMEs are not rendered.
