@@ -61,7 +61,7 @@ packaging==25.0
     #   sphinx
 pydata-sphinx-theme==0.15.4
     # via sphinx-book-theme
-pygments==2.19.1
+pygments==2.19.2
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -136,18 +136,19 @@ sphinxemoji==0.3.1
     # via -r requirements/base.in
 sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
-starlette==0.47.0
+starlette==0.47.1
     # via sphinx-autobuild
 typing-extensions==4.14.0
     # via
     #   anyio
     #   beautifulsoup4
     #   pydata-sphinx-theme
+    #   starlette
 urllib3==2.2.3
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   requests
-uvicorn==0.34.3
+uvicorn==0.35.0
     # via sphinx-autobuild
 watchfiles==1.1.0
     # via sphinx-autobuild
