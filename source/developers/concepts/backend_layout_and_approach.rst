@@ -1,6 +1,9 @@
 Backend Layout and Approach
 ###########################
 
+.. tags:: developer, concept
+
+
 :doc:`openedx-proposals:best-practices/oep-0049-django-app-patterns` defines the common conventions used for Django apps written for this project.
 
 New apps, services, and libraries should be created using `edx-cookiecutters <https://github.com/openedx/edx-cookiecutters>`_, which will fill in a lot of the boilerplate pieces for you (e.g. license, translations, testing dependencies).

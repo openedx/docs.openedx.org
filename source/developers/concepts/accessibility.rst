@@ -4,6 +4,8 @@
 Open edX Accessibility Concepts for Developers
 ##############################################
 
+.. tags:: developer, concept
+
 The Open edX project measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.2 <https://www.w3.org/TR/WCAG22/>`_
 (20 July 2023). All features that you merge into edX repositories are expected

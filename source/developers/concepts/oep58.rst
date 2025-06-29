@@ -1,6 +1,9 @@
 OEP-58 Overview
 ###############
 
+.. tags:: developer, concept
+
+
 What is OEP-58?
 ===============
 

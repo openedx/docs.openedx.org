@@ -1,14 +1,17 @@
-.. _Site Operators QS:
+.. _Tutor Concept (Operator):
 
-Site Operators: Quick Start
-###########################
+What is Tutor?
+###############
 
-.. tags:: site operator, quickstart
+.. tags:: site operator, concept
 
-Watch the following video on how to set up Open edX quickly using Tutor:
+This video, by Edly Academy, explains the basic concepts of Tutor.
 
-.. youtube:: QngJaemFLms
+.. youtube:: BzNcrmyFpw4
 
+.. seealso::
+
+   :ref:`Site Operators QS`
 
 **Maintenance chart**
 

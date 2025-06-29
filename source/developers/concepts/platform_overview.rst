@@ -1,6 +1,8 @@
 Platform Overview
 #################
 
+.. tags:: developer, concept
+
 The Open edX Platform is made up of multiple web services that work together to
 provide all the tools you might need to build and run courses online.
 
