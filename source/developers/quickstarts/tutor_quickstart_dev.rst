@@ -1,19 +1,24 @@
-.. _Site Operator QS:
+.. _Tutor QS (Dev):
 
-Site Operators: Quick Start
-###########################
+Tutor Quickstart (Developer)
+#############################
 
 .. tags:: site operator, quickstart
 
-Watch the following video on how to set up Open edX quickly using Tutor:
+.. admonition:: tutor main vs tutor local
 
-.. youtube:: QngJaemFLms
+   ``tutor main`` should be used by developers when writing code for the
+   master/main branches.
+
+   ``tutor local`` should be used by site operators to deploy an Open edX
+   instance. See :ref:`Tutor QS (Operator)` if you wish to deploy an Open edX
+   instance.
 
 .. seealso::
 
    :ref:`Tutor Concept (Operator)`
 
-   :ref:`Tutor QS (Operator)`
+   :ref:`qs Dev First PR`
 
 **Maintenance chart**
 

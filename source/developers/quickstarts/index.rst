@@ -9,4 +9,4 @@ Developer Quickstarts
 
 .. seealso::
 
-   :doc:`/developers/references/developer_guide/process/index`
+   :ref:`Open edX Developer's Guide`

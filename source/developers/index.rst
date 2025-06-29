@@ -12,7 +12,8 @@ Open edX Developers
       :class-footer: sd-border-0
 
       * :doc:`/developers/quickstarts/first_openedx_pr`
-      * :doc:`/developers/quickstarts/so_you_want_to_contribute`
+      * :ref:`qs Dev Contributing`
+      * :ref:`Tutor QS (Dev)`
       +++
       .. button-ref:: quickstarts/index
          :color: primary
@@ -25,8 +26,9 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
+      * :ref:`qs Dev Contributing`
+      * :ref:`Tutor QS (Dev)`
       * :doc:`references/running_pr_tests`
-      * :doc:`references/internal_data_formats/index`
       * :doc:`concepts/hooks_extension_framework`
 
    .. grid-item-card:: How-tos
@@ -51,6 +53,7 @@ Open edX Developers
       * :doc:`concepts/backend_layout_and_approach`
       * :doc:`concepts/accessibility`
       * :doc:`concepts/hooks_extension_framework`
+      * :ref:`Tutor Concept (Dev)`
       +++
       .. button-ref:: concepts/index
          :color: primary

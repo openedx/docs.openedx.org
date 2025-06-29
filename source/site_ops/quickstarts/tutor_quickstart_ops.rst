@@ -1,19 +1,22 @@
-.. _Tutor Concept (Dev):
+.. _Tutor QS (Operator):
 
-What is Tutor?
-###############
+Tutor Quickstart (Operator)
+#############################
 
-.. tags:: developer, concept
+.. tags:: site operator, quickstart
 
-This video, by Edly Academy, explains the basic concepts of Tutor.
+.. admonition:: tutor local vs tutor main
 
-.. youtube:: BzNcrmyFpw4
+   ``tutor local`` should be used by site operators to deploy an Open edX instance.
+
+   ``tutor main`` should be used by developers when writing code for the
+   master/main branches. See :ref:`Tutor QS (Dev)` if you are developing code.
 
 .. seealso::
 
-   :ref:`Tutor QS (Dev)`
+   :ref:`Tutor Concept (Dev)`
 
-   :ref:`qs Dev First PR`
+   :ref:`Site Operator QS`
 
 **Maintenance chart**
 

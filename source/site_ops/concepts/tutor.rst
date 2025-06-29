@@ -11,7 +11,9 @@ This video, by Edly Academy, explains the basic concepts of Tutor.
 
 .. seealso::
 
-   :ref:`Site Operators QS`
+   :ref:`Site Operator QS`
+
+   :ref:`Tutor QS (Operator)`
 
 **Maintenance chart**
 
