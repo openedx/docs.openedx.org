@@ -387,7 +387,17 @@ If you are now looking for something to work on, please see :ref:`qs Dev Contrib
 If you need more help or run into issues, check out the :ref:`Getting Help with Open edX`
 section of the documentation for links to some places where you could get help.
 
-Maintenance Chart
+.. seealso::
+
+   :ref:`qs Dev Contributing` (Quickstart)
+
+   :ref:`Open edX Developer's Guide` (Reference)
+
+   `Intro to the Open edX Project & Contributing <https://training.openedx.io/courses/course-v1:OpenedX+OEX101+2023/about>`_ (Training Course)
+
+   `Open edX Developer Onboarding <https://training.openedx.io/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_ (Training Course)
+
+**Maintenance Chart**
 
 +--------------+-------------------------------+-----------------------------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release                         |Test situation                  |
