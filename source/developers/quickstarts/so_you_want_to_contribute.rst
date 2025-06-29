@@ -242,19 +242,24 @@ could benefit from, please post on the `Open edX forums`_.
 
 .. seealso::
 
-   :ref:`Process for Contributing Code`
+   :ref:`Process for Contributing Code` (Reference)
 
-   :ref:`Contributing Code`
+   :ref:`Contributing Code` (Reference)
 
-   :ref:`Landing Your Work`
+   :ref:`Landing Your Work` (Reference)
 
-   :ref:`Git workflow`
+   :ref:`Git workflow` (Reference)
 
-   :ref:`Open edX Style Guidelines`
+   :ref:`Open edX Style Guidelines` (Reference)
 
-   :ref:`Testing`
+   :ref:`Testing` (Reference)
 
-   :ref:`Open edX Developer's Guide`
+   :ref:`Open edX Developer's Guide` (Reference)
+
+   `Intro to the Open edX Project & Contributing <https://training.openedx.io/courses/course-v1:OpenedX+OEX101+2023/about>`_ (Training Course)
+
+   `Open edX Developer Onboarding <https://training.openedx.io/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_ (Training Course)
+
 
 .. include:: /links.txt
 
