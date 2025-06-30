@@ -23,6 +23,8 @@ Earlier Open edX versions had an **Enable Student-Generated
 Certificates** option in the LMS instructor dashboard; this option has
 been removed.
 
+.. _Configure Certificate Display Behavior:
+
 ********************************************
 Configure Certificate Display Behavior
 ********************************************

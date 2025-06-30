@@ -362,9 +362,7 @@ setting may take several minutes to propagate in a large installation.
 
 In addition to this Waffle switch, automatic certificate generation
 requires certain settings to be defined for the course, by a member of
-the course staff. For more details, see :ref:`Allow
-Learners to Receive Early Certificates` in
-*Building and Running an Open edX Course*.
+the course staff. For more details, see :ref:`Configure Certificate Display Behavior` in *Building and Running an Open edX Course*.
 
 .. _Manually Generate Certificates for a Course:
 
