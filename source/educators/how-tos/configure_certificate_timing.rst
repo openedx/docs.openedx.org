@@ -74,24 +74,6 @@ Earlier Open edX versions had an **Enable Student-Generated
 Certificates** option in the LMS instructor dashboard; this option has
 been removed.
 
-.. _Allow Learners to Download Certificates:
-
-*********************************************
-Allow Learners to Download Early Certificates
-*********************************************
-
-To allow learners to download early certificates, you modify the
-**Certificates Display Behavior** advanced setting in Studio.
-
-#. In Studio, on the **Settings** menu, select **Advanced Settings**.
-
-#. On the **Advanced Settings** page, locate **Certificates Display Behavior**.
-
-#. In the **Certificates Display Behavior** field, enter ``"early_no_info"``.
-   Be sure that you include the double quotation marks.
-
-#. Select **Save Changes**.
-
 .. seealso::
 
   :ref:`About Certificates` (concept)
