@@ -70,9 +70,7 @@ steps.
 
 #. Sign in to Studio. Your dashboard lists the courses that you have access to as a course team member.
 
-#. Move your cursor over each row in the list of courses. The **Re-Run Course** and **View Live** options appear for each course.
-
-#. Locate the course you want to re-run and select **Re-Run Course**. The **Create a re-run of a course** page opens with values already supplied in the **Course Name**, **Organization**, and **Course Number** fields.
+#. Locate the course you want to re-run and select **Re-Run Course** from the kebab menu. The **Create a re-run of a course** page opens with values already supplied in the **Course Name**, **Organization**, and **Course Number** fields.
 
 #. In the **Course Run** field, indicate when the new course will be offered.
 
@@ -185,6 +183,8 @@ for launch, see :ref:`Course Launch Checklist`.
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+|06/30/2025    | John (Curricu.me)             | Sumac          |Pass                                                          |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 |03/11/2025    | Leira (Curricu.me)            | Sumac          |Fail (https://github.com/openedx/docs.openedx.org/issues/895) |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
