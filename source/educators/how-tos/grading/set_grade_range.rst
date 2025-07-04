@@ -22,34 +22,34 @@ The above example shows that you have a pass/fail grade range, with a score of
 
 You can adjust the grade range as needed.
 
-* To add a grade in the range, select the **+** icon.
+#. To add a grade in the range, select the **+** icon.
 
-  A new grade is added to the range between the existing grades. For example,
-  if you add a grade in the default setting, the grade range changes to **F**
-  (0 to 50), **B** (50 to 75), and **A** (75 to 100):
+   A new grade is added to the range between the existing grades. For example,
+   if you add a grade in the default setting, the grade range changes to **F**
+   (0 to 50), **B** (50 to 75), and **A** (75 to 100):
 
-  .. image:: /_images/educator_how_tos/grade_range_b.png
-    :alt: Image of an altered Grade Range control.
-    :width: 600
+   .. image:: /_images/educator_how_tos/grade_range_b.png
+     :alt: Image of an altered Grade Range control.
+     :width: 600
 
-* To change the score range, move the cursor over the line dividing two grades
-  and then select and drag the line left or right.
+#. To change the score range, move the cursor over the line dividing two grades
+   and then select and drag the line left or right.
 
-  You can see the range numbers of the two grades adjacent to the line change.
-  Unselect the line when it is where you want it.
+   You can see the range numbers of the two grades adjacent to the line change.
+   Unselect the line when it is where you want it.
 
-* To change the name of the grade, select the current name of the grade
-  and start typing the name of the new grade. For example,
-  if the original name of the grade is "Pass", you can select "Pass" and
-  then type "Excellent" to replace the name.
+#. To change the name of the grade, select the current name of the grade
+   and start typing the name of the new grade. For example,
+   if the original name of the grade is "Pass", you can select "Pass" and
+   then type "Excellent" to replace the name.
 
-  You cannot change **F** or **Fail**.
+   You cannot change **F** or **Fail**.
 
-* To remove a grade, move the cursor so that it is over the grade.
+#. To remove a grade, move the cursor so that it is over the grade.
 
-  A **remove** link appears above the grade. Select the link.
+   A **remove** link appears above the grade. Select the link.
 
-  You cannot remove F or A.
+   You cannot remove F or A.
 
 After you make any changes to the grade range, you must select **Save Changes**
 at the bottom of the page.
@@ -82,6 +82,8 @@ For more information, see :ref:`Manage Course Certificates`.
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 06/30/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/882) |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
