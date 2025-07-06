@@ -138,7 +138,7 @@ sphinxext-rediraffe==0.2.7
     # via -r requirements/base.in
 starlette==0.47.1
     # via sphinx-autobuild
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   anyio
     #   beautifulsoup4
