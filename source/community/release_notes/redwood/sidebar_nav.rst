@@ -20,6 +20,12 @@ experience it can be.
 
 .. note::
 
+    There is one breaking issue with sidebar navigation:
+
+    * Site operators using brand packages that override the ``max-width`` for ``.container-xl`` have reported an issue with sidebar navigation taking up half of the page and making course content 
+      appear narrower than it should be when the sidebar is expanded. The default ``max-width`` is ``1600px`` and accommodates the space needed by the sidebar. As a result, the fix for this breaking 
+      change is to make sure your brand package values are wide enough.
+
     Known issues with sidebar navigation include:
     
     * When a member of the course delivery team updates the name of a course
