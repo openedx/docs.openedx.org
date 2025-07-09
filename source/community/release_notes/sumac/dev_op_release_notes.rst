@@ -17,8 +17,9 @@ To view the end-user facing docs, see the :doc:`feature_release_notes`.
 Breaking Changes
 ****************
 
-No breaking changes in Sumac.
+There is one breaking change with Sumac:
 
+- Site operators using brand packages that override the ``max-width`` for ``.container-xl`` have reported an issue with sidebar navigation taking up half of the page and making course content appear narrower than it should be when the sidebar is expanded. The default ``max-width`` is ``1600px`` and accommodates the space needed by the sidebar. As a result, the fix for this breaking change is to make sure your brand package values are wide enough.
 
 User Facing Experiences
 *************************
