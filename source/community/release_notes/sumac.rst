@@ -1,4 +1,4 @@
-Open edX Sumac - The Current Release
+Open edX Sumac Release
 ####################################
 
 These are the release notes for the Sumac release, the 19th community release
