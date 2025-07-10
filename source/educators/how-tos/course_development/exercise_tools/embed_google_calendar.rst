@@ -75,6 +75,9 @@ Make the Google Calendar Public
 *******************************
 
 #. Open the Google Calendar.
+
+   - Open your Google Calendar (e.g. https://calendar.google.com)
+
 #. From the **Settings** menu, select **Settings**.
 #. Select the **Calendars** tab.
 
@@ -205,5 +208,5 @@ in the :ref:`Obtain the Google Calendar ID` task.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 06/10/2025   | Leira (Curricu.me)            | Sumac          |                                |
 +--------------+-------------------------------+----------------+--------------------------------+
