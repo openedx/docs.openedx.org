@@ -116,12 +116,12 @@ Additional Time or Special Allowances
 =====================================
 
 If you have a disability and need additional time or specific accommodations to
-take the exam, consult your organization’s disability resources or the course
+take the exam, consult your organization's disability resources or the course
 team before you make any choices on the exam page. The course team must approve
 your request and make any adjustments before you start your exam.
 
 .. seealso::
- 
+
 
  :ref:`About Proctored Exams` (concept)
 
@@ -132,12 +132,6 @@ your request and make any adjustments before you start your exam.
  :ref:`Manage Proctored Exams` (how-to)
 
  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-
- :ref:`Create a Proctored Exam with Proctortrack` (how-to)
-
- :ref:`PT Proctored Session Results File` (reference)
-
- :ref:`Review PT Proctored Session Results` (how-to)
 
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
