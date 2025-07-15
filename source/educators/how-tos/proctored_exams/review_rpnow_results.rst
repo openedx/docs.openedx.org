@@ -108,7 +108,7 @@ On the page, the learner's status is visible as "Pending", "Satisfactory", or
 "Unsatisfactory".
 
 .. seealso::
- 
+
 
  :ref:`About Proctored Exams` (concept)
 
@@ -121,12 +121,6 @@ On the page, the learner's status is visible as "Pending", "Satisfactory", or
  :ref:`Manage Proctored Exams` (how-to)
 
  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-
- :ref:`Create a Proctored Exam with Proctortrack` (how-to)
-
- :ref:`PT Proctored Session Results File` (reference)
-
- :ref:`Review PT Proctored Session Results` (how-to)
 
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
