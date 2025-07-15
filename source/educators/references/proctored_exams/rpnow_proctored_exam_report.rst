@@ -200,7 +200,7 @@ column.
        the learner is no longer eligible for academic credit.
 
 .. seealso::
- 
+
 
  :ref:`About Proctored Exams` (concept)
 
@@ -213,12 +213,6 @@ column.
  :ref:`Manage Proctored Exams` (how-to)
 
  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-
- :ref:`Create a Proctored Exam with Proctortrack` (how-to)
-
- :ref:`PT Proctored Session Results File` (reference)
-
- :ref:`Review PT Proctored Session Results` (how-to)
 
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
