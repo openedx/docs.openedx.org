@@ -48,16 +48,16 @@ If the Learning MFE is installed using the MFE Deployer Ansible role then certai
 - courseware.microfrontend_course_team_preview : Enable to show global and course-level staff members the ability to preview courseware in the MFE. Does not affect learners.
 - course_home.course_home_mfe : Enable in conjunction with one or more of the following:
 
-  - course_home.course_home_mfe_dates_tab : Display the “Dates” course tab in the MFE.
-  - course_home.course_home_mfe_outline_tab : Display the course outline (the target of the “Course” course tab) in the MFE.
-  - course_home.course_home_mfe_progress_tab: Display the “Progress” course tab in the MFE.
+  - course_home.course_home_mfe_dates_tab : Display the "Dates" course tab in the MFE.
+  - course_home.course_home_mfe_outline_tab : Display the course outline (the target of the "Course" course tab) in the MFE.
+  - course_home.course_home_mfe_progress_tab: Display the "Progress" course tab in the MFE.
 
 Course Dates & Milestones
 =========================
 
-When a learner reaches the end of the course, they will see a new navigation button directing them to “Complete the course” if they’ve passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade?
+When a learner reaches the end of the course, they will see a new navigation button directing them to "Complete the course" if they've passed or completed an audit course. The new Course Completion page also provides clarity for common learner questions - Did I complete the course? Did I achieve a certificate? Am I still eligible to upgrade?
 
-The 3-day Streak Milestone is live and celebrates learners who engage with their course on 3 consecutive days. It also provides normative insights into how learners’ behavior connects to successful course outcomes. (TBD Image)
+The 3-day Streak Milestone is live and celebrates learners who engage with their course on 3 consecutive days. It also provides normative insights into how learners' behavior connects to successful course outcomes. (TBD Image)
 
 See :ref:`edx-platform:featuretoggles` ['ENABLE_MILESTONES_APP'] for information on how to turn on and configure these Milestones features.
 
@@ -78,8 +78,6 @@ Mobile Experience
 Special Exams Experience
 ========================
 
-Proctortrack Onboarding UX Improvements: Based on learner feedback, we’ve added new messaging and entrance locations to the Proctortrack onboarding experience to make the process more clear. (TBD image)
-
 
 
 Authoring Experiences
@@ -96,7 +94,7 @@ Open-Response Assessments
 - Toggle rubric visibility for learners: Course staff can now choose to show learners the rubric for an ORA as they complete their ORA submission, more easily allowing learners to understand how they will be evaluated.
 - ORA Problems as Component Category: We have elevated Open Response components as a category in the Studio Unit page so that they are easier to drop into a unit page with pre-configured templates. You can quickly add some of the most commonly configured ORA problems
 - Allow Viewing ORA Steps After Peer Review: Learners can now proceed to the next assessment step when reaching a peer assessment step. This change makes all peer-related steps non-blocking, though they will still be required to complete the problem. Some problems for example situate self assessment after peer assessment, but previously learners were blocked from completing this step.
-- Support Flexible Peer Grading Averaging for Learners delayed / in Peer Grading step: As part of reducing the number of students delayed in the peer grading step, we have introduced a new grading setting for ORA peer reviews called “Enable Flexible Peer Grading Averaging.” When enabled, learners who have received at least 30% of the required “Graded By” peer reviews and who have waited longer than seven days for a peer review will be assigned a peer review grade using available peer reviews. If enabled, the effect is that fewer learners will be waiting for additional peer reviews, requiring less manual staff intervention for this edge case.
+- Support Flexible Peer Grading Averaging for Learners delayed / in Peer Grading step: As part of reducing the number of students delayed in the peer grading step, we have introduced a new grading setting for ORA peer reviews called "Enable Flexible Peer Grading Averaging." When enabled, learners who have received at least 30% of the required "Graded By" peer reviews and who have waited longer than seven days for a peer review will be assigned a peer review grade using available peer reviews. If enabled, the effect is that fewer learners will be waiting for additional peer reviews, requiring less manual staff intervention for this edge case.
 - Added username details to ORA report download
 - Added problem name and location to ORA report download
 - Added ORA zipped file download for submission text + attached files
@@ -118,10 +116,6 @@ The Gradebook MFE is *not* enabled by default because theming and internationali
 Special Exams Experience
 ========================
 
-- Proctortrack Onboarding Status Menu: Helps course teams better identify which learners have been onboarded and which have not. See https://partners.edx.org/announcements/proctortrack-onboarding-status-menu for more information. The dashboard can be found under *Instructor Dashboard > Special Exams > Student Onboarding Status*. Requires integration with the `ProctorTrack Service from Verificient`_.
-- Reset an Errored Proctortrack Exam Attempt: We added the ability to reset an errored Proctortrack exam attempt to be “Ready to resume” status. Learners will be able to resume the exam immediately once the course team allows it. The exam time will resume from where they last experienced an error.  For example, if the learner errored 45 minutes into the exam, and the allowed duration of the exam is 2 hours, the learner will only have 1 hour and 15 minutes to complete the rest of the exam.
-
-.. _ProctorTrack Service from Verificient: https://www.verificient.com/proctortrack/
 
 Credentials (for Programs)
 ==========================
@@ -148,7 +142,7 @@ Course Upsell Messaging and Payment
 
 - Reduce PCI compliance burden by replacing checkout fields which collect relevant PII data with Cybersource hosted fields. This way we do not collect and sensitive information and do not have to
 - Allows setting default currency from environment
-- Get and pipe-through the current datetime from the server, so that we don't need to use the browser time in preparation for the redesigned value proposition’s expiration box’s countdown to access expiration.
+- Get and pipe-through the current datetime from the server, so that we don't need to use the browser time in preparation for the redesigned value proposition's expiration box's countdown to access expiration.
 
 
 Settings and Toggles Documentation
@@ -174,7 +168,6 @@ Dependency updates
 New Settings
 ============
 
-- Use of edx-proctoring with the ProctorTrack vendor now requires a setting PROCTORING_USER_OBFUSCATION_KEY – it should be initially set to the same value as SECRET_KEY, in both LMS and Studio. This allows it to be changed independently, although there is not yet a way to rotate it without breaking integration.
 
 Changes to edx-organizations
 ============================
@@ -188,12 +181,12 @@ Changes to edx-organizations
 - Organizations feature globally enabled for all LMS and Studio instances.
 
     - See https://github.com/openedx/edx-organizations/blob/master/docs/decisions/0001-phase-in-db-backed-organizations-to-all.rst  for reasoning and details.
-    - If you don’t care about this change, then it shouldn’t affect you, although we still recommend running the backfill command (see below).
+    - If you don't care about this change, then it shouldn't affect you, although we still recommend running the backfill command (see below).
 
 - Added ORGANIZATIONS_AUTOCREATE Django setting for Studio.
 
     - Defaults to True.
-    - When True, creating a new course run or content library with an unrecognized org slug (that is, “edX” in course-v1:edX+DemoX+2T2020 will silently auto-create an organization in the background.
+    - When True, creating a new course run or content library with an unrecognized org slug (that is, "edX" in course-v1:edX+DemoX+2T2020 will silently auto-create an organization in the background.
     - When False, creating a new course run or content library with an unrecognized org slug will raise an error. This is helpful if you wish to restrict the set of organizations under which course runs and content libraries may be created.
 
 - The FEATURES['ORGANIZATIONS_APP'] is no longer supported.
@@ -266,4 +259,3 @@ Developer Experiences
 +--------------+-------------------------------+----------------+---------------------------------------------------+
 |2025-04-28    | Docs WG                       | Teak           | Deprecated: This is no longer the current release |
 +--------------+-------------------------------+----------------+---------------------------------------------------+
-
