@@ -15,49 +15,7 @@ determine whether the learner complied with the :ref:`online proctoring rules
 Learners must be in the verified enrollment track to take a proctored exam.
 
 Proctored exams on edx.org use proctoring software from third-party vendors.
-A course can use one of two proctoring software products: Software Secure RPNow
-and Verificient Proctortrack.
-
-************************************
-Comparison of RPNow and Proctortrack
-************************************
-
-RPNow and Proctortrack differ in the learner experience and proctoring review
-process.
-
-Proctortrack has a required onboarding process, which learners must complete
-several days before they attempt a proctored exam. RPNow has instead an optional
-practice exam, which learners can use to become prepared for taking a proctored
-exam.
-
-RPNow has a set of standard exam rules, which the course team can supplement
-with custom rules. Proctortrack requires you to choose from a collection of
-binary exam rules.
-
-RPNow uses a secure browser that continuously uploads proctoring data to an
-RPNow server. This secure browser needs a consistent internet connection with
-at least 500 kbps bandwidth. If a learner's connectivity drops below this level,
-or if the secure browser is closed after a learner has begun the exam, the
-exam will end and will be submitted to edX at the point they left off.
-
-Review Process
-==============
-
-Proctoring information collected by RPNow is submitted to Software Secure for
-review. If the learner's exam behavior passes review, then the learner receives
-their exam grade. If the exam is marked as suspicious by Software Secure, then
-edX learner support reviews the exam as well. If the exam is approved by edX
-learner support, then the learner receives their exam grade. If the result is
-unclear, then the learner's exam is reviewed by the course team for a final
-decision.
-
-Proctoring information collected by Proctortrack is reviewed by machine, with
-spot-checking by Verificient Proctortrack reviewers. Proctortrack review
-decisions are posted on the Proctortrack dashboard for review by the course
-team. The course team reviews exams that are marked as failing the proctoring
-criteria and makes the final decision about whether to pass or fail the
-learner's exam.
-
+A course can use Software Secure RPNow.
 
 **************************************
 Criteria for Passing a Proctored Exam
@@ -86,7 +44,7 @@ For more information about the way that learners experience proctored exams,
 see `Taking Timed and Proctored Exams` in the edX Help Center.
 
 .. seealso::
- 
+
 
  :ref:`Enable Proctored Exams` (how-to)
 
@@ -97,12 +55,6 @@ see `Taking Timed and Proctored Exams` in the edX Help Center.
  :ref:`Manage Proctored Exams` (how-to)
 
  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-
- :ref:`Create a Proctored Exam with Proctortrack` (how-to)
-
- :ref:`PT Proctored Session Results File` (reference)
-
- :ref:`Review PT Proctored Session Results` (how-to)
 
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
