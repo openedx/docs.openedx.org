@@ -298,7 +298,6 @@ Proctored Exams
    ../references/proctored_exams/online_proctoring_rules.rst
    ../how-tos/proctored_exams/allow_opt_out_proctored_exam.rst
    ../how-tos/proctored_exams/create_proctored_exam_rpnow.rst
-   ../how-tos/proctored_exams/review_pt_results.rst
    ../how-tos/proctored_exams/review_rpnow_results.rst
    ../references/proctored_exams/pt_proctored_exam_report.rst
    ../references/proctored_exams/rpnow_proctored_exam_report.rst
