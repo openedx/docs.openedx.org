@@ -25,7 +25,7 @@ assignment content in courses.
  
  :ref:`Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how-to)
+ :ref:`Create a New Legacy Library` (how-to)
 
  :ref:`Edit a Library` (how-to)
 

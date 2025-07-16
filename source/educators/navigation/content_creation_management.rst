@@ -211,7 +211,7 @@ initiative.
    :glob:
    
    ../concepts/instructional_design/libraries.rst
-   ../how-tos/course_development/create_library.rst
+   ../how-tos/course_development/create_legacy_library.rst
    ../how-tos/course_development/edit_library.rst
    ../how-tos/course_development/add_components_library.rst
    ../how-tos/course_development/view_content_legacy_library.rst

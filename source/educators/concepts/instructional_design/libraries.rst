@@ -44,7 +44,7 @@ tab on the Studio Home page.
 
  :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
 
- :ref:`Create a New Library` (how to)
+ :ref:`Create a New Legacy Library` (how to)
 
  :ref:`Exporting and Importing a Library` (how to)
 

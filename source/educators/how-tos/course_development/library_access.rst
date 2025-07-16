@@ -150,7 +150,7 @@ steps.
 
  :ref:`Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how to)
+ :ref:`Create a New Legacy Library` (how to)
 
  :ref:`Exporting and Importing a Library` (how to)
 

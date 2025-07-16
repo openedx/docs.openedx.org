@@ -15,6 +15,8 @@ lives, and editing and publishing history.
 To view a content preview
 *************************
 
+#. Log in to Studio and start from a library home page. To create a new library, see :ref:`Create a New Library`.
+
 #. Click on the tile. This will open the sidebar menu for the content.
 
 #. The Preview tab will be open by default, with a preview image of the content displayed in the sidebar.
@@ -40,6 +42,8 @@ To view more information about content
 #. Click on the Details tab. You will see an editing history of your content.
 
 .. seealso::
+
+    :ref:`Create a New Library` (how to)
 
     :ref:`Navigate the Library Homepage`
 
