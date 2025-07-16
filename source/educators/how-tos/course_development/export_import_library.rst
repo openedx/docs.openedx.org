@@ -111,7 +111,7 @@ To import a library, follow these steps.
 
  :ref:`Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how to)
+ :ref:`Create a New Legacy Library` (how to)
 
  :ref:`Give Other Users Access to Your Library` (how to)
 

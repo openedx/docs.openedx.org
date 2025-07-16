@@ -50,7 +50,7 @@ To view the randomized content that was assigned to a specific learner, see
  
  :ref:`Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how-to)
+ :ref:`Create a New Legacy Library` (how-to)
 
  :ref:`Edit a Library` (how-to)
 
