@@ -41,7 +41,7 @@ Other Users Access to Your Library`.
  
  :ref:`Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how-to)
+ :ref:`Create a New Legacy Library` (how-to)
 
  :ref:`Add Components to a Library` (how-to)
 
