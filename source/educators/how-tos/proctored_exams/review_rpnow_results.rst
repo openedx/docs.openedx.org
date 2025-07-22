@@ -9,7 +9,7 @@ To view proctored exam results, you use the Proctored Exam Results report. This
 report is a .csv file that you can download from the instructor dashboard. You
 can use this report to view proctoring results for all learners, or
 :ref:`determine whether a specific learner has passed the proctoring
-review<Determine if Learner Passed Proctoring Review>`.
+review<Determine if Learner Passed RPNow Proctoring Review>`.
 
 .. note::
  The Proctored Exam Results report contains information about the proctoring
