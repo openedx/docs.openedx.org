@@ -113,9 +113,6 @@ Gradebook MFE
 
 The Gradebook MFE is *not* enabled by default because theming and internationalizations support is incomplete. It allows editing of individual learners' grades. Also supports bulk uploads of grades, but requires additional configuration. See https://github.com/openedx/frontend-app-gradebook/blob/open-release/lilac.master/README.md for more information.
 
-Special Exams Experience
-========================
-
 
 Credentials (for Programs)
 ==========================
