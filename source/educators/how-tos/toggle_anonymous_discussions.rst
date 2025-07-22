@@ -9,9 +9,11 @@ Toggle Anonymous Discussion Posts
  :local:
  :depth: 2
 
-Discussion posts can include the option to be posted anonymously so that the poster's identity is not revealed to students in the course. The poster's identity is available to Discussion Admins, Discussion Moderators, and Community TAs, and Group Community TAs. 
+Discussion posts can include the option to be posted anonymously so that the poster's identity is not revealed to students in the course. The poster's identity is available to Discussion Admins, Discussion Moderators, Community TAs, and Group Community TAs. 
 
-	Note that an admin must be a "Discussion Admin" in order to view anonymous posts. This role is separate from a course staff or course admin.For instructions on how to assign discussion administration roles, see :ref:`Assign discussion roles`.
+	.. note::
+	
+	   An admin must be a "Discussion Admin" in order to view anonymous posts. This role is separate from a course staff or course admin. For instructions on how to assign discussion administration roles, see :ref:`Assign discussion roles`.
 
 =================================================
 Toggle "Allow Anonymous Discussion Posts"
@@ -19,7 +21,7 @@ Toggle "Allow Anonymous Discussion Posts"
 1. From your course Studio, navigate to **Content** \> **Pages & Resources** and click on the **Settings** gear icon from the Discussions tile.
 2. On the Provider Selection page, click 'Next' to leave provider unchanged.
 3. On the Settings page, scroll down to the **Allow anonymous discussion posts to peers** toggle.
-4. Set "Allow anonymous discussion posts to peers" to true/false to enable/disable.
+4. Set "Allow anonymous discussion posts to peers" to true or false in order to enable or disable the functionality.
 
 ..  image:: /_images/educator_how_tos/allow_anonymous_posts_on.png
 	:alt: A screenshot of the allow anonymous discussion posts toggle set to on.
