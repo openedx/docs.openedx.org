@@ -13,7 +13,7 @@ Discussion posts can include the option to be posted anonymously so that the pos
 
 	.. note::
 	
-	   An admin must be a "Discussion Admin" in order to view anonymous posts. This role is separate from a course staff or course admin. For instructions on how to assign discussion administration roles, see :ref:`Assign discussion roles`.
+	   "Discussion Admins", "Discussion Moderators", "Community TAs", and "Group Community TAs" are roles that are specific to discussions, with privileges that are separate from Course Staff or Course Admin. If you are troubleshooting a user's ability to view anonymous posts, check to see if they have one of these roles. For instructions on how to assign discussion administration roles, see :ref:`Assign discussion roles`.
 
 =================================================
 Toggle "Allow Anonymous Discussion Posts"
