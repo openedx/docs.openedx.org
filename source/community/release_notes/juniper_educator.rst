@@ -33,8 +33,8 @@ the right sidebar of Unit pages.
 
 **Studio & Insights Links within Learner Experience Instructor Toolbar:** The
 instructor bar in the learner experience now includes two actions linking to
-Studio and Insights. As part of this work we have removed the "View Unit in
-Studio" button that rendered previously in the content area of the learner
+Studio and Insights. As part of this work we have removed the “View Unit in
+Studio” button that rendered previously in the content area of the learner
 experience.
 
 **Display Name Editing:** Courses often contain thousands of components, so any
@@ -78,7 +78,9 @@ learner.
     Special Exams: Proctored
     Internal Notes on v1.1 Content:
     Deen - Streamlined proctoring integration
+    Deen - Proctortrack* (link here)
     RPNow Virtual Proctoring Update (V4)* (link here)
+    Proctor track integration (Master's, MM) / New proctoring tools/vendor?
     Deen - Proctoring API changes?
     Special Exams: Timed
     Internal Notes on v1.1 Content:
@@ -95,7 +97,7 @@ provide a way for instructors to create and manage teams and team memberships
 within the Teams application. Staff can also bulk view, create, and modify team
 membership via CSV download and upload.
 
-Staff (including TAs) can now create "instructor managed" team sets. Only
+Staff (including TAs) can now create “instructor managed” team sets. Only
 course staff can create teams and manage team membership in these team sets.
 Students cannot create teams or leave and/or join teams in these team sets.
 
@@ -243,8 +245,8 @@ Course Team Roles & Membership
 **Institutional Course Data Researchers:** A new role has been created to
 provide more granular controls for the ability to download learner information
 through reports in the data downloads tab. When the role is enabled, you must
-have this role configured to see the Instructor Dashboard's Data Downloads tab.
-This new role of "data researcher" can be set at either the organization level
+have this role configured to see the Instructor Dashboard’s Data Downloads tab.
+This new role of “data researcher” can be set at either the organization level
 in Django admin or for a specific course run in the Course Team Management area
 of the Membership tab of the Instructor Dashboard by a course administrator.
 
