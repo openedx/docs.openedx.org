@@ -14,8 +14,8 @@ To prepare learners for a proctored exam, follow these guidelines:
   policy in your course.
 * Explain what proctored exams are, and provide learners with links to the
   :ref:`OE SFD Proctored Exams` topic in the *Open edX
-  Learner’s Guide*.
-* Communicate the rules for proctored exams, including the :ref:`Online Proctoring Rules` in the *Open edX Learner’s
+  Learner's Guide*.
+* Communicate the rules for proctored exams, including the :ref:`Online Proctoring Rules` in the *Open edX Learner's
   Guide* as well as any specific rules for a particular exam. For information
   about creating specific rules, see
   :ref:`specifying_exam_rules_and_exceptions`.
@@ -56,7 +56,7 @@ practice proctored exam.
   actual proctored exam.
 
 .. seealso::
- 
+
 
  :ref:`About Proctored Exams` (concept)
 
@@ -67,12 +67,6 @@ practice proctored exam.
  :ref:`Manage Proctored Exams` (how-to)
 
  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-
- :ref:`Create a Proctored Exam with Proctortrack` (how-to)
-
- :ref:`PT Proctored Session Results File` (reference)
-
- :ref:`Review PT Proctored Session Results` (how-to)
 
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
