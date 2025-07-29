@@ -76,6 +76,7 @@ Work with Content Libraries
    :glob:
 
    ../how-tos/course_development/navigate_library_homepage.rst
+   ../how-tos/course_development/create_new_library.rst
    ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
    ../how-tos/course_development/create_and_edit_content_in_a_library.rst
    ../how-tos/course_development/create_and_edit_units_in_a_library.rst
