@@ -16,9 +16,8 @@ Edit Messages
 
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
 Group Community TA role can edit the content of posts, responses, and
-comments. Messages that include spoilers or solutions, or that contain
-inappropriate or off-topic material, should be edited quickly to remove text,
-images, or links.
+comments. For instructions on how to assign discussion administration roles, see
+:ref:`Assign discussion roles`.
 
 
 #. View the live version of the course.
@@ -28,22 +27,29 @@ images, or links.
    discussion topics, apply a filter, or search to locate the post.
 
 #. For the post or for the response or comment that you want to edit, select
-   the "More" icon and then **Edit**.
+   the **Edit** option from the kebab menu.
+
+   .. image:: /_images/educator_how_tos/edit_post_kebab.png
+      :alt: The kebab menu for the post.
 
 #. Remove the problematic portion of the message, or replace it with standard
    text such as "[REMOVED BY MODERATOR]".
 
-#. Communicate the reason for your change. For example, "Posting a solution
-   violates the honor code."
+#. Use the drop-down menu to select the reason for your change. For example, "Violates community guidelines."
+
+   .. image:: /_images/educator_how_tos/edit_post_reason.png
+      :alt: The edit message dialog.
 
 ***************
 Delete Messages
 ***************
 
 Team members with the Discussion Moderator, Discussion Admin, Community TA or
-Group Community TA role can delete posts, responses, or comments. It might be
-more appropriate to delete rather than edit posts that consist of spam or
-include abusive language.
+Group Community TA role can delete posts, responses, or comments. For instructions on how to assign discussion administration roles, see
+:ref:`Assign discussion roles`. 
+
+It might be more appropriate to delete rather than edit posts that consist of spam or
+include abusive language. 
 
 
 #. View the live version of the course.
@@ -53,7 +59,7 @@ include abusive language.
    discussion topics, apply a filter, or search to locate the post.
 
 #. For the post or for the response or comment that you want to delete, select
-   the "More" icon and then **Delete**.
+   the **Delete** option from the kebab menu.
 
 #. Select **OK** to confirm the deletion.
 
@@ -76,33 +82,21 @@ way and edit or delete them as needed.
    the page.
 
 #. In the discussion navigation pane at the side of the page, use the filter
-   drop-down list (set to **Show all** by default) to select **Flagged**.
+   drop-down list to select **Reported**.
+
+   .. image:: /_images/educator_how_tos/reported_post_filter.png
+      :alt: The filter drop-down list set to **Reported**.
 
 #. Review listed posts. A post is listed if it or any of its responses or
    comments has been reported. The reported contribution includes a
    **Reported** identifier.
 
 #. Edit or delete the post, response, or comment. Alternatively, remove the
-   flag: select the "More" icon and then **Unreport**.
+   report by selecting the **Unreport** option from the kebab menu.
 
+   .. image:: /_images/educator_how_tos/unreport_post.png
+      :alt: The kebab menu for the post.
 
-****************************************************
-View Profile Information for Discussion Participants
-****************************************************
-
-To find out more about a specific discussion participant, you can view that
-learner's profile from their linked username on discussion posts.
-
-To access a learner's profile from a discussion post that they contributed,
-follow these steps.
-
-#. On the **Discussion** page, select a username in a post, response, or
-   comment.
-
-#. On the discussion page for that learner, select the linked username.
-
-The learner's account profile page opens. Learners can have either a limited
-profile or a full profile.
 
 ***********
 Block Users
@@ -125,28 +119,23 @@ Close Discussions
 To define when discussions are closed to new contributions and when they
 reopen, follow these steps.
 
-1. Navigate to Open edx discussion configuration page
+1. From the course in Open edX Studio, navigate to **Content** \> **Pages & Resources**, then click on the **Settings** gear icon from the Discussions tile.
 
-2. Scroll down to **Discussion Blackout Dates** field.
+2. On the Provider Selection page, click 'Next' to leave provider unchanged.
 
-3. Create a new blackout date range by clicking on **Add blackout date range**.
+2. On the Settings page, scroll down to the **Discussion Restrictions** field.
 
-.. image:: /_images/educator_how_tos/Discussion_blackout_dates_configuration.png
-  :width: 300
-  :alt: Option for configuring discussion blackout dates.
+3. You have three options for restricting discussions:
 
-4. Add start and end dates and times in the format specified.
+   * **Off**: Allow discussions to be posted at any time.
+   * **On**: Restrict discussions to the specified date range.
+   * **Scheduled**: Restrict discussions by adding one or more blackout date ranges. Discussion posts will not be allowed during the blackout dates.
 
 .. note:: The dates and times that you enter are in Coordinated Universal
    Time (UTC), not in your local time zone. You might want to verify that you
    have specified the times that you intend by using a time zone converter.
 
-.. note:: To close the course discussions permanently, specify an end date
-   and time far in the future.
-
-5. You can add more than one blackout date ranges using step 3 and 4 above.
-
-6. Select **Save Changes**.
+6. Select **Save** at the bottom of the page to save your changes.
 
 .. seealso::
 

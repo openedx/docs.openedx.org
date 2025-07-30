@@ -287,11 +287,11 @@ Glossary
       :ref:`About Problems Exercises and Tools`.
 
    Export
-      A tool in edX Studio that you use to export your course or library for
+      A tool in Open edX Studio that you use to export your course or library for
       backup purposes, or so that you can edit the course or library directly in
       :term:`OLX` format. See also :term:`Import`.
 
-      For more information, see :ref:`Export a Course` or :ref:`Export a Library`.
+      For more information, see :ref:`Export a Course` or :ref:`Export a Legacy Library`.
 
    Forum
       See :term:`Discussion`.
@@ -330,7 +330,7 @@ Glossary
       replaces all of your existing course or library content with the content
       from the imported course or library. See also :term:`Export`.
 
-      For more information, see :ref:`Import a Course` or :ref:`Import a Library`.
+      For more information, see :ref:`Import a Course` or :ref:`Import a Legacy Library`.
 
    Instructor Dashboard
       A user who has the Admin or Staff role for a course can access the instructor

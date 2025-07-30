@@ -36,6 +36,8 @@ To create new content:
 
     :ref:`Navigate the Library Homepage`
 
+    :ref:`Create a New Library`
+
     :ref:`Build a Collection in a Library`
 
     :ref:`Create and edit units in a Library`
@@ -51,5 +53,5 @@ To create new content:
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 07/02/2025   | Leira (Curricu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

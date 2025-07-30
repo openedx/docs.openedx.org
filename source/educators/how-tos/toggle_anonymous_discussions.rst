@@ -9,15 +9,22 @@ Toggle Anonymous Discussion Posts
  :local:
  :depth: 2
 
-There are two options for anonymous discussion posts.
+Discussion posts can include the option to be posted anonymously so that the poster's identity is not revealed to students in the course. The poster's identity is available to Discussion Admins, Discussion Moderators, Community TAs, and Group Community TAs. 
 
-1. Allow Anonymous Discussion Posts - Posts can be made anonymously to *everyone*, including discussion admins.
-2. Allow Anonymous Discussion Posts to Peers - Posts can be made anonymously to *other classmates*. Discussion Admins can view the author.
+	.. note::
+	
+	   "Discussion Admins", "Discussion Moderators", "Community TAs", and "Group Community TAs" are roles that are specific to discussions, with privileges that are separate from Course Staff or Course Admin. If you are troubleshooting a user's ability to view anonymous posts, check to see if they have one of these roles. For instructions on how to assign discussion administration roles, see :ref:`Assign discussion roles`.
 
-Generally, you'll choose one or none of the options based on your course policies.
+=================================================
+Toggle "Allow Anonymous Discussion Posts"
+=================================================
+1. From your course Studio, navigate to **Content** \> **Pages & Resources** and click on the **Settings** gear icon from the Discussions tile.
+2. On the Provider Selection page, click 'Next' to leave provider unchanged.
+3. On the Settings page, scroll down to the **Allow anonymous discussion posts to peers** toggle.
+4. Set "Allow anonymous discussion posts to peers" to true or false in order to enable or disable the functionality.
 
-
-	Note that an admin must be a "Discussion Admin" in order to view anonymous posts. This role is separate from a course staff or course admin.
+..  image:: /_images/educator_how_tos/allow_anonymous_posts_on.png
+	:alt: A screenshot of the allow anonymous discussion posts toggle set to on.
 
 ********************************
 Anonymous Discussion Posts
@@ -39,36 +46,6 @@ A discussion staff's view of an anonymous post
 ..  image:: /_images/educator_how_tos/staff_view_anonymous.png
 	:alt: A screenshot of a staff member viewing an anonymous discussion forum message. They cannot see username.
 
-=================================================
-Toggle "Allow Anonymous Discussion Posts"
-=================================================
-1. From your course Studio, navigate to *Advanced Settings*
-2. Set "Allow Anonymous Discussion Posts" to true/false to enable/disable.
-
-*****************************************
-Anonymous Discussion Posts to Peers
-*****************************************
-
-A student's view of posting anonymously to classmates:
-
-..  image:: /_images/educator_how_tos/student_post_anonymous_class.png
-	:alt: A screenshot of a learner posting an anonymous discussion forum message
-
-A student's view of an anonymous post to classmates:
-
-..  image:: /_images/educator_how_tos/student_view_anonymous_class.png
-	:alt: A screenshot of a learner viewing an anonymous discussion forum message
-
-A discussion staff's view of an anonymous post to classmates:
-
-..  image:: /_images/educator_how_tos/staff_view_anonymous_class.png
-	:alt: A screenshot of a staff member viewing an anonymous discussion forum message. They can see username.
-
-==========================================================
-Toggle "Allow Anonymous Discussion Posts to Peers"
-==========================================================
-1. From your course Studio, navigate to *Advanced Settings*
-2. Set "Allow Anonymous Discussion Posts to Peers" to true/false to enable/disable.
 
 .. seealso::
 
@@ -102,6 +79,8 @@ Toggle "Allow Anonymous Discussion Posts to Peers"
 
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                               |
++--------------+-------------------------------+----------------+-------------------------------------------------------------+
+| 07/04/2025   | John (Curricu.me)             | Sumac          | Pass                                                        |
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | 03/17/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/928|
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+

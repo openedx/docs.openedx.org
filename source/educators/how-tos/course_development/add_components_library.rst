@@ -1,4 +1,4 @@
-.. _Add Components to a Library:
+.. _Add Components to a Legacy Library:
 
 Add Components to a Legacy Library
 ##################################
@@ -30,29 +30,29 @@ in a course.
 When a component from the library is used in a randomized content block, you
 can further edit the component as it exists in the unit, without affecting the
 original version in the library. For details, refer to :ref:`Edit Components in
-a Library` and :ref:`Get the Latest Version of Library Content <Get the Latest Version of Library Content>`.
+a Legacy Library` and :ref:`Get the Latest Version of Library Content <Get the Latest Version of Library Content>`.
 
 
 .. seealso::
  
 
- :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
+ :ref:`Content Libraries Redesign Teak`
  
- :ref:`Content Libraries Overview` (concept)
+ :ref:`Legacy Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how-to)
+ :ref:`Create a New Legacy Library` (how-to)
 
- :ref:`Edit a Library` (how-to)
+ :ref:`Edit a Legacy Library` (how-to)
 
- :ref:`View the Contents of a Library` (how-to)
+ :ref:`View the Contents of a Legacy Library` (how-to)
 
- :ref:`Edit Components in a Library` (how-to)
+ :ref:`Edit Components in a Legacy Library` (how-to)
 
- :ref:`Delete a Library` (how-to)
+ :ref:`Delete a Legacy Library` (how-to)
 
- :ref:`Give Other Users Access to Your Library` (how to)
+ :ref:`Give Other Users Access to Your Legacy Library` (how to)
 
- :ref:`Exporting and Importing a Library` (how to)
+ :ref:`Exporting and Importing a Legacy Library` (how to)
 
 
 **Maintenance chart**
@@ -60,5 +60,5 @@ a Library` and :ref:`Get the Latest Version of Library Content <Get the Latest V
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 07/01/2025   | Leira (Curricu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

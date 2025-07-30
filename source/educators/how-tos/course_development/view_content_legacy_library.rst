@@ -1,4 +1,4 @@
-.. _View the Contents of a Library:
+.. _View the Contents of a Legacy Library:
 
 View the Contents of a Legacy Library
 ######################################
@@ -46,25 +46,25 @@ To view the randomized content that was assigned to a specific learner, see
 .. seealso::
  
 
- :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
+ :ref:`Content Libraries Redesign Teak`
  
- :ref:`Content Libraries Overview` (concept)
+ :ref:`Legacy Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how-to)
+ :ref:`Create a New Legacy Library` (how-to)
 
- :ref:`Edit a Library` (how-to)
+ :ref:`Edit a Legacy Library` (how-to)
 
- :ref:`Add Components to a Library` (how-to)
+ :ref:`Add Components to a Legacy Library` (how-to)
 
- :ref:`Give Other Users Access to Your Library` (how to)
+ :ref:`Give Other Users Access to Your Legacy Library` (how to)
 
- :ref:`Exporting and Importing a Library` (how to)
+ :ref:`Exporting and Importing a Legacy Library` (how to)
 
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 07/01/2025   | Leira (Curricu.me)            | Sumac          | Pass (https://github.com/openedx/docs.openedx.org/issues/1174)|
++--------------+-------------------------------+----------------+---------------------------------------------------------------+

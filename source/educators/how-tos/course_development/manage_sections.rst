@@ -161,14 +161,13 @@ section.
 
 To delete a section, follow these steps.
 
-#. Select the **Delete** icon in the section that you want to delete.
+#. Select the **Delete** option from the kebab menu of the section that you want to delete.
 
   .. image:: /_images/educator_how_tos/section-delete.png
-   :alt: The section with Delete icon circled.
+   :alt: The section with Delete button highlighted.
    :width: 500
 
-2. When you receive the confirmation prompt, select **Yes, delete this
-   section**.
+2. When you receive the confirmation prompt, select **Delete** to confirm the deletion.
 
 
 .. seealso::
@@ -203,5 +202,7 @@ To delete a section, follow these steps.
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 03/05/2025   | Leira (Curricu.me)            |  Sumac         |Fail (https://github.com/openedx/docs.openedx.org/issues/862s) |
+| 07/07/2025   | Leira (Curricu.me)            |  Sumac         | Pass                                                          |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 03/05/2025   | Leira (Curricu.me)            |  Sumac         |Fail (https://github.com/openedx/docs.openedx.org/issues/862)  |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

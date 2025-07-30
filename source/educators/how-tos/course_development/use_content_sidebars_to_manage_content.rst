@@ -15,6 +15,8 @@ lives, and editing and publishing history.
 To view a content preview
 *************************
 
+#. Log in to Studio and start from a library home page. To create a new library, see :ref:`Create a New Library`.
+
 #. Click on the tile. This will open the sidebar menu for the content.
 
 #. The Preview tab will be open by default, with a preview image of the content displayed in the sidebar.
@@ -41,6 +43,8 @@ To view more information about content
 
 .. seealso::
 
+    :ref:`Create a New Library` (how to)
+
     :ref:`Navigate the Library Homepage`
 
     :ref:`Create and edit content in a Library`
@@ -51,8 +55,8 @@ To view more information about content
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 06/30/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1148)|
++--------------+-------------------------------+----------------+---------------------------------------------------------------+

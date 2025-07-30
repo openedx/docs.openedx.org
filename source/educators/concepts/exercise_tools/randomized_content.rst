@@ -6,7 +6,12 @@ Randomized Content Blocks
 
 .. tags:: educator, concept
 
-If your course has :ref:`content libraries<Content Libraries Overview>` enabled and you
+.. admonition:: To Do
+
+   This article needs to be updated with how to randomize content using new-style
+   libraries (see :ref:`Content Libraries Redesign Teak`).
+
+If your course has :ref:`Legacy Content Libraries Overview` enabled and you
 have access to a library whose content you want to use, you can reference that
 library to create randomized assignments for students.
 
@@ -17,7 +22,7 @@ of problem to randomly give each student.
 
 The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page. For details about content libraries, see
-:ref:`Content Libraries Overview`.
+:ref:`Legacy Content Libraries Overview`.
 
 .. seealso::
  
@@ -26,8 +31,10 @@ tab on the Studio Home page. For details about content libraries, see
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                        |
++--------------+-------------------------------+----------------+------------------------------------------------------+
+| 2025-07-30   | sarina                        | Teak           | Fail - needs to be updated for new content libraries |
++--------------+-------------------------------+----------------+------------------------------------------------------+
+
+

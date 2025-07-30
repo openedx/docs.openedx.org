@@ -42,10 +42,10 @@ Authoring MFE
   No description provided.
 
 * `AdditionalCoursePluginSlot <https://github.com/openedx/frontend-app-authoring/tree/release/teak/src/plugin-slots/AdditionalCoursePluginSlot>`_:
-  No description provided.
+  This slot is used to add a custom card on the the page & resources page.
 
 * `AdditionalTranslationsComponentSlot <https://github.com/openedx/frontend-app-authoring/tree/release/teak/src/plugin-slots/AdditionalTranslationsComponentSlot>`_:
-  No description provided.
+  This slot is used to add a custom block in the Video Transcription Settings drawer.
 
 * `CourseAuthoringOutlineSidebarSlot <https://github.com/openedx/frontend-app-authoring/tree/release/teak/src/plugin-slots/CourseAuthoringOutlineSidebarSlot>`_:
   The slot wraps the sidebar that is displayed on the course outline page. It
@@ -93,7 +93,7 @@ Learning MFE
 *********************************************
 
 * `ContentIFrameLoaderSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/ContentIFrameLoaderSlot>`_:
-  No description provided.
+  This slot is used to customize the loading indicator displayed while course content is being loaded in an iframe. It appears when content is loading but hasn't fully rendered yet, providing a customizable loading experience for learners.
 
 * `CourseBreadcrumbsSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/CourseBreadcrumbsSlot>`_:
   This slot is used to replace/modify/hide the courseware top-navigation
@@ -113,24 +113,24 @@ Learning MFE
   This slot is used to replace/modify/hide the course outline sidebar trigger.
 
 * `CourseOutlineTabNotificationsSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/CourseOutlineTabNotificationsSlot>`_:
-  No description provided.
+  This slot is used to add custom notification components to the course outline tab sidebar. It appears in the right sidebar of the course outline/home tab, positioned between the Course Tools widget and the Course Dates widget.
 
 * `CourseRecommendationsSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/CourseRecommendationsSlot>`_:
   This slot is used for modifying the recommendations provided when a course is
   completed.
 
 * `GatedUnitContentMessageSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/GatedUnitContentMessageSlot>`_:
-  No description provided.
+  This slot is used to customize the message displayed when course content is gated or locked for learners who haven't upgraded to a verified track. It appears when a unit contains content that requires a paid enrollment (such as graded assignments) and the learner is on the audit track.
 
 * `NextUnitTopNavTriggerSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/NextUnitTopNavTriggerSlot>`_:
   This slot is used to replace/modify/hide the next button used for unit and
   sequence navigation at the top of the unit page.
 
 * `NotificationTraySlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/NotificationTraySlot>`_:
-  No description provided.
+  This slot is used to customize the notification tray that appears in the courseware sidebar. The notification tray displays upgrade-related notifications and alerts for learners in verified mode courses. It provides a way to show contextual notifications about course access, deadlines, and upgrade opportunities.
 
 * `NotificationWidgetSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/NotificationWidgetSlot>`_:
-  No description provided.
+  This slot is used to customize the notification widget that appears in the discussions-notifications sidebar. The widget is displayed as a compact notification component that shows upgrade-related alerts and can trigger the full notification tray when clicked.
 
 * `NotificationsDiscussionsSidebarSlot <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/NotificationsDiscussionsSidebarSlot>`_:
   This slot is used to replace/modify/hide the notifications discussions
