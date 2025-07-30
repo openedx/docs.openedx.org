@@ -21,5 +21,6 @@ You can use legacy libraries to organize content into a set of reusable, randomi
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 07/02/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1183)|
+| 07/30/2025   | Sarina                        | Teak           | Deprecated 
+                                                   |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
