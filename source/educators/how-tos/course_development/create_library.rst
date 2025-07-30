@@ -1,4 +1,4 @@
-.. _Create a New Library:
+.. _Create a New Legacy Library:
 
 ###########################
 Create a New Legacy Library
@@ -6,7 +6,7 @@ Create a New Legacy Library
 
 .. tags:: educator, how-to
 
-Use :ref:`legacy content libraries<Content Libraries Overview>` to build a pool of components
+Use :ref:`legacy content libraries<Legacy Content Libraries Overview>` to build a pool of components
 that can be used in randomized assignments in your courses.
 
 .. warning::
@@ -51,11 +51,11 @@ To create a new library, follow these steps.
 4. Select **Create**.
 
 You see the new library, to which you can now add components. For information
-about adding components to a library, see :ref:`Add Components to a Library`.
+about adding components to a library, see :ref:`Add Components to a Legacy Library`.
 
 After you create a library, you are automatically assigned an **Admin** role
 for the library. For information about adding other users to a library after
-you create it, see :ref:`Give Other Users Access to Your Library`.
+you create it, see :ref:`Give Other Users Access to Your Legacy Library`.
 
 
 .. seealso::
@@ -63,21 +63,21 @@ you create it, see :ref:`Give Other Users Access to Your Library`.
 
  :ref:`Content Libraries Redesign Teak`
  
- :ref:`Content Libraries Overview` (concept)
+ :ref:`Legacy Content Libraries Overview` (concept)
 
- :ref:`Edit a Library` (how-to)
+ :ref:`Edit a Legacy Library` (how-to)
 
- :ref:`Add Components to a Library` (how-to)
+ :ref:`Add Components to a Legacy Library` (how-to)
 
- :ref:`View the Contents of a Library` (how-to)
+ :ref:`View the Contents of a Legacy Library` (how-to)
 
- :ref:`Edit Components in a Library` (how-to)
+ :ref:`Edit Components in a Legacy Library` (how-to)
 
- :ref:`Delete a Library` (how-to)
+ :ref:`Delete a Legacy Library` (how-to)
 
- :ref:`Give Other Users Access to Your Library` (how to)
+ :ref:`Give Other Users Access to Your Legacy Library` (how to)
 
- :ref:`Exporting and Importing a Library` (how to)
+ :ref:`Exporting and Importing a Legacy Library` (how to)
 
 
 **Maintenance chart**

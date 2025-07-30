@@ -26,6 +26,8 @@ sidebars to manage content`.
 
 .. seealso::
 
+    :ref:`Create a New Library`
+
     :ref:`Create and edit content in a Library`
 
     :ref:`Create and edit units in a Library`

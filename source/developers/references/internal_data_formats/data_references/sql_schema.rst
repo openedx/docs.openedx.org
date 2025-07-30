@@ -966,7 +966,7 @@ role
 
   For more information about the roles that you can assign in the LMS, see
   :ref:`Add Course Team Members` and
-  :ref:`Give Other Users Access to Your Library`.
+  :ref:`Give Other Users Access to Your Legacy Library`.
 
 .. _django_comment_client_role_users:
 
