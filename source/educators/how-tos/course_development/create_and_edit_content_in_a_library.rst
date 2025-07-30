@@ -36,6 +36,8 @@ To create new content:
 
     :ref:`Navigate the Library Homepage`
 
+    :ref:`Create a New Library`
+
     :ref:`Build a Collection in a Library`
 
     :ref:`Create and edit units in a Library`

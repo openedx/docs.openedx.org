@@ -1,4 +1,4 @@
-.. _Give Other Users Access to Your Library:
+.. _Give Other Users Access to Your Legacy Library:
 
 ##############################################
 Give Other Users Access to Your Legacy Library
@@ -148,11 +148,11 @@ steps.
 
  :ref:`Content Libraries Redesign Teak`
 
- :ref:`Content Libraries Overview` (concept)
+ :ref:`Legacy Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how to)
+ :ref:`Create a New Legacy Library` (how to)
 
- :ref:`Exporting and Importing a Library` (how to)
+ :ref:`Exporting and Importing a Legacy Library` (how to)
 
 **Maintenance chart**
 
