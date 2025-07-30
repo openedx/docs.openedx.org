@@ -5,6 +5,11 @@ Use Randomized Content Blocks
 
 .. tags:: educator, how-to
 
+.. admonition:: To Do
+
+   This article needs to be updated with how to randomize content using new-style
+   libraries (see :ref:`Content Libraries Redesign Teak`).
+
 To create randomized assignments that make use of components from content
 libraries, you must have at least **User** level access to the libraries that
 you want to use. If you do not have access to a library, members of your course
@@ -12,11 +17,11 @@ team who have **Admin** access to that library can grant you access.
 
 The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page. For details about content libraries, see
-:ref:`Content Libraries Overview`.
+:ref:`Legacy Content Libraries Overview`.
 
 Using components from content libraries in your course involves two steps.
 
-#. :ref:`Enable Content Libraries`
+#. :ref:`Enable Legacy Content Libraries`
 #. :ref:`Add a Randomized Content Block to Your Course`
 
 .. note:: After adding a randomized content block to your course, be aware that
@@ -34,10 +39,10 @@ these topics.
 * :ref:`View Specific Student Assigned Problems from Randomized Content Block`
 * :ref:`Adjust Grades for a Problem from a Randomized Content Block`
 
-.. _Enable Content Libraries:
+.. _Enable Legacy Content Libraries:
 
-Enable Content Libraries
-************************
+Enable Legacy Content Libraries
+********************************
 
 Before you can add a randomized content blocks to your course, you must enable
 the content library tool in Studio.
@@ -51,7 +56,7 @@ information, see :ref:`Enable Additional Exercises and Tools`.
 Add a Randomized Content Block to Your Course
 *********************************************
 
-After you :ref:`enable content libraries<Enable Content Libraries>` you can add
+After you :ref:`Enable Legacy Content Libraries` you can add
 library content to your courses using the Randomized Content Block advanced
 component.
 
@@ -101,7 +106,7 @@ settings, see :ref:`View the Matching Components in a Randomized Content
 Block`.
 
 To view the entire contents of the library in Studio, see :ref:`View the
-Contents of a Library`.
+Contents of a Legacy Library`.
 
 .. _View the Matching Components in a Randomized Content Block:
 
@@ -130,7 +135,7 @@ student.
    many of these components are randomly selected and provided to each student.
 
 To view the contents of a library in Studio, see :ref:`View the Contents of a
-Library`.
+Legacy Library`.
 
 To view the randomized content that was assigned to a specific learner, see
 :ref:`Specific Student View`.
@@ -271,8 +276,8 @@ problem.
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                        |
++--------------+-------------------------------+----------------+------------------------------------------------------+
+| 2025-07-30   | sarina                        | Teak           | Fail - needs to be updated for new content libraries |
++--------------+-------------------------------+----------------+------------------------------------------------------+

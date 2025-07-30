@@ -1,4 +1,4 @@
-.. _Exporting and Importing a Library:
+.. _Exporting and Importing a Legacy Library:
 
 Exporting and Importing a Legacy Library
 ###########################################
@@ -17,7 +17,7 @@ Exporting and Importing a Legacy Library
 
    See :ref:`Content Libraries Redesign Teak` for more information.
 
-You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
+You can :ref:`export<Export a Legacy Library>` and :ref:`import<Import a Legacy Library>` a
 content library in Studio.
 
 .. warning:: When you import a library, the imported library completely
@@ -25,7 +25,7 @@ content library in Studio.
   import. Before you proceed, we recommend that you export the current
   library, so that you have a backup copy of it.
 
-.. _Export a Library:
+.. _Export a Legacy Library:
 
 Export a Legacy Library
 ************************
@@ -57,7 +57,7 @@ To export a library, follow these steps.
 When the export process finishes, you can access the .tar.gz file on your
 computer.
 
-.. _Import a Library:
+.. _Import a Legacy Library:
 
 Import a Legacy Library
 *************************
@@ -109,11 +109,11 @@ To import a library, follow these steps.
 
  :ref:`Content Libraries Redesign Teak`
 
- :ref:`Content Libraries Overview` (concept)
+ :ref:`Legacy Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how to)
+ :ref:`Create a New Legacy Library` (how to)
 
- :ref:`Give Other Users Access to Your Library` (how to)
+ :ref:`Give Other Users Access to Your Legacy Library` (how to)
 
 **Maintenance chart**
 
