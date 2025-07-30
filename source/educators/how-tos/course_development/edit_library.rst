@@ -1,4 +1,4 @@
-.. _Edit a Library:
+.. _Edit a Legacy Library:
 
 Edit a Legacy Library
 #####################
@@ -9,8 +9,8 @@ After you create a library, the only change you can make to the initial library
 information is to the name. However, at any time, you can make changes to the
 components in your library, including adding or deleting components or editing
 the settings of components. For details about editing the contents of a
-library, see :ref:`Edit Components in a Library` and :ref:`Add Components to a
-Library`.
+library, see :ref:`Edit Components in a Legacy Library` and :ref:`Add Components to a
+Legacy Library`.
 
 To change the name of a library, follow these steps.
 
@@ -31,29 +31,29 @@ To change the name of a library, follow these steps.
 #. Select anywhere outside the library name field to save your changes.
 
 For details about giving other users access to the library, see :ref:`Give
-Other Users Access to Your Library`.
+Other Users Access to Your Legacy Library`.
 
 
 .. seealso::
  
 
- :doc:`/community/release_notes/sumac/content_libraries_redesign_beta`
+ :ref:`Content Libraries Redesign Teak`
  
- :ref:`Content Libraries Overview` (concept)
+ :ref:`Legacy Content Libraries Overview` (concept)
 
- :ref:`Create a New Library` (how-to)
+ :ref:`Create a New Legacy Library` (how-to)
 
- :ref:`Add Components to a Library` (how-to)
+ :ref:`Add Components to a Legacy Library` (how-to)
 
- :ref:`View the Contents of a Library` (how-to)
+ :ref:`View the Contents of a Legacy Library` (how-to)
 
- :ref:`Edit Components in a Library` (how-to)
+ :ref:`Edit Components in a Legacy Library` (how-to)
 
- :ref:`Delete a Library` (how-to)
+ :ref:`Delete a Legacy Library` (how-to)
 
- :ref:`Give Other Users Access to Your Library` (how to)
+ :ref:`Give Other Users Access to Your Legacy Library` (how to)
 
- :ref:`Exporting and Importing a Library` (how to)
+ :ref:`Exporting and Importing a Legacy Library` (how to)
 
 
 **Maintenance chart**

@@ -58,6 +58,8 @@ To add existing content to a unit
 
     :ref:`Navigate the Library Homepage`
 
+    :ref:`Create a New Library`
+
     :ref:`Build a Collection in a Library`
 
     :ref:`Create and edit content in a Library`
