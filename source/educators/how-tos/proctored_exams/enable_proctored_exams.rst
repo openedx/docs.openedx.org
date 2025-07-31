@@ -20,13 +20,11 @@ To enable proctored exams in your course, follow these steps.
 
 #. Select **Submit**. You can now create proctored exams in your course.
 
+
 Configuring Proctoring Provider
 *******************************
 
-The choice of proctoring provider can be configured. Since Fall 2019,
-the default proctoring provider is **RPNow** by PSI.  To use
-**Proctortrack** by Verificient, please follow these steps to change
-the proctoring provider:
+You can configure the proctoring provider by following these steps:
 
 .. warning:: Changing the proctoring provider for a course after
    proctored exams have been created in course content is not
@@ -47,7 +45,7 @@ proctoring provider, you can create a proctored exam or a practice
 proctored/onboarding exam.
 
 .. seealso::
- 
+
 
  :ref:`About Proctored Exams` (concept)
 
@@ -58,12 +56,6 @@ proctored/onboarding exam.
  :ref:`Manage Proctored Exams` (how-to)
 
  :ref:`Allow Opting Out of Proctored Exams` (how-to)
-
- :ref:`Create a Proctored Exam with Proctortrack` (how-to)
-
- :ref:`PT Proctored Session Results File` (reference)
-
- :ref:`Review PT Proctored Session Results` (how-to)
 
  :ref:`Create a Proctored Exam with RPNow` (how-to)
 
