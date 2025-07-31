@@ -3,7 +3,7 @@
 Quickstart Document Template
 ############################
 
-.. tags:: documentor, reference
+.. tags:: documentor, quickstart
 
 What Is a Quickstart
 ********************

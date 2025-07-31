@@ -81,6 +81,9 @@ The Open edX team will then review your changes. If they approve, they will merg
 
    :ref:`Documentation Audiences` (concept)
 
+   :ref:`FAQ PR Process` (reference)
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
