@@ -24,7 +24,7 @@ To enable proctored exams in your course, follow these steps.
 Configuring Proctoring Provider
 *******************************
 
-The default proctoring provider is **RPNow** by PSI. You can configure the proctoring provider by following these steps:
+You can configure the proctoring provider by following these steps:
 
 .. warning:: Changing the proctoring provider for a course after
    proctored exams have been created in course content is not
@@ -42,7 +42,7 @@ The default proctoring provider is **RPNow** by PSI. You can configure the proct
 
 After you enable proctored exams for your course and choose the
 proctoring provider, you can create a proctored exam or a practice
-proctored exam.
+proctored/onboarding exam.
 
 .. seealso::
 
