@@ -28,7 +28,7 @@ To change how the discussion experience is configured, follow these steps:
 #. In **Studio**, from the Content menu select **Pages & Resources**.
 #. Click the gear icon on the **Discussion** card shown on this page.
 #. From the **Configure discussion** modal, adjust any of the configuration settings as described below to fit your course needs.
-#. Select **Apply** to save your configuration changes.
+#. Select **Save** to save your configuration changes.
 
 The discussion configuration experience is comprised of two steps: provider selection and provider configuration.
 By default, courses are created with the Open edX discussion experience and its default configuration.
@@ -77,7 +77,7 @@ To change access to the course wiki, follow these steps.
 #. In Studio, from the **Content** menu select **Pages & Resources**.
 #. Click the gear icon on the **Wiki** card shown on this page.
 #. From the **Configure** wiki modal, check or uncheck the toggle of the **Enable public wiki access** setting.
-#. Select **Apply** to save your configuration changes.
+#. Select **Save** to save your configuration changes.
 
 The **Enable public wiki** access wiki setting is disabled by default, meaning that only course team members and
 enrolled learners can see the course wiki. If you enable this setting, then any registered user on your site can access the
