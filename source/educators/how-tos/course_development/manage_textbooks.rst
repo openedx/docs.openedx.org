@@ -56,7 +56,9 @@ Delete a Textbook
    This method deletes the entire textbook. To delete an individual chapter,
    see :ref:`Delete a Chapter`.
 
-#. On the **Content** menu, select **Textbooks**.
+#. On the **Content** menu, select **Pages & Resources**.
+
+#. Select the **Textbooks** card on this page.
 
 #. On the **Textbooks** page, hover the cursor over the textbook you want
    to delete, and then select the trash can icon.
@@ -75,13 +77,15 @@ Delete a Textbook
 Delete a Chapter
 *****************
 
-#. On the **Content** menu, select **Textbooks**.
+#. On the **Content** menu, select **Pages & Resources**.
+
+#. Select the **Textbooks** card on this page.
 
 #. On the **Textbooks** page, hover the cursor over the textbook that contains
-   the chapter you want to delete, and then select **Edit**.
+   the chapter you want to delete, and then select the **Edit** pencil icon.
 
 #. On the textbook editing page, locate the chapter you want to delete,
-   and then select the X icon next to that chapter.
+   and then select the trash can **delete** icon next to that chapter.
 
    .. image:: /_images/educator_how_tos/DeleteChapter.png
 	:width: 500
@@ -104,6 +108,8 @@ Delete a Chapter
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 08/12/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 06/30/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1152)|
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
