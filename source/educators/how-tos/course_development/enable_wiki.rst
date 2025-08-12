@@ -15,7 +15,7 @@ To disable or enable the Wiki application, follow these steps.
 
 #. From the **Configure Wiki** modal, select the toggle to enable or disable the wiki.
 
-#. Select **Apply** to save your configuration changes.
+#. Select **Save** to save your configuration changes.
 
 When you disable the wiki application in your course, any existing articles remain in the wide wiki of your Open edX instance, but the Wiki page is removed from your course pages.
 
