@@ -16,7 +16,7 @@ To disable or enable the Calculator resource, follow these steps.
 
 #. From the **Configure calculator** modal, select the toggle to enable or disable the calculator.
 
-#. Select **Apply** to save your configuration changes.
+#. Select **Save** to save your configuration changes.
 
 .. seealso::
  
