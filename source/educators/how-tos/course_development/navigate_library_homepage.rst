@@ -15,7 +15,9 @@ differentiated by content type (text block, problem and video).
 
 To view more information about a piece of content:
 
-#. Click on the tile. This will open the sidebar menu for the content.
+#. Ensure you are working in a Library. From Studio, select the **Libraries** tab, then select a library by selecting one from the list of libraries. You will arrive at the Library Homepage. 
+
+#. Click on a content tile. This will open the sidebar menu for that content.
 
 #. The Preview tab will be open by default, with a preview image of the content displayed in the sidebar.
 
@@ -54,6 +56,8 @@ sidebars to manage content`.
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 08/12/2025   | John (Curricu.me)             |  Sumac         | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 06/30/2025   | Leira (Curricu.me)            |  Sumac         | Fail (https://github.com/openedx/docs.openedx.org/issues/1145)|
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
