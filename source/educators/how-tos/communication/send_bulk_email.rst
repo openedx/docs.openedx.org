@@ -12,6 +12,9 @@ Send an Email Message to Course Participants
 
 You can send an email message to course participants from the instructor dashboard immediately or schedule it to be sent at a later time.
 
+.. note::
+   To send bulk emails, you must first :ref:`Enable Bulk Email` on your Open edX instance.
+
 .. _Send Bulk Email Immediately:
 
 **********************************************************
@@ -103,7 +106,8 @@ To send a scheduled email message to course participants, follow these steps.
    processing.
 
 .. seealso::
- 
+
+ :ref:`Enable Bulk Email` (how-to)
 
  :ref:`Guide to Bulk Email Messages` (reference)
 
@@ -115,6 +119,8 @@ To send a scheduled email message to course participants, follow these steps.
 
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                               |
++--------------+-------------------------------+----------------+-------------------------------------------------------------+
+| 08/12/2025   | John (Curricu.me)             | Sumac          |Pass                                                         |
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | 09/17/2025   | Leira (Curricu.me)            | Sumac          |Fail (https://github.com/openedx/docs.openedx.org/issues/932)|
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+

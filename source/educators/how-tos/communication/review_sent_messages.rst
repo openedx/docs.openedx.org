@@ -27,11 +27,10 @@ message text.
 
 .. image:: /_images/educator_how_tos/Bulk_email_sent.png
     :alt: A dialog box with the subject, sent by, date and time sent, sent to,
-          and message for an email message, and an option to Copy Email
-          to Editor.
+          and message for an email message, and an option to Copy to Editor.
 
 #. Optionally, use the message as the basis for a new message: select **Copy
-   Email to Editor**. The dialog box closes and you can edit the text, links,
+   to Editor**. The dialog box closes and you can edit the text, links,
    and formatting that were duplicated into the **Subject** and **Message**
    fields.
 
@@ -51,6 +50,8 @@ message text.
 
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                               |
++--------------+-------------------------------+----------------+-------------------------------------------------------------+
+| 08/12/2025   | John (Curricu.me)             |   Sumac        |Pass                                                         |
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+
 | 03/17/2025   | Leira (Curricu.me)            |   Sumac        |Fail (https://github.com/openedx/docs.openedx.org/issues/934)|
 +--------------+-------------------------------+----------------+-------------------------------------------------------------+

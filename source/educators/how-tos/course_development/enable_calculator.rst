@@ -16,7 +16,7 @@ To disable or enable the Calculator resource, follow these steps.
 
 #. From the **Configure calculator** modal, select the toggle to enable or disable the calculator.
 
-#. Select **Apply** to save your configuration changes.
+#. Select **Save** to save your configuration changes.
 
 .. seealso::
  
@@ -44,5 +44,5 @@ To disable or enable the Calculator resource, follow these steps.
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 07/01/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1164)|
+| 07/23/2025   | Leira (Curricu.me)            | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
