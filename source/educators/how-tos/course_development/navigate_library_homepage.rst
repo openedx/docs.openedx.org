@@ -15,7 +15,7 @@ differentiated by content type (text block, problem and video).
 
 To view more information about a piece of content:
 
-#. Ensure you are working in a Library. From Studio, select the **Libraries** tab, then select a library by selecting one from the list of libraries. You will arrive at the Library Homepage. 
+#. Ensure you are working in a Library. From the Studio homepage, select the **Libraries** tab, then select a library by selecting one from the list of libraries. You will arrive at the Library Homepage. 
 
 #. Click on a content tile. This will open the sidebar menu for that content.
 
