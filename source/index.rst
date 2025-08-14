@@ -4,9 +4,26 @@ Open edX Documentation
 .. The homepages are provided as links in the panels so we don't need to display
    the table of contents for them.
 
+.. grid:: 1 1 1 1
+   :gutter: 3
+   :padding: 0
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+      
+      .. toctree::
+         :maxdepth: 1
+         :caption: Quick Starts
+
+         Set up Open edX <site_ops/quickstarts/index>
+         Build a Course <educators/quickstarts/build_a_course>
+         Contribute to Open edX Code Base <developers/quickstarts/first_openedx_pr>
+         Update the Documentation <documentors/quickstarts/first_documentation_pr>
+
 .. toctree::
    :maxdepth: 1
-   :caption: User Home Pages
+   :caption: Role Guides
    :hidden:
 
    Community <community/index>
@@ -17,35 +34,14 @@ Open edX Documentation
    Documentors <documentors/index>
    Translators <translators/index>
 
+
+**************************
+Role Guides
+**************************
+
 .. grid:: 1 2 2 2
    :gutter: 3
    :padding: 0
-
-   .. grid-item-card::
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. toctree::
-         :maxdepth: 1
-         :caption: Quick Starts
-
-         Educators: Build a Course <educators/quickstarts/build_a_course>
-         Site Operators: Set up Open edX <site_ops/quickstarts/index>
-         Developers: Contribute to Open edX <developers/quickstarts/first_openedx_pr>
-         Documentors: First Documentation PR <documentors/quickstarts/first_documentation_pr>
-
-   .. grid-item-card::
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. toctree::
-         :maxdepth: 1
-         :caption: Open Source Community
-
-         Current Release: Teak <community/release_notes/teak>
-         All Release Notes <community/release_notes/index>
-         How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
-         OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
 
    .. grid-item-card:: Educators
       :class-card: sd-shadow-md sd-p-2
@@ -96,16 +92,6 @@ Open edX Documentation
 
       Deploy and run an Open edX® site.
 
-      .. toctree::
-         :maxdepth: 1
-         :hidden:
-
-         site_ops/index
-         site_ops/quickstarts/index
-         site_ops/concepts/index
-         site_ops/references/index
-         site_ops/how-tos/index
-
       +++
       .. button-ref:: site_ops/index
          :color: primary
@@ -124,16 +110,6 @@ Open edX Documentation
          :align: center
 
       Enhance and extend the Open edX® Platform.
-
-      .. toctree::
-         :maxdepth: 1
-         :hidden:
-
-         developers/index
-         developers/quickstarts/index
-         developers/concepts/index
-         developers/references/index
-         developers/how-tos/index
 
       +++
       .. button-ref:: developers/index
@@ -177,16 +153,6 @@ Open edX Documentation
 
       Translate the Open edX® Platform.
 
-      .. toctree::
-         :maxdepth: 1
-         :hidden:
-
-         translators/index
-         translators/quickstarts/index
-         translators/concepts/index
-         translators/references/index
-         translators/how-tos/index
-
       +++
       .. button-ref:: translators/index
          :color: primary
@@ -195,15 +161,85 @@ Open edX Documentation
 
          Translators' Home
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Core Contributors Handbook
+   :hidden:
+
+   handbook/index
+
+**************************
+Core Contributors Handbook
+**************************
+
+.. grid:: 1 2 2 2
+   :gutter: 3
+   :padding: 0
+
+   .. grid-item-card:: Core Contributors Handbook
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/handbook_undraw.png
+         :alt: Core Contributor Persona contributing to the platform
+         :height: 150px
+         :align: center
+
+      A central guide for all current and aspiring Core Contributors to the Open edX project
+
+      +++
+      .. button-ref:: handbook/index
+         :color: primary
+         :outline:
+         :expand:
+
+         Core Contributors' Handbook
+
+**************************
+Open edX Release Notes
+**************************
+
+.. grid:: 1 2 2 2
+   :gutter: 3
+   :padding: 0
+
+   .. grid-item-card::
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/trees_undraw.png
+         :alt: Abstract tree with branches
+         :height: 150px
+         :align: center
+
+      Release notes for the latest and all previous releases of the Open edX Platform. Our releases are named after trees!
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Open edX Release Notes
+
+         Current Release: Teak <community/release_notes/teak>
+         All Release Notes <community/release_notes/index>
+
+**************************
+Help & Feedback
+**************************
+
+.. grid:: 1 2 2 2
+   :gutter: 3
+   :padding: 0
+
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
       .. toctree::
          :maxdepth: 1
-         :caption: Other Topics
+         :caption: Help & Feedback
 
-         other/feedback
-         other/getting_help
-         Technical Decisions About This Site <documentors/decisions/index>
-         developers/references/aspects_home
+         Provide Feedback on these Docs <other/feedback>
+         Get General Help with Open edX <other/getting_help>
+         Get Technical Help with Open edX <site_ops/install_configure_run_guide/front_matter/getting_help>
+
+

@@ -10,6 +10,24 @@ Open edX Site Operators
    For information about the latest release of the Open edX Platform, you can
    check out the  :doc:`/community/release_notes/index`
 
+**************************
+Quick Links
+**************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   install_configure_run_guide/index
+   quickstarts/index
+   how-tos/index
+   concepts/index
+   references/index
+
+*******************************
+All Site Operators' Guides
+*******************************
+
 .. toctree::
    :glob:
 
