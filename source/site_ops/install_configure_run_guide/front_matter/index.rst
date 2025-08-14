@@ -5,10 +5,10 @@ General Information
 .. tags:: site operator
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    read_me
-   getting_help
+   Get Help with Open edX </other/getting_help>
    browsers
 
 

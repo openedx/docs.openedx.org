@@ -239,7 +239,6 @@ Help & Feedback
          :caption: Help & Feedback
 
          Provide Feedback on these Docs <other/feedback>
-         Get General Help with Open edX <other/getting_help>
-         Get Technical Help with Open edX <site_ops/install_configure_run_guide/front_matter/getting_help>
+         Get Help with Open edX <other/getting_help>
 
 
