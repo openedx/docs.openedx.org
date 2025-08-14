@@ -13,11 +13,10 @@ Open edX Core Contributors Handbook
          :alt: Core Contributor Persona contributing to the platform
          :height: 150px
          :align: center
-         :target: navigation/creating_course.html
 
-         Under Construction
+      Under Construction
 
-      .. button-ref:: handbook/index
+      .. button-ref:: index
          :color: primary
          :outline:
          :expand:
