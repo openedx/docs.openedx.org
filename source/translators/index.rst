@@ -31,6 +31,7 @@ Translators Home
          :maxdepth: 1
          :caption: How-Tos
 
+         how-tos/index
          how-tos/how-to*
       +++
       .. button-ref:: how-tos/index
@@ -49,6 +50,7 @@ Translators Home
          :maxdepth: 1
          :caption: Concepts
 
+         concepts/index
          concepts/working*
       +++
       .. button-ref:: concepts/index
