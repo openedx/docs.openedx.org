@@ -34,7 +34,7 @@ these topics.
 
 * :ref:`View the Matching Components in a Randomized Content Block`
 * :ref:`Edit Components in Randomized Content Blocks`
-* :ref:`Get the Latest Version of Library Content`
+* :ref:`Get the Latest Version of Legacy Library Content`
 * :ref:`Preview Randomized Content in Student View`
 * :ref:`View Specific Student Assigned Problems from Randomized Content Block`
 * :ref:`Adjust Grades for a Problem from a Randomized Content Block`
@@ -154,7 +154,7 @@ do for any other component in your course.
    components from a library, these changes are overwritten. Only changes to a
    component's **Settings** tab are retained when you update the component.
    For details about getting the latest versions of library content in a
-   randomized content block, see :ref:`Get the Latest Version of Library
+   randomized content block, see :ref:`Get the Latest Version of Legacy Library
    Content`.
 
 The settings of a component that is supplied in a randomized content block are
@@ -172,10 +172,10 @@ library, a **Clear** icon is shown next to the setting field.
 
 Select **Clear** to restore the library default setting for that field.
 
-.. _Get the Latest Version of Library Content:
+.. _Get the Latest Version of Legacy Library Content:
 
-Getting the Latest Version of Library Content
-=============================================
+Getting the Latest Version of Legacy Library Content
+=======================================================
 
 If you modify the contents of a library that is referenced by randomized
 content blocks in one or more courses, those courses do not automatically use

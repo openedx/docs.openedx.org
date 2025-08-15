@@ -17,37 +17,37 @@ Exporting and Importing a Legacy Library
 
    See :ref:`Content Libraries Redesign Teak` for more information.
 
-You can :ref:`export<Export a Legacy Library>` and :ref:`import<Import a Legacy Library>` a
+You can :ref:`export<Export a Legacy Library>` and :ref:`import<Import a Legacy Library>` a legacy
 content library in Studio.
 
-.. warning:: When you import a library, the imported library completely
-  replaces the existing library and its contents. You cannot undo a library
+.. warning:: When you import a legacy library, the imported legacy library completely
+  replaces the existing legacy library and its contents. You cannot undo a legacy library
   import. Before you proceed, we recommend that you export the current
-  library, so that you have a backup copy of it.
+  legacy library, so that you have a backup copy of it.
 
 .. _Export a Legacy Library:
 
 Export a Legacy Library
 ************************
 
-There are several reasons why you might want to export your library.
+There are several reasons why you might want to export your legacy library.
 
 * To save your work in progress
-* To edit the XML in your library directly
-* To create a backup copy of your library
+* To edit the XML in your legacy library directly
+* To create a backup copy of your legacy library
 * To share with another course team member
 
-When you export your library, Studio creates a **.tar.gz** file (that is, a
+When you export your legacy library, Studio creates a **.tar.gz** file (that is, a
 .tar file compressed using GNU Zip). This export file contains the problems in
-the library, including any customizations you made in the library to problem
-settings. The export does not include library settings such as user access
+the legacy library, including any customizations you made in the legacy library to problem
+settings. The export does not include legacy library settings such as user access
 permissions.
 
-To export a library, follow these steps.
+To export a legacy library, follow these steps.
 
 #. In Studio, select the **Libraries** tab.
 
-#. Locate the library that you want to export.
+#. Locate the legacy library that you want to export.
 
 #. From the **Tools** menu, select **Export**.
 
@@ -62,23 +62,23 @@ computer.
 Import a Legacy Library
 *************************
 
-You might want to import a library if you developed or updated library content
+You might want to import a legacy library if you developed or updated legacy library content
 outside of Studio, or if you want to overwrite a problematic or outdated
-version of the library.
+version of the legacy library.
 
-.. warning:: When you import a library, the imported library completely
-  replaces the existing library and its contents. You cannot undo a library
+.. warning:: When you import a legacy library, the imported legacy library completely
+  replaces the existing legacy library and its contents. You cannot undo a legacy library
   import. Before you proceed, we recommend that you export the current
-  library, so that you have a backup copy of it.
+  legacy library, so that you have a backup copy of it.
 
-The library file that you import must be a .tar.gz file (that is, a .tar file
+The legacy library file that you import must be a .tar.gz file (that is, a .tar file
 compressed using GNU Zip). This .tar.gz file must contain a library.xml file.
 
-To import a library, follow these steps.
+To import a legacy library, follow these steps.
 
 #. In Studio, select the **Libraries** tab.
 
-#. Locate the library to which you want to import the new library content.
+#. Locate the legacy library to which you want to import the new legacy library content.
 
 #. From the **Tools** menu, select **Import**.
 
@@ -91,17 +91,17 @@ To import a library, follow these steps.
      (Uploading and Unpacking), do not navigate away from the
      **Library Import** page. Doing so causes the import process to end. You
      can leave the page only after the Unpacking stage completes. We recommend
-     that you do not make important changes to the library until all stages of
+     that you do not make important changes to the legacy library until all stages of
      the import process have finished.
 
 #. When the import process finishes, select **View Updated Library** to view
-   the imported library.
+   the imported legacy library.
 
-.. note:: If your imported library includes changes to components that are in
-   use in a course, the course does not reflect these library updates until you
+.. note:: If your imported legacy library includes changes to components that are in
+   use in a course, the course does not reflect these legacy library updates until you
    manually update the randomized content block in the course unit. For details
-   about updating library components used in your course to match the latest
-   version in the content library, see :ref:`Get the Latest Version of Library
+   about updating legacy library components used in your course to match the latest
+   version in the content legacy library, see :ref:`Get the Latest Version of legacy library
    Content`.
 
 .. seealso::

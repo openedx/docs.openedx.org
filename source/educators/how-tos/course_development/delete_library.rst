@@ -5,16 +5,24 @@ Delete a Legacy Library
 
 .. tags:: educator, how-to
 
-You cannot delete a library. Instead, you can discontinue use of an unwanted
-library. To do so, follow the next steps:
+.. warning::
+
+   The Legacy Libraries feature will be supported through Ulmo, moving to
+   unsupported in Verawood. Ulmo will include a one-click migration feature that
+   will make it easy to convert a Legacy Library into the new Library interface.
+
+   See :ref:`Content Libraries Redesign Teak` for more information.
+
+You cannot delete a legacy library. Instead, you can discontinue use of an unwanted
+legacy library. To do so, follow the next steps:
 
 #. First, make sure that none of its components are in use in
 any courses.
 
-#. Delete all components in the library. 
+#. Delete all components in the legacy library. 
 
 #. :ref:`Edit the name of the legacy library<Edit a Legacy Library>` to make it clear to other course team
-members that the library should not be used as a source of randomized
+members that the legacy library should not be used as a source of randomized
 assignment content in courses.
 
 

@@ -19,7 +19,7 @@ refer to the following topics.
    these updates in the "source" library are not reflected in the course unless
    you manually update the randomized content block in the course unit. For
    details about updating library components used in your course to match the
-   latest version in the library, see :ref:`Get the Latest Version of Library
+   latest version in the library, see :ref:`Get the Latest Version of Legacy Library
    Content`.
 
 
