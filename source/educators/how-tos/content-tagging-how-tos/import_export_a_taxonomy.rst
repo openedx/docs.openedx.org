@@ -68,6 +68,13 @@ Export a taxonomy
 
 #. Click :guilabel:`Export`. The file will export to your local machine.
 
+.. seealso::
+
+    :ref:`create-flat-taxonomy`
+
+    :ref:`build-taxonomy-using-template`
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

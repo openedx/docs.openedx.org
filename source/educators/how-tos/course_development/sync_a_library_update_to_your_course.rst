@@ -5,6 +5,12 @@ Sync a Library update to your course
 
 .. tags:: educator, how-to
 
+.. admonition:: Publish Your Updated Library Content
+
+    In order to sync a piece of content within a course to the latest version in
+    the Library, the updated Library content must first be published before it
+    will be available to sync within the course.
+
 #. When a piece of content is updated and re-published in a Library, the sync
    button appears with the text :guilabel:`UPDATE AVAILABLE`.
 
