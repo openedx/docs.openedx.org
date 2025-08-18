@@ -51,7 +51,7 @@ To grant a user initial **User** access to a legacy library, follow these steps.
 
 #. Ensure that the new legacy library member has an active Studio account.
 
-#. On the Studio home page, select the **Libraries** tab and locate the legacy library
+#. On the Studio home page, select the **Legacy Libraries** tab and locate the legacy library
    to which you are adding this user.
 
 #. From the **Settings** menu select **User Access**.
@@ -72,7 +72,7 @@ access that they have.
 
 To remove a user from the legacy library, follow these steps.
 
-#. In Studio, select the **Libraries** tab and locate your legacy library.
+#. In Studio, select the **Legacy Libraries** tab and locate your legacy library.
 
 #. From the **Settings** menu select **User Access**.
 
@@ -98,7 +98,7 @@ to people who already have the **Staff** level of access.
 To give a legacy library member a higher level of access to the legacy library, follow these
 steps.
 
-#. In Studio, select the **Libraries** tab and locate your legacy library.
+#. In Studio, select the **Legacy Libraries** tab and locate your legacy library.
 
 #. From the **Settings** menu select **User Access**.
 
@@ -126,7 +126,7 @@ After you have granted users **Staff** or **Admin** access, you (or other
 To remove **Staff** or **Admin** access from a legacy library user, follow these
 steps.
 
-#. In Studio, select the **Libraries** tab and locate your legacy library.
+#. In Studio, select the **Legacy Libraries** tab and locate your legacy library.
 
 #. From the **Settings** menu select **User Access**.
 

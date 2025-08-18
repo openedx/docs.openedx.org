@@ -21,7 +21,7 @@ To create a new legacy library, follow these steps.
 
 #. Log in to Studio.
 
-#. Select **New Library**.
+#. Select **Legacy Libraries**, then **New Library**.
 
 #. Enter the required information for your new legacy library, then select **Create**.
 

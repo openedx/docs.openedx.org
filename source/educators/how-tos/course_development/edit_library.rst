@@ -24,7 +24,7 @@ To change the name of a legacy library, follow these steps.
 
 #. Log in to Studio.
 
-#. Select **Libraries**, then select the legacy library whose name you want to edit.
+#. Select **Legacy Libraries**, then select the legacy library whose name you want to edit.
 
 #. Select the **Edit** icon next to the legacy library name.
 

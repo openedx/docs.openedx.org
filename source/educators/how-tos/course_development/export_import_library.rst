@@ -45,7 +45,7 @@ permissions.
 
 To export a legacy library, follow these steps.
 
-#. In Studio, select the **Libraries** tab.
+#. In Studio, select the **Legacy Libraries** tab.
 
 #. Locate the legacy library that you want to export.
 
@@ -76,7 +76,7 @@ compressed using GNU Zip). This .tar.gz file must contain a library.xml file.
 
 To import a legacy library, follow these steps.
 
-#. In Studio, select the **Libraries** tab.
+#. In Studio, select the **Legacy Libraries** tab.
 
 #. Locate the legacy library to which you want to import the new legacy library content.
 

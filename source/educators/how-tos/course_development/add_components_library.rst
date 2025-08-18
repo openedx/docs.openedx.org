@@ -18,7 +18,7 @@ follow these steps.
 
 #. Log in to Studio.
 
-#. Select **Libraries**, then select the legacy library that you want to add
+#. Select **Legacy Libraries**, then select the legacy library that you want to add
    components to.
 
 #. Select **Add Component**, then select the component type that you want to

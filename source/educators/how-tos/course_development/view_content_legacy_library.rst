@@ -17,7 +17,7 @@ To view the entire contents of a legacy library in Studio, follow these steps.
 
 #. Log in to Studio.
 
-#. Select **Libraries**, then select the legacy library whose components you want to
+#. Select **Legacy Libraries**, then select the legacy library whose components you want to
    view.
 
 #. Optionally, select **Hide Previews** at the top right of the legacy library page to
