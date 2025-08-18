@@ -5,32 +5,40 @@ Edit a Legacy Library
 
 .. tags:: educator, how-to
 
-After you create a library, the only change you can make to the initial library
+.. warning::
+
+   The Legacy Libraries feature will be supported through Ulmo, moving to
+   unsupported in Verawood. Ulmo will include a one-click migration feature that
+   will make it easy to convert a Legacy Library into the new Library interface.
+
+   See :ref:`Content Libraries Redesign Teak` for more information.
+
+After you create a legacy library, the only change you can make to the initial legacy library
 information is to the name. However, at any time, you can make changes to the
-components in your library, including adding or deleting components or editing
+components in your legacy library, including adding or deleting components or editing
 the settings of components. For details about editing the contents of a
-library, see :ref:`Edit Components in a Legacy Library` and :ref:`Add Components to a
+legacy library, see :ref:`Edit Components in a Legacy Library` and :ref:`Add Components to a
 Legacy Library`.
 
-To change the name of a library, follow these steps.
+To change the name of a legacy library, follow these steps.
 
 #. Log in to Studio.
 
-#. Select **Libraries**, then select the library whose name you want to edit.
+#. Select **Legacy Libraries**, then select the legacy library whose name you want to edit.
 
-#. Select the **Edit** icon next to the library name.
+#. Select the **Edit** icon next to the legacy library name.
 
-   The library name field becomes editable.
+   The legacy library name field becomes editable.
 
    .. image:: /_images/educator_how_tos/ContentLibrary_EditName.png
-     :alt: The Edit icon to the right of the Library Name.
+     :alt: The Edit icon to the right of the legacy library Name.
      :width: 300
 
-#. In the library name field, make edits or enter a new library name.
+#. In the library name field, make edits or enter a new legacy library name.
 
-#. Select anywhere outside the library name field to save your changes.
+#. Select anywhere outside the legacy library name field to save your changes.
 
-For details about giving other users access to the library, see :ref:`Give
+For details about giving other users access to the legacy library, see :ref:`Give
 Other Users Access to Your Legacy Library`.
 
 
@@ -60,6 +68,8 @@ Other Users Access to Your Legacy Library`.
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-07-31   | sarina                        | Teak           | Deprecated                     |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 07/01/2025   | Leira(Curricuu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

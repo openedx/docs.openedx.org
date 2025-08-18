@@ -5,20 +5,28 @@ View the Contents of a Legacy Library
 
 .. tags:: educator, how-to
 
-To view the entire contents of a library in Studio, follow these steps.
+.. warning::
+
+   The Legacy Libraries feature will be supported through Ulmo, moving to
+   unsupported in Verawood. Ulmo will include a one-click migration feature that
+   will make it easy to convert a Legacy Library into the new Library interface.
+
+   See :ref:`Content Libraries Redesign Teak` for more information.
+
+To view the entire contents of a legacy library in Studio, follow these steps.
 
 #. Log in to Studio.
 
-#. Select **Libraries**, then select the library whose components you want to
+#. Select **Legacy Libraries**, then select the legacy library whose components you want to
    view.
 
-#. Optionally, select **Hide Previews** at the top right of the library page to
+#. Optionally, select **Hide Previews** at the top right of the legacy library page to
    collapse the component previews and see only the list of component display
-   names. To return to the full preview of components in the library, select
+   names. To return to the full preview of components in the legacy library, select
    **Show Previews**.
 
-The components in the library are shown in the order in which they were added,
-with the most recently added at the bottom. If your library has more than 10
+The components in the legacy library are shown in the order in which they were added,
+with the most recently added at the bottom. If your legacy library has more than 10
 components, additional components are shown on other pages.
 
 The range of the components shown on the current page, and the total number of
@@ -37,7 +45,7 @@ You can navigate through the pages in the following ways.
      :alt: Image showing a pair of page numbers with the first number circled.
      :width: 300
 
-To view the list of matching components in the library, see :ref:`View the
+To view the list of matching components in the legacy library, see :ref:`View the
 Matching Components in a Randomized Content Block`.
 
 To view the randomized content that was assigned to a specific learner, see
@@ -66,5 +74,7 @@ To view the randomized content that was assigned to a specific learner, see
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 07/01/2025   | Leira (Curricu.me)            | Sumac          | Pass (https://github.com/openedx/docs.openedx.org/issues/1174)|
+| 2025-07-31   | sarina                        | Teak           | Deprecated                                                    |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 07/01/2025   | Leira (Curricu.me)            | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

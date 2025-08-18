@@ -17,44 +17,44 @@ that can be used in randomized assignments in your courses.
 
    See :ref:`Content Libraries Redesign Teak` for more information.
 
-To create a new library, follow these steps.
+To create a new legacy library, follow these steps.
 
 #. Log in to Studio.
 
-#. Select **New Library**.
+#. Select **Legacy Libraries**, then **New Library**.
 
-#. Enter the required information for your new library, then select **Create**.
+#. Enter the required information for your new legacy library, then select **Create**.
 
-   .. note:: Enter new library information carefully. The values in these
-      fields become part of the URL for your library, therefore the total
+   .. note:: Enter new legacy library information carefully. The values in these
+      fields become part of the URL for your legacy library, therefore the total
       number of characters in the **Library Name**, **Organization**, and
       **Library Code** fields must be 65 or fewer.
 
    .. image:: /_images/educator_how_tos/ContentLibrary_NewCL.png
-      :alt: Image of the library creation page.
+      :alt: Image of the legacy library creation page.
       :width: 600
 
-  - For **Library Name**, enter the public display name for your library.
+  - For **Library Name**, enter the public display name for your legacy library.
     Choose a meaningful name that will help you and other course team members
-    to identify the library. For example, "Level 200 Math Problems". When you
-    add a randomized content block to a course unit, you use the library name
-    to specify this library as a source for the randomized assignment.
+    to identify the legacy library. For example, "Level 200 Math Problems". When you
+    add a randomized content block to a course unit, you use the legacy library name
+    to specify this legacy library as a source for the randomized assignment.
 
   - For **Organization**, enter the identifier for your university. For
     example, enter HarvardX or MITx. Do not include spaces or special
     characters.
 
-  - For **Library Code**, enter an identifier for your library that is unique
+  - For **Library Code**, enter an identifier for your legacy library that is unique
     within your organization. This code becomes part of the URL for your
-    library, so do not include spaces or special characters in the code.
+    legacy library, so do not include spaces or special characters in the code.
 
 4. Select **Create**.
 
-You see the new library, to which you can now add components. For information
-about adding components to a library, see :ref:`Add Components to a Legacy Library`.
+You see the new legacy library, to which you can now add components. For information
+about adding components to a legacy library, see :ref:`Add Components to a Legacy Library`.
 
-After you create a library, you are automatically assigned an **Admin** role
-for the library. For information about adding other users to a library after
+After you create a legacy library, you are automatically assigned an **Admin** role
+for the legacy library. For information about adding other users to a legacy library after
 you create it, see :ref:`Give Other Users Access to Your Legacy Library`.
 
 
@@ -84,6 +84,8 @@ you create it, see :ref:`Give Other Users Access to Your Legacy Library`.
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-07-31   | sarina                        | Teak           | Deprecated                     |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 07/01/2025   | Leira (Curricu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

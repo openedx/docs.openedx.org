@@ -10,6 +10,9 @@ Add and Delete tags in Library content
    Users must have "Author" or "Admin" permissions on a library to manage tags.
    See :ref:`Add users to Libraries` for more detail.
 
+   At least one taxonomy must be enabled in order to tag content. See
+   :ref:`import-export-taxonomy` for details on importing taxonomies.
+
 With the Content Tagging feature, authors and instructional designers are able
 to add tags to their Library content. This includes the ability to tag any
 individual blocks like problems and videos.
@@ -79,10 +82,18 @@ Delete tags from Library content
 
     :ref:`Build a Collection in a Library`
 
+    :ref:`import-export-taxonomy`
+
+    :ref:`create-flat-taxonomy`
+
+    :ref:`build-taxonomy-using-template`
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 2025-07-31   | sarina                        | Teak           | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 07/02/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1187)|
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
