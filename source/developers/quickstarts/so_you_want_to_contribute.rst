@@ -21,8 +21,8 @@ Before we can merge your contribution you will need to sign a Contributor
 License Agreement (CLA).  We suggest starting that process sooner rather than
 later.
 
-#. If you are contributing as an individual go ahead and sign the Individual
-   Contributor Agreement.
+#. If you are contributing as an individual go ahead and sign the `Individual
+   Contributor Agreement <Open edX CLA_>`_.
 
 #. If your work will be contributed as part of a company or institution, have
    your team or company lead email ``legal@axim.org`` with your information.
