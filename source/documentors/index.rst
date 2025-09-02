@@ -94,6 +94,11 @@ Open edX Documentors
          references/quick_reference.rst
 
 
+      .. toctree::
+         :maxdepth: 1
+         :hidden:
+
+         decisions/index
 
    .. grid-item-card:: Decisions
       :class-card: sd-shadow-md sd-p-2

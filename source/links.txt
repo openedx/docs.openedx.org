@@ -339,3 +339,5 @@
 .. _retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
 
 .. _AWS Documentation: http://aws.amazon.com/documentation/
+
+.. _Getting Help page: https://open.edx.org/getting-help
