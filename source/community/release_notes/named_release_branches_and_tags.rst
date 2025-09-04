@@ -11,11 +11,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 ***********************
 
-The latest supported release line is Sumac_, based on code from 2024-05-09.
+The latest supported release line is Teak_, based on code from 2025-04-26.
 
-The next release will be Teak__.
+The next release will be Ulmo__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/4570710024/Next+Release+Teak+-+Operator+Dev+Notes
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/5017010202/Next+Release+Ulmo+-+Operator+Dev+Notes
 
 Dates for recent and upcoming releases can be found in the `Release Schedule`_.
 
@@ -35,13 +35,37 @@ For documentation on the latest release, please visit the :doc:`./index`.
 
 Every release line (Ginkgo, Hawthorn, etc) has a branch that accumulates changes destined for that release (``open-release/ginkgo.master``, ``open-release/hawthorn.master``, etc). Periodically, we tag that branch (``open-release/hawthorn.1``, ``open-release/hawthorn.2``, etc). After a few releases, we might still add important fixes to the branch, but not make a new tagged release. At that point, someone installing that line will want to install from the branch, not the tags.
 
+From Teak onwards we have changed the nomanclature from ``open-release/<named-release>.master`` to ``release/<named-release>``. Subsequently tags are changed from ``open-release/<named-release>.1`` to ``release/<named-release>.1``.
+
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
+
+Teak
+=====
+
+* **Code cut date:** 2025-04-26
+* **Status:** supported
+* :doc:`Release Notes <./teak>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Teak.1
+     - 2025-06-26
+     - release/teak.1
+
+   * - Teak.2
+     - 2025-08-21
+     - release/teak.2
 
 Sumac
 =====
 
 * **Code cut date:** 2024-10-24
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./sumac>`
 
 .. list-table::
@@ -54,6 +78,14 @@ Sumac
    * - Sumac.1
      - 2024-12-16
      - open-release/sumac.1
+
+   * - Sumac.2
+     - 2025-02-12
+     - open-release/sumac.2
+
+   * - Sumac.3
+     - 2025-05-16
+     - open-release/sumac.3
 
 Redwood
 =======
