@@ -8,6 +8,26 @@ Open edX Documentation
    :gutter: 3
    :padding: 0
 
+   .. grid-item-card:: 📰 What's New?
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :hidden:
+
+         📰 What's New? <community/release_notes/teak/teak_marketing_notes>
+
+      The Open edX Teak release is out, featuring:
+
+      💡 Easier Content Reuse with Libraries!
+
+      📈 Analytics in Studio!
+
+      🏅 Badges for Learners!
+
+      ... and lots more! :ref:`Continue reading... <Teak Product Marketing Notes>`
+
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
@@ -20,20 +40,6 @@ Open edX Documentation
          Build an Open edX Course <educators/quickstarts/build_a_course>
          Contribute to the Open edX Code Base <developers/quickstarts/so_you_want_to_contribute>
          Update the Open edX Documentation <documentors/quickstarts/first_documentation_pr>
-
-   .. grid-item-card:: What's New?
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      The Open edX Teak release is out, featuring:
-
-      💡 Easier Content Reuse with Libraries!
-
-      📈 Analytics in Studio!
-
-      🏅 Badges for Learners!
-
-      ... and lots more! :ref:`Continue reading... <Teak Product Marketing Notes>`
 
 .. toctree::
    :maxdepth: 1
