@@ -33,7 +33,7 @@ Updates
 #. Course updates: When the instructor creates a new course update.
 
 .. image:: /_images/learners/Notifications_tray_updates_screenshot.png
-  :width: 300
+  :width: 400
   :align: center
   :alt: Screenshot of a course update notification in tray.
 
@@ -46,7 +46,7 @@ Grading
     #. This notification is only sent to users having a course staff or course admin role.
 
 .. image:: /_images/learners/Notifications_tray_grading_screenshot.png
-  :width: 300
+  :width: 400
   :align: center
   :alt: Screenshot of all grading notifications in tray.
 
@@ -66,7 +66,7 @@ Tray
 - A gear icon in the tray's top-right corner links to the preferences center, where users can adjust their notification settings.
 
 .. image:: /_images/learners/Notifications_tray_screenshot.png
-  :width: 300
+  :width: 500
   :align: center
   :alt: Clicking the bell on the top right opens the notifications tray.
 
@@ -104,7 +104,7 @@ For each preference:
 - Users can set cadence for email notifications: Immediately, Daily and Weekly.
 
 .. image:: /_images/learners/Preference_center.png
-  :width: 300
+  :width: 500
   :align: center
   :alt: Screenshot of preference center on Account Settings.
 
@@ -170,7 +170,7 @@ High-volume notifications, such as new discussion posts or new ORA submissions, 
 - New ORA submissions: Notifications are grouped by the ORA assignment ID.
 
 .. image:: /_images/learners/Notificaitons_grouping_ORA_screenshot.png
-  :width: 300
+  :width: 400
   :align: center
   :alt: Screenshot of grouped and ungrouped ORA submission received notification.
 
