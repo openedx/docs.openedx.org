@@ -20,7 +20,7 @@ Discussions Notifications
 #.  New posts from instructors: When the instructor creates a post and chooses to notify the learners.
 
 
-.. image:: /_images/learners/Notifications_tray_screenshot.png
+.. image:: /_images/learners/Notifications_tray_forum_screenshot.png
   :height: 300
   :align: center
   :alt: Clicking the bell on the top right opens the notifications tray.
@@ -30,6 +30,11 @@ Updates
 
 #. Course updates: When the instructor creates a new course update.
 
+.. image:: /_images/learners/Notifications_tray_updates_screenshot.png
+  :height: 300
+  :align: center
+  :alt: Screenshot of a course update notification in tray.
+
 Grading
 ********
 
@@ -37,6 +42,11 @@ Grading
 #.  ORA new submissions: When a learner submits an ORA that requires staff grading.
 
     #. This notification is only sent to users having a course staff or course admin role.
+
+.. image:: /_images/learners/Notifications_tray_grading_screenshot.png
+  :height: 300
+  :align: center
+  :alt: Screenshot of all grading notifications in tray.
 
 
 .. _Delivery Channels:
@@ -53,6 +63,10 @@ Tray
 - Each notification includes the relevant course's name, a red dot to indicate it's unread (not clicked), and a timestamp showing when it was generated.
 - A gear icon in the tray's top-right corner links to the preferences center, where users can adjust their notification settings.
 
+.. image:: /_images/learners/Notifications_tray_screenshot.png
+  :height: 300
+  :align: center
+  :alt: Clicking the bell on the top right opens the notifications tray.
 
 Email Notifications
 *******************
@@ -65,6 +79,11 @@ Email Notifications
   - Weekly: Receive a summary of notifications for the past 7 days, everyday Saturday at 2200hrs UTC.
 
 - Emails have a one-click unsubscribe option which allows turning off email notifications for all activity types.
+
+.. image:: /_images/learners/Notification_daily_email_screenshot.png
+  :height: 300
+  :align: center
+  :alt: Screenshot of email having daily summary of notifications.
 
 Managing preferences
 ####################
@@ -79,6 +98,11 @@ For each preference:
 
 - Users can toggle tray and email preference ON or OFF.
 - Users can set cadence for email notifications: Immediately, Daily and Weekly.
+
+.. image:: /_images/learners/Preference_center.png
+  :height: 300
+  :align: center
+  :alt: Screenshot of preference center on Account Settings page.
 
 
 Default Settings
