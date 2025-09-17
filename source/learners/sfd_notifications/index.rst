@@ -102,7 +102,7 @@ For each preference:
 .. image:: /_images/learners/Preference_center.png
   :height: 300
   :align: center
-  :alt: Screenshot of preference center on Account Settings page.
+  :alt: Screenshot of preference center on Account Settings.
 
 
 Default Settings
