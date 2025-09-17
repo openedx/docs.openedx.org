@@ -4,7 +4,7 @@ Open edX Documentation
 .. The homepages are provided as links in the panels so we don't need to display
    the table of contents for them.
 
-.. grid:: 1 1 1 1
+.. grid:: 1 2 2 2
    :gutter: 3
    :padding: 0
 
@@ -16,10 +16,24 @@ Open edX Documentation
          :maxdepth: 1
          :caption: Quick Starts
 
-         Set up Open edX <site_ops/quickstarts/index>
-         Build a Course <educators/quickstarts/build_a_course>
-         Contribute to Open edX Code Base <developers/quickstarts/first_openedx_pr>
-         Update the Documentation <documentors/quickstarts/first_documentation_pr>
+         Set up an Open edX Site <site_ops/quickstarts/index>
+         Build an Open edX Course <educators/quickstarts/build_a_course>
+         Contribute to the Open edX Code Base <developers/quickstarts/so_you_want_to_contribute>
+         Update the Open edX Documentation <documentors/quickstarts/first_documentation_pr>
+
+   .. grid-item-card:: What's New?
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      The Open edX Teak release is out, featuring:
+
+      💡 Easier Content Reuse with Libraries!
+
+      📈 Analytics in Studio!
+
+      🏅 Badges for Learners!
+
+      ... and lots more! :ref:`Continue reading... <Teak Product Marketing Notes>`
 
 .. toctree::
    :maxdepth: 1
