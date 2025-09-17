@@ -20,11 +20,10 @@ Discussions Notifications
 #.  New posts from instructors: When the instructor creates a post and chooses to notify the learners.
 
 
-.. image:: /_images/learners/bell_and_tray.png
-  :width: 700
+.. image:: /_images/learners/Notifications_tray_screenshot.png
   :height: 300
   :align: center
-  :alt: Bell icon at the top right corner opens the notification tray.
+  :alt: Clicking the bell on the top right opens the notifications tray.
 
 Updates
 ********
