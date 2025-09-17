@@ -1,3 +1,5 @@
+.. _Enable a Waffle Flag for a User:
+
 How to Enable a Waffle Flag for a User
 #######################################
 

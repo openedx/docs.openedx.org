@@ -1,4 +1,6 @@
-Configuring Google Analytics
+.. _Configure Google Analytics:
+
+Configure Google Analytics
 ############################
 
 .. tags:: site operator, how-to
