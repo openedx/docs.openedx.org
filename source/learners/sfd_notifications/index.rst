@@ -2,152 +2,121 @@
 Notifications & Preferences
 ###########################
 
-Notifications keep you informed about activity in your courses.
+Notifications help you stay updated on important activity in your courses. 
+You can receive notifications via the notification tray in real time, or through 
+email summaries delivered periodically.
 
-.. _notification-types:
+.. _Notification Tray:
+
+Notification Tray
+#################
+
+You can access the notification tray by clicking the bell icon at the top right of your 
+screen. Notifications are sorted into tabs by course activities, such as “Discussions”,
+“Grading”, “Updates” etc. Clicking a notification will open the relevant content in a 
+new tab. Notifications older than three months will be automatically removed to minimize
+clutter in your tray.
+
+
+.. image:: /_images/learners/bell_and_tray.png
+  :width: 700
+  :height: 300
+  :align: center
+  :alt: Bell icon at the top right corner opens the notification tray.
+
+.. _Email Summaries:
+
+Email Summaries
+###############
+
+By default, you will receive a daily email summarizing notifications from 
+the past 24 hours. You can adjust the email frequency to daily or weekly 
+for each activity type in your notification preferences.
+
+You will receive a daily email summary at 10 PM UTC and a weekly email 
+summary every Saturday at 10 PM UTC (if selected in preferences). 
+
+.. _Customizing Notification Preferences:
+
+Customizing Notification Preferences
+####################################
+
+You can manage your notification preferences for each course and activity type. 
+To access these settings:
+
+#. Click the gear icon in the notification tray.
+
+#. Alternatively, go to “Account Settings” and select “Notification Preferences.”
+
+.. image:: /_images/learners/gear_icon.png
+  :width: 550
+  :height: 250
+  :align: center
+  :alt: Click on gear icon on top of notification tray to navigate to preferences center.
 
 Notification Types
-==================
+##################
 
-Discussion Notifications
-------------------------
+Discussions Notifications
+*************************
 
-#. Activity notifications: New responses or comments on your posts and on posts you follow, and endorsements **of** your responses and of responses on your posts.
-#. New discussion posts: When a new discussion post is created.
-#. New question posts: When a new question post is created.
-#. New posts from instructors: When the instructor creates a post and chooses to notify learners.
+For discussion-related notifications, you can manage the following settings:
 
-.. image:: /_images/learners/Notification_tray_forum_notifications_learner.png
-   :width: 400
-   :align: center
-   :alt: Clicking the bell on the top right opens the notifications tray.
+#. **Activity Notifications:** Notifications for new responses or comments on your posts, posts you're 
+   following, and when a moderator endorses your response or a response on your post.
 
-Updates
--------
+#. **New Discussion Posts:** Notification for when a new discussion post is created.
 
-#. Course updates: When the instructor creates a new course update.
+#. **New Question Posts:** Notification for when a new question post is created.
 
-.. image:: /_images/learners/Notifications_tray_updates_screenshot.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of a course update notification in the tray.
+#. **Reported Content:** Notification for when content is reported. This is only visible to users with 
+   a moderator role.
+
+Course Updates
+**************
+
+#. **Course Updates:** Notification for when the instructor creates a new course update.
 
 Grading
--------
+*******
 
-#. ORA grade received: When your submission for an open response assessment (ORA) receives a grade.
+#. **ORA Grade Received:** Notification for when your Open Response Assessment (ORA) 
+   submission receives the final grade.
 
-.. image:: /_images/learners/Notifications_tray_grading_screenshot_learner.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of grading notifications in the tray.
+#. **ORA New Submissions:** Notification for when a new Open Response Assessment submission
+   has been made that requires instructor grading. This is only visible to users with admin 
+   and staff roles. 
 
-.. _delivery-channels:
+Default Preferences
+###################
 
-Delivery Channels
-=================
-
-Tray
-----
-
-- The notification tray is intended to keep users informed while they are on the web platform.
-- A bell icon in the top-right corner displays the count of unread notifications.
-- When clicked, it opens a tray that organizes notifications into tabs based on platform area (Discussions, Grading, Updates).
-- Each notification includes the relevant course name, an indicator showing it is unread, and a timestamp of when it was generated.
-- A gear icon in the tray’s top-right corner links to the preferences center, where users can adjust notification settings.
-
-.. image:: /_images/learners/Notifications_tray_screenshot.png
-   :width: 700
-   :align: center
-   :alt: Clicking the bell on the top right opens the notifications tray.
-
-Email Notifications
--------------------
-
-- Notification emails keep users informed even when they are away from the platform.
-- Users can choose to get notified immediately or receive a daily or weekly summary of notifications.
-
-  - **Immediately:** Receive the email notification as soon as the activity happens.
-  - **Daily:** Receive a summary of notifications from the past 24 hours, every day at 22:00 UTC.
-  - **Weekly:** Receive a summary of notifications from the past 7 days, every Saturday at 22:00 UTC.
-
-- Emails include a one-click unsubscribe option to turn off email notifications for all activity types.
-
-.. image:: /_images/learners/Notification_daily_email_screenshot_learner.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of an email with the daily summary of notifications.
-
-.. _managing-preferences:
-
-Managing Preferences
-====================
-
-The preferences center allows users to control which notifications they receive, how often, and through which channel. Users can get to the preferences page via:
-
-- The **Notifications** tab on the **Account Settings** page.
-- The gear icon in the top-right corner of the notification tray.
-- The **Notification Settings** link in email.
-
-For each preference:
-
-- Users can toggle tray and email preferences ON or OFF.
-- Users can set the cadence for email notifications: Immediately, Daily, or Weekly.
-
-.. image:: /_images/learners/Preference_center_learner.png
-   :width: 700
-   :align: center
-   :alt: Screenshot of the preferences center on Account Settings.
-
-Default Settings
-----------------
-
-- High-value notifications have tray and email ON by default.
-
-  - “New posts from instructors” and “Course updates” are exceptions where email is OFF by default to prevent high email volume/cost for courses with large enrollments.
-
-- High-volume notifications (e.g., new discussion posts) are OFF by default to prevent clutter.
-- The default email cadence is set to **Daily** for all preferences where email is ON by default.
-
-The table below shows defaults for each notification type.
+The table below summarizes the default settings for both tray and email notifications:
 
 .. list-table::
-   :widths: 25 25 25 25
-   :align: center
+   :widths: 25 25 25
    :header-rows: 1
 
    * - Preference
      - Default Tray Preference
      - Default Email Preference
-     - Visibility
-   * - Activity notifications
+   * - Activity Notifications
      - ON
      - ON / Daily
-     - All
-   * - New discussion posts
+   * - New Discussion Posts
      - OFF
      - OFF
-     - All
-   * - New question qosts
+   * - New Question Posts
      - OFF
      - OFF
-     - All
-   * - New posts from instructors
+   * - Reported Content
      - ON
-     - ON
-     - All
+     - ON / Daily
    * - Course updates
      - ON
      - OFF
-     - All
-   * - Essay assignment grade received
+   * - ORA grade received
      - ON
      - ON / Daily
-     - All
-
-.. _notifications-expiry:
-
-Notifications Expiry
-====================
-
-Every day, notifications older than 60 days are deleted from the database.
+   * - ORA new submissions
+     - OFF
+     - OFF
