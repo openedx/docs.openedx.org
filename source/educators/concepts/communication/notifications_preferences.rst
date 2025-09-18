@@ -4,6 +4,12 @@
 Notifications & Preferences
 ###########################
 
+.. tags:: educator, concept
+
+.. contents::
+ :local:
+ :depth: 1
+
 Notifications keep you informed about activity in your courses.
 
 .. _Notification Types:
