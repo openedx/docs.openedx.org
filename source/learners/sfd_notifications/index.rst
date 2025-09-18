@@ -132,10 +132,6 @@ The table below shows defaults for each notification type.
      - OFF
      - OFF
      - All
-   * - Reported content
-     - ON
-     - ON / Daily
-     - Forum moderators
    * - Course updates
      - ON
      - OFF
@@ -144,25 +140,6 @@ The table below shows defaults for each notification type.
      - ON
      - ON / Daily
      - All
-   * - ORA new submissions
-     - ON
-     - OFF
-     - Course staff, course admins
-
-.. _notifications-grouping:
-
-Notifications Grouping
-======================
-
-High-volume notifications, such as new discussion posts or new ORA submissions, can clutter the notification tray and reduce the visibility of other important notifications. To mitigate this, the notification grouping feature combines similar notifications into a single, unified notification based on context. Currently, grouping is supported for two notification types:
-
-- **New discussion posts:** grouped by course.
-- **New ORA submissions:** grouped by ORA assignment ID.
-
-.. image:: /_images/learners/Notifications_grouping_ORA_screenshot.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of grouped and ungrouped ORA submission notifications.
 
 .. _notifications-expiry:
 
