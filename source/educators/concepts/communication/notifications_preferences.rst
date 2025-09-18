@@ -138,19 +138,23 @@ The table below shows defaults for each notification type.
      - Default Tray Preference
      - Default Email Preference
      - Visibility
-   * - Activity Notifications
+   * - Activity notifications
      - ON
      - ON / Daily
      - All
-   * - New Discussion Posts
+   * - New discussion posts
      - OFF
      - OFF
      - All
-   * - New Question Posts
+   * - New question qosts
      - OFF
      - OFF
      - All
-   * - Reported Content
+   * - New posts from instructors
+     - ON
+     - ON
+     - All
+   * - Reported content
      - ON
      - ON / Daily
      - Forum moderators
@@ -158,11 +162,11 @@ The table below shows defaults for each notification type.
      - ON
      - OFF
      - All
-   * - ORA grade received
+   * - Essay assignment grade received
      - ON
      - ON / Daily
      - All
-   * - ORA new submissions
+   * - New ORA submission for staff grading
      - ON
      - OFF
      - Course staff, Course admin
