@@ -1,3 +1,5 @@
+.. _How to request a new language for translation:
+
 How to request a new language for translation
 #############################################
 
@@ -10,38 +12,52 @@ Assumptions
 * A variant of the language that may meet your needs is also not listed
   (``Chinese`` vs ``Chinese-China``).
 
-* Prefer a root locale over a variant locale (``de`` over ``de_DE``) whenever applicable so other locales can inherit
-  from it e.g. ``de_AT``.
+* Prefer a root locale over a variant locale (``de`` over ``de_DE``) whenever
+  applicable so other locales can inherit from it e.g. ``de_AT``.
 
 * If you request a new language, we ask that you commit to the success of your
-  language’s translation project. Particularly, we expect you to:
+  language's translation project. Particularly, we expect you to:
 
-  * Be an active translator: Translate the ``edx-platform``, ``edx-platform-js`` and main micro-frontends such as
-    Learning MFE and other resources in the `openedx-translations Transifex project`_
+  * Be an active translator: Translate the ``edx-platform``, ``edx-platform-js``
+    and main micro-frontends such as Learning MFE and other resources in the
+    `openedx-translations Transifex project`_.
 
-  * Work to recruit other translators and reviewers
+  * Work to recruit other translators and reviewers.
 
   * Monitor and address Transifex issues posted by translators.
 
-  * Monitor and fix translations validation errors: :doc:`how-to-fix-translation-errors`.
+  * Monitor and fix translations validation errors: :ref:`How to fix translation
+    validation errors`.
 
   You will be responsible for advancing your target language to completion, with
   all strings translated and reviewed, so that we can publish your work to the
   Open edX community.
 
-.. note::
-   Languages can be removed from the project if they are not actively maintained.
+.. warning::
+
+   Languages can be removed from the project if they are not actively
+   maintained.
 
 Steps
 *****
 
-#. Go to the `openedx-translations Transifex project`_
+#. Email ``oscm@axim.org`` to request a new language code. Please do *not*
+   request a language from the `openedx-translations Transifex project`_,
+   because we can't communicate with you via this channel. Please email instead.
 
-#. Select the option :guilabel:`Request language` to start a new translation
-   project for your target language.
+#. Wait for an Open edX translation team member to respond to your request
+   within a few days. Please keep the following in mind:
 
-#. Wait for an edX translation team member to
-   respond to your request within a few days.
+   * The Open edX team needs to verify the language code and often will have
+     questions before accepting a new language. For example, a request for a
+     specific locale (such as German for Germany ``de_DE`` or Arabic for Iraq ``ar_IQ``) will be weighed
+     against a more global language code (such as global German ``de`` or global Arabic ``ar``).
+
+   * A language will only be added with a commitment from an individual or group
+     to manage the translators for the language for at least one release. The
+     Open edX project is large, and there's high turnaround of translators which
+     often results in low quality translations and in some cases invalid translations
+     that cause server errors.
 
 #. If the language that you request
    is approved, you become the coordinator of the project. You can add
@@ -52,8 +68,8 @@ Steps
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+----------------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                        |
++--------------+-------------------------------+----------------+----------------------------------------------------------------------+
+| 2025-10-03   | Omar                          | No release     | Pass                                                                 |
++--------------+-------------------------------+----------------+----------------------------------------------------------------------+
