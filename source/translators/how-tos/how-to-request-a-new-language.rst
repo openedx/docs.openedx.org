@@ -35,12 +35,9 @@ Assumptions
 Steps
 *****
 
-#. Go to the `openedx-translations Transifex project`_
+#. Email ``oscm@axim.org`` to request a new language code.
 
-#. Select the option :guilabel:`Request language` to start a new translation
-   project for your target language.
-
-#. Wait for an edX translation team member to
+#. Wait for an Open edX translation team member to
    respond to your request within a few days.
 
 #. If the language that you request
@@ -52,8 +49,9 @@ Steps
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+----------------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                        |
++--------------+-------------------------------+----------------+----------------------------------------------------------------------+
+| 2025-09-18   | Sarina                        | No release     | Needs review (see                                                    |
+|              |                               |                |  `ticket <https://github.com/openedx/docs.openedx.org/issues/1273>`_)|
++--------------+-------------------------------+----------------+----------------------------------------------------------------------+
