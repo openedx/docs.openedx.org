@@ -1,3 +1,5 @@
+.. _How to start translating for Open edX:
+
 Quick Start: How to start translating for Open edX
 ##################################################
 

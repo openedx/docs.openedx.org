@@ -5,7 +5,7 @@ In order to help translate Open edX projects, you must first join a translation 
 for the language you wish to translate to. We use `Transifex`_ to allow our community
 to collaborate on translations. More detailed instructions for how to get involved in
 translations are located in the
-:doc:`/translators/quickstarts/start-translating-openedx` page.
+:ref:`How to start translating for Open edX` page.
 
 Steps
 *****
@@ -20,7 +20,7 @@ To join a translation team you must complete these steps:
 #. Join the Transifex `openedx-translations project`_ with the language(s) you wish
    to translate to. Please be proficient in both English and the language you wish to
    translate to! If that language does not yet exist, you may follow the directions
-   in :doc:`/translators/how-tos/how-to-request-a-new-language` to add it.
+   in :ref:`How to request a new language for translation` to add it.
 
 #. Join the Open edX Slack or Discuss. Links to join are available at the
    `Open edX Community`_ page. Translation help is available in the
