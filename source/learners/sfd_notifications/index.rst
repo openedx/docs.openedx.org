@@ -150,4 +150,4 @@ The table below shows defaults for each notification type.
 Notifications Expiry
 ====================
 
-Every day, notifications older than 60 days are deleted from the database to keep storage under control. Developers can change this duration from the Django settings.
+Every day, notifications older than 60 days are deleted from the database.
