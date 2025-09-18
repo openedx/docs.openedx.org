@@ -128,15 +128,19 @@ The table below shows defaults for each notification type.
      - OFF
      - OFF
      - All
-   * - New question posts
+   * - New question qosts
      - OFF
      - OFF
+     - All
+   * - New posts from instructors
+     - ON
+     - ON
      - All
    * - Course updates
      - ON
      - OFF
      - All
-   * - ORA grade received
+   * - Essay assignment grade received
      - ON
      - ON / Daily
      - All
