@@ -23,7 +23,7 @@ Discussions Notifications
 
 
 .. image:: /_images/learners/Notifications_tray_forum_screenshot.png
-  :width: 300
+  :width: 400
   :align: center
   :alt: Clicking the bell on the top right opens the notifications tray.
 
@@ -59,21 +59,21 @@ Delivery Channels
 Tray
 ****
 
-- The intention of the notification tray is to keep users informed while they're on the web platform.
+- The intent of notification tray is to keep users informed while they're on the web platform.
 - A bell icon in the top-right corner displays the count of unread notifications.
 - When clicked, it opens a tray that organizes notifications into tabs based on platform area (Discussions, Grading, Updates).
 - Each notification includes the relevant course's name, a red dot to indicate it's unread (not clicked), and a timestamp showing when it was generated.
 - A gear icon in the tray's top-right corner links to the preferences center, where users can adjust their notification settings.
 
 .. image:: /_images/learners/Notifications_tray_screenshot.png
-  :width: 500
+  :width: 700
   :align: center
   :alt: Clicking the bell on the top right opens the notifications tray.
 
 Email Notifications
 *******************
 
-- Email notifications keep users informed even when they're away from the platform.
+- The intent of notification email is to keep users informed even when they're away from the platform.
 - Users can choose to get notified immediately or to receive a daily or weekly summary of notifications.
 
   - Immediately: Receive the email notification as soon as the activity happens.
@@ -83,7 +83,7 @@ Email Notifications
 - Emails have a one-click unsubscribe option which allows turning off email notifications for all activity types.
 
 .. image:: /_images/learners/Notification_daily_email_screenshot.png
-  :width: 300
+  :width: 400
   :align: center
   :alt: Screenshot of email having daily summary of notifications.
 
@@ -104,7 +104,7 @@ For each preference:
 - Users can set cadence for email notifications: Immediately, Daily and Weekly.
 
 .. image:: /_images/learners/Preference_center.png
-  :width: 500
+  :width: 700
   :align: center
   :alt: Screenshot of preference center on Account Settings.
 
@@ -155,7 +155,7 @@ The table below shows defaults for each notification type.
      - ON / Daily
      - All
    * - ORA new submissions
-     - OFF
+     - ON
      - OFF
      - Course staff, Course admin
 
