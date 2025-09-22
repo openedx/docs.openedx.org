@@ -1,3 +1,5 @@
+.. _Use A Frontend Plugin Framework Slot:
+
 Use A Frontend Plugin Framework Slot
 ####################################
 
