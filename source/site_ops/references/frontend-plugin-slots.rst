@@ -88,6 +88,11 @@ Slots only available in the Learning MFE:
 - `org.openedx.frontend.learning.sequence_container.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/SequenceContainerSlot>`_
 - `org.openedx.frontend.learning.unit_title.v1 <https://github.com/openedx/frontend-app-learning/tree/release/teak/src/plugin-slots/UnitTitleSlot>`_
 
+Special exams slots, available in MFEs that use ``frontend-lib-special-exams``:
+*******************************************************************************
+
+- `org.openedx.frontend.special_exams.submitted_timed_exam_instructions.v1 <https://github.com/openedx/frontend-lib-special-exams/tree/v4.1.0/src/plugin-slots/SubmittedTimedExamInstructionsSlot>`_
+
 .. seealso::
 
    * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
