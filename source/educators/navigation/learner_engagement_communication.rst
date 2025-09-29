@@ -14,6 +14,7 @@ Course Discussions
    :maxdepth: 1
    :glob:
 
+   ../concepts/communication/notifications_preferences.rst
    ../concepts/communication/about_course_discussions.rst
    ../concepts/communication/best_practices_configuring_discussions.rst
    ../how-tos/communication/configure_discussions.rst
