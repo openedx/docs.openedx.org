@@ -9,12 +9,14 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 
    What's new in Teak? Click to read about new features:
 
-   :ref:`Teak Product Notes`.
+   :ref:`Teak Product Marketing Notes`
+
+   And for more detail on individual products, refer to :ref:`Teak Product Notes`.
 
 
 .. highlights::
 
-   What's new in Teak? Operators and developers, click to read about new
+   Operators and developers, click to read about new
    updates, patches, and configuration options.
    
    :ref:`Teak Dev Notes`.
