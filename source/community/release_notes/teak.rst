@@ -16,7 +16,7 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 
 .. highlights::
 
-   What's new in Teak? Operators and developers, click to read about new
+   Operators and developers, click to read about new
    updates, patches, and configuration options.
    
    :ref:`Teak Dev Notes`.
