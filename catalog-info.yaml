@@ -11,6 +11,6 @@ metadata:
     openedx.org/arch-interest-groups: "feanil"
     openedx.org/release: "main"
 spec:
-  owner: group:docs-openedx-org-maintainers
+  owner: group:wg-maintenance-docs.openedx.org
   type: 'website'
   lifecycle: 'production'
