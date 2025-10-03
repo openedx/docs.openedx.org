@@ -1,8 +1,8 @@
-.. _Setting up a Reusable LTI Store:
+.. _Set up a Reusable LTI Store:
 
 
-Setting up a Reusable LTI Store
-###############################
+Set up a Reusable LTI Store
+###########################
 
 .. tags:: educator, how-to, lti
 
@@ -65,7 +65,6 @@ To create and manage reusable configurations:
 * This limits access to just the LTI Store configuration screens.
 
 
-
 Create a reusable LTI configuration
 ***********************************
 
@@ -78,8 +77,6 @@ Create a reusable LTI configuration
 3. Add a new **External LTI Configuration**.
   .. image:: /_images/educator_how_tos/add_lti_store_configuration.png
 4. Enter the required fields:
-  .. image:: /_images/educator_how_tos/create_ltistore_config.png
-
 
    * **Name**
    * **Slug** (will be automatically generated from the name if left blank)
@@ -96,19 +93,17 @@ Create a reusable LTI configuration
 
      ``["https://example.com/launch"]``
 
+  .. image:: /_images/educator_how_tos/create_ltistore_config.png
+
 5. Save the configuration.
-
-After saving, note the **Filter key** displayed on the External LTI Configurations screen (``/admin/lti_store/externallticonfiguration/``).  
-The Filter Key usually has the form ``lti_store:slug`` (e.g. ``lti_store:reference_tool``).
-
-You will use this value later in Studio when referencing this configuration from the LTI Consumer component.
+6. After saving, note the **Filter key** displayed on the External LTI Configurations screen (``/admin/lti_store/externallticonfiguration/``). The Filter Key usually has the form ``lti_store:slug`` (e.g. ``lti_store:reference_tool``). You will use this value later in Studio when referencing this configuration from the LTI Consumer component.
 
 
 
 Recommended: Use the IMS LTI Reference Tool
 ===========================================
 
-* `Reference Tool`_ 
+* For testing purposes, use the `Reference Tool`_ 
 * This page shows typical LTI 1.3 values (Client ID, Deployment ID, JWKS URL, OIDC URL, Launch URL).
 * Prefer using the **JWKS (key set) URL** instead of a static public key to reduce manual steps and key rotation issues.
 * You can also create your own tool for testing here.
@@ -142,6 +137,8 @@ Next steps
 
 .. seealso::
 
+ :ref:`Set up an LTI Consumer with Reusable LTI Configuration` (how-to) 
+
  :ref:`LTI Component Settings` (reference)
 
  :ref:`Enable_LTI_Components` (how-to)
@@ -153,6 +150,8 @@ Next steps
  :ref:`Enabling and using LTI Advantage features` (how-to)
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
+
+
 
 
 **Maintenance chart**
