@@ -1,7 +1,9 @@
+.. _How to fix translation validation errors:
+
 How to fix translation validation errors
 ########################################
 
-As part of OEP-58 (:doc:`/developers/concepts/oep58`), automatic translation validation has been added to avoid
+As part of OEP-58 (:ref:`OEP-58 Overview`), automatic translation validation has been added to avoid
 breaking builds and deployments due to invalid translations.
 
 As of writing this document, `validation scripts and GitHub Actions`_ checks .po files for compilation errors.
