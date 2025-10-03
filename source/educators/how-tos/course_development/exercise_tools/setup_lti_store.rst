@@ -1,54 +1,143 @@
 .. _Setting up a Reusable LTI Store:
 
-###########################
+
 Setting up a Reusable LTI Store
-###########################
+###############################
 
-.. tags:: educator, concept
+.. tags:: educator, how-to, lti
 
-The Learning Tools Interoperability (LTI) component allows you to integrate
-remote learning tools into your course, such as applications and textbooks.
-This component supports tools that comply with the `LTI 1.1`_ and `LTI 1.3`_ specifications.
-Additionally, the LTI 1.3 tools can use the following LTI Advantage extensions:
-`Deep Linking`_, `Assignments and Grades services`_ and
-`Names and Roles Provisioning Service`_.
-
-As of the Sumac release, the Open edX platform has achieved :ref:`LTI Advantage Complete certification <Sumac LTI Certification>`.
-
-.. contents:: Contents
-   :local:
-   :depth: 2
+The Reusable LTI Store centralizes LTI configuration in Django Admin.  
+Course authors then reference a single reusable configuration in Studio (via the LTI Consumer component).  
+A single configuration can be referenced multiple times, eliminating repeated copy/paste of tool credentials.
 
 
-*********************
 Overview
-*********************
+********
 
-The LTI component enhances the learning experience by enabling integration between the LMS and external tools. It can be used in several ways.
+The Reusable LTI Store allows operators and course authors to simplify setup by:
 
-* **Embed External Learning Tools:** Integrate third-party tools, such as coding platforms, simulations, and adaptive learning systems, directly into your LMS.
+* Defining LTI configurations once in Django Admin.
+* Allowing course authors to reference those configurations in Studio.
+* Reducing errors and duplication of tool credentials.
 
-* **Facilitate Interactive Learning & Assessments:** Allow students to engage with external quizzes, assignments, and interactive exercises, with grading handled by the tool provider.
+This feature supports LTI 1.3 integrations and is particularly useful for institutions running multiple courses with the same tool.
 
-* **Synchronize Grades with External Systems:** Ensure automatic grade synchronization between an LTI tool and the LMS gradebook.
 
-* **Support Video Conferencing & Collaboration:** Integrate virtual classrooms and peer review tools to foster engagement and collaboration.
 
-For example, the following LTI component integrates a Cerego tool that learners
-interact with into the LMS for a course.
+Before you start
+****************
 
-.. image:: /_images/educator_references/LTIExample.png
-   :alt: A page in the LMS showing the Cerego music player and a question for
-    learners to answer about it.
+To use the Reusable LTI Store, ensure the following:
 
+* You have an operational Open edX deployment.
+* You have staff access to Django Admin (model-level access to ``lti_store``).
+* You have access to an LTI 1.3 tool with:
+
+  - Client ID
+  - Deployment ID
+  - OIDC/Authorization URL
+  - Launch URL
+  - JWKS (key set) URL or a tool public key
+
+* For Tutor-based deployments: You can install Tutor plugins.
+* For non-Tutor deployments: You can install and configure Django apps.
+
+
+
+Install the LTI Store Tutor Plugin
+**********************************
+
+1. Install the plugin from the `LTI Store Repository`_ and follow the plugin’s README to enable it for your environment.
+2. Rebuild and restart your platform. Apply the plugin’s documented Tutor config, images rebuild, and services restart steps.
 
 .. note::
-  Be sure to review all supplemental materials to ensure that they are accessible
-  before making them available through your course. For more information, see
-  :ref:`Accessibility Best Practices Checklist`.
+   For non-Tutor installations, follow `Non-Tutor Install Instructions`_. Most community operators use Tutor, but some large operators do not.
+
+
+
+Grant staff access for LTI Store administration
+***********************************************
+
+To create and manage reusable configurations:
+
+* Ensure the user has ``is_staff`` enabled.
+* Assign permissions for the LTI Store models only (no superuser needed).
+* This limits access to just the LTI Store configuration screens.
+
+
+
+Create a reusable LTI configuration
+***********************************
 
 .. note::
-  You can also integrate content from a course into a remote learning management system such as Canvas or Blackboard.
+   The following steps correspond to an **LTI 1.3 configuration**.
+
+1. Open Django Admin.
+2. Navigate to: ``/admin/lti_store/externallticonfiguration/``  
+   (You must be logged in as a staff user with LTI Store model access.)
+3. Add a new **External LTI Configuration**.
+  .. image:: /_images/educator_how_tos/add_lti_store_configuration.png
+4. Enter the required fields:
+  .. image:: /_images/educator_how_tos/create_ltistore_config.png
+
+
+   * **Name**
+   * **Slug** (will be automatically generated from the name if left blank)
+   * **Version**: LTI 1.3
+   * **LTI 1.3 Client ID**: Provided by the tool.
+   * **LTI 1.3 Deployment ID**: Provided by the tool.
+   * **LTI 1.3 OIDC URL**: Provided by the tool (sometimes called “OIDC auth URL”).
+   * **LTI 1.3 Launch URL**: The tool’s launch URL for LTI 1.3.
+   * **LTI 1.3 Private key**: Platform private key for this registration. Must be supplied manually.  
+     You can generate these using the `IMS LTI Reference Implementation`_.
+   * **LTI 1.3 Tool Keyset URL** (recommended), or **LTI 1.3 Tool Public Key**
+   * **LTI 1.3 Redirect URIs**: Required by some tools. For many tools this matches the launch URL.  
+     If not specified otherwise, use your launch URL in a JSON list. For example:
+
+     ``["https://example.com/launch"]``
+
+5. Save the configuration.
+
+After saving, note the **Filter key** displayed on the External LTI Configurations screen (``/admin/lti_store/externallticonfiguration/``).  
+The Filter Key usually has the form ``lti_store:slug`` (e.g. ``lti_store:reference_tool``).
+
+You will use this value later in Studio when referencing this configuration from the LTI Consumer component.
+
+
+
+Recommended: Use the IMS LTI Reference Tool
+===========================================
+
+* `Reference Tool`_ 
+* This page shows typical LTI 1.3 values (Client ID, Deployment ID, JWKS URL, OIDC URL, Launch URL).
+* Prefer using the **JWKS (key set) URL** instead of a static public key to reduce manual steps and key rotation issues.
+* You can also create your own tool for testing here.
+
+
+
+Best practices
+==============
+
+* Use clear, consistent names for configurations and slugs (for example: ``tool-environment-purpose``).
+* Keep a registry of created configurations (tool name, environment, slug, owner) to assist course teams.
+* Create separate configurations per environment (production, staging, sandboxes) since Client ID and Deployment ID typically differ.
+
+
+
+Notes on current limitations and improvements
+*********************************************
+
+* **Dynamic registration**: The LTI community is adopting dynamic registration, which allows configuring an LTI integration from a single URL.  
+  This may simplify setup in future releases. The Open edX platform does not currently support dynamic registration.
+* **Alternative reuse path**: Reusable Library Components may allow LTI reuse without the LTI Store. Investigation is ongoing; migration guidance will be provided if this path becomes preferred.
+
+
+
+Next steps
+**********
+
+* Share the Filter key with course authors.
+* Authors configure the LTI Consumer component in Studio to use this reusable configuration (documented separately).
 
 
 .. seealso::
@@ -69,7 +158,7 @@ interact with into the LMS for a course.
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2025-03-19   |   Documentation WG            |     Sumac      |      Pass                      |
+|              |                               | Ulmo           | Draft                          |
 +--------------+-------------------------------+----------------+--------------------------------+

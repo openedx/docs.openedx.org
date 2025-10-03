@@ -341,3 +341,11 @@
 .. _AWS Documentation: http://aws.amazon.com/documentation/
 
 .. _Getting Help page: https://open.edx.org/getting-help
+
+.. _Non-Tutor Install Instructions: https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-ltistore#non-tutor-install-instructions
+
+.. _LTI Store Repository: https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-ltistore
+
+.. _IMS LTI Reference Implementation: https://lti-ri.imsglobal.org/keygen/index
+
+.. _Reference Tool: https://lti-ri.imsglobal.org/lti/tools/5621
