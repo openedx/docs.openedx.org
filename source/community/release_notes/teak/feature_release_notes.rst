@@ -5,6 +5,8 @@ Open edX Teak Release - Product Release Notes
 
 The Open edX Teak Release was released on June 9, 2025.
 
+:ref:`What's New? <Teak Product Marketing Notes>`
+
 .. toctree::
    :maxdepth: 1
 

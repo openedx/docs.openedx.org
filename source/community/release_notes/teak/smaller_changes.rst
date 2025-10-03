@@ -7,6 +7,9 @@ Smaller Changes (Potpourri)
   :local:
   :depth: 1
 
+
+.. _Preview Button (Teak):
+
 Preview Button Improvement
 ****************************
 
@@ -37,6 +40,8 @@ Studio UI Modernization
   ``legacy_studio.problem_editor``. In Ulmo, this option will be removed: only
   the new editor will be available.
 
+.. _Problem Editor (Teak):
+
 Problem Editor Improvements
 ****************************
 
@@ -44,6 +49,7 @@ The new (React-based) editor now supports Markdown by default via course
 waffle flag. Instance administrators can disable the Markdown editor by
 creating a flag, ``contentstore.use_react_markdown_editor``, with the value "No".
 
+.. _cc2olx (Teak):
 
 Improvements to Common Cartridge Support
 *****************************************
