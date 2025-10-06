@@ -47,11 +47,11 @@ To use the Reusable LTI Store, ensure the following:
 Install the LTI Store Tutor Plugin
 **********************************
 
-1. Install the plugin from the `LTI Store Repository`_ and follow the plugin’s README to enable it for your environment.
+1. Install the plugin from the `LTI Store Repository <https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-ltistore>`_ and follow the plugin’s README to enable it for your environment.
 2. Rebuild and restart your platform. Apply the plugin’s documented Tutor config, images rebuild, and services restart steps.
 
 .. note::
-   For non-Tutor installations, follow `Non-Tutor Install Instructions`_. Most community operators use Tutor, but some large operators do not.
+   For non-Tutor installations, follow `Non-Tutor Install Instructions <https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-ltistore#non-tutor-install-instructions>`_. Most community operators use Tutor, but some large operators do not.
 
 
 
@@ -91,7 +91,7 @@ Create a reusable LTI configuration
    * **LTI 1.3 OIDC URL**: Provided by the tool (sometimes called “OIDC auth URL”).
    * **LTI 1.3 Launch URL**: The tool’s launch URL for LTI 1.3.
    * **LTI 1.3 Private key**: Platform private key for this registration. Must be supplied manually.  
-     You can generate these using the `IMS LTI Reference Implementation`_.
+     You can generate these using the `IMS LTI Reference Implementation <https://lti-ri.imsglobal.org/keygen/index>`_.
    * **LTI 1.3 Tool Keyset URL** (recommended), or **LTI 1.3 Tool Public Key**
    * **LTI 1.3 Redirect URIs**: Required by some tools. For many tools this matches the launch URL.  
      If not specified otherwise, use your launch URL in a JSON list. For example:
@@ -109,7 +109,7 @@ Create a reusable LTI configuration
 Recommended: Use the IMS LTI Reference Tool
 ===========================================
 
-* For testing purposes, use the `Reference Tool`_ 
+* For testing purposes, use the `Reference Tool <https://lti-ri.imsglobal.org/lti/tools/5621>`_ 
 * This page shows typical LTI 1.3 values (Client ID, Deployment ID, JWKS URL, OIDC URL, Launch URL).
 * Prefer using the **JWKS (key set) URL** instead of a static public key to reduce manual steps and key rotation issues.
 * You can also create your own tool for testing here.
