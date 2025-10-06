@@ -4,7 +4,7 @@
 Set up an LTI Consumer with Reusable LTI Configuration
 ######################################################
 
-.. tags:: educator, how-to, lti
+.. tags:: educator, how-to
 
 
 Overview
@@ -28,26 +28,28 @@ Before you start
 Add the LTI Consumer component
 ******************************
 
-1. Open your course in Studio.  
-2. Navigate to the unit where you want to add the tool.  
-3. Add Component → Advanced → LTI Consumer.
+#. Open your course in Studio.  
+#. Navigate to the unit where you want to add the tool.  
+#. Add Component → Advanced → LTI Consumer.
 
 .. image:: /_images/educator_how_tos/add_lti_component.png
+   :alt: 'Add advanced component' dialog box displaying the LTI component as selected
 
 Configure the LTI Consumer to use the reusable configuration
 ************************************************************
 
-1. Open the component’s settings (Edit).  
-2. Set **Configuration type** to *Reusable configuration*.  
-3. Set **LTI version** to *LTI 1.3*.  
-4. Set **Reusable configuration ID**:  
+#. Open the component’s settings (Edit).  
+#. Set **Configuration type** to *Reusable configuration*.  
+#. Set **LTI version** to *LTI 1.3*.  
+#. Set **Reusable configuration ID**:  
 
    * Enter the filter key for the reusable configuration, typically the slug value prefixed as shown in your instance (for example, ``lti_store:reference_tool``).  
 
-5. (Optional) Update the **Display name** and any course-facing settings as needed.  
-6. Save.
+#. (Optional) Update the **Display name** and any course-facing settings as needed.  
+#. Save.
 
 .. image:: /_images/educator_how_tos/edit_lti_component.png
+   :alt: LTI component in editing mode, displaying the fields to be edited
 
 Publish and test
 ****************

@@ -4,7 +4,7 @@
 Set up a Reusable LTI Store
 ###########################
 
-.. tags:: educator, how-to, lti
+.. tags:: educator, how-to
 
 The Reusable LTI Store centralizes LTI configuration in Django Admin.  
 Course authors then reference a single reusable configuration in Studio (via the LTI Consumer component).  
@@ -71,12 +71,17 @@ Create a reusable LTI configuration
 .. note::
    The following steps correspond to an **LTI 1.3 configuration**.
 
-1. Open Django Admin.
-2. Navigate to: ``/admin/lti_store/externallticonfiguration/``  
+#. Open Django Admin.
+#. Navigate to: ``/admin/lti_store/externallticonfiguration/``  
    (You must be logged in as a staff user with LTI Store model access.)
-3. Add a new **External LTI Configuration**.
+
+
+#. Add a new **External LTI Configuration**.
+
   .. image:: /_images/educator_how_tos/add_lti_store_configuration.png
-4. Enter the required fields:
+    :alt: 'Add External LTI Configuration' button on Django Admin
+
+#. Enter the required fields:
 
    * **Name**
    * **Slug** (will be automatically generated from the name if left blank)
@@ -94,9 +99,10 @@ Create a reusable LTI configuration
      ``["https://example.com/launch"]``
 
   .. image:: /_images/educator_how_tos/create_ltistore_config.png
+    :alt: LTI store configuration fields in Django Admin
 
-5. Save the configuration.
-6. After saving, note the **Filter key** displayed on the External LTI Configurations screen (``/admin/lti_store/externallticonfiguration/``). The Filter Key usually has the form ``lti_store:slug`` (e.g. ``lti_store:reference_tool``). You will use this value later in Studio when referencing this configuration from the LTI Consumer component.
+#. Save the configuration.
+#. After saving, note the **Filter key** displayed on the External LTI Configurations screen (``/admin/lti_store/externallticonfiguration/``). The Filter Key usually has the form ``lti_store:slug`` (e.g. ``lti_store:reference_tool``). You will use this value later in Studio when referencing this configuration from the LTI Consumer component.
 
 
 
