@@ -37,10 +37,10 @@ URLS, a link to the course About page in the LMS is used.
 Configure Social Sharing
 *******************************
 
-To enable social sharing icons for courses, you modify the ``lms.yml``
-file, which is located one level above the ``edx-platform`` directory.
+To enable social sharing icons for courses, you modify the ``lms/envs/common.py``
+on ``edx-platform`` directory.
 
-#. In the ``lms.yml`` file, modify the ``SOCIAL_SHARING_SETTINGS``
+#. In the ``lms/envs/common.py`` file, modify the ``SOCIAL_SHARING_SETTINGS``
    dictionary as needed.
 
    .. code-block:: none
@@ -69,7 +69,7 @@ file, which is located one level above the ``edx-platform`` directory.
    c. If you set ``CUSTOM_COURSE_URLS`` to ``True``, you must `Enable Custom
       Course URLs`_.
 
-#. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array in the ``lms.yml``
+#. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array in the ``lms/envs/common.py``
    file to set the order of links you want learners to see in the footer.
 
    .. code-block:: none
@@ -84,7 +84,7 @@ file, which is located one level above the ``edx-platform`` directory.
         ]
 
 #. Configure the ``SOCIAL_MEDIA_FOOTER_DISPLAY`` dictionary in the
-   ``lms.yml`` file  to define how you want social media icons to be
+   ``lms/envs/common.py`` file  to define how you want social media icons to be
    displayed. For each social media icon you enable, you define a ``title``,
    ``icon``, and ``action``.
 
@@ -107,7 +107,35 @@ file, which is located one level above the ``edx-platform`` directory.
         }
      }
 
-#. Save the ``lms.yml`` file.
+#. Save the ``lms/envs/common.py`` file.
+
+================================================
+Enable Certificate Sharing to LinkedIn
+================================================
+This guide explains how to configure the platform to allow learners to share their certificates directly to their LinkedIn profiles.
+
+To activate the **"Add Certificate to LinkedIn"** button for learners, set the following configuration value to ``True`` on ``lms/envs/common.py``:
+
+   .. code-block:: none
+
+        'CERTIFICATE_LINKEDIN': True
+
+The organization name displayed on the shared certificate is determined by the following settings, in order of priority:
+
+#. Course-Specific Organization: To use the organization name defined for each individual course, enable this setting:
+
+   .. code-block:: none
+
+        'CERTIFICATE_LINKEDIN_DEFAULTS_TO_COURSE_ORGANIZATION_NAME': True
+
+#. Platform-Wide Company ID: To use a single, platform-wide company ID (found in your LinkedIn Company Page settings), configure this value:
+
+   .. code-block:: none
+
+        'LINKEDIN_COMPANY_ID': '133-TEST-ID'
+
+#. Platform Name Fallback: If neither of the above is configured, the platform's general name will be used as the organization name.
+
 
 *****************************************
 Enable Custom Course URLs
