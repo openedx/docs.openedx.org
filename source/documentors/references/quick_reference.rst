@@ -265,7 +265,7 @@ Both examples above produce the following published list:
 
 * Item 2
 
-See the `RST guide on lists <https://sublime-and-sphinx-guide.readthedocs.io/en/latest/lists.html>`_ for more detail.
+See the `RST guide on lists <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#lists-and-quote-like-blocks>`_ for more detail.
 
 Linking
 *******
@@ -507,7 +507,7 @@ Use the following code:
          | Last-Modified | 2024-11-08                                                   |
          | Documents     | - Open edX Documentors Style Guide<br>- Open edX Diataxis Criteria<br>- Example 3<br>- Example 4<br>- Example 5 |
 
-.. seealso:: To see alternative ways of defining tables, visit the `RST documentation about this topic <https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/#tables>`_.
+.. seealso:: To see alternative ways of defining tables, visit the `RST documentation about this topic <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rst-tables>`_.
 
 Add a Substitution
 ******************
