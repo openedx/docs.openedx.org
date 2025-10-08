@@ -170,6 +170,8 @@ organization. For example, you can change the images that appear on
 certificates for each course mode that your organization supports, as well as
 fonts and colors that are used on certificates.
 
+To understand how to customize certificate templates in general, see :ref:`Certificates for Custom Cases`.
+
 To issue certificates in more than one language, see :ref:`Certificates in
 Additional Languages`.
 
@@ -192,42 +194,56 @@ Assets for HTML certificates exist in the following locations.
      and Running an Open edX Course*.
 
 
+.. _Certificates for Custom Cases:
 
-.. _Certificates in Additional Languages:
+**************************************************
+Customize Certificate Templates For Specific Cases
+**************************************************
 
-*******************************************
-Enable Certificates in Additional Languages
-*******************************************
+You can customize a certificate template for a specifc course run, course, an
+organization, a language, or a mode.
 
-You can configure course certificates to render in a specific language.
+The feature is enabled by setting the `CUSTOM_CERTIFICATE_TEMPLATES_ENABLED`
+flag in the FEATURES dictionary of your settings:
 
-.. contents::
-   :local:
-   :depth: 1
+``FEATURES['CUSTOM_CERTIFICATE_TEMPLATES_ENABLED'] = True``
 
-=====================================================
-Configure Course Certificates in Additional Languages
-=====================================================
+When choosing which template to render a certificate with we will choose the
+most specific that applies to the situation. We will pick the first template
+that matches the following criteria, in order:
 
-To enable generating course certificates in languages other than the
-default language of your platform, follow these steps.
+#. A language-specific course run template.
 
-.. note:: Base certificate templates already exist for English and
-      Spanish. If you want a course certificate that is different from the
-      default certificate for the organization or language, create a new
-      certificate template.
+#. A course run template.
 
-#. Add the language in which you want to generate certificates to
-   ``EDXAPP_CERTIFICATE_TEMPLATE_LANGUAGES``
-   (``edx/configuration/playbooks/roles/edxapp/defaults/main.yml``), where the
-   key is the language code and the value is the name of the language.
+#. A language-specific custom template defined at the `Organization` level.
 
-   For example,    ``'fr':'français'``.
+#. A custom template defined at the `Organization` level.
+
+#. The language-specific default template for the mode (Verified, Audit, etc.).
+
+#. The default template for the mode (Verified, Audit, etc.).
+
+#. The language-specific default certificate styling included for the instance.
+
+#. The default certificate styling included for the instance.
+
+
+.. note:: If you have a language-specific template defined at a high level, and
+      you define a lower level template in your instance's default language,
+      that will override the language-specific template. In order to have
+      a language-specific template apply, you must define it at the same or
+      a lower level than any other templates that would apply to the course run.
+
+====================
+Create the Templates
+====================
 
 #. In the LMS Django Administration site for your instance of Open edX, under
    **Site Administration** > **Certificates** > **Certificate templates**, add
-   a certificate template for each additional language in which you want to
-   generate certificates.
+   a certificate template for each additional case for which you want to
+   generate certificates. (This will be `admin/certificates/certificatetemplate/`
+   on your instance.)
 
 #. In each certificate template, modify the configuration parameters as
    required to apply the template either to all course runs in an
@@ -266,14 +282,42 @@ default language of your platform, follow these steps.
         - Select this checkbox to make this template active.
         - Select this checkbox to make this template active.
 
-
-   .. note:: If more than one certificate template would apply to a course
-      run, the most specific (lowest level) template is used. For example, if
-      you define a certificate template for all courses in an organization and
-      another template for a specific course run, the template for the course
-      run is used.
-
 #. Save each certificate template.
+
+
+.. _Certificates in Additional Languages:
+
+*******************************************
+Enable Certificates in Additional Languages
+*******************************************
+
+You can configure course certificates to render in a specific language.
+
+.. contents::
+   :local:
+   :depth: 1
+
+=====================================================
+Configure Course Certificates in Additional Languages
+=====================================================
+
+To enable generating course certificates in languages other than the
+default language of your platform, follow these steps.
+
+.. note:: Base certificate templates already exist for English and
+      Spanish. If you want a course certificate that is different from the
+      default certificate for the organization or language, create a new
+      certificate template.
+
+#. Add the language in which you want to generate certificates to
+   ``EDXAPP_CERTIFICATE_TEMPLATE_LANGUAGES``
+   (``edx/configuration/playbooks/roles/edxapp/defaults/main.yml``), where the
+   key is the language code and the value is the name of the language.
+
+   For example,    ``'fr':'français'``.
+
+#. Follow the instructions in :ref:`Certificates for Custom Cases` to create a
+   certificate template for the language.
 
 #. ONLY if you are enabling additional language certificates for a specific
    course run, add a certificate generation course setting in LMS Django
@@ -284,7 +328,6 @@ default language of your platform, follow these steps.
    certificate templates.
 
 #. Select **Language specific templates enabled**, and save the configuration.
-
 
 .. _Display Hours of Effort:
 
