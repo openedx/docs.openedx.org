@@ -32,6 +32,7 @@ Learner Data
    ../how-tos/data/view_anonymized_learner_ids.rst
    ../references/data/staff_debug_info.rst
    ../references/data/student_profile_report.rst
+   ../how-tos/data/view_in_context_metrics.rst
 
 
 .. _Grades Data:
