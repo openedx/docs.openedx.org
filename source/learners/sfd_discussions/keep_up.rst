@@ -21,7 +21,7 @@ The list of posts in the discussion navigation pane on the **Discussion** page
 provides visual cues to help you distinguish posts that are new, or that have
 responses or comments that you have not read yet, from exchanges that you have
 already read completely. For information about the labels and icons used in
-posts, see :ref:`Discussion Navigation Pane`.
+posts.
 
 ====================
 Sorting by Activity
