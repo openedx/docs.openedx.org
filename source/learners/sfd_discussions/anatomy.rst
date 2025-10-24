@@ -1,8 +1,8 @@
 .. _Anatomy of Open edX Discussions:
 
-#######################################
+#######################
 Anatomy of Discussions
-#######################################
+#######################
 
 This section describes the structure and elements of course discussions.
 

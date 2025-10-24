@@ -1,143 +1,112 @@
 .. _Explore Posts:
 
-###########################
-Exploring Discussion Posts
-###########################
+##############################################
+Finding and Following the Right Conversations
+##############################################
 
-Finding out whether someone else has already asked the same question or
-initiated a conversation about the subject that interests you, and then reading
-and contributing to that exchange instead of starting a new one, helps make the
-time that everyone spends with the course discussions more productive. You can
-search for something specific, or you can browse through the posts in a single
-discussion topic.
+Discussions can grow quickly as a course progresses. 
+Knowing how to browse and search helps you save time and discover conversations that matter to you. 
+
+When you open the Discussions tab in your course, you see four tabs at the top. 
+Each one gives you a different way to explore.
+
 
 .. contents::
   :local:
   :depth: 1
 
-For information about finding new or updated posts in discussions, see
-:ref:`Keep Up with New Activity`.
+.. _Navigating the Discussions page:
 
-.. _Search Discussions:
+********************************
+Navigating the Discussions page
+********************************
 
-***********************
-Search Posts or Topics
-***********************
-The **Search** field on top of the **Discussion** page enables you to search all posts,
-the posts that you have created or discussion topics when *All posts*, *My post* or
-*Topics tab* is selected, respectively.
+The discussion page organizes content into 4 tabs: *My Posts*, *All Posts*, *Topics* and *Learners*. 
 
-To search for all posts, responses, or comments containing a particular keyword or
-phrase, select the *All posts* tab and enter the word or phrase, or a partial word in the **Search**
-field at the top of the **Discussion** page.
+.. image:: /_images/learners/Discussions_tabs.png
+   :width: 600
+   :alt: 4 tabs on the Discussions page.
 
-To search for a particular keyword or phrase in the posts that you have authored,
-select the *My posts* tab and enter the word or phrase, or a partial word in the
-Searchfield at the top of the **Discussion** page.
+* My Posts: Shows every post that you have written. You can click a post title in the left panel to 
+open it and see its responses or comments. This view helps you keep track of your own contributions and any 
+replies to them.
+* All Posts: Lists every post in the course forums. By default, posts with the most recent activity appear at the top. 
+Use this view when you want to see what is new or popular across the whole course.
+* Topics: Displays all discussion topics in the course. Topics follow the same three-level hierarchy 
+as the course content:
 
-To search for a discussion topic containing a particular keyword, select the
-*Topics* tab and enter the word or phrase, or a partial word in the **Search**
-field at the top of the **Discussion** page.
+   * The top level represents course sections.
+   * The second level shows subsections.
+   * The third level lists units, which are the actual discussion topics that contain posts. Select a subsection to expand it and see its topics. When you click a topic name, you will see the posts related to it.
 
-Search results are displayed in the content list area. If an exact
-match is not found, search results are shown for a similar value.
+* Learners: Shows everyone who has written a post, response, or comment. Click a learner’s name to see their contributions. Under each name you can see the number of posts they created and their total contributions.
 
-.. _Discussion Topics:
+.. image:: /_images/learners/Discussions_topics.png
+   :width: 600
+   :alt: How to navigate topic hierarchy.
 
-*********************************************
-View Discussions about a Specific Topic
-*********************************************
+.. note:: Use My Posts for tracking your own activity and Topics when you 
+   want to focus on the part of the course you are studying.
 
-Course discussions are organized by discussion topics, which are created by the
-course team. Anyone who adds a post to the course discussions selects an
-existing topic to associate their post with. For more information about topics,
-see :ref:`Basic Elements of Course Discussions`.
+*********************************
+Discussions inside course units
+*********************************
 
-You can browse discussions by topic, to join the discussion on subjects that
-interest you, or to see if anyone else in the course has asked the same
-question.
+Some course units have a discussion panel on the right side of the page. This panel only shows posts linked to that 
+unit’s topic. It is a focused view for that specific content. Posts made here also appear in the  main Discussions page.
 
-=======================================
-View Topics on the Discussion Page
-=======================================
+.. image:: /_images/learners/Discussions_sidebar.png
+   :width: 600
+   :alt: Discussions sidebar can be seen on right side of course content when enabled.
 
-On the **Discussion** page, select the *Topics* tab in discussion navigation pane to see
-all of the discussion topics in the course. Topics tab will list course-wide discussion
-topics first, followed by content-specific discussion topics. Select a topic from the list
-to see all posts associated with that topic.
 
-Note that course-wide topics do not have other topics indented below them,
-while content-specific topics are indented under a category name.
-You can also see the count of Discussion and Question type posts in each topic, in the topic list.
+.. note:: Use the inline panel when you want to talk about something shown on the page. 
+   Use the main Discussions tab when you want to search or browse across the entire course.
 
-.. image:: /_images/learners/topic_summary_diagram.png
-  :width: 400
-  :alt: Discussion topic list expanded, showing all course discussion
-         topics.
 
-=======================================
-View Topics in a Course Unit
-=======================================
+************************
+Searching and filtering
+************************
 
-Content-specific topics are located in specific units in the course. They
-typically appear below the content they apply to. To access a content-specific
-topic, view the unit that contains the topic.
+The search field at the top of Discussions page lets you search for:
 
-.. image:: /_images/learners/HTMLandDisc.png
-   :alt: A discussion topic that appears below text inside the course.
+1. Forum content when you have All Posts or My Posts tab open
+2. Topics when you have Topics tab open
+3. Usernames when you have Learners tab open
 
-You can also use the **Discussion** page to access a discussion in the unit
-where that topic is located.
+.. image:: /_images/learners/Discussions_search.png
+   :width: 600
+   :alt: Search bar on top of Discussions page.
 
-#. In the list of topics, select the topic that you want.
+You can also filter or sort posts:
 
-#. Select a post title to open the complete post and its responses and comments
-   next to the above the discussion navigation pane.
+* Filter by status: Unread, Following,Unanswered or Not responded.
+* Filter by type: Discussion or Question.
+* Sort by: Recent activity, Most activity, or Most likes.
 
-#. In the text of a post, select the name of the discussion topic to go to the
-   discussion inside the unit.
+Default is all post types appear of any status, sorted by recent activity.
+
+.. image:: /_images/learners/Discussions_filters.png
+   :width: 600
+   :alt: Filter options for discussion posts.
 
 
 *****************************************
-Filter or Sort Posts
+Viewing pinned and followed posts
 *****************************************
 
-You can filter or sort the posts in *All post*, *My post* and *Topics* tab in following ways:
+Pinned posts stay at the top of every list. They often contain key announcements or resources from the course team. 
 
-1. You can filter the posts by status: *Unread*, *Following* and *Unanswered* (question type posts only).
-2. You can filter the posts by type: *Discussion* or *Question*.
-3. You can sort the posts by *Recent activity*, *Most activity* and *Most likes*.
+Posts you are following display a filled star icon. To view only those, open the All Posts tab and apply the 
+*Following* filter. Follow posts that relate to your project or assignment so that you get updates 
+when new responses arrive.
 
-By default, both types of posts are displayed, having any status and sorted by *Recent activity*.
-In this context, activity means creation of the post itself or a response or comment on the post.
-
-.. image:: /_images/learners/filter_menu.png
-   :width: 700
-   :alt: Discussion filters and sorting menu.
-
-*****************************************
-View Pinned Posts
-*****************************************
-
-Pinned posts appear at the top of the list of posts in *All posts*, *My posts* and *Topics* tab.
-Pinned posts can contain important information about the course or any part of the course, such as a
-particular video or problem. The pinned post can originate from anyone in the
-course, including other learners or members of the discussion moderation team,
-but only members of the moderation team can pin a post.
-Look for the pin icon on top-right of the summary of a post to identify a pinned post.
-
-.. image:: /_images/learners/pin_post_icon.png
-   :width: 400
-   :height: 700
-   :alt: Discussion filters and sorting menu.
+.. note:: You will receive notifications of any activity on posts that you are following.
 
 
-*****************************************
-View Followed Posts
-*****************************************
-
-In the discussion navigation pane select *All posts* tab and then select *Following* filter from the
-filter menu. The content list area refreshes to show only posts that you are following.
+.. image:: /_images/learners/Discussions_pinned_following.png
+   :width: 600
+   :alt: Markers for pinned and followed discussions.
 
 
 **Maintenance chart**
