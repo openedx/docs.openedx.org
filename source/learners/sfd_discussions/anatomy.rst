@@ -1,4 +1,4 @@
-.. _Anatomy of Open edX Discussions:
+.. _Anatomy of Discussions:
 
 #######################
 Anatomy of Discussions
@@ -52,8 +52,7 @@ Each discussion has the following components:
 
 * Responses: Other learners or course staff can write responses to a post. Responses add explanations, share experiences, or suggest solutions. They sit directly under the original post.
 
-* Comments: Within each response, learners can add comments. These are follow-ups that keep side conversations contained and easy to read.
-Comments add context within a single response.
+* Comments: Within each response, learners can add comments. These are follow-ups that keep side conversations contained and easy to read. Comments add context within a single response.
 
 * Topics: A topic indicates what the post is about. Every post belongs to a topic. Topics group related discussions together and help you browse and keep course conversations organized. For example, Week 2: Problem Set 1, General Questions, or Feedback.
 

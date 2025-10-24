@@ -252,8 +252,7 @@ Although you can view discussions in any team, you must belong to a team to
 add new posts and responses to the team's discussion.
 
 Team discussions work in the same way as your course discussions. For
-information about course discussions, see :ref:`Anatomy of Open edX Course
-Discussions`.
+information about course discussions, see :ref:`Anatomy of Discussions`.
 
 If you leave a team, you can view posts that are made, but you can no longer
 participate in that team's discussions.
