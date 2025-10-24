@@ -27,18 +27,12 @@ The discussion page organizes content into 4 tabs: *My Posts*, *All Posts*, *Top
    :width: 600
    :alt: 4 tabs on the Discussions page.
 
-* My Posts: Shows every post that you have written. You can click a post title in the left panel to 
-open it and see its responses or comments. This view helps you keep track of your own contributions and any 
-replies to them.
-* All Posts: Lists every post in the course forums. By default, posts with the most recent activity appear at the top. 
-Use this view when you want to see what is new or popular across the whole course.
-* Topics: Displays all discussion topics in the course. Topics follow the same three-level hierarchy 
-as the course content:
-
-   * The top level represents course sections.
-   * The second level shows subsections.
-   * The third level lists units, which are the actual discussion topics that contain posts. Select a subsection to expand it and see its topics. When you click a topic name, you will see the posts related to it.
-
+* My Posts: Shows every post that you have written. You can click a post title in the left panel to open it and see its responses or comments. This view helps you keep track of your own contributions and any replies to them.
+* All Posts: Lists every post in the course forums. By default, posts with the most recent activity appear at the top. Use this view when you want to see what is new or popular across the whole course.
+* Topics: Displays all discussion topics in the course. Topics follow the same three-level hierarchy as the course content:
+* The top level represents course sections.
+* The second level shows subsections.
+* The third level lists units, which are the actual discussion topics that contain posts. Select a subsection to expand it and see its topics. When you click a topic name, you will see the posts related to it.
 * Learners: Shows everyone who has written a post, response, or comment. Click a learner’s name to see their contributions. Under each name you can see the number of posts they created and their total contributions.
 
 .. image:: /_images/learners/Discussions_topics.png
