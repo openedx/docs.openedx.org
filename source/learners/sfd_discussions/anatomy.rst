@@ -15,7 +15,7 @@ Where to Find Discussions
 You can access course discussions in two ways:
 
 ==============================
-1. From the course navigation
+From the course navigation
 ==============================
 
 Click the “Discussions” tab at the top of your course. This opens the full discussion page, 
@@ -26,7 +26,7 @@ where you can browse all topics, search, and post new questions/discussions.
    :alt: Discussions page can be accessed from course navigation bar.
 
 ==============================
-2. From inside a course unit
+From inside a course unit
 ==============================
 
 Some course units have their own mini discussion panel on the right side of the page. 
