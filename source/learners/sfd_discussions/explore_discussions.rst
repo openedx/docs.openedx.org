@@ -7,10 +7,6 @@ Finding and Following the Right Conversations
 Discussions can grow quickly as a course progresses. 
 Knowing how to browse and search helps you save time and discover conversations that matter to you. 
 
-When you open the Discussions tab in your course, you see four tabs at the top. 
-Each one gives you a different way to explore.
-
-
 .. contents::
   :local:
   :depth: 1
@@ -21,26 +17,41 @@ Each one gives you a different way to explore.
 Navigating the Discussions page
 ********************************
 
-The discussion page organizes content into 4 tabs: *My Posts*, *All Posts*, *Topics* and *Learners*. 
+When you open the Discussions tab in your course, you see four tabs at the top, as shown in the image below. 
+
+1. **My Posts:** Shows every post that you have written. You can click a post title in the left panel to open it and see its responses or comments. This view helps you keep track of your own contributions and any replies to them.
+
+2. **All Posts:** Lists every post in the course forums. By default, posts with the most recent activity appear at the top. Use this view when you want to see what is new or popular across the whole course.
+
+3. **Topics:** Displays all discussion topics in the course. Topics follow the same three-level hierarchy as the course content:
+   
+   a. The top level represents course sections.  
+   b. The second level shows subsections.  
+   c. The third level lists units, which are the actual discussion topics that contain posts. Select a subsection to expand it and see its topics. When you click a topic name, you will see the posts related to it.
+
+4. **Learners:** Shows everyone who has written a post, response, or comment. Click a learner’s name to see their contributions. Under each name you can see the number of posts they created and their total contributions.
+
+.. note:: Use My Posts for tracking your own activity and Topics when you 
+   want to focus on the part of the course you are studying.
+
+
+.. figure:: /images/learners/discussion_page.png
+   :alt: Screenshot of the discussion page
+   :width: 600px
+   :align: center
+
+   The Discussion page with navigation pane, content list, and content view areas.
+
+
 
 .. image:: /_images/learners/Discussions_tabs.png
    :width: 600
    :alt: 4 tabs on the Discussions page.
 
-* My Posts: Shows every post that you have written. You can click a post title in the left panel to open it and see its responses or comments. This view helps you keep track of your own contributions and any replies to them.
-* All Posts: Lists every post in the course forums. By default, posts with the most recent activity appear at the top. Use this view when you want to see what is new or popular across the whole course.
-* Topics: Displays all discussion topics in the course. Topics follow the same three-level hierarchy as the course content:
-* The top level represents course sections.
-* The second level shows subsections.
-* The third level lists units, which are the actual discussion topics that contain posts. Select a subsection to expand it and see its topics. When you click a topic name, you will see the posts related to it.
-* Learners: Shows everyone who has written a post, response, or comment. Click a learner’s name to see their contributions. Under each name you can see the number of posts they created and their total contributions.
-
 .. image:: /_images/learners/Discussions_topics.png
    :width: 600
    :alt: How to navigate topic hierarchy.
 
-.. note:: Use My Posts for tracking your own activity and Topics when you 
-   want to focus on the part of the course you are studying.
 
 *********************************
 Discussions inside course units
@@ -49,13 +60,12 @@ Discussions inside course units
 Some course units have a discussion panel on the right side of the page. This panel only shows posts linked to that 
 unit’s topic. It is a focused view for that specific content. Posts made here also appear in the  main Discussions page.
 
+.. note:: Use the inline panel when you want to talk about something shown on the page. 
+   Use the main Discussions tab when you want to search or browse across the entire course.
+
 .. image:: /_images/learners/Discussions_sidebar.png
    :width: 600
    :alt: Discussions sidebar can be seen on right side of course content when enabled.
-
-
-.. note:: Use the inline panel when you want to talk about something shown on the page. 
-   Use the main Discussions tab when you want to search or browse across the entire course.
 
 
 ************************
@@ -71,6 +81,7 @@ The search field at the top of Discussions page lets you search for:
 .. image:: /_images/learners/Discussions_search.png
    :width: 600
    :alt: Search bar on top of Discussions page.
+
 
 You can also filter or sort posts:
 
