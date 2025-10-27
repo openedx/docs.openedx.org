@@ -35,7 +35,7 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
    want to focus on the part of the course you are studying.
 
 
-.. figure:: /images/learners/discussion_page.png
+.. figure:: /images/learners/Discussions_tabs.png
    :alt: Screenshot of the discussion page
    :width: 600px
    :align: center
