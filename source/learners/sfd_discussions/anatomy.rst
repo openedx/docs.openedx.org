@@ -14,33 +14,28 @@ Where to Find Discussions
 
 You can access course discussions in two ways:
 
-==============================
-From the course navigation
-==============================
+1. **From the course navigation**
 
-Click the “Discussions” tab at the top of your course. This opens the full discussion page, 
-where you can browse all topics, search, and post new questions/discussions.
+   Click the “Discussions” tab at the top of your course. This opens the full discussion page, 
+   where you can browse all topics, search, and post new questions/discussions.
 
-.. image:: /_images/learners/Discussions_page.png
-   :width: 600
-   :alt: Discussions page can be accessed from course navigation bar.
+   .. image:: /_images/learners/Discussions_course_nav.png
+      :width: 600
+      :alt: Discussions page can be accessed from course navigation bar.
 
-==============================
-From inside a course unit
-==============================
+2. **From inside a course unit**
 
-Some course units have their own mini discussion panel on the right side of the page. 
-Use this to create or participate in discussion specific to that course unit. 
-If you don’t see this panel, it means discussions haven’t been enabled for that unit 
-(very likely for assignments or exams). You can still use the main “Discussions” tab.
+   Some course units have their own mini discussion panel on the right side of the page. 
+   Use this to create or participate in discussion specific to that course unit. 
+   If you don’t see this panel, it means discussions haven’t been enabled for that unit 
+   (very likely for assignments or exams). You can still use the main “Discussions” tab.
 
-Remember, this panel only includes posts for that specific course unit. You’ll learn more 
-about browsing and searching all course discussions on the next page.
+   Remember, this panel only includes posts for that specific course unit. You’ll learn more 
+   about browsing and searching all course discussions on the next page.
 
-.. image:: /_images/learners/Discussions_sidebar.png
-   :width: 600
-   :alt: Discussions sidebar can be seen on right side of course content when enabled.
-
+   .. image:: /_images/learners/Discussions_sidebar.png
+      :width: 600
+      :alt: Discussions sidebar can be seen on right side of course content when enabled.
 
 **************
 Basic Elements
