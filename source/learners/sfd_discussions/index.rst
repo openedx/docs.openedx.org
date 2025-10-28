@@ -17,5 +17,5 @@ participation more effective.
    anatomy
    explore_discussions
    add_post
-   keep_up
+   discussions_notifications
    provide_feedback

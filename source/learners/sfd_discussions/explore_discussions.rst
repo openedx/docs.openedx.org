@@ -19,9 +19,9 @@ Navigating the Discussions page
 
 When you open the Discussions tab in your course, you see four tabs at the top, as shown in the image below. 
 
-1. **My Posts:** Shows every post that you have written. You can click a post title in the left panel to open it and see its responses or comments. This view helps you keep track of your own contributions and any replies to them.
+1. **My Posts:** Shows all posts that you’ve written or taken part in through a response or comment. Click a post title in the left panel to open it and see its responses and comments.
 
-2. **All Posts:** Lists every post in the course forums. By default, posts with the most recent activity appear at the top. Use this view when you want to see what is new or popular across the whole course.
+2. **All Posts:** Lists every post in the course forums. By default, posts with the most recent activity appear at the top.
 
 3. **Topics:** Displays all discussion topics in the course. Topics follow the same three-level hierarchy as the course content:
    
@@ -43,9 +43,14 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
    The Discussion page with navigation pane, content list, and content view areas.
 
 
-.. image:: /_images/learners/Discussions_topics.png
-   :width: 600
+
+.. figure:: /_images/learners/Discussions_topics.png
    :alt: How to navigate topic hierarchy.
+   :width: 600
+   :align: center
+
+   Navigating the 3-level topic hierarchy to view posts beloning to a topic.
+
 
 
 *********************************
@@ -58,9 +63,14 @@ unit’s topic. It is a focused view for that specific content. Posts made here 
 .. note:: Use the inline panel when you want to talk about something shown on the page. 
    Use the main Discussions tab when you want to search or browse across the entire course.
 
-.. image:: /_images/learners/Discussions_sidebar.png
-   :width: 600
+
+.. figure:: /_images/learners/Discussions_sidebar.png
    :alt: Discussions sidebar can be seen on right side of course content when enabled.
+   :width: 600
+   :align: center
+
+   Discussions sidebar can be seen on right side of course content when enabled.
+
 
 
 ************************
@@ -73,9 +83,13 @@ The search field at the top of Discussions page lets you search for:
 2. Topics when you have Topics tab open
 3. Usernames when you have Learners tab open
 
-.. image:: /_images/learners/Discussions_search.png
-   :width: 600
+
+.. figure:: /_images/learners/Discussions_search.png
    :alt: Search bar on top of Discussions page.
+   :width: 600
+   :align: center
+
+   Use the search bar to search for content, topics and learners.
 
 
 You can also filter or sort posts:
@@ -86,9 +100,13 @@ You can also filter or sort posts:
 
 Default is all post types appear of any status, sorted by recent activity.
 
-.. image:: /_images/learners/Discussions_filters.png
-   :width: 600
+
+.. figure:: /_images/learners/Discussions_filters.png
    :alt: Filter options for discussion posts.
+   :width: 600
+   :align: center
+
+   Use sorts and filters to find the right conversations.
 
 
 *****************************************
@@ -101,12 +119,15 @@ Posts you are following display a filled star icon. To view only those, open the
 *Following* filter. Follow posts that relate to your project or assignment so that you get updates 
 when new responses arrive.
 
-.. note:: You will receive notifications of any activity on posts that you are following.
+.. note:: You will receive notifications of any activity on posts that you are following. Learn more in :ref:`Staying Updated with Notifications`.
 
 
-.. image:: /_images/learners/Discussions_pinned_following.png
-   :width: 600
+.. figure:: /_images/learners/Discussions_pinned_following.png
    :alt: Markers for pinned and followed discussions.
+   :width: 600
+   :align: center
+
+   Pinned posts appear on top of the list and followed posts display a filled star icon.
 
 
 **Maintenance chart**

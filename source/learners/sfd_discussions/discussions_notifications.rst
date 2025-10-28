@@ -1,8 +1,8 @@
-.. _Keep Up with New Activity:
+.. _Staying Updated with Notifications:
 
-################################
-Keeping Up with New Activity
-################################
+##################################
+Staying Updated with Notifications
+##################################
 
 This topic describes how to keep up with discussion activity in your Open edX
 course.
