@@ -43,12 +43,6 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
    The Discussion page with navigation pane, content list, and content view areas.
 
 
-
-.. image:: /_images/learners/Discussions_page.png
-   :width: 600
-   :alt: 4 tabs on the Discussions page.
-
-
 .. image:: /_images/learners/Discussions_topics.png
    :width: 600
    :alt: How to navigate topic hierarchy.
