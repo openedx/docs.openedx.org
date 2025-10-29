@@ -131,6 +131,13 @@ As the author of a question post, you can also mark a response as the answer you
    Visual indicator on top of responses endorsed and marked as answer.
 
 
+.. figure:: /_images/learners/Discussions_mark_answer.png
+   :alt: Option to mark a response as answer on a question post you've authored. 
+   :width: 400
+   :align: center
+
+   Option to mark a response as answer on a question post you've authored.
+
 
 **Maintenance chart**
 
