@@ -1,4 +1,4 @@
-.. _Staying Updated with Notifications:
+.. _staying-updated-with-notifications:
 
 ##################################
 Staying Updated with Notifications
