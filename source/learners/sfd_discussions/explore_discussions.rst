@@ -118,7 +118,7 @@ Posts you are following display a filled star icon. To view only those, open the
 *Following* filter. Follow posts that relate to your project or assignment so that you get updates 
 when new responses arrive.
 
-.. note:: You will receive notifications of any activity on posts that you are following. Learn more in :ref:`Staying Updated with Notifications`.
+.. note:: You will receive notifications of any activity on posts that you are following. Learn more in :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
 
 .. figure:: /_images/learners/Discussions_pinned_following.png
