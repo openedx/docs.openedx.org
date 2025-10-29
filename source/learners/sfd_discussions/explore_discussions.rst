@@ -31,8 +31,7 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
 
 4. **Learners:** Shows everyone who has written a post, response, or comment. Click a learner’s name to see their contributions. Under each name you can see the number of posts they created and their total contributions.
 
-.. note:: Use My Posts for tracking your own activity and Topics when you 
-   want to focus on the part of the course you are studying.
+.. note:: Use *My Posts* for tracking your own activity and *Topics* when you want to focus on the part of the course you are studying.
 
 
 .. figure:: /_images/learners/Discussions_page.png
@@ -77,16 +76,16 @@ unit’s topic. It is a focused view for that specific content. Posts made here 
 Searching and filtering
 ************************
 
-The search field at the top of Discussions page lets you search for:
+The search field at the top of *Discussions* page lets you search for:
 
-1. Forum content when you have All Posts or My Posts tab open
-2. Topics when you have Topics tab open
-3. Usernames when you have Learners tab open
+1. Forum content when you have *All Posts* or *My Posts* tab open
+2. Topics when you have *Topics* tab open
+3. Usernames when you have *Learners* tab open
 
 
 .. figure:: /_images/learners/Discussions_search.png
-   :alt: Search bar on top of Discussions page.
-   :width: 600
+   :alt: Search bar on top of *Discussions* page.
+   :width: 400
    :align: center
 
    Use the search bar to search for content, topics and learners.
@@ -94,16 +93,16 @@ The search field at the top of Discussions page lets you search for:
 
 You can also filter or sort posts:
 
-* Filter by status: Unread, Following,Unanswered or Not responded.
-* Filter by type: Discussion or Question.
-* Sort by: Recent activity, Most activity, or Most likes.
+* Filter by status: *Unread*, *Following*,*Unanswered* or *Not responded*.
+* Filter by type: *Discussion* or *Question*.
+* Sort by: *Recent activity*, *Most activity*, or *Most likes*.
 
 Default is all post types appear of any status, sorted by recent activity.
 
 
 .. figure:: /_images/learners/Discussions_filters.png
    :alt: Filter options for discussion posts.
-   :width: 600
+   :width: 400
    :align: center
 
    Use sorts and filters to find the right conversations.
@@ -115,7 +114,7 @@ Viewing pinned and followed posts
 
 Pinned posts stay at the top of every list. They often contain key announcements or resources from the course team. 
 
-Posts you are following display a filled star icon. To view only those, open the All Posts tab and apply the 
+Posts you are following display a filled star icon. To view only those, open the *All Posts* tab and apply the 
 *Following* filter. Follow posts that relate to your project or assignment so that you get updates 
 when new responses arrive.
 
@@ -124,7 +123,7 @@ when new responses arrive.
 
 .. figure:: /_images/learners/Discussions_pinned_following.png
    :alt: Markers for pinned and followed discussions.
-   :width: 600
+   :width: 400
    :align: center
 
    Pinned posts appear on top of the list and followed posts display a filled star icon.
