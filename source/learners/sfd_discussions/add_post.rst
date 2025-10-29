@@ -120,7 +120,7 @@ As the author of a question post, you can also mark a response as the answer you
 
 .. note::
   You receive a notification if your response is endorsed or marked as the answer, or if a response on 
-  your own post is endorsed or marked as the answer., see `Staying Updated with Notifications`_.
+  your own post is endorsed or marked as the answer., see :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
 
 .. figure:: /_images/learners/Discussions_endorsed.png
