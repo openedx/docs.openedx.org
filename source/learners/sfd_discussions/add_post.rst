@@ -108,6 +108,15 @@ Reporting content helps keep discussions safe and respectful.
    Use the options menu to report content that you find inappropriate or spam.
 
 
+.. figure:: /_images/learners/Discussions_reported_banner.png
+   :alt: Content your report will show an indicator on top of the content and in the posts list. 
+   :width: 600
+   :align: center
+
+   Content your report will show an indicator on top of the content and in the posts list. 
+
+
+
 *************************************
 Endorse a response or mark as answer
 *************************************
