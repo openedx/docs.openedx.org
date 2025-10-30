@@ -139,6 +139,46 @@ As the author of a question post, you can also mark a response as the answer you
    Option to mark a response as answer on a question post you've authored.
 
 
+*************************
+Post closed by moderator
+*************************
+
+Forum moderators can close a post to prevent further responses or comments. A closed post displays a lock icon 
+at the bottom-right corner. If you are the post’s author, a banner appears at the top explaining why the post 
+was closed.
+
+Moderators may close posts that are off-topic, duplicates, resolved, or contain content related to assignments 
+or exams that could reveal solutions. Moderators can reopen a closed post.
+
+
+.. figure:: /_images/learners/Discussions_post_closed_banner.png
+   :alt: Closed post with a lock icon and a banner. 
+   :width: 600
+   :align: center
+
+   Closed post with a lock icon and a banner.
+
+
+************************
+Post edited by moderator
+************************
+
+Forum moderators can edit posts, responses and comments to correct spelling or grammar, remove personal 
+or identifying information, delete harmful or inappropriate content etc.
+
+If you are the post’s author, a banner appears at the top explaining why your post was edited.
+
+
+.. figure:: /_images/learners/Discussions_edited_post_banner.png
+   :alt: Post edited by a moderator showing edit reason on top.
+   :width: 600
+   :align: center
+
+   Post edited by a moderator showing edit reason on top.
+
+
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
