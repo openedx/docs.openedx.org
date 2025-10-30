@@ -27,6 +27,12 @@ Breaking Changes
 Administrators & Operators
 **************************
 
+- The new Forums implementation (migration from Ruby to Python forums backend) that debuted in Sumac should now be utilized in Teak. The ``cs_comments_service`` app will be removed in the Ulmo release.
+
+   - For users running Tutor, they will automatically switch to the new app. Instructions to migrate data from mongodb to mysql is available in the plugin README https://github.com/overhangio/tutor-forum/
+
+   - Users not running Tutor will by default remain on the legacy ``cs_comments_service`` app. They need to read this part of the forum app README: https://github.com/openedx/forum?tab=readme-ov-file#forum-v2-toggle Some settings need to be defined even for legacy app users.
+
 Settings and Toggles
 ====================
 
