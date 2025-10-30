@@ -116,10 +116,9 @@ Reporting content helps keep discussions safe and respectful.
    Content your report will show an indicator on top of the content and in the posts list. 
 
 
-
-*************************************
-Endorse a response or mark as answer
-*************************************
+**************************************
+Responses endorsed or marked as answer
+**************************************
 
 Forum moderators can endorse responses in discussion posts or mark them as the answer in question posts. 
 Endorsed or marked responses highlight information that is accurate or especially helpful, and they appear with 
@@ -146,6 +145,14 @@ As the author of a question post, you can also mark a response as the answer you
    :align: center
 
    Option to mark a response as answer on a question post you've authored.
+
+
+.. figure:: /_images/learners/Discussions_mark_answer_indicator.png
+   :alt: Question posts that have been answered are indicated with a check in the post list.
+   :width: 400
+   :align: center
+
+   Question posts that have been answered are indicated with a check in the post list.
 
 
 *************************
