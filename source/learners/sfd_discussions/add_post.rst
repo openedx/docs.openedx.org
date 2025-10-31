@@ -1,33 +1,30 @@
-.. _Add or Edit a Contribution:
+.. _add-or-edit-a-contribution:
 
 #######################################
 Taking Part in Course Discussions
 #######################################
 
-This topic describes how to add, edit, and delete contributions to discussions.
+This topic explains how to create, edit, and manage your contributions in course discussions.  
+You can start a new post, respond to others, or help moderate discussions by reporting issues.
 
 .. contents::
-  :local:
-  :depth: 1
+   :local:
+   :depth: 2
 
 .. note::
-  You might want to enter mathematical or scientific expressions in a
-  discussion. For information about how to enter plain text so that it will
-  appear as a formatted mathematical expression, see `Math Formatting in Course
-  Discussions`_.
+   You might want to enter mathematical or scientific expressions in a discussion.  
+   For information about how to enter plain text so that it appears as a formatted expression, see
+   `Math Formatting in Course Discussions`_.
 
-.. _Creating a post:
-
-***************
+*************************
 Creating a post
-***************
+*************************
 
 A post starts a new conversation.
 
 1. Choose the right **type** before you post:
-
-   a. **Question:** when you need an answer or clarification.  
-   b. **Discussion:** when you want to share an idea or start a conversation.
+   - **Question:** when you need an answer or clarification.  
+   - **Discussion:** when you want to share an idea or start a conversation.
 
 2. Select a **topic** that fits your post so others can find it easily.
 
@@ -35,170 +32,180 @@ A post starts a new conversation.
 
 4. Write your **description**. Use the toolbar to format text or insert images if needed.
 
-5. Click **Show preview** (bottom-right corner) to check your post before submitting.
+5. Click **Show preview** (bottom right corner) to check your post before submitting.
 
 6. If anonymous posting is enabled, you will see a **Post anonymously to peers** checkbox.  
-   When selected, your post appears **anonymous to peers**, but your identity remains  
-   **visible to course staff and teaching assistants**. Use this option thoughtfully.
+   When selected, your post appears **anonymous to peers**, but your identity remains **visible to course staff and moderators**.  
+   Some courses do not allow anonymous posting.
 
 7. Click **Submit** to publish your post. You can edit it later if needed.
 
-
 .. figure:: /_images/learners/Discussions_creating_post.png
-   :alt: Creating a discussion post on the Discussions page and in a course unit.
+   :alt: Form showing title, type, topic, and preview button for creating a discussion post.
    :width: 600
    :align: center
 
    Creating a discussion post on the Discussions page and in a course unit.
 
+.. note::
+   You can subscribe to notifications for new discussions or new question posts from the Preference Center.  
+   See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
-
-.. _Add a response or comment:
+**Next:** Learn how to respond and comment.
 
 *************************
-Add a response or comment
+Responding and commenting
 *************************
 
-You can add your opinion to an existing conversation by either creating a response on the post or creating a 
-comment on someone’s response.
+You can add to an existing conversation by writing a **response** or a **comment**.
 
+- A **response** adds your full reply or answer to the main post.  
+- A **comment** adds a short note or clarification inside a specific response.
 
-.. figure:: /_images/learners/Discussions_response_comment.png
-   :alt: Option to create a response or comment on the Discussions page and in a course unit. 
-   :width: 600
-   :align: center
-
-   Option to create a response or comment on the Discussions page and in a course unit.
-
-.. _Edit or Delete:
-
-************************************
-Editing or deleting your own content
-************************************
-
-You can edit or delete any post, response, or comment that you’ve authored. Use the actions menu on your 
-contribution to make changes. Be careful when deleting because removing a post or response also deletes all 
-responses or comments associated with it.
-
-
-.. figure:: /_images/learners/Discussions_edit_delete.png
-   :alt: Option to edit or delete your content. 
-   :width: 600
-   :align: center
-
-   Use the options menu to edit or delete the post, response or comment you've created.
-
-
-.. _Report content:
-
-*******************************
-Reporting inappropriate content
-*******************************
-
-If you see a post, response, or comment that is inappropriate or spam, report it for review. 
-Open the actions menu on that item and select Report. Course moderators will review and take any needed action. 
-Reporting content helps keep discussions safe and respectful.
-
-
-.. figure:: /_images/learners/Discussions_report_content.png
-   :alt: Option to report content. 
-   :width: 600
-   :align: center
-
-   Use the options menu to report content that you find inappropriate or spam.
-
-
-.. figure:: /_images/learners/Discussions_reported_banner.png
-   :alt: Content your report will show an indicator on top of the content and in the posts list. 
-   :width: 600
-   :align: center
-
-   Content your report will show an indicator on top of the content and in the posts list. 
-
-
-**************************************
-Responses endorsed or marked as answer
-**************************************
-
-Forum moderators can endorse responses in discussion posts or mark them as the answer in question posts. 
-Endorsed or marked responses highlight information that is accurate or especially helpful, and they appear with 
-a visual indicator so others can recognize trusted answers quickly.
-
-As the author of a question post, you can also mark a response as the answer yourself.
+Open a post, write your response or comment, and click **Submit**.  
+Read the thread first so your reply fits naturally into the discussion.
 
 .. note::
-  You receive a notification if your response is endorsed or marked as the answer, or if a response on 
-  your own post is endorsed or marked as the answer., see :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+   You will receive a notification when someone creates a response or a comment on your post or response.  
+   See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
-
-.. figure:: /_images/learners/Discussions_endorsed.png
-   :alt: Responses endorsed or marked as answer. 
+.. figure:: /_images/learners/Discussions_response_comment.png
+   :alt: Thread view showing buttons to add a response or comment on a post.
    :width: 600
    :align: center
 
-   Visual indicator on top of responses endorsed and marked as answer.
+   Adding a response or comment on the Discussions page or in a course unit.
 
+**Next:** Learn how answers and endorsements work.
+
+*******************************************
+Endorsements and accepted answers
+*******************************************
+
+Forum moderators can endorse responses in discussion posts or mark them as the **answer** in question posts.  
+Endorsed or marked responses highlight accurate or especially helpful information, and appear with a visual indicator.
+
+If you created a question post, you can mark a response as the answer yourself.
+
+.. note::
+   You will receive a notification if your response is endorsed or marked as the answer,  
+   or if a response on your post is endorsed or marked as the answer.  
+   See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+
+.. figure:: /_images/learners/Discussions_endorsed.png
+   :alt: Response showing an endorsed or marked-as-answer visual indicator.
+   :width: 600
+   :align: center
+
+   Responses that are endorsed or marked as answers display visual indicators.
 
 .. figure:: /_images/learners/Discussions_mark_answer.png
-   :alt: Option to mark a response as answer on a question post you've authored. 
+   :alt: Actions menu with option to mark a response as answer on your question post.
    :width: 400
    :align: center
 
-   Option to mark a response as answer on a question post you've authored.
-
+   Option to mark a response as the answer on a question post you authored.
 
 .. figure:: /_images/learners/Discussions_mark_answer_indicator.png
-   :alt: Question posts that have been answered are indicated with a check in the post list.
+   :alt: Post list showing a check mark indicating a question has been answered.
    :width: 400
    :align: center
 
    Question posts that have been answered are indicated with a check in the post list.
 
+**Next:** Learn how to edit or remove your contributions.
 
-*************************
-Post closed by moderator
-*************************
+*****************************************
+Editing or deleting your own contributions
+*****************************************
 
-Forum moderators can close a post to prevent further responses or comments. A closed post displays a lock icon 
-at the bottom-right corner. If you are the post’s author, a banner appears at the top explaining why the post 
-was closed.
+You can edit or delete any post, response, or comment that you have written.  
+Use the **Actions** menu on your contribution to make changes.
 
-Moderators may close posts that are off-topic, duplicates, resolved, or contain content related to assignments 
-or exams that could reveal solutions. Moderators can reopen a closed post.
+Be careful when deleting content:
 
+- Deleting a **post** removes all its responses and comments.  
+- Deleting a **response** removes its comments.  
+- Deleting a **comment** affects only that comment.
 
-.. figure:: /_images/learners/Discussions_post_closed_banner.png
-   :alt: Closed post with a lock icon and a banner. 
+.. figure:: /_images/learners/Discussions_edit_delete.png
+   :alt: Actions menu with options to edit or delete your post or response.
    :width: 600
    :align: center
 
-   Closed post with a lock icon and a banner.
+   Use the options menu to edit or delete your post, response, or comment.
 
+**Next:** Learn how to report inappropriate content.
 
-************************
-Post edited by moderator
-************************
+*******************************
+Reporting inappropriate content
+*******************************
 
-Forum moderators can edit posts, responses and comments to correct spelling or grammar, remove personal 
-or identifying information, delete harmful or inappropriate content etc.
+If you see a post, response, or comment that is inappropriate, off-topic, or spam, report it for review.  
+Open the **Actions** menu on that item and select **Report**.
+
+Moderators review reported content and may edit, hide, or close it to keep discussions safe and respectful.
+
+.. figure:: /_images/learners/Discussions_report_content.png
+   :alt: Actions menu open on a post showing the Report option.
+   :width: 600
+   :align: center
+
+   Use the options menu to report content that you find inappropriate or spam.
+
+.. figure:: /_images/learners/Discussions_reported_banner.png
+   :alt: Banner showing indicator on top of reported content and in the post list.
+   :width: 600
+   :align: center
+
+   Reported content shows an indicator on top of the post and in the posts list.
+
+**Next:** Learn what happens when moderators take action.
+
+******************************
+Moderation actions
+******************************
+
+Moderators help maintain a respectful learning environment.  
+They can close posts to prevent new replies or edit posts to correct or remove sensitive information.
+
+===========================
+When a post is closed
+===========================
+
+A closed post shows a **lock icon** at the bottom right corner.  
+If you are the author, a banner appears at the top explaining why the post was closed.
+
+Moderators may close posts that are off-topic, duplicates, resolved, or related to graded assignments or exams.  
+Closed posts can be reopened by moderators if needed.
+
+.. figure:: /_images/learners/Discussions_post_closed_banner.png
+   :alt: Closed post with a lock icon and a banner explaining why it was closed.
+   :width: 600
+   :align: center
+
+   Closed post with a lock icon and explanatory banner.
+
+============================
+When a post is edited
+============================
+
+Moderators can edit posts, responses, and comments to fix spelling, remove personal or identifying details,  
+or delete harmful or inappropriate content.
 
 If you are the post’s author, a banner appears at the top explaining why your post was edited.
 
-
 .. figure:: /_images/learners/Discussions_edited_post_banner.png
-   :alt: Post edited by a moderator showing edit reason on top.
+   :alt: Post edited by a moderator showing a banner with the reason for the edit.
    :width: 600
    :align: center
 
-   Post edited by a moderator showing edit reason on top.
+   Post edited by a moderator showing an edit reason banner.
 
+******************************
+See also
+******************************
 
-
-
-**Maintenance chart**
-
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
+- :ref:`Providing Feedback and Recognition <providing-feedback>`  
+- :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`  
+- :ref:`Finding and Following the Right Conversations <finding-and-following>`  
