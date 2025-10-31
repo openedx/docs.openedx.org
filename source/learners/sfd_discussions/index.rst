@@ -15,7 +15,7 @@ participation more effective.
    :maxdepth: 1
 
    anatomy
-   explore_posts
+   explore_discussions
    add_post
-   keep_up
+   discussions_notifications
    provide_feedback
