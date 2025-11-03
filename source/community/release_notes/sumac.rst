@@ -9,7 +9,9 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
 
    What's new in Sumac? Click to read about new features:
 
-   :doc:`sumac/feature_release_notes`.
+   :ref:`Sumac Product Marketing Notes`
+
+   And for more detail on individual products, refer to :ref:`Sumac Product Notes`.
 
 
 .. highlights::
@@ -22,6 +24,7 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
 .. toctree::
     :maxdepth: 2
 
+    Sumac Overview <sumac/sumac_marketing_notes>
     Sumac Release Notes <sumac/feature_release_notes>
     Sumac Developer & Operator Release Notes <sumac/dev_op_release_notes>
 
