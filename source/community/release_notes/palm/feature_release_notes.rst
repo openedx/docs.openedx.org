@@ -1,3 +1,5 @@
+.. _Palm Product Notes:
+
 Open edX Palm Release - Feature-Based Notes
 ###########################################
 
