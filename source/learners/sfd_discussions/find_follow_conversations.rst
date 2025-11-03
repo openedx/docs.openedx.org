@@ -1,4 +1,4 @@
-.. _Explore Posts:
+.. _find-follow-conversations:
 
 ##############################################
 Finding and Following the Right Conversations
