@@ -1,3 +1,5 @@
+.. _Olive discussions:
+
 New and Improved Discussions Forum (Olive)
 ##########################################
 
@@ -90,9 +92,9 @@ moderation team, as well as improvements to course authoring. Site operators can
 find information about how to configure the new Discussions feature in the Olive
 release notes.
 
-*Thank you to `Kshitij Sobti
+Thank you to `Kshitij Sobti
 <https://opencraft.com/a-look-at-the-recent-enhancements-to-discussions-in-open-edx/>`_
-and the team at OpenCraft for the gif shown in this post.*
+and the team at OpenCraft for the gif shown in this post.
 
 
 **Maintenance chart**
