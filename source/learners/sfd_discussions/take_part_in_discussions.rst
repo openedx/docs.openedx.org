@@ -1,8 +1,8 @@
-.. _add-or-edit-a-contribution:
+.. _take-part-in-discussions:
 
-#######################################
-Taking Part in Course Discussions
-#######################################
+############################
+Taking Part in Discussions
+############################
 
 This topic explains how to create, edit, and manage your contributions in course discussions.  
 You can start a new post, respond to others, or help moderate discussions by reporting issues.
@@ -115,9 +115,9 @@ If you created a question post, you can mark a response as the answer yourself.
 
 **Next:** Learn how to edit or remove your contributions.
 
-*****************************************
+********************************************
 Editing or deleting your own contributions
-*****************************************
+********************************************
 
 You can edit or delete any post, response, or comment that you have written.  
 Use the **Actions** menu on your contribution to make changes.
@@ -206,6 +206,5 @@ If you are the post’s author, a banner appears at the top explaining why your 
 See also
 ******************************
 
-- :ref:`Providing Feedback and Recognition <providing-feedback>`  
 - :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`  
-- :ref:`Finding and Following the Right Conversations <finding-and-following>`  
+- :ref:`Finding and Following the Right Conversations <find-follow-conversations>`  
