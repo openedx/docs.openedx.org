@@ -1,3 +1,5 @@
+.. _Olive Product Notes:
+
 Open edX Olive Release - Feature-Based Notes
 ############################################
 
