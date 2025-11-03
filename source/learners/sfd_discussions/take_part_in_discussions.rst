@@ -9,12 +9,15 @@ You can start a new post, respond to others, or help moderate discussions by rep
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 .. note::
    You might want to enter mathematical or scientific expressions in a discussion.  
    For information about how to enter plain text so that it appears as a formatted expression, see
    `Math Formatting in Course Discussions`_.
+
+
+.. _Creating a post:
 
 *************************
 Creating a post
@@ -47,11 +50,12 @@ A post starts a new conversation.
 
    Creating a discussion post on the Discussions page and in a course unit.
 
-.. note::
+.. Tip::
    You can subscribe to notifications for new discussions or new question posts from the Preference Center.  
    See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
-**Next:** Learn how to respond and comment.
+
+.. _Responding and commenting:
 
 *************************
 Responding and commenting
@@ -76,7 +80,8 @@ Read the thread first so your reply fits naturally into the discussion.
 
    Adding a response or comment on the Discussions page or in a course unit.
 
-**Next:** Learn how answers and endorsements work.
+
+.. _Endorsements and accepted answers:
 
 *******************************************
 Endorsements and accepted answers
@@ -113,7 +118,8 @@ If you created a question post, you can mark a response as the answer yourself.
 
    Question posts that have been answered are indicated with a check in the post list.
 
-**Next:** Learn how to edit or remove your contributions.
+
+.. _Editing or deleting your own contributions:
 
 ********************************************
 Editing or deleting your own contributions
@@ -135,7 +141,8 @@ Be careful when deleting content:
 
    Use the options menu to edit or delete your post, response, or comment.
 
-**Next:** Learn how to report inappropriate content.
+
+.. _Reporting inappropriate content:
 
 *******************************
 Reporting inappropriate content
@@ -160,7 +167,8 @@ Moderators review reported content and may edit, hide, or close it to keep discu
 
    Reported content shows an indicator on top of the post and in the posts list.
 
-**Next:** Learn what happens when moderators take action.
+
+.. _Moderation actions:
 
 ******************************
 Moderation actions

@@ -5,6 +5,12 @@ Staying Updated with Notifications
 ##################################
 
 Discussion notifications keep you informed when others interact with your posts or when instructors share updates.  
+
+.. contents::
+   :local:
+   :depth: 1
+
+
 There are four notification preferences for Discussions:
 
 1. **Activity notifications**: Cover all activity related to your own posts, responses, and followed threads.  

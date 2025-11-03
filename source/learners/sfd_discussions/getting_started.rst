@@ -1,12 +1,17 @@
-.. _Anatomy of Discussions:
+.. _Getting started with Discussions:
 
-#######################
-Anatomy of Discussions
-#######################
+##################################
+Getting started with Discussions
+##################################
 
 This section describes the structure and elements of course discussions.
 
-.. _Basic Elements of Course Discussions:
+.. contents::
+   :local:
+   :depth: 1
+
+
+.. _Where to Find Discussions:
 
 **************************
 Where to Find Discussions
@@ -49,6 +54,9 @@ You can access course discussions in two ways:
       :align: center
 
       The Discussions panel appears on the right side of course content when enabled.
+
+
+.. _Where to Find Discussions:
 
 **************
 Basic Elements

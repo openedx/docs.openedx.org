@@ -50,7 +50,7 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
 
    Navigating the 3-level topic hierarchy to view posts beloning to a topic.
 
-
+.. _Discussions inside course units:
 
 *********************************
 Discussions inside course units
@@ -71,6 +71,7 @@ unit’s topic. It is a focused view for that specific content. Posts made here 
    Discussions sidebar can be seen on right side of course content when enabled.
 
 
+.. _Searching and filtering:
 
 ************************
 Searching and filtering
@@ -107,6 +108,8 @@ Default is all post types appear of any status, sorted by recent activity.
 
    Use sorts and filters to find the right conversations.
 
+
+.. _Viewing pinned and followed posts:
 
 *****************************************
 Viewing pinned and followed posts
