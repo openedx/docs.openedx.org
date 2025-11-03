@@ -1,3 +1,5 @@
+.. _Quince Product Notes:
+
 Open edX Quince Release - Feature-Based Notes
 #############################################
 

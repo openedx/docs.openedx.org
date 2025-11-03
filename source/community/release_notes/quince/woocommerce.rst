@@ -1,3 +1,5 @@
+.. _WooCommerce Quince:
+
 Integrating WooCommerce WordPress Plugin (Quince)
 #################################################
 

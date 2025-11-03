@@ -15,6 +15,8 @@ contributed to this release. See also features previously discussed:
 For Learners
 ************
 
+.. _Learner Home Quince:
+
 New Learner Home
 ================
 
@@ -62,6 +64,7 @@ moved to the triple-dot menu at the upper righthand corner of the course cards.
    .. image:: /_images/release_notes/quince/quince-roundup-4.png
 
 
+.. _Masquerade Quince:
 
 Masquerade Feature for Course Teams
 -----------------------------------
@@ -73,6 +76,8 @@ in this view.
 
    .. image:: /_images/release_notes/quince/quince-roundup-5.png
 
+
+.. _Discussions Quince:
 
 New In-Context Discussion Sidebar
 =================================
