@@ -1,3 +1,5 @@
+.. _Copy Paste Quince:
+
 Copy & Paste - Second Phase Release (Quince)
 ############################################
 
