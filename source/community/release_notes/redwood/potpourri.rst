@@ -8,6 +8,8 @@ of life for both authors and learners.
   :local:
   :depth: 1
 
+.. _Independent Sections (Redwood):
+
 Make Sections available independently of the course outline
 ***********************************************************
 

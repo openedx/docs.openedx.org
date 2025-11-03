@@ -1,3 +1,5 @@
+.. _Sidebar Navigation Release Notes (Redwood):
+
 Sidebar Navigation Release Notes (Redwood)
 ##########################################
 

@@ -1,3 +1,5 @@
+.. _Studio (Redwood):
+
 Studio Facelift Release Notes (Redwood)
 #######################################
 
