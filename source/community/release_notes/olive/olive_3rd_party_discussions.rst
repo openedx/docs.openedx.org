@@ -1,3 +1,5 @@
+.. _Olive discussions 3party:
+
 Configuring 3rd Party Discussion Experiences (Olive)
 ####################################################
 

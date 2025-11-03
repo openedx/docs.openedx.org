@@ -10,6 +10,8 @@ additions to the platform, with brief descriptions of what they are.
   :local:
   :depth: 1
 
+.. _Olive randomized:
+
 Resets for Randomized Content Blocks
 ************************************
 
@@ -75,6 +77,8 @@ If you want to help out but don't know where to start, visit us on the
 `Discussion Forums <http://discuss.openedx.org>`_. Instructions for contributing
 are also available `on GitHub <https://github.com/openedx/openedx-test-course#contributing>`_.
 
+.. _Olive pr:
+
 Pages and Resources View
 ************************
 
@@ -92,6 +96,8 @@ Clicking the gear icon on “Progress”, “Wiki”, and “Calculator” creat
 that allows you to quickly enable or disable the feature for the course. We'll
 cover the various options available when choosing the Discussion option in a
 future post.
+
+.. _Olive login:
 
 Authentication Micro-frontend (MFE)
 ***********************************
