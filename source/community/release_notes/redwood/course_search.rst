@@ -1,3 +1,5 @@
+.. _Course Search Redwood:
+
 Course Search Beta Release Notes (Redwood)
 ##########################################
 
