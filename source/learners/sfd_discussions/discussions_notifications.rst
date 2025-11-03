@@ -12,35 +12,79 @@ There are four notification preferences for Discussions:
 3. **New discussion posts**: Alerts you when someone creates a new *discussion-type* post.  
 4. **New posts from instructors**: Notifies you when an instructor or staff member creates a post.
 
-The table below shows who receives each notification by default.
+The tables below shows who receives each notification by default.
 
-+-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
-| **Activity**                              | **Preference name**      | **Who receives it** | **Tray default** | **Email default** |
-+===========================================+==========================+=====================+==================+===================+
-| New response on your post                 |                          | Post author         | ON               | Daily             |
-+-------------------------------------------+                          +---------------------+------------------+-------------------+
-| New comment on your post                  |                          | Post author         | ON               | Daily             |
-+-------------------------------------------+                          +---------------------+------------------+-------------------+
-| New comment on your response              |                          | Response author     | ON               | Daily             |
-+-------------------------------------------+                          +---------------------+------------------+-------------------+
-| New response on a post you follow         | **Activity notifications**| Post follower       | ON               | Daily             |
-+-------------------------------------------+                          +---------------------+------------------+-------------------+
-| New comment on a post you follow          |                          | Post follower       | ON               | Daily             |
-+-------------------------------------------+                          +---------------------+------------------+-------------------+
-| Response on your post is endorsed         |                          | Post author         | ON               | Daily             |
-+-------------------------------------------+                          +---------------------+------------------+-------------------+
-| Your response is endorsed                 |                          | Response author     | ON               | Daily             |
-+-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
-| A new discussion-type post                | New question posts       | All learners        | OFF              | OFF               |
-+-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
-| A new question-type post                  | New discussion posts     | All learners        | OFF              | OFF               |
-+-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
-| A new post from the course instructor     | New posts from instructors| All learners        | ON               | OFF               |
-+-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
+Activity notifications preference
+===================================
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 25 15 20
+
+   * - **Activity**
+     - **Who receives it**
+     - **Tray**
+     - **Email**
+   * - New response on your post
+     - Post author
+     - ON
+     - Daily
+   * - New comment on your post
+     - Post author
+     - ON
+     - Daily
+   * - New comment on your response
+     - Response author
+     - ON
+     - Daily
+   * - New response on a post you follow
+     - Post follower
+     - ON
+     - Daily
+   * - New comment on a post you follow
+     - Post follower
+     - ON
+     - Daily
+   * - Response on your post is endorsed
+     - Post author
+     - ON
+     - Daily
+   * - Your response is endorsed
+     - Response author
+     - ON
+     - Daily
+
+Other discussion notification preferences
+===========================================
+
+.. list-table::
+   :header-rows: 1
+   :widths: 35 30 20 15 20
+
+   * - **Activity**
+     - **Preference name**
+     - **Who receives it**
+     - **Tray**
+     - **Email**
+   * - A new discussion-type post
+     - New question posts
+     - Anyone
+     - OFF
+     - OFF
+   * - A new question-type post
+     - New discussion posts
+     - Anyone
+     - OFF
+     - OFF
+   * - A new post from the course instructor
+     - New posts from instructors
+     - Anyone
+     - ON
+     - OFF
 
 .. tip::
 
-   **Activity notifications** cover almost all events in threads you create or follow.  
+   **Activity notifications** cover almost all events in threads and responses you create or follow.  
    You can turn them off completely or change only the email frequency in the **Preferences Center**.
 
 
