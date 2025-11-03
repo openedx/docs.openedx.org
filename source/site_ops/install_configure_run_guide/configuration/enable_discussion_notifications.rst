@@ -11,7 +11,7 @@ adds a response to a discussion post that they have made.
 
 For more information, including the text of the discussion notification
 message, see :ref:`Automatic Emails` and
-:ref:`Receiving Discussion Notifications`.
+:ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
 .. contents::
    :depth: 1
