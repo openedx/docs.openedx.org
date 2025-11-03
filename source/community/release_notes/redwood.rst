@@ -9,7 +9,9 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
 
    What's new in Redwood? Click to read about new features:
 
-   :doc:`redwood/feature_release_notes`.
+   :ref:`Redwood Product Marketing Notes`
+
+   And for more detail on individual products, refer to :ref:`Redwood Product Notes`.
 
 
 .. highlights::
@@ -22,6 +24,7 @@ about :doc:`index` or learn more about the `Open edX Platform`_.
 .. toctree::
     :maxdepth: 2
 
+    Redwood Overview <redwood/redwood_marketing_notes>
     Redwood Release Notes <redwood/feature_release_notes>
     Redwood Developer & Operator Release Notes <redwood/dev_op_release_notes>
 

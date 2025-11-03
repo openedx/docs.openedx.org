@@ -1,3 +1,5 @@
+.. _Redwood Product Notes:
+
 Open edX Redwood Release - Feature-Based Notes
 ##############################################
 
