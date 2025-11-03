@@ -1,3 +1,5 @@
+.. _Palm credentials:
+
 Verifiable Credentials on the Open edX Platform (Palm)
 ######################################################
 
