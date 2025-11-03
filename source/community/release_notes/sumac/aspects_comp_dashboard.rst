@@ -1,3 +1,5 @@
+.. _Aspects Course Comparison Dashboard:
+
 Aspects Course Comparison Dashboard
 ###################################
 

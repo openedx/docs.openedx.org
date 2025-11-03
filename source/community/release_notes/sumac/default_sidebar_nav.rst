@@ -1,3 +1,5 @@
+.. _Sidebar Navigation Release Notes (Sumac):
+
 Sidebar Navigation Release Notes (Sumac)
 ########################################
 

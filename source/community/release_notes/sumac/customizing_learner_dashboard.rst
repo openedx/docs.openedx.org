@@ -1,3 +1,5 @@
+.. _Frontend Slots Learner Dash (Sumac):
+
 Customizing Learner Dashboard Using Frontend "Slots"
 ####################################################
 
