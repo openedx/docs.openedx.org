@@ -4,77 +4,45 @@
 Staying Updated with Notifications
 ##################################
 
-This topic describes how to keep up with discussion activity in your Open edX
-course.
+Discussion notifications keep you informed when others interact with your posts or when instructors share updates.  
+There are four notification preferences for Discussions:
 
-.. contents::
-  :local:
-  :depth: 1
+1. **Activity notifications**: Cover all activity related to your own posts, responses, and followed threads.  
+2. **New question posts**: Alerts you when someone creates a new *question-type* post in your course. 
+3. **New discussion posts**: Alerts you when someone creates a new *discussion-type* post.  
+4. **New posts from instructors**: Notifies you when an instructor or staff member creates a post.
 
-.. _Read New or Updated Posts:
+The table below shows who receives each notification by default.
 
-****************************
-Reading New or Updated Posts
-****************************
++-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
+| **Activity**                              | **Preference name**      | **Who receives it** | **Tray default** | **Email default** |
++===========================================+==========================+=====================+==================+===================+
+| New response on your post                 |                          | Post author         | ON               | Daily             |
++-------------------------------------------+                          +---------------------+------------------+-------------------+
+| New comment on your post                  |                          | Post author         | ON               | Daily             |
++-------------------------------------------+                          +---------------------+------------------+-------------------+
+| New comment on your response              |                          | Response author     | ON               | Daily             |
++-------------------------------------------+                          +---------------------+------------------+-------------------+
+| New response on a post you follow         | **Activity notifications**| Post follower       | ON               | Daily             |
++-------------------------------------------+                          +---------------------+------------------+-------------------+
+| New comment on a post you follow          |                          | Post follower       | ON               | Daily             |
++-------------------------------------------+                          +---------------------+------------------+-------------------+
+| Response on your post is endorsed         |                          | Post author         | ON               | Daily             |
++-------------------------------------------+                          +---------------------+------------------+-------------------+
+| Your response is endorsed                 |                          | Response author     | ON               | Daily             |
++-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
+| A new discussion-type post                | New question posts       | All learners        | OFF              | OFF               |
++-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
+| A new question-type post                  | New discussion posts     | All learners        | OFF              | OFF               |
++-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
+| A new post from the course instructor     | New posts from instructors| All learners        | ON               | OFF               |
++-------------------------------------------+--------------------------+---------------------+------------------+-------------------+
 
-The list of posts in the discussion navigation pane on the **Discussion** page
-provides visual cues to help you distinguish posts that are new, or that have
-responses or comments that you have not read yet, from exchanges that you have
-already read completely. For information about the labels and icons used in
-posts.
+.. tip::
 
-====================
-Sorting by Activity
-====================
+   **Activity notifications** cover almost all events in threads you create or follow.  
+   You can turn them off completely or change only the email frequency in the **Preferences Center**.
 
-In the discussion navigation pane you can sort posts by activity. To do this,
-select the drop-down list of sorting options at the top of the discussion
-navigation pane and select either **by recent activity** or **by most
-activity**.
-
-Sorting by recent activity changes the order of the posts so that the post that
-was most recently updated appears at the top of the list. Updating includes
-having responses or comments added.
-
-Sorting by most activity changes the order of the posts so that posts with the
-most responses or comments appear at the top of the list.
-
-
-==================
-Sorting by Likes
-==================
-
-In the discussion navigation pane you can sort posts by the number of likes
-received. To do this, select the drop-down list of sorting options at the top
-of the discussion navigation pane, and select by **Most Likes**.
-
-Sorting by the most likes changes the order of the posts so that posts that
-have received the most likes appear at the top of the list.
-
-For more information about voting for posts, see :ref:`Like Posts or Responses`.
-
-.. _Receiving Discussion Notifications:
-
-*****************************
-Receiving Notifications
-*****************************
-
-When you add a post to a discussion, you might receive an email notification
-about the first reply to the post.
-
-==============================
-Receiving Email Notifications
-==============================
-
-If your course is set up to send email notifications for discussion posts,
-the first time another learner or member of the course team responds to a
-post that you have made, you receive an email notification.
-
-.. Re: the above: It's technically the *platform* and not the course that would
-.. be set up to send email notifications, but that won't matter to Open edX
-.. learners and would be more complicated to explain.
-
-You only receive an email notification for the first response.
 
 
 **Maintenance chart**
