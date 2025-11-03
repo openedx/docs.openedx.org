@@ -1,3 +1,5 @@
+.. _Palm ORA grading:
+
 Enhanced ORA Grading Experience (Palm)
 ######################################
 

@@ -1,3 +1,5 @@
+.. _Palm Discussions:
+
 Improvements to Discussions (Palm)
 ##################################
 
