@@ -14,7 +14,7 @@ This section describes the structure and elements of course discussions.
 .. _Where to Find Discussions:
 
 **************************
-Where to Find Discussions
+Where to find Discussions
 **************************
 
 You can access course discussions in two ways:
@@ -34,7 +34,7 @@ You can access course discussions in two ways:
 
 2. From within a course unit
 
-   Some course units include a small discussion panel on the right side of the page.  
+   Some course units include a discussion panel on the right side of the page.  
    You can use this panel to read or take part in discussions related specifically to that unit.
 
    If you don’t see this panel, it may be because:
@@ -59,7 +59,7 @@ You can access course discussions in two ways:
 .. _Where to Find Discussions:
 
 **************
-Basic Elements
+Basic elements
 **************
 
 Each discussion has the following components:

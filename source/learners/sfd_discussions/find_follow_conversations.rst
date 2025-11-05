@@ -94,12 +94,11 @@ The search field at the top of *Discussions* page lets you search for:
 
 You can also filter or sort posts:
 
-* Filter by status: *Unread*, *Following*,*Unanswered* or *Not responded*.
+* Filter by status: *Unread*, *Following*, *Unanswered* or *Not responded*.
 * Filter by type: *Discussion* or *Question*.
 * Sort by: *Recent activity*, *Most activity*, or *Most likes*.
 
-Default is all post types appear of any status, sorted by recent activity.
-
+By default, all post types and statuses are displayed, sorted by recent activity.
 
 .. figure:: /_images/learners/Discussions_filters.png
    :alt: Filter options for discussion posts.
@@ -109,17 +108,31 @@ Default is all post types appear of any status, sorted by recent activity.
    Use sorts and filters to find the right conversations.
 
 
+You can also sort responses by date created, as shown in the image below.
+
+
+.. figure:: /_images/learners/Discussions_response_sort.png
+   :alt: Option to sort responses.
+   :width: 400
+   :align: center
+
+   Use response sort option to sort response by date created. 
+
+
 .. _Viewing pinned and followed posts:
 
 *****************************************
 Viewing pinned and followed posts
 *****************************************
 
-Pinned posts stay at the top of every list. They often contain key announcements or resources from the course team. 
+Instructors and moderator can pin posts. These posts stay at the top of every list. 
+They often contain key announcements or resources from the course team. 
 
 Posts you are following display a filled star icon. To view only those, open the *All Posts* tab and apply the 
 *Following* filter. Follow posts that relate to your project or assignment so that you get updates 
 when new responses arrive.
+
+By default, you are following every post that you author.
 
 .. note:: You will receive notifications of any activity on posts that you are following. Learn more in :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 

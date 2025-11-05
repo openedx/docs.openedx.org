@@ -81,6 +81,29 @@ Read the thread first so your reply fits naturally into the discussion.
    Adding a response or comment on the Discussions page or in a course unit.
 
 
+.. _Editing or deleting your own contributions:
+
+********************************************
+Editing or deleting your own contributions
+********************************************
+
+You can edit or delete any post, response, or comment that you have written.  
+Use the **Actions** menu on your contribution to make changes.
+
+Be careful when deleting content:
+
+- Deleting a **post** removes all its responses and comments.  
+- Deleting a **response** removes its comments.  
+- Deleting a **comment** affects only that comment.
+
+.. figure:: /_images/learners/Discussions_edit_delete.png
+   :alt: Actions menu with options to edit or delete your post or response.
+   :width: 600
+   :align: center
+
+   Use the options menu to edit or delete your post, response, or comment.
+
+
 .. _Endorsements and accepted answers:
 
 *******************************************
@@ -119,27 +142,23 @@ If you created a question post, you can mark a response as the answer yourself.
    Question posts that have been answered are indicated with a check in the post list.
 
 
-.. _Editing or deleting your own contributions:
+.. _Liking posts and responses:
 
-********************************************
-Editing or deleting your own contributions
-********************************************
+*******************************
+Liking posts and responses
+*******************************
 
-You can edit or delete any post, response, or comment that you have written.  
-Use the **Actions** menu on your contribution to make changes.
+You can click the *Like* button on any post or response to show appreciation for helpful or well-written contributions.  
+Posts with more likes appear higher in lists sorted by *Most likes*. Count of likes can been see below the response or 
+comment.
 
-Be careful when deleting content:
 
-- Deleting a **post** removes all its responses and comments.  
-- Deleting a **response** removes its comments.  
-- Deleting a **comment** affects only that comment.
-
-.. figure:: /_images/learners/Discussions_edit_delete.png
-   :alt: Actions menu with options to edit or delete your post or response.
-   :width: 600
+.. figure:: /_images/learners/Discussions_likes.png
+   :alt: Option to like a post in actions menu.
+   :width: 400
    :align: center
 
-   Use the options menu to edit or delete your post, response, or comment.
+   Post or response can be liked using the actions menu.
 
 
 .. _Reporting inappropriate content:
