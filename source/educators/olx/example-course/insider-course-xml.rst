@@ -99,8 +99,6 @@ The learner sees this sequential as follows.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
   :ref:`The Courseware Structure` (reference)
 
 

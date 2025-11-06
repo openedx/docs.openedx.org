@@ -12,14 +12,11 @@ This topic describes the structure of a sample course known as the `olx-example`
   :local:
   :depth: 1
 
-For information about how a generic OLX (open learning XML) course is
-structured, see :ref:`OLX Directory Structure`.
-
-For information about how a course exported from Open edX Studio is structured, see
-:ref:`Example of OLX for a Studio Course`.
+For information about how a course exported from Open edX Studio is structured
+see :ref:`OLX Directory Structure`.
 
 .. note::
-  The structure and content of olx-example can change without corresponding
+  The structure and content of the ``OLX-example-course`` can change without corresponding
   updates being made to this reference guide.
 
 ******************************************
@@ -228,8 +225,6 @@ And:
   :ref:`Getting Started with OLX` (quickstart)
 
   :ref:`OLX Directory Structure` (reference)
-
-  :ref:`Example of OLX for a Studio Course` (reference)
 
   :ref:`The Courseware Structure` (reference)
 
