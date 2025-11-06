@@ -33,7 +33,6 @@ content.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
 
 **Maintenance chart**
 

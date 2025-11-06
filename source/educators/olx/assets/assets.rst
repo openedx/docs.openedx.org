@@ -27,9 +27,6 @@ see :ref:`Course Asset Policy`.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
-
 
 **Maintenance chart**
 

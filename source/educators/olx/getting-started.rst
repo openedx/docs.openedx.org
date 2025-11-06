@@ -1,12 +1,23 @@
 .. _Getting Started with OLX:
 
-###########################
 Getting Started with OLX
-###########################
+##########################
 
 .. tags:: educator, quickstart
 
-To develop your course in OLX (open learning XML), the XML markup format for the Open edX platform, you
+The **Open edX Open Learning XML Guide** provides the information you need to
+build an Open edX course through OLX (open learning XML) and supporting files,
+without (or in addition to) using Studio.
+
+This documentation is created using RST_ files and Sphinx_. The Open edX
+community welcomes contributions from Open edX community members. You can find
+guidelines for how to :ref:`contribute to Open edX Documentation<Documentor
+Guidelines>`.
+
+Create an OLX Course
+***********************
+
+To develop your course in OLX, the XML markup format for the Open edX platform, you
 complete the following steps.
 
  #.  :ref:`Define course policies<Course Policies>`.
@@ -17,8 +28,9 @@ complete the following steps.
  #.  :ref:`Create course components<OLX Components>`.
  #.  :ref:`Create problems and tools<Components and Activities TOC>`.
 
-
 .. seealso::
+
+  :ref:`OLX Documentation <OLX TOC>` (reference)
 
   :ref:`What is Open Learning XML?` (concept)
 
@@ -30,12 +42,10 @@ complete the following steps.
 
   :ref:`The Courseware Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

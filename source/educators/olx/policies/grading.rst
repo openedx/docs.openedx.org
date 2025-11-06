@@ -89,8 +89,6 @@ Example Grading Policy File
   :ref:`OLX Directory Structure` (reference)
 
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

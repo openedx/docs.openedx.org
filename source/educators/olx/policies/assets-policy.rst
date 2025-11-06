@@ -115,8 +115,6 @@ The following example shows the JSON policy for one image file.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 
 **Maintenance chart**
 

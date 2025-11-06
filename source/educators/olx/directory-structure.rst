@@ -6,7 +6,25 @@ What is the OLX Course Structure?
 
 .. tags:: educator, concept
 
-This topic describes the structure of a generic OLX (open learning XML) course.
+You can export a course from the Open edX Studio. When you export the course,
+you download a ``.tar.gz`` file with the OLX (open learning XML) course content. You
+can then extract the course OLX files for use with local tools or a source
+control system such as GitHub. This article describes the structure of an OLX
+(open learning XML) course in the format that Open edX Studio exports it in.
+
+.. warning::
+
+  There are other ways to structure an OLX course that will (currently) import successfully into Studio that
+  these pages won't get into, as they're not guarenteed by the Open edX project to work in the future.
+
+  Additionally, however a course is written, if that course is imported into Studio, Studio will export
+  it in the specifically structured form of OLX described in this guide.
+
+
+This section documents how the Open edX Studio currently exports courses, so that
+you can understand and manually navigate through the structure of exported
+courses.
+
 
 .. contents::
   :local:
@@ -15,57 +33,55 @@ This topic describes the structure of a generic OLX (open learning XML) course.
 For more information about how a specific OLX course is structured, see
 :ref:`The Structure of a Sample Course`.
 
-For more information about how a course exported from Open edX Studio is structured,
-see :ref:`Example of OLX for a Studio Course`.
-
-
 ****************************************
 OLX and Directory File Structures
 ****************************************
 
 All files and subdirectories that comprise your OLX course are stored within
-a single directory.
-
-OLX provides for some flexibility in the directory and file structure
-you use to build your course.
+a single directory, called the ``course/`` directory.
 
 ************************
 Top-level Directory
 ************************
 
 Starting out, it is easiest to create your courseware structure in a
-single file, the ``course.xml file``.
+single file, the ``course.xml`` file.
 
-This file can contain your entire course, but in most cases, it is convenient
-to split out large chunks of content into individual files. This is typically
-done either at the level of large components, such as problems or homework
-assignments.
+This file *can* contain your entire course, but in Studio exports, content is
+split out into individual files. This is done at the level of *components*, such
+as problems, videos, or HTML (text components).
 
-Currently, when Studio exports a course, it places each component in its own
-file.
-
-For example, the Open edX Platform contains a directory called
-`manual-testing-complete`_ that contains a course with all component
-types for testing purposes.
+For example, the `Open edX DemoX Course <https://github.com/openedx/openedx-demo-course>`_
+contains a course with many component types, and the `OLX Example Course <https://github.com/openedx/training-courses>`_
+(described in more detail in :ref:`The Structure of a Sample Course`) has human-readable
+names to better help you follow the flow of Studio OLX exports.
 
 Descriptions of the directories needed for a typical course follow. You should
 set up these directories in preparation for developing your course content.
 
 .. note::
- If you are using custom XBlocks, you can include additional directories that
- store the XML for XBlocks of that type.
+
+  If you are using custom XBlocks, you can include additional directories that store the XML for XBlocks of that type.
 
 *******************
 XBlock Directories
 *******************
 
-Open EdX course components can be broken out of the main ``course.xml`` file
+Open edX course *components* can be broken out of the main ``course.xml`` file
 into individual files. Those files go into directories of the name of
 the component type (XML tag). For example, components of type ``html``
 can be placed as individual files in the ``html`` directory. If your
-course does not contain .html files, or if they are all embedded in
+course does not contain ``.html`` files, or if they are all embedded in
 their top-level components, you do not need to create an ``html``
-directory.
+directory. Studio will place all text components into the ``html`` directory.
+
+As another example, the ``problem`` directory holds one XML file per default
+problem type (eg, multiselect, dropdown) in the course. Note that in Studio and
+within the pages on docs.openedx.org, these types of problems are known as
+"course components".
+
+There are other directories for other types of course components, such as the
+``html``, ``lti``, or ``video`` directories.
 
 For information about several examples of these directories, see the following topics.
 
@@ -81,15 +97,14 @@ and directories.
 Open edX Platform Directories
 *******************************
 
-In addition to the course hierarchy, which is designed to be generic
-and cross-platform, OLX courses contain a set of JSON and HTML
+In addition to the course hierarchy, OLX courses contain a set of JSON and HTML
 files that specify course policies and non-courseware content.
 
 ====================
 ``about`` Directory
 ====================
 
-The ``about`` directory contains the following files.
+The ``about`` directory contains the following files:
 
 * ``overview.html``, which contains the content for the course overview page
   that learners see in the Learning Management System (LMS).
@@ -97,13 +112,25 @@ The ``about`` directory contains the following files.
 * ``short_description.html``, which contains the content for the course in the
   course list.
 
+Courses exported from Studio will have more in this directory, such as
+``about_sidebar.html``, ``entrance_exam_enabled.html``, and ``duration.html``.
+We won't go through these files in this documentation at this time.
+
 For more information, see :ref:`Course Overview`.
+
+==========================
+``chapter`` Directory
+==========================
+
+The ``chapter`` directory holds one XML file per "course section" in the course.
+Note that in Studio and within the pages on docs.openedx.org, "course section"
+will be the term used for anything in the ``chapter`` directory.
 
 ====================
 ``info`` Directory
 ====================
 
-The ``info`` directory contains the following files.
+The ``info`` directory contains the following files:
 
 * ``handouts.html``, which contains the content for the **Course Handouts**
   page in the course.
@@ -115,15 +142,26 @@ The ``info`` directory contains the following files.
 ``policies`` Directory
 =======================
 
-The ``policies`` directory contains the following files.
-
-* ``grading_policy.json``, which defines how work is graded in the course.
-
-* ``policy.json``, which defines various settings in the course.
+The ``policies`` directory contains:
 
 * ``assets.json``, which defines all files used in the course, such as images.
 
+The ``policies`` directory also contains a folder for the course run, which holds:
+
+* ``grading_policy.json``, which defines how work is graded in the course run.
+
+* ``policy.json``, which defines various settings in the course run.
+
 For more information, see :ref:`Course Policies`.
+
+==========================
+``sequential`` Directory
+==========================
+
+The ``sequential`` directory holds one XML file per "course subsection" in the course.
+Note that in Studio and within the pages on docs.openedx.org, "course subsection"
+will be the term used for anything in the ``sequential`` directory.
+
 
 ====================
 ``static`` Directory
@@ -143,6 +181,15 @@ course.
 
 For more information, see :ref:`Course Tabs`.
 
+==========================
+``vertical`` Directory
+==========================
+
+The ``vertical`` directory holds one XML file per "course unit" in the course.
+Note that in Studio and within the pages on docs.openedx.org, "course unit"
+will be the term used for anything in the ``vertical`` directory.
+
+
 .. seealso::
 
   :ref:`What is Open Learning XML?` (concept)
@@ -153,12 +200,10 @@ For more information, see :ref:`Course Tabs`.
 
   :ref:`The Courseware Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
