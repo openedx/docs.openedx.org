@@ -15,8 +15,6 @@ see :ref:`Course Asset Policy`.
 
 .. seealso::
 
-  :ref:`Add Course Assets` (reference)
-
   :ref:`Course Asset Policy` (reference) 
 
   :ref:`What is Open Learning XML?` (concept)
@@ -27,11 +25,14 @@ see :ref:`Course Asset Policy`.
 
   :ref:`OLX Directory Structure` (reference)
 
+  :ref:`Add Course Assets` (via Studio) (reference)
+
+
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

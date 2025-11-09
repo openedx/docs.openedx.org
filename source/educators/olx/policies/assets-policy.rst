@@ -1,8 +1,8 @@
 .. _Course Asset Policy:
 
-#####################################
-Create the Course Asset Policy in OLX
-#####################################
+#####################################################
+Create Course Assets and Textbooks in OLX
+#####################################################
 
 .. tags:: educator, how-to
 
@@ -119,6 +119,44 @@ The following example shows the JSON policy for an image file and a PDF textbook
       },
     }
 
+.. _Course Textbooks OLX:
+
+*********************************************
+Create Textbooks
+*********************************************
+
+As described above, first upload a textbook asset to
+your course in the ``static`` directory.
+
+.. admonition:: Accessibility concerns
+
+  See the notes in the :ref:`Add Course Textbooks` article around accessibility - namely, that
+  PDF textbooks are accessible whereas PNG/image files are not.
+
+Then, as described above, link it in your ``assets.json`` file.
+
+Finally, update the ``policy.json`` file (described in :ref:`Course Policies`)
+with information in the ``pdf_textbooks`` key:
+
+.. code-block:: json
+
+  {
+    "course/2025": {
+      ...
+      "pdf_textbooks": [
+          {
+              "chapters": [
+                  {
+                      "title": "Full Book",
+                      "url": "/asset-v1:OpenedX+OLXex+2025+type@asset+block@Education_for_a_Digital_World.pdf"
+                  }
+              ],
+              "id": "6Education_for_a_Digital_World",
+              "tab_title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe"
+          }
+      ],
+      ...
+  }      
 
 .. seealso::
 
