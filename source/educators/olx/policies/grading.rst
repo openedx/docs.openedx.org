@@ -39,15 +39,16 @@ Course Policy JSON Objects
      * - ``GRADER``
        - For each assignment type:
 
-         * ``min_count``: TBD
-         * ``weight``: The percentage of the total grade determined by
-            assignments of this type. The total value for all assignment types
-            must equal 1.0.
-         * ``type``: The name of the assignment type.
-         * ``short_label``: The label for the assignment type shown on the
-           student's Progress page.
          * ``drop_count``: The number of assignments of this type that can be
            dropped when calculating the final grade.
+         * ``min_count``: TBD
+         * ``short_label``: The label for the assignment type shown on the
+           student's Progress page.
+         * ``type``: The name of the assignment type.
+         * ``weight``: The percentage of the total grade determined by
+            assignments of this type (for example, ``0.5`` for 50%).
+            The total value for all assignment types must equal 1.0.
+
 
 *******************************
 Example Grading Policy File
@@ -55,25 +56,34 @@ Example Grading Policy File
 
 .. code-block:: json
 
-    {
-        "GRADE_CUTOFFS": {"Pass": 0.6},
-        "GRADER": [
-                    {
-                        "min_count": 3,
-                        "weight": 0.75,
-                        "type": "Homework",
-                        "drop_count": 1,
-                        "short_label": "Ex"
-                    },
-                    {
-                        "short_label": "",
-                        "min_count": 1,
-                        "type": "Exam",
-                        "drop_count": 0,
-                        "weight": 0.25
-                    }
-                  ]
-    }
+  {
+      "GRADER": [
+          {
+              "drop_count": 2,
+              "min_count": 1,
+              "short_label": "HW",
+              "type": "Homework",
+              "weight": 0.3
+          },
+          {
+              "drop_count": 0,
+              "min_count": 1,
+              "short_label": "Midterm",
+              "type": "Midterm Exam",
+              "weight": 0.3
+          },
+          {
+              "drop_count": 0,
+              "min_count": 1,
+              "short_label": "Final",
+              "type": "Final Exam",
+              "weight": 0.4
+          }
+      ],
+      "GRADE_CUTOFFS": {
+          "Pass": 0.41
+      }
+  }
 
 
 .. seealso::
@@ -94,5 +104,5 @@ Example Grading Policy File
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
