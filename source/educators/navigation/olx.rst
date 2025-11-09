@@ -19,6 +19,8 @@ OLX General Information
    ../olx/what-is-olx.rst
    ../olx/getting-started.rst
 
+:ref:`Work with the targz File`
+
 .. _OLX Course Structure:
 
 OLX Course Structure

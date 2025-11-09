@@ -7,10 +7,11 @@ What is the OLX Course Structure?
 .. tags:: educator, concept
 
 You can export a course from the Open edX Studio. When you export the course,
-you download a ``.tar.gz`` file with the OLX (open learning XML) course content. You
-can then extract the course OLX files for use with local tools or a source
-control system such as GitHub. This article describes the structure of an OLX
-(open learning XML) course in the format that Open edX Studio exports it in.
+you download a ``.tar.gz`` file with the OLX (open learning XML) course content.
+You can then extract the course OLX files for use with local tools or a source
+control system such as GitHub (see :ref:`Work with the targz File`). This
+article describes the structure of an OLX (open learning XML) course in the
+format that Open edX Studio exports it in.
 
 .. warning::
 
@@ -199,6 +200,8 @@ will be the term used for anything in the ``vertical`` directory.
   :ref:`Getting Started with OLX` (quickstart)
 
   :ref:`The Courseware Structure` (reference)
+
+  :ref:`Work with the targz File` (reference)
 
 **Maintenance chart**
 
