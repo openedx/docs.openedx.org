@@ -7,8 +7,7 @@ Create the Course Asset Policy in OLX
 .. tags:: educator, how-to
 
 You create an asset policy file to provide details of the assets used in your
-course. Assets can include image files, textbooks, handouts, and supporting
-JavaScript files.
+course. Assets can include image files, textbooks, and handouts.
 
 .. contents::
   :local:
@@ -31,73 +30,93 @@ structure.
 Asset Policy JSON Objects
 ************************************
 
-  .. list-table::
-     :widths: 10 80
-     :header-rows: 0
+For each asset, the following fields must be provided in a JSON dict for that asset:
 
-     * - ``contentType``
-       - The MIME type of the file.
-     * - ``displayname``
-       - The file name.
-     * - ``locked``
-       - ``true`` if users can only access the file from within your course.
-         ``false`` if users can access the file from outside of your course.
-     * - ``content_son``
-       - A collection that contains:
+.. list-table::
+    :widths: 10 80
+    :header-rows: 0
+
+    * - ``contentType``
+      - The MIME type of the file.
+    * - ``content_son``
+      - A collection that contains:
          * ``category``:  Equal to ``asset``.
-         * ``name``: The file name.
          * ``course``: The course number.
+         * ``name``: The file name.
          * ``tag``:
          * ``org``: The organization that created the course.
          * ``revision``
-     * - ``filename``
-       - The full path and name of the file in the Open edX Platform.
-     * - ``import_path``
-       - TBD
-     * - ``thumbnail_location``
-       - An array containing:
+    * - ``displayname``
+      - The file name.
+    * - ``filename``
+      - The full path and name of the file in the Open edX Platform.
+    * - ``import_path``
+      - ``null`` (TBD - why?)
+    * - ``locked``
+      - ``true`` if users can only access the file from within your course.
+        ``false`` if users can access the file from outside of your course.      
+    * - ``thumbnail_location``
+      - Either ``null`` (for assets without a thumbnail type, such as PDFs), or, an array containing:
          * ``c4x``
          * The organization.
          * The course number.
          * ``thumbnail``
          * The filename for the thumbnail.
+         * ``null`` (TBD - why?)
 
 
 *******************************
 Example Asset Policy File
 *******************************
 
-The following example shows the JSON policy for one image file.
+The following example shows the JSON policy for an image file and a PDF textbook.
 
 .. code-block:: json
 
-    {
-        "dashboard.png":
-            {
-                "contentType": "image/png",
-                "displayname": "dashboard.png",
-                "locked": false,
-                "content_son":
-                    {
-                        "category": "asset",
-                        "name": "dashboard.png",
-                        "course": "Course number",
-                        "tag": "c4x",
-                        "org": "Organization",
-                        "revision": null
-                    },
-                    "filename": "/c4x/Organization/Course-number/asset/dashboard.png",
-                    "import_path": null,
-                    "thumbnail_location":
-                        [
-                            "c4x",
-                            "Organization",
-                            "Course number",
-                            "thumbnail",
-                            "dashboard.jpg",
-                            null
-                        ]
-            }
+  {
+      "Education_for_a_Digital_World.pdf": {
+          "contentType": "application/pdf",
+          "content_son": {
+              "category": "asset",
+              "course": "OLXex",
+              "name": "Education_for_a_Digital_World.pdf",
+              "org": "OpenedX",
+              "revision": null,
+              "run": "2025",
+              "tag": "c4x"
+          },
+          "custom_md5": "be2c4a1483397675d7bd124c100d02f9",
+          "displayname": "Education_for_a_Digital_World.pdf",
+          "filename": "asset-v1:OpenedX+OLXex+2025+type@asset+block@Education_for_a_Digital_World.pdf",
+          "import_path": null,
+          "locked": false,
+          "thumbnail_location": null
+      },
+      "Intro_to_OLX_course_card.png": {
+          "contentType": "image/png",
+          "content_son": {
+              "category": "asset",
+              "course": "OLXex",
+              "name": "Intro_to_OLX_course_card.png",
+              "org": "OpenedX",
+              "revision": null,
+              "run": "2025",
+              "tag": "c4x"
+          },
+          "custom_md5": "f007dbebf9fb14d666a01614b97a860e",
+          "displayname": "Intro to OLX course card.png",
+          "filename": "asset-v1:OpenedX+OLXex+2025+type@asset+block@Intro_to_OLX_course_card.png",
+          "import_path": null,
+          "locked": false,
+          "thumbnail_location": [
+              "c4x",
+              "OpenedX",
+              "OLXex",
+              "thumbnail",
+              "Intro_to_OLX_course_card-png.jpg",
+              null
+          ]
+      },
     }
 
 
@@ -121,5 +140,5 @@ The following example shows the JSON policy for one image file.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
