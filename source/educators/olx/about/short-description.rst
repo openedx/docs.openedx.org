@@ -8,6 +8,10 @@ Create Short Description in OLX
 
 Optionally, you can define a short description for your course.
 
+.. admonition:: TODO what behavior in the new Course Catalog?
+
+  Also, there a limit? (below 150char)
+
 Learners see the short description when they move their cursors over the course
 image in the catalog.
 
@@ -15,7 +19,7 @@ image in the catalog.
 Create the Short Description File
 *********************************************
 
-You create an HTML file called ``short_description.html`` in the ``overview``
+You create an HTML file called ``short_description.html`` in the ``about``
 directory.
 
 The short description is limited to 150 characters.
@@ -38,5 +42,5 @@ description file.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
