@@ -15,8 +15,8 @@ format that Open edX Studio exports it in.
 
 .. warning::
 
-  There are other ways to structure an OLX course that will (currently) import successfully into Studio that
-  these pages won't get into, as they're not guarenteed by the Open edX project to work in the future.
+  There are other ways to structure an OLX course that may currently import successfully into Studio that
+  these pages won't get into, as they're not guaranteed by the Open edX project to work in Open edX Studio in the future.
 
   Additionally, however a course is written, if that course is imported into Studio, Studio will export
   it in the specifically structured form of OLX described in this guide.
@@ -45,17 +45,16 @@ a single directory, called the ``course/`` directory.
 Top-level Directory
 ************************
 
-Starting out, it is easiest to create your courseware structure in a
-single file, the ``course.xml`` file.
+The top-level ``course.xml`` file *can* contain your entire course, but in
+Studio exports, content is split out into individual files. This is done at the
+level of *components*, such as problems, videos, or HTML (text components).
 
-This file *can* contain your entire course, but in Studio exports, content is
-split out into individual files. This is done at the level of *components*, such
-as problems, videos, or HTML (text components).
-
-For example, the `Open edX DemoX Course <https://github.com/openedx/openedx-demo-course>`_
-contains a course with many component types, and the `OLX Example Course <https://github.com/openedx/training-courses>`_
-(described in more detail in :ref:`The Structure of a Sample Course`) has human-readable
-names to better help you follow the flow of Studio OLX exports.
+For example, the `Open edX DemoX Course
+<https://github.com/openedx/openedx-demo-course>`_ contains a course with many
+component types, and the `OLX Example Course
+<https://github.com/openedx/training-courses/tree/main/olx_example_course>`_
+(described in more detail in :ref:`The Structure of a Sample Course`) has
+human-readable names to better help you follow the flow of Studio OLX exports.
 
 Descriptions of the directories needed for a typical course follow. You should
 set up these directories in preparation for developing your course content.
