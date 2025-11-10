@@ -24,7 +24,9 @@ olx_example_course and Directory File Structures
 All files and subdirectories that comprise *olx_example_course* are stored in the
 `olx_example_course course`_ directory in the ``training-courses`` GitHub repository.
 
-.. admonition:: TODO FIX THIS IMAGE
+.. admonition:: TODO
+
+  Fix this image
 
 .. Image:: /_images/olx-example-images/olx-example-github.png
  :alt: The olx_example_course in GitHub, showing the file structure of the ``course/`` directory.
@@ -33,7 +35,7 @@ All files and subdirectories that comprise *olx_example_course* are stored in th
 Top-level Directories
 **********************
 
-The `olx-example_course course`_ directory in the ``training-courses`` GitHub
+The `olx_example_course course`_ directory in the ``training-courses`` GitHub
 repository contains the ``course.xml`` file as well as various XBlock and
 Platform directories.
 

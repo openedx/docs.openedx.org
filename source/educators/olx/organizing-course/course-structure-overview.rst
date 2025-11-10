@@ -56,7 +56,7 @@ following list describes the types of supported content.
   more information, see :ref:`Course Assets`.
 
 * Course pages are custom pages that you can have appear in the top navigation
-  menu of your course. For more information, see :ref:`Course Tabs`.
+  menu of your course. For more information, see :ref:`Create tabs, or pages, in your course<Course Tabs OLX>`.
 
 ****************************
 Course Policies

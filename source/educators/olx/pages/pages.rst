@@ -1,8 +1,8 @@
-.. _Course Tabs:
+.. _Course Tabs OLX:
 
 ########################################
 Create Course Tabs in OLX
-#########################################
+########################################
 
 .. tags:: educator, how-to
 
@@ -36,14 +36,12 @@ in :ref:`Course Policies`.
 
   {
     "course/2025": {
-    ...
-
-      {
-          "course_staff_only": false,
-          "name": "HTML Custom Tab",
-          "type": "static_tab",
-          "url_slug": "html_custom_tab"
-      }
+    {
+        "course_staff_only": false,
+        "name": "HTML Custom Tab",
+        "type": "static_tab",
+        "url_slug": "html_custom_tab"
+    },
   }
 
 
