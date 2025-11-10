@@ -142,20 +142,18 @@ with information in the ``pdf_textbooks`` key:
 
   {
     "course/2025": {
-      ...
       "pdf_textbooks": [
-          {
-              "chapters": [
-                  {
-                      "title": "Full Book",
-                      "url": "/asset-v1:OpenedX+OLXex+2025+type@asset+block@Education_for_a_Digital_World.pdf"
-                  }
-              ],
-              "id": "6Education_for_a_Digital_World",
-              "tab_title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe"
-          }
+        {
+          "chapters": [
+            {
+                "title": "Full Book",
+                "url": "/asset-v1:OpenedX+OLXex+2025+type@asset+block@Education_for_a_Digital_World.pdf"
+            }
+          ],
+          "id": "6Education_for_a_Digital_World",
+          "tab_title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe"
+        }
       ],
-      ...
   }      
 
 .. seealso::

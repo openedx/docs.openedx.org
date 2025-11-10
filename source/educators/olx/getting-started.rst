@@ -23,7 +23,7 @@ complete the following steps.
  #.  :ref:`Define course policies<Course Policies>`.
  #.  :ref:`Add course assets<Course Assets>`.
  #.  :ref:`Create the course Overview page<Course Overview>`.
- #.  :ref:`Create tabs, or pages, in your course<Course Tabs>`.
+ #.  :ref:`Create tabs, or pages, in your course<Course Tabs OLX>`.
  #.  :ref:`Organize Courseware<OLX Course Building Blocks>`.
  #.  :ref:`Create course components<OLX Components>`.
  #.  :ref:`Create problems and tools<Components and Activities TOC>`.

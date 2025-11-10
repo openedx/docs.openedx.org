@@ -179,7 +179,7 @@ For more information, see :ref:`Course Assets`.
 The ``tabs`` directory contains an HTML file for each page you add to your
 course.
 
-For more information, see :ref:`Course Tabs`.
+For more information, see :ref:`Create tabs, or pages, in your course<Course Tabs OLX>`.
 
 ==========================
 ``vertical`` Directory
