@@ -21,7 +21,7 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
 
 1. **My Posts:** Shows all posts that you’ve written or taken part in through a response or comment. Click a post title in the left panel to open it and see its responses and comments.
 
-2. **All Posts:** Lists every post in the course forums. By default, posts with the most recent activity appear at the top.
+2. **All Posts:** Lists every post in the course discussions. By default, posts with the most recent activity appear at the top.
 
 3. **Topics:** Displays all discussion topics in the course. Topics follow the same three-level hierarchy as the course content:
    
@@ -29,9 +29,9 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
    b. The second level shows subsections.  
    c. The third level lists units, which are the actual discussion topics that contain posts. Select a subsection to expand it and see its topics. When you click a topic name, you will see the posts related to it.
 
-4. **Learners:** Shows everyone who has written a post, response, or comment. Click a learner’s name to see their contributions. Under each name you can see the number of posts they created and their total contributions.
+4. **Learners:** Shows everyone who has written a post, response, or comment. Click a username to see their contributions. Under each name you can see the number of posts they created and their total contributions.
 
-.. note:: Use *My Posts* for tracking your own activity and *Topics* when you want to focus on the part of the course you are studying.
+.. tip:: Use *My Posts* for tracking your own activity and *Topics* when you want to focus on the part of the course you are studying.
 
 
 .. figure:: /_images/learners/Discussions_page.png
@@ -56,10 +56,11 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
 Discussions inside course units
 *********************************
 
-Some course units have a discussion panel on the right side of the page. This panel only shows posts linked to that 
-unit’s topic. It is a focused view for that specific content. Posts made here also appear in the  main Discussions page.
+Some course units include a discussion panel on the right side of the page. It shows only the posts related to that
+unit’s topic, giving you a focused view of the conversation. Any post you create here also appears on the main
+Discussions page.
 
-.. note:: Use the inline panel when you want to talk about something shown on the page. 
+.. tip:: Use the inline panel when you want to talk about something shown on the page.
    Use the main Discussions tab when you want to search or browse across the entire course.
 
 
@@ -79,9 +80,9 @@ Searching and filtering
 
 The search field at the top of *Discussions* page lets you search for:
 
-1. Forum content when you have *All Posts* or *My Posts* tab open
-2. Topics when you have *Topics* tab open
-3. Usernames when you have *Learners* tab open
+1. Discussion content when you have *All Posts* or *My Posts* tab open
+2. Discussion topics when you have *Topics* tab open
+3. Discussion users when you have *Learners* tab open. You can search by full or partial usernames.
 
 
 .. figure:: /_images/learners/Discussions_search.png

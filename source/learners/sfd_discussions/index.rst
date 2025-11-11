@@ -14,7 +14,7 @@ participation more effective.
 .. toctree::
    :maxdepth: 1
 
-   anatomy
+   getting_started
    find_follow_conversations
    take_part_in_discussions
    discussions_notifications

@@ -25,23 +25,24 @@ Creating a post
 
 A post starts a new conversation.
 
-1. Choose the right **type** before you post:
+1. Choose the right type before you post:
+
    - **Question:** when you need an answer or clarification.  
    - **Discussion:** when you want to share an idea or start a conversation.
 
-2. Select a **topic** that fits your post so others can find it easily.
+2. Select a topic that fits your post so others can find it easily.
 
-3. Add a short, clear **title** that describes what your post is about.
+3. Add a short, clear title that describes what your post is about.
 
-4. Write your **description**. Use the toolbar to format text or insert images if needed.
+4. Write your description. Use the toolbar to format text or insert images if needed.
 
-5. Click **Show preview** (bottom right corner) to check your post before submitting.
+5. Click *Show preview* (bottom right corner) to check your post before submitting.
 
-6. If anonymous posting is enabled, you will see a **Post anonymously to peers** checkbox.  
-   When selected, your post appears **anonymous to peers**, but your identity remains **visible to course staff and moderators**.  
+6. If anonymous posting is enabled, you will see a *Post anonymously to peers* checkbox.
+   When selected, your post appears anonymous to peers, but your identity remains visible to course staff and moderators.
    Some courses do not allow anonymous posting.
 
-7. Click **Submit** to publish your post. You can edit it later if needed.
+7. Click *Submit* to publish your post. You can edit it later if needed.
 
 .. figure:: /_images/learners/Discussions_creating_post.png
    :alt: Form showing title, type, topic, and preview button for creating a discussion post.
@@ -61,13 +62,12 @@ A post starts a new conversation.
 Responding and commenting
 *************************
 
-You can add to an existing conversation by writing a **response** or a **comment**.
+You can add to an existing conversation by writing a response or a comment.
 
 - A **response** adds your full reply or answer to the main post.  
 - A **comment** adds a short note or clarification inside a specific response.
 
-Open a post, write your response or comment, and click **Submit**.  
-Read the thread first so your reply fits naturally into the discussion.
+Open a post, write your response or comment, and click *Submit*.
 
 .. note::
    You will receive a notification when someone creates a response or a comment on your post or response.  
@@ -88,13 +88,12 @@ Editing or deleting your own contributions
 ********************************************
 
 You can edit or delete any post, response, or comment that you have written.  
-Use the **Actions** menu on your contribution to make changes.
+Use the *Actions* menu on your contribution to make changes.
 
 Be careful when deleting content:
 
-- Deleting a **post** removes all its responses and comments.  
-- Deleting a **response** removes its comments.  
-- Deleting a **comment** affects only that comment.
+- Deletion is permanent and cannot be undone.
+- Deleting a post or response deletes all its responses and comments.
 
 .. figure:: /_images/learners/Discussions_edit_delete.png
    :alt: Actions menu with options to edit or delete your post or response.
@@ -110,8 +109,8 @@ Be careful when deleting content:
 Endorsements and accepted answers
 *******************************************
 
-Forum moderators can endorse responses in discussion posts or mark them as the **answer** in question posts.  
-Endorsed or marked responses highlight accurate or especially helpful information, and appear with a visual indicator.
+Forum moderators can endorse responses in discussion posts or mark them as the answer in question posts.
+Endorsed or marked responses highlight accurate or especially helpful information, and appear with a banner on top.
 
 If you created a question post, you can mark a response as the answer yourself.
 
@@ -121,7 +120,7 @@ If you created a question post, you can mark a response as the answer yourself.
    See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
 .. figure:: /_images/learners/Discussions_endorsed.png
-   :alt: Response showing an endorsed or marked-as-answer visual indicator.
+   :alt: Response showing an endorsed or marked-as-answer banner on top of responses.
    :width: 600
    :align: center
 
@@ -148,9 +147,9 @@ If you created a question post, you can mark a response as the answer yourself.
 Liking posts and responses
 *******************************
 
-You can click the *Like* button on any post or response to show appreciation for helpful or well-written contributions.  
-Posts with more likes appear higher in lists sorted by *Most likes*. Count of likes can been see below the response or 
-comment.
+You can click the *Like* button on any post or response to show appreciation for helpful or well-written
+contributions. Posts with more likes appear higher in lists sorted by *Most likes*. Count of likes can been seen
+below the response or comment.
 
 
 .. figure:: /_images/learners/Discussions_likes.png
@@ -168,9 +167,9 @@ Reporting inappropriate content
 *******************************
 
 If you see a post, response, or comment that is inappropriate, off-topic, or spam, report it for review.  
-Open the **Actions** menu on that item and select **Report**.
+Open the *Actions* menu on that item and select *Report*.
 
-Moderators review reported content and may edit, hide, or close it to keep discussions safe and respectful.
+Moderators review reported content and may edit, delete, or close it to keep discussions safe and respectful.
 
 .. figure:: /_images/learners/Discussions_report_content.png
    :alt: Actions menu open on a post showing the Report option.
@@ -184,7 +183,7 @@ Moderators review reported content and may edit, hide, or close it to keep discu
    :width: 600
    :align: center
 
-   Reported content shows an indicator on top of the post and in the posts list.
+   Content that *you* report will show an indicator on top of the post and in the list.
 
 
 .. _Moderation actions:
@@ -194,13 +193,13 @@ Moderation actions
 ******************************
 
 Moderators help maintain a respectful learning environment.  
-They can close posts to prevent new replies or edit posts to correct or remove sensitive information.
+They can close posts to prevent new replies or edit or delete content.
 
 ===========================
 When a post is closed
 ===========================
 
-A closed post shows a **lock icon** at the bottom right corner.  
+A closed post shows a lock icon at the bottom right corner.
 If you are the author, a banner appears at the top explaining why the post was closed.
 
 Moderators may close posts that are off-topic, duplicates, resolved, or related to graded assignments or exams.  
