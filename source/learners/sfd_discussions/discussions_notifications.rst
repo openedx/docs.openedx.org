@@ -4,7 +4,7 @@
 Staying Updated with Notifications
 ##################################
 
-Discussion notifications keep you informed when others interact with your posts or when instructors share updates.  
+Discussion notifications keep you informed when others interact with your posts or when instructors share updates.
 
 .. contents::
    :local:
@@ -14,8 +14,8 @@ Discussion notifications keep you informed when others interact with your posts 
 There are four notification preferences for Discussions:
 
 1. **Activity notifications**: Cover all activity related to your own posts, responses, and followed threads.  
-2. **New question posts**: Alerts you when someone creates a new *question-type* post in your course. 
-3. **New discussion posts**: Alerts you when someone creates a new *discussion-type* post.  
+2. **New question posts**: Alerts you when someone creates a new question type post in your course.
+3. **New discussion posts**: Alerts you when someone creates a new discussion type post.
 4. **New posts from instructors**: Notifies you when an instructor or staff member creates a post.
 
 The tables below shows who receives each notification by default.
