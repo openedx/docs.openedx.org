@@ -56,11 +56,11 @@ You can access course discussions in two ways:
       The Discussions panel appears on the right side of course content when enabled.
 
 
-.. _Where to Find Discussions:
+.. _Basic elements:
 
-**************
+***************
 Basic elements
-**************
+***************
 
 Each discussion has the following components:
 
