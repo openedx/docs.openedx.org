@@ -21,19 +21,23 @@ Courseware is the main content of your course and consists mainly of lessons
 and assessments. The following list describes how courseware is organized in
 OLX.
 
-* Course chapters are at the top level of your course and typically
-  represent a time period. In Studio, chapters are called *sections*.
+* Course sections are at the top level of your course and typically
+  represent a time period. In OLX, sections are defined in the ``chapter`` directory.
 
-* A chapter contains one or more children which correspond to
-  top-level pages in the course. In Studio, these are called 'subsections' and
-  are currently restricted to ``sequential`` elements at this
-  level. OLX supports any XBlock at this level.
+* A section contains one or more children ("subsections") which correspond to
+  top-level pages in the course. In Studio, these
+  are defined within ``sequential`` elements at this level.
 
-* Courses are composed of structural elements, such as ``sequential``
-  and ``vertical``, and leaf-nodes or content elements, such as
+  .. note::
+
+    Technically, OLX supports any XBlock at this level. This is not
+    guaranteed to work upon Studio import.
+
+* Courses are composed of structural elements, such as ``sequential`` (subsections),
+  ``vertical`` (units), and leaf-nodes (content elements/components), such as
   ``html`` or ``problem``. Studio has a fixed hierarchy where children
   of ``sequential`` elements are ``vertical`` elements (called units),
-  and children of ``vertical`` elements are leaf elements (called modules).
+  and children of ``vertical`` elements are leaf elements (called components).
 
   * :ref:`Course Components<OLX Components>`
   * :ref:`Problems<Components and Activities TOC>`
@@ -48,7 +52,7 @@ In addition to the courseware described above, you course can contain
 supplemental content, such as textbooks, custom pages, and files.  The
 following list describes the types of supported content.
 
-* Course about pages appear in the course list for prospective students and are
+* Course about pages appear in the default Open edX course catalog for prospective students and are
   used to market your course. For more information, see :ref:`Course Overview`.
 
 * Course assets are any supplemental files you use in your course, such as a
@@ -87,5 +91,5 @@ control grading and content experiments. For more information, see
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
