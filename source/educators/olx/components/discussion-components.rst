@@ -6,7 +6,27 @@ Discussion Components in OLX
 
 .. tags:: educator, reference
 
-.. warning:: This page refers to the older discussion forums (pre-Olive release) and may be out of date.
+.. warning::
+  
+  This page refers to the older discussion forums (pre-Olive release) and is deprecated for post-Olive releases.
+
+  For Olive and newer releases, discussion components are automatically created for each ungraded unit. To
+  enable discussion on graded units, the behavior can be overridden via the ``discussions_settings`` attribute
+  on the ``course`` object in the ``course/run.xml`` file.
+
+  Here is an example of ``discussions_settings`` with ``enable_graded_units`` set to  ``true``:
+
+  .. code-block:: xml
+
+    discussions_settings=
+      "{&quot;enable_graded_units&quot;: true,
+      &quot;enable_in_context&quot;: true,
+      &quot;provider_type&quot;: &quot;openedx&quot;,
+      &quot;unit_level_visibility&quot;: true,
+      &quot;posting_restrictions&quot;: &quot;disabled&quot;,
+      &quot;openedx&quot;: {&quot;group_at_subsection&quot;: false}}"
+
+  The UI for discussions configuration can be found under the Content > Pages & Resources menu in Studio.
 
 You can add inline :term:`Discussion` components to any container in your
 course.
@@ -91,7 +111,7 @@ The ``discussion`` element contains no children.
      - The name of the subcategory for the inline discussion as shown in the
        **Discussion** tab of the course. For example: ``Problem 2``
    * - ``display_name``
-     - Optional. The value that is displayed to students as the name of the
+     - Optional. The value that is displayed to learners as the name of the
        discussion component. If you do not supply a ``display_name`` value,
        "Discussion" is supplied for you.
    * - Optional. ``discussion_id``
@@ -135,5 +155,5 @@ The following example shows an XML file for a discussion component.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Deprecated                     |
 +--------------+-------------------------------+----------------+--------------------------------+
