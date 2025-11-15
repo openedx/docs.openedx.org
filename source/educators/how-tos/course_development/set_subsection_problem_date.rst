@@ -6,12 +6,13 @@ Set the Assignment Type and Due Date for a Subsection
 
 .. tags:: educator, how-to
 
-You set the assignment type for problems at the subsection level.
+The assignment type for problems is set at the subsection level.
 
-When you set the assignment type for a subsection, all problems in the
-subsection are graded and weighted as a single type. For example, if you
-designate the assignment type for a subsection as **Homework**, then all
-problem types in that subsection are graded as homework.
+When the assignment type for a subsection is set, all problems in the subsection
+are graded and weighted as a single type. For example, if the assignment type
+for a subsection is designated as **Homework**, then all problem types in that
+subsection are graded as homework. See :ref:`Gradebook Assignment Types` for
+more on how to create custom assignment types.
 
 .. note::
    Unlike other problem types, by default, ORA assignments are not governed by the
@@ -21,12 +22,17 @@ problem types in that subsection are graded as homework.
 
 To set the assignment type and due date for a subsection, follow these steps.
 
-#. Select the **Configure** icon in the subsection box.
+#. From the three-dot menu at the subsection level, choose **Configure**.
 
-   The subsection settings dialog box opens.
+   .. image:: /_images/educator_how_tos/subsection_three_dot_menu_configure.png
+     :width: 600
 
 #. On the **Basic** tab, locate the **Grading** section.
+
 #. In the **Grade as** list, select the assignment type for this subsection.
+
+   .. image:: /_images/educator_how_tos/studio_grading_configuration.png
+     :width: 600
 
 #. For **Due Date** and **Due Time in UTC**, enter or select a due date and
    time for problems in this subsection.
@@ -61,10 +67,50 @@ you administer a survey. You can do this by using the **Assessment Results
 Visibility** setting.
 
 .. note::
- The **Assessment Results Visibility** setting is a subsection setting. You
- cannot change the visibility of individual problems. The **Assessment Results
+
+ The **Assessment Results Visibility** setting is a subsection setting. The
+ visibility of individual problems cannot be changed. The **Assessment Results
  Visibility** subsection setting overrides the **Show Answer** setting for
  individual problems. Answers to problems are not visible when results are hidden.
+
+To change the results visibility for your subsection, follow these steps.
+
+#. From the three-dot menu at the section or subsection level, choose **Configure**.
+
+   .. image:: /_images/educator_how_tos/subsection_three_dot_menu_configure.png
+     :width: 600
+
+#. Select the **Visibility** tab, and locate **Assessment Results Visibility**.
+
+   .. image:: /_images/educator_how_tos/studio_visibility_configuration.png
+     :width: 600
+
+#. Select one of the available options.
+
+   * **Always show assessment results**: This is the default setting. Problem results and
+     subsection scores are visible immediately when learners and staff submit
+     answers.
+
+   * **Never show assessment results**: Subsection scores are visible, but problem results
+     are never visible to learners or to course staff.
+
+   * **Show assessment results when subsection is past due**: For learners, results are
+     not visible until the subsection due date (for instructor-paced courses)
+     or the course end date (for self-paced courses) has passed. For course
+     staff, results are always visible unless the staff member is
+     :ref:`previewing or viewing the course as a learner<Roles for
+     Viewing Course Content>`.
+
+     .. note::
+      If the subsection does not have a due date, or the course does not have
+      an end date, results are always visible.
+
+   * **Never show individual assessment results, but show overall assessment
+     results after due date**: Learners do not see question-level correctness or
+     scores before *or* after the due date. However, once the due date passes,
+     they can see their overall score for the subsection on the Progress page.
+
+#. Select **Save**.
 
 The **Assessment Results Visibility** setting can be used with the following
 common problem types.
@@ -86,35 +132,6 @@ advanced problem types.
 * :ref:`Math Expression Input`
 * :ref:`Problem Written in LaTeX`
 * :ref:`Problem with Adaptive Hint`
-
-To change the results visibility for your subsection, follow these steps.
-
-#. Select the **Configure** icon in the subsection box.
-
-   The **Settings** dialog box opens.
-
-#. Select the **Visibility** tab, and locate **Assessment Results Visibility**.
-
-#. Select one of the available options.
-
-   * **Always show results**: This is the default setting. Problem results and
-     subsection scores are visible immediately when learners and staff submit
-     answers.
-   * **Never show results**: Subsection scores are visible, but problem results
-     are never visible to learners or to course staff.
-   * **Show results when subsection is past due**: For learners, results are
-     not visible until the subsection due date (for instructor-paced courses)
-     or the course end date (for self-paced courses) has passed. For course
-     staff, results are always visible unless the staff member is
-     :ref:`previewing or viewing the course as a learner<Roles for
-     Viewing Course Content>`.
-
-     .. note::
-      If the subsection does not have a due date, or the course does not have
-      an end date, results are always visible.
-
-#. Select **Save**.
-
 
 .. seealso::
  
@@ -156,6 +173,8 @@ To change the results visibility for your subsection, follow these steps.
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-11-16   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 07/08/2025   | Leira (Curricu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
