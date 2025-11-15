@@ -6,6 +6,13 @@ Create Course Overview in OLX
 
 .. tags:: educator, how-to
 
+.. note::
+
+  This page describes how to create the Course Overview section for
+  your course, provided your Open edX instance is using the default
+  Open edX course catalog. Your Open edX instance might utilize a different
+  way of publishing and advertising courses.
+
 Each course must have an overview page. Learners see the overview page when
 searching and registering for the course.
 
