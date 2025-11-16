@@ -89,7 +89,7 @@ When a subsection is in the "Scheduled with Section" state, and the section is
 scheduled, the subsection is visible in the outline with a vertical green bar
 next to the subsection's display name.
 
-You can change the release date for a subsection to be different from the
+The release date for a subsection can be changed to be different from the
 section it is in. For more information, see :ref:`Set a Subsection Release
 Date`.
 
@@ -97,7 +97,7 @@ Date`.
 Unscheduled
 ========================
 
-If the parent section is unscheduled, when you create a new subsection it
+If the parent section is unscheduled, when a new subsection is created, it
 will also be unscheduled.
 
 Regardless of the publishing status of units within the subsection, no content
@@ -106,14 +106,14 @@ in an unscheduled subsection is visible to learners.
 When a subsection is unscheduled, the subsection is visible in the outline with
 a vertical gray bar next to the subsection's display name.
 
-Content in the subsection is not visible to learners until you set a release
-date and the date passes.
+Content in the subsection is not visible to learners until a release date is set
+*and* the date passes.
 
 ===================================
 Scheduled Later than the Section
 ===================================
 
-You can set a subsection to release on a date after the section releases.
+A subsection can be set to release on a date after the section releases.
 
 Content in a subsection that is scheduled for release on a future date is not
 visible to learners, even if some or all of the units in the subsection are
@@ -129,28 +129,28 @@ The scheduled date must pass for the subsection to be visible to learners.
 Scheduled with Unpublished Changes
 ==================================
 
-You can make changes to a published unit before its parent subsection
+Changes to a published unit can be made before its parent subsection
 is released.
 
 In this situation, when the release date for the subsection passes, the last
 published version of units within the subsection are made visible to learners.
-The changes in units are not visible to learners until you publish them.
+The changes in units are not visible to learners until they are published.
 
 When a subsection is scheduled but has unpublished changes, the subsection is
 visible in the outline with a vertical yellow bar next to the subsection's
-display name. When you expand the subsection, the unit that has unpublished
+display name. When the subsection is expanded, the unit that has unpublished
 changes is visible.
 
 ==================================
 Released with Unpublished Changes
 ==================================
 
-If you modify a unit within a released subsection, those modifications are not
-visible to students until you publish them.
+If a unit is modified within a released subsection, those modifications are not
+visible to students until they are published.
 
 When a subsection is scheduled but has unpublished changes, the subsection is
 visible in the outline with a vertical yellow bar next to the subsection's
-display name. When you expand the subsection, the unit that has unpublished
+display name. When the the subsection is expanded, the unit that has unpublished
 changes is visible.
 
 ===========================
@@ -175,6 +175,7 @@ When a subsection contains a unit that has staff-only content, the subsection
 is visible in the outline with a vertical black bar next to the subsection's
 display name.
 
+See :ref:`Staff Only Unit` for more detail on unit-level visibility.
 
 .. seealso::
 
@@ -207,5 +208,5 @@ display name.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-16   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
