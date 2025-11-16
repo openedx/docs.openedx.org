@@ -6,14 +6,12 @@ About Course Units
 
 .. tags:: educator, concept
 
-To work with units in the course outline and develop your course, you need to
-understand the following concepts and complete the following tasks.
+One or more units make up a course :ref:`subsection <About Course Subsections>`.
+Units are comprised of :ref:`course components<About Course Components>`.
 
 .. contents::
    :depth: 1
    :local:
-
-You add content to units with :ref:`course components<About Course Components>`.
 
 .. _What is a Unit:
 
