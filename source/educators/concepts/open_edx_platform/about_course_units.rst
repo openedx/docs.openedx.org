@@ -45,7 +45,7 @@ boxes and text to show different areas and controls in the page.
    located, and provides easy navigation options to nearby unit pages.
 #. Navigation tools to quickly get to other sections or subsections.
 #. Options for testing the unit (View Live and Preview), and button to view
-   in-context analytics (if :ref:`Aspects` is enabled).
+   in-context analytics (if :ref:`Aspects Home` is enabled).
 #. The **+ New unit** button is a way to add new units to a subsection through
    the unit navigation bar.
 #. Status panel for the unit.
