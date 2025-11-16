@@ -6,9 +6,6 @@ About Course Subsections
 
 .. tags:: educator, concept
 
-To develop subsections in your course, you must first understand the
-following topics.
-
 .. contents::
   :local:
   :depth: 2
@@ -17,23 +14,23 @@ following topics.
 What Is a Subsection?
 ****************************
 
-Sections are divided into subsections, which in turn contain one or more units.
-A subsection may represent a topic in your course, or another organizing
-principle. Subsections are sometimes called "lessons" or they might represent a
-week's worth of material.
+:ref:`Sections <About Course Sections>` are divided into subsections, which in
+turn contain one or more :ref:`units <About Course Units>`. A subsection may
+represent a topic in a course, or another organizing principle. Subsections are
+sometimes called "lessons" or they might represent a week's worth of material.
 
 ***********************************
 Viewing Subsections in the Outline
 ***********************************
 
-For more information see :ref:`About the Course Outline`
+For more information see :ref:`About the Course Outline`.
 
 ************************************************
 Subsections and Visibility to Learners
 ************************************************
 
-Learners cannot see any content in a subsection until you schedule a release
-date, and that release date has passed.
+Learners cannot see any content in a subsection until a release date is
+scheduled, and that release date has passed.
 
 If a subsection's release date has passed, learners can see content in the
 subsection if the following conditions are met.
@@ -43,16 +40,16 @@ subsection if the following conditions are met.
 * The subsection or the units are not hidden from learners.
 
 To control whether learners have access to the subsection and its units after
-a subsection's release date, you can apply various visibility settings.
+a subsection's release date, various visibility settings can be applied.
 
 By default, the subsection and its units are available to learners, except for
-any units that you have explicitly hidden from learners.
+any units that have been explicitly hidden from learners.
 
-You can also choose to entirely hide a subsection so that the subsection and
-its units are not visible to learners at all in the course navigation, or you
-can hide the contents of a subsection after the subsection due date has passed.
-For more information about subsection visibility settings, see :ref:`Hide a
-Subsection from Students`.
+A subsection can be entirely hidden so that the subsection and its units are not
+visible to learners at all in the course navigation. Additionally, the contents
+of a subsection can be hidden after the subsection due date has passed. For more
+information about subsection visibility settings, see :ref:`Hide a Subsection
+from Students`.
 
 
 .. note::
@@ -72,9 +69,8 @@ Subsection from Students`.
 Release Statuses of Subsections
 ************************************************
 
-As a course author, you control the release status of subsections. For the
-content of a subsection to be visible to learners, the subsection must be
-released. See the following topics for more information about the possible
+For the content of a subsection to be visible to learners, the subsection must
+be released. See the following topics for more information about the possible
 release statuses of subsections.
 
 .. contents::
@@ -85,7 +81,7 @@ release statuses of subsections.
 Scheduled with the Section
 ==========================
 
-When you create a subsection, it is set by default to release on the same date
+When a subsection is created, it is set by default to release on the same date
 and time as the section it is in. Therefore, published content in the
 subsection is visible to learners at the date and time the section is released.
 
