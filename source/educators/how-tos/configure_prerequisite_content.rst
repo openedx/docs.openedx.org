@@ -112,9 +112,9 @@ subsection, follow these steps.
      :alt: A subsection in the course outline with a prerequsitie indicated.
      :width: 600
 
-  .. note:: Prerequisite course subsection settings are not retained when
-     you :ref:`Export a Course` and :ref:`Import a Course`, or
-     when you :ref:`re-run a course<Re Run a Course>`.
+  .. note:: Prerequisite course subsection settings are retained when
+     you :ref:`Export a Course` and :ref:`Import a Course`, but not retained when
+     you :ref:`re-run a course<Re Run a Course>`.
 
 .. seealso::
   

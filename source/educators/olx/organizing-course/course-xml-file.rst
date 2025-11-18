@@ -184,6 +184,12 @@ For example, the course can contain a sequential in this format.
      - TBD
    * - ``xqa_key``
      - TBD
+   * - ``required_content``
+     - If the sequential has a prerequisite, ``ID`` of the required sequential
+   * - ``min_score``
+     - If the sequential has a prerequisite, minimum score of the required sequential
+   * - ``min_completion``
+     - If the sequential has a prerequisite, minimum completion of the required sequential
 
 ==============================================
 ``sequential`` Children
