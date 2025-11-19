@@ -1,3 +1,5 @@
+.. _Aspects Home:
+
 ####################################################
 Aspects: Learner analytics for the Open edX Platform
 ####################################################
