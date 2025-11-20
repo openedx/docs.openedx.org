@@ -7,6 +7,12 @@ Awarding Partial Credit for a Problem
 
 .. START PARTIAL CREDIT
 
+.. warning::
+
+  Partial credit is not an option exposed in Open edX Studio.
+  
+  Studio and LMS support of partial credit is not guaranteed to work.
+
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit a partially correct answer.
 
