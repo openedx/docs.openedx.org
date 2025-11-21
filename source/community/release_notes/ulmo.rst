@@ -9,7 +9,9 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 
    What's new in Ulmo? Click to read about new features:
 
-   :ref:`Ulmo Product Notes`.
+   :ref:`Ulmo Product Marketing Notes`
+
+   And for more detail on individual products, refer to :ref:`Ulmo Product Notes`.
 
 
 .. highlights::
@@ -22,6 +24,7 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 .. toctree::
     :maxdepth: 2
 
+    Ulmo Overview <ulmo/ulmo_marketing_notes>
     Ulmo Release Notes <ulmo/feature_release_notes>
     Ulmo Developer & Operator Release Notes <ulmo/dev_op_release_notes>
 
