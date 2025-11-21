@@ -24,6 +24,7 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 .. toctree::
     :maxdepth: 2
 
+    Teak Overview <teak/teak_marketing_notes>
     Teak Release Notes <teak/feature_release_notes>
     Teak Developer & Operator Release Notes <teak/dev_op_release_notes>
 
