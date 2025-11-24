@@ -20,5 +20,9 @@ wheel==0.45.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
-# pip
-# setuptools
+pip==25.2
+    # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   pip-tools
+setuptools==80.9.0
+    # via pip-tools
