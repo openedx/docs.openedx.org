@@ -5,10 +5,13 @@ Open edX Ulmo Release - Product Release Notes
 
 *Releasing December, 2025!*
 
+:ref:`What's New? <Ulmo Product Marketing Notes>`
+
 .. toctree::
    :maxdepth: 1
 
    ulmo_mobile_updates
+   ulmo_catalog
    design_tokens
    stay_up_to_date
 
