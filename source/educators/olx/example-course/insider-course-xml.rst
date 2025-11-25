@@ -13,7 +13,7 @@ The ``course.xml`` file (advanced usage)
   in this OLX guide are not guaranteed by the Open edX project to work with Open edX Studio in the future.
 
   Additionally, however a course is written, if that course is imported into Studio, Studio will export
-  it in the specifically structured form of OLX described elsewhere in this guide.
+  it in the specifically structured form of OLX *containers* described elsewhere in this guide.
 
 .. contents::
   :local:
