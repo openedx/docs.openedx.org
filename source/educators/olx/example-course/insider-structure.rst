@@ -21,12 +21,8 @@ This topic describes the structure of a sample course known as the
 olx_example_course and Directory File Structures
 **************************************************
 
-All files and subdirectories that comprise *olx_example_course* are stored in the
+All files and subdirectories that comprise ``olx_example_course`` are stored in the
 `olx_example_course course`_ directory in the ``training-courses`` GitHub repository.
-
-.. admonition:: TODO
-
-  Fix this image
 
 .. Image:: /_images/olx-example-images/olx-example-github.png
  :alt: The olx_example_course in GitHub, showing the file structure of the ``course/`` directory.
@@ -66,7 +62,7 @@ Example of a Referenced XBlock
 
 .. warning::
 
-  This part of the guide was written in 2013. As of the Teak release, it is
+  The "Example of a Referenced Block" part of this guide was written in 2013. As of the Teak release, it is
   untested and not guaranteed to work when imported into Open edX Studio,
   either currently or in future releases.
 
@@ -87,9 +83,8 @@ single HTML XBlock with the display name ``Week overview``, which references
               <html display_name="Week overview" filename="Week_overview"
                   url_name="Week_overview"/>
 
-There is a file called ``Week_overview.html`` in the ``html`` directory that
-contains the content for that HTML component. For detailed information, see the
-`Week_overview.html`_ file in GitHub.
+There would be a file called ``Week_overview.html`` in the ``html`` directory that
+contains the content for that HTML component.
 
 For a learner, that HTML component appears as the first unit of the course.
 
@@ -103,7 +98,7 @@ Example of an Inline XBlock
 
 .. warning::
 
-  This part of the guide was written in 2013. As of the Teak release, it is
+  The "Example of an Inline XBlock" part of this guide was written in 2013. As of the Teak release, it is
   untested and not guaranteed to work when imported into Open edX Studio,
   either currently or in future releases.
 
@@ -144,7 +139,7 @@ way as a referenced HTML component does.
 Platform Directories
 ********************
 
-The olx_example_course course contains information in the course subdirectories as
+The ``olx_example_course`` course contains information in the course subdirectories as
 described below.
 
 ====================
@@ -203,10 +198,10 @@ For more information, see :ref:`Course Assets`.
 ``vertical`` Directory
 =======================
 
-The ``vertical`` directory contains the XML for the 14 units used in the
+The ``vertical`` directory contains the XML for the 15 units used in the
 course.
 
-You can embed *units* (verticals) in the ``course.xml`` file, however this method
+You can embed *units* (``vertical`` s) in the ``course.xml`` file, however this method
 is not guaranteed to work on Open edX Studio imports. It is recommended
 to store XML for units in separate files in the ``vertical`` directory.
 
