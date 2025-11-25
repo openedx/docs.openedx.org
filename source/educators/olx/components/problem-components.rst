@@ -6,7 +6,7 @@ Problem Components in OLX
 
 .. tags:: educator, reference
 
-The problem component allows you to add interactive exercises to the verticals
+The problem component allows you to add interactive exercises to the units
 in your course. You can add many different types of exercises and problems.
 This section covers the basics of problem components: what they look like to
 you and your learners, and the options that every problem component has.
@@ -21,20 +21,15 @@ Problem Component Overview
 
 The format for Open edX problems is based on the `LON-CAPA XML format`_, although
 the two are not quite compatible. In the Open edX variant, problems are composed of
-the following types of tags.
+various *input types*, such as ``numericalresponse`` or ``stringresponse``.
 
-* ``inputtypes`` are similar to XBlocks. They define ways for users to enter
-  input into the problem.
-* ``responsetypes`` are graders. They define how inputs are mapped to grades.
-* ``hinters`` are used to provide feedback to problems.
-* Standard HTML tags are used for formatting.
+Standard HTML tags are used for formatting.
 
-OLX is designed to allow mixing and matching of ``inputtypes``,
-``responsetypes``, and ``hinters``. For example, a numerical grader could match
-7+-0.1%. Ideally, you could use this grader with any ``inputtype`` that returns
-numbers as its output, including a text box, equation input, slider, or
-multiple choice question. In practice, this does not always work. For example,
-in the example described above, a multiple choice question would not give an
+OLX is designed to allow mixing and matching of input types and response types.
+For example, a numerical grader could match 7+-0.1%. Ideally, you could use this
+grader with any input type that returns numbers as its output, including a text
+box, equation input, slider, or multiple choice question. In practice, this does
+not always work. For example, a multiple choice question would not give an
 output in a format a numerical grader could handle.
 
 In addition, in many cases, there is a 1:1 mapping between graders and inputs.
@@ -42,13 +37,13 @@ For some types of inputs (especially discipline-specific specialized ones),
 only one grader is needed.
 
 The most general grader is ``customresponse``. This grader uses Python code to
-evaluate the input. By design, this ought to work with any inputtype, although
-there are bugs mixing this with a small number of the newer inputtypes.
+evaluate the input. By design, this ought to work with any input type, although
+this is not guaranteed to render or work properly in the Open edX Studio or LMS
+environments.
 
 Like LON-CAPA, OLX allows embedding of code to generate parameterized problems.
 Unlike LON-CAPA, Open edX supports Python (and not Perl). Otherwise, the syntax for
 parameterizing problems is approximately identical.
-
 
 =====================================
 Creating Graded or Ungraded Problems
@@ -71,6 +66,38 @@ For more information, see :ref:`Grading Policy`.
 .. include:: /educators/references/course_development/learner_problem_view.rst
   :start-after: .. START LEARNER VIEW OF PROBLEM
   :end-before: .. END LEARNER VIEW OF PROBLEM
+
+=====================================
+Example OLX - Single Select Problem
+=====================================
+
+See the `single select problem <https://github.com/openedx/training-courses/blob/main/olx_example_course/course/problem/single_select.xml>`_
+in the ``olx_example_course``; it is replicated here:
+
+.. code-block:: xml
+
+  <problem display_name="Single select" show_reset_button="false" showanswer="finished" weight="2.0">
+    <multiplechoiceresponse>
+      <div>What is the correct answer?</div>
+      <choicegroup>
+        <choice correct="false">
+          <div>Incorrect</div>
+        </choice>
+        <choice correct="false">
+          <div>Incorrect</div>
+        </choice>
+        <choice correct="true">
+          <div>Correct</div>
+        </choice>
+      </choicegroup>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation</p>
+          <p>The correct answer is called "Correct"</p>
+        </div>
+      </solution>
+    </multiplechoiceresponse>
+  </problem>  
 
 ******************
 Problem Settings
@@ -116,7 +143,7 @@ element.
 Problem Weight
 ==============================
 
-Using OLX, you set the component weight as an attribute of the ``<problem>``
+Using OLX, you set the score of the component as an attribute of the ``<problem>``
 element.
 
 .. code-block:: xml
@@ -158,14 +185,17 @@ Using OLX, you set the show answer preference as an attribute of the
 
 You can specify the following values for this attribute.
 
-* always
-* answered
-* attempted
-* closed
-* correct_or_past_due
-* finished
-* past_due
-* never
+* "always"
+* "answered"
+* "attempted"
+* "closed"
+* "finished"
+* "past_due"
+* "correct_or_past_due"
+* "after_all_attempts"
+* "after_all_attempts_or_correct"
+* "attempted_no_past_due"
+* "never"
 
 .. _Show Reset Button OLX:
 
@@ -217,6 +247,10 @@ live section, learners will see the effect of these changes.
 Workarounds
 ===============
 
+The Instructor Dashboard allows rescoring existing submissions for either a
+specific learner, or all learners in the course. However, this may not be ideal
+in the situation that the problem itself has changed.
+
 If you have to modify a released problem in a way that affects grading, you
 have two options within Studio to assure that every learner has the opportunity
 to submit a new response and be regraded. Note that both options require you to
@@ -231,49 +265,17 @@ ask your learners to go back and resubmit answers to a problem.
    and revise the copy.) Then ask all your learners to complete the new
    problem.
 
-
-.. _Multiple Problems in One Component OLX:
-
-***********************************
-Multiple Problems in One Component
-***********************************
-
-You can create a problem that includes more than one response type. For
-example, you might want to create a numerical input problem and then include a
-multiple choice problem that refers to the numerical input problem. Or,
-you might want a learner to be able to check the answers to many problems at
-one time. To do this, you can include multiple problems inside a single
-``<problem>`` element. The problems can be different types.
-
-Each question and its answer options are enclosed by the element that
-identifies the type of problem, such as ``<multiplechoiceresponse>`` for a
-multiple choice question or ``<formularesponse>`` for a math expression input
-question.
-
-You can provide a different explanation for each question by using the
-``<solution>`` element.
-
-As a best practice, Open edX accessibility best practices recommend that you avoid including unformatted
-paragraph text between the questions. Screen readers can skip over text that is
-inserted among multiple questions.
-
-Elements such as the **Submit**, **Show Answer**, and **Reset** buttons, as
-well as the settings that you select for the problem component, apply to all
-of the problems in that component. Thus, if you set the maximum number of
-attempts to 3, the learner has three attempts to answer the entire set of
-problems in the component as a whole rather than three attempts to answer each
-problem individually. If a learner selects **Submit**, the LMS scores all of
-the problems in the component at once. If a learner selects **Show Answer**,
-the answers for all the problems in the component appear.
-
-.. note::
-  You cannot use a :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>` in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
-  component.
+****************************************************
+Adding Feedback and Hints to a Problem
+****************************************************
 
 .. include:: /educators/references/course_development/exercise_tools/adding_hints.rst
   :start-after: .. START ADDING FEEDBACK AND HINTS
   :end-before: .. END ADDING FEEDBACK AND HINTS
+
+**************************
+Awarding Partial Credit
+**************************
 
 .. include:: /educators/references/course_development/awarding_partial_credit.rst
   :start-after: .. START PARTIAL CREDIT
@@ -314,6 +316,10 @@ content blocks, which randomly draw problems from pools of problems stored in
 content libraries. For more information, see
 :ref:`Randomized Content Blocks`.
 
+**************************
+Tooltips
+**************************
+
 .. include:: /educators/references/course_development/adding_tooltips.rst
   :start-after: .. START ADDING TOOLTIPS
   :end-before: .. END ADDING TOOLTIPS
@@ -321,6 +327,8 @@ content libraries. For more information, see
 .. seealso::
 
   :ref:`What is Open Learning XML?` (concept)
+
+  :ref:`Multipart Components OLX` (reference)
 
   :ref:`Components and Activities TOC` (reference)
 
@@ -330,12 +338,10 @@ content libraries. For more information, see
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

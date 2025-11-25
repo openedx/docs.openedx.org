@@ -24,13 +24,11 @@
 
 .. _2014.xml: https://github.com/openedx/edx-platform/blob/master/common/test/data/manual-testing-complete/course/2014.xml
 
-.. _olx-example: https://github.com/openedx/training-courses/tree/main/olx-example
+.. _olx_example_course: https://github.com/openedx/training-courses/tree/main/olx_example_course
 
-.. _olx-example course: https://github.com/openedx/training-courses/tree/main/olx-example/course
+.. _olx_example_course course: https://github.com/openedx/training-courses/tree/main/olx_example_course/course
 
-.. _Week_overview.html: https://github.com/openedx/training-courses/blob/main/olx-example/course/html/Week_overview.html
-
-.. _course.xml: https://github.com/openedx/training-courses/blob/main/olx-example/course/course.xml
+.. _course.xml: https://github.com/openedx/training-courses/blob/main/olx_example_course/course/course.xml
 
 .. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
 

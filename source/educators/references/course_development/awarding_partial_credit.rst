@@ -7,6 +7,14 @@ Awarding Partial Credit for a Problem
 
 .. START PARTIAL CREDIT
 
+.. warning::
+
+  Partial credit is only available in multipart problems, which can currently
+  only be authored directly in OLX. Multipart problems cannot be authored in
+  Studio. See :ref:`Multipart Components OLX`.
+  
+  Studio and LMS support of partial credit is not guaranteed to work.
+
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit a partially correct answer.
 
@@ -28,13 +36,13 @@ How Learners Receive Partial Credit
 
 Learners receive partial credit when they submit an answer in the LMS.
 
-In the following example, the course team configured a single select problem
-to award 25% of the possible points (instead of 0) for one of the
-incorrect answer options. The learner selected this incorrect option and
-received 25% of the possible points.
+The LMS will distribute the total number of points available for the problem
+evenly across all problems. So in the following screenshot, with a two-part
+problem worth 2 points, if a learner answers one part correctly and the second
+incorrectly, they will be awarded 1/2 points.
 
 .. image:: /_images/educator_references/partial_credit_multiple_choice.png
- :alt: A single select problem with partial credit for an incorrect
+ :alt: A multipart problem with partial credit for an incorrect
      answer.
  :width: 500
 
@@ -103,5 +111,5 @@ the learner received out of the total available score and the value in the
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
