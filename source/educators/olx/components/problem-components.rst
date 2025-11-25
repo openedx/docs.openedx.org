@@ -67,6 +67,38 @@ For more information, see :ref:`Grading Policy`.
   :start-after: .. START LEARNER VIEW OF PROBLEM
   :end-before: .. END LEARNER VIEW OF PROBLEM
 
+=====================================
+Example OLX - Single Select Problem
+=====================================
+
+See the `single select problem <https://github.com/openedx/training-courses/blob/main/olx_example_course/course/problem/single_select.xml>`_
+in the ``olx_example_course``; it is replicated here:
+
+.. code-block:: xml
+
+  <problem display_name="Single select" show_reset_button="false" showanswer="finished" weight="2.0">
+    <multiplechoiceresponse>
+      <div>What is the correct answer?</div>
+      <choicegroup>
+        <choice correct="false">
+          <div>Incorrect</div>
+        </choice>
+        <choice correct="false">
+          <div>Incorrect</div>
+        </choice>
+        <choice correct="true">
+          <div>Correct</div>
+        </choice>
+      </choicegroup>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation</p>
+          <p>The correct answer is called "Correct"</p>
+        </div>
+      </solution>
+    </multiplechoiceresponse>
+  </problem>  
+
 ******************
 Problem Settings
 ******************
@@ -233,46 +265,6 @@ ask your learners to go back and resubmit answers to a problem.
    and revise the copy.) Then ask all your learners to complete the new
    problem.
 
-
-.. _Multiple Problems in One Component OLX:
-
-***********************************
-Multiple Problems in One Component
-***********************************
-
-You can create a problem that includes more than one response type. For
-example, you might want to create a numerical input problem and then include a
-multiple choice problem that refers to the numerical input problem. Or,
-you might want a learner to be able to check the answers to many problems at
-one time. To do this, you can include multiple problems inside a single
-``<problem>`` element. The problems can be different types.
-
-Each question and its answer options are enclosed by the element that
-identifies the type of problem, such as ``<multiplechoiceresponse>`` for a
-multiple choice question or ``<formularesponse>`` for a math expression input
-question.
-
-You can provide a different explanation for each question by using the
-``<solution>`` element.
-
-As a best practice, Open edX accessibility best practices recommend that you avoid including unformatted
-paragraph text between the questions. Screen readers can skip over text that is
-inserted among multiple questions.
-
-Elements such as the **Submit**, **Show Answer**, and **Reset** buttons, as
-well as the settings that you select for the problem component, apply to all
-of the problems in that component. Thus, if you set the maximum number of
-attempts to 3, the learner has three attempts to answer the entire set of
-problems in the component as a whole rather than three attempts to answer each
-problem individually. If a learner selects **Submit**, the LMS scores all of
-the problems in the component at once. If a learner selects **Show Answer**,
-the answers for all the problems in the component appear.
-
-.. note::
-  You cannot use a :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>` in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
-  component.
-
 ****************************************************
 Adding Feedback and Hints to a Problem
 ****************************************************
@@ -336,6 +328,8 @@ Tooltips
 
   :ref:`What is Open Learning XML?` (concept)
 
+  :ref:`Multipart Components OLX` (reference)
+
   :ref:`Components and Activities TOC` (reference)
 
   :ref:`Example of an OLX Course` (reference)
@@ -349,5 +343,5 @@ Tooltips
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
