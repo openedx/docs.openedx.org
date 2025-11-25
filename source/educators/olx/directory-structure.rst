@@ -19,7 +19,7 @@ format that Open edX Studio exports it in.
   these pages won't get into, as they're not guaranteed by the Open edX project to work in Open edX Studio in the future.
 
   Additionally, however a course is written, if that course is imported into Studio, Studio will export
-  it in the specifically structured form of OLX described in this guide.
+  it in the specifically structured form of OLX *containers* described in this guide.
 
 
 This section documents how the Open edX Studio currently exports courses, so that
@@ -47,7 +47,9 @@ Top-level Directory
 
 The top-level ``course.xml`` file *can* contain your entire course, but in
 Studio exports, content is split out into individual files. This is done at the
-level of *components*, such as problems, videos, or HTML (text components).
+level of *containers* such as sections (``chapter``), subsections (``sequential``) & units (``vertical``), 
+and *components*, such as problems, videos, or HTML (text components). Certain components,
+such as ORA, appear in-line, while others appear in their own files as detailed below.
 
 For example, the `Open edX DemoX Course
 <https://github.com/openedx/openedx-demo-course>`_ contains a course with many
@@ -61,13 +63,13 @@ set up these directories in preparation for developing your course content.
 
 .. note::
 
-  If you are using custom XBlocks, you can include additional directories that store the XML for XBlocks of that type.
+  Custom blocks cannot be put in their own directory; they must be put in-line, such as ``edx-sga``.
 
 *******************
 XBlock Directories
 *******************
 
-Open edX course *components* can be broken out of the main ``course.xml`` file
+Open edX course *containers* and *components* can be broken out of the main ``course.xml`` file
 into individual files. Those files go into directories of the name of
 the component type (XML tag). For example, components of type ``html``
 can be placed as individual files in the ``html`` directory. If your
@@ -124,7 +126,8 @@ For more information, see :ref:`Course Overview`.
 
 The ``chapter`` directory holds one XML file per "course section" in the course.
 Note that in Studio and within the pages on docs.openedx.org, "course section"
-will be the term used for anything in the ``chapter`` directory.
+will be the term used for anything in the ``chapter`` directory. ``chapter``
+files are known as *containers*.
 
 ====================
 ``info`` Directory
@@ -160,7 +163,8 @@ For more information, see :ref:`Course Policies`.
 
 The ``sequential`` directory holds one XML file per "course subsection" in the course.
 Note that in Studio and within the pages on docs.openedx.org, "course subsection"
-will be the term used for anything in the ``sequential`` directory.
+will be the term used for anything in the ``sequential`` directory. ``sequential``
+files are known as *containers*.
 
 
 ====================
@@ -187,7 +191,8 @@ For more information, see :ref:`Create tabs, or pages, in your course<Course Tab
 
 The ``vertical`` directory holds one XML file per "course unit" in the course.
 Note that in Studio and within the pages on docs.openedx.org, "course unit"
-will be the term used for anything in the ``vertical`` directory.
+will be the term used for anything in the ``vertical`` directory. ``vertical``
+files are known as *containers*.
 
 
 .. seealso::
