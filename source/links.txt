@@ -28,8 +28,6 @@
 
 .. _olx_example_course course: https://github.com/openedx/training-courses/tree/main/olx_example_course/course
 
-.. _Week_overview.html: https://github.com/openedx/training-courses/blob/main/olx_example_course/course/html/Week_overview.html
-
 .. _course.xml: https://github.com/openedx/training-courses/blob/main/olx_example_course/course/course.xml
 
 .. _Open edX Demo Course GitHub: https://github.com/openedx/openedx-demo-course
