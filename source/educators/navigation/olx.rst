@@ -128,7 +128,8 @@ The topics in this section describe how to use OLX (open learning XML) to create
    ../olx/components/html-components.rst
    ../olx/components/discussion-components.rst
    ../olx/components/video-components.rst
-   ../olx/components/problem-components.rst  
+   ../olx/components/problem-components.rst
+   ../olx/components/multipart-components.rst
 
 .. _OLX Exercises, Tools, and Problem Types:
 
