@@ -18,6 +18,7 @@ The Open edX Teak Release was released on June 9, 2025.
    teak_frontend_plugin_slots
    smaller_changes
    teak_mobile_updates
+   teak_lti_cert
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
