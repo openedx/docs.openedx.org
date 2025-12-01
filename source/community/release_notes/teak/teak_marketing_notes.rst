@@ -38,6 +38,10 @@ button in Studio now uses the default student experience rather than the legacy 
 see content exactly as learners will, improving content validation during
 authoring.
 
+:ref:`LTI Certified ✅ <Teak LTI Certification>`: The Open edX Teak Release
+has achieved the `LTI Advantage Complete
+<https://www.imsglobal.org/lti-advantage-overview>`_ certification!
+
 🎓 For Learners
 *****************
 
