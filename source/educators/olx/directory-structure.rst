@@ -6,12 +6,12 @@ What is the OLX Course Structure?
 
 .. tags:: educator, concept
 
-You can export a course from the Open edX Studio. When you export the course,
-you download a ``.tar.gz`` file with the OLX (open learning XML) course content.
-You can then extract the course OLX files for use with local tools or a source
-control system such as GitHub (see :ref:`Work with the targz File`). This
-article describes the structure of an OLX (open learning XML) course in the
-format that Open edX Studio exports it in.
+Courses can be exported from Open edX Studio. When courses are exported, a
+``.tar.gz`` file with the OLX (open learning XML) course content is made
+available to download. Using local tools or a source control system such as
+GitHub (see :ref:`Work with the targz File`), the downloaded course OLX files
+can be extracted. This article describes the structure of an OLX (open learning
+XML) course in the format that Open edX Studio exports it in.
 
 .. warning::
 
@@ -22,8 +22,8 @@ format that Open edX Studio exports it in.
   it in the specifically structured form of OLX *containers* described in this guide.
 
 
-This section documents how the Open edX Studio currently exports courses, so that
-you can understand and manually navigate through the structure of exported
+This section documents how Open edX Studio currently exports courses, so that
+authors can understand and manually navigate through the structure of exported
 courses.
 
 
@@ -38,28 +38,31 @@ For more information about how a specific OLX course is structured, see
 OLX and Directory File Structures
 ****************************************
 
-All files and subdirectories that comprise your OLX course are stored within
+All files and subdirectories that comprise an OLX course are stored within
 a single directory, called the ``course/`` directory.
 
 ************************
 Top-level Directory
 ************************
 
-The top-level ``course.xml`` file *can* contain your entire course, but in
-Studio exports, content is split out into individual files. This is done at the
-level of *containers* such as sections (``chapter``), subsections (``sequential``) & units (``vertical``), 
-and *components*, such as problems, videos, or HTML (text components). Certain components,
-such as ORA, appear in-line, while others appear in their own files as detailed below.
+The top-level ``course.xml`` file *can* contain an entire course, but in Studio
+exports, content is split out into individual files. This is done at the level
+of *containers* such as sections (``chapter``), subsections (``sequential``) &
+units (``vertical``), and *components*, such as problems, videos, or HTML (text
+components). Certain components, such as ORA, appear in-line, while others
+appear in their own files as detailed below.
 
 For example, the `Open edX DemoX Course
 <https://github.com/openedx/openedx-demo-course>`_ contains a course with many
 component types, and the `OLX Example Course
 <https://github.com/openedx/training-courses/tree/main/olx_example_course>`_
 (described in more detail in :ref:`The Structure of a Sample Course`) has
-human-readable names to better help you follow the flow of Studio OLX exports.
+human-readable names to better help authors follow the flow of Studio OLX exports.
 
-Descriptions of the directories needed for a typical course follow. You should
-set up these directories in preparation for developing your course content.
+Descriptions of the directories needed for a typical course follow. To manually
+develop course content, these directories will need to be set up if not already
+present.
+
 
 .. note::
 
@@ -72,10 +75,10 @@ XBlock Directories
 Open edX course *containers* and *components* can be broken out of the main ``course.xml`` file
 into individual files. Those files go into directories of the name of
 the component type (XML tag). For example, components of type ``html``
-can be placed as individual files in the ``html`` directory. If your
+can be placed as individual files in the ``html`` directory. If a
 course does not contain ``.html`` files, or if they are all embedded in
-their top-level components, you do not need to create an ``html``
-directory. Studio will place all text components into the ``html`` directory.
+their top-level components, an ``html`` directory does not need to be created.
+Studio will place all text components into the ``html`` directory.
 
 As another example, the ``problem`` directory holds one XML file per default
 problem type (eg, multiselect, dropdown) in the course. Note that in Studio and
@@ -171,7 +174,7 @@ files are known as *containers*.
 ``static`` Directory
 ====================
 
-The ``static`` directory contains the files used in your course, such as images
+The ``static`` directory contains the files used in a course, such as images
 or PDFs.
 
 For more information, see :ref:`Course Assets`.
@@ -180,10 +183,9 @@ For more information, see :ref:`Course Assets`.
 ``tabs`` Directory
 ====================
 
-The ``tabs`` directory contains an HTML file for each page you add to your
-course.
+The ``tabs`` directory contains an HTML file for each custom page in the course.
 
-For more information, see :ref:`Create tabs, or pages, in your course<Course Tabs OLX>`.
+For more information, see :ref:`Create tabs, or pages, in a course<Course Tabs OLX>`.
 
 ==========================
 ``vertical`` Directory

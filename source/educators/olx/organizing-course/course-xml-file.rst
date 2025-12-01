@@ -77,7 +77,7 @@ A partial example of the contents of a ``2025.xml`` file follows.
      - The name of the course. This value is in the course URL
        path, following the organization.
    * - ``advanced_modules``
-     - The list of advanced modules, or custom XBlocks, used in your course.
+     - The list of advanced modules, or custom XBlocks, used in the course.
    * - ``course_image``
      - The path to the course image, used in the Open edX Course Catalog and on the learner dashboard
    * - ``display_name``
@@ -122,7 +122,7 @@ For example:
 Course Sections
 *******************************
 
-You create a course section with the ``chapter`` element, as a child of the
+Authors create a course section with the ``chapter`` element, as a child of the
 ``course`` element. Chapter elements are top-level sections of the course.
 The Open edX platform renders navigation chrome around them (accordion on the left).
 
@@ -185,7 +185,7 @@ from `chapter/section_1_homework.xml <https://github.com/openedx/training-course
 Course Subsections
 *******************************
 
-You create a course subsection with the ``sequential`` element, for each
+Authors create a course subsection with the ``sequential`` element, for each
 subsection in the chapter.
 
 For example, the course can contain a subsection in this format, from
@@ -285,7 +285,7 @@ In the course structure, a course unit serves the following functions.
 * Defines the display name for the unit.
 * Organizes components.
 
-You create a course unit with the ``vertical`` element, for each unit in the
+Authors create a course unit with the ``vertical`` element, for each unit in the
 subsection.
 
 For example, the course can contain a vertical in this format.
@@ -326,7 +326,7 @@ in the unit.
   A unit element can also contain a vertical element, potentially creating a recursive definition of verticals.
   This is unsupported by Studio and not guaranteed to render properly - or at all - in the Open edX LMS or Libraries.
 
-Child elements of ``vertical`` refer to components in your course. The Open edX
+Child elements of ``vertical`` refer to components in the course. The Open edX
 platform supports a wide range of components, including custom XBlocks.
 
 .. seealso::

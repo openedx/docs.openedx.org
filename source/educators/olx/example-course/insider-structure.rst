@@ -46,7 +46,7 @@ Platform directories.
 * Course sections are defined in the ``chapter`` directory, subsections in the
   ``sequential`` directory, and units in the ``vertical`` directory.
 
-* HTML units are referenced in the ``html`` directory, where you'll find two
+* HTML units are referenced in the ``html`` directory, where there are two
   files: an XML file that calls an associated HTML file, which defines the HTML
   content.
 
@@ -66,7 +66,7 @@ Example of a Referenced XBlock
   untested and not guaranteed to work when imported into Open edX Studio,
   either currently or in future releases.
 
-You can reference an XBlock from the ``course.xml`` file.
+Authors can reference an XBlock from the ``course.xml`` file.
 
 For example, in ``course.xml``, the first vertical in the courseware contains a
 single HTML XBlock with the display name ``Week overview``, which references
@@ -102,9 +102,8 @@ Example of an Inline XBlock
   untested and not guaranteed to work when imported into Open edX Studio,
   either currently or in future releases.
 
-You can include XBlock content within the ``course.xml`` file. You can do
-this for ease of reading and maintenance when you do not need to reuse the
-content.
+Authors can include XBlock content within the ``course.xml`` file, for
+ease of reading and maintenance when the content is not needed for reuse.
 
 For example, in ``course.xml``, the sequential with the display name ``In-class
 exercise`` contains embedded HTML content.
@@ -201,13 +200,14 @@ For more information, see :ref:`Course Assets`.
 The ``vertical`` directory contains the XML for the 15 units used in the
 course.
 
-You can embed *units* (``vertical`` s) in the ``course.xml`` file, however this method
-is not guaranteed to work on Open edX Studio imports. It is recommended
-to store XML for units in separate files in the ``vertical`` directory.
+*Units* (``vertical`` s) can be embedded in the ``course.xml`` file, however
+this method is not guaranteed to work on Open edX Studio imports. It is
+recommended to store XML for units in separate files in the ``vertical``
+directory.
 
-The *units* are referenced in associated XML files for course *subsections* (in the
-``sequential/`` directory). For example, in
-``sequential/subsection_1_midterm_exam.xml``, you'll see:
+The *units* are referenced in associated XML files for course *subsections* (in
+the ``sequential/`` directory). For example, in
+``sequential/subsection_1_midterm_exam.xml``:
 
 .. code-block:: html
 
