@@ -57,7 +57,7 @@ Sequentials that Contain XBlocks
 *********************************
 
 One advantage of OLX (open learning XML) is the flexibility it allows in how
-you organize your course. For example, you can
+a course is organized. For example, authors can
 nest XBlocks and problems directly in a sequential, without the need for a
 vertical. This streamlines the course creation process while maintaining
 consistency in how students interact with courseware.

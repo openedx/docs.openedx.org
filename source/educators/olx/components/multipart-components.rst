@@ -17,11 +17,11 @@ single Submit button.
 Multiple Problems in One Component
 ***********************************
 
-You can create a problem that includes more than one response type. For
-example, you might want to create a numerical input problem and then include a
+Authors can create a problem that includes more than one response type. For
+example, authors might want to create a numerical input problem and then include a
 multiple choice problem that refers to the numerical input problem. Or,
-you might want a learner to be able to check the answers to many problems at
-one time. To do this, you can include multiple problems inside a single
+authors might want a learner to be able to check the answers to many problems at
+one time. To do this, authors can include multiple problems inside a single
 ``<problem>`` element. The problems can be different types.
 
 Each question and its answer options are enclosed by the element that
@@ -29,26 +29,26 @@ identifies the type of problem, such as ``<multiplechoiceresponse>`` for a
 multiple choice question or ``<formularesponse>`` for a math expression input
 question.
 
-You can provide a different explanation for each question by using the
+A different explanation for each question can be supplied by using the
 ``<solution>`` element.
 
-As a best practice, Open edX accessibility best practices recommend that you
-avoid including unformatted paragraph text between the questions; insert text
+As a best practice, Open edX accessibility best practices recommend that
+unformatted paragraph text between the questions be avoided; insert text
 using a ``<div>`` element. Screen readers can skip over text that is inserted
 among multiple questions.
 
 Elements such as the **Submit**, **Show Answer**, and **Reset** buttons, as
-well as the settings that you select for the problem component, apply to all
-of the problems in that component. Thus, if you set the maximum number of
-attempts to 3, the learner has three attempts to answer the entire set of
+well as the settings that are selected for the problem component, apply to all
+of the problems in that component. Thus, if the maximum number of
+attempts is set to 3, the learner has three attempts to answer the entire set of
 problems in the component as a whole rather than three attempts to answer each
 problem individually. If a learner selects **Submit**, the LMS scores all of
 the problems in the component at once. If a learner selects **Show Answer**,
 the answers for all the problems in the component appear.
 
 .. note::
-  You cannot use a :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>` in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
+  :ref:`Custom JavaScript<Guide to Custom JavaScript Display and Grading Problem>` cannot be used
+  in a component that contains more than one problem. Each custom JavaScript problem must be in its own
   component.
 
 Create a Multipart Component

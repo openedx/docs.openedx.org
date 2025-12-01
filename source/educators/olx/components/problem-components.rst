@@ -6,10 +6,10 @@ Problem Components in OLX
 
 .. tags:: educator, reference
 
-The problem component allows you to add interactive exercises to the units
-in your course. You can add many different types of exercises and problems.
+The problem component allows authors to add interactive exercises to the units
+in a course. Many different types of exercises and problems can be added.
 This section covers the basics of problem components: what they look like to
-you and your learners, and the options that every problem component has.
+authors and learners, and the options that every problem component has.
 
 .. contents::
    :local:
@@ -26,8 +26,8 @@ various *input types*, such as ``numericalresponse`` or ``stringresponse``.
 Standard HTML tags are used for formatting.
 
 OLX is designed to allow mixing and matching of input types and response types.
-For example, a numerical grader could match 7+-0.1%. Ideally, you could use this
-grader with any input type that returns numbers as its output, including a text
+For example, a numerical grader could match 7+-0.1%. Ideally, this grader could
+be used with any input type that returns numbers as its output, including a text
 box, equation input, slider, or multiple choice question. In practice, this does
 not always work. For example, a multiple choice question would not give an
 output in a format a numerical grader could handle.
@@ -49,15 +49,15 @@ parameterizing problems is approximately identical.
 Creating Graded or Ungraded Problems
 =====================================
 
-All problems receive a point score. However, when you establish the grading
-policy for your course, you specify the assignment types that will count toward
-learners' grades; for example, homework, lab, midterm, and final.
+All problems receive a point score. However, when a grading policy is
+established for a course, the assignment types that will count toward learners'
+grades are defined; for example, homework, lab, midterm, and final.
 
-As you develop your course, you can add problem components to the units in any
-subsection. The problem components that you add automatically inherit the
-assignment type that is defined at the subsection level. You can only set
-assignment types at the subsection level, not at the unit or individual
-component level.
+As a course is developed, problem components can be added to the units in any
+subsection. The problem components that are added automatically inherit the
+assignment type that is defined at the subsection level. Assignment types can
+only be set at the subsection level, not at the unit or individual component
+level.
 
 For more information, see :ref:`Grading Policy`.
 
@@ -103,14 +103,13 @@ in the ``olx_example_course``; it is replicated here:
 Problem Settings
 ******************
 
-In addition to the text of the problem, problems that you create have the
-following settings.
+In addition to the text of the problem, problems have the following settings.
 
 .. contents::
   :local:
   :depth: 1
 
-This section describes the OLX elements and attributes that you define for the
+This section describes the OLX elements and attributes that can be defined for the
 problem settings. For a detailed description of each setting, see
 :ref:`Guide to Problem Settings`.
 
@@ -118,7 +117,7 @@ problem settings. For a detailed description of each setting, see
 Display Name
 ===============
 
-Using OLX, you set the display name as an attribute of the ``<problem>``
+Using OLX, set the display name as an attribute of the ``<problem>``
 element.
 
 .. code-block:: xml
@@ -129,7 +128,7 @@ element.
 Maximum Attempts
 ==============================
 
-Using OLX, you set the maximum attempts as an attribute of the ``<problem>``
+Using OLX, set the maximum attempts as an attribute of the ``<problem>``
 element.
 
 .. code-block:: xml
@@ -143,7 +142,7 @@ element.
 Problem Weight
 ==============================
 
-Using OLX, you set the score of the component as an attribute of the ``<problem>``
+Using OLX, set the score of the component as an attribute of the ``<problem>``
 element.
 
 .. code-block:: xml
@@ -156,14 +155,14 @@ element.
 Randomization
 ===============
 
-Using OLX, you set value randomization as an attribute of the ``<problem>``
+Using OLX, set value randomization as an attribute of the ``<problem>``
 element.
 
 .. code-block:: xml
 
   <problem rerandomize="always"></problem>
 
-You can specify the following values for this attribute.
+The following values can be set for this attribute:
 
 * always
 * on_reset
@@ -176,14 +175,14 @@ You can specify the following values for this attribute.
 Show Answer
 ===============
 
-Using OLX, you set the show answer preference as an attribute of the
+Using OLX, set set the show answer preference as an attribute of the
 ``<problem>`` element.
 
 .. code-block:: xml
 
   <problem showanswer="correct_or_past_due"></problem>
 
-You can specify the following values for this attribute.
+The following values can be set for this attribute:
 
 * "always"
 * "answered"
@@ -203,7 +202,7 @@ You can specify the following values for this attribute.
 Show Reset Button
 =================
 
-Using OLX, you set the show reset button preference as an attribute of the
+Using OLX, set the show reset button preference as an attribute of the
 ``<problem>`` element.
 
 .. code-block:: xml
@@ -216,30 +215,29 @@ Using OLX, you set the show reset button preference as an attribute of the
 Modifying a Released Problem
 *********************************
 
-.. warning:: Be careful when you modify problems after they have been
- released! Changes that you make to published problems can affect the learner
+.. warning:: Be careful when modifying problems after they have been
+ released! Changes that are made to published problems can affect the learner
  experience in the course and analysis of course data.
 
 After a learner submits a response to a problem, the LMS stores the learner's
 response, the score that the learner received, and the maximum score for the
 problem. For problems with a **Maximum Attempts** setting greater than 1, the
 LMS updates these values each time the learner submits a new response to a
-problem. However, if you change a problem or its attributes,
-existing learner information for that problem is not automatically updated.
+problem. However, if a problem or its attributes are changed, existing learner
+information for that problem is not automatically updated.
 
-For example, you might release a problem and specify that its answer is 3.
-After some learners have submitted responses, you notice that the answer
-should be 2 instead of 3. When you update the problem with the correct
-answer, the LMS does not update scores for learners who answered 2 for the
-original problem and thus received the wrong score.
+For example, a problem might be released with the answer specified as "3". After
+some learners have submitted responses, the course team notices that the answer
+should be 2 instead of 3. When the problem is updated with the correct answer,
+the LMS does not update scores for learners who answered 2 for the original
+problem and thus received the wrong score.
 
-For another example, you might change the number of response fields to
-three. Learners who submitted answers before the change have a score of
-0, 1, or 2 out of 2.0 for that problem. Learners who submitted answers
-after the change have scores of 0, 1, 2, or 3 out of 3.0 for the same
-problem.
+For another example, the number of response fields is changed fom two to three.
+Learners who submitted answers before the change have a score of 0, 1, or 2 out
+of 2.0 for that problem. Learners who submitted answers after the change have
+scores of 0, 1, 2, or 3 out of 3.0 for the same problem.
 
-If you change the weight setting for the problem in Studio, however, existing
+If the weight setting for the problem in Studio is changed, however, existing
 learner scores update when the learner's **Progress** page is refreshed. In a
 live section, learners will see the effect of these changes.
 
@@ -251,19 +249,18 @@ The Instructor Dashboard allows rescoring existing submissions for either a
 specific learner, or all learners in the course. However, this may not be ideal
 in the situation that the problem itself has changed.
 
-If you have to modify a released problem in a way that affects grading, you
-have two options within Studio to assure that every learner has the opportunity
-to submit a new response and be regraded. Note that both options require you to
-ask your learners to go back and resubmit answers to a problem.
+If a released problem has to be modifyed in a way that affects grading, there are
+two options within Studio to assure that every learner has the opportunity to
+submit a new response and be regraded. Note that both options require the course
+team to ask their learners to go back and resubmit answers to a problem.
 
-*  In the problem component that you changed, increase the number of attempts
-   for the problem. Then ask all your learners to redo the problem.
+*  In the problem component that was changed, increase the number of attempts
+   for the problem. Then ask all learners to redo the problem.
 
 *  Delete the entire Problem component in Studio and create a new Problem
-   component with the content and settings that you want. (If the revisions you
-   must make are minor, duplicate the problem component before you delete it
-   and revise the copy.) Then ask all your learners to complete the new
-   problem.
+   component with the correct content and settings. (If the revisions needed are
+   minor, duplicate the problem component before it is deleted and revise the
+   copy.) Then ask all learners to complete the new problem.
 
 ****************************************************
 Adding Feedback and Hints to a Problem
@@ -290,9 +287,10 @@ Problem Randomization
 Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
 
-You can provide different learners with different problems by using randomized
-content blocks, which randomly draw problems from pools of problems stored in
-content libraries. For more information, see :ref:`Randomized Content Blocks`.
+ifferent learners can be provided with with different problems by using
+randomized content blocks, which randomly draw problems from pools of problems
+stored in content libraries. For more information, see :ref:`Randomized Content
+Blocks`.
 
 .. note:: Problem randomization is different from the **Randomization** setting
    in Studio. Problem randomization offers different problems or problem
@@ -308,13 +306,13 @@ content libraries. For more information, see :ref:`Randomized Content Blocks`.
 Create Randomized Problems
 ====================================
 
-.. note:: Creating randomized problems by exporting your course and editing
-   some of your course's XML files is no longer supported.
+.. note:: Creating randomized problems by exporting a course and editing
+   some of the course's XML files is no longer supported.
 
-You can provide different learners with different problems by using randomized
-content blocks, which randomly draw problems from pools of problems stored in
-content libraries. For more information, see
-:ref:`Randomized Content Blocks`.
+Different learners can be provided with with different problems by using
+randomized content blocks, which randomly draw problems from pools of problems
+stored in content libraries. For more information, see :ref:`Randomized Content
+Blocks`.
 
 **************************
 Tooltips

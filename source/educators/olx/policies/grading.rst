@@ -6,7 +6,7 @@ Create OLX Grading Policy
 
 .. tags:: educator, how-to
 
-You create a grading policy file to specify how problems are graded in your
+Authors create a grading policy file to specify how problems are graded in the
 course.
 
 .. contents::
@@ -17,7 +17,7 @@ course.
 Create the Grading Policy File
 *******************************
 
-You define policies for your course in the ``grading_policy.json`` file.
+Define policies for the course in the ``grading_policy.json`` file.
 
 Save the ``grading_policy.json`` file in the ``policy/<course-name>``
 directory.

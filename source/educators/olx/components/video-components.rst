@@ -6,7 +6,7 @@ Video Components in OLX
 
 .. tags:: educator, reference
 
-You can add video components to a course unit via the ``video/<video_name>.xml`` file.
+Authors can add video components to a course unit via the ``video/<video_name>.xml`` file.
 
 .. contents::
   :local:
@@ -16,7 +16,7 @@ You can add video components to a course unit via the ``video/<video_name>.xml``
 Create the XML File for a Video Component
 **********************************************
 
-To add a video component to your course, add it to the course XML tree as
+To add a video component to a course, add it to the course XML tree as
 follows. This is ``video/purpose_power_reach.xml`` in the olx_example_course.
 
 .. code-block:: xml
@@ -33,7 +33,7 @@ follows. This is ``video/purpose_power_reach.xml`` in the olx_example_course.
     youtube_id_1_0="lVPPPpyUOR4"/>
 
 
-Place an XML file in the ``video`` directory for each video component in your course.
+Place an XML file in the ``video`` directory for each video component in the course.
 
 The name of the XML file must match the value of the @url_name attribute of the
 ``video`` element in the vertical XML file.
@@ -47,8 +47,7 @@ For example, the vertical XML file uses the following format.
   </vertical>
 
 
-You create the file ``video/purpose_power_reach.xml`` to define the video
-component.
+Create the file ``video/purpose_power_reach.xml`` to define the video component.
 
 *************************************
 Video Component XML File Elements

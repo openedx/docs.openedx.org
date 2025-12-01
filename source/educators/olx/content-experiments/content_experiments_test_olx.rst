@@ -8,8 +8,8 @@ Test Content Experiments in OLX
 
 .. tags:: educator, how-to
 
-You should test content experiments in your course before the course starts, to
-ensure that content is delivered to experiment groups as you intended.
+Content experiments should be tested before the course starts, to
+ensure that content is delivered to experiment groups as intended.
 
 For more information, see :ref:`Test Content Experiments`.
 

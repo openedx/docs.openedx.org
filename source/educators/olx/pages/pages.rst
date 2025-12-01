@@ -6,14 +6,14 @@ Create Course Tabs in OLX
 
 .. tags:: educator, how-to
 
-You can add custom tabs, or pages, to your course. Each page appears in your course's
+Authors can add custom tabs, or pages, to a course. Each page appears in the course's
 navigation bar.
 
 *********************************************
 Create the Tab File
 *********************************************
 
-For each page you want your course to offer, you create an HTML file in the
+For each custom page in the course, create an HTML file in the
 ``tabs`` directory. It can be as simple as this:
 
 *Contents of* ``html_custom_tab.html``:
@@ -24,12 +24,12 @@ For each page you want your course to offer, you create an HTML file in the
 
   <p>This is a custom HTML page added as a custom tab to the course.</p>
 
-You can add any text and HTML markup to the page. Pages can also be links or
+Any text and HTML markup can be added to the page. Pages can also be links or
 other types of content. One design pattern is to link a tab to a chromeless
 XBlock in the courseware, which allows for top-level interactive course
 content.
 
-Ensure you place the custom tab properly in the ``policy.json`` file as detailed
+Ensure the custom tab is placed properly in the ``policy.json`` file as detailed
 in :ref:`Course Policies`.
 
 .. code-block:: json

@@ -14,21 +14,21 @@ HTML Components in OLX
 Create the HTML Component
 *********************************************
 
-To add an HTML component to your course, split it up into 2 files: The HTML
+To add an HTML component to a course, split it up into 2 files: The HTML
 configuration into an .xml file in the html directory and an additional .html
 file in the same directory.
 
 .. caution::
   
-  If you are including HTML that is not valid HTML, you must break out HTML content in a separate file.
+  HTML that is not valid HTML must be broken out into a separate file.
 
 
 *********************************************
 Example of XML & HTML Files
 *********************************************
 
-You create an XML file in the ``html`` directory for the content that you
-choose to break out into separate HTML files.
+Create an XML file in the ``html`` directory for the content that is broken out
+into separate HTML files.
 
 The name of the XML file must match the value of the @url_name attribute of the
 ``html`` element in the vertical XML file.
@@ -67,8 +67,8 @@ The following example shows the ``html/what_is_olx.xml`` file for an HTML compon
      - Meaning
    * - ``display_name``
      - Required. The value that is displayed to learners as the name of the
-       HTML component. If you do not supply a ``display_name`` value, "html" is
-       supplied for you.
+       HTML component. If a ``display_name`` value is not supplied, "html" is
+       supplied.
    * - ``filename``
      - The name of the HTML file that contains the content for the HTML
        component, without the ``.HTML`` extension.
@@ -86,8 +86,8 @@ In this case, the ``html`` element contains no children.
 Example HTML Component Content
 *************************************
 
-In the component's HTML file, you add valid HTML to represent the content you
-want to be displayed to learners. For example, the following is from an HTML
+In the component's HTML file, add valid HTML to represent the content that will
+be displayed to learners. For example, the following is from an HTML
 file from the olx_example_course:
 
 .. code-block:: html

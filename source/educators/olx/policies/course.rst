@@ -6,7 +6,7 @@ Create OLX Course Policies
 
 .. tags:: educator, how-to
 
-You create a course policy file to specify metadata about your course.
+Authors create a course policy file to specify metadata about a course.
 
 .. contents::
   :local:
@@ -16,7 +16,7 @@ You create a course policy file to specify metadata about your course.
 Create the Course Policy File
 *******************************
 
-You define policies for your course in the ``policy.json`` file.
+Define policies for the course in the ``policy.json`` file.
 
 Save the ``policy.json`` file in the ``policy/<course-name>`` directory.
 
@@ -59,7 +59,7 @@ Course Policy JSON Objects
       - Custom pages, or tabs, in the courseware.  See below for details.
     * - ``discussion_blackouts``
       - An array of time intervals during which students cannot create or edit
-        discussion posts. For example, you could specify blackout dates during
+        discussion posts. For example, specifying blackout dates during
         exams. For example:
 
         ``[[""2017-10-29T04:00", "2017-11-03T04:00"], ["2017-12-30T04:00", "2018-01-02T04:00"]]``

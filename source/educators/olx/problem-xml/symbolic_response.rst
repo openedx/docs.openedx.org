@@ -39,8 +39,8 @@ This is a partial list of features, to be revised over time.
 
   It's a bit of a pain to enter that.
 
-* The script-style math variant. What would be outputted in LaTeX if you
-  entered ``\mathcal{N}``. This is used in some variables.
+* The script-style math variant. What would be outputted in LaTeX if
+  ``\mathcal{N}`` was entered. This is used in some variables.
 
   An example::
 
@@ -48,8 +48,8 @@ This is a partial list of features, to be revised over time.
         <textline math="1"/>
       </symbolicresponse>
 
-  There is no fancy preprocessing needed, but if you had superscripts or
-  something, you would need to include that part.
+  There is no fancy preprocessing needed, but if superscripts or
+  complicated typesetting is used, that part would need to be included.
 
 
 .. seealso::

@@ -6,8 +6,8 @@ OLX Course Building Blocks
 
 .. tags:: educator, concept
 
-Before you begin using OLX (open learning XML) to set up a course, you should
-understand the building blocks of an Open edX course.
+Before beginning to use OLX (open learning XML) to set up a course, it is
+important to understand the building blocks of an Open edX course.
 
 .. contents::
   :local:
@@ -17,11 +17,11 @@ understand the building blocks of an Open edX course.
 Courseware
 **************
 
-Courseware is the main content of your course and consists mainly of lessons
+Courseware is the main content of a course and consists mainly of lessons
 and assessments. The following list describes how courseware is organized in
 OLX.
 
-* Course sections are at the top level of your course and typically
+* Course sections are at the top level of a course and typically
   represent a time period. In OLX, sections are defined in the ``chapter`` directory.
 
 * A section contains one or more children ("subsections") which correspond to
@@ -48,25 +48,25 @@ For more information, see :ref:`The Courseware Structure`.
 Supplemental Course Content
 ****************************
 
-In addition to the courseware described above, you course can contain
+In addition to the courseware described above, a course can contain
 supplemental content, such as textbooks, custom pages, and files.  The
 following list describes the types of supported content.
 
 * Course about pages appear in the default Open edX course catalog for prospective students and are
-  used to market your course. For more information, see :ref:`Course Overview`.
+  used to market a course. For more information, see :ref:`Course Overview`.
 
-* Course assets are any supplemental files you use in your course, such as a
+* Course assets are any supplemental files used in a course, such as a
   syllabus as a PDF file or an image that appears in an HTML component. For
   more information, see :ref:`Course Assets`.
 
-* Course pages are custom pages that you can have appear in the top navigation
-  menu of your course. For more information, see :ref:`Create tabs, or pages, in your course<Course Tabs OLX>`.
+* Course pages are custom pages that appear in the top navigation
+  menu of a course. For more information, see :ref:`Create tabs, or pages, in a course<Course Tabs OLX>`.
 
 ****************************
 Course Policies
 ****************************
 
-Course policies determine how your course functions. For example, policies
+Course policies determine how a course functions. For example, policies
 control grading and content experiments. For more information, see
 :ref:`Course Policies`.
 

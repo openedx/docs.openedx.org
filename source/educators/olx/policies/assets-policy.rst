@@ -6,25 +6,24 @@ Create Course Assets and Textbooks in OLX
 
 .. tags:: educator, how-to
 
-You create an asset policy file to provide details of the assets used in your
+Authors create an asset policy file to provide details of the assets used in a
 course. Assets can include image files, textbooks, and handouts.
 
 .. contents::
   :local:
   :depth: 1
 
-You must enter policy details for each asset you add to the ``static``
+Authors must enter policy details for each asset added to the ``static``
 directory. For more information, see :ref:`Course Assets`.
 
 *******************************
 Create the Asset Policy File
 *******************************
 
-You define policies for your assets in the ``assets.json`` file.
+Authors define policies for course assets in the ``assets.json`` file.
 
-Save the ``assets.json`` file in the ``policy`` directory. You use one
-``assets.json`` file for all of the courses you might have in your directory
-structure.
+Save the ``assets.json`` file in the ``policy`` directory. Use one
+``assets.json`` file for all of the courses that might be in the directory structure.
 
 ************************************
 Asset Policy JSON Objects
@@ -53,8 +52,8 @@ For each asset, the following fields must be provided in a JSON dict for that as
     * - ``import_path``
       - ``null`` (TBD - why?)
     * - ``locked``
-      - ``true`` if users can only access the file from within your course.
-        ``false`` if users can access the file from outside of your course.      
+      - ``true`` if users can only access the file from within the course.
+        ``false`` if users can access the file from outside of the course.      
     * - ``thumbnail_location``
       - Either ``null`` (for assets without a thumbnail type, such as PDFs), or, an array containing:
          * ``c4x``
@@ -125,15 +124,15 @@ The following example shows the JSON policy for an image file and a PDF textbook
 Create Textbooks
 *********************************************
 
-As described above, first upload a textbook asset to
-your course in the ``static`` directory.
+As described above, first upload a textbook asset to the course in the
+``static`` directory.
 
 .. admonition:: Accessibility concerns
 
   See the notes in the :ref:`Add Course Textbooks` article around accessibility - namely, that
   PDF textbooks are accessible whereas PNG/image files are not.
 
-Then, as described above, link it in your ``assets.json`` file.
+Then, as described above, link it in the course ``assets.json`` file.
 
 Finally, update the ``policy.json`` file (described in :ref:`Course Policies`)
 with information in the ``pdf_textbooks`` key:

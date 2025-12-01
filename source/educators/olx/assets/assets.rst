@@ -6,11 +6,11 @@ Create Course Assets in OLX
 
 .. tags:: educator, how-to
 
-You must put all assets, or files that support your course, in the ``static``
+All assets, or files that support the course, must be placed in the ``static``
 directory. Assets include any image files, textbooks, handouts, and supporting
 JavaScript files.
 
-You must also define the asset in the assets policy file. For more information,
+Assets must be defined in the assets policy file. For more information,
 see :ref:`Course Asset Policy`.
 
 .. seealso::
