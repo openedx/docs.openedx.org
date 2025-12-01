@@ -21,6 +21,26 @@ Open edX Documentation
    :gutter: 3
    :padding: 0
 
+   .. grid-item-card:: 📰 What's New?
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. toctree::
+         :maxdepth: 1
+         :hidden:
+
+         📰 What's New? <community/release_notes/teak/teak_marketing_notes>
+
+      The Open edX Teak release is out, featuring:
+
+      💡 Easier Content Reuse with Libraries!
+
+      📈 Analytics in Studio!
+
+      🏅 Badges for Learners!
+
+      ... and lots more! :ref:`Continue reading... <Teak Product Marketing Notes>`
+
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
@@ -33,19 +53,6 @@ Open edX Documentation
          Site Operators: Set up Open edX <site_ops/quickstarts/index>
          Developers: Contribute to Open edX <developers/quickstarts/first_openedx_pr>
          Documentors: First Documentation PR <documentors/quickstarts/first_documentation_pr>
-
-   .. grid-item-card::
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. toctree::
-         :maxdepth: 1
-         :caption: Open Source Community
-
-         Current Release: Teak <community/release_notes/teak>
-         All Release Notes <community/release_notes/index>
-         How to Contribute <https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base>
-         OEPs (Open edX Proposals): Community Decision Documents <https://docs.openedx.org/projects/openedx-proposals/en/latest/>
 
    .. grid-item-card:: Educators
       :class-card: sd-shadow-md sd-p-2

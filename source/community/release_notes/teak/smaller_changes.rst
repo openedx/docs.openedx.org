@@ -7,6 +7,8 @@ Smaller Changes (Potpourri)
   :local:
   :depth: 1
 
+.. _Preview Button (Teak):
+
 Preview Button Improvement
 ****************************
 
@@ -36,6 +38,8 @@ Studio UI Modernization
   experience by enabling the course waffle flag
   ``legacy_studio.problem_editor``. In Ulmo, this option will be removed: only
   the new editor will be available.
+
+.. _Problem Editor (Teak):
 
 Problem Editor Improvements
 ****************************
