@@ -49,8 +49,9 @@ The top-level ``course.xml`` file *can* contain an entire course, but in Studio
 exports, content is split out into individual files. This is done at the level
 of *containers* such as sections (``chapter``), subsections (``sequential``) &
 units (``vertical``), and *components*, such as problems, videos, or HTML (text
-components). Certain components, such as ORA, appear in-line, while others
-appear in their own files as detailed below.
+components). Certain components, such as `the LTI component
+<https://github.com/openedx/training-courses/blob/main/olx_example_course/course/vertical/unit_3_lti.xml>`_,
+appear in-line, while others appear in their own files as detailed below.
 
 For example, the `Open edX DemoX Course
 <https://github.com/openedx/openedx-demo-course>`_ contains a course with many
