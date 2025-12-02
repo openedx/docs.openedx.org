@@ -20,8 +20,8 @@ for that MFE's plugin slot(s).
 
 In these release notes, we'll detail the new and updated plugin slots found in the Ulmo
 release. The full list of existing plugin slots can be found in
-:doc:`/site_ops/references/frontend-plugin-slots`, and usage instructions are
-available at :doc:`/site_ops/how-tos/use-frontend-plugin-slots`.
+:ref:`Available Frontend Plugin Slots`, and usage instructions are
+available at :ref:`Use A Frontend Plugin Framework Slot`.
 
 .. contents::
   :local:
@@ -119,7 +119,7 @@ Learning MFE
   Added ``pluginProps``.
 
 * Updated `UnitTitleSlot <https://github.com/openedx/frontend-app-learning/tree/release/ulmo/src/plugin-slots/UnitTitleSlot>`_:
-  Modified ``pluginProps`` behavior, ``isEnabledOutlineSidebar`` is now always `true`. 
+  Modified ``pluginProps`` behavior, ``isEnabledOutlineSidebar`` is now always ``true``. 
 
 
 .. seealso::
