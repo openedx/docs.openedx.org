@@ -74,6 +74,12 @@ To import a library, follow these steps.
 
 #. Drag and drop the file, or click to upload, your ``.zip`` file.
 
+#. After your file is uploaded, you'll see information about the imported
+   library at the top of the screen:
+
+   ..  image:: /_images/educator_how_tos/library_import_screen.png
+       :alt: The "Create library" page with information about the uploaded library
+
 #. Enter in the name, organization, and Library ID for the library.
 
 #. When the import process finishes, you'll be taken to your new library.
