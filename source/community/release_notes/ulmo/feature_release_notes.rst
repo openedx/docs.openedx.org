@@ -14,6 +14,7 @@ Open edX Ulmo Release - Product Release Notes
    ulmo_catalog
    design_tokens
    stay_up_to_date
+   ulmo_lti_cert
 
 
 Information for site operators and developers, including information on how to

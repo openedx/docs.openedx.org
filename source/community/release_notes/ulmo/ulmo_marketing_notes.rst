@@ -16,6 +16,10 @@ click!
 **Simplified LTI**: Tired of wrestling with LTI integrations? Set up credentials
 once and reuse them across all your tools with our streamlined LTI 1.3 plugin.
 
+:ref:`LTI Certified ✅ <Ulmo LTI Certification>`: The Open edX Ulmo Release
+has achieved the `LTI Advantage Complete
+<https://www.imsglobal.org/lti-advantage-overview>`_ certification!
+
 🎓 For Learners
 *****************
 
