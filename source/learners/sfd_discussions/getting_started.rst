@@ -62,6 +62,14 @@ You can access course discussions in two ways:
 Basic elements
 ***************
 
+.. figure:: /_images/learners/Discussions_elements.png
+   :alt: Elements of a discussion.
+   :width: 600px
+   :align: center
+
+   A discussion can comprise of the post, responses, comments and a topic that the post belongs to.
+
+
 Each discussion has the following components:
 
 #. Post: The question or idea that someone shares. A post starts a discussion. It has a title, name of the author, its type (question or discussion) and the topic it is linked to.
@@ -73,19 +81,20 @@ Each discussion has the following components:
 #. Topic: A topic indicates what the post is about. Every post belongs to a topic. Topics group related discussions together and help you browse and keep course conversations organized. For example, *Week 2: Problem Set 1*, *General Questions*, or *Feedback*.
 
 
-.. figure:: /_images/learners/Discussions_elements.png
-   :alt: Elements of a discussion.
-   :width: 600px
-   :align: center
+.. seealso::
 
-   A discussion can comprise of the post, responses, comments and a topic that the post belongs to.
 
+ :ref:`Finding and Following the Right Conversations`
+
+ :ref:`Taking Part in Discussions`
+
+ :ref:`Staying Updated with Notifications`
 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |                                |
 +--------------+-------------------------------+----------------+--------------------------------+

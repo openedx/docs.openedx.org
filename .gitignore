@@ -4,4 +4,5 @@ _tags
 source/.DS_Store
 .idea/
 sphinx-env/
-venv/
+.venv/
+sphinx.log
