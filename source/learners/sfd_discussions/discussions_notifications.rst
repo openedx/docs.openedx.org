@@ -91,7 +91,7 @@ Other discussion notification preferences
 .. tip::
 
    **Activity notifications** cover almost all events in threads and responses you create or follow.  
-   You can turn them off completely or change only the email frequency in the **Preferences Center**.
+   You can turn them off completely or change the email frequency in the **Preferences Center**.
 
 
 
