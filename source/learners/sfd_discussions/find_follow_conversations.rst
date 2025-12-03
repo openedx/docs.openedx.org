@@ -1,4 +1,4 @@
-.. _find-follow-conversations:
+.. _Finding and Following the Right Conversations:
 
 ##############################################
 Finding and Following the Right Conversations
@@ -17,6 +17,14 @@ Knowing how to browse and search helps you save time and discover conversations 
 Navigating the Discussions page
 ********************************
 
+.. figure:: /_images/learners/Discussions_page.png
+   :alt: Screenshot of the discussion page
+   :width: 600px
+   :align: center
+
+   The Discussion page with navigation pane, content list, and content view areas.
+
+
 When you open the Discussions tab in your course, you see four tabs at the top, as shown in the image below. 
 
 1. **My Posts:** Shows all posts that you’ve written or taken part in through a response or comment. Click a post title in the left panel to open it and see its responses and comments.
@@ -31,30 +39,30 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
 
 4. **Learners:** Shows everyone who has written a post, response, or comment. Click a username to see their contributions. Under each name you can see the number of posts they created and their total contributions.
 
-.. tip:: Use *My Posts* for tracking your own activity and *Topics* when you want to focus on the part of the course you are studying.
-
-
-.. figure:: /_images/learners/Discussions_page.png
-   :alt: Screenshot of the discussion page
-   :width: 600px
-   :align: center
-
-   The Discussion page with navigation pane, content list, and content view areas.
-
-
 
 .. figure:: /_images/learners/Discussions_topics.png
    :alt: How to navigate topic hierarchy.
    :width: 600
    :align: center
 
-   Navigating the 3-level topic hierarchy to view posts beloning to a topic.
+   Navigating the 3-level topic hierarchy to view posts belonging to a topic.
+
+
+.. tip:: Use *My Posts* for tracking your own activity and *Topics* when you want to focus on the part of the course you are studying.
+
 
 .. _Discussions inside course units:
 
 *********************************
 Discussions inside course units
 *********************************
+
+.. figure:: /_images/learners/Discussions_sidebar.png
+   :alt: Discussions sidebar can be seen on right side of course content when enabled.
+   :width: 600
+   :align: center
+
+   Discussions sidebar can be seen on right side of course content when enabled.
 
 Some course units include a discussion panel on the right side of the page. It shows only the posts related to that
 unit’s topic, giving you a focused view of the conversation. Any post you create here also appears on the main
@@ -64,26 +72,11 @@ Discussions page.
    Use the main Discussions tab when you want to search or browse across the entire course.
 
 
-.. figure:: /_images/learners/Discussions_sidebar.png
-   :alt: Discussions sidebar can be seen on right side of course content when enabled.
-   :width: 600
-   :align: center
-
-   Discussions sidebar can be seen on right side of course content when enabled.
-
-
 .. _Searching and filtering:
 
 ************************
 Searching and filtering
 ************************
-
-The search field at the top of *Discussions* page lets you search for:
-
-1. Discussion content when you have *All Posts* or *My Posts* tab open
-2. Discussion topics when you have *Topics* tab open
-3. Discussion users when you have *Learners* tab open. You can search by full or partial usernames.
-
 
 .. figure:: /_images/learners/Discussions_search.png
    :alt: Search bar on top of *Discussions* page.
@@ -91,6 +84,20 @@ The search field at the top of *Discussions* page lets you search for:
    :align: center
 
    Use the search bar to search for content, topics and learners.
+
+
+The search field at the top of *Discussions* page lets you search for:
+
+1. Discussion content when you have *All Posts* or *My Posts* tab open
+2. Discussion topics when you have *Topics* tab open
+3. Discussion users when you have *Learners* tab open. You can search by full or partial usernames.
+
+.. figure:: /_images/learners/Discussions_filters.png
+   :alt: Filter options for discussion posts.
+   :width: 400
+   :align: center
+
+   Use sorts and filters to find the right conversations.
 
 
 You can also filter or sort posts:
@@ -101,16 +108,7 @@ You can also filter or sort posts:
 
 By default, all post types and statuses are displayed, sorted by recent activity.
 
-.. figure:: /_images/learners/Discussions_filters.png
-   :alt: Filter options for discussion posts.
-   :width: 400
-   :align: center
-
-   Use sorts and filters to find the right conversations.
-
-
 You can also sort responses by date created, as shown in the image below.
-
 
 .. figure:: /_images/learners/Discussions_response_sort.png
    :alt: Option to sort responses.
@@ -126,6 +124,14 @@ You can also sort responses by date created, as shown in the image below.
 Viewing pinned and followed posts
 *****************************************
 
+.. figure:: /_images/learners/Discussions_pinned_following.png
+   :alt: Markers for pinned and followed discussions.
+   :width: 400
+   :align: center
+
+   Pinned posts appear on top of the list and followed posts display a filled star icon.
+
+
 Instructors and moderator can pin posts. These posts stay at the top of every list. 
 They often contain key announcements or resources from the course team. 
 
@@ -135,21 +141,24 @@ when new responses arrive.
 
 By default, you are following every post that you author.
 
-.. note:: You will receive notifications of any activity on posts that you are following. Learn more in :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+.. note:: You will receive notifications of any activity on posts that you are following.
+Learn more in :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
 
 
-.. figure:: /_images/learners/Discussions_pinned_following.png
-   :alt: Markers for pinned and followed discussions.
-   :width: 400
-   :align: center
+.. seealso::
 
-   Pinned posts appear on top of the list and followed posts display a filled star icon.
+
+ :ref:`Getting started with Discussions`
+
+ :ref:`Taking Part in Discussions`
+
+ :ref:`Staying Updated with Notifications`
 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |                                |
 +--------------+-------------------------------+----------------+--------------------------------+
