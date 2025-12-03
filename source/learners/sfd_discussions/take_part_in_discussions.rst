@@ -202,7 +202,7 @@ When a post is closed
 A closed post shows a lock icon at the bottom right corner.
 If you are the author, a banner appears at the top explaining why the post was closed.
 
-Moderators may close posts that are off-topic, duplicates, resolved, or related to graded assignments or exams.  
+Moderators might close posts for reasons that include: they are off-topic, duplicates, resolved, or related to graded assignments or exams.  
 Closed posts can be reopened by moderators if needed.
 
 .. figure:: /_images/learners/Discussions_post_closed_banner.png
