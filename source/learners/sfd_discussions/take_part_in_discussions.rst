@@ -193,7 +193,7 @@ Moderation actions
 ******************************
 
 Moderators help maintain a respectful learning environment.  
-They can close posts to prevent new replies or edit or delete content.
+They can close posts to prevent new replies, or edit or delete content.
 
 ===========================
 When a post is closed
