@@ -54,7 +54,7 @@ A post starts a new conversation.
 
 .. Tip::
    You can subscribe to notifications for new discussions or new question posts from the Preference Center.  
-   See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+   See :ref:`Staying Updated with Notifications`.
 
 
 .. _Responding and commenting:
@@ -80,7 +80,7 @@ Open a post, write your response or comment, and click *Submit*.
 
 .. note::
    You will receive a notification when someone creates a response or a comment on your post or response.  
-   See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+   See :ref:`Staying Updated with Notifications`.
 
 
 .. _Editing or deleting your own contributions:
@@ -142,7 +142,7 @@ If you created a question post, you can mark a response as the answer yourself.
 .. note::
    You will receive a notification if your response is endorsed or marked as the answer,  
    or if a response on your post is endorsed or marked as the answer.  
-   See :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+   See :ref:`Staying Updated with Notifications`.
 
 
 .. _Liking posts and responses:

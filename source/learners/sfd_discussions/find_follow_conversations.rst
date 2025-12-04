@@ -141,8 +141,7 @@ when new responses arrive.
 
 By default, you are following every post that you author.
 
-.. note:: You will receive notifications of any activity on posts that you are following.
-Learn more in :ref:`Staying Updated with Notifications <staying-updated-with-notifications>`.
+.. note:: You will receive notifications of any activity on posts that you are following. Learn more in  :ref:`Staying Updated with Notifications`.
 
 
 .. seealso::
