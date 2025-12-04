@@ -1,4 +1,4 @@
-.. _Notifications & Preferences:
+.. _Notifications & Preferences Educators:
 
 ###########################
 Notifications & Preferences
