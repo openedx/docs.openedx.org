@@ -1,3 +1,5 @@
+.. _Frontend Slots Header (Sumac):
+
 Customizing Site Header Using Frontend "Slots"
 ##############################################
 
@@ -75,9 +77,9 @@ release note!
 
 .. seealso::
 
-   * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
+   * :ref:`Frontend Slots Learner Dash (Sumac)`
 
-   * :doc:`customizing_learner_dashboard`
+   * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
 
    * :doc:`/site_ops/references/frontend-plugin-slots`
 

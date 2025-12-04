@@ -1,3 +1,5 @@
+.. _Olive editing:
+
 Improved Studio Editing in Olive
 ################################
 

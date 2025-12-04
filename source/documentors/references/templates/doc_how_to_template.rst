@@ -3,7 +3,7 @@
 How-To Document Template
 ########################
 
-.. tags:: documentor, reference
+.. tags:: documentor, how-to
 
 A How-To guide document guides the reader through the steps to solve a real-world problem. This documentation is goal-oriented and similar to recipes, with directions that guide the reader through the steps to achieve a specific end.
 

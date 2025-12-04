@@ -1,5 +1,11 @@
+.. _Sumac Product Notes:
+
 Open edX Sumac Release - Product Release Notes
 ##############################################
+
+The Open edX Teak Release was released on December 9, 2024.
+
+:ref:`What's New? <Sumac Product Marketing Notes>`
 
 .. toctree::
    :maxdepth: 1

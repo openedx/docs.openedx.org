@@ -11,6 +11,8 @@ have contributed to this release.
   :local:
   :depth: 1
 
+.. _Palm bulk email:
+
 New Bulk Email Experience
 *************************
 
@@ -71,6 +73,8 @@ recent enrollment (default) or title.
 
 Courses on the homepage are now *paginated*, meaning only 25 courses will show at
 one time. This improves the loading time of the page.
+
+.. _DEPR Rate:
 
 Rate XBlock
 ***********

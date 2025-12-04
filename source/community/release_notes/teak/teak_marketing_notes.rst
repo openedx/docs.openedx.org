@@ -38,10 +38,14 @@ button in Studio now uses the default student experience rather than the legacy 
 see content exactly as learners will, improving content validation during
 authoring.
 
+:ref:`LTI Certified ✅ <Teak LTI Certification>`: The Open edX Teak Release
+has achieved the `LTI Advantage Complete
+<https://www.imsglobal.org/lti-advantage-overview>`_ certification!
+
 🎓 For Learners
 *****************
 
-:ref:`Give learners credentials they'll want to share<Badging (Teak)>`: In
+:ref:`Give Learners Credentials They'll Want to Share <Badging (Teak)>`: In
 addition to certificates, learners can now earn digital badges — a
 more portable, shareable credential that can be added to social media profiles
 and email signatures. While certificates provide detailed achievement records,
@@ -52,11 +56,11 @@ and manage these badges.
 ⚙️ For Site Operators 
 **********************
 
-:ref:`More flexibility for your tech team to build custom features <Teak Frontend Plugin Slots>`: More
+:ref:`More Flexibility To Build Custom Features <Teak Frontend Plugin Slots>`: More
 plugin slots have been added across the platform to support easier customization and extension by your
 development or operations team.
 
-:ref:`Your site, your brand — now faster than ever <Teak Design Tokens>`: Our
+:ref:`Your Site, Your Brand — Now Faster Than Ever <Teak Design Tokens>`: Our
 new theming system takes only seconds to change, switch,
 and deploy your organization's brand themes. Customize your site's look and feel
 consistently across your full site. We encourage operators to test out this
@@ -87,7 +91,7 @@ theming support.
 **Important**: The Ulmo release will require the new theming system. Get ahead
 of the curve and test it now so your upgrade is seamless!
 
-⌚ Ready to upgrade?
+⌚ Ready to Upgrade?
 ***********************
 
 Have your site operations team check out the `Tutor upgrading guide

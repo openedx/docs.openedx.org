@@ -1,3 +1,5 @@
+.. _DemoX Quince:
+
 Introducing the New DemoX Course (Quince)
 #########################################
 

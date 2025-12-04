@@ -49,25 +49,11 @@ Build and Test Documentation Locally
 
 For developers comfortable pulling down the repository locally and making changes (see `GitHub Flow`_), you can build the documentation directly on your machine.
 
-To build documentation, inside the root folder, run:
-
-.. code-block:: bash
-
-    make clean
-    make html
-
-Sphinx should build the HTML files locally. To serve the docs locally, run
-
-.. code-block:: bash
-
-    make serve_docs
-
-This is a background process, and it will continue updating the docs as you edit them. However if you make substantive changes, you may need to kill the process and run ``make clean``/``make html`` again. We're fortunate to have a lot of docs - but this means that ``make html`` can take 3-4 minutes to run.
-
-You should ensure the documentation builds with no errors or warnings when submitting a pull request.
+See the `How-to Develop Documentation Locally`_ guide.
 
 .. _Open edX Documentation: https://docs.openedx.org/
 .. _GitHub repository: https://github.com/openedx/docs.openedx.org
 .. _RST: https://en.wikipedia.org/wiki/ReStructuredText
 .. _Sphinx: https://www.sphinx-doc.org/
 .. _GitHub Flow: https://docs.github.com/en/get-started/using-github/github-flow
+.. _How-to Develop Documentation Locally: https://docs.openedx.org/en/latest/documentors/how-tos/develop_docs_locally.html

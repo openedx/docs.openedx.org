@@ -9,3 +9,5 @@ Community Home
    how-tos/read_the_roadmap
    security_policy/index
    how-tos/receive_announcements_by_email
+   Community Discussion Boards <https://discuss.openedx.org>
+   Slack Workspace <https://openedx.org/slack>

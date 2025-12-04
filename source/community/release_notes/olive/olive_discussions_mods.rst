@@ -1,3 +1,5 @@
+.. _Olive discussions moderation:
+
 Moderation & Authoring Tools for the New Discussions Feature (Olive)
 ####################################################################
 
@@ -142,9 +144,9 @@ solutions are not built into the Open edX platform, may cost money, and require
 effort from site administrators to enable. See
 :doc:`olive_3rd_party_discussions` for more detail.
 
-*Thank you to `Kshitij Sobti
+Thank you to `Kshitij Sobti
 <https://opencraft.com/a-look-at-the-recent-enhancements-to-discussions-in-open-edx/>`_
-and the team at OpenCraft for the gifs shown in this post.*
+and the team at OpenCraft for the gifs shown in this post.
 
 
 **Maintenance chart**

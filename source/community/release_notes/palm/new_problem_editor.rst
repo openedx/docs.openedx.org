@@ -1,3 +1,5 @@
+.. _Palm Editor Improvements:
+
 A New Problem Editor Experience (Palm)
 ######################################
 

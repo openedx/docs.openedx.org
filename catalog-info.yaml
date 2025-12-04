@@ -8,8 +8,16 @@ metadata:
       title: "Production Site"
       icon: "Web"
   annotations:
+    # NAMED RELEASE NOTE:
+    # This repository gets marked for named releases in a non-standard way!
+    # Standard repsitories get branch `release/X` on the cut date, and tags `release/X.1`,
+    # `release/X.2`, and `release/X.3`on the release dates.
+    # This repo, on the other hand, just gets a `release/X` branch on the X.1 release date.
+    # This is because a lot of documentation happens between the cut date and the X.1 release date;
+    # rather than backporting all those docs, we'd rather just make the branch late.
+    # So, we do not delcare a `openedx.org/release:` key here, because that would confuse the release script.
+    # Instead, the community Release Manager will manually create the `release/X` branch at the right time.
     openedx.org/arch-interest-groups: "feanil"
-    openedx.org/release: "main"
 spec:
   owner: group:wg-maintenance-docs.openedx.org
   type: 'website'
