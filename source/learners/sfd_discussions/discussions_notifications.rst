@@ -29,6 +29,9 @@ into a single preference to avoid clutter in preferences.
    Table listing discussion activity types, their preference names, recipients and defaults.
 
 
+.. note:: Learn more about notifications in :ref:`Notifications & Preferences`.
+
+
 .. seealso::
 
 
