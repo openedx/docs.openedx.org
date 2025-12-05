@@ -20,7 +20,7 @@ Creating a post
 
 .. figure:: /_images/learners/Discussions_creating_post.png
    :alt: Screenshot of form to create a post, on the Discussions page and alongside course content.
-   :width: 600
+   :width: 800
    :align: center
 
    Form to create a discussion post on the Discussions page and in a course unit. By default, you are following
@@ -61,7 +61,7 @@ Responding and commenting
 
 .. figure:: /_images/learners/Discussions_response_comment.png
    :alt: Screenshot of responses and comments on a discussion thread, on Discussions page and in sidebar.
-   :width: 600
+   :width: 800
    :align: center
 
    Option to create responses on a discussion thread can be found in actions menu on mouse hover or
@@ -88,7 +88,7 @@ Editing or deleting your own contributions
 
 .. figure:: /_images/learners/Discussions_edit_delete.png
    :alt: Screenshot of actions menu with options to edit or delete content you've authored.
-   :width: 600
+   :width: 800
    :align: center
 
    Use the options menu to edit or delete content that you've authored.
@@ -111,7 +111,7 @@ Endorsements and accepted answers
 
 .. figure:: /_images/learners/Discussions_endorsed.png
    :alt: Screenshot of responses showing an endorsed and marked-as-answer banner on top.
-   :width: 600
+   :width: 800
    :align: center
 
    Responses that are endorsed or marked as answers display a banner on top.
@@ -125,7 +125,7 @@ If you created a question post, you can mark a response as the answer yourself, 
 
 .. figure:: /_images/learners/Discussions_mark_answer.png
    :alt: Screenshot of actions menu showing option to mark a response as answer on a post you've authored.
-   :width: 400
+   :width: 600
    :align: center
 
    Use the options menu to mark a response as answer on a question post you authored.
@@ -133,7 +133,7 @@ If you created a question post, you can mark a response as the answer yourself, 
 
 .. figure:: /_images/learners/Discussions_mark_answer_indicator.png
    :alt: Screenshot of posts list showing a check mark on a question that has been answered.
-   :width: 400
+   :width: 600
    :align: center
 
    Question posts that have been answered have a check mark in the posts list.
@@ -153,7 +153,7 @@ Liking posts and responses
 
 .. figure:: /_images/learners/Discussions_likes.png
    :alt: Screenshot of actions menu showing option to like a post or response.
-   :width: 400
+   :width: 600
    :align: center
 
    Post or response can be liked using the actions menu.
@@ -172,14 +172,14 @@ Reporting inappropriate content
 
 .. figure:: /_images/learners/Discussions_report_content.png
    :alt: Screenshot of actions menu showing option to report content.
-   :width: 600
+   :width: 800
    :align: center
 
    Use the options menu to report content that you find inappropriate or spam.
 
 .. figure:: /_images/learners/Discussions_reported_banner.png
    :alt: Screenshot of post showing banner on top indicating that you have reported it.
-   :width: 600
+   :width: 800
    :align: center
 
    Content that *you* report will show an indicator on top of the post and in the list.
@@ -207,7 +207,7 @@ When a post is closed
 
 .. figure:: /_images/learners/Discussions_post_closed_banner.png
    :alt: Screenshot of a closed post with a lock icon and a banner explaining why it was closed.
-   :width: 600
+   :width: 800
    :align: center
 
    Closed post will show a lock icon on the bottom right and a banner on top with information on why it was closed.
@@ -258,5 +258,5 @@ If you are the post’s author, a banner appears at the top explaining why your 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |                                |
+| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

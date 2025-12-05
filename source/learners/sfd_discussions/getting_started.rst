@@ -25,7 +25,7 @@ From the course navigation
 
 .. figure:: /_images/learners/Discussions_course_nav.png
   :alt: Screenshot of Discussions page that is accessible from course navigation bar.
-  :width: 600px
+  :width: 800px
   :align: center
 
   Click on Discussions tab in course navigation bar to access the Discussions page.
@@ -42,7 +42,7 @@ From within a course unit
 
 .. figure:: /_images/learners/Discussions_sidebar.png
   :alt: Screenshot of discussions panel on the right side of course content.
-  :width: 600px
+  :width: 800px
   :align: center
 
   Click on the discussions icon on top-right to open or close the Discussions panel.
@@ -114,5 +114,5 @@ Each discussion has the following components:
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |                                |
+| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
