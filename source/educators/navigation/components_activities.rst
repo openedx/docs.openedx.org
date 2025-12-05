@@ -163,7 +163,6 @@ LTI Component
    ../how-tos/course_development/exercise_tools/set_up_lti_1_1_component.rst
    ../how-tos/course_development/exercise_tools/set_up_lti_1_3_component.rst
    ../how-tos/course_development/exercise_tools/use_lti_advantage_features.rst
-   ../how-tos/course_development/exercise_tools/setup_lti_store.rst
    ../how-tos/course_development/exercise_tools/setup_lti_reusable_consumer.rst
 
 
