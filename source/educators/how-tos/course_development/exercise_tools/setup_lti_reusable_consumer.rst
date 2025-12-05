@@ -13,12 +13,17 @@ Overview
 Reusable LTI configurations are created once by an administrator in Django Admin (LTI Store) and identified by a filter key.  
 In Studio, you can point an LTI Consumer component to that reusable configuration, avoiding repeated copy/paste of credentials.
 
+.. note::
+
+   In order to set up an LTI Consumer with Reusable LTI configuration, a site administrator will need to create the configuration
+   in the backend. Site administrators can see :ref:`Create a Reusable LTI 1.3 Configuration` for more detail.
+
 
 Before you start
 ****************
 
 * An administrator has created a reusable LTI 1.3 configuration in Django Admin.  
-* You have the reusable configuration’s filter key. It may be shared as a value like ``lti_store:reference_tool``  
+* You have the reusable configuration's filter key. It may be shared as a value like ``lti_store:reference_tool``  
 * You have edit access to the course in Studio.
 
 .. note::
@@ -69,6 +74,8 @@ What changes compared to on-block configuration
 
  :ref:`Set up a Reusable LTI Store` (how-to)
 
+ :ref:`Create a Reusable LTI 1.3 Configuration` (site operator how-to)
+
  :ref:`LTI Component Settings` (reference)
 
  :ref:`Set up an LTI 1_3 component` (how-to)
@@ -81,5 +88,5 @@ What changes compared to on-block configuration
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               | Ulmo           | Draft                          |
+| 2025-12-05   | LTI WG                        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
