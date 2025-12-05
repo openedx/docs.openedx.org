@@ -19,7 +19,7 @@ Navigating the Discussions page
 
 .. figure:: /_images/learners/Discussions_page.png
    :alt: Screenshot of the discussion page showing navigation pane, content list, and content view areas.
-   :width: 600px
+   :width: 800px
    :align: center
 
    The Discussion page showing navigation pane, content list, and content view areas.
@@ -42,7 +42,7 @@ When you open the Discussions tab in your course, you see four tabs at the top, 
 
 .. figure:: /_images/learners/Discussions_topics.png
    :alt: Screenshot of 3 steps to navigate topics.
-   :width: 600
+   :width: 800
    :align: center
 
    Follow these steps to navigate the 3-level topic hierarchy to view posts belonging to a topic.
@@ -59,7 +59,7 @@ Discussions inside course units
 
 .. figure:: /_images/learners/Discussions_sidebar.png
    :alt: Screenshot of Discussions sidebar on right side of course content.
-   :width: 600
+   :width: 800
    :align: center
 
    You can use Discussions sidebar to create or browse posts belonging to the course unit being viewed.
@@ -80,7 +80,7 @@ Searching and filtering
 
 .. figure:: /_images/learners/Discussions_search.png
    :alt: Screenshot of how scope of search changes based on what Discussions tab is selected.
-   :width: 400
+   :width: 600
    :align: center
 
    You can change scope of search by selecting any of the 4 tabs on discussions page.
@@ -112,7 +112,7 @@ You can also sort individual responses by date created, from within the post its
 
 .. figure:: /_images/learners/Discussions_response_sort.png
    :alt: Screenshot of response sort option on top right of responses.
-   :width: 400
+   :width: 600
    :align: center
 
    Use response sort option to sort responses by date created.
@@ -126,7 +126,7 @@ Viewing pinned and followed posts
 
 .. figure:: /_images/learners/Discussions_pinned_following.png
    :alt: Screenshot showing identifiers for pinned and followed discussions.
-   :width: 400
+   :width: 600
    :align: center
 
    Pinned posts appear on top of the list and followed posts display a filled star icon. You can filter for
@@ -161,5 +161,5 @@ By default, you are following every post that you author.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |                                |
+| 3rd Dec, 2025| Aamir Ayub                    | Ulmo           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

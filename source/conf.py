@@ -61,6 +61,11 @@ rediraffe_redirects = {
     "community/release_notes/latest.rst": "community/release_notes/index.rst",
     "documentors/references/quick_reference_rst.rst": "documentors/references/quick_reference.rst",
     "site_ops/install_configure_run_guide/front_matter/getting_help.rst": "other/getting_help.rst",
+    "learners/sfd_discussions/add_post.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "learners/sfd_discussions/anatomy.rst": "learners/sfd_discussions/getting_started.rst",
+    "learners/sfd_discussions/explore_posts.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "learners/sfd_discussions/keep_up.rst": "learners/sfd_discussions/discussions_notifications.rst",
+    "learners/sfd_discussions/provide_feedback.rst": "learners/sfd_discussions/find_follow_conversations.rst",
 }
 
 tags_create_tags = True
