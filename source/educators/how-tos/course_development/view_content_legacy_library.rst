@@ -8,8 +8,9 @@ View the Contents of a Legacy Library
 .. warning::
 
    The Legacy Libraries feature will be supported through Ulmo, moving to
-   unsupported in Verawood. Ulmo will include a one-click migration feature that
-   will make it easy to convert a Legacy Library into the new Library interface.
+   unsupported in Verawood. Ulmo includes a :ref:`one-click migration feature
+   <Migrating Legacy Libraries>` that makes it easy to convert a Legacy Library
+   into the new Library interface.
 
    See :ref:`Content Libraries Redesign Teak` for more information.
 
