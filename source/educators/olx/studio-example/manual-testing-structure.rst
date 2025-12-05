@@ -246,9 +246,6 @@ non-courseware parts of the OLX course. For more information, see
 
   :ref:`The Courseware Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

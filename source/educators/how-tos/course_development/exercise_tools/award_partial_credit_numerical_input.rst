@@ -5,6 +5,13 @@ Award Partial Credit in a Numerical Input Problem
 
 .. tags:: educator, how-to
 
+.. warning::
+
+  Partial credit is not an option exposed in Open edX Studio.
+
+  Studio and LMS support of partial credit is not guaranteed to work.
+
+
 You can configure a numerical input problem to award partial credit to learners
 who submit an answer that is close or related to the correct answer. You must
 use the :ref:`advanced editor<Advanced Editor>` to configure partial credit.

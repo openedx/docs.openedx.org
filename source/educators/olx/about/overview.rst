@@ -6,6 +6,13 @@ Create Course Overview in OLX
 
 .. tags:: educator, how-to
 
+.. note::
+
+  This page describes how to create the Course Overview section for
+  a course, provided the Open edX instance the course is hosted on is using the default
+  Open edX course catalog. Some Open edX instances might utilize a different
+  way of publishing and advertising courses.
+
 Each course must have an overview page. Learners see the overview page when
 searching and registering for the course.
 
@@ -13,20 +20,23 @@ searching and registering for the course.
 Create the Overview File
 *********************************************
 
-In the ``overview`` directory, you create an HTML file called
+In the ``about`` directory, create an HTML file called
 ``overview.html``.
 
 *********************************************
 Overview Sections
 *********************************************
 
-The ``overview.html`` must contain specific sections.
+The ``overview.html`` contains specific sections. The default Open edX course
+catalog does not style the Overview page based on most of these HTML classes,
+however, other course catalogs may (and Open edX Studio will export with these
+classes).
 
 Each section is wrapped in ``section`` tags. The value of the ``class``
 attribute specifies what the section is for and how it is displayed to
-learners. Within the ``section`` tags, you use valid HTML.
+learners. Within the ``section`` tags, use valid HTML.
 
-The overview must contain sections with the following names.
+The overview may contain section(s) with the following names.
 
 * ``about``
 * ``prerequisites``
@@ -38,10 +48,10 @@ The overview must contain sections with the following names.
 .. _A Template For Course Overview:
 
 ************************************************
-A Template For Your Course Overview
+A Template For A Course Overview
 ************************************************
 
-Replace the placeholders in the following template with your information.
+Replace the placeholders in the following template with relevant course information.
 
 .. code-block:: html
 
@@ -100,12 +110,10 @@ Replace the placeholders in the following template with your information.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
