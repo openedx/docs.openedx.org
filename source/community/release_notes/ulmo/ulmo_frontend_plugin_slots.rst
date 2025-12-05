@@ -124,11 +124,11 @@ Learning MFE
 
 .. seealso::
 
-   * :doc:`/site_ops/how-tos/use-frontend-plugin-slots`
+   * :ref:`Use A Frontend Plugin Framework Slot`
 
-   * :doc:`../sumac/customizing_learner_dashboard`
+   * :ref:`Frontend Slots Learner Dash (Sumac)`
 
-   * :doc:`../sumac/customizing_header`
+   * :ref:`Frontend Slots Header (Sumac)`
 
 **Maintenance chart**
 
