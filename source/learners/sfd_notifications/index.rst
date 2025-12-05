@@ -1,3 +1,5 @@
+.. _Notifications & Preferences:
+
 ###########################
 Notifications & Preferences
 ###########################

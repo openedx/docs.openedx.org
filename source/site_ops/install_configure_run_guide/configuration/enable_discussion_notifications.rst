@@ -10,8 +10,7 @@ You can set up notifications that learners receive the first time that anyone
 adds a response to a discussion post that they have made.
 
 For more information, including the text of the discussion notification
-message, see :ref:`Automatic Emails` and
-:ref:`Receiving Discussion Notifications`.
+message, see :ref:`Automatic Emails` and :ref:`Staying Updated with Notifications`.
 
 .. contents::
    :depth: 1
