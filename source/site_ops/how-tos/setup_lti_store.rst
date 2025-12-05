@@ -4,12 +4,15 @@
 Set up a Reusable LTI Store
 ###########################
 
-.. tags:: educator, how-to
+.. tags:: site operator, how-to
 
 The Reusable LTI Store centralizes LTI configuration in Django Admin.  
 Course authors then reference a single reusable configuration in Studio (via the LTI Consumer component).  
 A single configuration can be referenced multiple times, eliminating repeated copy/paste of tool credentials.
 
+.. contents::
+   :local:
+   :depth: 1
 
 Overview
 ********
@@ -143,6 +146,8 @@ Next steps
 
 .. seealso::
 
+ :ref:`Create a Reusable LTI 1.3 Configuration` (how-to)
+
  :ref:`Set up an LTI Consumer with Reusable LTI Configuration` (how-to) 
 
  :ref:`LTI Component Settings` (reference)
@@ -165,5 +170,5 @@ Next steps
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               | Ulmo           | Draft                          |
+| 2025-12-05   | LTI WG                        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
