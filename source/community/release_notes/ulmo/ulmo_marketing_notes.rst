@@ -9,7 +9,7 @@ for authors, learners, and site operators. Here's what's ready for you now:
 🧑‍🏫 For Course Authors
 ********************************
 
-**Advanced Libraries**: Build entire course sections once, then reuse them
+:ref:`Advanced Libraries <Ulmo Libraries>`: Build entire course sections once, then reuse them
 everywhere — imagine updating your intro module across 20 courses with one
 click!
 
@@ -34,8 +34,12 @@ delivered both in-platform and via email.
 ⚙️ For Site Operators 
 **********************
 
-**Important**: The Ulmo release will require the new theming system. Get ahead
-of the curve and test it now so your upgrade is seamless!
+**Important**: The Ulmo release will require the :ref:`new theming system <Ulmo
+Design Tokens>`.
+
+:ref:`More Flexibility To Build Custom Features <Ulmo Frontend Plugin Slots>`: More
+plugin slots have been added across the platform to support easier customization
+and extension by your development or operations team.
 
 🔮 Upcoming in Verawood (June 2026)
 ************************************
