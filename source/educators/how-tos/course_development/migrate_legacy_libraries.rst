@@ -25,7 +25,7 @@ Migrate Legacy Libraries
 #. Click on the Legacy Libraries tab on Studio Home. You will see a button to
    :guilabel:`Review Legacy Libraries`.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_review.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_review.png
        :alt: The "Review Legacy Libraries" button appears in a warning panel above the list of Legacy Libraries.
 
 #. Select which Library you wish to migrate. Click the checkbox next to the
@@ -38,17 +38,17 @@ Migrate Legacy Libraries
    
    Click :guilabel:`Next`.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_select.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_select.png
       :alt: The Migrate Legacy Libraries screen, including a search box, filter for migration status, and a list of Legacy Libraries.
 
 #. *IF* you wish to migrate your Legacy Library to a brand new Library, click :guilabel:`+ Create New Library`.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_new_library.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_new_library.png
       :alt: The "Select Destination" screen, with the "Create New Library" button highlighted.
    
    Provide the new Library a name, organization and ID and click :guilabel:`Create`, then click :guilabel:`Next`.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_new_details.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_new_details.png
        :alt: The "Create New Library" screen, with name, organization, and ID fields visible.
 
 #. *IF* you wish to migrate your Legacy Library to an existing Library, click
@@ -57,7 +57,7 @@ Migrate Legacy Libraries
 
 #. Review the migration details and click :guilabel:`Confirm`.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_confirm.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_confirm.png
        :alt: The Confirm screen, indicating which library/libraries have been selected and their destination.
 
 #. You will be redirected away from the Legacy Library environment to the new
@@ -74,7 +74,7 @@ Navigate your new Library
    Content” tab. If you migrated more than one Legacy Library, all of the
    content from each Legacy Library can be viewed in aggregate.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_navigation.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_navigation.png
        :alt: The landing page for the newly-created Library, with each migrated Legacy Library showing as a distinct collection.
 
 #. Each Legacy Library can also be viewed as a separate collection within the
@@ -85,7 +85,7 @@ Navigate your new Library
 
       All migrated content is created in the "Draft" state in the new Library. It must be :ref:`published <Publish Library content>` in order to be reused in courses. 
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_collections.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_collections.png
        :alt: The "Collections" tab of the newly created Library, with each migrated Legacy Library showing as a distinct collection.
 
 .. _Confirm Legacy Migration:
@@ -95,7 +95,7 @@ Confirm Legacy migrations are complete
 
 #. Navigate to the Legacy Libraries tab on Studio Home. Each migrated Library will contain a redirect link.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_complete.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_complete.png
        :alt: The Legacy Libraries homescreen. Each migrated Legacy Library contains an indicator on its card that it's been migrated.
 
 .. _Update Legacy References:
@@ -112,13 +112,13 @@ Update course content referenced in Legacy Libraries
 
       Content in the Library must be :ref:`published <Publish Library content>` before any references can be synced.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_sync_content.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_sync_content.png
        :alt: The Studio Unit page of a piece of content that uses content from a Legacy Library. There is a link to "Update reference" from the Legacy Library to the New Library.
 
 #. You will now see the content referenced in the course. Any future changes
    made to the referenced content can now be synced to the course using the :ref:`Sync Content workflows <Sync a Library update to your course>`.
 
-   ..  image:: /_images/educator_how_tos/migrate_Legacy_library_sync_content_complete.png
+   ..  image:: /_images/educator_how_tos/migrate_legacy_library_sync_content_complete.png
        :alt: The unit page after the reference has been updated. At this point, there is no indication that the content used to link to a Legacy Library.
 
 
