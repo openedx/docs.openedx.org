@@ -1,6 +1,6 @@
-.. _Importing and Exporting a Library:
+.. _Backup and Restore a Library:
 
-Importing and Exporting a Library
+Backup and Restore a Library
 ###################################
 
 .. tags:: educator, how-to
@@ -9,31 +9,31 @@ Importing and Exporting a Library
   :local:
   :depth: 1
 
-You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
+You can :ref:`backup<Backup a Library>` and :ref:`restore<Restore a Library>` a
 content library in Studio.
 
-.. _Export a Library:
+.. _Backup a Library:
 
-Export a Library
-************************
+Backup A Library To Local Archive
+*********************************
 
-There are several reasons why you might want to export your library.
+There are several reasons why you might want to backup your library.
 
 * To save your work in progress
 * To edit the XML in your library directly
 * To create a backup copy of your library
 * To share with another course team member
 
-When you export your library, Studio creates a **.zip** file. This export file
-contains the problems in the library, including any customizations you made in
-the library to problem settings. The export does not include library settings
-such as user access permissions.
+When you backup your library, Studio creates a **.zip** file for export. This
+export file contains the problems in the library, including any customizations
+you made in the library to problem settings. The export does not include library
+settings such as user access permissions.
 
-To export a library, follow these steps.
+To backport a library, follow these steps.
 
 #. In Studio, select the **Libraries** tab.
 
-#. Locate the library that you want to export.
+#. Locate the library that you want to backup.
 
 #. From the **Tools** menu, select **Backup to local archive**.
 
@@ -48,19 +48,19 @@ To export a library, follow these steps.
 When the export process finishes, you can access the ``.zip`` file on your
 computer.
 
-.. _Import a Library:
+.. _Restore a Library:
 
-Import a Library
-*************************
+Create a Library From An Archive
+********************************
 
 .. note::
 
-   Currently, library import is only supported as a way to initialize a new library.
+   For the Ulmo release, Create Library From Archive is only supported as a way to initialize a new library.
 
 The  library file that you import must be a ``.zip`` file that contains a
 ``package.toml`` file.
 
-To import a library, follow these steps.
+To create a library from an archive, follow these steps.
 
 #. In Studio, select the **+ New library** button in the top right.
 
@@ -93,6 +93,8 @@ To import a library, follow these steps.
     :ref:`Create and edit units in a Library`
 
     :ref:`Build a Collection in a Library`
+
+    :ref:`Migrating Legacy Libraries`
 
     :ref:`Publish Library content`
 
