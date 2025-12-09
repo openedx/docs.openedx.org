@@ -121,6 +121,78 @@ Learning MFE
 * Updated `UnitTitleSlot <https://github.com/openedx/frontend-app-learning/tree/release/ulmo/src/plugin-slots/UnitTitleSlot>`_:
   Modified ``pluginProps`` behavior, ``isEnabledOutlineSidebar`` is now always ``true``. 
 
+Catalog MFE
+*********************************************
+
+* Added `org.openedx.frontend.catalog.home_page.banner <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeBannerSlot>`_:
+  This slot is used to replace/modify/hide the entire Home page banner.
+
+* Added `org.openedx.frontend.catalog.home_page.overlay_html <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeOverlayHtmlSlot>`_:
+  This slot is used to replace/modify/hide the entire Home page overlay HTML.
+
+* Added `org.openedx.frontend.catalog.home_page.promo_video_button <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomePromoVideoSlots/HomePromoVideoButtonSlot>`_:
+  This slot is used to replace/modify/hide the entire Home page promo video button.
+
+* Added `org.openedx.frontend.catalog.home_page.promo_video_modal <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page intro video modal.
+
+* Added `org.openedx.frontend.catalog.home_page.promo_video_modal_content <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalContentSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page intro video modal content.
+
+* Added `org.openedx.frontend.catalog.home_page.courses_list <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeCoursesListSlot>`_:
+  This slot is used to replace/modify/hide the entire Home page courses list.
+
+* Added `org.openedx.frontend.catalog.home_page.course_card <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeCourseCardSlot>`_:
+  This slot is used to replace/modify/hide the entire Home page course card.
+
+* Added `org.openedx.frontend.catalog.generic.loader <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/LoaderSlot>`_:
+  This slot is used to replace/modify/hide the entire content of a specified container during a loading state.
+
+* Added `org.openedx.frontend.catalog.course_about_page.enrollment_button <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutEnrollmentButtonSlot>`_:
+  This slot is used to replace/modify/hide the entire course enrollment button on the Course about page.
+
+* Added `org.openedx.frontend.catalog.course_about_page.intro <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page intro section.
+
+* Added `org.openedx.frontend.catalog.course_about_page.intro_video_button <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoButtonSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page video button.
+
+* Added `org.openedx.frontend.catalog.course_about_page.intro_video_modal_content <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalContentSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page intro video modal content.
+
+* Added `org.openedx.frontend.catalog.course_about_page.intro_video_modal <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page intro video modal.
+
+* Added `org.openedx.frontend.catalog.course_about_page.course_image <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutCourseImageSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page course image.
+
+* Added `org.openedx.frontend.catalog.course_about_page.course_media <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutCourseMediaSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page course media section.
+
+* Added `org.openedx.frontend.catalog.course_about_page.sidebar <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutSidebarSlot>`_:
+  This slot is used to replace/modify/hide the entire Course about page sidebar.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.intro <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogIntroSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page intro section.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.data_table.course_card <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableCardViewSlot/CourseCatalogDataTableCourseCardSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page data table course card.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.data_table.card_view <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableCardViewSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page data table card view section.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.data_table.control_bar <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableControlBarSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page data table control bar.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.search_field <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogSearchFieldSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page search field.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.data_table <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page data table.
+
+* Added `org.openedx.frontend.catalog.course_catalog_page.data_table.table_footer <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableTableFooterSlot>`_:
+  This slot is used to replace/modify/hide the entire Course catalog page data table footer.
+
 
 .. seealso::
 

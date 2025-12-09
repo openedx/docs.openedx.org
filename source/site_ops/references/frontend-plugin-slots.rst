@@ -41,7 +41,7 @@ Footer slots, available in MFEs that use ``frontend-component-footer``:
 - `org.openedx.frontend.layout.studio_footer_help_section.v1 <https://github.com/openedx/frontend-component-footer/tree/v14.9.3/src/plugin-slots/StudioFooterHelpSectionSlot>`_
 - `org.openedx.frontend.layout.studio_footer_logo.v1 <https://github.com/openedx/frontend-component-footer/tree/v14.9.3/src/plugin-slots/StudioFooterLogoSlot>`_
 
-A slot only available in the Account MFE:
+Slots only available in the Account MFE:
 *****************************************
 
 - `org.openedx.frontend.account.additional_profile_fields.v1 <https://github.com/openedx/frontend-app-account/tree/release/ulmo/src/plugin-slots/AdditionalProfileFieldsSlot>`_
@@ -105,6 +105,32 @@ Slots only available in the Learning MFE:
 - `org.openedx.frontend.learning.sequence_container.v1 <https://github.com/openedx/frontend-app-learning/tree/release/ulmo/src/plugin-slots/SequenceContainerSlot>`_
 - `org.openedx.frontend.learning.sequence_navigation.v1 <https://github.com/openedx/frontend-app-learning/tree/release/ulmo/src/plugin-slots/SequenceNavigationSlot>`_
 - `org.openedx.frontend.learning.unit_title.v1 <https://github.com/openedx/frontend-app-learning/tree/release/ulmo/src/plugin-slots/UnitTitleSlot>`_
+
+Slots only available in the Catalog MFE:
+****************************************
+- `org.openedx.frontend.catalog.home_page.banner <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeBannerSlot>`_
+- `org.openedx.frontend.catalog.home_page.overlay_html <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeOverlayHtmlSlot>`_
+- `org.openedx.frontend.catalog.home_page.promo_video_button <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomePromoVideoSlots/HomePromoVideoButtonSlot>`_
+- `org.openedx.frontend.catalog.home_page.promo_video_modal <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalSlot>`_
+- `org.openedx.frontend.catalog.home_page.promo_video_modal_content <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalContentSlot>`_
+- `org.openedx.frontend.catalog.home_page.courses_list <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeCoursesListSlot>`_
+- `org.openedx.frontend.catalog.home_page.course_card <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeCourseCardSlot>`_
+- `org.openedx.frontend.catalog.generic.loader <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/LoaderSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.enrollment_button <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutEnrollmentButtonSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.intro <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.intro_video_button <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoButtonSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.intro_video_modal_content <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalContentSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.intro_video_modal <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutIntroVideoSlots/CourseAboutIntroVideoModalSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.course_image <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutCourseImageSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.course_media <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutCourseMediaSlot>`_
+- `org.openedx.frontend.catalog.course_about_page.sidebar <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseAboutSidebarSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.intro <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogIntroSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.data_table.course_card <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableCardViewSlot/CourseCatalogDataTableCourseCardSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.data_table.card_view <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableCardViewSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.data_table.control_bar <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableControlBarSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.search_field <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogSearchFieldSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.data_table <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableSlot>`_
+- `org.openedx.frontend.catalog.course_catalog_page.data_table.table_footer <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/CourseCatalogDataTableSlots/CourseCatalogDataTableTableFooterSlot>`_
 
 Special exams slots, available in MFEs that use ``frontend-lib-special-exams``:
 *******************************************************************************
