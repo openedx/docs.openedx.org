@@ -243,7 +243,7 @@ And in ``vertical/unit_1_input_problems.xml``:
 
   :ref:`The Courseware Structure` (reference)
 
-  :ref:`Work with the targz File` (reference)
+  :ref:`Work with the targz File` (how-to)
 
 
 **Maintenance chart**

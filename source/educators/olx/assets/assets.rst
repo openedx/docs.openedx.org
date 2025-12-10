@@ -25,7 +25,7 @@ see :ref:`Course Asset Policy`.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Add Course Assets` (via Studio) (reference)
+  :ref:`Add Course Assets` (via Studio)
 
 
 

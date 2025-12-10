@@ -211,7 +211,7 @@ For example, the course can contain a subsection in this format, from
 
 .. note::
 
-  There may be more ``course`` attributes than described in this guide; no such complete guide of all
+  There may be more ``sequential`` attributes than described in this guide; no such complete guide of all
   available attributes currentliy exists. Many attributes can be discovered by setting them in Studio
   and then inspecting the exported ``sequential/<name>.xml`` file.
 

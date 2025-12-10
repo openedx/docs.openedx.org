@@ -109,7 +109,7 @@ The learner sees this sequential as follows.
 
   :ref:`The Courseware Structure` (reference)
 
-  :ref:`Work with the targz File` (reference)
+  :ref:`Work with the targz File` (how-to)
 
 
 **Maintenance chart**
