@@ -3,8 +3,6 @@
 Open edX Ulmo Developer & Operator Release Notes
 ################################################
 
-*Releasing December, 2025!*
-
 These are the developer & operator release notes for the Ulmo release, the 21st
 community release of the Open edX Platform, spanning changes from April 25,
 2025 to October 30, 2025. You can also review details about :ref:`Open edX Release Notes` or
@@ -123,7 +121,7 @@ Aspects Analytics
 *****************************
 
 Upgrading to `Aspects v2.5.1
-<https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.5.1>` will
+<https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.5.1>`_ will
 give you the latest Aspects functionality with Ulmo. See the upgrade
 instructions here: :ref:`openedx-aspects:upgrade-aspects`.
 
@@ -176,10 +174,7 @@ Administrators & Operators
   PR2 <https://github.com/openedx/edx-platform/pull/37294>`_, `SAML PR3
   <https://github.com/openedx/edx-platform/pull/37377>`_.
 
-For More Context:
 
-Settings and Toggles Changes
-============================
 
 Added Settings
 *********************
@@ -1249,7 +1244,7 @@ See the `Build Test Release project board <https://github.com/orgs/openedx/proje
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|  Dec  2025   |  BTR                          |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 
 .. _lms/envs/common.py (line 3659): https://github.com/openedx/edx-platform/blob/cf48323639bf24eed5ef120dfbd9e98cf0fd64af/lms/envs/common.py#L3659
