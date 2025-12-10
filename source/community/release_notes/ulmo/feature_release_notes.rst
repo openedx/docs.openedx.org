@@ -11,6 +11,7 @@ Open edX Ulmo Release - Product Release Notes
    :maxdepth: 1
 
    ulmo_libraries
+   ulmo_rp
    ulmo_mobile_updates
    ulmo_catalog
    design_tokens
