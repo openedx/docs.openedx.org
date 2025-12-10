@@ -201,8 +201,9 @@ Work with Legacy Content Libraries
 **********************************
 
 The Legacy Libraries feature will be supported through Ulmo, moving to
-unsupported in Verawood. Ulmo will include a one-click migration feature that
-will make it easy to convert a Legacy Library into the new Library interface.
+unsupported in Verawood. Ulmo includes a :ref:`one-click migration feature
+<Migrating Legacy Libraries>` that makes it easy to convert a Legacy Library
+into the new Library interface.
 
 See :ref:`Content Libraries Redesign Teak` for more on the new Libraries
 initiative.
@@ -211,6 +212,7 @@ initiative.
    :maxdepth: 1
    :glob:
    
+   ../how-tos/course_development/migrate_legacy_libraries.rst
    ../concepts/instructional_design/libraries.rst
    ../how-tos/course_development/create_library.rst
    ../how-tos/course_development/edit_library.rst
