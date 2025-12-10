@@ -75,7 +75,7 @@ Visibility** setting.
 
 To change the results visibility for your subsection, follow these steps.
 
-#. From the three-dot menu at the section or subsection level, choose **Configure**.
+#. From the three-dot menu at the subsection level, choose **Configure**.
 
    .. image:: /_images/educator_how_tos/subsection_three_dot_menu_configure.png
      :width: 600
@@ -91,8 +91,10 @@ To change the results visibility for your subsection, follow these steps.
      subsection scores are visible immediately when learners and staff submit
      answers.
 
-   * **Never show assessment results**: Subsection scores are visible, but problem results
-     are never visible to learners or to course staff.
+   * **Never show assessment results**: Subsection scores are visible, but
+     problem results are never visible to learners or to course staff. Problem
+     scores from this subsection are not counted toward the overall course
+     score.
 
    * **Show assessment results when subsection is past due**: For learners, results are
      not visible until the subsection due date (for instructor-paced courses)

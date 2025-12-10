@@ -33,24 +33,40 @@ The :ref:`Subsection Visibility Setting<Content Hidden from Students>` in Studio
 Grades
 *******
 
-This feature displays the minimum passing grade in the course against the learner's current grade.
-The :ref:`Assessment Visibility Setting<Problem Results Visibility>` in Studio impacts the grade calculation on the **Progress** page. Different settings
-determine whether a graded assignment is considered when calculating the grade to display to the learner.
-
-* If “Always Show Results” has been selected, the assignment will be factored into this grade.
-
-* If “Never Show Results” has been selected, the assignment will not be factored into this grade. This does not change the learner’s grade within the Gradebook. This also does not impact the learner’s eligibility for a certificate.
-
-* If “Show When Subsection is Past Due” has been selected, the assignment will only be factored into this grade when the assignment due date has passed.
-
-Regardless of which **Assessment Visibility Setting** is selected, it will not impact the grade within the **Gradebook** of the **Student Admin** tab.
-A learner's certificate eligibility is based on the grade in the **Gradebook**.
-
-Additionally, the Grades display includes a description of the :ref:`grade range<Set the Grade Range>` set for the course. The default grade range for a course is a binary Pass/Fail.
-If your course has additional ranges, they will be displayed here.
+This feature displays the minimum passing grade in the course against the
+learner's current grade. The Grades display includes a description of the
+:ref:`grade range<Set the Grade Range>` set for the course. The default grade
+range for a course is a binary Pass/Fail. If your course has additional ranges,
+they will be displayed here.
 
    .. image:: /_images/educator_references/Progress_Grades.png
      :alt: Example of the Grades feature where the learner's current grade is not above the minimum passing grade.
+
+The :ref:`Assessment Visibility Setting<Problem Results Visibility>` in Studio impacts the grade calculation on the **Progress** page. Different settings
+determine whether a graded assignment is considered when calculating the grade to display to the learner.
+
+* If “Always Show Results” has been selected, the assignment will be factored
+  into this grade.
+
+* If “Never Show Results” has been selected, the assignment will not be factored
+  into this grade. This does not change the learner's grade within the
+  Gradebook. This also does not impact the learner's eligibility for a
+  certificate.
+
+* If “Show When Subsection is Past Due” has been selected, the assignment will
+  only be factored into this grade when the assignment due date has passed.
+
+* If "Never show individual assessment results, but show overall assessment
+  results after due date" has been selected, and the due date has not passed, a
+  banner message will appear on the progress page with the message "Some
+  assignment scores are not yet included in your total grade. These grades will
+  be released by {dueDate}."
+
+  .. image:: /_images/educator_references/progress_page_assessment_before_due.png
+    :alt: The banner appears at the top of the learner's progress page, directly below the banner that indicates whether or not the learner is currently passing the course.
+
+Regardless of which **Assessment Visibility Setting** is selected, it will not impact the grade within the **Gradebook** of the **Student Admin** tab.
+A learner's certificate eligibility is based on the grade in the **Gradebook**.
 
 .. _grade_summary:
 
