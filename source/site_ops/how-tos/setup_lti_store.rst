@@ -83,8 +83,8 @@ Create a reusable LTI configuration
 
 #. Add a new **External LTI Configuration**.
 
-  .. image:: /_images/educator_how_tos/add_lti_store_configuration.png
-    :alt: 'Add External LTI Configuration' button on Django Admin
+   .. image:: /_images/site_ops_how_tos/add_lti_store_configuration.png
+     :alt: 'Add External LTI Configuration' button on Django Admin
 
 #. Enter the required fields:
 
@@ -103,11 +103,14 @@ Create a reusable LTI configuration
 
      ``["https://example.com/launch"]``
 
-  .. image:: /_images/educator_how_tos/create_ltistore_config.png
-    :alt: LTI store configuration fields in Django Admin
+   .. image:: /_images/site_ops_how_tos/create_ltistore_config.png
+     :alt: LTI store configuration fields in Django Admin
 
 #. Save the configuration.
 #. After saving, note the **Filter key** displayed on the External LTI Configurations screen (``/admin/lti_store/externallticonfiguration/``). The Filter Key usually has the form ``lti_store:slug`` (e.g. ``lti_store:reference_tool``). You will use this value later in Studio when referencing this configuration from the LTI Consumer component.
+
+   .. image:: /_images/site_ops_how_tos/external_lti_configuration.png
+    :alt: Showing the association between the Django Admin external LTI configuration and the Studio LTI component
 
 
 
