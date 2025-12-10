@@ -257,16 +257,20 @@ For example, the course can contain a subsection in this format, from
   on the Progress page.
 
 ==============================================
-``sequential`` Children
+``sequential`` Children (Course Units)
 ==============================================
+
+In the course structure, a course unit serves the following functions.
+
+* Defines the display name for the unit.
+* Organizes components.
 
 The ``sequential`` element contains one or more units (child ``vertical`` elements).
 
 The ``vertical`` element references a unit in the course.
 
 For example, the subsection can contain units in this format, from
-`vertical/unit_2_selection_problems.xml
-<https://github.com/openedx/training-courses/tree/main/olx_example_course/course/vertical/unit_2_selection_problems.xml>`_.
+`vertical/unit_2_selection_problems.xml`_.
 
 .. code-block:: xml
 
@@ -274,28 +278,6 @@ For example, the subsection can contain units in this format, from
     <problem url_name="single_select"/>
     <problem url_name="multi_select"/>
     <problem url_name="dropdown"/>
-  </vertical>
-
-*******************************
-Course Units
-*******************************
-
-In the course structure, a course unit serves the following functions.
-
-* Defines the display name for the unit.
-* Organizes components.
-
-Authors create a course unit with the ``vertical`` element, for each unit in the
-subsection.
-
-For example, the course can contain a vertical in this format.
-
-.. code-block:: xml
-
-  <vertical display_name="Unit 3: LTI">
-    <video url_name="purpose_power_reach"/>
-    <html url_name="lti_introduction"/>
-    <lti url_name="codeboard_lti"/>
   </vertical>
 
 =========================
@@ -329,6 +311,12 @@ in the unit.
 Child elements of ``vertical`` refer to components in the course. The Open edX
 platform supports a wide range of components, including custom XBlocks.
 
+.. note::
+  Some course components appear as a reference to a component in a directory, such as the ``problem`` components referenced in `vertical/unit_2_selection_problems.xml`_.
+
+  However, some course components, such as custom XBlocks like LTI or ORA components, appear directly in-line in the ``vertical`` element.
+  See `vertical/unit_3_lti.xml <https://github.com/openedx/training-courses/blob/main/olx_example_course/course/vertical/unit_3_lti.xml>`_ for an example of this.
+
 .. seealso::
 
   :ref:`What is Open Learning XML?` (concept)
@@ -347,3 +335,5 @@ platform supports a wide range of components, including custom XBlocks.
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
+
+.. _vertical/unit_2_selection_problems.xml: https://github.com/openedx/training-courses/tree/main/olx_example_course/course/vertical/unit_2_selection_problems.xml

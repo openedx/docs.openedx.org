@@ -182,7 +182,7 @@ Re-run a Course
    :glob:
 
    ../references/course_development/course_export_terminology.rst
-   ../educators/how-tos/course_development/work_with_targz_file.rst
+   ../how-tos/course_development/work_with_targz_file.rst
 
 
 Test Your Course
