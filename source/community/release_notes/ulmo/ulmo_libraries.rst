@@ -14,10 +14,9 @@ edited, and changes can be published to courses that used the Legacy Library con
 
 .. admonition:: Migrate Legacy Libraries
 
-   In Verawood, :ref:`Legacy Libraries <Legacy Content Libraries Overview>` will
-   no longer be supported. Migrate legacy libraries to maintain functionality.
-   To learn more view the :ref:`Migration documentation <Migrating Legacy
-   Libraries>.
+    In Verawood, :ref:`Legacy Libraries <Legacy Content Libraries Overview>`
+    will no longer be supported. Migrate legacy libraries to maintain functionality.
+    To learn more view the :ref:`Migration documentation <Migrating Legacy Libraries>`.
 
 Structural Blocks in Libraries
 ******************************
@@ -61,7 +60,20 @@ blocks contained within that subsection.
 Improvements to Syncing Library Changes to Courses
 ==================================================
 
-Needs better text & screenshot here - commented on the wiki
+Course authors can quickly and easily see changes made to Library Section and
+Subsection content from within the course authoring interface. When changes to
+library content are published to courses, course authors can choose to accept or
+ignore these changes. In Ulmo, educators can compare the current course content
+with the published changes side-by-side in a new pop-up. View changes by
+clicking on the sync icon from the Course Outline or Unit pages, or from the
+Library Updates page (accessible via the Content drop down menu). 
+
+.. figure:: /_images/educator_how_tos/library_review_content_updates_2.png
+   :alt: The Preview Changes pop-up has a left panel which shows what changes an incoming update will make to course content, and a right panel that shows what the final content will look like if the change is accepted.
+
+   The "Preview changes" pop-up now shows more detail on what happens to content when changes are available
+
+See :ref:`Sync subsections or sections` for more detail.
 
 Legacy Library Migration
 ************************
@@ -110,6 +122,8 @@ All content management functionality extends to subsections and sections, includ
 .. seealso::
 
     :ref:`Create and Edit New Subsections and Sections`
+
+    :ref:`Sync subsections or sections`
 
     :ref:`Create a New Library`
 
