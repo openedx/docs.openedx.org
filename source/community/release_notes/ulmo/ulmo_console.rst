@@ -79,6 +79,8 @@ This release focuses on delivering value for library access management while pre
 
    :ref:`Ulmo Roles and Permissions`
 
+   :ref:`Add users to Libraries`
+
    :ref:`Migrating Legacy Libraries`
 
 

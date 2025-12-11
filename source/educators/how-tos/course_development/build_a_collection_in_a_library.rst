@@ -7,8 +7,8 @@ Build a Collection in a Library
 
 .. note::
 
-   Users must have "Author" or "Admin" permissions on a library to build collections.
-   See :ref:`Add users to Libraries` for more detail.
+   Users must have **Library Author**, **Library Contributor**, or **Library Admin** permissions on a library to edit content.
+   See :ref:`Add users to Libraries` for more details.
 
 Collections function as subsets of content within a Library, and are one of the
 primary ways to manage and organize large sets of content. For example, a
