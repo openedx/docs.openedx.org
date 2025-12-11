@@ -4,64 +4,37 @@
 Notifications & Preferences
 ###########################
 
-Notifications keep you informed about activity in your courses.
-
-.. _notification-types:
-
-Notification Types
-==================
-
-Discussion Notifications
-------------------------
-
-#. Activity notifications: New responses or comments on your posts and on posts you follow, and endorsements **of** your responses and of responses on your posts.
-#. New discussion posts: When a new discussion post is created.
-#. New question posts: When a new question post is created.
-#. New posts from instructors: When the instructor creates a post and chooses to notify learners.
-
-.. image:: /_images/learners/Notification_tray_forum_notifications_learner.png
-   :width: 400
-   :align: center
-   :alt: Clicking the bell on the top right opens the notifications tray.
-
-Updates
--------
-
-#. Course updates: When the instructor creates a new course update.
-
-.. image:: /_images/learners/Notifications_tray_updates_screenshot.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of a course update notification in the tray.
-
-Grading
--------
-
-#. ORA grade received: When your submission for an open response assessment (ORA) receives a grade.
-
-.. image:: /_images/learners/Notifications_tray_grading_screenshot_learner.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of grading notifications in the tray.
+Notifications help you stay informed about activity in your courses. You can view notifications while on the
+platform or receive them by email, depending on your preferences.
 
 .. _delivery-channels:
 
-Delivery Channels
-=================
+Where Notifications Appear
+===========================
 
-Tray
-----
+Notification Tray
+------------------
 
-- The notification tray is intended to keep users informed while they are on the web platform.
-- A bell icon in the top-right corner displays the count of unread notifications.
-- When clicked, it opens a tray that organizes notifications into tabs based on platform area (Discussions, Grading, Updates).
-- Each notification includes the relevant course name, an indicator showing it is unread, and a timestamp of when it was generated.
-- A gear icon in the tray’s top-right corner links to the preferences center, where users can adjust notification settings.
 
 .. image:: /_images/learners/Notifications_tray_screenshot.png
    :width: 700
    :align: center
-   :alt: Clicking the bell on the top right opens the notifications tray.
+   :alt: Screenshot of notifications tray showing it's features.
+
+   Clicking the bell icon on top right opens the notifications tray. Next to bell icon is the count of
+   notifications yet to be seen by the user.
+
+
+The notification tray keeps you updated while you’re browsing the site.
+
+- Clicking the bell icon on top right opens the notifications tray with tabs such as Discussions,
+  Updates and Grading.
+- Each notification shows the course it belongs to, time elapsed since it was created
+  and an red dot that indicates that it has not been clicked.
+- A gear icon in the tray takes you directly to your notification preferences on Account Settings page.
+
+If you have more notifications than can fit in the tray, a “Load more” button appears at the bottom.
+Clicking it loads mores notifications.
 
 Email Notifications
 -------------------
@@ -79,6 +52,47 @@ Email Notifications
    :width: 400
    :align: center
    :alt: Screenshot of an email with the daily summary of notifications.
+
+
+.. _notification-types:
+
+Notification Types
+==================
+
+Discussion Notifications
+------------------------
+
+1. **Activity notifications**: Notifies you of all activity related to posts or responses
+   you’ve authored or are following.
+2. **New posts from instructors**: Notifies you when an instructor creates a post.
+3. **New discussion posts**: Notifies you when someone creates a new discussion type post.
+4. **New question posts**: Notifies you when someone creates a new question type post.
+
+.. image:: /_images/learners/Notification_tray_forum_notifications_learner.png
+   :width: 400
+   :align: center
+   :alt: Clicking the bell on the top right opens the notifications tray.
+
+Updates
+-------
+
+**Course updates**: When the instructor creates a new course update.
+
+.. image:: /_images/learners/Notifications_tray_updates_screenshot.png
+   :width: 400
+   :align: center
+   :alt: Screenshot of a course update notification in the tray.
+
+Grading
+-------
+
+**ORA grade received**: When your submission for an open response assessment (ORA) receives a grade.
+
+.. image:: /_images/learners/Notifications_tray_grading_screenshot_learner.png
+   :width: 400
+   :align: center
+   :alt: Screenshot of grading notifications in the tray.
+
 
 .. _managing-preferences:
 
