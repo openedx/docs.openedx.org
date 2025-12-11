@@ -3,8 +3,6 @@
 Open edX Ulmo Developer & Operator Release Notes
 ################################################
 
-*Releasing December, 2025!*
-
 These are the developer & operator release notes for the Ulmo release, the 21st
 community release of the Open edX Platform, spanning changes from April 25,
 2025 to October 30, 2025. You can also review details about :ref:`Open edX Release Notes` or
@@ -20,6 +18,33 @@ To view the end-user facing docs, see the :ref:`Ulmo Product Notes`.
 
 Breaking Changes
 ****************
+
+* The ``VERIFY_STUDENT["STORAGE_CLASS"]`` configuration used for the
+  ``_storage`` property in the ``SoftwareSecurePhotoVerification`` class is
+  being deprecated in favor of the modern ``STORAGES`` dictionary introduced in
+  Django 4.2.
+  
+  The updated implementation prioritizes the ``STORAGES["verify_student"]``
+  backend. If this is not defined, it falls back to the legacy
+  ``VERIFY_STUDENT["STORAGE_CLASS"]`` configuration for backward compatibility.
+  
+  **Breaking change**: Previously, the legacy setting defaulted to
+  ``storages.backends.s3boto3.S3Boto3Storage``. Now, it defaults to the global
+  default storage instead. See `feat: deprecate get_storage_class in core/storage.py <https://github.com/openedx/edx-platform/pull/36910>`_.
+
+* There is a change to the session_inactivity_timeout middleware. A new setting,
+  ``SESSION_ACTIVITY_SAVE_DELAY_SECONDS``, has been added with a default value
+  of 15 minutes.
+  
+  This new setting modifies how the system handles the
+  ``SessionInactivityTimeout``. It prevents the session ID from changing with
+  every request, which improves efficiency, while still correctly enforcing the
+  session timeout. While this change resolves an existing issue, it's considered
+  a "breaking change" to highlight the fact that the default behavior of the
+  application's session middleware has been altered. The new default is a
+  reasonable starting point, but it's important for to be aware of the change.
+  
+  For more context `fix!: session ID stability while maintaining inactivity timeout <https://github.com/openedx/edx-platform/pull/36896>`_.
 
 Deprecations & Removals
 ***********************
@@ -63,12 +88,40 @@ Deprecations & Removals
   See `feat: removing get_storage_class from COURSE_METADATA_EXPORT_STORAGE
   <https://github.com/openedx/edx-platform/pull/36761>`_.
 
+* The ``USER_TASKS_ARTIFACT_STORAGE`` setting is being deprecated in favor of the
+  modern ``STORAGES`` dictionary introduced in Django 4.2.
+  
+  This update changes the logic to first look for a storage backend defined under
+  ``STORAGES["user_task_artifacts"]``. If not found, it will fall back to the
+  previously supported ``USER_TASKS_ARTIFACT_STORAGE`` setting via the optional ``import_path`` parameter.
+
+  It is recommended that you migrate to using the user_task_artifacts storage in
+  the ``STORAGES`` dictionary. The legacy ``USER_TASKS_ARTIFACT_STORAGE`` setting may be
+  removed as early as the Verawood release. See `Fixing get_storage functionality as per new django52 <https://github.com/openedx/django-user-tasks/pull/421>`_.
+
+* The ``SGA_STORAGE_SETTINGS`` configuration is being deprecated in favor of the
+  modern ``STORAGES`` dictionary introduced in Django 4.2. This update
+  prioritizes the ``STORAGES["sga_storage"]`` backend. If not defined, it falls
+  back to the legacy ``SGA_STORAGE_SETTINGS`` for backward compatibility. It is
+  recommended to migrate to the ``STORAGES`` -based configuration.
+
+  Support for ``SGA_STORAGE_SETTINGS`` may be removed as early as the Verawood release.
+  See `feat!: Adding django52 support. <https://github.com/mitodl/edx-sga/pull/368>`_
+
+* In Credentials, the ``DEFAULT_FILE_STORAGE`` and ``STATICFILES_STORAGE``
+  settings are being deprecated in favor of the modern ``STORAGES`` dictionary
+  introduced in Django 4.2.
+
+* The ``SEND_CATALOG_INFO`` setting has been removed.  The behavior is now as if
+  the settings is permanently set to ``True``. See `feat: Remove the
+  SEND_CATALOG_INFO_SIGNAL toggle
+  <https://github.com/openedx/edx-platform/pull/37269>`_.
 
 Aspects Analytics
 *****************************
 
 Upgrading to `Aspects v2.5.1
-<https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.5.1>` will
+<https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.5.1>`_ will
 give you the latest Aspects functionality with Ulmo. See the upgrade
 instructions here: :ref:`openedx-aspects:upgrade-aspects`.
 
@@ -94,8 +147,34 @@ Administrators & Operators
   keeping behavior aligned with the previous release. See :ref:`Ulmo Roles and
   Permissions` for more information.
 
-Settings and Toggles Changes
-============================
+* A ``getExternalLinkUrl`` function is provided in ``config.js`` which can be
+  used to override default external links in MFEs. To make use of this function,
+  provide an object that maps default links to custom links. This object should
+  be added to the config object defined in the ``env.config.[js,jsx,ts,tsx]``,
+  and must be named ``externalLinkUrlOverrides``. See the `frontend-platform
+  README <https://github.com/openedx/frontend-platform?tab=readme-ov-file#overriding-default-external-links>`_.
+
+* SAML Configuration Version Alignment Update
+  
+  A fix has been implemented to ensure that all SAML provider configurations
+  always reference the latest version of the SAML configuration. Previously,
+  some providers continued pointing to outdated versions after updates, causing
+  inconsistencies. With this change, provider configurations will automatically
+  align with the newest SAML configuration version, eliminating the need for
+  manual updates and ensuring consistent authentication behavior.
+  
+  A new management command is included to verify alignment::
+   
+   ./manage.py lms saml --run-check
+
+  Temporary feature toggle added: ``ENABLE_SAML_CONFIG_SIGNAL_HANDLERS`` must be
+  enabled to activate this behavior.
+
+  See: `SAML PR1 <https://github.com/openedx/edx-platform/pull/36954>`_, `SAML
+  PR2 <https://github.com/openedx/edx-platform/pull/37294>`_, `SAML PR3
+  <https://github.com/openedx/edx-platform/pull/37377>`_.
+
+
 
 Added Settings
 *********************
@@ -1165,7 +1244,7 @@ See the `Build Test Release project board <https://github.com/orgs/openedx/proje
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|  Dec  2025   |  BTR                          |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 
 .. _lms/envs/common.py (line 3659): https://github.com/openedx/edx-platform/blob/cf48323639bf24eed5ef120dfbd9e98cf0fd64af/lms/envs/common.py#L3659
