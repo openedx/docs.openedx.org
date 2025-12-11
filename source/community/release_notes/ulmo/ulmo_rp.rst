@@ -110,6 +110,8 @@ Libraries integration is validated in production.
 
    :ref:`Ulmo console`
 
+   :ref:`Add users to Libraries`
+
    :ref:`Migrating Legacy Libraries`
 
 
