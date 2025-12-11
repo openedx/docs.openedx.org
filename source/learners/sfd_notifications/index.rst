@@ -4,152 +4,163 @@
 Notifications & Preferences
 ###########################
 
-Notifications keep you informed about activity in your courses.
+Notifications help you stay informed about activity in your courses. You can view notifications while on the
+platform or receive them by email, depending on your preferences.
 
-.. _notification-types:
+.. contents::
+   :local:
+   :depth: 1
 
-Notification Types
-==================
+.. _where-notifications-appear:
 
-Discussion Notifications
-------------------------
+Where Notifications Appear
+===========================
 
-#. Activity notifications: New responses or comments on your posts and on posts you follow, and endorsements **of** your responses and of responses on your posts.
-#. New discussion posts: When a new discussion post is created.
-#. New question posts: When a new question post is created.
-#. New posts from instructors: When the instructor creates a post and chooses to notify learners.
+Notification Tray
+------------------
 
-.. image:: /_images/learners/Notification_tray_forum_notifications_learner.png
-   :width: 400
-   :align: center
-   :alt: Clicking the bell on the top right opens the notifications tray.
+.. figure:: /_images/learners/Notifications_tray_screenshot.png
+  :alt: Screenshot of notifications tray showing it's features.
+  :width: 600
+  :align: center
 
-Updates
--------
+  Clicking the bell icon on top right opens the notifications tray. Next to bell icon is the count of
+  unseen notifications.
 
-#. Course updates: When the instructor creates a new course update.
+The notification tray keeps you updated while you’re browsing the site.
 
-.. image:: /_images/learners/Notifications_tray_updates_screenshot.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of a course update notification in the tray.
+- Clicking the bell icon on top right opens the notifications tray with tabs such as Discussions,
+  Updates and Grading.
+- Each notification shows the course it belongs to, time elapsed since it was created
+  and an red dot that indicates that it has not been clicked.
+- A gear icon in the tray takes you directly to your notification preferences on Account Settings page.
 
-Grading
--------
-
-#. ORA grade received: When your submission for an open response assessment (ORA) receives a grade.
-
-.. image:: /_images/learners/Notifications_tray_grading_screenshot_learner.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of grading notifications in the tray.
-
-.. _delivery-channels:
-
-Delivery Channels
-=================
-
-Tray
-----
-
-- The notification tray is intended to keep users informed while they are on the web platform.
-- A bell icon in the top-right corner displays the count of unread notifications.
-- When clicked, it opens a tray that organizes notifications into tabs based on platform area (Discussions, Grading, Updates).
-- Each notification includes the relevant course name, an indicator showing it is unread, and a timestamp of when it was generated.
-- A gear icon in the tray’s top-right corner links to the preferences center, where users can adjust notification settings.
-
-.. image:: /_images/learners/Notifications_tray_screenshot.png
-   :width: 700
-   :align: center
-   :alt: Clicking the bell on the top right opens the notifications tray.
+If you have more notifications than can fit in the tray, a “Load more” button appears at the bottom.
+Clicking it loads mores notifications at the bottom.
 
 Email Notifications
 -------------------
 
-- Notification emails keep users informed even when they are away from the platform.
-- Users can choose to get notified immediately or receive a daily or weekly summary of notifications.
+.. figure:: /_images/learners/Notification_daily_email_screenshot_learner.png
+  :alt: Screenshot of an email with the daily summary of notifications.
+  :width: 400
+  :align: center
 
-  - **Immediately:** Receive the email notification as soon as the activity happens.
-  - **Daily:** Receive a summary of notifications from the past 24 hours, every day at 22:00 UTC.
-  - **Weekly:** Receive a summary of notifications from the past 7 days, every Saturday at 22:00 UTC.
+  Screenshot of email containing daily summary of notifications from the past 24hrs.
 
-- Emails include a one-click unsubscribe option to turn off email notifications for all activity types.
+Notification emails keep you informed when you are away from the platform. You can choose to get notified immediately
+or receive a daily or weekly summary of notifications.
 
-.. image:: /_images/learners/Notification_daily_email_screenshot_learner.png
-   :width: 400
-   :align: center
-   :alt: Screenshot of an email with the daily summary of notifications.
+- **Immediately:** Receive the email notification as soon as the activity happens.
+- **Daily:** Receive a summary of notifications from the past 24 hours.
+- **Weekly:** Receive a summary of notifications from the past 7 days.
+
+Email summary contains upto 5 notifications for each platform area (Discussions, Updates, Grading).
+Click the "View more" button to the see rest in the notifications tray on the website.
+
+Emails include a one-click unsubscribe option to turn off email notifications for all activity types.
+
+.. _activity-types:
+
+Activity Types
+================
+
+Activities for which you may be notified for, depending on your preferences, are listed in the table below.
+
+
+.. list-table::
+   :header-rows: 1
+   :widths: 5 15 45 20 10 10
+
+   * - #
+     - Area
+     - Activity
+     - Preference name
+     - Tray default
+     - Email default
+
+   * - 1
+     - Discussions
+     - All activity on posts and responses that you've authored or you are following
+     - Activity notifications
+     - ON
+     - Daily
+
+   * - 2
+     - Discussions
+     - Any new discussion post
+     - New discussion posts
+     - OFF
+     - OFF
+
+   * - 3
+     - Discussions
+     - Any new question post
+     - New question posts
+     - OFF
+     - OFF
+
+   * - 4
+     - Discussions
+     - Your instructor created a post and chose to notify everyone
+     - New posts from instructors
+     - ON
+     - Daily
+
+   * - 5
+     - Updates
+     - Instructor created a course update
+     - Course updates
+     - ON
+     - Daily
+
+   * - 6
+     - Grading
+     - You received a grade on your essay submission
+     - ORA grade received
+     - ON
+     - Daily
+
 
 .. _managing-preferences:
 
 Managing Preferences
 ====================
 
-The preferences center allows users to control which notifications they receive, how often, and through which channel. Users can get to the preferences page via:
+.. figure:: /_images/learners/Notifications_preference_learner.png
+  :alt: Screenshot of the preferences center on Account Settings page.
+  :width: 600
+  :align: center
 
-- The **Notifications** tab on the **Account Settings** page.
+  You can manage notification preference on *Account Settings* page.
+
+Notification preferences allow you to control which notifications you receive, how often, and through
+which channel. You can get to the preferences page via:
+
+- The Notifications section on the *Account Settings* page.
 - The gear icon in the top-right corner of the notification tray.
-- The **Notification Settings** link in email.
+- The *Notification Settings* link at the bottom of notifications in email.
 
-For each preference:
+For each preference, you can:
 
-- Users can toggle tray and email preferences ON or OFF.
-- Users can set the cadence for email notifications: Immediately, Daily, or Weekly.
+- Turn tray notifications on or off.
+- Turn email notifications on or off.
+- Choose an email cadence: Immediate, Daily, or Weekly
 
-.. image:: /_images/learners/Preference_center_learner.png
-   :width: 700
-   :align: center
-   :alt: Screenshot of the preferences center on Account Settings.
-
-Default Settings
-----------------
-
-- High-value notifications have tray and email ON by default.
-
-  - “New posts from instructors” and “Course updates” are exceptions where email is OFF by default to prevent high email volume/cost for courses with large enrollments.
-
-- High-volume notifications (e.g., new discussion posts) are OFF by default to prevent clutter.
-- The default email cadence is set to **Daily** for all preferences where email is ON by default.
-
-The table below shows defaults for each notification type.
-
-.. list-table::
-   :widths: 25 25 25 25
-   :align: center
-   :header-rows: 1
-
-   * - Preference
-     - Default Tray Preference
-     - Default Email Preference
-     - Visibility
-   * - Activity notifications
-     - ON
-     - ON / Daily
-     - All
-   * - New discussion posts
-     - OFF
-     - OFF
-     - All
-   * - New question qosts
-     - OFF
-     - OFF
-     - All
-   * - New posts from instructors
-     - ON
-     - ON
-     - All
-   * - Course updates
-     - ON
-     - OFF
-     - All
-   * - Essay assignment grade received
-     - ON
-     - ON / Daily
-     - All
 
 .. _notifications-expiry:
 
 Notifications Expiry
 ====================
 
-Every day, notifications older than 60 days are deleted from the database.
+Your site administrator may set a time limit for how long notifications remain available.
+Once they reach that age, they are automatically removed from your notification tray.
+
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        | Release        | Test situation                 |
++--------------+-------------------------------+----------------+--------------------------------+
+| Dec 11, 2025| Aamir Ayub                    | Ulmo           |                                |
++--------------+-------------------------------+----------------+--------------------------------+
