@@ -5,6 +5,15 @@ Edit Components in a Legacy Library
 
 .. tags:: educator, how-to
 
+.. warning::
+
+   The Legacy Libraries feature will be supported through Ulmo, moving to
+   unsupported in Verawood. Ulmo includes a :ref:`one-click migration feature
+   <Migrating Legacy Libraries>` that makes it easy to convert a Legacy Library
+   into the new Library interface.
+
+   See :ref:`Content Libraries Redesign Teak` for more information.
+
 After you have :ref:`Add Components to a Legacy Library`, you can edit, duplicate, or
 delete them.
 
