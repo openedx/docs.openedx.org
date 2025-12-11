@@ -7,8 +7,8 @@ Publish Library content
 
 .. note::
 
-   Users must have "Author" or "Admin" permissions on a library to publish content.
-   See :ref:`Add users to Libraries` for more detail.
+   Users must have **Library Author**, **Library Contributor**, or **Library Admin** permissions on a library to edit content.
+   See :ref:`Add users to Libraries` for more details.
 
 Libraries now support the ability to edit in draft mode, enabling more flexible
 content creation workflows.

@@ -1,77 +1,29 @@
 .. _Add users to Libraries:
 
-Add users to Libraries
-######################
+Manage Library User Access
+##########################
 
 .. tags:: educator, how-to
 
-.. note::
+Access to a library team starts from the library home page in Studio and is
+managed in the library team manager in the :ref:`Administrative Console <Ulmo
+console>`. This article explains the library roles and how to add and manage
+members of a library team.
 
-   Only admins on a given library can manage user permissions for that library.
+Any change made in the library team manager applies to this library only. It
+does not change what that user can do in other libraries or in courses.
 
-User access permissions in Libraries can be managed via the home page of your library.
 
-Library Permission Levels
-**************************
+Library Roles
+*************
 
-Read-only
----------
+Libraries use roles to control what each team member can do. One of the
+following roles can be assigned to each user on a library team. See
+:ref:`Library Roles` for a full role definition list.
 
-Read-only users can view the library and use its content in their courses.
 
-Team members who have Read-only permissions on the content in a library
-cannot create new content or edit content. Read-only includes the ability to
-search in libraries, and apply filters and sorts.
 
-Author
-------
 
-Can view library content, create new library content, edit library content, and
-use library content in courses.
-
-They can also create collections, add and remove content from collections, as
-well as add and remove tags from content and from collections.
-
-Authors can also see who else is on the team for any library that they are an
-author on. Library authors are very similar roles to course staff on the course
-side.
-
-Admin
------
-
-Admins have all the permissions of Authors, but can also add and remove Library Team
-members. Only admins can delete entire libraries. Entire libraries can also be
-toggled to read-only, and only admins have the permission to switch that toggle.
-
-In terms of intersections with already-existing roles, if you have global admin
-access on the platform, you also have library admin permissions on all libraries.
-
-Granting Permissions to a Library
-**********************************
-
-#. As an admin, from the homepage of the library, click on the
-   :guilabel:`Library Info`` button on the top right of the page to open the
-   right sidebar:
-
-   .. image:: /_images/educator_how_tos/library_user_permissions_info_button.png
-
-#. Click :guilabel:`Manage Access` button in the right sidebar:
-
-   .. image:: /_images/educator_how_tos/library_user_permissions_manage_access.png
-
-#. In the modal that appears, click the :guilabel:`+ New Team Member` button:
-
-   .. image:: /_images/educator_how_tos/library_user_permissions_new_member.png
-
-#. Enter the email address of the person you wish to grant access to:
-
-   .. image:: /_images/educator_how_tos/library_user_permissions_new_member_email.png
-
-#. By default, the new user is granted Read-only permissions. You can use the
-   buttons below the user's information to promote them to Author or Admin, or
-   use the trash button icon to remove the user's access:
-
-   .. image:: /_images/educator_how_tos/library_user_permissions_promote_delete_member.png
 
 
 .. seealso::
@@ -102,6 +54,8 @@ Granting Permissions to a Library
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-12-11   | Product WG                    | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 07/02/2025   | Leira (Curricu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

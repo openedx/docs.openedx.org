@@ -77,6 +77,11 @@ forward to:
 everywhere — imagine updating your intro module across 20 courses with one
 click!
 
+**Granular Roles and Permissions for Libraries**: Assign Library Admin, Author,
+Contributor, or User roles with specific permissions for viewing, editing,
+publishing, and managing content—all managed from a central Administrative
+Console that shows your entire team at a glance.
+
 **Smart Notifications**: Never let students miss important discussions again!
 Keep learners engaged with timely alerts about new posts and announcements,
 delivered both in-platform and via email.
