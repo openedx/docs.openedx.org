@@ -36,6 +36,8 @@ Sync a Library update to your course
 
     :ref:`Create and edit units in a Library`
 
+    :ref:`Create and Edit New Subsections and Sections`
+
     :ref:`Add Library content to a course`
 
     :ref:`Add a Problem Bank to your course for randomization`

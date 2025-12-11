@@ -52,6 +52,8 @@ you create it, see :ref:`Add users to Libraries`.
 
     :ref:`Create and edit units in a Library`
 
+    :ref:`Create and Edit New Subsections and Sections`
+
     :ref:`Build a Collection in a Library`
 
     :ref:`Publish Library content`
