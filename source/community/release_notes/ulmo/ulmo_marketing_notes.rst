@@ -13,6 +13,12 @@ for authors, learners, and site operators. Here's what's ready for you now:
 everywhere — imagine updating your intro module across 20 courses with one
 click!
 
+:ref:`Granular Roles and Permissions for Libraries <Ulmo Roles and Permissions>`:
+Assign Library Admin, Author, Contributor, or User roles with specific
+permissions for viewing, editing, publishing, and managing content from a
+central :ref:`Administrative Console <Ulmo console>` that shows your entire team
+at a glance.
+
 **Simplified LTI**: Tired of wrestling with LTI integrations? Set up credentials
 once and reuse them across all your tools with our streamlined LTI 1.3 plugin.
 
