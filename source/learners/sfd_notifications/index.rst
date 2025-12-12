@@ -41,7 +41,7 @@ Clicking it loads mores notifications at the bottom.
 Email Notifications
 -------------------
 
-.. figure:: /_images/learners/Notification_daily_email_screenshot_learner.png
+.. figure:: /_images/learners/Notification_daily_email_screenshot.png
   :alt: Screenshot of an email with the daily summary of notifications.
   :width: 400
   :align: center
@@ -162,5 +162,5 @@ Once they reach that age, they are automatically removed from your notification 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| Dec 11, 2025| Aamir Ayub                    | Ulmo           |                                |
+| Dec 11, 2025 | Aamir Ayub                    | Ulmo           |                                |
 +--------------+-------------------------------+----------------+--------------------------------+
