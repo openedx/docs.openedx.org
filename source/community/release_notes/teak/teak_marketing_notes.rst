@@ -81,8 +81,9 @@ click!
 Keep learners engaged with timely alerts about new posts and announcements,
 delivered both in-platform and via email.
 
-**Simplified LTI**: Tired of wrestling with LTI integrations? Set up credentials
-once and reuse them across all your tools with our streamlined LTI 1.3 plugin.
+**Reusable LTI configurations**: Set up LTI tool credentials once in a central store, then reuse
+them across all courses and blocks, eliminating repetitive data entry and
+reducing configuration errors across your entire instance.
 
 **Beautiful Course Pages**: Your course catalog is getting a major glow-up! New,
 customizable pages will help you showcase courses with modern design and full

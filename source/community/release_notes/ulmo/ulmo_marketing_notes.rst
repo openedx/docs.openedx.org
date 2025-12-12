@@ -13,8 +13,9 @@ for authors, learners, and site operators. Here's what's ready for you now:
 everywhere — imagine updating your intro module across 20 courses with one
 click!
 
-**Simplified LTI**: Tired of wrestling with LTI integrations? Set up credentials
-once and reuse them across all your tools with our streamlined LTI 1.3 plugin.
+:ref:`Ulmo LTI`: Set up LTI tool credentials once in a central store, then reuse
+them across all courses and blocks, eliminating repetitive data entry and
+reducing configuration errors across your entire instance.
 
 :ref:`LTI Certified ✅ <Ulmo LTI Certification>`: The Open edX Ulmo Release
 has achieved the `LTI Advantage Complete
@@ -50,8 +51,10 @@ forward to:
 **Instructor Dashboad Overhaul**: A beautiful, themeable Instructor Dashboard
 with numerous usability improvements is coming your way.
 
-**LTI Overhaul**: Even more LTI improvements to make course authoring and
-LTI component reuse a breeze!
+**Reliable, Repeatable LTI Units**: Configuration integrity when duplicating LTI
+blocks and improved compatibility with Content Libraries, enabling reliable
+block-level reusability and reducing the need for repeated configuration across
+courses.
 
 
 ⌚ Ready to Upgrade?

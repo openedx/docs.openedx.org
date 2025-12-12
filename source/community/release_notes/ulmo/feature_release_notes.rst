@@ -14,6 +14,7 @@ Open edX Ulmo Release - Product Release Notes
    ulmo_rp
    ulmo_mobile_updates
    ulmo_catalog
+   ulmo_reusable_lti
    design_tokens
    stay_up_to_date
    ulmo_lti_cert
