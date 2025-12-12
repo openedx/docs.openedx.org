@@ -57,10 +57,16 @@ determine whether a graded assignment is considered when calculating the grade t
   only be factored into this grade when the assignment due date has passed.
 
 * If "Never show individual assessment results, but show overall assessment
-  results after due date" has been selected, and the due date has not passed, a
-  banner message will appear on the progress page with the message "Some
-  assignment scores are not yet included in your total grade. These grades will
-  be released by {dueDate}."
+  results after due date" has been selected, learners will not see
+  question-level correctness or scores before *or* after the due date. However,
+  once the due date passes, they can see their overall score for the subsection
+  on the Progress page.
+ 
+* If *either* "Show When Subsection is Past Due" or "Never show individual
+  assessment results, but show overall assessment results after due date" has
+  been selected, and the due date is in the future, a banner message will appear
+  on the progress page with the message "Some assignment scores are not yet
+  included in your total grade. These grades will be released by {dueDate}."
 
   .. image:: /_images/educator_references/progress_page_assessment_before_due.png
     :alt: The banner appears at the top of the learner's progress page, directly below the banner that indicates whether or not the learner is currently passing the course.

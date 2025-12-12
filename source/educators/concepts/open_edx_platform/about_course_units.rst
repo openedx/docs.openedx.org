@@ -43,9 +43,9 @@ boxes and text to show different areas and controls in the page.
 
 #. A unit navigation bar that shows where in the subsection this unit is
    located, and provides easy navigation options to nearby unit pages.
-#. Navigation tools to quickly get to other sections or subsections.
 #. Options for testing the unit (View Live and Preview), and button to view
    in-context analytics (if :ref:`Aspects Home` is enabled).
+#. Navigation tools to quickly get to other units in the subsection.
 #. The **+ New unit** button is a way to add new units to a subsection through
    the unit navigation bar.
 #. Status panel for the unit.
