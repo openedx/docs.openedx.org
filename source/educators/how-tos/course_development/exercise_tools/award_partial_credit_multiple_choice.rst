@@ -5,6 +5,13 @@ Award Partial Credit in a Multiple Choice Problem
 
 .. tags:: educator, how-to
 
+.. warning::
+
+  Partial credit is not an option exposed in Open edX Studio.
+
+  Studio and LMS support of partial credit is not guaranteed to work.
+
+
 You can configure a single select problem so that specific incorrect answers
 award learners partial credit for the problem.
 

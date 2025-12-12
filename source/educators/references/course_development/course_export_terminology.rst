@@ -37,7 +37,7 @@ directory. To find a unit, look in the **Vertical** directory.
 
  :ref:`Import a Course` (how-to)
 
- :ref:`Work with the targz File` (reference)
+ :ref:`Work with the targz File` (how-to)
 
 
 
