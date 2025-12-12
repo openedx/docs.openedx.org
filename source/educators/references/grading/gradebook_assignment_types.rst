@@ -6,10 +6,9 @@ Gradebook Assignment Types
 
 .. tags:: educator, reference
 
-You must create assignment types for your course and determine the weight of
-the total grade for each assignment type.
+Assignment types, and their weight, must be determined for each course.
 
-For example, you might have the following assignment types.
+For example, a course might have the following assignment types.
 
 * 10 homework assignments, worth a total of 50% of the grade;
 * A midterm exam, worth a total of 20% of the grade;
@@ -22,17 +21,23 @@ By default, a new course has the following four assignment types.
 * Midterm Exam
 * Final Exam
 
-You can use these assignment types, modify or remove them, and create new
+You can use these assignment types, modify or remove them, and/or create new
 assignment types.
 
-To create a new assignment type, in the bottom of the Grading page, select
+To view or modify assignment types, view the **Grading** page from the
+**Settings** menu.
+
+.. image:: /_images/educator_references/studio_settings_grading.png
+  :width: 600
+
+To create a new assignment type, at the bottom of the Grading page, select
 **New Assignment Type**, then configure the fields described below.
 
-.. note:: In a MOOC, some number of learners will experience personal
+.. note:: In a large online course, some number of learners will experience personal
   emergencies, technical problems (such as power blackouts or loss of
-  internet access), or other issues. You will not be able to grant
-  individual extensions to such learners, but can provide some amount
-  of flexibility for managing such issues by designing longer deadlines
+  internet access), or other issues. It is not always possible to grant
+  individual extensions to every learner, but some amount
+  of flexibility for managing such issues can be provided by designing longer deadlines
   and allowing droppable assignments.
 
 
@@ -40,7 +45,12 @@ To create a new assignment type, in the bottom of the Grading page, select
 Assignment Type Fields
 **********************
 
-You configure the following fields for each assignment type.
+Configure the following fields for each assignment type.
+
+.. image:: /_images/educator_references/course_grades_page_assignmenttypes.png
+  :alt: An image of the top part of the Grading page in which you can see the
+   range for grades and set the grace period.
+  :width: 750
 
 * **Assignment Type Name:**
 
@@ -50,7 +60,7 @@ You configure the following fields for each assignment type.
   .. note::
    All assignments of a particular type count the same toward the weight of
    that category. As a result, a homework assignment that contains 10 problems
-   is worth the same percentage of a student's grade as a homework assignment
+   is worth the same percentage of a learner's grade as a homework assignment
    that contains 20 problems.
 
 * **Abbreviation:**
@@ -65,8 +75,6 @@ You configure the following fields for each assignment type.
 
   The total weight of all assignment types must equal 100.
 
-  .. note:: Do not include the percent sign (%) in this field.
-
 * **Total Number:**
 
   The total number of subsections in your course that contain problems of this
@@ -76,11 +84,6 @@ You configure the following fields for each assignment type.
 
   The number of assignments of this type that the grader will drop. The grader
   will drop the lowest-scored assignments first.
-
-.. image:: /_images/educator_references/course_grades_page_assignmenttypes.png
-  :alt: An image of the top part of the Grading page in which you can see the
-   range for grades and set the grace period.
-  :width: 600
 
 .. seealso::
  
@@ -120,5 +123,5 @@ You configure the following fields for each assignment type.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-16   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
