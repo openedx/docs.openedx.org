@@ -56,6 +56,8 @@ To add existing content to a unit
 
 .. seealso::
 
+    :ref:`Create and Edit New Subsections and Sections`
+
     :ref:`Navigate the Library Homepage`
 
     :ref:`Create a New Library`

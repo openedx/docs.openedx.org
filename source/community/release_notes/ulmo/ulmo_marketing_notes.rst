@@ -9,9 +9,10 @@ for authors, learners, and site operators. Here's what's ready for you now:
 🧑‍🏫 For Course Authors
 ********************************
 
-:ref:`Advanced Libraries <Ulmo Libraries>`: Build entire course sections once, then reuse them
-everywhere — imagine updating your intro module across 20 courses with one
-click!
+:ref:`Build Complete Course Structures in Libraries <Ulmo Libraries>`: Build
+entire course sections once, then reuse them across courses, with improved sync
+workflows that visually show changes before you apply them - plus a migration
+tool to move Legacy Library content forward.
 
 :ref:`Ulmo LTI`: Set up LTI tool credentials once in a central store, then reuse
 them across all courses and blocks, eliminating repetitive data entry and

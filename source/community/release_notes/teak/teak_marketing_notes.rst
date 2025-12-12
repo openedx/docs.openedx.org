@@ -73,9 +73,11 @@ upgrade.
 We're working hard on even more improvements in our Ulmo release! You can look
 forward to:
 
-**Advanced Libraries**: Build entire course sections once, then reuse them
-everywhere — imagine updating your intro module across 20 courses with one
-click!
+**Build Complete Course Structures in Libraries**: Build
+entire course sections once, then reuse them across courses, with improved sync
+workflows that visually show changes before you apply them - plus a migration
+tool to move Legacy Library content forward.
+
 
 **Smart Notifications**: Never let students miss important discussions again!
 Keep learners engaged with timely alerts about new posts and announcements,
