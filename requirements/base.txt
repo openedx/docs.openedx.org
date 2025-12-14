@@ -142,7 +142,7 @@ typing-extensions==4.15.0
     #   beautifulsoup4
     #   pydata-sphinx-theme
     #   starlette
-urllib3==2.6.0
+urllib3==2.6.2
     # via requests
 uvicorn==0.38.0
     # via sphinx-autobuild
