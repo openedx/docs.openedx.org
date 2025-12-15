@@ -52,6 +52,7 @@ extensions = [
     "sphinx_tags",
     "sphinxemoji.sphinxemoji",
     "myst_parser",
+    "linuxdoc.rstFlatTable",
 ]
 
 # Extension Configuration
