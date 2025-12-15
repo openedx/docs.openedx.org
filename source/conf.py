@@ -145,6 +145,10 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/edx-credentials/{rtd_language}/{rtd_version}",
         None,
     ),
+    "authz": (
+        f"https://docs.openedx.org/projects/openedx-authz/{rtd_language}/{rtd_version}",
+        None,
+    ),
 }
 
 # Add any paths that contain templates here, relative to this directory.

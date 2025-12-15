@@ -21,12 +21,12 @@ Library Roles
 *************
 
 Libraries use roles to control what each team member can do. See
-:ref:`Library Roles` for more detail on the following library roles:
+:ref:`authz:Library Roles` for more detail on the following library roles:
 
-* :ref:`Library User`
-* :ref:`Library Contributor`
-* :ref:`Library Author`
-* :ref:`Library Admin`
+* Library User
+* Library Contributor
+* Library Author
+* Library Admin
 
 Library Team Management
 ***********************
@@ -50,27 +50,30 @@ publish or manage access.
 .. image:: /_images/educator_how_tos/library_team_member_tab.png
     :alt: The Team Members tab of the Admin Console, showing two team members in a table with the columns Name, Email, Role, and Actions
     :width: 800
+    :align: center
 
 Roles Tab
 =========
 
-The Roles tab has a description of each :ref:`Library role <Library Roles>` and
+The :ref:`authz:Library Roles` tab has a description of each Library role and
 the set of permissions each role includes, helping users understand at a glance what
 each role covers when granting permissions.
 
 .. image:: /_images/educator_how_tos/library_team_roles_tab.png
     :alt: The Roles tab shows all 4 Library roles and what permissions each role grants
+    :align: center
 
 Permissions Tab
 ===============
 
-The Permissions tab has a comparison table of roles and the permissions they
-have. Each permission in the table includes a short explanation, enabling users
-to see what role allows which actions, and compare roles side by side before
-they change someone's access.
+The Permissions tab has a :ref:`authz:Library RP Summary Table` that describes
+which permissions are assigned to each role. Every permission in the table
+includes a short explanation, enabling users to see what role allows which
+actions, and compare roles side by side before they change a user's access.
 
 .. image:: /_images/educator_how_tos/library_permissions_tab.png
     :alt: The Permissions tab shows a table of permissions, with a ✅ for permissions a given role allows and a ❌ for permissions not available for that role.
+    :align: center
 
 
 Manage Access for Library Team Members
@@ -79,10 +82,7 @@ Manage Access for Library Team Members
 Only Library Admins and global site admins can add or remove team members or change
 their roles. All actions in this section affect access to one library only.
 
-View Team Members
-=================
-
-Library administrators can audit a user's access to that library:
+To begin, follow these steps to open the Team Management panel:
 
 #. From the home page of the library in Studio, click the :guilabel:`ⓘ Library Info` button on
    the top right of the page to open the right sidebar.
@@ -90,12 +90,19 @@ Library administrators can audit a user's access to that library:
    .. image:: /_images/educator_how_tos/library_info_button.png
       :alt: The Library Info button appears below the header, on the top-right of the page.
 
-#. In the right sidebar, click the :guilabel:`Library Team` button. This opens the team
+#. In the right sidebar, click the :guilabel:`Manage Access` button. This opens the team
    management panel in a new browser tab in the Administrative Console, on the
    Team Members tab.
 
-   .. image:: /_images/educator_how_tos/library_team_button.png
-      :alt: The Library Team button appears in the right sidebar, below the Published status and Organization information.
+   .. image:: /_images/educator_how_tos/library_manage_access_button.png
+      :alt: The "Manage Access" button appears in the right sidebar, below the Published status and Organization information.
+      :scale: 40
+      :align: center
+
+View Team Members
+=================
+
+Library administrators can audit a user's access to that library via the Team Management panel:
 
 #. Use search or filters to find a user to update and select Edit in the Action
    column to open the user detail view.
@@ -113,26 +120,13 @@ Library administrators can audit a user's access to that library:
 Add a New Team Member
 ========================
 
-To give someone access to a library:
-
-#. From the home page of the library in Studio, click the :guilabel:`ⓘ Library Info` button on
-   the top right of the page to open the right sidebar.
-
-   .. image:: /_images/educator_how_tos/library_info_button.png
-      :alt: The Library Info button appears below the header, on the top-right of the page.
-
-#. In the right sidebar, click the :guilabel:`Library Team` button. This opens the team
-   management panel in a new browser tab in the Administrative Console, on the
-   Team Members tab.
-
-   .. image:: /_images/educator_how_tos/library_team_button.png
-      :alt: The Library Team button appears in the right sidebar, below the Published status and Organization information.
+Library administrators can add a new team member via the Team Management panel:
 
 #. In the team management panel, click the :guilabel:`+ Add New Team Member` button in the
    upper right corner to open the Add User pop-up.
 
    .. image:: /_images/educator_how_tos/library_add_team_member_button.png
-      :alt: The Library Team button appears in the right sidebar, below the Published status and Organization information.
+      :alt: The Add New Team Member button appears at the top-right of the Library Team Management page
 
 #. In the pop-up window, enter one or more email addresses or usernames of the
    people you want to grant access to, separated by commas. Select the desired
@@ -150,10 +144,9 @@ To give someone access to a library:
 Edit User Roles
 ===============
 
-Library Admins and global site admins can update roles for users who are already on the library team.
-
-Add a Role to a Team Member
-----------------------------
+Library Admins and global site admins can update roles for users who are already
+on the library team. To begin, follow these steps to open the Team Management
+panel:
 
 #. From the home page of the library in Studio, click the :guilabel:`ⓘ Library Info` button on
    the top right of the page to open the right sidebar.
@@ -161,15 +154,21 @@ Add a Role to a Team Member
    .. image:: /_images/educator_how_tos/library_info_button.png
       :alt: The Library Info button appears below the header, on the top-right of the page.
 
-#. In the right sidebar, click the :guilabel:`Library Team` button. This opens the team
+#. In the right sidebar, click the :guilabel:`Manage Access` button. This opens the team
    management panel in a new browser tab in the Administrative Console, on the
    Team Members tab.
 
-   .. image:: /_images/educator_how_tos/library_team_button.png
-      :alt: The Library Team button appears in the right sidebar, below the Published status and Organization information.
+   .. image:: /_images/educator_how_tos/library_manage_access_button.png
+      :alt: The "Manage Access" button appears in the right sidebar, below the Published status and Organization information.
+      :scale: 40
+      :align: center
 
-#. Navigate to the "Team Members" tab. Use search or filters to find the user to update and select "Edit" in the
-   Action column to open the user detail view for the user.
+Add a Role to a Team Member
+----------------------------
+
+#. Navigate to the "Team Members" tab of the Team Management panel. Use search
+   or filters to find the user to update and select "Edit" in the Action column
+   to open the user detail view for the user.
 
    .. image:: /_images/educator_how_tos/library_team_roles_edit.png
       :alt: The "Edit" link appears in the rightmost column of the User table for each row that contains a user.
@@ -192,21 +191,9 @@ The new role is added for this user in this library and appears in their list of
 Remove a Role from a Team Member
 --------------------------------
 
-#. From the home page of the library in Studio, click the :guilabel:`ⓘ Library Info` button on
-   the top right of the page to open the right sidebar.
-
-   .. image:: /_images/educator_how_tos/library_info_button.png
-      :alt: The Library Info button appears below the header, on the top-right of the page.
-
-#. In the right sidebar, click the :guilabel:`Library Team` button. This opens the team
-   management panel in a new browser tab in the Administrative Console, on the
-   Team Members tab.
-
-   .. image:: /_images/educator_how_tos/library_team_button.png
-      :alt: The Library Team button appears in the right sidebar, below the Published status and Organization information.
-
-#. Navigate to the "Team Members" tab. Use search or filters to find the user to update and select "Edit" in the
-   Action column to open the user detail view for the user.
+#. Navigate to the "Team Members" tab of the Team Management panel. Use search
+   or filters to find the user to update and select "Edit" in the Action column
+   to open the user detail view for the user.
 
    .. image:: /_images/educator_how_tos/library_team_roles_edit.png
       :alt: The "Edit" link appears in the rightmost column of the User table for each row that contains a user.

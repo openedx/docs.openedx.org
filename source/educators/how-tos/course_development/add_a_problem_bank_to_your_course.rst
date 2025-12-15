@@ -10,7 +10,8 @@ Add a Problem Bank to your course for randomization
     Content must be :ref:`published in a Library<Publish Library content>`
     before it can be used in a Course.
 
-    A course author must have at least the **Library User** role to reuse content.
+    A course author must have at least the **Library User** role to reuse content, *or*,
+    the library should be published with the **Allow Public Read** permission.
     See :ref:`Add users to Libraries` for more detail.
 
 #. From the Unit Page in a course outline, click on the Problem Bank tile. A
