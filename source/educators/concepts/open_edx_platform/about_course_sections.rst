@@ -6,8 +6,6 @@ About Course Sections
 
 .. tags:: educator, concept
 
-To develop sections in your course, you must first understand the following topics.
-
 .. contents::
   :local:
   :depth: 2
@@ -16,14 +14,15 @@ To develop sections in your course, you must first understand the following topi
 What Is a Section?
 ****************************
 
-A section is the topmost category in your course. A section can represent a
-time period in your course, a chapter, or another organizing principle. A section contains one or more subsections.
+A section is the topmost category in a course. A section can represent a time
+period in a course, a chapter, or another organizing principle. A section
+contains one or more :ref:`subsections <About Course Subsections>`.
 
 ********************************
 Viewing Sections in the Outline
 ********************************
 
-For more information see :ref:`About the Course Outline`
+For more information see :ref:`About the Course Outline`.
 
 .. _Sections and Visibility to Learners:
 
@@ -42,13 +41,40 @@ if:
 * The unit is not hidden from learners.
 
 ************************************************
-Release Statuses of Sections
+Setting the Release Date for Sections
 ************************************************
 
-As an course author, you control the release status of sections.  For the
-content of a section to be visible to learners, the section must be released.
-See the following topics for more information about the possible release
-statuses of sections.
+For the content of a section to be visible to learners, the section must be
+released. To set the release status for sections, follow these steps.
+
+#. From the three-dot menu at the section level, choose **Configure**.
+
+   .. image:: /_images/educator_concepts/section_three_dot_menu_configure.png
+     :width: 600
+
+#. On the **Basic** tab, locate the **Release date and time** section.
+
+   .. image:: /_images/educator_concepts/section_release_date.png
+     :width: 600
+
+#. For **Release Date** and **Release Time in UTC**, enter or select a due date and
+   time for problems in this section.
+
+   .. note:: The time that you set is in Coordinated Universal Time (UTC). You
+      might want to verify that you have specified the time that you intend by
+      using a time zone converter such as `Time and Date Time Zone Converter`_.
+
+      Learners who have specified a time zone in their account settings see
+      course dates and times converted to their specified time zone. Learners
+      who have not specified a time zone in their account settings see course
+      dates and times on their dashboards, in the body of the course, and on
+      their **Progress** pages in the time zone that their browsers specify.
+      Learners see other course dates and times in UTC.
+
+
+************************************************
+Understanding Section Statuses
+************************************************
 
 .. contents::
   :local:
@@ -58,16 +84,16 @@ statuses of sections.
 Unscheduled
 ========================
 
-If you do not change the :ref:`course start date<Set Start and End Dates>`
-default value, ``1/1/2030 00:00:00 UTC``, when you create a new section, its
+If the :ref:`course start date<Set Start and End Dates>` is unchanged from its
+default value, ``1/1/2030 00:00:00 UTC``, when a new section is created, its
 release date will appear as ``Unscheduled``. When the section release date is
 unscheduled, learners cannot see any content in that section, regardless of
 the publishing status of that content.
 
-If you have modified the course start date, when you create a new section, the
+If the course start date has been modified, when a new section is created, the
 default release date is the course start date.
 
-To make the content available to learners, you must schedule the release date.
+To make the content available to learners, the release date must be scheduled.
 
 ==========
 Scheduled
@@ -91,10 +117,10 @@ published.
 Released with Unpublished Changes
 ==================================
 
-If you change a unit in a released section but do not publish the changes,
+If a unit in a released section is changed but the changes aren't published,
 learners see the last published version of the modified unit.
 
-You must publish the unit for learners to see the updates.
+The unit must published for learners to see the updates.
 
 ===========================
 Staff Only Content
@@ -136,5 +162,5 @@ regardless of the release date of the section or subsection.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-16   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

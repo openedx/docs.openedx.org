@@ -77,7 +77,7 @@ To import a course, follow these steps.
 
  :ref:`Course Export File Terminology` (reference)
 
- :ref:`Work with the targz File` (reference)
+ :ref:`Work with the targz File` (how-to)
 
 **Maintenance chart**
 

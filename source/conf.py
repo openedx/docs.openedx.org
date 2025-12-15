@@ -66,6 +66,7 @@ rediraffe_redirects = {
     "learners/sfd_discussions/explore_posts.rst": "learners/sfd_discussions/find_follow_conversations.rst",
     "learners/sfd_discussions/keep_up.rst": "learners/sfd_discussions/discussions_notifications.rst",
     "learners/sfd_discussions/provide_feedback.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "educators/references/course_development/working_with_targz_file.rst": "educators/how-tos/course_development/work_with_targz_file.rst",
 }
 
 tags_create_tags = True

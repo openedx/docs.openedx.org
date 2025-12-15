@@ -6,64 +6,67 @@ The OLX Structure of a Sample Course
 
 .. tags:: educator, reference
 
-This topic describes the structure of a sample course known as the `olx-example`_ course that was originally developed for edX.org.
+This topic describes the structure of a sample course known as the
+`olx_example_course`_, a course with the structure of an Open edX Studio export.
 
 .. contents::
   :local:
   :depth: 1
 
-For information about how a generic OLX (open learning XML) course is
-structured, see :ref:`OLX Directory Structure`.
-
-For information about how a course exported from Open edX Studio is structured, see
-:ref:`Example of OLX for a Studio Course`.
-
 .. note::
-  The structure and content of olx-example can change without corresponding
+  The structure and content of the *olx_example_course* can change without corresponding
   updates being made to this reference guide.
 
-******************************************
-olx-example and Directory File Structures
-******************************************
+**************************************************
+olx_example_course and Directory File Structures
+**************************************************
 
-All files and subdirectories that comprise olx-example are stored in the
-`olx-example course`_ directory in the olx-example Git repository.
+All files and subdirectories that comprise ``olx_example_course`` are stored in the
+`olx_example_course course`_ directory in the ``training-courses`` GitHub repository.
 
 .. Image:: /_images/olx-example-images/olx-example-github.png
- :alt: The olx-example course in GitHub.
+ :alt: The olx_example_course in GitHub, showing the file structure of the ``course/`` directory.
 
-********************
-Top-level Directory
-********************
+**********************
+Top-level Directories
+**********************
 
-The `olx-example course`_ directory in the olx-example Git repository contains the
-``course.xml`` file as well as XBlock and Platform directories.
+The `olx_example_course course`_ directory in the ``training-courses`` GitHub
+repository contains the ``course.xml`` file as well as various XBlock and
+Platform directories.
 
-* The `course.xml`_ file contains the XML for the courseware. All chapters and
-  sequentials are defined in ``course.xml``.
+* The `course.xml`_ file contains the XML for the courseware. In the
+  ``olx_example_course``, this simply contains the course key, ``<course
+  url_name="2025" org="OpenedX" course="OLXex"/>``; this is how the Studio
+  export works. It is possible to define course sections, subsections, and units
+  (``chapter`` s, ``sequential`` s, and ``vertical`` s) within the ``course.xml`` file, however,
+  if imported into Studio and then exported, the format of the
+  ``olx_example_course`` will be applied.
 
-* Most verticals are defined in ``course.xml``; two verticals are referenced in
-  other files.
+* Course sections are defined in the ``chapter`` directory, subsections in the
+  ``sequential`` directory, and units in the ``vertical`` directory.
 
-* The content of some HTML XBlocks is embedded within ``course.xml``; other
-  HTML XBlocks are referenced in other files.
+* HTML units are referenced in the ``html`` directory, where there are two
+  files: an XML file that calls an associated HTML file, which defines the HTML
+  content.
 
-* Problems are referenced in other files.
+* Videos are defined in the ``video`` directory.
 
-For more information, see :ref:`The olx-example course.xml File`.
+* Problems are referenced in other directories, such as ``problem`` and ``lti``.
 
-******************************
-The HTML XBlock Directory
-******************************
-
-While some HTML content is embedded in ``course.xml``, many HTML XBlocks are
-stored as separate files in the ``HTML`` directory.
+For more information, see the olx_example_course `course.xml`_ file.
 
 ==============================
 Example of a Referenced XBlock
 ==============================
 
-You can reference an XBlock from the ``course.xml`` file.
+.. warning::
+
+  The "Example of a Referenced Block" part of this guide was written in 2013. As of the Teak release, it is
+  untested and not guaranteed to work when imported into Open edX Studio,
+  either currently or in future releases.
+
+Authors can reference an XBlock from the ``course.xml`` file.
 
 For example, in ``course.xml``, the first vertical in the courseware contains a
 single HTML XBlock with the display name ``Week overview``, which references
@@ -80,9 +83,8 @@ single HTML XBlock with the display name ``Week overview``, which references
               <html display_name="Week overview" filename="Week_overview"
                   url_name="Week_overview"/>
 
-There is a file called ``Week_overview.html`` in the ``html`` directory that
-contains the content for that HTML component. For detailed information, see the
-`Week_overview.html`_ file in GitHub.
+There would be a file called ``Week_overview.html`` in the ``html`` directory that
+contains the content for that HTML component.
 
 For a learner, that HTML component appears as the first unit of the course.
 
@@ -94,9 +96,14 @@ For a learner, that HTML component appears as the first unit of the course.
 Example of an Inline XBlock
 ==============================
 
-You can include XBlock content within the ``course.xml`` file. You can do
-this for ease of reading and maintenance when you do not need to reuse the
-content.
+.. warning::
+
+  The "Example of an Inline XBlock" part of this guide was written in 2013. As of the Teak release, it is
+  untested and not guaranteed to work when imported into Open edX Studio,
+  either currently or in future releases.
+
+Authors can include XBlock content within the ``course.xml`` file, for
+ease of reading and maintenance when the content is not needed for reuse.
 
 For example, in ``course.xml``, the sequential with the display name ``In-class
 exercise`` contains embedded HTML content.
@@ -131,7 +138,7 @@ way as a referenced HTML component does.
 Platform Directories
 ********************
 
-The olx-example course contains information in the course subdirectories as
+The ``olx_example_course`` course contains information in the course subdirectories as
 described below.
 
 ====================
@@ -168,7 +175,7 @@ The ``policies`` directory contains the following files.
 
 * ``assets.json``, which defines all files used in the course, such as images.
 
-* A course directory named ``course``, which contains:
+* A course directory named ``2025`` (the "course run"), which contains:
 
   * ``grading_policy.json``, which defines how student work is graded in the
     course.
@@ -190,30 +197,35 @@ For more information, see :ref:`Course Assets`.
 ``vertical`` Directory
 =======================
 
-The ``vertical`` directory contains the XML for two verticals used in the
+The ``vertical`` directory contains the XML for the 15 units used in the
 course.
 
-* ``constructive_ora_exercise.xml``
-* ``in_class_ora.xml``
+*Units* (``vertical`` s) can be embedded in the ``course.xml`` file, however
+this method is not guaranteed to work on Open edX Studio imports. It is
+recommended to store XML for units in separate files in the ``vertical``
+directory.
 
-You can embed verticals in the ``course.xml`` file, and this is usually the
-most straightforward option. However, with OLX, you can also store XML for
-verticals in separate files in the ``vertical`` directory.
-
-In this case, verticals for open response assessments are stored in their own
-files.
-
-The vertical files are referenced in ``course.xml`` as follows:
+The *units* are referenced in associated XML files for course *subsections* (in
+the ``sequential/`` directory). For example, in
+``sequential/subsection_1_midterm_exam.xml``:
 
 .. code-block:: html
 
-  <vertical url_name="constructive_ora_exercise"></vertical>
+  <sequential default_time_limit_minutes="0" display_name="Subsection 1: Midterm Exam" due="null" format="Midterm Exam" graded="true" hide_after_due="false" show_correctness="always" start="2025-06-01T00:00:00Z">
+    <vertical url_name="unit_1_input_problems"/>
+    <vertical url_name="unit_2_poll"/>
+    <vertical url_name="unit_3_sga"/>
+    <vertical url_name="unit_4_formula_response_midterm"/>
+  </sequential>
 
-And:
+And in ``vertical/unit_1_input_problems.xml``:
 
 .. code-block:: html
 
-  <vertical url_name="in_class_ora"></vertical>
+  <vertical display_name="Unit 1: Input Problems">
+    <problem url_name="numerical_input"/>
+    <problem url_name="text_input"/>
+  </vertical>
 
 .. seealso::
 
@@ -229,15 +241,17 @@ And:
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
   :ref:`The Courseware Structure` (reference)
+
+  :ref:`Work with the targz File` (how-to)
 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
 | Review Date  | Reviewer                      |   Release      |    Test situation                                                                                                  |
++--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                                                                                                               |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------+
 | 2025-03-19   | Peter Pinch                   | Sumac          |`Fail content <https://github.com/openedx/docs.openedx.org/issues/949>`_                                            |
 |              | Sarina Canelake               |                |`Fail insider course hosting <https://github.com/openedx/docs.openedx.org/issues/998>`_                             |

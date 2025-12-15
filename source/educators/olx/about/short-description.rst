@@ -6,22 +6,25 @@ Create Short Description in OLX
 
 .. tags:: educator, how-to
 
-Optionally, you can define a short description for your course.
+.. note::
 
-Learners see the short description when they move their cursors over the course
-image in the catalog.
+  This page describes how to create the Short Description section for
+  a course, provided the Open edX instance the course is hosted on is using the default
+  Open edX course catalog. Some Open edX instances might utilize a different
+  way of publishing and advertising courses.
+
+A short description of the course appears at the top of the Course About page.
 
 *********************************************
 Create the Short Description File
 *********************************************
 
-You create an HTML file called ``short_description.html`` in the ``overview``
+Create an HTML file called ``short_description.html`` in the ``about``
 directory.
 
 The short description is limited to 150 characters.
 
-Within that limit, you can add any text and HTML markup to the short
-description file.
+Within that limit, any text and HTML markup to the short description file can be added.
 
 .. seealso::
 
@@ -33,12 +36,10 @@ description file.
 
   :ref:`OLX Directory Structure` (reference)
 
-  :ref:`Example of OLX for a Studio Course` (reference)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
