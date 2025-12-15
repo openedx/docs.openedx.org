@@ -4,14 +4,14 @@
 Notifications & Preferences
 ###########################
 
-Notifications help you stay informed about activity in your courses. You can view notifications while on the
-platform or receive them by email, depending on your preferences.
+Notifications help you stay informed about activity in your courses. You can view notifications while
+on the platform or receive them by email, depending on your preferences.
 
 .. contents::
    :local:
    :depth: 1
 
-.. _where-notifications-appear:
+.. _Where Notifications Appear:
 
 Where Notifications Appear
 ===========================
@@ -20,7 +20,7 @@ Notification Tray
 ------------------
 
 .. figure:: /_images/learners/Notifications_tray_screenshot.png
-  :alt: Screenshot of notifications tray showing it's features.
+  :alt: Notifications tray is shown which can be opened by clicking on the bell icon on right side of page header.
   :width: 600
   :align: center
 
@@ -32,7 +32,7 @@ The notification tray keeps you updated while you’re browsing the site.
 - Clicking the bell icon on top right opens the notifications tray with tabs such as Discussions,
   Updates and Grading.
 - Each notification shows the course it belongs to, time elapsed since it was created
-  and an red dot that indicates that it has not been clicked.
+  and a red dot that indicates that it has not been clicked.
 - A gear icon in the tray takes you directly to your notification preferences on Account Settings page.
 
 If you have more notifications than can fit in the tray, a “Load more” button appears at the bottom.
@@ -42,7 +42,7 @@ Email Notifications
 -------------------
 
 .. figure:: /_images/learners/Notification_daily_email_screenshot.png
-  :alt: Screenshot of an email with the daily summary of notifications.
+  :alt: Screenshot of a daily email digest showing list of notifications from the past 24 hours
   :width: 400
   :align: center
 
@@ -55,12 +55,12 @@ or receive a daily or weekly summary of notifications.
 - **Daily:** Receive a summary of notifications from the past 24 hours.
 - **Weekly:** Receive a summary of notifications from the past 7 days.
 
-Email summary contains upto 5 notifications for each platform area (Discussions, Updates, Grading).
+Email summary contains up to 5 notifications for each platform area (Discussions, Updates, Grading).
 Click the "View more" button to the see rest in the notifications tray on the website.
 
 Emails include a one-click unsubscribe option to turn off email notifications for all activity types.
 
-.. _activity-types:
+.. _Activity Types:
 
 Activity Types
 ================
@@ -88,48 +88,62 @@ Activities for which you may be notified for, depending on your preferences, are
 
    * - 2
      - Discussions
+     - Someone reported a post, response or comment
+     - Reported content
+     - ON
+     - Daily
+
+   * - 3
+     - Discussions
      - Any new discussion post
      - New discussion posts
      - OFF
      - OFF
 
-   * - 3
+   * - 4
      - Discussions
      - Any new question post
      - New question posts
      - OFF
      - OFF
 
-   * - 4
+   * - 5
      - Discussions
      - Your instructor created a post and chose to notify everyone
      - New posts from instructors
      - ON
      - Daily
 
-   * - 5
+   * - 6
      - Updates
      - Instructor created a course update
      - Course updates
      - ON
      - Daily
 
-   * - 6
+   * - 7
      - Grading
-     - You received a grade on your essay submission
+     - You received a grade on your essay (ORA) submission
      - ORA grade received
      - ON
      - Daily
 
+   * - 8
+     - Grading
+     - A submission made for an essay (ORA) that requires staff grading
+     - New ORA submission for staff grading
+     - ON
+     - Daily
 
-.. _managing-preferences:
+
+.. _Managing Preferences:
 
 Managing Preferences
 ====================
 
-.. figure:: /_images/learners/Notifications_preference_learner.png
-  :alt: Screenshot of the preferences center on Account Settings page.
-  :width: 600
+.. figure:: /_images/learners/Notifications_preferences.png
+  :alt: Preferences center on Account Settings page showing activity types and preference toggles and dropdowns.
+  :width: 700
   :align: center
 
   You can manage notification preference on *Account Settings* page.
@@ -148,7 +162,7 @@ For each preference, you can:
 - Choose an email cadence: Immediate, Daily, or Weekly
 
 
-.. _notifications-expiry:
+.. _Notifications Expiry:
 
 Notifications Expiry
 ====================
@@ -157,10 +171,15 @@ Your site administrator may set a time limit for how long notifications remain a
 Once they reach that age, they are automatically removed from your notification tray.
 
 
+.. seealso::
+
+ :ref:`Discussions Notifications <Staying Updated with Notifications>`
+
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| Dec 11, 2025 | Aamir Ayub                    | Ulmo           |                                |
+| Dec 15, 2025 | Aamir Ayub                    | Ulmo           |                                |
 +--------------+-------------------------------+----------------+--------------------------------+

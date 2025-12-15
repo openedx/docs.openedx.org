@@ -34,7 +34,6 @@ into a single preference to avoid clutter in preferences.
 
 .. seealso::
 
-
  :ref:`Getting started with Discussions`
 
  :ref:`Finding and Following the Right Conversations`
