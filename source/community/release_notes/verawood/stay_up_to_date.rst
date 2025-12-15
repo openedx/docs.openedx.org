@@ -1,3 +1,5 @@
+.. _Verawood planning:
+
 Stay Up To Date with Verawood
 ##############################
 
@@ -22,5 +24,5 @@ Join asynchronously in the `#release-planning room in Slack <openedx.org/slack>`
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|  2025-04-15  | sarina                        | Sumac          |   Pass                         |
+|  2025-04-15  | sarina                        | Ulmo           |   Pass                         |
 +--------------+-------------------------------+----------------+--------------------------------+
