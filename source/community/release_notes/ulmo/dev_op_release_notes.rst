@@ -147,7 +147,7 @@ Administrators & Operators
 * A new Catalog MFE is optionally available in Ulmo.1. See the :ref:`Catalog
   release notes <Ulmo catalog>` for more information about the catalog, and the
   `Catalog README
-  <https://github.com/openedx/frontend-app-catalog?tab=readme-ov-file#frontend-app-catalog>`_
+  <https://github.com/openedx/frontend-app-catalog?tab=readme-ov-file#installing>`_
   for information about how to enable this on your instance.
 
 * For Libraries, access control is now represented as explicit, library scoped
