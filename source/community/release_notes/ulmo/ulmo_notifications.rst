@@ -140,7 +140,7 @@ For instructions on using Notifications in courses, managing preferences,
 reviewing activity, and understanding delivery settings, please refer to the
 :ref:`Notifications & Preferences`.
 
-For site operators, configuration options are available in the :ref:`Operator release notes <Ulmo operators>`.
+For site operators, configuration options are available in the :ref:`Enable Notifications`.
 
 
 
