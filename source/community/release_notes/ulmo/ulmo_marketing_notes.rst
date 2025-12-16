@@ -36,6 +36,11 @@ design and full theming support.
 Keep learners engaged with timely alerts about new posts and announcements,
 delivered both in-platform and via email.
 
+:ref:`Enhanced mobile experience <Mobile Updates (Ulmo)>`: Learners get a new
+Course Home carousel showing progress, videos, assignments, and grades at a
+glance. Also included is a redesigned Content tab with filtered views and a
+dedicated Progress page to track achievement.
+
 ⚙️ For Site Operators 
 **********************
 
