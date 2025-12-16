@@ -30,8 +30,12 @@ The mobile apps for Teak can be installed using the ``release/teak`` branches in
 * `openedx-app-ios Teak release <https://github.com/openedx/openedx-app-ios/tree/release/teak>`_
 * `openedx-app-android Teak release <https://github.com/openedx/openedx-app-android/tree/release/teak>`_
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2025-06-05   | Mobile WG                     | Teak           |  Pass                          |
-+--------------+-------------------------------+----------------+--------------------------------+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+|2025-12-18    | BTR WG                        | Ulmo           | Deprecated: Not the latest release |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-06-05   | Mobile WG                     | Teak           |  Pass                              |
++--------------+-------------------------------+----------------+------------------------------------+

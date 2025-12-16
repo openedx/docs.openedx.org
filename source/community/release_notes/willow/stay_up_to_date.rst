@@ -1,5 +1,5 @@
-Stay Up To Date with Ulmo
-#########################
+Stay Up To Date with Willow
+##############################
 
 Beginning with the Redwood release, the community has come together to pre-plan
 major product deliverables well in advance of the release's code cut off date.
@@ -22,5 +22,5 @@ Join asynchronously in the `#release-planning room in Slack <openedx.org/slack>`
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|  2025-04-15  | sarina                        | Sumac          |   Pass                         |
+|  2025-12-18  | sarina                        | Ulmo           |   Pass                         |
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -11,6 +11,7 @@ fixes and features. These older releases will not receive any of those.
 .. toctree::
    :maxdepth: 2
 
+   teak
    sumac
    redwood
    quince-landing
