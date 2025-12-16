@@ -1,29 +1,29 @@
-Open edX Verawood - June 2026 Release
+Open edX Willow - December 2026 Release
 ##########################################
 
-These are the release notes for the Verawood release, the 22st community release
+These are the release notes for the Willow release, the 23rd community release
 of the Open edX Platform, which will be released in June 2026. You can also review details
 about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
 .. highlights::
 
-   What's new in Verawood? Click to read about new features:
+   What's new in Willow? Click to read about new features:
 
-   :ref:`Verawood Product Notes`.
+   :ref:`Willow Product Notes`.
 
 
 .. highlights::
 
-   What's new in Verawood? Operators and developers, click to read about new
+   What's new in Willow? Operators and developers, click to read about new
    updates, patches, and configuration options.
    
-   :ref:`Verawood Dev Notes`.
+   :ref:`Willow Dev Notes`.
 
 .. toctree::
     :maxdepth: 2
 
-    Verawood Release Notes <verawood/feature_release_notes>
-    Verawood Developer & Operator Release Notes <verawood/dev_op_release_notes>
+    Willow Release Notes <willow/feature_release_notes>
+    Willow Developer & Operator Release Notes <willow/dev_op_release_notes>
 
 .. _Open edX Platform: https://openedx.org
 
@@ -35,6 +35,4 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-12-18   | BTR WG                        | Ulmo           | Pass                           |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2025-06-04   | BTR WG                        | Teak           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

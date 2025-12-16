@@ -12,9 +12,9 @@ migrations, and other changes and updates to the Open edX platform.
 .. toctree::
     :maxdepth: 2
 
-    Teak: The Current Release <teak>
-    Ulmo: December 2025 Release <ulmo>
+    Ulmo: The Current Release <ulmo>
     Verawood: June 2026 Release <verawood>
+    Willow: December 2026 Release <willow>
 
 .. toctree::
     :maxdepth: 1

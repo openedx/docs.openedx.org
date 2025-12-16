@@ -2,7 +2,7 @@ Open edX Teak - June 2025 Release
 #################################
 
 These are the release notes for the Teak release, the 20th community release
-of the Open edX Platform, which will be released in June 2025. You can also review details
+of the Open edX Platform, which was released in June 2025. You can also review details
 about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
 .. highlights::
@@ -34,8 +34,10 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|2025-04-28    | BTR WG                        | Teak           |  Pass                          |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+|2025-12-18    | BTR WG                        | Ulmo           | Deprecated: Not the latest release |
++--------------+-------------------------------+----------------+------------------------------------+
+|2025-04-28    | BTR WG                        | Teak           |  Pass                              |
++--------------+-------------------------------+----------------+------------------------------------+

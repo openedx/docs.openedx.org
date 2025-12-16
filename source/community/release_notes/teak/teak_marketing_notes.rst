@@ -70,8 +70,8 @@ upgrade.
 🔮 Upcoming in Ulmo (December 2025)
 ************************************
 
-We're working hard on even more improvements in our Ulmo release! You can look
-forward to:
+We're working hard on even more improvements in our :ref:`Ulmo release (out now) <Ulmo Product Marketing Notes>`!
+You can look forward to:
 
 **Build Complete Course Structures in Libraries**: Build
 entire course sections once, then reuse them across courses, with improved sync

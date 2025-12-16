@@ -1,29 +1,18 @@
-.. _Ulmo Product Notes:
+.. _Willow Product Notes:
 
-Open edX Ulmo Release - Product Release Notes
-#############################################
+Open edX Willow Release - Product Release Notes
+##################################################
 
-The Open edX Ulmo Release was released on December 22, 2025.
-
-:ref:`What's New? <Ulmo Product Marketing Notes>`
+*Releasing December, 2026!*
 
 .. toctree::
    :maxdepth: 1
 
-   ulmo_libraries
-   ulmo_rp
-   ulmo_notifications
-   ulmo_mobile_updates
-   ulmo_catalog
-   ulmo_reusable_lti
-   design_tokens
-   ulmo_lti_cert
-   ulmo_frontend_plugin_slots
-
+   stay_up_to_date
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
-in the :ref:`Ulmo Dev Notes`.
+in the :ref:`Willow Dev Notes`.
 
 
 **Maintenance chart**
@@ -31,5 +20,5 @@ in the :ref:`Ulmo Dev Notes`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|2025-12-18    | BTR WG                        | Ulmo           | Pass                           |
+|              |                               |                |                                |
 +--------------+-------------------------------+----------------+--------------------------------+

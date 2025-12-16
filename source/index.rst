@@ -16,17 +16,17 @@ Open edX Documentation
          :maxdepth: 1
          :hidden:
 
-         📰 What's New? <community/release_notes/teak/teak_marketing_notes>
+         📰 What's New? <community/release_notes/ulmo/ulmo_marketing_notes>
 
-      The Open edX Teak release is out, featuring:
+      The Open edX Ulmo release is out, featuring:
 
-      💡 Easier Content Reuse with Libraries!
+      🔔 Platform & Email Notifications!
 
-      📈 Analytics in Studio!
+      📚 Section Reuse and Granular Permissions with Libraries!
 
-      🏅 Badges for Learners!
+      🚀 Reusable LTI Configuration!
 
-      ... and lots more! :ref:`Continue reading... <Teak Product Marketing Notes>`
+      ... and lots more! :ref:`Continue reading... <Ulmo Product Marketing Notes>`
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
