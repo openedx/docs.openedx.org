@@ -16,8 +16,9 @@ The Open edX Ulmo Release was released on December 22, 2025.
    ulmo_mobile_updates
    ulmo_catalog
    ulmo_reusable_lti
-   design_tokens
+   smaller_changes
    ulmo_lti_cert
+   design_tokens   
    ulmo_frontend_plugin_slots
 
 

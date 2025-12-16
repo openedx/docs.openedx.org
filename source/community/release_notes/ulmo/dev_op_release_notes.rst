@@ -16,6 +16,16 @@ To view the end-user facing docs, see the :ref:`Ulmo Product Notes`.
  :depth: 1
  :local:
 
+Improvements
+*************
+
+**Decreased Docker build time for operators**
+
+The time it takes to install dependencies and build static assets for
+edx-platform has decreased from Teak due to pruning of legacy code (e.g. legacy
+Studio pages), removal of some unnecessary dependencies (e.g.
+edx-proctoring-proctortrack), and upgrades to build tools (e.g. webpack).
+
 Breaking Changes
 ****************
 
@@ -176,6 +186,73 @@ Administrators & Operators
   <https://github.com/openedx/edx-platform/pull/37377>`_.
 
 
+.. _Configuring Forums Spam:
+
+Configuring Forum Moderation & Spam Prevention Features
+=======================================================
+
+#. Preventing harmful content from being viewed: A configurable feature was
+   added that replaces content containing certain strings with a custom message.
+
+   **Configuration**: 
+   
+   #. Add a list of URLs, keywords, or regex patterns to the Django setting ``DISCUSSION_SPAM_URLS``. Regular expressions are supported.
+
+      Each pattern matching part of a forum post will be removed or replaced, for example::
+
+         DISCUSSION_SPAM_URLS = [
+           r"https?://chat\.whatsapp\.com/[A-Za-z0-9]+",
+           r"https?://bit\.ly/[A-Za-z0-9]+",
+         ]
+
+   #. Define the replacement text in the Django setting
+      ``CONTENT_FOR_SPAM_POSTS``. If this value is set, the entire content will
+      be replaced by this value; if this value is left blank, only the matched
+      portion (URL or text) will be removed, leaving the rest of the post
+      unchanged. For example, if the value was set like so::
+
+         CONTENT_FOR_SPAM_POSTS = "[removed: suspected spam link]"
+
+      Any text that was a match for a regex in ``DISCUSSION_SPAM_URLS`` would be replaced with the text ``[removed: suspected spam link]``.
+
+#. reCAPTCHA was added to the forum content creation API to prevent automated
+   posting. It does not apply to users who have a course or forum role, or whose
+   accounts are more than one month old.
+
+   **Configuration**: To enable reCAPTCHA v3, configure the following in django LMS settings:
+
+   #. ``RECAPTCHA_PROJECT_ID``
+
+   #. ``RECAPTCHA_PRIVATE_KEY``
+
+   #. Set ``RECAPTCHA_SITE_KEYS`` with the proper keys for web, ios, and android::
+
+         RECAPTCHA_SITE_KEYS = {
+            'web': '',
+            'ios': '',
+            'android': '',
+         }
+
+   #. Then, enable the waffle flag flag ``discussion.enable_captcha``. 
+
+#. A rate limit was added to forums content creation, to limit the number of
+   posts a single author can add within a set period of time.
+
+   **Configuration**:
+   
+   #. Configure rate limit using django setting ``DISCUSSION_RATELIMIT`` (default = '100/m').
+   #. Configure the age of learner account beyond which rate limit is not applied in django setting ``SKIP_RATE_LIMIT_ON_ACCOUNT_AFTER_DAYS`` (default = 0)
+   #. Enable waffle flag ``discussions.enable_rate_limit``.
+
+#. Given almost all spam accounts use unverified or random email addresses, a
+   feature was built to limit forums posts to only those with verified accounts.
+
+   Turning this on runs the risk of reducing engagement by adding friction for
+   genuine learners, and it has been seen that spammers can work around this
+   limitation.
+
+   **Configuration**: Enable the ``discussions.only_verified_users_can_post``
+   waffle flag on a specific course or for the whole site.
 
 Added Settings
 *********************
