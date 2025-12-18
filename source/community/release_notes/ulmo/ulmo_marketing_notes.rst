@@ -28,7 +28,7 @@ has achieved the `LTI Advantage Complete
 major glow-up! New, customizable pages help you showcase courses with modern
 design and full theming support.
 
-**Smart Notifications**: Never let students miss important discussions again!
+:ref:`Smart Notifications <Ulmo Notifications>`: Never let students miss important discussions again!
 Keep learners engaged with timely alerts about new posts and announcements,
 delivered both in-platform and via email.
 

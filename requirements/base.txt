@@ -28,9 +28,12 @@ colorama==0.4.6
     # via sphinx-autobuild
 docutils==0.21.2
     # via
+    #   linuxdoc
     #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx
+fspath==20230629
+    # via linuxdoc
 h11==0.16.0
     # via uvicorn
 idna==3.11
@@ -43,6 +46,8 @@ jinja2==3.1.6
     # via
     #   myst-parser
     #   sphinx
+linuxdoc==20240924
+    # via -r requirements/base.in
 markdown-it-py==3.0.0
     # via
     #   mdit-py-plugins
@@ -77,6 +82,8 @@ requests==2.32.5
     #   sphinxcontrib-youtube
 roman-numerals-py==3.1.0
     # via sphinx
+six==1.17.0
+    # via fspath
 snowballstemmer==3.0.1
     # via sphinx
 soupsieve==2.8
@@ -84,6 +91,7 @@ soupsieve==2.8
 sphinx==8.2.3
     # via
     #   -r requirements/base.in
+    #   linuxdoc
     #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx-autobuild
@@ -130,7 +138,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
-sphinxemoji==0.3.1
+sphinxemoji==0.3.2
     # via -r requirements/base.in
 sphinxext-rediraffe==0.3.0
     # via -r requirements/base.in
@@ -150,3 +158,6 @@ watchfiles==1.1.1
     # via sphinx-autobuild
 websockets==15.0.1
     # via sphinx-autobuild
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
