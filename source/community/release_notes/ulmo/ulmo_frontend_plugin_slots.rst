@@ -124,6 +124,12 @@ Learning MFE
 Catalog MFE
 *********************************************
 
+.. admonition:: Enable the Catalog MFE
+
+  The :ref:`Catalog MFE <Ulmo catalog>` is not enabled by default for the Ulmo
+  release. Site operators should see the :ref:`Ulmo operators` release notes for
+  information on enabling the Catalog MFE.
+
 * Added `org.openedx.frontend.catalog.home_page.banner <https://github.com/openedx/frontend-app-catalog/tree/release/ulmo/src/plugin-slots/HomeBannerSlot>`_:
   This slot is used to replace/modify/hide the entire Home page banner.
 
