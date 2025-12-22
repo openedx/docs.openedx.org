@@ -14,6 +14,12 @@ entire course sections once, then reuse them across courses, with improved sync
 workflows that visually show changes before you apply them - plus a migration
 tool to move Legacy Library content forward.
 
+:ref:`Granular Roles and Permissions for Libraries <Ulmo Roles and Permissions>`:
+Assign Library Admin, Author, Contributor, or User roles with specific
+permissions for viewing, editing, publishing, and managing content from a
+central :ref:`Administrative Console <Ulmo console>` that shows your entire team
+at a glance.
+
 :ref:`Ulmo LTI`: Set up LTI tool credentials once in a central store, then reuse
 them across all courses and blocks, eliminating repetitive data entry and
 reducing configuration errors across your entire instance.
