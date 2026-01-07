@@ -31,3 +31,11 @@ The settings may be enabled per-course by an administrator, using the Django adm
 .. seealso::
 
  :ref:`LTI Component settings` (reference)
+
+**Maintenance chart**
+
++--------------+-------------------------------+----------------+--------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|              |                               |                |                                |
++--------------+-------------------------------+----------------+--------------------------------+

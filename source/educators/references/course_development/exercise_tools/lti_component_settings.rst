@@ -200,6 +200,7 @@ LTI Component Settings
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
 
+ :ref:`Allow sharing PII to LTI Components` (how-to)
 
 **Maintenance chart**
 
