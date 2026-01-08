@@ -171,10 +171,9 @@ LTI Component Settings
        launches, the learners are warned that if they continue, their email
        address will be shared with the LTI provider.
 
-
        By default, this setting is not available in Studio.
-        To make this setting available, a system administrator must enable the
-        setting in the Django administration console.
+       See :ref:`Allow sharing PII to LTI Components` for how to enable
+       (requires system administrator privileges).
 
    * - Request user's username
      - Sends the learner's username to the remote LTI tool. This is the
@@ -186,9 +185,8 @@ LTI Component Settings
        will be shared with the LTI provider.
 
        By default, this setting is not available in Studio.
-
-        To make this setting available in Studio, a system administrator must
-        enable the setting in the Django administration console.
+       See :ref:`Allow sharing PII to LTI Components` for how to enable
+       (requires system administrator privileges).
 
 .. seealso::
  
@@ -202,6 +200,7 @@ LTI Component Settings
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
 
+ :ref:`Allow sharing PII to LTI Components` (how-to)
 
 **Maintenance chart**
 
