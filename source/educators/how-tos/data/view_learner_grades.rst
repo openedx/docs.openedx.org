@@ -163,6 +163,10 @@ course, listed by user name, and a column for each assignment in the course.
    and beta testers. To see a listing of users who fall into this category, navigate to the Insurector
    Dashboard and refer to the Course Team Management section of the Membership tab.
 
+.. caution:: The filter counts (*Showing* **x** *of* **y** *total leaners*) may be inaccurate during periods of high 
+   un/enroll activity due to backend caching. See `here <https://github.com/openedx/edx-platform/issues/37649>`_
+   for more information.
+
 The gradebook includes the following features:
 
 * **Filtering:** There are several options for filtering the data shown on the gradebook.
