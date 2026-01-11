@@ -146,7 +146,7 @@ sphinxemoji==0.3.2
     # via -r requirements/base.in
 sphinxext-rediraffe==0.3.0
     # via -r requirements/base.in
-starlette==0.50.0
+starlette==0.51.0
     # via sphinx-autobuild
 typing-extensions==4.15.0
     # via
@@ -154,13 +154,13 @@ typing-extensions==4.15.0
     #   beautifulsoup4
     #   pydata-sphinx-theme
     #   starlette
-urllib3==2.6.2
+urllib3==2.6.3
     # via requests
 uvicorn==0.40.0
     # via sphinx-autobuild
 watchfiles==1.1.1
     # via sphinx-autobuild
-websockets==15.0.1
+websockets==16.0
     # via sphinx-autobuild
 
 # The following packages are considered to be unsafe in a requirements file:
