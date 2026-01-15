@@ -239,7 +239,7 @@ Open edX Release Notes
          :maxdepth: 1
          :caption: Open edX Release Notes
 
-         Current Release: Teak <community/release_notes/teak>
+         Current Release: Ulmo <community/release_notes/ulmo>
          All Release Notes <community/release_notes/index>
 
 **************************
