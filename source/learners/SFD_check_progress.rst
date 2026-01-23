@@ -144,7 +144,7 @@ do not have any problems are labelled as having no problem scores.
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Working Group Reviewer        |   Release      | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
 |  2026-01-23  | AnaP Gomez(edunext)           |   Teak         | Pass & update                  |
 +--------------+-------------------------------+----------------+--------------------------------+
