@@ -8,7 +8,7 @@ Add Text
 
 #. In the unit where you want to place the text, select :guilabel:`Text` at the bottom of the page.
 
-   .. image:: /_images/Educators_add_text.png
+   .. image:: /_images/component_text.png
 
 #. Select the **Text** template to add a blank component.
 
@@ -45,9 +45,11 @@ Add Text
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                     |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
+| 01/23/2026   | AnaP Gomez (edunext)          | Sumac          | Pass(Update)                       |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                             |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/880) |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

@@ -16,7 +16,7 @@ After you have published content, you should view it in the LMS, as a learner wi
 
 #. In the course outline, click :guilabel:`View Live`.
 
-   .. image:: /_images/Educators_outline_view_live.png
+   .. image:: /_images/component_viewlive.png
 
    The course opens in the LMS, in a new tab.
 
