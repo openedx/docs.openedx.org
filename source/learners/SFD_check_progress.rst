@@ -146,6 +146,5 @@ do not have any problems are labelled as having no problem scores.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|  2026-01-23  | AnaP Gomez(edunext)           |   Teak         | Pass & update                
-|
+|  2026-01-23  | AnaP Gomez(edunext)           |   Teak         | Pass & update                  |
 +--------------+-------------------------------+----------------+--------------------------------+
