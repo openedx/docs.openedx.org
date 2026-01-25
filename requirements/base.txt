@@ -26,7 +26,7 @@ click==8.3.1
     # via uvicorn
 colorama==0.4.6
     # via sphinx-autobuild
-docutils==0.21.2
+docutils==0.22.4
     # via
     #   linuxdoc
     #   myst-parser
@@ -61,7 +61,7 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==5.0.0
     # via -r requirements/base.in
-packaging==25.0
+packaging==26.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -82,18 +82,14 @@ requests==2.32.5
     #   sphinxcontrib-images
     #   sphinxcontrib-youtube
 roman-numerals==4.1.0
-    # via
-    #   roman-numerals-py
-    #   sphinx
-roman-numerals-py==4.1.0
     # via sphinx
 six==1.17.0
     # via fspath
 snowballstemmer==3.0.1
     # via sphinx
-soupsieve==2.8.1
+soupsieve==2.8.3
     # via beautifulsoup4
-sphinx==8.2.3
+sphinx==9.1.0
     # via
     #   -r requirements/base.in
     #   linuxdoc
@@ -117,7 +113,7 @@ sphinx-book-theme==1.1.4
     # via -r requirements/base.in
 sphinx-copybutton==0.5.2
     # via -r requirements/base.in
-sphinx-design==0.6.1
+sphinx-design==0.7.0
     # via -r requirements/base.in
 sphinx-notfound-page==1.1.0
     # via -r requirements/base.in
@@ -147,7 +143,7 @@ sphinxemoji==0.3.2
     # via -r requirements/base.in
 sphinxext-rediraffe==0.3.0
     # via -r requirements/base.in
-starlette==0.51.0
+starlette==0.52.1
     # via sphinx-autobuild
 typing-extensions==4.15.0
     # via
