@@ -36,7 +36,28 @@ Open edX Course* and *Open edX Learner's* guides.
 Enable Entrance Exams in Studio and the Learning Management System
 *************************************************************************
 
-To enable entrance exams, you modify the ``lms.yml`` and ``studio.yml``
+In Tutor, entrance exams can be enabled by utilizing the following `Tutor plugin <https://docs.tutor.edly.io/tutorials/plugin.html#modifying-existing-files-with-patches>`_:
+
+.. code-block::
+
+  from tutor import hooks
+
+  hooks.Filters.ENV_PATCHES.add_item(
+      (
+          "openedx-lms-common-settings",
+          "FEATURES['ENTRANCE_EXAMS'] = True"
+      )
+  )
+
+  hooks.Filters.ENV_PATCHES.add_item(
+      (
+          "openedx-cms-common-settings",
+          "FEATURES['ENTRANCE_EXAMS'] = True"
+      )
+  )
+
+
+To enable entrance exams in a non-Tutor environment, you modify the ``lms.yml`` and ``studio.yml``
 files, which are located one level above the ``edx-platform`` directory.
 
 #. Set the value of ``ENTRANCE_EXAMS`` in the ``lms.yml`` and
