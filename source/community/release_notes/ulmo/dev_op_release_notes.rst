@@ -130,14 +130,12 @@ Deprecations & Removals
 Aspects Analytics
 *****************************
 
-Upgrading to `Aspects v2.5.1
-<https://github.com/openedx/tutor-contrib-aspects/releases/tag/v2.5.1>`_ will
+Upgrading to `Aspects v3.0.2`
+<https://github.com/openedx/tutor-contrib-aspects/releases/tag/v3.0.2>`_ will
 give you the latest Aspects functionality with Ulmo. See the upgrade
 instructions here: :ref:`openedx-aspects:upgrade-aspects`.
 
-Then run this to update materialized views that have new/removed columns::
-
-   tutor local do dbt --only_changed False -c 'run --full-refresh --select dim_learner_last_response dim_problem_results problem_events dim_subsection_problem_results'
+This is a **BREAKING CHANGE** upgrade. Aspects will now use Paragon v23 which was introduced in the Ulmo release.
 
 .. _Ulmo operators:
 
