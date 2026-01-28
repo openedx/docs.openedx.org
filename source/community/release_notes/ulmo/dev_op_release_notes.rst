@@ -130,7 +130,7 @@ Deprecations & Removals
 Aspects Analytics
 *****************************
 
-Upgrading to `Aspects v3.0.2`
+Upgrading to `Aspects v3.0.2
 <https://github.com/openedx/tutor-contrib-aspects/releases/tag/v3.0.2>`_ will
 give you the latest Aspects functionality with Ulmo. See the upgrade
 instructions here: :ref:`openedx-aspects:upgrade-aspects`.
