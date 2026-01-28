@@ -28,7 +28,7 @@ To create a unit from the outline, follow these steps.
 
 #. Select **New Unit** at the bottom of the expanded subsection. A new unit is created at the end of the subsection and the blank unit editor opens.
 
-   .. image:: /_images/unit_components.png
+   .. image:: /_images/educator_how_tos/unit_components.png
      :alt: A new, blank unit.
 
 #. Click the pencil icon to edit and enter the name for the new unit.A
@@ -286,6 +286,8 @@ Course Content`.
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2026-01-28   | AnaP Gómez (edunext)          | Teak           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-03-19   | John (Curricu.me)             | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

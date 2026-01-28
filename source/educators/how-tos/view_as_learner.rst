@@ -16,7 +16,7 @@ After you have published content, you should view it in the LMS, as a learner wi
 
 #. In the course outline, click :guilabel:`View Live`.
 
-   .. image:: /_images/component_viewlive.png
+   .. image:: /_images/educator_how_tos/component_viewlive.png
 
    The course opens in the LMS, in a new tab.
 
@@ -58,6 +58,8 @@ After you have published content, you should view it in the LMS, as a learner wi
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2026-01-28   | AnaP Gómez (edunext)          | Teak           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
