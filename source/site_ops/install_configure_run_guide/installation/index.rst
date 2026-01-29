@@ -38,7 +38,7 @@ Details of the releases are on the :ref:`Open edX Release Notes`.
 Choose an installation method
 ********************************
 
-**`Tutor`_**: is the community-supported Docker-based environment
+`Tutor`_: is the community-supported Docker-based environment
   suited for both production and development.
 
 
