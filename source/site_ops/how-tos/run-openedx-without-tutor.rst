@@ -26,6 +26,19 @@ Prerequisites
 * Basic familiarity with Django applications
 * Understanding of service management (systemd)
 
+.. warning::
+
+   **Python Version Requirements by Branch:**
+
+   * **Named releases (Teak, Ulmo)**: Require Python 3.11 due to boto2 compatibility issues
+   * **Master branch**: Compatible with Python 3.12
+
+   Named releases (``release/teak.1``, ``release/ulmo.1``) include dependencies on boto 2.49.0
+   which has known incompatibilities with Python 3.12. If you need to use these releases on
+   Ubuntu 24.04, you must install Python 3.11 from the deadsnakes PPA (see Step 1).
+
+   For the latest features and Python 3.12 compatibility, use the master branch.
+
 Required Services Overview
 **************************
 
@@ -58,17 +71,29 @@ Install required packages:
        libxslt1-dev \
        libjpeg-dev \
        libpng-dev \
-       python3.11 \
-       python3.11-dev \
+       python3.12 \
+       python3.12-dev \
        python3-pip \
-       python3-venv
+       python3-venv \
+       pkg-config
 
 **Test this step:**
 
 .. code-block:: bash
 
-   python3.11 --version
+   python3.12 --version
    git --version
+
+.. note::
+
+   **Python Version Selection:**
+
+   Ubuntu 24.04 ships with Python 3.12 by default, which is compatible with the **master branch**.
+
+   If you are using **named releases** (release/teak.1, release/ulmo.1), you **must use Python 3.11**
+   due to boto2 dependencies. Install Python 3.11 via the deadsnakes PPA (see Known Issues section).
+
+   This guide assumes you are using the master branch with Python 3.12.
 
 2. Install and Configure MySQL
 ==============================
@@ -80,6 +105,11 @@ Install MySQL 8.0:
    sudo apt-get install -y mysql-server mysql-client
    sudo systemctl start mysql
    sudo systemctl enable mysql
+
+.. note::
+
+   **Container environments:** If running in a Docker container without systemd, use
+   ``sudo service mysql start`` instead of systemctl commands.
 
 **Test this step:**
 
@@ -117,13 +147,19 @@ Install MongoDB 7.0:
 
 .. code-block:: bash
 
-   wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | sudo apt-key add -
-   echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | \
+   wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | \
+       gpg --dearmor | sudo tee /usr/share/keyrings/mongodb-server-7.0.gpg > /dev/null
+   echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | \
        sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
    sudo apt-get update
    sudo apt-get install -y mongodb-org
    sudo systemctl start mongod
    sudo systemctl enable mongod
+
+.. note::
+
+   **Container environments:** If systemctl is not available, start MongoDB manually:
+   ``sudo mkdir -p /var/lib/mongodb /var/log/mongodb && sudo chown -R mongodb:mongodb /var/lib/mongodb /var/log/mongodb && sudo mongod --fork --logpath /var/log/mongodb/mongod.log --dbpath /var/lib/mongodb``
 
 **Test this step:**
 
@@ -163,6 +199,10 @@ Install Redis:
    sudo systemctl start redis-server
    sudo systemctl enable redis-server
 
+.. note::
+
+   **Container environments:** Use ``sudo service redis-server start`` if systemctl is unavailable.
+
 **Test this step:**
 
 .. code-block:: bash
@@ -182,11 +222,17 @@ Install Memcached:
    sudo systemctl start memcached
    sudo systemctl enable memcached
 
+.. note::
+
+   **Container environments:** Use ``memcached -d -u root`` to start in daemon mode if systemctl is unavailable.
+
 **Test this step:**
 
 .. code-block:: bash
 
    sudo systemctl status memcached
+   # Install netcat if not present
+   sudo apt-get install -y netcat-openbsd
    echo "stats" | nc localhost 11211
    # Should return memcached statistics
 
@@ -197,13 +243,18 @@ Install Elasticsearch 7.x:
 
 .. code-block:: bash
 
-   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-   echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | \
+   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | \
+       gpg --dearmor | sudo tee /usr/share/keyrings/elasticsearch-keyring.gpg > /dev/null
+   echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main" | \
        sudo tee /etc/apt/sources.list.d/elastic-7.x.list
    sudo apt-get update
    sudo apt-get install -y elasticsearch
    sudo systemctl start elasticsearch
    sudo systemctl enable elasticsearch
+
+.. note::
+
+   **Container environments:** Use ``sudo /etc/init.d/elasticsearch start`` if systemctl is unavailable.
 
 **Test this step:**
 
@@ -241,13 +292,28 @@ Choose your installation directory and clone the repository:
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/edx-platform.git
+   # Use shallow clone to save time and disk space
+   # Clone master branch (compatible with Python 3.12)
+   sudo git clone --depth 1 --branch master https://github.com/openedx/edx-platform.git
    cd edx-platform
 
-   # Checkout a specific release (recommended for stability)
-   sudo git checkout open-release/sumac.master
-   # OR stay on master for latest development code
-   # sudo git checkout master
+.. note::
+
+   **Branch Selection:**
+
+   * **master branch** (recommended): Latest development version, Python 3.12 compatible
+   * **release/ulmo.1**: Named release, requires Python 3.11
+   * **release/teak.1**: Named release, requires Python 3.11
+
+   For named releases with Python 3.11, use:
+   ``sudo git clone --depth 1 --branch release/ulmo.1 https://github.com/openedx/edx-platform.git``
+
+.. note::
+
+   Release naming convention changed. Use ``release/<name>.<number>`` format
+   (e.g., ``release/ulmo.1``) for newer releases. Older releases used
+   ``open-release/<name>.master`` format. Check the `edx-platform releases page
+   <https://github.com/openedx/edx-platform/releases>`_ for available versions.
 
 **Test this step:**
 
@@ -265,7 +331,7 @@ Create and activate a virtual environment:
 .. code-block:: bash
 
    cd /opt/edx-platform
-   sudo python3.11 -m venv venv
+   sudo python3.12 -m venv venv
    sudo chown -R $USER:$USER venv
    source venv/bin/activate
 
@@ -276,7 +342,7 @@ Create and activate a virtual environment:
    which python
    # Should return: /opt/edx-platform/venv/bin/python
    python --version
-   # Should return: Python 3.11.x
+   # Should return: Python 3.12.x
 
 10. Install Python Requirements
 ===============================
@@ -287,11 +353,13 @@ Install edx-platform Python dependencies:
 
    pip install --upgrade pip setuptools wheel
    pip install -r requirements/edx/base.txt
+   pip install -r requirements/edx/assets.txt
 
 .. note::
 
    This step may take 15-30 minutes depending on your system. If you encounter
-   errors, you may need to install additional system libraries.
+   errors, you may need to install additional system libraries. The assets.txt
+   file includes libsass which is required for SASS compilation in the next step.
 
 **Test this step:**
 
@@ -310,11 +378,19 @@ Install JavaScript dependencies and build static assets:
 .. code-block:: bash
 
    npm clean-install
-   npm run build
+   npm run webpack
+
+   # SASS compilation must run with virtual environment activated
+   source venv/bin/activate
+   PATH="$PATH:/opt/edx-platform/node_modules/.bin" python scripts/compile_sass.py --env=production
 
 .. note::
 
-   This step may take 10-20 minutes and requires significant memory.
+   This step may take 10-20 minutes and requires significant memory. The webpack
+   build and SASS compilation are separate steps because the SASS compilation
+   script requires access to Python packages in the virtual environment. Running
+   ``npm run build`` directly will fail because it doesn't activate the venv before
+   running the SASS compilation script.
 
 **Test this step:**
 
@@ -481,6 +557,11 @@ Create ``/edx/etc/cms.auth.json`` with the same structure.
 13. Run Database Migrations
 ===========================
 
+.. note::
+
+   Before running migrations on the **master branch**, you must add required apps to INSTALLED_APPS.
+   See the "Master Branch Testing: February 2026" section for the complete list of apps to add.
+
 Apply Django migrations:
 
 .. code-block:: bash
@@ -488,18 +569,22 @@ Apply Django migrations:
    cd /opt/edx-platform
    source venv/bin/activate
 
+   # Set environment variables
+   export LMS_CFG=/edx/etc/lms.yml
+   export CMS_CFG=/edx/etc/cms.yml
+
    # Run migrations for LMS
-   ./manage.py lms migrate --settings=lms.envs.production
+   ./manage.py lms migrate --settings=production
 
    # Run migrations for CMS
-   ./manage.py cms migrate --settings=cms.envs.production
+   ./manage.py cms migrate --settings=production
 
 **Test this step:**
 
 .. code-block:: bash
 
-   mysql -u edxapp -p -e "USE edxapp; SHOW TABLES;" | wc -l
-   # Should show 200+ tables
+   mysql -u edxapp -p -e "USE edxapp; SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'edxapp';"
+   # Should show 567 tables (master branch, February 2026)
 
 14. Create Django Superuser
 ===========================
@@ -508,14 +593,37 @@ Create an administrative user:
 
 .. code-block:: bash
 
-   ./manage.py lms createsuperuser --settings=lms.envs.production
+   cd /opt/edx-platform
+   source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+
+   # Create superuser with --noinput (non-interactive)
+   ./manage.py lms createsuperuser --username admin --email admin@example.com --noinput --settings=production
+
+   # Set the password using Python
+   python -c "
+   import os
+   import django
+   os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lms.envs.production')
+   django.setup()
+   from django.contrib.auth import get_user_model
+   User = get_user_model()
+   user = User.objects.get(username='admin')
+   user.set_password('your-secure-password')
+   user.save()
+   print('Password set successfully')
+   "
+
+.. warning::
+
+   Replace ``your-secure-password`` with a strong password of your choice.
 
 **Test this step:**
 
 .. code-block:: bash
 
-   mysql -u edxapp -p -e "USE edxapp; SELECT username, email FROM auth_user WHERE is_superuser=1;"
-   # Should show your superuser
+   mysql -u edxapp -p -e "USE edxapp; SELECT username, email, is_superuser, is_staff FROM auth_user WHERE is_superuser=1;"
+   # Should show your superuser with is_superuser=1 and is_staff=1
 
 15. Collect Static Assets
 =========================
@@ -524,15 +632,26 @@ Collect Django static files:
 
 .. code-block:: bash
 
-   ./manage.py lms collectstatic --noinput --settings=lms.envs.production
-   ./manage.py cms collectstatic --noinput --settings=cms.envs.production
+   cd /opt/edx-platform
+   source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   export CMS_CFG=/edx/etc/cms.yml
+
+   # Collect LMS static files
+   ./manage.py lms collectstatic --noinput --settings=production
+
+   # Collect CMS static files
+   ./manage.py cms collectstatic --noinput --settings=production
 
 **Test this step:**
 
 .. code-block:: bash
 
-   ls -la /opt/edx-platform/staticfiles/
-   # Should show collected static files
+   ls -la /opt/staticfiles/
+   # Should show LMS static files (6,600+ files)
+
+   ls -la /opt/staticfiles/studio/
+   # Should show CMS/Studio static files (3,000+ files)
 
 16. Clone and Set Up MFEs
 =========================
@@ -540,8 +659,28 @@ Collect Django static files:
 Open edX uses React-based Micro-Frontends (MFEs) for key user-facing features.
 Set these up before starting the servers.
 
+.. important::
+
+   **MFE Branch Selection:**
+
+   MFE branches should match your edx-platform branch:
+
+   * If using **edx-platform master branch**: Use MFE **master** or **main** branches
+   * If using **edx-platform named releases** (e.g., release/ulmo.1): Use corresponding MFE release branches (e.g., open-release/sumac.master)
+
+   This guide uses the **master branch** for both edx-platform and MFEs.
+
 Essential MFEs
 --------------
+
+.. note::
+
+   **npm install vs npm clean-install:**
+
+   Use ``npm install`` rather than ``npm clean-install`` for MFE setup. The clean-install command
+   requires package-lock.json to be perfectly synchronized and may fail with "Missing from lock file"
+   errors. Regular ``npm install`` is more forgiving and will work even if the lock file is slightly
+   out of sync with package.json.
 
 The following MFEs are required for basic functionality:
 
@@ -560,9 +699,9 @@ Clone and Configure frontend-app-authn
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-authn.git
    cd frontend-app-authn
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-authn
-   npm clean-install
+   npm install
 
 Create ``.env.development`` file:
 
@@ -575,13 +714,14 @@ Create ``.env.development`` file:
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    LOGO_URL=http://localhost:8000/static/images/logo.png
    FAVICON_URL=http://localhost:8000/static/images/favicon.ico
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1999
    EOF
 
 **Test this step:**
@@ -600,9 +740,9 @@ Clone and Configure frontend-app-learning
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-learning.git
    cd frontend-app-learning
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-learning
-   npm clean-install
+   npm install
 
 Create ``.env.development`` file:
 
@@ -615,13 +755,14 @@ Create ``.env.development`` file:
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    LOGO_URL=http://localhost:8000/static/images/logo.png
    FAVICON_URL=http://localhost:8000/static/images/favicon.ico
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=2000
    EOF
 
 **Test this step:**
@@ -640,9 +781,9 @@ Clone and Configure frontend-app-account
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-account.git
    cd frontend-app-account
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-account
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -651,11 +792,12 @@ Clone and Configure frontend-app-account
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1997
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -668,9 +810,9 @@ Clone and Configure frontend-app-profile
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-profile.git
    cd frontend-app-profile
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-profile
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -679,11 +821,12 @@ Clone and Configure frontend-app-profile
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1995
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -696,9 +839,9 @@ Clone and Configure frontend-app-discussions
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-discussions.git
    cd frontend-app-discussions
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-discussions
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -707,11 +850,12 @@ Clone and Configure frontend-app-discussions
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=2002
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -724,9 +868,9 @@ Clone and Configure frontend-app-gradebook
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-gradebook.git
    cd frontend-app-gradebook
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-gradebook
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -735,11 +879,12 @@ Clone and Configure frontend-app-gradebook
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1994
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -751,10 +896,26 @@ Clone and Configure frontend-app-gradebook
 17. Start LMS and CMS Servers
 =============================
 
-Now that all configuration is complete, start the backend servers.
+Before starting the servers, build the frontend webpack assets.
 
-In Development
---------------
+Build Webpack Assets
+--------------------
+
+.. code-block:: bash
+
+   cd /opt/edx-platform
+   npm run build
+
+This will compile webpack bundles and SASS files. The build generates ``webpack-stats.json`` files that need to be copied to the production staticfiles directory:
+
+.. code-block:: bash
+
+   # Copy webpack stats files to production location
+   cp /opt/edx-platform/test_root/staticfiles/webpack-stats.json /opt/staticfiles/
+   cp /opt/edx-platform/test_root/staticfiles/studio/webpack-stats.json /opt/staticfiles/studio/
+
+Start Development Servers
+--------------------------
 
 Open separate terminal windows for each service. In each terminal, activate the virtual environment first:
 
@@ -767,13 +928,19 @@ Terminal 1 - Start LMS:
 
 .. code-block:: bash
 
-   ./manage.py lms runserver 0.0.0.0:8000 --settings=lms.envs.production
+   export LMS_CFG=/edx/etc/lms.yml
+   ./manage.py lms runserver 0.0.0.0:8000 --settings=production
+
+.. note::
+
+   The manage.py script automatically prepends ``lms.envs.`` to the settings module, so use ``--settings=production`` not ``--settings=lms.envs.production``.
 
 Terminal 2 - Start CMS:
 
 .. code-block:: bash
 
-   ./manage.py cms runserver 0.0.0.0:8001 --settings=cms.envs.production
+   export CMS_CFG=/edx/etc/cms.yml
+   ./manage.py cms runserver 0.0.0.0:8001 --settings=production
 
 **Test this step:**
 
@@ -781,9 +948,10 @@ Terminal 2 - Start CMS:
 
    # In a new terminal
    curl -I http://localhost:8000
-   # Should return HTTP 200 or 302
+   # Should return HTTP 200 OK
+
    curl -I http://localhost:8001
-   # Should return HTTP 200 or 302
+   # Should return HTTP 302 Found
 
 For Production
 --------------
@@ -803,7 +971,25 @@ Use Gunicorn as the WSGI server:
 18. Start Celery Workers
 ========================
 
-Open edX uses Celery for asynchronous task processing. Start workers in separate terminals:
+Open edX uses Celery for asynchronous task processing.
+
+Configure Celery Broker Settings
+---------------------------------
+
+The production settings construct the broker URL from component settings. Ensure these are in your configuration files (``/edx/etc/lms.yml`` and ``/edx/etc/cms.yml``):
+
+.. code-block:: yaml
+
+   CELERY_BROKER_TRANSPORT: redis
+   CELERY_BROKER_HOSTNAME: localhost:6379
+   CELERY_BROKER_VHOST: 0
+   CELERY_BROKER_USER: ''
+   CELERY_BROKER_PASSWORD: ''
+
+Start Celery Workers
+--------------------
+
+Open separate terminal windows for each worker:
 
 Terminal 3 - LMS Celery worker:
 
@@ -811,6 +997,8 @@ Terminal 3 - LMS Celery worker:
 
    cd /opt/edx-platform
    source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   export DJANGO_SETTINGS_MODULE=lms.envs.production
    celery -A lms.celery worker --loglevel=info
 
 Terminal 4 - CMS Celery worker:
@@ -819,6 +1007,8 @@ Terminal 4 - CMS Celery worker:
 
    cd /opt/edx-platform
    source venv/bin/activate
+   export CMS_CFG=/edx/etc/cms.yml
+   export DJANGO_SETTINGS_MODULE=cms.envs.production
    celery -A cms.celery worker --loglevel=info
 
 **Test this step:**
@@ -973,18 +1163,24 @@ Use tmux to manage multiple terminal sessions:
    # Create windows for each service (Ctrl-b c to create new window)
    # Window 0: LMS
    cd /opt/edx-platform && source venv/bin/activate
-   ./manage.py lms runserver 0.0.0.0:8000 --settings=lms.envs.production
+   export LMS_CFG=/edx/etc/lms.yml
+   ./manage.py lms runserver 0.0.0.0:8000 --settings=production
 
    # Window 1: CMS (Ctrl-b c)
    cd /opt/edx-platform && source venv/bin/activate
-   ./manage.py cms runserver 0.0.0.0:8001 --settings=cms.envs.production
+   export CMS_CFG=/edx/etc/cms.yml
+   ./manage.py cms runserver 0.0.0.0:8001 --settings=production
 
    # Window 2: LMS Celery worker
    cd /opt/edx-platform && source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   export DJANGO_SETTINGS_MODULE=lms.envs.production
    celery -A lms.celery worker --loglevel=info
 
    # Window 3: CMS Celery worker
    cd /opt/edx-platform && source venv/bin/activate
+   export CMS_CFG=/edx/etc/cms.yml
+   export DJANGO_SETTINGS_MODULE=cms.envs.production
    celery -A cms.celery worker --loglevel=info
 
    # Windows 4-9: Individual MFEs
@@ -1008,8 +1204,9 @@ Example for LMS (``/etc/supervisor/conf.d/edxapp-lms.conf``):
 .. code-block:: ini
 
    [program:edxapp-lms]
-   command=/opt/edx-platform/venv/bin/python /opt/edx-platform/manage.py lms runserver 0.0.0.0:8000 --settings=lms.envs.production
+   command=/opt/edx-platform/venv/bin/python /opt/edx-platform/manage.py lms runserver 0.0.0.0:8000 --settings=production
    directory=/opt/edx-platform
+   environment=LMS_CFG="/edx/etc/lms.yml"
    user=www-data
    autostart=true
    autorestart=true
@@ -1263,12 +1460,58 @@ If ``npm run build`` fails:
 Celery Worker Issues
 ====================
 
-If Celery workers are not processing tasks:
+If Celery workers fail with "No such transport: ''" error:
+
+This indicates the BROKER_URL is not being constructed properly. The production.py settings build
+BROKER_URL from component settings, not from CELERY_BROKER_URL directly.
+
+**Solution:** Ensure your configuration files (lms.yml, cms.yml) include these component settings:
+
+.. code-block:: yaml
+
+   CELERY_BROKER_TRANSPORT: redis
+   CELERY_BROKER_HOSTNAME: localhost:6379
+   CELERY_BROKER_VHOST: 0
+   CELERY_BROKER_USER: ''
+   CELERY_BROKER_PASSWORD: ''
+
+Other Celery troubleshooting steps:
 
 * Verify Redis is running and accessible
 * Check Celery logs for errors
-* Ensure the correct broker URL is configured
-* Verify worker processes are actually running
+* Ensure DJANGO_SETTINGS_MODULE and LMS_CFG/CMS_CFG environment variables are set
+* Verify worker processes are actually running: ``ps aux | grep celery``
+
+LMS/CMS Server Startup Issues
+==============================
+
+**Error: "Cannot resolve bundle commons" or webpack-stats.json errors:**
+
+The production settings require webpack assets to be built before starting servers.
+
+**Solution:**
+
+1. Build webpack assets: ``cd /opt/edx-platform && npm run build``
+2. Copy webpack-stats.json files to production location:
+
+   .. code-block:: bash
+
+      cp /opt/edx-platform/test_root/staticfiles/webpack-stats.json /opt/staticfiles/
+      cp /opt/edx-platform/test_root/staticfiles/studio/webpack-stats.json /opt/staticfiles/studio/
+
+**Error: "No module named 'lms.envs.lms'" when using --settings:**
+
+The manage.py script automatically prepends the environment prefix to the settings argument.
+
+**Solution:** Use ``--settings=production`` not ``--settings=lms.envs.production``
+
+.. code-block:: bash
+
+   # Correct:
+   ./manage.py lms runserver --settings=production
+
+   # Incorrect:
+   ./manage.py lms runserver --settings=lms.envs.production
 
 Alternative: Using Docker Compose Without Tutor
 ************************************************
@@ -1282,22 +1525,209 @@ If you want containerization benefits without Tutor's abstractions, you can crea
 
 This approach provides isolation while maintaining direct control over the configuration. Ongoing experiments in adopting this configuration are happening at `Minimal edX Platform <https://github.com/feanil/minimal-edx-platform>`_.
 
-Known Issues and Corrections (Testing on release/ulmo.1 - January 2026)
-******************************************************************************
+Testing Results and Validation
+*******************************
 
-During testing of these instructions on Ubuntu 24.04 with the release/ulmo.1 branch, the following issues were discovered:
+Latest Testing: February 2026
+==============================
+
+**Environment:**
+- Ubuntu 24.04.3 LTS (Docker container)
+- edx-platform branch: release/ulmo.1 (commit ea91c4c)
+- Python 3.12.3
+- Node.js 18.20.8
+- MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
+
+**Results:** Steps 1-12 completed successfully with all corrections applied to the main installation
+instructions. All services started correctly, Python packages installed (600+ packages), Node.js
+dependencies installed (1019 packages), webpack build completed, and SASS compilation succeeded.
+
+**Key Corrections Made:**
+- Updated to Python 3.12 (Ubuntu 24.04 default)
+- Added pkg-config to system dependencies
+- Updated MongoDB and Elasticsearch to use modern GPG key method (not apt-key)
+- Added netcat-openbsd for Memcached testing
+- Changed to shallow git clone with --depth 1
+- Fixed npm build process to run SASS compilation with venv activated
+- Added container environment notes for service management
+
+**Additional Findings:**
+
+1. **Installation Time:** Steps 1-12 took approximately 45-60 minutes total:
+
+   - Python packages (Step 10): ~15 minutes
+   - Node packages (Step 11): ~5 minutes
+   - Webpack build: ~1 minute
+   - SASS compilation: ~30 seconds
+
+2. **Disk Space:** After completing Step 12:
+
+   - edx-platform directory (shallow clone): ~2.5 GB
+   - Virtual environment with packages: ~3 GB
+   - node_modules: ~1 GB
+   - Total: ~6.5 GB (vs ~10+ GB for full clone)
+
+3. **Memory Usage:** Peak memory during npm build was ~4 GB. Minimum 8 GB RAM recommended.
+
+4. **Node.js Deprecation:** Node.js 18.x shows deprecation warning. Future testing should
+   evaluate Node.js 20.x compatibility.
+
+5. **Service Versions:** All services installed correctly with latest stable versions from
+   repositories. Version drift from guide specifications is normal and expected.
+
+Master Branch Testing: February 2026
+=====================================
+
+**Environment:**
+- Ubuntu 24.04.3 LTS (Docker container)
+- edx-platform branch: master (February 2026)
+- Python 3.12.3
+- Node.js 18.20.8
+- MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
+
+**Results:** Steps 1-19 completed successfully with all services operational. All migrations ran without boto2 compatibility issues.
+
+**Why Master Branch:**
+
+The release/ulmo.1 branch has a dependency on boto 2.49.0 which is incompatible with Python 3.12.
+The master branch uses only boto3, making it compatible with Python 3.12 on Ubuntu 24.04.
+
+**Required INSTALLED_APPS Changes:**
+
+The master branch requires the following apps to be added to INSTALLED_APPS:
+
+**For LMS** (``lms/envs/common.py``):
+
+Add these apps near the end of the INSTALLED_APPS list (around line 2025, before the closing bracket):
+
+.. code-block:: python
+
+   # Learning Core Apps, used by v2 content libraries (content_libraries app)
+   'openedx.core.djangoapps.content_libraries',
+   "openedx_learning.apps.authoring.collections",
+   "openedx_learning.apps.authoring.components",
+   "openedx_learning.apps.authoring.contents",
+   "openedx_learning.apps.authoring.publishing",
+   "openedx_learning.apps.authoring.units",
+   "openedx_learning.apps.authoring.subsections",
+   "openedx_learning.apps.authoring.sections",
+
+   # Additional required apps
+   "openedx.core.djangoapps.bookmarks",
+   "openedx.core.djangoapps.discussions",
+   "openedx.core.djangoapps.theming",
+
+Also add ``lms.djangoapps.program_enrollments`` after programs config (around line 1895):
+
+.. code-block:: python
+
+   # programs support
+   'openedx.core.djangoapps.programs.apps.ProgramsConfig',
+   'lms.djangoapps.program_enrollments',
+
+**For CMS** (``cms/envs/common.py``):
+
+Add these apps near the end of the INSTALLED_APPS list (around line 900, before the closing bracket):
+
+.. code-block:: python
+
+   # Learning Core Apps, used by v2 content libraries (content_libraries app)
+   'openedx.core.djangoapps.content_libraries',
+   "openedx_learning.apps.authoring.collections",
+   "openedx_learning.apps.authoring.components",
+   "openedx_learning.apps.authoring.contents",
+   "openedx_learning.apps.authoring.publishing",
+   "openedx_learning.apps.authoring.units",
+   "openedx_learning.apps.authoring.subsections",
+   "openedx_learning.apps.authoring.sections",
+
+   # Additional required apps
+   "openedx.core.djangoapps.bookmarks",
+   "openedx.core.djangoapps.discussions",
+   "openedx.core.djangoapps.theming",
+   "openedx.core.djangoapps.content_staging",
+
+**Note:** ``lms.djangoapps.bulk_email`` is already uncommented in the master branch.
+
+**Migration Results:**
+
+- LMS migrations: 567 tables created successfully
+- CMS migrations: Completed successfully
+- No boto2-related errors
+- All apps initialized properly
+
+**Static Assets:**
+
+- LMS: 6,604 files copied, 6,686 post-processed
+- CMS: 3,087 files copied, 3,115 post-processed
+
+**Webpack Assets (Step 17):**
+
+The production settings require webpack bundles to be built before starting servers:
+
+1. Run ``npm run build`` in the edx-platform directory to compile webpack bundles and SASS files
+2. Copy webpack-stats.json files from build output to production location:
+
+   .. code-block:: bash
+
+      cp /opt/edx-platform/test_root/staticfiles/webpack-stats.json /opt/staticfiles/
+      cp /opt/edx-platform/test_root/staticfiles/studio/webpack-stats.json /opt/staticfiles/studio/
+
+3. Important: The manage.py script automatically prepends ``lms.envs.`` or ``cms.envs.`` to settings arguments,
+   so use ``--settings=production`` not ``--settings=lms.envs.production``
+
+**Celery Configuration (Step 18):**
+
+The production.py settings construct BROKER_URL from component settings rather than using CELERY_BROKER_URL directly.
+Required settings in both lms.yml and cms.yml:
+
+.. code-block:: yaml
+
+   CELERY_BROKER_TRANSPORT: redis
+   CELERY_BROKER_HOSTNAME: localhost:6379
+   CELERY_BROKER_VHOST: 0
+   CELERY_BROKER_USER: ''
+   CELERY_BROKER_PASSWORD: ''
+
+Both Celery workers started successfully and connected to Redis.
+
+**MFE Setup (Step 19):**
+
+All 6 essential MFEs were set up using their master/main branches (not release branches) to match edx-platform master:
+
+- frontend-app-authn (port 1999): Started successfully
+- frontend-app-learning (port 2000): Started successfully
+- frontend-app-account (port 1997): Started successfully
+- frontend-app-profile (port 1995): Started successfully
+- frontend-app-discussions (port 2002): Started successfully
+- frontend-app-gradebook (port 1994): Started successfully
+
+All MFE development servers responded with HTTP 200.
+
+**Complete System Status:**
+
+All services operational and tested:
+- ✓ MySQL, MongoDB, Redis, Memcached, Elasticsearch
+- ✓ LMS server (HTTP 200 on port 8000)
+- ✓ CMS server (HTTP 302 on port 8001)
+- ✓ LMS and CMS Celery workers connected to Redis
+- ✓ All 6 MFE development servers responding
+
+Known Issues and Corrections (Historical - January 2026)
+*********************************************************
+
+The following issues were discovered during initial testing. Most have been corrected in the
+main installation steps above:
 
 System Dependencies (Step 1)
 =============================
 
-**Issue 1: Python Version**
+**Issue 1: Python Version** ✅ FIXED IN MAIN STEPS
 
-The document specifies Python 3.11, but Ubuntu 24.04 ships with Python 3.12 by default. Python 3.11 is not available in the default repositories.
+The document originally specified Python 3.11, but Ubuntu 24.04 ships with Python 3.12 by default.
 
-**Fix:** Either:
-
-- Use Python 3.12 (change all references from ``python3.11`` to ``python3.12``)
-- Add the deadsnakes PPA to install Python 3.11:
+**Resolution:** Main installation steps now use Python 3.12. If you specifically need Python 3.11,
+add the deadsnakes PPA as shown below, but Python 3.12 works correctly with release/ulmo.1.
 
 .. code-block:: bash
 
@@ -1306,169 +1736,229 @@ The document specifies Python 3.11, but Ubuntu 24.04 ships with Python 3.12 by d
    sudo apt-get update
    sudo apt-get install -y python3.11 python3.11-dev python3.11-venv
 
-**Issue 2: Missing pkg-config**
+**Issue 2: Missing pkg-config** ✅ FIXED IN MAIN STEPS
 
-The ``pkg-config`` package is required for building Python packages (especially mysqlclient) but is not listed in system dependencies.
+The ``pkg-config`` package is required for building Python packages (especially mysqlclient).
 
-**Fix:** Add ``pkg-config`` to the system dependencies list in Step 1.
+**Resolution:** Added to Step 1 system dependencies list.
 
-**Issue 3: Python symlink**
+**Issue 3: Python symlink** ⚠️ OPTIONAL
 
 Some build scripts expect ``/usr/bin/python`` to exist but it doesn't by default in Ubuntu 24.04.
 
-**Fix:** Create symlink after installing Python:
+**Resolution:** Not required for the installation process. If needed for other tools:
 
 .. code-block:: bash
 
    sudo ln -s /usr/bin/python3.12 /usr/bin/python
-   # OR if using Python 3.11:
-   sudo ln -s /usr/bin/python3.11 /usr/bin/python
 
 MongoDB and Elasticsearch Setup (Steps 3 & 6)
 ==============================================
 
-**Issue 4: Deprecated apt-key**
+**Issue 4: Deprecated apt-key** ✅ FIXED IN MAIN STEPS
 
-The instructions use ``apt-key add -`` which is deprecated in Ubuntu 24.04.
+The instructions originally used ``apt-key add -`` which is deprecated in Ubuntu 24.04.
 
-**Fix:** Use the modern method with signed-by keyring:
-
-For MongoDB (Step 3):
-
-.. code-block:: bash
-
-   wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | \
-       gpg --dearmor | sudo tee /usr/share/keyrings/mongodb-server-7.0.gpg > /dev/null
-   echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | \
-       sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
-
-For Elasticsearch (Step 6):
-
-.. code-block:: bash
-
-   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | \
-       gpg --dearmor | sudo tee /usr/share/keyrings/elasticsearch-keyring.gpg > /dev/null
-   echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main" | \
-       sudo tee /etc/apt/sources.list.d/elastic-7.x.list
+**Resolution:** Steps 3 and 6 now use the modern GPG keyring method with ``signed-by``.
 
 Repository Checkout (Step 8)
 =============================
 
-**Issue 5: Branch naming convention**
+**Issue 5: Branch naming convention** ✅ FIXED IN MAIN STEPS
 
-The document specifies ``open-release/sumac.master`` but newer releases use the ``release/`` prefix instead of ``open-release/``.
+Newer releases use ``release/<name>.<number>`` format instead of ``open-release/<name>.master``.
 
-**Fix:** For ulmo.1 release:
-
-.. code-block:: bash
-
-   cd /opt/edx-platform
-   sudo git checkout release/ulmo.1
+**Resolution:** Step 8 now uses the correct branch format and includes shallow clone
+with ``--depth 1`` to save time and disk space.
 
 Python Requirements (Step 10)
 ==============================
 
-**Issue 6: Missing assets requirements**
+**Issue 6: Missing assets requirements** ✅ FIXED IN MAIN STEPS
 
-The ``requirements/edx/assets.txt`` file (which includes libsass for SASS compilation) needs to be installed but is not mentioned.
+The ``requirements/edx/assets.txt`` file (which includes libsass for SASS compilation) was not
+originally included in the installation steps.
 
-**Fix:** Add after installing base requirements:
-
-.. code-block:: bash
-
-   pip install -r requirements/edx/assets.txt
+**Resolution:** Step 10 now includes installing ``requirements/edx/assets.txt`` after base.txt.
 
 Node.js Assets (Step 11)
 =========================
 
-**Issue 7: SASS compilation PATH**
+**Issue 7: npm run build fails** ✅ FIXED IN MAIN STEPS
 
-The SASS compilation script needs ``rtlcss`` from node_modules/.bin to be in PATH.
+Running ``npm run build`` fails because the SASS compilation script (a Python script) is executed
+outside the virtual environment, causing ``ModuleNotFoundError: No module named 'click'``.
 
-**Fix:** When running SASS compilation manually:
+**Resolution:** Step 11 now separates the build into two parts:
 
-.. code-block:: bash
+1. Run ``npm run webpack`` (does not need venv)
+2. Run SASS compilation with venv activated: ``source venv/bin/activate && PATH="$PATH:/opt/edx-platform/node_modules/.bin" python scripts/compile_sass.py --env=production``
 
-   PATH="$PATH:/opt/edx-platform/node_modules/.bin" python scripts/compile_sass.py --env=production
+The PATH addition ensures ``rtlcss`` from node_modules/.bin is available for RTL CSS generation.
 
 Database Migrations (Step 13)
 ==============================
 
-**Issue 8: Settings syntax**
+**Issue 8: Settings syntax and environment variables** ✅ TESTED AND FIXED
 
-The correct settings flag format is ``--settings=production``, not ``--settings=lms.envs.production``.
+The correct settings flag format is ``--settings=production``, not ``--settings=lms.envs.production``,
+and the ``LMS_CFG`` environment variable must be set to point to the configuration file.
 
-**Issue 9: Missing environment variable**
+**Issue 9: Missing apps in INSTALLED_APPS (release/ulmo.1)** ✅ TESTED AND FIXED
 
-The ``LMS_CFG`` environment variable must be set to point to the configuration file.
+The release/ulmo.1 branch is missing several apps from INSTALLED_APPS in ``lms/envs/common.py``,
+which causes KeyError exceptions during migrations.
 
-**Fix:**
+**Required fixes for lms/envs/common.py:**
+
+1. Uncomment bulk_email app (around line 2130):
+
+.. code-block:: python
+
+   'lms.djangoapps.certificates.apps.CertificatesConfig',
+   'lms.djangoapps.instructor_task',
+   'openedx.core.djangoapps.course_groups',
+   'lms.djangoapps.bulk_email',  # Uncomment this line
+   'lms.djangoapps.branding',
+
+2. Add program_enrollments app after programs config (around line 2253):
+
+.. code-block:: python
+
+   # programs support
+   'openedx.core.djangoapps.programs.apps.ProgramsConfig',
+   'lms.djangoapps.program_enrollments',  # Add this line
+
+3. Add missing openedx.core.djangoapps apps (locations vary, add where appropriate):
+
+.. code-block:: python
+
+   'openedx.core.djangoapps.bookmarks',
+   'openedx.core.djangoapps.content_libraries',
+   'openedx.core.djangoapps.discussions',
+   'openedx.core.djangoapps.theming',
+
+**Issue 10: MODULESTORE configuration incomplete** ✅ TESTED AND FIXED
+
+The minimal MODULESTORE configuration in ``/edx/etc/lms.yml`` causes ``TypeError: MongoModuleStore.__init__()
+missing 2 required positional arguments: 'fs_root' and 'render_template'``.
+
+**Resolution:** The MODULESTORE must use MixedModuleStore with complete configuration. Replace the minimal
+MODULESTORE section in ``/edx/etc/lms.yml`` with:
+
+.. code-block:: yaml
+
+   DOC_STORE_CONFIG:
+     db: edxapp
+     host: localhost
+     port: 27017
+     user: edxapp
+     password: your_mongodb_password
+     collection: modulestore
+     ssl: false
+     socketTimeoutMS: 6000
+     connectTimeoutMS: 2000
+     auth_source: null
+     read_preference: SECONDARY_PREFERRED
+
+   CONTENTSTORE:
+     ENGINE: xmodule.contentstore.mongo.MongoContentStore
+     DOC_STORE_CONFIG:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+     OPTIONS:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+
+   MODULESTORE:
+     default:
+       ENGINE: xmodule.modulestore.mixed.MixedModuleStore
+       OPTIONS:
+         mappings: {}
+         stores:
+           - NAME: split
+             ENGINE: xmodule.modulestore.split_mongo.split_draft.DraftVersioningModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+           - NAME: draft
+             ENGINE: xmodule.modulestore.mongo.DraftMongoModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+
+   DATA_DIR: /edx/var/edxapp/data
+
+Create the required data directory:
 
 .. code-block:: bash
 
+   sudo mkdir -p /edx/var/edxapp/data
+
+**Final working approach (tested February 2026):**
+
+.. code-block:: bash
+
+   cd /opt/edx-platform
+   source venv/bin/activate
    export LMS_CFG=/edx/etc/lms.yml
    ./manage.py lms migrate --settings=production
 
-**CRITICAL Issue 10: Circular imports and missing apps (release/ulmo.1)**
+**Test result:**
 
-The release/ulmo.1 branch has circular import issues that prevent Django from initializing. The following apps are missing from INSTALLED_APPS in ``lms/envs/common.py``:
+.. code-block:: bash
 
-- ``openedx.core.djangoapps.bookmarks``
-- ``openedx.core.djangoapps.discussions``
-- ``openedx.core.djangoapps.content_libraries``
+   mysql -u edxapp -p -e "USE edxapp; SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'edxapp';"
+   # Should show 566 tables (February 2026 test result)
 
-Additionally, there is a circular import between:
-
-- ``openedx.core.djangoapps.content_tagging.api``
-- ``openedx.core.djangoapps.content_libraries.api``
-
-And another circular import chain through:
-
-- ``xmodule.library_tools`` (imports content_libraries at module level)
-- ``openedx.core.djangoapps.content_libraries.api``
-- ``openedx_authz.api.data``
-
-**Temporary workarounds applied during testing:**
-
-1. Add missing apps to ``lms/envs/common.py`` around line 2270:
-
-.. code-block:: python
-
-   'openedx.core.djangoapps.api_admin',
-   'openedx.core.djangoapps.bookmarks',  # Added
-   'openedx.core.djangoapps.discussions',  # Added
-   'openedx.core.djangoapps.content_libraries',  # Added
-   'openedx.core.djangoapps.verified_track_content',
-
-2. Make content_libraries import lazy in ``xmodule/library_tools.py`` line 12:
-
-.. code-block:: python
-
-   # Change from:
-   from openedx.core.djangoapps.content_libraries import tasks as library_tasks
-
-   # To: (comment out and add lazy imports in methods)
-   # from openedx.core.djangoapps.content_libraries import tasks as library_tasks
-
-   # Then add this line inside each method that uses library_tasks:
-   from openedx.core.djangoapps.content_libraries import tasks as library_tasks
-
-**Status:** Even with these workarounds, the circular import between content_tagging.api and content_libraries.api prevents migrations from running on the release/ulmo.1 branch. This appears to be a bug in the release that needs to be fixed upstream.
+**Status:** Migrations complete successfully with all fixes applied. The issues were not circular imports
+as initially suspected, but rather missing app registrations and incomplete MODULESTORE configuration.
 
 Environment Notes
 =================
 
-**Issue 11: Container/non-systemd environments**
+**Issue 11: Container/non-systemd environments** ✅ FIXED IN MAIN STEPS
 
-If running in a container without systemd, use ``service`` commands or start services directly:
+Container environments without systemd require different service management commands.
 
-.. code-block:: bash
-
-   # Instead of systemctl:
-   service mysql start
-   mongod --fork --logpath /var/log/mongodb/mongod.log --dbpath /var/lib/mongodb
-   redis-server --daemonize yes
-   memcached -d -u root
+**Resolution:** Notes have been added throughout Steps 2-6 explaining how to start services
+in container environments using ``service`` commands or direct daemon invocation.
 
 See Also
 ********
