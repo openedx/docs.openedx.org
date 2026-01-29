@@ -70,7 +70,7 @@ The course opens to the **Course** page. On this page, below any messages from
 the course team, the course outline is visible. Above the outline is a **Start
 Course** option.
 
-.. image:: /_images/learners/course_nav_outline_startcourse.png
+.. image:: /_images/learners/strat_course_button.png
  :alt: The Course page, showing a welcome message and the course outline in
      the left pane.
 
@@ -128,5 +128,5 @@ recently completed.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|  2026-01-23  | AnaP Gomez(edunext)           |   Teak         | Pass & update                  |
 +--------------+-------------------------------+----------------+--------------------------------+
