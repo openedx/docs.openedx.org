@@ -8,7 +8,7 @@ Add Text
 
 #. In the unit where you want to place the text, select :guilabel:`Text` at the bottom of the page.
 
-   .. image:: /_images/Educators_add_text.png
+   .. image:: /_images/educator_how_tos/component_text.png
 
 #. Select the **Text** template to add a blank component.
 
@@ -46,6 +46,8 @@ Add Text
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 01/23/2026   | AnaP Gomez (edunext)          | Teak           | Pass(Update)                                                  |                           
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

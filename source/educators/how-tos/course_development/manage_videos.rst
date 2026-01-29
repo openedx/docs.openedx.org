@@ -26,7 +26,7 @@ To add a video, follow these steps.
 
 #. From Studio, in the unit where you want to place the video, under **Add New Component** select :guilabel:`Video`.
 
-   .. image:: /_images/Educators_add_video.png
+   .. image:: /_images/educator_how_tos/component_video.png
 
    A video with default settings is added to the unit.
 
@@ -311,6 +311,8 @@ License
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2026-01-28   | AnaP Gómez (edunext)          | Teak           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
