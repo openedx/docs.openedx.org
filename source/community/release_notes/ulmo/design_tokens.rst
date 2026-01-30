@@ -28,7 +28,7 @@ See this presentation from the November 2024 Open edX meetup for more detail.
 
 See also the `presentation slides here <https://docs.google.com/presentation/d/1FOSbTUTbbzaBoIDYMa5s32in1uFoYWdoQ-GjKk5IRBo/edit?usp=sharing>`_.
 
-The Open edX Ulmo release comes out in December 2025.
+The Open edX Ulmo release comes out in January 2026.
 
 **Maintenance chart**
 

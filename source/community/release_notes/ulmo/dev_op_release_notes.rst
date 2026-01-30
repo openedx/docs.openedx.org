@@ -5,7 +5,7 @@ Open edX Ulmo Developer & Operator Release Notes
 
 These are the developer & operator release notes for the Ulmo release, the 21st
 community release of the Open edX Platform, spanning changes from April 25,
-2025 to October 30, 2025. You can also review details about :ref:`Open edX Release Notes` or
+2025 to January 15, 2026. You can also review details about :ref:`Open edX Release Notes` or
 learn more about the `Open edX Platform`_.
 
 To view the end-user facing docs, see the :ref:`Ulmo Product Notes`.
