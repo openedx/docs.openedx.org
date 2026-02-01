@@ -1,4 +1,4 @@
-Open edX Ulmo - December 2025 Release
+Open edX Ulmo - January 2026 Release
 #####################################
 
 These are the release notes for the Ulmo release, the 21st community release

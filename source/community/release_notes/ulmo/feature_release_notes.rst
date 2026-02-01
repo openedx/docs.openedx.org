@@ -3,7 +3,7 @@
 Open edX Ulmo Release - Product Release Notes
 #############################################
 
-The Open edX Ulmo Release was released on December 22, 2025.
+The Open edX Ulmo Release was released on January 15, 2026.
 
 :ref:`What's New? <Ulmo Product Marketing Notes>`
 
