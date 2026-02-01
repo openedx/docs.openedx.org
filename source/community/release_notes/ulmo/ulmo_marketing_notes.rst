@@ -1,6 +1,6 @@
 .. _Ulmo Product Marketing Notes:
 
-Open edX Ulmo Release (December 2025)
+Open edX Ulmo Release (January 2026)
 ######################################
 
 Welcome to the Ulmo release! Discover new and exciting features built
