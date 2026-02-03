@@ -16,9 +16,10 @@ OLX General Information
    :maxdepth: 1
    :glob:
 
-   ../olx/front_matter/read_me.rst
    ../olx/what-is-olx.rst
    ../olx/getting-started.rst
+
+:ref:`Work with the targz File`
 
 .. _OLX Course Structure:
 
@@ -32,6 +33,20 @@ This topic describes the structure of a generic OLX (open learning XML) course.
    :glob:
 
    ../olx/directory-structure.rst
+
+.. _OLX Example Course:
+
+Example of an OLX Course
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   ../olx/example-course/index.rst
+   ../olx/example-course/insider-structure.rst
+   ../olx/example-course/insider-course-xml.rst
+   ../olx/studio-example/manual-testing-structure.rst   
 
 .. _OLX Policies:
 
@@ -113,7 +128,8 @@ The topics in this section describe how to use OLX (open learning XML) to create
    ../olx/components/html-components.rst
    ../olx/components/discussion-components.rst
    ../olx/components/video-components.rst
-   ../olx/components/problem-components.rst  
+   ../olx/components/problem-components.rst
+   ../olx/components/multipart-components.rst
 
 .. _OLX Exercises, Tools, and Problem Types:
 
@@ -182,30 +198,4 @@ The topics in this section describe how to use OLX (open learning XML) to create
    /educators/how-tos/advanced_features/manage_content_experiments.rst
    /educators/how-tos/advanced_features/add_content_experiments_olx.rst
    ../olx/content-experiments/content_experiments_test_olx.rst
-   
-   
-.. _OLX Example Course:
-
-Example of an OLX Course
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   ../olx/example-course/index.rst
-   ../olx/example-course/insider-structure.rst
-   ../olx/example-course/insider-course-xml.rst
-   
-.. _OLX Example Studio Course:
-
-Example of OLX for a Studio Course
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   ../olx/studio-example/index.rst
-   ../olx/studio-example/manual-testing-structure.rst
 

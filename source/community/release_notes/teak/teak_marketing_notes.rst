@@ -38,6 +38,10 @@ button in Studio now uses the default student experience rather than the legacy 
 see content exactly as learners will, improving content validation during
 authoring.
 
+:ref:`LTI Certified ✅ <Teak LTI Certification>`: The Open edX Teak Release
+has achieved the `LTI Advantage Complete
+<https://www.imsglobal.org/lti-advantage-overview>`_ certification!
+
 🎓 For Learners
 *****************
 
@@ -66,19 +70,27 @@ upgrade.
 🔮 Upcoming in Ulmo (December 2025)
 ************************************
 
-We're working hard on even more improvements in our Ulmo release! You can look
-forward to:
+We're working hard on even more improvements in our :ref:`Ulmo release (out now) <Ulmo Product Marketing Notes>`!
+You can look forward to:
 
-**Advanced Libraries**: Build entire course sections once, then reuse them
-everywhere — imagine updating your intro module across 20 courses with one
-click!
+**Build Complete Course Structures in Libraries**: Build
+entire course sections once, then reuse them across courses, with improved sync
+workflows that visually show changes before you apply them - plus a migration
+tool to move Legacy Library content forward.
+
+
+**Granular Roles and Permissions for Libraries**: Assign Library Admin, Author,
+Contributor, or User roles with specific permissions for viewing, editing,
+publishing, and managing content—all managed from a central Administrative
+Console that shows your entire team at a glance.
 
 **Smart Notifications**: Never let students miss important discussions again!
 Keep learners engaged with timely alerts about new posts and announcements,
 delivered both in-platform and via email.
 
-**Simplified LTI**: Tired of wrestling with LTI integrations? Set up credentials
-once and reuse them across all your tools with our streamlined LTI 1.3 plugin.
+**Reusable LTI configurations**: Set up LTI tool credentials once in a central store, then reuse
+them across all courses and blocks, eliminating repetitive data entry and
+reducing configuration errors across your entire instance.
 
 **Beautiful Course Pages**: Your course catalog is getting a major glow-up! New,
 customizable pages will help you showcase courses with modern design and full

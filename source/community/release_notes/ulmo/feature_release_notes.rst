@@ -3,14 +3,24 @@
 Open edX Ulmo Release - Product Release Notes
 #############################################
 
-*Releasing December, 2025!*
+The Open edX Ulmo Release was released on January 15, 2026.
+
+:ref:`What's New? <Ulmo Product Marketing Notes>`
 
 .. toctree::
    :maxdepth: 1
 
+   ulmo_libraries
+   ulmo_rp
+   ulmo_notifications
+   ulmo_console
    ulmo_mobile_updates
-   design_tokens
-   stay_up_to_date
+   ulmo_catalog
+   ulmo_reusable_lti
+   smaller_changes
+   ulmo_lti_cert
+   design_tokens   
+   ulmo_frontend_plugin_slots
 
 
 Information for site operators and developers, including information on how to
@@ -23,5 +33,5 @@ in the :ref:`Ulmo Dev Notes`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|2025-12-18    | BTR WG                        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

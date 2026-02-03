@@ -76,16 +76,17 @@ Best Practices for Providing Hints
 **********************************
 
 To ensure that your hints can assist learners with varying backgrounds and
-levels of understanding, you should provide multiple hints with different
-levels of detail.
+levels of understanding, you should provide multiple hints with different levels
+of detail.
 
-For example, the first hint can orient the learner to the problem and help
-those struggling to better understand what is being asked.
+For example, the first hint can orient the learner to the problem and help those
+struggling to better understand what is being asked.
 
-The second hint can then take the learner further towards the answer.
+The second, and any subsequent, hint can then take the learner further towards
+the answer.
 
-In problems that are not graded, the third and final hint can explain the
-solution for learners who are still confused.
+In problems that are not graded, the final hint can explain the solution for
+learners who are still confused.
 
 ***************************************
 Create Problems with Feedback and Hints

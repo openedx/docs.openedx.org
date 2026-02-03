@@ -34,6 +34,31 @@ Create and Manage Components
    ../how-tos/course_development/set_component_restrictions.rst
    ../references/course_development/parent_child_components.rst
 
+.. _Work with Content Libraries:
+
+Work with Content Libraries
+***************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../how-tos/course_development/navigate_library_homepage.rst
+   ../how-tos/course_development/create_new_library.rst
+   ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
+   ../how-tos/course_development/create_and_edit_content_in_a_library.rst
+   ../how-tos/course_development/create_and_edit_units_in_a_library.rst
+   ../how-tos/course_development/create_edit_blocks.rst
+   ../how-tos/course_development/publish_library_content.rst
+   ../how-tos/course_development/backup_restore_library.rst
+   ../how-tos/course_development/add_delete_tags_in_library_content.rst
+   ../how-tos/course_development/build_a_collection_in_a_library.rst
+   ../how-tos/course_development/search_for_content_in_a_library.rst
+   ../how-tos/course_development/add_users_to_libraries.rst
+   ../how-tos/course_development/add_library_content_to_a_course.rst
+   ../how-tos/course_development/add_a_problem_bank_to_your_course.rst
+   ../how-tos/course_development/sync_a_library_update_to_your_course.rst
+
 .. _Add Text Components:
 
 Manage Text Components
@@ -65,29 +90,6 @@ Manage Video Components
    ../references/course_development/troubleshoot_video.rst
    ../references/course_development/video_specifications.rst
    ../how-tos/add_video_quiz.rst
-
-.. _Work with Content Libraries:
-
-Work with Content Libraries
-***************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../how-tos/course_development/navigate_library_homepage.rst
-   ../how-tos/course_development/create_new_library.rst
-   ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
-   ../how-tos/course_development/create_and_edit_content_in_a_library.rst
-   ../how-tos/course_development/create_and_edit_units_in_a_library.rst
-   ../how-tos/course_development/publish_library_content.rst
-   ../how-tos/course_development/add_delete_tags_in_library_content.rst
-   ../how-tos/course_development/build_a_collection_in_a_library.rst
-   ../how-tos/course_development/search_for_content_in_a_library.rst
-   ../how-tos/course_development/add_users_to_libraries.rst
-   ../how-tos/course_development/add_library_content_to_a_course.rst
-   ../how-tos/course_development/add_a_problem_bank_to_your_course.rst
-   ../how-tos/course_development/sync_a_library_update_to_your_course.rst
 
 .. _Control Visibility and Access:
 
@@ -182,7 +184,7 @@ Re-run a Course
    :glob:
 
    ../references/course_development/course_export_terminology.rst
-   ../references/course_development/working_with_targz_file.rst
+   ../how-tos/course_development/work_with_targz_file.rst
 
 
 Test Your Course
@@ -201,8 +203,9 @@ Work with Legacy Content Libraries
 **********************************
 
 The Legacy Libraries feature will be supported through Ulmo, moving to
-unsupported in Verawood. Ulmo will include a one-click migration feature that
-will make it easy to convert a Legacy Library into the new Library interface.
+unsupported in Verawood. Ulmo includes a :ref:`one-click migration feature
+<Migrating Legacy Libraries>` that makes it easy to convert a Legacy Library
+into the new Library interface.
 
 See :ref:`Content Libraries Redesign Teak` for more on the new Libraries
 initiative.
@@ -211,6 +214,7 @@ initiative.
    :maxdepth: 1
    :glob:
    
+   ../how-tos/course_development/migrate_legacy_libraries.rst
    ../concepts/instructional_design/libraries.rst
    ../how-tos/course_development/create_library.rst
    ../how-tos/course_development/edit_library.rst

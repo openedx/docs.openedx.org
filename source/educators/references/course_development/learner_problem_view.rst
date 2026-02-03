@@ -37,29 +37,32 @@ an option is available in problems.
    LMS immediately provides feedback about whether the response is correct
    or incorrect, as well as the problem score. The **Submit** option remains
    available if the learner has unused attempts remaining, so that they can
-   try to answer the problem again.
+   try to answer the problem again
 
-     .. note::
-       If you want to temporarily or permanently hide learners' results for
-       problems inside of a subsection, see :ref:`Problem Results Visibility`.
+   .. note::
+     If you want to temporarily or permanently hide learners' results for
+     problems inside of a subsection, see :ref:`Problem Results Visibility`.
 
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
-   attempts for a problem. By default, the course-wide **Maximum Attempts**
+   attempts for a problem. By default, the course-wide **Maximum attempts**
    advanced setting is null, meaning that the maximum number of attempts for
    problems is unlimited.
 
    In courses where a specific number has been specified for **Maximum
-   Attempts** in Advanced Settings, if you do not specify a value for **Maximum
-   Attempts** for an individual problem, the number of attempts for that
+   attempts** in Advanced Settings, if you do not specify a value for **Maximum
+   attempts** for an individual problem, the number of attempts for that
    problem defaults to the number of attempts defined in Advanced Settings.
+
+   Note that if the course-wide setting is a specific number, the Maximum
+   attempts for individual problems cannot be set to unlimited.
 
 #. **Save.** The learner can select **Save** to save their current response
    without submitting it for grading. This allows the learner to stop working
    on a problem and come back to it later.
 
 #. **Reset.** You can specify whether the **Reset** option is available for a
-   problem. This setting at the problem level overrides the default setting
-   for the course in **Advanced Settings**.
+   problem. This setting at the problem level overrides the default setting of
+   **Show reset button for problems** for the course in Advanced Settings.
 
    If the **Reset** option is available, learners can select **Reset** to
    clear any input that has not yet been submitted, and try again to answer
@@ -80,22 +83,28 @@ an option is available in problems.
    problem. If a learner selects **Show Answer**, the learner sees both the
    correct answer and the explanation, if any.
 
-   If you specify a number in **Show Answer: After Some Number of Attempts**, the learner
-   must submit at least that number of attempted answers before the **Show
-   Answer** option is available for the problem.
+   The **Show answer** setting in Advanced Settings allows course authors to
+   specify when the Show Answer button appears for each problem. Valid values
+   are "always", "answered", "attempted", "closed", "finished", "past_due",
+   "correct_or_past_due", "after_all_attempts", "after_all_attempts_or_correct",
+   "attempted_no_past_due", and "never".
+
+   If you specify a number in the problem-level setting **Show Answer: After
+   Some Number of Attempts**, the learner must submit at least that number of
+   attempted answers before the **Show Answer** option is available for the
+   problem.
 
 #. **Feedback.** After a learner selects **Submit**, an icon appears beside
    each response field or selection within a problem. A green check mark
-   indicates that the response was correct, a green asterisk (*) indicates that
-   the response was partially correct, and a red X indicates that the response
+   indicates that the response was correct while a red X indicates that the response
    was incorrect. Underneath the problem, feedback text indicates whether the
-   problem was answered correctly, incorrectly, or partially correctly, and
+   problem was answered correctly or incorrectly, and
    shows the problem score.
 
-.. image:: /_images/educator_references/AnatomyOfExercise2.png
-     :alt: A problem from a learner's point of view, with callouts showing the
-           feedback elements of an answered problem.
-     :width: 600
+   .. image:: /_images/educator_references/AnatomyOfExercise2.png
+      :alt: A problem from a learner's point of view, with callouts showing the
+            feedback elements of an answered problem.
+      :width: 600
 
 .. note::
  If you want to temporarily or permanently hide learners' results for
@@ -110,17 +119,24 @@ have the following elements.
 * **Explanation.** You can include an explanation that appears when a learner
   selects **Show Answer**.
 
-* **Grading.** You can specify whether a group of problems is graded.
+  .. image:: /_images/educator_references/AnatomyOfExercise3.png
+     :alt: A problem from a learner's point of view, with a problem explanation shown
+           below the input box after "Show Answer" has been selected.
+     :width: 600
+
+* **Points.** You can specify the number of points for a problem (default is 1).
 
 * **Due date.** The date that the problem is due. Learners cannot submit
   answers for problems whose due dates have passed, although they can select
   **Show Answer** to show the correct answer and the explanation, if any.
+  This is set at the subsection level.
 
 .. note::
    Problems can be **open** or **closed**. Closed problems, such as problems
    whose due dates are in the past, do not accept further responses and cannot
-   be reset. Learners can still see questions, solutions, and revealed
-   explanations, but they cannot submit responses or reset problems.
+   be reset. Depending on the value of **Show answer**, learners may be able to
+   still see questions, solutions, and revealed explanations, but they cannot
+   submit responses or reset problems.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.

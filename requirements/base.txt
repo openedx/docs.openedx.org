@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==1.0.0
     # via sphinx
-anyio==4.11.0
+anyio==4.12.1
     # via
     #   starlette
     #   watchfiles
@@ -16,9 +16,9 @@ babel==2.17.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-beautifulsoup4==4.14.2
+beautifulsoup4==4.14.3
     # via pydata-sphinx-theme
-certifi==2025.11.12
+certifi==2026.1.4
     # via requests
 charset-normalizer==3.4.4
     # via requests
@@ -26,11 +26,14 @@ click==8.3.1
     # via uvicorn
 colorama==0.4.6
     # via sphinx-autobuild
-docutils==0.21.2
+docutils==0.22.4
     # via
+    #   linuxdoc
     #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx
+fspath==20230629
+    # via linuxdoc
 h11==0.16.0
     # via uvicorn
 idna==3.11
@@ -43,7 +46,10 @@ jinja2==3.1.6
     # via
     #   myst-parser
     #   sphinx
-markdown-it-py==3.0.0
+    #   sphinxcontrib-mermaid
+linuxdoc==20240924
+    # via -r requirements/base.in
+markdown-it-py==4.0.0
     # via
     #   mdit-py-plugins
     #   myst-parser
@@ -53,9 +59,9 @@ mdit-py-plugins==0.5.0
     # via myst-parser
 mdurl==0.1.2
     # via markdown-it-py
-myst-parser==4.0.1
+myst-parser==5.0.0
     # via -r requirements/base.in
-packaging==25.0
+packaging==26.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -75,17 +81,18 @@ requests==2.32.5
     #   sphinx
     #   sphinxcontrib-images
     #   sphinxcontrib-youtube
-roman-numerals-py==3.1.0
+roman-numerals==4.1.0
     # via sphinx
-sniffio==1.3.1
-    # via anyio
+six==1.17.0
+    # via fspath
 snowballstemmer==3.0.1
     # via sphinx
-soupsieve==2.8
+soupsieve==2.8.3
     # via beautifulsoup4
-sphinx==8.2.3
+sphinx==9.1.0
     # via
     #   -r requirements/base.in
+    #   linuxdoc
     #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx-autobuild
@@ -106,7 +113,7 @@ sphinx-book-theme==1.1.4
     # via -r requirements/base.in
 sphinx-copybutton==0.5.2
     # via -r requirements/base.in
-sphinx-design==0.6.1
+sphinx-design==0.7.0
     # via -r requirements/base.in
 sphinx-notfound-page==1.1.0
     # via -r requirements/base.in
@@ -124,7 +131,7 @@ sphinxcontrib-images==1.0.1
     # via -r requirements/base.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-mermaid==1.0.0
+sphinxcontrib-mermaid==2.0.0
     # via -r requirements/base.in
 sphinxcontrib-qthelp==2.0.0
     # via sphinx
@@ -132,11 +139,11 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sphinxcontrib-youtube==1.4.1
     # via -r requirements/base.in
-sphinxemoji==0.3.1
+sphinxemoji==0.3.2
     # via -r requirements/base.in
 sphinxext-rediraffe==0.3.0
     # via -r requirements/base.in
-starlette==0.50.0
+starlette==0.52.1
     # via sphinx-autobuild
 typing-extensions==4.15.0
     # via
@@ -144,11 +151,14 @@ typing-extensions==4.15.0
     #   beautifulsoup4
     #   pydata-sphinx-theme
     #   starlette
-urllib3==2.5.0
+urllib3==2.6.3
     # via requests
-uvicorn==0.38.0
+uvicorn==0.40.0
     # via sphinx-autobuild
 watchfiles==1.1.1
     # via sphinx-autobuild
-websockets==15.0.1
+websockets==16.0
     # via sphinx-autobuild
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools

@@ -52,6 +52,7 @@ extensions = [
     "sphinx_tags",
     "sphinxemoji.sphinxemoji",
     "myst_parser",
+    "linuxdoc.rstFlatTable",
 ]
 
 # Extension Configuration
@@ -61,6 +62,12 @@ rediraffe_redirects = {
     "community/release_notes/latest.rst": "community/release_notes/index.rst",
     "documentors/references/quick_reference_rst.rst": "documentors/references/quick_reference.rst",
     "site_ops/install_configure_run_guide/front_matter/getting_help.rst": "other/getting_help.rst",
+    "learners/sfd_discussions/add_post.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "learners/sfd_discussions/anatomy.rst": "learners/sfd_discussions/getting_started.rst",
+    "learners/sfd_discussions/explore_posts.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "learners/sfd_discussions/keep_up.rst": "learners/sfd_discussions/discussions_notifications.rst",
+    "learners/sfd_discussions/provide_feedback.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "educators/references/course_development/working_with_targz_file.rst": "educators/how-tos/course_development/work_with_targz_file.rst",
 }
 
 tags_create_tags = True
@@ -136,6 +143,10 @@ intersphinx_mapping = {
     ),
     "credentials": (
         f"https://docs.openedx.org/projects/edx-credentials/{rtd_language}/{rtd_version}",
+        None,
+    ),
+    "authz": (
+        f"https://docs.openedx.org/projects/openedx-authz/{rtd_language}/{rtd_version}",
         None,
     ),
 }

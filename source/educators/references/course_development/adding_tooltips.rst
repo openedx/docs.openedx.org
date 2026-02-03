@@ -7,6 +7,12 @@ Adding Tooltips to a Problem
 
 .. START ADDING TOOLTIPS
 
+.. warning::
+
+  Tooltips are not exposed in the Open edX Studio problem editor.
+
+  Studio and LMS support of tooltips is not guaranteed to work.
+
 You can add inline tooltips to help learners understand terminology or other aspects of a problem. Tooltips display text to learners when they move their
 cursors over a tooltip icon.
 
@@ -76,5 +82,5 @@ tooltips.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-11-06   | sarina                        |  Ulmo          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
