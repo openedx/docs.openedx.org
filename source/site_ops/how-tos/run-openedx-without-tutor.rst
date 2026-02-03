@@ -89,7 +89,6 @@ Install required packages:
    python3.12 --version
    git --version
 
-.. note::
 
 2. Install and Configure MySQL
 ==============================
