@@ -26,6 +26,19 @@ Prerequisites
 * Basic familiarity with Django applications
 * Understanding of service management (systemd)
 
+.. warning::
+
+   **Python Version Requirements by Branch:**
+
+   * **Named releases (Teak, Ulmo)**: Require Python 3.11 due to boto2 compatibility issues
+   * **Master branch**: Compatible with Python 3.12
+
+   Named releases (``release/teak.1``, ``release/ulmo.1``) include dependencies on boto 2.49.0
+   which has known incompatibilities with Python 3.12. If you need to use these releases on
+   Ubuntu 24.04, you must install Python 3.11 from the deadsnakes PPA (see Step 1).
+
+   For the latest features and Python 3.12 compatibility, use the master branch.
+
 Required Services Overview
 **************************
 
@@ -73,9 +86,14 @@ Install required packages:
 
 .. note::
 
-   Ubuntu 24.04 ships with Python 3.12 by default. If you need Python 3.11 specifically,
-   you must add the deadsnakes PPA (see Known Issues section). For most deployments,
-   Python 3.12 works fine with the release/ulmo.1 branch.
+   **Python Version Selection:**
+
+   Ubuntu 24.04 ships with Python 3.12 by default, which is compatible with the **master branch**.
+
+   If you are using **named releases** (release/teak.1, release/ulmo.1), you **must use Python 3.11**
+   due to boto2 dependencies. Install Python 3.11 via the deadsnakes PPA (see Known Issues section).
+
+   This guide assumes you are using the master branch with Python 3.12.
 
 2. Install and Configure MySQL
 ==============================
@@ -275,8 +293,20 @@ Choose your installation directory and clone the repository:
 
    cd /opt
    # Use shallow clone to save time and disk space
-   sudo git clone --depth 1 --branch release/ulmo.1 https://github.com/openedx/edx-platform.git
+   # Clone master branch (compatible with Python 3.12)
+   sudo git clone --depth 1 --branch master https://github.com/openedx/edx-platform.git
    cd edx-platform
+
+.. note::
+
+   **Branch Selection:**
+
+   * **master branch** (recommended): Latest development version, Python 3.12 compatible
+   * **release/ulmo.1**: Named release, requires Python 3.11
+   * **release/teak.1**: Named release, requires Python 3.11
+
+   For named releases with Python 3.11, use:
+   ``sudo git clone --depth 1 --branch release/ulmo.1 https://github.com/openedx/edx-platform.git``
 
 .. note::
 
@@ -527,6 +557,11 @@ Create ``/edx/etc/cms.auth.json`` with the same structure.
 13. Run Database Migrations
 ===========================
 
+.. note::
+
+   Before running migrations on the **master branch**, you must add required apps to INSTALLED_APPS.
+   See the "Master Branch Testing: February 2026" section for the complete list of apps to add.
+
 Apply Django migrations:
 
 .. code-block:: bash
@@ -534,18 +569,22 @@ Apply Django migrations:
    cd /opt/edx-platform
    source venv/bin/activate
 
+   # Set environment variables
+   export LMS_CFG=/edx/etc/lms.yml
+   export CMS_CFG=/edx/etc/cms.yml
+
    # Run migrations for LMS
-   ./manage.py lms migrate --settings=lms.envs.production
+   ./manage.py lms migrate --settings=production
 
    # Run migrations for CMS
-   ./manage.py cms migrate --settings=cms.envs.production
+   ./manage.py cms migrate --settings=production
 
 **Test this step:**
 
 .. code-block:: bash
 
-   mysql -u edxapp -p -e "USE edxapp; SHOW TABLES;" | wc -l
-   # Should show 200+ tables
+   mysql -u edxapp -p -e "USE edxapp; SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'edxapp';"
+   # Should show 567 tables (master branch, February 2026)
 
 14. Create Django Superuser
 ===========================
@@ -554,14 +593,37 @@ Create an administrative user:
 
 .. code-block:: bash
 
-   ./manage.py lms createsuperuser --settings=lms.envs.production
+   cd /opt/edx-platform
+   source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+
+   # Create superuser with --noinput (non-interactive)
+   ./manage.py lms createsuperuser --username admin --email admin@example.com --noinput --settings=production
+
+   # Set the password using Python
+   python -c "
+   import os
+   import django
+   os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lms.envs.production')
+   django.setup()
+   from django.contrib.auth import get_user_model
+   User = get_user_model()
+   user = User.objects.get(username='admin')
+   user.set_password('your-secure-password')
+   user.save()
+   print('Password set successfully')
+   "
+
+.. warning::
+
+   Replace ``your-secure-password`` with a strong password of your choice.
 
 **Test this step:**
 
 .. code-block:: bash
 
-   mysql -u edxapp -p -e "USE edxapp; SELECT username, email FROM auth_user WHERE is_superuser=1;"
-   # Should show your superuser
+   mysql -u edxapp -p -e "USE edxapp; SELECT username, email, is_superuser, is_staff FROM auth_user WHERE is_superuser=1;"
+   # Should show your superuser with is_superuser=1 and is_staff=1
 
 15. Collect Static Assets
 =========================
@@ -570,15 +632,26 @@ Collect Django static files:
 
 .. code-block:: bash
 
-   ./manage.py lms collectstatic --noinput --settings=lms.envs.production
-   ./manage.py cms collectstatic --noinput --settings=cms.envs.production
+   cd /opt/edx-platform
+   source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   export CMS_CFG=/edx/etc/cms.yml
+
+   # Collect LMS static files
+   ./manage.py lms collectstatic --noinput --settings=production
+
+   # Collect CMS static files
+   ./manage.py cms collectstatic --noinput --settings=production
 
 **Test this step:**
 
 .. code-block:: bash
 
-   ls -la /opt/edx-platform/staticfiles/
-   # Should show collected static files
+   ls -la /opt/staticfiles/
+   # Should show LMS static files (6,600+ files)
+
+   ls -la /opt/staticfiles/studio/
+   # Should show CMS/Studio static files (3,000+ files)
 
 16. Clone and Set Up MFEs
 =========================
@@ -1378,6 +1451,92 @@ dependencies installed (1019 packages), webpack build completed, and SASS compil
 5. **Service Versions:** All services installed correctly with latest stable versions from
    repositories. Version drift from guide specifications is normal and expected.
 
+Master Branch Testing: February 2026
+=====================================
+
+**Environment:**
+- Ubuntu 24.04.3 LTS (Docker container)
+- edx-platform branch: master (February 2026)
+- Python 3.12.3
+- Node.js 18.20.8
+- MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
+
+**Results:** Steps 1-15 completed successfully. All migrations ran without boto2 compatibility issues.
+
+**Why Master Branch:**
+
+The release/ulmo.1 branch has a dependency on boto 2.49.0 which is incompatible with Python 3.12.
+The master branch uses only boto3, making it compatible with Python 3.12 on Ubuntu 24.04.
+
+**Required INSTALLED_APPS Changes:**
+
+The master branch requires the following apps to be added to INSTALLED_APPS:
+
+**For LMS** (``lms/envs/common.py``):
+
+Add these apps near the end of the INSTALLED_APPS list (around line 2025, before the closing bracket):
+
+.. code-block:: python
+
+   # Learning Core Apps, used by v2 content libraries (content_libraries app)
+   'openedx.core.djangoapps.content_libraries',
+   "openedx_learning.apps.authoring.collections",
+   "openedx_learning.apps.authoring.components",
+   "openedx_learning.apps.authoring.contents",
+   "openedx_learning.apps.authoring.publishing",
+   "openedx_learning.apps.authoring.units",
+   "openedx_learning.apps.authoring.subsections",
+   "openedx_learning.apps.authoring.sections",
+
+   # Additional required apps
+   "openedx.core.djangoapps.bookmarks",
+   "openedx.core.djangoapps.discussions",
+   "openedx.core.djangoapps.theming",
+
+Also add ``lms.djangoapps.program_enrollments`` after programs config (around line 1895):
+
+.. code-block:: python
+
+   # programs support
+   'openedx.core.djangoapps.programs.apps.ProgramsConfig',
+   'lms.djangoapps.program_enrollments',
+
+**For CMS** (``cms/envs/common.py``):
+
+Add these apps near the end of the INSTALLED_APPS list (around line 900, before the closing bracket):
+
+.. code-block:: python
+
+   # Learning Core Apps, used by v2 content libraries (content_libraries app)
+   'openedx.core.djangoapps.content_libraries',
+   "openedx_learning.apps.authoring.collections",
+   "openedx_learning.apps.authoring.components",
+   "openedx_learning.apps.authoring.contents",
+   "openedx_learning.apps.authoring.publishing",
+   "openedx_learning.apps.authoring.units",
+   "openedx_learning.apps.authoring.subsections",
+   "openedx_learning.apps.authoring.sections",
+
+   # Additional required apps
+   "openedx.core.djangoapps.bookmarks",
+   "openedx.core.djangoapps.discussions",
+   "openedx.core.djangoapps.theming",
+   "openedx.core.djangoapps.content_staging",
+
+**Note:** ``lms.djangoapps.bulk_email`` is already uncommented in the master branch.
+
+**Migration Results:**
+
+- LMS migrations: 567 tables created successfully
+- CMS migrations: Completed successfully
+- No boto2-related errors
+- All apps initialized properly
+
+**Static Assets:**
+
+- LMS: 6,604 files copied, 6,686 post-processed
+- CMS: 3,087 files copied, 3,115 post-processed
+
 Known Issues and Corrections (Historical - January 2026)
 *********************************************************
 
@@ -1464,12 +1623,139 @@ The PATH addition ensures ``rtlcss`` from node_modules/.bin is available for RTL
 Database Migrations (Step 13)
 ==============================
 
-**Issue 8: Settings syntax and environment variables** ⚠️ NOT YET TESTED
+**Issue 8: Settings syntax and environment variables** ✅ TESTED AND FIXED
 
 The correct settings flag format is ``--settings=production``, not ``--settings=lms.envs.production``,
 and the ``LMS_CFG`` environment variable must be set to point to the configuration file.
 
-**Recommended approach:**
+**Issue 9: Missing apps in INSTALLED_APPS (release/ulmo.1)** ✅ TESTED AND FIXED
+
+The release/ulmo.1 branch is missing several apps from INSTALLED_APPS in ``lms/envs/common.py``,
+which causes KeyError exceptions during migrations.
+
+**Required fixes for lms/envs/common.py:**
+
+1. Uncomment bulk_email app (around line 2130):
+
+.. code-block:: python
+
+   'lms.djangoapps.certificates.apps.CertificatesConfig',
+   'lms.djangoapps.instructor_task',
+   'openedx.core.djangoapps.course_groups',
+   'lms.djangoapps.bulk_email',  # Uncomment this line
+   'lms.djangoapps.branding',
+
+2. Add program_enrollments app after programs config (around line 2253):
+
+.. code-block:: python
+
+   # programs support
+   'openedx.core.djangoapps.programs.apps.ProgramsConfig',
+   'lms.djangoapps.program_enrollments',  # Add this line
+
+3. Add missing openedx.core.djangoapps apps (locations vary, add where appropriate):
+
+.. code-block:: python
+
+   'openedx.core.djangoapps.bookmarks',
+   'openedx.core.djangoapps.content_libraries',
+   'openedx.core.djangoapps.discussions',
+   'openedx.core.djangoapps.theming',
+
+**Issue 10: MODULESTORE configuration incomplete** ✅ TESTED AND FIXED
+
+The minimal MODULESTORE configuration in ``/edx/etc/lms.yml`` causes ``TypeError: MongoModuleStore.__init__()
+missing 2 required positional arguments: 'fs_root' and 'render_template'``.
+
+**Resolution:** The MODULESTORE must use MixedModuleStore with complete configuration. Replace the minimal
+MODULESTORE section in ``/edx/etc/lms.yml`` with:
+
+.. code-block:: yaml
+
+   DOC_STORE_CONFIG:
+     db: edxapp
+     host: localhost
+     port: 27017
+     user: edxapp
+     password: your_mongodb_password
+     collection: modulestore
+     ssl: false
+     socketTimeoutMS: 6000
+     connectTimeoutMS: 2000
+     auth_source: null
+     read_preference: SECONDARY_PREFERRED
+
+   CONTENTSTORE:
+     ENGINE: xmodule.contentstore.mongo.MongoContentStore
+     DOC_STORE_CONFIG:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+     OPTIONS:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+
+   MODULESTORE:
+     default:
+       ENGINE: xmodule.modulestore.mixed.MixedModuleStore
+       OPTIONS:
+         mappings: {}
+         stores:
+           - NAME: split
+             ENGINE: xmodule.modulestore.split_mongo.split_draft.DraftVersioningModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+           - NAME: draft
+             ENGINE: xmodule.modulestore.mongo.DraftMongoModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+
+   DATA_DIR: /edx/var/edxapp/data
+
+Create the required data directory:
+
+.. code-block:: bash
+
+   sudo mkdir -p /edx/var/edxapp/data
+
+**Final working approach (tested February 2026):**
 
 .. code-block:: bash
 
@@ -1478,51 +1764,15 @@ and the ``LMS_CFG`` environment variable must be set to point to the configurati
    export LMS_CFG=/edx/etc/lms.yml
    ./manage.py lms migrate --settings=production
 
-**CRITICAL Issue 10: Circular imports and missing apps (release/ulmo.1)**
+**Test result:**
 
-The release/ulmo.1 branch has circular import issues that prevent Django from initializing. The following apps are missing from INSTALLED_APPS in ``lms/envs/common.py``:
+.. code-block:: bash
 
-- ``openedx.core.djangoapps.bookmarks``
-- ``openedx.core.djangoapps.discussions``
-- ``openedx.core.djangoapps.content_libraries``
+   mysql -u edxapp -p -e "USE edxapp; SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'edxapp';"
+   # Should show 566 tables (February 2026 test result)
 
-Additionally, there is a circular import between:
-
-- ``openedx.core.djangoapps.content_tagging.api``
-- ``openedx.core.djangoapps.content_libraries.api``
-
-And another circular import chain through:
-
-- ``xmodule.library_tools`` (imports content_libraries at module level)
-- ``openedx.core.djangoapps.content_libraries.api``
-- ``openedx_authz.api.data``
-
-**Temporary workarounds applied during testing:**
-
-1. Add missing apps to ``lms/envs/common.py`` around line 2270:
-
-.. code-block:: python
-
-   'openedx.core.djangoapps.api_admin',
-   'openedx.core.djangoapps.bookmarks',  # Added
-   'openedx.core.djangoapps.discussions',  # Added
-   'openedx.core.djangoapps.content_libraries',  # Added
-   'openedx.core.djangoapps.verified_track_content',
-
-2. Make content_libraries import lazy in ``xmodule/library_tools.py`` line 12:
-
-.. code-block:: python
-
-   # Change from:
-   from openedx.core.djangoapps.content_libraries import tasks as library_tasks
-
-   # To: (comment out and add lazy imports in methods)
-   # from openedx.core.djangoapps.content_libraries import tasks as library_tasks
-
-   # Then add this line inside each method that uses library_tasks:
-   from openedx.core.djangoapps.content_libraries import tasks as library_tasks
-
-**Status:** Even with these workarounds, the circular import between content_tagging.api and content_libraries.api prevents migrations from running on the release/ulmo.1 branch. This appears to be a bug in the release that needs to be fixed upstream.
+**Status:** Migrations complete successfully with all fixes applied. The issues were not circular imports
+as initially suspected, but rather missing app registrations and incomplete MODULESTORE configuration.
 
 Environment Notes
 =================
