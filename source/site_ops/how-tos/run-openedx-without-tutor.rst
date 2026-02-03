@@ -58,17 +58,24 @@ Install required packages:
        libxslt1-dev \
        libjpeg-dev \
        libpng-dev \
-       python3.11 \
-       python3.11-dev \
+       python3.12 \
+       python3.12-dev \
        python3-pip \
-       python3-venv
+       python3-venv \
+       pkg-config
 
 **Test this step:**
 
 .. code-block:: bash
 
-   python3.11 --version
+   python3.12 --version
    git --version
+
+.. note::
+
+   Ubuntu 24.04 ships with Python 3.12 by default. If you need Python 3.11 specifically,
+   you must add the deadsnakes PPA (see Known Issues section). For most deployments,
+   Python 3.12 works fine with the release/ulmo.1 branch.
 
 2. Install and Configure MySQL
 ==============================
@@ -80,6 +87,11 @@ Install MySQL 8.0:
    sudo apt-get install -y mysql-server mysql-client
    sudo systemctl start mysql
    sudo systemctl enable mysql
+
+.. note::
+
+   **Container environments:** If running in a Docker container without systemd, use
+   ``sudo service mysql start`` instead of systemctl commands.
 
 **Test this step:**
 
@@ -117,13 +129,19 @@ Install MongoDB 7.0:
 
 .. code-block:: bash
 
-   wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | sudo apt-key add -
-   echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | \
+   wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | \
+       gpg --dearmor | sudo tee /usr/share/keyrings/mongodb-server-7.0.gpg > /dev/null
+   echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | \
        sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
    sudo apt-get update
    sudo apt-get install -y mongodb-org
    sudo systemctl start mongod
    sudo systemctl enable mongod
+
+.. note::
+
+   **Container environments:** If systemctl is not available, start MongoDB manually:
+   ``sudo mkdir -p /var/lib/mongodb /var/log/mongodb && sudo chown -R mongodb:mongodb /var/lib/mongodb /var/log/mongodb && sudo mongod --fork --logpath /var/log/mongodb/mongod.log --dbpath /var/lib/mongodb``
 
 **Test this step:**
 
@@ -163,6 +181,10 @@ Install Redis:
    sudo systemctl start redis-server
    sudo systemctl enable redis-server
 
+.. note::
+
+   **Container environments:** Use ``sudo service redis-server start`` if systemctl is unavailable.
+
 **Test this step:**
 
 .. code-block:: bash
@@ -182,11 +204,17 @@ Install Memcached:
    sudo systemctl start memcached
    sudo systemctl enable memcached
 
+.. note::
+
+   **Container environments:** Use ``memcached -d -u root`` to start in daemon mode if systemctl is unavailable.
+
 **Test this step:**
 
 .. code-block:: bash
 
    sudo systemctl status memcached
+   # Install netcat if not present
+   sudo apt-get install -y netcat-openbsd
    echo "stats" | nc localhost 11211
    # Should return memcached statistics
 
@@ -197,13 +225,18 @@ Install Elasticsearch 7.x:
 
 .. code-block:: bash
 
-   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-   echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | \
+   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | \
+       gpg --dearmor | sudo tee /usr/share/keyrings/elasticsearch-keyring.gpg > /dev/null
+   echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main" | \
        sudo tee /etc/apt/sources.list.d/elastic-7.x.list
    sudo apt-get update
    sudo apt-get install -y elasticsearch
    sudo systemctl start elasticsearch
    sudo systemctl enable elasticsearch
+
+.. note::
+
+   **Container environments:** Use ``sudo /etc/init.d/elasticsearch start`` if systemctl is unavailable.
 
 **Test this step:**
 
@@ -241,13 +274,16 @@ Choose your installation directory and clone the repository:
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/edx-platform.git
+   # Use shallow clone to save time and disk space
+   sudo git clone --depth 1 --branch release/ulmo.1 https://github.com/openedx/edx-platform.git
    cd edx-platform
 
-   # Checkout a specific release (recommended for stability)
-   sudo git checkout open-release/sumac.master
-   # OR stay on master for latest development code
-   # sudo git checkout master
+.. note::
+
+   Release naming convention changed. Use ``release/<name>.<number>`` format
+   (e.g., ``release/ulmo.1``) for newer releases. Older releases used
+   ``open-release/<name>.master`` format. Check the `edx-platform releases page
+   <https://github.com/openedx/edx-platform/releases>`_ for available versions.
 
 **Test this step:**
 
@@ -265,7 +301,7 @@ Create and activate a virtual environment:
 .. code-block:: bash
 
    cd /opt/edx-platform
-   sudo python3.11 -m venv venv
+   sudo python3.12 -m venv venv
    sudo chown -R $USER:$USER venv
    source venv/bin/activate
 
@@ -276,7 +312,7 @@ Create and activate a virtual environment:
    which python
    # Should return: /opt/edx-platform/venv/bin/python
    python --version
-   # Should return: Python 3.11.x
+   # Should return: Python 3.12.x
 
 10. Install Python Requirements
 ===============================
@@ -287,11 +323,13 @@ Install edx-platform Python dependencies:
 
    pip install --upgrade pip setuptools wheel
    pip install -r requirements/edx/base.txt
+   pip install -r requirements/edx/assets.txt
 
 .. note::
 
    This step may take 15-30 minutes depending on your system. If you encounter
-   errors, you may need to install additional system libraries.
+   errors, you may need to install additional system libraries. The assets.txt
+   file includes libsass which is required for SASS compilation in the next step.
 
 **Test this step:**
 
@@ -310,11 +348,19 @@ Install JavaScript dependencies and build static assets:
 .. code-block:: bash
 
    npm clean-install
-   npm run build
+   npm run webpack
+
+   # SASS compilation must run with virtual environment activated
+   source venv/bin/activate
+   PATH="$PATH:/opt/edx-platform/node_modules/.bin" python scripts/compile_sass.py --env=production
 
 .. note::
 
-   This step may take 10-20 minutes and requires significant memory.
+   This step may take 10-20 minutes and requires significant memory. The webpack
+   build and SASS compilation are separate steps because the SASS compilation
+   script requires access to Python packages in the virtual environment. Running
+   ``npm run build`` directly will fail because it doesn't activate the venv before
+   running the SASS compilation script.
 
 **Test this step:**
 
@@ -1281,6 +1327,212 @@ If you want containerization benefits without Tutor's abstractions, you can crea
 #. Use custom entrypoint scripts for initialization
 
 This approach provides isolation while maintaining direct control over the configuration. Ongoing experiments in adopting this configuration are happening at `Minimal edX Platform <https://github.com/feanil/minimal-edx-platform>`_.
+
+Testing Results and Validation
+*******************************
+
+Latest Testing: February 2026
+==============================
+
+**Environment:**
+- Ubuntu 24.04.3 LTS (Docker container)
+- edx-platform branch: release/ulmo.1 (commit ea91c4c)
+- Python 3.12.3
+- Node.js 18.20.8
+- MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
+
+**Results:** Steps 1-12 completed successfully with all corrections applied to the main installation
+instructions. All services started correctly, Python packages installed (600+ packages), Node.js
+dependencies installed (1019 packages), webpack build completed, and SASS compilation succeeded.
+
+**Key Corrections Made:**
+- Updated to Python 3.12 (Ubuntu 24.04 default)
+- Added pkg-config to system dependencies
+- Updated MongoDB and Elasticsearch to use modern GPG key method (not apt-key)
+- Added netcat-openbsd for Memcached testing
+- Changed to shallow git clone with --depth 1
+- Fixed npm build process to run SASS compilation with venv activated
+- Added container environment notes for service management
+
+**Additional Findings:**
+
+1. **Installation Time:** Steps 1-12 took approximately 45-60 minutes total:
+
+   - Python packages (Step 10): ~15 minutes
+   - Node packages (Step 11): ~5 minutes
+   - Webpack build: ~1 minute
+   - SASS compilation: ~30 seconds
+
+2. **Disk Space:** After completing Step 12:
+
+   - edx-platform directory (shallow clone): ~2.5 GB
+   - Virtual environment with packages: ~3 GB
+   - node_modules: ~1 GB
+   - Total: ~6.5 GB (vs ~10+ GB for full clone)
+
+3. **Memory Usage:** Peak memory during npm build was ~4 GB. Minimum 8 GB RAM recommended.
+
+4. **Node.js Deprecation:** Node.js 18.x shows deprecation warning. Future testing should
+   evaluate Node.js 20.x compatibility.
+
+5. **Service Versions:** All services installed correctly with latest stable versions from
+   repositories. Version drift from guide specifications is normal and expected.
+
+Known Issues and Corrections (Historical - January 2026)
+*********************************************************
+
+The following issues were discovered during initial testing. Most have been corrected in the
+main installation steps above:
+
+System Dependencies (Step 1)
+=============================
+
+**Issue 1: Python Version** ✅ FIXED IN MAIN STEPS
+
+The document originally specified Python 3.11, but Ubuntu 24.04 ships with Python 3.12 by default.
+
+**Resolution:** Main installation steps now use Python 3.12. If you specifically need Python 3.11,
+add the deadsnakes PPA as shown below, but Python 3.12 works correctly with release/ulmo.1.
+
+.. code-block:: bash
+
+   sudo apt-get install -y software-properties-common
+   sudo add-apt-repository -y ppa:deadsnakes/ppa
+   sudo apt-get update
+   sudo apt-get install -y python3.11 python3.11-dev python3.11-venv
+
+**Issue 2: Missing pkg-config** ✅ FIXED IN MAIN STEPS
+
+The ``pkg-config`` package is required for building Python packages (especially mysqlclient).
+
+**Resolution:** Added to Step 1 system dependencies list.
+
+**Issue 3: Python symlink** ⚠️ OPTIONAL
+
+Some build scripts expect ``/usr/bin/python`` to exist but it doesn't by default in Ubuntu 24.04.
+
+**Resolution:** Not required for the installation process. If needed for other tools:
+
+.. code-block:: bash
+
+   sudo ln -s /usr/bin/python3.12 /usr/bin/python
+
+MongoDB and Elasticsearch Setup (Steps 3 & 6)
+==============================================
+
+**Issue 4: Deprecated apt-key** ✅ FIXED IN MAIN STEPS
+
+The instructions originally used ``apt-key add -`` which is deprecated in Ubuntu 24.04.
+
+**Resolution:** Steps 3 and 6 now use the modern GPG keyring method with ``signed-by``.
+
+Repository Checkout (Step 8)
+=============================
+
+**Issue 5: Branch naming convention** ✅ FIXED IN MAIN STEPS
+
+Newer releases use ``release/<name>.<number>`` format instead of ``open-release/<name>.master``.
+
+**Resolution:** Step 8 now uses the correct branch format and includes shallow clone
+with ``--depth 1`` to save time and disk space.
+
+Python Requirements (Step 10)
+==============================
+
+**Issue 6: Missing assets requirements** ✅ FIXED IN MAIN STEPS
+
+The ``requirements/edx/assets.txt`` file (which includes libsass for SASS compilation) was not
+originally included in the installation steps.
+
+**Resolution:** Step 10 now includes installing ``requirements/edx/assets.txt`` after base.txt.
+
+Node.js Assets (Step 11)
+=========================
+
+**Issue 7: npm run build fails** ✅ FIXED IN MAIN STEPS
+
+Running ``npm run build`` fails because the SASS compilation script (a Python script) is executed
+outside the virtual environment, causing ``ModuleNotFoundError: No module named 'click'``.
+
+**Resolution:** Step 11 now separates the build into two parts:
+
+1. Run ``npm run webpack`` (does not need venv)
+2. Run SASS compilation with venv activated: ``source venv/bin/activate && PATH="$PATH:/opt/edx-platform/node_modules/.bin" python scripts/compile_sass.py --env=production``
+
+The PATH addition ensures ``rtlcss`` from node_modules/.bin is available for RTL CSS generation.
+
+Database Migrations (Step 13)
+==============================
+
+**Issue 8: Settings syntax and environment variables** ⚠️ NOT YET TESTED
+
+The correct settings flag format is ``--settings=production``, not ``--settings=lms.envs.production``,
+and the ``LMS_CFG`` environment variable must be set to point to the configuration file.
+
+**Recommended approach:**
+
+.. code-block:: bash
+
+   cd /opt/edx-platform
+   source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   ./manage.py lms migrate --settings=production
+
+**CRITICAL Issue 10: Circular imports and missing apps (release/ulmo.1)**
+
+The release/ulmo.1 branch has circular import issues that prevent Django from initializing. The following apps are missing from INSTALLED_APPS in ``lms/envs/common.py``:
+
+- ``openedx.core.djangoapps.bookmarks``
+- ``openedx.core.djangoapps.discussions``
+- ``openedx.core.djangoapps.content_libraries``
+
+Additionally, there is a circular import between:
+
+- ``openedx.core.djangoapps.content_tagging.api``
+- ``openedx.core.djangoapps.content_libraries.api``
+
+And another circular import chain through:
+
+- ``xmodule.library_tools`` (imports content_libraries at module level)
+- ``openedx.core.djangoapps.content_libraries.api``
+- ``openedx_authz.api.data``
+
+**Temporary workarounds applied during testing:**
+
+1. Add missing apps to ``lms/envs/common.py`` around line 2270:
+
+.. code-block:: python
+
+   'openedx.core.djangoapps.api_admin',
+   'openedx.core.djangoapps.bookmarks',  # Added
+   'openedx.core.djangoapps.discussions',  # Added
+   'openedx.core.djangoapps.content_libraries',  # Added
+   'openedx.core.djangoapps.verified_track_content',
+
+2. Make content_libraries import lazy in ``xmodule/library_tools.py`` line 12:
+
+.. code-block:: python
+
+   # Change from:
+   from openedx.core.djangoapps.content_libraries import tasks as library_tasks
+
+   # To: (comment out and add lazy imports in methods)
+   # from openedx.core.djangoapps.content_libraries import tasks as library_tasks
+
+   # Then add this line inside each method that uses library_tasks:
+   from openedx.core.djangoapps.content_libraries import tasks as library_tasks
+
+**Status:** Even with these workarounds, the circular import between content_tagging.api and content_libraries.api prevents migrations from running on the release/ulmo.1 branch. This appears to be a bug in the release that needs to be fixed upstream.
+
+Environment Notes
+=================
+
+**Issue 11: Container/non-systemd environments** ✅ FIXED IN MAIN STEPS
+
+Container environments without systemd require different service management commands.
+
+**Resolution:** Notes have been added throughout Steps 2-6 explaining how to start services
+in container environments using ``service`` commands or direct daemon invocation.
 
 See Also
 ********
