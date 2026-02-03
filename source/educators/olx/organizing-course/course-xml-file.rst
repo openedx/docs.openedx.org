@@ -244,6 +244,14 @@ For example, the course can contain a subsection in this format, from
    * - ``show_correctness``
      - Defines when to show whether a learner's answer to the problem is correct;
        ``"always"``, ``"never"``, or ``"past_due"``
+   * - ``xqa_key``
+     - TBD
+   * - ``required_content``
+     - If the sequential has a prerequisite, ``ID`` of the required sequential
+   * - ``min_score``
+     - If the sequential has a prerequisite, minimum score of the required sequential
+   * - ``min_completion``
+     - If the sequential has a prerequisite, minimum completion of the required sequential
    * - ``showanswer``
      - Defines when to show the answer to the problem. ``"always"``, ``"answered"``, ``"attempted"``, ``"closed"``,
        ``"finished"``, ``"correct_or_past_due"``, ``"past_due"``, ``"never"``, ``"after_attempts"``, ``"after_all_attempts"``,
