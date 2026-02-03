@@ -659,6 +659,17 @@ Collect Django static files:
 Open edX uses React-based Micro-Frontends (MFEs) for key user-facing features.
 Set these up before starting the servers.
 
+.. important::
+
+   **MFE Branch Selection:**
+
+   MFE branches should match your edx-platform branch:
+
+   * If using **edx-platform master branch**: Use MFE **master** or **main** branches
+   * If using **edx-platform named releases** (e.g., release/ulmo.1): Use corresponding MFE release branches (e.g., open-release/sumac.master)
+
+   This guide uses the **master branch** for both edx-platform and MFEs.
+
 Essential MFEs
 --------------
 
@@ -679,9 +690,9 @@ Clone and Configure frontend-app-authn
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-authn.git
    cd frontend-app-authn
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-authn
-   npm clean-install
+   npm install
 
 Create ``.env.development`` file:
 
@@ -694,13 +705,14 @@ Create ``.env.development`` file:
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    LOGO_URL=http://localhost:8000/static/images/logo.png
    FAVICON_URL=http://localhost:8000/static/images/favicon.ico
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1999
    EOF
 
 **Test this step:**
@@ -719,9 +731,9 @@ Clone and Configure frontend-app-learning
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-learning.git
    cd frontend-app-learning
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-learning
-   npm clean-install
+   npm install
 
 Create ``.env.development`` file:
 
@@ -734,13 +746,14 @@ Create ``.env.development`` file:
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    LOGO_URL=http://localhost:8000/static/images/logo.png
    FAVICON_URL=http://localhost:8000/static/images/favicon.ico
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=2000
    EOF
 
 **Test this step:**
@@ -759,9 +772,9 @@ Clone and Configure frontend-app-account
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-account.git
    cd frontend-app-account
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-account
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -770,11 +783,12 @@ Clone and Configure frontend-app-account
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1997
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -787,9 +801,9 @@ Clone and Configure frontend-app-profile
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-profile.git
    cd frontend-app-profile
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-profile
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -798,11 +812,12 @@ Clone and Configure frontend-app-profile
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1995
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -815,9 +830,9 @@ Clone and Configure frontend-app-discussions
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-discussions.git
    cd frontend-app-discussions
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-discussions
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -826,11 +841,12 @@ Clone and Configure frontend-app-discussions
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=2002
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -843,9 +859,9 @@ Clone and Configure frontend-app-gradebook
    cd /opt
    sudo git clone https://github.com/openedx/frontend-app-gradebook.git
    cd frontend-app-gradebook
-   sudo git checkout open-release/sumac.master
+   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-gradebook
-   npm clean-install
+   npm install
 
    cat > .env.development << 'EOF'
    LMS_BASE_URL=http://localhost:8000
@@ -854,11 +870,12 @@ Clone and Configure frontend-app-gradebook
    LOGOUT_URL=http://localhost:1999/logout
    REFRESH_ACCESS_TOKEN_ENDPOINT=http://localhost:8000/login_refresh
    ACCESS_TOKEN_COOKIE_NAME=edx-jwt-cookie-header-payload
-   SITE_NAME=Your Open edX Site
+   SITE_NAME=Test Open edX Site
    STUDIO_BASE_URL=http://localhost:8001
    LANGUAGE_PREFERENCE_COOKIE_NAME=openedx-language-preference
    USER_INFO_COOKIE_NAME=edx-user-info
    CSRF_TOKEN_API_PATH=/csrf/api/v1/token
+   PORT=1994
    EOF
 
 **Test:** ``npm run build && ls dist/``
@@ -870,10 +887,26 @@ Clone and Configure frontend-app-gradebook
 17. Start LMS and CMS Servers
 =============================
 
-Now that all configuration is complete, start the backend servers.
+Before starting the servers, build the frontend webpack assets.
 
-In Development
---------------
+Build Webpack Assets
+--------------------
+
+.. code-block:: bash
+
+   cd /opt/edx-platform
+   npm run build
+
+This will compile webpack bundles and SASS files. The build generates ``webpack-stats.json`` files that need to be copied to the production staticfiles directory:
+
+.. code-block:: bash
+
+   # Copy webpack stats files to production location
+   cp /opt/edx-platform/test_root/staticfiles/webpack-stats.json /opt/staticfiles/
+   cp /opt/edx-platform/test_root/staticfiles/studio/webpack-stats.json /opt/staticfiles/studio/
+
+Start Development Servers
+--------------------------
 
 Open separate terminal windows for each service. In each terminal, activate the virtual environment first:
 
@@ -886,13 +919,19 @@ Terminal 1 - Start LMS:
 
 .. code-block:: bash
 
-   ./manage.py lms runserver 0.0.0.0:8000 --settings=lms.envs.production
+   export LMS_CFG=/edx/etc/lms.yml
+   ./manage.py lms runserver 0.0.0.0:8000 --settings=production
+
+.. note::
+
+   The manage.py script automatically prepends ``lms.envs.`` to the settings module, so use ``--settings=production`` not ``--settings=lms.envs.production``.
 
 Terminal 2 - Start CMS:
 
 .. code-block:: bash
 
-   ./manage.py cms runserver 0.0.0.0:8001 --settings=cms.envs.production
+   export CMS_CFG=/edx/etc/cms.yml
+   ./manage.py cms runserver 0.0.0.0:8001 --settings=production
 
 **Test this step:**
 
@@ -900,9 +939,10 @@ Terminal 2 - Start CMS:
 
    # In a new terminal
    curl -I http://localhost:8000
-   # Should return HTTP 200 or 302
+   # Should return HTTP 200 OK
+
    curl -I http://localhost:8001
-   # Should return HTTP 200 or 302
+   # Should return HTTP 302 Found
 
 For Production
 --------------
