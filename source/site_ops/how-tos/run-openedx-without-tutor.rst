@@ -10,6 +10,10 @@ directly on Ubuntu without using Tutor. This approach requires manual setup of
 all dependent services and is intended for system administrators who need
 fine-grained control over their deployment or development environment.
 
+The focus of this guide is on getting a development environment up and running,
+but it touches on some of the key steps involved in setting up a production
+environment as well.
+
 .. warning::
 
    Running Open edX without Tutor is significantly more complex than using the
@@ -30,14 +34,15 @@ Prerequisites
 
    **Python Version Requirements by Branch:**
 
-   * **Named releases (Teak, Ulmo)**: Require Python 3.11 due to boto2 compatibility issues
+   * **Teak and Ulmo named releases**: Require Python 3.11
    * **Master branch**: Compatible with Python 3.12
 
-   Named releases (``release/teak.1``, ``release/ulmo.1``) include dependencies on boto 2.49.0
-   which has known incompatibilities with Python 3.12. If you need to use these releases on
-   Ubuntu 24.04, you must install Python 3.11 from the deadsnakes PPA (see Step 1).
+   If you need to use Teak or Ulmo, you must install Python 3.11 from the deadsnakes PPA.
 
-   For the latest features and Python 3.12 compatibility, use the master branch.
+   For the latest features, and development use Python 3.12 and the master branches.
+
+   This guide assumes you are using the master branch with Python 3.12.
+
 
 Required Services Overview
 **************************
@@ -85,15 +90,6 @@ Install required packages:
    git --version
 
 .. note::
-
-   **Python Version Selection:**
-
-   Ubuntu 24.04 ships with Python 3.12 by default, which is compatible with the **master branch**.
-
-   If you are using **named releases** (release/teak.1, release/ulmo.1), you **must use Python 3.11**
-   due to boto2 dependencies. Install Python 3.11 via the deadsnakes PPA (see Known Issues section).
-
-   This guide assumes you are using the master branch with Python 3.12.
 
 2. Install and Configure MySQL
 ==============================
@@ -308,12 +304,6 @@ Choose your installation directory and clone the repository:
    For named releases with Python 3.11, use:
    ``sudo git clone --depth 1 --branch release/ulmo.1 https://github.com/openedx/edx-platform.git``
 
-.. note::
-
-   Release naming convention changed. Use ``release/<name>.<number>`` format
-   (e.g., ``release/ulmo.1``) for newer releases. Older releases used
-   ``open-release/<name>.master`` format. Check the `edx-platform releases page
-   <https://github.com/openedx/edx-platform/releases>`_ for available versions.
 
 **Test this step:**
 
@@ -467,7 +457,6 @@ Create LMS configuration file at ``/edx/etc/lms.yml``:
      - http://localhost:2000
      - http://localhost:2002
      - http://localhost:1994
-     - http://localhost:2001
 
    CORS_ALLOW_CREDENTIALS: true
    CORS_ALLOW_HEADERS:
@@ -481,7 +470,6 @@ Create LMS configuration file at ``/edx/etc/lms.yml``:
      - localhost:2000
      - localhost:2002
      - localhost:1994
-     - localhost:2001
 
    # Enable MFE features
    FEATURES:
@@ -1274,7 +1262,7 @@ In this development setup, all services run on a single server. For production:
 Web Server Configuration
 ========================
 
-* Install and configure Nginx or Apache as a reverse proxy
+* Install and configure Nginx or Caddy as a reverse proxy
 * Configure SSL/TLS certificates for all domains
 * Set up proper logging and log rotation
 * Configure static and media file serving
@@ -1303,13 +1291,11 @@ Security Hardening
 Performance Optimization
 ========================
 
-* Configure appropriate worker counts for Gunicorn
+* Configure appropriate worker counts for Gunicorn - note that multiple threads per process is known to have issues at the time of writing
 * Tune MySQL, MongoDB, and Elasticsearch for your workload
 * Set up CDN for static assets
 * Configure Redis persistence appropriately
 * Enable Django caching layers
-* Optimize database indexes
-* Enable query caching
 
 Monitoring and Logging
 ======================
@@ -1410,6 +1396,7 @@ Migration Failures
 
 If migrations fail:
 
+* Make sure that all required apps are added to the ``INSTALLED_APPS`` setting in Django settings
 * Check database connectivity and permissions
 * Review migration logs for specific errors
 * Ensure all required services are running
@@ -1585,12 +1572,11 @@ Master Branch Testing: February 2026
 - Node.js 18.20.8
 - MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
 
-**Results:** Steps 1-19 completed successfully with all services operational. All migrations ran without boto2 compatibility issues.
+**Results:** Steps 1-19 completed successfully with all services operational. All migrations ran without Python 3.11 compatibility issues.
 
 **Why Master Branch:**
 
-The release/ulmo.1 branch has a dependency on boto 2.49.0 which is incompatible with Python 3.12.
-The master branch uses only boto3, making it compatible with Python 3.12 on Ubuntu 24.04.
+The release/ulmo.1 branch has a dependency on boto 2.49.0 which is incompatible with Python 3.12. There are likely other compatibility issues with Python 3.12. The master branch uses only boto3, making it compatible with Python 3.12 on Ubuntu 24.04.
 
 **Required INSTALLED_APPS Changes:**
 
