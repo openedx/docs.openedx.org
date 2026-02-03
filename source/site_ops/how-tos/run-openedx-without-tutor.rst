@@ -673,6 +673,15 @@ Set these up before starting the servers.
 Essential MFEs
 --------------
 
+.. note::
+
+   **npm install vs npm clean-install:**
+
+   Use ``npm install`` rather than ``npm clean-install`` for MFE setup. The clean-install command
+   requires package-lock.json to be perfectly synchronized and may fail with "Missing from lock file"
+   errors. Regular ``npm install`` is more forgiving and will work even if the lock file is slightly
+   out of sync with package.json.
+
 The following MFEs are required for basic functionality:
 
 * **frontend-app-authn** (port 1999) - Login and registration pages
@@ -962,7 +971,25 @@ Use Gunicorn as the WSGI server:
 18. Start Celery Workers
 ========================
 
-Open edX uses Celery for asynchronous task processing. Start workers in separate terminals:
+Open edX uses Celery for asynchronous task processing.
+
+Configure Celery Broker Settings
+---------------------------------
+
+The production settings construct the broker URL from component settings. Ensure these are in your configuration files (``/edx/etc/lms.yml`` and ``/edx/etc/cms.yml``):
+
+.. code-block:: yaml
+
+   CELERY_BROKER_TRANSPORT: redis
+   CELERY_BROKER_HOSTNAME: localhost:6379
+   CELERY_BROKER_VHOST: 0
+   CELERY_BROKER_USER: ''
+   CELERY_BROKER_PASSWORD: ''
+
+Start Celery Workers
+--------------------
+
+Open separate terminal windows for each worker:
 
 Terminal 3 - LMS Celery worker:
 
@@ -970,6 +997,8 @@ Terminal 3 - LMS Celery worker:
 
    cd /opt/edx-platform
    source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   export DJANGO_SETTINGS_MODULE=lms.envs.production
    celery -A lms.celery worker --loglevel=info
 
 Terminal 4 - CMS Celery worker:
@@ -978,6 +1007,8 @@ Terminal 4 - CMS Celery worker:
 
    cd /opt/edx-platform
    source venv/bin/activate
+   export CMS_CFG=/edx/etc/cms.yml
+   export DJANGO_SETTINGS_MODULE=cms.envs.production
    celery -A cms.celery worker --loglevel=info
 
 **Test this step:**
@@ -1132,18 +1163,24 @@ Use tmux to manage multiple terminal sessions:
    # Create windows for each service (Ctrl-b c to create new window)
    # Window 0: LMS
    cd /opt/edx-platform && source venv/bin/activate
-   ./manage.py lms runserver 0.0.0.0:8000 --settings=lms.envs.production
+   export LMS_CFG=/edx/etc/lms.yml
+   ./manage.py lms runserver 0.0.0.0:8000 --settings=production
 
    # Window 1: CMS (Ctrl-b c)
    cd /opt/edx-platform && source venv/bin/activate
-   ./manage.py cms runserver 0.0.0.0:8001 --settings=cms.envs.production
+   export CMS_CFG=/edx/etc/cms.yml
+   ./manage.py cms runserver 0.0.0.0:8001 --settings=production
 
    # Window 2: LMS Celery worker
    cd /opt/edx-platform && source venv/bin/activate
+   export LMS_CFG=/edx/etc/lms.yml
+   export DJANGO_SETTINGS_MODULE=lms.envs.production
    celery -A lms.celery worker --loglevel=info
 
    # Window 3: CMS Celery worker
    cd /opt/edx-platform && source venv/bin/activate
+   export CMS_CFG=/edx/etc/cms.yml
+   export DJANGO_SETTINGS_MODULE=cms.envs.production
    celery -A cms.celery worker --loglevel=info
 
    # Windows 4-9: Individual MFEs
@@ -1167,8 +1204,9 @@ Example for LMS (``/etc/supervisor/conf.d/edxapp-lms.conf``):
 .. code-block:: ini
 
    [program:edxapp-lms]
-   command=/opt/edx-platform/venv/bin/python /opt/edx-platform/manage.py lms runserver 0.0.0.0:8000 --settings=lms.envs.production
+   command=/opt/edx-platform/venv/bin/python /opt/edx-platform/manage.py lms runserver 0.0.0.0:8000 --settings=production
    directory=/opt/edx-platform
+   environment=LMS_CFG="/edx/etc/lms.yml"
    user=www-data
    autostart=true
    autorestart=true
@@ -1422,12 +1460,58 @@ If ``npm run build`` fails:
 Celery Worker Issues
 ====================
 
-If Celery workers are not processing tasks:
+If Celery workers fail with "No such transport: ''" error:
+
+This indicates the BROKER_URL is not being constructed properly. The production.py settings build
+BROKER_URL from component settings, not from CELERY_BROKER_URL directly.
+
+**Solution:** Ensure your configuration files (lms.yml, cms.yml) include these component settings:
+
+.. code-block:: yaml
+
+   CELERY_BROKER_TRANSPORT: redis
+   CELERY_BROKER_HOSTNAME: localhost:6379
+   CELERY_BROKER_VHOST: 0
+   CELERY_BROKER_USER: ''
+   CELERY_BROKER_PASSWORD: ''
+
+Other Celery troubleshooting steps:
 
 * Verify Redis is running and accessible
 * Check Celery logs for errors
-* Ensure the correct broker URL is configured
-* Verify worker processes are actually running
+* Ensure DJANGO_SETTINGS_MODULE and LMS_CFG/CMS_CFG environment variables are set
+* Verify worker processes are actually running: ``ps aux | grep celery``
+
+LMS/CMS Server Startup Issues
+==============================
+
+**Error: "Cannot resolve bundle commons" or webpack-stats.json errors:**
+
+The production settings require webpack assets to be built before starting servers.
+
+**Solution:**
+
+1. Build webpack assets: ``cd /opt/edx-platform && npm run build``
+2. Copy webpack-stats.json files to production location:
+
+   .. code-block:: bash
+
+      cp /opt/edx-platform/test_root/staticfiles/webpack-stats.json /opt/staticfiles/
+      cp /opt/edx-platform/test_root/staticfiles/studio/webpack-stats.json /opt/staticfiles/studio/
+
+**Error: "No module named 'lms.envs.lms'" when using --settings:**
+
+The manage.py script automatically prepends the environment prefix to the settings argument.
+
+**Solution:** Use ``--settings=production`` not ``--settings=lms.envs.production``
+
+.. code-block:: bash
+
+   # Correct:
+   ./manage.py lms runserver --settings=production
+
+   # Incorrect:
+   ./manage.py lms runserver --settings=lms.envs.production
 
 Alternative: Using Docker Compose Without Tutor
 ************************************************
@@ -1501,7 +1585,7 @@ Master Branch Testing: February 2026
 - Node.js 18.20.8
 - MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
 
-**Results:** Steps 1-15 completed successfully. All migrations ran without boto2 compatibility issues.
+**Results:** Steps 1-19 completed successfully with all services operational. All migrations ran without boto2 compatibility issues.
 
 **Why Master Branch:**
 
@@ -1576,6 +1660,58 @@ Add these apps near the end of the INSTALLED_APPS list (around line 900, before 
 
 - LMS: 6,604 files copied, 6,686 post-processed
 - CMS: 3,087 files copied, 3,115 post-processed
+
+**Webpack Assets (Step 17):**
+
+The production settings require webpack bundles to be built before starting servers:
+
+1. Run ``npm run build`` in the edx-platform directory to compile webpack bundles and SASS files
+2. Copy webpack-stats.json files from build output to production location:
+
+   .. code-block:: bash
+
+      cp /opt/edx-platform/test_root/staticfiles/webpack-stats.json /opt/staticfiles/
+      cp /opt/edx-platform/test_root/staticfiles/studio/webpack-stats.json /opt/staticfiles/studio/
+
+3. Important: The manage.py script automatically prepends ``lms.envs.`` or ``cms.envs.`` to settings arguments,
+   so use ``--settings=production`` not ``--settings=lms.envs.production``
+
+**Celery Configuration (Step 18):**
+
+The production.py settings construct BROKER_URL from component settings rather than using CELERY_BROKER_URL directly.
+Required settings in both lms.yml and cms.yml:
+
+.. code-block:: yaml
+
+   CELERY_BROKER_TRANSPORT: redis
+   CELERY_BROKER_HOSTNAME: localhost:6379
+   CELERY_BROKER_VHOST: 0
+   CELERY_BROKER_USER: ''
+   CELERY_BROKER_PASSWORD: ''
+
+Both Celery workers started successfully and connected to Redis.
+
+**MFE Setup (Step 19):**
+
+All 6 essential MFEs were set up using their master/main branches (not release branches) to match edx-platform master:
+
+- frontend-app-authn (port 1999): Started successfully
+- frontend-app-learning (port 2000): Started successfully
+- frontend-app-account (port 1997): Started successfully
+- frontend-app-profile (port 1995): Started successfully
+- frontend-app-discussions (port 2002): Started successfully
+- frontend-app-gradebook (port 1994): Started successfully
+
+All MFE development servers responded with HTTP 200.
+
+**Complete System Status:**
+
+All services operational and tested:
+- ✓ MySQL, MongoDB, Redis, Memcached, Elasticsearch
+- ✓ LMS server (HTTP 200 on port 8000)
+- ✓ CMS server (HTTP 302 on port 8001)
+- ✓ LMS and CMS Celery workers connected to Redis
+- ✓ All 6 MFE development servers responding
 
 Known Issues and Corrections (Historical - January 2026)
 *********************************************************
