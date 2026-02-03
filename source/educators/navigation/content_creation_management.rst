@@ -66,7 +66,7 @@ Manage Text Components
 
 .. toctree::
    :maxdepth: 1
-   :glob:   
+   :glob:
 
    ../references/course_development/text_components/text_components.rst
    ../how-tos/course_development/text_components/manage_text.rst
@@ -74,7 +74,7 @@ Manage Text Components
    ../how-tos/course_development/text_components/manage_latex.rst
    ../how-tos/course_development/exercise_tools/add_mathjax.rst
    ../how-tos/course_development/exercise_tools/manage_full_screen_image.rst
-   
+
 .. _Add Video Components:
 
 Manage Video Components
@@ -130,7 +130,7 @@ Add Mathjax
    :glob:
 
    ../references/course_development/exercise_tools/mathjax_studio.rst
-   
+
 
 Add Tags
 *******************************************************
@@ -164,6 +164,17 @@ Google Drive Tool
    ../concepts/exercise_tools/about_google_drive.rst
    ../how-tos/course_development/exercise_tools/enable_google_drive_tool.rst
    ../how-tos/course_development/exercise_tools/add_google_drive.rst
+
+Embed PDFs
+*******************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../concepts/advanced_features/pdf_embed.rst
+   ../how-tos/course_development/exercise_tools/enable_pdf_embed_tool.rst
+   ../how-tos/course_development/exercise_tools/add_embedded_pdf.rst
 
 Embed IFrames
 *******************************************************
@@ -213,7 +224,7 @@ initiative.
 .. toctree::
    :maxdepth: 1
    :glob:
-   
+
    ../how-tos/course_development/migrate_legacy_libraries.rst
    ../concepts/instructional_design/libraries.rst
    ../how-tos/course_development/create_library.rst
