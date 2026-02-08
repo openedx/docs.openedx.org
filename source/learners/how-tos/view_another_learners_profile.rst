@@ -4,6 +4,8 @@ View Another Learner's Profile
 ##############################
 
 .. tags:: learner, how-to
+   
+.. START VIEW ANOTHER LEARNER'S PROFILE
 
 You can view other learners' profiles through their posts, responses, or
 comments in course discussions.
@@ -18,6 +20,8 @@ comments in course discussions.
 
 The learner's account profile page opens.
 
+.. END VIEW ANOTHER LEARNER'S PROFILE
+
 .. seealso::
  
 
@@ -27,9 +31,11 @@ The learner's account profile page opens.
  
  :ref:`About the User Profile Page` (concept)
  
- :ref:`Add or Update a Limited Profile` (how-to)
+ :ref:`Update Your Profile Image` (how-to)
  
- :ref:`Add or Update a Full Profile` (how-to)
+ :ref:`Update your Profile Details` (how-to)
+
+ :ref:`Toggle Profile Information Visibility` (how-to)
 
  :ref:`Update Course-Specific Settings` (how-to)
  
@@ -37,8 +43,8 @@ The learner's account profile page opens.
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                                                    |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| 2026-02-08   | John Swope(curricu.me)        | Ulmo           | Fail (https://github.com/openedx/openedx-platform/issues/37986)  |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+

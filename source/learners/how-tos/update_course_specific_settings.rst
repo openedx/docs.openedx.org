@@ -5,33 +5,34 @@ Update Course-Specific Settings
 
 .. tags:: learner, how-to
 
-From the dashboard, access the courses that you are enrolled in and change
-course-specific settings. You can also unenroll from a course from the dashboard.
+.. START UPDATE COURSE-SPECIFIC SETTINGS
 
-********************************
+From the dashboard, you can modify the course-specific settings that are available to you by clicking the three dot icon and selecting the option you want to change.
+
+  .. image:: /_images/learners/course_settings.png
+    :width: 500
+    :alt: The course dashboard showing a single course with the three dot icon on the right of the course card highlighted. 
+
+=================================
 Change a Course Email Preference
-********************************
+=================================
 
 To subscribe or unsubscribe to emails from a course, follow these steps.
 
-#. On your dashboard, locate the course.
+#. On your dashboard, click the three dot icon and select the **Email Settings** option.
 
-#. Select the course settings icon. The course settings icon resembles a gear
-   and appears next to **View Course** or **View Archived Course**.
-
-   .. image:: /_images/educator_how_tos/LearnDash_GearIcon.png
+   .. image:: /_images/learners/course_emails_modal.png
      :width: 200
-     :alt: The course settings icon next to the View Course button on the
-           learner dashboard.
+     :alt: The modal that appears when you click the three dot icon and select the **Email Settings** option. The slider is highlighted.
 
-#. Select **Email Settings**.
-
-#. Select or clear the **Receive course emails** check box, and then select
+#. Toggle the **Course emails are on** slider, and then select
    **Save Settings**.
 
-   .. note:: If you clear this check box, you will not receive any of the
+   .. note:: If you turn off the slider, you will not receive any of the
         email messages that course teams send to communicate with enrolled
         learners in the course.
+
+.. END UPDATE COURSE-SPECIFIC SETTINGS
 
 .. seealso::
  
@@ -42,9 +43,11 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
  
  :ref:`About the User Profile Page` (concept)
  
- :ref:`Add or Update a Limited Profile` (how-to)
+ :ref:`Update Your Profile Image` (how-to)
  
- :ref:`Add or Update a Full Profile` (how-to)
+ :ref:`Update your Profile Details` (how-to)
+
+ :ref:`Toggle Profile Information Visibility` (how-to)
  
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
 
@@ -55,5 +58,5 @@ To subscribe or unsubscribe to emails from a course, follow these steps.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-02-08   | John Swope(curricu.me)        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

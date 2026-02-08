@@ -1262,7 +1262,7 @@ Columns in the ``student_languageproficiency`` Table
 The ``student_languageproficiency`` table stores information about learners'
 self-reported language preferences. Learners have the option to indicate a
 preferred language on their dashboards. Learners can select only one
-value. For more information, see :ref:`SFD Profile Page`.
+value. For more information, see :ref:`Update your Profile Details`.
 
 **History**: Added 22 Apr 2015.
 
