@@ -44,9 +44,9 @@ You can share either a limited profile or a full profile.
 .. seealso::
  
 
- :ref:`Add or Update a Limited Profile` (how-to)
+ :ref:`Update Your Profile Image` (how-to)
 
- :ref:`Add or Update a Full Profile` (how-to)
+ :ref:`Update your Profile Details` (how-to)
  
  :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
  
