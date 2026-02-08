@@ -5,10 +5,12 @@ Share Your Courses on Social Media
 
 .. tags:: learner, how-to
 
+.. START SHARE YOUR COURSES ON SOCIAL MEDIA
+
 On your dashboard, you can share the courses you are enrolled in on social
 media sites such as Facebook and Twitter.
 
-This feature is available only if it has been enabled on your Open edX instance.
+This feature is available only if it has been :ref:`enabled <Enabling Social Sharing of Courses and Certificates>` by your course provider.
 
 #. Sign in to the social media site on which you want to share your course
    enrollment.
@@ -20,11 +22,16 @@ This feature is available only if it has been enabled on your Open edX instance.
    social media site of your choice (e.g. Twitter, Facebook). This will open a
    pop up which will allow you to share info about the course to social media.
 
+   .. image:: /_images/learners/social_share_menu.png
+      :width: 600
+      :alt: The menu that appears on the dashboard when you select the triple dot icon and select the "Share to (social media site)" item. In this examples, the options are to share to Twitter o Facebook. 
+
 #. Optionally, modify the text of the social media message.
 
 #. Select the appropriate button to publish your message on the social media
    site.
 
+.. END SHARE YOUR COURSES ON SOCIAL MEDIA
 
 .. seealso::
  
@@ -35,9 +42,11 @@ This feature is available only if it has been enabled on your Open edX instance.
  
  :ref:`About the User Profile Page` (concept)
  
- :ref:`Add or Update a Limited Profile` (how-to)
+ :ref:`Update Your Profile Image` (how-to)
  
- :ref:`Add or Update a Full Profile` (how-to)
+ :ref:`Update your Profile Details` (how-to)
+
+ :ref:`Toggle Profile Information Visibility` (how-to)
 
  :ref:`Update Course-Specific Settings` (how-to)
  
@@ -48,5 +57,5 @@ This feature is available only if it has been enabled on your Open edX instance.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-02-08   | John Swope(curricu.me)        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
