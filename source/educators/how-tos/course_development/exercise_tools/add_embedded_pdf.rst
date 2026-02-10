@@ -1,11 +1,44 @@
 .. _Add Embedded PDF:
 
-Add an Embedded PDF in Open edX Studio
-#######################################
+##############################
+Embedding PDFs in Your Course
+##############################
 
 .. tags:: educator, how-to
 
-#. Ensure the PDF embed tool is :ref:`enabled in your course<Enable PDF Embed Tool>`.
+The PDF embed tool allows you to add PDF documents to your course. It uses an
+the browser's built-in PDF viewing capability, and provides options for
+downloading the document or its original source.
+
+.. image:: /_images/educator_references/pdf_embed.png
+  :alt: An embedded PDF showing trigonometry functions.
+  :width: 500
+
+PDFs have significant accessibility challenges. They are finalized documents intended
+for printing exactly specified copies. This makes them difficult for screen readers
+and other assistance technology to interpret. You are strongly encouraged to
+use alternative means of presenting the information in these documents, such as
+a :ref:`text component<Working with Text Components>`. Please visit the
+:ref:`Accessibility Best Practices Checklist` for more information, which also
+includes a guide on improving PDF accessibility if they must be used.
+
+Additionally, viewing PDFs on mobile devices results in a poor learner
+experience.
+
+Nevertheless, the PDF embed block exists to handle the case of a document
+being unavailable in other formats, or for when variations in representing the
+document are unacceptable.
+
+***************************************
+Add an Embedded PDF in Open edX Studio
+***************************************
+
+#. Ensure the PDF embed tool is enabled in your course.
+
+   To enable the pdf embed tool in Studio, add the ``"pdf"`` key to the
+   **Advanced Module List** on the **Advanced Settings** page. (Be sure to include
+   the quotation marks around the key value.) For more information, see
+   :ref:`Enable Additional Exercises and Tools`.
 
 #. On the Course Outline page, open the unit where you want to add the PDF.
 
@@ -39,7 +72,7 @@ Add an Embedded PDF in Open edX Studio
 #. In the **Source document URL** field, optionally add the URL to the source
    of the PDF document.
 
-   This might be, for instance, the power point or word document this PDF is
+   This might be, for instance, the PowerPoint or Word document this PDF is
    based on. Providing a source URL is heavily encouraged, as source files
    tend to have better accessibility than PDFs. Please visit the
    :ref:`Accessibility Best Practices Checklist` for more information.
@@ -50,18 +83,10 @@ Add an Embedded PDF in Open edX Studio
 #. Select **Save**.
 
 
-.. seealso::
-
-
- :ref:`PDF Embed` (concept)
-
- :ref:`Enable PDF Embed Tool` (how-to)
-
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 09/02/2026   | Fox Piacenti                  |  master        | Pass                           |
+| 09/02/2026   | Fox Piacenti                  | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

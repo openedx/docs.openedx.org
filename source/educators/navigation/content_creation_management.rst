@@ -172,8 +172,6 @@ Embed PDFs
    :maxdepth: 1
    :glob:
 
-   ../concepts/advanced_features/pdf_embed.rst
-   ../how-tos/course_development/exercise_tools/enable_pdf_embed_tool.rst
    ../how-tos/course_development/exercise_tools/add_embedded_pdf.rst
 
 Embed IFrames
