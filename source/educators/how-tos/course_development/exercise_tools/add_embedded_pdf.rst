@@ -1,7 +1,7 @@
 .. _Add Embedded PDF:
 
 ##############################
-Embedding PDFs in Your Course
+Embed PDFs in Your Course
 ##############################
 
 .. tags:: educator, how-to
@@ -30,7 +30,7 @@ being unavailable in other formats, or for when variations in representing the
 document are unacceptable.
 
 ***************************************
-Add an Embedded PDF in Open edX Studio
+How to Embed PDFs in Open edX Studio
 ***************************************
 
 #. Ensure the PDF embed tool is enabled in your course.
