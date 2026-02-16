@@ -89,7 +89,7 @@ Add Links to Your Personal Social Media Accounts
 Toggle Profile Information Visibility
 ******************************************************
 
-.. include:: ../learners/how-tos/toggle_profile_information_visibility.rst
+.. include:: ../learners/how-tos/toggle_profile_visibility.rst
   :start-after: .. START TOGGLE PROFILE INFORMATION VISIBILITY
   :end-before: .. END TOGGLE PROFILE INFORMATION VISIBILITY
 
