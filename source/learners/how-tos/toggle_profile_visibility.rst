@@ -27,6 +27,8 @@ To toggle the visibility of the profile information, follow these steps:
     :width: 500
     :alt: The profile privacy toggle section of the education field on the profile page, with the option for Just Me selected.
 
+.. END TOGGLE PROFILE INFORMATION VISIBILITY
+
 .. seealso::
 
 
