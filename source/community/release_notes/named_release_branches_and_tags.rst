@@ -11,11 +11,11 @@ Open edX releases are named alphabetically with botanical tree names.
 Latest Open edX Release
 ***********************
 
-The latest supported release line is Teak_, based on code from 2025-04-26.
+The latest supported release line is Ulmo_, based on code from 2025-10-30.
 
-The next release will be Ulmo__.
+The next release will be Verawood__.
 
-__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/5017010202/Next+Release+Ulmo+-+Operator+Dev+Notes
+__ https://openedx.atlassian.net/wiki/spaces/COMM/pages/5331222534/Verawood+-+Operator+Release+Notes
 
 Dates for recent and upcoming releases can be found in the `Release Schedule`_.
 
@@ -39,11 +39,29 @@ From Teak onwards we have changed the nomanclature from ``open-release/<named-re
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
-Teak
-=====
+Ulmo
+====
 
-* **Code cut date:** 2025-04-26
+* **Code cut date:** 2025-10-30
 * **Status:** supported
+* :doc:`Release Notes <./ulmo>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Ulmo.1
+     - 2026-01-15
+     - release/ulmo.1
+
+Teak
+====
+
+* **Code cut date:** 2025-06-06
+* **Status:** unsupported
 * :doc:`Release Notes <./teak>`
 
 .. list-table::
@@ -60,6 +78,10 @@ Teak
    * - Teak.2
      - 2025-08-21
      - release/teak.2
+
+   * - Teak.3
+     - 2025-09-18
+     - release/teak.3
 
 Sumac
 =====
