@@ -232,5 +232,5 @@ Benefits of Disabling the Survey
 +--------------+-------------------------------+--------------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release            | Test situation                 |
 +--------------+-------------------------------+--------------------+--------------------------------+
-| 2026-02-23   | Muhammad Arslan Abdul Rauf    | master (>Ulmo)     | Verified on local deployment   |
+| 2026-02-23   | Muhammad Arslan Abdul Rauf    | Verawood           | Verified on local deployment   |
 +--------------+-------------------------------+--------------------+--------------------------------+
