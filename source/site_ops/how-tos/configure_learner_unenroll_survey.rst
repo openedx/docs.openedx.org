@@ -3,14 +3,14 @@
 Configure Learner Unenroll Survey
 ###################################
 
-.. tags:: site operator, how-to, learner dashboard, MFE
+.. tags:: site operator, how-to
 
 Overview
 ********
 
 When learners unenroll from a course in the Learner Dashboard, they can optionally be shown a survey asking them for their reason for unenrolling. This survey helps course teams and site operators understand why learners are leaving courses and can inform improvements to course content and platform features.
 
-As of the latest release, the unenroll survey can be configured to be either shown or skipped entirely. This allows site operators to customize the unenrollment experience based on their institutional needs.
+As of the Verawood release, the unenroll survey can be configured to be either shown or skipped entirely. This allows site operators to customize the unenrollment experience based on their institutional needs.
 
 This document explains how to configure the ``SHOW_UNENROLL_SURVEY`` setting for the **frontend-app-learner-dashboard** micro-frontend (MFE).
 
@@ -19,27 +19,27 @@ Configuration Options
 
 The unenroll survey behavior is controlled by the ``SHOW_UNENROLL_SURVEY`` environment variable, which accepts a boolean value:
 
-* ``**true (default)**``: Shows the unenroll survey modal after the learner confirms they want to unenroll. The survey presents multiple-choice reasons and an optional custom text field.
-* **``false``**: Skips the survey entirely and unenrolls the learner immediately after they confirm the unenrollment action.
+* ``true (default)``: Shows the unenroll survey modal after the learner confirms they want to unenroll. The survey presents multiple-choice reasons and an optional custom text field.
+* ``false``: Skips the survey entirely and unenrolls the learner immediately after they confirm the unenrollment action.
 
 Unenrollment Flow
 =================
 
 **When** ``SHOW_UNENROLL_SURVEY`` **is true:**
 
-1. Learner clicks "Unenroll" from the course actions menu
-2. Confirmation modal appears asking "Are you sure you want to unenroll?"
-3. Learner clicks "Unenroll" button in the confirmation modal
-4. Survey modal appears asking "Why are you unenrolling?"
-5. Learner selects a reason (or skips the survey)
-6. Learner is unenrolled and sees a success message
+#. Learner clicks "Unenroll" from the course actions menu
+#. Confirmation modal appears asking "Are you sure you want to unenroll?"
+#. Learner clicks "Unenroll" button in the confirmation modal
+#. Survey modal appears asking "Why are you unenrolling?"
+#. Learner selects a reason (or skips the survey)
+#. Learner is unenrolled and sees a success message
 
 **When** ``SHOW_UNENROLL_SURVEY`` **is false:**
 
-1. Learner clicks "Unenroll" from the course actions menu
-2. Confirmation modal appears asking "Are you sure you want to unenroll?"
-3. Learner clicks "Unenroll" button in the confirmation modal
-4. Learner is unenrolled immediately and sees a success message
+#. Learner clicks "Unenroll" from the course actions menu
+#. Confirmation modal appears asking "Are you sure you want to unenroll?"
+#. Learner clicks "Unenroll" button in the confirmation modal
+#. Learner is unenrolled immediately and sees a success message
 
 Survey Reasons
 ==============
@@ -176,12 +176,12 @@ Related Information
 
 * **Product Proposal**: `Configurable Un-enrollment Survey`_
 * **GitHub Issue**: `#765 - Make course unenrollment survey configurable`_
-* **Pull Request**: `#738 - feat: showing course unenroll survey is configurable now`_
+* **Pull Request**: `#738 - Make unenroll survey configurable`_
 * **Frontend App Repository**: `frontend-app-learner-dashboard`_
 
 .. _Configurable Un-enrollment Survey: https://openedx.atlassian.net/wiki/spaces/OEPM/pages/5395841025/Proposal+Configurable+Un-enrollment+Survey
 .. _#765 - Make course unenrollment survey configurable: https://github.com/openedx/frontend-app-learner-dashboard/issues/765
-.. _#738 - feat: showing course unenroll survey is configurable now: https://github.com/openedx/frontend-app-learner-dashboard/pull/738
+.. _#738 - Make unenroll survey configurable: https://github.com/openedx/frontend-app-learner-dashboard/pull/738
 .. _frontend-app-learner-dashboard: https://github.com/openedx/frontend-app-learner-dashboard
 
 Troubleshooting
@@ -229,8 +229,8 @@ Benefits of Disabling the Survey
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2026-02-23   | Muhammad Arslan Abdul Rauf    | master (>Palm) | Verified on local deployment   |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+--------------------+--------------------------------+
+| Review Date  | Working Group Reviewer        | Release            | Test situation                 |
++--------------+-------------------------------+--------------------+--------------------------------+
+| 2026-02-23   | Muhammad Arslan Abdul Rauf    | master (>Ulmo)     | Verified on local deployment   |
++--------------+-------------------------------+--------------------+--------------------------------+
