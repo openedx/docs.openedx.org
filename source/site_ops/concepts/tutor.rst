@@ -32,3 +32,8 @@ This video, by Edly Academy, explains the basic concepts of Tutor.
 +--------------+-------------------------------+----------------+--------------------------------+
 |              |                               |                |                                |
 +--------------+-------------------------------+----------------+--------------------------------+
+
+
+.. note::
+
+Some Open edX platform features may depend on additional services or infrastructure beyond the default Tutor deployment. Operators running independent Open edX installations should review feature-specific documentation to determine whether additional configuration or external services are required.
