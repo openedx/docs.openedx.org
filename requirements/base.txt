@@ -62,10 +62,8 @@ mdurl==0.1.2
 myst-parser==5.0.0
     # via -r requirements/base.in
 packaging==26.0
-    # via
-    #   pydata-sphinx-theme
-    #   sphinx
-pydata-sphinx-theme==0.15.4
+    # via sphinx
+pydata-sphinx-theme==0.16.1
     # via sphinx-book-theme
 pygments==2.19.2
     # via
@@ -109,7 +107,7 @@ sphinx==9.1.0
     #   sphinxext-rediraffe
 sphinx-autobuild==2025.8.25
     # via -r requirements/base.in
-sphinx-book-theme==1.1.4
+sphinx-book-theme==1.2.0
     # via -r requirements/base.in
 sphinx-copybutton==0.5.2
     # via -r requirements/base.in
