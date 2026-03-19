@@ -74,7 +74,7 @@ Resources for Specific Roles
      * :ref:`Frontend plugin "slots" <Use A Frontend Plugin Framework Slot>` for UI customization
      * :ref:`XBlocks <xblock:Open edX XBlock Tutorial>`, a composable framework to enable rapid development and pluggability of new content types
      * :ref:`Hooks Extension Framework` for modifying the platform's functionality and flows
-     * Design tokens for theming customization
+     * :ref:`Design tokens <Design Tokens>` for theming customization
 
      Check out the `Sample Plugin <https://github.com/openedx/sample-plugin>`_ for documentation and examples of leveraging the various Open edX extension points.
 
