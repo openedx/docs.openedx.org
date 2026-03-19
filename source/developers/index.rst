@@ -29,7 +29,7 @@ Open edX Developers
       * :ref:`qs Dev Contributing`
       * :ref:`Tutor QS (Dev)`
       * :doc:`references/running_pr_tests`
-      * :doc:`concepts/hooks_extension_framework`
+      * :doc:`concepts/design_tokens`
 
    .. grid-item-card:: How-tos
       :class-card: sd-shadow-md sd-p-2

@@ -2,7 +2,7 @@ Concepts Home
 #############
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
    *
