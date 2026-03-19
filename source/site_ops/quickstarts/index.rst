@@ -1,3 +1,5 @@
+.. _Site Ops Quickstarts:
+
 Site Operators: Quickstarts
 #############################
 

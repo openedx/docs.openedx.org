@@ -7,6 +7,7 @@ Community Home
    release_notes/index
    concepts/what_is_the_roadmap
    how-tos/read_the_roadmap
+   references/tutorials
    security_policy/index
    how-tos/receive_announcements_by_email
    Community Discussion Boards <https://discuss.openedx.org>
