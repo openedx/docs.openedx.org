@@ -38,7 +38,7 @@ Configure Social Sharing
 *******************************
 
 To enable social sharing icons for courses, you modify the ``lms/envs/common.py``
-on ``edx-platform`` directory.
+on ``openedx-platform`` directory.
 
 #. In the ``lms/envs/common.py`` file, modify the ``SOCIAL_SHARING_SETTINGS``
    dictionary as needed.

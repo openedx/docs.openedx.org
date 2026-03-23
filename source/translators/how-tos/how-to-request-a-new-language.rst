@@ -18,7 +18,7 @@ Assumptions
 * If you request a new language, we ask that you commit to the success of your
   language's translation project. Particularly, we expect you to:
 
-  * Be an active translator: Translate the ``edx-platform``, ``edx-platform-js``
+  * Be an active translator: Translate the ``openedx-platform``, ``edx-platform-js``
     and main micro-frontends such as Learning MFE and other resources in the
     `openedx-translations Transifex project`_.
 

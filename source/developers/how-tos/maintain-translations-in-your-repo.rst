@@ -16,7 +16,7 @@ The recommended way to use ``atlas pull`` is to call the ``make pull_translation
 is described in details in the :doc:`enable-translations-new-repo` document.
 
 The `atlas README`_ has up to-date command line usage instructions. For example the following command pulls
-translations into the `edx-platform`_ repository:
+translations into the `openedx-platform`_ repository:
 
 .. code-block:: bash
 

@@ -47,7 +47,7 @@ Roadmap items specifically related to the core authoring and/or learning experie
 Platform Core
 ==============
 
-Platform Core roadmap items relate to enhancements and improvements within core platform code (generally referring to the `edx-platform`_ repository). Examples include new platform APIs; features involving authentication or user profile information; integrations such as Credly, Salesforce, or Ecommerce; and new frontend plugin slots.
+Platform Core roadmap items relate to enhancements and improvements within core platform code (generally referring to the `openedx-platform`_ repository). Examples include new platform APIs; features involving authentication or user profile information; integrations such as Credly, Salesforce, or Ecommerce; and new frontend plugin slots.
 
 Data and Analytics
 ===================

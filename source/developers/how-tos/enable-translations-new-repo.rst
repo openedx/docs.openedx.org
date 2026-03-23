@@ -71,7 +71,7 @@ workflow:
 #. Verify the workflow is syncing the translations properly as described in the :ref:`debugging-translations` section.
 
 #. Install the XBlock or plugin in your local `Tutor`_ environment. Run
-   ``make pull_translations`` in the ``edx-platform`` repo to preview the translations.
+   ``make pull_translations`` in the ``openedx-platform`` repo to preview the translations.
 
 
 Django Microservice Repos (IDAs)
@@ -80,7 +80,7 @@ Django Microservice Repos (IDAs)
 The terms "Microservice" and "Independently Deployable Application (IDA)" are used interchangeably throughout the Open
 edX project. There are many Django microservices in the Open edX ecosystem, such as:
 
-- `edx-platform`_
+- `openedx-platform`_
 - `credentials`_
 - `ecommerce`_
 - `course-discovery`_
@@ -204,8 +204,8 @@ In order to test the ``make pull_translations`` step, please follow the steps be
 
 #. Temporarily pull translations from the fork using the Makefile command e.g. ``make ATLAS_OPTIONS="--repository=your-github-user-or-org/openedx-translations --revision=your-branch-name" pull_translations``
 
-#. If you're testing an XBlock or an ``edx-platform`` plugin, run the ``make pull_translations`` command in
-   the ``edx-platform``.
+#. If you're testing an XBlock or an ``openedx-platform`` plugin, run the ``make pull_translations`` command in
+   the ``openedx-platform``.
 
 #. Run the application (or plugin) and verify the translations you've added are working properly.
 

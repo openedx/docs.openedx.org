@@ -66,12 +66,12 @@ out on various Open edX instances. :ref:`openedx-proposals:OEP-17` describes the
 reasons why you might use a feature toggle, including releasing incrementally,
 beta testing, and providing one Open edX release where the feature is optional
 before making it the default. Utilizing various `Waffle`_ flags, you can gate
-your feature using an on/off switch. Within ``edx-platform``, you can also
+your feature using an on/off switch. Within ``openedx-platform``, you can also
 utilize ``CourseWaffleFlag``, a toggle that allows you to gate a feature
 per-course.
 
 Waffle flags should be well-documented when they are used. Some of the Waffle
-flags used in ``edx-platform``, as well as how they are documented, can be seen
+flags used in ``openedx-platform``, as well as how they are documented, can be seen
 in the `lms/djangoapps/courseware/toggles.py`_ file. (As a note, you can view
 all Waffle flags in edx-platform here: :ref:`edx-platform:featuretoggles`,
 and please be sure to document any Django settings you define as well - those

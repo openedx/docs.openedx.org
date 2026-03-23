@@ -38,7 +38,7 @@ Enable Prerequisite Courses in Studio and the Learning Management System
 *************************************************************************
 
 To enable prerequisite courses, you modify the ``lms.yml`` and
-``studio.yml`` files, which are located one level above the ``edx-platform``
+``studio.yml`` files, which are located one level above the ``openedx-platform``
 directory.
 
 #. Set the value of ``ENABLE_PREREQUISITE_COURSES`` in the

@@ -75,7 +75,7 @@ Deprecations & Removals
   use of this setting with ``CSRF_TRUSTED_ORIGINS``.
 
 * The ``cs_comments_service`` has been archived, and all calls to it have been
-  removed from ``edx-platform``. The MongoDB backend for ``forums`` is still
+  removed from ``openedx-platform``. The MongoDB backend for ``forums`` is still
   supported via the new forums app through the Ulmo release, so no forums data
   migration is *required* for this release, but it is *highly advised*. We will
   not support serving forums data from MongoDB in Verawood. For more operational

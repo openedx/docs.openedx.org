@@ -84,7 +84,7 @@ An Open edX password validator is a Python class that specifies how user
 passwords are validated. You can use whatever criteria you choose to establish
 a password policy for your Open edX instance. You can create your own custom
 password validator, or import one or more password validators from
-`password_policy_validators`_ in the ``edx-platform``  repository on GitHub.
+`password_policy_validators`_ in the ``openedx-platform``  repository on GitHub.
 Those password validators include minimum length, maximum length, user
 attribute similarity, minimum alphabetic, minimum numeric, minimum uppercase,
 minimum lowercase, minimum punctuation, and minimum symbols. For more

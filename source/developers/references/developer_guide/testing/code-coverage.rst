@@ -17,7 +17,7 @@ development process. If done correctly, unit tests can detect early flaws in
 code and prevent future developers from breaking your feature by enforcing its
 correct behavior.
 
-In ``edx-platform``, coverage is run via `CodeCov
+In ``openedx-platform``, coverage is run via `CodeCov
 <https://about.codecov.io/resource/what-is-code-coverage/>`_ and you can see the
 results of your Codecov by viewing the coverage builds:
 
