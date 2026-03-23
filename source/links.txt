@@ -6,7 +6,7 @@
 
 .. _VirtualEnvWrapper: http://virtualenvwrapper.readthedocs.io/en/latest
 
-.. _edx-platform: https://github.com/openedx/edx-platform
+.. _openedx-platform: https://github.com/openedx/openedx-platform
 
 .. _init file: https://github.com/openedx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/__init__.py
 

@@ -36,7 +36,7 @@ Configure Allowed Email Patterns
 To specify the email patterns that are allowed for registration, follow these steps.
 
 #. Locate the ``lms.yml`` and ``studio.yml`` files, which are located
-   one level above the ``edx-platform`` directory. You make the same changes
+   one level above the ``openedx-platform`` directory. You make the same changes
    to both files.
 
 #. In the ``lms.yml`` and ``studio.yml`` files add the

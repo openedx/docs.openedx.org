@@ -11,7 +11,7 @@ you like. For example, you might make a directory called
 ``/my-open-edx-themes``.
 
 Within that directory, you create a separate directory for each Open edX
-repository that you want to create a theme for, such as ``edx-platform``
+repository that you want to create a theme for, such as ``openedx-platform``
 and ``ecommerce``.
 
 Within each of those directories, you create another directory and name it for

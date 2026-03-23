@@ -24,10 +24,10 @@ Platform Layout
 ***************
 
 While the platform contains many services such as MFEs and libraries, the
-core of the platform lives in the `edx-platform`_ and `frontend-platform`
+core of the platform lives in the `openedx-platform`_ and `frontend-platform`
 repositories.
 
-* edx-platform - This was the first service created in the Open edX ecosystem and
+* openedx-platform - This was the first service created in the Open edX ecosystem and
   contains the legacy monolith application. That application currently can run
   in two modes: LMS and Studio.
 
@@ -35,7 +35,7 @@ repositories.
   for learners' data as they go through courses and programs, and it serves some
   legacy UI elements.
 
-  As Studio, it is the CMS(Content Management System) where instructors and
+  As Studio, it is the CMS (Content Management System) where instructors and
   course authors can build the course content that learners will consume.
 
 
@@ -75,13 +75,13 @@ Template`_ based rendering pipelines to serve frontend content to users.
 
 .. note::
 
-   An exception to the exception.  In edx-platform rather than using the
+   An exception to the exception.  In openedx-platform rather than using the
    default Django templates, django is setup to use `Mako`_ based templates.
 
 .. _Django: https://www.djangoproject.com/
 .. _React: https://reactjs.org/
 .. _openedx: https://github.com/openedx/
-.. _edx-platform: https://github.com/openedx/edx-platform
+.. _openedx-platform: https://github.com/openedx/openedx-platform
 .. _frontend-platform: https://github.com/openedx/frontend-platform
 .. _backend services: https://github.com/orgs/openedx/repositories?q=topic%3Abackend-service&type=all&language=&sort=
 .. _MFEs: https://github.com/orgs/openedx/repositories?q=frontend-app&type=all&language=&sort=

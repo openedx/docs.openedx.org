@@ -59,7 +59,7 @@ Example File Path for a Theme File
 
 The default Open edX theme includes an image file named ``logo.png`` that
 appears in the header of most LMS pages. The file path of that image in the
-``edx-platform`` repository is ``lms/static/images/logo.png``.
+``openedx-platform`` repository is ``lms/static/images/logo.png``.
 
 The following example shows an absolute file path of the LMS logo image in a
 theme directory. The file path after

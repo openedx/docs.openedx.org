@@ -39,7 +39,7 @@ Enable Licensing in Studio
 *****************************
 
 To enable licensing, you modify the ``lms.yml`` and ``studio.yml``
-files, which are located one level above the ``edx-platform`` directory.
+files, which are located one level above the ``openedx-platform`` directory.
 
 #. In the ``lms.yml`` and ``studio.yml`` files, in the ``FEATURES``
    dictionary, add ``'LICENSING':True``:

@@ -16,7 +16,7 @@ Overview
 There are a handful of major components in the Open edX project. Where
 possible, these communicate using stable, documented APIs.
 
-The centerpiece of the Open edX architecture is `edx-platform`_, which contains
+The centerpiece of the Open edX architecture is `openedx-platform`_, which contains
 the learning management and course authoring applications (LMS and Studio,
 respectively).
 

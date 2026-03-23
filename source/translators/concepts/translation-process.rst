@@ -79,7 +79,7 @@ are automatically synced into the openedx-translations_ repository by the `GitHu
 The openedx-atlas_ CLI tool has been built to help you download translation files for a
 specific part of the codebase. This process is automated and included in the `Tutor Dockerfile`_.
 
-During development, it is possible to download the latest files into a repositories source code e.g. ``edx-platform`` or ``frontend-app-learning`` by running the ``make pull_translations`` command in the desired repository's source code.
+During development, it is possible to download the latest files into a repositories source code e.g. ``openedx-platform`` or ``frontend-app-learning`` by running the ``make pull_translations`` command in the desired repository's source code.
 
 The specifics the Makefile program and ``atlas pull`` parameters are described in details in the :doc:`/developers/how-tos/enable-translations-new-repo` document.
 

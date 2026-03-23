@@ -41,7 +41,7 @@ Enable Course Certificates in Studio and the LMS
 ************************************************
 
 To enable certificates, modify the ``lms.yml`` and ``studio.yml``
-files, which are located one level above the ``edx-platform`` directory.
+files, which are located one level above the ``openedx-platform`` directory.
 
 #. In the ``lms.yml`` and ``studio.yml`` files, set the value of
    ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.

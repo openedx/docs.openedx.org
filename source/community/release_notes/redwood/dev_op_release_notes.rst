@@ -272,7 +272,7 @@ Other Operator Changes
       in the ``Credentials`` IDA.
 
 -  The scripts related to user retirement across all services
-   have been moved to the ``edx-platform`` repository. If you've been
+   have been moved to the ``openedx-platform`` repository. If you've been
    using the `unsupported tubular repository <https://github.com/openedx-unsupported/tubular>`_ to run retirement scripts you should update
    your code.
 
@@ -296,7 +296,7 @@ Other Operator Changes
 Deprecations & Removals
 ***********************
 
--  Badges app has been deprecated and removed from ``edx-platform``.
+-  Badges app has been deprecated and removed from ``openedx-platform``.
    See `[DEPR]: lms/djangoapps/badges <https://github.com/openedx/edx-platform/issues/31541>`_ .
 -  - In edxapp, the Waffle switch ``ip.legacy`` is removed. See `[DEPR]: legacy_ip code and Waffle switch <https://github.com/openedx/edx-platform/issues/33733>`_ .
 
@@ -309,7 +309,7 @@ Deprecations & Removals
    - `[DEPR] Asset processing in Paver`_.
    -  *Non deployment paver commands will be removed by Sumac*
 
--  The ``django-splash`` capability was removed from ``edx-platform`` and the relevant code has been archived.
+-  The ``django-splash`` capability was removed from ``openedx-platform`` and the relevant code has been archived.
 
    - https://github.com/openedx/public-engineering/issues/224
 

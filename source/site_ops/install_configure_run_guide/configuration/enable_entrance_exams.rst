@@ -58,7 +58,7 @@ In Tutor, entrance exams can be enabled by utilizing the following `Tutor plugin
 
 
 To enable entrance exams in a non-Tutor environment, you modify the ``lms.yml`` and ``studio.yml``
-files, which are located one level above the ``edx-platform`` directory.
+files, which are located one level above the ``openedx-platform`` directory.
 
 #. Set the value of ``ENTRANCE_EXAMS`` in the ``lms.yml`` and
    ``studio.yml`` files to ``True``.

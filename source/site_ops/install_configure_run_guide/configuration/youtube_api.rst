@@ -100,7 +100,7 @@ configuration instead.
 To set your YouTube API key by editing JSON files, complete the following
 steps.
 
-#. Find the `edx-platform`_ repository on your Open edX server. If you are
+#. Find the `openedx-platform`_ repository on your Open edX server. If you are
    running devstack or fullstack, the directory is
    ``/edx/app/edxapp/edx-platform``.
 
