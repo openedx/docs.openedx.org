@@ -24,7 +24,7 @@ Platform Layout
 ***************
 
 While the platform contains many services such as MFEs and libraries, the
-core of the platform lives in the `openedx-platform`_ and `frontend-platform`
+core of the platform lives in the `openedx-platform`_ and `frontend-platform`_
 repositories.
 
 * openedx-platform - This was the first service created in the Open edX ecosystem and
@@ -59,17 +59,10 @@ Exceptions
 **********
 While the above summary covers most of the system, there are a few exceptions.
 
-
-Non-Django Backends
-===================
-The `cs_comments_service`_ which provides discussion forum capability within the
-platform is a legacy application that is written in Ruby, using the Sinatra
-framework.
-
 Non-React Frontends
 ===================
-The Open edX Platform is currently still in the process of moving to React based
-MFEs.  Previously frontend content used to be served by the Django services.
+The Open edX Platform is currently still in the process of `moving to React based
+MFEs`_.  Previously frontend content used to be served by the Django services.
 This means that there are still many parts of the system that use `Django
 Template`_ based rendering pipelines to serve frontend content to users.
 
@@ -85,39 +78,24 @@ Template`_ based rendering pipelines to serve frontend content to users.
 .. _frontend-platform: https://github.com/openedx/frontend-platform
 .. _backend services: https://github.com/orgs/openedx/repositories?q=topic%3Abackend-service&type=all&language=&sort=
 .. _MFEs: https://github.com/orgs/openedx/repositories?q=frontend-app&type=all&language=&sort=
-.. _cs_comments_service: https://github.com/openedx/cs_comments_service
-.. _Django Template:
+.. _moving to React based MFEs: https://github.com/openedx/openedx-platform/issues/31620
+.. _Django Template: https://docs.djangoproject.com/en/6.0/topics/templates/
 .. _Mako: https://www.makotemplates.org/
 
 Adding new Features to the Open edX Platform
 ********************************************
 
 If you're looking to add new features to the Open edX Platform, we recommend
-extending the platform rather than trying to make changes to the core.  Both
-XBlocks and Plugins are a great way to extend the platform.
+extending the platform rather than trying to make changes to the core.
 
-New XBlock
-==========
+The modular Open edX platform provides many extension points that don't require modification to the core codebase or review from the Open edX community. These include:
 
-XBlocks build on top of a well-defined interface in the Open edX platform and do not require review from the Open edX team.
-If you want to add a new problem type or content presentation that would be shown to a learner as a part of a course, you probably want to build a new XBlock.
+* :ref:`Frontend plugin "slots" <Use A Frontend Plugin Framework Slot>` for UI customization
+* :ref:`XBlocks <xblock:Open edX XBlock Tutorial>`, a composable framework to enable rapid development and pluggability of new content types
+* :ref:`Hooks Extension Framework` for modifying the platform's functionality and flows
+* :ref:`Design tokens <Design Tokens>` for theming customization
 
-Before you do that, check out XBlocks `that others have built`_ in case they fulfill your needs.
-
-If you're ready to build one, check out our `Intro to XBlocks`_
-
-.. _that others have built: https://openedx.atlassian.net/wiki/spaces/COMM/pages/43385346/XBlocks+Directory
-.. _Intro to XBlocks: https://openedx.atlassian.net/wiki/spaces/PLAT/pages/33358554/XBlocks
-
-New Plugin
-==========
-
-Plugins can be built independently of the core platform and do not require review from the Open edX team to build or use.
-If you want to add a new feature outside of courseware (learner/educator/operator experience) a new platform plugin might be a great option for you.
-
-Check out `the plugins README <https://github.com/openedx/edx-django-utils/blob/master/edx_django_utils/plugins/README.rst#plugin-apps>`_ to get started.
-
-For an example of an existing plugin, check out `event-routing-backends <https://github.com/openedx/event-routing-backends>`_.
+Check out the `Sample Plugin <https://github.com/openedx/sample-plugin>`_ for documentation and examples of leveraging the various Open edX extension points.
 
 New update to the core platform
 ===============================
@@ -126,6 +104,23 @@ If we don't have extension points for the kind of change you want to make, you m
 This can be complex and we encourage you to `reach out to us`_ to talk about the kind of changes you want to make.
 
 .. _reach out to us: https://open.edx.org/community/connect/
+
+Two quickstarts are provided for developers looking to jump in and contribute to
+the open-source Open edX project. The :ref:`Pull Request Quickstart <qs Dev
+First PR>` goes through the GitHub “pull request” workflow all developers who
+contribute must follow. You'll learn how to set up a development environment and
+at the end will have made your first pull request to the project.
+
+The :ref:`Contributing Quickstart <qs Dev Contributing>` builds on the Pull
+Request Quickstart to guide you through the process of making a more substantial
+change to the platform. It discusses both technical and product considerations.
+
+The `Open edX contribution course
+<https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+OEX101+2023/about>`_
+and the `Developer onboarding course
+<https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_
+are additional, helpful resources.
+
 
 .. seealso::
 
@@ -138,5 +133,5 @@ This can be complex and we encourage you to `reach out to us`_ to talk about the
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|  2025-03-25  |    sarina                     |   Ulmo         |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
