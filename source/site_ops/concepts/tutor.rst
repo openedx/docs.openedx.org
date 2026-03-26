@@ -19,6 +19,12 @@ This video, by Edly Academy, explains the basic concepts of Tutor.
 
 .. youtube:: BzNcrmyFpw4
 
+ .. note:: 
+
+  Some Open edX platform features may depend on additional services or infrastructure beyond the default Tutor deployment.
+  For example, video-related features may rely on external video processing or storage services that are not included in a standard Tutor setup.
+  Operators running independent OpenEdX installations should review feature-specific documentation to determine whether additional configuration or external services are required.
+
 .. seealso::
 
    :ref:`Site Operator QS`
@@ -34,6 +40,3 @@ This video, by Edly Academy, explains the basic concepts of Tutor.
 +--------------+-------------------------------+----------------+--------------------------------+
 
 
-.. note::
-
-Some Open edX platform features may depend on additional services or infrastructure beyond the default Tutor deployment. Operators running independent Open edX installations should review feature-specific documentation to determine whether additional configuration or external services are required.
