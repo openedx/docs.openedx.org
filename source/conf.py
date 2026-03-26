@@ -216,7 +216,7 @@ html_theme_options = {
 }
 
 
-html_logo = "_static/open-edx-logo-color.png"
+html_logo = "https://logos.openedx.org/rgb-logo-open-edx-horizontal.svg"
 html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
 release = "Latest"
 
