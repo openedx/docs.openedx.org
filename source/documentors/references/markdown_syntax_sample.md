@@ -110,8 +110,8 @@ Could be configuration files or pseudo-code.
 
 ## Images and Media
 
-```{image} /_static/open-edx-logo-color.png
-:alt: Open edX Logo
+```{image} /_images/documentors_homepage/add_doc_undraw.png
+:alt: Stylized image of two documents with a plus sign
 :width: 200px
 ```
 
