@@ -107,7 +107,7 @@ user.groups.add(Group.objects.get(name="xqueue"))
 
 ### Step 4. Ensure Event Bus is Running
 
-Tutor uses RabbitMQ by default.
+Tutor uses Redis by default.
 
 Verify:
 
@@ -115,7 +115,7 @@ Verify:
 tutor local ps
 ```
 
-RabbitMQ should be listed.
+Redis should be listed.
 
 ---
 
@@ -155,7 +155,7 @@ cd devstack
 make dev.up
 ```
 
-This brings up LMS, CMS, MySQL, Mongo, RabbitMQ, etc.
+This brings up LMS, CMS, MySQL, Mongo, Redis, etc.
 
 To rebuild after changes:
 
@@ -202,10 +202,10 @@ user.groups.add(Group.objects.get(name="xqueue"))
 
 ### Step 4. Enable Event Bus
 
-Ensure RabbitMQ container is running:
+Ensure Redis container is running:
 
 ```bash
-docker ps | grep rabbit
+docker ps | grep redis
 ```
 
 If needed:
