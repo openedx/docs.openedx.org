@@ -39,7 +39,6 @@ Steps
       sphinx-copybutton
       sphinx-autobuild
       sphinxcontrib-mermaid
-      sphinxcontrib-contentui
 
 #. Add ``docs.in`` to the ``upgrade`` command in your ``Makefile``
 
@@ -64,7 +63,7 @@ Steps
 
    .. code::
 
-      sphinx-quickstart --no-batchfile --extensions sphinxcontrib.contentui --extensions sphinx_copybutton --extensions sphinx.ext.graphviz --extensions sphinxcontrib.mermaid --no-sep -a "Open edX Community" -l "en" --release latest
+      sphinx-quickstart --no-batchfile --extensions sphinx_copybutton --extensions sphinx.ext.graphviz --extensions sphinxcontrib.mermaid --no-sep -a "Open edX Community" -l "en" --release latest
 
 #. Make sure the build works.
 
