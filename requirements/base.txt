@@ -65,7 +65,7 @@ packaging==26.0
     # via sphinx
 pydata-sphinx-theme==0.16.1
     # via sphinx-book-theme
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -74,7 +74,7 @@ pyyaml==6.0.3
     # via
     #   myst-parser
     #   sphinxcontrib-mermaid
-requests==2.33.0
+requests==2.33.1
     # via
     #   sphinx
     #   sphinxcontrib-images
@@ -99,7 +99,6 @@ sphinx==9.1.0
     #   sphinx-design
     #   sphinx-notfound-page
     #   sphinx-tags
-    #   sphinxcontrib-contentui
     #   sphinxcontrib-images
     #   sphinxcontrib-mermaid
     #   sphinxcontrib-youtube
@@ -119,8 +118,6 @@ sphinx-tags==0.4
     # via -r requirements/base.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
-sphinxcontrib-contentui==0.2.5
-    # via -r requirements/base.in
 sphinxcontrib-devhelp==2.0.0
     # via sphinx
 sphinxcontrib-htmlhelp==2.1.0
