@@ -62,58 +62,18 @@ following example.
  :alt: A learner's view of a programming problem that uses an external grader,
      with an incorrect result.
 
-.. _External Grader Requirements:
 
 External Grader Requirements
 ============================
 
-The course team builds and deploys the external grader.
+Your site operations team :ref:`builds and deploys the external grader <Enable XQueue>`.
 
-When you build your external grader, keep the following requirements in mind.
-
-* To communicate with XQueue, the grader must accept and return JSON objects.
-  For more information, see :ref:`XQueue JSON Objects`.
-
-* The external grader must actively retrieve, or pull, submissions from the
-  XQueue through a RESTful interface at regular intervals.
-
-* The grader must be scalable. Many learners might submit responses at one
-  time, such as shortly before an exam is due. The grader must be able to
-  process many submissions in a limited time, without failure or unexpected
-  delays.
-
-* The grader must not constantly send queries unless the grader detects that
-  the ``queuelen`` value is growing. If XQueue receives too many requests from
-  a grader, the XQueue system administrator may apply throttling to the grader.
-
-* The grader must implement security features.
-
-  You are responsible for the server that runs the code that learners submit.
-  Your system must protect against learners who might submit malicious code and
-  ensure that the external grader runs only code that is relevant to the course
-  problems. Your specific security implementation depends on the programming
-  language that you are using and your deployment architecture. You must ensure
-  that malicious code will not damage your server.
-
-
-* You must have a plan to immediately notify the team that operates your
-  grader, as well as your Open edX system administrator, if the grader fails.
-  You must also have a process to quickly identify the cause of the failure,
-  whether the problem is with your grader or XQueue.
-
-  If you know the grader will be unavailable at a certain time for maintenance,
-  you should :ref:`add a course update <Add a Course Update>`.
-
-* You must test the grader thoroughly before your course starts. Be sure to
-  test incorrect code as well as correct code to ensure that the grader
-  responds with appropriate scores and messages.
 
 .. seealso::
- 
-
- :ref:`External Grader Problem Requirements` (reference)
 
  :ref:`Add an External Grader Problem` (how-to)
+
+ :ref:`Enable XQueue` (site operators how-to)
 
 
 **Maintenance chart**

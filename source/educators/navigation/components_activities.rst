@@ -127,7 +127,6 @@ External Grader
    :glob:
 
    ../concepts/exercise_tools/about_external_graders.rst
-   ../references/course_development/exercise_tools/external_grader_requirements.rst
    ../how-tos/course_development/exercise_tools/add_external_grader.rst
 
 Gene Explorer Tool

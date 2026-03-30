@@ -2,6 +2,10 @@
 
 # MyST Markdown Syntax Sample
 
+```{tags}
+documentor, reference
+```
+
 This page demonstrates MyST Markdown syntax using examples that correspond to the RST quick reference guide. This serves as a practical example of how to write Open edX documentation using MyST Markdown.
 
 ```{contents} Contents
