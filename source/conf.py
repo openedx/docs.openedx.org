@@ -42,7 +42,6 @@ extensions = [
     "sphinxcontrib.youtube",
     "sphinxcontrib.images",
     "sphinx_design",
-    "sphinxcontrib.contentui",
     "sphinx_copybutton",
     "sphinx.ext.graphviz",
     "sphinxcontrib.mermaid",
