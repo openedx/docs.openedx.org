@@ -9,7 +9,6 @@ sphinx-design
 sphinx-copybutton
 sphinxcontrib-mermaid
 sphinxcontrib-images
-sphinxcontrib-contentui
 sphinxext-rediraffe
 sphinx-tags
 sphinx-notfound-page
