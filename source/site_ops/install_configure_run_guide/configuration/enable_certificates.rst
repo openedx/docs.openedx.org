@@ -376,8 +376,7 @@ Enable Automatic Certificate Generation
 
 It is suggested that automatic certificate generation
 be enabled in order to provide the best experience for learners.
-Particularly in self-paced courses (see :ref:`Enable Self Paced
-Courses`), your learners might not want to wait until an instructor
+Particularly in self-paced courses, your learners might not want to wait until an instructor
 initiates certificate generation; instead, they would typically expect
 to be able to download their certificates as soon as they achieve a
 passing grade. This can be achieved by enabling *auto_certificate_generation*

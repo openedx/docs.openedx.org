@@ -20,7 +20,6 @@ configuration options.
    deprecated_add_course_talk_widget
    edx_search
    enable_certificates
-   enable_pacing
    enable_public_course
    enable_ccx
    enable_custom_course_settings
