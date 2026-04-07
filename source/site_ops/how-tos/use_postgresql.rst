@@ -1,12 +1,12 @@
 .. _use postgresql:
 
-Using PostgreSQL as the Relational Database Backend
-###################################################
+Use PostgreSQL as the Relational Database Backend
+#################################################
 
 .. note::
 
    PostgreSQL support was introduced in the Verawood release. The Tutor plugin
-   that enables this feature (`tutor-contrib-postgresql <https://github.com/qasimgulzar/tutor-contrib-postgresql>`)
+   that enables this feature (`tutor-contrib-postgresql <https://github.com/qasimgulzar/tutor-contrib-postgresql>`_)
    is under active development. Migration from an existing MySQL installation is
    not yet supported. See `Current PostgreSQL Limitations`_ for details.
 
