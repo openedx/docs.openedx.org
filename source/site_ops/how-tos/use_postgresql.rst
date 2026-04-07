@@ -125,7 +125,7 @@ you encounter issues or have questions:
 
    :ref:`Open edX Databases`
 
-   `Tutor PostgreSQL plugin <https://github.com/qasimgulzar/tutor-contrib-postgresql>`
+   `Tutor PostgreSQL plugin <https://github.com/qasimgulzar/tutor-contrib-postgresql>`_
 
 
 **Maintenance chart**
