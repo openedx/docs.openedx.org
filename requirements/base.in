@@ -7,7 +7,6 @@ sphinxcontrib-youtube
 sphinx-autobuild
 sphinx-design
 sphinx-copybutton
-sphinxcontrib-mermaid
 sphinxcontrib-images
 sphinxext-rediraffe
 sphinx-tags

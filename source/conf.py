@@ -44,7 +44,6 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "sphinx.ext.graphviz",
-    "sphinxcontrib.mermaid",
     "sphinx.ext.intersphinx",
     "sphinxext.rediraffe",
     "notfound.extension",
