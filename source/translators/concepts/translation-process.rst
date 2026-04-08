@@ -1,6 +1,8 @@
 Translations Process
 ####################
 
+.. tags:: translator, concept
+
 Overview
 ********
 

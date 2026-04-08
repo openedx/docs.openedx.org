@@ -1,6 +1,8 @@
 How to join a translation team
 ##############################
 
+.. tags:: translator, how-to
+
 In order to help translate Open edX projects, you must first join a translation team
 for the language you wish to translate to. We use `Transifex`_ to allow our community
 to collaborate on translations. More detailed instructions for how to get involved in

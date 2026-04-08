@@ -3,6 +3,8 @@
 How to fix translation validation errors
 ########################################
 
+.. tags:: translator, how-to
+
 As part of OEP-58 (:ref:`OEP-58 Overview`), automatic translation validation has been added to avoid
 breaking builds and deployments due to invalid translations.
 

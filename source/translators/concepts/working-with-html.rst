@@ -1,6 +1,8 @@
 Working With HTML
 #################
 
+.. tags:: translator, concept
+
 Translating strings for the Open edX project is more complicated than simply
 translating sentences from one language to another. Sometimes, sentences (or
 “strings”) will contain HTML markup tags. It is very important to understand how
