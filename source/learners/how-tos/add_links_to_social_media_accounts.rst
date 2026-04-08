@@ -36,16 +36,21 @@ can click those icons to visit your social media account page.
 
 .. END ADD LINKS TO YOUR PERSONAL SOCIAL MEDIA ACCOUNTS
 
-.. seealso::
- 
+.. seealso:: 
+   
+   :ref:`About the User Profile Page` (concept)
 
- :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
- :doc:`add_update_full_profile` (how-to)
- :doc:`add_update_limited_profile` (how-to)
- :doc:`view_another_learners_profile` (how-to)
- :ref:`Toggle Profile Information Visibility` (how-to)
- :ref:`Update Course-Specific Settings` (how-to)
- :ref:`Share Your Courses on Social Media` (how-to)
+   :ref:`Add or Update a Full Profile` (how-to)
+
+   :ref:`Add or Update Your Profile Image` (how-to)
+
+   :ref:`View Another Learner's Profile` (how-to)
+
+   :ref:`Toggle Profile Information Visibility` (how-to)
+
+   :ref:`Update Course-Specific Settings` (how-to)
+
+   :ref:`Share Your Courses on Social Media` (how-to)
 
 **Maintenance chart**
 

@@ -34,13 +34,16 @@ The site saves your changes automatically.
 .. END UPDATE YOUR PROFILE IMAGE
 
 .. seealso::
- 
 
- :doc:`what_is_profile_page <../concepts/open_edx_platform/what_is_profile_page>` (concept)
- :doc:`add_update_full_profile` (how-to)
- :doc:`add_links_to_social_media_accounts` (how-to)
- :doc:`view_another_learners_profile` (how-to)
- :ref:`Toggle Profile Information Visibility` (how-to)
+   :ref:`About the User Profile Page` (concept)
+
+   :ref:`Add or Update a Full Profile` (how-to)
+
+   :ref:`Add Links to Your Personal Social Media Accounts` (how-to)
+
+   :ref:`View Another Learner's Profile` (how-to)
+
+   :ref:`Toggle Profile Information Visibility` (how-to)
 
 **Maintenance chart**
 
