@@ -67,8 +67,6 @@ selection of other exercises and tools that you can add to your course.
 
   :ref:`Modifying a Released Problem` (reference)
 
-  :ref:`Add Unsupported Exercises Problems` (how-to)
-
 
 **Maintenance chart**
 

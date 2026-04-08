@@ -84,8 +84,6 @@ For information about how to review and adjust learner grades in the LMS, see
 
    :ref:`Add Hints via the Advanced Editor` (how-to)
 
-   :ref:`Add Unsupported Exercises Problems` (how-to)
-
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+

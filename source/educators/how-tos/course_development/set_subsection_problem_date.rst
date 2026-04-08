@@ -167,8 +167,6 @@ advanced problem types.
 
    :ref:`Modifying a Released Problem` (reference)
 
-:ref:`Add Unsupported Exercises Problems` (how-to)
-
 
 
 **Maintenance chart**
