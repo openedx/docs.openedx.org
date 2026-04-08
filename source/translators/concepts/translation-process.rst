@@ -14,15 +14,21 @@ extracted and made available to translators, strings can be translated to a vari
 languages. Tooling will then download the translated strings and make them available to
 your running code.
 
-.. mermaid::
+.. graphviz::
 
-   flowchart TD
-      annotate(Annotate Strings) -->
-      extract(Extract Source Strings for Translation) -->
-      upload(Upload Source Strings to Transifex) -->
-      translate(Translate Strings) -->
-      sync(Sync Translated Strings to openedx-translations) -->
-      use(Using Translation)
+   digraph translation_flow {
+      graph [rankdir=TD]
+      node [shape=box, style="rounded,filled", fillcolor=white]
+
+      annotate [label="Annotate Strings"]
+      extract  [label="Extract Source Strings for Translation"]
+      upload   [label="Upload Source Strings to Transifex"]
+      translate [label="Translate Strings"]
+      sync     [label="Sync Translated Strings to openedx-translations"]
+      use      [label="Using Translation"]
+
+      annotate -> extract -> upload -> translate -> sync -> use
+   }
 
 Annotating and Extracting Strings
 *********************************
