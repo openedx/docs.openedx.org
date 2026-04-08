@@ -183,8 +183,6 @@ visible. You can set these attributes in Studio.
 
   :ref:`Modifying a Released Problem` (reference)
 
-  :ref:`Add Unsupported Exercises Problems` (how-to)
-
 
 **Maintenance chart**
 

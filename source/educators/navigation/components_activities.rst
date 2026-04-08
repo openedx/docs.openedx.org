@@ -29,7 +29,6 @@ The Open edX® Problem Component
    ../how-tos/course_development/exercise_tools/add_hints_advanced_editor.rst
    ../references/course_development/modifying_released_problem.rst
    ../references/course_development/learner_problem_view.rst
-   ../how-tos/course_development/exercise_tools/add_unsupported_problem_types.rst
 
 Chemical Equation Problem
 *******************************************************

@@ -115,8 +115,6 @@ Configure the following fields for each assignment type.
 
   :ref:`Modifying a Released Problem` (reference)
 
-  :ref:`Add Unsupported Exercises Problems` (how-to)
-
 
 **Maintenance chart**
 

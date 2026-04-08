@@ -103,8 +103,6 @@ the learner received out of the total available score and the value in the
 
   :ref:`Modifying a Released Problem` (reference)
 
-  :ref:`Add Unsupported Exercises Problems` (how-to)
-
 
 **Maintenance chart**
 

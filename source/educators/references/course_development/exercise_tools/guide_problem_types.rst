@@ -83,7 +83,7 @@ advanced problem types, the :ref:`advanced editor<Advanced Editor>` opens.
 .. note:: Some advanced problem types are **unsupported**
    and are not available in the list of problem types unless you
    enable a setting in Studio. For more information, see :ref:`Unsupported
-   Advanced Problem Types` and :ref:`Add Unsupported Exercises Problems`.
+   Advanced Problem Types`.
 
 
 .. list-table::
@@ -120,9 +120,7 @@ Unsupported Advanced Problem Types
 ===================================
 
 The following advanced problem types are **not supported**
-by the Open edX Platform. You can enable an option to make unsupported problem types
-available in Studio. For more information, see
-:ref:`Add Unsupported Exercises Problems`.
+by the Open edX Platform.
 
 .. list-table::
    :widths: 25 60 20
@@ -155,10 +153,7 @@ This table lists the fully or provisionally supported additional exercises and
 tools that you can add to your course.
 
 .. note:: Some additional exercises and tools are **not supported**
-   by the Open edX Platform. You can enable an option to make unsupported exercises
-   and tools available in Studio. For more information, see :ref:`Unsupported
-   Additional Exercises and Tools` and
-   :ref:`Add Unsupported Exercises Problems`.
+   by the Open edX Platform. For more information, see :ref:`Unsupported Additional Exercises and Tools`.
 
 .. to come: revise to eliminate entries with no support. Add pointer (at least for Open edX) to all of the XBlocks that are available.
 
@@ -258,9 +253,7 @@ tools that you can add to your course.
 Unsupported Additional Exercises and Tools
 ==========================================
 
-The following additional exercises and tools are **not supported** by the Open edX Platform. You can enable an option to make unsupported exercises and
-tools available in Studio. For more information, see
-:ref:`Add Unsupported Exercises Problems`.
+The following additional exercises and tools are **not supported** by the Open edX Platform.
 
 
 .. list-table::
@@ -389,8 +382,6 @@ in a web browser.
   :ref:`Add Hints via the Advanced Editor` (how-to)
 
   :ref:`Modifying a Released Problem` (reference)
-
-  :ref:`Add Unsupported Exercises Problems` (how-to)
 
   :ref:`Designing for Mobile` (concept)
 

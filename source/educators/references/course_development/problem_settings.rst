@@ -319,8 +319,6 @@ Problems** advanced setting.
 
   :ref:`Modifying a Released Problem` (reference)
 
-  :ref:`Add Unsupported Exercises Problems` (how-to)
-
 
 **Maintenance chart**
 
