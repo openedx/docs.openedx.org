@@ -22,15 +22,18 @@ component. You can also add text and images both before and after the iframe.
 
 #. In the visual editor toolbar, select **HTML**.
 
-#. In the HTML source code editor, locate the following HTML (line 7). This
+#. In the HTML source code editor, locate the following HTML. This
    HTML includes the ``<iframe>`` element.
 
    .. code-block:: html
 
-      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="402" height="402" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
+      <iframe title="The required title of the tool"
+         src="The URL of the tool, starting with https://">
+         Message displayed when the browser does not support IFrames.
+      </iframe>
 
 #. Replace the default URL in the ``src`` attribute
-   (``https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html``) with the
+   (``The URL of the tool, starting with https://``) with the
    URL of the page that contains the exercise or tool. **This URL must start
    with https**. Make sure that you do not delete the quotation marks that
    surround the URL.
@@ -41,7 +44,7 @@ component. You can also add text and images both before and after the iframe.
    ``<iframe>`` tags. Learners see this text only when they use a browser that
    does not support iframes.
 
-#. Select **OK** to close the HTML source code editor and return to the
+#. Select **Save** to close the HTML source code editor and return to the
    :ref:`visual editor<The Visual Editor>`.
 
 #. In the visual editor, replace the default text with your own text.
@@ -99,18 +102,38 @@ You can add these attributes in any order you want.
 For example, compare how the different settings in each of the ``<iframe>``
 elements below affect the iframe.
 
+In this first example, setting ``scrolling="yes"`` enables a vertical scroll bar on the right side.
+
 .. code-block:: html
 
-      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="442" height="200" marginwidth="20" marginheight="20" frameborder="1" scrolling="yes">You need an iFrame capable browser to view this.</iframe></p>
+      <iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html"
+         width="442"
+         height="200"
+         marginwidth="20"
+         marginheight="20"
+         frameborder="1"
+         scrolling="yes">
+            You need an iFrame capable browser to view this.
+      </iframe>
 
 .. image:: /_images/educator_how_tos/IFrame_3.png
    :alt: Iframe with only the top half showing and a vertical scroll bar on the
     side.
    :width: 500
 
+In this second example, setting ``scrolling="no"`` shows only the top half of the iframe with no scroll bar.
+
 .. code-block:: html
 
-      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="550" height="250" marginwidth="30" marginheight="60" frameborder="1" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
+      <iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html"
+         width="550"
+         height="250"
+         marginwidth="30"
+         marginheight="60"
+         frameborder="1"
+         scrolling="no">
+            You need an iFrame capable browser to view this.
+      </iframe>
 
 .. image:: /_images/educator_how_tos/IFrame_4.png
    :alt: Iframe with only the top half showing but no scroll bar available.
@@ -131,5 +154,7 @@ For more information about iframe attributes, see
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| 07/01/2025   | Leira (Curriuce.me            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1167)|
+| 2026-04-07   | sarina                        | Verawood       | Pass                                                          |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 07/01/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/1167)|
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
