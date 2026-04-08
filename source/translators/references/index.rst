@@ -1,6 +1,8 @@
 Translators: Reference
 ######################
 
+.. tags:: translator, reference
+
 .. contents:: Translation Reference Materials
    :local:
    :class: no-bullets

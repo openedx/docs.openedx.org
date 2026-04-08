@@ -1,6 +1,8 @@
 How to join a review team
 #########################
 
+.. tags:: translator, how-to
+
 Once you have a little practice translating for Open edX, you can optionally request to
 become a reviewer for a language. Review teams are incredibly important because all
 strings must be both translated and reviewed before they are published.

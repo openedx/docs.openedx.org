@@ -3,6 +3,8 @@
 Quick Start: How to start translating for Open edX
 ##################################################
 
+.. tags:: translator, quickstart
+
 .. contents:: Steps to translate strings in Open edX using Transifex
    :local:
    :class: no-bullets

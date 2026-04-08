@@ -1,6 +1,8 @@
 Working With Placeholders
 #########################
 
+.. tags:: translator, concept
+
 Strings in programs sometimes need to have data inserted into them before being
 displayed to the user. Data placeholders label the places in the string where
 the data will go.

@@ -3,6 +3,8 @@
 How to request a new language for translation
 #############################################
 
+.. tags:: translator, how-to
+
 Assumptions
 ***********
 
