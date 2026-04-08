@@ -4,6 +4,7 @@ Site Operators: How-tos
 .. tags:: site operator, how-to
 
 .. toctree::
+   :maxdepth: 1
    :glob:
 
    *
