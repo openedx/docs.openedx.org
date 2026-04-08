@@ -74,18 +74,18 @@ steps.
 
 #. In the **Course Run** field, indicate when the new course will be offered.
 
-  Together, the course number, the organization, and the course run are used
-  to create the URL for the new course. The combination of these three
-  values must be unique for the new course. In addition, the total number of
-  characters used for the name, organization, number, and run must be 65 or
-  fewer.
+   Together, the course number, the organization, and the course run are used
+   to create the URL for the new course. The combination of these three
+   values must be unique for the new course. In addition, the total number of
+   characters used for the name, organization, number, and run must be 65 or
+   fewer.
 
 #. Select **Create Re-Run**. Your **My Courses** dashboard opens with a status message about the course creation process.
 
-  Duplication of the course structure and content takes several minutes. You
-  can work in other parts of Studio or in the LMS, or on other web sites,
-  while the process runs. The new course appears on your **My Courses**
-  dashboard in Studio when configuration is complete.
+   Duplication of the course structure and content takes several minutes. You
+   can work in other parts of Studio or in the LMS, or on other web sites,
+   while the process runs. The new course appears on your **My Courses**
+   dashboard in Studio when configuration is complete.
 
 .. _Update the New Course:
 
@@ -127,6 +127,18 @@ course for release.
   new drag and drop problem type and adding these problems to your course, see
   :ref:`About the Drag and Drop Problem`.
 
+* For courses migrating from the legacy forums experience to the new one
+  (introduced in the :ref:`2023 Olive release <Olive discussions>`), remove all
+  discussion XBlocks, and enable discussion forums on all the units you want
+  discussions on.
+
+* Make sure all sections have been published (see :ref:`Controlling Content
+  Visibility`).
+
+* Certificate settings should be reviewed to ensure certificates are properly
+  generated with the new course run. See :ref:`Configure Certificate
+  Availability and Timing`.
+
 The following additional changes can also improve the experience of learners
 who enroll in the new course run.
 
@@ -150,7 +162,7 @@ who enroll in the new course run.
 * Create initial posts for discussion topics and an "introduce yourself"
   post. See :ref:`About Course Discussions`.
 
-* Add initial wiki articles.
+* If using the :ref:`course-wide wiki <About Course Wiki>`, consider making initial wiki articles.
 
 * For a course that includes core problem types, including checkbox, text
   input, or math expression input problems, review the
@@ -183,6 +195,8 @@ for launch, see :ref:`Course Launch Checklist`.
 
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                |
++--------------+-------------------------------+----------------+--------------------------------------------------------------+
+|04/10/2026    | sarina                        | Verawood       |Pass                                                          |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
 |06/30/2025    | John (Curricu.me)             | Sumac          |Pass                                                          |
 +--------------+-------------------------------+----------------+--------------------------------------------------------------+
