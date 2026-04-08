@@ -26,6 +26,7 @@ upgrade: $(COMMON_CONSTRAINTS_TXT)  ## update the pip requirements files to use 
 	$(PIP_COMPILE) -o requirements/pip-tools.txt requirements/pip-tools.in
 	pip install -qr requirements/pip.txt
 	pip install -qr requirements/pip-tools.txt
+	$(PIP_COMPILE) -o requirements/base.txt requirements/base.in
 
 requirements:
 	pip install -r requirements/pip-tools.txt
