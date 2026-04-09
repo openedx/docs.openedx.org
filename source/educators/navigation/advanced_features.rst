@@ -197,3 +197,14 @@ Add Custom CSS or JavaScript Code to a Course
 
 
    ../how-tos/add_custom_css_or_javascript_code_to_a_course.rst
+
+
+Use Custom Courses (CCX)
+******************************************************************
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+
+   ../how-tos/enable_ccx.rst
