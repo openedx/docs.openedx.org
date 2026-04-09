@@ -6,7 +6,7 @@ The Content Libraries Redesign Initiative
 Overview
 **********
 
-The Content Libraries redesign project includes a suite of new features and
+The :ref:`Content Libraries redesign project <Content Libraries Overview>` includes a suite of new features and
 functionality that make Libraries centralized hubs for creating, managing and
 reusing content.
 
