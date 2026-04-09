@@ -42,8 +42,7 @@ original version in the legacy library. For details, refer to :ref:`Edit Compone
 a Legacy Library` and :ref:`Get the Latest Version of Library Content <Get the Latest Version of Legacy Library Content>`.
 
 
-.. seealso::
- 
+.. seealso:: 
 
  :ref:`Content Libraries Redesign Teak`
  
