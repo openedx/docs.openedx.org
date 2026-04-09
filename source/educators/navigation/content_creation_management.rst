@@ -43,6 +43,7 @@ Work with Content Libraries
    :maxdepth: 1
    :glob:
 
+   ../concepts/instructional_design/content_libraries.rst
    ../how-tos/course_development/navigate_library_homepage.rst
    ../how-tos/course_development/create_new_library.rst
    ../how-tos/course_development/use_content_sidebars_to_manage_content.rst
@@ -58,6 +59,9 @@ Work with Content Libraries
    ../how-tos/course_development/add_library_content_to_a_course.rst
    ../how-tos/course_development/add_a_problem_bank_to_your_course.rst
    ../how-tos/course_development/sync_a_library_update_to_your_course.rst
+   ../how-tos/course_development/override_library_content_title.rst
+   ../how-tos/course_development/override_library_text_component.rst
+   ../how-tos/course_development/override_library_text_component_in_structural_block.rst
 
 .. _Add Text Components:
 
