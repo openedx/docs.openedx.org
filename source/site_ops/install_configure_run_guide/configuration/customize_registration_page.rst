@@ -40,11 +40,11 @@ Method 1: Redefine constants using Django admin and `Site configurations` API. (
         {
             "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true",
             "MFE_CONFIG": {
-                "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true"
+               "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true"
             },
             "REGISTRATION_EXTRA_FIELDS": {
-                "country": "required",
-                "gender": "optional"
+               "country": "required",
+               "gender": "optional"
             }
         }
 
@@ -86,9 +86,9 @@ Everything said above in instructions **A** also applies to adding fields that d
 #. Extend user profile model with new fields. An external plugin can be used for this (recommended). Also user profile model can be expanded inside edx-platform code base (not recommended). `New fields must be migrated to the database.`
 #. Create a form with additional user profile fields and pass the path to this form into `settings`. The form can also be created in the Open edX plugin. `Edx-cookiecutters <https://github.com/openedx/edx-cookiecutters>`_ can be used for the plugin creation.
 #. Additional settings can be passed via `Site configurations` in the LMS admin. This is described in instructions **A**. 
-   Example:
+Example:
 
-    .. code-block:: json
+   .. code-block:: json
 
         {
             "REGISTRATION_EXTENSION_FORM": "you_application.form.ExtendedUserProfileForm",
@@ -112,7 +112,7 @@ Everything said above in instructions **A** also applies to adding fields that d
 
 .. note:: Below, you can read in detail how to create a new Application and Form, what happens when you redefine each constant, and how they can be redefined.
 
-
+*******************************************************
 Configuring Custom Registration Fields on the Back-End
 *******************************************************
 To configure dynamic registration fields within Authn, perform the following steps in Open edX LMS settings or your custom form plugin:
@@ -127,6 +127,7 @@ To configure dynamic registration fields within Authn, perform the following ste
 .. warning:: If this step is missed, fields from the extension form will not be saved. For more information, please see the condition in: `helper.py <https://github.com/openedx/edx-platform/blob/master/openedx/core/djangoapps/user_authn/api/helper.py#L97>`_.
 #. After adding all required settings, verify that the context has been properly extended with the new fields by inspecting the networks tab in your browser's developer tools.
 
+************************************************
 Configuring Dynamic Registration Fields in Authn
 ************************************************
 Enable dynamic fields in the MFE. Ensure that `ENABLE_DYNAMIC_REGISTRATION_FIELDS` is enabled for the MFE. This can be configured via env tokens or through site configurations if MFE CONFIG API is enabled.
