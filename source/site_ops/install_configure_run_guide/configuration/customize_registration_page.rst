@@ -1,8 +1,8 @@
 .. _Customize Registration Page:
 
-#######################################################
-Adding Custom Fields to the Registration Page in Authn
-#######################################################
+################################################
+Adding Custom Fields to the Registration Page
+################################################
 
 .. tags:: site operator
 
@@ -40,11 +40,13 @@ Method 1: Redefine constants using Django admin and `Site configurations` API. (
         {
             "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true",
             "MFE_CONFIG": {
-               "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true"
+            "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true"
             },
+
             "REGISTRATION_EXTRA_FIELDS": {
-               "country": "required",
-               "gender": "optional"
+            "country": "required",
+            "gender": "optional"
+
             }
         }
 
@@ -132,7 +134,7 @@ Configuring Dynamic Registration Fields in Authn
 ************************************************
 Enable dynamic fields in the MFE. Ensure that `ENABLE_DYNAMIC_REGISTRATION_FIELDS` is enabled for the MFE. This can be configured via env tokens or through site configurations if MFE CONFIG API is enabled.
 
-
+.. include:: /links.txt
 
 **Maintenance chart**
 
