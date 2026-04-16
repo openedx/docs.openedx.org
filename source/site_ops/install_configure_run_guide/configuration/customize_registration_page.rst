@@ -90,7 +90,7 @@ Example:
 
    .. code-block:: json
 
-        {
+         {
             "REGISTRATION_EXTENSION_FORM": "you_application.form.ExtendedUserProfileForm",
 
             "extended_profile_fields": [
@@ -99,7 +99,7 @@ Example:
                 "confirm_age_consent",
                 "something_else"
             ]
-        }
+         }
 
 #. In total, you must migrate to DB new user profile fields and redefine 3 constants using the method that is most preferable for you:
    .. code-block:: python
