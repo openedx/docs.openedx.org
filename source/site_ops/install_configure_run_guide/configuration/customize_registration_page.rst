@@ -1,8 +1,8 @@
 .. _Customize Registration Page:
 
-################################################
+##############################################
 Adding Custom Fields to the Registration Page
-################################################
+##############################################
 
 .. tags:: site operator
 
@@ -49,6 +49,7 @@ Method 1: Redefine constants using Django admin and `Site configurations` API. (
 
             }
         }
+
 
 #. All possible fields can be found in `EXTRA_FIELDS <https://github.com/openedx/edx-platform/blob/a9355852edede9662762847e0d168663083fc816/openedx/core/djangoapps/user_authn/api/helper.py#L20-L39>`_.
 #. REST API gets cached. If you are in a hurry, you can do this command: `tutor local exec redis redis-cli flushall`. Also, you can wait a few minutes until the cache is invalidated.
