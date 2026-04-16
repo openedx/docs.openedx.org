@@ -33,25 +33,25 @@ A. Add Fields that Already Exist as Columns in the User Profile Model
 You need to redefine several constants in the settings. You can use various methods for this:
 
 Method 1: Redefine constants using Django admin and ``Site configurations`` API. (recommended)
----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 #. Go to ``Site configurations`` in admin: {{LMS}}/admin/site_configuration/siteconfiguration/
 
 #. Add new settings to OrderedDict (create new ``Site configurations`` if it was not before)
    .. code-block:: json
 
-        {
-            "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true",
-            "MFE_CONFIG": {
-            "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true"
-            },
+      {
+         "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true",
+         "MFE_CONFIG": {
+         "ENABLE_DYNAMIC_REGISTRATION_FIELDS": "true"
+         },
 
-            "REGISTRATION_EXTRA_FIELDS": {
-            "country": "required",
-            "gender": "optional"
+         "REGISTRATION_EXTRA_FIELDS": {
+         "country": "required",
+         "gender": "optional"
 
-            }
-        }
+         }
+      }
 
 
 #. All possible fields can be found in `EXTRA_FIELDS <https://github.com/openedx/edx-platform/blob/a9355852edede9662762847e0d168663083fc816/openedx/core/djangoapps/user_authn/api/helper.py#L20-L39>`_.
