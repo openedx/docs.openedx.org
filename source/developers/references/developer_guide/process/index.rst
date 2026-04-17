@@ -12,9 +12,9 @@ its follow-up, :ref:`qs Dev Contributing`.
 
 Also useful is the `Intro to the Open edX Project & Contributing onboarding
 course
-<https://training.openedx.io/courses/course-v1:OpenedX+OEX101+2023/about>`_ as
+<https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+OEX101+2023/about>`_ as
 well as the `Open edX Developer's Onboarding course
-<https://training.openedx.io/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_.
+<https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_.
 
 .. toctree::
     :maxdepth: 2
