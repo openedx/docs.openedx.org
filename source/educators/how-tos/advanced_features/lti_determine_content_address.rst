@@ -43,7 +43,7 @@ To find the course ID for your course, follow these steps.
 
 For example, you open the "Open edX Demo Course" course to the **Course**
 page for the course. The URL for the **Course** page is
-``https://training.openedx.io/courses/course-v1:OpenedX+DemoX+Demo_Course/about``. From
+``https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+DemoX+Demo_Course/about``. From
 the URL, you determine that the course ID is ``course-v1:OpenedX+DemoX+Demo_Course``.
 
 The same course ID applies to every item of content in the course.

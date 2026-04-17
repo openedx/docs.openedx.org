@@ -256,9 +256,9 @@ could benefit from, please post on the `Open edX forums`_.
 
    :ref:`Open edX Developer's Guide` (Reference)
 
-   `Intro to the Open edX Project & Contributing <https://training.openedx.io/courses/course-v1:OpenedX+OEX101+2023/about>`_ (Training Course)
+   `Intro to the Open edX Project & Contributing <https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+OEX101+2023/about>`_ (Training Course)
 
-   `Open edX Developer Onboarding <https://training.openedx.io/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_ (Training Course)
+   `Open edX Developer Onboarding <https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+OEX-Dev101+2024/about>`_ (Training Course)
 
 
 .. include:: /links.txt
