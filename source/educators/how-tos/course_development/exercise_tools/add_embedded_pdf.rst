@@ -10,7 +10,7 @@ The PDF embed tool allows you to add PDF documents to your course. It uses an
 the browser's built-in PDF viewing capability, and provides options for
 downloading the document or its original source.
 
-.. image:: /_images/educator_references/pdf_embed.png
+.. image:: /_images/educator_how_tos/pdf_embed.png
   :alt: An embedded PDF showing trigonometry functions.
   :width: 500
 
@@ -46,8 +46,8 @@ How to Embed PDFs in Open edX Studio
    customization form will appear, allowing you to set the settings of
    the PDF embed block.
 
-   .. image:: /_images/educator_references/pdf_editor.png
-     :alt: The PDF embed component in Studio.
+   .. image:: /_images/educator_how_tos/pdf_editor.png
+     :alt: The PDF embed component in Studio modal dialogue has a field to provide a file upload. It has a checkbox to show the PDF download link, and optional fields to provide the source document, as explained in the following steps in this tutorial.
 
 #. In the header of the form, click the pencil to set the title of the block.
 
