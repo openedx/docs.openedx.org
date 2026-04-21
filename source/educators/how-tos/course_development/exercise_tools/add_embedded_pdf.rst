@@ -48,7 +48,6 @@ How to Embed PDFs in Open edX Studio
 
    .. image:: /_images/educator_references/pdf_editor.png
      :alt: The PDF embed component in Studio.
-     :width: 400
 
 #. In the header of the form, click the pencil to set the title of the block.
 
