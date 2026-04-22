@@ -24,7 +24,7 @@ This tutorial assumes the following:
   as documented in `Understanding User Roles`_. You will start off in the "Translator"
   role.
 
-* You have joined the Transifex `openedx-translations project`_ with the language(s) you wish
+* You have joined the `Transifex Open edX project`_ with the language(s) you wish
   to translate to.
 
 * You have to be fluent in both English and the language(s) you are translating to. You should
@@ -33,22 +33,13 @@ This tutorial assumes the following:
   you are capable of translating in both English and your target language. Open edX is
   written in English, so all translations are done from English to another language.
 
-* You have joined the Open edX Slack and Discourse (https://discuss.openedx.org) . Links to join are available at the
-  `Open edX Community`_ page. Translation help is available in the
-  ``#translations-working-group`` Slack channel!
+* You have joined the Open edX Slack (https://openedx.org/slack) and Discourse (https://discuss.openedx.org). Translation help is available in the
+  ``#wg-translations`` Slack channel!
 
-* Note: If you want to translate for the Open edX platform, you should follow the steps above. 
-  However, translating the edX website (https://openedx.org) occurs in a
-  different application, so in order to become a collaborator with
-  G-translate, you should contact our Open edX Community Manager Eden
-  Huthmacher by writing an `email <ehuthmacher@tcril.org>`_.
-
-
-.. _getting   started guide: https://docs.transifex.com/getting-started-1/translators
-.. _Translating with the Web Editor: https://docs.transifex.com/translation/translating-with-the-web-editor
-.. _openedx-translations project: https://explore.transifex.com/open-edx/openedx-translations/
-.. _Open edX Community: https://openedx.org/community/connect/
-.. _Understanding User Roles: https://docs.transifex.com/teams/understanding-user-roles
+.. _getting   started guide: https://help.transifex.com/en/articles/6248698-getting-started-as-a-translator
+.. _Translating with the Web Editor: https://help.transifex.com/en/articles/6318216-translating-with-the-web-editor
+.. _Transifex Open edX project: https://explore.transifex.com/open-edx/
+.. _Understanding User Roles: https://help.transifex.com/en/articles/6223416-understanding-user-roles
 
 Finding a string to translate
 *****************************
