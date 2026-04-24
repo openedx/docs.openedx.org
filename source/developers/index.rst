@@ -68,6 +68,7 @@ Open edX Developers
 
       * :doc:`references/running_pr_tests`
       * :doc:`references/developer_guide/index`
+      * :doc:`openedx-proposals:index`
       * :doc:`edx-platform:index`
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
       * :doc:`references/aspects_home`
