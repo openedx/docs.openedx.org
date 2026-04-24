@@ -1,6 +1,7 @@
 References Home
 ###############
 
+:doc:`openedx-proposals:index` — Open edX Enhancement Proposals (OEPs) are design documents that describe accepted changes to the Open edX platform. They cover architecture decisions, best practices, and processes that apply across the project.
 
 Per Repo Documentation
 **********************
