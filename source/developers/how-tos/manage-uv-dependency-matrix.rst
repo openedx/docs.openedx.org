@@ -178,5 +178,5 @@ from the matrix entirely.
      - Test situation
    * - 2026-04-27
      - @feanil
-     - N/A
-     - N/A
+     - main
+     - Pass
