@@ -366,14 +366,36 @@ Tags
 ====
 
 Tags appear as links (e.g. #Administrator) at the top of the article. If you click on the tag, it will take you to a page listing all files with that tag. This allows users to search for documents with a particular tag. A typical document should have at least two tags:
-- One or more persona tags: The document is tagged with the intended reader persona type. If the document is relevant to more than one audience, then you may use more than one tag. Educator, developer, site operator, community, documentor, translator.
-- One (and only one) diataxis tag: The document is tagged with the diataxis type it belongs to. Concept, reference, quick-start, how-to.
 
-The syntax of tags is a directive. It should be followed by the tag names, such as ``.. educators, reference:``. It renders as follows:
+- One or more persona tags: The document is tagged with the intended reader persona type. If the document is relevant to more than one audience, then you may use more than one tag.
+
+  - Valid Tags
+
+    - educator
+    - developer
+    - site operator
+    - community
+    - documentor
+    - translator
+
+- One (and only one) diataxis tag: The document is tagged with the diataxis type it belongs to.
+
+  - Valid Tags
+
+    - concept
+    - reference
+    - quick-start
+    - how-to
+
+The syntax of tags is a directive. It should be followed by the tag names, such as:
 
 .. code-block:: RST
 
-    tags:: educator, reference
+    .. tags:: documentor, reference
+
+It renders as:
+
+.. tags:: documentor, reference
 
 .. note:: Tags should be placed after the first heading in the document.
 
