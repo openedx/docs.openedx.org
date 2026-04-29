@@ -13,8 +13,9 @@ Overview: The New Libraries Experience
 ..  image:: /_images/educator_how_tos/library_homepage.png
   :alt: The Library Homepage with content units in individual tiles
 
-The relaunch of Libraries includes a suite of new features and functionality
-that make Libraries centralized hubs for creating, managing and reusing content. 
+The relaunch of :ref:`Content Libraries <Content Libraries Overview>` includes a
+suite of new features and functionality that make Libraries centralized hubs for
+creating, managing and reusing content. 
 
 Authors can create content independently of the course outline, and reuse it in
 as many courses as they'd like, with synced updates. 

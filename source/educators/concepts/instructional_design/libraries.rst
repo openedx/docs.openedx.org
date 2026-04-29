@@ -40,7 +40,6 @@ The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page.
 
 .. seealso::
- 
 
  :ref:`Content Libraries Redesign Teak`
 

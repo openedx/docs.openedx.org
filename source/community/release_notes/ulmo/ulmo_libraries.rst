@@ -4,7 +4,7 @@ Library Updates in the Ulmo Release
 ###################################
 
 Ulmo adds authoring support for Sections and Subsections (also known as
-"structural blocks") in Libraries. You can now author all levels of content for
+"structural blocks") in :ref:`Libraries <Content Libraries Overview>`. You can now author all levels of content for
 reuse in courses. Included are improvements to syncing changes made in a Content
 Library to content that has been reused in courses.
 
