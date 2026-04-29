@@ -30,12 +30,12 @@ Each LTI passport includes three component text strings that are separated by
 colon characters. The component strings are: the LTI ID, the client key, and
 the client secret.
 
--  The **LTI ID** is a value that you create to refer to the remote LTI tool
+-  The **LTI Passport ID** is a value that you create to refer to the remote LTI tool
    provider. You should create an LTI ID that you can remember easily.
 
    The LTI ID can contain uppercase and lowercase alphanumeric characters, as
    well as underscore characters (_). It can be any length. For example, you
-   can create an LTI ID that is as simple as ``test_lti_id``, or your LTI ID
+   can create an LTI Passport ID that is as simple as ``test_lti_id``, or your LTI Passport ID
    can be a string of numbers and letters such as  ``id_21441`` or
    ``book_lti_provider_from_new_york``.
 
@@ -50,10 +50,10 @@ the client secret.
    something as simple as ``secret``, or it might be a string of numbers and
    letters such as ``23746387264`` or ``yt4984yr8``.
 
-To create an LTI passport, combine the LTI ID, client key,
+To create an LTI passport, combine the LTI Passport ID, client key,
 and client secret in the following format (be sure to include the colons).
 
-``{your_lti_id}:{client_key}:{client_secret}``
+``{your_lti_passport_id}:{client_key}:{client_secret}``
 
 The following example LTI passports show the format of the
 passport string.
