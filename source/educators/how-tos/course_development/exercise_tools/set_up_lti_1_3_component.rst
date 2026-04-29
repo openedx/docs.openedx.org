@@ -26,11 +26,11 @@ To add an LTI 1.3 component to a course unit, follow these steps.
 #. Enter the LTI 1.3 settings provided from your tool. For basic LTI 1.3
    tools, without LTI Advantage, you need to set the following settings:
 
-   * **LTI 1.3 Tool Launch URL** (can also be called redirect url)
-   * **LTI 1.3 OIDC URL** (can also be called login url)
+   * **Launch URL** (can also be called redirect url)
+   * **Tool Initiate Login URL (OIDC)** (can also be called login url)
 
    To enable *LTI Advantage* features, such as grades pass back and Deep
-   Linking, you also need to set **LTI 1.3 Tool Public Key** with a key
+   Linking, you also need to set **Tool Public Key** with a key
    provided by the LTI tool. The key will look similar to this example:
 
    .. code-block:: bash
