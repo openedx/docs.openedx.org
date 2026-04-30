@@ -35,6 +35,9 @@ requirements:
 serve_docs: ## serve the built docs locally to preview the site in the browser
 	sphinx-autobuild source $(BUILDDIR)/html --ignore '**/_tags/*'
 
+check_docs: ## emulate the build step on RTD to flush out errors ahead pushing
+	uv run sphinx-build -T -W --keep-going source build/html 
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
