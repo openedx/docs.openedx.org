@@ -23,6 +23,7 @@ These include:
 * Making your first commit;
 * Submitting your first pull request (PR);
 * :ref:`Signing your Contributor License Agreement (CLA) <Signing CLA>`
+* Reviewing the `Open edX AI Policy <https://github.com/openedx/.github/blob/master/AI_POLICY.md>`_
 
 We assume you are comfortable with the command line, and understand the basics
 of using Git, GitHub, Docker, and python basics.

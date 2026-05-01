@@ -37,6 +37,11 @@ Here are some resources for getting started:
 * `Add new documentation through GitHub <https://docs.openedx.org/en/latest/documentors/quickstarts/quick_start_add_doc.html>`_
 * More resources available at the `Documentors Homepage <https://docs.openedx.org/en/latest/documentors/index.html>`_
 
+AI Policy
+**********
+
+Please review the `Open edX AI Policy <https://github.com/openedx/.github/blob/master/AI_POLICY.md>`_ prior to developing documentation with AI assistance.
+
 Propose Changes While Viewing Documentation
 *******************************************
 
