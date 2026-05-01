@@ -150,7 +150,7 @@ It is recommended that reviewers approve the GitHub actions if approval is requi
 
 When GitHub detects that the PR branch is out of date with the base, it is recommended that the reviewer update the branch using a merge commit.  This keeps the history clear and reduces days of lead time over pushing this back to the original author.  However, reviewers may ask authors to resolve any conflicts between their branch and the base.
 
-.. Reviewer Guidelines of the AI Policy: https://github.com/openedx/.github/blob/master/AI_POLICY.md#section-2-for-reviewers
+.. _Reviewer Guidelines of the AI Policy: https://github.com/openedx/.github/blob/master/AI_POLICY.md#section-2-for-reviewers
 
 Managing Upgrade PRs
 ********************
