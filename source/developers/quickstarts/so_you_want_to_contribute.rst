@@ -27,6 +27,11 @@ later.
 #. If your work will be contributed as part of a company or institution, have
    your team or company lead email ``legal@axim.org`` with your information.
 
+AI Policy
+**********
+
+Please review the `Open edX AI Policy <https://github.com/openedx/.github/blob/master/AI_POLICY.md>`_ prior to developing code with AI assistance.
+
 
 Process Overview
 **************************

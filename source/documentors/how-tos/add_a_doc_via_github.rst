@@ -23,6 +23,10 @@ Add New Documentation via GitHub
 
 .. include:: ../how-tos/reusable_content/create_github_account.txt
 
+AI Policy
+**********
+
+Please review the `Open edX AI Policy <https://github.com/openedx/.github/blob/master/AI_POLICY.md>`_ prior to developing documentation with AI assistance.
 
 
 1. Find Where To Add a New Document

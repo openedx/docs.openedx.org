@@ -140,6 +140,8 @@ One of the scarcest resources of an open-source project is contributor and maint
 
 As a maintainer, your goal should be keeping the time to review and finalize a PR as predictable and as short as is reasonable.  Finalizing a PR can mean rejecting it. For a contributor, knowing that a PR won't be accepted and why provides them appropriate feedback and lets them decide what to do next.
 
+You're within your rights to close a PR that you feel may be AI-generated. Please review the `Reviewer Guidelines of the AI Policy`_ to understand best practices here.
+
 If your team schedules reviews for future sprints, providing that information to the author is helpful to set their expectations and plan accordingly. Leave a comment indicating when you expect the review to occur and ensure that the status on the contributions board is "Scheduled for Eng Review."
 
 When reviewing a PR, we want to focus on reducing the back-and-forth that increases lead time.  In our globally distributed project, a comment and response cycle can easily take 24 hours.  Ideally, both contributor and reviewer can both focus their attention on finalizing a PR at the same time.
@@ -147,6 +149,8 @@ When reviewing a PR, we want to focus on reducing the back-and-forth that increa
 It is recommended that reviewers approve the GitHub actions if approval is required.  GitHub requires approval from new contributors to any repository, so even folks who have contributed to the project, but not the particular repository, require approval.
 
 When GitHub detects that the PR branch is out of date with the base, it is recommended that the reviewer update the branch using a merge commit.  This keeps the history clear and reduces days of lead time over pushing this back to the original author.  However, reviewers may ask authors to resolve any conflicts between their branch and the base.
+
+.. _Reviewer Guidelines of the AI Policy: https://github.com/openedx/.github/blob/master/AI_POLICY.md#section-2-for-reviewers
 
 Managing Upgrade PRs
 ********************
