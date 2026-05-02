@@ -7,3 +7,4 @@ Extending the edX Platform
 
     extending
     xblocks
+    xblock_asides
