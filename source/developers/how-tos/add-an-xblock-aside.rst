@@ -32,7 +32,7 @@ Before you start, make sure you have:
   :class:`~web_fragments.fragment.Fragment`. If you have never written
   one, complete :ref:`XBlock Aside Quickstart` first.
 
-This recipe builds a feedback-badge aside that adds a "Report an issue"
+This recipe builds a feedback-badge Aside that adds a "Report an issue"
 link to Problem and Video blocks, with a course-author setting to enable
 or disable it per block. Substitute your own block types and behavior as
 needed.
@@ -40,7 +40,7 @@ needed.
 Step 1: Scaffold a Python package
 *********************************
 
-Create a new directory for the aside package, with the layout below:
+Create a new directory for the Aside package, with the layout below:
 
 .. code-block:: text
 
@@ -48,11 +48,11 @@ Create a new directory for the aside package, with the layout below:
    ├── pyproject.toml
    ├── feedback_badge_aside/
    │   ├── __init__.py
-   │   └── aside.py
+   │   └── Aside.py
    └── README.rst
 
 The package name (``feedback_badge_aside``) and the module name
-(``aside.py``) are conventions; pick names that describe your aside.
+(``Aside.py``) are conventions; pick names that describe your Aside.
 
 Populate ``pyproject.toml`` with the package metadata and a placeholder
 for the entry point you will add in :ref:`Step 6 <register entry point>`.
@@ -60,9 +60,9 @@ for the entry point you will add in :ref:`Step 6 <register entry point>`.
 .. code-block:: toml
 
    [project]
-   name = "feedback-badge-aside"
+   name = "feedback-badge-Aside"
    version = "0.1.0"
-   description = "An XBlock aside that adds a feedback link to Problem and Video blocks."
+   description = "An XBlock Aside that adds a feedback link to Problem and Video blocks."
    requires-python = ">=X.Y"  # set to the minimum Python version for the target Open edX release
    dependencies = [
        "XBlock",
@@ -73,10 +73,10 @@ for the entry point you will add in :ref:`Step 6 <register entry point>`.
    requires = ["setuptools>=61.0"]
    build-backend = "setuptools.build_meta"
 
-Step 2: Define the aside class
+Step 2: Define the Aside class
 ******************************
 
-In ``feedback_badge_aside/aside.py``, define a subclass of
+In ``feedback_badge_aside/Aside.py``, define a subclass of
 :class:`~xblock.core.XBlockAside`.
 
 .. code-block:: python
@@ -94,7 +94,7 @@ Step 3: Declare fields for course-author control
 ************************************************
 
 Add a Boolean field that course authors can toggle to enable or disable
-the aside on a per-block basis. Scope the field to ``Scope.settings``,
+the Aside on a per-block basis. Scope the field to ``Scope.settings``,
 which means the value is stored per block and travels with the course in
 OLX export and import.
 
@@ -169,19 +169,19 @@ above keep the example readable.
 Step 5: Filter to specific block types
 **************************************
 
-By default, an aside applies to every block. Override
+By default, an Aside applies to every block. Override
 :meth:`~xblock.core.XBlockAside.should_apply_to_block` to restrict the
-aside to the block types you support.
+Aside to the block types you support.
 
 .. code-block:: python
 
    @classmethod
    def should_apply_to_block(cls, block):
-       """Apply this aside to Problem and Video blocks only."""
+       """Apply this Aside to Problem and Video blocks only."""
        block_type = getattr(block, "category", None)
        return block_type in {"problem", "video"}
 
-Add this classmethod to ``FeedbackBadgeAside``. Without it, the aside
+Add this classmethod to ``FeedbackBadgeAside``. Without it, the Aside
 would attempt to render on every block in every course, including blocks
 where the markup makes no sense.
 
@@ -199,22 +199,22 @@ the import and export paths where these may not be available; see
 
 .. _register entry point:
 
-Step 6: Register the aside as an entry point
+Step 6: Register the Aside as an entry point
 ********************************************
 
 In ``pyproject.toml``, add an entry point in the ``xblock_asides.v1``
 group. The entry point name on the left side of the equals sign becomes
-the aside's type name and is used as the XML tag during OLX
+the Aside's type name and is used as the XML tag during OLX
 serialization.
 
 .. code-block:: toml
 
    [project.entry-points."xblock_asides.v1"]
-   feedback_badge = "feedback_badge_aside.aside:FeedbackBadgeAside"
+   feedback_badge = "feedback_badge_aside.Aside:FeedbackBadgeAside"
 
 Choose a type name that is unlikely to collide with other asides on the
 same deployment. Treat the name as a stable public identifier; renaming
-it later breaks OLX round-trips of any course that has used the aside.
+it later breaks OLX round-trips of any course that has used the Aside.
 
 Step 7: Install the package and restart services
 ************************************************
@@ -230,10 +230,10 @@ Tutor:
 Step 8: Enable asides in the LMS
 ********************************
 
-The edx-platform LMS gates aside rendering on a Django configuration
+The edx-platform LMS gates Aside rendering on a Django configuration
 model, ``XBlockAsidesConfig``, defined in
 ``lms/djangoapps/lms_xblock/models.py``. Until this model has an enabled
-revision, no aside renders in the LMS regardless of installation or
+revision, no Aside renders in the LMS regardless of installation or
 registration.
 
 Open the LMS Django admin and create a new configuration revision:
@@ -248,21 +248,21 @@ revision and the most recent enabled revision is treated as current.
 
 The same form has a ``Disabled blocks`` field, a space-separated list of
 block types on which asides will **never** render in the LMS. The
-default value is ``about course_info static_tab``. If your aside should
+default value is ``about course_info static_tab``. If your Aside should
 apply to one of these block types, remove that type from the list.
 
-There is no per-course allowlist and no per-aside-type allowlist. Once
-``XBlockAsidesConfig`` is enabled and your aside's host block type is
-not in ``disabled_blocks``, the runtime offers your aside to every
-matching block in every course. Per-aside filtering happens through
-your aside's own ``should_apply_to_block`` classmethod, which you wrote
+There is no per-course allowlist and no per-Aside-type allowlist. Once
+``XBlockAsidesConfig`` is enabled and your Aside's host block type is
+not in ``disabled_blocks``, the runtime offers your Aside to every
+matching block in every course. Per-Aside filtering happens through
+your Aside's own ``should_apply_to_block`` classmethod, which you wrote
 in Step 5.
 
 The Studio runtime does not consult this configuration. Asides render
 in Studio author views independently of ``XBlockAsidesConfig``, as soon
 as they are installed and registered.
 
-Step 9: Verify the aside is rendering
+Step 9: Verify the Aside is rendering
 *************************************
 
 Open a course that contains a Problem or Video block, view it as a
@@ -270,7 +270,7 @@ learner, and confirm the feedback link appears at the bottom of the
 block. To verify the author-side UI, open the same block in Studio and
 confirm the toggle appears in the studio view.
 
-If the aside does not appear:
+If the Aside does not appear:
 
 #. Check that the entry point is registered. Run:
 
@@ -279,17 +279,17 @@ If the aside does not appear:
       from xblock.core import XBlockAside
       print(list(XBlockAside.load_classes()))
 
-   in a Django shell. Your aside's type name should be in the list.
+   in a Django shell. Your Aside's type name should be in the list.
 
 #. Check that ``should_apply_to_block`` returns ``True`` for the block
    you are testing.
 #. Check the LMS and Studio logs for any exceptions raised inside your
-   aside view.
+   Aside view.
 
 Next Steps
 **********
 
-Once the basic aside is working, common follow-ups include:
+Once the basic Aside is working, common follow-ups include:
 
 * **Add an AJAX handler.** Decorate a method with ``@XBlock.handler``
   and call it from the rendered fragment with
@@ -297,13 +297,13 @@ Once the basic aside is working, common follow-ups include:
 * **Render from templates.** Use the runtime's template service to
   render HTML from ``.html`` files in your package's static assets.
 * **Persist user-specific state.** Add fields with
-  ``Scope.user_state`` to store per-learner data alongside the aside.
-* **Customize layout.** If you need the aside to render somewhere other
+  ``Scope.user_state`` to store per-learner data alongside the Aside.
+* **Customize layout.** If you need the Aside to render somewhere other
   than after the host block, override the runtime's ``layout_asides``
   in your platform integration.
 
 For the complete API surface, see :ref:`XBlock Asides Reference`. For
-the conceptual background, including known limitations of the aside
+the conceptual background, including known limitations of the Aside
 mechanism, see :ref:`About XBlock Asides`.
 
 .. seealso::
@@ -315,7 +315,7 @@ mechanism, see :ref:`About XBlock Asides`.
        The complete API surface for ``XBlockAside`` and its runtime hooks.
 
    :ref:`XBlock Aside Quickstart` (quickstart)
-       A beginner-friendly walkthrough from zero to a running aside.
+       A beginner-friendly walkthrough from zero to a running Aside.
 
 **Maintenance chart**
 
