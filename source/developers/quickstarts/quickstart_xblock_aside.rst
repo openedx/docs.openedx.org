@@ -186,9 +186,6 @@ If the banner does not appear, work through these checks in order:
    The list should include ``hello_aside``. If it does not, the entry
    point is not installed; recheck Step 3 and Step 4.
 
-#. **The aside is allowlisted.** Confirm Step 5 was applied to the
-   course you are viewing.
-
 #. **The block type matches.** Your test block must have
    ``category == "problem"``. A Video block, an HTML block, or a
    Discussion block will not trigger the aside.

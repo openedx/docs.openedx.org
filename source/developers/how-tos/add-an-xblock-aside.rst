@@ -6,7 +6,7 @@ Add an XBlock Aside
 
 .. tags:: developer, how-to
 
-Add an XBlock aside to attach behavior, UI, or stored data to one or more
+Add an XBlock Aside to attach behavior, UI, or stored data to one or more
 existing XBlock types without modifying those XBlocks. Use this recipe
 when you want a single, installable Python package that decorates the
 views of XBlocks in your platform.
@@ -227,16 +227,6 @@ Tutor:
    tutor mounts add /path/to/feedback_badge_aside
    tutor dev launch
 
-Or, if you are managing the environment manually:
-
-.. code-block:: bash
-
-   pip install -e /path/to/feedback_badge_aside
-
-After installing, restart both the LMS and Studio. Asides are discovered
-at process start, so newly installed asides do not appear until the
-services restart.
-
 Step 8: Enable asides in the LMS
 ********************************
 
@@ -293,7 +283,6 @@ If the aside does not appear:
 
 #. Check that ``should_apply_to_block`` returns ``True`` for the block
    you are testing.
-#. Check that the aside is allowlisted for the course.
 #. Check the LMS and Studio logs for any exceptions raised inside your
    aside view.
 
