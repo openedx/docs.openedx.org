@@ -7,7 +7,7 @@ Enable Notifications
 
 :ref:`Notifications <Notifications & Preferences>` keep you informed about activity in your
 courses, alerting you via one or both of in-platform notifications and email notifications.
-They span activities such as Discussions updates, Course updates, and Grading updates.
+They span activities such as Discussions updates, Course updates, Grading updates, and ORA review reminders.
 
 The **notification tray** allows learners to access platform notifications from
 the top-right corner of the Open edX interface. **Notification emails** keep them updated when
@@ -143,6 +143,10 @@ The following cron job sends the weekly digest every **Sunday at 10:00 PM**:
    your operational requirements. For example, `0 22 * * *` schedules the command to run everyday at **10:00 PM**
    this can be modified to run at the hours/days of choice.
 
+
+.. seealso::
+
+   :ref:`ORA Reminder Notifications` — configure periodic nudges for learners who have not completed peer or self review steps in ORA assignments.
 
 **Maintenance chart**
 
