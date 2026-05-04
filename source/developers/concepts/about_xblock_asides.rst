@@ -52,10 +52,8 @@ same way.
 
 Asides solve this by externalizing the enhancement. The host XBlock is not
 modified. The same aside can apply to a Video block, a Problem block, or any
-other block type, by overriding a single classmethod. Course authors keep
-control over whether the enhancement is active for a given block, because
-asides expose their own scoped fields. The enhancement travels with the
-course in OLX export and import.
+other block type, by overriding a single classmethod. Asides can serialize
+their own scoped fields during course import and export.
 
 Reach for an aside when all of the following are true:
 
@@ -70,9 +68,6 @@ Reach for an aside when all of the following are true:
 Reach for something else when:
 
 * You are creating a brand new piece of course content. Write an XBlock.
-* You need to change a behavior that is internal to a single block type and
-  not visible in any view. Consider a runtime service or a filter from the
-  Hooks Extension Framework.
 * You only need to react to platform events. Consider an Open edX event
   receiver.
 
@@ -82,15 +77,6 @@ How an Aside Relates to Its Host Block
 The runtime maintains a many-to-many relationship between asides and host
 blocks at runtime, but each aside instance is bound to exactly one host block
 during a single render. The relationship is established in three stages.
-
-Discovery
-=========
-
-When the runtime renders an XBlock view, it asks the runtime for the set of
-applicable aside types. The default runtime returns every aside class
-registered through the ``xblock_asides.v1`` entry point. A runtime may
-override this to filter the set further, for example based on the current
-user or the course.
 
 Per-Block Filtering
 ===================
@@ -152,7 +138,7 @@ means an aside-enhanced course is portable, with limitations described below.
 Real-World Examples
 *******************
 
-Three implementations in the wild illustrate the range of what asides can
+Two implementations in the wild illustrate the range of what asides can
 do.
 
 Rapid Response XBlock
@@ -176,16 +162,6 @@ or a problem's siblings. A single aside class, registered as one entry
 point, handles both block types and uses ``should_apply_to_block`` to gate
 on a course-level waffle flag and per-course settings.
 
-Thumbs Sample Aside
-===================
-
-The `xblock-sdk`_ repository contains a ``ThumbsAside`` class in
-``sample_xblocks/thumbs/thumbs.py``. It is **not functional** and is not
-registered through any entry point. The class comment in the source notes:
-"Asides aren't ready yet, so this is currently not being installed in
-setup.py." It exists as a syntactic example of the decorator pattern, not
-as a working aside. Treat it as illustrative only.
-
 Limitations
 ***********
 
@@ -199,7 +175,7 @@ No Authoring Story in the Course Authoring MFE
 ==============================================
 
 The Studio author view for an aside is rendered by the legacy course
-authoring frontend. The current Course Authoring micro-frontend has no
+authoring frontend. The current Authoring micro-frontend has no
 defined location to display aside author UI. If your project depends on the
 new MFE for authoring, plan to render the aside's author UI through a
 different mechanism, or accept that authors will use the legacy Studio for
@@ -237,12 +213,12 @@ Documentation Has Historically Been Sparse
 ==========================================
 
 XBlock Asides have been part of the platform for years but have had no
-user-facing documentation until this set of articles. The original work was
-done by Dave Ormsbee. Most of the institutional knowledge has lived in
-docstrings, test code, and the implementations of a handful of asides
-maintained outside the core platform. If you find this documentation lacks
-detail your project needs, the test file at ``xblock/test/test_asides.py``
-in the XBlock repository is the most reliable source of behavioral truth.
+user-facing documentation until this set of articles. Most of the institutional
+knowledge has lived in docstrings, test code, and the implementations of a
+handful of asides maintained outside the core platform. If you find this
+documentation lacks detail your project needs, the test file at
+``xblock/test/test_asides.py`` in the XBlock repository is the most reliable
+source of behavioral truth.
 
 Where to Go Next
 ****************
@@ -253,7 +229,7 @@ and want a step-by-step recipe, read :ref:`Add an XBlock Aside`. For the
 complete list of classes, decorators, methods, and entry points, consult
 :ref:`XBlock Asides Reference`.
 
-.. _rapid-response-xblock: https://github.com/mitodl/rapid-response-xblock
+.. _rapid-response-xblock: https://github.com/mitodl/open-edx-plugins/tree/main/src/rapid_response_xblock
 .. _ol-openedx-chat: https://github.com/mitodl/open-edx-plugins/tree/main/src/ol_openedx_chat
 .. _xblock-sdk: https://github.com/openedx/xblock-sdk
 
