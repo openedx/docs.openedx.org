@@ -53,6 +53,9 @@ import argparse
 from typing import Dict, List, NamedTuple
 from collections import defaultdict
 
+from docutils.core import publish_doctree
+import docutils.nodes as nodes
+
 class MaintenanceStatus(NamedTuple):
     is_empty: bool
     has_fail: bool
@@ -60,50 +63,90 @@ class MaintenanceStatus(NamedTuple):
     has_deprecated: bool
     file_path: str
 
+def _truncate_at_next_section(all_lines: list, start_index: int) -> list:
+    """Return lines from start_index up to (not including) the next section header or include directive.
+
+    This keeps the excerpt small so docutils never processes directives like
+    ``.. include::`` that require the full Sphinx build environment.
+
+    RST section adornments are lines where the same non-word character is
+    repeated three or more times, e.g.:
+      =========   (title overline/underline)
+      ---------   (section underline)
+      #########   (chapter overline/underline)
+    Table borders like ``+-----+`` are not matched because they contain mixed characters.
+    """
+    import re
+    # Matches a line consisting entirely of 3+ repetitions of the same punctuation char.
+    # Examples that match:  ===  ---  ###  ~~~  ***
+    # Examples that do not: +-+  .. include::  | cell |
+    section_adornment = re.compile(r'^([^\w\s])\1{2,}\s*$')
+    # Seed the list with the marker line itself, then scan forward from the next line.
+    # The stop-check runs only on subsequent lines so the marker is never accidentally
+    # matched against the adornment pattern.
+    excerpt_lines = [all_lines[start_index]]
+    for line in all_lines[start_index + 1:]:
+        if line.startswith('.. include::') or section_adornment.match(line):
+            break
+        excerpt_lines.append(line)
+    return excerpt_lines
+
+
 def parse_maintenance_chart(content: str) -> MaintenanceStatus | None:
-    """Parse the maintenance chart in the content and return its status."""
-    # Check if maintenance chart exists
+    """Parse the maintenance chart using docutils; supports grid tables and list-tables.
+
+    Only the excerpt starting at the **Maintenance chart** marker is parsed so
+    that full-document parsing overhead is avoided.
+    """
     if "**Maintenance chart**" not in content:
         return None
-    
-    # Split content into lines and find the maintenance chart section
-    lines = content.split('\n')
+
+    all_lines = content.split('\n')
     try:
-        chart_start = next(i for i, line in enumerate(lines) if "**Maintenance chart**" in line)
+        chart_start_index = next(
+            index for index, line in enumerate(all_lines)
+            if "**Maintenance chart**" in line
+        )
     except StopIteration:
         return None
-    
-    # Find both header separator lines
-    try:
-        separators = [i for i in range(chart_start, len(lines)) 
-                     if '+-' in lines[i] and '-+' in lines[i]]
-        if len(separators) < 2:  # Need both top and bottom separator
-            return None
-        first_data_idx = separators[1] + 1  # Take the line after the second separator
-    except (StopIteration, IndexError):
-        return None
-    
-    # Get the first data row
-    if first_data_idx >= len(lines):
-        return None
-    
-    first_data_row = lines[first_data_idx].strip()
-    
-    # Check if the row is empty (just separators and spaces)
-    is_empty = all(cell.strip() in ['|', '', ' '] for cell in first_data_row.split('|'))
-    
-    # Look for pass/fail in test situation column (last column)
-    columns = [col.strip().lower() for col in first_data_row.split('|') if col.strip()]
-    if not columns:  # Empty row
-        return MaintenanceStatus(True, False, False, False, "")
-        
-    # The test situation is in the last column
-    test_situation = columns[-1] if len(columns) >= 4 else ""
-    has_fail = 'fail' in test_situation.lower()
-    has_pass = 'pass' in test_situation.lower()
-    has_deprecated = 'deprecated' in test_situation.lower()
 
-    return MaintenanceStatus(is_empty, has_fail, has_pass, has_deprecated, "")
+    chart_excerpt = '\n'.join(_truncate_at_next_section(all_lines, chart_start_index))
+    doctree = publish_doctree(chart_excerpt, settings_overrides={'report_level': 5})
+
+    all_tables = list(doctree.findall(nodes.table))
+    if not all_tables:
+        return None
+
+    maintenance_table = all_tables[0]
+
+    # list-table (and grid tables using = header separator) populate table_header;
+    # plain grid tables with only - separators put all rows in table_body.
+    table_header = maintenance_table.next_node(nodes.thead)
+    table_body = maintenance_table.next_node(nodes.tbody)
+    if table_body is None:
+        return None
+
+    all_body_rows = list(table_body.children)
+    # When there is no table_header the first row in all_body_rows is the column-header row; skip it.
+    data_rows = all_body_rows if table_header is not None else all_body_rows[1:]
+
+    if not data_rows:
+        return MaintenanceStatus(True, False, False, False, "")
+
+    first_data_row_cells = list(data_rows[0].findall(nodes.entry))
+    if not first_data_row_cells:
+        return MaintenanceStatus(True, False, False, False, "")
+
+    test_situation = first_data_row_cells[-1].astext().strip().lower()
+    is_empty = not test_situation
+    return MaintenanceStatus(
+        is_empty,
+        'fail' in test_situation,
+        'pass' in test_situation,
+        'deprecated' in test_situation,
+        "",
+    )
+
 
 def get_folder_path(path: str, start_path: str, depth: int) -> str:
     """Get the directory path at specified depth relative to start_path."""
