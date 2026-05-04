@@ -209,17 +209,6 @@ library that is not already loaded by the host page, you must add it
 through the fragment, and you must handle ordering and conflicts yourself.
 There is no shared aside-level mechanism for declaring library dependencies.
 
-Documentation Has Historically Been Sparse
-==========================================
-
-XBlock Asides have been part of the platform for years but have had no
-user-facing documentation until this set of articles. Most of the institutional
-knowledge has lived in docstrings, test code, and the implementations of a
-handful of asides maintained outside the core platform. If you find this
-documentation lacks detail your project needs, the test file at
-``xblock/test/test_asides.py`` in the XBlock repository is the most reliable
-source of behavioral truth.
-
 Where to Go Next
 ****************
 
