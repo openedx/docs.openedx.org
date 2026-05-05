@@ -146,7 +146,7 @@ The following cron job sends the weekly digest every **Sunday at 10:00 PM**:
 
 .. seealso::
 
-   :ref:`ORA Reminder Notifications` — configure periodic nudges for learners who have not completed peer or self review steps in ORA assignments.
+   :ref:`ora-reminder-notifications` — configure periodic nudges for learners who have not completed peer or self review steps in ORA assignments.
 
 **Maintenance chart**
 
@@ -154,5 +154,7 @@ The following cron job sends the weekly digest every **Sunday at 10:00 PM**:
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 |2025-12-18    | BTR WG                        | Ulmo           | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+
+|2026-05-05    | Ahtisham Shahid               | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 

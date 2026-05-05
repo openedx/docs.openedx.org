@@ -1,4 +1,4 @@
-.. _ORA Reminder Notifications:
+.. _ora-reminder-notifications:
 
 ORA Reminder Notifications
 ##########################
@@ -17,9 +17,9 @@ Set ``ENABLE_ORA_REMINDERS`` to ``True`` in your Django settings:
 
     ENABLE_ORA_REMINDERS = True
 
-The notification type ``ora_reminder`` must also be registered in edx-platform's
+The notification type ``ora_reminder`` must also be registered in openedx-platform's
 ``openedx.core.djangoapps.notifications.base_notification`` (already included
-in edx-platform ≥ the version that ships this feature).
+starting with Verawood release).
 
 Configuration Settings
 **********************
@@ -61,18 +61,40 @@ want non-default behaviour.
        but no peer submissions are available for the learner to review yet.
        Prevents sending useless reminders to very early submitters.
 
-Example override (in your LMS environment settings):
+To override these settings, create a Tutor plugin that patches the LMS
+settings using the ``openedx-lms-common-settings``
+`patch <https://docs.tutor.edly.io/reference/patches/index.html>`_,
+which applies to both production and development environments.
+
+For example, create a file ``ora_reminders_plugin.py``:
 
 .. code-block:: python
 
-    ORA_REMINDER_INITIAL_DELAY_HOURS = 48   # wait 2 days before first nudge
-    ORA_REMINDER_INTERVAL_HOURS = 72        # then nudge every 3 days
-    ORA_REMINDER_MAX_COUNT = 2              # send at most 2 reminders
+    from tutor import hooks
+
+    hooks.Filters.ENV_PATCHES.add_item((
+        "openedx-lms-common-settings",
+        """
+    ORA_REMINDER_INITIAL_DELAY_HOURS = 48
+    ORA_REMINDER_INTERVAL_HOURS = 72
+    ORA_REMINDER_MAX_COUNT = 2
+    """
+    ))
+
+Then install and enable it in your Tutor environment:
+
+.. code-block:: bash
+
+    tutor plugins install ./ora_reminders_plugin.py
+    tutor plugins enable ora_reminders_plugin
+    tutor config save
+    tutor local launch
+
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-05-05   | Ahtisham Shahid               | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
