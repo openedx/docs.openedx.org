@@ -94,7 +94,7 @@ Then install and enable it in your Tutor environment:
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2026-05-05   | Ahtisham Shahid               | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -151,7 +151,7 @@ The following cron job sends the weekly digest every **Sunday at 10:00 PM**:
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  |         Reviewer              |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 |2025-12-18    | BTR WG                        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
