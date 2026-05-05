@@ -1,7 +1,7 @@
 .. _manage-taxonomy-tags:
 
 ####################
-Manage taxonomy tags
+Manage Taxonomy Tags
 ####################
 
 .. tags:: educator, how-to
