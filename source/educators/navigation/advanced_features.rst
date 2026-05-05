@@ -112,6 +112,7 @@ Course Tags and Taxonomies
    ../how-tos/content-tagging-how-tos/import_export_a_taxonomy.rst
    ../how-tos/content-tagging-how-tos/Create_flat_taxonomy_by_uploading_CSV.rst
    ../how-tos/content-tagging-how-tos/update_reimport_taxonomy.rst
+   ../how-tos/content-tagging-how-tos/manage_taxonomy_tags.rst
    ../concepts/advanced_features/why_taxonomy_tag_id.rst
    ../how-tos/content-tagging-how-tos/manage_permissions_taxonomy.rst
    ../how-tos/content-tagging-how-tos/add_delete_course_tags.rst
