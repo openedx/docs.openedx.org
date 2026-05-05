@@ -39,7 +39,7 @@ Counts include:
 * Course content
 * Content library items
   
-Both published and unpublished content are included
+Both published and unpublished content items are included.
 
 Each object counts once per tag, even if:
   
