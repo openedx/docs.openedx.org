@@ -66,6 +66,9 @@ rediraffe_redirects = {
     "learners/sfd_discussions/keep_up.rst": "learners/sfd_discussions/discussions_notifications.rst",
     "learners/sfd_discussions/provide_feedback.rst": "learners/sfd_discussions/find_follow_conversations.rst",
     "educators/references/course_development/working_with_targz_file.rst": "educators/how-tos/course_development/work_with_targz_file.rst",
+    "educators/references/advanced_features/planning_content_reuse.rst": "educators/references/advanced_features/lti_content_compatability.rst",
+    "educators/concepts/advanced_features/lti_reuse_content.rst": "educators/concepts/advanced_features/using_openedx_as_LTI_provider.rst",
+    "educators/how-tos/advanced_features/lti_prepare_content.rst": "educators/references/advanced_features/lti_content_compatability.rst",
 }
 
 tags_create_tags = True

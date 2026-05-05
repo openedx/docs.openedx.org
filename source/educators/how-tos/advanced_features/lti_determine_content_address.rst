@@ -5,75 +5,58 @@ Determine Content Addresses when using Open edX as an LTI Provider
 
 .. tags:: educator, how-to
 
-To include the content of an existing course in another system, you use the Open edX
-LMS to find the location identifiers for the content you want to include. You
-then format the identifiers into an LTI URL.
+To include Open edX course content in another system, you construct an LTI URL that identifies the
+specific content. This URL combines a course ID and a usage ID that you find in the Open edX LMS.
 
 .. contents::
    :local:
    :depth: 2
 
-You might find using a tool like a spreadsheet helpful as a way to organize the
-course ID and each of the usage IDs that correspond to the course content you
-want to include in an external LMS.
-
-See the :ref:`MITx LTI Converter Tool` section below for a handy way of
-generating these LTI URLs.
-
-.. _Find the Course ID:
+You might find using a spreadsheet helpful to organize the course ID and usage IDs for the content
+you want to include.
 
 Find the Course ID
-********************
+******************
 
-The identifier for your course can be in one of these formats.
+The course ID has the format ``{key type}:{org}+{course}+{run}``, for example,
+``course-v1:OpenedX+DemoX+2024``.
 
-* ``{key type}:{org}+{course}+{run}``, for example,
-  ``course-v1:OpenedX+DemoX+2024``
+To find the course ID:
 
-* ``{org}/{course}/{run}`` (for courses created prior to 2015), for example, ``OpenedX/DemoX/2014``
+1. In your Open edX LMS, open your course.
 
-Courses created since Fall 2014 typically have an ID that uses the first
-format, while older courses have IDs that use the second format.
+2. In the URL shown by your browser, find the course ID.
 
-To find the course ID for your course, follow these steps.
-
-#. In your Open edX LMS, open your course.
-
-#. In the URL shown by your browser, find the course ID.
-
-For example, you open the "Open edX Demo Course" course to the **Course**
-page for the course. The URL for the **Course** page is
-``https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+DemoX+Demo_Course/about``. From
-the URL, you determine that the course ID is ``course-v1:OpenedX+DemoX+Demo_Course``.
+   For example, the URL
+   ``https://training.openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/home``
+   contains the course ID ``course-v1:OpenedX+DemoX+Demo_Course``.
 
 The same course ID applies to every item of content in the course.
 
-.. _Finding the Usage ID for Course Content:
+.. note::
 
-Finding the Usage ID for Course Content
-****************************************
+   Courses created before Fall 2014 may use an older format: ``{org}/{course}/{run}``,
+   for example, ``OpenedX/DemoX/2014``.
 
-The identifier for a specific component, unit, or subsection in your course can
-be in one of these formats.
+Find usage ID for content
+*************************
 
-* ``{key type}:{org}+{course}+{run}+type@{type}+block@{display name}``, for
-  example, ``block-v1:OpenedX+DemoX+Demo_Course+type@sequential+block@basic_questions``
+The usage ID identifies a specific component, unit, or subsection. It has the format
 
-* ``i4x:;_;_{org};_{course};_{type};_{display name}``, for example,
-  ``i4x:;_;_OpenedX;_DemoX;_sequential;_basic_questions``
+``{key type}:{course ID}+type@{type}+block@{block ID}``
 
-Courses created since Fall 2014 typically have usage IDs in the first format,
-while older courses have usage IDs in the second format.
+For example, ``block-v1:OpenedX+DemoX+DemoCourse+type@html+block@d4e2624ae8b3479db698413bd8947b6f``
 
-The following terms are used in the usage identifiers to indicate subsections,
-units, and components.
+You must have the Staff or Admin role in a course to find usage IDs.
+
+The following terms in the usage ID indicate the level of the content:
 
 .. list-table::
    :widths: 45 45
    :header-rows: 1
 
-   * - Studio
-     - Page Source
+   * - Studio term
+     - Usage ID term
    * - subsection
      - sequential
    * - unit
@@ -81,168 +64,69 @@ units, and components.
    * - component
      - problem, html, or video
 
-The example usage IDs shown above include the word "sequential", so they
-indicate subsections in a course.
+.. note::
 
-Several methods are available to help you find the usage IDs for items in your
-course.
+   Courses created before Fall 2014 may use an older usage ID format:
+   ``i4x:;_;_{org};_{course};_{type};_{display name}``.
 
-To find the usage ID for a unit or a component in the LMS, you can use
-either of these methods.
+Find usage ID of unit or component
+==================================
 
-* :ref:`View staff debug info<View Staff Debug Info for the Usage ID>` for the
-  unit or component.
+1. In your Open edX LMS, open the course.
 
-* :ref:`View the page source<View the Page Source for the Usage ID>` for the
-  unit or component.
+2. Go to the page that contains the unit or component.
 
-To find the usage ID for a subsection, you
-:ref:`view the page source<View the Page Source for the Usage ID>`.
+3. Click on **STAFF DEBUG INFO**.
 
-.. note:: You must have the Staff or Admin role in a course to follow these
-  procedures for finding usage IDs.
+4. Usage ID of a component is value of the ``location`` field.
 
-.. _View Staff Debug Info for the Usage ID:
+5. Usage ID of a unit is value of the ``parent`` field.
 
-View Staff Debug Info for the Usage ID
-==========================================
+The usage ID begins with ``block-v1``.
 
-To find the usage ID for a unit or component in the LMS, follow these steps.
+.. note:: For courses created before Fall 2014, the usage ID begins with ``i4x://``.
 
-#. In your Open edX LMS, open the course.
+Find usage ID of subsection
+===========================
 
-#. Select **Course**, and then go to the page that contains the unit or
-   component.
+While you are on a unit of the relevant subsection, copy the url. Here's an example:
 
-#. Select **Staff Debug Info**.
+.. code-block:: text
 
-#. To find the usage ID for a component, find the **location**.
+   https://master.openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@619390d971ba4e6e8b150417e3730d7e
 
-   For example, ``location = block-v1:OpenedX+DemoX+Demo_Course+type@html+block@054cef851ecc415e969cd82c06a3307b``
+Here's what the format of this example URL is:
 
-#. To find the usage ID for a unit, scroll down to find the **parent**.
+``https://training.openedx.io/learning/course/{course ID}/{usage ID of subsection}/{usage ID of unit}``
 
-   For example, ``parent  block-v1:OpenedX+DemoX+Demo_Course+type@vertical+block@7be7c1ea72f94d08b8bca998aa81f898``
+So the usage ID of subsection is in the URL.
 
-The usage ID value begins with ``block-v1`` for newer courses or ``i4x://`` for
-older courses. If you are using a spreadsheet to organize your location
-identifiers, you can select the usage ID value, and then copy and paste it into
-the spreadsheet.
+Construct the LTI URL
+*********************
 
-To close the Staff Debug viewer, click on the browser page outside of the
-viewer.
+The LTI URL has the following format:
 
-For more information, see :ref:`Guide to Staff Debug Info`.
+``https://{host}/lti_provider/courses/{course_id}/{usage_id}``
 
-.. _View the Page Source for the Usage ID:
+Examples:
 
-View the Page Source for the Usage ID
-==========================================
+Subsection (sequential):
 
-To find the usage ID for a subsection, unit, or component, you view the
-HTML page source for that page of the course.
+.. code-block:: text
 
-To find the usage ID for a subsection, unit, or component, follow these steps.
+   https://master.openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e
 
-#. In your Open edX LMS, open your course.
+Unit (vertical):
 
-#. Select **Course**, and then go to the page with the content that you
-   want to include in an external LMS.
+.. code-block:: text
 
-#. Open the HTML source for the page. For example, in a Chrome browser you
-   right click on the page, and then select **View Page Source**.
+   https://master.openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@619390d971ba4e6e8b150417e3730d7e
 
-#. Use your browser's Find feature to locate the term ``data-usage-id``. This
-   attribute contains the usage ID.
-   ..note:: This step needs review because is not working in the last versions of the Open edX platform.
+Text component (html):
 
-#. Review the value for the usage id to determine the part of the course it
-   identifies: the sequential (subsection), a unit (vertical) or a specific
-   component (problem, html, or video).
+.. code-block:: text
 
-   .. important:: You might need to search beyond the first match to retrieve
-     the usage ID for the content you want to identify. Be sure to check the
-     ``data-usage-id`` for sequential, vertical, or problem, html, or video to
-     be sure that you specify the content that you want.
-
-
-For example, you want to link to a subsection in the Open edX Demo course. You open
-the course, go to the problem, and then right click to view the page source.
-When you search for ``data-usage-id``, the first match is
-``block-v1:OpenedX+DemoX+Demo_Course+type@sequential+block@basic_questions``. You
-verify that this usage ID value is for the subsection by checking for the
-presence of ``sequential``.
-
-If you are using a spreadsheet to organize your location identifiers, you can
-select the usage ID value within the quotation marks or ``&#34;`` ISO codes,
-and then copy and paste it into the spreadsheet.
-
-
-Constructing the LTI URL
-************************
-
-To identify the edX content that you want to include in an external LMS, you
-provide its URL. This URL has the following format.
-
-  ``https://{host}/lti_provider/courses/{course_id}/{usage_id}``
-
-To construct the LTI URL, you add your course ID and the specific content ID.
-
-Examples of the possible formats for an LTI URL follow.
-
-LTI URLs for a subsection include "sequential", as follows.
-
-  ``https://openedx-lti.org/lti_provider/courses/course-v1:OpenedX+01-2024+2024-1/block-v1:OpenedX+01-2024+2024-1+type@sequential+block@4e1de5e13fc3422997fe246b40a43aa1/block-v1:OpenedX+01-2024+2024-1+type@vertical+block@78b75020d3894fdfa8b4994f97275294``
-
-LTI URLs for a unit include "vertical", as follows.
-
-  ``https://openedx-lti.org/lti_provider/courses/course-v1:OpenedX+01-2024+2024-1/block-v1:OpenedX+01-2024+2024-1+type@vertical+block@78b75020d3894fdfa8b4994f97275294``
-
-LTI URLs for Text components include "html+block" or "html", as follows.
-
-  ``https://openedx-lti.org/lti_provider/courses/course-v1:OpenedX+01-2024+2024-1/block-v1:OpenedX+01-2024+2024-1+type@html+block@f9f3a25e7bab46e583fd1fbbd7a2f6a0``
-
-
-.. _MITx LTI Converter Tool:
-
-MITx LTI Converter Tool
-************************
-
-Kaleb Abebe at MITx has created a useful online tool for generating LTI URLs.
-This will work for any site, not just MITx, and has been provided by Kaleb for
-community usage.
-
-#. Visit the `MITx-Canvas URL Converter
-   <https://kalebabebe.github.io/mitx-canvas/>`_ (`source code here
-   <https://github.com/kalebabebe/mitx-canvas>`_)
-
-#. Copy the full site URL for the content you want to use for LTI reuse, for
-   example,
-   ``https://apps.teak.demo.edly.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@a3ada3c77ab74014aa620f3c494e5558``
-
-#. Paste these URLs into the tool, one per line.
-
-#. Click :guilabel:`Convert` to generate the new URLs for use in Canvas or
-   another LTI provider. You will get a result such as
-   ``https://apps.teak.demo.edly.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@a3ada3c77ab74014aa620f3c494e5558``.
-
-#. Copy the converted URLs and use them in :ref:`Canvas <Open edX as an LTI
-   Provider to Canvas>` or another LTI consumer.
-
-.. seealso::
- 
-
- :ref:`Using Open edX as an LTI Tool Provider` (concept)
-
- :ref:`Create a Duplicate Course for LTI use` (how-to)
-
- :ref:`Planning for Content Reuse (LTI) <Planning for Content Reuse>` (reference)
-
- :ref:`Example - Open edX as an LTI Provider to Canvas <Open edX as an LTI Provider to Canvas>` (reference)
-
- :ref:`Example - edX as an LTI Provider to Blackboard Provider <Open edX as an LTI Provider to Blackboard>` (reference)
-
-
+   https://master.openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@html+block@d4e2624ae8b3479db698413bd8947b6f
 
 
 **Maintenance chart**
@@ -250,5 +134,5 @@ community usage.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2025-06-04   | MITx                          | Teak           |  Pass                          |
+| 2026-05-05   | Aamir Ayub                    | Verawood       |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
