@@ -4,41 +4,104 @@
 Enable LTI Provider Functionality
 #################################################
 
-.. tags:: site operator
+.. tags:: site operator, how-to
 
-LTI provider functionality is provided in the ``lti_provider`` app, located in
-``edx-platform/lms/djangoapps/lti_provider``.
+The Learning Tools Interoperability (LTI) provider feature is included in Open edX but is disabled by
+default. The recommended way to enable it on a Tutor-based installation
+is to install a Tutor plugin.
 
-By default, the ``lti_provider`` app is not used by edX installations. To
-enable this functionality throughout the platform, follow these steps.
+*****************************
+Create the Tutor Plugin
+*****************************
 
-#. In the ``edx/app/edxapp/lms.yml`` file, edit the file so that it
-   includes the following line in the features section.
+Create a file named ``enable_lti_provider.py`` (for example,
+``~/.local/share/tutor-plugins/enable_lti_provider.py``) with the
+following content:
 
-   .. code-block:: none
+.. code-block:: python
 
-       "FEATURES" : {
-           ...
-           "ENABLE_LTI_PROVIDER": true
-       }
+    """
+    Tutor plugin: enable-lti-provider
+    Sets ENABLE_LTI_PROVIDER = True in the edx-platform LMS and CMS settings.
+    """
+    import textwrap
 
-#. Save the ``edx/app/edxapp/lms.yml`` file.
+    from tutor import hooks
 
-#. Run database migrations.
+    __version__ = "1.0.0"
+    name = "enable-lti-provider"
 
-#. Restart the LMS server.
+    hooks.Filters.ENV_PATCHES.add_item(
+        (
+            "openedx-lms-common-settings",
+            textwrap.dedent("""
+            # Enable LTI Provider feature
+            FEATURES['ENABLE_LTI_PROVIDER'] = True
+            ENABLE_LTI_PROVIDER = True
+            INSTALLED_APPS.append('lms.djangoapps.lti_provider.apps.LtiProviderConfig')
+            AUTHENTICATION_BACKENDS.append('lms.djangoapps.lti_provider.users.LtiBackend')
+            """),
+        )
+    )
 
-To verify that the LTI provider functionality is enabled, you can check for the
-presence of the following database tables.
+    hooks.Filters.ENV_PATCHES.add_item(
+        (
+            "openedx-cms-common-settings",
+            """
+            # Enable LTI Provider feature
+            FEATURES['ENABLE_LTI_PROVIDER'] = True
+            ENABLE_LTI_PROVIDER = True
+            """,
+        )
+    )
 
-::
+.. note::
 
-  lti_provider_gradedassignment
-  lti_provider_lticonsumer
-  lti_provider_ltiuser
-  lti_provider_outcomeservice
+   The plugin patches both LMS and CMS settings. The CMS patch keeps
+   both services in sync but does not affect LTI provider functionality,
+   which runs entirely in the LMS.
 
-If these tables are not present, check that the migrations have run properly.
+*****************************
+Enable and Apply the Plugin
+*****************************
+
+After saving the file, run:
+
+.. code-block:: bash
+
+    tutor plugins enable enable-lti-provider
+    tutor config save
+    tutor local do init --limit lms
+
+*****************************
+Run Database Migrations
+*****************************
+
+.. code-block:: bash
+
+    tutor local run lms python manage.py lms migrate
+
+*****************************
+Verify the Installation
+*****************************
+
+Confirm the LTI provider is active by checking that these database
+tables exist:
+
+.. code-block:: text
+
+    lti_provider_gradedassignment
+    lti_provider_lticonsumer
+    lti_provider_ltiuser
+    lti_provider_outcomeservice
+
+If any tables are missing, check that the migration step completed
+without errors.
+
+
+.. seealso::
+
+   :ref:`Configuring Credentials for a Tool Consumer`
 
 
 **Maintenance chart**
@@ -46,5 +109,5 @@ If these tables are not present, check that the migrations have run properly.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -83,7 +83,7 @@ Use Open edX as an LTI Tool Provider
    :glob:
 
    ../concepts/advanced_features/using_openedx_as_LTI_provider.rst
-   ../references/advanced_features/lti_content_compatability.rst
+   ../references/advanced_features/lti_content_compatibility.rst
    ../how-tos/advanced_features/lti_determine_content_address.rst
    ../how-tos/advanced_features/lti_canvas_example.rst
    ../how-tos/advanced_features/lti_blackboard_example.rst

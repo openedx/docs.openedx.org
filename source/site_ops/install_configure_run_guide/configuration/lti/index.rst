@@ -1,38 +1,35 @@
 .. _Configuring an edX Instance as an LTI Tool Provider:
 
 ########################################################
-Configuring an edX Instance as an LTI Tool Provider
+Configuring Open edX as an LTI Tool Provider
 ########################################################
 
-.. tags:: site operator
+.. tags:: site operator, concept
 
-You can configure your Open edX instance to be a learning tool interoperability
-(LTI) provider to other systems and applications. You can use this LTI
-capability to present content from an Open edX course in any application that is
-configured to be a consumer of that content. After you enable your edX instance
-as an LTI tool provider and configure credentials for the tool consumers,
-course teams can reuse course content from the edX instance in contexts other
-than the edX LMS.
+You can configure your Open edX instance to act as a Learning Tools
+Interoperability (LTI) 1.1 tool provider, serving course content inside external learning management
+systems such as Canvas or Blackboard.
+
+Setting this up involves two tasks:
+
+1. :ref:`Enable the LTI provider feature<Enable LTI Provider Functionality>`
+   on your Open edX instance.
+2. :ref:`Create LTI consumer credentials<Configuring Credentials for a Tool Consumer>`
+   for each external LMS that will consume your content.
+
+Once configured, course teams can construct LTI URLs for specific pieces
+of content and add them to the external LMS. See
+:ref:`Using Open edX as an LTI Tool Provider` for the educator-facing steps.
 
 .. toctree::
    :maxdepth: 1
 
    enable_lti
    configure_lti
-   settings_lti
-   authentication_options_lti
-   tpa_lti
-
-For more information and examples of how course teams might set up a course on
-an external LMS as a consumer of edX course content, see
-:ref:`Using Open edX as an LTI Tool Provider` in the *Building
-and Running an Open edX Course* guide.
 
 .. seealso::
 
-   :ref:`Configuring Credentials for a Tool Consumer`
-
-   :ref:`Using Open edX as an LTI Tool Provider`
+   :ref:`Using Open edX as an LTI Tool Provider` (educator)
 
 
 **Maintenance chart**
@@ -40,7 +37,7 @@ and Running an Open edX Course* guide.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2025-06-04   | OpenCraft                     | Teak           |  Pass                          |
+| 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
 
 .. include:: /links.txt

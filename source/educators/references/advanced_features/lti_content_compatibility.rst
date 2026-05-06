@@ -5,8 +5,8 @@ Content Compatibility for LTI
 
 .. tags:: educator, reference
 
-Not all Open edX content types and features work well when delivered via LTI to an external
-LMS. The following table summarizes compatibility.
+Not all Open edX content types and features work well when delivered via Learning Tools Interoperability (LTI) to an external
+LMS. This table summarizes compatibility.
 
 .. list-table::
    :widths: 45 45
@@ -38,7 +38,11 @@ LMS. The following table summarizes compatibility.
 Considerations
 **************
 
-When selecting content to deliver via LTI, keep the following in mind:
+When selecting content to deliver via LTI, keep these points in mind:
+
+* Problem components work only when opened in a new window, not in an iframe. If your external LMS
+  embeds LTI content in an iframe by default, learners will not be able to interact with problem
+  components. Check your external LMS settings for an option to open LTI content in a new window.
 
 * Discussion components can be confusing for learners in an LTI context because learners may be
   identified by internally assigned IDs rather than their usernames. Consider using the discussion
@@ -56,14 +60,12 @@ When selecting content to deliver via LTI, keep the following in mind:
 
 .. seealso::
 
- :ref:`Using Open edX as an LTI Tool Provider` (concept)
-
- :ref:`Determine Content Addresses` (how-to)
+ :ref:`Determine Content Addresses`
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2026-05-05   | Aamir Ayub                    | Verawood       |  Pass                          |
+| 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
