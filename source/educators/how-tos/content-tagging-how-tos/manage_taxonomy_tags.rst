@@ -8,8 +8,17 @@ Manage Taxonomy Tags
 
 This guide describes how to create, organize, and manage tags within a taxonomy using the Taxonomy Detail. A detail page for a taxonomy can be found by navigating to the Taxonomies tab in the Studio, then selecting a taxonomy, which will then show that taxonomy's detail page. 
 
+Taxonomy Tab:
+
 .. image:: /_images/educator_how_tos/taxonomy_tab.png
    :alt: Screenshot of the tabs in Studio home, with an arrow pointing to the Taxonomies tab.
+
+Taxonomy Overview Page:
+
+.. image:: /_images/educator_how_tos/taxonomy_overview_page.png
+   :alt: Screenshot of the Taxonomies Overview page showing multiple taxonomies.
+
+Taxonomy Detail Page:
 
 .. image:: /_images/educator_how_tos/taxonomy_overview_page.png
    :alt: Screenshot of the Taxonomies Overview page showing multiple taxonomies.
