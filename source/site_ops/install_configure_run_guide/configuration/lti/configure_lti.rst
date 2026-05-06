@@ -21,31 +21,31 @@ Create a Consumer Record
 #. Sign in to the Django administration console at
    ``https://{your_lms_domain}/admin``.
 
-#. Under **LTI Provider**, select :guilabel:`Add` next to **LTI Consumers**.
+#. Under `LTI Provider`, select :guilabel:`Add` next to `LTI Consumers`.
 
 #. Fill in the fields:
 
-   - **Consumer Name**: A label identifying this external LMS (for
+   - `Consumer Name`: A label identifying this external LMS (for
      example, ``Canvas - Example University``).
 
-   - **Consumer Key**: A unique identifier for this consumer. Generated
+   - `Consumer Key`: A unique identifier for this consumer. Generated
      automatically but you can also supply your own.
 
-   - **Consumer Secret**: A secret used to sign LTI requests.
+   - `Consumer Secret`: A secret used to sign LTI requests.
      Generated automatically but you can also supply your own.
 
    .. important::
 
-      Leave **Instance GUID** blank. The external LMS generates and
+      Leave `Instance GUID` blank. The external LMS generates and
       supplies this value on its first LTI launch.
 
-   - **Require User Account** and **Use LTI PII**: These checkboxes
+   - `Require User Account` and `Use LTI PII`: These checkboxes
      control how Open edX associates learners with accounts. See
      :ref:`Authentication Modes` below before deciding which to enable.
 
 #. Select :guilabel:`Save`.
 
-#. Share the **Consumer Key** and **Consumer Secret** with the educator
+#. Share the `Consumer Key` and `Consumer Secret` with the educator
    or administrator who will configure the external LMS.
 
 .. _Authentication Modes:
@@ -61,7 +61,7 @@ record control how this happens.
 Anonymous (default)
 ===================
 
-Both **Require User Account** and **Use LTI PII** are unchecked.
+Both `Require User Account` and `Use LTI PII` are unchecked.
 
 Open edX automatically creates an account with a randomly generated
 username and email address. The learner sees no login prompt and the
@@ -74,7 +74,7 @@ you want the most seamless experience.
 Auto-Create with Personal Information
 ======================================
 
-Check **Use LTI PII**.
+Check `Use LTI PII`.
 
 Open edX uses the learner's email address and full name from the LTI
 launch request (``lis_person_contact_email_primary``,
@@ -92,7 +92,7 @@ privacy setting set to "Email Only" or "Public".
 Require Existing Account
 ========================
 
-Check **Require User Account**.
+Check `Require User Account`.
 
 On the learner's first LTI launch, Open edX checks two conditions:
 
@@ -117,8 +117,8 @@ check.
 Use this mode when learners must have pre-existing accounts on your
 Open edX instance and you want activity tied to those accounts.
 
-If both **Require User Account** and **Use LTI PII** are checked,
-**Require User Account** takes precedence.
+If both `Require User Account` and `Use LTI PII` are checked,
+`Require User Account` takes precedence.
 
 Delivering Content in an iframe with Require User Account
 ---------------------------------------------------------
@@ -147,9 +147,9 @@ After adding these settings, run:
 Caveats
 *****************************
 
-- Enabling **Require User Account** only affects future LTI launches.
+- Enabling `Require User Account` only affects future LTI launches.
   Existing anonymous account data is not migrated.
-- Disabling **Require User Account** after it has been enabled does not
+- Disabling `Require User Account` after it has been enabled does not
   unlink accounts. If a rollback is needed, create a new consumer record
   with the flag disabled and use the new credentials in the external LMS.
 
