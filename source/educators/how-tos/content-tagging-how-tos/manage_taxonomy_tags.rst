@@ -6,7 +6,13 @@ Manage Taxonomy Tags
 
 .. tags:: educator, how-to
 
-This guide describes how to create, organize, and manage tags within a taxonomy using the Taxonomy Detail page. It also explains how usage counts are calculated and displayed.
+This guide describes how to create, organize, and manage tags within a taxonomy using the Taxonomy Detail. A detail page for a taxonomy can be found by navigating to the Taxonomies tab in the Studio, then selecting a taxonomy, which will then show that taxonomy's detail page. 
+
+.. image:: /_images/educator_how_tos/taxonomy_tab.png
+   :alt: Screenshot of the tabs in Studio home, with an arrow pointing to the Taxonomies tab.
+
+.. image:: /_images/educator_how_tos/taxonomy_overview_page.png
+   :alt: Screenshot of the Taxonomies Overview page showing multiple taxonomies.
 
 Overview
 ********
@@ -88,7 +94,7 @@ To create a new top-level tag:
 #. Click Save or press Enter
 
 After the tag is saved, the new tag appears at the top of the list and a
-success toast notification is displayed.
+success notification is displayed.
 
 Cancel Tag Creation
 ==============================
@@ -171,7 +177,7 @@ To rename a tag:
 After the tag is renamed:
 
 * The updated name is displayed immediately.
-* A success toast notification appears.
+* A success notification appears.
 * All tag associations are updated across courses, libraries, and the search
   index.
 
@@ -188,6 +194,11 @@ restored, and no changes are saved.
 
 Delete a Tag
 ************
+
+.. warning::
+
+   Deleting a parent tag also deletes its sub-tags. Any uses of the deleted tag
+   or its sub-tags are removed from associated content.
 
 Delete a Tag Without Sub-Tags
 =============================
@@ -214,17 +225,12 @@ To delete a tag that has sub-tags:
 #. Type ``DELETE ALL # TAGS``, where ``#`` is the number of tags being deleted
 #. Confirm deletion
 
-.. warning::
-
-   Deleting a parent tag also deletes its sub-tags. Any uses of the deleted tag
-   or its sub-tags are removed from associated content.
-
 After deletion:
 
 * The tag is removed
 * All sub-tags, if any, are removed
 * All tag associations are removed from content
-* A confirmation toast is displayed
+* A confirmation notification is displayed
 
 Keyboard Accessibility
 **********************
@@ -274,5 +280,5 @@ Users without admin permissions do not see the controls for these actions.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2026-05-05   |                               | Verawood       | Initial draft                  |
+| 2026-05-05   | Unicon                        | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
