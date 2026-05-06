@@ -37,7 +37,7 @@ LTI Component Settings
      - Specifies the URL of the login URL for the remote LTI tool for the
        authentication flow. This can also be called *Login URL* on some tools.
 
-   * - Registred Redirect URL (LTI 1.3 only)
+   * - Registered Redirect URL (LTI 1.3 only)
      - Enter the redirect URIs this tool is allowed to use during login
        e.g. ["https://tool.com", "https://tool_deeplink.com"]. Leave this blank to
        use the launch URL and deep linking URL by default.
@@ -72,7 +72,7 @@ LTI Component Settings
      - Enable this to allow the tool to access the names and roles of enrolled learners,
        if the tool supports NRPS.
    
-   * - Tool Publick Key Mode (LTI 1.3 only)
+   * - Tool Public Key Mode (LTI 1.3 only)
      - Choose how Open edX will get the tool’s public key for validating signed messages.
 
        Options are:
@@ -81,19 +81,19 @@ LTI Component Settings
        
        * **Keyset URL** - The tool will send the keyset URL to the LMS.
 
-   * - LTI 1.3 Tool Public Key (LTI 1.3 only)
+   * - Tool Public Key (LTI 1.3 only)
      - The LTI 1.3 tool's public key. This is a string that starts with
        '-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if
        the messages and launch requests received have the signature from the tool.
        This is not required when doing LTI 1.3 Launches without LTI Advantage.
 
-       This is only required if **Tool Publick Key Mode** is set to **Public Key**.
+       This is only required if **Tool Public Key Mode** is set to **Public Key**.
 
    * - Tool Keyset URL (LTI 1.3 only)
      - The URL of the tool’s JWK keyset. Open edX uses this URL to retrieve the public
        keys needed to validate signed messages.
        
-       This is only required if **Tool Publick Key Mode** is set to **Keyset URL**.
+       This is only required if **Tool Public Key Mode** is set to **Keyset URL**.
 
    * - Display Name
      - Specifies the name of the component. This name appears as a heading
@@ -163,7 +163,7 @@ LTI Component Settings
        See :ref:`Allow sharing PII to LTI Components` for how to enable
        (requires system administrator privileges).
 
-   * - Share Full name
+   * - Share Full Name
      - Sends the learner's full name to the remote LTI tool. This is the
        full name that the learner used to register for the course.
 
@@ -228,7 +228,7 @@ LTI Component Settings
    * - Launch Button Text
      - Enter a custom label for the button that opens the external LTI tool.
 
-     - The button text is only displayed if the **Open Tool in** control is set
+       The button text is only displayed if the **Open Tool in** control is set
        to **Modal** or **New Window**.
 
 .. seealso::
