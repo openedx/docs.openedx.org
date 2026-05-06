@@ -20,7 +20,7 @@ Taxonomy Overview Page:
 
 Taxonomy Detail Page:
 
-.. image:: /_images/educator_how_tos/taxonomy_overview_page.png
+.. image:: /_images/educator_how_tos/taxonomy_detail_page.png
    :alt: Screenshot of the Taxonomies Overview page showing multiple taxonomies.
 
 Overview
