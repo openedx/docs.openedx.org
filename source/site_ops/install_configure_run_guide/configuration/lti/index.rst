@@ -23,7 +23,7 @@ of content and add them to the external LMS. See
 
 .. seealso::
 
-   :ref:`Enable the LTI provider feature`
+   :ref:`Enable LTI Provider Functionality`
 
    :ref:`Using Open edX as an LTI Tool Provider` (educator)
 
