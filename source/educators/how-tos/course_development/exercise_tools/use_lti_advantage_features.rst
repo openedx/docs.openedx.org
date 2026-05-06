@@ -58,7 +58,7 @@ To set up LTI-DL services on a component, follow these steps.
 
 #. Select **Edit** in the component that appears.
 
-#. Locate the **Deep linking** setting and set it to **True** (enabled).
+#. Locate the **Deep linking** setting and set it to **Enabled**.
 
 #. Locate the **Deep Linking Launch URL** setting.
 
