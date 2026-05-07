@@ -39,7 +39,7 @@ LTI Component Settings
 
    * - Registered Redirect URL (LTI 1.3 only)
      - Enter the redirect URIs this tool is allowed to use during login
-       e.g. ["https://tool.com", "https://tool_deeplink.com"]. Leave this blank to
+       e.g. ``["https://tool.com", "https://tool_deeplink.com"]``. Leave this blank to
        use the launch URL and deep linking URL by default.
 
    * - Deep linking (LTI 1.3 only)
@@ -83,7 +83,7 @@ LTI Component Settings
 
    * - Tool Public Key (LTI 1.3 only)
      - The LTI 1.3 tool's public key. This is a string that starts with
-       '-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if
+       ``-----BEGIN PUBLIC KEY-----`` and is required so that the LMS can check if
        the messages and launch requests received have the signature from the tool.
        This is not required when doing LTI 1.3 Launches without LTI Advantage.
 
