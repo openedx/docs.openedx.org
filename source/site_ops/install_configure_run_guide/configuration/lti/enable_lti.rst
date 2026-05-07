@@ -8,7 +8,7 @@ Enable LTI Provider Functionality
 
 The Learning Tools Interoperability (LTI) provider feature is included in Open edX but is disabled by
 default. The recommended way to enable it on a Tutor-based installation
-is to install a Tutor plugin.
+is to install a Tutor plugin. See `Creating a Tutor Plugin <https://docs.tutor.edly.io/developing/plugins/creating.html>`_.
 
 *****************************
 Create the Tutor Plugin
@@ -107,7 +107,9 @@ without errors.
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

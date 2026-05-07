@@ -25,8 +25,7 @@ Create a Consumer Record
 
 #. Fill in the fields:
 
-   - `Consumer Name`: A label identifying this external LMS (for
-     example, ``Canvas - Example University``).
+   - `Consumer Name`: A label identifying this external LMS.
 
    - `Consumer Key`: A unique identifier for this consumer. Generated
      automatically but you can also supply your own.
@@ -54,29 +53,37 @@ Create a Consumer Record
 Authentication Modes
 *****************************
 
-When a learner launches LTI content for the first time, Open edX must
-associate them with a user account. The two checkboxes on the consumer
-record control how this happens.
+When a learner launches LTI content for the first time, your Open edX instance
+must associate them with a user account. The two checkboxes, "Require User Account"
+and "Use LTI PII", on the consumer record control how this happens. You can choose
+to use the "Anonymous (default)" mode or the "Auto-Create with Personal Information"
+mode.
+
+.. figure:: /_images/site_ops_how_tos/lti_cosumer_admin_panel.png
+   :alt: Screenshot of add LTI Consumer page showing *Require User Account* and *Use LTI PII* checkboxes.
+   :width: 100%
+
+   *Require User Account* and *Use LTI PII* checkboxes on the add LTI Consumer page in Django admin panel.
 
 Anonymous (default)
 ===================
 
-Both `Require User Account` and `Use LTI PII` are unchecked.
+To enable this mode, leave both `Require User Account` and `Use LTI PII`
+unchecked.
 
-Open edX automatically creates an account with a randomly generated
-username and email address. The learner sees no login prompt and the
-content loads immediately. This account is linked to the learner's
-identity in the external LMS for grade passback.
+Your Open edX instance  will automatically create an account with a
+randomly generated username and email address. The learner sees no
+login prompt and the content loads immediately. This account is linked
+to the learner's identity in the external LMS for grade passback.
 
-Use this mode when learner identity on Open edX is not important and
-you want the most seamless experience.
+Use this mode when you want the most seamless experience.
 
 Auto-Create with Personal Information
 ======================================
 
-Check `Use LTI PII`.
+To enable this mode, check `Use LTI PII`.
 
-Open edX uses the learner's email address and full name from the LTI
+Your Open edX instance will use the learner's email address and full name from the LTI
 launch request (``lis_person_contact_email_primary``,
 ``lis_person_name_full``) to create their account. If an account with
 that email already exists, it is linked automatically instead of
@@ -92,16 +99,16 @@ privacy setting set to "Email Only" or "Public".
 Require Existing Account
 ========================
 
-Check `Require User Account`.
+To enable this mode, check `Require User Account`.
 
-On the learner's first LTI launch, Open edX checks two conditions:
+On the learner's first LTI launch, your Open edX instance checks two conditions:
 
-- The learner is already signed into Open edX in the same browser.
-- Their Open edX account email matches ``lis_person_contact_email_primary``
+- The learner is already signed into your Open edX instance in the same browser.
+- Their account email matches ``lis_person_contact_email_primary``
   sent by the external LMS.
 
 If either condition is not met, the learner sees an error page with a
-link to the Open edX sign-in page. After signing in with the matching
+link to the your instance's sign-in page (Authn MFE). After signing in with the matching
 account, they can return to the content.
 
 .. important::
@@ -110,15 +117,16 @@ account, they can return to the content.
    ``lis_person_contact_email_primary``. Without it, this check always
    fails, regardless of whether the learner is signed in.
 
-This check runs only on the first launch per learner. Once Open edX
-has linked their identities, subsequent launches proceed without the
-check.
+This check runs only on the first launch per learner. Once their identities have been,
+subsequent launches proceed without the check.
 
 Use this mode when learners must have pre-existing accounts on your
 Open edX instance and you want activity tied to those accounts.
 
-If both `Require User Account` and `Use LTI PII` are checked,
-`Require User Account` takes precedence.
+.. note::
+
+   If both `Require User Account` and `Use LTI PII` are checked,
+   `Require User Account` takes precedence.
 
 Delivering Content in an iframe with Require User Account
 ---------------------------------------------------------
@@ -136,12 +144,6 @@ plugin under ``openedx-lms-common-settings``:
     CSRF_COOKIE_SAMESITE = 'None'
     X_FRAME_OPTIONS = "ALLOW-FROM <your-lti-consumer-domain>"
 
-After adding these settings, run:
-
-.. code-block:: bash
-
-    tutor config save
-    tutor local restart lms
 
 *****************************
 Caveats
@@ -150,15 +152,14 @@ Caveats
 - Enabling `Require User Account` only affects future LTI launches.
   Existing anonymous account data is not migrated.
 - Disabling `Require User Account` after it has been enabled does not
-  unlink accounts. If a rollback is needed, create a new consumer record
-  with the flag disabled and use the new credentials in the external LMS.
+  unlink accounts.
 
 *****************************
 Grade Aggregation Delay
 *****************************
 
 When the external LMS links to a unit or subsection (rather than a
-single problem), Open edX aggregates grades across all problems before
+single problem), the Open edX software aggregates grades across all problems before
 passing them back. Individual problem components return grades
 immediately. The delay applies only to unit and subsection level links.
 
@@ -169,13 +170,7 @@ following to your Tutor plugin under ``openedx-lms-common-settings``:
 
     LTI_AGGREGATE_SCORE_PASSBACK_DELAY = 15 * 60  # seconds
 
-Replace ``15 * 60`` with your desired interval in seconds. Then apply
-the change:
-
-.. code-block:: bash
-
-    tutor config save
-    tutor local restart lms
+Replace ``15 * 60`` with your desired interval in seconds.
 
 
 .. seealso::
@@ -186,9 +181,11 @@ the change:
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
 
 .. include:: /links.txt

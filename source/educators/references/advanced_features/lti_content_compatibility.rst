@@ -40,6 +40,15 @@ Considerations
 
 When selecting content to deliver via LTI, keep these points in mind:
 
+* Only published content appears in an external LMS.
+
+* Content appears in the external LMS regardless of the start, end, or enrollment dates
+  defined in the Open edX course. This ensures uninterrupted availability.
+
+* The external LMS does not respect the "Hide from students" visibility setting. If it is selected,
+  the content will not appear in the learner view of your Open edX instance. However, it will be
+  visible to learners accessing the content via the external LMS.
+
 * Problem components work only when opened in a new window, not in an iframe. If your external LMS
   embeds LTI content in an iframe by default, learners will not be able to interact with problem
   components. Check your external LMS settings for an option to open LTI content in a new window.
@@ -52,11 +61,7 @@ When selecting content to deliver via LTI, keep these points in mind:
   cohorts, are not designed for external use. Set up these features in your external LMS if you
   need them.
 
-* Course content appears in the external LMS regardless of the start, end, or enrollment dates
-  defined in the Open edX course. This ensures uninterrupted availability.
 
-* Only published content appears in an external LMS. The "Hide from students" visibility setting
-  for sections, subsections, and units does not affect LTI visibility.
 
 .. seealso::
 
@@ -65,7 +70,9 @@ When selecting content to deliver via LTI, keep these points in mind:
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

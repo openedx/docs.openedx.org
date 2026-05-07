@@ -28,7 +28,7 @@ To find the course ID:
 2. In the URL shown by your browser, find the course ID.
 
    For example, the URL
-   ``https://training.openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/home``
+   ``https://openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/home``
    contains the course ID ``course-v1:OpenedX+DemoX+DemoCourse``.
 
 The same course ID applies to every item of content in the course.
@@ -47,7 +47,7 @@ The usage ID identifies a specific component, unit, or subsection. It has the fo
 
 For example, ``block-v1:OpenedX+DemoX+DemoCourse+type@html+block@d4e2624ae8b3479db698413bd8947b6f``
 
-You must have the Staff or Admin role in a course to find usage IDs.
+You must have the :ref:`Staff or Admin role <Guide to Course Team Roles>` in a course to find usage IDs.
 
 These terms in the usage ID indicate the level of the content:
 
@@ -78,13 +78,29 @@ Find Usage ID of Unit or Component
 
 3. Click on :guilabel:`STAFF DEBUG INFO`.
 
+   .. figure:: /_images/educator_how_tos/lti_staff_debug_button_screenshot.png
+      :alt: STAFF DEBUG INFO button on the unit page.
+      :width: 60%
+
+      Staff Debug Info button is located at the end of every component on the unit page.
+
 4. Usage ID of a component is the value of the ``location`` field.
 
 5. Usage ID of a unit is the value of the ``parent`` field.
 
+   .. figure:: /_images/educator_how_tos/lti_staff_debug_info_screenshot.png
+      :alt: Screenshot of STAFF DEBUG INFO modal.
+      :width: 60%
+
+      Staff Debug Info modal showing the location and parent fields.
+
 The usage ID begins with ``block-v1``.
 
 .. note:: For courses created before Fall 2014, the usage ID begins with ``i4x://``.
+
+
+
+
 
 Find Usage ID of Subsection
 ===========================
@@ -93,11 +109,11 @@ While you are on a unit of the relevant subsection, copy the url. Here's an exam
 
 .. code-block:: text
 
-   https://master.openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@619390d971ba4e6e8b150417e3730d7e
+   https://openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@619390d971ba4e6e8b150417e3730d7e
 
 Here's what the format of this example URL is:
 
-``https://training.openedx.io/learning/course/{course ID}/{usage ID of subsection}/{usage ID of unit}``
+``https://openedx.io/learning/course/{course ID}/{usage ID of subsection}/{usage ID of unit}``
 
 So the usage ID of the subsection is in the URL.
 
@@ -114,19 +130,19 @@ Subsection (sequential):
 
 .. code-block:: text
 
-   https://training.openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e
+   https://openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@sequential+block@f5c59ce5928f42f4af485e187a93963e
 
 Unit (vertical):
 
 .. code-block:: text
 
-   https://training.openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@619390d971ba4e6e8b150417e3730d7e
+   https://openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@vertical+block@619390d971ba4e6e8b150417e3730d7e
 
 Text component (html):
 
 .. code-block:: text
 
-   https://training.openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@html+block@d4e2624ae8b3479db698413bd8947b6f
+   https://openedx.io/lti_provider/courses/course-v1:OpenedX+DemoX+DemoCourse/block-v1:OpenedX+DemoX+DemoCourse+type@html+block@d4e2624ae8b3479db698413bd8947b6f
 
 
 .. seealso::
@@ -137,7 +153,9 @@ Text component (html):
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
