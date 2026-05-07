@@ -37,7 +37,8 @@ Method 1: Redefine constants using Django admin and ``Site configurations`` API.
 
 #. Go to ``Site configurations`` in admin: {{LMS}}/admin/site_configuration/siteconfiguration/
 
-#. Add new settings to OrderedDict (create new ``Site configurations`` if it was not before)
+#. Add new settings to OrderedDict (create new ``Site configurations`` if it was not before):
+
    .. code-block:: json
 
       {
