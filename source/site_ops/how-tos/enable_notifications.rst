@@ -32,17 +32,25 @@ Enable the plugin in your Tutor environment:
 
    tutor plugins enable notifications
 
-When enabled, the plugin automatically:
+When enabled, the plugin requires an **initialization step** to enable notifications:
 
-- Enables the following waffle flags:
+- After enabling the plugin, you must run the following command to properly set up waffle flags and environment variables for the notifications service. Replace `[do/local/k8s]` with the appropriate option for your deployment environment:
 
-  - ``notifications.enable_notifications``
-  - ``notifications.enable_email_notifications``
+  .. code-block:: bash
 
-- Sets the required environment variables for the notifications service
+     tutor dev [do/local/k8s] init --limit notifications
 
-  - ``SHOW_EMAIL_CHANNEL`` (defaults to TRUE)
-  - ``SHOW_PUSH_CHANNEL`` (defaults to FALSE)
+  This step ensures that the following are set:
+
+  - The waffle flags:
+
+    - ``notifications.enable_notifications``
+    - ``notifications.enable_email_notifications``
+
+  - The required environment variables for the notifications service:
+
+    - ``SHOW_EMAIL_CHANNEL`` (defaults to TRUE)
+    - ``SHOW_PUSH_CHANNEL`` (defaults to FALSE)
 
 .. important::
 
