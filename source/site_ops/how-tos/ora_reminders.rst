@@ -75,10 +75,10 @@ For example, create a file ``ora_reminders_plugin.py``:
     hooks.Filters.ENV_PATCHES.add_item((
         "openedx-lms-common-settings",
         """
-          ORA_REMINDER_INITIAL_DELAY_HOURS = 48
-          ORA_REMINDER_INTERVAL_HOURS = 72
-          ORA_REMINDER_MAX_COUNT = 2
-    """
+           ORA_REMINDER_INITIAL_DELAY_HOURS = 48
+           ORA_REMINDER_INTERVAL_HOURS = 72
+           ORA_REMINDER_MAX_COUNT = 2
+        """
     ))
 
 Then install and enable it in your Tutor environment, according to the `Tutor documentation <https://docs.tutor.edly.io/reference/patches/index.html>`_.
