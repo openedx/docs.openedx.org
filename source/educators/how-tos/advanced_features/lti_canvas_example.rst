@@ -37,11 +37,9 @@ To use Open edX course content in the Canvas LMS, you add a new app to the cours
 
  :ref:`Using Open edX as an LTI Tool Provider` (concept)
 
- :ref:`Create a Duplicate Course for LTI use` (how-to)
-
  :ref:`Determine Content Addresses when using Open edX as an LTI Provider<Determine Content Addresses>` (how-to)
 
- :ref:`Planning for Content Reuse (LTI)<Planning for Content Reuse>` (reference)
+ :ref:`Content Compatibility for LTI` (reference)
 
  :ref:`Example - edX as an LTI Provider to Blackboard<Open edX as an LTI Provider to Blackboard>` (how-to)
 

@@ -30,6 +30,8 @@ configuration options.
    enable_licensing
    transcripts
    lti/index
+   lti/enable_lti
+   lti/configure_lti
    enable_socialsharing_icons
    password
    tpa/index

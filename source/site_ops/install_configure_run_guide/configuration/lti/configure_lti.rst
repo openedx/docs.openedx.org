@@ -1,115 +1,189 @@
 .. _Configuring Credentials for a Tool Consumer:
 
 ###############################################################
-Configuring Credentials for a Tool Consumer
+Configuring LTI Consumers
 ###############################################################
 
-.. tags:: site operator
+.. tags:: site operator, how-to
 
-For each external learning management system or application (external LMS) that
-you want to allow access to your edX instances as an LTI tool consumer, you
-create OAuth1 credentials, and then configure your edX instance to allow
-access. Each external LMS that you :ref:`configure as a tool consumer
-<Configure the Tool Consumer>` must have separate credentials.
+For each external LMS that will consume content from your Open edX
+instance, you must create a Learning Tools Interoperability (LTI) consumer record in the Django admin.
+Each external LMS must have its own separate record.
+
+.. contents::
+   :local:
+   :depth: 1
+
+*****************************
+Create a Consumer Record
+*****************************
+
+#. Sign in to the Django administration console at
+   ``https://{your_lms_domain}/admin``.
+
+#. Under `LTI Provider`, select :guilabel:`Add` next to `LTI Consumers`.
+
+#. Fill in the fields:
+
+   - `Consumer Name`: A label identifying this external LMS.
+
+   - `Consumer Key`: A unique identifier for this consumer. Generated
+     automatically but you can also supply your own.
+
+   - `Consumer Secret`: A secret used to sign LTI requests.
+     Generated automatically but you can also supply your own.
+
+   .. important::
+
+      Leave `Instance GUID` blank. The external LMS generates and
+      supplies this value on its first LTI launch.
+
+   - `Require user account` and `Use lti pii`: These checkboxes
+     control how Open edX associates learners with accounts. See
+     :ref:`Authentication Modes` below before deciding which to enable.
+
+#. Select :guilabel:`Save`.
+
+#. Share the `Consumer Key` and `Consumer Secret` with the educator
+   or administrator who will configure the external LMS.
+
+.. _Authentication Modes:
+
+*****************************
+Authentication Modes
+*****************************
+
+When a learner launches LTI content for the first time, your Open edX instance
+must associate them with a user account. The two checkboxes, "Require user account"
+and "Use lti pii", on the consumer record control how this happens. You can choose
+to use the "Anonymous (default)" mode, the "Auto-Create with Personal Information"
+mode or the "Require Existing Account" mode.
+
+.. figure:: /_images/site_ops_how_tos/lti_cosumer_admin_panel.png
+   :alt: Screenshot of add LTI Consumer page showing *Require user account* and *Use lti pii* checkboxes.
+   :width: 100%
+
+   *Require User Account* and *Use LTI PII* checkboxes on the add LTI Consumer page in Django admin panel.
+
+Anonymous (default)
+===================
+
+To enable this mode, leave both `Require user Account` and `Use lti pii`
+unchecked.
+
+Your Open edX instance  will automatically create an account with a
+randomly generated username and email address. The learner sees no
+login prompt and the content loads immediately. This account is linked
+to the learner's identity in the external LMS for grade passback.
+
+Use this mode when you want the most seamless learner experience.
+
+Auto-Create with Personal Information
+======================================
+
+To enable this mode, check `Use LTI PII`.
+
+Your Open edX instance will use the learner's email address and full name from the LTI
+launch request (``lis_person_contact_email_primary``,
+``lis_person_name_full``) to create their account. If an account with
+that email already exists, it is linked automatically instead of
+creating a new one.
+
+Use this mode when you need to associate LTI activity with real learner
+identities or with accounts that already exist on your Open edX instance.
+
+The external LMS must be configured to send ``lis_person_contact_email_primary``
+in the launch request. This has been tested with Canvas LMS with the
+privacy setting set to "Email Only" or "Public".
+
+Require Existing Account
+========================
+
+To enable this mode, check `Require user account`.
+
+On the learner's first LTI launch, your Open edX instance checks two conditions:
+
+- The learner is already signed into your Open edX instance in the same browser.
+- Their account email matches ``lis_person_contact_email_primary``
+  sent by the external LMS.
+
+If either condition is not met, the learner sees an error page with a
+link to the your instance's sign-in page (Authn MFE). After signing in with the matching
+account, they can return to the content.
+
+.. important::
+
+   The external LMS must be configured to send
+   ``lis_person_contact_email_primary``. Without it, this check always
+   fails, regardless of whether the learner is signed in.
+
+This check runs only on the first launch per learner. Once their identities have been linked,
+subsequent launches proceed without the check.
+
+Use this mode when learners must have pre-existing accounts on your
+Open edX instance and you want activity tied to those accounts.
+
+.. note::
+
+   If both `Require User Account` and `Use LTI PII` are checked,
+   `Require User Account` takes precedence.
+
+Delivering Content in an iframe with Require User Account
+---------------------------------------------------------
+
+When this option is checked and content is embedded in an iframe, browsers
+may block the session cookie. The required cookie and frame settings are
+already included in the Tutor plugin described in
+:ref:`Enable LTI Provider Functionality`. Make sure to replace
+``<your-lti-consumer-domain>`` in the ``X_FRAME_OPTIONS`` setting with
+your actual LTI consumer domain.
 
 
-After you complete the configuration of a tool consumer on your edX system, you
-can add the consumer credentials to your external LMS. For examples of how
-course teams might set up a course on an external LMS as a consumer of edX
-course content, see :ref:`Using Open edX as an LTI Tool
-Provider` in the *Building and Running an Open edX Course* guide.
+*****************************
+Caveats
+*****************************
 
-.. _Configure the Tool Consumer:
+- Enabling `Require User Account` only affects future LTI launches.
+  Existing anonymous account data is not migrated.
+- Disabling `Require User Account` after it has been enabled does not
+  unlink accounts.
 
-*********************************
-Configure the Tool Consumer
-*********************************
+*****************************
+Grade Aggregation Delay
+*****************************
 
-To configure an LTI tool consumer to have access to your Open edX installation,
-follow these steps.
+When the external LMS links to a unit or subsection (rather than a
+single problem), the Open edX software aggregates grades across all problems before
+passing them back. Individual problem components return grades
+immediately. The delay applies only to unit and subsection level links.
 
-#. Sign in to the Django administration console for your base URL. For example,
-   ``http://{your_URL}/admin``.
+The default aggregation interval is 15 minutes. To change it, add the
+following to your Tutor plugin under ``openedx-lms-common-settings``:
 
-#. In the **LTI Provider** section, next to **LTI Consumers** select
-   **Add**.
+.. code-block:: python
 
-#. Enter the following information.
+    LTI_AGGREGATE_SCORE_PASSBACK_DELAY = 15 * 60  # seconds
 
-   - **Consumer Name**: An identifying name for the tool consumer.
+Replace ``15 * 60`` with your desired interval in seconds.
 
-   - **Consumer Key**: The console generates a unique key value for this
-     tool consumer. Alternatively, you can use an external application to
-     generate the key, and then enter it here.
-
-   - **Consumer Secret**: The console generates a unique secret value for this
-     tool consumer. Alternatively, you can use an external application to
-     generate the secret, and then enter it here.
-
-     .. important::
-       Do not supply a value for the **Instance guid** field. The
-       tool consumer generates and supplies a globally unique identifier.
-
-   - **Require User Account**: Checking this makes the content available only
-     for the learners who already have an account on the Open edX instance. This
-     is useful when learners need to be linked between different LMS systems.
-
-     By default, :ref:`an anonymous Open edX system user<Anonymous User Authentication>`
-     is created and all the data is associated with that user. This flag
-     can be used when it is desirable to associate the data, generated
-     via LTI interactions, to actual learner accounts instead of an
-     anonymous account. When this is checked, instead of creating an
-     anonymous user automatically, a message requesting the learner to sign
-     into Open edX is displayed on the first LTI launch and the content
-     is presented after a successful sign in.
-
-     .. important::
-       The account linking happens only when the LTI Consumer sends the
-       learners' email to Open edX by setting the POST data attribute
-       ``lis_person_contact_email_primary`` in the LTI Launch request.
-       This feature has only been tested with **Canvas LMS**, with privacy
-       setting set to "Email Only" or "Public".
-
-     With this flag checked, the LTI content embedded in iframes will require
-     the following Django configuration.
-
-     .. code-block:: python
-
-         # Needed for passing user session with the LTI Request
-         SESSION_COOKIE_SAMESITE = 'None'
-         SESSION_COOKIE_SECURE = True
-         SESSION_COOKIE_SAMESITE_FORCE_ALL = True
-         CSRF_COOKIE_SECURE = True
-         CSRF_COOKIE_SAMESITE = 'None'
-
-         # Needed for showing pages in iframe
-         X_FRAME_OPTIONS = "ALLOW-FROM <your-lti-consumer-domain>"
-
-
-     Caveats:
-       - Setting this flag only associates future interactions of the learner.
-         This flag cannot be used to migrate data from existing anonymous accounts
-         to corresponding user accounts.
-       - Unchecking the flag will not roll back the auto-linked users. In
-         situations requiring rollback of this feature, it is recommended
-         to create a new LTI Consumer with this flag turned off, and the
-         new credentials be used in the LTI consumer application.
-
-
-#. Select **Save** at the bottom of the page.
 
 .. seealso::
 
-  :ref:`Configuring an edX Instance as an LTI Tool Provider`
+   :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (concept)
 
+   :ref:`Enable LTI Provider Functionality` (how-to)
+
+   :ref:`Using Open edX as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2025-06-04   | OpenCraft                     | Teak           |  Pass                          |
+| 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
 
 .. include:: /links.txt

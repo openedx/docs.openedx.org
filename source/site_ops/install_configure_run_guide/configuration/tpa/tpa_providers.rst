@@ -75,12 +75,10 @@ and configure each of the three organizations to be identity providers, you
 permit learners who have valid user credentials at any of those organizations
 to access the Open edX site.
 
-If you are using :ref:`edX as an LTI tool provider<Configuring an edX
-Instance as an LTI Tool Provider>` to a external learning management system
-or application, you can set up an authentication workflow between your Open
-edX site and the system that is the LTI tool consumer. For more information,
-see :ref:`Options for LTI Authentication and User Provisioning` and
-:ref:`Configuring Open edX for LTI Authentication`.
+If you are using :ref:`your Open edX instance as an LTI tool provider<Configuring an Open edX
+Instance as an LTI Tool Provider>` to an external learning management system,
+you can control how learners are authenticated during LTI launches. For more
+information, see :ref:`Authentication Modes`.
 
 .. include:: /links.txt
 
