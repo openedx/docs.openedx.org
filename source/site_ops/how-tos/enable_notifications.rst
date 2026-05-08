@@ -7,7 +7,7 @@ Enable Notifications
 
 :ref:`Notifications <Notifications & Preferences>` keep you informed about activity in your
 courses, alerting you via one or both of in-platform notifications and email notifications.
-They span activities such as Discussions updates, Course updates, and Grading updates.
+They span activities such as Discussions updates, Course updates, Grading updates, and ORA review reminders.
 
 The **notification tray** allows learners to access platform notifications from
 the top-right corner of the Open edX interface. **Notification emails** keep them updated when
@@ -475,10 +475,16 @@ Why isn't my override working?
 * If a notification is marked as ``use_app_defaults: True`` in the code, it will ignore overrides in ``NOTIFICATION_TYPES_OVERRIDE``. You must override using ``NOTIFICATION_APPS_OVERRIDE`` instead.
 
 
+.. seealso::
+
+   :ref:`ora-reminder-notifications` — configure periodic nudges for learners who have not completed peer or self review steps in ORA assignments.
+
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  |         Reviewer              |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+|2026-05-05    | Ahtisham Shahid               | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 |2026-04-30    | Sara Burns                    | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
