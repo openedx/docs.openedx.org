@@ -54,7 +54,7 @@ When enabled, the plugin requires an **initialization step** to enable notificat
 
 .. important::
 
-   After enabling the notifications plugin, site operators **must rebuild the
+   After enabling the notifications plugin and doing initialisation task as mentioned above, site operators **must rebuild the
    MFE image** for the notification tray to appear in the user interface.
 
 Rebuild the MFE image:
