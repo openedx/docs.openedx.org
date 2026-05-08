@@ -75,7 +75,7 @@ and configure each of the three organizations to be identity providers, you
 permit learners who have valid user credentials at any of those organizations
 to access the Open edX site.
 
-If you are using :ref:`Open edX as an LTI tool provider<Configuring an edX
+If you are using :ref:`your Open edX instance as an LTI tool provider<Configuring an Open edX
 Instance as an LTI Tool Provider>` to an external learning management system,
 you can control how learners are authenticated during LTI launches. For more
 information, see :ref:`Authentication Modes`.

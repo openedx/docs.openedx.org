@@ -23,9 +23,9 @@ The course ID has the format ``{key type}:{org}+{course}+{run}``, for example,
 
 To find the course ID:
 
-1. In your Open edX LMS, open your course.
+#. In your Open edX LMS, open your course.
 
-2. In the URL shown by your browser, find the course ID.
+#. In the URL shown by your browser, find the course ID.
 
    For example, the URL
    ``https://openedx.io/learning/course/course-v1:OpenedX+DemoX+DemoCourse/home``
@@ -72,11 +72,11 @@ These terms in the usage ID indicate the level of the content:
 Find Usage ID of Unit or Component
 ==================================
 
-1. In your Open edX LMS, open the course.
+#. In your Open edX LMS, open the course.
 
-2. Go to the page that contains the unit or component.
+#. Go to the page that contains the unit or component.
 
-3. Click on :guilabel:`STAFF DEBUG INFO`.
+#. Click on :guilabel:`STAFF DEBUG INFO`.
 
    .. figure:: /_images/educator_how_tos/lti_staff_debug_button_screenshot.png
       :alt: STAFF DEBUG INFO button on the unit page.
@@ -84,9 +84,9 @@ Find Usage ID of Unit or Component
 
       Staff Debug Info button is located at the end of every component on the unit page.
 
-4. Usage ID of a component is the value of the ``location`` field.
+#. Usage ID of a component is the value of the ``location`` field.
 
-5. Usage ID of a unit is the value of the ``parent`` field.
+#. Usage ID of a unit is the value of the ``parent`` field.
 
    .. figure:: /_images/educator_how_tos/lti_staff_debug_info_screenshot.png
       :alt: Screenshot of STAFF DEBUG INFO modal.
@@ -147,7 +147,11 @@ Text component (html):
 
 .. seealso::
 
-   :ref:`Configuring an edX Instance as an LTI Tool Provider` (site operator)
+   :ref:`Using Open edX as an LTI Tool Provider` (concept)
+
+   :ref:`Content Compatibility for LTI` (reference)
+
+   :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**

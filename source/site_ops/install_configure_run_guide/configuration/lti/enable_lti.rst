@@ -28,8 +28,16 @@ following content:
 
     from tutor import hooks
 
+    ########################################
+    # Plugin metadata
+    ########################################
+
     __version__ = "1.0.0"
     name = "enable-lti-provider"
+
+    ########################################
+    # LMS common settings patch
+    ########################################
 
     hooks.Filters.ENV_PATCHES.add_item(
         (
@@ -40,9 +48,21 @@ following content:
             ENABLE_LTI_PROVIDER = True
             INSTALLED_APPS.append('lms.djangoapps.lti_provider.apps.LtiProviderConfig')
             AUTHENTICATION_BACKENDS.append('lms.djangoapps.lti_provider.users.LtiBackend')
+            SESSION_COOKIE_SAMESITE = 'None'
+            SESSION_COOKIE_SECURE = True
+            SESSION_COOKIE_SAMESITE_FORCE_ALL = True
+            CSRF_COOKIE_SECURE = True
+            CSRF_COOKIE_SAMESITE = 'None'
+            X_FRAME_OPTIONS = "ALLOW-FROM <your-lti-consumer-domain>"
             """),
+
         )
     )
+
+    ########################################
+    # CMS common settings patch
+    # (optional but keeps both services in sync)
+    ########################################
 
     hooks.Filters.ENV_PATCHES.add_item(
         (
@@ -55,53 +75,39 @@ following content:
         )
     )
 
-.. note::
 
-   The plugin patches both LMS and CMS settings. The CMS patch keeps
-   both services in sync but does not affect LTI provider functionality,
-   which runs entirely in the LMS.
+You need to enable the plugin, restart your instance and run database migrations as described
+in `Tutor documentation <https://docs.tutor.edly.io/developing/plugins/creating.html>`_.
 
-*****************************
-Enable and Apply the Plugin
-*****************************
+.. important::
 
-After saving the file, run:
+   If you plan to deliver content in an iframe, replace ``<your-lti-consumer-domain>``
+   in the ``X_FRAME_OPTIONS`` setting with your actual LTI consumer domain. If you are
+   not using iframe delivery, you can remove that line.
 
-.. code-block:: bash
 
-    tutor plugins enable enable-lti-provider
-    tutor config save
-    tutor local do init --limit lms
-
-*****************************
-Run Database Migrations
-*****************************
-
-.. code-block:: bash
-
-    tutor local run lms python manage.py lms migrate
 
 *****************************
 Verify the Installation
 *****************************
 
-Confirm the LTI provider is active by checking that these database
-tables exist:
+Confirm the LTI provider is active by looking for the `LTI Provider` section in Django admin panel.
 
-.. code-block:: text
+.. figure:: /_images/site_ops_how_tos/lti_provider_section_django_panel.png
+   :alt: Screenshot of LTI Provider section in the Django admin panel.
+   :width: 100%
 
-    lti_provider_gradedassignment
-    lti_provider_lticonsumer
-    lti_provider_ltiuser
-    lti_provider_outcomeservice
+   LTI Provider section should appear in Django admin panel once the feature is active.
 
-If any tables are missing, check that the migration step completed
+If its not visible, check that the migration step completed
 without errors.
 
 
 .. seealso::
 
-   :ref:`Configuring Credentials for a Tool Consumer`
+   :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (concept)
+
+   :ref:`Configuring Credentials for a Tool Consumer` (how-to)
 
 
 **Maintenance chart**

@@ -38,7 +38,7 @@ Create a Consumer Record
       Leave `Instance GUID` blank. The external LMS generates and
       supplies this value on its first LTI launch.
 
-   - `Require User Account` and `Use LTI PII`: These checkboxes
+   - `Require user account` and `Use lti pii`: These checkboxes
      control how Open edX associates learners with accounts. See
      :ref:`Authentication Modes` below before deciding which to enable.
 
@@ -54,13 +54,13 @@ Authentication Modes
 *****************************
 
 When a learner launches LTI content for the first time, your Open edX instance
-must associate them with a user account. The two checkboxes, "Require User Account"
-and "Use LTI PII", on the consumer record control how this happens. You can choose
-to use the "Anonymous (default)" mode or the "Auto-Create with Personal Information"
-mode.
+must associate them with a user account. The two checkboxes, "Require user account"
+and "Use lti pii", on the consumer record control how this happens. You can choose
+to use the "Anonymous (default)" mode, the "Auto-Create with Personal Information"
+mode or the "Require Existing Account" mode.
 
 .. figure:: /_images/site_ops_how_tos/lti_cosumer_admin_panel.png
-   :alt: Screenshot of add LTI Consumer page showing *Require User Account* and *Use LTI PII* checkboxes.
+   :alt: Screenshot of add LTI Consumer page showing *Require user account* and *Use lti pii* checkboxes.
    :width: 100%
 
    *Require User Account* and *Use LTI PII* checkboxes on the add LTI Consumer page in Django admin panel.
@@ -68,7 +68,7 @@ mode.
 Anonymous (default)
 ===================
 
-To enable this mode, leave both `Require User Account` and `Use LTI PII`
+To enable this mode, leave both `Require user Account` and `Use lti pii`
 unchecked.
 
 Your Open edX instance  will automatically create an account with a
@@ -76,7 +76,7 @@ randomly generated username and email address. The learner sees no
 login prompt and the content loads immediately. This account is linked
 to the learner's identity in the external LMS for grade passback.
 
-Use this mode when you want the most seamless experience.
+Use this mode when you want the most seamless learner experience.
 
 Auto-Create with Personal Information
 ======================================
@@ -99,7 +99,7 @@ privacy setting set to "Email Only" or "Public".
 Require Existing Account
 ========================
 
-To enable this mode, check `Require User Account`.
+To enable this mode, check `Require user account`.
 
 On the learner's first LTI launch, your Open edX instance checks two conditions:
 
@@ -117,7 +117,7 @@ account, they can return to the content.
    ``lis_person_contact_email_primary``. Without it, this check always
    fails, regardless of whether the learner is signed in.
 
-This check runs only on the first launch per learner. Once their identities have been,
+This check runs only on the first launch per learner. Once their identities have been linked,
 subsequent launches proceed without the check.
 
 Use this mode when learners must have pre-existing accounts on your
@@ -131,18 +131,12 @@ Open edX instance and you want activity tied to those accounts.
 Delivering Content in an iframe with Require User Account
 ---------------------------------------------------------
 
-When this mode is used and content is embedded in an iframe, browsers
-may block the session cookie. Add the following settings to your Tutor
-plugin under ``openedx-lms-common-settings``:
-
-.. code-block:: python
-
-    SESSION_COOKIE_SAMESITE = 'None'
-    SESSION_COOKIE_SECURE = True
-    SESSION_COOKIE_SAMESITE_FORCE_ALL = True
-    CSRF_COOKIE_SECURE = True
-    CSRF_COOKIE_SAMESITE = 'None'
-    X_FRAME_OPTIONS = "ALLOW-FROM <your-lti-consumer-domain>"
+When this option is checked and content is embedded in an iframe, browsers
+may block the session cookie. The required cookie and frame settings are
+already included in the Tutor plugin described in
+:ref:`Enable LTI Provider Functionality`. Make sure to replace
+``<your-lti-consumer-domain>`` in the ``X_FRAME_OPTIONS`` setting with
+your actual LTI consumer domain.
 
 
 *****************************
@@ -175,7 +169,11 @@ Replace ``15 * 60`` with your desired interval in seconds.
 
 .. seealso::
 
-   :ref:`Using Open edX as an LTI Tool Provider` (educator)
+   :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (concept)
+
+   :ref:`Enable LTI Provider Functionality` (how-to)
+
+   :ref:`Using Open edX as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**

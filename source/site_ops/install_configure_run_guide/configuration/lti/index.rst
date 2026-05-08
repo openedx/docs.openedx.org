@@ -1,7 +1,7 @@
-.. _Configuring an edX Instance as an LTI Tool Provider:
+.. _Configuring an Open edX Instance as an LTI Tool Provider:
 
 ########################################################
-Configuring Open edX as an LTI Tool Provider
+Configuring your Open edX as an LTI Tool Provider
 ########################################################
 
 .. tags:: site operator, concept
@@ -12,9 +12,9 @@ systems such as Canvas or Blackboard.
 
 Setting this up involves two tasks:
 
-1. :ref:`Enable the LTI provider feature<Enable LTI Provider Functionality>`
+#. :ref:`Enable the LTI provider feature<Enable LTI Provider Functionality>`
    on your Open edX instance.
-2. :ref:`Create LTI consumer credentials<Configuring Credentials for a Tool Consumer>`
+#. :ref:`Create LTI consumer credentials<Configuring Credentials for a Tool Consumer>`
    for each external LMS that will consume your content.
 
 Once configured, course teams can construct LTI URLs for specific pieces
@@ -23,9 +23,7 @@ of content and add them to the external LMS. See
 
 .. seealso::
 
-   :ref:`Enable LTI Provider Functionality`
-
-   :ref:`Using Open edX as an LTI Tool Provider` (educator)
+   :ref:`Using Open edX as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**
