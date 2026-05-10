@@ -3,6 +3,8 @@
 Ongoing Maintainer's Tasks
 ##########################
 
+.. tags:: maintainer, how-to
+
 ..
   Much of the TBD content in this document should be answered when we come
   to consensus on https://openedx.atlassian.net/wiki/spaces/COMM/pages/3545726977/Maintainer+Outstanding+Questions+9+14+meeting
