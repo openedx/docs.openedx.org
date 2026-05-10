@@ -14,6 +14,7 @@ Open edX Developers
       * :doc:`/developers/quickstarts/first_openedx_pr`
       * :ref:`qs Dev Contributing`
       * :ref:`Tutor QS (Dev)`
+      * :ref:`XBlock Quickstart <xblock:Build an XBlock Quick Start>`
       +++
       .. button-ref:: quickstarts/index
          :color: primary
@@ -54,6 +55,7 @@ Open edX Developers
       * :doc:`concepts/accessibility`
       * :doc:`concepts/hooks_extension_framework`
       * :ref:`Tutor Concept (Dev)`
+      * :ref:`XBlock Concepts <xblock:XBlock Concepts>`
       +++
       .. button-ref:: concepts/index
          :color: primary
@@ -72,6 +74,7 @@ Open edX Developers
       * :doc:`edx-platform:index`
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
       * :doc:`references/aspects_home`
+      * :ref:`XBlock Tutorial <xblock:Open edX XBlock Tutorial>`
       +++
       .. button-ref:: references/index
          :color: primary
