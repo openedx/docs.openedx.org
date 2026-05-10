@@ -1,4 +1,6 @@
-Maintainers Home
+.. _Maintainer's Home:
+
+Maintainer's Home
 ################
 
 .. grid:: 1 2 2 2
@@ -9,15 +11,16 @@ Maintainers Home
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`how-tos/maintain-a-repo`
-      * :doc:`how-tos/ongoing-maintainers-tasks`
+      * :ref:`How To Maintain a Repository`
+      * :ref:`Ongoing Maintainer's Tasks`
 
    .. grid-item-card:: References
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/tools_for_maintainers`
+      * :ref:`Tools for Maintainers`
       * `Maintainers Slack Channel`_
+      * `Open edX AI Contribution Policy`_
 
    .. grid-item-card:: Process Documentation
       :class-card: sd-shadow-md sd-p-2
@@ -93,6 +96,8 @@ High Level Contribution Process
    }
 
 .. _Maintainers Slack Channel: https://openedx.slack.com/archives/C03R320AFJP
+
+.. _Open edX AI Contribution Policy: https://github.com/openedx/.github/blob/master/AI_POLICY.md
 
 .. _Maintainers Office Hours Notes:  https://openedx.atlassian.net/wiki/spaces/COMM/pages/3603791889/Office+Hours+Notes
 

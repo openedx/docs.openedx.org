@@ -1,3 +1,5 @@
+.. _Tools for Maintainers:
+
 Tools for Maintainers
 #####################
 

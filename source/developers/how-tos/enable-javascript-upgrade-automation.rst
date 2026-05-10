@@ -1,3 +1,5 @@
+.. _Enable JS Upgrade Automation:
+
 How To Enable Javascript Upgrade Automation
 ###########################################
 
