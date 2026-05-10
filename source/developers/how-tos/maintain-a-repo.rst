@@ -3,6 +3,8 @@
 How To Maintain a Repository
 ############################
 
+.. tags:: maintainer, how-to
+
 .. contents::
    :local:
    :class: no-bullets

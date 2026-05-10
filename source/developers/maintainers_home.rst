@@ -1,7 +1,9 @@
 .. _Maintainer's Home:
 
 Maintainer's Home
-################
+#################
+
+.. tags:: maintainer, reference
 
 .. grid:: 1 2 2 2
    :gutter: 3

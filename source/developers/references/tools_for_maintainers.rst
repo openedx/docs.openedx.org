@@ -3,6 +3,8 @@
 Tools for Maintainers
 #####################
 
+.. tags:: maintainer, reference
+
 .. list-table::
 
    * - Tool

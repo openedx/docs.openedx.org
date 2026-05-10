@@ -84,6 +84,7 @@ tags_badge_colors = {
     "community": "primary",
     "documentor": "primary",
     "translator": "primary",
+    "maintainer": "primary",
     "concept": "secondary",
     "how-to": "secondary",
     "quickstart": "secondary",
