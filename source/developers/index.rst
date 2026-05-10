@@ -11,7 +11,7 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`/developers/quickstarts/first_openedx_pr`
+      * :ref:`qs Dev First PR`
       * :ref:`qs Dev Contributing`
       * :ref:`Tutor QS (Dev)`
       * :ref:`XBlock Quickstart <xblock:Build an XBlock Quick Start>`
@@ -29,15 +29,15 @@ Open edX Developers
 
       * :ref:`qs Dev Contributing`
       * :ref:`Tutor QS (Dev)`
-      * :doc:`references/running_pr_tests`
-      * :doc:`concepts/design_tokens`
+      * :ref:`Running PR Tests`
+      * :ref:`Design Tokens`
 
    .. grid-item-card:: How-tos
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`how-tos/enable-python-upgrade-automation`
-      * :doc:`how-tos/enable-javascript-upgrade-automation`
+      * :ref:`Enable Python Upgrade Automation`
+      * :ref:`Enable JS Upgrade Automation`
       +++
       .. button-ref:: how-tos/index
          :color: primary
@@ -50,10 +50,10 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`concepts/platform_overview`
-      * :doc:`concepts/backend_layout_and_approach`
-      * :doc:`concepts/accessibility`
-      * :doc:`concepts/hooks_extension_framework`
+      * :ref:`Platform Overview`
+      * :ref:`Backend Layout and Approach`
+      * :ref:`Dev Accessibility Concepts`
+      * :ref:`Hooks Extension Framework`
       * :ref:`Tutor Concept (Dev)`
       * :ref:`XBlock Concepts <xblock:XBlock Concepts>`
       +++
@@ -68,12 +68,12 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`references/running_pr_tests`
-      * :doc:`references/developer_guide/index`
+      * :ref:`Running PR Tests`
+      * :ref:`Open edX Developer's Guide`
       * :doc:`openedx-proposals:index`
       * :doc:`edx-platform:index`
       * `frontend-platform <https://openedx.github.io/frontend-platform>`_
-      * :doc:`references/aspects_home`
+      * :ref:`Aspects Home`
       * :ref:`XBlock Tutorial <xblock:Open edX XBlock Tutorial>`
       +++
       .. button-ref:: references/index
@@ -87,9 +87,10 @@ Open edX Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
 
-      * :doc:`how-tos/maintain-a-repo`
-      * :doc:`how-tos/ongoing-maintainers-tasks`
-      * :doc:`references/tools_for_maintainers`
+      * :ref:`How To Maintain a Repository`
+      * :ref:`Ongoing Maintainer's Tasks`
+      * :ref:`Tools for Maintainers`
+      * :ref:`Maintainer's Home`
 
       +++
       .. button-ref:: maintainers_home

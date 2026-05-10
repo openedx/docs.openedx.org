@@ -1,3 +1,5 @@
+.. _Enable Python Upgrade Automation:
+
 How To Enable Python Upgrade Automation
 #######################################
 

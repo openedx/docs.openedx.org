@@ -1,3 +1,5 @@
+.. _Ongoing Maintainer's Tasks:
+
 Ongoing Maintainer's Tasks
 ##########################
 

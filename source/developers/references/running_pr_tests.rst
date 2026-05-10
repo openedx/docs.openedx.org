@@ -1,3 +1,5 @@
+.. _Running PR Tests:
+
 Running Pull Request Tests
 ##########################
 

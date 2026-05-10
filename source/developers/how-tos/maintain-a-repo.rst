@@ -1,3 +1,5 @@
+.. _How To Maintain a Repository:
+
 How To Maintain a Repository
 ############################
 
