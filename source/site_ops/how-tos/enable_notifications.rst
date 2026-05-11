@@ -40,7 +40,7 @@ When enabled, the plugin requires two additional steps to fully set up notificat
 
    .. code-block:: bash
 
-      tutor local do init --limit=notifications
+      tutor [local/dev/k8s] do init --limit=notifications
       tutor k8s do init --limit=notifications
 
    This configures the required waffle flags and environment variables:
