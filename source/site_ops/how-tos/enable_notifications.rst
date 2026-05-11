@@ -36,7 +36,7 @@ When enabled, the plugin requires two additional steps to fully set up notificat
 
 1. **Initialize notifications plugin**
 
-   Run **one** of the following commands, depending on your deployment environment:
+   Run the following command:
 
    .. code-block:: bash
 
