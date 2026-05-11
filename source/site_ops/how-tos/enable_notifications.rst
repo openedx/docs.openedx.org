@@ -172,7 +172,10 @@ Key characteristics
 
 New Settings
 ************
+
+As of Verawood, new settings have been added in
 `openedx/envs/common.py <https://github.com/openedx/openedx-platform/blob/09878a18f071318aa446fd78b37a95ba81a62581/openedx/envs/common.py#L2694>`_
+that govern how digests are delivered. 
 
 .. code-block:: python
       
@@ -186,25 +189,12 @@ New Settings
 Override these in your deployment settings to change when digests are delivered.
 
 .. warning::
-   ``send_email_digest`` management command is DEPRECATED. You should remove any cron jobs that call it.
+   ``send_email_digest`` management command, introduced in Ulmo, is DEPRECATED. You should remove any cron jobs that call it.
 
    The management command still exists but is now a no-op with a deprecation warning:
    ``WARNING: This command is deprecated. Digest emails are now scheduled automatically. Please remove cron jobs using this command.``
 
-
-DEPRECATED - Daily and weekly email digests
-===========================================
-
-To enable these digests, site operators must configure `cron jobs <https://www.redhat.com/en/blog/linux-cron-command>`_ on the host machine where tutor is being used to deploy the Open edX platform.
-
-On the Linux host machine site operators need to run `crontab -e` for adding the cron jobs. This command opens up 
-an editor where the below mentioned command needs to be written. Site operators can modify these command to customize the
-time to send the notification email. They need to change the command to `tutor local ...` or `tutor k8s ...` depending on
-if they are running the instance locally or using kubernetes.
-
-Daily digest - ``0 22 * * * tutor local run lms ./manage.py lms send_email_digest Daily``
-
-Weekly digest - ``0 22 * * SUN tutor local run lms ./manage.py lms send_email_digest Weekly``
+If you are on an Ulmo system, please view this doc in the ``ulmo`` version for instructions on cron job configuration.
 
 
 Creating a new notification
