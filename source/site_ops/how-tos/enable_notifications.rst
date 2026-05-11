@@ -32,35 +32,33 @@ Enable the plugin in your Tutor environment:
 
    tutor plugins enable notifications
 
-When enabled, the plugin requires an **initialization step** to enable notifications:
+When enabled, the plugin requires two additional steps to fully set up notifications:
 
-- After enabling the plugin, you must run the following command to properly set up waffle flags and environment variables for the notifications service. Replace `[do/local/k8s]` with the appropriate option for your deployment environment:
+1. **Initialize notifications plugin**
 
-  .. code-block:: bash
+   Run **one** of the following commands, depending on your deployment environment:
 
-     tutor dev [do/local/k8s] init --limit notifications
+   .. code-block:: bash
 
-  This step ensures that the following are set:
+      tutor local do init --limit=notifications
+      tutor k8s do init --limit=notifications
 
-  - The waffle flags:
+   This configures the required waffle flags and environment variables:
 
-    - ``notifications.enable_notifications``
-    - ``notifications.enable_email_notifications``
+   - Waffle flags:
+     - ``notifications.enable_notifications``
+     - ``notifications.enable_email_notifications``
+   - Environment variables:
+     - ``SHOW_EMAIL_CHANNEL`` (defaults to TRUE)
+     - ``SHOW_PUSH_CHANNEL`` (defaults to FALSE)
 
-  - The required environment variables for the notifications service:
+2. **Rebuild the MFE image**
 
-    - ``SHOW_EMAIL_CHANNEL`` (defaults to TRUE)
-    - ``SHOW_PUSH_CHANNEL`` (defaults to FALSE)
+   After initialization, rebuild the MFE image so the notification tray appears:
 
-.. important::
+   .. code-block:: bash
 
-   After enabling the notifications plugin and completing the initialization step as mentioned above, site operators must rebuild the MFE image for the     notification tray to appear in the user interface.
-
-Rebuild the MFE image:
-
-.. code-block:: bash
-
-   tutor images build mfe
+      tutor images build mfe
 
 
 Configure the notifications plugin
