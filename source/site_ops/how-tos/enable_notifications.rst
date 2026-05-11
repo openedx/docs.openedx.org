@@ -32,28 +32,33 @@ Enable the plugin in your Tutor environment:
 
    tutor plugins enable notifications
 
-When enabled, the plugin automatically:
+When enabled, the plugin requires two additional steps to fully set up notifications:
 
-- Enables the following waffle flags:
+1. **Initialize notifications plugin**
 
-  - ``notifications.enable_notifications``
-  - ``notifications.enable_email_notifications``
+   Run the following command:
 
-- Sets the required environment variables for the notifications service
+   .. code-block:: bash
 
-  - ``SHOW_EMAIL_CHANNEL`` (defaults to TRUE)
-  - ``SHOW_PUSH_CHANNEL`` (defaults to FALSE)
+      tutor [local/dev/k8s] do init --limit=notifications
+      
 
-.. important::
+   This configures the required waffle flags and environment variables:
 
-   After enabling the notifications plugin, site operators **must rebuild the
-   MFE image** for the notification tray to appear in the user interface.
+   - Waffle flags:
+     - ``notifications.enable_notifications``
+     - ``notifications.enable_email_notifications``
+   - Environment variables:
+     - ``SHOW_EMAIL_CHANNEL`` (defaults to TRUE)
+     - ``SHOW_PUSH_CHANNEL`` (defaults to FALSE)
 
-Rebuild the MFE image:
+2. **Rebuild the MFE image**
 
-.. code-block:: bash
+   After initialization, rebuild the MFE image so the notification tray appears:
 
-   tutor images build mfe
+   .. code-block:: bash
+
+      tutor images build mfe
 
 
 Configure the notifications plugin
