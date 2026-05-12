@@ -22,24 +22,24 @@ This guide assumes:
   (see :ref:`Determine Content Addresses`)
 
 
-Configuring an LTI tool in Canvas has 2 steps:
+Configuring an LTI tool in Canvas has two steps:
 
-#. Tool Configuration: Establishes the connection between Canvas and
+#. **Tool Configuration**: Establishes the connection between Canvas and
    Open edX using the consumer key, secret, and domain. This is typically done once, at the
    account or course level.
 
-#. Tool Placement: How learners reach a specific piece of Open edX content,
+#. **Tool Placement**: How learners reach a specific piece of Open edX content,
    such as a module item or an assignment. A single tool configuration can be
-   "placed" in multiple locations. Instructors can override launch URLs during
+   reused in multiple locations. Instructors can override launch URLs during
    placement.
 
 Canvas has two roles relevant to these steps:
 
-#. Account Admin: Has access to Account Settings and can configure an External Tool at the account level
+#. **Account Admin**: Has access to Account Settings and can configure an External Tool at the account level
    which will then be available across all courses in the account. Instructors can place this tool
    anywhere in the course and also override the launch URL.
 
-#. Instructor: Has access to Course Settings and can configure an External Tool at the course level
+#. **Instructor**: Has access to Course Settings and can configure an External Tool at the course level
    which will then be available in that course only.
 
 
@@ -47,34 +47,34 @@ Canvas has two roles relevant to these steps:
 Step 1: Configuring Open edX as an External Tool
 ***************************************************
 
-Open edX supports LTI 1.1 only as a tool provider. We can configure it as
+Open edX supports LTI 1.1 only as a tool provider. You can configure it as
 an External Tool in Canvas.
 
-External Tool configuration can be accessed via:
+#. Navigate to the External Apps page:
 
-#. Account Nav -> Settings -> Apps if you have an Admin role.
+   #. Account Nav → Settings → Apps if you have an Admin role.
 
-   .. figure:: /_images/educator_how_tos/canvas_external_apps_account_nav.png
-      :alt: Screenshot of accessing External Apps page via account navigation.
-      :width: 60%
+      .. figure:: /_images/educator_how_tos/canvas_external_apps_account_nav.png
+         :alt: Screenshot of accessing External Apps page via account navigation.
+         :width: 60%
 
-      In account navigation, select Settings and then the Apps tab to access configuration page for External Apps.
-
-
-#. Course Nav -> Settings -> Apps if you have an Instructor role.
-
-   .. figure:: /_images/educator_how_tos/canvas_external_apps_course_nav.png
-      :alt: Screenshot of accessing External Apps page via course navigation.
-      :width: 60%
-
-      In course navigation, select Settings and then the Apps tab to access configuration page for External Apps.
+         In account navigation, select Settings and then the Apps tab to access configuration page for External Apps.
 
 
-.. note::
+   #. Course Nav → Settings → Apps if you have an Instructor role.
 
-   Canvas displays an *Apps* item in the account navigation sidebar by default
-   for all account admins. This leads to the Apps Hub which supports
-   LTI 1.3 only. This is NOT the place where you can configure Open edX.
+      .. figure:: /_images/educator_how_tos/canvas_external_apps_course_nav.png
+         :alt: Screenshot of accessing External Apps page via course navigation.
+         :width: 60%
+
+         In course navigation, select Settings and then the Apps tab to access configuration page for External Apps.
+
+
+   .. note::
+
+      Canvas displays an *Apps* item in the account navigation sidebar by default
+      for all account admins. This leads to the Apps Hub which supports
+      LTI 1.3 only. This is not the place where you can configure Open edX.
 
 
 #. On the External Apps page, click :guilabel:`+ App`. This will open a modal where you
@@ -90,8 +90,7 @@ External Tool configuration can be accessed via:
       Apps page. Fill in the fields as described in the steps below.
 
 
-#. Select *Configuration Type* as *Manual Entry*. Of the 5 options available, this is the only one
-   that allows LTI 1.1 configuration.
+#. Select *Configuration Type* as *Manual Entry* which is the only option that supports LTI 1.1.
 
 
    .. figure:: /_images/educator_how_tos/canvas_external_app_config_type.png
@@ -104,14 +103,14 @@ External Tool configuration can be accessed via:
       LTI 1.1 tool. The other options do not support LTI 1.1.
 
 
-#. Enter *Name* e.g. *My Open edX instance*.
+#. Enter a *Name*, e.g. *My Open edX instance*.
 
-#. Enter *Consumer Key* and *Shared Secret* that you got from your site operator.
+#. Enter *Consumer Key* and *Shared Secret* provided by your site operator.
 
 #. Optionally, enter a *Launch URL*. If left blank, you can enter a URL during
    placement instead. If set here, it can still be overridden during placement.
 
-#. In *Domain*, add your Open edX LMS domain, e.g. ``https://openedx.io``.
+#. In *Domain*, enter your Open edX LMS domain, e.g. ``openedx.io``.
 
 #. Set *Privacy Level* based on the :ref:`authentication mode <Authentication Modes>` your
    site operator has configured for your Open edX instance.
@@ -141,19 +140,19 @@ External Tool configuration can be accessed via:
 Step 2: Add Open edX Content to your Course
 ********************************************
 
-As an instructor, you can add content to your course using the Open edX
-configuration you add in step 1. Let's add content to a module as an example:
+As an instructor, you can add content from your Open edX instance you configured
+in step 1, to your course. Follow these steps to add content to a module.
 
 #. In your Canvas course, go to *Modules*.
 
-#. Click :guilabel:`+` on the module where you want to add content
+#. Click :guilabel:`+` on the module where you want to add content.
 
 #. Select *External Tool* from the item type dropdown.
 
 #. Select the Open edX tool configured in Step 1.
 
 #. In the *URL* field, paste the LTI content URL for this specific piece
-   of content (see :ref:`Determine Content Addresses`)
+   of content (see :ref:`Determine Content Addresses`).
 
 #. Check *Load in a new tab*.
 
@@ -181,20 +180,20 @@ Step 3: Verify
 
    - Submit a response as the student.
 
-   - Check the Canvas gradebook. Scores may sync after a 15min delay (see :ref:`Grade Pass back`).
+   - Check the Canvas gradebook. Scores may sync after a 15-minute delay (see :ref:`Grade Passback`).
 
 
 .. seealso::
 
-   :ref:`Using Open edX as an LTI Tool Provider` (educator)
+   :ref:`Using Open edX as an LTI Tool Provider` (concept)
 
-   :ref:`Determine Content Addresses` (educator)
+   :ref:`Determine Content Addresses` (how-to)
 
-   :ref:`Content Compatibility for LTI` (educator)
+   :ref:`Content Compatibility for LTI` (reference)
 
    :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (site-operator)
 
-   :ref:`Open edX as an LTI Provider to Blackboard` (educator)
+   :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
 
 **Maintenance chart**
 

@@ -46,15 +46,15 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
 .. seealso::
  
 
- :ref:`Using Open edX as an LTI Tool Provider` (educator)
+ :ref:`Using Open edX as an LTI Tool Provider` (concept)
 
- :ref:`Determine Content Addresses` (educator)
+ :ref:`Determine Content Addresses` (how-to)
 
- :ref:`Content Compatibility for LTI` (educator)
+ :ref:`Content Compatibility for LTI` (reference)
 
  :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (site-operator)
 
- :ref:`Open edX as an LTI Provider to Canvas` (educator)
+ :ref:`Open edX as an LTI Provider to Canvas` (how-to)
 
 
 **Maintenance chart**

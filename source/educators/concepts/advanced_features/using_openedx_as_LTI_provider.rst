@@ -66,9 +66,9 @@ by your site operator. See :ref:`Authentication Modes` for the configuration ste
    page, regardless of whether they are signed in.
 
 
-.. _Grade Pass back:
+.. _Grade Passback:
 
-Grade Pass back
+Grade Passback
 ================
 
 When you include problem components from a graded subsection in an external LMS, the Open edX software grades
@@ -95,10 +95,10 @@ What You Need from Your Site Operator
 Before you can configure your external LMS to consume Open edX content, you need the following
 from your site operator:
 
-#. Consumer key: A unique identifier for the external LMS. Your site operator creates this when
+#. **Consumer key**: A unique identifier for the external LMS. Your site operator creates this when
    configuring the LTI consumer in Django admin.
 
-#. Consumer secret: A shared secret used to authenticate the LTI connection. Created alongside the
+#. **Consumer secret**: A shared secret used to authenticate the LTI connection. Created alongside the
    consumer key.
 
 You will enter these values into your external LMS when setting up the LTI integration. In
