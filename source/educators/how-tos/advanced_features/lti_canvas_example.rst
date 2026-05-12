@@ -97,7 +97,7 @@ an External Tool in Canvas.
       :alt: The Configuration Type dropdown in the Add App modal showing five
             options: *Manual Entry*, *By URL*, *Paste XML*, *By Client ID*, and *By LTI
             2 Registration URL*.
-      :width: 60%
+      :width: 30%
 
       The Configuration Type dropdown. Select *Manual Entry* to configure an
       LTI 1.1 tool. The other options do not support LTI 1.1.
@@ -126,7 +126,7 @@ an External Tool in Canvas.
    .. figure:: /_images/educator_how_tos/canvas_external_app_privacy.png
       :alt: The Privacy dropdown in the Add App modal showing four options:
             Anonymous, Email Only, Name Only, and Public.
-      :width: 60%
+      :width: 40%
 
       The Privacy dropdown controls what learner information Canvas sends to
       Open edX at launch. Select the option that matches the authentication
