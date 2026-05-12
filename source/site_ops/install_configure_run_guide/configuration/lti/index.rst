@@ -1,8 +1,8 @@
 .. _Configuring an Open edX Instance as an LTI Tool Provider:
 
-########################################################
-Configuring your Open edX as an LTI Tool Provider
-########################################################
+###########################################################
+Configuring your Open edX instance as an LTI Tool Provider
+###########################################################
 
 .. tags:: site operator, concept
 

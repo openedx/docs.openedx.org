@@ -39,7 +39,7 @@ Create a Consumer Record
       supplies this value on its first LTI launch.
 
    - `Require user account` and `Use lti pii`: These checkboxes
-     control how Open edX associates learners with accounts. See
+     control how the Open edX platform associates learners with accounts. See
      :ref:`Authentication Modes` below before deciding which to enable.
 
 #. Select :guilabel:`Save`.

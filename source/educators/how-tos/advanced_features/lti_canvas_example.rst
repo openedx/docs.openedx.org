@@ -25,8 +25,8 @@ This guide assumes:
 Configuring an LTI tool in Canvas has two steps:
 
 #. **Tool Configuration**: Establishes the connection between Canvas and
-   Open edX using the consumer key, secret, and domain. This is typically done once, at the
-   account or course level.
+   your Open edX instance using the consumer key, secret, and domain. This is
+   typically done once, at the account or course level.
 
 #. **Tool Placement**: How learners reach a specific piece of Open edX content,
    such as a module item or an assignment. A single tool configuration can be
@@ -47,7 +47,7 @@ Canvas has two roles relevant to these steps:
 Step 1: Configuring Open edX as an External Tool
 ***************************************************
 
-Open edX supports LTI 1.1 only as a tool provider. You can configure it as
+The Open edX platform supports LTI 1.1 only as a tool provider. You can configure it as
 an External Tool in Canvas.
 
 #. Navigate to the External Apps page:
@@ -74,7 +74,7 @@ an External Tool in Canvas.
 
       Canvas displays an *Apps* item in the account navigation sidebar by default
       for all account admins. This leads to the Apps Hub which supports
-      LTI 1.3 only. This is not the place where you can configure Open edX.
+      LTI 1.3 only. This is not the place where you can configure your Open edX instance.
 
 
 #. On the External Apps page, click :guilabel:`+ App`. This will open a modal where you
@@ -129,7 +129,7 @@ an External Tool in Canvas.
       :width: 40%
 
       The Privacy dropdown controls what learner information Canvas sends to
-      Open edX at launch. Select the option that matches the authentication
+      your Open edX instance at launch. Select the option that matches the authentication
       mode your site operator has configured.
 
 

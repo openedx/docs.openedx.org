@@ -5,7 +5,7 @@ Your instance as an LTI Tool Provider
 
 .. tags:: educator, concept
 
-Open edX platform can act as a Learning Tools Interoperability (LTI) tool provider, allowing you to deliver Open edX course content inside
+The Open edX platform can act as a Learning Tools Interoperability (LTI) tool provider, allowing you to deliver Open edX course content inside
 another LMS such as Canvas, Blackboard or any system that supports LTI 1.1.
 
 Setting this up involves 2 roles:
