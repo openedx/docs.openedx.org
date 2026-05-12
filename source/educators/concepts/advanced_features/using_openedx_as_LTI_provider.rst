@@ -66,8 +66,10 @@ by your site operator. See :ref:`Authentication Modes` for the configuration ste
    page, regardless of whether they are signed in.
 
 
-Grading
-=======
+.. _Grade Pass back:
+
+Grade Pass back
+================
 
 When you include problem components from a graded subsection in an external LMS, the Open edX software grades
 the learner responses and transfers the scores back to the external LMS.

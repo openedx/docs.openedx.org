@@ -1,7 +1,7 @@
 .. _Open edX as an LTI Provider to Blackboard:
 
-Use Open edX Platform as an LTI Provider to Blackboard (Example)
-####################################################################
+Open edX as an LTI Provider to Blackboard
+##########################################
 
 .. tags:: educator, how-to
 
@@ -46,19 +46,23 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
 .. seealso::
  
 
- :ref:`Using Open edX as an LTI Tool Provider` (concept)
+ :ref:`Using Open edX as an LTI Tool Provider` (educator)
 
- :ref:`Determine Content Addresses when using Open edX as an LTI Provider<Determine Content Addresses>` (how-to)
+ :ref:`Determine Content Addresses` (educator)
 
- :ref:`Content Compatibility for LTI` (reference)
+ :ref:`Content Compatibility for LTI` (educator)
 
- :ref:`Example - Open edX as an LTI Provider to Canvas<Open edX as an LTI Provider to Canvas>` (reference)
+ :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (site-operator)
+
+ :ref:`Open edX as an LTI Provider to Canvas` (educator)
 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
+| Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-05-12   | Aamir Ayub                    | Verawood       |  Pass                          |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
