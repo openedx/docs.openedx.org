@@ -173,7 +173,7 @@ Replace ``15 * 60`` with your desired interval in seconds.
 
    :ref:`Enable LTI Provider Functionality` (how-to)
 
-   :ref:`Using Open edX as an LTI Tool Provider` (concept)
+   :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**

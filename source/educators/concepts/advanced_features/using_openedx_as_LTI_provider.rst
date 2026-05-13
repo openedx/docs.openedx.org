@@ -1,4 +1,4 @@
-.. _Using Open edX as an LTI Tool Provider:
+.. _Using your Open edX instance as an LTI Tool Provider:
 
 Your instance as an LTI Tool Provider
 ######################################

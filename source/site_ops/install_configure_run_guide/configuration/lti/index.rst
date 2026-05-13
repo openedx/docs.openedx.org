@@ -19,11 +19,11 @@ Setting this up involves two tasks:
 
 Once configured, course teams can construct LTI URLs for specific pieces
 of content and add them to the external LMS. See
-:ref:`Using Open edX as an LTI Tool Provider` for the educator-facing steps.
+:ref:`Using your Open edX instance as an LTI Tool Provider` for the educator-facing steps.
 
 .. seealso::
 
-   :ref:`Using Open edX as an LTI Tool Provider` (concept)
+   :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**
