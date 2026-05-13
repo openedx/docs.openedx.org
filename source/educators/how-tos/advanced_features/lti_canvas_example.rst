@@ -1,7 +1,7 @@
-.. _Open edX as an LTI Provider to Canvas:
+.. _Open edX platform as an LTI Provider to Canvas:
 
-Open edX as an LTI Provider to Canvas
-######################################
+Open edX platform as an LTI Provider to Canvas
+###############################################
 
 .. tags:: educator, how-to
 
@@ -43,9 +43,9 @@ Canvas has two roles relevant to these steps:
    which will then be available in that course only.
 
 
-***************************************************
-Step 1: Configuring Open edX as an External Tool
-***************************************************
+**************************************************************
+Step 1: Configuring your Open edX instance as an External Tool
+**************************************************************
 
 The Open edX platform supports LTI 1.1 only as a tool provider. You can configure it as
 an External Tool in Canvas.
@@ -110,7 +110,7 @@ an External Tool in Canvas.
 #. Optionally, enter a *Launch URL*. If left blank, you can enter a URL during
    placement instead. If set here, it can still be overridden during placement.
 
-#. In *Domain*, enter your Open edX LMS domain, e.g. ``openedx.io``.
+#. In *Domain*, enter your Open edX instance domain, e.g. ``openedx.io``.
 
 #. Set *Privacy Level* based on the :ref:`authentication mode <Authentication Modes>` your
    site operator has configured for your Open edX instance.
@@ -193,7 +193,7 @@ Step 3: Verify
 
    :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (site-operator)
 
-   :ref:`Open edX as an LTI Provider to Blackboard` (how-to)
+   :ref:`Open edX platform as an LTI Provider to Blackboard` (how-to)
 
 **Maintenance chart**
 

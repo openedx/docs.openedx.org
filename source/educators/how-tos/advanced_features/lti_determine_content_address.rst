@@ -6,7 +6,7 @@ Determine LTI Content Addresses
 .. tags:: educator, how-to
 
 To include Open edX course content in another system, you construct an LTI URL that identifies the
-specific content. This URL combines a course ID and a usage ID that you find in the Open edX LMS.
+specific content. This URL combines a course ID and a usage ID that you find in your Open edX instance.
 
 .. contents::
    :local:
@@ -23,7 +23,7 @@ The course ID has the format ``{key type}:{org}+{course}+{run}``, for example,
 
 To find the course ID:
 
-#. In your Open edX LMS, open your course.
+#. In your Open edX instance, open your course.
 
 #. In the URL shown by your browser, find the course ID.
 
@@ -72,7 +72,7 @@ These terms in the usage ID indicate the level of the content:
 Find Usage ID of Unit or Component
 ==================================
 
-#. In your Open edX LMS, open the course.
+#. In your Open edX instance, open the course.
 
 #. Go to the page that contains the unit or component.
 

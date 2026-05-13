@@ -1,11 +1,11 @@
-.. _Open edX as an LTI Provider to Blackboard:
+.. _Open edX platform as an LTI Provider to Blackboard:
 
-Open edX as an LTI Provider to Blackboard
-##########################################
+Open edX platform as an LTI Provider to Blackboard
+##################################################
 
 .. tags:: educator, how-to
 
-.. note:: This feature has not been recently tested with Blackboard. However, it works as of Teak with :ref:`Canvas <Open edX as an LTI Provider to Canvas>`.
+.. note:: This feature has not been recently tested with Blackboard. However, it works as of Teak with :ref:`Canvas <Open edX platform as an LTI Provider to Canvas>`.
 
 To use Open edX course content in the Blackboard LMS, you add a new app to the course and then add external tool module items.
 
@@ -40,7 +40,7 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
 #. Review the content to verify that it appears as you expect.
 
    .. image:: /_images/educator_references/lti_blackboard_example.png
-     :alt: An Open edX drag and drop problem shown as part of a course running on a
+     :alt: An Open edX platform drag and drop problem shown as part of a course running on a
       Blackboard system.
 
 .. seealso::
@@ -54,7 +54,7 @@ To use Open edX course content in the Blackboard LMS, you add a new app to the c
 
  :ref:`Configuring an Open edX Instance as an LTI Tool Provider` (site-operator)
 
- :ref:`Open edX as an LTI Provider to Canvas` (how-to)
+ :ref:`Open edX platform as an LTI Provider to Canvas` (how-to)
 
 
 **Maintenance chart**
