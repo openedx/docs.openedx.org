@@ -12,11 +12,6 @@ LTI Component Settings
    * - Setting
      - Description
 
-   * - Data Sharing Notice
-     - The description of the remote LTI application. If the application
-       requires a username or email address, use this field to inform learners
-       that their information will be forwarded to the external application.
-
    * - LTI Version
      - Used to select the LTI version used for the current LTI component.
 
@@ -175,6 +170,14 @@ LTI Component Settings
        By default, this setting is not available in Studio.
        See :ref:`Allow sharing PII to LTI Components` for how to enable
        (requires system administrator privileges).
+
+   * - Data Sharing Notice
+     - The description of the remote LTI application. If the application
+       requires a username or email address, use this field to inform learners
+       that their information will be forwarded to the external application.
+       
+       This notice does not control wheter data is shared; use the sharing settings
+       above for that behavior.
 
    * - Hide External Tool
      - Controls whether the LTI component will display the remote LTI tool on
