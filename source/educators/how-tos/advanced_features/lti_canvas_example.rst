@@ -56,7 +56,7 @@ an External Tool in Canvas.
 
       .. figure:: /_images/educator_how_tos/canvas_external_apps_account_nav.png
          :alt: Screenshot of accessing External Apps page via account navigation.
-         :width: 60%
+         :width: 100%
 
          In account navigation, select Settings and then the Apps tab to access configuration page for External Apps.
 
@@ -65,7 +65,7 @@ an External Tool in Canvas.
 
       .. figure:: /_images/educator_how_tos/canvas_external_apps_course_nav.png
          :alt: Screenshot of accessing External Apps page via course navigation.
-         :width: 60%
+         :width: 100%
 
          In course navigation, select Settings and then the Apps tab to access configuration page for External Apps.
 
@@ -84,7 +84,7 @@ an External Tool in Canvas.
    .. figure:: /_images/educator_how_tos/canvas_add_external_app_modal.png
       :alt: The add app modal in Canvas showing configuration fields including
             *Name*, *Consumer Key*, *Shared Secret*, *Launch URL*, *Domain*, and *Privacy*.
-      :width: 60%
+      :width: 100%
 
       The add app modal opens when you click :guilabel:`+ App` on the External
       Apps page. Fill in the fields as described in the steps below.
