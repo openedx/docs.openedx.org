@@ -5,6 +5,16 @@ Use A Frontend Plugin Framework Slot
 
 .. tags:: site operator, how-to
 
+.. note::
+
+   This page describes the legacy ``frontend-plugin-framework`` (FPF) flow,
+   which configures slots via per-MFE ``env.config.jsx`` files. The newer
+   `frontend-base <https://github.com/openedx/frontend-base>`_ stack uses a
+   different mechanism: slot operations are declared on ``App`` objects and
+   registered with the site config. If you are setting up a new plugin or
+   migrating an existing one, see
+   :ref:`Port a Frontend Plugin to frontend-base`.
+
 Utilizing *frontend plugin framework slots*, site operators now have the ability
 to customize various portions of Open edX MFEs. A “frontend plugin framework
 slot” refers to an area of a web page - comprising one or more visual elements -
@@ -42,11 +52,13 @@ for more about Frontend Plugin Slots and their usage.
 
 .. seealso::
 
-   See :doc:`../references/frontend-plugin-slots` for a list of available slots.
+   See :ref:`Available Frontend Plugin Slots` for a list of available slots.
 
-   :doc:`/community/release_notes/sumac/customizing_header`
+   :ref:`Port a Frontend Plugin to frontend-base`
 
-   :doc:`/community/release_notes/sumac/customizing_learner_dashboard`
+   :ref:`Frontend Slots Header (Sumac)`
+
+   :ref:`Frontend Slots Learner Dash (Sumac)`
 
 **Maintenance chart**
 
