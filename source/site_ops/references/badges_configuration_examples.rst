@@ -5,7 +5,7 @@ Badges Configuration examples
 
 .. tags:: site operator, reference
 
-See :doc:`credentials:badges/examples` for some example configurations.
+See :ref:`credentials:Configuration examples for Badging` for some example configurations.
 
 .. seealso::
 
@@ -15,9 +15,9 @@ See :doc:`credentials:badges/examples` for some example configurations.
 
     :ref:`Configuring Badges`
 
-    :doc:`credentials:badges/quickstart`
+    :ref:`credentials:badges-quickstart`
 
-    :doc:`credentials:badges/examples`
+    :ref:`credentials:Configuration examples for Badging`
 
 **Maintenance chart**
 
