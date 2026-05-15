@@ -42,7 +42,7 @@ See :ref:`Setting Up Badges` and :ref:`Accredible Badging Configuration <Accredi
 Accredible accounts.
 
 Site operators will need to integrate the badging service with their Open edX
-instance. Site operators should refer to :doc:`credentials:badges/quickstart`
+instance. Site operators should refer to :ref:`credentials:badges-quickstart`
 for details on how to get started.
 
 
