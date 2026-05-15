@@ -39,7 +39,7 @@ Create a Consumer Record
       supplies this value on its first LTI launch.
 
    - `Require user account` and `Use lti pii`: These checkboxes
-     control how Open edX associates learners with accounts. See
+     control how the Open edX platform associates learners with accounts. See
      :ref:`Authentication Modes` below before deciding which to enable.
 
 #. Select :guilabel:`Save`.
@@ -173,7 +173,7 @@ Replace ``15 * 60`` with your desired interval in seconds.
 
    :ref:`Enable LTI Provider Functionality` (how-to)
 
-   :ref:`Using Open edX as an LTI Tool Provider` (concept)
+   :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**

@@ -41,7 +41,7 @@ View the `1EdTech listing for the Open edX platform here
 
  :ref:`Enabling and using LTI Advantage features` (how-to)
 
- :ref:`Using Open edX as an LTI Tool Provider` (concept)
+ :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
 
 **Maintenance chart**

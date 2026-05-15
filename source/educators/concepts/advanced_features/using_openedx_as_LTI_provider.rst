@@ -1,11 +1,11 @@
-.. _Using Open edX as an LTI Tool Provider:
+.. _Using your Open edX instance as an LTI Tool Provider:
 
 Your instance as an LTI Tool Provider
 ######################################
 
 .. tags:: educator, concept
 
-Open edX platform can act as a Learning Tools Interoperability (LTI) tool provider, allowing you to deliver Open edX course content inside
+The Open edX platform can act as a Learning Tools Interoperability (LTI) tool provider, allowing you to deliver Open edX course content inside
 another LMS such as Canvas, Blackboard or any system that supports LTI 1.1.
 
 Setting this up involves 2 roles:
@@ -66,8 +66,10 @@ by your site operator. See :ref:`Authentication Modes` for the configuration ste
    page, regardless of whether they are signed in.
 
 
-Grading
-=======
+.. _Grade Passback:
+
+Grade Passback
+================
 
 When you include problem components from a graded subsection in an external LMS, the Open edX software grades
 the learner responses and transfers the scores back to the external LMS.
@@ -93,10 +95,10 @@ What You Need from Your Site Operator
 Before you can configure your external LMS to consume Open edX content, you need the following
 from your site operator:
 
-#. Consumer key: A unique identifier for the external LMS. Your site operator creates this when
+#. **Consumer key**: A unique identifier for the external LMS. Your site operator creates this when
    configuring the LTI consumer in Django admin.
 
-#. Consumer secret: A shared secret used to authenticate the LTI connection. Created alongside the
+#. **Consumer secret**: A shared secret used to authenticate the LTI connection. Created alongside the
    consumer key.
 
 You will enter these values into your external LMS when setting up the LTI integration. In

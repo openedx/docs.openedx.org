@@ -65,7 +65,7 @@ When selecting content to deliver via LTI, keep these points in mind:
 
 .. seealso::
 
-   :ref:`Using Open edX as an LTI Tool Provider` (concept)
+   :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
    :ref:`Determine Content Addresses` (how-to)
 
