@@ -5,7 +5,10 @@ Open edX platform as an LTI Provider to Blackboard
 
 .. tags:: educator, how-to
 
-.. note:: This feature has not been recently tested with Blackboard. However, it works as of Teak with :ref:`Canvas <Open edX platform as an LTI Provider to Canvas>`.
+
+.. note:: This feature has not been recently tested with Blackboard.
+          It has been tested with :ref:`Canvas <Open edX platform as an LTI Provider to Canvas>` as of Verawood release.
+
 
 To use Open edX course content in the Blackboard LMS, you add a new app to the course and then add external tool module items.
 
