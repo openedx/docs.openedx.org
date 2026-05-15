@@ -44,9 +44,9 @@ Badges feature is optional and it is disabled by default. So, it must be enabled
 Configure integration
 *********************************
 
-See :doc:`credentials:badges/quickstart` for more details on configuring the Credly and Accredible integrations.
+See :ref:`credentials:badges-quickstart` for more details on configuring the Credly and Accredible integrations.
 
-See :doc:`credentials:badges/examples` for some example configurations.
+See :ref:`credentials:Configuration examples for Badging` for some example configurations.
 
 .. seealso::
 
@@ -54,11 +54,11 @@ See :doc:`credentials:badges/examples` for some example configurations.
 
     :ref:`Configuring Badges`
 
-    :doc:`credentials:badges/quickstart`
+    :ref:`credentials:badges-quickstart`
 
-    :doc:`credentials:badges/examples`
+    :ref:`credentials:Configuration examples for Badging`
 
-    :doc:`credentials:badges/configuration/index`
+    :ref:`credentials:badges-configuration`
 
 
 **Maintenance chart**
