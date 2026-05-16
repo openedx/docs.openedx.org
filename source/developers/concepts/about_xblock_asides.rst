@@ -212,15 +212,16 @@ There is no shared Aside-level mechanism for declaring library dependencies.
 Where to Go Next
 ****************
 
-If you are ready to build an Aside, start with
-:ref:`XBlock Aside Quickstart`. If you already have a target XBlock in mind
-and want a step-by-step recipe, read :ref:`Add an XBlock Aside`. For the
-complete list of classes, decorators, methods, and entry points, consult
-:ref:`XBlock Asides Reference`.
+If you are ready to build an Aside, start with :ref:`XBlock Aside Quickstart`.
+If you already have a target XBlock in mind and want a step-by-step recipe, read
+:ref:`Add an XBlock Aside`. For the complete list of classes, decorators,
+methods, and entry points, consult :ref:`XBlock Asides Reference`. The
+`StructuredTagsAside`_ may also be a helpful reference.
 
 .. _rapid-response-xblock: https://github.com/mitodl/open-edx-plugins/tree/main/src/rapid_response_xblock
 .. _ol-openedx-chat: https://github.com/mitodl/open-edx-plugins/tree/main/src/ol_openedx_chat
 .. _xblock-sdk: https://github.com/openedx/xblock-sdk
+.. _StructuredTagsAside: https://github.com/openedx/openedx-platform/blob/release/verawood/cms/lib/xblock/tagging/tagging.py#L17
 
 .. seealso::
 
