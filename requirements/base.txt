@@ -22,7 +22,7 @@ certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.3
+click==8.4.0
     # via uvicorn
 colorama==0.4.6
     # via sphinx-autobuild
@@ -36,7 +36,7 @@ fspath==20230629
     # via linuxdoc
 h11==0.16.0
     # via uvicorn
-idna==3.13
+idna==3.15
     # via
     #   anyio
     #   requests
@@ -54,11 +54,11 @@ markdown-it-py==4.2.0
     #   myst-parser
 markupsafe==3.0.3
     # via jinja2
-mdit-py-plugins==0.6.0
+mdit-py-plugins==0.6.1
     # via myst-parser
 mdurl==0.1.2
     # via markdown-it-py
-myst-parser==5.0.0
+myst-parser==5.1.0
     # via -r requirements/base.in
 packaging==26.2
     # via sphinx
@@ -71,7 +71,7 @@ pygments==2.20.0
     #   sphinx
 pyyaml==6.0.3
     # via myst-parser
-requests==2.33.1
+requests==2.34.2
     # via
     #   sphinx
     #   sphinxcontrib-images
@@ -142,7 +142,7 @@ typing-extensions==4.15.0
     #   starlette
 urllib3==2.7.0
     # via requests
-uvicorn==0.46.0
+uvicorn==0.47.0
     # via sphinx-autobuild
 watchfiles==1.1.1
     # via sphinx-autobuild
