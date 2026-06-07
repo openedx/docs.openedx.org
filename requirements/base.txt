@@ -36,7 +36,7 @@ fspath==20230629
     # via linuxdoc
 h11==0.16.0
     # via uvicorn
-idna==3.17
+idna==3.18
     # via
     #   anyio
     #   requests
@@ -80,7 +80,7 @@ roman-numerals==4.1.0
     # via sphinx
 six==1.17.0
     # via fspath
-snowballstemmer==3.1.0
+snowballstemmer==3.1.1
     # via sphinx
 soupsieve==2.8.4
     # via beautifulsoup4
@@ -142,7 +142,7 @@ typing-extensions==4.15.0
     #   starlette
 urllib3==2.7.0
     # via requests
-uvicorn==0.48.0
+uvicorn==0.49.0
     # via sphinx-autobuild
 watchfiles==1.2.0
     # via sphinx-autobuild
