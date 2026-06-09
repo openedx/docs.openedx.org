@@ -30,7 +30,7 @@ To set up LTI-AGS services on a component, follow these steps.
 
 #. Select **Edit** in the component that appears.
 
-#. Locate the **LTI Assignment and Grades Service** setting.
+#. Locate the **Assignment and Grades** setting.
 
 #. Select the operation mode of the Assignments and Grades services. You can
    disable the LTI-AGS service by selecting **Disabled** or pick one of the
@@ -58,13 +58,12 @@ To set up LTI-DL services on a component, follow these steps.
 
 #. Select **Edit** in the component that appears.
 
-#. Locate the **Deep linking** setting and set it to **True** (enabled).
+#. Locate the **Deep linking** setting and set it to **Enabled**.
 
-#. Locate the **LTI Advantage Deep Linking Launch URL** setting.
+#. Locate the **Deep Linking Launch URL** setting.
 
 #. Retrieve the Deep Linking Launch url from the tool you're integrating with.
-   If it's not provided, try using the same value as in the **LTI 1.3 Tool
-   Launch URL**.
+   If it's not provided, try using the same value as in the **Launch URL**.
 
 #. Select **Save**. The Studio page will refresh and show the updated details
    page.
@@ -108,7 +107,7 @@ To set up LTI-NRPS services on a component, follow these steps.
 
 #. Select **Edit** in the component that appears.
 
-#. Locate the **Enable LTI NRPS** setting and set it to **True** (enabled).
+#. Locate the **Names & Roles (NRPS)** setting and set it to **Enabled**.
 
 #. Select **Save**. The LTI-NRPS will be enabled for all subsequent launches.
 
