@@ -33,9 +33,9 @@ Administrators & Operators
 Settings and Toggles
 ********************
 
-- **+REDACT_CERTIFICATES_HISTORICAL_PII**: `lms/djangoapps/certificates/config.py <https://github.com/openedx/openedx-platform/blob/93dc65b9ae10ed72e56743459a944db68d5e7229/lms/djangoapps/certificates/config.py#L25>`_
-  - Default value = ``False``
-  - Description: Clears the ``name`` field in the `django-simple-history` audit table for retiring users\' certificate records.
+* **+REDACT_CERTIFICATES_HISTORICAL_PII**: `lms/djangoapps/certificates/config.py (line 25) <https://github.com/openedx/openedx-platform/blob/93dc65b9ae10ed72e56743459a944db68d5e7229/lms/djangoapps/certificates/config.py#L25>`_
+   * Default value = ``False``
+   * Description: Clears the ``name`` field in the `django-simple-history` audit table for retiring users\' certificate records.
 
 
 Developer Experience
