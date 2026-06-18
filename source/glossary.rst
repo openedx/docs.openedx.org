@@ -581,8 +581,8 @@ Glossary
       not enter their system credentials in the LMS.
 
       For more information about how system administrators can integrate an
-      instance of Open edX with a campus or institutional authentication system,
-      see :ref:`enable_lti_components`.
+      Open edX instance with a campus or institutional authentication system,
+      see :ref:`Enabling Third Party Authentication`.
 
    Transcript
       A text version of the content of a video. You can make video transcripts

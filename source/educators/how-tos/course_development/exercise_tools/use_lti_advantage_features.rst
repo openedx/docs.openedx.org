@@ -1,131 +1,176 @@
 .. _Enabling and using LTI Advantage features:
 
-Enable and Use LTI Advantage Features
+Use and Verify LTI Advantage Features
 #####################################
 
 .. tags:: educator, how-to
 
-LTI Advantage is an extension of the LTI 1.3 specification that enables
-additional features in LTI components. See `LTI Advantage`_ for more
-information.
+This guide shows you how to use and verify LTI Advantage services after they
+have been configured for an LTI 1.3 tool.
 
-Currently, the platform supports the following LTI Advantage extensions:
+Use this guide after you complete the LTI 1.3 setup workflow. For more
+information about configuring LTI Advantage settings, see :ref:`Set up an LTI
+1_3 component`.
 
-* `Assignments and Grades services`_
-* `Deep Linking`_
-* `Names and Roles Provisioning Service`_
+LTI Advantage services are not available for LTI 1.1/1.2 tools.
 
-.. _Enabling LTI Assignments and Grades services:
+The Open edX platform supports these LTI Advantage services.
 
-Enabling LTI Assignments and Grades services
-********************************************
+* :ref:`Assignments and Grades Services <Verifying LTI Assignments and Grades Services>`
+* :ref:`Deep Linking <Enabling and using LTI Deep Linking>`
+* :ref:`Names and Roles Provisioning Service <Verifying LTI Names and Roles Provisioning Service>`
+
+.. contents:: Contents
+   :local:
+   :depth: 1
+
+
+.. note::
+
+   If the component uses an *Existing* reusable configuration, site operators
+   manage LTI Advantage settings in LTI Store. If those settings need to change,
+   contact your site operator.
+
+.. _Verifying LTI Assignments and Grades Services:
+
+Verify Grade Return
+*******************
 
 The LTI Assignments and Grades service (LTI-AGS) allows LTI tools to send and
-manage learner grades back to the platform after an activity is completed.
+manage learner grades in the Open edX gradebook.
 
-To set up LTI-AGS services on a component, follow these steps.
+To test grade return, follow these steps.
 
-#. Locate the unit and LTI component in which you want to enable LTI-AGS
-   functionality.
+#. In Studio, open the LTI Consumer XBlock.
+#. On the *Review Options* tab, confirm that *This activity is graded* is set to
+   *Graded*.
+#. Confirm that the unit is in a graded subsection.
+#. Publish the unit.
+#. Open the unit in the LMS as a learner.
+#. Launch the tool.
+#. Complete a gradable activity in the tool.
+#. Confirm that the score appears in the Open edX gradebook.
 
-#. Select **Edit** in the component that appears.
+If the score does not return to the Open edX platform, check these items.
 
-#. Locate the **Assignment and Grades** setting.
+* Confirm that *Assignment and Grades* is not set to *Disabled*.
+* Confirm that the external tool sends scores for the selected activity.
+* Confirm that the tool registration uses the correct Open edX platform values.
+* Confirm that *Accept grades after due date* is set correctly for the activity.
 
-#. Select the operation mode of the Assignments and Grades services. You can
-   disable the LTI-AGS service by selecting **Disabled** or pick one of the
-   operation modes available: *declarative* to allow only one grade per
-   problem, or *programmatic* to let the tool create many grades. For more
-   information about each mode, read the corresponding entry on :ref:`LTI
-   Component settings`.
+.. TODO: Add a figure that shows a returned LTI score in the gradebook or
+   learner progress view. Suggested file:
+   /_images/educator_how_tos/lti_advantage_ags_grade_return.png
 
-#. Select **Save**.
+..
+   .. figure:: /_images/educator_how_tos/lti_advantage_ags_grade_return.png
+      :alt: Returned score from an LTI tool shown in the Open edX gradebook.
+      :width: 100%
+
+      After the learner completes the activity, confirm that the score returns
+      to the Open edX platform.
 
 .. _Enabling and using LTI Deep Linking:
 
-Enabling and using LTI Deep Linking
-***********************************
+Use Deep Linking
+****************
 
-The Deep Linking service (LTI-DL) allows course creators to select and
-configure the content displayed to learners through Open edX Studio, removing
-the need to use custom parameters and settings when setting up content,
-improving the ease of use and content authoring experience.
+Deep Linking allows course teams to select and configure tool content from
+Studio instead of manually entering all content parameters.
 
-To set up LTI-DL services on a component, follow these steps.
+To select tool content with Deep Linking, follow these steps.
 
-#. Locate the unit and LTI component in which you want to enable LTI-DL
-   functionality.
+#. Publish the unit that contains the LTI Consumer XBlock.
+#. In Studio, open the LTI Consumer XBlock.
+#. Select the *Deep Linking Launch - Configure tool* link.
+#. Select the content in the external tool.
+#. When the tool redirects back to Studio, confirm that the selected content is
+   configured for the XBlock.
+#. Select :guilabel:`Save` if Studio shows unsaved changes.
+#. Publish the unit again if Studio shows unpublished changes.
+#. Open the unit in the LMS and confirm that the selected content appears.
 
-#. Select **Edit** in the component that appears.
+.. note::
 
-#. Locate the **Deep linking** setting and set it to **Enabled**.
+   LTI 1.3 launches work only with published blocks. Publish the unit before
+   launching or testing Deep Linking.
 
-#. Locate the **Deep Linking Launch URL** setting.
+.. TODO: Add a figure that shows the Deep Linking Launch - Configure tool link
+   in Studio. Suggested file:
+   /_images/educator_how_tos/lti_advantage_deep_linking_configure_tool.png
 
-#. Retrieve the Deep Linking Launch url from the tool you're integrating with.
-   If it's not provided, try using the same value as in the **Launch URL**.
+..
+   .. figure:: /_images/educator_how_tos/lti_advantage_deep_linking_configure_tool.png
+      :alt: Deep Linking Launch - Configure tool link in the LTI Consumer
+         XBlock.
+      :width: 100%
 
-#. Select **Save**. The Studio page will refresh and show the updated details
-   page.
+      Use the configure tool link to launch the external tool's content
+      selection workflow.
 
-To use LTI Deep Linking, follow these steps:
+.. TODO: Add a figure that shows selected Deep Linking content configured in
+   the LTI Consumer XBlock or displayed in the LMS. Suggested file:
+   /_images/educator_how_tos/lti_advantage_deep_linking_selected_content.png
 
-#. Ensure that LTI-DL is enabled by following the steps above.
+..
+   .. figure:: /_images/educator_how_tos/lti_advantage_deep_linking_selected_content.png
+      :alt: Selected Deep Linking content displayed in an Open edX course unit.
+      :width: 100%
 
-#. Locate the unit and LTI component in Studio.
+      Confirm that the selected tool content appears in the course unit.
 
-#. In the LTI component page in Studio, locate the **Deep Linking Launch -
-   Configure tool** link and select it.
+.. _Verifying LTI Names and Roles Provisioning Service:
 
-#. You'll be redirected to the Tool and presented with a page to select the
-   options.
+Verify Names and Roles Provisioning Service
+*******************************************
 
-#. Once the configuration is complete, you'll be redirected back to the Studio
-   and the Deep Linking setup will be complete.
+The Names and Roles Provisioning Service (LTI-NRPS) allows a tool to retrieve
+course membership and role information from the Open edX platform. Depending on
+the tool and the information-sharing settings, this can include limited
+personal information such as full name, email, or username.
 
-#. The content you selected in the tool will be presented to your students in
-   the LMS.
+To verify NRPS, follow the external tool's instructions for checking roster or
+membership access. In most tools, a successful verification shows the course
+members or confirms that the tool can retrieve the course membership service.
 
-.. note:: LTI 1.3 launches only work with published blocks, make sure the block
-     is published before doing a Deep Link Launch.
+If the tool does not receive expected course membership information, check
+these items.
 
-.. _Enabling LTI Names and Roles Provisioning Service:
+* Confirm that *Names & Roles (NRPS)* is enabled for the component or reusable
+  configuration.
+* Confirm that the course has no more than the supported number of active
+  enrollments.
+* Confirm that the tool registration uses the correct Open edX platform values.
+* If the tool needs username, full name, or email address, confirm the course
+  PII sharing settings and the information sharing settings on the LTI Consumer
+  XBlock. For more information, see :ref:`Allow sharing PII to LTI Components`.
 
-Enabling LTI Names and Roles Provisioning Service
-*************************************************
+.. TODO: Add a figure that shows a successful roster or membership check in the
+   external tool. Suggested file:
+   /_images/educator_how_tos/lti_advantage_nrps_roster_check.png
 
-The Names and Roles Provisioning service (LTI-NRPS) allows tools to list and
-retrieve information about the learners that have access to an LTI component.
-The tools that support this service can retrieve a limited amount of personal
-information (full name, email, username) and the membership status of all the
-learners enrolled in the course.
+..
+   .. figure:: /_images/educator_how_tos/lti_advantage_nrps_roster_check.png
+      :alt: External LTI tool showing a successful course membership check.
+      :width: 100%
 
-To set up LTI-NRPS services on a component, follow these steps.
+      Confirm NRPS access in the external tool.
 
-#. Locate the unit and LTI component in which you want to enable LTI-NRPS
-   functionality.
+.. note::
 
-#. Select **Edit** in the component that appears.
-
-#. Locate the **Names & Roles (NRPS)** setting and set it to **Enabled**.
-
-#. Select **Save**. The LTI-NRPS will be enabled for all subsequent launches.
-
-.. note:: Due to performance concerns, LTI-NRPS information is by default only
-          available on courses with up to 1000 users. Site operators may adjust
-          this limit using the `LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting`_.
+   Due to performance concerns, LTI-NRPS information is available by default
+   only on courses with up to 1000 users. Site operators may adjust this
+   limit using the `LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting`_.
 
 .. seealso::
  
  :ref:`About the LTI Component` (concept)
 
- :ref:`LTI Component Settings` (reference)
-
- :ref:`Enable_LTI_Components` (how-to)
-
- :ref:`Set up an LTI 1_1 component` (how-to)
-
  :ref:`Set up an LTI 1_3 component` (how-to)
+
+ :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
+
+ :ref:`Allow sharing PII to LTI Components` (how-to)
 
 
 **Maintenance chart**

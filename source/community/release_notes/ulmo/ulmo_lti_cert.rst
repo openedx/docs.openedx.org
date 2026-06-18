@@ -31,10 +31,6 @@ View the `1EdTech listing for the Open edX platform here
 
  :ref:`About the LTI Component` (concept)
 
- :ref:`LTI Component Settings` (reference)
-
- :ref:`Enable_LTI_Components` (how-to)
-
  :ref:`Set up an LTI 1_1 component` (how-to)
 
  :ref:`Set up an LTI 1_3 component` (how-to)
@@ -51,4 +47,3 @@ View the `1EdTech listing for the Open edX platform here
 +--------------+-------------------------------+----------------+---------------------------------------------------+
 |2025-12-01    | sarina                        | Ulmo           |  Pass                                             |
 +--------------+-------------------------------+----------------+---------------------------------------------------+
-

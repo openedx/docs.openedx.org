@@ -156,12 +156,11 @@ LTI Component
    :glob:
 
    ../concepts/exercise_tools/about_lti_component.rst
-   ../how-tos/course_development/exercise_tools/enable_lti_component.rst
-   ../references/course_development/exercise_tools/lti_component_settings.rst
    ../how-tos/course_development/exercise_tools/set_up_lti_1_1_component.rst
    ../how-tos/course_development/exercise_tools/set_up_lti_1_3_component.rst
    ../how-tos/course_development/exercise_tools/use_lti_advantage_features.rst
    ../how-tos/course_development/exercise_tools/setup_lti_reusable_consumer.rst
+   ../references/course_development/exercise_tools/allow_lti_share_pii.rst
 
 
 Math Expression Input Problem

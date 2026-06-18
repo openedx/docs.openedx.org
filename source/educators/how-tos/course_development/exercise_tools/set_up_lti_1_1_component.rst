@@ -1,154 +1,283 @@
 .. _Set up an LTI 1_1 component:
 
-Set Up an LTI 1.1 Component
-###########################
+Set Up an LTI 1.1/1.2 Component
+################################
 
 .. tags:: educator, how-to
 
-.. youtube:: dJuEGsZM4gw
+This document explains how to configure an LTI 1.1 or LTI 1.2 tool using the
+LTI Consumer XBlock.
 
-Some LTI 1.1 tools require users to provide authentication credentials. If the
-LTI tool you are including in your course requires authentication, you must add
-an LTI passport for that tool to your course configuration.
+The LTI 1.1/1.2 capability supports tool launch and grade passback from the
+tool to the Open edX platform.
+It does not support LTI Advantage services.
 
-An LTI passport is a string of text that contains the authentication key and
-shared secret for one LTI tool. A passport also contains the LTI ID for the
-tool. When you add an LTI component to your course, assign it a matching LTI ID
-so that it can use the LTI passport that it requires.
+Before you start, you need this information from your tool:
 
-For more information about creating and registering LTI passports, see the
-following sections.
+* Launch URL
+* Consumer key
+* Shared secret
 
-.. contents::
-   :local:
-   :depth: 1
+Setting up an LTI 1.1/1.2 tool is a two-step process:
 
-Creating an LTI Passport String
+#. Create an *LTI Passport* for the tool in your course.
+#. Add an LTI Consumer XBlock to the course unit and configure it to use that
+   passport.
+
+
+.. note::
+
+   If your instance has LTI Store enabled, a site operator can create a
+   reusable LTI 1.1/1.2 configuration for you. See :ref:`Configure an LTI Tool
+   Using Reusable Configuration`. In that case, instead of an LTI passport, you
+   configure the LTI Consumer XBlock to use the reusable configuration.
+
+
+Step 1: Create an LTI Passport
 *******************************
 
-Each LTI passport includes three component text strings that are separated by
-colon characters. The component strings are: the LTI ID, the client key, and
-the client secret.
+An LTI passport holds the tool's credentials. It has three parts separated by
+colons:
 
--  The **LTI Passport ID** is a value that you create to refer to the remote LTI tool
-   provider. You should create an LTI ID that you can remember easily.
+.. code-block:: text
 
-   The LTI ID can contain uppercase and lowercase alphanumeric characters, as
-   well as underscore characters (_). It can be any length. For example, you
-   can create an LTI Passport ID that is as simple as ``test_lti_id``, or your LTI Passport ID
-   can be a string of numbers and letters such as  ``id_21441`` or
-   ``book_lti_provider_from_new_york``.
+   {LTI passport ID}:{Consumer key}:{Shared secret}
 
--  The **client key** is a sequence of characters that you obtain from the LTI
-   tool provider. The client key is used for authentication and can contain any
-   number of characters. For example, your client key might be
-   ``b289378-f88d-2929-ctools.school.edu``.
 
--  The **client secret** is a sequence of characters that you obtain from the
-   LTI tool provider. The client secret is used for authentication and can
-   contain any number of characters. For example, your client secret can be
-   something as simple as ``secret``, or it might be a string of numbers and
-   letters such as ``23746387264`` or ``yt4984yr8``.
+.. figure:: /_images/educator_how_tos/lti_passport.png
+   :alt: Advanced Settings page in Studio showing the Lti passports field.
+   :width: 80%
 
-To create an LTI passport, combine the LTI Passport ID, client key,
-and client secret in the following format (be sure to include the colons).
+   Add the tool's LTI passport to the course advanced settings before
+   configuring the LTI Consumer XBlock.
 
-``{your_lti_passport_id}:{client_key}:{client_secret}``
 
-The following example LTI passports show the format of the
-passport string.
+To add the LTI passport to your course, follow these steps.
 
-``test_lti_id:b289378-f88d-2929-ctools.school.edu:secret``
+#. In Studio, navigate to the *Advanced Settings* page from the *Settings*
+   menu.
+#. Locate the *Lti passports* field.
+#. Choose an ID for your passport. This is an identifier that
+   connects the LTI Consumer XBlock to the passport you are creating now.
+#. Add the passport string, as described above, in the *Lti passports* field.
 
-``id_21441:b289378-f88d-2929-ctools.school.edu:23746387264``
-
-``book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8``
-
-.. _adding_an_lti_passport:
-
-Adding an LTI Passport to the Course Configuration
-**************************************************
-
-To add an LTI passport for an LTI tool to the configuration for your course,
-follow these steps.
-
-#. From the Studio **Settings** menu, select **Advanced Settings**.
-
-#. In the **LTI Passports** field, place your cursor between the
-   brackets.
-
-#. Enter the LTI passport string surrounded by quotation marks.
-
-   The following example shows an LTI passport string.
-
-   ``"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"``
-
-   For more information about creating your key, see :ref:`Set up an LTI 1_1 component`.
-
-#. If you use more than one LTI provider in your course, separate each LTI
-   passport string with commas. Make sure to surround each entry with quotation
-   marks. The following example shows multiple LTI passports in the **LTI
-   Passports** field.
+   For example:
 
    .. code-block:: json
 
       [
-        "test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret",
-        "id_21441:b289378-f88d-2929-ctools.school.edu:23746387264",
-        "book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8"
+        "saLTIre:jisc.ac.uk:secret"
       ]
 
-#. Select **Save Changes**.
+#. If the course has multiple LTI passports, separate each passport string
+   with a comma.
+#. Select :guilabel:`Save Changes`.
 
-The page refreshes automatically, reformats your entry in the **LTI Passports**
-field, and displays a notification that your changes have been saved.
 
-Adding an LTI Component to a Course Unit
-****************************************
+Step 2: Add and Configure the LTI Consumer XBlock
+**************************************************
 
-To add an LTI 1.1 component to a course unit, follow these steps.
+.. figure:: /_images/educator_how_tos/lti_consumer_xblock_add.png
+   :alt: Advanced component picker in Studio showing the LTI Consumer
+      component.
+   :width: 80%
 
-#. If the LTI tool requires authentication, register the key and shared secret
-   for the LTI tool in the configuration for your course. For more information
-   about registering authentication credentials, see
-   :ref:`Set up an LTI 1_1 component`.
+   Add the LTI Consumer XBlock from the Advanced component list in the course
+   unit.
 
-#. Edit the unit in which you want to add the remote LTI tool and select
-   **Advanced** from the **Add New Component** section. Select **LTI
-   Consumer**.
 
-   If the **Advanced** component type is not available, make sure you have
-   enabled LTI components. To do this, see :ref:`enable_lti_components`.
+#. In Studio, open the course unit where you want to add the external tool.
+#. In the *Add New Component* area, click :guilabel:`Advanced`.
+#. Select *LTI Consumer*. Studio adds the LTI Consumer XBlock to the course
+   unit.
 
-#. Select **Edit** in the component that appears.
+   .. note::
 
-#. In the **LTI Version** field, select **LTI 1.1/1.2**.
+      For Teak and later releases, the *LTI Consumer* component is visible by
+      default. If you do not see *LTI Consumer* in Studio, add
+      ``"lti_consumer"`` to the *Advanced Module List* on the *Advanced
+      Settings* page. If the list already includes other tools, separate each
+      value with a comma.
 
-#. Configure the LTI component in the component editor. For more information
-   about each setting, see :ref:`LTI Component settings`.
+      If both *LTI Consumer* and the older *LTI* XBlocks appear in Studio,
+      select *LTI Consumer*.
 
-#. Select **Save**.
+#. Edit the XBlock to configure the tool.
 
-To test an LTI component, use the **Preview** feature or view the live version
-in the LMS. For more information, see :ref:`Testing Your Course Content`.
+Configure Tab: Setup
+====================
+
+.. figure:: /_images/educator_how_tos/lti_11_ontheblock_config.png
+   :alt: Setup tab for an LTI Consumer XBlock with LTI Version set to LTI
+      1.1/1.2.
+   :width: 80%
+
+   Use the Setup tab to select the LTI passport ID and enter the tool launch
+   URL.
+
+Configure the *Setup* tab as per the following table:
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Setting
+     - Guidance
+
+   * - Configuration Type
+     - Selects whether the tool configuration is entered directly in this
+       XBlock or an existing configuration is loaded from LTI Store.
+
+       Leave *Configuration Type* set to *New* unless your site operator has
+       already created a reusable configuration in LTI Store.
+
+   * - LTI Version
+     - Leave *LTI Version* set to *LTI 1.1/1.2*.
+
+   * - LTI Passport ID
+     - Select the ID of the passport you just created.
+
+   * - LTI URL
+     - Enter the tool launch URL.
+
+   * - Next
+     - Click :guilabel:`Next` to save and continue.
+
+
+Configure Tab: Review Options
+=============================
+
+On the *Review Options* tab, configure the learner-facing behavior for the LTI
+component, such as the display name, grading, information sharing, custom
+parameters, and appearance.
+
+.. figure:: /_images/educator_how_tos/lti_review_options_xblock.png
+   :alt: Review Options tab for an LTI Consumer XBlock in Studio.
+   :width: 80%
+
+   Use the Review Options tab to configure learner-facing settings for the LTI
+   component.
+
+
+Configure the *Review Options* tab as per the following table:
+
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Setting
+     - Guidance
+
+   * - Display Name
+     - Enter a title for this component so users can identify the activity in
+       the course.
+
+   * - This activity is graded
+     - Controls whether the component can receive a numerical score from the
+       LTI tool.
+
+       Set this to *Graded* if you are expecting the tool to return
+       scores to your Open edX instance.
+
+   * - Grade Weight
+     - Sets the number of points possible for the activity.
+
+   * - Accept grades after due date
+     - Controls whether the LTI tool can send grades after the due date.
+
+   * - Share Username, Share Full Name, and Share Email
+     - These settings control whether the learner's username, full name, or
+       email address is sent to the tool during LTI launch. They appear only
+       when a site operator has enabled PII sharing for the course. For more
+       information, see :ref:`Allow sharing PII to LTI Components`.
+
+   * - Data Sharing Notice
+     - A notice that appears before launch when any information-sharing setting
+       is enabled. For more information, see :ref:`Allow sharing PII to LTI
+       Components`.
+
+   * - Custom Parameters
+     - Sends custom parameters during tool launch.
+
+       If the tool requires custom parameters, enter each parameter as
+       ``{key}={value}`` in a JSON list. For example,
+       ``["page=144", "activity=quiz"]``.
+
+   * - Send extra parameters
+     - Leave this setting unchanged unless the tool's instructions ask you to
+       change it.
+
+   * - Hide External Tool
+     - Controls whether the LTI tool is visible to learners.
+
+       Set this to *True* for hidden tool launches, such as launches used only
+       for grade synchronization. Leave this to *False* to display the tool to
+       learners.
+
+   * - Open tool in
+     - Controls how the course page opens and displays the LTI tool. Options
+       include *Inline*, *Modal*, and *New Window*.
+
+   * - Inline Height (px)
+     - Sets the height of the inline tool frame in pixels when *Open tool in*
+       is set to *Inline*.
+
+   * - Modal Height (%)
+     - Sets the height of the modal window as a percentage of the visible
+       browser window height. Appears when *Open tool in* is set to *Modal*.
+
+   * - Modal Width (%)
+     - Sets the width of the modal window as a percentage of the browser
+       window width. Appears when *Open tool in* is set to *Modal*.
+
+   * - Launch Button Text
+     - Sets the custom label for the button that opens the LTI tool. Appears
+       when *Open tool in* is set to *Modal* or *New Window*.
+
+   * - Save
+     - Click :guilabel:`Save` to save all configurations.
+
+
+.. note::
+
+   Scores return successfully only when the course unit is part of a graded
+   subsection and *This activity is graded* is set to *Graded*.
+
+
+Publish and Test
+*****************
+
+#. Publish the unit.
+#. Open the unit in the LMS and launch the LTI tool as a learner and, if
+   relevant, as staff or admin.
+#. Confirm that the tool opens correctly.
+#. If the component is graded, confirm that scores return to the Open edX
+   platform as expected.
+
+
+.. figure:: /_images/educator_how_tos/lti_11_saltire_launch.png
+   :alt: An LTI tool launched from an Open edX course unit in the LMS using LTI
+      1.1.
+   :width: 80%
+
+   After publishing the unit, launch the tool from the LMS to confirm that the
+   LTI 1.1/1.2 configuration works.
+
 
 .. seealso::
  
  :ref:`About the LTI Component` (concept)
 
- :ref:`LTI Component Settings` (reference)
-
- :ref:`Enable_LTI_Components` (how-to)
-
  :ref:`Set up an LTI 1_3 component` (how-to)
 
- :ref:`Enabling and using LTI Advantage features` (how-to)
+ :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
 
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++-------------+------------------------+---------+----------------+
+| Review Date | Working Group Reviewer | Release | Test situation |
++-------------+------------------------+---------+----------------+
+|             |                        |         |                |
++-------------+------------------------+---------+----------------+

@@ -153,11 +153,7 @@ Next steps
 
  :ref:`Create a Reusable LTI 1.3 Configuration` (how-to)
 
- :ref:`Set up an LTI Consumer with Reusable LTI Configuration` (how-to) 
-
- :ref:`LTI Component Settings` (reference)
-
- :ref:`Enable_LTI_Components` (how-to)
+ :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
 
  :ref:`Set up an LTI 1_1 component` (how-to)
 
