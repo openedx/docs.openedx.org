@@ -35,7 +35,7 @@ Which blocks are now on by default?
 
 * :ref:`Google Documents <Add a Google Drive File to Your Course>`
 
-* :ref:`LTI 1.3 Consumer <Set up an LTI 1_3 component>`
+* :ref:`LTI 1.3 Consumer <Set up an LTI 1_3 tool>`
 
 * :ref:`Poll <Add Poll>`
 

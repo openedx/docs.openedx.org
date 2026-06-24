@@ -73,11 +73,14 @@ rediraffe_redirects = {
     "site_ops/install_configure_run_guide/configuration/lti/settings_lti.rst": "site_ops/install_configure_run_guide/configuration/lti/configure_lti.rst",
     "site_ops/install_configure_run_guide/configuration/lti/tpa_lti.rst": "site_ops/install_configure_run_guide/configuration/lti/configure_lti.rst",
     "educators/references/course_development/exercise_tools/"
-    "lti_component_settings.rst": "educators/how-tos/course_development/"
-    "exercise_tools/set_up_lti_1_3_component.rst",
+    "lti_component_settings.rst": "educators/concepts/exercise_tools/"
+    "about_lti_component.rst",
     "educators/how-tos/course_development/exercise_tools/"
     "enable_lti_component.rst": "educators/concepts/exercise_tools/"
     "about_lti_component.rst",
+    "educators/how-tos/course_development/exercise_tools/"
+    "use_lti_advantage_features.rst": "educators/references/"
+    "course_development/exercise_tools/use_lti_advantage_features.rst",
 }
 
 tags_create_tags = True

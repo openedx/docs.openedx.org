@@ -7,10 +7,34 @@ Manage LTI PII Sharing for a Course
 
 Some LTI tools require personally identifiable information (PII), such as a
 learner's username, full name, or email address. Site operators can enable the
-course-level LTI PII sharing flag for a specific course in Django Admin.
+course-level LTI PII sharing flag named ``CourseAllowPIISharingInLTIFlag`` for
+a specific course in Django Admin.
 
-Use this guide when a course team needs to configure an LTI Consumer XBlock to
-share learner information with an external LTI tool.
+Once this flag is enabled for the course:
+
+#. Course teams will see settings for sharing username, full name, and email
+   when configuring the LTI Consumer XBlock. These settings control PII sharing
+   in regular LTI launches and Deep Linking launches.
+
+   .. figure:: /_images/educator_references/lti_xblock_pii_config.png
+      :alt: LTI Consumer XBlock Review Options tab showing Share Username,
+         Share Full name, Share Email, and Data Sharing Notice fields.
+
+      The *Advanced Information Sharing* section includes settings
+      for sharing username, full name, email, and a data sharing notice.
+
+   Learners see a consent prompt before a regular launch that shares PII. Deep
+   Linking launches are initiated by course staff in Studio and do not display
+   a user consent prompt.
+
+#. If Names and Role Provisioning Services (NRPS) is enabled for an LTI 1.3
+   configuration, full name and email will be shared in NRPS responses. NRPS
+   does not use the XBlock-level sharing settings or display a user consent
+   prompt.
+
+For component-level configuration, see :ref:`Allow sharing PII to LTI
+Components`.
+
 
 .. warning::
 
@@ -18,29 +42,6 @@ share learner information with an external LTI tool.
    organization's privacy and data governance policies before you enable the
    course-level LTI PII sharing flag.
 
-Before You Start
-****************
-
-Before enabling the course-level LTI PII sharing flag, make sure that you have
-the following information.
-
-* Access to Studio Django Admin with permission to manage
-  ``CourseAllowPIISharingInLTIFlag`` records.
-* The course ID for the course that needs LTI PII sharing.
-* Confirmation from the course team about which LTI tool needs learner
-  information.
-* Confirmation that sharing learner information with the tool is allowed by
-  your organization's privacy and data governance policies.
-
-What the Course-Level Flag Allows
-*********************************
-
-The course-level LTI PII sharing flag allows course teams to edit PII sharing
-fields in Studio. After you enable the flag, course teams can configure LTI
-Consumer XBlocks in the course to share learner information with an LTI tool.
-
-Course teams decide which LTI component settings to use for the tool. For more
-information, see :ref:`Allow sharing PII to LTI Components`.
 
 Enable the Course-Level LTI PII Sharing Flag
 ********************************************
@@ -69,25 +70,39 @@ Enable the Course-Level LTI PII Sharing Flag
 #. Select :guilabel:`Save`.
 
 After the flag is enabled, tell the course team that they can configure the LTI
-Consumer XBlock to share only the learner information required by the tool.
+Consumer XBlock to share the learner information required by the tool.
 
 Disable the Course-Level LTI PII Sharing Flag
 *********************************************
 
-To stop allowing course teams to edit LTI PII sharing fields in Studio, return
-to :guilabel:`Course allow pii sharing in lti flags`, open the course flag,
-clear :guilabel:`Enabled`, and save the record.
+Before disabling the flag, ask the course team to review every LTI Consumer
+XBlock in the course that shares learner information. They should clear the
+component-level PII sharing settings and save each affected XBlock.
 
-Before or after disabling the flag, ask the course team to review any LTI
-Consumer XBlocks in the course that previously shared learner information.
-They should clear any component-level PII sharing settings that should no
-longer apply.
+After the course team confirms that the settings are cleared, follow these
+steps.
 
-Next Steps
-**********
+#. Return to :guilabel:`Course allow pii sharing in lti flags` and open the
+   course flag.
+#. Clear :guilabel:`Enabled`.
+#. Select :guilabel:`Save`.
 
-Ask the course team to configure the LTI Consumer XBlock settings for the tool.
-For more information, see :ref:`Allow sharing PII to LTI Components`.
+
+.. warning::
+
+   Disabling the course-level flag does not stop PII sharing for LTI Consumer
+   XBlocks that already have sharing settings enabled. PII continues to be
+   included in regular LTI launches and Deep Linking launches until those
+   XBlock settings are cleared.
+
+   If the flag was disabled before the settings were cleared, temporarily
+   enable it so that the course team can clear and save the XBlock settings.
+   Then disable the flag again.
+
+   Disabling the flag does stop full name and email from being included in
+   Names and Role Provisioning Services responses.
+
+
 
 .. seealso::
 
@@ -97,11 +112,11 @@ For more information, see :ref:`Allow sharing PII to LTI Components`.
 
    :ref:`Learner Data` (concept)
 
-   :ref:`Set up an LTI 1_1 component` (how-to)
+   :ref:`Set up an LTI 1_1 tool` (how-to)
 
-   :ref:`Set up an LTI 1_3 component` (how-to)
+   :ref:`Set up an LTI 1_3 tool` (how-to)
 
-   :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
+   :ref:`Set up an LTI tool using a reusable configuration` (how-to)
 
 
 **Maintenance chart**

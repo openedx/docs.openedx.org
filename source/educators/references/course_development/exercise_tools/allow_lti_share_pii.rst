@@ -7,8 +7,8 @@ Allow Sharing PII to LTI Components
 
 Personally identifiable information (PII) sharing controls determine whether an
 LTI Consumer XBlock can send a user's username, full name, or email address
-to an external LTI tool during launches. For Names and Roles Provisioning
-Service (NRPS), PII sharing can include only a user's full name and email
+to an external LTI tool during launches. For Names and Role Provisioning
+Services (NRPS), PII sharing can include only a user's full name and email
 address.
 
 By default, course teams cannot edit LTI PII sharing settings in Studio. A site
@@ -22,8 +22,8 @@ information, see :ref:`Manage LTI PII Sharing for a Course`.
    organization's privacy and data governance policies before you select
    component-level sharing settings.
 
-How PII Sharing Works
-*********************
+Data Sharing Prompt for Tool Launches
+*************************************
 
 LTI PII sharing behavior depends on how the tool receives user information.
 
@@ -32,7 +32,7 @@ LTI PII sharing behavior depends on how the tool receives user information.
 
    * - LTI interaction
      - What controls PII sharing
-     - User consent
+     - User prompt
    * - Tool launch in the LMS
      - The LTI Consumer XBlock settings for username, full name, and email
        control which values are included in the launch.
@@ -43,7 +43,7 @@ LTI PII sharing behavior depends on how the tool receives user information.
        control which values are included in the deep linking launch.
      - User consent is not collected because course staff run the Studio
        deep linking workflow.
-   * - Names and Roles Provisioning Service (NRPS)
+   * - Names and Role Provisioning Services (NRPS)
      - The course-level LTI PII sharing flag controls whether NRPS responses
        include PII. When the flag is enabled, NRPS responses include full
        name and email address, but not username.
@@ -107,11 +107,11 @@ prompt, the tool does not launch.
 
    :ref:`Learner Data` (concept)
 
-   :ref:`Set up an LTI 1_1 component` (how-to)
+   :ref:`Set up an LTI 1_1 tool` (how-to)
 
-   :ref:`Set up an LTI 1_3 component` (how-to)
+   :ref:`Set up an LTI 1_3 tool` (how-to)
 
-   :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
+   :ref:`Set up an LTI tool using a reusable configuration` (how-to)
 
 
 **Maintenance chart**

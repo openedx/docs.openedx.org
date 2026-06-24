@@ -140,11 +140,9 @@
 
 .. _Deep Linking: https://www.imsglobal.org/spec/lti-dl/v2p0
 
-.. _Assignments and Grades services: https://www.imsglobal.org/spec/lti-ags/v2p0
+.. _Assignment and Grade Services: https://www.imsglobal.org/spec/lti-ags/v2p0
 
-.. _Names and Roles Provisioning Service: https://www.imsglobal.org/spec/lti-nrps/v2p0
-
-.. _LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting: https://github.com/openedx/xblock-lti-consumer/blob/master/docs/decisions/0004-lti-advantage-nrps.rst#decision
+.. _Names and Role Provisioning Services: https://www.imsglobal.org/spec/lti-nrps/v2p0
 
 .. _Oppia: https://www.oppia.org
 

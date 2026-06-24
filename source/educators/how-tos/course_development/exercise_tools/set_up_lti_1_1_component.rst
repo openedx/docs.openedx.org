@@ -1,7 +1,8 @@
 .. _Set up an LTI 1_1 component:
+.. _Set up an LTI 1_1 tool:
 
-Set Up an LTI 1.1/1.2 Component
-################################
+Set Up an LTI 1.1 Tool
+######################
 
 .. tags:: educator, how-to
 
@@ -28,13 +29,13 @@ Setting up an LTI 1.1/1.2 tool is a two-step process:
 .. note::
 
    If your instance has LTI Store enabled, a site operator can create a
-   reusable LTI 1.1/1.2 configuration for you. See :ref:`Configure an LTI Tool
-   Using Reusable Configuration`. In that case, instead of an LTI passport, you
-   configure the LTI Consumer XBlock to use the reusable configuration.
+   reusable LTI 1.1/1.2 configuration for you. See :ref:`Set up an LTI tool
+   using a reusable configuration`. In that case, instead of an LTI passport,
+   you configure the LTI Consumer XBlock to use the reusable configuration.
 
 
 Step 1: Create an LTI Passport
-*******************************
+******************************
 
 An LTI passport holds the tool's credentials. It has three parts separated by
 colons:
@@ -75,7 +76,7 @@ To add the LTI passport to your course, follow these steps.
 
 
 Step 2: Add and Configure the LTI Consumer XBlock
-**************************************************
+*************************************************
 
 .. figure:: /_images/educator_how_tos/lti_consumer_xblock_add.png
    :alt: Advanced component picker in Studio showing the LTI Consumer
@@ -90,22 +91,23 @@ Step 2: Add and Configure the LTI Consumer XBlock
 #. In the *Add New Component* area, click :guilabel:`Advanced`.
 #. Select *LTI Consumer*. Studio adds the LTI Consumer XBlock to the course
    unit.
-
-   .. note::
-
-      For Teak and later releases, the *LTI Consumer* component is visible by
-      default. If you do not see *LTI Consumer* in Studio, add
-      ``"lti_consumer"`` to the *Advanced Module List* on the *Advanced
-      Settings* page. If the list already includes other tools, separate each
-      value with a comma.
-
-      If both *LTI Consumer* and the older *LTI* XBlocks appear in Studio,
-      select *LTI Consumer*.
-
 #. Edit the XBlock to configure the tool.
 
-Configure Tab: Setup
-====================
+
+.. note::
+
+  For Teak and later releases, the *LTI Consumer* component is visible by
+  default. If you do not see *LTI Consumer* in Studio, add
+  ``"lti_consumer"`` to the *Advanced Module List* on the *Advanced
+  Settings* page. If the list already includes other tools, separate each
+  value with a comma.
+
+  If both *LTI Consumer* and the older *LTI* XBlocks appear in Studio,
+  select *LTI Consumer*.
+
+
+Configure the Setup Tab
+=======================
 
 .. figure:: /_images/educator_how_tos/lti_11_ontheblock_config.png
    :alt: Setup tab for an LTI Consumer XBlock with LTI Version set to LTI
@@ -141,11 +143,11 @@ Configure the *Setup* tab as per the following table:
      - Enter the tool launch URL.
 
    * - Next
-     - Click :guilabel:`Next` to save and continue.
+     - Click :guilabel:`Next` to continue.
 
 
-Configure Tab: Review Options
-=============================
+Configure the Review Options Tab
+================================
 
 On the *Review Options* tab, configure the learner-facing behavior for the LTI
 component, such as the display name, grading, information sharing, custom
@@ -241,12 +243,13 @@ Configure the *Review Options* tab as per the following table:
 
 .. note::
 
-   Scores return successfully only when the course unit is part of a graded
-   subsection and *This activity is graded* is set to *Graded*.
-
+   Open edX can receive and store a score for the LTI Consumer XBlock only when
+   *This activity is graded* is set to *Graded*. For the stored score to
+   contribute to the learner's course grade, the unit must also be part of a
+   graded subsection.
 
 Publish and Test
-*****************
+****************
 
 #. Publish the unit.
 #. Open the unit in the LMS and launch the LTI tool as a learner and, if
@@ -266,12 +269,12 @@ Publish and Test
 
 
 .. seealso::
- 
+
  :ref:`About the LTI Component` (concept)
 
- :ref:`Set up an LTI 1_3 component` (how-to)
+ :ref:`Set up an LTI 1_3 tool` (how-to)
 
- :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
+ :ref:`Set up an LTI tool using a reusable configuration` (how-to)
 
 
 **Maintenance chart**

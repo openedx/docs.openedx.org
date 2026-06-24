@@ -1,7 +1,8 @@
 .. _Set up an LTI 1_3 component:
+.. _Set up an LTI 1_3 tool:
 
-Set Up an LTI 1.3 Component
-###########################
+Set Up an LTI 1.3 Tool
+######################
 
 .. tags:: educator, how-to
 
@@ -10,14 +11,14 @@ LTI Consumer XBlock.
 
 The LTI 1.3 capability supports tool launch and grade passback from the tool to
 the Open edX platform. It also supports the three LTI Advantage services: Deep
-Linking, Assignments and Grades Services (AGS), and Names and Roles
-Provisioning Service (NRPS).
+Linking, Assignment and Grade Services (AGS), and Names and Role Provisioning
+Services (NRPS).
 
 .. note::
 
    If your instance has LTI Store enabled, a site operator can create a
    reusable LTI 1.3 configuration for you using the Django admin panel. See
-   :ref:`Configure an LTI Tool Using Reusable Configuration`.
+   :ref:`Set up an LTI tool using a reusable configuration`.
 
 Before You Start
 ****************
@@ -46,8 +47,8 @@ documentation for the following information.
 
   * Public key or public keyset URL.
   * Deep Linking launch URL if the tool supports Deep Linking.
-  * Whether the tool uses Names and Roles Provisioning Service (NRPS).
-  * Whether the tool uses Assignments and Grades Services (AGS) to return
+  * Whether the tool uses Names and Role Provisioning Services (NRPS).
+  * Whether the tool uses Assignment and Grade Services (AGS) to return
     scores.
 
 * For grading:
@@ -65,7 +66,7 @@ After you configure and save the LTI Consumer XBlock, Studio shows values that
 the tool will need to register your Open edX instance.
 
 Step 1: Add and Configure the LTI Consumer XBlock
-**************************************************
+*************************************************
 
 .. figure:: /_images/educator_how_tos/lti_consumer_xblock_add.png
    :alt: Advanced component picker in Studio showing the LTI Consumer
@@ -79,22 +80,22 @@ Step 1: Add and Configure the LTI Consumer XBlock
 #. In the *Add New Component* area, click :guilabel:`Advanced`.
 #. Select *LTI Consumer*. Studio adds the LTI Consumer XBlock to the course
    unit.
-
-   .. note::
-
-      For Teak and later releases, the *LTI Consumer* component is visible by
-      default. If you do not see *LTI Consumer* in Studio, add
-      ``"lti_consumer"`` to the *Advanced Module List* on the *Advanced
-      Settings* page. If the list already includes other tools, separate each
-      value with a comma.
-
-      If both *LTI Consumer* and the older *LTI* XBlocks appear in Studio,
-      select *LTI Consumer*.
-
 #. Edit the XBlock to configure the tool.
 
-Configure Tab: Setup
-====================
+.. note::
+
+  For Teak and later releases, the *LTI Consumer* component is visible by
+  default. If you do not see *LTI Consumer* in Studio, add
+  ``"lti_consumer"`` to the *Advanced Module List* on the *Advanced
+  Settings* page. If the list already includes other tools, separate each
+  value with a comma.
+
+  If both *LTI Consumer* and the older *LTI* XBlocks appear in Studio,
+  select *LTI Consumer*.
+
+
+Configure the Setup Tab
+=======================
 
 .. figure:: /_images/educator_how_tos/lti_13_setup_xblock.png
    :alt: Setup tab for an LTI Consumer XBlock with LTI Version set to LTI 1.3.
@@ -143,10 +144,10 @@ Configure the *Setup* tab as per the following table:
        the Deep Linking Launch URL as defaults.
 
    * - Next
-     - Click :guilabel:`Next` to save and continue.
+     - Click :guilabel:`Next` to continue.
 
-Configure Tab: Advantage Settings
-=================================
+Configure the Advantage Settings Tab
+====================================
 
 The *Advantage Settings* tab appears only for LTI 1.3 tools.
 
@@ -195,7 +196,7 @@ Configure the *Advantage Settings* tab as per the following table:
 
 
    * - Names & Roles (NRPS)
-     - Names and Role Provisioning Services (NRPS) allows the tool to access
+     - Names and Role Provisioning Services (NRPS) allow the tool to access
        enrollment and role information.
 
        It is disabled by default. Enable this setting only if the tool requires
@@ -222,11 +223,11 @@ Configure the *Advantage Settings* tab as per the following table:
        because it supports key rotation without updating the component.
 
    * - Next
-     - Click :guilabel:`Next` to save and continue.
+     - Click :guilabel:`Next` to continue.
 
 
-Configure Tab: Review Options
-=============================
+Configure the Review Options Tab
+================================
 
 On the *Review Options* tab, configure the learner-facing behavior for the LTI
 component, such as the display name, grading, information sharing, custom
@@ -322,7 +323,7 @@ Configure the *Review Options* tab as per the following table:
 
 .. _Register your Open edX instance with the Tool:
 
-Step 3: Register your Open edX instance with the Tool
+Step 2: Register Your Open edX Instance with the Tool
 *****************************************************
 
 LTI 1.3 setup requires registration in both systems. You enter the tool's
@@ -348,7 +349,7 @@ Common Open edX platform values required by LTI 1.3 tools include:
 External tools may use different names for these values and may not require
 all of them. Follow the tool vendor's instructions.
 
-Step 4: Use Deep Linking to Select Tool Content
+Optional: Select Tool Content with Deep Linking
 ***********************************************
 
 
@@ -369,22 +370,22 @@ If you enabled *Deep linking* for the component, use these steps to select conte
    Studio.
 
    .. figure:: /_images/educator_how_tos/lti_xblock_deeplink_success.png
-      :alt: Deep Linking Launch - Configure tool link in the LTI Consumer XBlock.
+      :alt: LTI Consumer XBlock in Studio showing saved Deep Linking content
+         and the Deep Linking Launch - Configure tool link.
       :width: 80%
 
-      Use the configure tool link to launch the external tool's content
-      selection workflow.
-
-#. Open the unit in the LMS and confirm that the selected content appears.
+      After Deep Linking succeeds, Studio displays the selected content
+      configuration on the LTI Consumer XBlock.
 
 
 Publish and Test
-*****************
+****************
 
 #. Publish the unit.
 #. Open the unit in the LMS and launch the LTI tool as a learner and, if
    relevant, as staff or admin.
-#. Confirm that the tool opens correctly.
+#. Confirm that the tool opens correctly and shows the content selected in
+   deep linking.
 #. If the component is graded, confirm that scores return to the Open edX
    platform as expected.
 
@@ -399,11 +400,11 @@ Publish and Test
  
  :ref:`About the LTI Component` (concept)
 
- :ref:`Set up an LTI 1_1 component` (how-to)
+ :ref:`Set up an LTI 1_1 tool` (how-to)
 
- :ref:`Configure an LTI Tool Using Reusable Configuration` (how-to)
+ :ref:`Set up an LTI tool using a reusable configuration` (how-to)
 
- :ref:`Enabling and using LTI Advantage features` (how-to)
+ :ref:`LTI Advantage Services` (reference)
 
 
 **Maintenance chart**

@@ -34,7 +34,7 @@ Course authors can now add LTI tools in Studio using the LTI Consumer component
 configured to reference a "reusable configuration" rather than requiring
 credentials per course block.
 
-See :ref:`Configure an LTI Tool Using Reusable Configuration` for further
+See :ref:`Set up an LTI tool using a reusable configuration` for further
 documentation.
 
 .. note::
@@ -61,7 +61,7 @@ new UX and structural improvements mature.
 
    :ref:`About the LTI Component`
 
-   :ref:`Configure an LTI Tool Using Reusable Configuration`
+   :ref:`Set up an LTI tool using a reusable configuration`
 
    :ref:`Set up a Reusable LTI Store`
 

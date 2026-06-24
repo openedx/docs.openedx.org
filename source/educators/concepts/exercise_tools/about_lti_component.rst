@@ -1,8 +1,8 @@
 .. _About the LTI Component:
 
-###########################
+#######################
 About the LTI Component
-###########################
+#######################
 
 .. tags:: educator, site operator, concept
 
@@ -18,13 +18,13 @@ setting up an LTI tool in their Open edX instance.
    The Open edX platform can also be configured as an LTI tool provider, so
    that another learning management system launches content from the Open edX
    platform. That is a separate feature. For more information, see :ref:`using
-   the Open edX platform as an LTI tool provider <Using Open edX as an LTI Tool
-   Provider>`.
+   the Open edX platform as an LTI tool provider <Using your Open edX instance
+   as an LTI Tool Provider>`.
 
 The LTI Consumer XBlock supports LTI 1.1/1.2 tools and tools that comply with
 the `LTI 1.3`_ specification. LTI 1.3 tools can also use LTI Advantage
-services: `Deep Linking`_, `Assignments and Grades services`_, and `Names and
-Roles Provisioning Service`_.
+services: `Deep Linking`_, `Assignment and Grade Services`_, and `Names and
+Role Provisioning Services`_.
 
 As of the Ulmo release, the Open edX platform has achieved
 :ref:`LTI Advantage Complete certification <Ulmo LTI Certification>`.
@@ -34,9 +34,9 @@ As of the Ulmo release, the Open edX platform has achieved
    :depth: 2
 
 
-*********************
+********
 Overview
-*********************
+********
 
 Use the LTI component when a course needs to launch an external learning tool
 from an Open edX course unit. The tool may provide a learning activity, an
@@ -60,9 +60,9 @@ interact with into the LMS for a course.
   :ref:`Accessibility Best Practices Checklist`.
 
 
-****************************************
+***************************************
 Available Methods for LTI Configuration
-****************************************
+***************************************
 
 The Open edX platform offers two methods for configuring an LTI tool. Both
 methods support LTI 1.1/1.2, LTI 1.3, and LTI Advantage services. In both
@@ -75,9 +75,8 @@ difference is where the tool configuration is stored and who manages it.
    LTI 1.1/1.2, they will need to create an *LTI passport* on the *Advanced
    Settings* page and reference that in the XBlock.
 
-   For instructions, see :ref:`Set up an LTI 1.1/1.2 component <Set up an LTI
-   1_1 component>` and :ref:`Set up an LTI 1.3 component <Set up an LTI 1_3
-   component>`.
+   For instructions, see :ref:`Set up an LTI 1.1/1.2 tool <Set up an LTI 1_1
+   tool>` and :ref:`Set up an LTI 1.3 tool <Set up an LTI 1_3 tool>`.
 
    To reuse the same configuration within a course, educators can duplicate or
    copy and paste the configured XBlock. However, changes made to the original
@@ -90,7 +89,7 @@ difference is where the tool configuration is stored and who manages it.
    Studio and reference the stored configuration by using its *Filter key*.
 
    For instructions, site operators can see :ref:`Set up a Reusable LTI Store`.
-   Educators can see :ref:`Configure an LTI Tool Using Reusable Configuration`.
+   Educators can see :ref:`Set up an LTI tool using a reusable configuration`.
 
    The *Filter key* allows reuse of the same tool configuration in multiple
    locations in a course or across multiple courses. Changes made to the LTI
@@ -98,41 +97,41 @@ difference is where the tool configuration is stored and who manages it.
    it.
 
 
-*****************************
+*********************
 Choose an LTI Version
-*****************************
+*********************
 
 LTI 1.3 is the current LTI integration standard and is required for LTI
-Advantage services like Deep Linking, Assignments and Grades services (AGS), and
-Names and Roles Provisioning Service (NRPS). Use LTI 1.3 when the external tool
+Advantage services like Deep Linking, Assignment and Grade Services (AGS), and
+Names and Role Provisioning Services (NRPS). Use LTI 1.3 when the external tool
 supports it.
 
 The LTI 1.1/1.2 specifications are older versions of the standard. Use LTI
 1.1/1.2 when a tool requires that version.
 
 
-*****************************
+**********************
 LTI Advantage Features
-*****************************
+**********************
 
 LTI Advantage is a set of services for LTI 1.3 tools. The Open edX platform
 supports the following LTI Advantage services:
 
-* **Assignments and Grades services (AGS)**, which allows a tool to send and
+* **Assignment and Grade Services (AGS)**, which allows a tool to send and
   manage learner grades in the Open edX platform.
 
 * **Deep Linking**, which allows course teams to select tool content from
   Studio for each component instead of changing the *Launch URL*.
 
-* **Names and Roles Provisioning Service (NRPS)**, which allows a tool to
+* **Names and Role Provisioning Services (NRPS)**, which allows a tool to
   retrieve course membership and role information from the Open edX instance.
 
-For more information, see :ref:`Enabling and using LTI Advantage features`.
+For more information, see :ref:`LTI Advantage Services`.
 
 
-*****************************
+************************
 Privacy and Learner Data
-*****************************
+************************
 
 Some LTI tools require personally identifiable information (PII) to function
 properly. Educators can configure each LTI Consumer XBlock to share one or more
@@ -152,11 +151,11 @@ information, see :ref:`Allow sharing PII to LTI Components`.
 
 .. seealso::
 
- :ref:`Set up an LTI 1_1 component` (how-to)
+ :ref:`Set up an LTI 1_1 tool` (how-to)
 
- :ref:`Set up an LTI 1_3 component` (how-to)
+ :ref:`Set up an LTI 1_3 tool` (how-to)
 
- :ref:`Enabling and using LTI Advantage features` (how-to)
+ :ref:`LTI Advantage Services` (reference)
 
  :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
