@@ -88,8 +88,8 @@ to share user information, the user sees a consent prompt before the tool
 launches.
 
 The prompt lists the user information that the component is configured to
-share, such as username, full name, or email address. If the user cancels the
-prompt, the tool does not launch.
+share, such as username, full name, or email address. Tool is only launched
+after user's approval.
 
 .. figure:: /_images/educator_references/lti_consent_before_launch.png
    :alt: Consent prompt shown before an LTI tool launch, asking the user to

@@ -32,6 +32,14 @@ Once this flag is enabled for the course:
    does not use the XBlock-level sharing settings or display a user consent
    prompt.
 
+   .. note::
+
+      The ``LTI_NRPS_DISALLOW_PII`` platform setting provides a global privacy
+      override for NRPS. When set to *True*, NRPS responses omit full names and
+      email addresses even when course-level LTI PII sharing is enabled. When set
+      to *False* or left unset, the course-level flag determines whether NRPS
+      responses include this information. The setting is *False* by default.
+
 For component-level configuration, see :ref:`Allow sharing PII to LTI
 Components`.
 

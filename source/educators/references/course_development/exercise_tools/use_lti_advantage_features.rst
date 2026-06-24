@@ -44,7 +44,7 @@ The *Assignment and Grades* setting controls how the tool works with line items.
   through AGS. Use this mode only when the tool needs to manage its own line
   items, such as when one launch can contain multiple graded activities.
 
-Open edX can receive and store a score for the LTI Consumer XBlock only when
+The Open edX platform can receive and store a score for the LTI Consumer XBlock only when
 *This activity is graded* is set to *Graded*. For the stored score to
 contribute to the learner's course grade, the unit must also be part of a
 graded subsection.

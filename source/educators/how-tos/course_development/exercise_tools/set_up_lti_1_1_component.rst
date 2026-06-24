@@ -243,7 +243,7 @@ Configure the *Review Options* tab as per the following table:
 
 .. note::
 
-   Open edX can receive and store a score for the LTI Consumer XBlock only when
+   The Open edX platform can receive and store a score for the LTI Consumer XBlock only when
    *This activity is graded* is set to *Graded*. For the stored score to
    contribute to the learner's course grade, the unit must also be part of a
    graded subsection.

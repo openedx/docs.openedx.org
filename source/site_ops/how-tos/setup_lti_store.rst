@@ -107,7 +107,8 @@ Create a Reusable LTI Configuration
      * *Deployment ID*
      * *OIDC URL*
      * *Launch URL*
-     * *Private Key* in PEM format
+     * *Private Key* in PEM format (generate according to your organization's
+       security policy paste in this field)
      * *Tool Public Key* OR *Tool Keyset URL*
      * *Redirect URIs*, if required by the tool
      * (Optional) Enable *Names and Role Provisioning Services*

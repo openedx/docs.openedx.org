@@ -287,8 +287,14 @@ Configure the *Review Options* tab as per the following table:
        ``["page=144", "activity=quiz"]``.
 
    * - Send extra parameters
-     - Leave this setting unchanged unless the tool's instructions ask you to
-       change it.
+     - Sends additional information configured by the site administrator during
+       the tool launch. Unlike *Custom Parameters*, this information is
+       generated automatically and can vary by learner, for example cohort or
+       team membership.
+
+       The default is *Disabled*. Enable this setting only when instructed by
+       the site administrator because the information might include personally
+       identifiable information (PII).
 
    * - Hide External Tool
      - Controls whether the LTI tool is visible to learners.
