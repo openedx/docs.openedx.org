@@ -1,8 +1,8 @@
 .. _Set up an LTI 1_3 component:
 .. _Set up an LTI 1_3 tool:
 
-Set Up an LTI 1.3 Tool
-######################
+Set Up an LTI 1.3 Component
+###########################
 
 .. tags:: educator, how-to
 
@@ -18,7 +18,7 @@ Services (NRPS).
 
    If your instance has LTI Store enabled, a site operator can create a
    reusable LTI 1.3 configuration for you using the Django admin panel. See
-   :ref:`Set up an LTI tool using a reusable configuration`.
+   :ref:`Set up an LTI component using a reusable configuration`.
 
 Before You Start
 ****************
@@ -406,9 +406,9 @@ Publish and Test
  
  :ref:`About the LTI Component` (concept)
 
- :ref:`Set up an LTI 1_1 tool` (how-to)
+ :ref:`Set up an LTI 1_1 component` (how-to)
 
- :ref:`Set up an LTI tool using a reusable configuration` (how-to)
+ :ref:`Set up an LTI component using a reusable configuration` (how-to)
 
  :ref:`LTI Advantage Services` (reference)
 

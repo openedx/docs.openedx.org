@@ -4,7 +4,7 @@
 About the LTI Component
 #######################
 
-.. tags:: educator, site operator, concept
+.. tags:: educator, concept
 
 The Learning Tools Interoperability (LTI) component, also called the LTI
 Consumer XBlock, allows educators to add external LTI tools to course content
@@ -75,8 +75,9 @@ difference is where the tool configuration is stored and who manages it.
    LTI 1.1/1.2, they will need to create an *LTI passport* on the *Advanced
    Settings* page and reference that in the XBlock.
 
-   For instructions, see :ref:`Set up an LTI 1.1/1.2 tool <Set up an LTI 1_1
-   tool>` and :ref:`Set up an LTI 1.3 tool <Set up an LTI 1_3 tool>`.
+   For instructions, see :ref:`Set up an LTI 1.1/1.2 component <Set up an LTI
+   1_1 component>` and :ref:`Set up an LTI 1.3 component <Set up an LTI 1_3
+   component>`.
 
    To reuse the same configuration within a course, educators can duplicate or
    copy and paste the configured XBlock. However, changes made to the original
@@ -89,7 +90,8 @@ difference is where the tool configuration is stored and who manages it.
    Studio and reference the stored configuration by using its *Filter key*.
 
    For instructions, site operators can see :ref:`Set up a Reusable LTI Store`.
-   Educators can see :ref:`Set up an LTI tool using a reusable configuration`.
+   Educators can see :ref:`Set up an LTI component using a reusable
+   configuration`.
 
    The *Filter key* allows reuse of the same tool configuration in multiple
    locations in a course or across multiple courses. Changes made to the LTI
@@ -151,9 +153,9 @@ information, see :ref:`Allow sharing PII to LTI Components`.
 
 .. seealso::
 
- :ref:`Set up an LTI 1_1 tool` (how-to)
+ :ref:`Set up an LTI 1_1 component` (how-to)
 
- :ref:`Set up an LTI 1_3 tool` (how-to)
+ :ref:`Set up an LTI 1_3 component` (how-to)
 
  :ref:`LTI Advantage Services` (reference)
 

@@ -1,8 +1,9 @@
 .. _Configure an LTI Tool Using Reusable Configuration:
 .. _Set up an LTI tool using a reusable configuration:
+.. _Set up an LTI component using a reusable configuration:
 
-Set Up an LTI Tool Using a Reusable Configuration
-#################################################
+Set Up an LTI Component Using a Reusable Configuration
+######################################################
 
 .. tags:: educator, how-to
 
@@ -280,9 +281,9 @@ Publish and Test
 
  :ref:`Set up a Reusable LTI Store` (site operator how-to)
 
- :ref:`Set up an LTI 1_1 tool` (how-to)
+ :ref:`Set up an LTI 1_1 component` (how-to)
 
- :ref:`Set up an LTI 1_3 tool` (how-to)
+ :ref:`Set up an LTI 1_3 component` (how-to)
 
  :ref:`LTI Advantage Services` (reference)
 

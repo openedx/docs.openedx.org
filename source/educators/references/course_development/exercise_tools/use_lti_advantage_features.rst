@@ -13,7 +13,7 @@ enabled.
 
 LTI Advantage services are available only for LTI 1.3 tools. The external tool
 must support each service that you want to use. For information about
-configuring an LTI 1.3 tool, see :ref:`Set up an LTI 1_3 tool`.
+configuring an LTI 1.3 component, see :ref:`Set up an LTI 1_3 component`.
 
 .. note::
 
@@ -117,9 +117,9 @@ active enrollments. Site operators can adjust this limit with the
 
  :ref:`About the LTI Component` (concept)
 
- :ref:`Set up an LTI 1_3 tool` (how-to)
+ :ref:`Set up an LTI 1_3 component` (how-to)
 
- :ref:`Set up an LTI tool using a reusable configuration` (how-to)
+ :ref:`Set up an LTI component using a reusable configuration` (how-to)
 
  :ref:`Allow sharing PII to LTI Components` (reference)
 

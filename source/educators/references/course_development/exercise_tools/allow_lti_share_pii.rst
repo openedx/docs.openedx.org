@@ -107,11 +107,11 @@ after user's approval.
 
    :ref:`Learner Data` (concept)
 
-   :ref:`Set up an LTI 1_1 tool` (how-to)
+   :ref:`Set up an LTI 1_1 component` (how-to)
 
-   :ref:`Set up an LTI 1_3 tool` (how-to)
+   :ref:`Set up an LTI 1_3 component` (how-to)
 
-   :ref:`Set up an LTI tool using a reusable configuration` (how-to)
+   :ref:`Set up an LTI component using a reusable configuration` (how-to)
 
 
 **Maintenance chart**
