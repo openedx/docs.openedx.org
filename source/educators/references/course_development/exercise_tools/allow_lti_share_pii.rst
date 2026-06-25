@@ -1,41 +1,123 @@
 .. _Allow sharing PII to LTI Components:
 
-Allow sharing PII to LTI Components
+Allow Sharing PII to LTI Components
 ###################################
 
-.. tags:: site operator, how-to
+.. tags:: educator, reference
 
-The LTI component block has settings to share the user's email or username with the LTI application.
-By default, these settings are disabled for privacy reasons.
-The settings may be enabled per-course by an administrator, using the Django admin console:
+Personally identifiable information (PII) sharing controls determine whether an
+LTI Consumer XBlock can send a user's username, full name, or email address
+to an external LTI tool during launches. For Names and Role Provisioning
+Services (NRPS), PII sharing can include only a user's full name and email
+address.
 
-#. With a system administrator account, navigate to the django admin console, and find the "Course allow pii sharing in lti flags" item.
-   Click the text on the left for the item to navigate to the page with the list of these flags.
-   From this page, you can add, modify, or delete flags.
+By default, course teams cannot edit LTI PII sharing settings in Studio. A site
+operator must enable LTI PII sharing for the course before course teams can
+select the user information to share for each LTI component. For more
+information, see :ref:`Manage LTI PII Sharing for a Course`.
 
-   .. image:: /_images/site_ops_how_tos/lti_pii_sharing_admin_1.png
-      :alt: A screenshot of the Django admin console showing the "Course allow pii sharing in lti flags" menu item.
+.. warning::
 
-#. Click the button to add a new flag:
+   Share only the user information required by the LTI tool. Follow your
+   organization's privacy and data governance policies before you select
+   component-level sharing settings.
 
-   .. image:: /_images/site_ops_how_tos/lti_pii_sharing_admin_2.png
-      :alt: A screenshot of the Django admin console showing the button to "add course allow pii sharing in lti flag".
+Data Sharing Prompt for Tool Launches
+*************************************
 
-#. In the new flag form, enter the ID for the course you wish to enable this for, and ensure the "Enabled" field is checked.
+LTI PII sharing behavior depends on how the tool receives user information.
 
-   .. image:: /_images/site_ops_how_tos/lti_pii_sharing_admin_3.png
-      :alt: A screenshot of the Django admin console showing the form to add an enabled flag for a particular course id.
+.. list-table::
+   :header-rows: 1
 
-#. Finally, save the form.
+   * - LTI interaction
+     - What controls PII sharing
+     - User prompt
+   * - Tool launch in the LMS
+     - The LTI Consumer XBlock settings for username, full name, and email
+       control which values are included in the launch.
+     - The user sees a consent prompt before launch when one or more PII
+       fields are selected.
+   * - Deep linking launch in Studio
+     - The LTI Consumer XBlock settings for username, full name, and email
+       control which values are included in the deep linking launch.
+     - User consent is not collected because course staff run the Studio
+       deep linking workflow.
+   * - Names and Role Provisioning Services (NRPS)
+     - The course-level LTI PII sharing flag controls whether NRPS responses
+       include PII. When the flag is enabled, NRPS responses include full
+       name and email address, but not username.
+     - No user consent is collected for NRPS requests.
+
+
+Configure PII Sharing in an LTI Component
+*****************************************
+
+After a site operator enables LTI PII sharing for the course, course teams can
+select which user information an LTI Consumer XBlock shares with the tool.
+
+#. In Studio, open the unit that contains the LTI Consumer XBlock.
+#. Select :guilabel:`Edit`.
+#. Select the *Review Options* tab.
+
+   .. figure:: /_images/educator_references/lti_xblock_pii_config.png
+      :alt: LTI Consumer XBlock Review Options tab showing Share Username,
+         Share Full name, Share Email, and Data Sharing Notice fields.
+
+      The *Advanced Information Sharing* section includes settings
+      for sharing username, full name, email, and a data sharing notice.
+
+#. In the *Advanced Information Sharing* section, select only the
+   user information that the tool requires.
+
+   * *Share Username*
+   * *Share Full name*
+   * *Share Email*
+
+#. In *Data Sharing Notice*, add a short explanation of why user
+   information is shared with the tool.
+#. Select :guilabel:`Save`.
+
+
+
+User Consent for Tool Launches
+******************************
+
+When a user launches an LTI tool from the LMS and the component is configured
+to share user information, the user sees a consent prompt before the tool
+launches.
+
+The prompt lists the user information that the component is configured to
+share, such as username, full name, or email address. Tool is only launched
+after user's approval.
+
+.. figure:: /_images/educator_references/lti_consent_before_launch.png
+   :alt: Consent prompt shown before an LTI tool launch, asking the user to
+      confirm sharing username, full name, and email address.
+
+   The consent prompt appears before launch when the LTI component is
+   configured to share user information.
+
 
 .. seealso::
 
- :ref:`LTI Component settings` (reference)
+   :ref:`Manage LTI PII Sharing for a Course` (how-to)
+
+   :ref:`About the LTI Component` (concept)
+
+   :ref:`Learner Data` (concept)
+
+   :ref:`Set up an LTI 1_1 component` (how-to)
+
+   :ref:`Set up an LTI 1_3 component` (how-to)
+
+   :ref:`Set up an LTI component using a reusable configuration` (how-to)
+
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------------+------------------------+----------+----------------+
+| Review Date        | Working Group Reviewer | Release  | Test situation |
++--------------------+------------------------+----------+----------------+
+| 2026-06-25         | Aamir Ayub             | Verawood | Pass           |
++--------------------+------------------------+----------+----------------+

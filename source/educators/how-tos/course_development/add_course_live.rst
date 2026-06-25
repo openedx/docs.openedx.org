@@ -49,7 +49,8 @@ At present, the Open edX platform supports following video conferencing LTI prov
 LTI setup
 =========
 
-For enabling LTI components, see :ref:`enable_lti_components`.
+For more information about configuring LTI tools, see :ref:`About the LTI
+Component`.
 
 Zoom setup
 ==========
@@ -146,7 +147,7 @@ accessible in *Live* tab in course navigation.
 
 .. seealso::
 
- :ref:`enable_lti_components` (how-to)
+ :ref:`About the LTI Component` (concept)
 
  :ref:`Determine Content Addresses` (how-to)
 

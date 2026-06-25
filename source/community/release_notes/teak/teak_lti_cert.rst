@@ -10,7 +10,8 @@ Implemented by 1EdTech, the Learning Tools Interoperability (LTI) Advantage set 
 earlier LTI builds to bring a more versatile and secure integration model to the
 marketplace. Open edX platform providers and LTI 1.3 compliant partners are able to share
 a rich set of data thanks to the LTI Core, Assignment and Grade Services,
-Names and Role Services, and Deep Linking specifications outlined by 1EdTech. 
+Names and Role Provisioning Services, and Deep Linking specifications outlined
+by 1EdTech.
 
 For the platform to get LTI Advantage Certified and listed in the `1EdTech
 Product Directory
@@ -31,15 +32,11 @@ View the `1EdTech listing for the Open edX platform here
 
  :ref:`About the LTI Component` (concept)
 
- :ref:`LTI Component Settings` (reference)
+ :ref:`Set up an LTI 1_1 tool` (how-to)
 
- :ref:`Enable_LTI_Components` (how-to)
+ :ref:`Set up an LTI 1_3 tool` (how-to)
 
- :ref:`Set up an LTI 1_1 component` (how-to)
-
- :ref:`Set up an LTI 1_3 component` (how-to)
-
- :ref:`Enabling and using LTI Advantage features` (how-to)
+ :ref:`LTI Advantage Services` (reference)
 
  :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
 
@@ -53,4 +50,3 @@ View the `1EdTech listing for the Open edX platform here
 +--------------+-------------------------------+----------------+------------------------------------+
 |2025-12-01    | sarina                        | Teak           |  Pass                              |
 +--------------+-------------------------------+----------------+------------------------------------+
-
