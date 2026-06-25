@@ -98,8 +98,7 @@ not appear because those settings come from the reusable configuration.
 For LTI 1.3 reusable configurations, your site operator can enable launch URL
 overrides. When enabled, the *Setup* tab includes a *Launch URL* field. Enter a
 URL to override the launch URL stored in the reusable configuration. For
-operator instructions, see :ref:`Allow per-XBlock launch URLs for reusable LTI
-tools`.
+operator instructions, see :ref:`Allow launch URL override`.
 
 .. figure:: /_images/educator_how_tos/lti_reusable_override_url.png
    :alt: LTI Consumer Setup tab with Configuration Type set to Existing and

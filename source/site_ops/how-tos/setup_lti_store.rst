@@ -8,33 +8,31 @@ Set Up a Reusable LTI Store
 LTI Store is an optional plugin that lets site operators define an LTI tool
 configuration once and make it available for reuse. Course teams reference the
 stored configuration from an LTI Consumer XBlock by entering its *Filter key*,
-instead of entering the tool's connection values in every component.
+instead of creating multiple XBlocks and entering the tool's connection
+values, or duplicating the XBlocks.
 
-Reusable configurations can be created for LTI 1.1/1.2 and LTI 1.3 tools. In
-LTI Store, the older version option may appear as LTI 1.1. LTI Advantage
-services, such as Deep Linking, Assignment and Grade Services, and Names and
-Role Provisioning Services, are available only for LTI 1.3 configurations.
+Reusable configurations can be created for LTI 1.1/1.2 and LTI 1.3 tools including
+LTI Advantage services.
 
 .. contents::
    :local:
    :depth: 1
 
-Setting up LTI Store requires an operational Open edX deployment, permission
-to install the plugin or Django app, and staff access to Django Admin with
-permission to manage LTI Store models. You also need the connection and
-registration values for the external tool.
 
 For LTI 1.1/1.2 tools, collect the tool launch URL, consumer key, and shared
-secret. For LTI 1.3 tools, collect the login and
-launch URLs, tool keyset URL or public key, any required redirect URIs, and the
-list of LTI Advantage services that the tool supports.
+secret.
+
+For LTI 1.3 tools, collect the login and launch URLs, tool keyset URL
+or public key, any required redirect URIs, and the list of LTI Advantage services
+that the tool supports.
 
 Install the LTI Store Plugin
 ****************************
 
 #. Install the plugin from the `LTI Store repository`_.
 #. Follow the plugin README to enable it for your environment.
-#. Rebuild and restart the platform as required by your deployment.
+#. Rebuild and restart your platform. Apply the plugin’s documented Tutor config,
+   images rebuild, and services restart steps.
 
 For non-Tutor installations, follow the `non-Tutor installation instructions`_.
 
@@ -90,33 +88,32 @@ Create a Reusable LTI Configuration
       :alt: Django Admin page showing the Add External LTI Configuration
          button.
 
-#. Enter a clear *Name* for the configuration.
-#. Enter a *Slug*, or leave the field blank to generate a slug from the name.
+#. Enter *Name* for the configuration.
+#. *Slug* is automatically generated from the name.
 #. Select the LTI *Version* used by the tool.
-#. Enter the values required for the selected LTI version.
+#. Enter the values required for the selected LTI version. For LTI 1.1/1.2, enter:
 
-   * For LTI 1.1/1.2, enter:
+   * *Launch URL*
+   * *Client Key*
+   * *Client Secret*
 
-     * *Launch URL*
-     * *Client Key*
-     * *Client Secret*
+#. For LTI 1.3, enter:
 
-   * For LTI 1.3, enter:
-
-     * *Client ID*
-     * *Deployment ID*
-     * *OIDC URL*
-     * *Launch URL*
-     * *Private Key* in PEM format (generate according to your organization's
-       security policy paste in this field)
-     * *Tool Public Key* OR *Tool Keyset URL*
-     * *Redirect URIs*, if required by the tool
-     * (Optional) Enable *Names and Role Provisioning Services*
-     * (Optional) Enable *Deep Linking*
-     * (Optional) *Deep Linking Launch URL*. If Deep Linking is enabled,
-       enter the URL provided by the tool. If the tool does not provide
-       a separate URL, use the tool's launch URL.
-     * (Optional) Set *Assignment and Grade Services* mode
+   * *Client ID*
+   * *Deployment ID*
+   * *OIDC URL*
+   * *Launch URL*
+   * *Private Key* in PEM format (generate according to your organization's
+     security policy paste in this field. You may use
+     `IMS LTI Reference Implementation <https://lti-ri.imsglobal.org/keygen/index>`_.)
+   * *Tool Public Key* OR *Tool Keyset URL*
+   * *Redirect URIs*, if required by the tool
+   * (Optional) Enable *Names and Role Provisioning Services*
+   * (Optional) Enable *Deep Linking*
+   * (Optional) *Deep Linking Launch URL*. If Deep Linking is enabled,
+     enter the URL provided by the tool. If the tool does not provide
+     a separate URL, use the tool's launch URL.
+   * (Optional) Set *Assignment and Grade Services* mode
 
    .. figure:: /_images/site_ops_how_tos/create_ltistore_config.png
       :alt: Django Admin form showing the LTI 1.1, LTI 1.3, and LTI Advantage
@@ -129,8 +126,7 @@ Create a Reusable LTI Configuration
 #. After saving, note the *Filter key* displayed on the External LTI
    Configurations screen.
 
-   The Filter key usually has the form ``lti_store:slug``. For example,
-   ``lti_store:reference_tool``.
+   The Filter key usually has the form ``lti_store:slug``.
 
    .. figure:: /_images/site_ops_how_tos/lti_filter_key.png
       :alt: Django Admin External LTI Configurations list with the Filter key
@@ -144,36 +140,30 @@ same reusable configuration and needs to be completed only once. For the
 educator workflow, see :ref:`Register an LTI 1_3 reusable configuration with
 the tool`.
 
-.. _Allow per-XBlock launch URLs for reusable LTI tools:
+.. _Allow launch URL override:
 
-Allow Per-XBlock Launch URLs
-****************************
+Allow Launch URL Override
+**************************
 
 By default, every LTI Consumer XBlock that references a reusable configuration
 uses the launch URL stored in that configuration. For LTI 1.3 tools, you can
 allow course teams to enter a different launch URL in each XBlock while sharing
 the other registration and connection values.
 
-This feature requires xblock-lti-consumer 9.14.1 or later. It also requires
-``lti_consumer.enable_external_config_filter`` and applies only to LTI 1.3
-XBlocks that use an *Existing* reusable configuration.
-
 Enable ``lti_consumer.enable_external_multiple_launch_urls`` by using the same
 global, organization, or course-level method described in :ref:`Enable Reusable
-Configurations`. This CourseWaffleFlag defaults to ``False`` and is part of the
-LTI Consumer XBlock, not LTI Store.
+Configurations`. This CourseWaffleFlag defaults to ``False``. This feature
+requires xblock-lti-consumer 9.14.1 or later.
 
 When the flag is enabled, Studio displays the *Launch URL* field for affected
 XBlocks. A nonempty value in this field overrides the launch URL from the
 reusable configuration. If the field is empty, the XBlock uses the launch URL
-from the reusable configuration. The flag does not affect LTI 1.1/1.2 tools,
-configurations stored directly on the XBlock, or database-stored
-configurations.
+from the reusable configuration.
 
 Share Configuration Details with Course Teams
 *********************************************
 
-Course teams need the Filter key to reference the reusable configuration in
+Course teams need the *Filter key* to reference the reusable configuration in
 Studio. They also need enough context to configure learner-facing options and
 test the tool.
 
@@ -181,41 +171,15 @@ Share these details with course teams:
 
 * Filter key
 * LTI version
-* Tool name or recommended display name
 * Whether the tool is expected to return grades
 * Any LTI Advantage services enabled for the configuration
 * Whether LTI 1.3 registration with the tool is complete
-* Whether the course needs LTI PII sharing enabled
-* Any required Review Options settings in Studio
-* Any tool-specific launch, Deep Linking, or testing instructions
 * Whether per-XBlock launch URLs are enabled and, if so, which launch URL each
   XBlock should use
 
-If you change a reusable configuration, the change can affect every LTI Consumer
-XBlock that uses the same Filter key. Communicate changes to affected course
-teams before updating shared configurations.
+If you change a reusable configuration, the change will affect every LTI Consumer
+XBlock that uses the same Filter key.
 
-Best Practices
-**************
-
-* Use clear, consistent names and slugs for configurations.
-* Create separate configurations for production, staging, and sandbox tools
-  because registration values often differ by environment.
-* Prefer using the tool keyset URL instead of a static public key when the tool
-  supports a keyset URL.
-* Keep a registry of tool names, environments, Filter keys, owners, and course
-  teams that use each configuration.
-
-Notes on Current Limitations and Improvements
-*********************************************
-
-* **Dynamic registration**: The LTI community is adopting dynamic registration,
-  which allows configuring an LTI integration from a single URL. This may
-  simplify setup in future releases. Dynamic registration is not currently
-  supported by the Open edX platform.
-* **Alternative reuse path**: Reusable Library Components may allow LTI reuse
-  without LTI Store. Investigation is ongoing. Migration guidance will be
-  provided if this path becomes preferred.
 
 Next Steps
 **********
