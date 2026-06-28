@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==1.0.0
     # via sphinx
-anyio==4.14.0
+anyio==4.14.1
     # via
     #   starlette
     #   watchfiles
@@ -22,7 +22,7 @@ certifi==2026.6.17
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.4.1
+click==8.4.2
     # via uvicorn
 colorama==0.4.6
     # via sphinx-autobuild
