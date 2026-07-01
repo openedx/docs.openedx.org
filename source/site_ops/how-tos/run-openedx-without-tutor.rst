@@ -30,18 +30,23 @@ Prerequisites
 * Basic familiarity with Django applications
 * Understanding of service management (systemd)
 
-.. warning::
+.. note::
 
-   **Python Version Requirements by Branch:**
+   **This guide targets the latest named release,** which is ``release/verawood``
+   as of this writing. It was tested end-to-end on that branch with **Python 3.12**
+   on Ubuntu 24.04.
 
-   * **Teak and Ulmo named releases**: Require Python 3.11
-   * **Master branch**: Compatible with Python 3.12
+   Named releases are pinned, reproducible targets. The ``master`` branch moves
+   constantly and drifts away from these instructions quickly (dependency changes,
+   app reorganizations, and ``INSTALLED_APPS`` differences), so it is not recommended
+   for following this guide. This document is re-verified and updated each release; if
+   you are on a newer release than ``verawood``, prefer the branch name for that release.
 
-   If you need to use Teak or Ulmo, you must install Python 3.11 from the deadsnakes PPA.
-
-   For the latest features, and development use Python 3.12 and the master branches.
-
-   This guide assumes you are using the master branch with Python 3.12.
+   **Python version by branch:** older named releases (Teak, Ulmo) require Python 3.11
+   because of a ``boto`` 2.x dependency that is incompatible with Python 3.12. Verawood
+   and later use ``boto3`` and work with the Python 3.12 that ships with Ubuntu 24.04.
+   If you must use an older release, install Python 3.11 from the deadsnakes PPA and
+   substitute ``python3.11`` throughout.
 
 
 Required Services Overview
@@ -68,7 +73,9 @@ Install required packages:
    sudo apt-get update
    sudo apt-get install -y \
        build-essential \
+       curl \
        git \
+       gnupg \
        libffi-dev \
        libmysqlclient-dev \
        libssl-dev \
@@ -80,7 +87,8 @@ Install required packages:
        python3.12-dev \
        python3-pip \
        python3-venv \
-       pkg-config
+       pkg-config \
+       wget
 
 **Test this step:**
 
@@ -105,6 +113,19 @@ Install MySQL 8.0:
 
    **Container environments:** If running in a Docker container without systemd, use
    ``sudo service mysql start`` instead of systemctl commands.
+
+   When started this way (without systemd's ``tmpfiles`` rules), the socket directory
+   ``/run/mysqld`` is created with restrictive ``700`` permissions owned by the ``mysql``
+   user. A non-root user (even with sudo) then cannot reach the socket, and both the
+   ``mysql -u edxapp -p`` test below and later Django connections (which use the unix
+   socket because ``HOST`` is ``localhost``) will fail with
+   ``Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (13)``.
+   Fix the directory permissions after starting MySQL::
+
+      sudo chmod 755 /run/mysqld
+
+   Running everything as ``root`` avoids this, but running as a non-root sudo user (the
+   more common real-world case) requires the ``chmod`` above.
 
 **Test this step:**
 
@@ -180,8 +201,18 @@ Create MongoDB database and user:
 
 .. code-block:: bash
 
-   mongosh -u edxapp -p your_mongodb_password --authenticationDatabase edxapp --eval "db.getName()"
+   mongosh "mongodb://edxapp:your_mongodb_password@localhost:27017/edxapp?authSource=edxapp" --eval "db.getName()"
    # Should return: edxapp
+
+.. note::
+
+   The manual (non-systemd) start command above does **not** enable access control
+   (``--auth``), so MongoDB will not actually enforce the credentials you just created.
+   That is fine for a local development setup. Note also that
+   ``mongosh -u ... --authenticationDatabase edxapp --eval "db.getName()"`` returns
+   ``test`` (the default current database), not ``edxapp`` -- ``--authenticationDatabase``
+   only selects where credentials are checked. Use the connection-string form above to
+   actually connect to the ``edxapp`` database.
 
 4. Install and Configure Redis
 ==============================
@@ -288,20 +319,28 @@ Choose your installation directory and clone the repository:
 
    cd /opt
    # Use shallow clone to save time and disk space
-   # Clone master branch (compatible with Python 3.12)
-   sudo git clone --depth 1 --branch master https://github.com/openedx/edx-platform.git
+   # Clone the current named release (compatible with Python 3.12)
+   sudo git clone --depth 1 --branch release/verawood https://github.com/openedx/edx-platform.git
+   # The clone is owned by root. Take ownership so that later steps run as your
+   # non-root user (git, venv creation, npm, the webpack build, and collectstatic)
+   # can write into the tree. Without this, even ``git log`` below fails with a
+   # "detected dubious ownership" error.
+   sudo chown -R $USER:$USER edx-platform
    cd edx-platform
 
 .. note::
 
    **Branch Selection:**
 
-   * **master branch** (recommended): Latest development version, Python 3.12 compatible
-   * **release/ulmo.1**: Named release, requires Python 3.11
-   * **release/teak.1**: Named release, requires Python 3.11
+   * **release/verawood** (recommended): Current named release, Python 3.12 compatible.
+     This guide is written and tested against it.
+   * **master**: Latest development version, Python 3.12 compatible, but moves constantly
+     and drifts away from these instructions (dependency and ``INSTALLED_APPS`` changes).
+   * **release/ulmo, release/teak**: Older named releases; require Python 3.11 because of a
+     ``boto`` 2.x dependency.
 
-   For named releases with Python 3.11, use:
-   ``sudo git clone --depth 1 --branch release/ulmo.1 https://github.com/openedx/edx-platform.git``
+   When a release newer than ``verawood`` is available, substitute its branch name here and
+   in the MFE clone commands in Step 16.
 
 
 **Test this step:**
@@ -320,8 +359,8 @@ Create and activate a virtual environment:
 .. code-block:: bash
 
    cd /opt/edx-platform
-   sudo python3.12 -m venv venv
-   sudo chown -R $USER:$USER venv
+   # No sudo needed: you took ownership of the tree in the previous step.
+   python3.12 -m venv venv
    source venv/bin/activate
 
 **Test this step:**
@@ -340,9 +379,18 @@ Install edx-platform Python dependencies:
 
 .. code-block:: bash
 
-   pip install --upgrade pip setuptools wheel
+   pip install --upgrade pip "setuptools<81" wheel
    pip install -r requirements/edx/base.txt
    pip install -r requirements/edx/assets.txt
+
+.. warning::
+
+   **Pin setuptools below 81.** setuptools 81 removed the long-deprecated
+   ``pkg_resources`` module, but several edx-platform dependencies (for example the
+   ``fs``/pyfilesystem package) still import it. Installing an unpinned
+   ``--upgrade setuptools`` pulls setuptools 81+ and later steps fail with
+   ``ModuleNotFoundError: No module named 'pkg_resources'``. Installing
+   ``"setuptools<81"`` avoids this.
 
 .. note::
 
@@ -397,7 +445,7 @@ Create the configuration directory:
 
 .. code-block:: bash
 
-   sudo mkdir -p /edx/etc
+   sudo mkdir -p /edx/etc /edx/var/edxapp/data
    sudo chown -R $USER:$USER /edx
 
 Create LMS configuration file at ``/edx/etc/lms.yml``:
@@ -418,15 +466,82 @@ Create LMS configuration file at ``/edx/etc/lms.yml``:
        HOST: localhost
        PORT: 3306
 
+   DOC_STORE_CONFIG:
+     db: edxapp
+     host: localhost
+     port: 27017
+     user: edxapp
+     password: your_mongodb_password
+     collection: modulestore
+     ssl: false
+     socketTimeoutMS: 6000
+     connectTimeoutMS: 2000
+     auth_source: null
+     read_preference: SECONDARY_PREFERRED
+
+   CONTENTSTORE:
+     ENGINE: xmodule.contentstore.mongo.MongoContentStore
+     DOC_STORE_CONFIG:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+     OPTIONS:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+
    MODULESTORE:
      default:
-       ENGINE: xmodule.modulestore.mongo.MongoModuleStore
+       ENGINE: xmodule.modulestore.mixed.MixedModuleStore
        OPTIONS:
-         host: localhost
-         port: 27017
-         user: edxapp
-         password: your_mongodb_password
-         db: edxapp
+         mappings: {}
+         stores:
+           - NAME: split
+             ENGINE: xmodule.modulestore.split_mongo.split_draft.DraftVersioningModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+           - NAME: draft
+             ENGINE: xmodule.modulestore.mongo.DraftMongoModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+
+   DATA_DIR: /edx/var/edxapp/data
 
    CACHES:
      default:
@@ -498,15 +613,82 @@ Create CMS (Studio) configuration file at ``/edx/etc/cms.yml``:
        HOST: localhost
        PORT: 3306
 
+   DOC_STORE_CONFIG:
+     db: edxapp
+     host: localhost
+     port: 27017
+     user: edxapp
+     password: your_mongodb_password
+     collection: modulestore
+     ssl: false
+     socketTimeoutMS: 6000
+     connectTimeoutMS: 2000
+     auth_source: null
+     read_preference: SECONDARY_PREFERRED
+
+   CONTENTSTORE:
+     ENGINE: xmodule.contentstore.mongo.MongoContentStore
+     DOC_STORE_CONFIG:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+     OPTIONS:
+       db: edxapp
+       host: localhost
+       port: 27017
+       user: edxapp
+       password: your_mongodb_password
+       ssl: false
+       auth_source: null
+
    MODULESTORE:
      default:
-       ENGINE: xmodule.modulestore.mongo.MongoModuleStore
+       ENGINE: xmodule.modulestore.mixed.MixedModuleStore
        OPTIONS:
-         host: localhost
-         port: 27017
-         user: edxapp
-         password: your_mongodb_password
-         db: edxapp
+         mappings: {}
+         stores:
+           - NAME: split
+             ENGINE: xmodule.modulestore.split_mongo.split_draft.DraftVersioningModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+           - NAME: draft
+             ENGINE: xmodule.modulestore.mongo.DraftMongoModuleStore
+             DOC_STORE_CONFIG:
+               db: edxapp
+               host: localhost
+               port: 27017
+               user: edxapp
+               password: your_mongodb_password
+               collection: modulestore
+               ssl: false
+               socketTimeoutMS: 6000
+               connectTimeoutMS: 2000
+               auth_source: null
+               read_preference: SECONDARY_PREFERRED
+             OPTIONS:
+               default_class: xmodule.hidden_block.HiddenBlock
+               fs_root: /edx/var/edxapp/data
+               render_template: common.djangoapps.edxmako.shortcuts.render_to_string
+
+   DATA_DIR: /edx/var/edxapp/data
 
    CACHES:
      default:
@@ -544,10 +726,51 @@ Create ``/edx/etc/cms.auth.json`` with the same structure.
 13. Run Database Migrations
 ===========================
 
+Add Required Apps to INSTALLED_APPS
+-----------------------------------
+
+Before migrating, several Django apps that this deployment needs must be added to
+``INSTALLED_APPS``. They are present in the codebase but not enabled by default, and
+migrations fail without them (with ``KeyError`` / ``RuntimeError: ... doesn't declare
+an explicit app_label`` / ``ImproperlyConfigured`` errors).
+
+Add the following near the end of the ``INSTALLED_APPS`` list, just before its closing
+``]``, in **both** ``lms/envs/common.py`` and ``cms/envs/common.py``:
+
+.. code-block:: python
+
+   # Apps required by this deployment that are not enabled by default.
+   'openedx.core.djangoapps.content_libraries',
+   'openedx.core.djangoapps.bookmarks',
+   'openedx.core.djangoapps.course_apps',
+   'openedx.core.djangoapps.discussions',
+   'openedx.core.djangoapps.theming',
+
+In ``cms/envs/common.py`` only, also add:
+
+.. code-block:: python
+
+   'openedx.core.djangoapps.content_staging',
+
+In ``lms/envs/common.py`` only, add ``program_enrollments`` immediately after the
+programs config line:
+
+.. code-block:: python
+
+   # programs support
+   'openedx.core.djangoapps.programs.apps.ProgramsConfig',
+   'lms.djangoapps.program_enrollments',
+
 .. note::
 
-   Before running migrations on the **master branch**, you must add required apps to INSTALLED_APPS.
-   See the "Master Branch Testing: February 2026" section for the complete list of apps to add.
+   **Do not add the ``openedx_learning.apps.authoring.*`` apps.** Older versions of this
+   guide instructed adding them, but ``openedx-core`` (formerly ``openedx-learning``)
+   consolidated those into a single ``openedx_content`` app, which ``release/verawood``
+   already registers for you in ``common.py``. Adding them now causes a duplicate/missing
+   app-label error.
+
+   This app list is specific to the release being tested. If you follow this guide on a
+   different branch and migrations report a missing app, add it here and re-run.
 
 Apply Django migrations:
 
@@ -571,7 +794,7 @@ Apply Django migrations:
 .. code-block:: bash
 
    mysql -u edxapp -p -e "USE edxapp; SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'edxapp';"
-   # Should show 567 tables (master branch, February 2026)
+   # Should show ~574 tables (release/verawood). The exact count varies by release.
 
 14. Create Django Superuser
 ===========================
@@ -624,6 +847,12 @@ Collect Django static files:
    export LMS_CFG=/edx/etc/lms.yml
    export CMS_CFG=/edx/etc/cms.yml
 
+   # STATIC_ROOT is /opt/staticfiles. /opt is root-owned, so create the directory
+   # and take ownership before collecting, or collectstatic fails with
+   # "PermissionError: [Errno 13] Permission denied: '/opt/staticfiles'".
+   sudo mkdir -p /opt/staticfiles
+   sudo chown -R $USER:$USER /opt/staticfiles
+
    # Collect LMS static files
    ./manage.py lms collectstatic --noinput --settings=production
 
@@ -634,11 +863,14 @@ Collect Django static files:
 
 .. code-block:: bash
 
-   ls -la /opt/staticfiles/
-   # Should show LMS static files (6,600+ files)
+   ls /opt/staticfiles/
+   # Should be populated with LMS static files and subdirectories.
+   # collectstatic itself reports the totals, e.g.
+   # "7975 static files copied to '/opt/staticfiles', 8057 post-processed."
 
-   ls -la /opt/staticfiles/studio/
-   # Should show CMS/Studio static files (3,000+ files)
+   ls /opt/staticfiles/studio/
+   # Should be populated with CMS/Studio static files, e.g.
+   # "4339 static files copied to '/opt/staticfiles/studio'."
 
 16. Clone and Set Up MFEs
 =========================
@@ -650,12 +882,14 @@ Set these up before starting the servers.
 
    **MFE Branch Selection:**
 
-   MFE branches should match your edx-platform branch:
+   MFE branches should match your edx-platform branch. Since this guide uses
+   ``release/verawood`` for edx-platform, use the matching ``release/verawood`` branch
+   for each MFE.
 
-   * If using **edx-platform master branch**: Use MFE **master** or **main** branches
-   * If using **edx-platform named releases** (e.g., release/ulmo.1): Use corresponding MFE release branches (e.g., open-release/sumac.master)
-
-   This guide uses the **master branch** for both edx-platform and MFEs.
+   Note that the MFE release-branch naming changed over time: older releases used
+   ``open-release/<name>.master`` (e.g. ``open-release/sumac.master``), while newer
+   releases (teak, ulmo, verawood, ...) use ``release/<name>`` (e.g. ``release/verawood``).
+   The clone commands below check out ``release/verawood`` explicitly.
 
 Essential MFEs
 --------------
@@ -684,9 +918,8 @@ Clone and Configure frontend-app-authn
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/frontend-app-authn.git
+   sudo git clone --branch release/verawood https://github.com/openedx/frontend-app-authn.git
    cd frontend-app-authn
-   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-authn
    npm install
 
@@ -725,9 +958,8 @@ Clone and Configure frontend-app-learning
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/frontend-app-learning.git
+   sudo git clone --branch release/verawood https://github.com/openedx/frontend-app-learning.git
    cd frontend-app-learning
-   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-learning
    npm install
 
@@ -766,9 +998,8 @@ Clone and Configure frontend-app-account
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/frontend-app-account.git
+   sudo git clone --branch release/verawood https://github.com/openedx/frontend-app-account.git
    cd frontend-app-account
-   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-account
    npm install
 
@@ -795,9 +1026,8 @@ Clone and Configure frontend-app-profile
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/frontend-app-profile.git
+   sudo git clone --branch release/verawood https://github.com/openedx/frontend-app-profile.git
    cd frontend-app-profile
-   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-profile
    npm install
 
@@ -824,9 +1054,8 @@ Clone and Configure frontend-app-discussions
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/frontend-app-discussions.git
+   sudo git clone --branch release/verawood https://github.com/openedx/frontend-app-discussions.git
    cd frontend-app-discussions
-   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-discussions
    npm install
 
@@ -853,9 +1082,8 @@ Clone and Configure frontend-app-gradebook
 .. code-block:: bash
 
    cd /opt
-   sudo git clone https://github.com/openedx/frontend-app-gradebook.git
+   sudo git clone --branch release/verawood https://github.com/openedx/frontend-app-gradebook.git
    cd frontend-app-gradebook
-   # Uses default branch (master/main) - matches edx-platform master
    sudo chown -R $USER:$USER /opt/frontend-app-gradebook
    npm install
 
@@ -938,7 +1166,7 @@ Terminal 2 - Start CMS:
    # Should return HTTP 200 OK
 
    curl -I http://localhost:8001
-   # Should return HTTP 302 Found
+   # Should return an HTTP redirect (301/302) to the login page
 
 For Production
 --------------
@@ -1514,28 +1742,34 @@ This approach provides isolation while maintaining direct control over the confi
 Testing Results and Validation
 *******************************
 
-Latest Testing: February 2026
-==============================
+Latest Testing: July 2026 (release/verawood)
+=============================================
 
 **Environment:**
-- Ubuntu 24.04.3 LTS (Docker container)
-- edx-platform branch: release/ulmo.1 (commit ea91c4c)
+- Ubuntu 24.04 LTS (Docker container), run as a non-root sudo user
+- edx-platform branch: release/verawood (commit 693add3)
 - Python 3.12.3
 - Node.js 18.20.8
-- MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
+- MySQL 8.0.46, MongoDB 7.0.37, Redis 7.x, Elasticsearch 7.17.29, Memcached 1.6.24
 
-**Results:** Steps 1-12 completed successfully with all corrections applied to the main installation
-instructions. All services started correctly, Python packages installed (600+ packages), Node.js
-dependencies installed (1019 packages), webpack build completed, and SASS compilation succeeded.
+**Results:** All installation steps completed successfully end-to-end with the
+corrections in the main instructions applied.
 
-**Key Corrections Made:**
-- Updated to Python 3.12 (Ubuntu 24.04 default)
-- Added pkg-config to system dependencies
-- Updated MongoDB and Elasticsearch to use modern GPG key method (not apt-key)
-- Added netcat-openbsd for Memcached testing
-- Changed to shallow git clone with --depth 1
-- Fixed npm build process to run SASS compilation with venv activated
-- Added container environment notes for service management
+**Key Corrections Made (this revision):**
+- Re-pointed the guide from ``master`` to the current named release (``release/verawood``)
+- Added ``curl``, ``wget``, and ``gnupg`` to Step 1 (missing on a minimal Ubuntu image; Step 7's nodesource install fails without ``curl``)
+- Pinned ``setuptools<81`` in Step 10 (setuptools 81 removed ``pkg_resources``, which edx-platform dependencies still require)
+- Took ownership of the cloned repo and of ``/opt/staticfiles`` so a non-root user can build assets and run ``collectstatic``
+- Documented the ``/run/mysqld`` permission fix for non-root socket access in containers
+- Promoted the working ``MixedModuleStore`` configuration into Step 12
+- Rewrote the Step 13 ``INSTALLED_APPS`` additions for the current release and removed the
+  obsolete ``openedx_learning.apps.authoring.*`` apps (now provided by ``openedx_content``)
+
+**Earlier corrections (still applied):**
+- Python 3.12 (Ubuntu 24.04 default); pkg-config in system dependencies
+- Modern GPG keyring method for MongoDB and Elasticsearch (not apt-key)
+- netcat-openbsd for Memcached testing; shallow git clone with --depth 1
+- SASS compilation run with the virtualenv activated; container service-management notes
 
 **Additional Findings:**
 
@@ -1561,90 +1795,34 @@ dependencies installed (1019 packages), webpack build completed, and SASS compil
 5. **Service Versions:** All services installed correctly with latest stable versions from
    repositories. Version drift from guide specifications is normal and expected.
 
-Master Branch Testing: February 2026
-=====================================
+Full-Stack Validation
+=====================
 
-**Environment:**
-- Ubuntu 24.04.3 LTS (Docker container)
-- edx-platform branch: master (February 2026)
-- Python 3.12.3
-- Node.js 18.20.8
-- MySQL 8.0.45, MongoDB 7.0.29, Redis 7.0.15, Elasticsearch 7.17.29, Memcached 1.6.24
+All installation steps were run end-to-end on ``release/verawood`` and every service
+came up.
 
-**Results:** Steps 1-19 completed successfully with all services operational. All migrations ran without Python 3.11 compatibility issues.
+**Why a named release instead of master:** older releases such as ``release/ulmo.1``
+depend on ``boto`` 2.x, which is incompatible with Python 3.12. ``release/verawood`` uses
+only ``boto3`` and works with the Python 3.12 that ships with Ubuntu 24.04. The ``master``
+branch also works with 3.12 but drifts away from these instructions quickly, so a named
+release is used instead.
 
-**Why Master Branch:**
-
-The release/ulmo.1 branch has a dependency on boto 2.49.0 which is incompatible with Python 3.12. There are likely other compatibility issues with Python 3.12. The master branch uses only boto3, making it compatible with Python 3.12 on Ubuntu 24.04.
-
-**Required INSTALLED_APPS Changes:**
-
-The master branch requires the following apps to be added to INSTALLED_APPS:
-
-**For LMS** (``lms/envs/common.py``):
-
-Add these apps near the end of the INSTALLED_APPS list (around line 2025, before the closing bracket):
-
-.. code-block:: python
-
-   # Learning Core Apps, used by v2 content libraries (content_libraries app)
-   'openedx.core.djangoapps.content_libraries',
-   "openedx_learning.apps.authoring.collections",
-   "openedx_learning.apps.authoring.components",
-   "openedx_learning.apps.authoring.contents",
-   "openedx_learning.apps.authoring.publishing",
-   "openedx_learning.apps.authoring.units",
-   "openedx_learning.apps.authoring.subsections",
-   "openedx_learning.apps.authoring.sections",
-
-   # Additional required apps
-   "openedx.core.djangoapps.bookmarks",
-   "openedx.core.djangoapps.discussions",
-   "openedx.core.djangoapps.theming",
-
-Also add ``lms.djangoapps.program_enrollments`` after programs config (around line 1895):
-
-.. code-block:: python
-
-   # programs support
-   'openedx.core.djangoapps.programs.apps.ProgramsConfig',
-   'lms.djangoapps.program_enrollments',
-
-**For CMS** (``cms/envs/common.py``):
-
-Add these apps near the end of the INSTALLED_APPS list (around line 900, before the closing bracket):
-
-.. code-block:: python
-
-   # Learning Core Apps, used by v2 content libraries (content_libraries app)
-   'openedx.core.djangoapps.content_libraries',
-   "openedx_learning.apps.authoring.collections",
-   "openedx_learning.apps.authoring.components",
-   "openedx_learning.apps.authoring.contents",
-   "openedx_learning.apps.authoring.publishing",
-   "openedx_learning.apps.authoring.units",
-   "openedx_learning.apps.authoring.subsections",
-   "openedx_learning.apps.authoring.sections",
-
-   # Additional required apps
-   "openedx.core.djangoapps.bookmarks",
-   "openedx.core.djangoapps.discussions",
-   "openedx.core.djangoapps.theming",
-   "openedx.core.djangoapps.content_staging",
-
-**Note:** ``lms.djangoapps.bulk_email`` is already uncommented in the master branch.
+**Required INSTALLED_APPS Changes:** See Step 13 ("Add Required Apps to
+INSTALLED_APPS") above for the current, verified list. Note that the
+``openedx_learning.apps.authoring.*`` apps that earlier revisions of this guide added
+are now consolidated into the ``openedx_content`` app, which the release already
+registers -- do not add them manually.
 
 **Migration Results:**
 
-- LMS migrations: 567 tables created successfully
+- LMS migrations: ~574 tables created successfully
 - CMS migrations: Completed successfully
-- No boto2-related errors
-- All apps initialized properly
+- No boto2-related errors; all apps initialized properly
 
 **Static Assets:**
 
-- LMS: 6,604 files copied, 6,686 post-processed
-- CMS: 3,087 files copied, 3,115 post-processed
+- LMS: 7,975 files copied, 8,057 post-processed
+- CMS: 4,339 files copied, 4,360 post-processed
 
 **Webpack Assets (Step 17):**
 
@@ -1678,7 +1856,8 @@ Both Celery workers started successfully and connected to Redis.
 
 **MFE Setup (Step 19):**
 
-All 6 essential MFEs were set up using their master/main branches (not release branches) to match edx-platform master:
+All 6 essential MFEs were set up using their ``release/verawood`` branches to match
+edx-platform's ``release/verawood``:
 
 - frontend-app-authn (port 1999): Started successfully
 - frontend-app-learning (port 2000): Started successfully
@@ -1958,5 +2137,7 @@ See Also
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-07-01   | Tycho Hob                     | verawood       | Full stack validated in a      |
+|              |                               |                | container (services, LMS/CMS,  |
+|              |                               |                | Celery, MFEs)                  |
 +--------------+-------------------------------+----------------+--------------------------------+
