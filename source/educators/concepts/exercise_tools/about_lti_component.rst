@@ -26,8 +26,8 @@ the `LTI 1.3`_ specification. LTI 1.3 tools can also use LTI Advantage
 services: `Deep Linking`_, `Assignment and Grade Services`_, and `Names and
 Role Provisioning Services`_.
 
-As of the Ulmo release, the Open edX platform has achieved
-:ref:`LTI Advantage Complete certification <Ulmo LTI Certification>`.
+The Open edX platform has achieved LTI Advantage Complete certification for
+multiple named releases, including :ref:`Verawood <Verawood LTI Certification>`.
 
 .. contents:: Contents
    :local:
