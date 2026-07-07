@@ -52,6 +52,7 @@ Work with Content Libraries
    ../how-tos/course_development/create_edit_blocks.rst
    ../how-tos/course_development/publish_library_content.rst
    ../how-tos/course_development/backup_restore_library.rst
+   ../references/library_archive_format.rst
    ../how-tos/course_development/add_delete_tags_in_library_content.rst
    ../how-tos/course_development/build_a_collection_in_a_library.rst
    ../how-tos/course_development/search_for_content_in_a_library.rst
