@@ -10,7 +10,8 @@ Backup and Restore a Library
   :depth: 1
 
 You can :ref:`backup<Backup a Library>` and :ref:`restore<Restore a Library>` a
-content library in Studio.
+content library in Studio. Both operations use the :ref:`Library Archive
+Format`, a portable ZIP format that you can also inspect or edit by hand.
 
 .. _Backup a Library:
 
@@ -103,6 +104,8 @@ To create a library from an archive, follow these steps.
     :ref:`Add a Problem Bank to your course for randomization`
 
     :ref:`Add users to Libraries`
+
+    :ref:`Library Archive Format`
 
 **Maintenance chart**
 
