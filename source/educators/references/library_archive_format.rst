@@ -5,8 +5,8 @@ The Library Archive Format
 
 .. tags:: educator, reference
 
-The Library Archive Format is the ZIP-based format used to back up and restore
-content libraries on the Open edX Platform.
+The Library Archive Format is the ZIP-based format used to
+:ref:`Backup and Restore a Library` on the Open edX platform.
 
 With a library archive, authors can:
 
@@ -18,28 +18,12 @@ Because the archive keeps each component's content as OLX (open learning XML) �
 the same format Studio uses internally — authors already familiar with
 :ref:`OLX <What is Open Learning XML?>` will recognize the XML stored inside.
 
-.. note::
-
-   This page documents the *format* of a library archive. For step-by-step
-   instructions on creating and restoring one in Studio, see
-   :ref:`Backup and Restore a Library`.
-
 .. contents::
    :local:
    :depth: 2
 
 Overview
 ********
-
-.. note::
-
-   A **Library** (the user-facing content library) has exactly one **Learning
-   Package** where it stores its content, but Learning Packages can also exist
-   independently. During a restore, the system first creates a standalone
-   Learning Package for inspection; once the operator confirms the content,
-   that Learning Package is associated with a newly created Library. Because of
-   this relationship, you will see the term ``learning_package`` used inside the
-   archive's metadata files.
 
 A backup ZIP is a self-contained snapshot of one learning package. It captures
 every component, collection, container (section / subsection / unit), and
@@ -50,7 +34,19 @@ The archive uses `TOML <https://toml.io>`_ for all metadata files and keeps the
 actual component XBlock content as XML (the same OLX format Studio has always
 used). This makes backups both machine-readable and human-inspectable.
 
-.. note::
+
+.. admonition:: A note on Learning Packages
+
+   Every user-facing *Library* is backed in the database by a *Learning Package*,
+   a general of repository of learning content. During the restore process,
+   the system creates a standalone Learning Package for inspection; once the
+   operator confirms the content, the Learning Package is promoted into a
+   proper Library.  Because of this relationship, you will see the term
+   ``learning_package`` used inside the archive's metadata files. In the
+   future, this same archive format may be used to restore other kinds of
+   Learning-Package-backed content.
+
+.. admonition:: Schema versioning
 
    The current archive ``format_version`` is **1**. Future incompatible changes
    to the schema will increment this number so that tooling can detect them
@@ -64,17 +60,17 @@ Archive Structure
     <package>.zip
     ├── package.toml                          # library metadata + archive metadata
     ├── collections/
-    │   └── <collection-key>.toml            # one file per collection
+    │   └── <collection-key>.toml             # one file per collection
     └── entities/
-        ├── <container-slug>.toml            # sections, subsections, units
+        ├── <container-key>.toml              # sections, subsections, units
         └── xblock.v1/
-            └── <block-type>/               # e.g. html, problem, video
-                ├── <uuid>.toml             # entity metadata + version list
-                └── <uuid>/
+            └── <block-type>/                 # e.g. html, problem, video
+                ├── <component-code>.toml     # entity metadata + version list
+                └── <component-code>/
                     └── component_versions/
                         └── v<N>/
-                            ├── block.xml   # XBlock content (XML)
-                            └── static/     # media assets referenced by block.xml
+                            ├── block.xml     # XBlock content (XML)
+                            └── static/       # media assets referenced by block.xml
 
 File Format Reference
 *********************
@@ -154,8 +150,8 @@ Example::
     created = 2025-08-19T04:25:10.988166Z
     updated = 2025-08-19T04:25:10.988166Z
 
-Component entity TOML (``entities/xblock.v1/<type>/<uuid>.toml``)
-================================================================
+Component entity TOML (``entities/xblock.v1/<type>/<code>.toml``)
+=================================================================
 
 Each XBlock component gets one TOML file.
 
@@ -173,7 +169,7 @@ Each XBlock component gets one TOML file.
      - Whether this component can be used independently (almost always ``true``)
    * - ``key``
      - yes
-     - Entity reference in the form ``xblock.v1:<type>:<uuid>``
+     - Entity reference in the form ``xblock.v1:<type>:<code>``
    * - ``created``
      - yes
      - UTC creation timestamp
@@ -226,13 +222,16 @@ Example::
     title = "Text"
     version_num = 4
 
-Container entity TOML (``entities/<slug>.toml``)
-================================================
+.. admonition:: Mapping archive keys to platform keys
 
-The ``<slug>`` is derived from the last segment of the container's
-``entity_ref``. If two containers share the same last segment (e.g. a Unit
-and a Subsection both named "intro"), a short hash is appended to the
-second to avoid filename collisions (e.g. ``intro-48afa3.toml``).
+   Restoring a component with an archive reference key
+   ``xblock.v1:<type>:<component_code>`` to a library with the key
+   ``lib:<org_code>:<lib_code>`` yields an XBlock with the usage key
+   ``lb:<org_code>:<lib_code>:<type>:<component_code>``.
+
+
+Container entity TOML (``entities/<key>.toml``)
+===============================================
 
 Sections, subsections, and units share the same base structure with an
 additional ``[entity.container.<type>]`` marker (``section``, ``subsection``,
@@ -262,6 +261,13 @@ Example (section)::
     [version.container]
     children = ["subsection1-48afa3"]
 
+.. admonition:: Mapping archive keys to platform keys
+
+   Restoring a container of kind ``<type>`` and archive reference ``<key>`` to
+   a library with the key ``lib:<org_code>:<lib_code>`` yields a container with
+   the key ``lct:<org_code>:<lib_code>:<type>:<key>``.
+
+
 Collection TOML (``collections/<key>.toml``)
 ============================================
 
@@ -286,7 +292,7 @@ Collection TOML (``collections/<key>.toml``)
      - UTC creation timestamp
    * - ``entities``
      - yes
-     - List of entity reference strings (``xblock.v1:<type>:<uuid>``)
+     - List of entity reference strings (e.g. ``xblock.v1:html:abc123``, ``unit-xyz789``)
 
 Example::
 
@@ -303,24 +309,25 @@ Example::
 XBlock content (``component_versions/v<N>/block.xml``)
 ======================================================
 
-:ref:`OLX (open learning XML) <What is Open Learning XML?>` for the component,
-in the same format Studio uses internally. Static assets (images, PDFs, etc.)
-referenced with ``/static/<filename>`` in the XML are stored alongside under
-``component_versions/v<N>/static/``.
+The library archive format uses
+:ref:`OLX (open learning XML) <What is Open Learning XML?>` to encode components,
+similar to the course archive format, although there are few notable differences:
 
-.. note::
+* Each library component version's OLX file is simply named ``block.xml``. Its key is
+  separetely defined in the component's TOML metadata file. In the course OLX
+  archive, the name of each XML file is derived from its block's key:
+  ``<block_id>.xml``.
 
-   Unlike the old modulestore OLX export — where each component's file was
-   named after its ``block_id`` (often a machine-generated UUID) — this format
-   always names the file ``block.xml``. The component's identifier lives in
-   the parent TOML file, not the filename.
+* Each library component stores its own static assets,
+  ``component_versions/v<N>/static/<filename>`` and references them in its OLX
+  file as ``/static/<filename>``. In the course archive, the course's static
+  assets are all in one shared ``static/`` folder.
 
-.. note::
-
-   **HTMLBlock limitation:** HTML content is currently serialized inline using
-   a CDATA section rather than stored in a separate ``.html`` file. This
-   differs from old course OLX exports and is a known limitation of the current
-   XBlock serialization layer.
+* Library HTML content is currently serialized inline using a CDATA section
+  within the ``.xml`` file rather than being split into a separate ``.html``
+  file. This differs from course archives, which support separate ``.xml`` and
+  ``.html`` files. This is a known limitation of the library XBlock
+  serialization layer.
 
 Example ``block.xml``::
 
