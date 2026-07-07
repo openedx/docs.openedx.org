@@ -6,7 +6,7 @@ The Library Archive Format
 .. tags:: educator, reference
 
 The Library Archive Format is the ZIP-based format used to
-:ref:`Backup and Restore a Library` on the Open edX platform.
+:ref:`Backup and Restore a Library` on the Open edX Platform.
 
 With a library archive, authors can:
 
@@ -38,10 +38,10 @@ used). This makes backups both machine-readable and human-inspectable.
 .. admonition:: A note on Learning Packages
 
    Every user-facing *Library* is backed in the database by a *Learning Package*,
-   a general of repository of learning content. During the restore process,
+   a general repository of learning content. During the restore process,
    the system creates a standalone Learning Package for inspection; once the
    operator confirms the content, the Learning Package is promoted into a
-   proper Library.  Because of this relationship, you will see the term
+   proper Library. Because of this relationship, you will see the term
    ``learning_package`` used inside the archive's metadata files. In the
    future, this same archive format may be used to restore other kinds of
    Learning-Package-backed content.
@@ -311,15 +311,15 @@ XBlock content (``component_versions/v<N>/block.xml``)
 
 The library archive format uses
 :ref:`OLX (open learning XML) <What is Open Learning XML?>` to encode components,
-similar to the course archive format, although there are few notable differences:
+similar to the course archive format, although there are a few notable differences:
 
 * Each library component version's OLX file is simply named ``block.xml``. Its key is
-  separetely defined in the component's TOML metadata file. In the course OLX
+  separately defined in the component's TOML metadata file. In the course OLX
   archive, the name of each XML file is derived from its block's key:
   ``<block_id>.xml``.
 
-* Each library component stores its own static assets,
-  ``component_versions/v<N>/static/<filename>`` and references them in its OLX
+* Each library component stores its own static assets under
+  ``component_versions/v<N>/static/<filename>``, and references them in its OLX
   file as ``/static/<filename>``. In the course archive, the course's static
   assets are all in one shared ``static/`` folder.
 
