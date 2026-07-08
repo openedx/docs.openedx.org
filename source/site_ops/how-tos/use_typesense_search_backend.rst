@@ -163,6 +163,21 @@ visit the web dashboard url, and enter the following details at the login screen
 * port: ``8108``
 * path: (leave blank)
 
+Typesense command-line access
+*****************************
+
+You can also inspect the Typesense server from a terminal with
+`TypesenseKit <https://github.com/akshitkrnagpal/typesensekit>`_.
+For example, to check health and list collections for a local Tutor devstack:
+
+.. code-block:: shell
+
+   TYPESENSE_URL=http://localhost:8108 TYPESENSE_API_KEY=$(tutor config printvalue TYPESENSE_API_KEY) \
+     npm exec --yes --package @typesensekit/cli -- tsk health --input '{}'
+
+   TYPESENSE_URL=http://localhost:8108 TYPESENSE_API_KEY=$(tutor config printvalue TYPESENSE_API_KEY) \
+     npm exec --yes --package @typesensekit/cli -- tsk collections.list --input '{}'
+
 
 .. seealso::
 
