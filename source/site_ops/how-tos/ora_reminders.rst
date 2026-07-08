@@ -11,11 +11,13 @@ but have not yet completed their required **peer** or **self** review steps.
 Enabling
 ********
 
-Set ``ENABLE_ORA_REMINDERS`` to ``True`` in your Django settings:
+ORA reminders are enabled by default. To disable scheduled ORA reminder
+notifications, set ``ENABLE_ORA_REMINDERS`` to ``False`` in your Django
+settings:
 
 .. code-block:: python
 
-    ENABLE_ORA_REMINDERS = True
+    ENABLE_ORA_REMINDERS = False
 
 The notification type ``ora_reminder`` must also be registered in openedx-platform's
 ``openedx.core.djangoapps.notifications.base_notification`` (already included
@@ -36,8 +38,10 @@ want non-default behaviour.
      - Description
    * - ``ORA_REMINDER_INITIAL_DELAY_HOURS``
      - ``0``
-     - Hours after submission before the **first** reminder is sent. Gives
-       learners time to complete reviews on their own before being nudged.
+     - Hours after submission before the **first** reminder is sent. Defaults
+       to ``0`` so the first notification fires immediately after submission as
+       an acknowledgement; subsequent reminders follow
+       ``ORA_REMINDER_INTERVAL_HOURS``.
    * - ``ORA_REMINDER_INTERVAL_HOURS``
      - ``48``
      - Hours between consecutive reminders after the first one.
