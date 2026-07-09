@@ -12,7 +12,6 @@ Site Operators: How-tos
    configuring_badges
    enable_badges
    enable_notifications
-   configure_platform_notifications
    enable_public_course_content
    google-analytics
    manage_lti_pii_sharing

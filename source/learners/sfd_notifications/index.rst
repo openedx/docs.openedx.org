@@ -124,7 +124,7 @@ Activities for which you may be notified for, depending on your preferences, are
    * - 7
      - Grading
      - You received a grade on your essay (ORA) submission
-     - ORA grade received
+     - Essay assignment grade received
      - ON
      - Daily
 
@@ -132,6 +132,13 @@ Activities for which you may be notified for, depending on your preferences, are
      - Grading
      - A submission made for an essay (ORA) that requires staff grading
      - New ORA submission for staff grading
+     - ON
+     - Daily
+
+   * - 9
+     - Grading
+     - You need to complete a peer or self review step for an essay assignment
+     - Essay assignment reminders
      - ON
      - Daily
 
@@ -159,7 +166,7 @@ For each preference, you can:
 
 - Turn tray notifications on or off.
 - Turn email notifications on or off.
-- Choose an email cadence: Immediate, Daily, or Weekly
+- Choose an email cadence: Immediately, Daily, or Weekly
 
 
 .. _Notifications Expiry:
