@@ -140,7 +140,8 @@ Posts you are following display a filled star icon in post list and at the botto
 those, open the *All Posts* tab and apply the *Following* filter. Follow posts that relate to your project
 or assignment so that you get updates when new responses arrive.
 
-By default, you are following every post that you author.
+By default, you are following every post that you author. You can unfollow a
+post that you authored to stop receiving activity notifications for that post.
 
 .. note:: You will receive notifications of any activity on posts that you are following.
           Learn more in  :ref:`Staying Updated with Notifications`.

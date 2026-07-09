@@ -18,6 +18,9 @@ There are four notification preferences for Discussions:
 3. **New discussion posts**: Notifies you when someone creates a new discussion type post.
 4. **New question posts**: Notifies you when someone creates a new question type post.
 
+Posts that you author are followed automatically. You can unfollow a post that
+you authored to stop receiving activity notifications for that post.
+
 Table below shows which activity types trigger notifications. Several activity types are
 grouped into a single preference to avoid clutter in preferences.
 

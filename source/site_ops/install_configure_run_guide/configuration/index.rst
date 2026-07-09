@@ -23,7 +23,6 @@ configuration options.
    enable_public_course
    enable_ccx
    enable_custom_course_settings
-   enable_discussion_notifications
    enable_entrance_exams
    ora2/index
    enable_prerequisites
