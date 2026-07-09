@@ -9,8 +9,8 @@ Enable Notifications
 .. note::
 
    The notifications feature was rolled out in Ulmo and has been enabled by
-   default since the Verawood release. Other changes have also been made in
-   Verawood. See :ref:`Verawood Dev Notes`.
+   default since the Verawood release. Several notification changes were also
+   introduced in Verawood. See :ref:`Verawood Dev Notes`.
 
 This document describes how to enable, disable, or configure notifications.
 To learn about the notifications feature, see :ref:`Notifications & Preferences`.
@@ -23,12 +23,13 @@ Before configuring notifications, confirm the following:
 Disable Notifications
 *********************
 
-Platform notifications are enabled by default. Learners see the notification tray
-in LMS and Studio, and notification preferences on *Account Settings* page unless
-the notification feature is disabled. Notification email delivery is also enabled
-by default. Notification emails are delivered only when a notification is generated
-for a user whose email preference for that notification type is enabled, and the
-Open edX instance is configured to send ACE email through an email provider.
+Platform notifications are enabled by default. Unless the notification feature
+is disabled, learners see the notification tray in the LMS and Studio, and
+notification preferences on the *Account Settings* page. Notification emails
+are also enabled by default, but they are delivered only when a notification is
+generated for a user whose email preference for that notification type is
+enabled, and the Open edX instance is configured to send ACE email through an
+email provider.
 
 Use these waffle flags to disable notifications:
 
@@ -47,18 +48,18 @@ Use these waffle flags to disable notifications:
      - ``False``
      - Disables notification emails without disabling the notification tray.
 
-The ``Web`` channel is always visible in notification preferences and controls tray
-notifications. The ``Email`` channel is visible by default and can be hidden by setting
-``SHOW_EMAIL_CHANNEL`` to ``False`` and then rebuilding the MFE image. Hiding the email
-channel does not disable email notifications.
+The ``Web`` channel is always visible in notification preferences and controls
+tray notifications. The ``Email`` channel is visible by default and can be
+hidden by setting ``SHOW_EMAIL_CHANNEL`` to ``False`` and then rebuilding the
+MFE image. Hiding the email channel does not disable email notifications.
 
 
 Configure Notification Email Delivery
 *************************************
 
-
-Daily and weekly digest emails are scheduled through Celery when notifications are created.
-Deployments should not use cron jobs anymore.
+Daily and weekly digest emails are scheduled through Celery when notifications
+are created. Do not configure cron jobs for daily or weekly notification digest
+emails.
 
 Use these settings to configure notification email delivery:
 
@@ -71,7 +72,7 @@ Use these settings to configure notification email delivery:
      - Description
    * - ``NOTIFICATIONS_DEFAULT_FROM_EMAIL``
      - ``"no-reply@example.com"``
-     - Sender address used for notification emails. Override this value for
+     - The sender address used for notification emails. Override this value for
        production deployments.
    * - ``NOTIFICATION_IMMEDIATE_EMAIL_BUFFER_MINUTES``
      - ``15``
@@ -99,8 +100,8 @@ Use these settings to configure notification email delivery:
 Configure Default Notification Preferences
 ******************************************
 
-Operators can override the defaults that are used when notification
-preferences are created for users.
+Operators can override the defaults used when notification preferences are
+created for users.
 
 Notification preferences are organized by notification app and notification
 type. Some notification types have their own defaults while others
@@ -175,7 +176,7 @@ Supported override keys are:
      - Sets the default email cadence.
    * - ``non_editable``
      - List containing ``web`` or ``email``
-     - Lists preference controls that learners cannot change.
+     - Lists channels that learners cannot change.
 
 Unknown notification keys and unsupported override fields are ignored.
 
@@ -310,12 +311,12 @@ types either inherit those app defaults or define their own defaults.
    * - ``ora_grade_assigned``
      - ``grading``
      - No
-     - ORA grade received
+     - Essay assignment grade received
      - Tray on, email daily
    * - ``ora_reminder``
      - ``grading``
      - No
-     - ORA reminders
+     - Essay assignment reminders
      - Tray on, email daily
 
 For learner-facing explanations of these activities, see
@@ -327,18 +328,18 @@ For learner-facing explanations of these activities, see
 Configure ORA Reminder Notifications
 ************************************
 
-ORA reminder notifications send periodic reminders to learners who have
-submitted an ORA response but have not completed required peer or self review
-steps.
+ORA reminders notify learners who have submitted an ORA response but have not
+completed required peer or self review steps.
 
 ORA reminder notifications are enabled by default. Set
 ``ENABLE_ORA_REMINDERS`` to ``False`` to disable scheduled ORA reminders.
 
-
 Configuration Settings
 ======================
 
-All ORA reminder settings have defaults that are listed in the table below.
+The following ORA reminder settings have defaults and only need to be changed
+when a deployment requires different reminder timing, reminder limits, or sweep
+behavior.
 
 .. list-table::
    :header-rows: 1
@@ -367,8 +368,8 @@ All ORA reminder settings have defaults that are listed in the table below.
      - Hours to wait before checking again when a peer review reminder is due
        but no peer submissions are available for the learner to review.
 
-Add ORA reminder settings to the same LMS Django settings override used for
-the notification settings in this document.
+Add ORA reminder settings to the same LMS Django settings override that is used
+for the notification settings in this document.
 
 For example:
 

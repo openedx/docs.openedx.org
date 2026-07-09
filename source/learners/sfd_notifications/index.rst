@@ -4,8 +4,9 @@
 Notifications & Preferences
 ###########################
 
-Notifications help you stay informed about activity in your courses. You can view notifications while
-on the platform or receive them by email, depending on your preferences.
+Notifications help you stay informed about activity in your courses. You can
+view notifications on the platform or receive them by email, depending on your
+preferences.
 
 .. contents::
    :local:
@@ -20,52 +21,58 @@ Notification Tray
 ------------------
 
 .. figure:: /_images/learners/Notifications_tray_screenshot.png
-  :alt: Notifications tray is shown which can be opened by clicking on the bell icon on right side of page header.
+  :alt: Notification tray opened from the bell icon on the right side of the page header.
   :width: 600
   :align: center
 
-  Clicking the bell icon on top right opens the notifications tray. Next to bell icon is the count of
-  unseen notifications.
+  The bell icon in the top-right corner opens the notifications tray. A count
+  next to the bell icon shows the number of unseen notifications.
 
-The notification tray keeps you updated while you’re browsing the site.
+The notification tray keeps you updated while you are browsing the site.
 
-- Clicking the bell icon on top right opens the notifications tray with tabs such as Discussions,
-  Updates and Grading.
-- Each notification shows the course it belongs to, time elapsed since it was created
+- Select the bell icon in the top-right corner to open the notifications tray
+  with tabs such as Discussions, Updates, and Grading.
+- Each notification shows the associated course, the time since it was created,
   and a red dot that indicates that it has not been clicked.
-- A gear icon in the tray takes you directly to your notification preferences on Account Settings page.
+- A gear icon in the tray takes you directly to your notification preferences on
+  the *Account Settings* page.
 
-If you have more notifications than can fit in the tray, a “Load more” button appears at the bottom.
-Clicking it loads mores notifications at the bottom.
+If you have more notifications than can fit in the tray, a **Load more** button
+appears at the bottom. Select it to load more notifications.
 
 Email Notifications
 -------------------
 
 .. figure:: /_images/learners/Notification_daily_email_screenshot.png
-  :alt: Screenshot of a daily email digest showing list of notifications from the past 24 hours
+  :alt: Screenshot of a daily email digest showing a list of notifications from the past 24 hours
   :width: 400
   :align: center
 
-  Screenshot of email containing daily summary of notifications from the past 24hrs.
+  Screenshot of an email containing a daily summary of notifications from the
+  past 24 hours.
 
-Notification emails keep you informed when you are away from the platform. You can choose to get notified immediately
-or receive a daily or weekly summary of notifications.
+Notification emails keep you informed when you are away from the platform.
+Depending on your preferences, you can receive email notifications immediately
+or as a daily or weekly summary.
 
 - **Immediately:** Receive the email notification as soon as the activity happens.
 - **Daily:** Receive a summary of notifications from the past 24 hours.
 - **Weekly:** Receive a summary of notifications from the past 7 days.
 
-Email summary contains up to 5 notifications for each platform area (Discussions, Updates, Grading).
-Click the "View more" button to the see rest in the notifications tray on the website.
+Email summaries contain up to 5 notifications for each platform area
+(Discussions, Updates, Grading). Select **View more** to see the rest in the
+notification tray on the platform.
 
-Emails include a one-click unsubscribe option to turn off email notifications for all activity types.
+Emails include a one-click unsubscribe option to turn off email notifications
+for all activity types.
 
 .. _Activity Types:
 
 Activity Types
 ================
 
-Activities for which you may be notified for, depending on your preferences, are listed in the table below.
+The following table lists activities that can generate notifications, depending
+on your preferences.
 
 
 .. list-table::
@@ -81,7 +88,7 @@ Activities for which you may be notified for, depending on your preferences, are
 
    * - 1
      - Discussions
-     - All activity on posts and responses that you've authored or you are following
+     - All activity on posts and responses that you have authored or follow
      - Activity notifications
      - ON
      - Daily
@@ -137,7 +144,7 @@ Activities for which you may be notified for, depending on your preferences, are
 
    * - 9
      - Grading
-     - You need to complete a peer or self review step for an essay assignment
+     - You have a peer or self review step to complete for an essay assignment
      - Essay assignment reminders
      - ON
      - Daily
@@ -153,10 +160,11 @@ Managing Preferences
   :width: 700
   :align: center
 
-  You can manage notification preference on *Account Settings* page.
+  You can manage notification preferences on the *Account Settings* page.
 
-Notification preferences allow you to control which notifications you receive, how often, and through
-which channel. You can get to the preferences page via:
+Notification preferences allow you to control which notifications you receive,
+how often you receive them, and which channels they use. You can open the
+preferences page from:
 
 - The Notifications section on the *Account Settings* page.
 - The gear icon in the top-right corner of the notification tray.
@@ -166,7 +174,7 @@ For each preference, you can:
 
 - Turn tray notifications on or off.
 - Turn email notifications on or off.
-- Choose an email cadence: Immediately, Daily, or Weekly
+- Choose an email cadence: Immediately, Daily, or Weekly.
 
 
 .. _Notifications Expiry:
