@@ -24,7 +24,7 @@ Disable Notifications
 *********************
 
 Platform notifications are enabled by default. Unless the notification feature
-is disabled, learners see the notification tray in the LMS and Studio, and
+is disabled, users see the notification tray in the LMS and Studio, and
 notification preferences on the *Account Settings* page. Notification emails
 are also enabled by default, but they are delivered only when a notification is
 generated for a user whose email preference for that notification type is
@@ -408,5 +408,5 @@ Related Documentation
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| Jul 09, 2026 | Aamir Ayub                    | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
