@@ -1762,8 +1762,7 @@ corrections in the main instructions applied.
 - Took ownership of the cloned repo and of ``/opt/staticfiles`` so a non-root user can build assets and run ``collectstatic``
 - Documented the ``/run/mysqld`` permission fix for non-root socket access in containers
 - Promoted the working ``MixedModuleStore`` configuration into Step 12
-- Rewrote the Step 13 ``INSTALLED_APPS`` additions for the current release and removed the
-  obsolete ``openedx_learning.apps.authoring.*`` apps (now provided by ``openedx_content``)
+- Rewrote the Step 13 ``INSTALLED_APPS`` additions for the current release and removed the obsolete ``openedx_learning.apps.authoring.*`` apps (now provided by ``openedx_content``)
 
 **Earlier corrections (still applied):**
 - Python 3.12 (Ubuntu 24.04 default); pkg-config in system dependencies
