@@ -469,6 +469,17 @@ the Open Response Assessment individually. The options that you can set include:
    other learners may not have time to perform peer assessments before peer
    assessments are due.
 
+.. note::
+   If your site has ORA reminder notifications enabled, learners can receive
+   **Essay assignment reminders** after they submit a response but still need to
+   complete a required peer assessment or self assessment step. These reminders
+   apply to individual ORA submissions; Team ORA submissions do not receive ORA
+   reminder notifications. Reminders stop when the learner completes the
+   required step, the relevant assessment due date or course end date passes, or
+   the site reminder limit is reached. Course teams do not configure reminder
+   timing in Studio; site operators configure the
+   :ref:`reminder schedule for the platform <ora-reminder-notifications>`.
+
 ===========================================
 Match deadlines to the subsection due date
 ===========================================

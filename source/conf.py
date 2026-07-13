@@ -65,6 +65,8 @@ rediraffe_redirects = {
     "learners/sfd_discussions/explore_posts.rst": "learners/sfd_discussions/find_follow_conversations.rst",
     "learners/sfd_discussions/keep_up.rst": "learners/sfd_discussions/discussions_notifications.rst",
     "learners/sfd_discussions/provide_feedback.rst": "learners/sfd_discussions/find_follow_conversations.rst",
+    "site_ops/how-tos/ora_reminders.rst": "site_ops/how-tos/enable_notifications.rst",
+    "site_ops/install_configure_run_guide/configuration/enable_discussion_notifications.rst": "site_ops/how-tos/enable_notifications.rst",
     "educators/references/course_development/working_with_targz_file.rst": "educators/how-tos/course_development/work_with_targz_file.rst",
     "educators/references/advanced_features/planning_content_reuse.rst": "educators/references/advanced_features/lti_content_compatibility.rst",
     "educators/concepts/advanced_features/lti_reuse_content.rst": "educators/concepts/advanced_features/using_openedx_as_LTI_provider.rst",
