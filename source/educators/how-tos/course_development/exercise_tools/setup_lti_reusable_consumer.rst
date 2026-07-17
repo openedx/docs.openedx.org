@@ -1,4 +1,3 @@
-.. _Configure an LTI Tool Using Reusable Configuration:
 .. _Set up an LTI tool using a reusable configuration:
 .. _Set up an LTI component using a reusable configuration:
 
