@@ -81,10 +81,6 @@ difference is where the tool configuration is stored and who manages it.
    1_1 component>` and :ref:`Set up an LTI 1.3 component <Set up an LTI 1_3
    component>`.
 
-   To reuse the same configuration within a course, educators can duplicate or
-   copy and paste the configured XBlock. However, changes made to the original
-   XBlock are not reflected in the copies.
-
 #. **Use an LTI Store configuration managed in Django Admin.**
 
    A site operator installs and enables the LTI Store plugin, then creates the
@@ -99,6 +95,23 @@ difference is where the tool configuration is stored and who manages it.
    locations in a course or across multiple courses. Changes made to the LTI
    Store configuration are reflected in all LTI Consumer XBlocks that reference
    it.
+
+
+**********************************
+Duplicate or Copy an LTI Component
+**********************************
+
+Starting with the Verawood release, you can duplicate a directly configured
+LTI Consumer XBlock or copy and paste it into another unit or course. An LTI
+1.1/1.2 copy continues to reference the same LTI passport, which must also
+exist in the destination course. An LTI 1.3 copy retains the Client ID,
+Deployment ID, Keyset URL, and Access Token URL, so you do not need to register
+each copy separately with the external tool.
+
+Components that use a reusable LTI Store configuration can be duplicated or
+copied in the same way. Each copy retains the same Filter key and fetches the
+configuration from LTI Store when it is used, so updates apply to every XBlock
+that references that key. XBlock-level settings remain independent across copies.
 
 
 *********************
@@ -159,6 +172,8 @@ information, see :ref:`Allow sharing PII to LTI Components`.
 
  :ref:`Set up an LTI 1_3 component` (how-to)
 
+ :ref:`Set up an LTI component using a reusable configuration` (how-to)
+
  :ref:`LTI Advantage Services` (reference)
 
  :ref:`Using your Open edX instance as an LTI Tool Provider` (concept)
@@ -169,7 +184,7 @@ information, see :ref:`Allow sharing PII to LTI Components`.
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-06-25         | Aamir Ayub             | Verawood | Pass           |
+| 2026-07-17         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
 | 2025-03-19         | Documentation WG       | Sumac    | Pass           |
 +--------------------+------------------------+----------+----------------+
