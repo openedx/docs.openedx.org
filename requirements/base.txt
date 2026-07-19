@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==1.0.0
     # via sphinx
-anyio==4.14.1
+anyio==4.14.2
     # via
     #   starlette
     #   watchfiles
@@ -146,7 +146,7 @@ uvicorn==0.51.0
     # via sphinx-autobuild
 watchfiles==1.2.0
     # via sphinx-autobuild
-websockets==16.1
+websockets==16.1.1
     # via sphinx-autobuild
 
 # The following packages are considered to be unsafe in a requirements file:
