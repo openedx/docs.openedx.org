@@ -436,7 +436,7 @@ Developer Experience
 Known Issues
 ************
 
-See the `Build Test Release project board <https://github.com/orgs/openedx/projects/28>`_ for known open issues.
+See the `Build Test Release project board <https://github.com/orgs/openedx/projects/28/views/19>`_ for known open issues.
 
 **Maintenance chart**
 
