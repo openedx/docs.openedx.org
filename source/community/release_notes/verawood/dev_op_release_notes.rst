@@ -34,19 +34,6 @@ Breaking Changes
   retain the original values, you must provide overrides. See
   `Update HELP_TOKENS_BOOKS to use official Open edX docs <https://github.com/openedx/edx-platform/pull/37493>`_.
 
-* **Possible failed migration during upgrade.** Due to a bug that was present in
-  the last several releases, it was possible for users to create multiple
-  courses with similar course IDs that differed only in capitalization. Such
-  courses would only appear as a single course in most parts of the system, and
-  may not work properly at all. That bug has been fixed, and a new database
-  constraint will prevent that from happening going forward.
-
-  However, if you have any of these "case duplicate" courses, the
-  ``split_modulestore_django`` migration ``0004_courseid_unique_ci`` will fail
-  with an ``IntegrityError``. If you encounter this, follow the instructions to
-  delete the invalid course record(s), and then you should be able to apply the
-  migration and continue.
-
 * **edx-search Typesense server requirement update.** The ``typesense-python``
   client library was upgraded from 1.x to 2.0.0. This version is only compatible
   with Typesense Server >= v30.0.
@@ -93,6 +80,78 @@ Breaking Changes
   * ``notifications.enable_notifications`` and
     ``notifications.enable_email_notifications`` have been removed; they are
     replaced by the flags above.
+
+Migrations to be aware of
+*************************
+
+A few migrations in this release touch existing data at scale, run
+automatically without an explicit opt-in, or can fail depending on your
+instance's data history. Review these before upgrading.
+
+* **Course ID case-insensitive uniqueness constraint.** Due to a bug that was
+  present in the last several releases, it was possible for users to create
+  multiple courses with similar course IDs that differed only in
+  capitalization. Such courses would only appear as a single course in most
+  parts of the system, and may not work properly at all. That bug has been
+  fixed, and a new database constraint will prevent that from happening going
+  forward.
+
+  However, if you have any of these "case duplicate" courses, the
+  ``split_modulestore_django`` migration ``0004_courseid_unique_ci`` will fail
+  with an ``IntegrityError``. If you encounter this, follow the instructions to
+  delete the invalid course record(s), and then you should be able to apply the
+  migration and continue. See
+  `fix!: split modulestore's has_course(ignore_case=True) was not working
+  <https://github.com/openedx/edx-platform/pull/38044>`_.
+
+* **MariaDB UUID column conversion (edx-enterprise).** If you run MariaDB,
+  upgrading ``edx-enterprise`` runs a migration that converts roughly 19 UUID
+  columns from ``char(32)`` to MariaDB's native ``uuid`` type, with no flag to
+  skip it. This includes enrollment and group-membership tables
+  (``enterprise_licensedenterprisecourseenrollment``,
+  ``enterprise_enterprisecourseentitlement``,
+  ``enterprise_enterprisegroupmembership``) that can be large on instances
+  with many enterprise customers. Changing a column's type this way forces
+  MariaDB to rewrite the whole table (``ALGORITHM=COPY``), locking it for the
+  duration. This migration is a no-op on PostgreSQL. See
+  `fix: Convert UUIDField columns to uuid type for MariaDB
+  <https://github.com/openedx/edx-enterprise/pull/2475>`_.
+
+* **AuthZ course-authoring role migration (openedx-authz).** This is not a
+  schema migration, it's a signal-triggered data migration. Enabling the
+  ``authz.enable_course_authoring`` waffle flag for an organization triggers,
+  synchronously inside that save, a full migration of every
+  ``CourseAccessRole`` row for that org into the new Casbin-based
+  authorization model, wrapped in a single transaction. Cost scales with how
+  many courses and role assignments the org has, and there's no built-in
+  batching. To control how much gets migrated at once, keep
+  ``ENABLE_AUTOMATIC_AUTHZ_COURSE_AUTHORING_MIGRATION`` set to ``False`` (its
+  default) and roll out with the ``authz_migrate_course_authoring``
+  management command instead, scoped with ``--course-id-list`` or
+  ``--org-id``. See
+  `feat: course authoring automatic migration
+  <https://github.com/openedx/openedx-authz/pull/259>`_.
+
+* **Catalog course/run backfill (course_overviews).** A migration populates
+  new ``CatalogCourse``/``CourseRun`` models by iterating every
+  ``CourseOverview`` row, without batching. It can fail outright with a
+  ``ValueError`` if a course's organization short code doesn't match the
+  Organizations table, which is plausible on instances with years of
+  accumulated data drift (case mismatches, orgs created outside the normal
+  flow). If it fails, the error names the offending course and organization;
+  create the missing Organization record (Django admin) or set
+  ``active=False`` on it, then re-run the migration. See
+  `feat: update openedx-core: new catalog models + backfill migration
+  <https://github.com/openedx/edx-platform/pull/38023>`_.
+
+* **Enterprise academies auto-enabled for existing customers (edx-enterprise).** Any
+  enterprise customer that already has
+  ``enable_integrated_customer_learner_portal_search=True`` gets
+  ``enable_academies=True`` automatically. This is opt-out, not opt-in, and
+  the reverse migration is an explicit no-op: there's no way to determine or
+  restore the prior state after the fact. See
+  `feat: enable academies by default for all enterprise customers with search
+  <https://github.com/openedx/edx-enterprise/pull/2594>`_.
 
 Deprecations & Removals
 ***********************
