@@ -14,13 +14,13 @@ that learner's PII across the services that make up a particular Open edX site
 
 .. important::
 
-   User retirement is **not** a compliance guarantee. It makes no claim of
-   satisfying any law or regulation. It is a configurable toolset that site
-   operators can use to help meet the obligations apply to them specifically.
-   Custom code, configuration, plugins, packages, or XBlocks on your site may
-   store PII that this feature does not know about and will not clean up.
-   Deciding what data must be removed, and confirming that it has been,
-   remains the operator's responsibility.
+   User retirement is **not** a compliance guarantee. The Open edX software
+   makes no claim of satisfying any law or regulation. It is a configurable
+   toolset that site operators can use to help meet the obligations apply to
+   them specifically. Custom code, configuration, plugins, packages, or XBlocks
+   on your site may store PII that this feature does not know about and will
+   not clean up. Deciding what data must be removed, and confirming that it has
+   been, remains the operator's responsibility.
 
 Why it works the way it does
 ****************************
@@ -130,7 +130,7 @@ custom data.
 Deploying user retirement with Tutor
 ************************************
 
-Setting up user retirement by hand involves several steps: creating a dedicated
+Setting up user retirement involves several steps: creating a dedicated
 service user with API credentials, loading the pipeline states into the LMS,
 and scheduling the scripts to run.
 
@@ -156,5 +156,5 @@ official part of an Open edX release, it is well maintained.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|   2026-07-28 | sarina                        | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

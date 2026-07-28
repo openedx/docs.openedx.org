@@ -106,17 +106,23 @@ Retirement settings
 *******************
 
 The available settings and their defaults are:
-``ENABLE_ACCOUNT_DELETION`` (default ``True``)
+
+- ``ENABLE_ACCOUNT_DELETION`` (default ``True``)
    Whether or not the learner facing "Delete My Account" flow is enabled.
-``RETIREMENT_COOL_OFF_DAYS`` (default ``30``)
+
+- ``RETIREMENT_COOL_OFF_DAYS`` (default ``30``)
    Days an account must sit in ``PENDING`` before it is retired.
-``RETIREMENT_EDX_OAUTH2_CLIENT_ID`` (default ``retirement_service_worker``)
+
+- ``RETIREMENT_EDX_OAUTH2_CLIENT_ID`` (default ``retirement_service_worker``)
    OAuth2 client ID registered for the retirement service worker.
-``RETIREMENT_K8S_CRONJOB_SCHEDULE`` (default ``"0 0 * * *"``)
+
+- ``RETIREMENT_K8S_CRONJOB_SCHEDULE`` (default ``"0 0 * * *"``)
    Cron schedule for the Kubernetes retirement job (default: daily at midnight).
-``RETIREMENT_K8S_CRONJOB_HISTORYLIMIT_SUCCESS`` (default ``3``)
+
+- ``RETIREMENT_K8S_CRONJOB_HISTORYLIMIT_SUCCESS`` (default ``3``)
    Number of successful job runs to retain in history.
-``RETIREMENT_K8S_CRONJOB_HISTORYLIMIT_FAILURE`` (default ``1``)
+
+- ``RETIREMENT_K8S_CRONJOB_HISTORYLIMIT_FAILURE`` (default ``1``)
    Number of failed job runs to retain in history.
 
 After saving configuration (``tutor config save``), re-initialize the deployment (ex:
@@ -198,5 +204,5 @@ below.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+|   2026-07-28 | sarina                        | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
