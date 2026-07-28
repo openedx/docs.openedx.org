@@ -39,11 +39,29 @@ From Teak onwards we have changed the nomanclature from ``open-release/<named-re
 
 If an installation of a tag fails, try the corresponding release line master branch, it may have a fix.
 
+Verawood
+========
+
+* **Code cut date:** 2026-04-23
+* **Status:** supported
+* :doc:`Release Notes <./verawood>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - Release Name
+     - Release Date
+     - Git Tag
+
+   * - Verawood.1
+     - 2026-07-30
+     - release/verawood.1
+
 Ulmo
 ====
 
 * **Code cut date:** 2025-10-30
-* **Status:** supported
+* **Status:** unsupported
 * :doc:`Release Notes <./ulmo>`
 
 .. list-table::
@@ -56,6 +74,18 @@ Ulmo
    * - Ulmo.1
      - 2026-01-15
      - release/ulmo.1
+
+   * - Ulmo.2
+     - 2026-03-06
+     - release/ulmo.2
+
+   * - Ulmo.3
+     - 2026-04-30
+     - release/ulmo.3
+
+   * - Ulmo.4
+     - 2026-07-29
+     - release/ulmo.4
 
 Teak
 ====
