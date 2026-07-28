@@ -9,7 +9,7 @@ Open edX Verawood Release - Product Release Notes
    :maxdepth: 1
 
    verawood_lti_cert
-   copyright_accptance
+   copyright_acceptance
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
