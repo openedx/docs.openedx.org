@@ -411,7 +411,7 @@ Administrators & Operators
   <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0009-authz-for-course-authoring.rst>`_.
 
   This flag will be turned on by default in the next release, Willow, and
-  the legacy permission system will be removed in Xylon. To set up an
+  the legacy permission system will be removed in Xylon (June 2027). To set up an
   individual course, a specific organization, or your whole site to use the
   new system, you need to both enable the appropriate feature flag(s) and
   run migrations.
@@ -582,7 +582,7 @@ the `tutor-mfe README
 When an app that replaces an existing MFE is enabled (such as Authn or
 Learner Dashboard), its MFE counterpart is automatically disabled.
 
-It is expected that by Xylon (the Open edX release following Willow), all
+It is expected that by Xylon (June 2027), all
 Open edX MFEs will have been converted to frontend-base apps. Operators are
 therefore encouraged to enable the Authn and Learner Dashboard apps to test
 pre-existing customizations on their instances. It is likely that any
@@ -612,7 +612,7 @@ to frontend-base's ``SiteConfig`` structure. You can find out more `here
 What if I don't use Tutor?
 ==========================
 
-If you deploy Open edX using something other than Tutor, start by looking at
+If you deploy your Open edX instance using something other than Tutor, start by looking at
 `frontend-template-site <https://github.com/openedx/frontend-template-site>`_.
 This is the canonical representation of how a frontend-base site should be
 configured. Operators are meant to fork and modify it as required for their
