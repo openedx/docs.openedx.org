@@ -140,7 +140,7 @@ directions:
   manage large instances.
 
 These improvements will be scoped and tracked in future releases once the
-Libraries integration is validated in production. Be sure to :ref:`Verawood planning`!
+Libraries integration is validated in production.
 
 .. seealso::
 
