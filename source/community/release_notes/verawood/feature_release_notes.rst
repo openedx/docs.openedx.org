@@ -9,6 +9,7 @@ Open edX Verawood Release - Product Release Notes
    :maxdepth: 1
 
    ai_extension_framework
+   new_instructor_dashboard
    verawood_lti_cert
    copyright_acceptance
 
