@@ -84,11 +84,25 @@ To assign a privileged role to a course team member, follow these steps.
 To remove an assigned role, view the list of users and then select **Revoke
 access**.
 
+.. note::
+    For installations using the Roles and Permissions console: course team
+    management is available from :guilabel:`Settings` > :guilabel:`Roles and
+    Permissions` in Studio. See :ref:`Manage Course Authoring Roles` for the
+    Course Admin and Course Staff roles available there.
+
+    The Roles and Permissions console (called the Administrative Console in
+    earlier releases) is not enabled by default. See the operator release
+    notes:
+    https://openedx.atlassian.net/wiki/spaces/OEPM/pages/6331662350/RBAC+AuthZ+for+Course+Authoring+-+Operator+Release+Notes#Enabling-the-Feature-Flag
+    for instructions on how to enable it.
+
 .. seealso::
-  
+
   :ref:`Guide to Course Team Roles` (reference)
 
-  :ref:`Manage Course Beta Testing` (how-to)  
+  :ref:`Manage Course Beta Testing` (how-to)
+
+  :ref:`Manage Course Authoring Roles` (how-to)
 
 
 **Maintenance chart**
@@ -99,4 +113,6 @@ access**.
 | 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/881) |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| [DATE]       | [REVIEWER]                    | Verawood       | [PASS/FAIL]                                                   |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
