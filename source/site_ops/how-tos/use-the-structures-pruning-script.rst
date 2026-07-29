@@ -231,6 +231,12 @@ Example 2
 
   - more than 99% reduction
 
+- parameters used for the pruning subcommands:
+
+  - ``make_plan``: 200ms delay, 1000 batch size, ~10m run time
+
+  - ``prune``: 200ms delay, 1000 batch size, 20m run time
+
 Final notes
 ***********
 
