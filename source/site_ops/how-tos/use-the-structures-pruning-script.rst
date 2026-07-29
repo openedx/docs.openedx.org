@@ -49,7 +49,7 @@ For example:
       --dumpDbUsersAndRoles --gzip "$CONNECTION_STRING"
 
 It's also probably worth doing this through a maintenance window to avoid disruption.
-Also consider recommending avoiding using Studio during this time to avoid lost work if the database needs restoring from this backup.
+If possible, avoid using Studio during this time to prevent lost work in case you need to restore the database from this backup.
 
 3. Make note of the database size
 =================================
@@ -119,7 +119,7 @@ The ``make_plan`` subcommand can be run like this:
 
 Some important notes:
 
-- ``--retain`` specifies how many old revisions to retain in addition to the current and original. Consider using ``0`` to clean up as much as possible, or set this to a small number (eg. ``2``) if there is a chance that recent revisions may be required.
+- ``--retain`` specifies how many old revisions to retain in addition to the current and original. Consider using ``0`` to clean up as much as possible, or set this to a small number (eg. ``2``) if there is a chance that recent revisions may be required. Note that there is no UI for restoring these revisions, and you are taking a backup, so in most cases, no revisions should need to be retained.
 
 - This script can put a fair load on the MongoDB server, so to reduce noticeable slowdowns, consider tweaking the the following parameters:
 
@@ -174,7 +174,10 @@ Then in the MongoDB shell:
 
     use DATABASE_NAME
 
-    db.runCommand({compact: "modulestore.structures", force: true})
+    db.runCommand({ compact: "modulestore.structures" })
+
+Note: if this is a MongoDB replicaset, see the `MongoDB reference for running compact on Replica Sets <https://www.mongodb.com/docs/manual/reference/command/compact/#replica-sets>`_
+to compact each of the nodes (otherwise this may only compact a single node).
 
 8. Check the instance
 =====================
@@ -242,5 +245,7 @@ It will be interesting to add more real world examples to the case studies above
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        | Release        | Test situation                 |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2026-07-26   | Samuel Allan                  | Teak           |                                |
+| 2026-07-20   | Samuel Allan                  | Ulmo           | Pass                           |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2026-07-26   | Samuel Allan                  | Teak           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
