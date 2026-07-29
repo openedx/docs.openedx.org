@@ -86,11 +86,13 @@ Add Course Team Members
 
 .. toctree::
    :maxdepth: 1
-   :glob:   
+   :glob:
 
    ../references/course_development/course_team_roles.rst
    ../how-tos/set_up_course/add_course_team_members.rst
    ../how-tos/releasing-course/manage_beta_testing.rst
+   ../how-tos/course_development/manage_course_authoring_roles.rst
+   ../how-tos/use_roles_and_permissions_console.rst
 
 Configure Grades
 *******************************************************

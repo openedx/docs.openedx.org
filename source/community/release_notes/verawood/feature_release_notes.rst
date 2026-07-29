@@ -10,6 +10,8 @@ Open edX Verawood Release - Product Release Notes
 
    stay_up_to_date
    verawood_lti_cert
+   verawood_console
+   verawood_rp
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
