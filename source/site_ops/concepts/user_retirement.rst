@@ -36,7 +36,9 @@ steps to match the services their site actually uses.
 The main pieces
 ***************
 
-User retirement is made up of a few moving parts that work together.
+User retirement is made up of a few moving parts that work together. See the
+:ref:`Set Up User Retirement` how-to for more details on how to configure
+the service.
 
 The account deletion UI
 =======================
@@ -144,6 +146,9 @@ official part of an Open edX release, it is well maintained.
 
 .. seealso::
 
+   :ref:`Set Up User Retirement` how-to for operator details on how to configure
+      the service.
+
    `Enabling the User Retirement Feature <https://docs.openedx.org/projects/edx-platform/en/latest/references/docs/scripts/user_retirement/docs/index.html>`_
       In-depth reference documentation on configuring the services, setting up
       the driver scripts, and extending the retirement pipeline.
@@ -156,5 +161,5 @@ official part of an Open edX release, it is well maintained.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|   2026-07-28 | sarina                        | Verawood       | Pass                           |
+|   2026-07-28 | Ty Hob                        | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
