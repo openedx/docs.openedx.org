@@ -9,9 +9,13 @@ Create a New Library
 
 To create a new library, follow these steps.
 
+.. note:: To create a library, your account must have the ``course_creator``
+   role, or global admin or global staff access on your platform. If you do
+   not have this access, contact your platform administrator.
+
 #. Log in to Studio.
 
-#. Select **Libraries** from the Studio home page. 
+#. Select **Libraries** from the Studio home page.
 
 #. Select **New Library**.
 
@@ -24,7 +28,7 @@ To create a new library, follow these steps.
 
    - For **Library Name**, enter the public display name for your library.
      Choose a meaningful name that will help you and other course team members
-     to identify the library. For example, "Level 200 Math Problems". 
+     to identify the library. For example, "Level 200 Math Problems".
 
    - For **Organization**, enter the identifier for your university. For
      example, enter HarvardX or MITx. Do not include spaces or special
@@ -37,15 +41,16 @@ To create a new library, follow these steps.
 #. Select **Create**.
 
 You see the new library, to which you can now add components. For information
-about adding components to a library, see :ref:`Build a Collection in a Library` and :ref:`Create and edit content in a Library`.
+about adding components to a library, see :ref:`Build a Collection in a Library`
+and :ref:`Create and edit content in a Library`.
 
-After you create a library, you are automatically assigned an **Admin** role
-for the library. For information about adding other users to a library after
-you create it, see :ref:`Add users to Libraries`.
+After you create a library, you are automatically assigned a **Library Admin**
+role for the library. For information about adding other users to a library
+after you create it, see :ref:`Add users to Libraries`.
 
 
 .. seealso::
- 
+
     :ref:`Navigate the Library Homepage`
 
     :ref:`Create and edit content in a Library`
@@ -78,5 +83,5 @@ you create it, see :ref:`Add users to Libraries`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| [DATE]       | [REVIEWER]                    |   Verawood     | [PASS/FAIL]                    |
 +--------------+-------------------------------+----------------+--------------------------------+
