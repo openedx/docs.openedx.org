@@ -147,6 +147,7 @@ Existing role assignments require migration to take effect in the new system.
 New role assignments share the behavior of their legacy counterparts across the
 full platform, not only in Studio.
 
+=============
 Course Admin
 =============
 
@@ -154,6 +155,7 @@ Course Admins have full authoring access and can manage the course team.
 They can do everything a Course Staff member can do, and can also add,
 remove, and change roles for team members in the Roles and Permissions console.
 
+=============
 Course Staff
 =============
 
