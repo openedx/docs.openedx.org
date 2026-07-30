@@ -591,10 +591,9 @@ Documentation on how to do so is provided at:
 
 * `frontend-base theming docs
   <https://github.com/openedx/frontend-base/blob/main/docs/how_tos/theming.md>`_
-* `docs.openedx.org PR #1459
-  <https://github.com/openedx/docs.openedx.org/pull/1459>`_
+* :ref:`Port a Frontend Plugin to frontend-base`
 * `Migrate a frontend app how-to
-  <https://github.com/brian-smith-tcril/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md>`_
+  <https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md>`_
 
 As a migration aid for unconverted legacy plugins, a `frontend-base-compat
 <https://github.com/openedx/frontend-base-compat>`_ shim lets legacy
