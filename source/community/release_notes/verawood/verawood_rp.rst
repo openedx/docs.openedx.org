@@ -18,8 +18,8 @@ Permissions Console", it adds new roles that can be applied across Studio.
     on other organizations, courses, or libraries.
 
 You can now assign two new roles, Course Admin or Course Staff, to one or
-multiple users and apply them at multiple levels (full instance, a specific
-organization, or a specific course) — all in a single action. Granting a role at
+multiple users and apply them at multiple levels (a specific organization,
+course, or library) — all in a single action. Granting a role at
 the organization level covers both existing courses and any courses created in
 that organization afterward.
 

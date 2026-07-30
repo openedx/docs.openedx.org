@@ -51,8 +51,6 @@ multiple assignments appears once per assignment.
 
 Your own account is identified with a "(me)" label next to your username.
 
-Rows for Super Admin or Global Staff users are visually highlighted.
-
 The table shows 10 rows per page. Use the previous and next arrows or the page
 selector to navigate through results.
 
@@ -77,8 +75,8 @@ You can search for users and narrow the list using three filters.
   within the filter to find a specific organization. Select one or more to
   narrow results.
 
-* The **Role** filter lists all available roles, grouped by global, course, and
-  library. Select one or more roles to narrow results.
+* The **Role** filter lists all available roles, grouped by course and
+  library names. Select one or more roles to narrow results.
 
 * The **Scope** filter shows a list of courses and libraries. You can search
   within the filter to find a specific course or library. Select one or more

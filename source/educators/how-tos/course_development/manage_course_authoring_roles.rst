@@ -125,8 +125,6 @@ Course Admins and global site admins can remove role assignments.
     You cannot remove your own admin role. If you need to revoke your own
     access, another user with the required permissions must do it.
 
-    Super Admin and Global Staff roles are managed at the platform level and
-    cannot be removed from the Roles and Permissions console.
 
 .. seealso::
 
