@@ -9,8 +9,12 @@ console>`, introduced in the previous release for managing permissions over
 :ref:`Content Libraries <Add users to Libraries>`. Now renamed to the "Roles and
 Permissions Console", it adds new roles that can be applied across Studio.
 
-.. image:: /_images/educator_how_tos/console_course_team_members.png
+.. figure:: /_images/educator_how_tos/console_course_team_members.png
     :alt: The Team Members tab of the Roles and Permissions console, showing course team members
+
+    The Team Members tab of the Roles and Permissions console. This is the Admin
+    view; users with less access will only see users who have access to the
+    specific organization(s), course(s), and/or librar(ies) they have access to.
 
 You can now assign two new roles, Course Admin or Course Staff, to one or
 multiple users and apply them at multiple levels (full instance, a specific
@@ -20,7 +24,7 @@ that organization afterward.
 
 This feature is opt-in and disabled by default. It can be enabled across your
 whole instance, or for one or more specific organizations or courses, and must be
-enabled by your site administrator.
+:ref:`enabled by your site administrator <Enabling RBAC in Verawood>`.
 
 New User Roles
 **************
@@ -64,9 +68,9 @@ The Roles and Permissions console is a place where you can examine the users who
 have access to your system - their “role”, and also where that applies (which
 “organization” it applies to, as well as the “scope” of the role - specific
 course(s) or librar(ies)). For example, in the following screenshot, we see two
-users - Jhon_Doe, who has the “Super Admin” role - this role applies across all
-organizations, with a “Global” scope. The next user, “KellyKapoor”, has the
-“Course Editor” role applied over one single course, in one organization.
+users - Jhon_Doe, who has the "Course Admin” role - this role applies across one
+organization and one course. The next user, “KellyKapoor”, has the “Course
+Editor” role applied over a different course in a different organization.
 
 .. image:: /_images/release_notes/verawood/rp_console_roles.png
     :alt: A screenshot illustrating the above paragraph
@@ -74,9 +78,7 @@ organizations, with a “Global” scope. The next user, “KellyKapoor”, has 
 The Roles and Permissions console is where you can examine the users who have
 access to your system: their role, which organization it applies to, and the scope
 of the role (specific course(s) or librar(ies)). The console also lets you change
-or add course and library authoring roles for individual users. Note that the
-**Super Admin** role — a global role reserved for site administrators — cannot be
-changed by course team members.
+or add course and library authoring roles for individual users.
 
 Migration of Existing Course Role Assignments
 **********************************************
