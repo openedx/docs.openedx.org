@@ -127,13 +127,14 @@ Tutor and relaunch the development environment:
 
 .. code-block:: bash
 
-   tutor mounts add ./hello_aside
-   tutor dev launch
+   tutor mounts add lms,cms:./hello_aside:/openedx/hello_aside
+   tutor dev exec lms bash
+   pip install -e /openedx/hello_aside
+   exit
+   tutor dev restart lms
 
-The ``mounts add`` command tells Tutor to install the local package into
-both the LMS and Studio containers each time they start. The
-``dev launch`` command rebuilds and restarts the containers so the new
-Aside is picked up.
+The ``mounts add`` command tells Tutor to mount the local package into
+both the LMS and Studio containers each time they start.
 
 If you are not using Tutor, install the package directly into the LMS
 and Studio Python environments with ``pip install -e ./hello_aside``,
@@ -162,9 +163,12 @@ render. The default value is ``about course_info static_tab``. The
 ``hello_aside`` example targets ``problem`` blocks, which are not in the
 default disabled list, so no further changes are needed.
 
-The Studio runtime does not consult this model. Asides will render in
-Studio author views as soon as they are installed, independently of
-whether ``XBlockAsidesConfig`` is enabled.
+Studio has its own, separate gate — a different model,
+``StudioConfig``, controls whether asides render in Studio, and it
+defaults to disabled too. This quickstart's ``hello_aside`` only
+decorates ``student_view``, so it has nothing to show in Studio either
+way; see :ref:`Add an XBlock Aside` for the Studio half of enabling
+asides, and for adding an author-facing view in the first place.
 
 Step 6: Verify the Aside is rendering
 *************************************
@@ -190,10 +194,17 @@ If the banner does not appear, work through these checks in order:
    ``category == "problem"``. A Video block, an HTML block, or a
    Discussion block will not trigger the Aside.
 
-#. **No exceptions are being swallowed.** Check the LMS logs for any
-   exception raised inside ``student_view_aside`` or
-   ``should_apply_to_block``. The runtime catches some Aside exceptions
-   silently, which can make a broken Aside look like a missing one.
+#. **The Aside failed to load, not just to apply.** If your Aside's
+   type name doesn't even show up in step 1's ``load_classes()`` list,
+   check the logs for a warning about failing to load it as a plugin —
+   a broken import in your package is dropped silently at that stage,
+   which is what actually makes a broken Aside look like a missing
+   one. An exception raised *after* loading, inside
+   ``student_view_aside`` or ``should_apply_to_block``, is a different
+   situation and isn't swallowed the same way — it renders as a
+   visible error block in place of the banner, rather than no banner
+   at all; see :ref:`Add an XBlock Aside` for how to tell the two
+   apart.
 
 What You Just Built
 *******************
