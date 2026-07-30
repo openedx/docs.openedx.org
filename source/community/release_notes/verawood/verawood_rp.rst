@@ -1,105 +1,125 @@
-.. _Verawood Course Authoring Roles:
+.. _Introducing More Granular Team Management:
 
-Course Authoring Roles and Permissions
-############################################
+Introducing More Granular Team Management
+##########################################
 
-   .. image:: /_images/educator_how_tos/console_course_team_members.png
-      :alt: The Team Members tab of the Roles and Permissions console, showing course team members
-      :width: 800
+Easily manage user access across multiple parts of the platform from a single
+view. The Verawood release extends the :ref:`administrative console <Ulmo
+console>`, introduced in the previous release for managing permissions over
+:ref:`Content Libraries <Add users to Libraries>`. Now renamed to the "Roles and
+Permissions Console", it adds new roles that can be applied across Studio.
 
-With Verawood, course authoring joins the Roles and Permissions console
-already used for content libraries. Course team management now also
-uses the same assignment and permission patterns as libraries,
-available through the same console (see
-:ref:`Verawood Roles and Permissions Console`).
+.. image:: /_images/educator_how_tos/console_course_team_members.png
+    :alt: The Team Members tab of the Roles and Permissions console, showing course team members
+    :width: 800
 
-Course Admin and Course Staff are the new system's equivalents of the
-legacy Admin and Staff roles for a course: same responsibilities, new
-assignment mechanism.
+You can now assign two new roles, :ref:`Course Admin or Course Staff <Course
+Authoring Roles>`, to one or multiple users and apply them at multiple levels
+(full instance, a specific organization, or a specific course) — all in a single
+action. Granting a role at the organization level covers both existing courses and
+any courses created in that organization afterward.
 
-This feature is opt-in: the Course Authoring waffle flag is disabled by
-default and can be enabled per platform, organization, or course. See
-`Enabling the Feature`_ below for setup instructions.
+**Course Admin** and **Course Staff** are the new system's equivalents of the
+legacy Admin and Staff roles for a course: same responsibilities, new assignment
+mechanism.
 
-.. _Verawood Authoring Roles Available:
+This feature is opt-in and disabled by default. It can be enabled across your
+whole instance, or for one or more specific organizations or courses, and must be
+enabled by your site administrator.
 
-Roles
-*****
+New User Roles
+**************
 
-* **Course Admin** — the new-system equivalent of the legacy Admin
-  role: course team management through the Roles and Permissions
-  console and full authoring access in Studio.
+**Course Admin** is the new-system equivalent of the legacy Admin role: course
+team management through the Roles and Permissions console and full authoring
+access in Studio.
 
-* **Course Staff** — the new-system equivalent of the legacy Staff
-  role: full course lifecycle management in Studio.
+**Course Staff** is the new-system equivalent of the legacy Staff role: full
+course lifecycle management in Studio.
 
-For a full breakdown of what each role can do, see
-:ref:`Course Authoring Roles Under the New Roles and Permissions System <New System Course Authoring Roles>`.
+For a full breakdown of what each role can do, see :ref:`Course Authoring Roles
+Under the New Roles and Permissions System <New System Course Authoring Roles>`.
+
+What's Available in Verawood
+*****************************
+
+- **Unified interface**: the Roles and Permissions console displays all role
+  assignments in one place, filterable by role, organization, and scope.
+- **Assign Role wizard**: assign a role to multiple users and multiple scopes in
+  a single action.
+- **Organization-level assignment**: grant a role to a user across an entire
+  organization, including scopes created later.
+- **User audit view**: shows a user's roles across every course and library you
+  have permission to manage.
+- **Filtered entry points**: the console opens filtered to the context you came
+  from, unfiltered from the Studio home page, or filtered to a single course or
+  library when opened from there.
 
 Scope and Impact
-****************
+*****************
 
-While this feature is enabled, the platform supports both the legacy
-Instructor Dashboard roles (Admin, Staff, Limited Staff) and the new
-Course Admin / Course Staff roles at the same time. New roles apply
-according to the scope where the flag is enabled — platform,
-organization, or course.
+When this feature is enabled, the platform supports both the legacy Instructor
+Dashboard roles (Admin, Staff, Limited Staff) and the new Course Admin / Course
+Staff roles at the same time. New roles apply according to the scope where the
+flag is enabled — platform, organization, or course.
 
-The Roles and Permissions console shows and lets you act on
-course-authoring roles only for the specific courses and organizations
-where the Course Authoring flag is actually enabled — not simply
-because it's enabled somewhere else in your access. Turning the flag
-on or off also triggers a migration of role assignments behind the
-scenes: for a single course or organization this can happen
-automatically, depending on your site's configuration, but a
-platform-wide change always requires your site operator to run the
-migration manually. Until that migration finishes, there can be a
-brief window where a role assignment does not yet reflect the current
-flag state. This is expected during a flag transition — if it doesn't
-resolve on its own, check with your site operator.
+The Roles and Permissions console is a place where you can examine the users who
+have access to your system - their “role”, and also where that applies (which
+“organization” it applies to, as well as the “scope” of the role - specific
+course(s) or librar(ies)). For example, in the following screenshot, we see two
+users - Jhon_Doe, who has the “Super Admin” role - this role applies across all
+organizations, with a “Global” scope. The next user, “KellyKapoor”, has the
+“Course Editor” role applied over one single course, in one organization.
 
-Enabling the Feature
-*********************
+.. image:: /_images/release_notes/verawood/rp_console_roles.png
+    :alt: A screenshot illustrating the above paragraph
+    :width: 800
 
-Disabled by default. Can be enabled at the platform, organization, or
-course level. See the operator release notes:
-https://openedx.atlassian.net/wiki/spaces/OEPM/pages/6331662350/RBAC+AuthZ+for+Course+Authoring+-+Operator+Release+Notes#Enabling-the-Feature-Flag
+The Roles and Permissions console is where you can examine the users who have
+access to your system: their role, which organization it applies to, and the scope
+of the role (specific course(s) or librar(ies)). The console also lets you change
+or add course and library authoring roles for individual users. Note that the
+**Super Admin** role — a global role reserved for site administrators — cannot be
+changed by course team members.
 
 Migration of Existing Course Role Assignments
 **********************************************
 
-Verawood includes migration tools to synchronize existing Admin and
-Staff course role assignments between the legacy system and Roles and
-Permissions. Depending on how your site is configured, this can happen
-automatically when the Course Authoring flag is turned on for a course
-or organization — existing Admin and Staff assignments carry over to
-the new system without manual steps. If automatic migration isn't
-enabled on your site, your site operator can run the migration
-separately. Either way, no role assignments are lost in the process.
+Verawood includes migration tools to synchronize existing Admin and Staff course
+role assignments between the legacy system and the new Roles and Permissions
+framework. Depending on how your site is configured, this can happen automatically
+when the Course Authoring feature is enabled for a course or organization —
+existing Admin and Staff assignments carry over without manual steps. If automatic
+migration isn't enabled on your site, your site operator can run the migration
+separately. No role assignments are lost in the process.
+
+Not Affected by This Release
+*****************************
+
+- Course content and how it is authored. This feature improves how course and
+  library teams are managed, not what authors create.
+- :ref:`Legacy Libraries <Legacy Content Libraries Overview>` (deprecated in
+  Verawood) that have not yet been :ref:`migrated to Content Libraries <Migrating
+  Legacy Libraries>`.
+- Permissions that apply to LMS functionality and are managed by the Instructor
+  Dashboard, such as Discussions Forums Admin or Beta Tester.
 
 Future Improvements
-*******************
+********************
 
-The Course Authoring waffle flag is expected to default to enabled at
-the platform level in a future release (timeline not yet committed).
+In upcoming releases, the Roles and Permissions work is expected to continue in
+several directions:
 
-After Verawood, the Roles and Permissions work is expected to continue
-in several directions:
+- New Studio roles are planned to separate authoring responsibilities from
+  managing an active course, and to introduce a read-only role for reviewing
+  course content in Studio.
+- Roles and Permissions management will also expand to the LMS, bringing the same
+  model to learner-facing features and runtime course management.
+- Documentation with design patterns, guides, and extension points for the
+  community to build on top of the new system are also on the roadmap.
 
-New Studio roles are planned to separate authoring responsibilities
-from managing an active course, and to introduce a read-only role for
-reviewing course content in Studio without edit access.
-
-Roles and Permissions will also expand to the LMS, bringing the same
-model to learner-facing features and runtime course management.
-
-Documentation with design patterns, guides, and extension points for
-the community to build on top of the new system are also on the
-roadmap.
 
 .. seealso::
-
-   :ref:`Verawood Roles and Permissions Console` (release notes)
 
    :ref:`Manage Course Authoring Roles` (how-to)
 
@@ -107,11 +127,13 @@ roadmap.
 
    :ref:`Add Course Team Members` (how-to)
 
+   :ref:`Verawood Product Notes` (reference)
+
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| [DATE]       | [REVIEWER]                    |   Verawood     | [PASS/FAIL]                    |
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
