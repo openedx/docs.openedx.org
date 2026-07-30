@@ -262,37 +262,22 @@ Deprecations & Removals
   setting this toggle should be removed. See
   `fix: removal of temporary saml toggle <https://github.com/openedx/edx-platform/pull/37651>`_.
 
-* **Consolidation of several XBlock packages into xblocks-extra.** The
-  following standalone XBlock packages have been consolidated into
-  ``xblocks-extra``. The standalone repositories have already been marked
-  deprecated:
-
-  * ``audio-xblock``
-  * ``feedback-xblock``
-  * ``openedx-xblock-image-modal``
-  * ``xblock-qualtrics-survey``
-  * ``xblock-sql-grader``
-  * ``xblock-submit-and-compare``
-
-  Operators who have any of these packages installed should migrate to
-  ``xblocks-extra`` and follow the migration guideline.
-
-  Additionally, the following Open edX forked repositories have been archived
-  and are no longer maintained. Operators should refer to their respective
-  upstream repositories for continued support:
+* **SchoolYourself and Concept XBlocks Deprecated**: The following Open edX
+  forked repositories have been archived and are no longer maintained. Operators
+  should refer to their respective upstream repositories for continued support:
 
   * ``schoolyourself-xblock``
   * ``ConceptXBlock``
 
 * **Deprecation of legacy built-in XBlock implementations.** Several previously
   built-in XBlocks have been extracted from ``edx-platform`` into the shared
-  ``xblock-contrib`` repository, and the extracted implementations are used by
-  default in Verawood. The legacy "built-in" block code is considered
-  deprecated. Starting in Willow, the deprecated built-in implementations are
-  planned to be removed from ``edx-platform``, leaving only the extracted
-  variants in ``xblock-contrib``.
+  `xblocks-core <https://github.com/openedx/xblocks-core>`_ repository, and the
+  extracted implementations are used by default in Verawood. The legacy
+  "built-in" block code is considered deprecated. Starting in Willow, the
+  deprecated built-in implementations are planned to be removed from
+  ``edx-platform``, leaving only the extracted variants in ``xblocks-core``.
 
-  The following blocks have been extracted and now live in ``xblock-contrib``:
+  The following blocks have been extracted and now live in ``xblocks-core``:
 
   * HTML Block
   * Video Block
@@ -306,6 +291,34 @@ Deprecations & Removals
   revert to the built-in implementations using the feature flags in
   ``openedx/envs/common.py``, following the pattern ``USE_EXTRACTED_*_BLOCK``
   (for example, ``USE_EXTRACTED_VIDEO_BLOCK``).
+
+* **Consolidation of several XBlock packages into xblocks-extra.** The following
+  standalone XBlock packages have been consolidated into `xblocks-extra
+  <https://github.com/openedx/xblocks-extra>`_. The following standalone
+  repositories have been marked deprecated:
+
+  * ``audio-xblock``
+  * ``feedback-xblock``
+  * ``openedx-xblock-image-modal``
+  * ``xblock-qualtrics-survey``
+  * ``xblock-sql-grader``
+  * ``xblock-submit-and-compare``
+
+  Operators who have any of these packages installed should migrate to
+  ``xblocks-extra`` and follow the migration guidelines.
+
+* **Legacy Libraries Deprecation**: :ref:`Legacy Libraries <Legacy Content
+  Libraries Overview>` are now deprecated and must be :ref:`migrated to Content
+  Libraries <Migrating Legacy Libraries>` this release.
+
+  Operators can see if any legacy libraries exist on their instance by visiting
+  the "Legacy Libraries" tab on the Studio homepage, and clicking the
+  :guilabel:`Review Legacy Libraries` button. Operators or course teams may
+  perform the migration using the migration UI.
+
+  .. figure:: /_images/release_notes/verawood/migrate_legacy_libraries.png
+    :alt: The Studio homepage's Legacy Libraries tab has a banner indicating that legacy libraries must be migrated. The "Review Legacy Libraries" button is on the right side of this banner.
+    :align: center
 
 Aspects Analytics
 *****************
