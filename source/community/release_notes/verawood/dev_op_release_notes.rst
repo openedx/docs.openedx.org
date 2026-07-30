@@ -513,11 +513,13 @@ Administrators & Operators
 
     As of `frontend-app-admin-console PR #176
     <https://github.com/openedx/frontend-app-admin-console/pull/176>`_, the
-    Admin Console's filters, Team Members table, Audit User view, and role
-    assignment wizard all read flag state directly from ``GET
-    /api/authz/v1/waffle-flag-states/`` and hide course content the flag
+    Admin Console's filters and role assignment wizard all read flag state directly
+    from ``GET /api/authz/v1/waffle-flag-states/`` and hide course content the flag
     doesn't cover yet, independently of whether the underlying Casbin
-    migration has run. Observed behavior:
+    migration has run. The Team Members table and Audit User view display all
+    course assignments; however, course or organization assignments that are
+    not enabled via the ``authz.enable_course_authoring`` flag can only be viewed,
+    but not deleted. Observed behavior:
 
     .. list-table::
        :header-rows: 1
