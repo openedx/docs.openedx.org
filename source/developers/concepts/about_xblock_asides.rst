@@ -135,21 +135,44 @@ XML child element under its host block, named after the Aside's entry point
 name. On import, the runtime reconstitutes the asides automatically. This
 means an Aside-enhanced course is portable, with limitations described below.
 
+Reaching Outside the Iframe
+============================
+
+An Aside's fragment renders inside the same iframe as its host block, so
+its JavaScript is confined to that iframe unless it does something about
+it. The browser's ``postMessage`` API is the way out. The Learning
+micro-frontend already recognizes a handful of built-in message types
+(for things like opening a modal or resizing the frame) that any Aside
+can send for free, with no setup. Beyond those, an Aside can post a
+message with any custom ``type`` it defines, but nothing reacts to a
+made-up type by default — something has to be listening for it. That
+listener is a deployment-time addition, registered through the Learning
+MFE's own runtime configuration, not a fork of the MFE itself. MIT Open
+Learning's "AskTIM" chat button (the `ol-openedx-chat`_ Aside, described
+next under "Real-World Examples") works exactly this way: its
+JavaScript posts a message, and a small companion script MIT deploys
+alongside the MFE listens for it and opens a chat drawer. See
+:ref:`XBlock Asides Reference` for the full mechanics and
+:ref:`Add an XBlock Aside` for a worked example of both halves.
+
 Real-World Examples
 *******************
 
-Two implementations in the wild illustrate the range of what asides can
-do.
+Three implementations in the wild illustrate the range of what asides can
+do, from a bare waffle-flag toggle to a fully wired author-facing UI.
 
 Rapid Response XBlock
 =====================
 
 The `rapid-response-xblock`_ from MIT Open Learning is a single Aside that
-applies to Problem blocks. It overlays an instructor-only control on the
-problem in the LMS that lets a live instructor open and close response
-windows during a lecture, and it renders a real-time chart of student
-responses. Course authors enable it per problem in Studio. The repository
-name calls it an "xblock" but the implementation is purely an Aside.
+applies to Problem blocks restricted to a single multiple-choice response
+type. It overlays an instructor-only control on the problem in the LMS
+that lets a live instructor open and close response windows during a
+lecture, and it renders a real-time chart of student responses. A Boolean
+field enables or disables it per problem, exposed through a checkbox in
+its ``studio_view``; a companion, Django-settings-gated ``author_view``
+shows the same checkbox in Studio's author preview. The repository name
+calls it an "xblock" but the implementation is purely an Aside.
 
 Open Learning Chat Aside
 ========================
@@ -160,7 +183,28 @@ context-aware chat drawer that streams messages to a backend large language
 model, passing block-specific context such as a video transcript identifier
 or a problem's siblings. A single Aside class, registered as one entry
 point, handles both block types and uses ``should_apply_to_block`` to gate
-on a course-level waffle flag and per-course settings.
+on a course-level waffle flag, the block-type check, and a course-level
+enabled setting together. A course-author checkbox in its ``author_view``
+toggles the button per block, backed by a scoped field and an AJAX handler.
+See :ref:`Add an XBlock Aside` for a full walkthrough of this pattern.
+
+Structured Tags Aside
+=====================
+
+The `StructuredTagsAside`_ ships with Open edX itself, in
+``cms/lib/xblock/tagging/tagging.py``. It attaches a tag picker to
+Problem blocks so course authors can apply structured tags for content
+search and organization. Unlike the other examples, its entire
+author-facing configuration UI *is* its ``AUTHOR_VIEW`` fragment — there
+is no separate toggle checkbox, just the tag picker itself, and the
+picker only appears at all when Studio's aside-rendering gate (see
+:ref:`XBlock Asides Reference`) is enabled. It has no
+``should_apply_to_block``
+override; it instead checks ``isinstance(block, ProblemBlock)`` inline
+inside its view method. Its own author view method is, confusingly,
+still named ``student_view_aside`` even though it is decorated for
+``AUTHOR_VIEW`` — a reminder that an Aside's view method names are
+conventions, not requirements enforced by the framework.
 
 Limitations
 ***********
@@ -171,15 +215,35 @@ state of the codebase as of the Sumac release and from a 2025 Open edX
 Conference talk by Peter Pinch of MIT Open Learning. Read it before
 committing to an Aside-based design.
 
-No Authoring Story in the Course Authoring MFE
-==============================================
+No Native Authoring Story in the Course Authoring MFE
+======================================================
 
-The Studio author view for an Aside is rendered by the legacy course
-authoring frontend. The current Authoring micro-frontend has no
-defined location to display Aside author UI. If your project depends on the
-new MFE for authoring, plan to render the Aside's author UI through a
-different mechanism, or accept that authors will use the legacy Studio for
-this part of the workflow.
+The Authoring micro-frontend has no native code for rendering or
+toggling Asides — it does not know Asides exist. What it does have is
+a unit editor that embeds the legacy Studio unit page in an iframe, so
+an Aside's ``author_view`` UI (a checkbox, a tag picker, whatever the
+Aside renders) shows up inside that embedded page when authors use the
+new MFE, exactly as it would in legacy Studio, gated by the same
+``StudioConfig`` setting. There is no separate MFE-specific toggle to
+configure. The embedded page and the MFE aren't otherwise isolated
+from each other, either — they already exchange at least one real
+``postMessage`` today. See :ref:`XBlock Asides Reference` for the full
+mechanics of both the Studio-side gate and this iframe relationship.
+
+A Host Block Vanishes Silently If Its Aside Is Uninstalled
+=============================================================
+
+If a course was authored with an Aside attached to one of its blocks,
+and that Aside is later uninstalled or its entry point renamed,
+re-importing the course does not raise any error — the import reports
+success. What actually happens is worse than losing the Aside's data:
+the **host block that carried the Aside is dropped from the course
+entirely**. It does not appear as an error block or a placeholder; it
+simply isn't there. There is no warning that anything was lost. If you
+depend on a course's blocks surviving its lifecycle, treat uninstalling
+or renaming an Aside that's in use as a breaking, silent change to
+every course that has it attached to a block, and audit affected
+courses before doing so.
 
 Not All XBlocks Round-Trip Through OLX
 ======================================
@@ -188,17 +252,31 @@ OLX export and import for asides depends on the host XBlock cooperating
 with the export process. Some XBlocks, including ORA2, do not preserve
 Aside data through their export and import paths. If your Aside must
 survive a course export and re-import on a course that uses one of these
-blocks, test the round trip end to end before depending on it.
+blocks, test the round trip end to end before depending on it. (This is
+a different failure mode from the previous limitation: here the host
+XBlock is present but doesn't cooperate with serialization; there, the
+Aside itself is simply gone.)
 
 Multiple Asides on a Single Block Are Not Reliable
 ==================================================
 
 The runtime supports multiple Aside types decorating the same block in
 principle, but interactions between asides on the same block are not
-well-tested. Two asides that both decorate ``student_view`` on the same
-block may render correctly in isolation and break when combined. If you
-need this, build a single Aside that composes both behaviors rather than
-relying on two independent asides to coexist.
+well-tested, and this goes deeper than rendering. Two Asides attached
+to the same block type that happen to declare an identically-named
+``Scope.content`` or ``Scope.settings`` field share the *same stored
+value* on the platform's Split modulestore, confirmed by directly
+installing `ol-openedx-chat`_ and `rapid-response-xblock`_ together
+with both fields renamed to ``enabled``: toggling one Aside's checkbox
+in Studio's author view visibly checks the other Aside's checkbox too,
+even though the two render entirely different markup and JavaScript.
+See :ref:`XBlock Asides Reference` for the mechanism. Two Asides that
+both decorate ``student_view`` can also render correctly in isolation
+and break when combined, independent of field naming. If you need
+multiple Asides on the same block type, give every field a name that's
+unlikely to collide with another installed Aside, and build a single
+Aside that composes the behaviors instead of relying on two independent
+Asides to coexist wherever you can.
 
 JavaScript Library Loading Is Limited
 =====================================
@@ -216,11 +294,12 @@ If you are ready to build an Aside, start with :ref:`XBlock Aside Quickstart`.
 If you already have a target XBlock in mind and want a step-by-step recipe, read
 :ref:`Add an XBlock Aside`. For the complete list of classes, decorators,
 methods, and entry points, consult :ref:`XBlock Asides Reference`. The
-`StructuredTagsAside`_ may also be a helpful reference.
+`rapid-response-xblock`_, `ol-openedx-chat`_, and `StructuredTagsAside`_
+implementations described above are also worth reading directly as
+reference material.
 
 .. _rapid-response-xblock: https://github.com/mitodl/open-edx-plugins/tree/main/src/rapid_response_xblock
 .. _ol-openedx-chat: https://github.com/mitodl/open-edx-plugins/tree/main/src/ol_openedx_chat
-.. _xblock-sdk: https://github.com/openedx/xblock-sdk
 .. _StructuredTagsAside: https://github.com/openedx/openedx-platform/blob/release/verawood/cms/lib/xblock/tagging/tagging.py#L17
 
 .. seealso::
