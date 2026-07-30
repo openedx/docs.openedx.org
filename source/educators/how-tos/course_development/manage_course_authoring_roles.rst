@@ -14,7 +14,7 @@ Course Authoring is enabled for your site.
     This feature is not enabled by default, and must be enabled by your site administrator. See:
     :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it. For more on what's included in this
-    release, see :ref:`Verawood Course Authoring Roles`.
+    release, see :ref:`Introducing More Granular Team Management`.
 
 .. contents::
   :local:

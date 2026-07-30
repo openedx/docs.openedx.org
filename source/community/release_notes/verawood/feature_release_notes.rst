@@ -11,6 +11,7 @@ Open edX Verawood Release - Product Release Notes
    verawood_rp
    ai_extension_framework
    new_instructor_dashboard
+   verawood_lti_cert
    copyright_acceptance
 
 Information for site operators and developers, including information on how to
