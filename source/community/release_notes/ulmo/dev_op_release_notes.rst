@@ -1317,11 +1317,13 @@ See the `Build Test Release project board <https://github.com/orgs/openedx/proje
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|  Dec  2025   |  BTR                          |  Ulmo          | Pass                           |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+|2026-07-30    | BTR WG                        | Verawood       | Deprecated: Not the latest release |
++--------------+-------------------------------+----------------+------------------------------------+
+|  Dec  2025   |  BTR                          |  Ulmo          | Pass                               |
++--------------+-------------------------------+----------------+------------------------------------+
 
 .. _lms/envs/common.py (line 3659): https://github.com/openedx/edx-platform/blob/cf48323639bf24eed5ef120dfbd9e98cf0fd64af/lms/envs/common.py#L3659
 .. _lms/envs/common.py (line 605): https://github.com/openedx/edx-platform/blob/cf48323639bf24eed5ef120dfbd9e98cf0fd64af/lms/envs/common.py#L605
