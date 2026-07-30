@@ -10,7 +10,7 @@ and libraries in Studio. This article describes the main areas of the console:
 the Team Members tab, the Roles and Permissions tab, and the user audit view.
 
 .. note::
-    This feature is not enabled by default. See the operator release notes:
+    This feature is not enabled by default, and must be enabled by your site administrator. See
     :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it. For more on what's included in this
     release, see :ref:`Verawood Course Authoring Roles`.
@@ -60,10 +60,8 @@ selector to navigate through results.
     The table only shows users with a role on the courses and libraries you
     have access to. You may not see all users on your platform.
 
-.. note::
-    For a role assignment tied to a course where the Course Authoring flag
-    is disabled, the option to open the audit view is unavailable, with a
-    message explaining why.
+    Additionally, if the feature is not enabled for a specific course, the option to open the audit view is unavailable.
+    A message explains why. Please contact your site administrator to :ref:`enable the feature <Enabling RBAC in Verawood>`.
 
 Search and Filters
 ==================
@@ -199,5 +197,5 @@ it opens the Assign Role wizard.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| [DATE]       | [REVIEWER]                    |   Verawood     | [PASS/FAIL]                    |
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

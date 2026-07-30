@@ -91,10 +91,8 @@ access**.
     Course Admin and Course Staff roles available there.
 
     The Roles and Permissions console (called the Administrative Console in
-    earlier releases) is not enabled by default. See the operator release
-    notes:
-    :ref:`Enabling RBAC in Verawood`
-    for instructions on how to enable it.
+    earlier releases) is not enabled by default and must be enabled by your site administrator. See
+    :ref:`Enabling RBAC in Verawood` for instructions on how to enable it.
 
 .. seealso::
 
@@ -110,9 +108,9 @@ access**.
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                                                          |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/07/2025   | Leira (Curricu.me)            | Sumac          | Fail (https://github.com/openedx/docs.openedx.org/issues/881) |
-+--------------+-------------------------------+----------------+---------------------------------------------------------------+
-| [DATE]       | [REVIEWER]                    | Verawood       | [PASS/FAIL]                                                   |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

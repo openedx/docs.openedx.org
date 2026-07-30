@@ -131,9 +131,8 @@ Course Authoring Roles Under the New Roles and Permissions System
 
 .. note::
     These roles are available when your platform has enabled Course
-    Authoring — an opt-in feature disabled by default. See the operator
-    release notes:
-    :ref:`Enabling RBAC in Verawood`
+    Authoring — an opt-in feature disabled by default.
+    This must be enabled by your site administrator. See :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it. The legacy Staff and Admin roles
     remain available on platforms that have not yet enabled this feature.
 
@@ -176,9 +175,9 @@ and exporting course content.
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                    |
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                                                             |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
 | 2025-04-13   | sarina                        | Sumac          | Pass                                                             |
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+
 | 2025-03-07   | Docs WG                       |  Sumac         | `Fail <https://github.com/openedx/docs.openedx.org/issues/958>`_ |
-+--------------+-------------------------------+----------------+------------------------------------------------------------------+
-| [DATE]       | [REVIEWER]                    | Verawood       | [PASS/FAIL]                                                      |
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+

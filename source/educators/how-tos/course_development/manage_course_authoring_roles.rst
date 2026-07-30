@@ -11,7 +11,7 @@ release. Whether these roles or the ones described in
 Course Authoring is enabled for your site.
 
 .. note::
-    This feature is not enabled by default. See the operator release notes:
+    This feature is not enabled by default, and must be enabled by your site administrator. See:
     :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it. For more on what's included in this
     release, see :ref:`Verawood Course Authoring Roles`.
@@ -63,7 +63,7 @@ For a detailed description of the console and its filters, see
 Assign a Role
 **************
 
-Only Course Admins and global site admins can assign roles.
+Only :ref:`Course Admins <Manage Course Authoring Roles>` and global site admins can assign roles.
 
 #. In the Roles and Permissions console, select **Assign Role**.
 
@@ -90,10 +90,9 @@ Only Course Admins and global site admins can assign roles.
       :alt: Step 2 of the Assign Role wizard, showing a list of courses with checkboxes
 
    .. note::
-       The courses and organizations available here reflect where the Course
-       Authoring feature is actually enabled. If a role assignment doesn't
-       seem to take effect right away, check with your site operator — this
-       can happen briefly during a flag change.
+       The courses and organizations available in this view reflect where the Course
+       Authoring feature is enabled by your site administrator. If a role assignment doesn't
+       seem to take effect, check with your site administrator.
 
 #. Select **Save**. After saving, the new role assignments appear in the Team
    Members table and a confirmation message is shown.
@@ -149,5 +148,5 @@ Course Admins and global site admins can remove role assignments.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| [DATE]       | [REVIEWER]                    |   Verawood     | [PASS/FAIL]                    |
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
