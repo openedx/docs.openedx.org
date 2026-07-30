@@ -415,6 +415,8 @@ Administrators & Operators
   experience will be removed in Willow
   <https://github.com/openedx/openedx-platform/issues/36785>`_.
 
+.. _Enabling RBAC in Verawood:
+
 * **RBAC AuthZ for Course Authoring (opt-in).** Verawood introduces a new,
   opt-in, RBAC-based authorization system for course authoring in Studio,
   powered by `openedx-authz <https://github.com/openedx/openedx-authz>`_.

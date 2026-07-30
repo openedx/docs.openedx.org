@@ -11,7 +11,7 @@ the Team Members tab, the Roles and Permissions tab, and the user audit view.
 
 .. note::
     This feature is not enabled by default. See the operator release notes:
-    https://openedx.atlassian.net/wiki/spaces/OEPM/pages/6331662350/RBAC+AuthZ+for+Course+Authoring+-+Operator+Release+Notes#Enabling-the-Feature-Flag
+    :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it. For more on what's included in this
     release, see :ref:`Verawood Course Authoring Roles`.
 

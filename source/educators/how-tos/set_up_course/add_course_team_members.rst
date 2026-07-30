@@ -93,7 +93,7 @@ access**.
     The Roles and Permissions console (called the Administrative Console in
     earlier releases) is not enabled by default. See the operator release
     notes:
-    https://openedx.atlassian.net/wiki/spaces/OEPM/pages/6331662350/RBAC+AuthZ+for+Course+Authoring+-+Operator+Release+Notes#Enabling-the-Feature-Flag
+    :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it.
 
 .. seealso::

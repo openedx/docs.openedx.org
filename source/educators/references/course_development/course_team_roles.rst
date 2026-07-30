@@ -133,7 +133,7 @@ Course Authoring Roles Under the New Roles and Permissions System
     These roles are available when your platform has enabled Course
     Authoring — an opt-in feature disabled by default. See the operator
     release notes:
-    https://openedx.atlassian.net/wiki/spaces/OEPM/pages/6331662350/RBAC+AuthZ+for+Course+Authoring+-+Operator+Release+Notes#Enabling-the-Feature-Flag
+    :ref:`Enabling RBAC in Verawood`
     for instructions on how to enable it. The legacy Staff and Admin roles
     remain available on platforms that have not yet enabled this feature.
 

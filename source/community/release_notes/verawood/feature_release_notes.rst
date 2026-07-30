@@ -12,7 +12,6 @@ Open edX Verawood Release - Product Release Notes
    new_instructor_dashboard
    verawood_lti_cert
    copyright_acceptance
-   verawood_console
    verawood_rp
 
 Information for site operators and developers, including information on how to
