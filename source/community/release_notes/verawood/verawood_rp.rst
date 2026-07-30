@@ -13,8 +13,9 @@ Permissions Console", it adds new roles that can be applied across Studio.
     :alt: The Team Members tab of the Roles and Permissions console, showing course team members
 
     The Team Members tab of the Roles and Permissions console. This is the Admin
-    view; users with less access will only see users who have access to the
-    specific organization(s), course(s), and/or librar(ies) they have access to.
+    view; you only see the role assignments associated with the course(s) and/or
+    librar(ies) you have access to, not any other roles those users may have
+    on other organizations, courses, or libraries.
 
 You can now assign two new roles, Course Admin or Course Staff, to one or
 multiple users and apply them at multiple levels (full instance, a specific
@@ -74,6 +75,12 @@ Editor” role applied over a different course in a different organization.
 
 .. image:: /_images/release_notes/verawood/rp_console_roles.png
     :alt: A screenshot illustrating the above paragraph
+
+Note: if you have a role for a course or library, this view allows you to see
+users who have roles related to that same course or library. You only see the
+role assignments associated with the course(s) and/or librar(ies) you have
+access to, not any other roles those users may have on other organizations,
+courses, or libraries.
 
 The Roles and Permissions console is where you can examine the users who have
 access to your system: their role, which organization it applies to, and the scope
