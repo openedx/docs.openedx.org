@@ -11,17 +11,12 @@ Permissions Console", it adds new roles that can be applied across Studio.
 
 .. image:: /_images/educator_how_tos/console_course_team_members.png
     :alt: The Team Members tab of the Roles and Permissions console, showing course team members
-    :width: 800
 
-You can now assign two new roles, :ref:`Course Admin or Course Staff <Course
-Authoring Roles>`, to one or multiple users and apply them at multiple levels
-(full instance, a specific organization, or a specific course) — all in a single
-action. Granting a role at the organization level covers both existing courses and
-any courses created in that organization afterward.
-
-**Course Admin** and **Course Staff** are the new system's equivalents of the
-legacy Admin and Staff roles for a course: same responsibilities, new assignment
-mechanism.
+You can now assign two new roles, Course Admin or Course Staff, to one or
+multiple users and apply them at multiple levels (full instance, a specific
+organization, or a specific course) — all in a single action. Granting a role at
+the organization level covers both existing courses and any courses created in
+that organization afterward.
 
 This feature is opt-in and disabled by default. It can be enabled across your
 whole instance, or for one or more specific organizations or courses, and must be
@@ -37,7 +32,9 @@ access in Studio.
 **Course Staff** is the new-system equivalent of the legacy Staff role: full
 course lifecycle management in Studio.
 
-For a full breakdown of what each role can do, see :ref:`Course Authoring Roles
+**Course Admin** and **Course Staff** are the new system's equivalents of the
+legacy Admin and Staff roles for a course: same responsibilities, new assignment
+mechanism. For a full breakdown of what each role can do, see :ref:`Course Authoring Roles
 Under the New Roles and Permissions System <New System Course Authoring Roles>`.
 
 What's Available in Verawood
@@ -73,7 +70,6 @@ organizations, with a “Global” scope. The next user, “KellyKapoor”, has 
 
 .. image:: /_images/release_notes/verawood/rp_console_roles.png
     :alt: A screenshot illustrating the above paragraph
-    :width: 800
 
 The Roles and Permissions console is where you can examine the users who have
 access to your system: their role, which organization it applies to, and the scope
