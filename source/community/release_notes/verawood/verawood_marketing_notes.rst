@@ -36,6 +36,11 @@ Find what you need faster with sortable, searchable tables, streamlined page
 actions, and tabbed content grouping — plus clearer tool names like Course Team,
 Enrollments, and Grading that keep related actions together.
 
+:ref:`Tag Content and Manage Taxonomies Without Leaving Studio <Verawood Tagging>`:
+Apply tags at any course level via the new Align sidebar, view applied tags at a
+glance in the Info sidebar, and edit taxonomies directly in-platform—no more
+exporting and re-importing CSV files.
+
 :ref:`Reuse and Simplify LTI Setup <Verawood LTI Improvements>`:
 Duplicate fully configured LTI blocks across any course on your site and set up
 new integrations faster with a simplified, tabbed interface that only shows the
