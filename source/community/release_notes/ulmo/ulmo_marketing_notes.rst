@@ -60,17 +60,11 @@ and extension by your development or operations team.
 🔮 Upcoming in Verawood (June 2026)
 ************************************
 
-We're working hard on even more improvements in our Verawood release! You can look
-forward to:
+We're working hard on even more improvements in our :ref:`Verawood release (out
+now) <Verawood Product Marketing Notes>`! You can look forward to:
 
 **Roles and Permissions Improvements in Studio**: A more granular, nuanced way
 of granting privileges to course staff and instructors.
-
-**Modular Pathway Support**: This initiative aims to create a unified,
-generalized, flexible way for course teams, instructional designers and
-administrators to sequence, bundle and deliver learning pathways, including
-microcredentials, small courses, pathways and more. For Verawood, the Open edX
-platform will support stackable pathways for programs.
 
 **Instructor Dashboad Overhaul**: A beautiful, themeable Instructor Dashboard
 with numerous usability improvements is coming your way.

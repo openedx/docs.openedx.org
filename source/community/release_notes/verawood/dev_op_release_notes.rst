@@ -571,6 +571,8 @@ run migrations.
   validation, since Casbin state can lag behind the flag when automatic
   migration is disabled or the global flag changes.
 
+.. _frontend-base in Verawood:
+
 Frontend-base
 *************
 

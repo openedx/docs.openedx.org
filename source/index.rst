@@ -16,17 +16,17 @@ Open edX Documentation
          :maxdepth: 1
          :hidden:
 
-         📰 What's New? <community/release_notes/ulmo/ulmo_marketing_notes>
+         📰 What's New? <community/release_notes/verawood/verawood_marketing_notes>
 
-      The Open edX Ulmo release is out, featuring:
+      The Open edX Verawood release is out, featuring:
 
-      🔔 Platform & Email Notifications!
+      🤖 Native, Extendable AI Capabilities for Learners and Authors
 
-      📚 Section Reuse and Granular Permissions with Libraries!
+      👥 Streamlined Team Role Management
 
-      🚀 Reusable LTI Configuration!
+      📊 A Modernized Instructor Dashboard
 
-      ... and lots more! :ref:`Continue reading... <Ulmo Product Marketing Notes>`
+      ... and lots more! :ref:`Continue reading... <Verawood Product Marketing Notes>`
 
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
