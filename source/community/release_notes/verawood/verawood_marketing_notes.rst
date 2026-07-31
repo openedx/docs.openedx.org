@@ -25,6 +25,12 @@ View content details, add new or library components, apply taxonomy tags, and
 access analytics—all from one resizable sidebar that updates instantly as you
 navigate your course outline or unit pages.
 
+:ref:`Libraries, Better Integrated Everywhere in Studio <Verawood Libraries>`:
+Search and insert library content directly from the sidebar, spot
+library-sourced elements at a glance, publish confidently with contributor
+visibility across affected courses, and review full version history with
+side-by-side diffs.
+
 :ref:`A Modernized Instructor Dashboard <New Instructor Dashboard Experience>`:
 Find what you need faster with sortable, searchable tables, streamlined page
 actions, and tabbed content grouping — plus clearer tool names like Course Team,
