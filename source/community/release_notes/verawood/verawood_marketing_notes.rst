@@ -20,6 +20,11 @@ to a content library for reuse across courses. Since the framework is open for
 extension, your developers can build custom AI workflows that work directly in
 author- or learner-facing platform areas.
 
+:ref:`A Smarter, Contextual Sidebar in Studio <Verawood New Studio Sidebar>`:
+View content details, add new or library components, apply taxonomy tags, and
+access analytics—all from one resizable sidebar that updates instantly as you
+navigate your course outline or unit pages.
+
 :ref:`A Modernized Instructor Dashboard <New Instructor Dashboard Experience>`:
 Find what you need faster with sortable, searchable tables, streamlined page
 actions, and tabbed content grouping — plus clearer tool names like Course Team,
