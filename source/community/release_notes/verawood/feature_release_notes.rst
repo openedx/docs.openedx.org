@@ -14,6 +14,7 @@ Open edX Verawood Release - Product Release Notes
    lti_notifications
    verawood_lti_cert
    copyright_acceptance
+   verawood_frontend_plugin_slots
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
