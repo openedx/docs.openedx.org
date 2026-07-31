@@ -12,17 +12,17 @@ while making everyday tasks simpler. Here's what's ready for you now:
 :ref:`Streamlined Team Management, Starting with Studio <Introducing More Granular Team Management>`: Assign
 Course Admin or Course Staff roles to multiple users across organizations,
 courses, and libraries in a single action — with a unified console for auditing
-who has access to what, and automatic migration of existing role assignments.
+who has access to what and automatic migration of existing role assignments.
 
 :ref:`AI-Powered Question Generation, Built to Extend <AI Extensions Framework (Verawood)>`:
 Generate and review AI-drafted multiple-choice questions right in Studio, saved
 to a content library for reuse across courses. Since the framework is open for
 extension, your developers can build custom AI workflows that work directly in
-author or learner facing platform areas.
+author- or learner-facing platform areas.
 
 :ref:`A Modernized Instructor Dashboard <New Instructor Dashboard Experience>`:
 Find what you need faster with sortable, searchable tables, streamlined page
-actions, and tabbed content grouping—plus clearer tool names like Course Team,
+actions, and tabbed content grouping — plus clearer tool names like Course Team,
 Enrollments, and Grading that keep related actions together.
 
 :ref:`Reuse and Simplify LTI Setup <Verawood LTI Improvements>`:
@@ -30,8 +30,8 @@ Duplicate fully configured LTI blocks across any course on your site and set up
 new integrations faster with a simplified, tabbed interface that only shows the
 settings you need.
 
-:ref:`LTI Certified ✅ <Verawood LTI Certification>`: The Open edX Verawood Release
-has achieved the `LTI Advantage Complete
+:ref:`Learning Tools Interoperability (LTI) Certified ✅ <Verawood LTI Certification>`:
+The Open edX Verawood Release has achieved the `LTI Advantage Complete
 <https://www.imsglobal.org/lti-advantage-overview>`_ certification!
 
 :ref:`Require Agreement Acceptance Before Uploads <Verawood Copyright Acceptance>`:
@@ -50,17 +50,17 @@ content, without ever leaving the page. Fully configurable with your choice of
 OpenAI, Anthropic, or self-hosted models.
 
 :ref:`Smarter Notifications for Learners and Authors <Verawood Notifications Improvements>`:
-Learners get ORA reminders, digest emails that reduce noise, and the ability to
-unsubscribe from their own post notifications — while course authors now have
-visibility into course activity right in Studio.
+Learners get open response assessment (ORA) reminders, digest emails that reduce
+noise, and the ability to opt out of their own post notifications — while course
+authors now have visibility into course activity right in Studio.
 
 ⚙️ For Site Operators 
 **********************
 
-:ref:`Faster builds and reduced page load time with frontend-base <frontend-base in Verawood>`: This
-new frontend architecture paradigm is now available for site operators to test
-out. We encourage operators to enable frontend-base on staging or sandbox
-instances and provide feedback on the `Open edX forums
+:ref:`Faster Builds and Reduced Page Load Time with frontend-base <frontend-base in Verawood>`: This
+new frontend architecture paradigm is now available for site operators to test.
+We encourage operators to enable frontend-base on staging or sandbox instances
+and provide feedback on the `Open edX forums
 <https://discuss.openedx.org/c/working-groups/fe-wg/37>`_.
 
 
@@ -70,23 +70,24 @@ instances and provide feedback on the `Open edX forums
 We're working hard on even more improvements in our Willow release! You can look
 forward to:
 
-**Modular Pathway Support**: This initiative aims to create a unified,
-generalized, flexible way for course teams, instructional designers and
-administrators to sequence, bundle and deliver learning pathways, including
-microcredentials, small courses, pathways and more. For Willow, the Open edX
-platform will support stackable pathways for programs.
+**Modular Pathway Support**: This initiative aims to create a unified and
+flexible way for course teams, instructional designers, and administrators to
+sequence, bundle and deliver learning pathways, including microcredentials,
+small courses, and more. For Willow, the Open edX platform will support
+stackable pathways for programs.
 
-**Competency Frameworks**: Competency based education (CBE) is a flexible and
-efficient model of learning that focuses on skills mastery over seat time or
-semesters. Designed around skills-aligned assessment, it can more accurately and
+**Competency Frameworks**: Competency-based education (CBE) is a flexible and
+efficient model of learning that focuses on skills mastery over seat time.
+Designed around skills-aligned assessment, it can more accurately and
 incrementally direct learners to job opportunities. The Willow release marks a
 huge first step into native CBE support in the Open edX platform: attaching
-competencies with assessment criteria to courses, tracking learner attainments,
-and tracking learner progress through their attained skills.
+competencies with assessment criteria to courses and tracking learner progress
+through their attained skills.
 
 **Roles and Permissions Improvements in Studio**: New Studio roles are planned
-to separate authoring responsibilities from managing an active course, and to
-introduce a read-only role for reviewing course content in Studio.
+to separate authoring responsibilities from the day-to-day responsibilities of
+managing an active course, and to introduce a read-only role for reviewing
+course content in Studio.
 
 **Your Open edX Instance As An LTI Provider**: Work to enable Open edX
 Studio and Libraries to function as an LTI Provider with an intuitive course
