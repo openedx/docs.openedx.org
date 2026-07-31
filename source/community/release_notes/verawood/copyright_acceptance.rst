@@ -8,9 +8,24 @@ user can access the file or video upload pages for a course in Studio. This
 can be used to gate access to these features behind acceptance of terms and
 conditions, such as a copyright agreement or fair use policy.
 
+.. note::
+
+   While this feature does not prevent copyright violations or eliminate risk,
+   it gives organizations a transparent way to set expectations, surface policy,
+   and log acknowledgment activity as part of their broader governance
+   practices.
+
+   Open edX operators remain responsible for ensuring their instances comply
+   with applicable laws and regulations in their jurisdictions.
+
 When configured, users see an alert on the upload page, and the file or video
 management UI is blurred and disabled. Once users accept the agreement, the
 alert disappears and the UI becomes fully available.
+
+.. figure:: /_images/release_notes/verawood/copyright_acceptance.png
+   :align: center
+
+   One or more custom agreements may be displayed on the files and video upload pages within a Studio course.
 
 You can use the same agreement or different agreements for both pages, and you
 can require multiple agreements for either or both pages. No agreements are

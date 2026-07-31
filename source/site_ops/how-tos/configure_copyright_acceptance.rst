@@ -66,8 +66,13 @@ Prompt Users to Re-accept an Updated Agreement
 ***********************************************
 
 If you update an agreement and need users to re-accept it, update the
-agreement's **updated date** field. Any user who accepted the agreement before
-that date will be prompted to re-accept.
+agreement's **updated date** field in the admin panel where you add or edit an
+agreement. Any user who accepted the agreement before that date will be prompted
+to re-accept.
+
+For changes that don't require users to re-accept the agreement (such as a minor
+spelling correction or formatting fix), you can keep the original update date
+and users won't need to accept it again.
 
 **Maintenance chart**
 
