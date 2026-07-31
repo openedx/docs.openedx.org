@@ -12,6 +12,9 @@ Configure Open edX Discussions
 
 To open the Open edX discussions configuration page, follow these steps.
 
+To use a third-party discussion provider instead, see
+:ref:`Configure an LTI Discussion Provider`.
+
 1. Open your course in Studio.
 
 2. Select **Content**, then **Pages & Resources**.
@@ -228,6 +231,8 @@ that are anonymous to other learners, as seen below.
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2026-07-31   | Aamir Ayub                    | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-03-20   | Documentation WG              | Sumac          | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

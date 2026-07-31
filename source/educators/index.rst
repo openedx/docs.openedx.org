@@ -195,11 +195,12 @@ Open edX Educators
 .. toctree::
    :maxdepth: 1
 
+   navigation/creating_course
+   navigation/content_creation_management
+   navigation/components_activities
    navigation/accessibility
    navigation/advanced_features
-   navigation/components_activities
-   navigation/content_creation_management
-   navigation/creating_course
-   navigation/data_analytics
+   navigation/lti
    navigation/learner_engagement_communication
+   navigation/data_analytics
    navigation/olx
