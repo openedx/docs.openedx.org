@@ -3,8 +3,6 @@
 Open edX Verawood Developer & Operator Release Notes
 #####################################################
 
-*Releasing June, 2026!*
-
 These are the developer & operator release notes for the Verawood release, the 22nd
 community release of the Open edX Platform, spanning changes from October 30,
 2025 to April 9, 2026. You can also review details about :ref:`Open edX Release Notes` or
@@ -206,9 +204,8 @@ Deprecations & Removals
   remove those cron jobs after upgrading. By default, daily digests are
   delivered at 17:00 UTC, and weekly digests are delivered on Monday at
   17:00 UTC. See `edx-platform PR #38185
-  <https://github.com/openedx/edx-platform/pull/38185>`_ and `Configure
-  Notification Email Delivery
-  <https://docs.openedx.org/en/latest/site_ops/how-tos/enable_notifications.html#configure-notification-email-delivery>`_.
+  <https://github.com/openedx/edx-platform/pull/38185>`_ and :ref:`Configure
+  Notification Email Delivery <Configure Notification Email Delivery>`.
 
   * ``NOTIFICATION_DAILY_DIGEST_DELIVERY_HOUR`` (default ``17``): hour of
     day, in UTC, to send daily digest emails.
@@ -337,14 +334,12 @@ Administrators & Operators
 **************************
 
 * **PostgreSQL is now supported as a backend (fresh installs only).** For more
-  detail see the `Use PostgreSQL how-to
-  <https://docs.openedx.org/en/latest/site_ops/how-tos/use_postgresql.html>`_.
+  detail see the :ref:`Use PostgreSQL how-to <use postgresql>`.
 
 * **Notification preference defaults can now be managed at the instance
   level.** Operators can override default preferences for existing
   notification applications and notification types without code changes.
-  See `how to override default notification preferences
-  <https://docs.openedx.org/en/latest/site_ops/how-tos/enable_notifications.html#how-to-override-default-notification-preferences>`_.
+  See :ref:`Configure Default Notification Preferences`.
 
   * ``NOTIFICATION_APPS_OVERRIDE`` (default ``{}``): overrides default
     preferences for existing notification applications. Supported override
@@ -367,8 +362,7 @@ Administrators & Operators
 * **ORA reminder notifications are now available.** Learners who submit an
   Open Response Assessment but still need to complete required peer or self
   review steps can receive ``ora_reminder`` web and email notifications. See
-  `Configure ORA Reminder Notifications
-  <https://docs.openedx.org/en/latest/site_ops/how-tos/enable_notifications.html#configure-ora-reminder-notifications>`_.
+  :ref:`Configure ORA Reminder Notifications <ora-reminder-notifications>`.
 
   * ``ENABLE_ORA_REMINDERS`` (default ``True``): enables scheduled ORA
     reminder notifications for learners who need to complete peer or self
@@ -392,13 +386,13 @@ Administrators & Operators
   implementation will likely work as a drop-in replacement, so you can
   uninstall the third-party implementation.
 
-  If you'd rather continue using a third-party pdf implementation, then
-  follow the steps to replace a preinstalled XBlock with a custom
-  implementation. In either case, the third-party implementation must be
-  removed from the ``xblock.v1`` entrypoint, otherwise you will see an
-  ``AmbiguousPluginError``. Additionally, you will want to enable the
-  ``legacy_studio.pdf_editor`` toggle to allow the third-party pdf
-  implementation to render its editor.
+  If you'd rather continue using a third-party pdf implementation, then :ref:`follow
+  the steps to replace a preinstalled XBlock with a custom implementation
+  <xblock:Replace a Preinstalled XBlock With a Custom Implementation>`.
+  In either case, the third-party implementation must be removed from the
+  ``xblock.v1`` entrypoint, otherwise you will see an ``AmbiguousPluginError``.
+  Additionally, you will want to enable the ``legacy_studio.pdf_editor`` toggle
+  to allow the third-party pdf implementation to render its editor.
 
 * **New Instructor Dashboard MFE is the default experience.** The new
   instructor dashboard MFE will be the default experience in Verawood. The
@@ -574,8 +568,7 @@ frontend apps to be loaded as direct plugins within a unified "shell,"
 rather than as separate, independently deployed MFEs. There are several
 advantages to this paradigm, including improved learner UX, reduced page
 load time, faster builds, and a broader-scoped plugin API. For more
-information on what motivated this change, see `OEP-65
-<https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0065-arch-frontend-composability.html>`_.
+information on what motivated this change, see :ref:`openedx-proposals:OEP-65 Frontend Composability`.
 
 In practice, frontend apps are NPM packages that plug into a single
 frontend-base site. Verawood ships with four of these:
@@ -648,12 +641,6 @@ Google Analytics dynamically on both MFEs and frontend apps:
 `tutor-contrib-google-analytics
 <https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-google-analytics>`_.
 
-Settings and Toggles
-********************
-
-Developer Experience
-********************
-
 Known Issues
 ************
 
@@ -661,8 +648,8 @@ See the `Build Test Release project board <https://github.com/orgs/openedx/proje
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+|2026-07-30    | BTR WG                        | Verawood       | Pass                               |
++--------------+-------------------------------+----------------+------------------------------------+
