@@ -5,9 +5,9 @@
 Add LTI Tools to Course Navigation
 ##################################
 
-Add a supported LTI tool to the course navigation when learners should open it
-as a course-level page. Open edX supports third-party discussion and video
-conferencing tools in course navigation.
+Use this path when learners should open an LTI tool as a course-level page.
+Open edX currently supports third-party discussion and video conferencing
+tools in course navigation.
 
 .. toctree::
    :maxdepth: 1

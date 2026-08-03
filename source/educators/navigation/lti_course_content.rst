@@ -7,7 +7,7 @@ Add LTI Tools to Course Content
 
 Use an LTI component when learners should open a third-party tool from a unit
 in your course. Start with the component overview, then choose the setup method
-that matches your tool and Open edX site.
+based on the tool and your Open edX instance.
 
 .. toctree::
    :maxdepth: 1
