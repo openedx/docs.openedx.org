@@ -157,7 +157,6 @@ This section describes the various exercises, tools, and problem types that you 
    /educators/how-tos/course_development/exercise_tools/add_google_drive.rst
    /educators/how-tos/course_development/exercise_tools/create_iframe.rst
    /educators/references/course_development/exercise_tools/image_mapped_input_xml.rst
-   /educators/concepts/exercise_tools/about_lti_component.rst
    /educators/references/course_development/exercise_tools/math_expression_input_xml.rst
    /educators/how-tos/course_development/exercise_tools/add_mathjax.rst
    /educators/references/course_development/exercise_tools/multi_select_xml.rst
@@ -198,4 +197,3 @@ The topics in this section describe how to use OLX (open learning XML) to create
    /educators/how-tos/advanced_features/manage_content_experiments.rst
    /educators/how-tos/advanced_features/add_content_experiments_olx.rst
    ../olx/content-experiments/content_experiments_test_olx.rst
-

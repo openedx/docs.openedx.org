@@ -1,7 +1,8 @@
 .. _Using your Open edX instance as an LTI Tool Provider:
+.. _Open edX platform as an LTI Tool Provider:
 
-Your instance as an LTI Tool Provider
-######################################
+Open edX platform as an LTI Tool Provider
+#########################################
 
 .. tags:: educator, concept
 
@@ -128,7 +129,7 @@ You'll need to construct these yourself using the course ID and usage ID. See :r
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Reviewer                      |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-| 2026-05-06   | Aamir Ayub                    | Verawood       |  Pass                          |
+| 2026-08-03   | Aamir Ayub                    | Verawood       |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-06-04   | MITx                          | Teak           |  Pass                          |
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -39,10 +39,13 @@ Other providers and configuration options can be selected to fit the needs of co
 In this step, educators can select to use the default Open edX discussion experience or LTI based integrations with other providers.
 Below the grid of available providers is a table summarizing the features each integration provides.
 
+For instructions on using a third-party provider, see
+:ref:`Configure an LTI Discussion Provider`.
+
 **Step 2: Configuration Options**
 
 Each provider supports its own set of features depending on the discussion features they support. The default Open edX discussion application has various settings and controls that are described below.
-All integrations use LTI 1.1 configuration, and may additionally support platform settings from the list below. Any special instructions or details specific to a given provider are described in this step as well.
+The available settings depend on the selected provider.
 
 **Anonymous Posting**
 
@@ -127,6 +130,8 @@ To learn about Flexible Peer Grading and the course override setting, see  :ref:
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 2026-07-31   | Aamir Ayub                    | Verawood       | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 07/23/2025   | Leira (Curricu.me)            | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

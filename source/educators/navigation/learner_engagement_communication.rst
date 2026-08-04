@@ -29,6 +29,9 @@ Course Discussions
    ../how-tos/communication/setup_cohorted_discussions.rst
    ../references/communication/managing_divided_discussions.rst
 
+To replace Open edX Discussions with a third-party tool, see
+:ref:`Configure an LTI Discussion Provider`.
+
 .. _Bulk Emails:
 
 Bulk Emails
@@ -91,11 +94,8 @@ Course Wiki
 Adding Live Sessions
 *******************************************************
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../how-tos/course_development/add_course_live.rst
+Use an LTI video conferencing tool to host live course sessions. See
+:ref:`Course Live`.
 
 Embed a Google Calendar
 *******************************************************
