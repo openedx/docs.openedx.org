@@ -415,155 +415,161 @@ Administrators & Operators
   experience will be removed in Willow
   <https://github.com/openedx/openedx-platform/issues/36785>`_.
 
-* **RBAC AuthZ for Course Authoring (opt-in).** Verawood introduces a new,
-  opt-in, RBAC-based authorization system for course authoring in Studio,
-  powered by `openedx-authz <https://github.com/openedx/openedx-authz>`_.
-  This replaces the legacy ``CourseAccessRole``-based permission model with a
-  more granular, role-based system. See `ADR: AuthZ for Course Authoring
-  Implementation Plan
-  <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0009-authz-for-course-authoring.rst>`_.
 
-  This flag will be turned on by default in the next release, Willow, and
-  the legacy permission system will be removed in Xylon (June 2027). To set up an
-  individual course, a specific organization, or your whole site to use the
-  new system, you need to both enable the appropriate feature flag(s) and
-  run migrations.
+.. _Enabling RBAC in Verawood:
 
-  * **Enabling the feature flag.** The feature is controlled by the waffle
-    flag ``authz.enable_course_authoring``, which can be enabled at three
-    levels of granularity (course, organization, global). When disabled (the
-    default), the legacy permission system remains in effect and no behavior
-    changes.
+Enabling RBAC in Verawood
+*************************
 
-    * Course-level: add a "Waffle flag course override" at
-      ``/admin/waffle_utils/waffleflagcourseoverridemodel/`` for
-      ``authz.enable_course_authoring``, with the course key, "Force
-      On"/"Force Off", marked "Enabled".
-    * Org-level: add a "Waffle flag org override" at
-      ``/admin/waffle_utils/waffleflagorgoverridemodel/`` the same way,
-      using the org short name.
-    * Global: add a Flag named ``authz.enable_course_authoring`` at
-      ``/admin/waffle/flag/`` with "Everyone" set to "Yes".
-    * Course and org overrides work as overrides over the global flag, not
-      independent switches. If the override is "Disabled", the effective
-      state follows the global flag. If the global flag is off, an override
-      "Enabled" + "Force On" turns the flag on for that scope; if the global
-      flag is on, "Enabled" + "Force Off" turns it off for that scope.
-    * Global enablement affects all courses on the instance. If automatic
-      migrations are not enabled (see below), you must run the migration
-      management commands manually before or after toggling the global flag.
+**RBAC AuthZ for Course Authoring (opt-in).** Verawood introduces a new,
+opt-in, RBAC-based authorization system for course authoring in Studio,
+powered by `openedx-authz <https://github.com/openedx/openedx-authz>`_.
+This replaces the legacy ``CourseAccessRole``-based permission model with a
+more granular, role-based system. See `ADR: AuthZ for Course Authoring
+Implementation Plan
+<https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0009-authz-for-course-authoring.rst>`_.
 
-    See `ADR: Feature Flag Implementation Details
-    <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0010-course-authoring-flag.rst>`_.
+This flag will be turned on by default in the next release, Willow, and
+the legacy permission system will be removed in Xylon (June 2027). To set up an
+individual course, a specific organization, or your whole site to use the
+new system, you need to both enable the appropriate feature flag(s) and
+run migrations.
 
-  * **Migrating permission data.** Existing legacy role assignments
-    (``CourseAccessRole``) must be migrated to ``openedx-authz`` when
-    enabling the new system. Two management commands are provided, scoped by
-    either ``--course-id-list`` or ``--org-id`` (mutually exclusive; one is
-    required):
+* **Enabling the feature flag.** The feature is controlled by the waffle
+  flag ``authz.enable_course_authoring``, which can be enabled at three
+  levels of granularity (course, organization, global). When disabled (the
+  default), the legacy permission system remains in effect and no behavior
+  changes.
 
-    * Forward migration (legacy to openedx-authz): ``./manage.py cms
-      authz_migrate_course_authoring --delete --course-id-list <course_key1>
-      [course_key2 ...]`` or ``--org-id <org_name>``
-    * Rollback migration (openedx-authz to legacy): ``./manage.py cms
-      authz_rollback_course_authoring --delete --course-id-list
-      <course_key1> [course_key2 ...]`` or ``--org-id <org_name>``
-    * Both accept ``--delete``, which removes the successfully migrated role
-      assignments from the source system after migration (prompts for
-      confirmation). Without ``--delete``, the migration copies but does not
-      move, and source records are preserved.
-    * Using ``--delete`` is strongly recommended. The system expects
-      permission data to exist in only one system at a time for a given
-      resource. If assignments remain in both systems they can diverge over
-      time: for example, a course may keep appearing in a user's Studio
-      course list after their permissions were removed in one system,
-      because the assignment still exists in the other. Running without
-      ``--delete`` should only be used for development/testing before the
-      definitive migration.
-    * Both operations run within a database transaction. During rollback,
-      roles that exist only in the new system (no legacy equivalent) remain
-      in ``openedx-authz`` and are not migrated back; warnings are logged.
+  * Course-level: add a "Waffle flag course override" at
+    ``/admin/waffle_utils/waffleflagcourseoverridemodel/`` for
+    ``authz.enable_course_authoring``, with the course key, "Force
+    On"/"Force Off", marked "Enabled".
+  * Org-level: add a "Waffle flag org override" at
+    ``/admin/waffle_utils/waffleflagorgoverridemodel/`` the same way,
+    using the org short name.
+  * Global: add a Flag named ``authz.enable_course_authoring`` at
+    ``/admin/waffle/flag/`` with "Everyone" set to "Yes".
+  * Course and org overrides work as overrides over the global flag, not
+    independent switches. If the override is "Disabled", the effective
+    state follows the global flag. If the global flag is off, an override
+    "Enabled" + "Force On" turns the flag on for that scope; if the global
+    flag is on, "Enabled" + "Force Off" turns it off for that scope.
+  * Global enablement affects all courses on the instance. If automatic
+    migrations are not enabled (see below), you must run the migration
+    management commands manually before or after toggling the global flag.
 
-    See `ADR: Migration Process Details
-    <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0011-course-authoring-migration-process.rst>`_.
+  See `ADR: Feature Flag Implementation Details
+  <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0010-course-authoring-flag.rst>`_.
 
-  * **Automatic migrations (opt-in).** Set
-    ``ENABLE_AUTOMATIC_AUTHZ_COURSE_AUTHORING_MIGRATION = True`` (default
-    ``False``) to have course/org-level flag toggles in Django Admin
-    automatically trigger the corresponding data migration (forward on
-    enable, rollback on disable). Migration status and errors are recorded
-    in the ``AuthzCourseAuthoringMigrationRun`` model, viewable in Django
-    Admin. A runtime constraint prevents concurrent migrations on the same
-    scope.
+* **Migrating permission data.** Existing legacy role assignments
+  (``CourseAccessRole``) must be migrated to ``openedx-authz`` when
+  enabling the new system. Two management commands are provided, scoped by
+  either ``--course-id-list`` or ``--org-id`` (mutually exclusive; one is
+  required):
 
-    * Automatic migration only applies to course-level and org-level flag
-      changes. Global (instance-wide) flag changes do not trigger it, due to
-      performance risk on large instances, and must be migrated manually
-      with the management commands above.
-    * This setting is disabled by default. Only enable it if you understand
-      that the migration then runs synchronously within the Django Admin
-      request.
+  * Forward migration (legacy to openedx-authz): ``./manage.py cms
+    authz_migrate_course_authoring --delete --course-id-list <course_key1>
+    [course_key2 ...]`` or ``--org-id <org_name>``
+  * Rollback migration (openedx-authz to legacy): ``./manage.py cms
+    authz_rollback_course_authoring --delete --course-id-list
+    <course_key1> [course_key2 ...]`` or ``--org-id <org_name>``
+  * Both accept ``--delete``, which removes the successfully migrated role
+    assignments from the source system after migration (prompts for
+    confirmation). Without ``--delete``, the migration copies but does not
+    move, and source records are preserved.
+  * Using ``--delete`` is strongly recommended. The system expects
+    permission data to exist in only one system at a time for a given
+    resource. If assignments remain in both systems they can diverge over
+    time: for example, a course may keep appearing in a user's Studio
+    course list after their permissions were removed in one system,
+    because the assignment still exists in the other. Running without
+    ``--delete`` should only be used for development/testing before the
+    definitive migration.
+  * Both operations run within a database transaction. During rollback,
+    roles that exist only in the new system (no legacy equivalent) remain
+    in ``openedx-authz`` and are not migrated back; warnings are logged.
 
-    See `ADR: Automatic Migration Details
-    <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0013-course-authoring-automatic-migration.rst>`_.
+  See `ADR: Migration Process Details
+  <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0011-course-authoring-migration-process.rst>`_.
 
-  * **Audit trail.** Role assignment and removal operations in
-    ``openedx-authz`` are now recorded in a ``RoleAssignmentAudit`` table
-    (operation type, affected user, role, scope, actor), registered in
-    Django Admin for inspection. An ``OpenedxPublicSignal`` is also emitted
-    on every role lifecycle event for downstream consumers. See `ADR:
-    Auditability
-    <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0012-auditability.rst>`_.
+* **Automatic migrations (opt-in).** Set
+  ``ENABLE_AUTOMATIC_AUTHZ_COURSE_AUTHORING_MIGRATION = True`` (default
+  ``False``) to have course/org-level flag toggles in Django Admin
+  automatically trigger the corresponding data migration (forward on
+  enable, rollback on disable). Migration status and errors are recorded
+  in the ``AuthzCourseAuthoringMigrationRun`` model, viewable in Django
+  Admin. A runtime constraint prevents concurrent migrations on the same
+  scope.
 
-  * **Known caveat: Admin Console and courses without the flag enabled.**
-    The Admin Console displays all courses in scope selectors when assigning
-    roles, regardless of whether ``authz.enable_course_authoring`` is
-    enabled for those courses. Roles can be assigned to any course through
-    the admin, but those assignments won't take effect unless the flag is
-    enabled for that course, its org, or globally. This can look like roles
-    were assigned but permissions aren't enforced. This limitation does not
-    affect content libraries, which don't use the legacy permission system.
+  * Automatic migration only applies to course-level and org-level flag
+    changes. Global (instance-wide) flag changes do not trigger it, due to
+    performance risk on large instances, and must be migrated manually
+    with the management commands above.
+  * This setting is disabled by default. Only enable it if you understand
+    that the migration then runs synchronously within the Django Admin
+    request.
 
-    As of `frontend-app-admin-console PR #176
-    <https://github.com/openedx/frontend-app-admin-console/pull/176>`_, the
-    Admin Console's filters and role assignment wizard all read flag state directly
-    from ``GET /api/authz/v1/waffle-flag-states/`` and hide course content the flag
-    doesn't cover yet, independently of whether the underlying Casbin
-    migration has run. The Team Members table and Audit User view display all
-    course assignments; however, course or organization assignments that are
-    not enabled via the ``authz.enable_course_authoring`` flag can only be viewed,
-    but not deleted. Observed behavior:
+  See `ADR: Automatic Migration Details
+  <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0013-course-authoring-automatic-migration.rst>`_.
 
-    .. list-table::
-       :header-rows: 1
+* **Audit trail.** Role assignment and removal operations in
+  ``openedx-authz`` are now recorded in a ``RoleAssignmentAudit`` table
+  (operation type, affected user, role, scope, actor), registered in
+  Django Admin for inspection. An ``OpenedxPublicSignal`` is also emitted
+  on every role lifecycle event for downstream consumers. See `ADR:
+  Auditability
+  <https://github.com/openedx/openedx-authz/blob/main/docs/decisions/0012-auditability.rst>`_.
 
-       * - Scenario
-         - Expected behaviour
-       * - Flag OFF globally, no overrides
-         - Role filter hides course groups; scope filter hides all courses;
-           org filter hides all orgs for course-only users; wizard has no
-           course roles
-       * - Flag OFF globally, org A forced ON
-         - Courses in org A appear in scope/org filters and wizard; all
-           other orgs/courses hidden
-       * - Flag ON globally, course X forced OFF
-         - Course X hidden in scope filter and wizard scope list; all other
-           courses visible
-       * - Flag ON globally, org B forced OFF
-         - Org B and its courses hidden for course-only users
-       * - User has only library roles
-         - Libraries appear in all filters regardless of flag state
-       * - User has both library and course roles, flag OFF
-         - Library content visible everywhere; course content hidden
-       * - ``waffle-flag-states`` endpoint unreachable
-         - Error toast appears with retry button; all course content hidden
-       * - Loading state (slow network)
-         - Course content hidden until flag state resolves; library content
-           unaffected
+* **Known caveat: Admin Console and courses without the flag enabled.**
+  The Admin Console displays all courses in scope selectors when assigning
+  roles, regardless of whether ``authz.enable_course_authoring`` is
+  enabled for those courses. Roles can be assigned to any course through
+  the admin, but those assignments won't take effect unless the flag is
+  enabled for that course, its org, or globally. This can look like roles
+  were assigned but permissions aren't enforced. This limitation does not
+  affect content libraries, which don't use the legacy permission system.
 
-    Flag-state resolution here is intentionally separate from permission
-    validation, since Casbin state can lag behind the flag when automatic
-    migration is disabled or the global flag changes.
+  As of `frontend-app-admin-console PR #176
+  <https://github.com/openedx/frontend-app-admin-console/pull/176>`_, the
+  Admin Console's filters and role assignment wizard all read flag state directly
+  from ``GET /api/authz/v1/waffle-flag-states/`` and hide course content the flag
+  doesn't cover yet, independently of whether the underlying Casbin
+  migration has run. The Team Members table and Audit User view display all
+  course assignments; however, course or organization assignments that are
+  not enabled via the ``authz.enable_course_authoring`` flag can only be viewed,
+  but not deleted. Observed behavior:
+
+  .. list-table::
+      :header-rows: 1
+
+      * - Scenario
+        - Expected behaviour
+      * - Flag OFF globally, no overrides
+        - Role filter hides course groups; scope filter hides all courses;
+          org filter hides all orgs for course-only users; wizard has no
+          course roles
+      * - Flag OFF globally, org A forced ON
+        - Courses in org A appear in scope/org filters and wizard; all
+          other orgs/courses hidden
+      * - Flag ON globally, course X forced OFF
+        - Course X hidden in scope filter and wizard scope list; all other
+          courses visible
+      * - Flag ON globally, org B forced OFF
+        - Org B and its courses hidden for course-only users
+      * - User has only library roles
+        - Libraries appear in all filters regardless of flag state
+      * - User has both library and course roles, flag OFF
+        - Library content visible everywhere; course content hidden
+      * - ``waffle-flag-states`` endpoint unreachable
+        - Error toast appears with retry button; all course content hidden
+      * - Loading state (slow network)
+        - Course content hidden until flag state resolves; library content
+          unaffected
+
+  Flag-state resolution here is intentionally separate from permission
+  validation, since Casbin state can lag behind the flag when automatic
+  migration is disabled or the global flag changes.
 
 Frontend-base
 *************

@@ -118,22 +118,64 @@ Course data researchers can access the Data Download tab on the instructor dashb
 
 Course data researchers can:
 
-* :ref:`View and dowload learner data <View Learner Data>`
+* :ref:`View and download learner data <View Learner Data>`
 * :ref:`View Anonymized Learner IDs`
 * :ref:`View Certificate Data`
 * :ref:`View Learners Not Yet Enrolled`
 
+.. _New System Course Authoring Roles:
 
-.. seealso::  
+***********************************************************************
+Course Authoring Roles Under the New Roles and Permissions System
+***********************************************************************
+
+.. note::
+    These roles are available when your platform has enabled Course
+    Authoring — an opt-in feature disabled by default.
+    This must be enabled by your site administrator. See :ref:`Enabling RBAC in Verawood`
+    for instructions on how to enable it. The legacy Staff and Admin roles
+    remain available on platforms that have not yet enabled this feature.
+
+Course Admin and Course Staff are the new system's equivalents of the legacy
+Admin and Staff roles for Studio authoring: same responsibilities, new
+assignment mechanism. The day-to-day experience in Studio is unchanged —
+these roles carry the same capabilities, just under new names and managed
+through the Roles and Permissions console.
+
+Existing role assignments require migration to take effect in the new system.
+New role assignments share the behavior of their legacy counterparts across the
+full platform, not only in Studio.
+
+=============
+Course Admin
+=============
+
+Course Admins have full authoring access and can manage the course team.
+They can do everything a Course Staff member can do, and can also add,
+remove, and change roles for team members in the Roles and Permissions console.
+
+=============
+Course Staff
+=============
+
+Course Staff members can operate the full course lifecycle in Studio, including
+publishing content, editing schedules, managing advanced settings, and importing
+and exporting course content.
+
+.. seealso::
 
   :ref:`Add Course Team Members` (how-to)
 
-  :ref:`Manage Course Beta Testing` (how-to)  
+  :ref:`Manage Course Beta Testing` (how-to)
+
+  :ref:`Manage Course Authoring Roles` (how-to)
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                    |
++--------------+-------------------------------+----------------+------------------------------------------------------------------+
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                                                             |
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+
 | 2025-04-13   | sarina                        | Sumac          | Pass                                                             |
 +--------------+-------------------------------+----------------+------------------------------------------------------------------+

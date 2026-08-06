@@ -84,17 +84,31 @@ To assign a privileged role to a course team member, follow these steps.
 To remove an assigned role, view the list of users and then select **Revoke
 access**.
 
+.. note::
+    For installations using the Roles and Permissions console: course team
+    management is available from :guilabel:`Settings` > :guilabel:`Roles and
+    Permissions` in Studio. See :ref:`Manage Course Authoring Roles` for the
+    Course Admin and Course Staff roles available there.
+
+    The Roles and Permissions console (called the Administrative Console in
+    earlier releases) is not enabled by default and must be enabled by your site administrator. See
+    :ref:`Enabling RBAC in Verawood` for instructions on how to enable it.
+
 .. seealso::
-  
+
   :ref:`Guide to Course Team Roles` (reference)
 
-  :ref:`Manage Course Beta Testing` (how-to)  
+  :ref:`Manage Course Beta Testing` (how-to)
+
+  :ref:`Manage Course Authoring Roles` (how-to)
 
 
 **Maintenance chart**
 
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                                                 |
++--------------+-------------------------------+----------------+---------------------------------------------------------------+
+| 2025-07-30   | eduNEXT                       | Verawood       | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+
 | 03/19/2025   | John (Curricu.me)             | Sumac          | Pass                                                          |
 +--------------+-------------------------------+----------------+---------------------------------------------------------------+

@@ -8,6 +8,7 @@ Open edX Verawood Release - Product Release Notes
 .. toctree::
    :maxdepth: 1
 
+   verawood_rp
    ai_extension_framework
    new_instructor_dashboard
    verawood_lti_cert
@@ -23,5 +24,5 @@ in the :ref:`Verawood Dev Notes`.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2025-07-30   | Product WG                    | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
