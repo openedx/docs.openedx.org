@@ -20,10 +20,26 @@ to a content library for reuse across courses. Since the framework is open for
 extension, your developers can build custom AI workflows that work directly in
 author- or learner-facing platform areas.
 
+:ref:`A Smarter, Contextual Sidebar in Studio <Verawood New Studio Sidebar>`:
+View content details, add new content or pull in existing library components,
+apply taxonomy tags, and access analytics — all from one resizable sidebar that
+updates instantly as you navigate your course outline or unit pages.
+
+:ref:`Libraries, Better Integrated Everywhere in Studio <Verawood Libraries>`: 
+Search and insert library content directly from the sidebar, spot
+library-sourced elements at a glance, publish confidently with contributor
+visibility across affected courses, and review full version history with a
+side-by-side visualization of changes made to your courses.
+
 :ref:`A Modernized Instructor Dashboard <New Instructor Dashboard Experience>`:
 Find what you need faster with sortable, searchable tables, streamlined page
 actions, and tabbed content grouping — plus clearer tool names like Course Team,
 Enrollments, and Grading that keep related actions together.
+
+:ref:`Tag Content and Manage Taxonomies Without Leaving Studio <Verawood Tagging>`:
+Apply tags at any course level and view applied tags at a glance in the new
+sidebar, and edit taxonomies directly in-platform — no more exporting and
+re-importing CSV files.
 
 :ref:`Reuse and Simplify LTI Setup <Verawood LTI Improvements>`:
 Duplicate fully configured LTI blocks across any course on your site and set up
