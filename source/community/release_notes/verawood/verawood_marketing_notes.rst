@@ -37,9 +37,9 @@ actions, and tabbed content grouping — plus clearer tool names like Course Tea
 Enrollments, and Grading that keep related actions together.
 
 :ref:`Tag Content and Manage Taxonomies Without Leaving Studio <Verawood Tagging>`:
-Apply tags at any course level via a new sidebar, view applied tags at a glance
-in the Info sidebar, and edit taxonomies directly in-platform — no more
-exporting and re-importing CSV files.
+Apply tags at any course level and view applied tags at a glance in the new
+sidebar, and edit taxonomies directly in-platform — no more exporting and
+re-importing CSV files.
 
 :ref:`Reuse and Simplify LTI Setup <Verawood LTI Improvements>`:
 Duplicate fully configured LTI blocks across any course on your site and set up
