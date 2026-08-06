@@ -54,6 +54,8 @@ hidden by setting ``SHOW_EMAIL_CHANNEL`` to ``False`` and then rebuilding the
 MFE image. Hiding the email channel does not disable email notifications.
 
 
+.. _Configure Notification Email Delivery:
+
 Configure Notification Email Delivery
 *************************************
 
@@ -96,6 +98,8 @@ Use these settings to configure notification email delivery:
      - ``0``
      - Minute of the hour when weekly digest emails are sent.
 
+
+.. _Configure Default Notification Preferences:
 
 Configure Default Notification Preferences
 ******************************************
