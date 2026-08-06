@@ -1,18 +1,18 @@
-.. _Verawood Product Notes:
+.. _Xylon Product Notes:
 
-Open edX Verawood Release - Product Release Notes
+Open edX Xylon Release - Product Release Notes
 ##################################################
 
-*Releasing June, 2026!*
+*Releasing June, 2027!*
 
 .. toctree::
    :maxdepth: 1
 
-   verawood_lti_cert
+   stay_up_to_date
 
 Information for site operators and developers, including information on how to
 enable and/or configure new features that require additional work, can be found
-in the :ref:`Verawood Dev Notes`.
+in the :ref:`Xylon Dev Notes`.
 
 
 **Maintenance chart**

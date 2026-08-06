@@ -140,7 +140,7 @@ directions:
   manage large instances.
 
 These improvements will be scoped and tracked in future releases once the
-Libraries integration is validated in production. Be sure to :ref:`Verawood planning`!
+Libraries integration is validated in production.
 
 .. seealso::
 
@@ -155,8 +155,10 @@ Libraries integration is validated in production. Be sure to :ref:`Verawood plan
 
 **Maintenance chart**
 
-+--------------+-------------------------------+----------------+--------------------------------+
-| Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2025-12-11   | Product WG                    | Ulmo           | Pass                           |
-+--------------+-------------------------------+----------------+--------------------------------+
++--------------+-------------------------------+----------------+------------------------------------+
+| Review Date  | Working Group Reviewer        |   Release      |Test situation                      |
++--------------+-------------------------------+----------------+------------------------------------+
+|2026-07-30    | BTR WG                        | Verawood       | Deprecated: Not the latest release |
++--------------+-------------------------------+----------------+------------------------------------+
+| 2025-12-11   | Product WG                    | Ulmo           | Pass                               |
++--------------+-------------------------------+----------------+------------------------------------+

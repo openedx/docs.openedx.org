@@ -1,8 +1,8 @@
-Open edX Verawood - June 2026 Release
+Open edX Verawood - July 2026 Release
 ##########################################
 
 These are the release notes for the Verawood release, the 22st community release
-of the Open edX Platform, which will be released in June 2026. You can also review details
+of the Open edX Platform, which was released on July 30, 2026. You can also review details
 about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_.
 
 .. highlights::
@@ -33,6 +33,8 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
++--------------+-------------------------------+----------------+--------------------------------+
+| 2025-07-30   | BTR WG                        | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-12-18   | BTR WG                        | Ulmo           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
