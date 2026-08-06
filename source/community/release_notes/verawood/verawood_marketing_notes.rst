@@ -63,6 +63,10 @@ We encourage operators to enable frontend-base on staging or sandbox instances
 and provide feedback on the `Open edX forums
 <https://discuss.openedx.org/c/working-groups/fe-wg/37>`_.
 
+:ref:`More Flexibility To Build Custom Features <Verawood Frontend Plugin Slots>`: More
+plugin slots have been added across the platform to support easier customization
+and extension by your development or operations team.
+
 
 🔮 Upcoming in Willow (December 2026)
 **************************************
