@@ -8,6 +8,7 @@ Open edX Verawood Release - Product Release Notes
 .. toctree::
    :maxdepth: 1
 
+   ai_extension_framework
    verawood_lti_cert
    copyright_acceptance
 
