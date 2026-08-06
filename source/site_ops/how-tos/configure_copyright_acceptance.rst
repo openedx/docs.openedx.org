@@ -5,8 +5,19 @@ Configure User Agreement Acceptance for Studio Uploads
 
 .. tags:: site operator, how-to
 
-Setting this up requires two steps: creating the agreement record and then
-configuring where it applies.
+Setting up the :ref:`User Agreement Acceptance feature <Verawood Copyright Acceptance>`
+requires two steps: creating the agreement record and then configuring where it
+applies.
+
+.. note::
+
+   While this feature does not prevent copyright violations or eliminate risk,
+   it gives organizations a transparent way to set expectations, surface policy,
+   and log acknowledgment activity as part of their broader governance
+   practices.
+
+   Open edX operators remain responsible for ensuring their instances comply
+   with applicable laws and regulations in their jurisdictions.
 
 Step 1: Create a UserAgreement
 ==============================
@@ -73,6 +84,10 @@ to re-accept.
 For changes that don't require users to re-accept the agreement (such as a minor
 spelling correction or formatting fix), you can keep the original update date
 and users won't need to accept it again.
+
+.. seealso::
+
+    :ref:`Verawood Copyright Acceptance`
 
 **Maintenance chart**
 
