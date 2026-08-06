@@ -3,6 +3,8 @@
 Updates to LTI and Notifications
 #################################
 
+.. _Verawood LTI Improvements:
+
 LTI Improvements
 *****************
 
@@ -35,6 +37,7 @@ reliability improvements.
    three, easier to manage screens: "Setup", "Advantage Settings", and finally,
    "Review Settings".
 
+.. _Verawood Notifications Improvements:
 
 Notifications Improvements
 ***************************

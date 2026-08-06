@@ -22,6 +22,7 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 .. toctree::
     :maxdepth: 2
 
+    Verawood Overview <verawood/verawood_marketing_notes>
     Verawood Release Notes <verawood/feature_release_notes>
     Verawood Developer & Operator Release Notes <verawood/dev_op_release_notes>
 
@@ -35,8 +36,4 @@ about :ref:`Open edX Release Notes` or learn more about the `Open edX Platform`_
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
 | 2025-07-30   | BTR WG                        | Verawood       | Pass                           |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2025-12-18   | BTR WG                        | Ulmo           | Pass                           |
-+--------------+-------------------------------+----------------+--------------------------------+
-| 2025-06-04   | BTR WG                        | Teak           | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

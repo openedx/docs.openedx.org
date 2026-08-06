@@ -1,4 +1,4 @@
-.. _AI Extensions Framework:
+.. _AI Extensions Framework (Verawood):
 
 AI Extensions Framework
 #######################
