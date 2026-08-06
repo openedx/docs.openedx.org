@@ -11,6 +11,7 @@ Open edX Verawood Release - Product Release Notes
    verawood_rp
    ai_extension_framework
    new_instructor_dashboard
+   lti_notifications
    verawood_lti_cert
    copyright_acceptance
 
