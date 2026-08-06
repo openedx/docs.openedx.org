@@ -409,6 +409,12 @@ Administrators & Operators
   slot to render the content. See the instructor dashboard MFE README for
   more details.
 
+* **Catalog MFE is the default experience.** Introduced in Ulmo, the new
+  :ref:`Catalog MFE <Ulmo catalog>` is now the default experience. Verawood will
+  be the last release that supports the legacy experience; the `legacy
+  experience will be removed in Willow
+  <https://github.com/openedx/openedx-platform/issues/36785>`_.
+
 * **RBAC AuthZ for Course Authoring (opt-in).** Verawood introduces a new,
   opt-in, RBAC-based authorization system for course authoring in Studio,
   powered by `openedx-authz <https://github.com/openedx/openedx-authz>`_.
