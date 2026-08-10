@@ -22,13 +22,6 @@ leaving the page.
 .. image:: /_images/release_notes/verawood/chat_in_context.png
    :alt: The learner-facing LMS is displayed, with a right-hand sidebar overlaying the course content showing an interactive AI chat session
 
-Once questions are generated, a screen appears allowing human review and editing
-of the AI-generated questions. Authors may also choose to regenerate the
-question(s) using the same prompt.
-
-.. image:: /_images/release_notes/verawood/human_review_ui.png
-   :alt: A full screen UI which displays the AI generated questions and allows a human reviewer to edit the questions directly. This UI also allows authors to regenerate the question(s) using the same prompt.
-
 Platform operators configure which courses and units have the assistant available,
 and what the AI is instructed to do.
 
@@ -41,6 +34,13 @@ editing, and reuse across courses.
 
 .. image:: /_images/release_notes/verawood/ai_question_builder.png
    :alt: The AI Question Builder tool is shown in the right sidebar in Studio
+
+Once questions are generated, a screen appears allowing human review and editing
+of the AI-generated questions. Authors may also choose to regenerate the
+question(s) using the same prompt.
+
+.. image:: /_images/release_notes/verawood/human_review_ui.png
+   :alt: A full screen UI which displays the AI generated questions and allows a human reviewer to edit the questions directly. This UI also allows authors to regenerate the question(s) using the same prompt.
 
 The assistant runs in the Studio course outline sidebar and works with Open edX
 Content Libraries, so authors can build up a bank of reviewed, AI-drafted
