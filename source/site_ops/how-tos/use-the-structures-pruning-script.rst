@@ -92,14 +92,8 @@ Then running these in the MongoDB shell:
 4. Install the structures pruning script
 ========================================
 
-Some quick steps for installing. A shallow clone of openedx-platform is recommended because the repository is very large.
-
-.. code:: sh
-
-    git clone --depth=1 https://github.com/openedx/openedx-platform.git
-    virtualenv venv
-    source venv/bin/activate
-    pip install -r openedx-platform/scripts/structures_pruning/requirements/base.txt
+See the `structures pruning README <https://github.com/openedx/openedx-platform/blob/master/scripts/structures_pruning/README.rst>`_ for installation instructions.
+At a high level, this involves cloning the openedx-platform repository, setting up a Python virtual env, and installing the dependencies.
 
 5. Run the ``make_plan`` subcommand
 ===================================
