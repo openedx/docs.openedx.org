@@ -191,7 +191,7 @@ See :ref:`Add an XBlock Aside` for a full walkthrough of this pattern.
 Structured Tags Aside
 =====================
 
-The `StructuredTagsAside`_ ships with Open edX itself, in
+The `StructuredTagsAside`_ ships with the Open edX platform code by default, in
 ``cms/lib/xblock/tagging/tagging.py``. It attaches a tag picker to
 Problem blocks so course authors can apply structured tags for content
 search and organization. Unlike the other examples, its entire
