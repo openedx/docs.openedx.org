@@ -12,6 +12,11 @@ data, and UI elements to many XBlock instances at once, across XBlock types you
 do not own, while preserving the host XBlock's code, fields, and Open Learning
 XML (OLX) representation.
 
+.. warning::
+
+   Asides have many limitations, including issues around course import and
+   export. See :ref:`Aside Limitations` for more detail.
+
 .. contents:: Contents
    :local:
    :depth: 1
@@ -205,6 +210,8 @@ inside its view method. Its own author view method is, confusingly,
 still named ``student_view_aside`` even though it is decorated for
 ``AUTHOR_VIEW`` — a reminder that an Aside's view method names are
 conventions, not requirements enforced by the framework.
+
+.. _Aside Limitations:
 
 Limitations
 ***********
