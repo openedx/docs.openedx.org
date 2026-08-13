@@ -75,6 +75,15 @@ A course-level override takes precedence over an organization-level override.
 An organization-level override takes precedence over the standard Waffle flag
 and its default value.
 
+
+.. note::
+
+   Most values in this section come from the LTI tool. After you save the
+   configuration, reference it in the LTI consumer XBlock and save the XBlock,
+   the XBlock will display a different set of values that you will need to
+   register with the external tool.
+
+
 .. _Create a Reusable LTI Configuration:
 
 Create a Reusable LTI Configuration
