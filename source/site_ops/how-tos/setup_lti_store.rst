@@ -116,13 +116,23 @@ Create a Reusable LTI Configuration
      security policy paste in this field. You may use
      `IMS LTI Reference Implementation <https://lti-ri.imsglobal.org/keygen/index>`_.)
    * *Tool Public Key* OR *Tool Keyset URL*
-   * *Redirect URIs*, if required by the tool
+   * *Redirect URIs*. Enter every URI that the tool can use as a JSON list,
+     even when the redirect URI is the same as the launch URL.
    * (Optional) Enable *Names and Role Provisioning Services*
    * (Optional) Enable *Deep Linking*
    * (Optional) *Deep Linking Launch URL*. If Deep Linking is enabled,
      enter the URL provided by the tool. If the tool does not provide
      a separate URL, use the tool's launch URL.
    * (Optional) Set *Assignment and Grade Services* mode
+
+   .. important::
+
+      Do not leave *Redirect URIs* at its default value of ``[]``. Enter the
+      tool's redirect URIs explicitly. For example, if the tool uses
+      ``https://tool.example.com/launch`` as its launch URL, enter
+      ``["https://tool.example.com/launch"]``. Otherwise, the
+      launch can fail with ``The preflight response is not valid``.
+
 
    .. figure:: /_images/site_ops_how_tos/create_ltistore_config.png
       :alt: Django Admin form showing the LTI 1.1, LTI 1.3, and LTI Advantage
