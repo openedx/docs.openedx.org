@@ -1,6 +1,5 @@
 .. _Grant Course Creation Access in Studio:
 
-######################################
 Grant Course Creation Access in Studio
 ######################################
 
@@ -23,7 +22,6 @@ there is a dead end.
 The author-facing side of this process is described in
 :ref:`Request Access to Create Courses`.
 
-************
 Prerequisite
 ************
 
@@ -40,9 +38,8 @@ You must sign in with an account that has **staff** (``is_staff``) or
   creation access and are not added to the Course Creators table. You only need
   to grant access to non-staff authors.
 
-***********************************
 Open the Course Creators Admin App
-***********************************
+**********************************
 
 #. Confirm that the author has requested access. When an author requests course
    creation rights from the Studio home page, their status changes to
@@ -68,9 +65,8 @@ Open the Course Creators Admin App
    they have access to all organizations. Select the user whose request you want
    to review.
 
-***********************************
 Grant or Deny Access
-***********************************
+********************
 
 On the author's record, you control access with the **State** field and the
 organization fields.
@@ -107,9 +103,8 @@ organization fields.
 When you save, the platform updates the author's roles accordingly and, if email
 is configured, notifies the author that their course creation access has changed.
 
-***********************************
 Verify the Change
-***********************************
+*****************
 
 Ask the author to return to the Studio home page and reload it. If access was
 granted, they will now see the option to create a new course. If you granted
@@ -126,5 +121,5 @@ those organizations but not others.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-08-14   |  Ty Hob                       | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+

@@ -1,6 +1,5 @@
 .. _Request Access to Create Courses:
 
-##########################################
 Request Access to Create Courses in Studio
 ##########################################
 
@@ -22,9 +21,8 @@ site administrator takes to grant your request are described in
   signed-in user can create courses and you do not need to request access. If
   you are not sure how your site is configured, contact your administrator.
 
-***********************************
 Request Course Creation Access
-***********************************
+******************************
 
 #. Sign in to Studio at the URL provided by your administrator.
 
@@ -42,9 +40,8 @@ Request Course Creation Access
    submit a request for review, you must select the request option so that your
    status changes to **pending** and your site administrator is notified.
 
-***********************************
 After You Request Access
-***********************************
+************************
 
 After you submit your request, a site administrator with staff or superuser
 permissions reviews it and either grants or denies course creation access. When
@@ -79,5 +76,5 @@ notification.
 +--------------+-------------------------------+----------------+--------------------------------+
 | Review Date  | Working Group Reviewer        |   Release      |Test situation                  |
 +--------------+-------------------------------+----------------+--------------------------------+
-|              |                               |                |                                |
+| 2026-08-14   |  Ty Hob                       | Verawood       | Pass                           |
 +--------------+-------------------------------+----------------+--------------------------------+
