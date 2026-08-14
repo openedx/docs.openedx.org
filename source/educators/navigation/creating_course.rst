@@ -43,6 +43,7 @@ Plan a New Course
    :glob:
 
    ../references/course_development/basic_course_details.rst
+   ../how-tos/request_course_creation_access.rst
    ../how-tos/set_up_course/create_new_course.rst
    ../how-tos/set_up_course/edit_course_details.rst
    ../references/course_development/about_page.rst
