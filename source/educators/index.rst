@@ -36,29 +36,6 @@ Open edX Educators
 
          See All
 
-   .. grid-item-card:: Learner Engagement & Communication
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. image:: /_images/educators_homepage/engagement_communication_undraw.png
-         :alt: Two character communicating via text
-         :height: 150px
-         :align: center
-         :target: navigation/learner_engagement_communication.html
-
-      | :ref:`Course Discussions`
-      | :ref:`Bulk Emails`
-      | :ref:`Course Updates`
-      
-
-      .. button-ref:: navigation/learner_engagement_communication
-         :color: primary
-         :outline:
-         :expand:
-
-         See All
-
-
    .. grid-item-card:: Content Creation & Management
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
@@ -105,29 +82,6 @@ Open edX Educators
 
          See All
 
-   .. grid-item-card:: Data & Analytics
-      :class-card: sd-shadow-md sd-p-2
-      :class-footer: sd-border-0
-
-      .. image:: /_images/educators_homepage/data_analytics_undraw.png
-         :alt: A chart of abstract user scores
-         :height: 150px
-         :align: center
-         :target: navigation/data_analytics.html
-
-      | :ref:`View Course Enrollments`
-      | :ref:`View Learner Data`
-      | :ref:`View Learner Grades`
-      | :ref:`View Answer Data`
-      | :ref:`View Certificate Data`
-
-      .. button-ref:: navigation/data_analytics
-         :color: primary
-         :outline:
-         :expand:
-
-         See All
-
    .. grid-item-card:: Accessibility
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
@@ -166,6 +120,71 @@ Open edX Educators
       | :ref:`Use Teams in Your Course`
 
       .. button-ref:: navigation/advanced_features
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
+
+   .. grid-item-card:: Learning Tools Interoperability (LTI)
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/educators_homepage/lti_clipart.png
+         :alt: LTI: Learning Tools Interoperability
+         :height: 150px
+         :align: center
+         :target: navigation/lti.html
+
+      | :ref:`Add LTI Tools to Course Content`
+      | :ref:`Add LTI Tools to Course Navigation`
+      | :ref:`Use Open edX Content in Another LMS with LTI`
+
+      .. button-ref:: navigation/lti
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
+
+   .. grid-item-card:: Learner Engagement & Communication
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/educators_homepage/engagement_communication_undraw.png
+         :alt: Two character communicating via text
+         :height: 150px
+         :align: center
+         :target: navigation/learner_engagement_communication.html
+
+      | :ref:`Course Discussions`
+      | :ref:`Bulk Emails`
+      | :ref:`Course Updates`
+
+      .. button-ref:: navigation/learner_engagement_communication
+         :color: primary
+         :outline:
+         :expand:
+
+         See All
+
+   .. grid-item-card:: Data & Analytics
+      :class-card: sd-shadow-md sd-p-2
+      :class-footer: sd-border-0
+
+      .. image:: /_images/educators_homepage/data_analytics_undraw.png
+         :alt: A chart of abstract user scores
+         :height: 150px
+         :align: center
+         :target: navigation/data_analytics.html
+
+      | :ref:`View Course Enrollments`
+      | :ref:`View Learner Data`
+      | :ref:`View Learner Grades`
+      | :ref:`View Answer Data`
+      | :ref:`View Certificate Data`
+
+      .. button-ref:: navigation/data_analytics
          :color: primary
          :outline:
          :expand:
