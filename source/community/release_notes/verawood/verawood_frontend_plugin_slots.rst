@@ -130,6 +130,18 @@ This repository is new as of Verawood, and is enabled by default. It can be opti
   tabs (Course Info, Enrollments, Course Team, Cohorts, Grading, etc.); these
   slots exist so a site operator can add new tabs alongside them.
 
+  .. note::
+
+     This slot is the recommended replacement for the legacy
+     ``InstructorDashboardRenderStarted`` filter
+     (``org.openedx.learning.instructor.dashboard.render.started.v1``) that was
+     previously used to inject extra sections — such as the "Reports" tab —
+     into the Django-templated instructor dashboard. That filter no longer
+     fires once the new frontend app is enabled. The Verawood version of
+     Aspects (``platform-plugin-aspects`` 4.0.0+) already uses this slot, so
+     only custom configurations that still rely on the legacy filter need to
+     migrate. See :ref:`Verawood Dev Notes` for migration instructions.
+
 frontend-app-[authn, learner-dashboard, notifications]
 ******************************************************
 

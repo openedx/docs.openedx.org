@@ -630,6 +630,62 @@ endpoint, which converts existing ``MFE_CONFIG`` and ``MFE_CONFIG_OVERRIDES``
 to frontend-base's ``SiteConfig`` structure. You can find out more `here
 <https://github.com/overhangio/tutor-mfe/tree/main#backward-compatibility-with-mfe_config>`_.
 
+Migrating the legacy "Reports" filter extension point
+=====================================================
+
+Because the new ``@openedx/frontend-app-instructor-dashboard`` is *enabled by
+default*, it replaces the legacy Django-templated instructor dashboard rendered
+by the LMS. Any customization that relied on the legacy
+``InstructorDashboardRenderStarted`` filter
+(``org.openedx.learning.instructor.dashboard.render.started.v1``) to inject a
+new section - most notably the extra "Reports" tab - will **no longer appear**
+once the new frontend app is in use. This is because that filter only fires
+while the legacy dashboard is being rendered by the monolith, and the new
+frontend app does not run it.
+
+.. note::
+
+   The Verawood version of `Aspects
+   <https://github.com/openedx/platform-plugin-aspects>`_ (``platform-plugin-aspects``
+   version 4.0.0 and later) has already been updated to render its "Reports"
+   tab through the new frontend plugin slot, so a standard Aspects installation
+   requires no action. This migration only affects *custom* configurations -
+   for example, your own plugins, or older tooling such as the
+   `feedback XBlock <https://github.com/openedx/xblocks-extra/tree/main/src/feedback>`_
+   - that still inject sections via the legacy filter.
+
+Operators who depended on that filter have two options:
+
+#. **Keep using the legacy dashboard (temporary).** Disable the new frontend
+   app so the LMS continues rendering the legacy dashboard and firing the
+   ``InstructorDashboardRenderStarted`` filter. With tutor-mfe, the
+   ``@openedx/frontend-app-instructor-dashboard`` app can be disabled without
+   rebuilding the image, as documented in the `tutor-mfe README
+   <https://github.com/overhangio/tutor-mfe/tree/main#frontend-base-site>`_.
+   This is only a stopgap: the legacy dashboard is deprecated and is expected to
+   be removed in a future release.
+
+#. **Migrate to the new frontend plugin slot (recommended).** Re-add the tab
+   using the new
+   ``org.openedx.frontend.slot.instructorDashboard.tabs.v1`` plugin slot in
+   ``@openedx/frontend-app-instructor-dashboard``, which is the frontend
+   replacement for the old filter-based section injection. This slot lets a
+   plugin add a new tab (and its route/content) alongside the built-in tabs.
+   See :ref:`Verawood Frontend Plugin Slots` for the slot documentation, and
+   :ref:`Use A Frontend Plugin Framework Slot` for general configuration
+   instructions.
+
+.. note::
+
+   A common cause of a *disappearing* Reports tab (as opposed to the migration
+   above) is overwriting ``OPEN_EDX_FILTERS_CONFIG`` instead of adding to it.
+   Several installation guides (including the feedback XBlock's) show a snippet
+   that *replaces* ``OPEN_EDX_FILTERS_CONFIG``, which clobbers any other filter
+   configuration - including the Aspects reports section - registered under
+   ``org.openedx.learning.instructor.dashboard.render.started.v1``. When
+   configuring filters, always **merge** your entries into the existing
+   ``OPEN_EDX_FILTERS_CONFIG`` rather than overwriting it.
+
 What if I don't use Tutor?
 ==========================
 
