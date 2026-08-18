@@ -66,6 +66,8 @@ Role Guides
    .. grid-item-card:: Educators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: educators/index
+      :link-type: doc
 
       .. image:: /_images/educators_homepage/educator_undraw.png
          :alt: Educator Persona building a course
@@ -85,6 +87,8 @@ Role Guides
    .. grid-item-card:: Learners
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: learners/index
+      :link-type: doc
 
       .. image:: /_images/learner_undraw.png
          :alt: Learner Persona learning
@@ -104,6 +108,8 @@ Role Guides
    .. grid-item-card:: Site Operators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: site_ops/index
+      :link-type: doc
 
       .. image:: /_images/site_operators_undraw.png
          :alt: Site Operator Persona operating a site
@@ -123,6 +129,8 @@ Role Guides
    .. grid-item-card:: Software Developers
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: developers/index
+      :link-type: doc
 
       .. image:: /_images/developers_undraw.png
          :alt: Developer Persona enhancing the platform
@@ -142,6 +150,8 @@ Role Guides
    .. grid-item-card:: Documentors
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: documentors/index
+      :link-type: doc
 
       .. image:: /_images/documentors_undraw.png
          :alt: Documentor Persona documenting the platform
@@ -165,6 +175,8 @@ Role Guides
    .. grid-item-card:: Translators
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: translators/index
+      :link-type: doc
 
       .. image:: /_images/translators_undraw.png
          :alt: Translator Persona translating the platform
@@ -200,6 +212,8 @@ Core Contributors Handbook
    .. grid-item-card:: Core Contributors Handbook
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
+      :link: handbook/index
+      :link-type: doc
 
       .. image:: /_images/handbook_undraw.png
          :alt: Core Contributor Persona contributing to the platform
