@@ -230,6 +230,12 @@ html_logo = "https://logos.openedx.org/open-edx-logo-color.png"
 html_favicon = "https://logos.openedx.org/open-edx-favicon.ico"
 release = "Latest"
 
+# Sphinx defaults to hyperlinking scaled images (any `.. image::` with a
+# `:height:`, `:width:`, or `:scale:` option) to their own unscaled file.
+# Our role-guide tiles use `:height:` purely for layout, so this made
+# clicking a tile image open the raw image instead of the linked page.
+html_scaled_image_link = False
+
 html_static_path = ["_static"]
 
 html_css_files = [
