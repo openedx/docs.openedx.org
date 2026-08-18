@@ -216,14 +216,25 @@ tool will need.
    :alt: LTI Consumer XBlock showing the values an external tool needs to register the Open edX instance.
    :width: 80%
 
-Common Open edX platform values required by LTI 1.3 tools include:
+The LTI Consumer XBlock provides these registration values:
 
-* Issuer (your instance domain e.g. https://openedx.io)
 * Client ID
 * Deployment ID
 * Keyset URL
 * Access Token URL
 * Login URL
+
+.. important::
+
+   Most LTI tools also require an *Issuer*. The XBlock does not display the
+   Issuer as a separate value. Derive it from the *Keyset URL* or
+   *Access Token URL* by removing the ``/api/lti_consumer/...`` path. Do not
+   add a trailing slash.
+
+   For example, if the Keyset URL is
+   ``https://openedx.io/api/lti_consumer/v1/public_keysets/...``, the
+   Issuer is ``https://openedx.io``. An Authoring URL such as
+   ``https://apps.openedx.io/authoring/...`` is not the Issuer.
 
 External tools may use different names for these values and may not require
 all of them. Follow the tool vendor's instructions.
@@ -293,7 +304,7 @@ Publish and Test
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-06-25         | Aamir Ayub             | Verawood | Pass           |
+| 2026-07-13         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
 | 2025-12-05         | LTI WG                 | Ulmo     | Pass           |
 +--------------------+------------------------+----------+----------------+

@@ -103,6 +103,14 @@ Configure the Setup Tab
 
    Use the Setup tab to enter the LTI 1.3 launch values provided by the tool.
 
+
+.. note::
+
+   The values in this section come from the LTI tool. After you save the
+   XBlock, it will display a different set of values that you will need to
+   register with the external tool.
+
+
 Configure the *Setup* tab as per the following table:
 
 .. list-table::
@@ -142,6 +150,10 @@ Configure the *Setup* tab as per the following table:
        If the tool does not require separate redirect URIs, leave this field
        blank. The Open edX platform uses the launch URL and, when configured,
        the Deep Linking Launch URL as defaults.
+
+       If you enter redirect URIs, include every URI that the tool might request.
+       Entering this field replaces the default list. Redirect URIs must match
+       exactly, including the path and any trailing slash.
 
    * - Next
      - Click :guilabel:`Next` to continue.
@@ -343,17 +355,26 @@ values that the external tool will need.
    :alt: LTI Consumer XBlock showing the values an external tool needs to register the Open edX instance.
    :width: 80%
 
-Common Open edX platform values required by LTI 1.3 tools include:
+The LTI Consumer XBlock provides these registration values:
 
-* Issuer (your instance domain e.g. https://openedx.io)
 * Client ID
 * Deployment ID
 * Keyset URL
 * Access Token URL
 * Login URL
 
-External tools may use different names for these values and may not require
-all of them. Follow the tool vendor's instructions.
+.. important::
+
+   Most LTI tools also require an *Issuer*. The XBlock does not display the
+   Issuer as a separate value. Derive it from the *Keyset URL* or
+   *Access Token URL* by removing the ``/api/lti_consumer/...`` path. Do not
+   add a trailing slash.
+
+   For example, if the Keyset URL is
+   ``https://openedx.io/api/lti_consumer/v1/public_keysets/...``, the
+   Issuer is ``https://openedx.io``. An Authoring URL such as
+   ``https://apps.openedx.io/authoring/...`` is not the Issuer.
+
 
 Optional: Select Tool Content with Deep Linking
 ***********************************************
@@ -418,5 +439,5 @@ Publish and Test
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-06-25         | Aamir Ayub             | Verawood | Pass           |
+| 2026-07-13         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
