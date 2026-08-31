@@ -226,14 +226,13 @@ No Native Authoring Story in the Course Authoring MFE
 ======================================================
 
 The Authoring micro-frontend has no native code for rendering or
-toggling Asides — it does not know Asides exist. What it does have is
-a unit editor that embeds the legacy Studio unit page in an iframe, so
-an Aside's ``author_view`` UI (a checkbox, a tag picker, whatever the
-Aside renders) shows up inside that embedded page when authors use the
-new MFE, exactly as it would in legacy Studio, gated by the same
-``StudioConfig`` setting. There is no separate MFE-specific toggle to
-configure. The embedded page and the MFE aren't otherwise isolated
-from each other, either — they already exchange at least one real
+toggling Asides — it does not know Asides exist. Its unit editor
+embeds the Studio unit page in an iframe, and whatever that page
+renders — including an Aside's ``author_view`` UI (a checkbox, a tag
+picker, whatever the Aside renders), gated by ``StudioConfig`` — shows
+up inside it. There is no separate, MFE-specific toggle to configure.
+The embedded page and the MFE aren't otherwise isolated from each
+other, either — they already exchange at least one real
 ``postMessage`` today. See :ref:`XBlock Asides Reference` for the full
 mechanics of both the Studio-side gate and this iframe relationship.
 

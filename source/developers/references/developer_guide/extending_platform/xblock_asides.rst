@@ -370,12 +370,12 @@ Discovery
 
    **Asides in the Authoring MFE.** The Authoring micro-frontend has no
    native code for rendering or toggling Asides. Its unit editor page
-   embeds the legacy Studio unit page in an iframe
+   embeds the Studio unit page in an iframe
    (``container_embed_handler`` in
    ``cms/djangoapps/contentstore/views/component.py``), so an Aside's
    ``author_view`` fragment — gated by ``StudioConfig`` exactly as
-   described above — appears inside that iframe when authors use the
-   new MFE. There is no separate MFE-specific toggle. The embedded page
+   described above — appears inside that iframe when authors edit a
+   unit. There is no separate MFE-specific toggle. The embedded page
    and the MFE are not otherwise isolated: they already exchange a real
    ``postMessage`` today (a ``saveEditedXBlockData`` message the
    embedded page sends after a save, which the MFE listens for — see

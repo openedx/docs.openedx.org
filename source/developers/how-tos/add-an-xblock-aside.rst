@@ -449,12 +449,11 @@ Both models are ``ConfigurationModel`` rows that default to
 ``enabled=False``, so out of the box your Aside renders in neither the
 LMS nor Studio until you explicitly enable the model for each.
 
-If your project uses the new Authoring MFE, there's no separate switch
-to look for there: the MFE's unit editor embeds the same legacy Studio
-unit page this ``StudioConfig`` setting controls, inside an iframe. Once
-``StudioConfig`` is enabled, the ``author_view`` checkbox from Step 4
-appears inside that embedded page when authors edit a unit in the new
-MFE, exactly as it does in legacy Studio.
+The Authoring MFE doesn't need a separate switch either: its unit
+editor embeds the same Studio unit page this ``StudioConfig`` setting
+controls, inside an iframe. Once ``StudioConfig`` is enabled, the
+``author_view`` checkbox from Step 4 appears inside that embedded page
+when authors edit a unit.
 
 Step 11: Verify the Aside is rendering
 ***************************************
@@ -462,8 +461,8 @@ Step 11: Verify the Aside is rendering
 Open a course that contains a Problem or Video block, view it as a
 learner, and confirm the feedback link appears at the bottom of the
 block. To verify the author-side UI, open the same block's unit page in
-Studio (or the Authoring MFE) and confirm the checkbox appears in the
-author view. Click it, reload the page, and confirm the checkbox keeps
+Studio and confirm the checkbox appears in the author view. Click it,
+reload the page, and confirm the checkbox keeps
 its new state — that confirms the handler from Step 5 is actually
 persisting the value, not just rendering it once.
 
