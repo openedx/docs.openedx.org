@@ -270,14 +270,11 @@ The runtime supports multiple Aside types decorating the same block in
 principle, but interactions between asides on the same block are not
 well-tested, and this goes deeper than rendering. Two Asides attached
 to the same block type that happen to declare an identically-named
-``Scope.content`` or ``Scope.settings`` field share the *same stored
-value* on the platform's Split modulestore, confirmed by directly
-installing `ol-openedx-chat`_ and `rapid-response-xblock`_ together
-with both fields renamed to ``enabled``: toggling one Aside's checkbox
-in Studio's author view visibly checks the other Aside's checkbox too,
-even though the two render entirely different markup and JavaScript.
-See :ref:`XBlock Asides Reference` for the mechanism. Two Asides that
-both decorate ``student_view`` can also render correctly in isolation
+``Scope.content`` or ``Scope.settings`` field silently share the *same
+stored value* on the platform's Split modulestore — confirmed by
+directly reproducing the collision. See :ref:`XBlock Asides Reference`
+for the mechanism and the reproduction. Two Asides that both decorate
+``student_view`` can also render correctly in isolation
 and break when combined, independent of field naming. If you need
 multiple Asides on the same block type, give every field a name that's
 unlikely to collide with another installed Aside, and build a single

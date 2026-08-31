@@ -130,17 +130,13 @@ Name the field for the Aside, not generically
 safety requirement, not just a readability nicety: on the platform's
 Split modulestore, ``Scope.settings`` and ``Scope.content`` fields for
 every Aside attached to a given block type are stored in one shared
-bucket, keyed by field name — not by which Aside declared the field. A
-Boolean field named ``enabled`` on this Aside and an identically-named
-``Scope.settings`` field on a completely unrelated, independently
-installed Aside attached to the same block type read and write the
-*same* stored value. This has been directly reproduced: installing
-`ol-openedx-chat`_ and `rapid-response-xblock`_ together with both
-renamed to ``enabled`` makes checking one Aside's checkbox in Studio
-also check the other's, even though they render different markup and
-JavaScript. See :ref:`XBlock Asides Reference` for the mechanism. A
-name specific to this Aside — ideally one no other installed Aside is
-likely to reuse — is the only real protection against this.
+bucket, keyed by field name — not by which Aside declared the field,
+so an identically-named field on a completely unrelated, independently
+installed Aside reads and writes the *same* stored value. See
+:ref:`XBlock Asides Reference` for the mechanism and a confirmed
+reproduction. A name specific to this Aside — ideally one no other
+installed Aside is likely to reuse — is the only real protection
+against this.
 
 Step 4: Decorate the views you want to inject into
 **************************************************
@@ -501,9 +497,9 @@ If your Aside needs to reach beyond its own iframe — to trigger
 something in the surrounding Learning MFE page — use ``postMessage``.
 This step is optional; skip it if your Aside's UI is self-contained.
 
-For simple cases, the Learning MFE already recognizes a few built-in
-message types with no extra setup on either side. For example, to
-open a modal from your Aside's learner-facing JavaScript:
+For a built-in message type, no extra setup is needed on either side.
+For example, to open a modal from your Aside's learner-facing
+JavaScript:
 
 .. code-block:: javascript
 
@@ -512,46 +508,18 @@ open a modal from your Aside's learner-facing JavaScript:
      learningMfeBaseUrl
    );
 
-(Avoid ``plugin.resize`` for this purpose — the host page already posts
-it on its own from a document-size observer, so an Aside posting the
-same type competes with that loop instead of adding a new capability.)
-
-For anything the built-in types don't cover — a custom drawer, a
-bespoke widget — post your own message type, and pair it with a
-listener you register yourself:
-
-.. code-block:: javascript
-
-   window.parent.postMessage(
-     {type: "your-namespace::your-event", payload: {...}},
-     learningMfeBaseUrl
-   );
-
-Nothing in ``frontend-app-learning`` reacts to a made-up type by
-default, so this only works once something is listening for it. That
-listener is a deployment-time addition — the Learning MFE loads an
-``env.config.jsx`` file at startup that can run arbitrary side-effect
-JavaScript, including dynamically importing and initializing a small
-script that does its own ``window.addEventListener("message", ...)``,
-checks ``event.origin`` and ``event.data.type``, and mounts whatever UI
-it wants in response. Neither half of this requires forking or
-patching ``frontend-app-learning``.
-
 Get ``learningMfeBaseUrl`` from the server side and pass it into your
 fragment's JavaScript through ``initialize_js``'s ``json_args``, rather
 than guessing at a URL client-side — a mismatched target origin drops
 the message with no console error on either end. `ol-openedx-chat`_
 sources this value from ``settings.LEARNING_MICROFRONTEND_URL``.
 
-MIT Open Learning's "AskTIM" chat button is a complete, running example
-of this whole pattern: `ol-openedx-chat`_'s ``ai_chat.js`` posts a
-custom message type to the Learning MFE, and a small companion script
-MIT deploys alongside the MFE (built on `smoot-design`_'s
-``AiDrawerManager``, registered through their own ``env.config.jsx``)
-listens for it and opens a chat drawer. Treat it as a reference to read,
-not a dependency to add — the pattern works with any custom message
-type and any listener you write yourself. See :ref:`XBlock Asides
-Reference` for the full mechanics.
+For a custom message type, you'll also need a listener registered
+through the Learning MFE's own ``env.config.jsx``. See :ref:`XBlock
+Asides Reference` for the full set of built-in types, why
+``plugin.resize`` collides with the host page's own use of it, the
+listener recipe, and a complete worked example from MIT Open
+Learning's `ol-openedx-chat`_.
 
 Next Steps
 **********
@@ -590,7 +558,6 @@ mechanism, see :ref:`About XBlock Asides`.
 .. _ol-openedx-chat: https://github.com/mitodl/open-edx-plugins/tree/main/src/ol_openedx_chat
 .. _rapid-response-xblock: https://github.com/mitodl/open-edx-plugins/tree/main/src/rapid_response_xblock
 .. _StructuredTagsAside: https://github.com/openedx/openedx-platform/blob/release/verawood/cms/lib/xblock/tagging/tagging.py#L17
-.. _smoot-design: https://github.com/mitodl/smoot-design
 
 **Maintenance chart**
 
