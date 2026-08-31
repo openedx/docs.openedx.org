@@ -20,9 +20,9 @@ beautifulsoup4==4.15.0
     # via pydata-sphinx-theme
 certifi==2026.7.22
     # via requests
-charset-normalizer==3.4.9
+charset-normalizer==3.5.1
     # via requests
-click==8.4.2
+click==8.5.0
     # via uvicorn
 colorama==0.4.6
     # via sphinx-autobuild
@@ -36,11 +36,11 @@ fspath==20230629
     # via linuxdoc
 h11==0.16.0
     # via uvicorn
-idna==3.18
+idna==3.19
     # via
     #   anyio
     #   requests
-imagesize==2.0.0
+imagesize==2.0.1
     # via sphinx
 jinja2==3.1.6
     # via
@@ -61,11 +61,11 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==5.1.0
     # via -r requirements/base.in
-packaging==26.2
+packaging==26.3
     # via sphinx
 pydata-sphinx-theme==0.20.0
     # via sphinx-book-theme
-pygments==2.20.0
+pygments==2.21.0
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -84,7 +84,7 @@ six==1.17.0
     # via fspath
 snowballstemmer==3.1.1
     # via sphinx
-soupsieve==2.9.1
+soupsieve==2.9.2
     # via beautifulsoup4
 sphinx==9.1.0
     # via
@@ -134,7 +134,7 @@ sphinxemoji==0.3.2
     # via -r requirements/base.in
 sphinxext-rediraffe==0.3.0
     # via -r requirements/base.in
-starlette==1.3.1
+starlette==1.6.0
     # via sphinx-autobuild
 typing-extensions==4.16.0
     # via
@@ -143,11 +143,11 @@ typing-extensions==4.16.0
     #   starlette
 urllib3==2.7.0
     # via requests
-uvicorn==0.51.0
+uvicorn==0.52.4
     # via sphinx-autobuild
 watchfiles==1.2.0
     # via sphinx-autobuild
-websockets==16.1.1
+websockets==17.1
     # via sphinx-autobuild
 
 # The following packages are considered to be unsafe in a requirements file:
