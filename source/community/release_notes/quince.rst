@@ -72,7 +72,7 @@ New Settings:
 
 New Waffle Flags:
 
-* `CREATE_COURSE_WITH_DEFAULT_ENROLLMENT_START_DATE <https://github.com/openedx/edxplatform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/xmodule/course_block.py#L61>`__
+* `CREATE_COURSE_WITH_DEFAULT_ENROLLMENT_START_DATE <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/xmodule/course_block.py#L61>`__
 * `SHOW_REGISTRATION_LINKS <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/lms/envs/common.py#L782>`__
 * `IGNORED_ERRORS[N]['LOG_ERROR'] <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/openedx/core/lib/request_utils.py#L162>`__
 * `IGNORED_ERRORS[N]['LOG_STACK_TRACE'] <https://github.com/openedx/edx-platform/blob/d3d203cbac609adf23a6a8f003731fef12bd1ea1/openedx/core/lib/request_utils.py#L162>`__

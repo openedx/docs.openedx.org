@@ -17,7 +17,7 @@ For more information, see the `event-routing-backends documentation`_.
 
 .. _xAPI: https://xapi.com/
 .. _Advanced Distributed Learning: https://adlnet.gov/
-.. _supported xAPI events: https://github.com/openedx/event-routing-backends/blob/master/docs/event-mapping/Supported_events.rst
+.. _supported xAPI events: https://github.com/openedx/event-routing-backends/blob/master/docs/technical_documentation/concepts/event-mapping/supported_events.rst
 .. _event-routing-backends documentation: https://event-routing-backends.readthedocs.io/en/latest/
 
 **Maintenance chart**
