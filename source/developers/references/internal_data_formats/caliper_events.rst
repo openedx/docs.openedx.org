@@ -17,7 +17,7 @@ For more information, see the `event-routing-backends documentation`_.
 
 .. _Caliper: https://www.imsglobal.org/activity/caliper
 .. _IMS Global: https://www.imsglobal.org/
-.. _supported Caliper events: https://github.com/openedx/event-routing-backends/blob/master/docs/event-mapping/Supported_events.rst
+.. _supported Caliper events: https://github.com/openedx/event-routing-backends/blob/master/docs/technical_documentation/concepts/event-mapping/supported_events.rst
 .. _event-routing-backends documentation: https://event-routing-backends.readthedocs.io/en/latest/
 
 **Maintenance chart**
