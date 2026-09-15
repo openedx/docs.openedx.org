@@ -247,6 +247,7 @@ initiative.
    :glob:
 
    ../how-tos/course_development/migrate_legacy_libraries.rst
+   ../how-tos/course_development/merge_legacy_library_exports.rst
    ../concepts/instructional_design/libraries.rst
    ../how-tos/course_development/create_library.rst
    ../how-tos/course_development/edit_library.rst

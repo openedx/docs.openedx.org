@@ -339,6 +339,8 @@ Example ``block.xml``::
 
    :ref:`Backup and Restore a Library` (how-to)
 
+   :ref:`Merge Legacy Library Exports` (how-to)
+
    :ref:`What is Open Learning XML?` (concept)
 
    :ref:`OLX Documentation <OLX TOC>` (reference)
