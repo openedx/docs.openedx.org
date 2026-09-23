@@ -308,7 +308,7 @@ Or in ``setup.py``:
 
 The entry point name on the left of the equals sign is the Aside's
 **type name**. It is used as the XML tag when the Aside is serialized to
-OLX, and as the key in :class:`~xblock.scopes.ScopeIds` when an Aside
+OLX, and as the key in :class:`~xblock.fields.ScopeIds` when an Aside
 instance is constructed. Choose a name that is unique across all
 installed asides on a deployment.
 
@@ -383,7 +383,7 @@ Discovery
    JavaScript).
 
 ``runtime.load_aside_type(aside_type)``
-   Return the :class:`XBlockAside` subclass corresponding to the given
+   Return the :class:`~xblock.core.XBlockAside` subclass corresponding to the given
    ``aside_type`` string. Raises if no Aside is registered under that
    name.
 
@@ -393,13 +393,13 @@ Instantiation
 ``runtime.create_aside(block_type, keys)``
    Construct an Aside instance of the named ``block_type`` (the Aside
    type name, despite the parameter name) with the given ``ScopeIds``.
-   Returns an :class:`XBlockAside` instance.
+   Returns an :class:`~xblock.core.XBlockAside` instance.
 
 ``runtime.get_aside_of_type(block, aside_type)``
    Construct an Aside of the named type that is bound to the given host
    ``block``. Generates the Aside's definition and usage IDs from the
    host block's IDs using the runtime's ``id_generator``. Returns an
-   :class:`XBlockAside` instance.
+   :class:`~xblock.core.XBlockAside` instance.
 
 ``runtime.get_aside(aside_usage_id)``
    Construct an Aside instance from a previously known Aside usage ID.
@@ -420,7 +420,7 @@ Rendering
    has produced its fragment. Iterates over ``get_asides(block)``, looks
    up each Aside's view declaration for ``view_name``, and dispatches
    layout to ``layout_asides``. Returns the augmented
-   :class:`Fragment`.
+   :class:`~web_fragments.fragment.Fragment`.
 
 ``runtime.layout_asides(block, context, frag, view_name, aside_frag_fns)``
    Execute the Aside view functions and combine their fragments with the
