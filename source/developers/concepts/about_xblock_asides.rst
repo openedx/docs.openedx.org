@@ -26,7 +26,7 @@ What an Aside Is
 
 An Aside is a Python class that subclasses :class:`~xblock.core.XBlockAside`,
 declares one or more view-injection methods using the
-:func:`~xblock.core.XBlockAside.aside_for` decorator, and is registered with
+:meth:`~xblock.core.XBlockAside.aside_for` decorator, and is registered with
 the platform through a Python entry point in the ``xblock_asides.v1`` group.
 When the platform renders an XBlock view, the runtime collects every
 applicable Aside, invokes its matching Aside view, and appends the resulting
