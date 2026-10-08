@@ -1,12 +1,12 @@
-.. _Frontend Customisation:
+.. _Frontend Customization:
 
 ############################################
-Quickstart: Customise Your Open edX Frontend
+Quickstart: Customize Your Open edX Frontend
 ############################################
 
 .. tags:: developer, quickstart
 
-Setup, and customise a frontend site with multiple MFEs using the
+Setup, and customize a frontend site with multiple MFEs using the
 frontend-template-site and Tutor. You will create a custom app that
 adds a new route, with a custom new page, adds a new widget to the
 header slot, modifies an existing slot's layout and adds a new route
@@ -24,7 +24,7 @@ Clone the repo `frontend-template-site <https://github.com/openedx/frontend-temp
 locally. Normally you’d treat this as a template and modify things as needed, but
 for this example we’ll use most of it as-is.
 
-To keep things simple we will use tutor to handle this. Rename this
+To keep things simple we will use Tutor to handle this. Rename this
 folder to ``frontend-site`` and mount it in tutor using
 ``tutor mounts add /path/to/frontend-site``. After this you need to run
 ``tutor dev launch -I`` to get everything set up.
@@ -110,11 +110,11 @@ Next, let’s attach this to a route with the following content in
    export default routes;
 
 As you can see, we are adding a route with a path of ``/myapp``. We are
-having this path handle the specified role, will look into this later.
+having this path handle the specified role, we'll look into this later.
 Next we’re providing an async function called ``lazy`` that loads our
 new component and returns it for this path.
 
-Now let’s add this routes to our app by importing it and adding to the
+Now let’s add this route to our app by importing it and adding to the
 app config. Your ``app.ts`` file should now look like:
 
 .. code-block:: typescript
@@ -136,10 +136,10 @@ footer.
 A Quick Test of Provides
 ------------------------
 
-Let’s now quickly see how we can use provides to customise this app. We
-will use a provides config from the shell app to tell it that our app
+Let’s now quickly see how we can use ``provides`` to customize this app. We
+will use a ``provides`` config from the shell app to tell it that our app
 doesn’t need a header and footer. We can do this by adding our role to
-``org.openedx.frontend.provides.chromelessRoles.v1``. Here is that that
+``org.openedx.frontend.provides.chromelessRoles.v1``. Here is what that
 looks like:
 
 .. code-block:: typescript
@@ -180,24 +180,27 @@ create a component for this link. Let’s create
 
    const MyAppLink = () => {
      const myAppRoute = resolveRouteByRole('org.openedx.frontend.role.myapp');
+     if (!myAppRoute) {
+       return null;
+     }
      const linkProps = getLinkProps(myAppRoute.url);
      return myAppRoute && <Hyperlink {...linkProps}>MyApp</Hyperlink>;
    };
 
    export default MyAppLink;
 
-This is a very simple component but there is some interesting things
-going on here that are worth discussing. We could have just hardcoded
+This is a very simple component but there are some interesting things
+going on here that are worth discussing. We could have just hard-coded
 the URL, but instead, since we tagged that route with a role, we can
-use tools provided by `frontend-base` to resolve the URL, similar to how
-you'd use `reverse` in Django.
+use tools provided by ``frontend-base`` to resolve the URL, similar to how
+you'd use ``reverse`` in Django.
 
-In the above code, we're use `resolveRouteByRole` to get the URL of this
-role dynamically. This function also return whether this is an internal
+In the above code, we're using ``resolveRouteByRole`` to get the URL of this
+role dynamically. This function also returns whether this is an internal
 link within the site, or one of the external routes so you can
 potentially alter the UX based on that.
 
-Another tool we're using is `getLinkProps`, which generates the
+Another tool we're using is ``getLinkProps``, which generates the
 appropriate props for the link based on whether it's an internal link
 that we can navigate to without a full page refresh, or an external
 link. These would work anywhere, even in another MFE to link between
@@ -280,11 +283,20 @@ testing with each release.
 Modifying Widget Layouts
 ------------------------
 
-While it’s no longer possible to use the wrap operation, Slot layouts
-and layout operations are a more powerful concept. A very simple way to
-understand Slot layouts is that, all slots are automatically wrapped
-with another component, which its layout and the `default
-layout <https://github.com/openedx/frontend-base/blob/83a17527ad253c2c7ae07e452241c5c93d042edc/runtime/slots/layout/DefaultSlotLayout.tsx>`__
+MFEs have support some form of UI customization using plugin slots since the 
+Redwood release. They've undergone changes with each release with the 
+introduction of new slots, and changes to slot naming conventions, but the 
+move to ``frontend-base`` comes with the biggest changes yet. 
+One huge change is the removal of the ``Wrap`` operation, which earlier allowed
+creating a plugin that wraps a component around an existing slot. 
+For example, if you wanted to hide components from the progress page till a 
+user makes a discussion post, you could create a wrapper component that checks 
+a user's discussion stats and shows/hides components based on that data. 
+The reason the ``Wrap`` operation is gone is that it's been superseded by a 
+more powerful concept: Slot Layouts.
+A very simple way to understand Slot layouts is that, all slots are 
+automatically wrapped in a Layout component. The default layout 
+<https://github.com/openedx/frontend-base/blob/83a17527ad253c2c7ae07e452241c5c93d042edc/runtime/slots/layout/DefaultSlotLayout.tsx>`__
 is simply an empty component that returns its contents as-is.
 
 Let’s see how we can use layout operations to change the layout of a
@@ -308,7 +320,7 @@ following content to ``src/myapp/MyAppLayout.tsx``:
 
    export default MyAppLayout;
 
-This is a very simple demo wrap operation. This layout simply adds a
+This is a very simple demo layout. This layout simply adds a
 thick (3px) solid red border around the component. Frontend base is
 providing a React hook ``useWidgets`` that lets you interact with the
 widgets added to the slot using this layout.
@@ -329,7 +341,7 @@ update slot:
      slots: [
        {
          slotId: 'org.openedx.frontend.slot.header.primaryLinks.v1',
-         id: 'org.openedx.frontend.slot.myapp.links',
+         id: 'org.openedx.frontend.widget.myapp.links',
          op: WidgetOperationTypes.APPEND,
          component: MyAppLink,
          condition: {
@@ -351,7 +363,7 @@ update slot:
 
 This is a pretty straightforward slot config, we specify a slot ID, and
 set the operation as a layout replacement, specify the component that
-will be used as the new layout an specify the conditions in which this
+will be used as the new layout and specify the conditions in which this
 layout should be used.
 
 The end result of the above slot config is that we’ll see a thick red
@@ -367,7 +379,7 @@ more complex ways.
 
 For example, if you wanted to lay elements with some widgets vertically
 in a stack and other horizontally in a row, you could use
-``widget.byId`` or ``widget.byRole`` to query individual widgets by
+``widgets.byId`` or ``widgets.byRole`` to query individual widgets by
 their ID or role, and then put them in any arrangement you want.
 
 Want even more flexibility? Your layouts can have slots of their own,
@@ -377,8 +389,8 @@ which can in turn have their own layouts!
 
 .. seealso::
 
-   :ref:`Tutor for MFE QS` (how-to)
-       A step-by-step recipe for adding an Aside to existing XBlocks.
+   :ref:`Tutor for MFE QS` (quickstart)
+       A guide to working with MFEs using Tutor.
 
 **Maintenance chart**
 
