@@ -60,6 +60,17 @@ Let’s import this in ``site.config.dev.tsx`` as follows:
 
 And then add it to the list of apps.
 
+.. code-block:: typescript
+
+   const siteConfig: SiteConfig = {
+    ...
+    apps: [
+      ...
+      myApp,
+    ]
+    ...
+   }
+
 Currently it does nothing, but with this in place we can now begin
 working on ``myapp`` and with hot reloading everything will just work!
 
@@ -274,11 +285,39 @@ You can take this a step further and add a link to this page via a slot
 in the catalog MFE. We won’t discuss that here since that’s a
 straightforward case of looking up where to add the slot and adding it.
 
-**NOTE:** In this code we’re directly modifying the ``catalogApp``
-config, which isn’t ideal. A better approach would be to do this by
-creating a new object with the modifications. Even so it will be a bit
-fragile and dependent on the route structure of the catalogApp and need
-testing with each release.
+.. note::
+
+  In this code we’re directly modifying the ``catalogApp``
+  config, which isn’t ideal. A better approach would be to do this by
+  creating a new object with the modifications. Even so it will be a bit
+  fragile and dependent on the route structure of the catalogApp and need
+  testing with each release. Here is that code for reference:
+  
+  .. code-block:: typescript
+
+    const myAppRoute: RoleRouteObject = {
+      path: 'courses/:courseId/myapp',
+      lazy: async () => {
+        const { default: Component } = await import('./src/myapp/MyApp');
+        return { Component };
+      },
+    };
+
+    const catalogRoute = catalogApp.routes?.[0] ?? {};
+
+    const extendedCatalogApp: App = {
+      ...catalogApp,
+      routes: [
+        { 
+          ...catalogRoute, 
+          // Index routes can't have children so we add this to satisfy the type checker
+          index: false,
+          children: [...(catalogRoute.children ?? []), myAppRoute] 
+        },
+      ],
+    };
+
+  
 
 Modifying Widget Layouts
 ------------------------
