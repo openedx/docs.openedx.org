@@ -139,10 +139,12 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/wordpress-ecommerce-plugin/{rtd_language}/{rtd_version}",
         None,
     ),
-    "openedx-events": (
-        f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/{rtd_version}",
-        None,
-    ),
+    # Temporarily commented for Verawood release, as it has a circular dependency back to
+    # this repo.
+    #"openedx-events": (
+    #    f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/{rtd_version}",
+    #    None,
+    #),
     "openedx-filters": (
         f"https://docs.openedx.org/projects/openedx-filters/{rtd_language}/{rtd_version}",
         None,
