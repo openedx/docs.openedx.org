@@ -81,9 +81,9 @@ The feature has its configuration:
 - ``events`` - explicit event bus signals list (only events with PII user data in payload are applicable).
 - ``credly`` - Credly integration details.
 - ``accredible`` - Accredible integration details.
-- ``rules.ignored_keypaths`` - event payload paths to exclude from data rule options (see: :ref:`credentials:badges-configuration`).
+- ``rules.ignored_keypaths`` - event payload paths to exclude from data rule options (see: :doc:`credentials:badges/configuration/index`).
 
-For more details on configuring badges, see :ref:`credentials:badges-quickstart`.
+For more details on configuring badges, see :doc:`credentials:badges/quickstart`.
 
 
 See :ref:`credentials:Configuration examples for Badging` for some example configurations.
@@ -93,11 +93,11 @@ See :ref:`credentials:Configuration examples for Badging` for some example confi
 
     :ref:`Enable Badges`
 
-    :ref:`credentials:badges-quickstart`
+    :doc:`credentials:badges/quickstart`
 
     :ref:`credentials:Configuration examples for Badging`
 
-    :ref:`credentials:badges-configuration`
+    :doc:`credentials:badges/configuration/index`
 
 
 **Maintenance chart**

@@ -15,7 +15,7 @@ See :ref:`credentials:Configuration examples for Badging` for some example confi
 
     :ref:`Configuring Badges`
 
-    :ref:`credentials:badges-quickstart`
+    :doc:`credentials:badges/quickstart`
 
     :ref:`credentials:Configuration examples for Badging`
 
