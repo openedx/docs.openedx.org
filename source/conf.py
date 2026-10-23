@@ -157,6 +157,11 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/edx-credentials/{rtd_language}/{rtd_version}",
         None,
     ),
+    # Pinned to Teak for historical release notes whose targets were removed later.
+    "credentials-teak": (
+        f"https://docs.openedx.org/projects/edx-credentials/{rtd_language}/release-teak",
+        None,
+    ),
     "authz": (
         f"https://docs.openedx.org/projects/openedx-authz/{rtd_language}/{rtd_version}",
         None,
