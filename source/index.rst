@@ -31,7 +31,7 @@ Open edX Documentation
    .. grid-item-card::
       :class-card: sd-shadow-md sd-p-2
       :class-footer: sd-border-0
-      
+
       .. toctree::
          :maxdepth: 1
          :caption: Quick Starts
@@ -239,7 +239,7 @@ Open edX Release Notes
          :maxdepth: 1
          :caption: Open edX Release Notes
 
-         Current Release: Ulmo <community/release_notes/ulmo>
+         Current Release: Verawood <community/release_notes/verawood>
          All Release Notes <community/release_notes/index>
 
 **************************
@@ -260,5 +260,3 @@ Help & Feedback
 
          Provide Feedback on these Docs <other/feedback>
          Get Help with Open edX <other/getting_help>
-
-
