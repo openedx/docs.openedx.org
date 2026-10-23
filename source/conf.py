@@ -100,10 +100,10 @@ tags_badge_colors = {
 # Intersphinx Extension Configuration
 DIGITS_ONLY = r"^\d+$"
 rtd_language = os.environ.get("READTHEDOCS_LANGUAGE", "en")
-rtd_version = os.environ.get("READTHEDOCS_VERSION", "latest")
+rtd_version = os.environ.get("READTHEDOCS_VERSION", "release-verawood")
 if re.search(DIGITS_ONLY, rtd_version):
     # This is a PR build, use the latest versions of the other repos.
-    rtd_version = "latest"
+    rtd_version = "release-verawood"
 
 intersphinx_mapping = {
     "DoneXBlock": (
@@ -139,12 +139,10 @@ intersphinx_mapping = {
         f"https://docs.openedx.org/projects/wordpress-ecommerce-plugin/{rtd_language}/{rtd_version}",
         None,
     ),
-    # Temporarily commented for Verawood release, as it has a circular dependency back to
-    # this repo.
-    #"openedx-events": (
-    #    f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/{rtd_version}",
-    #    None,
-    #),
+    "openedx-events": (
+        f"https://docs.openedx.org/projects/openedx-events/{rtd_language}/{rtd_version}",
+        None,
+    ),
     "openedx-filters": (
         f"https://docs.openedx.org/projects/openedx-filters/{rtd_language}/{rtd_version}",
         None,
