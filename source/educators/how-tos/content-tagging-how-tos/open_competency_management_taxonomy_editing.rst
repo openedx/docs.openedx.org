@@ -9,11 +9,11 @@ A Competency taxonomy has two separate workflows in Studio, and each workflow
 has its own page. This guide describes when to use each page and how to open
 it.
 
-Choose the Page for Your Task
-*****************************
+Choose the Page for the Task
+****************************
 
-The two pages change different things, so choose the page that matches your
-task before you start.
+The two pages offer different options, choose the page that matches the
+task before starting.
 
 .. list-table::
    :header-rows: 1
@@ -41,46 +41,44 @@ Open the Competency Management Page
 
 #. From Studio Home, select the **Taxonomies** tab.
 
-#. Find the Competency taxonomy that you want to work with. A target icon to the
-   left of the taxonomy name marks a Competency taxonomy.
+#. Select a Competency taxonomy to work with. A target icon to the left of the
+   taxonomy name indicates a Competency taxonomy.
 
 #. Open the Competency Management page in one of the following ways.
 
    * Select the :guilabel:`Apply Competencies` button at the bottom of the
      taxonomy card.
    * Select the three-dot menu on the taxonomy card, then select
-     :guilabel:`Apply Competencies`. It is the last item in the menu, after
-     :guilabel:`Re-import`, :guilabel:`Export`, :guilabel:`Delete`, and
-     :guilabel:`Manage Organizations`.
+     :guilabel:`Apply Competencies`. 
 
-   .. Screenshot needed: taxonomies_apply_competencies_entry_points.png
-      Alt text: A screenshot of a Competency taxonomy card with its three-dot
-      menu open, showing Apply Competencies as the last menu item, and the
-      Apply Competencies button at the bottom of the card.
+..  image:: /_images/educator_how_tos/taxonomies_apply_competencies_entry_points.png
+    Alt text: A screenshot of a Competency taxonomy card with its three-dot
+    menu open, showing Apply Competencies as the last menu item, and the
+    Apply Competencies button at the bottom of the card.
 
 The Competency Management page opens for that taxonomy. The page title is the
-taxonomy name, and the **Taxonomies** link at the top of the page returns you to
+taxonomy name, and the **Taxonomies** link at the top of the page leads back to
 the **Taxonomies** page.
 
 The left side of the page lists the taxonomy's competencies as a tree. Select
 :guilabel:`Expand All` or :guilabel:`Collapse All` to show or hide every level
-of the tree. When you select a competency, the right side of the page shows the
-competency criteria associations for that competency, and a list of courses that
-you can search and filter by start date.
+of the tree. When a competency is selected, the right side of the page shows
+the competency criteria associations for that competency, and a list of courses
+that can be searched and filtered by start date.
 
-.. Screenshot needed: taxonomies_competency_management_page.png
+..  image:: /_images/educator_how_tos/taxonomies_competency_management_page.png
    Alt text: A screenshot of the Competency Management page, showing the
    Taxonomies link and taxonomy name at the top, the competency tree on the
    left, and the course list on the right for the selected competency.
 
 .. note::
 
-   You can also open the Competency Management page from the taxonomy editing
+   The Competency Management page can also be opened from the taxonomy editing
    page. Select :guilabel:`Actions`, then select :guilabel:`Apply Competencies`.
 
-If you do not see :guilabel:`Apply Competencies` on a Competency taxonomy, you
-do not have permission to apply that taxonomy to content. Contact your
-organization or instance administrator.
+If :guilabel:`Apply Competencies` does not appear on a Competency taxonomy, the
+current user does not have permission to apply that taxonomy to content or the page being viewed is for a taxonomy, not a Competency taxonomy. Contact
+an organization or instance administrator.
 
 Open the Taxonomy Editing Page
 ******************************

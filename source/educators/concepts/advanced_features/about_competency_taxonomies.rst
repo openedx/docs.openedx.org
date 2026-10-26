@@ -5,9 +5,9 @@ About Competency Taxonomies
 
 .. tags:: educator, concept
 
-Every taxonomy in Studio has a type: **Tags** or **Competency**. You choose the
-type when you import a new taxonomy. The type controls what you can do with the
-taxonomy after it is imported.
+Every taxonomy in Studio has a type: **Tags** or **Competency**. The type is
+chosen during the import of a new taxonomy. The type controls what can be done
+with the taxonomy after it is imported.
 
 Taxonomy Types
 **************
@@ -20,10 +20,10 @@ The following table describes the two taxonomy types.
 
    * - Type
      - What the taxonomy contains
-     - What you use it for
+     - What it is used for
    * - Tags
      - Labels that describe content, such as subject, difficulty, or format.
-     - Tagging courses, course content, and library content so that you can
+     - Tagging courses, course content, and library content to have the ability to
        organize, filter, and search for that content. Tags is the default type.
    * - Competency
      - Competencies, which are the skills or knowledge that a learner is
@@ -33,10 +33,9 @@ The following table describes the two taxonomy types.
        competency to graded course content, and sets what a learner must
        achieve on that content to demonstrate mastery of the competency.
 
-You build and edit a Competency taxonomy the same way that you build and edit a
-Tags taxonomy. The tags in a Competency taxonomy are its competencies. The
+A Competency taxonomy is built and edited the same way a Tags taxonomy is built and edited. The tags in a Competency taxonomy are its competencies. The
 difference between the two types is that only the competencies in a Competency
-taxonomy can be connected to graded course content through competency criteria.
+taxonomy can be connected to graded course content through competency criteria and how learner mastery is tracked.
 
 When to Use a Competency Taxonomy
 *********************************
@@ -44,8 +43,8 @@ When to Use a Competency Taxonomy
 Import a taxonomy as a Competency taxonomy when both of the following are true.
 
 * Each entry in the taxonomy is a competency that learners must demonstrate.
-* You plan to track learner mastery of those competencies against graded work
-  in your courses.
+* Learner mastery of those competencies is tracked against graded work
+  in courses.
 
 Import a taxonomy as a Tags taxonomy when its entries only describe or
 categorize content.
@@ -53,11 +52,11 @@ categorize content.
 The Taxonomy Type Is Permanent
 ******************************
 
-You choose a taxonomy's type only when you import it as a new taxonomy.
+A taxonomy's type is chosen only when it is imported as a new taxonomy.
 Re-importing a taxonomy replaces its tags but keeps its type, and Studio does
-not currently provide a way to change the type later. If you need the same entries as a
-different type, import the file again as a new taxonomy and choose the other
-type.
+not currently provide a way to change the type later. To use the same entries
+as a different type, import the file again as a new taxonomy and choose the
+other type.
 
 How a Competency Taxonomy Appears in Studio
 *******************************************
@@ -75,8 +74,8 @@ in the following ways.
   the Competency Management page for that taxonomy. Tags taxonomy cards have
   neither of these.
 
-.. Screenshot needed: taxonomies_type_icons.png
-   Alt text: A screenshot of the Taxonomies page showing a Competency taxonomy
+..  image:: /_images/educator_concepts/taxonomies_type_icons.png
+  :alt: A screenshot of the Taxonomies page showing a Competency taxonomy
    card with a target icon and an Apply Competencies button, next to a Tags
    taxonomy card with a tag icon.
 
@@ -85,7 +84,7 @@ workflows on separate pages. For how to open each page, see
 :ref:`open-competency-management-taxonomy-editing`.
 
 Each competency in a Competency taxonomy has a Competency ID, which comes from
-the file that you import or is generated from the competency's name. For more
+the imported file or is generated from the competency's name. For more
 information, see :ref:`about-competency-ids`.
 
 .. seealso::

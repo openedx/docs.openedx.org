@@ -25,6 +25,7 @@ Other References
    tools_for_maintainers
    a11y-ref
    internal_data_formats/index
+   competency_ids_rest_api
    developer_guide/index
    /glossary
 
