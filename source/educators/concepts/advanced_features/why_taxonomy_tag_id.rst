@@ -50,10 +50,9 @@ needed. (Note that during the re-import workflow, you'll get a chance to preview
 what changes will be applied before you finalize the update. That's a good time
 to double-check that the right thing - rename or delete - is about to happen.) 
 
-If in doubt, a good rule of thumb is to **never change the ID once a tag has been
-created**, unless you're certain you want to delete all occurrences of that tag
-and re-create a new similar tag from scratch. If a tag's ID is wrong and you
-need to replace it without losing the tag, see `Changing a tag's ID`_.
+If in doubt, keep each tag's ID the same between imports. To give a tag a new ID 
+without deleting it, use the `previous_id` column described below. Changing the id 
+column alone deletes the tag and all content tagged with it. 
 
 Changing a tag's ID
 *******************
