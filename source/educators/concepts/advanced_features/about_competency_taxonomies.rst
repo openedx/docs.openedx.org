@@ -35,7 +35,7 @@ The following table describes the two taxonomy types.
 
 A Competency taxonomy is built and edited the same way a Tags taxonomy is built and edited. The tags in a Competency taxonomy are its competencies. The
 difference between the two types is that only the competencies in a Competency
-taxonomy can be connected to graded course content through competency criteria,
+taxonomy can be connected to graded course content through competency criteria
 and used to track what a learner has mastered.
 
 When to Use a Competency Taxonomy
