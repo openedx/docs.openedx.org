@@ -40,9 +40,10 @@ Import the Taxonomy
    **Tags** by default, so if it is left unchanged, the taxonomy is imported
    as a Tags taxonomy.
 
-..  image:: /_images/educator_how_tos/populate_taxonomy_type_selection.png
-   Alt text: A screenshot of the Populate Taxonomy Information step of the import wizard, with
-   the Taxonomy Type list open and showing the Tags and Competency options.
+   .. image:: /_images/educator_how_tos/populate_taxonomy_type_selection.png
+      :alt: A screenshot of the Populate Taxonomy Information step of the
+            import wizard, with the Taxonomy Type list open and showing the
+            Tags and Competency options.
 
 #. Select :guilabel:`Import`.
 
@@ -50,10 +51,10 @@ When the import finishes, Studio shows a notification that the taxonomy was
 imported, and the new taxonomy appears on the **Taxonomies** page. Its card
 shows the Competency icon and an :guilabel:`Apply Competencies` button.
 
-..  image:: /_images/educator_how_tos/taxonomies_competency_card.png
-   Alt text: A screenshot of a Competency taxonomy card on the Taxonomies page,
-   showing the target icon next to the taxonomy name and the Apply Competencies
-   button at the bottom of the card.
+.. image:: /_images/educator_how_tos/taxonomies_competency_card.png
+   :alt: A screenshot of a Competency taxonomy card on the Taxonomies page,
+         showing the target icon next to the taxonomy name and the Apply
+         Competencies button at the bottom of the card.
 
 If the import fails, Studio shows an **Import error** message, and no taxonomy
 is created. Fix any issues in the file and import it again.

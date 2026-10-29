@@ -52,7 +52,30 @@ to double-check that the right thing - rename or delete - is about to happen.)
 
 If in doubt, a good rule of thumb is to **never change the ID once a tag has been
 created**, unless you're certain you want to delete all occurrences of that tag
-and re-create a new similar tag from scratch.
+and re-create a new similar tag from scratch. If a tag's ID is wrong and you
+need to replace it without losing the tag, see `Changing a tag's ID`_.
+
+Changing a tag's ID
+*******************
+
+To give an existing tag a new ID, add a ``previous_id`` column to the import
+file. Put the tag's current ID in ``previous_id`` and the new ID in ``id``. On
+re-import, the tag keeps its content tags and gets the new ID.
+
++-------------------+---------------+----------------------------------------------+
+| **previous_id**   | **ID**        | **Value**                                    |
++-------------------+---------------+----------------------------------------------+
+| 3                 | 17            | Canada                                       |
++-------------------+---------------+----------------------------------------------+
+
+In this example, the tag with ID ``3`` is renamed to ID ``17`` and keeps its
+content tags, instead of being deleted and re-created.
+
+The ``previous_id`` column is used only during import; exported files do not
+include it. A row that does not use ``previous_id`` cannot take an ID that
+another row in the same file is renaming away from.
+
+In the Studio REST API, a tag's ID is its ``external_id`` field.
 
 Matching external systems/taxonomies
 ************************************

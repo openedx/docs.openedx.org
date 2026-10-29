@@ -35,7 +35,8 @@ The following table describes the two taxonomy types.
 
 A Competency taxonomy is built and edited the same way a Tags taxonomy is built and edited. The tags in a Competency taxonomy are its competencies. The
 difference between the two types is that only the competencies in a Competency
-taxonomy can be connected to graded course content through competency criteria and how learner mastery is tracked.
+taxonomy can be connected to graded course content through competency criteria,
+and used to track what a learner has mastered.
 
 When to Use a Competency Taxonomy
 *********************************
@@ -74,10 +75,10 @@ in the following ways.
   the Competency Management page for that taxonomy. Tags taxonomy cards have
   neither of these.
 
-..  image:: /_images/educator_concepts/taxonomies_type_icons.png
-  :alt: A screenshot of the Taxonomies page showing a Competency taxonomy
-   card with a target icon and an Apply Competencies button, next to a Tags
-   taxonomy card with a tag icon.
+.. image:: /_images/educator_concepts/taxonomies_type_icons.png
+   :alt: A screenshot of the Taxonomies page showing a Competency taxonomy
+         card with a target icon and an Apply Competencies button, next to a
+         Tags taxonomy card with a tag icon.
 
 Editing a Competency taxonomy and applying its competencies are separate
 workflows on separate pages. For how to open each page, see

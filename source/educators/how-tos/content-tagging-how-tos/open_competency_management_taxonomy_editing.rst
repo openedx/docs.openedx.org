@@ -49,12 +49,12 @@ Open the Competency Management Page
    * Select the :guilabel:`Apply Competencies` button at the bottom of the
      taxonomy card.
    * Select the three-dot menu on the taxonomy card, then select
-     :guilabel:`Apply Competencies`. 
+     :guilabel:`Apply Competencies`.
 
-..  image:: /_images/educator_how_tos/taxonomies_apply_competencies_entry_points.png
-    Alt text: A screenshot of a Competency taxonomy card with its three-dot
-    menu open, showing Apply Competencies as the last menu item, and the
-    Apply Competencies button at the bottom of the card.
+   .. image:: /_images/educator_how_tos/taxonomies_apply_competencies_entry_points.png
+      :alt: A screenshot of a Competency taxonomy card with its three-dot
+            menu open, showing Apply Competencies as the last menu item, and
+            the Apply Competencies button at the bottom of the card.
 
 The Competency Management page opens for that taxonomy. The page title is the
 taxonomy name, and the **Taxonomies** link at the top of the page leads back to
@@ -66,19 +66,21 @@ of the tree. When a competency is selected, the right side of the page shows
 the competency criteria associations for that competency, and a list of courses
 that can be searched and filtered by start date.
 
-..  image:: /_images/educator_how_tos/taxonomies_competency_management_page.png
-   Alt text: A screenshot of the Competency Management page, showing the
-   Taxonomies link and taxonomy name at the top, the competency tree on the
-   left, and the course list on the right for the selected competency.
+.. image:: /_images/educator_how_tos/taxonomies_competency_management_page.png
+   :alt: A screenshot of the Competency Management page, showing the
+         Taxonomies link and taxonomy name at the top, the competency tree on
+         the left, and the course list on the right for the selected
+         competency.
 
 .. note::
 
    The Competency Management page can also be opened from the taxonomy editing
    page. Select :guilabel:`Actions`, then select :guilabel:`Apply Competencies`.
 
-If :guilabel:`Apply Competencies` does not appear on a Competency taxonomy, the
-current user does not have permission to apply that taxonomy to content or the page being viewed is for a taxonomy, not a Competency taxonomy. Contact
-an organization or instance administrator.
+If :guilabel:`Apply Competencies` does not appear, either the taxonomy is a Tags
+taxonomy, not a Competency taxonomy, or the current user does not have
+permission to apply that taxonomy to content. Contact an organization or
+instance administrator.
 
 Open the Taxonomy Editing Page
 ******************************

@@ -8,14 +8,15 @@ About Competency IDs
 A Competency ID is the identifier of a competency in a Competency taxonomy.
 Every competency has one. It is usually the code that the competency is assigned in
 its source framework, such as ``HS.N-RN.A.1``, which is set in the file that
-is imported. Studio shows the Competency ID next
-to the competency's name to identify which framework entry a
-competency matches, even when two competencies have similar names.
+is imported. Studio shows the Competency ID next to the competency's name on
+the Competency Management page, which opens from :guilabel:`Apply Competencies`,
+to identify which framework entry a competency matches, even when two
+competencies have similar names. The taxonomy editing page does not show it.
 
 Where a Competency ID Comes From
 ********************************
 
-A Competency IDs is assigned in the file that is imported to create or update a
+A Competency ID is assigned in the file that is imported to create or update a
 Competency taxonomy. The ``id`` column of a CSV file, or the ``id`` field of
 each tag in a JSON file, holds the Competency ID. The ``value`` column or field
 holds the competency's name.
@@ -57,18 +58,18 @@ as a blue badge in the following places:
 
 Screen readers announce each badge as "Competency ID:" followed by the ID.
 
-..  image:: /_images/educator_concepts/taxonomies_competency_id_badges.png
-  :alt: A screenshot of the Competency Management page with a competency
-   selected, showing Competency ID badges in the competency tree and next to
-   the Demonstrate Mastery For line.
+.. image:: /_images/educator_concepts/taxonomies_competency_id_badges.png
+   :alt: A screenshot of the Competency Management page with a competency
+         selected, showing Competency ID badges in the competency tree and next
+         to the Demonstrate Mastery For line.
 
 The taxonomy editing page does not show Competency IDs.
 
 Changing a Competency ID
 ************************
 
-The Competency ID is not viewable or editable on the taxonomy editing page. The Competency IDs is set
-and changed by importing a CSV or JSON file.
+The Competency ID is not viewable or editable on the taxonomy editing page. The
+Competency ID is set and changed by importing a CSV or JSON file.
 
 When re-importing a taxonomy, Studio uses the Competency ID to match each row
 in the new file to an existing competency. If a row's Competency ID matches an
@@ -79,23 +80,15 @@ it. For more information about how IDs work during import, see
 To change a competency's Competency ID, add a ``previous_id`` column to the
 import file. Put the current ID in ``previous_id`` and the new ID in ``id``.
 Studio renames the ID in place, and the competency keeps its competency
-criteria. The ``previous_id`` column is used only during import, exported files
+criteria. The ``previous_id`` column is used only during import; exported files
 do not include it.
 
-A competency added on the taxonomy editing page, or that an import file
-lists without an ``id``, gets a Competency ID generated from its name. If that
-ID is already taken in the taxonomy, Studio adds a suffix such as ``-2`` to it. When 
-the taxonomy is exported, the ``id`` column holds that generated ID. To replace it with the
-competency's real code, re-import the file with the generated ID in
-``previous_id`` and the real code in ``id``.
-
-Competency IDs in the REST API
-******************************
-
-Developers who work with taxonomies through the Studio REST API read and set
-Competency IDs through the ``external_id`` field of a tag. For the endpoints
-involved and how each one handles Competency IDs, see
-:ref:`competency-ids-rest-api`.
+A competency added on the taxonomy editing page, or created through the REST
+API without an ID, gets a Competency ID generated from its name. If another
+competency in the taxonomy already has that ID, Studio adds a suffix such as
+``-2`` to make it unique. When the taxonomy is exported, the ``id`` column holds
+that generated ID. To replace it with the competency's real code, re-import the
+file with the generated ID in ``previous_id`` and the real code in ``id``.
 
 .. seealso::
 
@@ -108,8 +101,6 @@ involved and how each one handles Competency IDs, see
    :ref:`tag-ids-for-taxonomy-import` (concept)
 
    :ref:`Update/Re-import a taxonomy` (how-to)
-
-   :ref:`competency-ids-rest-api` (reference)
 
 
 **Maintenance chart**

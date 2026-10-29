@@ -34,9 +34,13 @@ do that.
       :alt: A screenshot showing a CSV export of a taxonomy in Google Sheets. A value in the second column, labeled "value", is highlighted in yellow.
 
    .. note::
-      
-      DO NOT change the tag id. This will render the taxonomy un-usable.
-      See :ref:`tag-ids-for-taxonomy-import` for more detail.
+
+      Do not change a tag's ``id`` directly. The ``id`` is how the re-import
+      matches each row to an existing tag, so a changed ``id`` deletes the
+      old tag and creates a new one. To give a tag a new ``id``, add a
+      ``previous_id`` column, put the current ``id`` in it, and put the new
+      ``id`` in the ``id`` column. See :ref:`tag-ids-for-taxonomy-import`
+      for more detail.
 
 #. Once you've finished making changes, export the file as a CSV or JSON file
    and navigate back to the Taxonomy Dashboard.
