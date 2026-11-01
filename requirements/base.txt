@@ -147,7 +147,7 @@ uvicorn==0.54.0
     # via sphinx-autobuild
 watchfiles==1.3.0
     # via sphinx-autobuild
-websockets==17.3
+websockets==17.4
     # via sphinx-autobuild
 
 # The following packages are considered to be unsafe in a requirements file:
