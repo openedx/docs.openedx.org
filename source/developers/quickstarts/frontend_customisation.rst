@@ -6,7 +6,7 @@ Quickstart: Customize Your Open edX Frontend
 
 .. tags:: developer, quickstart
 
-Setup, and customize a frontend site with multiple MFEs using the
+Set up, and customize a frontend site with multiple MFEs using the
 frontend-template-site and Tutor. You will create a custom app that
 adds a new route, with a custom new page, adds a new widget to the
 header slot, modifies an existing slot's layout and adds a new route
@@ -17,15 +17,15 @@ to an existing app.
    :depth: 1
 
 
-Setup Your Custom Site on Tutor
--------------------------------
+Set up Your Custom Site on Tutor
+--------------------------------
 
 Clone the repo `frontend-template-site <https://github.com/openedx/frontend-template-site>`_
 locally. Normally you’d treat this as a template and modify things as needed, but
 for this example we’ll use most of it as-is.
 
 To keep things simple we will use Tutor to handle this. Rename this
-folder to ``frontend-site`` and mount it in tutor using
+folder to ``frontend-site`` and mount it in Tutor using
 ``tutor mounts add /path/to/frontend-site``. After this you need to run
 ``tutor dev launch -I`` to get everything set up.
 
@@ -120,10 +120,10 @@ Next, let’s attach this to a route with the following content in
    ];
    export default routes;
 
-As you can see, we are adding a route with a path of ``/myapp``. We are
-having this path handle the specified role, we'll look into this later.
-Next we’re providing an async function called ``lazy`` that loads our
-new component and returns it for this path.
+As you can see, we are adding a route with a path of ``/myapp``. We are also
+tagging it with a role; more on that later. Next we’re providing an async
+function called ``lazy`` that loads our new component and returns it for this
+path.
 
 Now let’s add this route to our app by importing it and adding to the
 app config. Your ``app.ts`` file should now look like:
@@ -195,7 +195,7 @@ create a component for this link. Let’s create
        return null;
      }
      const linkProps = getLinkProps(myAppRoute.url);
-     return myAppRoute && <Hyperlink {...linkProps}>MyApp</Hyperlink>;
+     return <Hyperlink {...linkProps}>MyApp</Hyperlink>;
    };
 
    export default MyAppLink;
@@ -250,7 +250,7 @@ condition field. We don’t want this link to show up if we’re already on
 ``myapp`` so we’re going to add an ``inactive`` condition with this role
 name so that when our role is active, this slot won’t show up.
 
-Adding a Route to an Existing app
+Adding a Route to an Existing App
 ---------------------------------
 
 Now let’s take a slightly more complex example of adding a route to an
@@ -295,6 +295,8 @@ straightforward case of looking up where to add the slot and adding it.
 
   .. code-block:: typescript
 
+    import { RoleRouteObject } from '@openedx/frontend-base';
+
     const myAppRoute: RoleRouteObject = {
       path: 'courses/:courseId/myapp',
       lazy: async () => {
@@ -317,25 +319,29 @@ straightforward case of looking up where to add the slot and adding it.
       ],
     };
 
+  Here ``extendedCatalogApp`` can now be used in place of ``catalogApp`` in the
+  ``apps`` config to attach our custom route to the Catalog MFE.
 
 
 Modifying Widget Layouts
 ------------------------
 
-MFEs have support some form of UI customization using plugin slots since the
+MFEs have supported some form of UI customization using plugin slots since the
 Redwood release. They've undergone changes with each release with the
 introduction of new slots, and changes to slot naming conventions, but the
 move to ``frontend-base`` comes with the biggest changes yet.
 One huge change is the removal of the ``Wrap`` operation, which earlier allowed
 creating a plugin that wraps a component around an existing slot.
+
 For example, if you wanted to hide components from the progress page till a
 user makes a discussion post, you could create a wrapper component that checks
 a user's discussion stats and shows/hides components based on that data.
 The reason the ``Wrap`` operation is gone is that it's been superseded by a
 more powerful concept: Slot Layouts.
-A very simple way to understand Slot layouts is that, all slots are
-automatically wrapped in a Layout component. The default layout
-<https://github.com/openedx/frontend-base/blob/83a17527ad253c2c7ae07e452241c5c93d042edc/runtime/slots/layout/DefaultSlotLayout.tsx>`__
+
+A very simple way to understand Slot layouts is that all slots are
+automatically wrapped in a Layout component. `The default layout
+<https://github.com/openedx/frontend-base/blob/83a17527ad253c2c7ae07e452241c5c93d042edc/runtime/slots/layout/DefaultSlotLayout.tsx>`_
 is simply an empty component that returns its contents as-is.
 
 Let’s see how we can use layout operations to change the layout of a
