@@ -295,7 +295,7 @@ straightforward case of looking up where to add the slot and adding it.
 
   .. code-block:: typescript
 
-    import { RoleRouteObject } from '@openedx/frontend-base';
+    import { App, RoleRouteObject } from '@openedx/frontend-base';
 
     const myAppRoute: RoleRouteObject = {
       path: 'courses/:courseId/myapp',
