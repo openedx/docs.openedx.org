@@ -71,6 +71,7 @@ Role Guides
          :alt: Educator Persona building a course
          :height: 150px
          :align: center
+         :target: educators/index.html
 
       Build, run and analyze courses on the Open edX® Platform.
 
@@ -90,6 +91,7 @@ Role Guides
          :alt: Learner Persona learning
          :height: 150px
          :align: center
+         :target: learners/index.html
 
       Learn and engage with Open edX® courses.
 
@@ -109,6 +111,7 @@ Role Guides
          :alt: Site Operator Persona operating a site
          :height: 150px
          :align: center
+         :target: site_ops/index.html
 
       Deploy and run an Open edX® site.
 
@@ -128,6 +131,7 @@ Role Guides
          :alt: Developer Persona enhancing the platform
          :height: 150px
          :align: center
+         :target: developers/index.html
 
       Enhance and extend the Open edX® Platform.
 
@@ -147,6 +151,7 @@ Role Guides
          :alt: Documentor Persona documenting the platform
          :height: 150px
          :align: center
+         :target: documentors/index.html
 
       Document the Open edX® Platform.
 
@@ -170,6 +175,7 @@ Role Guides
          :alt: Translator Persona translating the platform
          :height: 150px
          :align: center
+         :target: translators/index.html
 
       Translate the Open edX® Platform.
 
@@ -205,6 +211,7 @@ Core Contributors Handbook
          :alt: Core Contributor Persona contributing to the platform
          :height: 150px
          :align: center
+         :target: handbook/index.html
 
       A central guide for all current and aspiring Core Contributors to the Open edX project
 
@@ -232,6 +239,7 @@ Open edX Release Notes
          :alt: Abstract tree with branches
          :height: 150px
          :align: center
+         :target: community/release_notes/index.html
 
       Release notes for the latest and all previous releases of the Open edX Platform. Our releases are named after trees!
 
