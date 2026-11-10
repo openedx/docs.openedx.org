@@ -113,6 +113,11 @@ copied in the same way. Each copy retains the same Filter key and fetches the
 configuration from LTI Store when it is used, so updates apply to every XBlock
 that references that key. XBlock-level settings remain independent across copies.
 
+For course reruns and course exports and imports within the same Open edX instance,
+components also retain their reference to the reusable LTI Store configuration.
+Deep Linking content selections need to be made again. For instructions, see
+:ref:`Reusable LTI configurations after a course rerun or import`.
+
 
 *********************
 Choose an LTI Version
@@ -184,7 +189,7 @@ information, see :ref:`Allow sharing PII to LTI Components`.
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-07-17         | Aamir Ayub             | Verawood | Pass           |
+| 2026-11-10         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
 | 2025-03-19         | Documentation WG       | Sumac    | Pass           |
 +--------------------+------------------------+----------+----------------+
