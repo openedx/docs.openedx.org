@@ -240,6 +240,8 @@ External tools may use different names for these values and may not require
 all of them. Follow the tool vendor's instructions.
 
 
+.. _Select Deep Linking content with a reusable LTI configuration:
+
 Step 3: (For LTI 1.3) Use Deep Linking to Select Tool Content
 *************************************************************
 
@@ -267,6 +269,22 @@ use these steps to select content:
 
       After Deep Linking succeeds, Studio displays the selected content
       configuration on the LTI Consumer XBlock.
+
+
+.. _Reusable LTI configurations after a course rerun or import:
+
+After a Course Rerun or Import
+******************************
+
+When you rerun a course or export and import it into another course run on the
+same Open edX instance, LTI Consumer XBlocks retain their *Filter key*. Each
+component continues to reference the same reusable configuration in LTI Store.
+
+However, content selections made through Deep Linking are not retained. In
+the destination course run, repeat the :ref:`Deep Linking content selection
+workflow <Select Deep Linking content with a reusable LTI configuration>` for
+each component that used Deep Linking. Then publish and test the components
+before making the course available to learners.
 
 
 Publish and Test
@@ -304,7 +322,7 @@ Publish and Test
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-07-13         | Aamir Ayub             | Verawood | Pass           |
+| 2026-11-10         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
 | 2025-12-05         | LTI WG                 | Ulmo     | Pass           |
 +--------------------+------------------------+----------+----------------+
