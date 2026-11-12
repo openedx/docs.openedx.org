@@ -103,7 +103,7 @@ Not Affected by This Release
 
 - Course content and how it is authored. This feature improves how course and
   library teams are managed, not what authors create.
-- :ref:`Legacy Libraries <Legacy Content Libraries Overview>` (deprecated in
+- Legacy Libraries (deprecated in
   Verawood) that have not yet been :ref:`migrated to Content Libraries <Migrating
   Legacy Libraries>`.
 - Permissions that apply to LMS functionality and are managed by the Instructor

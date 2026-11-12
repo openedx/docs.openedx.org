@@ -295,16 +295,6 @@ Protex Protein Builder
 
    ../how-tos/course_development/exercise_tools/create_protein_builder.rst
 
-Randomized Content Block
-*******************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../concepts/exercise_tools/randomized_content.rst
-   ../how-tos/course_development/exercise_tools/use_randomized_content_blocks.rst
-
 .. _Single Select Problem:
 
 Single Select Problem

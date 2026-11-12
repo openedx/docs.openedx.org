@@ -19,11 +19,11 @@ groups when it is released, follow these steps.
 The course view refreshes to present course content as it is currently
 configured in Studio, and as a learner in the selected group would see it.
 
-.. note:: If you use randomized content blocks in your course, you cannot
-   preview unpublished units that contain content from randomized content
-   blocks, because the randomized content is not assigned until after the unit
+.. note:: If you use Problem Banks in your course, you cannot
+   preview unpublished units that contain content from Problem Banks,
+   because the randomized content is not assigned until after the unit
    is published. For information about viewing the actual content that has
-   been assigned to a particular learner from a randomized content block in a
+   been assigned to a particular learner from a Problem Bank in a
    live course, see :ref:`Specific Student View`.
 
 .. seealso::

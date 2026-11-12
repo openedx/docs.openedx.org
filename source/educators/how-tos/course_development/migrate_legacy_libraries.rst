@@ -5,13 +5,17 @@ Migrate Legacy Libraries to the New Library Environment
 
 .. tags:: educator, how-to
 
-In Verawood, Legacy libraries will no longer be supported. They are being
-replaced with the :ref:`new, fully-featured Library experience <Ulmo Libraries>`
-introduced in Sumac. The new feature allows you to create any type of content in
-a library - including content blocks, units, subsections and sections. All
-content can be reused across courses. To take full advantage of the new
-features, and to continue using the content in your Legacy Libraries, migrate
-your Legacy Libraries.
+Legacy Libraries are no longer supported. They have been replaced with the
+:ref:`new, fully-featured Library experience <Ulmo Libraries>` introduced in
+Sumac. The new feature allows you to create any type of content in a library -
+including content blocks, units, subsections and sections. All content can be
+reused across courses.
+
+Legacy Libraries can no longer be created, viewed, or edited. To continue using
+the content in your Legacy Libraries, you must migrate them. Course content that
+already references a Legacy Library will keep working for learners, but it cannot
+receive updates until you migrate the library and
+:ref:`update the reference <Update Legacy References>`.
 
 .. contents::
    :local:

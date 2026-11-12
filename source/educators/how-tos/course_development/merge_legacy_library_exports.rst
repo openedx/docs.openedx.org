@@ -79,7 +79,8 @@ Prerequisites
 *************
 
 * The legacy library export archive(s) (``.tar.gz``) produced by Studio's
-  *Export* feature.
+  *Export* feature. To export a legacy library, select the **Export** icon on
+  its card in the **Legacy Libraries** tab of the Studio home page.
 * Permission to create libraries on the target Open edX instance.
 * Python 3.9+ and the ``tomlkit`` package (``pip install tomlkit``) if you
   want to generate the TOML files with a script instead of by hand.
@@ -253,7 +254,7 @@ specified in ``package.toml``.
 
    :ref:`Migrating Legacy Libraries` (how-to)
 
-   `Legacy Libraries Deprecation <https://github.com/openedx/edx-platform/issues/32457>`_
+   `Legacy Libraries Deprecation <https://github.com/openedx/openedx-platform/issues/37931>`_
    — deprecation tracking issue for legacy (V1) content libraries.
 
 **Maintenance chart**

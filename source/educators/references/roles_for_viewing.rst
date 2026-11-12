@@ -115,7 +115,7 @@ Learner View
 Learner view displays content in your course as an enrolled learner in your
 course would experience it.
 
-.. note:: If your course uses randomized content blocks, or if your course is
+.. note:: If your course uses Problem Banks, or if your course is
    designed so that learners in different enrollment track groups or content
    groups are shown different content, you can select an option from the **View
    Course As** dropdown list to see the content that a specific learner sees, or
@@ -141,7 +141,7 @@ following limitations.
 
 * You cannot view open response assessment problems as a specific learner.
 
-* In courses with randomized content blocks, you see the actual problem that
+* In courses with Problem Banks, you see the actual problem that
   was assigned to a specific learner. This view allows you to evaluate a
   request to adjust a grade or reset the number of attempts for a problem. For
   details about adjusting grades or resetting attempts, see

@@ -41,7 +41,26 @@ Add a Problem Bank to your course for randomization
    .. image:: /_images/educator_how_tos/problem_bank_add_component_button.png
     :alt: A screenshot of a problem bank, showing the View, Edit, and Add Components buttons
 
+.. _View and Adjust a Learner's Problem Bank Problems:
 
+View and adjust the problems assigned to a learner
+**************************************************
+
+Each learner is randomly assigned their own set of problems from a Problem
+Bank, so the problems you see are not necessarily the ones a given learner
+sees.
+
+* To see the number and type of problems as learners would see them, follow
+  the steps in :ref:`Preview a Unit`.
+
+* To see the problems that were assigned to a specific learner in a live
+  course, follow the steps in :ref:`Specific Student View`.
+
+* To adjust a grade or reset the attempts for a problem that was assigned from
+  a Problem Bank, first view the course as that learner by following the steps
+  in :ref:`Specific Student View`. Then locate the problem and follow the steps
+  in :ref:`Adjust_grades` to rescore the learner's submission, reset attempts,
+  or delete the learner's state for the problem.
 
 .. seealso::
 

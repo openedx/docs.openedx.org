@@ -59,7 +59,9 @@ Create a Library From An Archive
    For the Ulmo release, Create Library From Archive is only supported as a way to initialize a new library.
 
 The  library file that you import must be a ``.zip`` file that contains a
-``package.toml`` file.
+``package.toml`` file. If you have a legacy library export (a ``.tar.gz`` file)
+instead, you can convert it into this format by following
+:ref:`Merge Legacy Library Exports`.
 
 To create a library from an archive, follow these steps.
 

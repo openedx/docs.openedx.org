@@ -287,10 +287,10 @@ Problem Randomization
 Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
 
-Different learners can be provided with with different problems by using
-randomized content blocks, which randomly draw problems from pools of problems
-stored in content libraries. For more information, see :ref:`Randomized Content
-Blocks`.
+Different learners can be provided with different problems by using
+Problem Banks, which randomly draw problems from pools of problems
+stored in content libraries. For more information, see
+:ref:`Add a Problem Bank to your course for randomization`.
 
 .. note:: Problem randomization is different from the **Randomization** setting
    in Studio. Problem randomization offers different problems or problem
@@ -309,10 +309,10 @@ Create Randomized Problems
 .. note:: Creating randomized problems by exporting a course and editing
    some of the course's XML files is no longer supported.
 
-Different learners can be provided with with different problems by using
-randomized content blocks, which randomly draw problems from pools of problems
-stored in content libraries. For more information, see :ref:`Randomized Content
-Blocks`.
+Different learners can be provided with different problems by using
+Problem Banks, which randomly draw problems from pools of problems
+stored in content libraries. For more information, see
+:ref:`Add a Problem Bank to your course for randomization`.
 
 **************************
 Tooltips

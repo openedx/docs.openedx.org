@@ -231,16 +231,12 @@ Test Your Course
    ../how-tos/view_published_released_content.rst
    ../how-tos/preview_content.rst
 
-Work with Legacy Content Libraries
-**********************************
+Migrate Legacy Content Libraries
+********************************
 
-The Legacy Libraries feature will be supported through Ulmo, moving to
-unsupported in Verawood. Ulmo includes a :ref:`one-click migration feature
-<Migrating Legacy Libraries>` that makes it easy to convert a Legacy Library
-into the new Library interface.
-
-See :ref:`Content Libraries Redesign Teak` for more on the new Libraries
-initiative.
+Legacy Libraries can no longer be created, viewed, or edited. To keep using
+the content in a Legacy Library, :ref:`migrate it <Migrating Legacy Libraries>`
+to a Content Library.
 
 .. toctree::
    :maxdepth: 1
@@ -248,13 +244,3 @@ initiative.
 
    ../how-tos/course_development/migrate_legacy_libraries.rst
    ../how-tos/course_development/merge_legacy_library_exports.rst
-   ../concepts/instructional_design/libraries.rst
-   ../how-tos/course_development/create_library.rst
-   ../how-tos/course_development/edit_library.rst
-   ../how-tos/course_development/add_components_library.rst
-   ../how-tos/course_development/view_content_legacy_library.rst
-   ../how-tos/course_development/edit_components_library.rst
-   ../how-tos/course_development/delete_library.rst
-   ../how-tos/course_development/library_access.rst
-   ../how-tos/course_development/export_import_library.rst
-   ../how-tos/leveraging_libraries.rst

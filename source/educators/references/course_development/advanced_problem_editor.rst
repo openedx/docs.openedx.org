@@ -236,9 +236,10 @@ Problem Randomization
 Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
 
-You can provide different learners with different problems by using randomized
-content blocks, which randomly draw problems from pools of problems stored in
-content libraries. For more information, see :ref:`Randomized Content Blocks`.
+You can provide different learners with different problems by using Problem
+Banks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see
+:ref:`Add a Problem Bank to your course for randomization`.
 
 .. note::
    Problem randomization is different from the **Randomization** setting

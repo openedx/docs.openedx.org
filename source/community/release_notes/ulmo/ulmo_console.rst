@@ -59,7 +59,7 @@ Scope and Impact
 ****************
 
 The scope of the Administrative Console in Ulmo is limited to Content Libraries, not
-:ref:`Legacy Libraries <Legacy Content Libraries Overview>`. 
+:ref:`Legacy Libraries <Migrating Legacy Libraries>`. 
 
 For deployments that already use the Content Libraries, the main impact is that team
 management for libraries moves into the Administrative Console.
