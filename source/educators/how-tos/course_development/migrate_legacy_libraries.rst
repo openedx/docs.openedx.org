@@ -26,8 +26,9 @@ receive updates until you migrate the library and
 Migrate Legacy Libraries
 ************************
 
-#. Click on the Legacy Libraries tab on Studio Home. You will see a button to
-   :guilabel:`Review Legacy Libraries`.
+#. Click on the Libraries tab on Studio Home. If you have Legacy Libraries that
+   have not been migrated, you will see a button to
+   :guilabel:`Review Legacy Libraries`. Click it.
 
    ..  image:: /_images/educator_how_tos/migrate_legacy_library_review.png
        :alt: The "Review Legacy Libraries" button appears in a warning panel above the list of Legacy Libraries.
@@ -97,7 +98,9 @@ Navigate your new Library
 Confirm Legacy migrations are complete
 **************************************
 
-#. Navigate to the Legacy Libraries tab on Studio Home. Each migrated Library will contain a redirect link.
+#. Click :guilabel:`Review Legacy Libraries` again. Each migrated Legacy
+   Library contains a link to the Library it was migrated to. Once all of your
+   Legacy Libraries have been migrated, the button is no longer shown.
 
    ..  image:: /_images/educator_how_tos/migrate_legacy_library_complete.png
        :alt: The Legacy Libraries homescreen. Each migrated Legacy Library contains an indicator on its card that it's been migrated.
