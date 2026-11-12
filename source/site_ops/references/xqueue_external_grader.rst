@@ -139,15 +139,16 @@ The grader receives a JSON object with the following keys.
 
     * ``anonymous_student_id``: An anonymized identifier of the learner.
 
-    * ``submission_time``: A Unix timestamp, in seconds, as a string.
-
-    * ``random_seed``: Always ``1``.
+    * ``submission_time``: The time the learner submitted, in UTC, as a
+      ``YYYYMMDDHHMMSS`` string.
 
   * ``student_response``: The learner's code, entered in the LMS or read from
     an attached file.
 
   * ``grader_payload``: A JSON string containing the ``grader`` key from the
-    problem's ``<grader_payload>`` element. For more information, see
+    problem's ``<grader_payload>`` element, plus ``skip_grader``,
+    ``hide_output`` and ``lang`` when the problem sets them. Other keys in the
+    element are not forwarded. For more information, see
     :ref:`Add an External Grader Problem`.
 
 An example learner submission follows, shown with each value decoded. On the
@@ -168,8 +169,7 @@ body are JSON-encoded strings too.
     "xqueue_body": {
       "student_info": {
         "anonymous_student_id": "106ecd878f4148a5cabb6bbb0979b730",
-        "submission_time": "1711276541",
-        "random_seed": 1
+        "submission_time": "20240324103541"
       },
       "student_response": "def double(x):\n return 2*x\n",
       "grader_payload": {"grader": "problem_2/grade.py"}

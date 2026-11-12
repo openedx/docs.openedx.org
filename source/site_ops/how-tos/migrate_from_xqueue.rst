@@ -18,9 +18,12 @@ deployment that runs the XQueue service onto the in-platform queue.
 What Changes and What Does Not
 ******************************
 
-Nothing changes for course teams. Existing ``<coderesponse>`` problems keep
+Little changes for course teams. Existing ``<coderesponse>`` problems keep
 working with the same ``queuename`` values, and the JSON exchanged with the
-grader keeps the same shape.
+grader keeps the same shape. The one exception is ``<grader_payload>``: only
+its ``grader``, ``skip_grader``, ``hide_output`` and ``lang`` keys reach the
+grader now. A problem that passed other keys, such as an expected output or a
+list of tests, needs its own grader file instead.
 
 Nothing changes in `xqueue-watcher`_'s code. It needs new configuration: the
 LMS URL instead of the XQueue URL, and an LMS account instead of an XQueue
@@ -38,6 +41,10 @@ Before You Start
   ``conf.d`` files and the ``queuename`` attributes in course problems.
 * If any problem uses ``<filesubmission>``, decide where the LMS will store
   uploaded files. See Step 3 of :ref:`Enable XQueue`.
+* Search course exports for ``<grader_payload>`` elements with keys other than
+  ``grader``, ``skip_grader``, ``hide_output`` and ``lang``. Move per-problem
+  configuration into a grader file per problem. See
+  :ref:`Add an External Grader Problem`.
 
 Step 1: Create the Grader Account on the LMS
 ********************************************
@@ -122,10 +129,13 @@ XQueue. If you run a custom grader, check these points against
   everything.
 * There is no ``/xqueue/get_queuelen/`` endpoint. xqueue-watcher does not use
   it.
-* ``grader_payload`` reaching the grader contains only the ``grader`` key from
-  the problem's ``<grader_payload>``. Other keys are not forwarded.
-* ``student_info.submission_time`` is a Unix timestamp in seconds, not
-  ``YYYYMMDDHHMMSS``, and ``random_seed`` is always ``1``.
+* ``grader_payload`` reaching the grader contains the ``grader``,
+  ``skip_grader``, ``hide_output`` and ``lang`` keys from the problem's
+  ``<grader_payload>``. Other keys are not forwarded. Releases before Willow
+  forward only ``grader``.
+* ``student_info`` has no ``random_seed``. XQueue sent the problem's seed;
+  xqueue-watcher does not read it. Releases before Willow send ``1``, and send
+  ``submission_time`` as a Unix timestamp instead of ``YYYYMMDDHHMMSS``.
 * A submission a grader pulled but never answered is offered again after five
   minutes. XQueue used ``SUBMISSION_PROCESSING_DELAY``.
 * Push (passive) graders, which XQueue called with the submission, are not
