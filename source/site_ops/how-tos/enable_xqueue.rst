@@ -32,7 +32,7 @@ How It Works
 Prerequisites
 *************
 
-* Open edX Teak or newer. This guide describes the behavior on ``master``.
+* Open edX Teak or newer.
 * A grader. `xqueue-watcher`_ is the maintained reference implementation; see
   its operator guide for installing it. :ref:`XQueue Reference` describes the
   JSON that any other grader must accept and return.
