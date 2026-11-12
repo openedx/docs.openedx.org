@@ -77,6 +77,18 @@ rediraffe_redirects = {
     "educators/references/course_development/exercise_tools/lti_component_settings.rst": "educators/concepts/exercise_tools/about_lti_component.rst",
     "educators/how-tos/course_development/exercise_tools/enable_lti_component.rst": "educators/concepts/exercise_tools/about_lti_component.rst",
     "educators/how-tos/course_development/exercise_tools/use_lti_advantage_features.rst": "educators/references/course_development/exercise_tools/use_lti_advantage_features.rst",
+    "educators/concepts/instructional_design/libraries.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/create_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/edit_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/add_components_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/view_content_legacy_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/edit_components_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/delete_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/library_access.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/export_import_library.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/leveraging_libraries.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/concepts/exercise_tools/randomized_content.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
+    "educators/how-tos/course_development/exercise_tools/use_randomized_content_blocks.rst": "educators/how-tos/course_development/migrate_legacy_libraries.rst",
 }
 
 tags_create_tags = True

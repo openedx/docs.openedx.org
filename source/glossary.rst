@@ -291,7 +291,7 @@ Glossary
       backup purposes, or so that you can edit the course or library directly in
       :term:`OLX` format. See also :term:`Import`.
 
-      For more information, see :ref:`Export a Course` or :ref:`Export a Legacy Library`.
+      For more information, see :ref:`Export a Course` or :ref:`Backup and Restore a Library`.
 
    Forum
       See :term:`Discussion`.
@@ -330,7 +330,7 @@ Glossary
       replaces all of your existing course or library content with the content
       from the imported course or library. See also :term:`Export`.
 
-      For more information, see :ref:`Import a Course` or :ref:`Import a Legacy Library`.
+      For more information, see :ref:`Import a Course` or :ref:`Backup and Restore a Library`.
 
    Instructor Dashboard
       A user who has the Admin or Staff role for a course can access the instructor
@@ -363,14 +363,13 @@ Glossary
       See :term:`Course Navigation Pane`.
 
    Library
-      A pool of components for use in randomized assignments that can be shared
-      across multiple courses from your organization. Course teams configure
-      randomized content blocks in course outlines to reference a specific library
-      of components, and randomly provide a specified number of problems from that
-      content library to each learner.
+      A pool of content that can be shared and reused across multiple courses
+      from your organization. Course teams can add library content directly to
+      course outlines, or configure problem banks to randomly provide a specified
+      number of problems from a library to each learner.
 
       For more information, see :ref:`Navigate the Library Homepage` and
-      :ref:`Randomized Content Blocks`.
+      :ref:`Add a Problem Bank to your course for randomization`.
 
    Live Mode
       A view that allows the course team to review all published units as learners

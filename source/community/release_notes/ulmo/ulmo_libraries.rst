@@ -14,7 +14,7 @@ edited, and changes can be published to courses that used the Legacy Library con
 
 .. admonition:: Migrate Legacy Libraries
 
-    In Verawood, :ref:`Legacy Libraries <Legacy Content Libraries Overview>`
+    In Verawood, :ref:`Legacy Libraries <Migrating Legacy Libraries>`
     will no longer be supported. Migrate legacy libraries to maintain functionality.
     To learn more view the :ref:`Migration documentation <Migrating Legacy Libraries>`.
 
