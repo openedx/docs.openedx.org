@@ -184,7 +184,6 @@
 
 .. _12 Principles of Multimedia Learning: http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf
 
-.. _Open edX XQueue repository: https://github.com/openedx/xqueue/tree/master/xqueue
 
 .. _GnuPG website: https://www.gnupg.org
 
