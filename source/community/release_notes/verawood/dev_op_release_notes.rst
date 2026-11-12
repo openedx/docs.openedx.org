@@ -304,9 +304,9 @@ Deprecations & Removals
   Operators who have any of these packages installed should migrate to
   ``xblocks-extra`` and follow the migration guidelines.
 
-* **Legacy Libraries Deprecation**: :ref:`Legacy Libraries <Migrating Legacy
-  Libraries>` are now deprecated and must be :ref:`migrated to Content
-  Libraries <Migrating Legacy Libraries>` this release.
+* **Legacy Libraries Deprecation**: Legacy Libraries are now deprecated and
+  must be :ref:`migrated to Content Libraries <Migrating Legacy Libraries>`
+  this release.
 
   Operators can see if any legacy libraries exist on their instance by visiting
   the "Legacy Libraries" tab on the Studio homepage, and clicking the

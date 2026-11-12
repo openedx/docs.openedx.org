@@ -288,7 +288,7 @@ Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
 
 Different learners can be provided with different problems by using
-problem banks, which randomly draw problems from pools of problems
+Problem Banks, which randomly draw problems from pools of problems
 stored in content libraries. For more information, see
 :ref:`Add a Problem Bank to your course for randomization`.
 
@@ -310,7 +310,7 @@ Create Randomized Problems
    some of the course's XML files is no longer supported.
 
 Different learners can be provided with different problems by using
-problem banks, which randomly draw problems from pools of problems
+Problem Banks, which randomly draw problems from pools of problems
 stored in content libraries. For more information, see
 :ref:`Add a Problem Bank to your course for randomization`.
 

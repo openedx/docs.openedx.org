@@ -25,7 +25,7 @@ authors create or reuse content.
 
 .. admonition:: Migrate Legacy Libraries
 
-    :ref:`Legacy Libraries <Migrating Legacy Libraries>` do not support the new Roles & Permissions functionality.
+    Legacy Libraries do not support the new Roles & Permissions functionality.
     Upgrade Legacy Libraries in order to take advantage of this new feature!
     To learn more view the :ref:`migration documentation <Migrating Legacy Libraries>`.
 

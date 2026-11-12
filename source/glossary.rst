@@ -287,11 +287,12 @@ Glossary
       :ref:`About Problems Exercises and Tools`.
 
    Export
-      A tool in Open edX Studio that you use to export your course or library for
-      backup purposes, or so that you can edit the course or library directly in
+      A tool in Open edX Studio that you use to export your course for
+      backup purposes, or so that you can edit the course directly in
       :term:`OLX` format. See also :term:`Import`.
 
-      For more information, see :ref:`Export a Course` or :ref:`Backup and Restore a Library`.
+      For more information, see :ref:`Export a Course`. To back up a library,
+      see :ref:`Backup and Restore a Library`.
 
    Forum
       See :term:`Discussion`.
@@ -325,12 +326,13 @@ Glossary
       answer. For more information, see :ref:`About Image Mapped Input Problem`.
 
    Import
-      A tool in Studio that you use to load a course or library in OLX format
-      into your existing course or library. When you use the Import tool, Studio
-      replaces all of your existing course or library content with the content
-      from the imported course or library. See also :term:`Export`.
+      A tool in Studio that you use to load a course in OLX format
+      into your existing course. When you use the Import tool, Studio
+      replaces all of your existing course content with the content
+      from the imported course. See also :term:`Export`.
 
-      For more information, see :ref:`Import a Course` or :ref:`Backup and Restore a Library`.
+      For more information, see :ref:`Import a Course`. To create a library
+      from an archive, see :ref:`Backup and Restore a Library`.
 
    Instructor Dashboard
       A user who has the Admin or Staff role for a course can access the instructor
@@ -365,7 +367,7 @@ Glossary
    Library
       A pool of content that can be shared and reused across multiple courses
       from your organization. Course teams can add library content directly to
-      course outlines, or configure problem banks to randomly provide a specified
+      course outlines, or configure Problem Banks to randomly provide a specified
       number of problems from a library to each learner.
 
       For more information, see :ref:`Navigate the Library Homepage` and
