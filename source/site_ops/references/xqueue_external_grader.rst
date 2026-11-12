@@ -146,8 +146,9 @@ The grader receives a JSON object with the following keys.
   * ``student_response``: The learner's code, entered in the LMS or read from
     an attached file.
 
-  * ``grader_payload``: A JSON string containing the ``grader`` key from the
-    problem's ``<grader_payload>`` element. For more information, see
+  * ``grader_payload``: A JSON string containing only the ``grader`` key from
+    the problem's ``<grader_payload>`` element. Other keys in the element are
+    not forwarded. For more information, see
     :ref:`Add an External Grader Problem`.
 
 An example learner submission follows, shown with each value decoded. On the

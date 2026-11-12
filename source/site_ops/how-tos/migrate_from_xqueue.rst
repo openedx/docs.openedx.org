@@ -18,9 +18,12 @@ deployment that runs the XQueue service onto the in-platform queue.
 What Changes and What Does Not
 ******************************
 
-Nothing changes for course teams. Existing ``<coderesponse>`` problems keep
+Little changes for course teams. Existing ``<coderesponse>`` problems keep
 working with the same ``queuename`` values, and the JSON exchanged with the
-grader keeps the same shape.
+grader keeps the same shape. The one exception is ``<grader_payload>``: only
+its ``grader`` key reaches the grader now. A problem that passed other keys,
+such as an expected output or a list of tests, needs its own grader file
+instead.
 
 Nothing changes in `xqueue-watcher`_'s code. It needs new configuration: the
 LMS URL instead of the XQueue URL, and an LMS account instead of an XQueue
@@ -38,6 +41,11 @@ Before You Start
   ``conf.d`` files and the ``queuename`` attributes in course problems.
 * If any problem uses ``<filesubmission>``, decide where the LMS will store
   uploaded files. See Step 3 of :ref:`Enable XQueue`.
+* Search course exports for ``<grader_payload>`` elements with keys other than
+  ``grader``, and for ``<coderesponse>`` problems with no ``<grader_payload>``
+  at all. Move per-problem configuration into a grader file per problem, and
+  add ``<grader_payload>{"grader": "..."}</grader_payload>`` where it is
+  missing. See :ref:`Add an External Grader Problem`.
 
 Step 1: Create the Grader Account on the LMS
 ********************************************
@@ -123,7 +131,12 @@ XQueue. If you run a custom grader, check these points against
 * There is no ``/xqueue/get_queuelen/`` endpoint. xqueue-watcher does not use
   it.
 * ``grader_payload`` reaching the grader contains only the ``grader`` key from
-  the problem's ``<grader_payload>``. Other keys are not forwarded.
+  the problem's ``<grader_payload>``. Other keys are not forwarded, so
+  xqueue-watcher's ``skip_grader``, ``lang`` and ``hide_output`` options have
+  no effect.
+* A problem whose ``<grader_payload>`` is missing or is not a JSON object is
+  never queued. The learner's problem stays on "queued" and no row appears in
+  **External grader details**. XQueue accepted any text.
 * ``student_info.submission_time`` is a Unix timestamp in seconds, not
   ``YYYYMMDDHHMMSS``, and ``random_seed`` is always ``1``.
 * A submission a grader pulled but never answered is offered again after five

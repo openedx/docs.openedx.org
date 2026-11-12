@@ -157,6 +157,9 @@ Troubleshooting
   group.
 * **The grader logs in repeatedly.** ``PREVENT_CONCURRENT_LOGINS`` is evicting
   its sessions. See Step 2.
+* **The learner sees "queued" but no row appears in External grader
+  details.** The problem's ``<grader_payload>`` is missing or is not a JSON
+  object. The LMS drops the submission without recording an error.
 * **Submissions stay ``pending``.** No grader is polling that queue name. Check
   the problem's ``queuename`` against the watcher configuration.
 * **Submissions stay ``pulled``.** The grader took the submission but never
