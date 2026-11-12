@@ -61,6 +61,13 @@ Create a Library From An Archive
 The  library file that you import must be a ``.zip`` file that contains a
 ``package.toml`` file.
 
+.. note::
+
+   A legacy library export (a ``.tar.gz`` file) cannot be used here directly.
+   To create a library from one or more legacy library exports, first convert
+   them into a single archive in the :ref:`Library Archive Format` by following
+   :ref:`Merge Legacy Library Exports`.
+
 To create a library from an archive, follow these steps.
 
 #. In Studio, select the **+ New library** button in the top right.
