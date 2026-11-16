@@ -77,6 +77,10 @@ Course Tags and Taxonomies
    ../how-tos/content-tagging-how-tos/update_reimport_taxonomy.rst
    ../how-tos/content-tagging-how-tos/manage_taxonomy_tags.rst
    ../concepts/advanced_features/why_taxonomy_tag_id.rst
+   ../concepts/advanced_features/about_competency_taxonomies.rst
+   ../concepts/advanced_features/about_competency_ids.rst
+   ../how-tos/content-tagging-how-tos/import_competency_taxonomy.rst
+   ../how-tos/content-tagging-how-tos/open_competency_management_taxonomy_editing.rst
    ../how-tos/content-tagging-how-tos/manage_permissions_taxonomy.rst
    ../how-tos/content-tagging-how-tos/add_delete_course_tags.rst
    ../how-tos/content-tagging-how-tos/add_delete_tags_course_content.rst
