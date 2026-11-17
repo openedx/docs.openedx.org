@@ -6,29 +6,21 @@ Set Up an LTI Component Using a Reusable Configuration
 
 .. tags:: educator, how-to
 
-This document explains how to configure an LTI tool using a reusable LTI
-configuration created by your site operator in LTI Store. The LTI Consumer
-XBlock in Studio references that stored configuration by using a *Filter key*.
-If a site operator updates the reusable configuration, the change will affect
-every LTI Consumer XBlock that uses the configuration.
+Use this guide to connect an LTI Consumer XBlock in Studio to a reusable
+configuration in LTI Store. This workflow supports LTI 1.1/1.2 and LTI 1.3 tools.
 
-Reusable LTI configurations can be used for both LTI 1.1/1.2 and LTI 1.3 tools.
-
-.. note::
-
-   A reusable configuration can be created and managed only in Django Admin,
-   which is typically accessible to site operators rather than educators. Site
-   operators configure the tool's connection values, while
-   educators configure component-level options in the LTI Consumer XBlock.
-   Setting up and maintaining the integration can therefore require
-   coordination between educators and site operators.
+Site operators create and manage the tool configuration in LTI store via Django Admin.
+Changes to the configuration affect every LTI Consumer XBlock that references it.
 
 
-Before You Start
-****************
+Prerequisites
+*************
 
-Before you configure the tool, ask the tool vendor or review the tool's
-documentation for the following information.
+Your site operator must first create the reusable configuration in Django
+Admin. For instructions, see :ref:`Create a Reusable LTI Configuration`.
+
+Ask the tool vendor or review the tool's documentation to confirm these
+requirements.
 
 * Whether the tool or activity returns scores to the Open edX platform.
 * Whether the tool requires learner information, such as username, full name, or
@@ -36,8 +28,8 @@ documentation for the following information.
 
 Also ask your site operator for:
 
-* The reusable configuration's *Filter key*. A Filter key usually looks like
-  *lti_store:reference_tool*.
+* The reusable configuration's *Filter key*, which identifies the stored
+  configuration to use in Studio. For example, ``lti_store:reference_tool``.
 * For LTI 1.3, whether the reusable configuration enables Deep Linking,
   Assignment and Grade Services, or Names and Role Provisioning Services.
 * For LTI 1.3, whether you should enter a launch URL for this XBlock or use the
@@ -322,7 +314,7 @@ Publish and Test
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-11-10         | Aamir Ayub             | Verawood | Pass           |
+| 2026-11-17         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
 | 2025-12-05         | LTI WG                 | Ulmo     | Pass           |
 +--------------------+------------------------+----------+----------------+
