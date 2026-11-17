@@ -113,6 +113,77 @@ active enrollments. Site operators can adjust this limit with the
 ``COURSE_MEMBER_API_ENROLLMENT_LIMIT`` setting.
 
 
+.. _LTI Roles Sent to External Tools:
+
+Roles Sent to External Tools
+****************************
+
+The LTI Consumer XBlock sends the launching user's roles to the external tool
+in an LTI 1.3 resource link launch. When NRPS is enabled, the tool can also
+retrieve roles for course members. The table below shows the roles sent
+through each method.
+
+All role URIs in this table use the prefix
+``http://purl.imsglobal.org/vocab/lis/v2/``, omitted for readability.
+For example, ``membership#Instructor`` represents
+``http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor``.
+
+.. list-table::
+   :widths: 20 40 40
+   :header-rows: 1
+
+   * - Open edX Role
+     - Resource Link Launch
+     - NRPS
+
+   * - Course Admin
+     - | system/person#None
+       | institution/person#None
+       | membership#Administrator
+       | membership#Instructor
+     - | membership#Administrator
+       | membership#Instructor
+
+   * - Course Staff and Limited Staff
+     - | system/person#None
+       | institution/person#None
+       | membership#Instructor
+     - membership#Instructor
+
+   * - Community TA and Group Community TA
+     - | system/person#None
+       | institution/person#None
+       | membership#Learner
+       | membership/Instructor#TeachingAssistant
+     - | membership#Learner
+       | membership/Instructor#TeachingAssistant
+
+   * - Learner without a staff role
+     - | system/person#None
+       | institution/person#None
+       | membership#Learner
+     - membership#Learner
+
+   * - Global Staff (``is_staff=True``)
+     - | system/person#Administrator
+       | institution/person#Administrator
+       | institution/person#Staff
+       | institution/person#Faculty
+       | institution/person#Instructor
+       | membership#Administrator
+       | membership#Instructor
+     - | system/person#Administrator
+       | institution/person#Administrator
+       | institution/person#Staff
+       | institution/person#Faculty
+       | institution/person#Instructor
+       | membership#Administrator
+       | membership#Instructor
+
+``None`` is an explicit role value, not an omitted role. The external tool
+determines which permissions these roles grant.
+
+
 .. seealso::
 
  :ref:`About the LTI Component` (concept)
@@ -129,5 +200,5 @@ active enrollments. Site operators can adjust this limit with the
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-06-25         | Aamir Ayub             | Verawood | Pass           |
+| 2026-11-17         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
