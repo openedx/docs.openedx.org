@@ -150,6 +150,9 @@ supports the following LTI Advantage services:
 
 For more information, see :ref:`LTI Advantage Services`.
 
+For the mapping of Open edX roles to LTI roles in resource link launches and
+NRPS responses, see :ref:`LTI Roles Sent to External Tools`.
+
 
 ************************
 Privacy and Learner Data
@@ -189,7 +192,7 @@ information, see :ref:`Allow sharing PII to LTI Components`.
 +--------------------+------------------------+----------+----------------+
 | Review Date        | Working Group Reviewer | Release  | Test situation |
 +--------------------+------------------------+----------+----------------+
-| 2026-11-10         | Aamir Ayub             | Verawood | Pass           |
+| 2026-11-17         | Aamir Ayub             | Verawood | Pass           |
 +--------------------+------------------------+----------+----------------+
 | 2025-03-19         | Documentation WG       | Sumac    | Pass           |
 +--------------------+------------------------+----------+----------------+
