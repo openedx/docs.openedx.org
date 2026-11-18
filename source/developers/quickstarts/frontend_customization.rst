@@ -6,7 +6,7 @@ Quickstart: Customize Your Open edX Frontend
 
 .. tags:: developer, quickstart
 
-Set up, and customize a frontend site with multiple MFEs using the
+Set up and customize a frontend site with multiple MFEs using the
 frontend-template-site and Tutor. You will create a custom app that
 adds a new route, with a custom new page, adds a new widget to the
 header slot, modifies an existing slot's layout and adds a new route
@@ -17,7 +17,7 @@ to an existing app.
    :depth: 1
 
 
-Set up Your Custom Site on Tutor
+Set Up Your Custom Site on Tutor
 --------------------------------
 
 Clone the repo `frontend-template-site <https://github.com/openedx/frontend-template-site>`_
@@ -74,7 +74,7 @@ And then add it to the list of apps.
 Currently it does nothing, but with this in place we can now begin
 working on ``myapp`` and with hot reloading everything will just work!
 
-Adding a new Route
+Adding a New Route
 ------------------
 
 Let’s start with something that was previously quite difficult, adding a
@@ -429,8 +429,6 @@ their ID or role, and then put them in any arrangement you want.
 
 Want even more flexibility? Your layouts can have slots of their own,
 which can in turn have their own layouts!
-
-.. _Getting started: https://docs.tutor.edly.io/quickstart.html
 
 .. seealso::
 
