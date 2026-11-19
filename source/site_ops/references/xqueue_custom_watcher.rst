@@ -3,18 +3,21 @@
 XQueue Custom Watcher Script
 ############################
 
-As part of :ref:`enabling XQueue submissions <Enable XQueue>`, you'll need to
-develop a custom Python script to evaluate a learner's submission. What follows
-is an example of one such script.
+.. tags:: site operator, reference
+
+`xqueue-watcher`_'s built-in graders cover most courses. If you need your own
+grading logic, the smallest option is a script that uses its ``XQueueClient``
+and registers a handler. The script below accepts every submission; replace
+``always_ok_handler`` with real grading. See :ref:`Enable XQueue` for the
+LMS side and :ref:`XQueue Reference` for the JSON it receives and returns.
 
 
 .. code-block:: python
 
    '''
-   Custom script to evaluate learner submissions using event bus.
-   Set to always return ok for a submission. 
+   Minimal xqueue-watcher client that accepts every submission.
 
-   Note: Needs to be placed inside xqueue-watcher at root for work.
+   Run it from a checkout of xqueue-watcher, with its requirements installed.
    '''
    import json
    import logging
@@ -57,9 +60,9 @@ is an example of one such script.
 
    def main():
       # Adjust to your values
-      QUEUE_NAME = "openedx"                      
-      XQUEUE_URL = "http://local.openedx.io:8000" 
-      XQUEUE_AUTH = ("abdulrehman", "rehman123")  
+      QUEUE_NAME = "my_course_queue"               # the problem's queuename
+      XQUEUE_URL = "http://local.openedx.io:8000"  # the LMS root URL
+      XQUEUE_AUTH = ("xqueue_watcher", "password")  # a user in the xqueue group
 
       client = XQueueClient(
          queue_name=QUEUE_NAME,
@@ -91,6 +94,7 @@ is an example of one such script.
 
  :ref:`Add an External Grader Problem` (how-to)
 
+.. _xqueue-watcher: https://github.com/openedx/xqueue-watcher
 
 **Maintenance chart**
 

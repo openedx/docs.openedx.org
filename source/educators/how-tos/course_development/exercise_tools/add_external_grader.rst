@@ -55,9 +55,14 @@ The OLX definition of a problem contains the following information.
   * ``<filesubmission>``: The learner  attaches and submits a code file in the
     unit.
 
-* (optional) An element that contains a JSON object that you send to the
-  external grader. For example, you can use the ``<grader_payload>`` element to
-  tell the grader which tests to run for a problem.
+* A ``<grader_payload>`` element that contains a JSON object. Its ``grader``
+  key names the grader file, relative to the grader's root directory, that
+  runs for this problem. Three optional keys control xqueue-watcher's built-in
+  graders: ``skip_grader`` gives every submission full credit without running
+  the grader, ``hide_output`` hides the per-test output from the learner, and
+  ``lang`` picks the language of the grader's feedback. No other keys reach
+  the grader. To give problems different tests or expected output, give each
+  problem its own grader file.
 
 The following example shows the OLX definition of a problem that uses an
 external grader.
@@ -77,7 +82,7 @@ external grader.
           print "hello world"
         </answer_display>
         <grader_payload>
-          {"output": "hello world", "max_length": 2}
+          {"grader": "hello_world/grade.py"}
         </grader_payload>
       </codeparam>
     </coderesponse>
