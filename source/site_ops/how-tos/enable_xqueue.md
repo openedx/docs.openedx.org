@@ -1,331 +1,169 @@
 (Enable XQueue)=
 
-# Enable and Test Event Bus–Based XQueue Submissions
+# Enable External Grading
 
 ```{tags}
-site operator, reference
+site operator, how-to
 ```
 
-This guide explains how to enable and test **event bus–based XQueue submissions** in `openedx-platform`.
-It is written for Open edX contributors and operators who want to validate event-driven external grading on the `master` branch.
+External grader problems (`<coderesponse>` in OLX) send learner submissions
+to a grader that runs outside the LMS. The LMS queues those submissions itself,
+using the [edx-submissions](https://github.com/openedx/edx-submissions) app,
+and exposes the same REST API that the retired XQueue service used to.
+[xqueue-watcher](https://github.com/openedx/xqueue-watcher), or any grader
+that speaks the XQueue API, polls the LMS directly. No separate XQueue service
+is needed.
+
+If you run the XQueue service today, see {ref}`Migrate from XQueue` first.
 
 ```{contents} Contents
 :depth: 1
 :local:
 ```
 
-## Architecture Overview
+## How It Works
 
-With event bus enabled, submission flow changes from direct polling to event-driven routing:
-
-Learner Submission
-
-→ LMS stores submission
-
-→ LMS publishes submission event
-
-→ Event bus distributes event
-
-→ XQueue worker / watcher consumes event
-
-→ Watcher posts result via edx-submissions API
-
-→ LMS updates grade
-
-The watcher authenticates using a Django superuser that must belong to the `xqueue` group.
-
----
+1. A learner submits a response to a `<coderesponse>` problem.
+2. The LMS stores the submission in edx-submissions, in the queue named by the
+   problem's `queuename` attribute. A problem without a `queuename` uses
+   `<org>-<course>` from the course key.
+3. The grader logs in to the LMS as a dedicated user and polls
+   `/xqueue/get_submission/` for its queue.
+4. The grader posts its result to `/xqueue/put_result/`. The LMS records the
+   score and updates the learner's problem.
 
 ## Prerequisites
 
-* Local clone of `openedx-platform` (master branch recommended)
-* Custom watcher script (e.g., {ref}`XQueue Custom Watcher`)
-* Django superuser account
-* Superuser added to group named `xqueue`
-* Event bus enabled in LMS settings
-* edx-submissions service available
+* Open edX Willow or newer. Verawood also works with the two extra steps in
+  {ref}`Migrate from XQueue`. Teak and Ulmo do not serve the API.
+* A grader. [xqueue-watcher](https://github.com/openedx/xqueue-watcher) is the
+  maintained reference implementation; see its operator guide for installing
+  it. {ref}`XQueue Reference` describes the JSON that any other grader must
+  accept and return.
 
----
+## Step 1: Create the Grader Account
 
-## Environment Setup
-
-### Option A (Using Tutor (Recommended Modern Setup))
-
-Repository reference: [https://github.com/overhangio/tutor](https://github.com/overhangio/tutor)
-
-### Step 1. Install Tutor
+The grader authenticates to the LMS with the username and password of a Django
+user. That user must belong to a group named `xqueue`. It does not need to be
+staff or a superuser; use a dedicated service account, not a person's login.
 
 ```bash
-pip install tutor
+./manage.py lms manage_group xqueue
+./manage.py lms manage_user xqueue_watcher xqueue_watcher@example.com --groups xqueue
+./manage.py lms changepassword xqueue_watcher
 ```
 
-Initialize:
+`manage_group` creates the group if it does not exist. `manage_user` creates
+the user if it does not exist and sets its groups; the group must already
+exist. `changepassword` prompts for the password the grader will use.
 
-```bash
-tutor local quickstart
-```
-
-Start platform:
-
-```bash
-tutor local start
-```
-
----
-
-### Step 2. Create Superuser
-
-```bash
-tutor local run lms ./manage.py createsuperuser
-```
-
----
-
-### Step 3. Create `xqueue` Group
-
-```bash
-tutor local run lms ./manage.py shell
-```
-
-Then:
+`PREVENT_CONCURRENT_LOGINS` is on by default and keeps one session per user.
+Each xqueue-watcher connection logs in as the same user, so they would evict
+each other. Exempt the grader account in your LMS settings:
 
 ```python
-from django.contrib.auth.models import Group
-Group.objects.get_or_create(name="xqueue")
+SINGLE_LOGIN_EXEMPT_GROUPS = ["xqueue"]
 ```
 
-Add user to group:
+## Step 2: Configure File Storage (File Submissions Only)
+
+For `<filesubmission>` problems the LMS stores the uploaded file and passes
+its URL to the grader in `xqueue_files`. Files go to the LMS's default
+storage, `STORAGES["default"]`, unless you configure a dedicated backend:
 
 ```python
-from django.contrib.auth import get_user_model
-User = get_user_model()
-user = User.objects.get(username="your_username")
-user.groups.add(Group.objects.get(name="xqueue"))
+EDX_SUBMISSIONS = {
+    "MEDIA": {
+        "BACKEND": "storages.backends.s3boto3.S3Boto3Storage",
+        "OPTIONS": {"bucket_name": "my-submissions-bucket"},
+    }
+}
 ```
 
----
+The grader must be able to fetch the URL that storage produces. Use a backend
+that returns absolute, reachable URLs when the grader runs on another host.
 
-### Step 4. Ensure Event Bus is Running
+## Step 3: Point the Grader at the LMS
 
-Tutor uses Redis by default.
+In the xqueue-watcher queue configuration, set `SERVER` to the LMS root URL
+(no `/xqueue` suffix) and `AUTH` to the account from Step 1. The key is the
+queue name used by the problems' `queuename` attribute.
 
-Verify:
-
-```bash
-tutor local ps
+```json
+{
+    "my_course_queue": {
+        "SERVER": "https://lms.example.com",
+        "AUTH": ["xqueue_watcher", "choose-a-strong-password"],
+        "CONNECTIONS": 2,
+        "HANDLERS": [
+            {
+                "HANDLER": "xqueue_watcher.containergrader.ContainerGrader",
+                "KWARGS": {
+                    "grader_root": "/graders/",
+                    "image": "registry.example.com/my-course-grader:latest",
+                    "backend": "docker"
+                }
+            }
+        ]
+    }
+}
 ```
 
-Redis should be listed.
-
----
-
-### Step 5. Enable XQueue Event Bus Waffle Flag
-
-Open LMS admin:
-
-```
-http://localhost:8000/admin
-```
-
-Go to:
-
-Waffle → Flags
-
-Create flag:
-
-Name: `enable_xqueue_event_bus`
-
-Active: True
-
-Rollout: 100
-
-Optional: course override via Waffle → Overrides.
-
----
-
-### Option B (Using Deprecated Legacy Devstack)
-
-Repository reference: [https://github.com/edx/devstack](https://github.com/edx/devstack)
-
-### Step 1. Clone and Start Devstack
-
-```bash
-git clone https://github.com/edx/devstack.git
-cd devstack
-make dev.up
-```
-
-This brings up LMS, CMS, MySQL, Mongo, Redis, etc.
-
-To rebuild after changes:
-
-```bash
-make dev.build
-make dev.up
-```
-
----
-
-### Step 2. Create Superuser
-
-```bash
-make lms-shell
-```
-
-Inside container:
-
-```bash
-./manage.py createsuperuser
-```
-
----
-
-### Step 3. Create `xqueue` Group
-
-Inside LMS shell:
-
-```python
-from django.contrib.auth.models import Group
-Group.objects.get_or_create(name="xqueue")
-```
-
-Add superuser to group:
-
-```python
-from django.contrib.auth import get_user_model
-User = get_user_model()
-user = User.objects.get(username="your_username")
-user.groups.add(Group.objects.get(name="xqueue"))
-```
-
----
-
-### Step 4. Enable Event Bus
-
-Ensure Redis container is running:
-
-```bash
-docker ps | grep redis
-```
-
-If needed:
-
-```bash
-make dev.up
-```
-
-Confirm event bus settings in LMS environment file.
-
----
-
-## Create Advanced `code_response` Problem
-
-In Studio, add Advanced problem with:
-
-```xml
-<problem display_name="XQueue Event Bus Test Problem">
-  <response
-      response_type="code_response"
-      label="Enter any code"
-      language="python"
-      max_attempts="5"
-      grader="xqueue">
-  </response>
-</problem>
-```
-
-Ensure:
-
-* `grader="xqueue"`
-* The course is published
-
----
-
-## Running the Custom Watcher
-
-Ensure credentials inside watcher:
-
-```python
-LMS_URL = "http://localhost:8000"
-USERNAME = "admin"
-PASSWORD = "password"
-```
-
-Run:
-
-```bash
-python custom_watcher.py
-```
-
-Expected output:
-
-Connected to LMS
-Polling for jobs
-Graded submission with score = 1
-
----
-
-## Submit as Learner
-
-1. Log in as learner
-2. Open problem
-3. Submit response
-4. Wait a few seconds
-
-You should see score update automatically.
-
----
-
-## Verification and Debugging
-
-### Check Submissions in Django Shell
-
-```python
-from submissions.models import Submission
-Submission.objects.all()
-```
-
-### Check Logs
-
-Tutor:
-
-```bash
-tutor local logs lms
-```
-
-Legacy Devstack:
-
-```bash
-docker logs lms
-```
-
-### Common Issues
-
-403 Forbidden → User not in xqueue group
-
-No grading → Watcher not running
-
-No event → Waffle flag disabled
-
-Auth failure → Wrong credentials
-
----
-
-## Final Checklist
-
-* Tutor (or Devstack) running
-* Superuser created
-* xqueue group exists
-* User added to xqueue group
-* Waffle flag enabled
-* Advanced problem created
-* Watcher running
-* Submission graded successfully
-
----
+`ContainerGrader` runs each submission in a container built from your grader
+image. See the [xqueue-watcher operator guide](https://github.com/openedx/xqueue-watcher/blob/master/docs/operators.md)
+for its other options, the Kubernetes backend, `SERVER_REF` and the rest of
+the configuration.
+
+## Step 4: Test a Problem
+
+1. In Studio, {ref}`add an external grader problem <Add an External Grader Problem>`
+   whose `queuename` matches the watcher configuration, then publish the unit.
+2. Start the watcher. Its log shows a successful login and polling.
+3. Open the unit in the LMS as a learner and submit a response. The problem
+   reports that the submission is queued, then shows the score once the grader
+   replies.
+4. In Django admin, open **Submissions > External grader details**. The
+   submission moves from `pending` to `pulled` to `retired`.
+
+## Troubleshooting
+
+* **The grader gets 403 Forbidden.** The account is not in the `xqueue`
+  group, or the grader is not logged in or did not send the CSRF token. See
+  {ref}`XQueue Endpoints`.
+* **The grader logs in repeatedly.** `PREVENT_CONCURRENT_LOGINS` is evicting
+  its sessions. See Step 1.
+* **Submissions stay `pending`.** No grader is polling that queue name. Check
+  the problem's `queuename` against the watcher configuration.
+* **Submissions stay `pulled`.** The grader took the submission but did not
+  post a result the LMS accepted. A reply that is not valid JSON gets HTTP 400
+  and leaves the submission `pulled`; check the grader's log. The LMS offers a
+  `pulled` submission to graders again once five minutes have passed.
+* **Submissions end up `failed`.** The LMS could not record the grader's
+  score five times, for example because `score` was not a number. Fix the
+  grader, then use the **Reset failed submissions to pending** action in the
+  admin. The reset does not clear the failure count, so one more failure marks
+  the submission `failed` again.
+* **"No grader has been set up for this problem".** The problem was tested in
+  Studio preview. External graders only run in the LMS.
+* **"MATLAB problems can no longer be graded."** The problem uses
+  `<matlabinput>`. The MATLAB integration was removed in Willow
+  ([DEPR: MATLAB](https://github.com/openedx/public-engineering/issues/192)).
+  Existing problems keep their scores but take no new submissions.
+
+## Related Settings
+
+* `XQUEUE_WAITTIME_BETWEEN_REQUESTS`: minimum seconds between two
+  submissions by the same learner to the same problem. Default 5.
+* `EDX_SUBMISSIONS["MEDIA"]`: storage for submitted files (Step 2).
+* `SINGLE_LOGIN_EXEMPT_GROUPS` and `SINGLE_LOGIN_EXEMPT_USERNAMES`:
+  accounts exempt from single-session enforcement (Step 1).
 
 ```{seealso}
+{ref}`Migrate from XQueue` (how-to)
+
 {ref}`XQueue Reference` (reference)
+
+{ref}`XQueue Custom Watcher` (reference)
 
 {ref}`About External Grader Problems` (concept)
 
@@ -336,4 +174,4 @@ Auth failure → Wrong credentials
 
 | Review Date | Working Group Reviewer | Release | Test Situation |
 |-------------|------------------------|---------|----------------|
-| 2025-03-25  | Usama S                |Verawood | Pass           |
+|             |                        |         |                |
