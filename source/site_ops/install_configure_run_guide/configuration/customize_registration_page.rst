@@ -239,7 +239,12 @@ Two parts of this form are needed for the fields to work after registration:
   :ref:`Reg Fields Partial Updates`.
 
 The Authn MFE can show ``text``, ``select``, ``textarea`` and ``checkbox``
-fields. The field label comes from the form field label.
+fields. The field label comes from the form field label. The field type comes
+from the class of the form field, not from its widget, so a ``CharField`` with
+a ``Textarea`` widget is shown as ``text``. To show a field as a
+``textarea``, add ``serialization_options`` to the ``Meta`` class of the form,
+for example ``serialization_options = {"<field name>": {"field_type":
+"textarea"}}``.
 
 The app configuration must set ``plugin_app``. Without it, the LMS does not add
 the app to ``INSTALLED_APPS``, even if the entry point is installed:
@@ -274,6 +279,15 @@ Install the plugin in the LMS like any other Python package. With Tutor, add it
 to ``OPENEDX_EXTRA_PIP_REQUIREMENTS`` and rebuild the ``openedx`` image, as
 described in `Installing extra xblocks and requirements
 <https://docs.tutor.edly.io/configuration.html#installing-extra-xblocks-and-requirements>`_.
+Then recreate the containers so that they run the new image:
+
+.. code-block:: bash
+
+   tutor images build openedx
+   tutor local reboot -d
+
+``tutor local restart`` is not enough, because it restarts the existing
+containers, which still run the old image.
 
 Step 3: Run the migrations
 ==========================
@@ -368,7 +382,10 @@ the welcome page. If all the fields are optional, the save succeeds and blanks
 the fields that were left out.
 
 The ``__init__`` method in the example form avoids this by filling in the
-stored value of each field the request leaves out.
+stored value of each field the request leaves out. This is a limitation of the
+account API, tracked in `openedx-platform#39444
+<https://github.com/openedx/openedx-platform/issues/39444>`_. Once the
+fix is in your release, you no longer need the ``__init__`` method.
 
 .. _Reg Fields Earlier Releases:
 
@@ -382,11 +399,18 @@ same, but the account API reads and saves your fields in the ``meta`` field of
 the user profile, not in your model, so a value changed on the account
 settings page does not reach your model.
 
-In Verawood, ``REGISTRATION_EXTENSION_FORM`` still works with that behavior,
-but it is deprecated and will be removed. If you switch to
-``PROFILE_EXTENSION_FORM``, learners who have a value in ``meta`` but no row in
-your model see empty fields until they save them again. To avoid that, copy
-the existing values from ``meta`` to your model before you switch. For more
+In Verawood, ``REGISTRATION_EXTENSION_FORM`` is deprecated, and it no longer
+works with a model form like the one on this page. The account API builds the
+form without the row that registration created. A save from the welcome page
+then fails validation for the required field, and a save from the account
+settings page tries to add a second row for the learner, which the
+``OneToOneField`` rejects. Both return a 400 error. If you use ``REGISTRATION_EXTENSION_FORM``, switch to
+``PROFILE_EXTENSION_FORM`` when you upgrade to Verawood.
+``REGISTRATION_EXTENSION_FORM`` is removed in the Willow release.
+
+When you switch, learners who have a value in ``meta`` but no row in your
+model see empty fields until they save them again. To avoid that, copy the
+existing values from ``meta`` to your model before you switch. For more
 information, see the :ref:`Verawood Dev Notes` and the `deprecation ticket
 <https://github.com/openedx/openedx-platform/issues/38409>`_.
 
@@ -415,6 +439,10 @@ Troubleshooting
        required field.
      - The form does not keep stored values. See
        :ref:`Reg Fields Partial Updates`.
+   * - Saving your fields fails with "Extended profile integrity error".
+     - ``REGISTRATION_EXTENSION_FORM`` is set on Verawood. Use
+       ``PROFILE_EXTENSION_FORM`` instead. See
+       :ref:`Reg Fields Earlier Releases`.
    * - Built-in fields disappeared after you edited Site Configuration.
      - ``REGISTRATION_EXTRA_FIELDS`` in Site Configuration replaces the Django
        setting. List every field you want to show.
